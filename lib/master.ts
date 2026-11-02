@@ -67,8 +67,14 @@ export function matchTablet(nameAsWritten: string, strength?: string | null): Ma
   const exact = master.filter((t) => normalize(t.brand_name) === written);
   if (exact.length) return { best: pick(exact), candidates: exact, substituted: false };
 
+  // 別名（一般名処方の表記、添付文書上の正式名など）。同じメーカーの表記ゆれなら「置き換え」ではない
   const alias = master.filter((t) => t.aliases.some((a) => normalize(a) === written));
-  if (alias.length) return { best: pick(alias), candidates: alias, substituted: true };
+  if (alias.length) {
+    const b = pick(alias);
+    const writtenMaker = nameAsWritten.match(/[「『]([^」』]*)[」』]/)?.[1];
+    const sameMaker = !!b?.maker && !!writtenMaker && normalize(b.maker) === normalize(writtenMaker);
+    return { best: b, candidates: alias, substituted: !sameMaker };
+  }
 
   const brandNoMaker = master.filter(
     (t) => normalize(stripMaker(t.brand_name)) === writtenNoMaker,
