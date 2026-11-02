@@ -1,0 +1,147 @@
+{
+ "items": [
+  {
+   "rp": "01",
+   "name_as_written": "シベンゾリンコハク酸塩錠50mg「サワイ」",
+   "name_note": null,
+   "strength": "50mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 2,
+   "times_per_day": 2,
+   "dose_per_day": 4,
+   "per_timing": {
+    "morning": 2,
+    "noon": 0,
+    "evening": 2
+   },
+   "days": 14,
+   "raw_usage_text": "1回2錠（1日4錠）1日2回 朝夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": true,
+   "confidence": "high"
+  },
+  {
+   "rp": "02",
+   "name_as_written": "【般】アムロジピン錠2.5mg",
+   "name_note": null,
+   "strength": "2.5mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 0,
+    "noon": 0,
+    "evening": 1
+   },
+   "days": 14,
+   "raw_usage_text": "1回1錠（1日1錠）1日1回 夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "03",
+   "name_as_written": "エリキュース錠5mg",
+   "name_note": null,
+   "strength": "5mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 2,
+   "dose_per_day": 2,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 1
+   },
+   "days": 14,
+   "raw_usage_text": "1回1錠（1日2錠）1日2回 朝夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": true,
+   "confidence": "high"
+  },
+  {
+   "rp": "04",
+   "name_as_written": "ピタバスタチンCa錠2mg「日医工」",
+   "name_note": null,
+   "strength": "2mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 14,
+   "raw_usage_text": "1回1錠（1日1錠）1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "05",
+   "name_as_written": "カルベジロール錠2.5mg「サワイ」",
+   "name_note": null,
+   "strength": "2.5mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 2,
+   "times_per_day": 1,
+   "dose_per_day": 2,
+   "per_timing": {
+    "morning": 2,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 14,
+   "raw_usage_text": "1回2錠（1日2錠）1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "06",
+   "name_as_written": "エルデカルシトールカプセル0.75μg「サワイ」",
+   "name_note": null,
+   "strength": "0.75μg",
+   "dosage_form": "capsule",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 14,
+   "raw_usage_text": "1回1Cap（1日1Cap）別包（ヒート包装）1日1回 朝食後",
+   "pack_instruction": "exclude",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "07",
+   "name_as_written": "(Ca)アスパラ-CA錠200mg",
+   "name_note": null,
+   "strength": "200mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 2,
+   "times_per_day": 1,
+   "dose_per_day": 2,
+   "per_timing": {
+    "morning": 2,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 14,
+   "raw_usage_text": "1回2錠（1日2錠）別包（ヒート包装）1日1回 朝食後",
+   "pack_instruction": "exclude",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  }
+ ],
+ "all_one_dose": true,
+ "include_all_note": null,
+ "notes": null
+}

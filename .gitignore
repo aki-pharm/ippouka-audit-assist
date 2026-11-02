@@ -1,14 +1,29 @@
-# secrets
-.env
-.env.*
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+/build
+*.tsbuildinfo
+next-env.d.ts
+
+# env / secrets（APIキーはここにだけ置く。コミットしない）
+.env*
 !.env.example
 
-# downloaded package inserts (never commit)
-pdfs/
+# 添付文書PDF（コミットしない。URLのみマスタに持つ）
+/pdfs/
 
-# captured photos for testing
-captures/
+# 撮影した写真（コミットしない）
+/captures/
 
-# node
-node_modules/
-.next/
+# vercel
+.vercel
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
