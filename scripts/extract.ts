@@ -2,7 +2,7 @@
  * 添付文書PDF → 外観情報の下書き（draft）
  *   npx tsx scripts/extract.ts pdfs/xxx.pdf --id <マスタのid> [--strength 5mg]
  * 出力：data/drafts/<id>.json（status: draft）。人が確認してから data/master.json に反映する。
- * APIキーは環境変数 ANTHROPIC_API_KEY（.env.local か環境のシークレット）。
+ * APIキーは環境変数 ANTHROPIC_API_KEY または CLAUDE_API_KEY（.env.local か環境のシークレット）。
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -10,6 +10,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { z } from "zod";
 import { EXTRACT_SYSTEM } from "../lib/prompts";
+import { getApiKey } from "../lib/claude";
 
 const AppearanceSchema = z.object({
   product_name: z.string().describe("添付文書に書かれた販売名（規格を含む）"),
@@ -44,7 +45,12 @@ async function main() {
     process.exit(1);
   }
   const data = fs.readFileSync(pdfPath).toString("base64");
-  const client = new Anthropic();
+  const apiKey = getApiKey();
+  if (!apiKey) {
+    console.error("APIキーが未設定です。ANTHROPIC_API_KEY か CLAUDE_API_KEY を設定してください。");
+    process.exit(1);
+  }
+  const client = new Anthropic({ apiKey });
   const response = await client.messages.parse({
     model: "claude-opus-5-5",
     max_tokens: 16000,

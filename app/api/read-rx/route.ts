@@ -13,7 +13,7 @@ export async function POST(request: Request) {
   const client = getClient();
   if (!client) {
     return NextResponse.json(
-      { error: "サーバにAPIキーが設定されていません（ANTHROPIC_API_KEY）。", code: "no_api_key" },
+      { error: "サーバにAPIキーが設定されていません（ANTHROPIC_API_KEY または CLAUDE_API_KEY）。", code: "no_api_key" },
       { status: 503 },
     );
   }

@@ -13,7 +13,7 @@
 
 ```bash
 npm install
-cp .env.example .env.local   # ANTHROPIC_API_KEY, APP_PASSCODE を設定
+cp .env.example .env.local   # ANTHROPIC_API_KEY（または CLAUDE_API_KEY）, APP_PASSCODE を設定
 npm run dev
 ```
 

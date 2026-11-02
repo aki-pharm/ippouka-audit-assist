@@ -2,10 +2,20 @@ import Anthropic from "@anthropic-ai/sdk";
 
 export const MODEL = "claude-opus-5-5";
 
+/**
+ * APIキー。ANTHROPIC_API_KEY を優先し、無ければ CLAUDE_API_KEY を読む。
+ * Claude Code のクラウド環境は ANTHROPIC_API_KEY という名前の変数を無効化するため、
+ * そこで動かす場合は CLAUDE_API_KEY に設定する。
+ */
+export function getApiKey(): string | undefined {
+  return process.env.ANTHROPIC_API_KEY || process.env.CLAUDE_API_KEY || undefined;
+}
+
 let client: Anthropic | null = null;
 export function getClient(): Anthropic | null {
-  if (!process.env.ANTHROPIC_API_KEY) return null;
-  if (!client) client = new Anthropic();
+  const apiKey = getApiKey();
+  if (!apiKey) return null;
+  if (!client) client = new Anthropic({ apiKey });
   return client;
 }
 
