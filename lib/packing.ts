@@ -67,6 +67,28 @@ export function checkRow(row: RxRow): CheckFlag[] {
 export type BagEntry = { row: RxRow; tablet: Tablet | undefined; count: number; group: string | null };
 export type Bag = { timing: Timing; entries: BagEntry[]; total: number; groups: SimilarGroup[] };
 export type SimilarGroup = { label: string; tablet_ids: string[]; note: string };
+/** イメージ図の並び順：処方箋の記載順（既定）／大きさ順（長径の大きい順。大きさ未確認は最後） */
+export type BagOrder = "rx" | "size";
+export const BAG_ORDER_LABEL: Record<BagOrder, string> = { rx: "処方箋の記載順", size: "大きさ順" };
+
+/** 表示用の並べ替え。似た外観の判定（group）は並び順に関係なく済んでいるので、ここでは順番だけ変える */
+export function sortEntries(entries: BagEntry[], order: BagOrder): BagEntry[] {
+  if (order === "rx") return entries;
+  const key = (e: BagEntry) => {
+    const t = e.tablet;
+    if (!t || t.dosage_form !== "tablet" || t.size_long_mm == null) return null;
+    return t.size_long_mm * 100 + (t.size_short_mm ?? 0);
+  };
+  return entries
+    .map((e, i) => ({ e, i, k: key(e) }))
+    .sort((a, b) => {
+      if (a.k == null && b.k == null) return a.i - b.i;
+      if (a.k == null) return 1;
+      if (b.k == null) return -1;
+      return b.k - a.k || a.i - b.i;
+    })
+    .map((x) => x.e);
+}
 
 /** 袋ごとの中身を組み立てる（処方箋の記載順） */
 export function buildBags(rows: RxRow[]): Bag[] {

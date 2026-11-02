@@ -1,10 +1,19 @@
 "use client";
-import type { Bag } from "@/lib/packing";
+import { sortEntries, type Bag, type BagOrder } from "@/lib/packing";
 import { TIMING_LABEL, type Tablet } from "@/lib/types";
 import { TabletSvg, sizeText } from "./Tablet";
 import { sourceLink } from "@/lib/master";
 
-export function BagView({ bag, onTap }: { bag: Bag; onTap: (t: Tablet | undefined, name: string) => void }) {
+export function BagView({
+  bag,
+  onTap,
+  order = "rx",
+}: {
+  bag: Bag;
+  onTap: (t: Tablet | undefined, name: string) => void;
+  order?: BagOrder;
+}) {
+  const entries = sortEntries(bag.entries, order);
   return (
     <section className="rounded-2xl border border-slate-300 bg-white shadow-sm">
       <header className="flex items-baseline justify-between rounded-t-2xl bg-slate-800 px-4 py-2 text-white">
@@ -23,8 +32,8 @@ export function BagView({ bag, onTap }: { bag: Bag; onTap: (t: Tablet | undefine
         </div>
       )}
       <ul className="flex flex-col gap-2 p-3">
-        {bag.entries.length === 0 && <li className="py-6 text-center text-slate-400">この袋には入りません</li>}
-        {bag.entries.map((e) => {
+        {entries.length === 0 && <li className="py-6 text-center text-slate-400">この袋には入りません</li>}
+        {entries.map((e) => {
           const link = sourceLink(e.tablet);
           return (
             <li key={e.row.key} className="rounded-xl border border-slate-200 bg-slate-50 p-2">

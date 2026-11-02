@@ -1,7 +1,7 @@
 "use client";
 import { useMemo, useRef, useState } from "react";
 import { loadMaster, findTablet, normalize, stripMaker, stripPrefix } from "@/lib/master";
-import { buildBags, checkRow, recomputeDefault, toRows } from "@/lib/packing";
+import { BAG_ORDER_LABEL, buildBags, checkRow, recomputeDefault, toRows, type BagOrder } from "@/lib/packing";
 import { fileToResizedBase64 } from "@/lib/image";
 import { TIMINGS, TIMING_LABEL, type RxReadResult, type RxRow, type Tablet } from "@/lib/types";
 import { BagView } from "./BagView";
@@ -27,6 +27,7 @@ export function Flow() {
   const [packPhoto, setPackPhoto] = useState<string | null>(null);
   const [sampleExpected, setSampleExpected] = useState<string | null>(null);
   const [noApiKey, setNoApiKey] = useState(false);
+  const [order, setOrder] = useState<BagOrder>("rx");
   const fileRef = useRef<HTMLInputElement>(null);
   const packRef = useRef<HTMLInputElement>(null);
   const master = useMemo(() => loadMaster(), []);
@@ -278,9 +279,25 @@ export function Flow() {
       {step === "bags" && (
         <section className="space-y-3">
           <h2 className="text-lg font-bold">4. 出来上がりイメージ図</h2>
-          <p className="text-sm text-slate-600">処方箋の記載順に並べています。錠剤をタップすると登録情報と添付文書を開けます。</p>
+          <p className="text-sm text-slate-600">
+            {order === "rx" ? "処方箋の記載順に並べています。" : "大きさ（長径）の大きい順に並べています。大きさ未確認の薬は最後です。"}
+            錠剤をタップすると登録情報と添付文書を開けます。
+          </p>
+          <div className="flex rounded-xl border border-slate-300 bg-white p-1 text-sm" role="group" aria-label="並び順">
+            {(Object.keys(BAG_ORDER_LABEL) as BagOrder[]).map((o) => (
+              <button
+                key={o}
+                type="button"
+                aria-pressed={order === o}
+                onClick={() => setOrder(o)}
+                className={`flex-1 rounded-lg px-3 py-2 ${order === o ? "bg-slate-800 font-bold text-white" : "text-slate-700"}`}
+              >
+                {BAG_ORDER_LABEL[o]}
+              </button>
+            ))}
+          </div>
           <div className="space-y-3">
-            {bags.map((b) => <BagView key={b.timing} bag={b} onTap={(t, name) => setInfo({ tablet: t, name })} />)}
+            {bags.map((b) => <BagView key={b.timing} bag={b} order={order} onTap={(t, name) => setInfo({ tablet: t, name })} />)}
           </div>
           {excluded.length > 0 && (
             <div className="rounded-xl border border-slate-300 bg-slate-50 p-3 text-sm">
