@@ -1,0 +1,30 @@
+{
+  "id": "rivotril-0.5",
+  "source_file": "431010_1139003C1044_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_1139003C1044_2_04",
+  "extracted_at": "2026-11-02T16:58:33.667Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 15677,
+    "output": 590
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リボトリール錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "TYP0.5",
+      "imprint_back": "DU",
+      "imprint_note": "識別コード「TYP0.5/DU」として記載。剤形は「素錠」（錠1mg・2mgのような「割線入り」の記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 リボトリール錠0.5mg 色 白色 剤形 素錠 識別コード TYP0.5/DU 直径 約8.0mm 厚さ 約2.3mm 平均重量 約150mg"
+    }
+  ]
+}

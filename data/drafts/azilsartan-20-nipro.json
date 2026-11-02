@@ -1,0 +1,30 @@
+{
+  "id": "azilsartan-20-nipro",
+  "source_file": "530100_2149048F1081_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149048F1081_1_04",
+  "extracted_at": "2026-11-02T16:58:14.825Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 30268,
+    "output": 535
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタン錠20mg「ニプロ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印・印字の記載なし。外形図に表示らしきものがあるが判読できない。割線入り。",
+      "color": "微赤色",
+      "shape": "oval",
+      "size_long_mm": 9.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第5版、用量変更、用法変更）",
+      "source_page": 1,
+      "source_quote": "アジルサルタン錠20mg「ニプロ」 微赤色の楕円形の割線入りフィルムコーティング錠 （長径）9.1（短径）5.1 3.3 125"
+    }
+  ]
+}

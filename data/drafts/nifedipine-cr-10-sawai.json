@@ -1,0 +1,30 @@
+{
+  "id": "nifedipine-cr-10-sawai",
+  "source_file": "300119_2171014G3065_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2171014G3065_1_15",
+  "extracted_at": "2026-11-02T16:58:08.433Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 23839,
+    "output": 549
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンCR錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW NF CR10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード SW NF CR10（外形図では片面に表示）",
+      "color": "帯赤灰色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 ニフェジピンCR錠10mg「サワイ」 剤形 徐放性フィルムコーティング錠 性状 帯赤灰色 直径（mm） 7.2 厚さ（mm） 4.0 重量（mg） 約137 識別コード SW NF CR10"
+    }
+  ]
+}

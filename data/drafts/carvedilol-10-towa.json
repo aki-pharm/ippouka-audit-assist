@@ -1,0 +1,30 @@
+{
+  "id": "carvedilol-10-towa",
+  "source_file": "480235_2149032F1129_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149032F1129_1_22",
+  "extracted_at": "2026-11-02T16:59:07.350Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 37171,
+    "output": 656
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルベジロール錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "カルベジ 10",
+      "imprint_back": "カルベジロール 10 トーワ",
+      "imprint_note": "添付文書では「本体表示」として記載（刻印か印字かの区別は明記なし）。割線入り。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "販売名 カルベジロール錠10mg「トーワ」 性状・剤形 黄色の割線入りのフィルムコーティング錠 本体表示 表 カルベジ 10 裏 カルベジロール 10 トーワ 直径(mm) 8.1 厚さ(mm) 3.2 質量(mg) 154"
+    }
+  ]
+}

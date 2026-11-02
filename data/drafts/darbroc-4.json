@@ -1,0 +1,30 @@
+{
+  "id": "darbroc-4",
+  "source_file": "340278_3999049F1027_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_3999049F1027_1_05",
+  "extracted_at": "2026-11-02T16:58:52.117Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 20824,
+    "output": 786
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダーブロック錠4mg",
+      "strength": "4mg",
+      "imprint_front": "GS 13",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード GS 13（表面の図に「GS 13」と表示）。裏面は図のみで、刻印の有無は文章では明記されていない。割線についての記載もない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 ダーブロック錠4mg 剤形・性状 白色のフィルムコーティング錠 識別コード GS 13 表（直径）7.1mm 側面（厚さ）3.8mm 質量 155mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ferrous-citrate-50-nig",
+  "source_file": "581120_3222013F1181_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3222013F1181_1_05",
+  "extracted_at": "2026-11-02T16:58:42.786Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 12733,
+    "output": 794
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエン酸第一鉄Na錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "FE",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）は「t FE 50mg」と記載。外形図の表面に「FE」の刻印あり。裏面の図には文字が描かれていないが、本文に「なし」との明記はない。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径：9.6mm 厚さ：5.7mm 質量：550mg 識別コード（PTP） t FE 50mg"
+    }
+  ]
+}

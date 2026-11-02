@@ -1,0 +1,30 @@
+{
+  "id": "eliquis-5",
+  "source_file": "670605_3339004F1029_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_3339004F1029_1_22",
+  "extracted_at": "2026-11-02T16:58:38.946Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 33609,
+    "output": 850
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エリキュース錠5mg",
+      "strength": "5mg",
+      "imprint_front": "894",
+      "imprint_back": "未確認",
+      "imprint_note": "本文の記載は「識別コード 894」のみです。外観図では片面に「5」、もう片面に「894」が描かれているように見えますが、表裏の区別は本文に書かれていません。割線の記載はありません。",
+      "color": "桃色",
+      "shape": "oval",
+      "size_long_mm": 9.7,
+      "size_short_mm": 5.2,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "販売名 エリキュース錠5mg 性状 桃色の楕円形のフィルムコーティング錠 識別コード 894 直径/長径・短径 長径9.7mm・短径5.2mm 厚さ 3.8mm 重さ 208mg"
+    }
+  ]
+}

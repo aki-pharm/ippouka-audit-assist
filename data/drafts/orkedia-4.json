@@ -1,0 +1,30 @@
+{
+  "id": "orkedia-4",
+  "source_file": "230124_3999044F1024_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_3999044F1024_1_11",
+  "extracted_at": "2026-11-02T16:58:55.886Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 24728,
+    "output": 754
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルケディア錠4mg",
+      "strength": "4mg",
+      "imprint_front": "KH603",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKH603（錠剤本体、PTPシートに表示）。外形図ではもう一面に「4」と文字が描かれているように見えるが、本文には記載がないため未確認とした。",
+      "color": "黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "販売名 オルケディア錠4mg 直径（mm） 7.2 厚さ（mm） 3.3 重量（mg） 139 色調 剤皮 黄赤色 フィルム コーティング錠 識別コード KH603（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "carvedilol-2.5-sawai",
+  "source_file": "300119_2149032F1099_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149032F1099_1_15",
+  "extracted_at": "2026-11-02T16:58:43.611Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 35765,
+    "output": 723
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルベジロール錠2.5mg「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "カルベジロール 2.5 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「カルベジロール 2.5 サワイ」。表裏の区別は本文に記載なし。割線入り",
+      "color": "白色～微黄白色",
+      "shape": null,
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 性状 白色～微黄白色 直径（mm） 10.1×5.1 厚さ（mm） 3.1 重量（mg） 約125 識別コード カルベジロール 2.5 サワイ"
+    }
+  ]
+}

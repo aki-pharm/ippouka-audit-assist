@@ -1,0 +1,30 @@
+{
+  "id": "aspara-ca-200",
+  "source_file": "530100_3214001F1020_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3214001F1020_3_01",
+  "extracted_at": "2026-11-02T16:58:26.497Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 8326,
+    "output": 581
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アスパラ−CA錠200",
+      "strength": "200mg",
+      "imprint_front": "TA103",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TA103（外形図の表面に「TA 103」と表示）。裏面の刻印は文中に記載なし。割線の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 アスパラ−CA錠200 白色の素錠 直径（mm）9.0 厚さ（mm）4.0 重量（mg）280 識別コード TA103"
+    }
+  ]
+}

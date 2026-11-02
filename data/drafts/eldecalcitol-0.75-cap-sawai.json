@@ -1,0 +1,30 @@
+{
+  "id": "eldecalcitol-0.75-cap-sawai",
+  "source_file": "300119_3112006M1030_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3112006M1030_1_07",
+  "extracted_at": "2026-11-02T16:59:00.063Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 23284,
+    "output": 626
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルデカルシトールカプセル0.75μg「サワイ」",
+      "strength": "0.75μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "軟カプセル剤。製剤の性状欄に刻印・識別コードの記載なし。内容物：無色澄明のわずかに粘稠な液。重量約164mg。外形図は円形",
+      "color": "茶褐色透明",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 品名 エルデカルシトールカプセル0.75μg「サワイ」 剤形 軟カプセル剤 性状 茶褐色透明 内容物：無色澄明のわずかに粘稠な液 直径（mm） 6.5 重量（mg） 約164"
+    }
+  ]
+}

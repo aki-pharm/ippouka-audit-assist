@@ -1,0 +1,30 @@
+{
+  "id": "lansoprazole-od-15-takedateva",
+  "source_file": "400813_2329023F1144_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2329023F1144_1_11",
+  "extracted_at": "2026-11-02T16:58:48.753Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 31136,
+    "output": 820
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランソプラゾールOD錠15mg「武田テバ」",
+      "strength": "15mg",
+      "imprint_front": "ランソ",
+      "imprint_back": "15",
+      "imprint_note": "形状図より読み取り：表面に社名マークと「ランソ」、裏面に「15」。本文に刻印の文字による記載はない。",
+      "color": "白色～帯黄白色（赤橙色～暗褐色の斑点がある）",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある。（腸溶性細粒を含む口腔内崩壊錠） 直径（mm） 8.5 厚さ（mm） 4.6 重量（mg） 285"
+    }
+  ]
+}

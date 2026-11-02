@@ -1,0 +1,30 @@
+{
+  "id": "eliquis-2.5",
+  "source_file": "670605_3339004F1029_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_3339004F1029_1_22",
+  "extracted_at": "2026-11-02T16:59:07.246Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 33611,
+    "output": 800
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エリキュース錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "893",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「893」は本文に記載あり。表裏の区別、および外観図中の刻印（「2½」のように見える）は本文で確認できないため、裏は未確認とした",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 エリキュース錠2.5mg 性状 黄色の円形のフィルムコーティング錠 識別コード 893 直径/長径・短径 直径6.0mm 厚さ 2.7mm 重さ 104mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "amlodipine-od-2.5-takedateva",
+  "source_file": "400813_2171022F3340_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2171022F3340_1_08",
+  "extracted_at": "2026-11-02T16:56:07.225Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 21382,
+    "output": 1272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「武田テバ」",
+      "strength": "2.5mg",
+      "imprint_front": "t 1",
+      "imprint_back": "未確認",
+      "imprint_note": "本文の識別コードはPTP表示の「t 001」。錠剤表面の「t」「1」は形状欄の図から読み取ったもので、本文には書かれていない。裏面の図は無地に見えるが、刻印なしとは明記されていない。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 アムロジピンOD錠2.5mg「武田テバ」 色・剤形 白色～微黄白色の口腔内崩壊錠 直径（mm） 6.0 厚さ（mm） 3.0 重量（mg） 90 識別コード（PTP） t 001"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "amlodipine-od-10-takedateva",
+  "source_file": "400813_2171022F3340_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2171022F3340_1_08",
+  "extracted_at": "2026-11-02T16:58:28.074Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 21380,
+    "output": 723
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠10mg「武田テバ」",
+      "strength": "10mg",
+      "imprint_front": "TV10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」欄に TV10 と記載。形状図では片面に「TV」「10」と割線が描かれている。裏面に刻印がないことは文章では明記されていない。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 アムロジピンOD錠10mg「武田テバ」 色・剤形 白色～微黄白色の片面1/2割線入り口腔内崩壊錠 直径（mm） 10.0 厚さ（mm） 4.5 重量（mg） 360 識別コード（PTP） TV10"
+    }
+  ]
+}
