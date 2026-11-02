@@ -24,6 +24,7 @@ const AppearanceSchema = z.object({
   thickness_mm: z.number().nullable(),
   score_line: z.boolean().nullable(),
   source_revision: z.string().nullable().describe("改訂年月（例：2024年6月改訂）"),
+  source_page: z.number().int().nullable().describe("性状（外観）が書かれているPDFのページ番号（1始まり）"),
   source_quote: z.string().describe("根拠となった添付文書の文言（性状の欄）"),
 });
 const ExtractResultSchema = z.object({ products: z.array(AppearanceSchema) });

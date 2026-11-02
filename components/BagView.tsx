@@ -2,6 +2,7 @@
 import type { Bag } from "@/lib/packing";
 import { TIMING_LABEL, type Tablet } from "@/lib/types";
 import { TabletSvg, sizeText } from "./Tablet";
+import { sourceLink } from "@/lib/master";
 
 export function BagView({ bag, onTap }: { bag: Bag; onTap: (t: Tablet | undefined, name: string) => void }) {
   return (
@@ -51,6 +52,16 @@ export function BagView({ bag, onTap }: { bag: Bag; onTap: (t: Tablet | undefine
                   {e.count > 1 && <div className="text-slate-400">{i + 1}/{e.count}</div>}
                 </div>
               </button>
+              {i === 0 && (
+                <a
+                  href={sourceLink(e.tablet).href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-1 block rounded-lg border border-blue-200 bg-white py-1 text-center text-xs text-blue-800"
+                >
+                  {sourceLink(e.tablet).direct ? "📄 添付文書を開く" : "🔍 PMDAで検索"}
+                </a>
+              )}
             </li>
           )),
         )}

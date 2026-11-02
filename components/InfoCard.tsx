@@ -1,11 +1,12 @@
 "use client";
 import type { Tablet } from "@/lib/types";
 import { TabletSvg, sizeText } from "./Tablet";
+import { sourceLink } from "@/lib/master";
 
 const FILL_LABEL = { cassette: "カセット（分包機）", manual: "手巻き" } as const;
 
 export function InfoCard({ tablet, name, onClose }: { tablet: Tablet | undefined; name: string; onClose: () => void }) {
-  const pmdaSearch = `https://www.pmda.go.jp/PmdaSearch/iyakuSearch/`;
+  const link = sourceLink(tablet);
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/40 p-2 sm:items-center" onClick={onClose}>
       <div className="max-h-[90vh] w-full max-w-md overflow-y-auto rounded-2xl bg-white p-4 shadow-xl" onClick={(e) => e.stopPropagation()}>
@@ -44,20 +45,26 @@ export function InfoCard({ tablet, name, onClose }: { tablet: Tablet | undefined
               <dt className="text-slate-500">大きさ</dt><dd>{sizeText(tablet)}{tablet.thickness_mm != null ? `、厚さ ${tablet.thickness_mm}mm` : ""}</dd>
               <dt className="text-slate-500">一包化区分</dt><dd>{tablet.pack_rule === "include" ? "入れる" : `入れない（${tablet.pack_rule_reason ?? "施設ルール"}）`}</dd>
               <dt className="text-slate-500">分包方法</dt><dd>{tablet.fill_method ? FILL_LABEL[tablet.fill_method] : "未設定"}</dd>
-              <dt className="text-slate-500">添付文書</dt><dd>{tablet.source_revision ? `改訂 ${tablet.source_revision}` : "改訂日 未確認"}</dd>
-              <dt className="text-slate-500">マスタ確認</dt><dd>{tablet.verified_at ? `${tablet.verified_at}（${tablet.verified_by ?? ""}）` : "未確認"}</dd>
             </dl>
-            <div className="mt-4 flex flex-col gap-2">
-              {tablet.source_url ? (
-                <a href={tablet.source_url} target="_blank" rel="noopener noreferrer" className="rounded-xl bg-blue-700 px-4 py-3 text-center font-bold text-white">
-                  添付文書（PDF）を開く
-                </a>
+            <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm">
+              <div className="text-xs font-semibold text-slate-500">添付文書の記載（抜粋）</div>
+              {tablet.source_quote ? (
+                <blockquote className="mt-1 border-l-4 border-slate-300 pl-2 text-slate-800">{tablet.source_quote}</blockquote>
               ) : (
-                <a href={pmdaSearch} target="_blank" rel="noopener noreferrer" className="rounded-xl bg-blue-700 px-4 py-3 text-center font-bold text-white">
-                  PMDAで添付文書を検索
-                </a>
+                <p className="mt-1 text-slate-500">未登録（添付文書からの抽出前）</p>
               )}
-              <p className="text-center text-xs text-slate-500">用法用量の確認は添付文書（情報源）で行ってください。</p>
+              <div className="mt-2 text-xs text-slate-500">
+                {tablet.source_revision ? `改訂：${tablet.source_revision}` : "改訂年月：未確認"}
+                {tablet.source_page ? ` ／ ${tablet.source_page}ページ` : ""}
+                {" ／ "}
+                {tablet.verified_at ? `マスタ確認：${tablet.verified_at}（${tablet.verified_by ?? ""}）` : "マスタ確認：未"}
+              </div>
+            </div>
+            <div className="mt-3 flex flex-col gap-2">
+              <a href={link.href} target="_blank" rel="noopener noreferrer" className="rounded-xl bg-blue-700 px-4 py-3 text-center font-bold text-white">
+                {link.direct ? "添付文書（PDF）を開いて確かめる" : "PMDAで添付文書を検索"}
+              </a>
+              <p className="text-center text-xs text-slate-500">刻印・用法用量の確認は添付文書（情報源）で行ってください。</p>
             </div>
           </>
         )}

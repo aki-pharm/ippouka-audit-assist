@@ -40,6 +40,7 @@ export const TabletSchema = z.object({
   aliases: z.array(z.string()).default([]), // 処方箋での別表記（一般名処方など）
   source_url: z.string().nullable(),
   source_revision: z.string().nullable(),
+  source_page: z.number().int().nullable(), // 添付文書PDFの「性状」が載っているページ
   source_quote: z.string().nullable(),
   verified_by: z.string().nullable(),
   verified_at: z.string().nullable(),

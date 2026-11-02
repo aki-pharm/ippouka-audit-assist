@@ -32,7 +32,7 @@ if (cmd === "export") {
     const o: Record<string, unknown> = {};
     for (const c of COLUMNS) {
       const v = r[c] ?? "";
-      if (["size_long_mm", "size_short_mm", "thickness_mm"].includes(c)) o[c] = v === "" ? null : Number(v);
+      if (["size_long_mm", "size_short_mm", "thickness_mm", "source_page"].includes(c)) o[c] = v === "" ? null : Number(v);
       else if (["score_line", "adopted"].includes(c)) o[c] = v === "" ? (c === "adopted" ? true : null) : /^(true|1|yes|はい)$/i.test(v);
       else if (c === "aliases") o[c] = v ? v.split("|").map((s) => s.trim()).filter(Boolean) : [];
       else if (["maker", "imprint_note", "color_hex", "shape", "pack_rule_reason", "fill_method", "source_url", "source_revision", "source_quote", "verified_by", "verified_at"].includes(c)) o[c] = v === "" ? null : v;
@@ -54,7 +54,7 @@ if (cmd === "export") {
     Object.assign(t, {
       imprint_front: p.imprint_front, imprint_back: p.imprint_back, imprint_note: p.imprint_note,
       color: p.color, shape: p.shape, size_long_mm: p.size_long_mm, size_short_mm: p.size_short_mm,
-      thickness_mm: p.thickness_mm, score_line: p.score_line, source_revision: p.source_revision,
+      thickness_mm: p.thickness_mm, score_line: p.score_line, source_revision: p.source_revision, source_page: p.source_page ?? null,
       source_quote: p.source_quote, source_url: d.source_url ?? t.source_url, status: "draft",
     });
     n++;

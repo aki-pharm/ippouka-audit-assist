@@ -26,7 +26,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "nifedipine-cr-20-sawai",
@@ -55,7 +56,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "nifedipine-cr-10-sawai",
@@ -84,7 +86,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "foliamin-5",
@@ -113,7 +116,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "mosapride-5-aa",
@@ -142,7 +146,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "methycobal-500",
@@ -171,7 +176,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "aspara-k-300",
@@ -200,7 +206,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "azilsartan-20-nipro",
@@ -229,7 +236,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "cibenzoline-50-sawai",
@@ -258,7 +266,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "pitavastatin-2-nichiiko",
@@ -287,7 +296,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "eliquis-5",
@@ -316,7 +326,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "amlodipine-od-2.5-takedateva",
@@ -345,7 +356,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "amlodipine-od-10-takedateva",
@@ -374,7 +386,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "aspara-ca-200",
@@ -403,7 +416,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "carvedilol-2.5-sawai",
@@ -432,7 +446,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "rivotril-0.5",
@@ -461,7 +476,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "clopidogrel-75-towa",
@@ -490,7 +506,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "ferrous-citrate-50-nig",
@@ -519,7 +536,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "entresto-200",
@@ -548,7 +566,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "lansoprazole-od-15-takedateva",
@@ -577,7 +596,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "darbroc-4",
@@ -606,7 +626,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "orkedia-4",
@@ -635,7 +656,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "doxazosin-1-towa",
@@ -664,7 +686,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "amitiza-12-cap",
@@ -693,7 +716,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "eldecalcitol-0.75-cap-sawai",
@@ -722,7 +746,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "pregabalin-od-75-jg",
@@ -751,7 +776,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "eliquis-2.5",
@@ -780,7 +806,8 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   },
   {
     "id": "carvedilol-10-towa",
@@ -809,6 +836,7 @@
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft"
+    "status": "draft",
+    "source_page": null
   }
 ]

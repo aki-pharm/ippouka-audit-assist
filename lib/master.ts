@@ -105,3 +105,12 @@ function pick(list: Tablet[]): Tablet | null {
   const pool = adopted.length ? adopted : list;
   return pool.length === 1 ? pool[0] : null;
 }
+
+/** 添付文書を開くリンク。ページ番号があればそのページを直接開く（#page= はPDFビューアの慣例） */
+export function sourceLink(t: Tablet | undefined): { href: string; direct: boolean } {
+  if (t?.source_url) {
+    const page = t.source_page ? `#page=${t.source_page}` : "";
+    return { href: `${t.source_url}${page}`, direct: true };
+  }
+  return { href: "https://www.pmda.go.jp/PmdaSearch/iyakuSearch/", direct: false };
+}
