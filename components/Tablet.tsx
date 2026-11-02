@@ -1,5 +1,6 @@
 import type { Tablet } from "@/lib/types";
 import { UNVERIFIED } from "@/lib/types";
+import { colorToHex } from "@/lib/color";
 
 /** 1mm あたりの px。すべての錠剤を同じ縮尺で描く */
 export const PX_PER_MM = 7;
@@ -26,7 +27,7 @@ export function TabletSvg({
   const [dl, ds] = DEFAULT_SIZE[shape] ?? DEFAULT_SIZE.other;
   const long = (sizeKnown ? tablet!.size_long_mm! : dl) * PX_PER_MM;
   const short = (sizeKnown ? tablet!.size_short_mm! : ds) * PX_PER_MM;
-  const fill = tablet?.color_hex ?? "#E5E7EB";
+  const fill = tablet?.color_hex ?? colorToHex(tablet?.color) ?? "#E5E7EB";
   const stroke = highlight ? "#B45309" : "#6B7280";
   const imprint = face === "front" ? tablet?.imprint_front : tablet?.imprint_back;
   const pad = 6;
