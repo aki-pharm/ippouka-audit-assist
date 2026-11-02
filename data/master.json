@@ -21,13 +21,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2329028F1147_1_23",
+    "source_revision": "2026年7月改訂（第4版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "nifedipine-cr-20-sawai",
@@ -51,13 +51,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2171014G3065_1_15",
+    "source_revision": "2023年12月改訂（第1版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "nifedipine-cr-10-sawai",
@@ -81,13 +81,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2171014G3065_1_15",
+    "source_revision": "2023年12月改訂（第1版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "foliamin-5",
@@ -111,13 +111,13 @@
     "fill_method": "manual",
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_3135001F1025_2_03",
+    "source_revision": "2024年8月改訂（第2版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "mosapride-5-aa",
@@ -141,13 +141,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2399010F1036_2_04",
+    "source_revision": "2026年6月改訂（第2版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "methycobal-500",
@@ -171,13 +171,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_3136004C1038_1_05",
     "source_revision": null,
+    "source_page": null,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "aspara-k-300",
@@ -201,13 +201,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3229005B1038_3_01",
+    "source_revision": "2025年4月作成（第1版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "azilsartan-20-nipro",
@@ -231,13 +231,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149048F1081_1_04",
+    "source_revision": "2026年3月改訂（第5版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "cibenzoline-50-sawai",
@@ -261,13 +261,13 @@
     "fill_method": "manual",
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2129007F1047_1_11",
+    "source_revision": "2023年5月改訂（第1版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "pitavastatin-2-nichiiko",
@@ -291,13 +291,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2189016F1257_1_18",
+    "source_revision": "2024年1月改訂（第1版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "eliquis-5",
@@ -321,13 +321,13 @@
     "fill_method": "manual",
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_3339004F1029_1_22",
+    "source_revision": "2026年3月改訂（第9版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "amlodipine-od-2.5-takedateva",
@@ -351,13 +351,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2171022F3340_1_08",
+    "source_revision": "2026年10月改訂（第5版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "amlodipine-od-10-takedateva",
@@ -381,13 +381,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2171022F3340_1_08",
+    "source_revision": "2026年10月改訂（第5版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "aspara-ca-200",
@@ -411,13 +411,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3214001F1020_3_01",
+    "source_revision": "2025年4月作成（第1版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "carvedilol-2.5-sawai",
@@ -441,13 +441,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149032F1099_1_15",
+    "source_revision": "2024年4月改訂（第2版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "rivotril-0.5",
@@ -471,13 +471,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_1139003C1044_2_04",
+    "source_revision": "2023年3月改訂（第1版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "clopidogrel-75-towa",
@@ -501,13 +501,13 @@
     "fill_method": "manual",
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399008F1262_1_12",
+    "source_revision": "2025年5月改訂（第2版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "ferrous-citrate-50-nig",
@@ -531,13 +531,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3222013F1181_1_05",
+    "source_revision": "2026年2月改訂（第2版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "entresto-200",
@@ -561,13 +561,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_2190041F1027_1_10",
+    "source_revision": "2026年10月改訂（第10版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "lansoprazole-od-15-takedateva",
@@ -591,13 +591,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2329023F1144_1_11",
+    "source_revision": "2026年7月改訂（第7版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "darbroc-4",
@@ -621,13 +621,13 @@
     "fill_method": "manual",
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_3999049F1027_1_05",
+    "source_revision": "2026年2月改訂（第5版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "orkedia-4",
@@ -651,13 +651,13 @@
     "fill_method": "manual",
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_3999044F1024_1_11",
+    "source_revision": "2025年2月改訂（第4版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "doxazosin-1-towa",
@@ -681,13 +681,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149026F1190_1_04",
+    "source_revision": "2023年8月改訂（第1版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "amitiza-12-cap",
@@ -711,13 +711,13 @@
     "fill_method": "manual",
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2359006M1025_3_04",
+    "source_revision": "2025年10月改訂（第4版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "eldecalcitol-0.75-cap-sawai",
@@ -741,13 +741,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3112006M1030_1_07",
+    "source_revision": "2026年3月改訂（第3版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "pregabalin-od-75-jg",
@@ -771,13 +771,13 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1190017F1045_1_05",
     "source_revision": null,
+    "source_page": null,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "eliquis-2.5",
@@ -801,13 +801,13 @@
     "fill_method": "manual",
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_3339004F1029_1_22",
+    "source_revision": "2026年3月改訂（第9版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   },
   {
     "id": "carvedilol-10-towa",
@@ -831,12 +831,12 @@
     "fill_method": null,
     "adopted": true,
     "aliases": [],
-    "source_url": null,
-    "source_revision": null,
+    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149032F1129_1_22",
+    "source_revision": "2024年7月改訂（第4版）",
+    "source_page": 1,
     "source_quote": null,
     "verified_by": null,
     "verified_at": null,
-    "status": "draft",
-    "source_page": null
+    "status": "draft"
   }
 ]
