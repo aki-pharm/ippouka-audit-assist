@@ -1,6 +1,6 @@
 "use client";
 import { useMemo, useRef, useState } from "react";
-import { loadMaster, findTablet } from "@/lib/master";
+import { loadMaster, findTablet, normalize, stripMaker, stripPrefix } from "@/lib/master";
 import { buildBags, checkRow, recomputeDefault, toRows } from "@/lib/packing";
 import { fileToResizedBase64 } from "@/lib/image";
 import { TIMINGS, TIMING_LABEL, type RxReadResult, type RxRow, type Tablet } from "@/lib/types";
@@ -227,7 +227,7 @@ export function Flow() {
                       ))}
                     </select>
                   </label>
-                  {t && t.brand_name !== r.name_as_written && (
+                  {t && stripPrefix(normalize(stripMaker(t.brand_name))) !== stripPrefix(normalize(stripMaker(r.name_as_written))) && (
                     <div className="mt-1 text-xs text-blue-800">処方箋：{r.name_as_written} → 採用品：{t.brand_name}</div>
                   )}
                   {flags.map((f, i) => (
