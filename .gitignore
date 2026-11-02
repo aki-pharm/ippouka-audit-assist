@@ -1,0 +1,14 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# downloaded package inserts (never commit)
+pdfs/
+
+# captured photos for testing
+captures/
+
+# node
+node_modules/
+.next/
