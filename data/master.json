@@ -20,7 +20,9 @@
     "pack_rule_reason": null,
     "fill_method": null,
     "adopted": true,
-    "aliases": [],
+    "aliases": [
+      "ラベプラゾールNa塩錠10mg「オーハラ」"
+    ],
     "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2329028F1147_1_23",
     "source_revision": "2026年7月改訂（第4版）",
     "source_page": 1,
@@ -290,7 +292,9 @@
     "pack_rule_reason": null,
     "fill_method": null,
     "adopted": true,
-    "aliases": [],
+    "aliases": [
+      "ピタバスタチンカルシウム錠2mg「日医工」"
+    ],
     "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2189016F1257_1_18",
     "source_revision": "2024年1月改訂（第1版）",
     "source_page": 1,
