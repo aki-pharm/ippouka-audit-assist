@@ -22,48 +22,49 @@ export function BagView({ bag, onTap }: { bag: Bag; onTap: (t: Tablet | undefine
           ))}
         </div>
       )}
-      <ul className="grid grid-cols-2 gap-3 p-3 sm:grid-cols-3">
+      <ul className="grid grid-cols-2 gap-3 p-3 sm:grid-cols-3 md:grid-cols-4">
         {bag.entries.length === 0 && <li className="col-span-full py-6 text-center text-slate-400">この袋には入りません</li>}
         {bag.entries.map((e) =>
-          Array.from({ length: e.count }).map((_, i) => (
-            <li key={`${e.row.key}-${i}`}>
-              <button
-                type="button"
-                onClick={() => onTap(e.tablet, e.row.name_as_written)}
-                className="flex w-full flex-col items-center gap-1 rounded-xl border border-slate-200 bg-slate-50 p-2 text-left active:bg-slate-100"
-              >
-                <div className="relative">
-                  {e.group && (
-                    <span className="absolute -left-2 -top-2">
-                      <GroupBadge label={e.group} />
-                    </span>
-                  )}
-                  {e.tablet?.dosage_form === "capsule" ? (
-                    <div className="flex h-14 items-center justify-center rounded-full border border-dashed border-slate-400 px-3 text-xs text-slate-500">
-                      カプセル
-                    </div>
-                  ) : (
-                    <TabletSvg tablet={e.tablet} highlight={!!e.group} />
-                  )}
-                </div>
-                <div className="w-full text-center text-xs leading-tight">
-                  <div className="font-semibold text-slate-800">{shortName(e.tablet?.brand_name ?? e.row.name_as_written)}</div>
-                  <div className="text-slate-500">{sizeText(e.tablet)}</div>
-                  {e.count > 1 && <div className="text-slate-400">{i + 1}/{e.count}</div>}
-                </div>
-              </button>
-              {i === 0 && (
+          Array.from({ length: e.count }).map((_, i) => {
+            const link = sourceLink(e.tablet);
+            return (
+              <li key={`${e.row.key}-${i}`} className="flex flex-col rounded-xl border border-slate-200 bg-slate-50 p-2">
+                <button
+                  type="button"
+                  onClick={() => onTap(e.tablet, e.row.name_as_written)}
+                  className="flex flex-1 flex-col items-center text-left active:bg-slate-100"
+                >
+                  <div className="relative flex h-24 w-full items-center justify-center">
+                    {e.group && (
+                      <span className="absolute left-0 top-0">
+                        <GroupBadge label={e.group} />
+                      </span>
+                    )}
+                    {e.tablet?.dosage_form === "capsule" ? (
+                      <div className="flex h-12 items-center justify-center rounded-full border border-dashed border-slate-400 px-3 text-xs text-slate-500">
+                        カプセル
+                      </div>
+                    ) : (
+                      <TabletSvg tablet={e.tablet} highlight={!!e.group} />
+                    )}
+                  </div>
+                  <div className="flex min-h-[3.75rem] w-full flex-col justify-start text-center text-xs leading-tight">
+                    <div className="line-clamp-2 font-semibold text-slate-800">{shortName(e.tablet?.brand_name ?? e.row.name_as_written)}</div>
+                    <div className="text-slate-500">{sizeText(e.tablet)}</div>
+                    <div className="text-slate-400">{e.count > 1 ? `${i + 1}/${e.count}` : "\u00a0"}</div>
+                  </div>
+                </button>
                 <a
-                  href={sourceLink(e.tablet).href}
+                  href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-1 block rounded-lg border border-blue-200 bg-white py-1 text-center text-xs text-blue-800"
                 >
-                  {sourceLink(e.tablet).direct ? "📄 添付文書を開く" : "🔍 PMDAで検索"}
+                  {link.direct ? "📄 添付文書" : "🔍 PMDAで検索"}
                 </a>
-              )}
-            </li>
-          )),
+              </li>
+            );
+          }),
         )}
       </ul>
     </section>
