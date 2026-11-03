@@ -277,7 +277,8 @@ const FIRSTBAG_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .h { position: absolute; left: 150px; top: 120px; font-size: 60px; font-weight: 900; animation: slideIn .6s ease-out both; --d: 0; }
   .bag { position: absolute; width: 64px; height: 48px; border-radius: 8px; background: #fff; border: 3px solid #94A3B8; box-shadow: 0 4px 10px rgba(0,0,0,.08); animation: none; }
   .bag::after { content: ""; position: absolute; left: 10px; right: 10px; top: 12px; height: 6px; background: #CBD5E1; border-radius: 3px; }
-  .sweep { position: absolute; top: 280px; width: 160px; height: 400px; background: linear-gradient(90deg, rgba(251,191,36,0) 0%, rgba(251,191,36,.55) 50%, rgba(251,191,36,0) 100%); animation: sweep 2.2s linear both; --d: 0.6; }
+  .sweep { position: absolute; top: 280px; width: 160px; height: 400px; background: linear-gradient(90deg, rgba(251,191,36,0) 0%, rgba(251,191,36,.55) 50%, rgba(251,191,36,0) 100%); animation: sweep 2.2s linear both, fadeOut .4s ease-in both; animation-delay: calc((0.6 - var(--t)) * 1s), calc((2.8 - var(--t)) * 1s) !important; }
+  @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
   @keyframes sweep { from { left: 60px; } to { left: 1700px; } }
   .rest { animation: dim .8s ease-out both; --d: 3.4; }
   @keyframes dim { to { opacity: .22; } }
@@ -362,6 +363,143 @@ const CLOSING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   <div class="a credit"><span>Built with Claude: Japan 2026</span><span>VOICEVOX:もち子(cv 明日葉よもぎ)</span></div>
 </body></html>`;
 
+
+/** 新人薬剤師：白い錠剤の山を前に汗、「?」 */
+function whitePile() {
+  let out = ""; const seed = [0.13,0.71,0.42,0.88,0.27,0.59,0.95,0.05,0.66,0.34,0.81,0.19,0.48,0.76,0.23,0.9,0.37,0.62,0.08,0.54,0.29,0.84,0.45,0.72];
+  for (let i = 0; i < 24; i++) { const x = 980 + seed[i] * 620, y = 420 + seed[(i * 7) % 24] * 300, r = 44 + seed[(i * 3) % 24] * 30;
+    out += `<div class="a wp" style="left:${x.toFixed(0)}px; top:${y.toFixed(0)}px; width:${r.toFixed(0)}px; height:${r.toFixed(0)}px; --d:${(0.4 + i * 0.07).toFixed(2)}"></div>`; }
+  return out;
+}
+const NEWBIE_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  body { background: #EAF3FB; color: #1E293B; }
+  .counter { position: absolute; left: 0; right: 0; bottom: 0; height: 300px; background: #BFD8EC; }
+  .wp { position: absolute; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff 0%, #ECEDE8 60%, #CFD2CA 100%); box-shadow: 0 8px 16px rgba(0,0,0,.18); animation: drop .5s cubic-bezier(.2,1.2,.4,1) both; }
+  @keyframes drop { from { opacity: 0; transform: translateY(-120px); } to { opacity: 1; transform: translateY(0); } }
+  .char { position: absolute; left: 260px; top: 200px; width: 620px; height: 820px; animation: bob 2.4s ease-in-out infinite; }
+  @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+  .sweat { animation: sweatDrop 1.4s ease-in infinite; transform-origin: center; }
+  @keyframes sweatDrop { 0% { transform: translateY(0); opacity: 1; } 100% { transform: translateY(40px); opacity: 0; } }
+  .q { position: absolute; font-size: 110px; font-weight: 900; color: #B45309; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
+  @keyframes pop { from { opacity: 0; transform: scale(0) rotate(-15deg); } to { opacity: 1; transform: scale(1) rotate(0); } }
+  .cap { position: absolute; left: 0; right: 0; top: 90px; text-align: center; font-size: 60px; font-weight: 900; animation: slideIn .7s ease-out both; --d: 2.6; }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+</style></head><body>
+  <div class="counter"></div>
+  ${whitePile()}
+  <svg class="char" viewBox="0 0 620 820">
+    <path d="M150 400 Q310 360 470 400 L500 820 L120 820 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="6"/>
+    <path d="M310 400 L270 460 L310 820 L350 460 Z" fill="#2B2B3A"/>
+    <path d="M160 420 Q110 560 140 700" fill="none" stroke="#FFFFFF" stroke-width="64" stroke-linecap="round"/><circle cx="140" cy="720" r="34" fill="#F6D2B5"/>
+    <path d="M460 420 Q510 560 480 700" fill="none" stroke="#FFFFFF" stroke-width="64" stroke-linecap="round"/><circle cx="480" cy="720" r="34" fill="#F6D2B5"/>
+    <rect x="280" y="330" width="60" height="70" rx="20" fill="#F6D2B5"/>
+    <circle cx="310" cy="240" r="120" fill="#F6D2B5"/>
+    <path d="M190 240 Q195 95 310 100 Q425 95 430 240 Q400 160 310 160 Q220 160 190 240 Z" fill="#2F2F3F"/>
+    <ellipse cx="268" cy="248" rx="10" ry="14" fill="#1E293B"/><ellipse cx="352" cy="248" rx="10" ry="14" fill="#1E293B"/>
+    <path d="M250 212 Q268 200 286 212" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/><path d="M334 212 Q352 200 370 212" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M286 300 Q310 286 334 300" fill="none" stroke="#1E293B" stroke-width="7" stroke-linecap="round"/>
+    <path class="sweat" d="M440 170 Q458 200 440 208 Q422 200 440 170 Z" fill="#60A5FA"/>
+    <rect x="360" y="470" width="80" height="44" rx="8" fill="#A7F3D0" stroke="#10B981" stroke-width="3"/>
+  </svg>
+  <div class="a q" style="left:600px; top:120px; --d:2.0">?</div>
+  <div class="a q" style="left:760px; top:60px; --d:2.3; font-size:80px">?</div>
+  <div class="a cap">新人や応援の薬剤師には、見慣れない薬ばかり</div>
+</body></html>`;
+
+/** 会社違いの錠剤が画面いっぱいにスクロール */
+function varietyRow(y, speed, seedOff) {
+  const colors = ["#FFFFFF","#FDE68A","#FBCFE8","#BFDBFE","#FFFFFF","#FECACA","#F5F5DC","#A7F3D0","#FFFFFF","#E9D5FF","#FFFFFF","#FFEDD5"];
+  const shapes = ["r","o","r","c","r","o","r","r","c","r","o","r"];
+  const marks = ["A 12","ニプロ","SW 20","t 1","TYP","KH 603","FE","GS 13","トーワ 5","NY 333","AA 017","Tw 141"];
+  let out = "";
+  for (let i = 0; i < 24; i++) { const k = (i + seedOff) % 12; const sh = shapes[k];
+    const w = sh === "r" ? 120 : sh === "o" ? 190 : 210, h = sh === "r" ? 120 : 100;
+    out += `<div class="tab ${sh}" style="width:${w}px; height:${h}px; background:${colors[k]}">${marks[k]}</div>`; }
+  return `<div class="a row" style="top:${y}px; animation-duration:${speed}s">${out}</div>`;
+}
+const VARIETY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  body { background: #0B1220; color: #F8FAFC; }
+  .row { position: absolute; left: 0; display: flex; gap: 40px; white-space: nowrap; animation: scroll linear infinite; --d: 0; }
+  @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-3840px); } }
+  .tab { flex: none; display: flex; align-items: center; justify-content: center; font: 700 30px ui-monospace, monospace; color: #475569; box-shadow: 0 14px 30px rgba(0,0,0,.45); }
+  .tab.r { border-radius: 50%; } .tab.o { border-radius: 50%; } .tab.c { border-radius: 60px; }
+  .cap { position: absolute; left: 0; right: 0; top: 440px; text-align: center; font-size: 72px; font-weight: 900; text-shadow: 0 6px 30px rgba(0,0,0,.8); animation: slideIn .8s ease-out both; --d: 1.2; }
+  .sub { position: absolute; left: 0; right: 0; top: 560px; text-align: center; font-size: 46px; color: #CBD5E1; text-shadow: 0 6px 30px rgba(0,0,0,.8); animation: slideIn .8s ease-out both; --d: 2.4; }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+  .shade { position: absolute; left: 0; right: 0; top: 400px; height: 280px; background: rgba(11,18,32,.55); }
+</style></head><body>
+  ${varietyRow(90, 28, 0)}${varietyRow(260, 36, 5)}${varietyRow(700, 32, 8)}${varietyRow(880, 40, 3)}
+  <div class="shade"></div>
+  <div class="a cap">同じ成分でも、作る会社ごとに見た目が違う</div>
+  <div class="a sub">ジェネリックは数量の8割以上。1つの成分に、何社もの錠剤がある</div>
+</body></html>`;
+
+/** Claude の3場面：カードが順に出て、それぞれ小さな動き */
+const CLAUDE3_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  body { background: #F8FAFC; color: #1E293B; }
+  .h { position: absolute; left: 0; right: 0; top: 90px; text-align: center; font-size: 64px; font-weight: 900; animation: slideIn .6s ease-out both; --d: 0; }
+  .card { position: absolute; top: 260px; width: 520px; height: 560px; background: #fff; border: 4px solid #CBD5E1; border-radius: 28px; padding: 30px; animation: cardIn .7s cubic-bezier(.2,1.2,.4,1) both; box-shadow: 0 16px 40px rgba(0,0,0,.08); }
+  @keyframes cardIn { from { opacity: 0; transform: translateY(80px) scale(.9); } to { opacity: 1; transform: translateY(0) scale(1); } }
+  .n { font-size: 44px; font-weight: 900; color: #B45309; }
+  .t { font-size: 38px; font-weight: 900; line-height: 1.3; margin: 6px 0 18px; }
+  .ill { position: relative; height: 300px; }
+  .doc { position: absolute; left: 20px; top: 20px; width: 150px; height: 200px; background: #fff; border: 3px solid #94A3B8; border-radius: 8px; }
+  .doc i { position: absolute; left: 14px; right: 14px; height: 8px; background: #CBD5E1; border-radius: 4px; }
+  .arrow { position: absolute; left: 190px; top: 100px; font-size: 54px; color: #B45309; animation: pulse 1.2s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { transform: translateX(0); } 50% { transform: translateX(12px); } }
+  .table { position: absolute; left: 270px; top: 30px; width: 200px; }
+  .table i { display: block; height: 30px; margin-bottom: 8px; border-radius: 6px; background: #E2E8F0; animation: fill .4s ease-out both; }
+  @keyframes fill { from { width: 0; } to { width: 100%; } }
+  .table i.k { background: #FDE68A; }
+  .photo { position: absolute; left: 20px; top: 20px; width: 150px; height: 200px; background: #E2E8F0; border: 3px solid #94A3B8; border-radius: 8px; overflow: hidden; }
+  .photo i { position: absolute; left: 12px; right: 12px; height: 10px; background: #94A3B8; border-radius: 3px; }
+  .term { position: absolute; left: 20px; right: 20px; top: 20px; height: 250px; background: #0F172A; border-radius: 12px; padding: 18px; font: 700 20px ui-monospace, monospace; color: #A7F3D0; overflow: hidden; }
+  .term div { white-space: nowrap; overflow: hidden; width: 0; animation: type .9s steps(30) both; }
+  @keyframes type { to { width: 100%; } }
+  .note { position: absolute; left: 0; right: 0; top: 880px; text-align: center; font-size: 46px; font-weight: 700; color: #475569; animation: slideIn .6s ease-out both; --d: 6.4; }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+</style></head><body>
+  <div class="a h">Claude は、三つの場面で</div>
+  <div class="a card" style="left:140px; --d:0.6"><div class="n">1</div><div class="t">添付文書PDF → 外観マスタ</div>
+    <div class="ill"><div class="doc"><i style="top:20px"></i><i style="top:40px"></i><i style="top:60px; width:60%"></i><i style="top:100px"></i><i style="top:120px"></i></div><div class="arrow">→</div>
+    <div class="table"><i class="a" style="--d:1.4"></i><i class="a k" style="--d:1.6"></i><i class="a" style="--d:1.8"></i><i class="a" style="--d:2.0"></i><i class="a k" style="--d:2.2"></i><i class="a" style="--d:2.4"></i></div></div></div>
+  <div class="a card" style="left:700px; --d:2.6"><div class="n">2</div><div class="t">処方箋の写真 → 表</div>
+    <div class="ill"><div class="photo"><i style="top:24px"></i><i style="top:60px; width:70%"></i><i style="top:96px"></i><i style="top:132px; width:50%"></i><i style="top:168px"></i></div><div class="arrow">→</div>
+    <div class="table"><i class="a" style="--d:3.4"></i><i class="a" style="--d:3.6"></i><i class="a" style="--d:3.8"></i><i class="a" style="--d:4.0"></i><i class="a" style="--d:4.2"></i><i class="a" style="--d:4.4"></i></div></div></div>
+  <div class="a card" style="left:1260px; --d:4.6"><div class="n">3</div><div class="t">開発そのものを Claude Code で</div>
+    <div class="ill"><div class="term"><div class="a" style="--d:5.2">$ npm run fetch-pdfs</div><div class="a" style="--d:5.6">✓ PMDA から 25 文書を取得</div><div class="a" style="--d:6.0">$ npm run extract -- ...</div><div class="a" style="--d:6.4">✓ data/drafts/... を書き出し</div><div class="a" style="--d:6.8">$ git commit -m "data: ..."</div></div></div></div>
+  <div class="a note">推測で埋めず、読めなければ「未確認」。どれも人が確認してから使う</div>
+</body></html>`;
+
+/** 広がる：28個の錠剤の画面から、点が広がって増える */
+function dots() {
+  let out = ""; const seed=[0.1,0.9,0.3,0.7,0.5,0.2,0.8,0.4,0.6,0.15,0.85,0.35,0.65,0.25,0.75,0.45,0.55,0.05,0.95,0.12];
+  for (let i = 0; i < 140; i++) { const x = (seed[i % 20] * 1700 + seed[(i * 3) % 20] * 150) % 1800 + 60, y = (seed[(i * 7) % 20] * 900 + seed[(i*11)%20]*120) % 940 + 60;
+    out += `<i class="a" style="left:${x.toFixed(0)}px; top:${y.toFixed(0)}px; --d:${(2.2 + i * 0.04).toFixed(2)}"></i>`; }
+  return out;
+}
+const SPREAD_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  body { background: #0B1220; color: #F8FAFC; }
+  .grid { position: absolute; left: 560px; top: 250px; width: 800px; display: grid; grid-template-columns: repeat(7, 1fr); gap: 26px; animation: shrink 1.2s ease-in-out both; --d: 2.0; transform-origin: center; }
+  @keyframes shrink { to { transform: scale(.35); opacity: .35; } }
+  .grid i { width: 90px; height: 90px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff 0%, #ECEDE8 60%, #CFD2CA 100%); animation: pop .4s cubic-bezier(.2,1.5,.4,1) both; box-shadow: 0 10px 20px rgba(0,0,0,.4); }
+  .dots i { position: absolute; width: 26px; height: 26px; border-radius: 50%; background: #FBBF24; box-shadow: 0 0 30px rgba(251,191,36,.6); animation: pop .5s cubic-bezier(.2,1.5,.4,1) both; }
+  @keyframes pop { from { opacity: 0; transform: scale(0); } to { opacity: 1; transform: scale(1); } }
+  .cap { position: absolute; left: 0; right: 0; top: 110px; text-align: center; font-size: 64px; font-weight: 900; animation: slideIn .7s ease-out both; }
+  .sub { position: absolute; left: 0; right: 0; top: 900px; text-align: center; font-size: 44px; color: #CBD5E1; animation: slideIn .7s ease-out both; --d: 5.0; }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+</style></head><body>
+  <div class="a cap" style="--d:0">まず、自分の職場の採用品から</div>
+  <div class="a grid">${Array.from({length:28}).map((_,i)=>`<i class="a" style="--d:${(0.2+i*0.05).toFixed(2)}"></i>`).join("")}</div>
+  <div class="dots">${dots()}</div>
+  <div class="a cap" style="--d:4.0; top:110px; opacity:0; animation-name: slideIn">同じ手順で、施設の採用品に広げていける</div>
+  <div class="a sub">親マスタ（添付文書→外観）＋ 施設ごとの運用マスタ（採用品・一包化区分・分包方法）</div>
+</body></html>`;
+
 async function render(page, html, name, seconds) {
   const dir = path.join(OUT, name); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   await page.setContent(html, { waitUntil: "load" });
@@ -388,5 +526,9 @@ async function render(page, html, name, seconds) {
   if (which === "ippouka") await render(page, IPPOUKA_HTML, "ippouka", 15);
   if (which === "firstbag") await render(page, FIRSTBAG_HTML, "firstbag", 11);
   if (which === "closing") await render(page, CLOSING_HTML, "closing", 18);
+  if (which === "newbie") await render(page, NEWBIE_HTML, "newbie", 6);
+  if (which === "variety") await render(page, VARIETY_HTML, "variety", 8);
+  if (which === "claude3") await render(page, CLAUDE3_HTML, "claude3", 12);
+  if (which === "spread") await render(page, SPREAD_HTML, "spread", 9);
   await b.close();
 })().catch((e) => { console.error(e); process.exit(1); });
