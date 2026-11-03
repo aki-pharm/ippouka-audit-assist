@@ -8,6 +8,10 @@ const path = require("path");
 const { chromium } = require("playwright");
 
 const FONT_DIR = path.resolve("node_modules/@fontsource/noto-sans-jp/files");
+// Noto Sans JP を全部読む（japanese サブセットだけだと一部の漢字が別フォントの字体になる）
+const FONT_CSS = ["400", "700"]
+  .map((w) => fs.readFileSync(path.join(FONT_DIR, "..", `${w}.css`), "utf8").replace(/url\(\.\/files\//g, `url(file://${FONT_DIR}/`))
+  .join("\n");
 const OUT = path.resolve("public/samples");
 
 // [rp, manualMark, name, usageLines[], amount, unit, days, total]
@@ -63,9 +67,8 @@ function html(page) {
     </tr>`).join("");
   return `<!doctype html><html lang="ja"><head><meta charset="utf-8">
   <style>
-    @font-face { font-family: "NotoJP"; src: url("file://${FONT_DIR}/noto-sans-jp-japanese-400-normal.woff2") format("woff2"); font-weight: 400; }
-    @font-face { font-family: "NotoJP"; src: url("file://${FONT_DIR}/noto-sans-jp-japanese-700-normal.woff2") format("woff2"); font-weight: 700; }
-    body { margin: 0; width: 1100px; background: #fff; font-family: "NotoJP", sans-serif; color: #111; }
+    ${FONT_CSS}
+    body { margin: 0; width: 1100px; background: #fff; font-family: "Noto Sans JP", sans-serif; color: #111; }
     .wrap { padding: 36px 44px; }
     .head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #333; padding-bottom: 6px; }
     .head h1 { font-size: 26px; margin: 0; }
