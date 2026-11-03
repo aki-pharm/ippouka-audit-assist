@@ -1,0 +1,151 @@
+/**
+ * アニメーションのイントロと課題パートを HTML/CSS で描き、1フレームずつ撮って mp4 にする。
+ *   node scripts/make-intro.cjs            → captures/anim/intro.mp4, problem.mp4
+ * 仕組み：CSS アニメーションを一時停止し、--t（秒）を動かしてフレームを撮る（決定的に描ける）。
+ */
+const fs = require("fs");
+const path = require("path");
+const { chromium } = require("playwright");
+const { execFileSync } = require("child_process");
+
+const FPS = 30;
+const FONT_DIR = path.resolve("node_modules/@fontsource/noto-sans-jp/files");
+const FONT_CSS = ["400", "700", "900"]
+  .map((w) => fs.readFileSync(path.join(FONT_DIR, "..", `${w}.css`), "utf8").replace(/url\(\.\/files\//g, `url(file://${FONT_DIR}/`))
+  .join("\n");
+const OUT = "captures/anim";
+
+const BASE_CSS = `
+  ${FONT_CSS}
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Noto Sans JP", sans-serif; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: #0B1220; color: #F8FAFC; }
+  .a { animation-play-state: paused !important; animation-fill-mode: both !important; animation-delay: calc((var(--d, 0) - var(--t)) * 1s) !important; }
+  .stage { position: absolute; inset: 0; }
+`;
+
+/** 錠剤（白い丸）。mm → px は 1mm = 22px */
+function tablet(x, y, mm, imprint, score, delay, flipAt) {
+  const px = mm * 22;
+  return `
+  <div class="a tab" style="left:${x}px; top:${y}px; width:${px}px; height:${px}px; animation: pop 0.7s cubic-bezier(.2,1.4,.4,1) both; --d:${delay};">
+    <div class="a flip" style="animation: flip 0.9s ease-in-out both; --d:${flipAt};">
+      <div class="face back"></div>
+      <div class="face front">${score ? '<div class="score"></div>' : ""}<span>${imprint}</span></div>
+    </div>
+  </div>`;
+}
+
+const INTRO_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  .tab { position: absolute; perspective: 900px; }
+  .flip { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; }
+  .face { position: absolute; inset: 0; border-radius: 50%; backface-visibility: hidden; display: flex; align-items: center; justify-content: center;
+          background: radial-gradient(circle at 35% 30%, #FFFFFF 0%, #ECEDE8 55%, #CFD2CA 100%); box-shadow: 0 30px 60px rgba(0,0,0,.55), inset 0 -8px 18px rgba(0,0,0,.08); }
+  .face.front { transform: rotateY(180deg); font-family: ui-monospace, "Noto Sans JP", monospace; font-weight: 700; color: #475569; font-size: 46px; letter-spacing: .02em; }
+  .face.front span { position: relative; text-shadow: 0 1px 0 #fff; }
+  .score { position: absolute; left: 50%; top: 10%; bottom: 10%; width: 3px; background: rgba(71,85,105,.45); transform: translateX(-50%); }
+  @keyframes pop { from { opacity: 0; transform: translateY(80px) scale(.6); } to { opacity: 1; transform: translateY(0) scale(1); } }
+  @keyframes flip { from { transform: rotateY(0deg); } to { transform: rotateY(180deg); } }
+  .line { position: absolute; left: 0; right: 0; text-align: center; font-weight: 900; }
+  .q1 { top: 150px; font-size: 92px; animation: slideIn .8s cubic-bezier(.2,.9,.3,1) both; --d: 2.6; }
+  .q2 { top: 270px; font-size: 92px; animation: slideIn .8s cubic-bezier(.2,.9,.3,1) both; --d: 3.4; }
+  .q3 { top: 860px; font-size: 54px; font-weight: 400; color: #CBD5E1; animation: slideIn .8s ease-out both; --d: 7.2; }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+  .qmark { position: absolute; font-size: 120px; font-weight: 900; color: #FBBF24; animation: qpop .5s cubic-bezier(.2,1.6,.4,1) both; text-shadow: 0 10px 30px rgba(0,0,0,.5); }
+  @keyframes qpop { from { opacity: 0; transform: scale(0) rotate(-20deg); } to { opacity: 1; transform: scale(1) rotate(0); } }
+  .fade { animation: fadeOut .6s ease-in both; --d: 10.8; }
+  @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+  .title { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 11.3; }
+  .title h1 { font-size: 140px; font-weight: 900; letter-spacing: .04em; }
+  .title .bar { width: 0; height: 10px; background: #FBBF24; margin: 30px 0; animation: grow .8s ease-out both; --d: 12.0; }
+  .title p { font-size: 48px; color: #CBD5E1; animation: slideIn .8s ease-out both; --d: 12.4; }
+  @keyframes titleIn { from { opacity: 0; transform: scale(.92); } to { opacity: 1; transform: scale(1); } }
+  @keyframes grow { from { width: 0; } to { width: 420px; } }
+</style></head><body>
+<div class="stage fade a">
+  ${tablet(560, 450, 8.0, "TYP0.5", false, 0.3, 5.6)}
+  ${tablet(860, 470, 7.1, "GS 13", false, 0.9, 5.9)}
+  ${tablet(1150, 480, 6.5, "Tw141", true, 1.5, 6.2)}
+  <div class="a line q1">この1包、</div>
+  <div class="a line q2">処方どおりだと言い切れますか？</div>
+  <div class="a qmark" style="left:600px; top:330px; --d:4.4;">?</div>
+  <div class="a qmark" style="left:900px; top:350px; --d:4.7;">?</div>
+  <div class="a qmark" style="left:1180px; top:360px; --d:5.0;">?</div>
+  <div class="a line q3">白い丸い錠剤が3つ。どれが、どの薬か。</div>
+</div>
+<div class="a title">
+  <h1>一包化監査アシスト</h1>
+  <div class="a bar"></div>
+  <p>判断するのは薬剤師。アプリは、調べる手間を減らす道具。</p>
+</div>
+</body></html>`;
+
+/** 課題パート：袋が増えて 120 になる → 要点が1つずつ */
+function bags() {
+  let s = "";
+  for (let i = 0; i < 120; i++) {
+    const col = i % 20, row = Math.floor(i / 20);
+    s += `<div class="a bag" style="left:${150 + col * 82}px; top:${300 + row * 62}px; --d:${(i * 0.045).toFixed(3)};"></div>`;
+  }
+  return s;
+}
+const PROBLEM_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  body { background: #F8FAFC; color: #1E293B; }
+  .kicker { position: absolute; left: 150px; top: 90px; font-size: 36px; font-weight: 700; color: #B45309; letter-spacing: .08em; animation: slideIn .6s ease-out both; --d: 0; }
+  .h { position: absolute; left: 150px; top: 140px; font-size: 60px; white-space: nowrap; font-weight: 900; animation: slideIn .8s ease-out both; --d: .2; }
+  .bag { position: absolute; width: 64px; height: 48px; border-radius: 8px; background: #fff; border: 3px solid #94A3B8; box-shadow: 0 4px 10px rgba(0,0,0,.08); animation: bagIn .35s cubic-bezier(.2,1.4,.4,1) both; }
+  .bag::after { content: ""; position: absolute; left: 10px; right: 10px; top: 12px; height: 6px; background: #CBD5E1; border-radius: 3px; }
+  @keyframes bagIn { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: scale(1); } }
+  .count { position: absolute; left: 150px; top: 700px; font-size: 120px; font-weight: 900; color: #B45309; animation: slideIn .6s ease-out both; --d: 5.6; }
+  .count small { font-size: 48px; color: #475569; font-weight: 700; margin-left: 20px; }
+  .first { position: absolute; left: 150px; top: 300px; width: 64px; height: 48px; border-radius: 8px; border: 6px solid #B45309; box-shadow: 0 0 0 12px rgba(180,83,9,.25); animation: ring .8s ease-out both; --d: 7.0; }
+  @keyframes ring { from { opacity: 0; transform: scale(2); } to { opacity: 1; transform: scale(1); } }
+  .note { position: absolute; left: 150px; top: 870px; font-size: 54px; font-weight: 700; animation: slideIn .7s ease-out both; --d: 7.4; }
+  .points { position: absolute; left: 150px; top: 320px; right: 150px; animation: fadeIn .5s ease-out both; --d: 10.5; }
+  .bagsWrap { animation: fadeOut .5s ease-in both; --d: 10.0; }
+  .points li { list-style: none; font-size: 56px; line-height: 1.4; margin-bottom: 44px; padding-left: 70px; position: relative; animation: slideIn .6s ease-out both; }
+  .points li::before { content: ""; position: absolute; left: 14px; top: 30px; width: 24px; height: 24px; border-radius: 50%; background: #B45309; }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+</style></head><body>
+  <div class="a kicker">課題</div>
+  <div class="a h">病院や薬局の薬剤師が毎日やっている「1包目の監査」</div>
+  <div class="a bagsWrap stage">
+    ${bags()}
+    <div class="a count">120<small>包（30日分：朝・昼・夕・寝る前）</small></div>
+    <div class="a first"></div>
+    <div class="a note">いちばん時間がかかるのが、1包目。ここが残りの基準になる</div>
+  </div>
+  <ul class="a points">
+    <li class="a" style="--d:11.0">同じ成分でも、作る会社ごとに見た目が違う</li>
+    <li class="a" style="--d:13.5">新人や応援は見慣れない薬ばかり。50代以降は刻印が見えない</li>
+    <li class="a" style="--d:16.5">見逃すといちばん危ないのは、似た見た目の違う薬</li>
+  </ul>
+</body></html>`;
+
+async function render(page, html, name, seconds) {
+  const dir = path.join(OUT, name); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
+  await page.setContent(html, { waitUntil: "load" });
+  await page.evaluate(() => document.fonts.ready);
+  const n = Math.round(seconds * FPS);
+  for (let i = 0; i < n; i++) {
+    await page.evaluate((t) => document.documentElement.style.setProperty("--t", String(t)), i / FPS);
+    await page.screenshot({ path: path.join(dir, `f${String(i).padStart(5, "0")}.jpg`), type: "jpeg", quality: 92 });
+  }
+  const mp4 = path.join(OUT, `${name}.mp4`);
+  execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-framerate", String(FPS), "-i", path.join(dir, "f%05d.jpg"), "-c:v", "libx264", "-crf", "18", "-pix_fmt", "yuv420p", mp4]);
+  fs.rmSync(dir, { recursive: true, force: true });
+  console.log("wrote", mp4, `${seconds}s`);
+}
+
+(async () => {
+  fs.mkdirSync(OUT, { recursive: true });
+  const b = await chromium.launch();
+  const page = await b.newPage({ viewport: { width: 1920, height: 1080 } });
+  const which = process.argv[2];
+  if (!which || which === "intro") await render(page, INTRO_HTML, "intro", 15);
+  if (!which || which === "problem") await render(page, PROBLEM_HTML, "problem", 22);
+  await b.close();
+})().catch((e) => { console.error(e); process.exit(1); });

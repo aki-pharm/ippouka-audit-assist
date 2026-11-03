@@ -36,9 +36,8 @@ function sub(text) {
 
 // 各カット：{kind, src, dur, sub, nar(ナレーション番号), from(録画の開始秒)}
 const CUTS = [
-  { kind: "still", src: "docs/demo/slides/01-opening.png", dur: 4, nar: 1, sub: "" },
-  { kind: "photo", src: PH(4), dur: 5, sub: "この1包、処方どおりだと言い切れますか？" },
-  { kind: "still", src: "docs/demo/slides/02-problem.png", dur: 24, nar: 2, sub: "" },
+  { kind: "clip", src: "captures/anim/intro.mp4", dur: 15, nar: 1, sub: "" },
+  { kind: "clip", src: "captures/anim/problem.mp4", dur: 22, nar: 2, sub: "" },
   { kind: "still", src: "docs/demo/slides/03-solution.png", dur: 11, nar: 3, sub: "" },
   { kind: "app", from: markers.sample_open - 1, dur: 5, sub: "処方箋の薬剤欄を撮る（デモは架空のサンプル）" },
   { kind: "app", from: markers.read_click, dur: 3, sub: "Claude が読み取り中…" },
@@ -69,6 +68,8 @@ CUTS.forEach((c, i) => {
     vf.push(`scale=-2:880`, `pad=${W}:${H}:(ow-iw)/2:40:color=${BG}`);
   } else if (c.kind === "photo") {
     vf.push(`scale=${W}:${H}:force_original_aspect_ratio=decrease`, `pad=${W}:${H}:(ow-iw)/2:(oh-ih)/2:color=${BG}`);
+  } else if (c.kind === "clip") {
+    vf.push(`tpad=stop_mode=clone:stop_duration=${dur}`, `scale=${W}:${H}`);
   } else {
     vf.push(`scale=${W}:${H}`);
   }
@@ -77,7 +78,9 @@ CUTS.forEach((c, i) => {
   const audio = nar ? ["-i", nar.file] : ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo"];
   const input = c.kind === "app"
     ? ["-ss", String(Math.max(0, Math.min(c.from, appDur - dur))), "-t", String(dur), "-i", "captures/app/app.mp4"]
-    : ["-loop", "1", "-t", String(dur), "-i", c.src];
+    : c.kind === "clip"
+      ? ["-t", String(dur), "-i", c.src]
+      : ["-loop", "1", "-t", String(dur), "-i", c.src];
   run([...input, ...audio, "-t", String(dur), "-vf", vf.join(","), "-af", "apad", "-shortest", "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-ac", "2", out]);
   parts.push(out);
   console.log(`cut ${i + 1}/${CUTS.length} ${c.kind} ${dur.toFixed(1)}s${nar ? " +ナレーション" : ""}`);
