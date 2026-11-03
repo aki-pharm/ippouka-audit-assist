@@ -39,8 +39,8 @@
     "maker": "サワイ",
     "dosage_form": "tablet",
     "imprint_front": "SW NF CR20",
-    "imprint_back": "未確認",
-    "imprint_note": "製剤の性状表の「識別コード」欄の記載。刻印か印字かは記載なし。裏面の表示は文中に記載なし。",
+    "imprint_back": "なし",
+    "imprint_note": "表に「SWNF CR20」（2段）。裏は無地（実物写真で確認）。直径7.8・厚さ4.3は写真の表示と一致",
     "color": "淡赤色",
     "color_hex": "#E8A07A",
     "shape": "round",
@@ -57,9 +57,9 @@
     "source_revision": "2023年12月改訂（第1版）",
     "source_page": 1,
     "source_quote": "剤　形 徐放性フィルムコーティング錠 / 性　状 帯赤灰色 淡赤色 淡赤褐色 / 直径（mm） 7.2 7.8 8.4 / 厚さ（mm） 4.0 4.3 4.5 / 重量（mg） 約137 約171 約217 / 識別コード SW NF CR10 SW NF CR20 SW NF CR40",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "nifedipine-cr-10-sawai",
@@ -69,8 +69,8 @@
     "maker": "サワイ",
     "dosage_form": "tablet",
     "imprint_front": "SW NF CR10",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コード SW NF CR10（外形図では片面に表示）",
+    "imprint_back": "なし",
+    "imprint_note": "表に「SWNF CR10」（2段）。裏は無地（実物写真で確認）。直径7.2・厚さ4.0は写真の表示と一致",
     "color": "帯赤灰色",
     "color_hex": null,
     "shape": "round",
@@ -87,9 +87,9 @@
     "source_revision": "2023年12月改訂（第1版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 ニフェジピンCR錠10mg「サワイ」 剤形 徐放性フィルムコーティング錠 性状 帯赤灰色 直径（mm） 7.2 厚さ（mm） 4.0 重量（mg） 約137 識別コード SW NF CR10",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "foliamin-5",
@@ -99,8 +99,8 @@
     "maker": "日医工",
     "dosage_form": "tablet",
     "imprint_front": "NY333",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コード NY333。外形図の上面に「NY／333」と描かれている。下面の図には刻印が描かれていないが、本文に「なし」との明記はない。",
+    "imprint_back": "なし",
+    "imprint_note": "表に「NY 333」（2段）。裏は無地（実物写真で確認）。直径7.1・厚さ3.1は写真の表示と一致",
     "color": "うすいだいだいみの黄色～うすい黄色",
     "color_hex": "#F3E27A",
     "shape": "round",
@@ -117,9 +117,9 @@
     "source_revision": "2024年8月改訂（第2版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 販売名 フォリアミン錠／剤形 素錠／色 うすいだいだいみの黄色～うすい黄色／直径 7.1mm／厚さ 3.1mm／識別コード NY333",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "mosapride-5-aa",
@@ -159,8 +159,8 @@
     "maker": "エーザイ",
     "dosage_form": "tablet",
     "imprint_front": "ε322",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コード「ε322」（εは社名マーク、テキスト層では「322」）。外形図では表面にε・322の印字があり、裏面の図は無地だが、裏面の刻印「なし」とは明記されていない。割線の記載はない。糖衣錠。",
+    "imprint_back": "なし",
+    "imprint_note": "表に「ε 322」の赤色印字（εは社名マーク）。裏はツルツルの糖衣で刻印なし（実物で確認）",
     "color": "白色",
     "color_hex": "#F7F7F2",
     "shape": "round",
@@ -177,9 +177,9 @@
     "source_revision": "2023年4月改訂（第1版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 販売名 メチコバール錠500μg 剤形 糖衣錠 識別コード ε322 直径（mm） 7.3 質量（mg） 155 厚さ（mm） 4.0 色 白色",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "aspara-k-300",
@@ -189,8 +189,8 @@
     "maker": "ニプロESファーマ",
     "dosage_form": "tablet",
     "imprint_front": "TA102",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コードTA102（外形図では表面に「TA 102」）。裏面は外形図で無地の円として描かれているが、刻印なしの明記はない。割線の記載なし",
+    "imprint_back": "なし",
+    "imprint_note": "表に「TA 102」（2段）。裏は無地（実物写真で確認）。直径11.0・厚さ5.1は写真の表示と一致",
     "color": "白色",
     "color_hex": null,
     "shape": "round",
@@ -207,9 +207,9 @@
     "source_revision": "2025年4月作成（第1版）",
     "source_page": 1,
     "source_quote": "アスパラカリウム錠300mg 白色のフィルムコーティング錠 直径（mm）11.0 厚さ（mm）5.1 重量（mg）472.8 識別コード TA102",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "azilsartan-20-nipro",
