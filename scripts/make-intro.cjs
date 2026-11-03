@@ -354,7 +354,7 @@ const CLOSING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   </div>
   <div class="a final stage">
     <div class="a phone"><i style="top:30px"></i><i style="top:100px"></i><i style="top:170px"></i><b style="left:40px; top:250px"></b><b style="left:86px; top:250px"></b><b style="left:132px; top:250px"></b><b style="left:62px; top:300px"></b><b style="left:110px; top:300px"></b></div>
-    <div class="a line l4">どの施設でも、どんな場所でも、手元のスマホで。</div>
+    <div class="a line l4">どの施設でも、どの薬剤師でも、手元のスマホで。</div>
   </div>
   <div class="a title">
     <h1>一包化監査アシスト</h1>
