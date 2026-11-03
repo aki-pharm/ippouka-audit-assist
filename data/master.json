@@ -249,8 +249,8 @@
     "maker": "サワイ",
     "dosage_form": "tablet",
     "imprint_front": "SW CZ 50",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コードとして記載。外形図では片面に「SW CZ 50」の印字が見えるが、裏面の刻印について本文に明記なし",
+    "imprint_back": "なし",
+    "imprint_note": "表に「SWCZ 50」（2段）。裏は無地（実物写真で確認）",
     "color": "白色",
     "color_hex": "#F7F7F2",
     "shape": "round",
@@ -267,9 +267,9 @@
     "source_revision": "2023年5月改訂（第1版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 品名 シベンゾリンコハク酸塩錠50mg「サワイ」 剤形 フィルムコーティング錠 性状 白色 直径（mm） 6.1 厚さ（mm） 3.2 重量（mg） 約93 識別コード SW CZ 50",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "pitavastatin-2-nichiiko",
@@ -311,8 +311,8 @@
     "maker": "ブリストル・マイヤーズ スクイブ",
     "dosage_form": "tablet",
     "imprint_front": "894",
-    "imprint_back": "未確認",
-    "imprint_note": "本文の記載は「識別コード 894」のみです。外観図では片面に「5」、もう片面に「894」が描かれているように見えますが、表裏の区別は本文に書かれていません。割線の記載はありません。",
+    "imprint_back": "5",
+    "imprint_note": "片面「894」、もう片面「5」。規格が面に書かれているので見分けやすい（実物写真で確認）",
     "color": "桃色",
     "color_hex": "#EFA98F",
     "shape": "oval",
@@ -329,9 +329,9 @@
     "source_revision": "2026年3月改訂（第9版）",
     "source_page": 1,
     "source_quote": "販売名 エリキュース錠5mg 性状 桃色の楕円形のフィルムコーティング錠 識別コード 894 直径/長径・短径 長径9.7mm・短径5.2mm 厚さ 3.8mm 重さ 208mg",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "amlodipine-od-2.5-takedateva",
@@ -341,8 +341,8 @@
     "maker": "武田テバ",
     "dosage_form": "tablet",
     "imprint_front": "t 1",
-    "imprint_back": "未確認",
-    "imprint_note": "本文の識別コードはPTP表示の「t 001」。錠剤表面の「t」「1」は形状欄の図から読み取ったもので、本文には書かれていない。裏面の図は無地に見えるが、刻印なしとは明記されていない。",
+    "imprint_back": "なし",
+    "imprint_note": "表に「t 1」のみ、裏は無地（実物写真で確認）。薬名が刻印にないので見分けにくい。本文の識別コードはPTPの「t 001」。直径6.0・厚さ3.0は写真の表示と一致",
     "color": "白色～微黄白色",
     "color_hex": "#F7F7F2",
     "shape": "round",
@@ -359,9 +359,9 @@
     "source_revision": "2026年10月改訂（第5版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 販売名 アムロジピンOD錠2.5mg「武田テバ」 色・剤形 白色～微黄白色の口腔内崩壊錠 直径（mm） 6.0 厚さ（mm） 3.0 重量（mg） 90 識別コード（PTP） t 001",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "amlodipine-od-10-takedateva",
@@ -791,8 +791,8 @@
     "maker": "ブリストル・マイヤーズ スクイブ",
     "dosage_form": "tablet",
     "imprint_front": "893",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コード「893」は本文に記載あり。表裏の区別、および外観図中の刻印（「2½」のように見える）は本文で確認できないため、裏は未確認とした",
+    "imprint_back": "2½",
+    "imprint_note": "片面「893」、もう片面「2½」。規格が面に書かれているので見分けやすい（実物写真で確認）",
     "color": "黄色",
     "color_hex": "#F2CF4F",
     "shape": "round",
@@ -809,9 +809,9 @@
     "source_revision": "2026年3月改訂（第9版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 販売名 エリキュース錠2.5mg 性状 黄色の円形のフィルムコーティング錠 識別コード 893 直径/長径・短径 直径6.0mm 厚さ 2.7mm 重さ 104mg",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "carvedilol-10-towa",
