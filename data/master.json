@@ -432,7 +432,7 @@
     "dosage_form": "tablet",
     "imprint_front": "カルベジロール 2.5 サワイ",
     "imprint_back": "未確認",
-    "imprint_note": "長円形。表に「カルベジロール｜2.5 サワイ」が割線をはさんで印字され、半分に割っても薬名が残る（PTPの写真で確認）。裏は写真に写っていないため未確認",
+    "imprint_note": "長円形。表に「カルベジロール｜2.5 サワイ」が割線をはさんで印字され、半分に割っても薬名が残る（PTPの写真で確認。以前は刻印だったが現在は薬名の印字）。裏はPTPの写真に写っていないため未確認のまま",
     "color": "白色～微黄白色",
     "color_hex": "#F7F7F2",
     "shape": "oblong",
@@ -449,9 +449,9 @@
     "source_revision": "2024年4月改訂（第2版）",
     "source_page": 1,
     "source_quote": "剤形 割線入りフィルムコーティング錠 性状 白色～微黄白色 直径（mm） 10.1×5.1 厚さ（mm） 3.1 重量（mg） 約125 識別コード カルベジロール 2.5 サワイ",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "rivotril-0.5",
