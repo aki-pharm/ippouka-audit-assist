@@ -1,7 +1,7 @@
 "use client";
 import { sortEntries, type Bag, type BagOrder } from "@/lib/packing";
 import { TIMING_LABEL, type Tablet } from "@/lib/types";
-import { TabletSvg, sizeText } from "./Tablet";
+import { TabletSvg, imprintLayout, sizeText } from "./Tablet";
 import { sourceLink } from "@/lib/master";
 
 export function BagView({
@@ -36,6 +36,7 @@ export function BagView({
         {entries.map((e) => {
           const link = sourceLink(e.tablet);
           const shown = Math.min(e.count, 3);
+          const lay = imprintLayout(e.tablet);
           return (
             <li key={e.row.key} className="flex flex-col rounded-xl border border-slate-200 bg-slate-50 p-2">
               <button
@@ -43,13 +44,14 @@ export function BagView({
                 onClick={() => onTap(e.tablet, e.row.name_as_written)}
                 className="flex flex-1 flex-col items-center text-left active:bg-slate-100"
               >
-                <div className="relative flex h-24 w-full items-center justify-center">
+                <div className="relative flex min-h-24 w-full flex-col items-center justify-center pt-5">
                   {e.group && (
                     <span className="absolute left-0 top-0">
                       <GroupBadge label={e.group} />
                     </span>
                   )}
                   <span className="absolute right-0 top-0 text-base font-bold text-slate-700">×{e.count}</span>
+                  {/* 同じ錠剤を横に並べる（3個まで）。刻印は錠剤に収まるときだけ中に描き、収まらなければ下に1回だけ出す */}
                   <div className="flex flex-wrap items-center justify-center gap-1">
                     {Array.from({ length: shown }).map((_, i) =>
                       e.tablet?.dosage_form === "capsule" ? (
@@ -57,11 +59,19 @@ export function BagView({
                           カプセル
                         </div>
                       ) : (
-                        <TabletSvg key={i} tablet={e.tablet} highlight={!!e.group} />
+                        <TabletSvg key={i} tablet={e.tablet} highlight={!!e.group} caption={false} />
                       ),
                     )}
                     {e.count > shown && <span className="text-xs text-slate-500">…</span>}
                   </div>
+                  {lay.label && !lay.inside && e.tablet?.dosage_form !== "capsule" && (
+                    <div
+                      className={`mt-0.5 max-w-full truncate font-mono text-xs ${lay.unverified ? "italic text-slate-400" : "text-slate-800"}`}
+                      title={lay.label}
+                    >
+                      {lay.label}
+                    </div>
+                  )}
                 </div>
                 <div className="flex min-h-[3rem] w-full flex-col justify-start text-center text-xs leading-tight">
                   <div className="line-clamp-2 font-semibold text-slate-800">{shortName(e.tablet?.brand_name ?? e.row.name_as_written)}</div>
