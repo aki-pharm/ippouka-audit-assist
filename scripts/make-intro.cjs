@@ -155,7 +155,7 @@ const GREETING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   <svg class="a char" viewBox="0 0 620 820" xmlns="http://www.w3.org/2000/svg">
     <!-- 体（白衣） -->
     <path d="M150 400 Q310 360 470 400 L500 820 L120 820 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="6"/>
-    <path d="M310 400 L270 460 L310 820 L350 460 Z" fill="#DCE7F2"/>
+    <path d="M310 400 L270 460 L310 820 L350 460 Z" fill="#2B2B3A"/>
     <path d="M250 400 L310 470 L370 400" fill="none" stroke="#CBD5E1" stroke-width="6"/>
     <!-- 左腕（下ろす） -->
     <path d="M160 420 Q110 560 140 700" fill="none" stroke="#FFFFFF" stroke-width="64" stroke-linecap="round"/>
@@ -167,16 +167,23 @@ const GREETING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
       <path d="M452 395 Q520 300 560 190" fill="none" stroke="#FFFFFF" stroke-width="64" stroke-linecap="round"/>
       <circle cx="562" cy="170" r="36" fill="#F6D2B5"/>
     </g>
+    <!-- 後ろ髪（長い・紫） -->
+    <path d="M190 230 Q150 420 170 620 Q230 640 250 560 L250 330 Z" fill="#6D5A8E"/>
+    <path d="M430 230 Q470 420 450 620 Q390 640 370 560 L370 330 Z" fill="#6D5A8E"/>
     <!-- 首・顔 -->
     <rect x="280" y="330" width="60" height="70" rx="20" fill="#F6D2B5"/>
     <circle cx="310" cy="240" r="120" fill="#F6D2B5"/>
-    <!-- 髪 -->
-    <path d="M190 230 Q200 100 310 100 Q420 100 430 230 Q400 150 310 150 Q220 150 190 230 Z" fill="#3B3B4F"/>
-    <!-- 目・口・ほほ -->
-    <g class="a eye"><ellipse cx="268" cy="245" rx="10" ry="14" fill="#1E293B"/></g>
-    <g class="a eye"><ellipse cx="352" cy="245" rx="10" ry="14" fill="#1E293B"/></g>
-    <path d="M280 290 Q310 318 340 290" fill="none" stroke="#1E293B" stroke-width="7" stroke-linecap="round"/>
-    <circle cx="245" cy="280" r="14" fill="#F9A8A8" opacity=".7"/><circle cx="375" cy="280" r="14" fill="#F9A8A8" opacity=".7"/>
+    <!-- 前髪（紫、斜めに流す） -->
+    <path d="M190 240 Q195 95 310 100 Q425 95 430 240 Q400 170 330 175 Q300 150 270 190 Q240 215 190 240 Z" fill="#7B6AA0"/>
+    <path d="M300 150 Q360 150 410 200 Q380 180 330 190 Z" fill="#8C7BB0"/>
+    <!-- 目（閉じて微笑む）・口・ほほ -->
+    <path d="M250 250 Q268 236 286 250" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M334 250 Q352 236 370 250" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M284 292 Q310 314 336 292" fill="none" stroke="#1E293B" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="245" cy="282" r="14" fill="#F9A8A8" opacity=".7"/><circle cx="375" cy="282" r="14" fill="#F9A8A8" opacity=".7"/>
+    <!-- イヤリング -->
+    <circle cx="196" cy="300" r="5" fill="#D4B106"/><circle cx="196" cy="318" r="9" fill="#9F7AEA"/>
+    <circle cx="424" cy="300" r="5" fill="#D4B106"/><circle cx="424" cy="318" r="9" fill="#9F7AEA"/>
     <!-- 名札 -->
     <rect x="360" y="470" width="80" height="44" rx="8" fill="#FDE68A" stroke="#D4B106" stroke-width="3"/>
   </svg>
