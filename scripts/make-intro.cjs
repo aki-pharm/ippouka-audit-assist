@@ -329,11 +329,12 @@ const CLOSING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .phone b { position: absolute; width: 28px; height: 28px; border-radius: 50%; background: #F1F5F9; }
   @keyframes phoneIn { from { opacity: 0; transform: translateY(60px) scale(.9); } to { opacity: 1; transform: translateY(0) scale(1); } }
   .l4 { top: 640px; font-size: 54px; color: #E2E8F0; --d: 11.4; }
-  .title { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 14.0; }
+  .l5 { top: 730px; font-size: 54px; color: #FBBF24; --d: 12.6; }
+  .title { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 15.2; }
   .title h1 { font-size: 140px; font-weight: 900; letter-spacing: .04em; }
-  .title .bar { width: 0; height: 10px; background: #FBBF24; margin: 30px 0; animation: grow .8s ease-out both; --d: 14.7; }
-  .credit { position: absolute; left: 140px; right: 140px; bottom: 60px; display: flex; justify-content: space-between; font-size: 30px; color: #94A3B8; animation: slideIn .8s ease-out both; --d: 15.4; }
-  .final { animation: fadeOut .6s ease-in both; --d: 13.6; }
+  .title .bar { width: 0; height: 10px; background: #FBBF24; margin: 30px 0; animation: grow .8s ease-out both; --d: 15.9; }
+  .credit { position: absolute; left: 140px; right: 140px; bottom: 60px; display: flex; justify-content: space-between; font-size: 30px; color: #94A3B8; animation: slideIn .8s ease-out both; --d: 16.6; }
+  .final { animation: fadeOut .6s ease-in both; --d: 14.8; }
   @keyframes pop { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: scale(1); } }
   @keyframes slideIn { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
   @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
@@ -354,7 +355,8 @@ const CLOSING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   </div>
   <div class="a final stage">
     <div class="a phone"><i style="top:30px"></i><i style="top:100px"></i><i style="top:170px"></i><b style="left:40px; top:250px"></b><b style="left:86px; top:250px"></b><b style="left:132px; top:250px"></b><b style="left:62px; top:300px"></b><b style="left:110px; top:300px"></b></div>
-    <div class="a line l4">どの施設でも、どの薬剤師でも、手元のスマホで。</div>
+    <div class="a line l4">どの施設でも、手元のスマホで。</div>
+    <div class="a line l5">経験の差に、左右されない監査を。</div>
   </div>
   <div class="a title">
     <h1>一包化監査アシスト</h1>
@@ -595,7 +597,7 @@ async function render(page, html, name, seconds) {
   if (which === "greeting") await render(page, GREETING_HTML, "greeting", 6);
   if (which === "ippouka") await render(page, IPPOUKA_HTML, "ippouka", 15);
   if (which === "firstbag") await render(page, FIRSTBAG_HTML, "firstbag", 11);
-  if (which === "closing") await render(page, CLOSING_HTML, "closing", 18);
+  if (which === "closing") await render(page, CLOSING_HTML, "closing", 19);
   if (which === "newbie") await render(page, NEWBIE_HTML, "newbie", 6);
   if (which === "variety") await render(page, VARIETY_HTML, "variety", 8);
   if (which === "claude3") await render(page, CLAUDE3_HTML, "claude3", 12);
