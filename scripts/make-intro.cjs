@@ -168,14 +168,14 @@ const GREETING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
       <circle cx="562" cy="170" r="36" fill="#F6D2B5"/>
     </g>
     <!-- 後ろ髪（茶色、ミディアム：肩に少しかかる） -->
-    <path d="M196 230 Q176 360 206 430 Q250 440 262 400 L262 320 Z" fill="#6B4A2F"/>
-    <path d="M424 230 Q444 360 414 430 Q370 440 358 400 L358 320 Z" fill="#6B4A2F"/>
+    <path d="M196 230 Q176 360 206 430 Q250 440 262 400 L262 320 Z" fill="#4A3220"/>
+    <path d="M424 230 Q444 360 414 430 Q370 440 358 400 L358 320 Z" fill="#4A3220"/>
     <!-- 首・顔 -->
     <rect x="280" y="330" width="60" height="70" rx="20" fill="#F6D2B5"/>
     <circle cx="310" cy="240" r="120" fill="#F6D2B5"/>
     <!-- 前髪（茶色、斜めに流す） -->
-    <path d="M190 240 Q195 95 310 100 Q425 95 430 240 Q405 165 335 172 Q300 150 268 190 Q238 214 190 240 Z" fill="#7A5638"/>
-    <path d="M300 150 Q365 150 412 205 Q380 182 332 190 Z" fill="#8B6442"/>
+    <path d="M190 240 Q195 95 310 100 Q425 95 430 240 Q405 165 335 172 Q300 150 268 190 Q238 214 190 240 Z" fill="#553A26"/>
+    <path d="M300 150 Q365 150 412 205 Q380 182 332 190 Z" fill="#64452D"/>
     <!-- 目（閉じて微笑む）・口・ほほ -->
     <path d="M250 250 Q268 236 286 250" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
     <path d="M334 250 Q352 236 370 250" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
@@ -184,8 +184,81 @@ const GREETING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
     <!-- 名札 -->
     <rect x="360" y="470" width="80" height="44" rx="8" fill="#FDE68A" stroke="#D4B106" stroke-width="3"/>
   </svg>
-  <div class="a bubble">はじめまして</div>
-  <div class="a cap">病院で働く、現役の薬剤師です</div>
+</body></html>`;
+
+
+/** 一包化とは：PTP から錠剤が出て袋にまとまる → 薬が多くて困る人 → 袋を受け取って安心 */
+function ptp(x, y, color, d) {
+  let cells = "";
+  for (let r = 0; r < 5; r++) for (let c = 0; c < 2; c++) cells += `<i style="left:${26 + c * 62}px; top:${22 + r * 52}px; background:${color}"></i>`;
+  return `<div class="a ptp" style="left:${x}px; top:${y}px; --d:${d}">${cells}</div>`;
+}
+const IPPOUKA_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  body { background: #F8FAFC; color: #1E293B; }
+  .ptp { position: absolute; width: 170px; height: 300px; border-radius: 12px; background: #E2E8F0; border: 3px solid #CBD5E1; animation: slideUp .6s cubic-bezier(.2,1.2,.4,1) both; }
+  .ptp i { position: absolute; width: 42px; height: 36px; border-radius: 50%; box-shadow: inset 0 -3px 4px rgba(0,0,0,.12); }
+  @keyframes slideUp { from { opacity: 0; transform: translateY(120px); } to { opacity: 1; transform: translateY(0); } }
+  .pill { position: absolute; width: 38px; height: 32px; border-radius: 50%; box-shadow: 0 6px 12px rgba(0,0,0,.18); animation: fly 1.1s cubic-bezier(.3,.6,.3,1) both; }
+  @keyframes fly { 0% { transform: translate(0,0) scale(1); opacity: 1; } 100% { transform: translate(var(--dx), var(--dy)) scale(.9); opacity: 1; } }
+  .bag { position: absolute; width: 200px; height: 240px; border-radius: 16px; background: rgba(255,255,255,.75); border: 4px solid #94A3B8; animation: pop .6s cubic-bezier(.2,1.4,.4,1) both; }
+  .bag::before { content: ""; position: absolute; left: 14px; right: 14px; top: 14px; height: 10px; border-radius: 5px; background: #CBD5E1; }
+  .bag b { position: absolute; left: 0; right: 0; top: 30px; text-align: center; font-size: 34px; font-weight: 900; color: #334155; }
+  .bag i { position: absolute; width: 38px; height: 32px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,.15); animation: pop .4s ease-out both; }
+  @keyframes pop { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: scale(1); } }
+  .cap { position: absolute; left: 0; right: 0; text-align: center; font-weight: 900; animation: slideIn .7s ease-out both; }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .s1 { animation: fadeOut .6s ease-in both; --d: 7.2; }
+  .s2 { position: absolute; inset: 0; animation: fadeIn .6s ease-out both; --d: 7.6; }
+  .person { position: absolute; left: 520px; top: 300px; width: 300px; height: 420px; animation: bob 2.6s ease-in-out infinite; }
+  @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+  .mouthSad { animation: fadeOut .3s both; --d: 11.4; } .mouthHappy { animation: fadeIn .3s both; --d: 11.4; }
+  .sweat { animation: fadeOut .3s both; --d: 11.4; }
+  .q { position: absolute; font-size: 90px; font-weight: 900; color: #B45309; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
+  .qs { animation: fadeOut .3s both; --d: 11.3; }
+  .hand { position: absolute; left: 1250px; top: 420px; animation: hand 1.2s ease-out both; --d: 10.4; }
+  @keyframes hand { from { transform: translateX(260px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+  .ok { position: absolute; left: 1310px; top: 290px; font-size: 100px; color: #16A34A; font-weight: 900; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; --d: 11.6; }
+</style></head><body>
+<div class="a s1 stage">
+  ${ptp(200, 330, "#FDE68A", 0.2)}${ptp(400, 330, "#FFFFFF", 0.4)}${ptp(600, 330, "#F9A8D4", 0.6)}${ptp(800, 330, "#BFDBFE", 0.8)}
+  <!-- 各シートから1錠が袋へ飛ぶ -->
+  <div class="a pill" style="left:265px; top:460px; background:#FDE68A; --dx:1000px; --dy:-20px; --d:1.6"></div>
+  <div class="a pill" style="left:465px; top:460px; background:#FFFFFF; --dx:860px; --dy:30px; --d:1.9"></div>
+  <div class="a pill" style="left:665px; top:460px; background:#F9A8D4; --dx:610px; --dy:80px; --d:2.2"></div>
+  <div class="a pill" style="left:865px; top:460px; background:#BFDBFE; --dx:460px; --dy:120px; --d:2.5"></div>
+  <div class="a bag" style="left:1200px; top:360px; --d:1.2"><b>朝</b></div>
+  <div class="a bag" style="left:1440px; top:360px; --d:4.2"><b>昼</b><i style="left:50px; top:90px; background:#FFFFFF; --d:4.6"></i><i style="left:110px; top:120px; background:#F9A8D4; --d:4.7"></i></div>
+  <div class="a bag" style="left:1680px; top:360px; --d:4.6"><b>夕</b><i style="left:40px; top:90px; background:#FDE68A; --d:5.0"></i><i style="left:100px; top:110px; background:#FFFFFF; --d:5.1"></i><i style="left:70px; top:160px; background:#BFDBFE; --d:5.2"></i></div>
+  <div class="a cap" style="top:150px; font-size:72px; --d:0.2">一包化とは</div>
+  <div class="a cap" style="top:760px; font-size:60px; --d:3.2">1回に飲む分の薬を、1つの袋にまとめること</div>
+</div>
+<div class="a s2">
+  <!-- 困る人（高齢者） -->
+  <svg class="person" viewBox="0 0 300 420">
+    <circle cx="150" cy="110" r="80" fill="#F6D2B5"/>
+    <path d="M70 110 Q75 30 150 30 Q225 30 230 110 Q210 70 150 75 Q90 70 70 110 Z" fill="#CBD5E1"/>
+    <circle cx="120" cy="115" r="16" fill="none" stroke="#475569" stroke-width="5"/><circle cx="180" cy="115" r="16" fill="none" stroke="#475569" stroke-width="5"/><line x1="136" y1="115" x2="164" y2="115" stroke="#475569" stroke-width="5"/>
+    <circle cx="120" cy="115" r="6" fill="#1E293B"/><circle cx="180" cy="115" r="6" fill="#1E293B"/>
+    <path class="a mouthSad" d="M125 160 Q150 142 175 160" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
+    <path class="a mouthHappy" d="M125 150 Q150 172 175 150" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" opacity="0"/>
+    <path class="a sweat" d="M235 70 Q250 95 235 100 Q220 95 235 70 Z" fill="#60A5FA"/>
+    <path d="M60 420 L60 260 Q150 200 240 260 L240 420 Z" fill="#7C9CBF"/>
+  </svg>
+  <!-- まわりに大量のPTP -->
+  ${ptp(220, 260, "#FDE68A", 8.0)}${ptp(260, 520, "#BFDBFE", 8.2)}${ptp(860, 240, "#F9A8D4", 8.4)}${ptp(900, 500, "#FFFFFF", 8.6)}${ptp(120, 400, "#A7F3D0", 8.8)}${ptp(1000, 380, "#FECACA", 9.0)}
+  <div class="a q qs" style="left:400px; top:180px; --d:9.3">?</div>
+  <div class="a q qs" style="left:820px; top:140px; --d:9.6">?</div>
+  <!-- 薬剤師の手が袋を差し出す -->
+  <div class="a hand">
+    <div class="bag" style="position:relative; left:0; top:0; animation:none; opacity:1; background:#fff"><b>朝</b><i style="left:50px; top:90px; background:#FDE68A; animation:none; opacity:1"></i><i style="left:110px; top:120px; background:#FFFFFF; animation:none; opacity:1"></i><i style="left:70px; top:160px; background:#BFDBFE; animation:none; opacity:1"></i></div>
+  </div>
+  <div class="a ok">✓</div>
+  <div class="a cap" style="top:120px; font-size:56px; --d:8.2">10種類を超える薬を飲む患者さんも珍しくありません</div>
+  <div class="a cap" style="top:860px; font-size:56px; --d:12.0">きちんと飲めるように整えるのも、薬剤師の仕事</div>
+</div>
 </body></html>`;
 
 async function render(page, html, name, seconds) {
@@ -211,5 +284,6 @@ async function render(page, html, name, seconds) {
   if (!which || which === "intro") await render(page, INTRO_HTML, "intro", 15);
   if (!which || which === "problem") await render(page, PROBLEM_HTML, "problem", 22);
   if (which === "greeting") await render(page, GREETING_HTML, "greeting", 6);
+  if (which === "ippouka") await render(page, IPPOUKA_HTML, "ippouka", 15);
   await b.close();
 })().catch((e) => { console.error(e); process.exit(1); });
