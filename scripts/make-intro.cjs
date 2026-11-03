@@ -261,6 +261,107 @@ const IPPOUKA_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
 </div>
 </body></html>`;
 
+
+/** 1包目が基準：120個の袋の上を光が走る → 1包目だけ拡大、残りが薄くなる → 「基準」、残りに「同じ？」✓ */
+function bagsGrid(delayStep, extraClass = "") {
+  let out = "";
+  for (let i = 0; i < 120; i++) {
+    const col = i % 20, row = Math.floor(i / 20);
+    out += `<div class="a bag ${extraClass}" style="left:${150 + col * 82}px; top:${300 + row * 62}px; --d:${(i * delayStep).toFixed(3)}; --i:${i}"></div>`;
+  }
+  return out;
+}
+const FIRSTBAG_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  body { background: #F8FAFC; color: #1E293B; }
+  .h { position: absolute; left: 150px; top: 120px; font-size: 60px; font-weight: 900; animation: slideIn .6s ease-out both; --d: 0; }
+  .bag { position: absolute; width: 64px; height: 48px; border-radius: 8px; background: #fff; border: 3px solid #94A3B8; box-shadow: 0 4px 10px rgba(0,0,0,.08); animation: none; }
+  .bag::after { content: ""; position: absolute; left: 10px; right: 10px; top: 12px; height: 6px; background: #CBD5E1; border-radius: 3px; }
+  .sweep { position: absolute; top: 280px; width: 160px; height: 400px; background: linear-gradient(90deg, rgba(251,191,36,0) 0%, rgba(251,191,36,.55) 50%, rgba(251,191,36,0) 100%); animation: sweep 2.2s linear both; --d: 0.6; }
+  @keyframes sweep { from { left: 60px; } to { left: 1700px; } }
+  .rest { animation: dim .8s ease-out both; --d: 3.4; }
+  @keyframes dim { to { opacity: .22; } }
+  .first { position: absolute; left: 150px; top: 300px; width: 64px; height: 48px; border-radius: 8px; background: #fff; border: 3px solid #B45309; transform-origin: 0 0; animation: grow 1s cubic-bezier(.2,.9,.3,1) both; --d: 3.4; box-shadow: 0 10px 30px rgba(0,0,0,.15); }
+  .first::after { content: ""; position: absolute; left: 10px; right: 10px; top: 12px; height: 6px; background: #CBD5E1; border-radius: 3px; }
+  @keyframes grow { to { transform: translate(120px, 0) scale(5); } }
+  .label { position: absolute; left: 740px; top: 330px; font-size: 64px; font-weight: 900; color: #B45309; animation: slideIn .6s ease-out both; --d: 4.4; }
+  .label small { display: block; font-size: 36px; color: #475569; font-weight: 700; margin-top: 10px; }
+  .clock { position: absolute; left: 560px; top: 300px; width: 70px; height: 70px; border-radius: 50%; border: 6px solid #B45309; background: #fff; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; --d: 4.0; }
+  .clock::before { content: ""; position: absolute; left: 50%; top: 10px; width: 5px; height: 26px; background: #B45309; transform-origin: 50% 100%; margin-left: -2px; animation: tick 2s linear infinite; }
+  @keyframes tick { to { transform: rotate(360deg); } }
+  .same { position: absolute; left: 740px; top: 560px; font-size: 40px; font-weight: 700; color: #334155; animation: slideIn .6s ease-out both; --d: 6.2; }
+  .checks { position: absolute; left: 740px; top: 640px; display: flex; gap: 14px; }
+  .checks i { width: 64px; height: 48px; border-radius: 8px; background: #fff; border: 3px solid #94A3B8; position: relative; animation: pop .35s cubic-bezier(.2,1.6,.4,1) both; }
+  .checks i::after { content: "✓"; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #16A34A; font-weight: 900; font-size: 30px; }
+  .cap { position: absolute; left: 150px; right: 150px; top: 880px; font-size: 48px; font-weight: 700; animation: slideIn .6s ease-out both; }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes pop { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: scale(1); } }
+</style></head><body>
+  <div class="a h">その全部を、目で確かめます</div>
+  <div class="a rest stage">${bagsGrid(0)}</div>
+  <div class="a sweep"></div>
+  <div class="a first"></div>
+  <div class="a clock"></div>
+  <div class="a label">1包目が、基準<small>いちばん時間がかかる</small></div>
+  <div class="a same">残りは「1包目と同じか」を見ていく</div>
+  <div class="checks">${[0,1,2,3,4,5,6,7,8,9,10,11].map((i)=>`<i class="a" style="--d:${(6.6+i*0.18).toFixed(2)}"></i>`).join("")}</div>
+  <div class="a cap" style="--d:8.6">ここが基準になり、残りはそれと同じかを見ていきます</div>
+</body></html>`;
+
+/** 締め：錠剤3つが袋に収まり ✓ → 言葉が1行ずつ → スマホ → タイトル → クレジット */
+const CLOSING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  body { background: #0B1220; color: #F8FAFC; }
+  .pill { position: absolute; width: 150px; height: 150px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff 0%, #ECEDE8 55%, #CFD2CA 100%); box-shadow: 0 20px 50px rgba(0,0,0,.5); display: flex; align-items: center; justify-content: center; font: 700 34px ui-monospace, monospace; color: #475569; animation: gather 1.2s cubic-bezier(.2,.9,.3,1) both; }
+  @keyframes gather { from { transform: translate(var(--fx), var(--fy)) scale(1); } to { transform: translate(0, 0) scale(.55); } }
+  .bag { position: absolute; left: 810px; top: 300px; width: 300px; height: 360px; border-radius: 24px; border: 5px solid #94A3B8; background: rgba(255,255,255,.06); animation: pop .6s cubic-bezier(.2,1.4,.4,1) both; --d: .2; }
+  .bag::before { content: ""; position: absolute; left: 20px; right: 20px; top: 20px; height: 12px; border-radius: 6px; background: #94A3B8; }
+  .ok { position: absolute; left: 1080px; top: 250px; width: 110px; height: 110px; border-radius: 50%; background: #16A34A; color: #fff; font-size: 80px; font-weight: 900; display: flex; align-items: center; justify-content: center; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; --d: 2.0; box-shadow: 0 10px 30px rgba(0,0,0,.4); }
+  .group { animation: fadeOut .6s ease-in both; --d: 4.2; }
+  .line { position: absolute; left: 0; right: 0; text-align: center; font-weight: 900; animation: slideIn .8s cubic-bezier(.2,.9,.3,1) both; }
+  .l1 { top: 300px; font-size: 92px; --d: 4.8; }
+  .l2 { top: 440px; font-size: 64px; font-weight: 700; color: #CBD5E1; --d: 5.8; }
+  .l3 { top: 600px; font-size: 54px; font-weight: 700; color: #FBBF24; --d: 7.0; }
+  .words { animation: fadeOut .6s ease-in both; --d: 10.2; }
+  .phone { position: absolute; left: 860px; top: 200px; width: 200px; height: 400px; border-radius: 34px; border: 8px solid #E2E8F0; background: #0F172A; animation: phoneIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 10.6; overflow: hidden; }
+  .phone i { position: absolute; left: 18px; right: 18px; height: 54px; border-radius: 10px; background: #1E293B; border: 2px solid #334155; }
+  .phone b { position: absolute; width: 28px; height: 28px; border-radius: 50%; background: #F1F5F9; }
+  @keyframes phoneIn { from { opacity: 0; transform: translateY(60px) scale(.9); } to { opacity: 1; transform: translateY(0) scale(1); } }
+  .l4 { top: 640px; font-size: 54px; color: #E2E8F0; --d: 11.4; }
+  .title { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 14.0; }
+  .title h1 { font-size: 140px; font-weight: 900; letter-spacing: .04em; }
+  .title .bar { width: 0; height: 10px; background: #FBBF24; margin: 30px 0; animation: grow .8s ease-out both; --d: 14.7; }
+  .credit { position: absolute; left: 140px; right: 140px; bottom: 60px; display: flex; justify-content: space-between; font-size: 30px; color: #94A3B8; animation: slideIn .8s ease-out both; --d: 15.4; }
+  .final { animation: fadeOut .6s ease-in both; --d: 13.6; }
+  @keyframes pop { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: scale(1); } }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+  @keyframes titleIn { from { opacity: 0; transform: scale(.92); } to { opacity: 1; transform: scale(1); } }
+  @keyframes grow { from { width: 0; } to { width: 420px; } }
+</style></head><body>
+  <div class="a group stage">
+    <div class="a bag"></div>
+    <div class="a pill" style="left:900px; top:420px; --fx:-620px; --fy:-220px; --d:.5">TYP0.5</div>
+    <div class="a pill" style="left:880px; top:470px; --fx:0px; --fy:-380px; --d:.8">GS 13</div>
+    <div class="a pill" style="left:930px; top:500px; --fx:640px; --fy:-200px; --d:1.1">Tw141</div>
+    <div class="a ok">✓</div>
+  </div>
+  <div class="a words stage">
+    <div class="a line l1">判断するのは、薬剤師。</div>
+    <div class="a line l2">アプリは、調べる手間を減らす道具。</div>
+    <div class="a line l3">大きな機械は、いりません。</div>
+  </div>
+  <div class="a final stage">
+    <div class="a phone"><i style="top:30px"></i><i style="top:100px"></i><i style="top:170px"></i><b style="left:40px; top:250px"></b><b style="left:86px; top:250px"></b><b style="left:132px; top:250px"></b><b style="left:62px; top:300px"></b><b style="left:110px; top:300px"></b></div>
+    <div class="a line l4">どの施設でも、どんな場所でも、手元のスマホで。</div>
+  </div>
+  <div class="a title">
+    <h1>一包化監査アシスト</h1>
+    <div class="a bar"></div>
+  </div>
+  <div class="a credit"><span>Built with Claude: Japan 2026</span><span>VOICEVOX:もち子(cv 明日葉よもぎ)</span></div>
+</body></html>`;
+
 async function render(page, html, name, seconds) {
   const dir = path.join(OUT, name); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   await page.setContent(html, { waitUntil: "load" });
@@ -285,5 +386,7 @@ async function render(page, html, name, seconds) {
   if (!which || which === "problem") await render(page, PROBLEM_HTML, "problem", 22);
   if (which === "greeting") await render(page, GREETING_HTML, "greeting", 6);
   if (which === "ippouka") await render(page, IPPOUKA_HTML, "ippouka", 15);
+  if (which === "firstbag") await render(page, FIRSTBAG_HTML, "firstbag", 11);
+  if (which === "closing") await render(page, CLOSING_HTML, "closing", 18);
   await b.close();
 })().catch((e) => { console.error(e); process.exit(1); });
