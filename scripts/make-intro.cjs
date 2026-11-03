@@ -167,23 +167,20 @@ const GREETING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
       <path d="M452 395 Q520 300 560 190" fill="none" stroke="#FFFFFF" stroke-width="64" stroke-linecap="round"/>
       <circle cx="562" cy="170" r="36" fill="#F6D2B5"/>
     </g>
-    <!-- 後ろ髪（長い・紫） -->
-    <path d="M190 230 Q150 420 170 620 Q230 640 250 560 L250 330 Z" fill="#6D5A8E"/>
-    <path d="M430 230 Q470 420 450 620 Q390 640 370 560 L370 330 Z" fill="#6D5A8E"/>
+    <!-- 後ろ髪（茶色、ミディアム：肩に少しかかる） -->
+    <path d="M196 230 Q176 360 206 430 Q250 440 262 400 L262 320 Z" fill="#6B4A2F"/>
+    <path d="M424 230 Q444 360 414 430 Q370 440 358 400 L358 320 Z" fill="#6B4A2F"/>
     <!-- 首・顔 -->
     <rect x="280" y="330" width="60" height="70" rx="20" fill="#F6D2B5"/>
     <circle cx="310" cy="240" r="120" fill="#F6D2B5"/>
-    <!-- 前髪（紫、斜めに流す） -->
-    <path d="M190 240 Q195 95 310 100 Q425 95 430 240 Q400 170 330 175 Q300 150 270 190 Q240 215 190 240 Z" fill="#7B6AA0"/>
-    <path d="M300 150 Q360 150 410 200 Q380 180 330 190 Z" fill="#8C7BB0"/>
+    <!-- 前髪（茶色、斜めに流す） -->
+    <path d="M190 240 Q195 95 310 100 Q425 95 430 240 Q405 165 335 172 Q300 150 268 190 Q238 214 190 240 Z" fill="#7A5638"/>
+    <path d="M300 150 Q365 150 412 205 Q380 182 332 190 Z" fill="#8B6442"/>
     <!-- 目（閉じて微笑む）・口・ほほ -->
     <path d="M250 250 Q268 236 286 250" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
     <path d="M334 250 Q352 236 370 250" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
     <path d="M284 292 Q310 314 336 292" fill="none" stroke="#1E293B" stroke-width="7" stroke-linecap="round"/>
     <circle cx="245" cy="282" r="14" fill="#F9A8A8" opacity=".7"/><circle cx="375" cy="282" r="14" fill="#F9A8A8" opacity=".7"/>
-    <!-- イヤリング -->
-    <circle cx="196" cy="300" r="5" fill="#D4B106"/><circle cx="196" cy="318" r="9" fill="#9F7AEA"/>
-    <circle cx="424" cy="300" r="5" fill="#D4B106"/><circle cx="424" cy="318" r="9" fill="#9F7AEA"/>
     <!-- 名札 -->
     <rect x="360" y="470" width="80" height="44" rx="8" fill="#FDE68A" stroke="#D4B106" stroke-width="3"/>
   </svg>
