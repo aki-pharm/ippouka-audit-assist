@@ -524,8 +524,8 @@ const WHY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .pill .back { transform: rotateY(180deg); }
   @keyframes flip { from { transform: rotateY(0); } to { transform: rotateY(180deg); } }
   .tag { position: absolute; padding: 6px 16px; border-radius: 999px; background: #FEF3C7; color: #B45309; font-size: 28px; font-weight: 900; border: 3px solid #F59E0B; animation: pop .4s cubic-bezier(.2,1.6,.4,1) both; }
-  .reason { position: absolute; left: 36px; right: 36px; font-size: 32px; line-height: 1.45; color: #475569; animation: slideIn .5s ease-out both; }
-  .big { position: absolute; left: 36px; bottom: 36px; font-size: 150px; font-weight: 900; line-height: 1; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
+  .reason { position: absolute; left: 36px; right: 36px; font-size: 30px; line-height: 1.4; white-space: nowrap; color: #475569; animation: slideIn .5s ease-out both; }
+  .big { position: absolute; right: 40px; bottom: 30px; font-size: 150px; font-weight: 900; line-height: 1; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
   .left .big { color: #DC2626; --d: 5.8; } .right .big { color: #16A34A; --d: 11.2; }
   .rx { position: absolute; left: 40px; top: 120px; width: 150px; height: 200px; background: #fff; border: 3px solid #94A3B8; border-radius: 8px; animation: pop .4s ease-out both; --d: 7.6; }
   .rx i { position: absolute; left: 14px; right: 14px; height: 8px; background: #CBD5E1; border-radius: 4px; }
@@ -550,7 +550,7 @@ const WHY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
     <div class="a reason" style="top:360px; --d:3.8">・裏を向けば、刻印は見えない</div>
     <div class="a reason" style="top:410px; --d:4.3">・撮り方と光で、結果が変わる</div>
     <div class="a reason" style="top:460px; --d:4.8">・同じ色・同じ大きさは、全部「要確認」</div>
-    <div class="a reason" style="top:510px; --d:5.3">・専用の機械は大型で高価。使える施設が限られる</div>
+    <div class="a reason" style="top:510px; --d:5.3">・専用機は大型で高価。使える施設が限られる</div>
     <div class="a big">✗</div>
   </div>
   <div class="a col right">
@@ -563,7 +563,7 @@ const WHY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
     </div>
     <div class="a arrow" style="left:515px; top:190px; --d:9.4">→</div>
     <svg class="a eye" viewBox="0 0 150 90"><path d="M5 45 Q75 -15 145 45 Q75 105 5 45 Z" fill="#fff" stroke="#1E293B" stroke-width="6"/><circle cx="75" cy="45" r="22" fill="#1E293B"/><circle cx="83" cy="38" r="7" fill="#fff"/></svg>
-    <div class="a reason" style="top:360px; --d:10.0">・袋を読むのではなく、「入っているはずの錠剤」を先に示す</div>
+    <div class="a reason" style="top:360px; --d:10.0">・袋を読まず「入っているはずの錠剤」を先に示す</div>
     <div class="a reason" style="top:430px; --d:10.5">・刻印・形・色・大きさを、添付文書から</div>
     <div class="a reason" style="top:500px; --d:11.0">・判定するのは、薬剤師の目</div>
     <div class="a big">✓</div>
