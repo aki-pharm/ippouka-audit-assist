@@ -10,7 +10,7 @@ const { execFileSync } = require("child_process");
 
 const FPS = 30;
 const FONT_DIR = path.resolve("node_modules/@fontsource/noto-sans-jp/files");
-const FONT_CSS = ["400", "700", "900"]
+const FONT_CSS = ["400", "700"]
   .map((w) => fs.readFileSync(path.join(FONT_DIR, "..", `${w}.css`), "utf8").replace(/url\(\.\/files\//g, `url(file://${FONT_DIR}/`))
   .join("\n");
 const OUT = "captures/anim";
@@ -46,17 +46,17 @@ const INTRO_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .score { position: absolute; left: 50%; top: 10%; bottom: 10%; width: 3px; background: rgba(71,85,105,.45); transform: translateX(-50%); }
   @keyframes pop { from { opacity: 0; transform: translateY(80px) scale(.6); } to { opacity: 1; transform: translateY(0) scale(1); } }
   @keyframes flip { from { transform: rotateY(0deg); } to { transform: rotateY(180deg); } }
-  .line { position: absolute; left: 0; right: 0; text-align: center; font-weight: 900; }
+  .line { position: absolute; left: 0; right: 0; text-align: center; font-weight: 700; }
   .q1 { top: 150px; font-size: 92px; animation: slideIn .8s cubic-bezier(.2,.9,.3,1) both; --d: 2.6; }
   .q2 { top: 270px; font-size: 92px; animation: slideIn .8s cubic-bezier(.2,.9,.3,1) both; --d: 3.4; }
   .q3 { top: 860px; font-size: 54px; font-weight: 400; color: #CBD5E1; animation: slideIn .8s ease-out both; --d: 7.2; }
   @keyframes slideIn { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
-  .qmark { position: absolute; font-size: 120px; font-weight: 900; color: #FBBF24; animation: qpop .5s cubic-bezier(.2,1.6,.4,1) both; text-shadow: 0 10px 30px rgba(0,0,0,.5); }
+  .qmark { position: absolute; font-size: 120px; font-weight: 700; color: #FBBF24; animation: qpop .5s cubic-bezier(.2,1.6,.4,1) both; text-shadow: 0 10px 30px rgba(0,0,0,.5); }
   @keyframes qpop { from { opacity: 0; transform: scale(0) rotate(-20deg); } to { opacity: 1; transform: scale(1) rotate(0); } }
   .fade { animation: fadeOut .6s ease-in both; --d: 10.8; }
   @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
   .title { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 11.3; }
-  .title h1 { font-size: 140px; font-weight: 900; letter-spacing: .04em; }
+  .title h1 { font-size: 140px; font-weight: 700; letter-spacing: .04em; }
   .title .bar { width: 0; height: 10px; background: #FBBF24; margin: 30px 0; animation: grow .8s ease-out both; --d: 12.0; }
   .title p { font-size: 48px; color: #CBD5E1; animation: slideIn .8s ease-out both; --d: 12.4; }
   @keyframes titleIn { from { opacity: 0; transform: scale(.92); } to { opacity: 1; transform: scale(1); } }
@@ -93,11 +93,11 @@ const PROBLEM_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   ${BASE_CSS}
   body { background: #F8FAFC; color: #1E293B; }
   .kicker { position: absolute; left: 150px; top: 90px; font-size: 36px; font-weight: 700; color: #B45309; letter-spacing: .08em; animation: slideIn .6s ease-out both; --d: 0; }
-  .h { position: absolute; left: 150px; top: 140px; font-size: 60px; white-space: nowrap; font-weight: 900; animation: slideIn .8s ease-out both; --d: .2; }
+  .h { position: absolute; left: 150px; top: 140px; font-size: 60px; white-space: nowrap; font-weight: 700; animation: slideIn .8s ease-out both; --d: .2; }
   .bag { position: absolute; width: 64px; height: 48px; border-radius: 8px; background: #fff; border: 3px solid #94A3B8; box-shadow: 0 4px 10px rgba(0,0,0,.08); animation: bagIn .35s cubic-bezier(.2,1.4,.4,1) both; }
   .bag::after { content: ""; position: absolute; left: 10px; right: 10px; top: 12px; height: 6px; background: #CBD5E1; border-radius: 3px; }
   @keyframes bagIn { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: scale(1); } }
-  .count { position: absolute; left: 150px; top: 700px; font-size: 120px; font-weight: 900; color: #B45309; animation: slideIn .6s ease-out both; --d: 5.6; }
+  .count { position: absolute; left: 150px; top: 700px; font-size: 120px; font-weight: 700; color: #B45309; animation: slideIn .6s ease-out both; --d: 5.6; }
   .count small { font-size: 48px; color: #475569; font-weight: 700; margin-left: 20px; }
   .first { position: absolute; left: 150px; top: 300px; width: 64px; height: 48px; border-radius: 8px; border: 6px solid #B45309; box-shadow: 0 0 0 12px rgba(180,83,9,.25); animation: ring .8s ease-out both; --d: 7.0; }
   @keyframes ring { from { opacity: 0; transform: scale(2); } to { opacity: 1; transform: scale(1); } }
@@ -140,7 +140,7 @@ const GREETING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   @keyframes wave { 0%,100% { transform: rotate(-8deg); } 50% { transform: rotate(22deg); } }
   .eye { transform-origin: center; animation: blink 3.2s ease-in-out infinite; }
   @keyframes blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
-  .bubble { position: absolute; left: 980px; top: 620px; background: #fff; border-radius: 40px; padding: 34px 54px; font-size: 64px; font-weight: 900; box-shadow: 0 14px 40px rgba(0,0,0,.12); animation: pop .6s cubic-bezier(.2,1.5,.4,1) both; --d: 0.8; }
+  .bubble { position: absolute; left: 980px; top: 620px; background: #fff; border-radius: 40px; padding: 34px 54px; font-size: 64px; font-weight: 700; box-shadow: 0 14px 40px rgba(0,0,0,.12); animation: pop .6s cubic-bezier(.2,1.5,.4,1) both; --d: 0.8; }
   .bubble::before { content: ""; position: absolute; left: -26px; top: 60px; border: 22px solid transparent; border-right-color: #fff; }
   .cap { position: absolute; left: 0; right: 0; bottom: 60px; text-align: center; font-size: 46px; font-weight: 700; color: #334155; animation: slideIn .7s ease-out both; --d: 1.6; }
   @keyframes pop { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: scale(1); } }
@@ -203,10 +203,10 @@ const IPPOUKA_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   @keyframes fly { 0% { transform: translate(0,0) scale(1); opacity: 1; } 100% { transform: translate(var(--dx), var(--dy)) scale(.9); opacity: 1; } }
   .bag { position: absolute; width: 200px; height: 240px; border-radius: 16px; background: rgba(255,255,255,.75); border: 4px solid #94A3B8; animation: pop .6s cubic-bezier(.2,1.4,.4,1) both; }
   .bag::before { content: ""; position: absolute; left: 14px; right: 14px; top: 14px; height: 10px; border-radius: 5px; background: #CBD5E1; }
-  .bag b { position: absolute; left: 0; right: 0; top: 30px; text-align: center; font-size: 34px; font-weight: 900; color: #334155; }
+  .bag b { position: absolute; left: 0; right: 0; top: 30px; text-align: center; font-size: 34px; font-weight: 700; color: #334155; }
   .bag i { position: absolute; width: 38px; height: 32px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,.15); animation: pop .4s ease-out both; }
   @keyframes pop { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: scale(1); } }
-  .cap { position: absolute; left: 0; right: 0; text-align: center; font-weight: 900; animation: slideIn .7s ease-out both; }
+  .cap { position: absolute; left: 0; right: 0; text-align: center; font-weight: 700; animation: slideIn .7s ease-out both; }
   @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
   @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
   @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
@@ -216,11 +216,11 @@ const IPPOUKA_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
   .mouthSad { animation: fadeOut .3s both; --d: 11.4; } .mouthHappy { animation: fadeIn .3s both; --d: 11.4; }
   .sweat { animation: fadeOut .3s both; --d: 11.4; }
-  .q { position: absolute; font-size: 90px; font-weight: 900; color: #B45309; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
+  .q { position: absolute; font-size: 90px; font-weight: 700; color: #B45309; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
   .qs { animation: fadeOut .3s both; --d: 11.3; }
   .hand { position: absolute; left: 1250px; top: 420px; animation: hand 1.2s ease-out both; --d: 10.4; }
   @keyframes hand { from { transform: translateX(260px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
-  .ok { position: absolute; left: 1310px; top: 290px; font-size: 100px; color: #16A34A; font-weight: 900; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; --d: 11.6; }
+  .ok { position: absolute; left: 1310px; top: 290px; font-size: 100px; color: #16A34A; font-weight: 700; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; --d: 11.6; }
 </style></head><body>
 <div class="a s1 stage">
   ${ptp(200, 330, "#FDE68A", 0.2)}${ptp(400, 330, "#FFFFFF", 0.4)}${ptp(600, 330, "#F9A8D4", 0.6)}${ptp(800, 330, "#BFDBFE", 0.8)}
@@ -274,7 +274,7 @@ function bagsGrid(delayStep, extraClass = "") {
 const FIRSTBAG_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   ${BASE_CSS}
   body { background: #F8FAFC; color: #1E293B; }
-  .h { position: absolute; left: 150px; top: 120px; font-size: 60px; font-weight: 900; animation: slideIn .6s ease-out both; --d: 0; }
+  .h { position: absolute; left: 150px; top: 120px; font-size: 60px; font-weight: 700; animation: slideIn .6s ease-out both; --d: 0; }
   .bag { position: absolute; width: 64px; height: 48px; border-radius: 8px; background: #fff; border: 3px solid #94A3B8; box-shadow: 0 4px 10px rgba(0,0,0,.08); animation: none; }
   .bag::after { content: ""; position: absolute; left: 10px; right: 10px; top: 12px; height: 6px; background: #CBD5E1; border-radius: 3px; }
   .sweep { position: absolute; top: 280px; width: 160px; height: 400px; background: linear-gradient(90deg, rgba(251,191,36,0) 0%, rgba(251,191,36,.55) 50%, rgba(251,191,36,0) 100%); animation: sweep 2.2s linear both, fadeOut .4s ease-in both; animation-delay: calc((0.6 - var(--t)) * 1s), calc((2.8 - var(--t)) * 1s) !important; }
@@ -285,7 +285,7 @@ const FIRSTBAG_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .first { position: absolute; left: 150px; top: 300px; width: 64px; height: 48px; border-radius: 8px; background: #fff; border: 3px solid #B45309; transform-origin: 0 0; animation: grow 1s cubic-bezier(.2,.9,.3,1) both; --d: 3.4; box-shadow: 0 10px 30px rgba(0,0,0,.15); }
   .first::after { content: ""; position: absolute; left: 10px; right: 10px; top: 12px; height: 6px; background: #CBD5E1; border-radius: 3px; }
   @keyframes grow { to { transform: translate(120px, 0) scale(5); } }
-  .label { position: absolute; left: 740px; top: 330px; font-size: 64px; font-weight: 900; color: #B45309; animation: slideIn .6s ease-out both; --d: 4.4; }
+  .label { position: absolute; left: 740px; top: 330px; font-size: 64px; font-weight: 700; color: #B45309; animation: slideIn .6s ease-out both; --d: 4.4; }
   .label small { display: block; font-size: 36px; color: #475569; font-weight: 700; margin-top: 10px; }
   .clock { position: absolute; left: 560px; top: 300px; width: 70px; height: 70px; border-radius: 50%; border: 6px solid #B45309; background: #fff; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; --d: 4.0; }
   .clock::before { content: ""; position: absolute; left: 50%; top: 10px; width: 5px; height: 26px; background: #B45309; transform-origin: 50% 100%; margin-left: -2px; animation: tick 2s linear infinite; }
@@ -293,7 +293,7 @@ const FIRSTBAG_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .same { position: absolute; left: 740px; top: 560px; font-size: 40px; font-weight: 700; color: #334155; animation: slideIn .6s ease-out both; --d: 6.2; }
   .checks { position: absolute; left: 740px; top: 640px; display: flex; gap: 14px; }
   .checks i { width: 64px; height: 48px; border-radius: 8px; background: #fff; border: 3px solid #94A3B8; position: relative; animation: pop .35s cubic-bezier(.2,1.6,.4,1) both; }
-  .checks i::after { content: "✓"; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #16A34A; font-weight: 900; font-size: 30px; }
+  .checks i::after { content: "✓"; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #16A34A; font-weight: 700; font-size: 30px; }
   .cap { position: absolute; left: 150px; right: 150px; top: 880px; font-size: 48px; font-weight: 700; animation: slideIn .6s ease-out both; }
   @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
   @keyframes pop { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: scale(1); } }
@@ -317,9 +317,9 @@ const CLOSING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   @keyframes gather { from { transform: translate(var(--fx), var(--fy)) scale(1); } to { transform: translate(0, 0) scale(.55); } }
   .bag { position: absolute; left: 810px; top: 300px; width: 300px; height: 360px; border-radius: 24px; border: 5px solid #94A3B8; background: rgba(255,255,255,.06); animation: pop .6s cubic-bezier(.2,1.4,.4,1) both; --d: .2; }
   .bag::before { content: ""; position: absolute; left: 20px; right: 20px; top: 20px; height: 12px; border-radius: 6px; background: #94A3B8; }
-  .ok { position: absolute; left: 1080px; top: 250px; width: 110px; height: 110px; border-radius: 50%; background: #16A34A; color: #fff; font-size: 80px; font-weight: 900; display: flex; align-items: center; justify-content: center; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; --d: 2.0; box-shadow: 0 10px 30px rgba(0,0,0,.4); }
+  .ok { position: absolute; left: 1080px; top: 250px; width: 110px; height: 110px; border-radius: 50%; background: #16A34A; color: #fff; font-size: 80px; font-weight: 700; display: flex; align-items: center; justify-content: center; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; --d: 2.0; box-shadow: 0 10px 30px rgba(0,0,0,.4); }
   .group { animation: fadeOut .6s ease-in both; --d: 4.2; }
-  .line { position: absolute; left: 0; right: 0; text-align: center; font-weight: 900; animation: slideIn .8s cubic-bezier(.2,.9,.3,1) both; }
+  .line { position: absolute; left: 0; right: 0; text-align: center; font-weight: 700; animation: slideIn .8s cubic-bezier(.2,.9,.3,1) both; }
   .l1 { top: 300px; font-size: 92px; --d: 4.8; }
   .l2 { top: 440px; font-size: 64px; font-weight: 700; color: #CBD5E1; --d: 5.8; }
   .l3 { top: 600px; font-size: 54px; font-weight: 700; color: #FBBF24; --d: 7.0; }
@@ -331,7 +331,7 @@ const CLOSING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .l4 { top: 640px; font-size: 54px; color: #E2E8F0; --d: 11.4; }
   .l5 { top: 730px; font-size: 54px; color: #FBBF24; --d: 12.6; }
   .title { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 15.2; }
-  .title h1 { font-size: 140px; font-weight: 900; letter-spacing: .04em; }
+  .title h1 { font-size: 140px; font-weight: 700; letter-spacing: .04em; }
   .title .bar { width: 0; height: 10px; background: #FBBF24; margin: 30px 0; animation: grow .8s ease-out both; --d: 15.9; }
   .credit { position: absolute; left: 140px; right: 140px; bottom: 60px; display: flex; justify-content: space-between; font-size: 30px; color: #94A3B8; animation: slideIn .8s ease-out both; --d: 16.6; }
   .final { animation: fadeOut .6s ease-in both; --d: 14.8; }
@@ -369,8 +369,12 @@ const CLOSING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
 /** 新人薬剤師：白い錠剤の山を前に汗、「?」 */
 function whitePile() {
   let out = ""; const seed = [0.13,0.71,0.42,0.88,0.27,0.59,0.95,0.05,0.66,0.34,0.81,0.19,0.48,0.76,0.23,0.9,0.37,0.62,0.08,0.54,0.29,0.84,0.45,0.72];
-  for (let i = 0; i < 24; i++) { const x = 980 + seed[i] * 620, y = 420 + seed[(i * 7) % 24] * 300, r = 44 + seed[(i * 3) % 24] * 30;
-    out += `<div class="a wp" style="left:${x.toFixed(0)}px; top:${y.toFixed(0)}px; width:${r.toFixed(0)}px; height:${r.toFixed(0)}px; --d:${(0.4 + i * 0.07).toFixed(2)}"></div>`; }
+  const tints = ["#FFFFFF","#FFFFFF","#FBF7EA","#FFFFFF","#F3F4F6","#FFF9E6","#FFFFFF","#FDF2F8"];
+  for (let i = 0; i < 24; i++) { const x = 960 + seed[i] * 640, y = 420 + seed[(i * 7) % 24] * 300, r = 44 + seed[(i * 3) % 24] * 30;
+    const kind = i % 5; // 0,1,2: 丸 / 3: 楕円 / 4: 長円
+    const w = kind === 3 ? r * 1.6 : kind === 4 ? r * 2.1 : r, h = kind === 4 ? r * 0.9 : r;
+    const radius = kind === 4 ? `${h / 2}px` : "50%";
+    out += `<div class="a wp" style="left:${x.toFixed(0)}px; top:${y.toFixed(0)}px; width:${w.toFixed(0)}px; height:${h.toFixed(0)}px; border-radius:${radius}; background: radial-gradient(circle at 35% 30%, #fff 0%, ${tints[i % tints.length]} 55%, #CFD2CA 100%); --d:${(0.4 + i * 0.07).toFixed(2)}"></div>`; }
   return out;
 }
 const NEWBIE_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
@@ -383,9 +387,9 @@ const NEWBIE_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
   .sweat { animation: sweatDrop 1.4s ease-in infinite; transform-origin: center; }
   @keyframes sweatDrop { 0% { transform: translateY(0); opacity: 1; } 100% { transform: translateY(40px); opacity: 0; } }
-  .q { position: absolute; font-size: 110px; font-weight: 900; color: #B45309; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
+  .q { position: absolute; font-size: 110px; font-weight: 700; color: #B45309; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
   @keyframes pop { from { opacity: 0; transform: scale(0) rotate(-15deg); } to { opacity: 1; transform: scale(1) rotate(0); } }
-  .cap { position: absolute; left: 0; right: 0; top: 90px; text-align: center; font-size: 60px; font-weight: 900; animation: slideIn .7s ease-out both; --d: 2.6; }
+  .cap { position: absolute; left: 0; right: 0; top: 90px; text-align: center; font-size: 60px; font-weight: 700; animation: slideIn .7s ease-out both; --d: 2.6; }
   @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
 </style></head><body>
   <div class="counter"></div>
@@ -427,7 +431,7 @@ const VARIETY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-3840px); } }
   .tab { flex: none; display: flex; align-items: center; justify-content: center; font: 700 30px ui-monospace, monospace; color: #475569; box-shadow: 0 14px 30px rgba(0,0,0,.45); }
   .tab.r { border-radius: 50%; } .tab.o { border-radius: 50%; } .tab.c { border-radius: 60px; }
-  .cap { position: absolute; left: 0; right: 0; top: 440px; text-align: center; font-size: 72px; font-weight: 900; text-shadow: 0 6px 30px rgba(0,0,0,.8); animation: slideIn .8s ease-out both; --d: 1.2; }
+  .cap { position: absolute; left: 0; right: 0; top: 440px; text-align: center; font-size: 72px; font-weight: 700; text-shadow: 0 6px 30px rgba(0,0,0,.8); animation: slideIn .8s ease-out both; --d: 1.2; }
   .sub { position: absolute; left: 0; right: 0; top: 560px; text-align: center; font-size: 46px; color: #CBD5E1; text-shadow: 0 6px 30px rgba(0,0,0,.8); animation: slideIn .8s ease-out both; --d: 2.4; }
   @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
   .shade { position: absolute; left: 0; right: 0; top: 400px; height: 280px; background: rgba(11,18,32,.55); }
@@ -442,11 +446,11 @@ const VARIETY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
 const CLAUDE3_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   ${BASE_CSS}
   body { background: #F8FAFC; color: #1E293B; }
-  .h { position: absolute; left: 0; right: 0; top: 90px; text-align: center; font-size: 64px; font-weight: 900; animation: slideIn .6s ease-out both; --d: 0; }
+  .h { position: absolute; left: 0; right: 0; top: 90px; text-align: center; font-size: 64px; font-weight: 700; animation: slideIn .6s ease-out both; --d: 0; }
   .card { position: absolute; top: 260px; width: 520px; height: 560px; background: #fff; border: 4px solid #CBD5E1; border-radius: 28px; padding: 30px; animation: cardIn .7s cubic-bezier(.2,1.2,.4,1) both; box-shadow: 0 16px 40px rgba(0,0,0,.08); }
   @keyframes cardIn { from { opacity: 0; transform: translateY(80px) scale(.9); } to { opacity: 1; transform: translateY(0) scale(1); } }
-  .n { font-size: 44px; font-weight: 900; color: #B45309; }
-  .t { font-size: 38px; font-weight: 900; line-height: 1.3; margin: 6px 0 18px; }
+  .n { font-size: 44px; font-weight: 700; color: #B45309; }
+  .t { font-size: 34px; font-weight: 700; line-height: 1.3; margin: 6px 0 18px; white-space: nowrap; }
   .ill { position: relative; height: 300px; }
   .doc { position: absolute; left: 20px; top: 20px; width: 150px; height: 200px; background: #fff; border: 3px solid #94A3B8; border-radius: 8px; }
   .doc i { position: absolute; left: 14px; right: 14px; height: 8px; background: #CBD5E1; border-radius: 4px; }
@@ -465,55 +469,69 @@ const CLAUDE3_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
 </style></head><body>
   <div class="a h">Claude は、三つの場面で</div>
-  <div class="a card" style="left:140px; --d:0.6"><div class="n">1</div><div class="t">添付文書PDF → 外観マスタ</div>
+  <div class="a card" style="left:140px; --d:0.6"><div class="n">1</div><div class="t">添付文書 → 外観マスタ</div>
     <div class="ill"><div class="doc"><i style="top:20px"></i><i style="top:40px"></i><i style="top:60px; width:60%"></i><i style="top:100px"></i><i style="top:120px"></i></div><div class="arrow">→</div>
     <div class="table"><i class="a" style="--d:1.4"></i><i class="a k" style="--d:1.6"></i><i class="a" style="--d:1.8"></i><i class="a" style="--d:2.0"></i><i class="a k" style="--d:2.2"></i><i class="a" style="--d:2.4"></i></div></div></div>
   <div class="a card" style="left:700px; --d:2.6"><div class="n">2</div><div class="t">処方箋の写真 → 表</div>
     <div class="ill"><div class="photo"><i style="top:24px"></i><i style="top:60px; width:70%"></i><i style="top:96px"></i><i style="top:132px; width:50%"></i><i style="top:168px"></i></div><div class="arrow">→</div>
     <div class="table"><i class="a" style="--d:3.4"></i><i class="a" style="--d:3.6"></i><i class="a" style="--d:3.8"></i><i class="a" style="--d:4.0"></i><i class="a" style="--d:4.2"></i><i class="a" style="--d:4.4"></i></div></div></div>
-  <div class="a card" style="left:1260px; --d:4.6"><div class="n">3</div><div class="t">開発そのものを Claude Code で</div>
+  <div class="a card" style="left:1260px; --d:4.6"><div class="n">3</div><div class="t">開発そのものを<br>Claude Code で</div>
     <div class="ill"><div class="term"><div class="a" style="--d:5.2">$ npm run fetch-pdfs</div><div class="a" style="--d:5.6">✓ PMDA から 25 文書を取得</div><div class="a" style="--d:6.0">$ npm run extract -- ...</div><div class="a" style="--d:6.4">✓ data/drafts/... を書き出し</div><div class="a" style="--d:6.8">$ git commit -m "data: ..."</div></div></div></div>
   <div class="a note">推測で埋めず、読めなければ「未確認」。どれも人が確認してから使う</div>
 </body></html>`;
 
-/** 広がる：28個の錠剤の画面から、点が広がって増える */
-function dots() {
-  let out = ""; const seed=[0.1,0.9,0.3,0.7,0.5,0.2,0.8,0.4,0.6,0.15,0.85,0.35,0.65,0.25,0.75,0.45,0.55,0.05,0.95,0.12];
-  for (let i = 0; i < 140; i++) { const x = (seed[i % 20] * 1700 + seed[(i * 3) % 20] * 150) % 1800 + 60, y = (seed[(i * 7) % 20] * 900 + seed[(i*11)%20]*120) % 940 + 60;
-    out += `<i class="a" style="left:${x.toFixed(0)}px; top:${y.toFixed(0)}px; --d:${(2.2 + i * 0.04).toFixed(2)}"></i>`; }
-  return out;
+/** 広がる：自分の職場（28個の錠剤）から、薬局・病院がぽつぽつ現れ、線でつながって広がる */
+const SITES = [[300,420],[520,760],[760,300],[1120,220],[1380,380],[1600,640],[1250,800],[900,860],[1700,220],[420,220],[1500,900],[200,700]];
+function sites() {
+  return SITES.map(([x,y],i) => `<div class="a site ${i % 3 === 0 ? "hosp" : ""}" style="left:${x}px; top:${y}px; --d:${(2.4 + i * 0.45).toFixed(2)}"><i></i></div>`).join("");
+}
+function links() {
+  const [cx, cy] = [960, 540];
+  return SITES.map(([x,y],i) => { const len = Math.hypot(x + 40 - cx, y + 40 - cy).toFixed(0);
+    return `<line class="a" x1="${cx}" y1="${cy}" x2="${x + 40}" y2="${y + 40}" style="stroke-dasharray:${len}; stroke-dashoffset:${len}; --d:${(2.1 + i * 0.45).toFixed(2)}"/>`; }).join("");
 }
 const SPREAD_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   ${BASE_CSS}
   body { background: #0B1220; color: #F8FAFC; }
-  .grid { position: absolute; left: 560px; top: 250px; width: 800px; display: grid; grid-template-columns: repeat(7, 1fr); gap: 26px; animation: shrink 1.2s ease-in-out both; --d: 2.0; transform-origin: center; }
-  @keyframes shrink { to { transform: scale(.35); opacity: .35; } }
-  .grid i { width: 90px; height: 90px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff 0%, #ECEDE8 60%, #CFD2CA 100%); animation: pop .4s cubic-bezier(.2,1.5,.4,1) both; box-shadow: 0 10px 20px rgba(0,0,0,.4); }
-  .dots i { position: absolute; width: 26px; height: 26px; border-radius: 50%; background: #FBBF24; box-shadow: 0 0 30px rgba(251,191,36,.6); animation: pop .5s cubic-bezier(.2,1.5,.4,1) both; }
+  .home { position: absolute; left: 860px; top: 440px; width: 200px; height: 200px; border-radius: 24px; background: #1E293B; border: 4px solid #FBBF24; display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; padding: 18px; animation: pop .6s cubic-bezier(.2,1.4,.4,1) both; --d: .2; box-shadow: 0 0 60px rgba(251,191,36,.35); }
+  .home i { width: 16px; height: 16px; border-radius: 50%; background: #ECEDE8; animation: pop .3s ease-out both; }
+  .homeLabel { position: absolute; left: 0; right: 0; top: 660px; text-align: center; font-size: 36px; font-weight: 700; color: #FBBF24; animation: slideIn .6s ease-out both; --d: 1.2; }
+  svg.lines { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+  svg.lines line { stroke: #FBBF24; stroke-width: 3; opacity: .7; animation: draw .7s ease-out both; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  .site { position: absolute; width: 80px; height: 80px; border-radius: 16px; background: #fff; animation: pop .5s cubic-bezier(.2,1.5,.4,1) both; box-shadow: 0 10px 30px rgba(0,0,0,.4); }
+  .site::before { content: ""; position: absolute; left: 14px; right: 14px; top: 14px; height: 22px; background: #16A34A; border-radius: 6px; }
+  .site::after { content: ""; position: absolute; left: 30px; top: 44px; width: 20px; height: 28px; background: #CBD5E1; border-radius: 4px 4px 0 0; }
+  .site.hosp::before { background: #DC2626; }
+  .site.hosp i { position: absolute; left: 32px; top: 18px; width: 16px; height: 14px; background: #fff; }
+  .site.hosp i::before { content: ""; position: absolute; left: 6px; top: -4px; width: 4px; height: 22px; background: #fff; }
   @keyframes pop { from { opacity: 0; transform: scale(0); } to { opacity: 1; transform: scale(1); } }
-  .cap { position: absolute; left: 0; right: 0; top: 110px; text-align: center; font-size: 64px; font-weight: 900; animation: slideIn .7s ease-out both; }
-  .sub { position: absolute; left: 0; right: 0; top: 900px; text-align: center; font-size: 44px; color: #CBD5E1; animation: slideIn .7s ease-out both; --d: 5.0; }
+  .cap { position: absolute; left: 0; right: 0; top: 100px; text-align: center; font-size: 64px; font-weight: 700; }
+  .sub { position: absolute; left: 0; right: 0; top: 920px; text-align: center; font-size: 40px; color: #CBD5E1; animation: slideIn .7s ease-out both; --d: 6.2; }
   @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
   @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
 </style></head><body>
-  <div class="a cap" style="animation: slideIn .7s ease-out both, fadeOut .5s ease-in both; animation-delay: calc((0 - var(--t)) * 1s), calc((3.4 - var(--t)) * 1s) !important;">まず、自分の職場の採用品から</div>
-  <div class="a grid">${Array.from({length:28}).map((_,i)=>`<i class="a" style="--d:${(0.2+i*0.05).toFixed(2)}"></i>`).join("")}</div>
-  <div class="dots">${dots()}</div>
-  <div class="a cap" style="--d:4.0; top:110px; opacity:0; animation-name: slideIn">同じ手順で、施設の採用品に広げていける</div>
+  <div class="a cap" style="animation: slideIn .7s ease-out both, fadeOut .5s ease-in both; animation-delay: calc((0 - var(--t)) * 1s), calc((3.0 - var(--t)) * 1s) !important;">まず、自分の職場の採用医薬品から</div>
+  <div class="a cap" style="animation: slideIn .7s ease-out both; --d: 3.6;">同じ手順で、施設の採用医薬品に広げていける</div>
+  <svg class="lines" viewBox="0 0 1920 1080">${links()}</svg>
+  ${sites()}
+  <div class="a home">${Array.from({length:28}).map((_,i)=>`<i class="a" style="--d:${(0.5+i*0.03).toFixed(2)}"></i>`).join("")}</div>
+  <div class="a homeLabel">自分の職場（28品目、確認ずみ）</div>
   <div class="a sub">親マスタ（添付文書→外観）＋ 施設ごとの運用マスタ（採用品・一包化区分・分包方法）</div>
 </body></html>`;
+
 
 
 /** なぜカメラで判定しないのか：左「カメラ→判定」✗、右「処方箋→予想の図→薬剤師が判定」✓ */
 const WHY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   ${BASE_CSS}
   body { background: #F8FAFC; color: #1E293B; }
-  .h { position: absolute; left: 0; right: 0; top: 80px; text-align: center; font-size: 60px; font-weight: 900; animation: slideIn .6s ease-out both; --d: 0; }
+  .h { position: absolute; left: 0; right: 0; top: 80px; text-align: center; font-size: 60px; font-weight: 700; animation: slideIn .6s ease-out both; --d: 0; }
   .col { position: absolute; top: 220px; width: 800px; height: 700px; border-radius: 28px; padding: 36px; animation: cardIn .7s cubic-bezier(.2,1.2,.4,1) both; }
   .left { left: 120px; background: #fff; border: 4px solid #CBD5E1; --d: .6; }
   .right { left: 1000px; background: #fff; border: 4px solid #B45309; --d: 7.0; box-shadow: 0 16px 40px rgba(180,83,9,.15); }
   @keyframes cardIn { from { opacity: 0; transform: translateY(60px); } to { opacity: 1; transform: translateY(0); } }
-  .ct { font-size: 44px; font-weight: 900; margin-bottom: 20px; }
+  .ct { font-size: 44px; font-weight: 700; margin-bottom: 20px; }
   .left .ct { color: #64748B; } .right .ct { color: #B45309; }
   .cam { position: absolute; left: 60px; top: 130px; width: 150px; height: 100px; background: #334155; border-radius: 16px; }
   .cam::before { content: ""; position: absolute; left: 50px; top: 20px; width: 60px; height: 60px; border-radius: 50%; background: #0F172A; border: 8px solid #94A3B8; }
@@ -525,13 +543,13 @@ const WHY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .pill .face { position: absolute; inset: 0; border-radius: 50%; backface-visibility: hidden; background: radial-gradient(circle at 35% 30%, #fff 0%, #ECEDE8 60%, #CFD2CA 100%); box-shadow: 0 10px 20px rgba(0,0,0,.2); display: flex; align-items: center; justify-content: center; font: 700 26px ui-monospace, monospace; color: #475569; }
   .pill .back { transform: rotateY(180deg); }
   @keyframes flip { from { transform: rotateY(0); } to { transform: rotateY(180deg); } }
-  .tag { position: absolute; padding: 6px 16px; border-radius: 999px; background: #FEF3C7; color: #B45309; font-size: 28px; font-weight: 900; border: 3px solid #F59E0B; animation: pop .4s cubic-bezier(.2,1.6,.4,1) both; }
+  .tag { position: absolute; padding: 6px 16px; border-radius: 999px; background: #FEF3C7; color: #B45309; font-size: 28px; font-weight: 700; border: 3px solid #F59E0B; animation: pop .4s cubic-bezier(.2,1.6,.4,1) both; }
   .reason { position: absolute; left: 36px; right: 36px; font-size: 30px; line-height: 1.4; white-space: nowrap; color: #475569; animation: slideIn .5s ease-out both; }
-  .big { position: absolute; right: 40px; bottom: 30px; font-size: 150px; font-weight: 900; line-height: 1; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
+  .big { position: absolute; right: 40px; bottom: 30px; font-size: 150px; font-weight: 700; line-height: 1; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
   .left .big { color: #DC2626; --d: 5.8; } .right .big { color: #16A34A; --d: 11.2; }
   .rx { position: absolute; left: 40px; top: 120px; width: 150px; height: 200px; background: #fff; border: 3px solid #94A3B8; border-radius: 8px; animation: pop .4s ease-out both; --d: 7.6; }
   .rx i { position: absolute; left: 14px; right: 14px; height: 8px; background: #CBD5E1; border-radius: 4px; }
-  .arrow { position: absolute; font-size: 54px; color: #B45309; font-weight: 900; animation: pop .4s ease-out both; }
+  .arrow { position: absolute; font-size: 54px; color: #B45309; font-weight: 700; animation: pop .4s ease-out both; }
   .figure { position: absolute; left: 270px; top: 110px; width: 230px; height: 230px; border-radius: 20px; background: #F1F5F9; border: 3px solid #94A3B8; animation: pop .5s cubic-bezier(.2,1.4,.4,1) both; --d: 8.4; }
   .figure b { position: absolute; left: 0; right: 0; top: 8px; text-align: center; font-size: 22px; color: #334155; }
   .figure i { position: absolute; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff 0%, #ECEDE8 60%, #CFD2CA 100%); border: 3px solid #B45309; display: flex; align-items: center; justify-content: center; font: 700 16px ui-monospace, monospace; color: #475569; animation: pop .3s ease-out both; }
@@ -572,6 +590,19 @@ const WHY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   </div>
 </body></html>`;
 
+
+/** 締め（短い版）：スマホ → 「どの施設でも…」「経験の差に…」→ タイトル → クレジット。前半（錠剤が袋に・3行）は実写＋字幕に任せる */
+const CLOSING_SHORT_HTML = CLOSING_HTML
+  .replace('<div class="a group stage">', '<div class="a group stage" style="display:none">')
+  .replace('<div class="a words stage">', '<div class="a words stage" style="display:none">')
+  .replace("--d: 10.6; overflow: hidden; }", "--d: 0.3; overflow: hidden; }")
+  .replace(".l4 { top: 640px; font-size: 54px; color: #E2E8F0; --d: 11.4; }", ".l4 { top: 640px; font-size: 54px; color: #E2E8F0; --d: 1.2; }")
+  .replace(".l5 { top: 730px; font-size: 54px; color: #FBBF24; --d: 12.6; }", ".l5 { top: 730px; font-size: 54px; color: #FBBF24; --d: 2.6; }")
+  .replace(".final { animation: fadeOut .6s ease-in both; --d: 14.8; }", ".final { animation: fadeOut .6s ease-in both; --d: 5.4; }")
+  .replace("animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 15.2; }", "animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 5.8; }")
+  .replace("animation: grow .8s ease-out both; --d: 15.9; }", "animation: grow .8s ease-out both; --d: 6.5; }")
+  .replace("animation: slideIn .8s ease-out both; --d: 16.6; }", "animation: slideIn .8s ease-out both; --d: 7.2; }");
+
 async function render(page, html, name, seconds) {
   const dir = path.join(OUT, name); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   await page.setContent(html, { waitUntil: "load" });
@@ -598,6 +629,7 @@ async function render(page, html, name, seconds) {
   if (which === "ippouka") await render(page, IPPOUKA_HTML, "ippouka", 15);
   if (which === "firstbag") await render(page, FIRSTBAG_HTML, "firstbag", 11);
   if (which === "closing") await render(page, CLOSING_HTML, "closing", 19);
+  if (which === "closing-short") await render(page, CLOSING_SHORT_HTML, "closing-short", 10);
   if (which === "newbie") await render(page, NEWBIE_HTML, "newbie", 6);
   if (which === "variety") await render(page, VARIETY_HTML, "variety", 8);
   if (which === "claude3") await render(page, CLAUDE3_HTML, "claude3", 12);
