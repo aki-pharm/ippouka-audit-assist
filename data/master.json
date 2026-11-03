@@ -371,8 +371,8 @@
     "maker": "武田テバ",
     "dosage_form": "tablet",
     "imprint_front": "TV10",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コードは「識別コード（PTP）」欄に TV10 と記載。形状図では片面に「TV」「10」と割線が描かれている。裏面に刻印がないことは文章では明記されていない。",
+    "imprint_back": "なし",
+    "imprint_note": "表に「TV 10」と割線、裏は無地（実物写真で確認）。薬名が刻印にないので見分けにくい。直径10.0・厚さ4.5は写真の表示と一致",
     "color": "白色～微黄白色",
     "color_hex": null,
     "shape": "round",
@@ -389,9 +389,9 @@
     "source_revision": "2026年10月改訂（第5版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 販売名 アムロジピンOD錠10mg「武田テバ」 色・剤形 白色～微黄白色の片面1/2割線入り口腔内崩壊錠 直径（mm） 10.0 厚さ（mm） 4.5 重量（mg） 360 識別コード（PTP） TV10",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "aspara-ca-200",
@@ -401,8 +401,8 @@
     "maker": "ニプロESファーマ",
     "dosage_form": "tablet",
     "imprint_front": "TA103",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コード TA103（外形図の表面に「TA 103」と表示）。裏面の刻印は文中に記載なし。割線の記載なし",
+    "imprint_back": "なし",
+    "imprint_note": "表に「TA 103」（2段）。裏は無地（実物写真で確認）。直径9.0・厚さ4.0は写真の表示と一致",
     "color": "白色",
     "color_hex": null,
     "shape": "round",
@@ -419,9 +419,9 @@
     "source_revision": "2025年4月作成（第1版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 アスパラ−CA錠200 白色の素錠 直径（mm）9.0 厚さ（mm）4.0 重量（mg）280 識別コード TA103",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "carvedilol-2.5-sawai",
@@ -432,10 +432,10 @@
     "dosage_form": "tablet",
     "imprint_front": "カルベジロール 2.5 サワイ",
     "imprint_back": "未確認",
-    "imprint_note": "識別コード「カルベジロール 2.5 サワイ」。表裏の区別は本文に記載なし。割線入り",
+    "imprint_note": "長円形。表に「カルベジロール｜2.5 サワイ」が割線をはさんで印字され、半分に割っても薬名が残る（PTPの写真で確認）。裏は写真に写っていないため未確認",
     "color": "白色～微黄白色",
     "color_hex": "#F7F7F2",
-    "shape": null,
+    "shape": "oblong",
     "size_long_mm": 10.1,
     "size_short_mm": 5.1,
     "thickness_mm": 3.1,
@@ -521,8 +521,8 @@
     "maker": "NIG",
     "dosage_form": "tablet",
     "imprint_front": "FE",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コード（PTP）は「t FE 50mg」と記載。外形図の表面に「FE」の刻印あり。裏面の図には文字が描かれていないが、本文に「なし」との明記はない。割線の記載なし。",
+    "imprint_back": "なし",
+    "imprint_note": "表に「FE」。裏は無地（PTPの写真で確認）",
     "color": "白色",
     "color_hex": null,
     "shape": "round",
@@ -539,9 +539,9 @@
     "source_revision": "2026年2月改訂（第2版）",
     "source_page": 1,
     "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径：9.6mm 厚さ：5.7mm 質量：550mg 識別コード（PTP） t FE 50mg",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "entresto-200",
@@ -611,8 +611,8 @@
     "maker": "協和キリン",
     "dosage_form": "tablet",
     "imprint_front": "GS 13",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コード GS 13（表面の図に「GS 13」と表示）。裏面は図のみで、刻印の有無は文章では明記されていない。割線についての記載もない。",
+    "imprint_back": "なし",
+    "imprint_note": "表に「GS 13」（2段）。裏は無地（実物写真で確認）。直径7.1・厚さ3.8は写真の表示と一致",
     "color": "白色",
     "color_hex": "#E9A24A",
     "shape": "round",
@@ -629,9 +629,9 @@
     "source_revision": "2026年2月改訂（第5版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 販売名 ダーブロック錠4mg 剤形・性状 白色のフィルムコーティング錠 識別コード GS 13 表（直径）7.1mm 側面（厚さ）3.8mm 質量 155mg",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "orkedia-4",
