@@ -66,7 +66,7 @@ export function BagView({
                   </div>
                   {lay.label && !lay.inside && e.tablet?.dosage_form !== "capsule" && (
                     <div
-                      className={`mt-0.5 max-w-full truncate font-mono text-xs ${lay.unverified ? "italic text-slate-400" : "text-slate-800"}`}
+                      className={`mt-0.5 max-w-full break-all text-center font-mono text-xs leading-tight ${lay.unverified ? "italic text-slate-400" : "text-slate-800"}`}
                       title={lay.label}
                     >
                       {lay.label}
