@@ -218,9 +218,9 @@
     "strength": "20mg",
     "maker": "ニプロ",
     "dosage_form": "tablet",
-    "imprint_front": "未確認",
-    "imprint_back": "未確認",
-    "imprint_note": "本文に刻印・印字の記載なし。外形図に表示らしきものがあるが判読できない。割線入り。",
+    "imprint_front": "アジルサルタン 20 ニプロ",
+    "imprint_back": "アジルサルタン 20 ニプロ",
+    "imprint_note": "両面に印字（割線入り）。本文に記載はなく、外形図と実物写真で確認",
     "color": "微赤色",
     "color_hex": "#F0B4A6",
     "shape": "oval",
@@ -234,12 +234,12 @@
     "adopted": true,
     "aliases": [],
     "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149048F1081_1_04",
-    "source_revision": "2026年3月改訂（第5版、用量変更、用法変更）",
+    "source_revision": "2026年3月改訂（第5版）",
     "source_page": 1,
     "source_quote": "アジルサルタン錠20mg「ニプロ」 微赤色の楕円形の割線入りフィルムコーティング錠 （長径）9.1（短径）5.1 3.3 125",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "cibenzoline-50-sawai",
@@ -552,7 +552,7 @@
     "dosage_form": "tablet",
     "imprint_front": "NVR",
     "imprint_back": "L11",
-    "imprint_note": "識別コード「NVR L11」。表・裏の割り振りは外形図による。割線の記載なし（100mgのみ「割線入り」と記載）",
+    "imprint_note": "識別コード「NVR L11」。表 NVR／裏 L11（外形図と実物写真で確認）",
     "color": "うすい赤白色",
     "color_hex": "#F2C4B4",
     "shape": "oval",
@@ -569,9 +569,9 @@
     "source_revision": "2026年10月改訂（第10版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 エンレスト錠200mg 性状：うすい赤白色の楕円形のフィルムコーティング錠 識別コード：NVR L11 大きさ（約）長径：15.1mm 短径：6.0mm 厚さ：5.4mm 質量：0.412g",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "lansoprazole-od-15-takedateva",
@@ -640,9 +640,9 @@
     "strength": "4mg",
     "maker": "協和キリン",
     "dosage_form": "tablet",
-    "imprint_front": "KH603",
-    "imprint_back": "未確認",
-    "imprint_note": "識別コードKH603（錠剤本体、PTPシートに表示）。外形図ではもう一面に「4」と文字が描かれているように見えるが、本文には記載がないため未確認とした。",
+    "imprint_front": "オルケディア 4",
+    "imprint_back": "KH603",
+    "imprint_note": "一方の面に「オルケディア 4」、もう一方に「KH603」（実物写真で確認。どちらを表とするかは便宜上）",
     "color": "黄赤色",
     "color_hex": "#EFA94D",
     "shape": "round",
@@ -659,9 +659,9 @@
     "source_revision": "2025年2月改訂（第4版）",
     "source_page": 1,
     "source_quote": "販売名 オルケディア錠4mg 直径（mm） 7.2 厚さ（mm） 3.3 重量（mg） 139 色調 剤皮 黄赤色 フィルム コーティング錠 識別コード KH603（錠剤本体、PTPシートに表示）",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "doxazosin-1-towa",
@@ -822,7 +822,7 @@
     "dosage_form": "tablet",
     "imprint_front": "カルベジ 10",
     "imprint_back": "カルベジロール 10 トーワ",
-    "imprint_note": "添付文書では「本体表示」として記載（刻印か印字かの区別は明記なし）。割線入り。",
+    "imprint_note": "本体表示。割線入りで、半分に割っても「カルベジ 10」が読める設計（実物写真で確認）",
     "color": "黄色",
     "color_hex": "#F1D45A",
     "shape": "round",
@@ -839,8 +839,8 @@
     "source_revision": "2024年7月改訂（第4版）",
     "source_page": 1,
     "source_quote": "販売名 カルベジロール錠10mg「トーワ」 性状・剤形 黄色の割線入りのフィルムコーティング錠 本体表示 表 カルベジ 10 裏 カルベジロール 10 トーワ 直径(mm) 8.1 厚さ(mm) 3.2 質量(mg) 154",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   }
 ]
