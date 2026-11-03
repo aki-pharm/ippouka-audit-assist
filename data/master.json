@@ -8,7 +8,7 @@
     "dosage_form": "tablet",
     "imprint_front": "ラベプラ 10 オーハラ",
     "imprint_back": "ラベプラ 10 オーハラ",
-    "imprint_note": "本文の記載は「識別表示 ラベプラ 10 オーハラ」のみで、刻印か印字かは書かれていない。裏面の表示は外形図から読み取ったもの。",
+    "imprint_note": "本文の記載は「識別表示 ラベプラ 10 オーハラ」のみで、刻印か印字かは書かれていない。裏面の表示は外形図から読み取ったもの。添付文書の記載どおりで AKI が承認（実物写真なし）",
     "color": "淡黄色",
     "color_hex": "#F2D54B",
     "shape": "round",
@@ -27,9 +27,9 @@
     "source_revision": "2026年7月改訂（第4版）",
     "source_page": 1,
     "source_quote": "性状・剤形 淡黄色・フィルムコーティング錠（腸溶錠） 大きさ 直径：6.9mm 厚さ：3.6mm 質量 130.0mg 識別表示 ラベプラ 10 オーハラ",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "nifedipine-cr-20-sawai",
@@ -280,7 +280,7 @@
     "dosage_form": "tablet",
     "imprint_front": "ピタバスタチン 2 日医工",
     "imprint_back": "ピタバスタチン 2 日医工",
-    "imprint_note": "本体表示（印字）。表裏ともに同じ表示が外形図に描かれている。表裏の区別は図からの読み取りで、本文の記載ではない。包装コード⑳505はPTP上の表示",
+    "imprint_note": "本体表示（印字）。表裏ともに同じ表示が外形図に描かれている。表裏の区別は図からの読み取りで、本文の記載ではない。包装コード⑳505はPTP上の表示。添付文書の記載どおりで AKI が承認（実物写真なし）",
     "color": "ごくうすい黄赤色",
     "color_hex": "#F7F7F2",
     "shape": "round",
@@ -299,9 +299,9 @@
     "source_revision": "2024年1月改訂",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 ピタバスタチンカルシウム錠2mg「日医工」 剤形 フィルムコーティング錠 色調 ごくうすい黄赤色 直径（mm） 7.1 厚さ（mm） 3.0 質量（mg） 127.0 本体表示 ピタバスタチン 2 日医工",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "eliquis-5",
@@ -462,7 +462,7 @@
     "dosage_form": "tablet",
     "imprint_front": "TYP0.5",
     "imprint_back": "DU",
-    "imprint_note": "識別コード「TYP0.5/DU」として記載。剤形は「素錠」（錠1mg・2mgのような「割線入り」の記載なし）",
+    "imprint_note": "識別コード「TYP0.5/DU」として記載。剤形は「素錠」（錠1mg・2mgのような「割線入り」の記載なし）。添付文書の記載どおりで AKI が承認（実物写真なし）",
     "color": "白色",
     "color_hex": null,
     "shape": "round",
@@ -479,9 +479,9 @@
     "source_revision": "2023年3月改訂（第1版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 販売名 リボトリール錠0.5mg 色 白色 剤形 素錠 識別コード TYP0.5/DU 直径 約8.0mm 厚さ 約2.3mm 平均重量 約150mg",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "clopidogrel-75-towa",
@@ -492,7 +492,7 @@
     "dosage_form": "tablet",
     "imprint_front": "クロピドグレル 75 トーワ",
     "imprint_back": "クロピドグレル 75 トーワ",
-    "imprint_note": "本体表示（表・裏の欄が結合されて「クロピドグレル 75 トーワ」と記載）。外形図では錠剤表面への印字のように見える。割線の記載なし",
+    "imprint_note": "本体表示（表・裏の欄が結合されて「クロピドグレル 75 トーワ」と記載）。外形図では錠剤表面への印字のように見える。割線の記載なし。添付文書の記載どおりで AKI が承認（実物写真なし）",
     "color": "白色",
     "color_hex": "#F7F7F2",
     "shape": "round",
@@ -509,9 +509,9 @@
     "source_revision": "2025年5月改訂（第2版）",
     "source_page": 1,
     "source_quote": "3.2 製剤の性状 販売名 クロピドグレル錠75mg「トーワ」 性状・剤形 白色のフィルムコーティング錠 本体表示 表 裏 クロピドグレル 75 トーワ 直径(mm) 8.2 厚さ(mm) 3.6 質量(mg) 196",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "ferrous-citrate-50-nig",
@@ -582,7 +582,7 @@
     "dosage_form": "tablet",
     "imprint_front": "ランソ",
     "imprint_back": "15",
-    "imprint_note": "形状図より読み取り：表面に社名マークと「ランソ」、裏面に「15」。本文に刻印の文字による記載はない。",
+    "imprint_note": "形状図より読み取り：表面に社名マークと「ランソ」、裏面に「15」。本文に刻印の文字による記載はない。添付文書の記載どおりで AKI が承認（実物写真なし）",
     "color": "白色～帯黄白色（赤橙色～暗褐色の斑点がある）",
     "color_hex": null,
     "shape": "round",
@@ -599,9 +599,9 @@
     "source_revision": "2026年7月改訂（第7版）",
     "source_page": 1,
     "source_quote": "色・剤形 白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある。（腸溶性細粒を含む口腔内崩壊錠） 直径（mm） 8.5 厚さ（mm） 4.6 重量（mg） 285",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "darbroc-4",
@@ -672,7 +672,7 @@
     "dosage_form": "tablet",
     "imprint_front": "Tw141",
     "imprint_back": "1",
-    "imprint_note": "識別コード（本体・包装）Tw141。外形図では表に「Tw／141」と割線、裏に「1」（裏の表示は外形図から読み取ったもの）",
+    "imprint_note": "識別コード（本体・包装）Tw141。外形図では表に「Tw／141」と割線、裏に「1」（裏の表示は外形図から読み取ったもの）。添付文書の記載どおりで AKI が承認（実物写真なし）",
     "color": "白色",
     "color_hex": "#F7F7F2",
     "shape": "round",
@@ -689,9 +689,9 @@
     "source_revision": "2023年8月改訂（第1版）",
     "source_page": 1,
     "source_quote": "販売名 ドキサゾシン錠1mg「トーワ」 性状・剤形 白色の割線入り素錠 識別コード Tw141 直径(mm) 6.5 厚さ(mm) 2.7 質量(mg) 120",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "amitiza-12-cap",
@@ -762,7 +762,7 @@
     "dosage_form": "tablet",
     "imprint_front": "プレガバ JG",
     "imprint_back": "OD 75",
-    "imprint_note": "添付文書では「本体表示」として記載（プレガバ JG／OD 75）。刻印か印字かの区別は記載なし。割線の記載なし。",
+    "imprint_note": "添付文書では「本体表示」として記載（プレガバ JG／OD 75）。刻印か印字かの区別は記載なし。割線の記載なし。添付文書の記載どおりで AKI が承認（実物写真なし）",
     "color": "白色",
     "color_hex": "#F7F7F2",
     "shape": "round",
@@ -779,9 +779,9 @@
     "source_revision": "2026年10月改訂（第3版）",
     "source_page": 1,
     "source_quote": "プレガバリンOD錠75mg「JG」 白色の素錠 表面 裏面 側面 プレガバ JG OD 75 直径 8.5mm 厚さ 4.8mm 重量 240mg",
-    "verified_by": null,
-    "verified_at": null,
-    "status": "draft"
+    "verified_by": "AKI",
+    "verified_at": "2026-11-03",
+    "status": "verified"
   },
   {
     "id": "eliquis-2.5",
