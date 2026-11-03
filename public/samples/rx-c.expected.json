@@ -17,7 +17,7 @@
    "days": 28,
    "raw_usage_text": "1回1錠（1日1錠）1日1回 朝食後",
    "pack_instruction": "none",
-   "manual_fill_mark": true,
+   "manual_fill_mark": false,
    "confidence": "high"
   },
   {
@@ -177,7 +177,7 @@
    "days": 28,
    "raw_usage_text": "1回1錠（1日1錠）1日1回 夕食後",
    "pack_instruction": "none",
-   "manual_fill_mark": false,
+   "manual_fill_mark": true,
    "confidence": "high"
   },
   {

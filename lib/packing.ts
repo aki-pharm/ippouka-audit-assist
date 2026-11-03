@@ -61,6 +61,14 @@ export function checkRow(row: RxRow): CheckFlag[] {
     );
   }
   if (row.confidence === "low") flags.push({ level: "info", message: "読み取りの確度が低い行です" });
+  // 分包方法の突き合わせ：処方箋の「□コ」（手巻き）とマスタの分包方法が食い違えば知らせる（判断は薬剤師）
+  const tablet = findTablet(row.tablet_id);
+  if (tablet?.fill_method && row.include && row.dosage_form !== "other") {
+    if (row.manual_fill_mark && tablet.fill_method === "cassette")
+      flags.push({ level: "info", message: "処方箋は手巻き（□コ）ですが、マスタではカセットです" });
+    if (!row.manual_fill_mark && tablet.fill_method === "manual")
+      flags.push({ level: "info", message: "マスタでは手巻きですが、処方箋に□コがありません" });
+  }
   return flags;
 }
 
