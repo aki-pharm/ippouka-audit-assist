@@ -527,7 +527,7 @@ const SPREAD_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   <svg class="lines" viewBox="0 0 1920 1080">${links()}</svg>
   ${sites()}
   <div class="a home">${Array.from({length:28}).map((_,i)=>`<i class="a" style="--d:${(0.5+i*0.03).toFixed(2)}"></i>`).join("")}</div>
-  <div class="a homeLabel">自分の職場（28品目、確認ずみ）</div>
+  <div class="a homeLabel">自分の職場から（デモ処方の28品目は、すべて確認ずみ）</div>
   <div class="a sub">親マスタ（添付文書→外観）＋ 施設ごとの運用マスタ（採用品・一包化区分・分包方法）</div>
 </body></html>`;
 
