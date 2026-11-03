@@ -432,7 +432,7 @@ const VARIETY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
 </style></head><body>
   ${varietyRow(90, 28, 0)}${varietyRow(260, 36, 5)}${varietyRow(700, 32, 8)}${varietyRow(880, 40, 3)}
   <div class="shade"></div>
-  <div class="a cap">同じ成分でも、製薬会社ごとに見た目が違う</div>
+  <div class="a cap">同じ成分、違う見た目</div>
   <div class="a sub">ジェネリックは数量の8割以上。1つの成分に、何社もの錠剤がある</div>
 </body></html>`;
 
