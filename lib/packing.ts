@@ -125,30 +125,33 @@ export function findSimilar(entries: BagEntry[]): SimilarGroup[] {
     .map((e) => e.tablet)
     .filter((t): t is Tablet => !!t && t.dosage_form === "tablet" && !!t.shape && t.color !== "未確認");
   const unique = [...new Map(tablets.map((t) => [t.id, t])).values()];
+  const similar = (a: Tablet, b: Tablet) =>
+    b.shape === a.shape &&
+    colorKey(b.color) === colorKey(a.color) &&
+    (a.size_long_mm == null || b.size_long_mm == null || Math.abs(a.size_long_mm - b.size_long_mm) <= 1.0);
+  // 似ている同士をつないでいき、つながった塊を1つの組にする（6.5mm・7.1mm・8.0mm のように鎖でつながる白い錠剤も同じ組になる）
   const used = new Set<string>();
   const groups: SimilarGroup[] = [];
   const labels = "ABCDEFGH";
-  for (const a of unique) {
-    if (used.has(a.id)) continue;
-    const g = unique.filter(
-      (b) =>
-        b.id !== a.id &&
-        !used.has(b.id) &&
-        b.shape === a.shape &&
-        colorKey(b.color) === colorKey(a.color) &&
-        (a.size_long_mm == null || b.size_long_mm == null || Math.abs(a.size_long_mm - b.size_long_mm) <= 1.0),
-    );
-    if (g.length) {
-      const members = [a, ...g];
-      members.forEach((m) => used.add(m.id));
-      const label = labels[groups.length] ?? String(groups.length + 1);
-      const unknownSize = members.some((m) => m.size_long_mm == null);
-      groups.push({
-        label,
-        tablet_ids: members.map((m) => m.id),
-        note: unknownSize ? "形と色が同じ（大きさは未確認）。刻印で区別" : "形・色・大きさが近い。刻印で区別",
-      });
+  for (const start of unique) {
+    if (used.has(start.id)) continue;
+    const members: Tablet[] = [start];
+    used.add(start.id);
+    for (let i = 0; i < members.length; i++) {
+      for (const b of unique) {
+        if (used.has(b.id) || !similar(members[i], b)) continue;
+        used.add(b.id);
+        members.push(b);
+      }
     }
+    if (members.length < 2) continue;
+    const label = labels[groups.length] ?? String(groups.length + 1);
+    const unknownSize = members.some((m) => m.size_long_mm == null);
+    groups.push({
+      label,
+      tablet_ids: members.map((m) => m.id),
+      note: unknownSize ? "形と色が同じ（大きさは未確認）。刻印で区別" : "形・色・大きさが近い。刻印で区別",
+    });
   }
   return groups;
 }
