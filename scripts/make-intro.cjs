@@ -119,7 +119,7 @@ const PROBLEM_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
     <div class="a note">いちばん時間がかかるのが、1包目。ここが残りの基準になる</div>
   </div>
   <ul class="a points">
-    <li class="a" style="--d:11.0">同じ成分でも、作る会社ごとに見た目が違う</li>
+    <li class="a" style="--d:11.0">同じ成分でも、製薬会社ごとに見た目が違う</li>
     <li class="a" style="--d:13.5">新人や応援は見慣れない薬ばかり。50代以降は刻印が見えない</li>
     <li class="a" style="--d:16.5">見逃すといちばん危ないのは、似た見た目の違う薬</li>
   </ul>
@@ -432,7 +432,7 @@ const VARIETY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
 </style></head><body>
   ${varietyRow(90, 28, 0)}${varietyRow(260, 36, 5)}${varietyRow(700, 32, 8)}${varietyRow(880, 40, 3)}
   <div class="shade"></div>
-  <div class="a cap">同じ成分でも、作る会社ごとに見た目が違う</div>
+  <div class="a cap">同じ成分でも、製薬会社ごとに見た目が違う</div>
   <div class="a sub">ジェネリックは数量の8割以上。1つの成分に、何社もの錠剤がある</div>
 </body></html>`;
 
