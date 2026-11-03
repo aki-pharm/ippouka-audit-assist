@@ -10,8 +10,19 @@ const { chromium } = require("playwright");
 const FONT_DIR = path.resolve("node_modules/@fontsource/noto-sans-jp/files");
 // Noto Sans JP を全部読む（japanese サブセットだけだと一部の漢字が別フォントの字体になる）
 const FONT_CSS = ["400", "700"]
-  .map((w) => fs.readFileSync(path.join(FONT_DIR, "..", `${w}.css`), "utf8").replace(/url\(\.\/files\//g, `url(file://${FONT_DIR}/`))
+  .map((w) => fs.readFileSync(path.join(FONT_DIR, "..", `${w}.css`), "utf8").replace(/url\(\.\/files\//g, "url(http://fonts.local/files/"))
   .join("\n");
+
+/** @fontsource の woff2 を http://fonts.local/ で配る（about:blank からは file:// が読めないため） */
+async function serveFonts(page) {
+  await page.route("http://fonts.local/**", (route) => {
+    const rel = decodeURIComponent(new URL(route.request().url()).pathname.replace(/^\//, ""));
+    const file = path.join(FONT_DIR, "..", rel);
+    if (!fs.existsSync(file)) return route.fulfill({ status: 404, body: "" });
+    route.fulfill({ status: 200, contentType: file.endsWith(".woff2") ? "font/woff2" : "font/woff", body: fs.readFileSync(file) });
+  });
+}
+
 const OUT = path.resolve("public/samples");
 
 // [rp, manualMark, name, usageLines[], amount, unit, days, total]
@@ -97,6 +108,7 @@ function html(page) {
   fs.mkdirSync(OUT, { recursive: true });
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1100, height: 800 }, deviceScaleFactor: 1 });
+  await serveFonts(page);
   for (const [name, def] of Object.entries(PAGES)) {
     await page.setContent(html(def), { waitUntil: "load" });
     await page.evaluate(() => document.fonts.ready);

@@ -11,8 +11,19 @@ const { execFileSync } = require("child_process");
 const FPS = 30;
 const FONT_DIR = path.resolve("node_modules/@fontsource/noto-sans-jp/files");
 const FONT_CSS = ["400", "700"]
-  .map((w) => fs.readFileSync(path.join(FONT_DIR, "..", `${w}.css`), "utf8").replace(/url\(\.\/files\//g, `url(file://${FONT_DIR}/`))
+  .map((w) => fs.readFileSync(path.join(FONT_DIR, "..", `${w}.css`), "utf8").replace(/url\(\.\/files\//g, "url(http://fonts.local/files/"))
   .join("\n");
+
+/** @fontsource の woff2 を http://fonts.local/ で配る（about:blank からは file:// が読めないため） */
+async function serveFonts(page) {
+  await page.route("http://fonts.local/**", (route) => {
+    const rel = decodeURIComponent(new URL(route.request().url()).pathname.replace(/^\//, ""));
+    const file = path.join(FONT_DIR, "..", rel);
+    if (!fs.existsSync(file)) return route.fulfill({ status: 404, body: "" });
+    route.fulfill({ status: 200, contentType: file.endsWith(".woff2") ? "font/woff2" : "font/woff", body: fs.readFileSync(file) });
+  });
+}
+
 const OUT = "captures/anim";
 
 const BASE_CSS = `
@@ -66,12 +77,12 @@ const INTRO_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   ${tablet(560, 450, 8.0, "TYP0.5", false, 0.3, 5.6)}
   ${tablet(860, 470, 7.1, "GS 13", false, 0.9, 5.9)}
   ${tablet(1150, 480, 6.5, "Tw141", true, 1.5, 6.2)}
-  <div class="a line q1">この1包、</div>
-  <div class="a line q2">処方どおりだと言い切れますか？</div>
+  <div class="a line q1">白い丸い錠剤が、三つ。</div>
+  <div class="a line q2">どれが、どの薬か、分かりますか？</div>
   <div class="a qmark" style="left:600px; top:330px; --d:4.4;">?</div>
   <div class="a qmark" style="left:900px; top:350px; --d:4.7;">?</div>
   <div class="a qmark" style="left:1180px; top:360px; --d:5.0;">?</div>
-  <div class="a line q3">白い丸い錠剤が3つ。どれが、どの薬か。</div>
+  <div class="a line q3">見分けがつきますか？</div>
 </div>
 <div class="a title">
   <h1>一包化監査アシスト</h1>
@@ -199,9 +210,9 @@ const IPPOUKA_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .ptp { position: absolute; width: 170px; height: 300px; border-radius: 12px; background: #E2E8F0; border: 3px solid #CBD5E1; animation: slideUp .6s cubic-bezier(.2,1.2,.4,1) both; }
   .ptp i { position: absolute; width: 42px; height: 36px; border-radius: 50%; box-shadow: inset 0 -3px 4px rgba(0,0,0,.12); }
   @keyframes slideUp { from { opacity: 0; transform: translateY(120px); } to { opacity: 1; transform: translateY(0); } }
-  .pill { position: absolute; width: 38px; height: 32px; border-radius: 50%; box-shadow: 0 6px 12px rgba(0,0,0,.18); animation: fly 1.1s cubic-bezier(.3,.6,.3,1) both; }
+  .pill { position: absolute; z-index: 2; width: 38px; height: 32px; border-radius: 50%; box-shadow: 0 6px 12px rgba(0,0,0,.18); animation: fly 1.1s cubic-bezier(.3,.6,.3,1) both; }
   @keyframes fly { 0% { transform: translate(0,0) scale(1); opacity: 1; } 100% { transform: translate(var(--dx), var(--dy)) scale(.9); opacity: 1; } }
-  .bag { position: absolute; width: 200px; height: 240px; border-radius: 16px; background: rgba(255,255,255,.75); border: 4px solid #94A3B8; animation: pop .6s cubic-bezier(.2,1.4,.4,1) both; }
+  .bag { position: absolute; width: 200px; height: 240px; border-radius: 16px; background: #fff; border: 4px solid #94A3B8; animation: pop .6s cubic-bezier(.2,1.4,.4,1) both; }
   .bag::before { content: ""; position: absolute; left: 14px; right: 14px; top: 14px; height: 10px; border-radius: 5px; background: #CBD5E1; }
   .bag b { position: absolute; left: 0; right: 0; top: 30px; text-align: center; font-size: 34px; font-weight: 700; color: #334155; }
   .bag i { position: absolute; width: 38px; height: 32px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,.15); animation: pop .4s ease-out both; }
@@ -227,8 +238,8 @@ const IPPOUKA_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   <!-- 各シートから1錠が袋へ飛ぶ -->
   <div class="a pill" style="left:265px; top:460px; background:#FDE68A; --dx:1000px; --dy:-20px; --d:1.6"></div>
   <div class="a pill" style="left:465px; top:460px; background:#FFFFFF; --dx:860px; --dy:30px; --d:1.9"></div>
-  <div class="a pill" style="left:665px; top:460px; background:#F9A8D4; --dx:610px; --dy:80px; --d:2.2"></div>
-  <div class="a pill" style="left:865px; top:460px; background:#BFDBFE; --dx:460px; --dy:120px; --d:2.5"></div>
+  <div class="a pill" style="left:665px; top:460px; background:#F9A8D4; --dx:600px; --dy:60px; --d:2.2"></div>
+  <div class="a pill" style="left:865px; top:460px; background:#BFDBFE; --dx:430px; --dy:95px; --d:2.5"></div>
   <div class="a bag" style="left:1200px; top:360px; --d:1.2"><b>朝</b></div>
   <div class="a bag" style="left:1440px; top:360px; --d:4.2"><b>昼</b><i style="left:50px; top:90px; background:#FFFFFF; --d:4.6"></i><i style="left:110px; top:120px; background:#F9A8D4; --d:4.7"></i></div>
   <div class="a bag" style="left:1680px; top:360px; --d:4.6"><b>夕</b><i style="left:40px; top:90px; background:#FDE68A; --d:5.0"></i><i style="left:100px; top:110px; background:#FFFFFF; --d:5.1"></i><i style="left:70px; top:160px; background:#BFDBFE; --d:5.2"></i></div>
@@ -607,6 +618,8 @@ async function render(page, html, name, seconds) {
   const dir = path.join(OUT, name); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   await page.setContent(html, { waitUntil: "load" });
   await page.evaluate(() => document.fonts.ready);
+  await page.waitForTimeout(400);
+  await page.evaluate(() => document.fonts.ready);
   const n = Math.round(seconds * FPS);
   for (let i = 0; i < n; i++) {
     await page.evaluate((t) => document.documentElement.style.setProperty("--t", String(t)), i / FPS);
@@ -622,6 +635,7 @@ async function render(page, html, name, seconds) {
   fs.mkdirSync(OUT, { recursive: true });
   const b = await chromium.launch();
   const page = await b.newPage({ viewport: { width: 1920, height: 1080 } });
+  await serveFonts(page);
   const which = process.argv[2];
   if (!which || which === "intro") await render(page, INTRO_HTML, "intro", 15);
   if (!which || which === "problem") await render(page, PROBLEM_HTML, "problem", 22);

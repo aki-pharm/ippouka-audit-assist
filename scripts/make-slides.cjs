@@ -8,11 +8,22 @@ const path = require("path");
 const { chromium } = require("playwright");
 
 const FONT_DIR = path.resolve("node_modules/@fontsource/noto-sans-jp/files");
+
+/** @fontsource の woff2 を http://fonts.local/ で配る（about:blank からは file:// が読めないため） */
+async function serveFonts(page) {
+  await page.route("http://fonts.local/**", (route) => {
+    const rel = decodeURIComponent(new URL(route.request().url()).pathname.replace(/^\//, ""));
+    const file = path.join(FONT_DIR, "..", rel);
+    if (!fs.existsSync(file)) return route.fulfill({ status: 404, body: "" });
+    route.fulfill({ status: 200, contentType: file.endsWith(".woff2") ? "font/woff2" : "font/woff", body: fs.readFileSync(file) });
+  });
+}
+
 const OUT = path.resolve("docs/demo/slides");
 
 // Noto Sans JP を全部読む（@fontsource の 400.css / 700.css は unicode-range ごとに分かれていて、全漢字をカバーする）
 const FONT_CSS = ["400", "700"]
-  .map((w) => fs.readFileSync(path.join(FONT_DIR, "..", `${w}.css`), "utf8").replace(/url\(\.\/files\//g, `url(file://${FONT_DIR}/`))
+  .map((w) => fs.readFileSync(path.join(FONT_DIR, "..", `${w}.css`), "utf8").replace(/url\(\.\/files\//g, "url(http://fonts.local/files/"))
   .join("\n");
 
 const CSS = `
@@ -49,8 +60,8 @@ const SLIDES = [
   {
     file: "01-opening",
     body: `<body class="dark center">
-      <h1 class="big">この1包、<br>処方どおりだと言い切れますか？</h1>
-      <p>白い丸い錠剤が3つ。どれが、どの薬か。</p>
+      <h1 class="big">白い丸い錠剤が、三つ。<br>どれが、どの薬か、分かりますか？</h1>
+      <p>見分けがつきますか？</p>
     </body>`,
   },
   {
@@ -114,6 +125,7 @@ const SLIDES = [
   fs.mkdirSync(OUT, { recursive: true });
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
+  await serveFonts(page);
   for (const s of SLIDES) {
     await page.setContent(`<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head>${s.body}</html>`, { waitUntil: "load" });
     await page.evaluate(() => document.fonts.ready);
