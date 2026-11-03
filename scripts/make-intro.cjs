@@ -544,12 +544,12 @@ const WHY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
     <div class="pill" style="left:280px; top:120px"><div class="a flip" style="--d:1.8"><div class="face">GS 13</div><div class="face back"></div></div></div>
     <div class="pill" style="left:420px; top:150px"><div class="a flip" style="--d:2.1"><div class="face">Tw141</div><div class="face back"></div></div></div>
     <div class="pill" style="left:560px; top:120px"><div class="a flip" style="--d:2.4"><div class="face">TYP0.5</div><div class="face back"></div></div></div>
-    <div class="a tag" style="left:300px; top:250px; --d:3.0">要確認</div>
-    <div class="a tag" style="left:440px; top:280px; --d:3.2">要確認</div>
-    <div class="a tag" style="left:580px; top:250px; --d:3.4">要確認</div>
+    <div class="a tag" style="left:290px; top:250px; --d:3.0">見分けられない</div>
+    <div class="a tag" style="left:450px; top:300px; --d:3.2">?</div>
+    <div class="a tag" style="left:560px; top:250px; --d:3.4">?</div>
     <div class="a reason" style="top:360px; --d:3.8">・裏を向けば、刻印は見えない</div>
     <div class="a reason" style="top:410px; --d:4.3">・撮り方と光で、結果が変わる</div>
-    <div class="a reason" style="top:460px; --d:4.8">・同じ色・同じ大きさは、全部「要確認」</div>
+    <div class="a reason" style="top:460px; --d:4.8">・同じ色・同じ大きさは、写真では違いが写らない</div>
     <div class="a reason" style="top:510px; --d:5.3">・専用機は大型で高価。使える施設が限られる</div>
     <div class="a big">✗</div>
   </div>
