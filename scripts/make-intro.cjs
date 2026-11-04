@@ -607,32 +607,12 @@ const CLOSING_SHORT_HTML = CLOSING_HTML
   .replace('<div class="a group stage">', '<div class="a group stage" style="display:none">')
   .replace('<div class="a words stage">', '<div class="a words stage" style="display:none">')
   .replace("--d: 10.6; overflow: hidden; }", "--d: 0.3; overflow: hidden; }")
-  .replace(".l4 { top: 640px; font-size: 54px; color: #E2E8F0; --d: 11.4; }", ".l4 { top: 640px; font-size: 54px; color: #E2E8F0; --d: 1.2; }")
-  .replace(".l5 { top: 730px; font-size: 54px; color: #FBBF24; --d: 12.6; }", ".l5 { top: 730px; font-size: 54px; color: #FBBF24; --d: 2.6; }")
-  .replace(".final { animation: fadeOut .6s ease-in both; --d: 14.8; }", ".final { animation: fadeOut .6s ease-in both; --d: 5.4; }")
-  .replace("animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 15.2; }", "animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 5.8; }")
-  .replace("animation: grow .8s ease-out both; --d: 15.9; }", "animation: grow .8s ease-out both; --d: 6.5; }")
-  .replace("animation: slideIn .8s ease-out both; --d: 16.6; }", "animation: slideIn .8s ease-out both; --d: 7.2; }");
-
-
-/** タイトル：「そこで、わたしが作成したのが、」→ 文字が1字ずつ現れて「一包化監査アシスト」→ 線が伸びる */
-const TITLE_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
-  ${BASE_CSS}
-  body { background: #0B1220; color: #F8FAFC; }
-  .lead { position: absolute; left: 0; right: 0; top: 330px; text-align: center; font-size: 54px; color: #CBD5E1; animation: slideIn .7s ease-out both; --d: 0.2; }
-  .title { position: absolute; left: 0; right: 0; top: 440px; text-align: center; font-size: 150px; font-weight: 700; letter-spacing: .04em; }
-  .title span { display: inline-block; animation: charIn .45s cubic-bezier(.2,1.3,.4,1) both; }
-  .bar { position: absolute; left: 50%; top: 660px; width: 0; height: 10px; margin-left: -210px; background: #FBBF24; animation: grow .7s ease-out both; --d: 3.6; }
-  .sub { position: absolute; left: 0; right: 0; top: 720px; text-align: center; font-size: 44px; color: #CBD5E1; animation: slideIn .7s ease-out both; --d: 4.0; }
-  @keyframes charIn { from { opacity: 0; transform: translateY(40px) scale(.7); } to { opacity: 1; transform: translateY(0) scale(1); } }
-  @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-  @keyframes grow { from { width: 0; } to { width: 420px; } }
-</style></head><body>
-  <div class="a lead">そこで、わたしが作成したのが</div>
-  <div class="title">${[..."一包化監査アシスト"].map((ch, i) => `<span class="a" style="--d:${(1.6 + i * 0.17).toFixed(2)}">${ch}</span>`).join("")}</div>
-  <div class="a bar"></div>
-  <div class="a sub">判断するのは薬剤師。アプリは、調べる手間を減らす道具。</div>
-</body></html>`;
+  .replace(".l4 { top: 640px; font-size: 54px; color: #E2E8F0; --d: 11.4; }", ".l4 { top: 640px; font-size: 54px; color: #E2E8F0; --d: 0.9; }")
+  .replace(".l5 { top: 730px; font-size: 54px; color: #FBBF24; --d: 12.6; }", ".l5 { top: 730px; font-size: 72px; color: #FBBF24; --d: 4.3; animation: popIn .7s cubic-bezier(.2,1.3,.4,1) both; text-shadow: 0 0 40px rgba(251,191,36,.45); }\n  @keyframes popIn { from { opacity: 0; transform: scale(.7); } to { opacity: 1; transform: scale(1); } }")
+  .replace(".final { animation: fadeOut .6s ease-in both; --d: 14.8; }", ".final { animation: fadeOut .6s ease-in both; --d: 7.5; }")
+  .replace("animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 15.2; }", "animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 7.9; }")
+  .replace("animation: grow .8s ease-out both; --d: 15.9; }", "animation: grow .8s ease-out both; --d: 8.6; }")
+  .replace("animation: slideIn .8s ease-out both; --d: 16.6; }", "animation: slideIn .8s ease-out both; --d: 9.2; }");
 
 async function render(page, html, name, seconds) {
   const dir = path.join(OUT, name); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
@@ -663,7 +643,7 @@ async function render(page, html, name, seconds) {
   if (which === "ippouka") await render(page, IPPOUKA_HTML, "ippouka", 15);
   if (which === "firstbag") await render(page, FIRSTBAG_HTML, "firstbag", 11);
   if (which === "closing") await render(page, CLOSING_HTML, "closing", 19);
-  if (which === "closing-short") await render(page, CLOSING_SHORT_HTML, "closing-short", 10);
+  if (which === "closing-short") await render(page, CLOSING_SHORT_HTML, "closing-short", 11);
   if (which === "newbie") await render(page, NEWBIE_HTML, "newbie", 6);
   if (which === "variety") await render(page, VARIETY_HTML, "variety", 8);
   if (which === "claude3") await render(page, CLAUDE3_HTML, "claude3", 12);
