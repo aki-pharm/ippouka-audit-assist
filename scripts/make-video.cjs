@@ -45,13 +45,11 @@ function placeholderText(text) { return `drawtext=fontfile=${FONT}:text='${esc(t
  */
 const CUTS = [
   { id: "01", name: "挨拶", kind: "clip", src: "captures/anim/greeting.mp4", minDur: 6 },
-  { id: "02", name: "実写_監査の手元", kind: "live", live: "audit", placeholder: "【実写】監査している手元（11/4 撮影）" },
-  { id: "03", name: "一包化とは", kind: "clip", src: "captures/anim/ippouka.mp4", minDur: 4.9, maxDur: 8 },
+  { id: "02", name: "実写_監査の手元", kind: "live", live: "audit", placeholder: "【実写】監査している手元（11/4 撮影）", minDur: 11.5 },
   { id: "05", name: "120包", kind: "clip", src: "captures/anim/problem.mp4", minDur: 9, maxDur: 10.3 },
   { id: "06", name: "1包目が基準", kind: "clip", src: "captures/anim/firstbag.mp4", minDur: 7.5 },
   { id: "04", name: "問いかけ_白い錠剤3つ", kind: "clip", src: "captures/anim/intro.mp4", minDur: 8, maxDur: 10 },
   { id: "07", name: "新人", kind: "clip", src: "captures/anim/newbie.mp4", minDur: 5 },
-  { id: "08", name: "会社違いの錠剤", kind: "clip", src: "captures/anim/variety.mp4", minDur: 5 },
   { id: "10a", name: "タイトル_作ったもの", kind: "clip", src: "captures/anim/title.mp4", minDur: 4.6 },
   { id: "10", name: "なぜカメラで判定しないのか", kind: "clip", src: "captures/anim/why.mp4", minDur: 26.5 },
   { id: "11", name: "処方箋を撮る_アプリ_読み取り_表", kind: "seq", items: [{ live: "shoot", len: 3.0 }, { app: markers.read_click - 0.3, len: 2.2, zoom: [120, 900] }, { app: markers.review - 0.3, len: 99, zoom: [120, 900] }], sub: "処方箋の写真 → Claude が表に（下書き。手で直せる）" },
@@ -142,5 +140,15 @@ CUTS.filter((c) => !(c.optional && !live(c.live))).forEach((c, i) => {
   console.log(`${partName}  ${d.toFixed(1)}s${n ? " 音声あり" : ""}${kind === "placeholder" ? " 仮" : ""}`);
 });
 fs.writeFileSync(path.join(TMP, "list.txt"), parts.map((p) => `file '${path.resolve(p)}'`).join("\n"));
-run(["-f", "concat", "-safe", "0", "-i", path.join(TMP, "list.txt"), "-c", "copy", OUT]);
+const joinedAll = path.join(TMP, "all.mp4");
+run(["-f", "concat", "-safe", "0", "-i", path.join(TMP, "list.txt"), "-c", "copy", joinedAll]);
+// BGM（captures/bgm/bgm.mp3 があれば）：小さく敷き、ナレーションが鳴っている間は自動で下げる（sidechain）。最後はフェードアウト
+const BGM = "captures/bgm/bgm.mp3";
+if (fs.existsSync(BGM)) {
+  const T = total;
+  run(["-i", joinedAll, "-stream_loop", "-1", "-i", BGM, "-filter_complex",
+    `[1:a]volume=0.16,afade=t=in:d=2,afade=t=out:st=${(T - 4).toFixed(2)}:d=4,aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo[bg];[0:a]asplit=2[nar][sc];[bg][sc]sidechaincompress=threshold=0.015:ratio=8:attack=40:release=700:makeup=1[bgd];[nar][bgd]amix=inputs=2:duration=first:normalize=0[a]`,
+    "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", String(T), OUT]);
+  console.log("BGM を混ぜた:", BGM);
+} else fs.copyFileSync(joinedAll, OUT);
 console.log(`書き出し: ${OUT}（${Math.floor(total / 60)}分${Math.round(total % 60)}秒）／カット別: ${PARTS}/`);

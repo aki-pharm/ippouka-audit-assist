@@ -373,7 +373,7 @@ const CLOSING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
     <h1>一包化監査アシスト</h1>
     <div class="a bar"></div>
   </div>
-  <div class="a credit"><span>Built with Claude: Japan 2026</span><span>VOICEVOX:もち子(cv 明日葉よもぎ)</span></div>
+  <div class="a credit"><span>Built with Claude: Japan 2026</span><span>VOICEVOX:もち子(cv 明日葉よもぎ)　／　BGM: OtoLogic</span></div>
 </body></html>`;
 
 
