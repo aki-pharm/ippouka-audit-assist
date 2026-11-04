@@ -48,7 +48,7 @@ const CUTS = [
   { id: "02", name: "実写_監査の手元", kind: "live", live: "audit", placeholder: "【実写】監査している手元（11/4 撮影）" },
   { id: "03", name: "一包化とは", kind: "clip", src: "captures/anim/ippouka.mp4", minDur: 4.9, maxDur: 8 },
   { id: "05", name: "120包", kind: "clip", src: "captures/anim/problem.mp4", minDur: 9, maxDur: 10.3 },
-  { id: "06", name: "1包目が基準", kind: "clip", src: "captures/anim/firstbag.mp4", minDur: 7.6 },
+  { id: "06", name: "1包目が基準", kind: "clip", src: "captures/anim/firstbag.mp4", minDur: 7.5 },
   { id: "04", name: "問いかけ_白い錠剤3つ", kind: "clip", src: "captures/anim/intro.mp4", minDur: 8, maxDur: 10 },
   { id: "07", name: "新人", kind: "clip", src: "captures/anim/newbie.mp4", minDur: 5 },
   { id: "08", name: "会社違いの錠剤", kind: "clip", src: "captures/anim/variety.mp4", minDur: 5 },
@@ -64,7 +64,7 @@ const CUTS = [
   { id: "17", name: "GitHubのマスタをスクロール", kind: "live", live: "github", placeholder: "", sub: "28品目のマスタ：刻印・色・大きさ・根拠の文言・確認者・確認日" },
   { id: "18", name: "広がる", kind: "clip", src: "captures/anim/spread.mp4", minDur: 5.7 },
   { id: "20a", name: "実写_スマホを持つ手", kind: "live", live: "phone", placeholder: "【実写/写真】アプリを開いたスマホを持つ手（11/4 撮影）" },
-  { id: "20", name: "締め", kind: "clip", src: "captures/anim/closing-short.mp4", minDur: 10.5 },
+  { id: "20", name: "締め", kind: "clip", src: "captures/anim/closing-short.mp4", minDur: 10.3 },
 ];
 
 const BLUR_BG = `split[bg][fg];[bg]scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},boxblur=30:5,eq=brightness=-0.15[bg2];[fg]scale=${W}:${H}:force_original_aspect_ratio=decrease[fg2];[bg2][fg2]overlay=(W-w)/2:(H-h)/2`;
