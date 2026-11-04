@@ -54,8 +54,7 @@ const CUTS = [
   { id: "08", name: "会社違いの錠剤", kind: "clip", src: "captures/anim/variety.mp4", minDur: 6 },
   { id: "10a", name: "タイトル_作ったもの", kind: "still", src: "docs/demo/slides/03-solution.png" },
   { id: "10", name: "なぜカメラで判定しないのか", kind: "clip", src: "captures/anim/why.mp4", minDur: 14 },
-  { id: "10b", name: "実写_処方箋を撮る", kind: "live", live: "shoot", placeholder: "", fixed: 2.5, sub: "処方箋の薬剤欄を撮る", optional: true },
-  { id: "11", name: "アプリ_読み取り_表", kind: "app2", ranges: [[markers.sample_open - 0.5, 4.5], [markers.review - 0.5, 99]], sub: "Claude が表に。読み取りは下書き、手で直せる" },
+  { id: "11", name: "処方箋を撮る_アプリ_読み取り_表", kind: "seq", items: [{ live: "shoot", len: 3.0 }, { app: markers.read_click - 0.3, len: 2.2 }, { app: markers.review - 0.3, len: 99 }], sub: "処方箋を撮ると Claude が表に。読み取りは下書き、手で直せる" },
   { id: "13", name: "アプリ_イメージ図", kind: "app", from: markers.bags, sub: "⚠ 見分け注意：刻印で区別（ルールで判定。AIに判定させない）" },
   { id: "14a", name: "実写_図と袋を見比べる", kind: "live", live: "compare", placeholder: "【実写】アプリの図と袋を見比べる手元（11/4 撮影）", sub: "図と実物を見比べる" },
   { id: "14b", name: "実写_裏返すアップ", kind: "live", live: "flip", placeholder: "【実写】白い錠剤を裏返すアップ（11/4 撮影）", fallback: PH(3), sub: "ドキサゾシン Tw141 のはずが、アムロジピン t 1" },
@@ -67,6 +66,8 @@ const CUTS = [
   { id: "20a", name: "実写_スマホを持つ手", kind: "live", live: "phone", placeholder: "【実写/写真】アプリを開いたスマホを持つ手（11/4 撮影）", sub: "判断するのは薬剤師。アプリは調べる手間を減らす道具。大きな機械はいらない" },
   { id: "20", name: "締め", kind: "clip", src: "captures/anim/closing-short.mp4", minDur: 10 },
 ];
+
+const BLUR_BG = `split[bg][fg];[bg]scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},boxblur=30:5,eq=brightness=-0.15[bg2];[fg]scale=${W}:${H}:force_original_aspect_ratio=decrease[fg2];[bg2][fg2]overlay=(W-w)/2:(H-h)/2`;
 
 function run(args) { execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...args], { stdio: "inherit" }); }
 
@@ -91,19 +92,29 @@ CUTS.filter((c) => !(c.optional && !live(c.live))).forEach((c, i) => {
   if (kind === "app") {
     input = ["-ss", String(Math.max(0, Math.min(c.from, appDur - d))), "-t", String(d), "-i", "captures/app/app.mp4"];
     vf.push(`scale=-2:880`, `pad=${W}:${H}:(ow-iw)/2:40:color=${BG}`);
-  } else if (kind === "app2") {
-    // 2区間を先につないで一時ファイルに
-    const segs = c.ranges.map(([from, len], k) => { const f = path.join(TMP, `seg${i}_${k}.mp4`); run(["-ss", String(from), "-t", String(len), "-i", "captures/app/app.mp4", "-c:v", "libx264", "-crf", "20", "-an", f]); return f; });
+  } else if (kind === "seq") {
+    // 実写とアプリ録画を順につなぐ（それぞれ 1920×1080 の無音セグメントにしてから連結）
+    const segs = c.items.map((it, k) => {
+      const f = path.join(TMP, `seg${i}_${k}.mp4`);
+      if (it.live) {
+        const src = live(it.live);
+        if (!src) return null;
+        run(["-t", String(it.len), "-i", src, "-filter_complex", `[0:v]${BLUR_BG},fps=${FPS},format=yuv420p[v]`, "-map", "[v]", "-c:v", "libx264", "-crf", "20", "-an", f]);
+      } else {
+        run(["-ss", String(it.app), "-t", String(Math.min(it.len, appDur - it.app)), "-i", "captures/app/app.mp4", "-vf", `scale=-2:880,pad=${W}:${H}:(ow-iw)/2:40:color=${BG},fps=${FPS},format=yuv420p`, "-c:v", "libx264", "-crf", "20", "-an", f]);
+      }
+      return f;
+    }).filter(Boolean);
     const list = path.join(TMP, `seg${i}.txt`); fs.writeFileSync(list, segs.map((s) => `file '${path.resolve(s)}'`).join("\n"));
     const joined = path.join(TMP, `seg${i}.mp4`); run(["-f", "concat", "-safe", "0", "-i", list, "-c", "copy", joined]);
     input = ["-t", String(d), "-i", joined];
-    vf.push(`scale=-2:880`, `pad=${W}:${H}:(ow-iw)/2:40:color=${BG}`);
+    vf.push(`tpad=stop_mode=clone:stop_duration=${d}`);
   } else if (kind === "photo") {
     if (!input) input = ["-loop", "1", "-t", String(d), "-i", c.src];
     vf.push(`scale=${W}:${H}:force_original_aspect_ratio=decrease`, `pad=${W}:${H}:(ow-iw)/2:(oh-ih)/2:color=${BG}`);
   } else if (kind === "livefile") {
     // 縦の実写は中央に、両脇は同じ映像をぼかして敷く
-    vf.push(`split[bg][fg];[bg]scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},boxblur=30:5,eq=brightness=-0.15[bg2];[fg]scale=${W}:${H}:force_original_aspect_ratio=decrease[fg2];[bg2][fg2]overlay=(W-w)/2:(H-h)/2`, `tpad=stop_mode=clone:stop_duration=${d}`);
+    vf.push(BLUR_BG, `tpad=stop_mode=clone:stop_duration=${d}`);
   } else if (kind === "clip") {
     input = ["-t", String(d), "-i", c.src];
     vf.push(`tpad=stop_mode=clone:stop_duration=${d}`, `scale=${W}:${H}`);
