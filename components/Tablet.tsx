@@ -24,29 +24,46 @@ export function imprintLayout(tablet: Tablet | undefined, face: "front" | "back"
   const label = !tablet ? "?" : imprint === UNVERIFIED ? "未確認" : imprint === "なし" ? "" : imprint ?? "";
   const width = (t: string, fs: number) => [...t].reduce((acc, ch) => acc + (ch.charCodeAt(0) > 0xff ? 1 : 0.6), 0) * fs;
   const textWidth = width(label, fontSize);
-  // 1行で収まるか。収まらなければ2行（空白で分ける。空白がなければ半分で分ける）に小さめの文字で入るか試す
+  // 1行で収まるか。収まらなければ、少し小さい文字で最大3行に折り返して錠剤の中に入るか試す（実物の印字も2〜3段が多い）
   let lines: string[] = [label];
   let inside = textWidth <= long - 6;
   let fs = fontSize;
   if (!inside && label) {
-    const parts = label.includes(" ") ? splitAtBestSpace(label) : [label.slice(0, Math.ceil(label.length / 2)), label.slice(Math.ceil(label.length / 2))];
-    const fs2 = Math.max(8, Math.min(fontSize, 11));
-    const fits = parts.every((t) => width(t, fs2) <= long - 6) && fs2 * 2.2 <= short - 4;
-    if (fits) {
-      lines = parts;
-      inside = true;
-      fs = fs2;
+    for (const fs2 of [Math.min(fontSize, 11), 10, 9]) {
+      const wrapped = wrapImprint(label, long - 6, fs2, width);
+      if (wrapped && wrapped.length <= 3 && wrapped.length * fs2 * 1.1 <= short - 4) {
+        lines = wrapped;
+        inside = true;
+        fs = fs2;
+        break;
+      }
     }
   }
   return { label, inside, lines, fontSize: fs, textWidth, unverified: imprint === UNVERIFIED };
 }
 
-/** 空白のうち、前後の長さがいちばん近いところで2つに分ける（例：「オルケディア 4」→「オルケディア」「4」） */
-function splitAtBestSpace(label: string): string[] {
-  const idx = [...label].map((ch, i) => (ch === " " ? i : -1)).filter((i) => i >= 0);
-  let best = idx[0];
-  for (const i of idx) if (Math.abs(i - label.length / 2) < Math.abs(best - label.length / 2)) best = i;
-  return [label.slice(0, best).trim(), label.slice(best + 1).trim()];
+/** 刻印を幅に収まるように折り返す。空白で区切り、長い語は文字単位で分ける。収まらなければ null */
+function wrapImprint(label: string, maxW: number, fs: number, width: (t: string, fs: number) => number): string[] | null {
+  const lines: string[] = [];
+  let cur = "";
+  for (const word of label.split(" ")) {
+    // 長い語は、できるだけ同じ長さに分ける（「オルケディア」→「オルケ」「ディア」）
+    const chars = [...word];
+    const k = Math.max(1, Math.ceil(width(word, fs) / maxW));
+    const size = Math.ceil(chars.length / k);
+    const chunks: string[] = [];
+    for (let i = 0; i < chars.length; i += size) chunks.push(chars.slice(i, i + size).join(""));
+    if (chunks.some((c) => width(c, fs) > maxW)) return null;
+    for (const c of chunks) {
+      if (cur && width(cur + " " + c, fs) <= maxW) cur = cur + " " + c;
+      else {
+        if (cur) lines.push(cur);
+        cur = c;
+      }
+    }
+  }
+  if (cur) lines.push(cur);
+  return lines;
 }
 
 /** 錠剤イラスト（SVG）。形・色・大きさ・刻印をマスタから描く */
