@@ -523,7 +523,7 @@ const SPREAD_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
 </style></head><body>
   <div class="a cap" style="animation: slideIn .7s ease-out both, fadeOut .5s ease-in both; animation-delay: calc((0 - var(--t)) * 1s), calc((3.0 - var(--t)) * 1s) !important;">まず、自分の職場の採用医薬品から</div>
-  <div class="a cap" style="animation: slideIn .7s ease-out both; --d: 3.6;">同じ手順で、施設の採用医薬品に広げていける</div>
+  <div class="a cap" style="animation: slideIn .7s ease-out both; --d: 3.6;">同じ手順で、様々な施設の採用医薬品に広げていける</div>
   <svg class="lines" viewBox="0 0 1920 1080">${links()}</svg>
   ${sites()}
   <div class="a home">${Array.from({length:28}).map((_,i)=>`<i class="a" style="--d:${(0.5+i*0.03).toFixed(2)}"></i>`).join("")}</div>
