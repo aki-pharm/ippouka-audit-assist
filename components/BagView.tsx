@@ -72,6 +72,12 @@ export function BagView({
                       {lay.label}
                     </div>
                   )}
+                  {/* 裏の刻印はその下に小さく（「なし」「未確認」は出さない） */}
+                  {e.tablet && e.tablet.dosage_form !== "capsule" && e.tablet.imprint_back !== "なし" && e.tablet.imprint_back !== "未確認" && (
+                    <div className="mt-0.5 max-w-full break-all text-center font-mono text-[11px] leading-tight text-slate-500" title={`裏：${e.tablet.imprint_back}`}>
+                      裏 {e.tablet.imprint_back}
+                    </div>
+                  )}
                 </div>
                 <div className="flex min-h-[3rem] w-full flex-col justify-start text-center text-xs leading-tight">
                   <div className="line-clamp-2 font-semibold text-slate-800">{shortName(e.tablet?.brand_name ?? e.row.name_as_written)}</div>
