@@ -539,15 +539,15 @@ const WHY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   body { background: #F8FAFC; color: #1E293B; }
   .h { position: absolute; left: 0; right: 0; top: 80px; text-align: center; font-size: 60px; font-weight: 700; animation: slideIn .6s ease-out both; --d: 0; }
   .col { position: absolute; top: 220px; width: 800px; height: 700px; border-radius: 28px; padding: 36px; animation: cardIn .7s cubic-bezier(.2,1.2,.4,1) both; }
-  .left { left: 120px; background: #fff; border: 4px solid #CBD5E1; --d: .6; }
-  .right { left: 1000px; background: #fff; border: 4px solid #B45309; --d: 7.0; box-shadow: 0 16px 40px rgba(180,83,9,.15); }
+  .left { left: 120px; background: #fff; border: 4px solid #CBD5E1; --d: 1.2; }
+  .right { left: 1000px; background: #fff; border: 4px solid #B45309; --d: 13.6; box-shadow: 0 16px 40px rgba(180,83,9,.15); }
   @keyframes cardIn { from { opacity: 0; transform: translateY(60px); } to { opacity: 1; transform: translateY(0); } }
   .ct { font-size: 44px; font-weight: 700; margin-bottom: 20px; }
   .left .ct { color: #64748B; } .right .ct { color: #B45309; }
   .cam { position: absolute; left: 60px; top: 130px; width: 150px; height: 100px; background: #334155; border-radius: 16px; }
   .cam::before { content: ""; position: absolute; left: 50px; top: 20px; width: 60px; height: 60px; border-radius: 50%; background: #0F172A; border: 8px solid #94A3B8; }
   .cam::after { content: ""; position: absolute; left: 20px; top: -16px; width: 50px; height: 20px; background: #334155; border-radius: 6px 6px 0 0; }
-  .beam { position: absolute; left: 210px; top: 150px; width: 0; height: 60px; background: linear-gradient(90deg, rgba(251,191,36,.6), rgba(251,191,36,0)); animation: beam .8s ease-out both; --d: 1.2; }
+  .beam { position: absolute; left: 210px; top: 150px; width: 0; height: 60px; background: linear-gradient(90deg, rgba(251,191,36,.6), rgba(251,191,36,0)); animation: beam .8s ease-out both; --d: 3.0; }
   @keyframes beam { to { width: 420px; } }
   .pill { position: absolute; width: 110px; height: 110px; border-radius: 50%; perspective: 600px; }
   .pill .flip { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; animation: flip .9s ease-in-out both; }
@@ -557,14 +557,14 @@ const WHY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .tag { position: absolute; padding: 6px 16px; border-radius: 999px; background: #FEF3C7; color: #B45309; font-size: 28px; font-weight: 700; border: 3px solid #F59E0B; animation: pop .4s cubic-bezier(.2,1.6,.4,1) both; }
   .reason { position: absolute; left: 36px; right: 36px; font-size: 30px; line-height: 1.4; white-space: nowrap; color: #475569; animation: slideIn .5s ease-out both; }
   .big { position: absolute; right: 40px; bottom: 30px; font-size: 150px; font-weight: 700; line-height: 1; animation: pop .5s cubic-bezier(.2,1.6,.4,1) both; }
-  .left .big { color: #DC2626; --d: 5.8; } .right .big { color: #16A34A; --d: 11.2; }
-  .rx { position: absolute; left: 40px; top: 120px; width: 150px; height: 200px; background: #fff; border: 3px solid #94A3B8; border-radius: 8px; animation: pop .4s ease-out both; --d: 7.6; }
+  .left .big { color: #DC2626; --d: 12.4; } .right .big { color: #16A34A; --d: 23.2; }
+  .rx { position: absolute; left: 40px; top: 120px; width: 150px; height: 200px; background: #fff; border: 3px solid #94A3B8; border-radius: 8px; animation: pop .4s ease-out both; --d: 16.5; }
   .rx i { position: absolute; left: 14px; right: 14px; height: 8px; background: #CBD5E1; border-radius: 4px; }
   .arrow { position: absolute; font-size: 54px; color: #B45309; font-weight: 700; animation: pop .4s ease-out both; }
-  .figure { position: absolute; left: 270px; top: 110px; width: 230px; height: 230px; border-radius: 20px; background: #F1F5F9; border: 3px solid #94A3B8; animation: pop .5s cubic-bezier(.2,1.4,.4,1) both; --d: 8.4; }
+  .figure { position: absolute; left: 270px; top: 110px; width: 230px; height: 230px; border-radius: 20px; background: #F1F5F9; border: 3px solid #94A3B8; animation: pop .5s cubic-bezier(.2,1.4,.4,1) both; --d: 17.8; }
   .figure b { position: absolute; left: 0; right: 0; top: 8px; text-align: center; font-size: 22px; color: #334155; }
   .figure i { position: absolute; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff 0%, #ECEDE8 60%, #CFD2CA 100%); border: 3px solid #B45309; display: flex; align-items: center; justify-content: center; font: 700 16px ui-monospace, monospace; color: #475569; animation: pop .3s ease-out both; }
-  .eye { position: absolute; left: 580px; top: 150px; width: 150px; height: 90px; animation: pop .5s cubic-bezier(.2,1.4,.4,1) both; --d: 9.6; }
+  .eye { position: absolute; left: 580px; top: 150px; width: 150px; height: 90px; animation: pop .5s cubic-bezier(.2,1.4,.4,1) both; --d: 23.0; }
   @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
   @keyframes pop { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: scale(1); } }
 </style></head><body>
@@ -572,31 +572,31 @@ const WHY_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   <div class="a col left">
     <div class="ct">カメラ → 判定</div>
     <div class="cam"></div><div class="a beam"></div>
-    <div class="pill" style="left:280px; top:120px"><div class="a flip" style="--d:1.8"><div class="face">GS 13</div><div class="face back"></div></div></div>
-    <div class="pill" style="left:420px; top:150px"><div class="a flip" style="--d:2.1"><div class="face">Tw141</div><div class="face back"></div></div></div>
-    <div class="pill" style="left:560px; top:120px"><div class="a flip" style="--d:2.4"><div class="face">TYP0.5</div><div class="face back"></div></div></div>
-    <div class="a tag" style="left:290px; top:250px; --d:3.0">区別しづらい</div>
-    <div class="a tag" style="left:450px; top:300px; --d:3.2">?</div>
-    <div class="a tag" style="left:560px; top:250px; --d:3.4">?</div>
-    <div class="a reason" style="top:360px; --d:3.8">・裏を向けば、刻印は見えない</div>
-    <div class="a reason" style="top:410px; --d:4.3">・撮り方と光で、結果が変わる</div>
-    <div class="a reason" style="top:460px; --d:4.8">・同じ色・同じ大きさは、写真では区別しづらい</div>
-    <div class="a reason" style="top:510px; --d:5.3">・専用機は大型で高価。使える施設が限られる</div>
+    <div class="pill" style="left:280px; top:120px"><div class="a flip" style="--d:4.4"><div class="face">GS 13</div><div class="face back"></div></div></div>
+    <div class="pill" style="left:420px; top:150px"><div class="a flip" style="--d:4.8"><div class="face">Tw141</div><div class="face back"></div></div></div>
+    <div class="pill" style="left:560px; top:120px"><div class="a flip" style="--d:5.2"><div class="face">TYP0.5</div><div class="face back"></div></div></div>
+    <div class="a tag" style="left:290px; top:250px; --d:8.2">区別しづらい</div>
+    <div class="a tag" style="left:450px; top:300px; --d:8.5">?</div>
+    <div class="a tag" style="left:560px; top:250px; --d:8.8">?</div>
+    <div class="a reason" style="top:360px; --d:5.6">・裏を向けば、刻印は見えない</div>
+    <div class="a reason" style="top:410px; --d:7.0">・撮り方と光で、結果が変わる</div>
+    <div class="a reason" style="top:460px; --d:9.4">・同じ色・同じ大きさは、写真では区別しづらい</div>
+    <div class="a reason" style="top:510px; --d:11.2">・専用機は大型で高価。使える施設が限られる</div>
     <div class="a big">✗</div>
   </div>
   <div class="a col right">
     <div class="ct">処方箋 → 予想の図 → 薬剤師が判定</div>
     <div class="a rx"><i style="top:24px"></i><i style="top:60px; width:70%"></i><i style="top:96px"></i><i style="top:132px; width:50%"></i><i style="top:168px"></i></div>
-    <div class="a arrow" style="left:205px; top:190px; --d:8.0">→</div>
+    <div class="a arrow" style="left:205px; top:190px; --d:17.3">→</div>
     <div class="a figure"><b>夕食後 10個</b>
-      <i style="left:20px; top:50px; width:66px; height:66px; --d:8.8">TYP0.5</i><i style="left:100px; top:50px; width:60px; height:60px; --d:9.0">GS 13</i><i style="left:165px; top:60px; width:54px; height:54px; --d:9.2">Tw141</i>
-      <i style="left:30px; top:130px; width:60px; height:60px; border-color:#94A3B8; --d:9.3">FE</i><i style="left:110px; top:135px; width:58px; height:58px; border-color:#94A3B8; background:#F6C68B; --d:9.4"></i>
+      <i style="left:20px; top:50px; width:66px; height:66px; --d:18.4">TYP0.5</i><i style="left:100px; top:50px; width:60px; height:60px; --d:18.7">GS 13</i><i style="left:165px; top:60px; width:54px; height:54px; --d:19.0">Tw141</i>
+      <i style="left:30px; top:130px; width:60px; height:60px; border-color:#94A3B8; --d:19.3">FE</i><i style="left:110px; top:135px; width:58px; height:58px; border-color:#94A3B8; background:#F6C68B; --d:19.5"></i>
     </div>
-    <div class="a arrow" style="left:515px; top:190px; --d:9.4">→</div>
+    <div class="a arrow" style="left:515px; top:190px; --d:22.6">→</div>
     <svg class="a eye" viewBox="0 0 150 90"><path d="M5 45 Q75 -15 145 45 Q75 105 5 45 Z" fill="#fff" stroke="#1E293B" stroke-width="6"/><circle cx="75" cy="45" r="22" fill="#1E293B"/><circle cx="83" cy="38" r="7" fill="#fff"/></svg>
-    <div class="a reason" style="top:360px; --d:10.0">・袋を読まず「入っているはずの錠剤」を先に示す</div>
-    <div class="a reason" style="top:430px; --d:10.5">・刻印・形・色・大きさを、添付文書から</div>
-    <div class="a reason" style="top:500px; --d:11.0">・判定するのは、薬剤師の目</div>
+    <div class="a reason" style="top:360px; --d:17.0">・袋を読まず「入っているはずの錠剤」を先に示す</div>
+    <div class="a reason" style="top:430px; --d:20.0">・刻印・形・色・大きさを、添付文書から</div>
+    <div class="a reason" style="top:500px; --d:23.2">・判定するのは、薬剤師の目</div>
     <div class="a big">✓</div>
   </div>
 </body></html>`;
@@ -613,6 +613,26 @@ const CLOSING_SHORT_HTML = CLOSING_HTML
   .replace("animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 15.2; }", "animation: titleIn 1s cubic-bezier(.2,.9,.3,1) both; --d: 5.8; }")
   .replace("animation: grow .8s ease-out both; --d: 15.9; }", "animation: grow .8s ease-out both; --d: 6.5; }")
   .replace("animation: slideIn .8s ease-out both; --d: 16.6; }", "animation: slideIn .8s ease-out both; --d: 7.2; }");
+
+
+/** タイトル：「そこで、わたしが作成したのが、」→ 文字が1字ずつ現れて「一包化監査アシスト」→ 線が伸びる */
+const TITLE_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  body { background: #0B1220; color: #F8FAFC; }
+  .lead { position: absolute; left: 0; right: 0; top: 330px; text-align: center; font-size: 54px; color: #CBD5E1; animation: slideIn .7s ease-out both; --d: 0.2; }
+  .title { position: absolute; left: 0; right: 0; top: 440px; text-align: center; font-size: 150px; font-weight: 700; letter-spacing: .04em; }
+  .title span { display: inline-block; animation: charIn .45s cubic-bezier(.2,1.3,.4,1) both; }
+  .bar { position: absolute; left: 50%; top: 660px; width: 0; height: 10px; margin-left: -210px; background: #FBBF24; animation: grow .7s ease-out both; --d: 3.6; }
+  .sub { position: absolute; left: 0; right: 0; top: 720px; text-align: center; font-size: 44px; color: #CBD5E1; animation: slideIn .7s ease-out both; --d: 4.0; }
+  @keyframes charIn { from { opacity: 0; transform: translateY(40px) scale(.7); } to { opacity: 1; transform: translateY(0) scale(1); } }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes grow { from { width: 0; } to { width: 420px; } }
+</style></head><body>
+  <div class="a lead">そこで、わたしが作成したのが</div>
+  <div class="title">${[..."一包化監査アシスト"].map((ch, i) => `<span class="a" style="--d:${(1.6 + i * 0.17).toFixed(2)}">${ch}</span>`).join("")}</div>
+  <div class="a bar"></div>
+  <div class="a sub">判断するのは薬剤師。アプリは、調べる手間を減らす道具。</div>
+</body></html>`;
 
 async function render(page, html, name, seconds) {
   const dir = path.join(OUT, name); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
@@ -648,6 +668,7 @@ async function render(page, html, name, seconds) {
   if (which === "variety") await render(page, VARIETY_HTML, "variety", 8);
   if (which === "claude3") await render(page, CLAUDE3_HTML, "claude3", 12);
   if (which === "spread") await render(page, SPREAD_HTML, "spread", 9);
-  if (which === "why") await render(page, WHY_HTML, "why", 14);
+  if (which === "why") await render(page, WHY_HTML, "why", 27);
+  if (which === "title") await render(page, TITLE_HTML, "title", 5);
   await b.close();
 })().catch((e) => { console.error(e); process.exit(1); });
