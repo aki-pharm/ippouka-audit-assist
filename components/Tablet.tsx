@@ -22,9 +22,31 @@ export function imprintLayout(tablet: Tablet | undefined, face: "front" | "back"
   const imprint = face === "front" ? tablet?.imprint_front : tablet?.imprint_back;
   const fontSize = Math.max(9, Math.min(13, short / 3));
   const label = !tablet ? "?" : imprint === UNVERIFIED ? "未確認" : imprint === "なし" ? "" : imprint ?? "";
-  const textWidth = [...label].reduce((acc, ch) => acc + (ch.charCodeAt(0) > 0xff ? 1 : 0.6), 0) * fontSize;
-  const inside = textWidth <= long - 6;
-  return { label, inside, fontSize, textWidth, unverified: imprint === UNVERIFIED };
+  const width = (t: string, fs: number) => [...t].reduce((acc, ch) => acc + (ch.charCodeAt(0) > 0xff ? 1 : 0.6), 0) * fs;
+  const textWidth = width(label, fontSize);
+  // 1行で収まるか。収まらなければ2行（空白で分ける。空白がなければ半分で分ける）に小さめの文字で入るか試す
+  let lines: string[] = [label];
+  let inside = textWidth <= long - 6;
+  let fs = fontSize;
+  if (!inside && label) {
+    const parts = label.includes(" ") ? splitAtBestSpace(label) : [label.slice(0, Math.ceil(label.length / 2)), label.slice(Math.ceil(label.length / 2))];
+    const fs2 = Math.max(8, Math.min(fontSize, 11));
+    const fits = parts.every((t) => width(t, fs2) <= long - 6) && fs2 * 2.2 <= short - 4;
+    if (fits) {
+      lines = parts;
+      inside = true;
+      fs = fs2;
+    }
+  }
+  return { label, inside, lines, fontSize: fs, textWidth, unverified: imprint === UNVERIFIED };
+}
+
+/** 空白のうち、前後の長さがいちばん近いところで2つに分ける（例：「オルケディア 4」→「オルケディア」「4」） */
+function splitAtBestSpace(label: string): string[] {
+  const idx = [...label].map((ch, i) => (ch === " " ? i : -1)).filter((i) => i >= 0);
+  let best = idx[0];
+  for (const i of idx) if (Math.abs(i - label.length / 2) < Math.abs(best - label.length / 2)) best = i;
+  return [label.slice(0, best).trim(), label.slice(best + 1).trim()];
 }
 
 /** 錠剤イラスト（SVG）。形・色・大きさ・刻印をマスタから描く */
@@ -69,7 +91,7 @@ export function TabletSvg({
   }
 
   // 文字が錠剤に収まるなら中に、収まらなければ下に添える（caption=false なら添えない）
-  const { label: fullLabel, inside, fontSize, textWidth } = imprintLayout(tablet, face);
+  const { label: fullLabel, inside, lines, fontSize, textWidth } = imprintLayout(tablet, face);
   const label = inside || caption ? fullLabel : "";
   const captionH = label && !inside ? fontSize + 4 : 0;
   const totalH = h + captionH;
@@ -83,7 +105,16 @@ export function TabletSvg({
         {body}
         {tablet?.score_line && <line x1={cx} y1={cy - short / 2 + 2} x2={cx} y2={cy + short / 2 - 2} stroke="#9CA3AF" strokeWidth={1} />}
       </g>
-      {label && (
+      {label && inside && lines.length > 1 ? (
+        // 2行で錠剤の中に描く（実物の印字も2段のことが多い）
+        <text x={svgW / 2} textAnchor="middle" fontSize={fontSize} fill={textColor} fontFamily="ui-monospace, monospace">
+          {lines.map((t, i) => (
+            <tspan key={i} x={svgW / 2} y={cy + (i - (lines.length - 1) / 2) * fontSize * 1.1 + fontSize / 3}>
+              {t}
+            </tspan>
+          ))}
+        </text>
+      ) : label ? (
         <text
           x={svgW / 2}
           y={inside ? cy + fontSize / 3 : h + fontSize - 2}
@@ -95,7 +126,7 @@ export function TabletSvg({
         >
           {label.length > 14 ? label.slice(0, 14) + "…" : label}
         </text>
-      )}
+      ) : null}
     </svg>
   );
 }
