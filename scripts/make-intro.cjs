@@ -314,10 +314,10 @@ const FIRSTBAG_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   <div class="a sweep"></div>
   <div class="a first"></div>
   <div class="a clock"></div>
-  <div class="a label">1包目が、基準<small>いちばん時間がかかる</small></div>
-  <div class="a same">残りは「1包目と同じか」を見ていく</div>
+  <div class="a label">1包目<small>最初の袋</small></div>
+  
   <div class="checks">${[0,1,2,3,4,5,6,7,8,9,10,11].map((i)=>`<i class="a" style="--d:${(6.6+i*0.18).toFixed(2)}"></i>`).join("")}</div>
-  <div class="a cap" style="--d:8.6">ここが基準になり、残りはそれと同じかを見ていきます</div>
+  
 </body></html>`;
 
 /** 締め：錠剤3つが袋に収まり ✓ → 言葉が1行ずつ → スマホ → タイトル → クレジット */
