@@ -614,6 +614,24 @@ const CLOSING_SHORT_HTML = CLOSING_HTML
   .replace("animation: grow .8s ease-out both; --d: 15.9; }", "animation: grow .8s ease-out both; --d: 8.6; }")
   .replace("animation: slideIn .8s ease-out both; --d: 16.6; }", "animation: slideIn .8s ease-out both; --d: 9.2; }");
 
+
+/** タイトル：「そこで、わたしが作成したのが」→ 文字が1字ずつ現れて「一包化監査アシスト」→ 線が伸びる */
+const TITLE_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
+  ${BASE_CSS}
+  body { background: #0B1220; color: #F8FAFC; }
+  .lead { position: absolute; left: 0; right: 0; top: 330px; text-align: center; font-size: 54px; color: #CBD5E1; animation: slideIn .7s ease-out both; --d: 0.2; }
+  .title { position: absolute; left: 0; right: 0; top: 440px; text-align: center; font-size: 150px; font-weight: 700; letter-spacing: .04em; }
+  .title span { display: inline-block; animation: charIn .45s cubic-bezier(.2,1.3,.4,1) both; }
+  .bar { position: absolute; left: 50%; top: 660px; width: 0; height: 10px; margin-left: -210px; background: #FBBF24; animation: grow .7s ease-out both; --d: 3.6; }
+  @keyframes charIn { from { opacity: 0; transform: translateY(40px) scale(.7); } to { opacity: 1; transform: translateY(0) scale(1); } }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes grow { from { width: 0; } to { width: 420px; } }
+</style></head><body>
+  <div class="a lead">そこで、わたしが作成したのが</div>
+  <div class="title">${[..."一包化監査アシスト"].map((ch, i) => `<span class="a" style="--d:${(1.6 + i * 0.17).toFixed(2)}">${ch}</span>`).join("")}</div>
+  <div class="a bar"></div>
+</body></html>`;
+
 async function render(page, html, name, seconds) {
   const dir = path.join(OUT, name); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   await page.setContent(html, { waitUntil: "load" });
