@@ -20,7 +20,7 @@ const OUT = process.argv[2] || "captures/demo-v2.mp4";
 const W = 1920, H = 1080, FPS = 30;
 const FONT = "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf";
 const BG = "0x0B1220";
-const GAP = 0.15; // ナレーションの後ろに足す間（秒）
+const GAP = 0.1; // ナレーションの後ろに足す間（秒）
 const TMP = "captures/tmp"; fs.mkdirSync(TMP, { recursive: true });
 const PARTS = "captures/parts-v2"; fs.rmSync(PARTS, { recursive: true, force: true }); fs.mkdirSync(PARTS, { recursive: true });
 const PH = (n) => `captures/photos/${n}.jpg`;
@@ -44,25 +44,27 @@ function placeholderText(text) { return `drawtext=fontfile=${FONT}:text='${esc(t
  * minDur：アニメの動きが終わるまでの最短秒数。sub：字幕（アニメは中に文字があるので省略）
  */
 const CUTS = [
-  { id: "01", name: "挨拶", kind: "clip", src: "captures/anim/greeting.mp4", minDur: 6 },
-  { id: "02", name: "実写_監査の手元", kind: "live", live: "audit", placeholder: "【実写】監査している手元（11/4 撮影）", minDur: 11.5 },
-  { id: "05", name: "120包", kind: "clip", src: "captures/anim/problem.mp4", minDur: 9, maxDur: 13 },
-  { id: "06", name: "1包目が基準", kind: "clip", src: "captures/anim/firstbag.mp4", fixed: 7.5 },
-  { id: "04", name: "問いかけ_白い錠剤3つ", kind: "clip", src: "captures/anim/intro.mp4", minDur: 8 },
-  { id: "07", name: "新人", kind: "clip", src: "captures/anim/newbie.mp4", minDur: 5 },
+  { id: "01", name: "挨拶", kind: "clip", src: "captures/anim/greeting.mp4" },
+  { id: "02", name: "実写_監査の手元", kind: "live", live: "audit", placeholder: "【実写】監査している手元（11/4 撮影）" },
+  { id: "03", name: "一包化とは", kind: "clip", src: "captures/anim/ippouka.mp4", fixed: 6.0 },
+  { id: "05", name: "120包", kind: "clip", src: "captures/anim/problem.mp4", maxDur: 13 },
+  { id: "06", name: "1包目が基準", kind: "clip", src: "captures/anim/firstbag.mp4", fixed: 5.8 },
+  { id: "04", name: "問いかけ_白い錠剤3つ", kind: "clip", src: "captures/anim/intro.mp4", minDur: 7.6 },
+  { id: "07", name: "新人", kind: "clip", src: "captures/anim/newbie.mp4" },
+  { id: "08", name: "会社違いの錠剤", kind: "clip", src: "captures/anim/variety.mp4", fixed: 4.2 },
   { id: "10a", name: "タイトル_作ったもの", kind: "clip", src: "captures/anim/title.mp4", minDur: 4.6 },
-  { id: "10", name: "なぜカメラで判定しないのか", kind: "clip", src: "captures/anim/why.mp4", minDur: 24 },
   { id: "11", name: "処方箋を撮る_アプリ_読み取り_表", kind: "seq", items: [{ live: "shoot", len: 3.0 }, { app: markers.read_click - 0.3, len: 2.2, zoom: [120, 900] }, { app: markers.review - 0.3, len: 99, zoom: [120, 900] }], sub: "処方箋の写真 → Claude が表に（下書き。手で直せる）" },
   { id: "13", name: "アプリ_イメージ図", kind: "app", from: markers.bags, zoom: [160, 900], sub: "似た錠剤に同じ印。ルールで判定、AIには判定させない" },
   { id: "14a", name: "実写_図と袋を見比べる", kind: "live", live: "compare", placeholder: "【実写】アプリの図と袋を見比べる手元（11/4 撮影）" },
-  { id: "14b", name: "実写_裏返すアップ_アムロジピンに印", kind: "seq", items: [{ live: "flip", len: 3.9 }, { still: "captures/flip-annotated.png", len: 9 }] },
+  { id: "14b", name: "実写_裏返すアップ_アムロジピンに印", kind: "seq", items: [{ live: "flip", len: 3.9 }, { still: "captures/flip-annotated.png", len: 9 }], fixed: 8 },
   { id: "15a", name: "アプリ_情報カード", kind: "app", from: markers.info_card, zoom: [140, 900] },
   { id: "15b", name: "添付文書PDF_性状の表に寄る", kind: "seq", items: [{ still: "captures/pdf-dox.png", len: 1.6 }, { still: "captures/pdf-dox-table.png", len: 9 }] },
-  { id: "16", name: "Claudeの3場面", kind: "clip", src: "captures/anim/claude3.mp4", minDur: 8.2 },
+  { id: "10", name: "なぜカメラで判定しないのか", kind: "clip", src: "captures/anim/why.mp4", minDur: 25.4 },
+  { id: "16", name: "Claudeの3場面", kind: "clip", src: "captures/anim/claude3.mp4", minDur: 8.0 },
   { id: "17", name: "確認の記録_チャットとマスタ", kind: "seq", items: [{ still: "captures/chat-verify.jpg", len: 4.6 }, { live: "github", len: 9 }], sub: "写真を貼って1つずつ確認 → 28品目のマスタ（確認者・確認日つき）" },
-  { id: "18", name: "広がる", kind: "clip", src: "captures/anim/spread.mp4", minDur: 5.7 },
+  { id: "18", name: "広がる", kind: "clip", src: "captures/anim/spread.mp4", minDur: 5.5 },
   { id: "20a", name: "実写_スマホを持つ手", kind: "live", live: "phone", placeholder: "【実写/写真】アプリを開いたスマホを持つ手（11/4 撮影）" },
-  { id: "20", name: "締め", kind: "clip", src: "captures/anim/closing-short.mp4", minDur: 10.3 },
+  { id: "20", name: "締め", kind: "clip", src: "captures/anim/closing-short.mp4", minDur: 10.2 },
 ];
 
 const BLUR_BG = `split[bg][fg];[bg]scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},boxblur=30:5,eq=brightness=-0.15[bg2];[fg]scale=${W}:${H}:force_original_aspect_ratio=decrease[fg2];[bg2][fg2]overlay=(W-w)/2:(H-h)/2`;
