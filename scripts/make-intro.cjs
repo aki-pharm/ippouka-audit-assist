@@ -113,8 +113,8 @@ const PROBLEM_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .first { position: absolute; left: 150px; top: 300px; width: 64px; height: 48px; border-radius: 8px; border: 6px solid #B45309; box-shadow: 0 0 0 12px rgba(180,83,9,.25); animation: ring .8s ease-out both; --d: 7.0; }
   @keyframes ring { from { opacity: 0; transform: scale(2); } to { opacity: 1; transform: scale(1); } }
   .note { position: absolute; left: 150px; top: 870px; font-size: 54px; font-weight: 700; animation: slideIn .7s ease-out both; --d: 7.4; }
-  .points { display: none; }
-  .bagsWrap { animation: none; }
+  .points { position: absolute; left: 150px; top: 320px; right: 150px; animation: fadeIn .5s ease-out both; --d: 10.5; }
+  .bagsWrap { animation: fadeOut .5s ease-in both; --d: 10.0; }
   .points li { list-style: none; font-size: 56px; line-height: 1.4; margin-bottom: 44px; padding-left: 70px; position: relative; animation: slideIn .6s ease-out both; }
   .points li::before { content: ""; position: absolute; left: 14px; top: 30px; width: 24px; height: 24px; border-radius: 50%; background: #B45309; }
   @keyframes slideIn { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
@@ -314,10 +314,10 @@ const FIRSTBAG_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   <div class="a sweep"></div>
   <div class="a first"></div>
   <div class="a clock"></div>
-  <div class="a label">1包目<small>最初の袋</small></div>
-  
+  <div class="a label">1包目が、基準<small>いちばん時間がかかる</small></div>
+  <div class="a same">残りは「1包目と同じか」を見ていく</div>
   <div class="checks">${[0,1,2,3,4,5,6,7,8,9,10,11].map((i)=>`<i class="a" style="--d:${(6.6+i*0.18).toFixed(2)}"></i>`).join("")}</div>
-  
+  <div class="a cap" style="--d:8.6">ここが基準になり、残りはそれと同じかを見ていきます</div>
 </body></html>`;
 
 /** 締め：錠剤3つが袋に収まり ✓ → 言葉が1行ずつ → スマホ → タイトル → クレジット */

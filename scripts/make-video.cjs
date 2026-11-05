@@ -20,7 +20,7 @@ const OUT = process.argv[2] || "captures/demo-v2.mp4";
 const W = 1920, H = 1080, FPS = 30;
 const FONT = "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf";
 const BG = "0x0B1220";
-const GAP = 0.1; // ナレーションの後ろに足す間（秒）
+const GAP = 0.15; // ナレーションの後ろに足す間（秒）
 const TMP = "captures/tmp"; fs.mkdirSync(TMP, { recursive: true });
 const PARTS = "captures/parts-v2"; fs.rmSync(PARTS, { recursive: true, force: true }); fs.mkdirSync(PARTS, { recursive: true });
 const PH = (n) => `captures/photos/${n}.jpg`;
@@ -44,12 +44,12 @@ function placeholderText(text) { return `drawtext=fontfile=${FONT}:text='${esc(t
  * minDur：アニメの動きが終わるまでの最短秒数。sub：字幕（アニメは中に文字があるので省略）
  */
 const CUTS = [
-  { id: "01", name: "挨拶", kind: "clip", src: "captures/anim/greeting.mp4" },
+  { id: "01", name: "挨拶", kind: "clip", src: "captures/anim/greeting.mp4", minDur: 6 },
   { id: "02", name: "実写_監査の手元", kind: "live", live: "audit", placeholder: "【実写】監査している手元（11/4 撮影）" },
-  { id: "03", name: "一包化とは", kind: "clip", src: "captures/anim/ippouka.mp4", fixed: 6.0 },
-  { id: "05", name: "120包", kind: "clip", src: "captures/anim/problem.mp4", minDur: 10 },
-  { id: "06", name: "1包目が基準", kind: "clip", src: "captures/anim/firstbag.mp4", minDur: 7.4 },
-  { id: "04", name: "問いかけ_白い錠剤3つ", kind: "clip", src: "captures/anim/intro.mp4", minDur: 7.6 },
+  { id: "03", name: "一包化とは", kind: "clip", src: "captures/anim/ippouka.mp4", minDur: 4.9, maxDur: 8 },
+  { id: "05", name: "120包", kind: "clip", src: "captures/anim/problem.mp4", minDur: 9, maxDur: 10.3 },
+  { id: "06", name: "1包目が基準", kind: "clip", src: "captures/anim/firstbag.mp4", minDur: 7.5 },
+  { id: "04", name: "問いかけ_白い錠剤3つ", kind: "clip", src: "captures/anim/intro.mp4", minDur: 8, maxDur: 10 },
   { id: "07", name: "新人", kind: "clip", src: "captures/anim/newbie.mp4" },
   { id: "08", name: "会社違いの錠剤", kind: "clip", src: "captures/anim/variety.mp4", fixed: 4.2 },
   { id: "10a", name: "タイトル_作ったもの", kind: "clip", src: "captures/anim/title.mp4", minDur: 4.6 },
