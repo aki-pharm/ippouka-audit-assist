@@ -145,7 +145,7 @@ const GREETING_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   .counter::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 26px; background: #A9C9E2; }
   .shelf { position: absolute; left: 1180px; top: 150px; width: 560px; height: 420px; background: #F6FAFD; border: 6px solid #CFE0EE; border-radius: 18px; }
   .shelf i { position: absolute; display: block; height: 70px; border-radius: 10px; }
-  .char { position: absolute; left: 330px; top: 120px; width: 620px; height: 820px; animation: bob 2.4s ease-in-out infinite; }
+  .char { position: absolute; left: 300px; top: 230px; width: 560px; height: 740px; animation: bob 2.4s ease-in-out infinite; }
   @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
   .arm { transform-origin: 452px 395px; animation: wave 1.1s ease-in-out infinite; }
   @keyframes wave { 0%,100% { transform: rotate(-8deg); } 50% { transform: rotate(22deg); } }
@@ -314,10 +314,10 @@ const FIRSTBAG_HTML = `<!doctype html><html><head><meta charset="utf-8"><style>
   <div class="a sweep"></div>
   <div class="a first"></div>
   <div class="a clock"></div>
-  <div class="a label">1包目が、基準<small>いちばん時間がかかる</small></div>
-  <div class="a same">残りは「1包目と同じか」を見ていく</div>
+  <div class="a label">1包目<small>最初の袋</small></div>
+  
   <div class="checks">${[0,1,2,3,4,5,6,7,8,9,10,11].map((i)=>`<i class="a" style="--d:${(6.6+i*0.18).toFixed(2)}"></i>`).join("")}</div>
-  <div class="a cap" style="--d:8.6">ここが基準になり、残りはそれと同じかを見ていきます</div>
+  
 </body></html>`;
 
 /** 締め：錠剤3つが袋に収まり ✓ → 言葉が1行ずつ → スマホ → タイトル → クレジット */
