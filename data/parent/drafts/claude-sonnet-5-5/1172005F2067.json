@@ -1,0 +1,30 @@
+{
+  "id": "1172005F2067",
+  "source_file": "400186_1172005C1064_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1172005C1064_2_09",
+  "extracted_at": "2026-11-06T14:49:17.435Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17399,
+    "output": 968
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニューレプチル錠10mg",
+      "strength": "10mg",
+      "imprint_front": "TTS-582",
+      "imprint_back": "未確認",
+      "imprint_note": "TTS-582は「識別コード」欄の記載。表面の図には「10 NLP」様の表示があるが、文字での記載はなく未確認。",
+      "color": "淡黄だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄だいだい色の円形の糖衣錠で、においはない。（3.2 製剤の性状：表面直径 約6.1mm、重さ 約0.12g、側面厚さ 約3.7mm、識別コード TTS-582）"
+    }
+  ]
+}

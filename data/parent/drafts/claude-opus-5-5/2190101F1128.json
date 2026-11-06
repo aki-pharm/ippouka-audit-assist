@@ -1,0 +1,30 @@
+{
+  "id": "2190101F1128",
+  "source_file": "530100_2190101F1128_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2190101F1128_1_17",
+  "extracted_at": "2026-11-06T14:50:13.944Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 50420,
+    "output": 988
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマルエット配合錠1番「ニプロ」",
+      "strength": "アムロジピン2.5mg/アトルバスタチン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "「1錠」に一致する規格名がないため、配合錠1番と解釈しました。外形図には錠剤表面に印字らしきもの（「1番」と読める部分あり）が描かれていますが、本文に記載がなく判読もできないため、表・裏とも未確認としました。",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アマルエット配合錠1番「ニプロ」 うすい黄色のフィルムコーティング錠 6.6 2.7 103（直径（mm）、厚さ（mm）、重量（mg））"
+    }
+  ]
+}

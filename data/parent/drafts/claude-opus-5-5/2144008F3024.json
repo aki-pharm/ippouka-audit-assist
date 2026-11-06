@@ -1,0 +1,30 @@
+{
+  "id": "2144008F3024",
+  "source_file": "400315_2144008F3024_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2144008F3024_1_18",
+  "extracted_at": "2026-11-06T14:50:04.417Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 20353,
+    "output": 767
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タナトリル錠10",
+      "strength": "10mg",
+      "imprint_front": "TA136",
+      "imprint_back": "10",
+      "imprint_note": "識別コードはTA136。外形図では表面に「TA」「136」が線で上下に分かれて描かれ、もう一面に「10」と描かれている。図中の線が割線かどうかは本文に記載がない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・素錠 外形 直径（mm）：6.5 厚さ（mm）：2.6 重量（g）：0.09 識別コード TA136"
+    }
+  ]
+}

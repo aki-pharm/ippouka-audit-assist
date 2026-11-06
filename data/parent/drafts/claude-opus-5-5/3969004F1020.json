@@ -1,0 +1,30 @@
+{
+  "id": "3969004F1020",
+  "source_file": "400061_3969004F1020_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3969004F1020_2_07",
+  "extracted_at": "2026-11-06T14:50:12.949Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 17749,
+    "output": 662
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベイスン錠0.2",
+      "strength": "0.2mg",
+      "imprint_front": "351",
+      "imprint_back": "0.2",
+      "imprint_note": "識別コードは社名マーク（△）＋351。裏面の「0.2」は形状欄の図から読み取ったもので、本文には記載なし。割線入り。",
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "販売名 ベイスン錠0.2 色・剤形 白色〜帯黄白色の割線入り素錠 形状 直径7.1mm 厚さ2.6mm 重量130mg 識別コード 351"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291010F1074",
+  "source_file": "580591_4291010F1074_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_4291010F1074_1_08",
+  "extracted_at": "2026-11-06T14:49:36.271Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17109,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アナストロゾール錠 1mg「JG」",
+      "strength": "1mg",
+      "imprint_front": "JG G11",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マーク（JG）と G11 の識別表示あり。識別コードは「JG G11」。裏面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の円形のフィルムコーティング錠 直径 6.1mm 厚さ 3.2mm 重量 0.1g 識別コード JG G11"
+    }
+  ]
+}

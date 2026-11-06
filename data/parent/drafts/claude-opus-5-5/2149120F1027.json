@@ -1,0 +1,30 @@
+{
+  "id": "2149120F1027",
+  "source_file": "111890_2149120F1027_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/111890_2149120F1027_1_10",
+  "extracted_at": "2026-11-06T14:50:04.753Z",
+  "model": "claude-opus-5-5",
+  "usage": {
+    "input": 25519,
+    "output": 771
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アテディオ配合錠",
+      "strength": "1錠中バルサルタン80mg、シルニジピン10mg",
+      "imprint_front": "ATEDIO",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の表面に「ATEDIO」と表示されている（刻印か印字かは本文に記載なし）。裏面の図には表示が見当たらないが、本文に「なし」との明記はない。割線の記載なし。",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 16.3,
+      "size_short_mm": 7.2,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 淡黄色の楕円形のフィルムコーティング錠 外形 表面 裏面 側面 サイズ 平均重量 長径 約16.3mm 短径 約7.2mm 厚さ 約5.0mm 重量 約0.52g"
+    }
+  ]
+}

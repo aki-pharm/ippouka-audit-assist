@@ -1,0 +1,30 @@
+{
+  "id": "1124001F1022",
+  "source_file": "400061_1124001B1039_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_1124001B1039_2_06",
+  "extracted_at": "2026-11-06T14:49:12.362Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13002,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユーロジン1mg錠",
+      "strength": "1mg",
+      "imprint_front": "141",
+      "imprint_back": "1",
+      "imprint_note": "表面に識別コード141（社名マーク付き）、裏面に「1」の表示、割線入り（片面）。表・裏の区別は図からの判読であり、本文には明記なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面割線入りの素錠 / 直径（mm） 7.0 / 厚さ（mm） 2.4 / 重量（mg） 120 / 識別コード 141"
+    }
+  ]
+}
