@@ -1,0 +1,30 @@
+{
+  "id": "4419008F1504",
+  "source_file": "400186_4419008F1504_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4419008F1504_1_02",
+  "extracted_at": "2026-11-06T18:06:13.108Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8826,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クレマスチン錠1mg「タカタ」",
+      "strength": "1mg",
+      "imprint_front": "TTS 110",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：TTS-110。表面に「TTS」「110」の刻印（二分割線の上下）。裏面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色で、片面に二分割線のある裸錠　表面直径 約7.0mm　裏面重さ 約0.12g　側面厚さ 約2.3mm　識別コード TTS-110"
+    }
+  ]
+}

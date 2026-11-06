@@ -1,0 +1,30 @@
+{
+  "id": "4490028F1027",
+  "source_file": "340278_4490028F1027_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_4490028F1027_1_11",
+  "extracted_at": "2026-11-06T18:13:35.162Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24491,
+    "output": 803
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザイザル錠5mg",
+      "strength": "5mg",
+      "imprint_front": "XX",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「XX」。裏面の刻印は本文に記載がなく、図は割線のみに見える。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 8,
+      "size_short_mm": 4.5,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色の両面割線入りのフィルムコーティング錠 / 識別コード XX / （長径×短径）8mm×4.5mm / （厚さ）3.2mm"
+    }
+  ]
+}

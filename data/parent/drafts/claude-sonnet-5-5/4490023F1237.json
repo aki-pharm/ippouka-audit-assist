@@ -1,0 +1,30 @@
+{
+  "id": "4490023F1237",
+  "source_file": "780009_4490023F1237_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_4490023F1237_1_06",
+  "extracted_at": "2026-11-06T18:09:57.652Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21455,
+    "output": 1110
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠60mg「明治」",
+      "strength": "60mg",
+      "imprint_front": "フェキソフェナジン 60",
+      "imprint_back": "フェキソフェナジン 明治",
+      "imprint_note": "刻印・印字の文字は性状欄の外形図（表・裏）から読み取った。本文中に文章での記載はなし。",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フェキソフェナジン塩酸塩錠60mg「明治」 フィルムコーティング錠 うすいだいだい色 直径（mm）8.1 厚さ（mm）4.6 重量（mg）206.0"
+    }
+  ]
+}

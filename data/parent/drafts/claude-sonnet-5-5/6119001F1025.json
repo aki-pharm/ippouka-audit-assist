@@ -1,0 +1,30 @@
+{
+  "id": "6119001F1025",
+  "source_file": "380077_6119001F1025_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380077_6119001F1025_2_03",
+  "extracted_at": "2026-11-06T18:17:46.290Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18814,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダフクリア錠200mg（フィダキソマイシン錠 200mg）",
+      "strength": "200mg",
+      "imprint_front": "ZP17",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：ZP17（表面に表示）。裏面・側面の刻印の記載は図のみで文章上は確認できない",
+      "color": "淡黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 淡黄赤色 表 裏 側面 直径 厚さ 重量 ZP17 長径：約13.1mm 短径：約7.0mm 約5.1mm 約360mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490026F1206",
+  "source_file": "300297_4490026F1206_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_4490026F1206_1_03",
+  "extracted_at": "2026-11-06T18:10:58.853Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13625,
+    "output": 590
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカストチュアブル錠5mg「三和」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表・裏）に印字らしき表示があるが、文字としての記載が本文になく判読できないため未確認",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすい赤色の素錠 / 直径 約9.1mm / 厚さ 約2.9mm / 重量 222.0mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490026F2342",
+  "source_file": "460028_4490026F2342_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_4490026F2342_1_06",
+  "extracted_at": "2026-11-06T18:11:42.769Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21466,
+    "output": 948
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "TSU 776",
+      "imprint_back": "10",
+      "imprint_note": "刻印は文字情報ではなく外形の図から読み取ったため、数字（776）は図の判読による。表裏の別も図の並び順に基づく。",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 明るい灰黄色／大きさ 直径 約 8.1mm／厚さ 約 4.0mm／質量 約 185mg（10mg「ツルハラ」の列）"
+    }
+  ]
+}

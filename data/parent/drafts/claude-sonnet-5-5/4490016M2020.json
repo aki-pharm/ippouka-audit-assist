@@ -1,0 +1,30 @@
+{
+  "id": "4490016M2020",
+  "source_file": "400107_4490016M1023_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4490016M1023_1_12",
+  "extracted_at": "2026-11-06T18:07:46.856Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13710,
+    "output": 360
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アイピーディカプセル100",
+      "strength": "100mg",
+      "imprint_front": "TC441",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル剤（3号カプセル）。識別コードはカプセルの外形図に印字。表裏の区別は記載なし。全長16.0mm、質量200.7mg。",
+      "color": "白色の粉末又は粒を含む白色の不透明硬カプセル剤",
+      "shape": "oblong",
+      "size_long_mm": 5.8,
+      "size_short_mm": 5.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年2月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の粉末又は粒を含む白色の不透明硬カプセル剤で、においはないか、又はわずかに特異なにおいがある。（アイピーディカプセル100：3号カプセル、全長16.0mm、長径5.8mm、短径5.5mm、質量200.7mg、識別コード TC441）"
+    }
+  ]
+}

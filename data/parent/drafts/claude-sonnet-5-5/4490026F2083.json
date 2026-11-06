@@ -1,0 +1,30 @@
+{
+  "id": "4490026F2083",
+  "source_file": "380999_4490026F2083_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380999_4490026F2083_1_04",
+  "extracted_at": "2026-11-06T18:11:13.804Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23831,
+    "output": 787
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠10mg「CEO」",
+      "strength": "10mg",
+      "imprint_front": "CEO146",
+      "imprint_back": "10",
+      "imprint_note": "表は識別コードCEO146。裏の「10」は外形（裏）の図による表示で、性状の文章には記載なし",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：円形・明るい灰黄色のフィルムコーティング錠　直径(mm) 8.0　厚さ(mm) 4.1　重量(mg) 210　識別コード CEO146"
+    }
+  ]
+}

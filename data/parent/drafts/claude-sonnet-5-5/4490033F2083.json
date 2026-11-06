@@ -1,0 +1,30 @@
+{
+  "id": "4490033F2083",
+  "source_file": "400073_4490033F2083_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_4490033F2083_3_01",
+  "extracted_at": "2026-11-06T18:15:24.912Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19090,
+    "output": 658
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビラスチンOD錠20mg「ダイト」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の表・裏の図に印字らしき表示があるが、本文に刻印・識別コードの記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の円形の素錠 ／ 大きさ等 直径 8.1mm 厚さ 2.9mm 質量 170mg"
+    }
+  ]
+}

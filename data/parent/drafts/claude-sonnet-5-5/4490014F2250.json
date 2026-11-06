@@ -1,0 +1,30 @@
+{
+  "id": "4490014F2250",
+  "source_file": "530372_4490014F1211_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_4490014F1211_2_02",
+  "extracted_at": "2026-11-06T18:07:22.200Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22554,
+    "output": 685
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "NPI AL",
+      "imprint_back": "未確認",
+      "imprint_note": "割線入り",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄色の割線入りのフィルムコーティング錠 / 直径 約8.1mm / 厚さ 約3.4mm / 識別コード NPI AL"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490019F3020",
+  "source_file": "400093_4490019F2024_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_4490019F2024_2_01",
+  "extracted_at": "2026-11-06T18:08:16.582Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15442,
+    "output": 856
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エバステルOD錠5mg",
+      "strength": "5mg",
+      "imprint_front": "P177",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはP177。外形図には「5」の表示があるが、本文には識別コードP177のみの記載。",
+      "color": "うすい紅色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2025年1月改訂",
+      "source_page": 1,
+      "source_quote": "エバステルOD錠5mg 色・剤形：うすい紅色の素錠(口腔内崩壊錠) 大きさ：直径約6.5mm、厚さ約2.4mm、重さ約100mg 識別コード P177"
+    }
+  ]
+}

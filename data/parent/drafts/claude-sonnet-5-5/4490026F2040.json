@@ -1,0 +1,46 @@
+{
+  "id": "4490026F2040",
+  "source_file": "231099_4490026F2040_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_4490026F2040_2_06",
+  "extracted_at": "2026-11-06T18:11:03.677Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23191,
+    "output": 1086
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "キプレス錠10mg",
+      "strength": "10mg",
+      "imprint_front": "KP-372",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「KP-372」と記載。表裏の別は本文に記載なし",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 明るい灰黄色／外形 直径：8.0mm 厚さ：4.1mm 質量：約205mg／識別コード KP-372"
+    },
+    {
+      "product_name": "キプレスOD錠10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「KP-375（包装）」と記載されており、錠剤自体への刻印の有無は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊錠／色調 白色／外形 直径：約9.2mm 厚さ：約6.2mm 質量：約34mg／識別コード KP-375（包装）"
+    }
+  ]
+}

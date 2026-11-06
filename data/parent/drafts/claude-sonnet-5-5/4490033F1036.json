@@ -1,0 +1,30 @@
+{
+  "id": "4490033F1036",
+  "source_file": "430773_4490033F1036_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_4490033F1036_1_02",
+  "extracted_at": "2026-11-06T18:14:56.727Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17850,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビラスチン錠20mg「EP」",
+      "strength": "20mg",
+      "imprint_front": "BIL EP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「BIL EP」と記載。外形の図では表面に「BIL EP」の刻印が見られる。裏面の刻印は文字情報では記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ビラスチン錠20mg「EP」 素錠 白色 BILEP 7.0 2.6 125"
+    }
+  ]
+}

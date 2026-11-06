@@ -1,0 +1,30 @@
+{
+  "id": "5200130F1037",
+  "source_file": "180102_5200130F1037_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180102_5200130F1037_2_01",
+  "extracted_at": "2026-11-06T18:17:23.055Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9676,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラシエ防風通聖散エキス錠",
+      "strength": "1錠",
+      "imprint_front": "EKT-62",
+      "imprint_back": "EKT-62",
+      "imprint_note": "識別コード EKT-62（表面・裏面の個別の刻印位置は文書上明記なし）",
+      "color": "黄褐色～褐色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色 黄褐色～褐色 におい ほとんどないか、わずかに特異なにおい 味 わずかに甘く、後に苦い 外形 表面 裏面 側面 直径 9.2mm 厚さ 4.7mm 質量 330mg 識別コード EKT-62"
+    }
+  ]
+}

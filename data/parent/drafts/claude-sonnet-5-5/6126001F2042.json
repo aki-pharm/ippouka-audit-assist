@@ -1,0 +1,30 @@
+{
+  "id": "6126001F2042",
+  "source_file": "672212_6126001F2042_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6126001F2042_1_02",
+  "extracted_at": "2026-11-06T18:17:50.671Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7426,
+    "output": 253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ポリミキシンB硫酸塩錠100万単位「ファイザー」",
+      "strength": "100万単位",
+      "imprint_front": "PT P02",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「PT P02」。外形図には表面に「PT P02」の印字が描かれている。裏面の記載は確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": false,
+      "source_revision": "2023年10月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "外形（mm） 識別コード 色調等 PT P02 白色 フィルムコーティング錠"
+    }
+  ]
+}

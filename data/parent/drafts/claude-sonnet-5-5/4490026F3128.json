@@ -1,0 +1,30 @@
+{
+  "id": "4490026F3128",
+  "source_file": "340409_4490026F2148_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_4490026F2148_1_03",
+  "extracted_at": "2026-11-06T18:11:59.472Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21698,
+    "output": 679
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「SN」",
+      "strength": "5mg",
+      "imprint_front": "モンテルカスト 5 SK9",
+      "imprint_back": "モンテルカスト 5 SK9",
+      "imprint_note": "識別コード：SK9。外形の表面・裏面に「モンテルカスト」「5」「SK9」の表示あり",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡橙色のフィルムコーティング錠／表面・裏面：モンテルカスト 5 SK9／直径 6.6mm／厚さ 3.1mm／重量 103.15mg／識別コード SK9"
+    }
+  ]
+}

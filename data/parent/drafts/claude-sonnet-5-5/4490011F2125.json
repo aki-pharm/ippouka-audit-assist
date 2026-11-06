@@ -1,0 +1,30 @@
+{
+  "id": "4490011F2125",
+  "source_file": "581120_4490011F1129_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_4490011F1129_1_03",
+  "extracted_at": "2026-11-06T18:06:42.688Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15481,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペミロラストK錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "t 035 5mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）として記載。錠剤本体の刻印の表裏の別は本文に明記なし。片面1/2割線入り",
+      "color": "微黄白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "微黄白色～帯黄白色の片面1/2割線入り素錠　直径 6.0mm　厚さ 2.4mm　質量 90mg　識別コード（PTP） t 035 5mg"
+    }
+  ]
+}

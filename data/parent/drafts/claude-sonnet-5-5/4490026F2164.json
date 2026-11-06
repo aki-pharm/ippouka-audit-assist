@@ -1,0 +1,30 @@
+{
+  "id": "4490026F2164",
+  "source_file": "830001_4490026F2164_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_4490026F2164_1_06",
+  "extracted_at": "2026-11-06T18:11:24.476Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23313,
+    "output": 816
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの記載なし。外形図に印字らしき表示があるが、文字として確認できないため未確認とした。",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡橙色のフィルムコーティング錠／直径 約8.1mm／厚さ 約4.1mm／重量 205mg"
+    }
+  ]
+}

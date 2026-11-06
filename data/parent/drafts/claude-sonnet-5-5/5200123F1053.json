@@ -1,0 +1,30 @@
+{
+  "id": "5200123F1053",
+  "source_file": "180102_5200123F1053_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180102_5200123F1053_2_01",
+  "extracted_at": "2026-11-06T18:17:15.580Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8377,
+    "output": 300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラシエ半夏瀉心湯エキス錠",
+      "strength": "1錠",
+      "imprint_front": "EKT-14",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード EKT-14。裏面の刻印は記載なし。外形図は表面・裏面が円形、側面は扁平形。",
+      "color": "淡黄色～淡褐色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 / 色 淡黄色～淡褐色 / 外形 表面 裏面 側面 / 直径 9.2mm / 厚さ 4.9mm / 質量 330mg / 識別コード EKT-14"
+    }
+  ]
+}

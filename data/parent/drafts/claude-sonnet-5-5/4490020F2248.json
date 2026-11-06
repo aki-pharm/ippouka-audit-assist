@@ -1,0 +1,30 @@
+{
+  "id": "4490020F2248",
+  "source_file": "400186_4490020F1241_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4490020F1241_1_12",
+  "extracted_at": "2026-11-06T18:08:59.837Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17115,
+    "output": 920
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セチリジン塩酸塩錠10mg「タカタ」",
+      "strength": "10mg",
+      "imprint_front": "TTS 401",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TTS-401。裏面の外形図に刻印の表示はないが、文章での明記はないため裏面は未確認とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "セチリジン塩酸塩錠10mg「タカタ」 白色のフィルムコーティング錠 表面 TTS 401 直径 約7.1mm 重さ 約0.119g 厚さ 約2.9mm 識別コード TTS-401"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490028F1078",
+  "source_file": "400278_4490028F1078_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_4490028F1078_1_02",
+  "extracted_at": "2026-11-06T18:13:46.729Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28424,
+    "output": 762
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの記載なし（外形図には印字らしき表示あり、文字は読み取れない）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "レボセチリジン塩酸塩錠5mg「TCK」 白色フィルムコーティング錠（割線入り） 8.1×4.6 3.3 103"
+    }
+  ]
+}

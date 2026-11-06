@@ -1,0 +1,30 @@
+{
+  "id": "4300002M1029",
+  "source_file": "530359_4300002M1029_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530359_4300002M1029_1_09",
+  "extracted_at": "2026-11-06T18:05:41.296Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8366,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヨードカプセル-123（1カプセル中 ヨウ化ナトリウム（123I）3.7MBq）",
+      "strength": "3.7MBq",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル剤。刻印・識別コード、大きさ、割線の記載なし",
+      "color": "だいだい色透明（カプセルの上部及び下部）",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年3月改訂",
+      "source_page": 1,
+      "source_quote": "本剤は，無色又は白色の結晶又は結晶性の粉末を，上部及び下部共にだいだい色透明のカプセルに充てんした硬カプセル剤"
+    }
+  ]
+}

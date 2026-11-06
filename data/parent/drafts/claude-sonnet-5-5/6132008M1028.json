@@ -1,0 +1,30 @@
+{
+  "id": "6132008M1028",
+  "source_file": "450064_6132008C1022_5_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6132008C1022_5_11",
+  "extracted_at": "2026-11-06T18:18:53.352Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14991,
+    "output": 815
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフスパンカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。外形の図に印字らしきものはあるが、本文に刻印・識別コードの記載なし。カプセル号数5号、重量約90mg。",
+      "color": "淡いだいだい色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 淡いだいだい色不透明の硬カプセル剤"
+    }
+  ]
+}

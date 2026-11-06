@@ -1,0 +1,30 @@
+{
+  "id": "4490016M1023",
+  "source_file": "400107_4490016M1023_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4490016M1023_1_12",
+  "extracted_at": "2026-11-06T18:07:41.036Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13710,
+    "output": 313
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アイピーディカプセル50",
+      "strength": "50mg",
+      "imprint_front": "TC440",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードTC440（カプセル剤。外形図ではカプセル本体に「アイピーディ50」と印字されているように見えるが、本文には記載なし）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 5.2,
+      "size_short_mm": 5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年2月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の粉末又は粒を含む白色の不透明硬カプセル剤で、においはないか、又はわずかに特異なにおいがある。 外形 4号カプセル 大きさ・質量 全長14.5mm 長径5.2mm 短径5.0mm 質量140mg 識別コード TC440"
+    }
+  ]
+}

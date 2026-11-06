@@ -1,0 +1,30 @@
+{
+  "id": "5200125F1036",
+  "source_file": "180102_5200125F1036_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180102_5200125F1036_2_01",
+  "extracted_at": "2026-11-06T18:17:18.167Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7866,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラシエ白虎加人参湯エキス錠",
+      "strength": "1錠",
+      "imprint_front": "EKT-34",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード EKT-34（表裏面・側面の刻印位置は文書に明記なし）",
+      "color": "淡黄褐色～淡褐色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.6,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色 淡黄褐色～淡褐色 におい 特異なにおい 味 わずかに甘く苦い 外形 表面 裏面 側面 直径 10mm 厚さ 5.6mm 質量 400mg 識別コード EKT-34"
+    }
+  ]
+}

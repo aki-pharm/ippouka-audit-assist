@@ -1,0 +1,30 @@
+{
+  "id": "4490014F2293",
+  "source_file": "480235_4490014F1254_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490014F1254_1_04",
+  "extracted_at": "2026-11-06T18:07:28.037Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20664,
+    "output": 783
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "Tw226",
+      "imprint_back": "20",
+      "imprint_note": "識別コードはTw226。外形図では表に「Tw 226」、裏に「20」と表示されている。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年6月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄色のフィルムコーティング錠 識別コード Tw226 直径(mm) 8.1 厚さ(mm) 3.3 質量(mg) 175"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4299002M1034",
+  "source_file": "530191_4299002M1034_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4299002M1034_1_07",
+  "extracted_at": "2026-11-06T18:05:18.399Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9529,
+    "output": 552
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベスタチンカプセル10mg",
+      "strength": "10mg",
+      "imprint_front": "NK7421 10",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。識別コード NK7421 10。外形は3号カプセル。表裏の区別は記載なし。大きさ（mm）の記載なし。質量0.27g。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の硬カプセル剤（内容物：白色の粉末）／外形 3号カプセル／質量 0.27g／識別コード NK7421 10"
+    }
+  ]
+}

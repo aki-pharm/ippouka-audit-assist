@@ -1,0 +1,30 @@
+{
+  "id": "6132002M2175",
+  "source_file": "480235_6132002M2175_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6132002M2175_1_10",
+  "extracted_at": "2026-11-06T18:18:37.053Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10299,
+    "output": 877
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セファレキシンカプセル250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "Tw CEX250",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は錠剤ではなく硬カプセル剤（2号カプセル）。識別コードは本体に Tw CEX250、包装（PTP）に Tw. CEX250。外形図の記載から全長約17.9mm。裏面の刻印は文書に明記なし。",
+      "color": "本体類白色、頭部緑色の不透明な硬カプセル",
+      "shape": "oblong",
+      "size_long_mm": 17.9,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "本品は白色～淡黄白色の粉末をカプセルに充填した硬カプセル剤で本体類白色、頭部緑色の不透明な硬カプセル剤である。"
+    }
+  ]
+}

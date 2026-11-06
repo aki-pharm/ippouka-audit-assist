@@ -1,0 +1,30 @@
+{
+  "id": "4490028F2090",
+  "source_file": "530100_4490028F1183_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_4490028F1183_1_02",
+  "extracted_at": "2026-11-06T18:14:18.395Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31571,
+    "output": 708
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠 2.5mg「ニプロ」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径5.1mm 厚さ2.3mm 重量51.5mg"
+    }
+  ]
+}

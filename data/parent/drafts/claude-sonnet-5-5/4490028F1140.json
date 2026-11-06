@@ -1,0 +1,30 @@
+{
+  "id": "4490028F1140",
+  "source_file": "400813_4490028F1140_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_4490028F1140_1_03",
+  "extracted_at": "2026-11-06T18:13:59.584Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26942,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠5mg「武田テバ」",
+      "strength": "5mg",
+      "imprint_front": "TT",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：TT。添付文書には表面・裏面の区別の記載なし（図では表面にT/Tマークの表示、側面に割線）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8,
+      "size_short_mm": 4.5,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の両面割線入りのフィルムコーティング錠　形状 長径 8mm 短径 4.5mm 厚さ 3.2mm 質量 103mg　識別コード TT"
+    }
+  ]
+}

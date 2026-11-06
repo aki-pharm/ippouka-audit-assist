@@ -1,0 +1,30 @@
+{
+  "id": "4490026F1052",
+  "source_file": "181615_4490026F1052_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_4490026F1052_3_03",
+  "extracted_at": "2026-11-06T18:10:52.189Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19311,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シングレア®チュアブル錠5mg",
+      "strength": "5mg",
+      "imprint_front": "751",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は社名マーク（ORGANONのマーク）と751の表記。表面に社名マークと「5」の表示があるように見えるが、文言としては識別コード751のみ記載。裏面は無地（外形図）",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 円形・裸錠・うすい赤色 / 直径：9.5mm / 厚さ：4.4mm / 識別コード 751"
+    }
+  ]
+}

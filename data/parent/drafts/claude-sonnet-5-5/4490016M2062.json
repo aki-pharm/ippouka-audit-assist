@@ -1,0 +1,30 @@
+{
+  "id": "4490016M2062",
+  "source_file": "300119_4490016M1040_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4490016M1040_1_04",
+  "extracted_at": "2026-11-06T18:07:51.706Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13810,
+    "output": 327
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スプラタストトシル酸塩カプセル100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW-149",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル剤（3号）。識別コードはカプセル本体に表示。全長15.8mm、重量約216mg。表裏の区別は記載なし。",
+      "color": "頭部：白色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／性状 頭部：白色不透明 胴部：白色不透明 内容物：白色の粉末で、においはないか又は特異なにおいがある／全長（mm） 15.8／識別コード SW-149"
+    }
+  ]
+}

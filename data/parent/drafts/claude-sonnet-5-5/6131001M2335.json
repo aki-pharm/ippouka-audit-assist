@@ -1,0 +1,30 @@
+{
+  "id": "6131001M2335",
+  "source_file": "480235_6131001M1100_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6131001M1100_1_16",
+  "extracted_at": "2026-11-06T18:18:17.461Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24979,
+    "output": 1101
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アモキシシリンカプセル250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル剤で、錠剤ではない。性状欄の文章には刻印の記載がない。外形図には「アモキシシリン」「250mg トーワ」の表示がある。2号カプセル、全長約17.8mm、質量約375mg。",
+      "color": "頭部茶色、本体白色の不透明",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "頭部茶色、本体白色の不透明な硬カプセル剤である。内容物は白色～淡黄白色でわずかに特異な臭いがあり、苦味を有する粉末である。"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490026F3063",
+  "source_file": "380999_4490026F2083_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380999_4490026F2083_1_04",
+  "extracted_at": "2026-11-06T18:12:01.436Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23831,
+    "output": 889
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「CEO」",
+      "strength": "5mg",
+      "imprint_front": "CEO145",
+      "imprint_back": "5",
+      "imprint_note": "外形図（裏）に「5」の表示あり。割線の記載なし。",
+      "color": "明るい灰黄色",
+      "shape": "oval",
+      "size_long_mm": 7.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：楕円形・明るい灰黄色のフィルムコーティング錠　長径 7.5mm　短径 5.5mm　厚さ 2.9mm　重量 106mg　識別コード CEO145"
+    }
+  ]
+}

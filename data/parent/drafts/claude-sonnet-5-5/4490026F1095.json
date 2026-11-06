@@ -1,0 +1,30 @@
+{
+  "id": "4490026F1095",
+  "source_file": "580591_4490026F1095_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_4490026F1095_1_06",
+  "extracted_at": "2026-11-06T18:10:55.269Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24808,
+    "output": 337
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカストチュアブル錠5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "モンテルカスト チュアブル 5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：モンテルカストチュアブル5 JG（表面・裏面・側面の図の個別の刻印内容は文章からは判別できず、表面/裏面の区別は未確認）",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "モンテルカストチュアブル錠5mg「JG」 うすい赤色の円形の素錠 表面 裏面 側面 モンテルカスト チュアブル 5 JG 直径 9.6mm 厚さ 4.5mm 重量 300mg"
+    }
+  ]
+}

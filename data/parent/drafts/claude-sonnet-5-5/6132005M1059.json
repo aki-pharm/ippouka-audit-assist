@@ -1,0 +1,30 @@
+{
+  "id": "6132005M1059",
+  "source_file": "672173_6132005M1059_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_6132005M1059_3_03",
+  "extracted_at": "2026-11-06T18:18:38.433Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15499,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ケフラールカプセル250mg",
+      "strength": "250mg",
+      "imprint_front": "ケフラール",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は硬カプセル剤（錠剤ではない）。識別コード欄に「ケフラール」と記載。外形図にも表示あり。大きさは2号カプセル、重量約0.36g。",
+      "color": "ボディは白色、キャップは青色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ボディは白色、キャップは青色の硬カプセル剤で、内容物はわずかに特異臭のある白色～黄白色の粉末である。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "4490027F1227",
+  "source_file": "671940_4490027F1227_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_4490027F1227_1_01",
+  "extracted_at": "2026-11-06T18:13:09.400Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27993,
+    "output": 1041
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロラタジン錠10mg「フェルゼン」",
+      "strength": "10mg",
+      "imprint_front": "FEL021",
+      "imprint_back": "10",
+      "imprint_note": "識別コード FEL021（表）。裏面は「10」の表示（図より）。割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年5月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状：白色の円形の割線入り素錠／直径 6.5mm／厚さ 2.3mm／重量 100.0mg／識別コード FEL021"
+    },
+    {
+      "product_name": "ロラタジンOD錠10mg「フェルゼン」",
+      "strength": "10mg",
+      "imprint_front": "FEL022",
+      "imprint_back": "OD10",
+      "imprint_note": "識別コード FEL022（表）。裏面は「OD10」の表示（図より）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2024年5月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状：白色の円形の素錠／直径 7.0mm／厚さ 3.3mm／重量 150.0mg／識別コード FEL022"
+    }
+  ]
+}

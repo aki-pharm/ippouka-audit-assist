@@ -1,0 +1,30 @@
+{
+  "id": "4490038F1020",
+  "source_file": "231120_4490038F1020_A_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231120_4490038F1020_A_01",
+  "extracted_at": "2026-11-06T18:15:55.042Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17791,
+    "output": 849
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エクテリー錠300mg",
+      "strength": "300mg",
+      "imprint_front": "300",
+      "imprint_back": "なし",
+      "imprint_note": "刻印は本文に文字記載がなく、外形図から読み取った。表面は「300」、裏面は社名マークのみ。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 15.6,
+      "size_short_mm": 9.2,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形のフィルムコーティング錠 色 黄色 大きさ 長径 約15.6mm 短径 約9.2mm 厚さ 約5.0mm"
+    }
+  ]
+}

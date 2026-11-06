@@ -1,0 +1,46 @@
+{
+  "id": "4490023F3116",
+  "source_file": "830001_4490023F1121_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_4490023F1121_1_06",
+  "extracted_at": "2026-11-06T18:10:39.393Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30444,
+    "output": 1356
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠60mg「YD」",
+      "strength": "60mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは外形図に印字されているが、本文に文字での記載がないため未確認",
+      "color": "うすいだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 12.1,
+      "size_short_mm": 5.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色のフィルムコーティング錠　(長径)約12.1mm (短径)約5.6mm　厚さ 約4.1mm　重量 200mg"
+    },
+    {
+      "product_name": "フェキソフェナジン塩酸塩OD錠60mg「YD」",
+      "strength": "60mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは外形図に印字されているが、本文に文字での記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の素錠　直径 約11mm　厚さ 約4.3mm　重量 450mg"
+    }
+  ]
+}

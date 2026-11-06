@@ -1,0 +1,30 @@
+{
+  "id": "4490026F2334",
+  "source_file": "580591_4490026F2334_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_4490026F2334_1_06",
+  "extracted_at": "2026-11-06T18:11:34.903Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23793,
+    "output": 335
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "モンテルカスト 10 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「モンテルカスト 10 JG」と記載。表面・裏面・側面の図があるが、どの面に刻印があるかは文章では明記されていない。割線の記載なし。",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "モンテルカスト錠10mg「JG」 明るい灰黄色円形のフィルムコーティング錠 表面 裏面 側面 直径 8.1mm 厚さ 4.0mm 重量 206mg 本体表示 モンテルカスト 10 JG"
+    }
+  ]
+}

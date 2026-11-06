@@ -1,0 +1,30 @@
+{
+  "id": "4299100F2022",
+  "source_file": "400107_4299100F1026_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4299100F1026_1_10",
+  "extracted_at": "2026-11-06T18:05:42.861Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25450,
+    "output": 819
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロンサーフ配合錠T20",
+      "strength": "1錠中 トリフルリジン 20mg、チピラシル塩酸塩 9.42mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表面・裏面の表示があるが、刻印・識別コードの文字は本文に記載がないため未確認",
+      "color": "淡赤色",
+      "shape": "other",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡赤色の扁平球状のフィルムコーティング錠である。（大きさ：直径7.6mm、厚み3.2mm、質量163.6mg）"
+    }
+  ]
+}

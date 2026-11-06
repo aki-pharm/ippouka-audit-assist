@@ -1,0 +1,46 @@
+{
+  "id": "4490027F1103",
+  "source_file": "830001_4490027F1103_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_4490027F1103_1_13",
+  "extracted_at": "2026-11-06T18:13:01.967Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29106,
+    "output": 1070
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロラタジン錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "YD 608",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は3.2 製剤の性状の外形図から判読。裏面の刻印は文章に記載がない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠／直径 約6.5mm／厚さ 約2.6mm／重量 100mg"
+    },
+    {
+      "product_name": "ロラタジンOD錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "YD 609",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は3.2 製剤の性状の外形図から判読。裏面の刻印は文章に記載がない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠／直径 約7.0mm／厚さ 約3.2mm／重量 120mg"
+    }
+  ]
+}

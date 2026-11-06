@@ -1,0 +1,30 @@
+{
+  "id": "4420002F1117",
+  "source_file": "172190_4420002F1117_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_4420002F1117_3_03",
+  "extracted_at": "2026-11-06T18:06:20.929Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13876,
+    "output": 991
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リマチル錠100mg",
+      "strength": "100mg",
+      "imprint_front": "リマチル 100",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の上面に「リマチル 100」の表示あり（本文に刻印・印字の記載なし）。下面・側面の表示は文言では確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.4,
+      "size_short_mm": 9.4,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "リマチル錠100mg 性状：糖衣錠、白色 外形：直径 9.4mm 厚さ 5.2mm 重量 約340mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490014F1025",
+  "source_file": "650168_4490014F1025_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_4490014F1025_1_13",
+  "extracted_at": "2026-11-06T18:07:01.400Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18633,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレジオン錠10",
+      "strength": "10mg",
+      "imprint_front": "1P",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：1P。外形図には社名マークらしき表示もあるが、文書本文には記載なし。表裏の別は本文に明記されていない。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色～微黄色のフィルムコート錠 / 直径 6.0mm / 厚さ 2.8mm / 重さ 0.088g / 識別コード 1P"
+    }
+  ]
+}

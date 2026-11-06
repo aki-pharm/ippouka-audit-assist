@@ -1,0 +1,30 @@
+{
+  "id": "6131001M1142",
+  "source_file": "400278_6131001M1142_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6131001M1142_1_07",
+  "extracted_at": "2026-11-06T18:18:05.133Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26576,
+    "output": 335
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アモキシシリンカプセル125mg「TCK」",
+      "strength": "125mg",
+      "imprint_front": "TU AM・125",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表記は「TU AM・125」。カプセル本体（キャップ・ボディー）に印刷されているが、表裏の別は記載なし。剤形は3号硬カプセル（錠剤ではない）。大きさ・割線の記載なし。",
+      "color": "キャップ：淡赤色 ボディー：白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アモキシシリンカプセル125mg「TCK」 TU AM・125 UT 512 AM・ キャップ：淡赤色 ボディー：白色 TU AM・125 3号硬カプセル"
+    }
+  ]
+}

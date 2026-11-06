@@ -1,0 +1,30 @@
+{
+  "id": "4490017F1070",
+  "source_file": "581120_4490017F1070_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_4490017F1070_1_04",
+  "extracted_at": "2026-11-06T18:07:58.262Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15163,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プランルカスト錠112.5mg「NIG」",
+      "strength": "112.5mg",
+      "imprint_front": "TYK404",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに記載（添付文書上は「識別コード（PTP）TYK404」）。錠剤本体の刻印の表裏の別は文書中に明記なし。",
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～淡黄色の素錠 / 直径 7.5mm / 厚さ 2.7mm / 質量 約150mg / 識別コード（PTP） TYK404"
+    }
+  ]
+}

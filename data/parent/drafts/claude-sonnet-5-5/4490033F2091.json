@@ -1,0 +1,30 @@
+{
+  "id": "4490033F2091",
+  "source_file": "400186_4490033F2091_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4490033F2091_2_01",
+  "extracted_at": "2026-11-06T18:15:26.631Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19706,
+    "output": 647
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビラスチンOD錠20mg「タカタ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載なし（外形の図に表示はあるが文字として判読できないため未確認）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の裸錠　表面 直径 約7.0mm　裏面 重さ 約0.13g　側面 厚さ 約2.8mm"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490014F2331",
+  "source_file": "530113_4490014F1297_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_4490014F1297_1_02",
+  "extracted_at": "2026-11-06T18:07:32.612Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10181,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "NS 411",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NS 411。外形図では片面に「NS」と割線、「411」の表示あり。裏面の刻印は記載なし",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄色の片面割線入りのフィルムコート錠　錠径：8.1mm 錠厚：3.4mm 重量：175mg　識別コード NS 411"
+    }
+  ]
+}

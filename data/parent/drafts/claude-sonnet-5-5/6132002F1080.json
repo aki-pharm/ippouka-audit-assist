@@ -1,0 +1,30 @@
+{
+  "id": "6132002F1080",
+  "source_file": "400022_6132002F1080_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400022_6132002F1080_2_06",
+  "extracted_at": "2026-11-06T18:18:29.392Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10301,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラリキシン錠250mg",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）の欄に「162」と社名マークらしき表示があるが、錠剤本体の刻印は文章では記載されていない。外形の図は文字として読み取れない。",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄赤色・フィルムコーティング錠 大きさ（mm） 直径：10.0、厚さ：4.5"
+    }
+  ]
+}

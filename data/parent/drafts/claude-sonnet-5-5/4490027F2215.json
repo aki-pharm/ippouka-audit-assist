@@ -1,0 +1,30 @@
+{
+  "id": "4490027F2215",
+  "source_file": "230064_4490027F2215_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230064_4490027F2215_1_10",
+  "extracted_at": "2026-11-06T18:13:37.079Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25409,
+    "output": 1007
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロラタジンODフィルム10mg「モチダ」",
+      "strength": "10mg",
+      "imprint_front": "MO480",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「MO480」と記載。表裏のどちらに印字されているかの記載なし。厚さは100～130μmと範囲で記載されているため thickness_mm は null とした。「切れ目入り」と記載されているが割線の記載はなく、score_line は null とした。形状は文章での記載がなく、外形図が角の丸い長方形であるため other とした。",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 20,
+      "size_short_mm": 14,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形：切れ目入りフィルム剤（口腔内崩壊剤）／色：白色／大きさ：長辺(mm) 20、短辺(mm) 14、厚さ(μm) 100～130／識別コード：MO480"
+    }
+  ]
+}

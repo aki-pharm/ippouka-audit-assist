@@ -1,0 +1,30 @@
+{
+  "id": "6131002M1147",
+  "source_file": "780009_6131002M1147_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_6131002M1147_1_09",
+  "extracted_at": "2026-11-06T18:18:23.729Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9982,
+    "output": 736
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビクシリンカプセル250mg",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル剤（錠剤ではない）。外形図に印字らしき表示があるが、本文テキストでは判読できず未確認。カプセル番号は2。",
+      "color": "キャップ：赤色、ボディ：黄色",
+      "shape": "oblong",
+      "size_long_mm": 17.9,
+      "size_short_mm": 6.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ビクシリンカプセル250mg 硬カプセル剤 キャップ：赤色 ボディ：黄色 長径：17.9 短径：6.3 重量 約0.39g カプセル番号 2"
+    }
+  ]
+}

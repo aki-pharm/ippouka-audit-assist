@@ -1,0 +1,30 @@
+{
+  "id": "4490013M2034",
+  "source_file": "270072_4490013M1038_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_4490013M1038_1_12",
+  "extracted_at": "2026-11-06T18:06:56.659Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11369,
+    "output": 691
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レミカットカプセル2mg",
+      "strength": "2mg",
+      "imprint_front": "502",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。識別コード502（社名マーク（Kowa）と併記）。表裏の区別は記載なし。",
+      "color": "白色不透明（キャップ：白、ボディ：白）",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色不透明の硬カプセル剤（キャップ：白、ボディ：白）で、内容物は白色の徐放性顆粒である。／直径5.3mm、長さ14.5mm、重量195mg／識別コード 502"
+    }
+  ]
+}

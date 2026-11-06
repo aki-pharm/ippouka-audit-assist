@@ -1,0 +1,30 @@
+{
+  "id": "4490026F3047",
+  "source_file": "480209_4490026F2067_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_4490026F2067_1_09",
+  "extracted_at": "2026-11-06T18:11:53.495Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20605,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「KM」",
+      "strength": "5mg",
+      "imprint_front": "KM 11",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：KM-11。表面に印字（図中は「KM」「11」の2段表示）。裏面・側面は図に刻印の表示なし。",
+      "color": "明るい灰黄色",
+      "shape": "oval",
+      "size_long_mm": 7.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "楕円形・フィルムコーティング錠・明るい灰黄色 表面 長径：7.6mm 短径：5.6mm 側面 厚さ：2.9mm 識別コード KM-11"
+    }
+  ]
+}

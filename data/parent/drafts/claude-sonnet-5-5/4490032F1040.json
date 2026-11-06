@@ -1,0 +1,30 @@
+{
+  "id": "4490032F1040",
+  "source_file": "300119_4490032F1040_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4490032F1040_1_01",
+  "extracted_at": "2026-11-06T18:14:50.911Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20043,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デスロラタジン錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "デスロラタジン 5 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：デスロラタジン 5 サワイ（表裏の区別は文書の文言からは不明）",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　性状 うすい赤色　直径（mm） 6.5　厚さ（mm） 2.8　重量（mg） 約104　本体表示 デスロラタジン 5 サワイ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291100F1028",
+  "source_file": "641726_4291100F1028_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/641726_4291100F1028_1_01",
+  "extracted_at": "2026-11-06T18:05:03.478Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22304,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハイツエキシン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "H021",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：H021（外形図では表面にH021、裏面は無地）",
+      "color": "淡黄色～黄色",
+      "shape": "oblong",
+      "size_long_mm": 10,
+      "size_short_mm": 5,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2026年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄色～黄色のフィルムコーティング錠 ／ 大きさ・質量 長径 10.0 mm、短径 5.0 mm、厚さ 4.0 mm、質量 187.2 mg ／ 識別コード H021"
+    }
+  ]
+}

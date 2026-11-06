@@ -1,0 +1,30 @@
+{
+  "id": "4490033F2024",
+  "source_file": "400107_4490033F2024_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4490033F2024_1_03",
+  "extracted_at": "2026-11-06T18:15:04.567Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18187,
+    "output": 310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビラノアOD錠20mg",
+      "strength": "20mg",
+      "imprint_front": "TC12",
+      "imprint_back": "TC12",
+      "imprint_note": "識別コード欄にTC12と記載。外形図では裏面にTC12の表示あり（表面の刻印の有無は文章では未記載）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第3版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "販売名 ビラノアOD錠20mg 剤形 口腔内崩壊錠 色調 白色 外形 表面 裏面 側面 大きさ・質量 直径(mm) 厚み(mm) 質量(mg) 8.0 2.9 180 識別コード TC12"
+    }
+  ]
+}

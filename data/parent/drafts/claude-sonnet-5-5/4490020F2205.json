@@ -1,0 +1,30 @@
+{
+  "id": "4490020F2205",
+  "source_file": "400073_4490020F1209_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_4490020F1209_1_15",
+  "extracted_at": "2026-11-06T18:08:43.970Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25018,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セチリジン塩酸塩錠10mg「科研」",
+      "strength": "10mg",
+      "imprint_front": "KC53",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード KC53（表面に「KC 53」と表示）。裏面の刻印は外形図で空白のため、なしと判断",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色 白色／直径 7.1mm／厚さ 2.9mm／質量 119mg／識別コード KC53"
+    }
+  ]
+}

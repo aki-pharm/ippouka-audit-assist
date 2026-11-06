@@ -1,0 +1,30 @@
+{
+  "id": "4490005F1573",
+  "source_file": "530372_4490005F1573_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_4490005F1573_1_02",
+  "extracted_at": "2026-11-06T18:06:31.794Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14327,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキサトミド錠30mg「ケミファ」",
+      "strength": "30mg",
+      "imprint_front": "NPI 449A",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「NPI　449A」。外形図の表に記載あり、裏は無地（外形図上は刻印の記載なし）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の割線入りの素錠 / 直径 7.1mm / 厚さ 2.6mm / 重量 120.0mg / 識別コード NPI　449A"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490014F1211",
+  "source_file": "530372_4490014F1211_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_4490014F1211_2_02",
+  "extracted_at": "2026-11-06T18:07:02.478Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22554,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "NPI 120",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「NPI 120」は製剤の性状欄に記載。外形図の裏面には刻印の表示なし。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄色のフィルムコーティング錠／直径 6.6mm／厚さ 3.2mm／重量 103mg／識別コード NPI 120"
+    }
+  ]
+}

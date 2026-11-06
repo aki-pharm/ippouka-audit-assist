@@ -1,0 +1,30 @@
+{
+  "id": "4490025F1023",
+  "source_file": "230124_4490025F1023_1_31.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_4490025F1023_1_31",
+  "extracted_at": "2026-11-06T18:10:40.111Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19931,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレロック錠2.5",
+      "strength": "2.5mg",
+      "imprint_front": "KH020",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは錠剤本体およびPTPシートに表示。表面・裏面・側面は図で示され、文字情報としての刻印の面の区別は未確認",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2020年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 6.1、厚さ（mm） 3.0、重量（g） 0.08、色調 淡黄赤色、剤皮 フィルムコーティング錠、識別コード KH020（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

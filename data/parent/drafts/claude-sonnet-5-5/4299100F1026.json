@@ -1,0 +1,30 @@
+{
+  "id": "4299100F1026",
+  "source_file": "400107_4299100F1026_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4299100F1026_1_10",
+  "extracted_at": "2026-11-06T18:05:40.432Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25450,
+    "output": 819
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロンサーフ配合錠T15",
+      "strength": "15mg（1錠中 トリフルリジン15mg、チピラシル塩酸塩7.065mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状の文章には刻印・印字の記載なし。外形図（表面・裏面・側面）は掲載されているが、文言としては確認できない。",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の扁平球状のフィルムコーティング錠である。（直径7.1mm、厚み2.7mm、質量122.7mg）"
+    }
+  ]
+}

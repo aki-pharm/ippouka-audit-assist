@@ -1,0 +1,30 @@
+{
+  "id": "4490028F2040",
+  "source_file": "830001_4490028F1086_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_4490028F1086_2_03",
+  "extracted_at": "2026-11-06T18:14:13.516Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29692,
+    "output": 686
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠2.5mg「YD」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印・識別コードの記載なし。外形図に印字らしき表示があるが、本文で確認できないため未確認とした",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の円形のフィルムコーティング錠 外形 直径 約6.1mm 厚さ 約2.8mm 重量 90mg"
+    }
+  ]
+}

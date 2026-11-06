@@ -1,0 +1,30 @@
+{
+  "id": "4490020F2299",
+  "source_file": "530169_4490020F1292_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_4490020F1292_1_13",
+  "extracted_at": "2026-11-06T18:09:01.701Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21737,
+    "output": 1019
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セチリジン塩酸塩錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "312",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マーク（n）と本体コード312。裏面は外形図上で刻印なし。包装コード312（PTPシート）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径（mm）7.0 厚さ（mm）2.9 質量（mg）119 本体コード 312 包装コード 312"
+    }
+  ]
+}

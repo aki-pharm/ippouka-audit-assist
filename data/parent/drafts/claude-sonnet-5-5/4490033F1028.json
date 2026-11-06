@@ -1,0 +1,30 @@
+{
+  "id": "4490033F1028",
+  "source_file": "400107_4490033F1028_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4490033F1028_1_06",
+  "extracted_at": "2026-11-06T18:14:55.757Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17470,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビラノア錠20mg",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "TC11",
+      "imprint_note": "識別コードはTC11。外形図では裏面に刻印があるように見えるが、表裏の別は本文には明記されていないため、裏面に記載。表面の刻印は図のみで文字記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第2版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "性状 白色の円形素錠である。 大きさ・質量 直径(mm) 7.0 厚み(mm) 2.6 質量(mg) 125 識別コード TC11"
+    }
+  ]
+}

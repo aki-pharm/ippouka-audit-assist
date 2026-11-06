@@ -1,0 +1,30 @@
+{
+  "id": "4490100F1030",
+  "source_file": "300119_4490100F1030_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4490100F1030_1_06",
+  "extracted_at": "2026-11-06T18:16:02.179Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21892,
+    "output": 431
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プソフェキ配合錠「サワイ」（フェキソフェナジン塩酸塩30mg・塩酸プソイドエフェドリン60mg配合）",
+      "strength": "1錠中 フェキソフェナジン塩酸塩30mg・塩酸プソイドエフェドリン60mg",
+      "imprint_front": "プソフェキ 配合錠 サワイ",
+      "imprint_back": "プソフェキ 配合錠 サワイ",
+      "imprint_note": "本体表示：プソフェキ 配合錠 サワイ。外形図に表裏の表示あり（側面は図のみ）。表裏の区別は文書に明記なし。",
+      "color": "うすいだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 17.5,
+      "size_short_mm": 7.8,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（徐放層を含む多層錠） 性状 うすいだいだい色 直径（mm） 17.5×7.8 厚さ（mm） 5.7 重量（mg） 約586 本体表示 プソフェキ 配合錠 サワイ"
+    }
+  ]
+}

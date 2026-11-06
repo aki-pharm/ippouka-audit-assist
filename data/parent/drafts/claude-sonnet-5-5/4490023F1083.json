@@ -1,0 +1,46 @@
+{
+  "id": "4490023F1083",
+  "source_file": "530100_4490023F1083_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_4490023F1083_3_05",
+  "extracted_at": "2026-11-06T18:09:38.927Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31288,
+    "output": 1138
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠60mg「NP」",
+      "strength": "60mg",
+      "imprint_front": "NP-177",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードNP-177（表裏の区別は本文に記載なし）",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フェキソフェナジン塩酸塩錠60mg「NP」 うすいだいだい色のフィルムコーティング錠 直径8.6mm 厚さ4.2mm 重量206mg 識別コード NP-177"
+    },
+    {
+      "product_name": "フェキソフェナジン塩酸塩OD錠60mg「NP」",
+      "strength": "60mg",
+      "imprint_front": "NP-552",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードNP-552（表裏の区別は本文に記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フェキソフェナジン塩酸塩OD錠60mg「NP」 白色の割線入り素錠（口腔内崩壊錠） 直径9.5mm 厚さ4.4mm 重量330mg 識別コード NP-552"
+    }
+  ]
+}

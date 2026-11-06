@@ -1,0 +1,30 @@
+{
+  "id": "4490026F1044",
+  "source_file": "231099_4490026F1044_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_4490026F1044_2_04",
+  "extracted_at": "2026-11-06T18:10:50.082Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19447,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "キプレスチュアブル錠5mg",
+      "strength": "5mg",
+      "imprint_front": "KP 371",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード KP-371。外形図では表面に「KP」「371」と2段で表示。裏面の刻印は記載なし。",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 裸錠 色調 うすい赤色 外形 直径：9.5mm 厚さ：4.4mm 質量：約300mg 識別コード KP-371"
+    }
+  ]
+}

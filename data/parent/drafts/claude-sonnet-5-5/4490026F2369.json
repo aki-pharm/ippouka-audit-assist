@@ -1,0 +1,46 @@
+{
+  "id": "4490026F2369",
+  "source_file": "300119_4490026F2369_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4490026F2369_1_03",
+  "extracted_at": "2026-11-06T18:11:47.141Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25130,
+    "output": 1217
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW モンテルカスト 10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として記載。表裏の区別は文書の文字情報に記載なし",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／性状 明るい灰黄色／直径（mm）8.1／厚さ（mm）4.0／重量（mg）約205／識別表示 SW モンテルカスト 10"
+    },
+    {
+      "product_name": "モンテルカストOD錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW MT10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として記載。表裏の区別は文書の文字情報に記載なし",
+      "color": "黄色で白色～微黄白色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／性状 黄色で白色～微黄白色の斑点がある／直径（mm）9.5／厚さ（mm）4.5／重量（mg）約300／識別表示 SW MT10"
+    }
+  ]
+}

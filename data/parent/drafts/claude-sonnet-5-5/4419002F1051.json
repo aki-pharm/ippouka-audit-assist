@@ -1,0 +1,30 @@
+{
+  "id": "4419002F1051",
+  "source_file": "581120_4419002F1051_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_4419002F1051_1_02",
+  "extracted_at": "2026-11-06T18:06:09.636Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10205,
+    "output": 785
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "d-クロルフェニラミンマレイン酸塩錠2mg「NIG」",
+      "strength": "2mg",
+      "imprint_front": "t 068",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」欄の記載。錠剤自体の刻印の位置（表裏）は文章では記載なし。片面1/2割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 外形 直径：7.0mm 厚さ：2.2mm 質量：110mg 識別コード（PTP） t 068"
+    }
+  ]
+}

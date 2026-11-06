@@ -1,0 +1,46 @@
+{
+  "id": "4490026F3250",
+  "source_file": "480235_4490026F2270_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490026F2270_1_06",
+  "extracted_at": "2026-11-06T18:12:12.068Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24599,
+    "output": 1300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "モンテルカスト 5 トーワ",
+      "imprint_back": "モンテルカスト 5 トーワ",
+      "imprint_note": "本体表示は1か所のみ記載。外形図では表・裏の両面に表示あり",
+      "color": "明るい灰黄色",
+      "shape": "oval",
+      "size_long_mm": 7.5,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2025年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：明るい灰黄色の楕円形のフィルムコーティング錠／本体表示：モンテルカスト 5 トーワ／直径(mm) 7.5／5.7（長径／短径）／厚さ(mm) 2.9"
+    },
+    {
+      "product_name": "モンテルカストOD錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "モンテルカスト 5 OD トーワ",
+      "imprint_back": "モンテルカスト 5 OD トーワ",
+      "imprint_note": "本体表示は1か所のみ記載。外形図では表・裏の両面に表示あり",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：微黄白色の口腔内崩壊錠／本体表示：モンテルカスト 5 OD トーワ／直径(mm) 8.0／厚さ(mm) 3.5"
+    }
+  ]
+}

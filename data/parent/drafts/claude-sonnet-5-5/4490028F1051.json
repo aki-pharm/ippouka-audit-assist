@@ -1,0 +1,30 @@
+{
+  "id": "4490028F1051",
+  "source_file": "300166_4490028F1051_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_4490028F1051_2_02",
+  "extracted_at": "2026-11-06T18:13:45.146Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28285,
+    "output": 1035
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠5mg「KMP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：レボセチリジン 5 KMP（表裏の別は本文から確認できない）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形：割線入りフィルムコーティング錠／性状：白色／長径(mm)×短径(mm)：8.1×4.6／厚さ(mm)：3.3／重量(mg)：約103／識別コード：レボセチリジン 5 KMP"
+    }
+  ]
+}

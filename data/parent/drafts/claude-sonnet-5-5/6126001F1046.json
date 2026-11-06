@@ -1,0 +1,30 @@
+{
+  "id": "6126001F1046",
+  "source_file": "672212_6126001F1046_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6126001F1046_1_02",
+  "extracted_at": "2026-11-06T18:17:51.982Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7391,
+    "output": 863
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ポリミキシンB硫酸塩錠25万単位「ファイザー」",
+      "strength": "25万単位（1錠中250000単位）",
+      "imprint_front": "PT P01",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の表面に PT と P01 の表示あり。裏面の刻印は文章では記載なし（図は無表示）。素錠。大きさは外形図の数値（直径6.4mm、厚さ3.3mm）。",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年10月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "外形（mm） 識別コード 色調等 PT P01 淡橙色 素錠"
+    }
+  ]
+}

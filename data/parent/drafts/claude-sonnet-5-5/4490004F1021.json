@@ -1,0 +1,30 @@
+{
+  "id": "4490004F1021",
+  "source_file": "170033_4490004F1021_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_4490004F1021_1_05",
+  "extracted_at": "2026-11-06T18:06:26.869Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13997,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アゼプチン錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "232",
+      "imprint_back": "なし",
+      "imprint_note": "表にEマーク（社名マーク）と232の識別コードが表示されている。裏は無地（図示）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 糖衣錠 糖衣錠 / 識別コード 232 233 / 直径（mm） 6.2 6.7 / 厚さ（mm） 3.5 3.7 / 色 白色 白色"
+    }
+  ]
+}

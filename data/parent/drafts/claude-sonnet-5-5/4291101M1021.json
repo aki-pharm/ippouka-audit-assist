@@ -1,0 +1,30 @@
+{
+  "id": "4291101M1021",
+  "source_file": "480866_4291101M1021_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_4291101M1021_1_02",
+  "extracted_at": "2026-11-06T18:05:10.759Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21071,
+    "output": 906
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イソトレックスカプセル8mg",
+      "strength": "8mg",
+      "imprint_front": "RL29",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は錠剤ではなく硬カプセル剤（3号）。識別コード RL29。本文では表裏の区別の記載なし",
+      "color": "淡緑色（不透明、褐色～暗褐色の帯状のシールを施す）",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 5.82,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "褐色～暗褐色の帯状のシールを施した、淡緑色の不透明の硬カプセル剤（3号）で、内容物は黄色の懸濁液である。／大きさ（約mm） 長径：15.9 短径：5.82／識別コード RL29"
+    }
+  ]
+}

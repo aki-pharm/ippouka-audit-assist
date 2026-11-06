@@ -1,0 +1,30 @@
+{
+  "id": "5200057M1029",
+  "source_file": "270127_5200057M1029_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270127_5200057M1029_2_11",
+  "extracted_at": "2026-11-06T18:16:42.275Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 6080,
+    "output": 315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コタロー三黄瀉心湯エキスカプセル",
+      "strength": "1カプセル",
+      "imprint_front": "FS113",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル剤（号数2）。外形図にはコタローの社名マークとFS113が表示されている。",
+      "color": "キャップ：赤橙色不透明、ボディ：ベージュ色不透明、内容物：黄褐色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色調 キャップ：赤橙色不透明 ボディ：ベージュ色不透明 内容物：黄褐色の粉末 号数 2 識別コード FS113"
+    }
+  ]
+}

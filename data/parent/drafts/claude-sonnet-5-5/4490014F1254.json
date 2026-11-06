@@ -1,0 +1,30 @@
+{
+  "id": "4490014F1254",
+  "source_file": "480235_4490014F1254_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490014F1254_1_04",
+  "extracted_at": "2026-11-06T18:07:12.867Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20664,
+    "output": 759
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw225",
+      "imprint_back": "10",
+      "imprint_note": "表は識別コードTw225、裏の「10」は外形図の表示による。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年6月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄色のフィルムコーティング錠 識別コード Tw225 直径(mm) 6.1 厚さ(mm) 2.8"
+    }
+  ]
+}

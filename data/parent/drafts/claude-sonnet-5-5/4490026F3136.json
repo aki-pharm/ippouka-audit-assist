@@ -1,0 +1,30 @@
+{
+  "id": "4490026F3136",
+  "source_file": "400278_4490026F2156_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_4490026F2156_3_06",
+  "extracted_at": "2026-11-06T18:12:01.667Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23602,
+    "output": 644
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄に錠剤の図があるが、刻印・識別コードは文字として記載がないため未確認。割線の記載もなし。",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "モンテルカスト錠 5mg「TCK」 淡橙色 フィルムコーティング錠 6.6 3.1 103.15"
+    }
+  ]
+}

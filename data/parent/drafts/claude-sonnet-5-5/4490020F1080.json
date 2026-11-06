@@ -1,0 +1,30 @@
+{
+  "id": "4490020F1080",
+  "source_file": "530113_4490020F1080_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_4490020F1080_2_15",
+  "extracted_at": "2026-11-06T18:08:24.688Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21684,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セチリジン塩酸塩錠5mg「MNP」",
+      "strength": "5mg",
+      "imprint_front": "MN 412",
+      "imprint_back": "MN 412",
+      "imprint_note": "識別コードは「MN 412」。表裏の別は文書のテキストに明記されていないため、表裏とも同じ値を記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性 状 白色のフィルムコート錠 / 大きさ 錠径：6.1mm 錠厚：2.9mm 重量： 85mg / 識 別コード MN 412"
+    }
+  ]
+}

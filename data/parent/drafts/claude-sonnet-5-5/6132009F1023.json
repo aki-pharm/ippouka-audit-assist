@@ -1,0 +1,30 @@
+{
+  "id": "6132009F1023",
+  "source_file": "400022_6132009F1023_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400022_6132009F1023_2_05",
+  "extracted_at": "2026-11-06T18:19:02.525Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16281,
+    "output": 947
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トミロン錠50",
+      "strength": "50mg",
+      "imprint_front": "202",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図および識別コード(PTP)の図から確認。社名マークと「202」の表示。本文テキストには刻印の記載なし。裏面は図に刻印の記載が見当たらないが、明記はなし。",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2021年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡橙色のフィルムコーティング錠 / 大きさ（mm） 直径：6.6、厚さ：3.1"
+    }
+  ]
+}

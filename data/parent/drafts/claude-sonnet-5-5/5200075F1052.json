@@ -1,0 +1,30 @@
+{
+  "id": "5200075F1052",
+  "source_file": "180102_5200075F1052_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180102_5200075F1052_2_01",
+  "extracted_at": "2026-11-06T18:16:56.716Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11492,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラシエ小青竜湯エキス錠",
+      "strength": "1錠",
+      "imprint_front": "EKT-19",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード EKT-19（表裏の別は記載なし）",
+      "color": "淡褐色～褐色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 / 色 淡褐色～褐色 / 外形 表面 裏面 側面 / 直径 9.2mm / 厚さ 4.7mm / 質量 330mg / 識別コード EKT-19"
+    }
+  ]
+}

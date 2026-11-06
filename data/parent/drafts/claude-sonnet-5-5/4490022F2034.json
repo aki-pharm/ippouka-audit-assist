@@ -1,0 +1,46 @@
+{
+  "id": "4490022F2034",
+  "source_file": "400315_4490022F1038_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_4490022F1038_1_15",
+  "extracted_at": "2026-11-06T18:09:20.300Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21149,
+    "output": 1161
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タリオン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "タリオン10",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄に「タリオン10」と記載。表裏の別は文章では明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 タリオン錠5mg タリオン錠10mg 性状・剤形 白色・フィルムコーティング錠 外形 タリオン5 （割線入） タリオン10 サイズ 直径（mm）7.1 厚さ（mm）3.0 重量（g）0.125"
+    },
+    {
+      "product_name": "タリオンOD錠10mg",
+      "strength": "10mg",
+      "imprint_front": "タリオンOD10",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄に「タリオンOD10」と記載。表裏の別は文章では明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.15,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 タリオンOD錠5mg タリオンOD錠10mg 性状・剤形 白色・素錠（口腔内崩壊錠） 外形 タリオンOD5 タリオンOD10 サイズ 直径（mm）9.5 厚さ（mm）4.15 重量（g）0.300"
+    }
+  ]
+}

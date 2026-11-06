@@ -1,0 +1,30 @@
+{
+  "id": "4291098F2025",
+  "source_file": "672212_4291098F1029_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_4291098F1029_1_02",
+  "extracted_at": "2026-11-06T18:04:58.335Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29369,
+    "output": 680
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ツカイザ錠150mg",
+      "strength": "150mg",
+      "imprint_front": "TUC",
+      "imprint_back": "150",
+      "imprint_note": "識別コード TUC 150（外形図：上面にTUC、下面に150）。側面の記載なし",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 17.2,
+      "size_short_mm": 7.3,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ツカイザ錠150mg TUC 150 淡黄色のフィルムコーティング錠 長径17.2mm、短径7.3mm、厚さ 約5.1mm"
+    }
+  ]
+}

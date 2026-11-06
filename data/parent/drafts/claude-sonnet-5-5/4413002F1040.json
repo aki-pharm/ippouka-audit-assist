@@ -1,0 +1,30 @@
+{
+  "id": "4413002F1040",
+  "source_file": "400315_4413002F1040_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_4413002F1040_2_12",
+  "extracted_at": "2026-11-06T18:05:50.493Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12157,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヒベルナ糖衣錠5mg",
+      "strength": "5mg",
+      "imprint_front": "Y-HB5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「Y-HB5」と記載。外形図では片面に「Y HB5」の表示があり、もう一方の面と側面の刻印は図からは判別できない。",
+      "color": "橙色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ヒベルナ糖衣錠5mg 性状・剤形：橙色・糖衣錠 識別コード：Y-HB5 サイズ：直径6.4mm 厚さ3.7mm 重量120mg"
+    }
+  ]
+}

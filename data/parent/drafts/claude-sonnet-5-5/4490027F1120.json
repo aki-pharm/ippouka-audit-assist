@@ -1,0 +1,46 @@
+{
+  "id": "4490027F1120",
+  "source_file": "400073_4490027F1120_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_4490027F1120_1_09",
+  "extracted_at": "2026-11-06T18:12:57.815Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27572,
+    "output": 477
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロラタジン錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "DK503",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード DK503（外形図では表に表示、裏は刻印の表示なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の円形の割線入り素錠 直径 6.5mm 厚さ 2.3mm 重量 100.0mg 識別コード DK503"
+    },
+    {
+      "product_name": "ロラタジンOD錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "DK504",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード DK504（外形図では表に表示、裏は刻印の表示なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の円形の素錠 直径 7.0mm 厚さ 3.3mm 重量 150.0mg 識別コード DK504"
+    }
+  ]
+}

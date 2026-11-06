@@ -1,0 +1,46 @@
+{
+  "id": "4490027F1057",
+  "source_file": "300166_4490027F1057_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_4490027F1057_2_04",
+  "extracted_at": "2026-11-06T18:12:49.844Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27496,
+    "output": 482
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロラタジン錠10mg「FFP」",
+      "strength": "10mg",
+      "imprint_front": "FF 171",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：FF 171（表面に印字）。裏面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入りの素錠 / 直径 6.5mm 重量 100mg 厚さ 2.6mm / 識別コード FF 171"
+    },
+    {
+      "product_name": "ロラタジンOD錠10mg「FFP」",
+      "strength": "10mg",
+      "imprint_front": "FF 172",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：FF 172（表面に印字）。裏面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 / 直径 7.0mm 重量 120mg 厚さ 3.2mm / 識別コード FF 172"
+    }
+  ]
+}

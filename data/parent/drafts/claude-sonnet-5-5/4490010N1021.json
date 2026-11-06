@@ -1,0 +1,30 @@
+{
+  "id": "4490010N1021",
+  "source_file": "231099_4490010N1021_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_4490010N1021_2_04",
+  "extracted_at": "2026-11-06T18:06:32.531Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13891,
+    "output": 364
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ケタスカプセル10mg",
+      "strength": "10mg",
+      "imprint_front": "ケタス10mg（薬物本体）",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：ケタス10mg（薬物本体）、KP-305（包装）。表面・裏面の図中の表示は文字として確認できないため、表裏の別は未確認。剤形は3号硬カプセル、質量約240mg。",
+      "color": "キャップ：白色、ボディ：白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 3号硬カプセル／色調 キャップ：白色 ボディ：白色／質量 約240mg／識別コード ケタス10mg（薬物本体） KP-305（包装）／内容物 白色の徐放性顆粒及び腸溶徐放性顆粒を含有する徐放性製剤"
+    }
+  ]
+}

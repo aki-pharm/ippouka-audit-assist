@@ -1,0 +1,30 @@
+{
+  "id": "4490032F1031",
+  "source_file": "530213_4490032F1031_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_4490032F1031_2_01",
+  "extracted_at": "2026-11-06T18:14:49.610Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20287,
+    "output": 342
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デスロラタジン錠5mg「ケミファ」",
+      "strength": "5mg",
+      "imprint_front": "デスロラタジン 5 ケミファ",
+      "imprint_back": "デスロラタジン 5 ケミファ",
+      "imprint_note": "識別コードは「デスロラタジン 5 ケミファ」と記載。外形の表・裏の図に印字あり（図からの読み取りのため表裏の刻印内容は識別コード欄に基づく）",
+      "color": "薄い赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 薄い赤色のフィルムコーティング錠 外形 表 裏 側面 直径 6.5mm 厚さ 3.1mm 重量 107.0mg 識別コード デスロラタジン 5 ケミファ"
+    }
+  ]
+}

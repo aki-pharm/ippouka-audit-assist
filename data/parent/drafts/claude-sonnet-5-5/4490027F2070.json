@@ -1,0 +1,30 @@
+{
+  "id": "4490027F2070",
+  "source_file": "580591_4490027F2070_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_4490027F2070_1_02",
+  "extracted_at": "2026-11-06T18:13:18.625Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26256,
+    "output": 282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロラタジン OD錠 10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "JG 24",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：JG 24（表面に JG のマークと 24）。裏面の刻印の記載なし。側面の図あり。",
+      "color": "白色の素錠",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ロラタジン OD 錠 10mg「JG」 白色の素錠 表面 裏面 側面 JG 24 直径 7.0mm 厚さ 3.5mm 重量 140mg JG 24"
+    }
+  ]
+}

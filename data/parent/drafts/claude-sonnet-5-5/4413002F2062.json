@@ -1,0 +1,30 @@
+{
+  "id": "4413002F2062",
+  "source_file": "400315_4413002F1040_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_4413002F1040_2_12",
+  "extracted_at": "2026-11-06T18:05:58.127Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12157,
+    "output": 790
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヒベルナ糖衣錠25mg",
+      "strength": "25mg",
+      "imprint_front": "Y-HB25",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄はY-HB25。外形図の表面にY/HB25の表示あり。裏面の刻印は記載なし",
+      "color": "橙色",
+      "shape": "round",
+      "size_long_mm": 7.8,
+      "size_short_mm": 7.8,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：橙色・糖衣錠／識別コード：Y-HB25／サイズ：直径7.8mm、厚さ4.6mm、重量220mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6132011F1080",
+  "source_file": "430574_6132011F1080_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_6132011F1080_1_09",
+  "extracted_at": "2026-11-06T18:19:11.114Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17070,
+    "output": 722
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バナン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "SANKYO 676",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載は「SANKYO 676」。表裏の別は文章では明記されていない（外形図では片面のみに印字）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2022年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "バナン錠100mg フィルムコート錠 白色～微黄白色 直径8.7mm 厚さ約4.2mm 重さ約230mg 識別コード SANKYO 676"
+    }
+  ]
+}

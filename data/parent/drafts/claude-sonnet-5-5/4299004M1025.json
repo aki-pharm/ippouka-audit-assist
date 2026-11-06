@@ -1,0 +1,30 @@
+{
+  "id": "4299004M1025",
+  "source_file": "870056_4299004M1025_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/870056_4299004M1025_1_05",
+  "extracted_at": "2026-11-06T18:05:28.682Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27266,
+    "output": 713
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コセルゴカプセル10mg",
+      "strength": "10mg",
+      "imprint_front": "SEL 10",
+      "imprint_back": "未確認",
+      "imprint_note": "本品は錠剤ではなく硬カプセル剤（4号カプセル）。識別コードの印字位置（表裏の区別）は本文に記載がない。",
+      "color": "キャップ、ボディ：白色",
+      "shape": "oblong",
+      "size_long_mm": 14,
+      "size_short_mm": 5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／色調 キャップ、ボディ：白色／4号カプセル／大きさ 長径 約14mm 短径 約5mm／重量 約158mg／識別コード SEL 10"
+    }
+  ]
+}

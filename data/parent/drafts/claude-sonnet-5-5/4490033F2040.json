@@ -1,0 +1,30 @@
+{
+  "id": "4490033F2040",
+  "source_file": "400278_4490033F2040_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_4490033F2040_2_03",
+  "extracted_at": "2026-11-06T18:15:10.776Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19453,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビラスチンOD錠20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄に錠剤の図（表・裏）の表示があるが、刻印・識別コードの文字による記載は本文テキストからは確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "ビラスチン OD 錠 20mg「TCK」 白色 口腔内崩壊錠（素錠） 7.0 3.2 120"
+    }
+  ]
+}

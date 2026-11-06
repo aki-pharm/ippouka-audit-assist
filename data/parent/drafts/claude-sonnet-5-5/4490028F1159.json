@@ -1,0 +1,30 @@
+{
+  "id": "4490028F1159",
+  "source_file": "480235_4490028F1159_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490028F1159_1_02",
+  "extracted_at": "2026-11-06T18:14:02.927Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25710,
+    "output": 739
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "5 レボセチ",
+      "imprint_back": "5 トーワ レボセチリジン",
+      "imprint_note": "本体表示（表・裏）。割線入りのフィルムコーティング錠",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの楕円形のフィルムコーティング錠 本体表示 表 5 レボセチ 裏 5 トーワ レボセチリジン 直径(mm) 8.1／4.6（長径／短径） 厚さ(mm) 3.4"
+    }
+  ]
+}

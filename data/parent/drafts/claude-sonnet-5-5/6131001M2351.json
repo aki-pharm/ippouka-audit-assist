@@ -1,0 +1,30 @@
+{
+  "id": "6131001M2351",
+  "source_file": "400278_6131001M2351_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6131001M2351_2_09",
+  "extracted_at": "2026-11-06T18:18:17.945Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24002,
+    "output": 857
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アモキシシリンカプセル250mg「TCK」",
+      "strength": "250mg",
+      "imprint_front": "TU AM・250",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の剤形は錠剤ではなく2号硬カプセル。識別コードは1つだけ記載されており、表裏の区別は書かれていない。",
+      "color": "キャップ：暗赤色、ボディー：白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "アモキシシリンカプセル250mg「TCK」 外形：2号硬カプセル 色調：キャップ：暗赤色 ボディー：白色 識別コード：TU AM・250"
+    }
+  ]
+}

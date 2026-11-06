@@ -1,0 +1,30 @@
+{
+  "id": "5200145F1033",
+  "source_file": "270601_5200145F1033_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270601_5200145F1033_1_02",
+  "extracted_at": "2026-11-06T18:17:30.130Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7668,
+    "output": 321
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジュンコウ　苓桂朮甘湯ＦＣエキス錠　医療用",
+      "strength": "1錠（1日量15錠中 苓桂朮甘湯エキス2.25g）",
+      "imprint_front": "ＦＣ３９Ｔ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：ＦＣ３９Ｔ（表裏のどちらに表示されているかは記載なし）",
+      "color": "褐色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2022年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 褐色の錠剤 外形 表面 裏面 側面 直径 約9mm 厚さ 約4.9mm 重さ 約300mg 識別コード ＦＣ３９Ｔ"
+    }
+  ]
+}

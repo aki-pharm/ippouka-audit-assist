@@ -1,0 +1,30 @@
+{
+  "id": "4490017M1109",
+  "source_file": "300119_4490017M1109_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4490017M1109_1_11",
+  "extracted_at": "2026-11-06T18:08:04.889Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14611,
+    "output": 393
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プランルカストカプセル112.5mg「サワイ」",
+      "strength": "112.5mg",
+      "imprint_front": "SW-481",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル剤（3号）。全長15.8mm、重量約251mg。識別コード SW-481（カプセル本体の表示は図のみで表裏の区別は未確認）",
+      "color": "頭部：白色～帯黄白色不透明、胴部：白色～帯黄白色不透明、内容物：白色～淡黄色の粒を含む粉末",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "外　形 3号 剤　形 硬カプセル剤 性　状 頭　部：白色～帯黄白色不透明 胴　部：白色～帯黄白色不透明 内容物：白色～淡黄色の粒を含む粉末 全長（mm） 15.8 重量（mg） 約251 識別コード SW-481"
+    }
+  ]
+}

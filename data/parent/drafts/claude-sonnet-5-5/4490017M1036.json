@@ -1,0 +1,30 @@
+{
+  "id": "4490017M1036",
+  "source_file": "180188_4490017M1036_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_4490017M1036_1_19",
+  "extracted_at": "2026-11-06T18:08:07.644Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14050,
+    "output": 934
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オノンカプセル112.5mg",
+      "strength": "112.5mg",
+      "imprint_front": "ONO 678",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の表記は「ONO 678」。外形図ではカプセル上に「ONO」「678」と表示。表裏の区別は記載なし。剤形は硬カプセル剤（3号）で、錠剤ではない。",
+      "color": "頭部 白色～帯黄白色不透明、胴部 白色～帯黄白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 16,
+      "size_short_mm": 5.7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 号数 3号 質量（mg）約229 長径（mm）約16.0 短径（mm）約5.7 色調 頭部 白色～帯黄白色不透明 胴部 白色～帯黄白色不透明 識別コード ONO 678"
+    }
+  ]
+}

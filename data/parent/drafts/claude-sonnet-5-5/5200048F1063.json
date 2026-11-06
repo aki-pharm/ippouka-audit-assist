@@ -1,0 +1,30 @@
+{
+  "id": "5200048F1063",
+  "source_file": "180102_5200048F1063_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180102_5200048F1063_2_01",
+  "extracted_at": "2026-11-06T18:16:36.580Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 5531,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラシエ五苓散料エキス錠",
+      "strength": "1錠",
+      "imprint_front": "EKT-17",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード EKT-17（表裏のどちらに印字されているかは本文に記載なし）",
+      "color": "淡褐色～褐色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色 淡褐色～褐色 におい 特異なにおい 味 苦い 外形 表面 裏面 側面 直径 9.2mm 厚さ 4.8mm 質量 330mg 識別コード EKT-17"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490031F1029",
+  "source_file": "480306_4490031F1029_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480306_4490031F1029_1_07",
+  "extracted_at": "2026-11-06T18:14:42.800Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15400,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミティキュアダニ舌下錠3,300JAU",
+      "strength": "3,300JAU",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表面・裏面・側面）はあるが、刻印・識別コードの文字記載は本文になし",
+      "color": "白色～微褐色",
+      "shape": "round",
+      "size_long_mm": 12.3,
+      "size_short_mm": 12.3,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～微褐色、円形の凍結乾燥錠剤 / 直径12.3mm、厚さ3.3mm、重量28mg"
+    }
+  ]
+}

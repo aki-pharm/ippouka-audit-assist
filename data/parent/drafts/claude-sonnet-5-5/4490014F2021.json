@@ -1,0 +1,30 @@
+{
+  "id": "4490014F2021",
+  "source_file": "650168_4490014F1025_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_4490014F1025_1_13",
+  "extracted_at": "2026-11-06T18:07:17.559Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18633,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレジオン錠20",
+      "strength": "20mg",
+      "imprint_front": "2P",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：2P（外形図には社名マークと思われる表示もあるが、本文には記載なし）。裏面の刻印は本文に記載なし",
+      "color": "白色～微黄色",
+      "shape": null,
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色～微黄色のフィルムコート錠 / 直径 8.0mm / 厚さ 3.2mm / 重さ 0.175g / 識別コード 2P"
+    }
+  ]
+}

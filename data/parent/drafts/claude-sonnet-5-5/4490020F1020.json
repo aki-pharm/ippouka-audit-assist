@@ -1,0 +1,30 @@
+{
+  "id": "4490020F1020",
+  "source_file": "820110_4490020F1020_2_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/820110_4490020F1020_2_25",
+  "extracted_at": "2026-11-06T18:08:23.159Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22708,
+    "output": 232
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジルテック錠5",
+      "strength": "5mg",
+      "imprint_front": "622",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード622。外形図には表面に622の表示、側面図あり。裏面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコート錠／外形 直径 約6mm 厚さ 約3mm 質量 約88mg 識別コード 622"
+    }
+  ]
+}

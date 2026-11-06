@@ -1,0 +1,30 @@
+{
+  "id": "5200011M1027",
+  "source_file": "270127_5200011M1027_2_24.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270127_5200011M1027_2_24",
+  "extracted_at": "2026-11-06T18:16:19.651Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 6302,
+    "output": 328
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コタロー黄連解毒湯エキスカプセル",
+      "strength": "1カプセル",
+      "imprint_front": "FS15",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に社名マークらしき記号とFS15の表示あり。識別コードFS15。裏面の記載なし。硬カプセル剤（号数1）。",
+      "color": "キャップ：淡橙色不透明、ボディ：ベージュ色不透明、内容物：黄褐色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色調 キャップ：淡橙色不透明 ボディ：ベージュ色不透明 内容物：黄褐色の粉末 号数 1 識別コード FS15"
+    }
+  ]
+}

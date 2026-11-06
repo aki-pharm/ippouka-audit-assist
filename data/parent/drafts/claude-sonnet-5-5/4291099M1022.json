@@ -1,0 +1,30 @@
+{
+  "id": "4291099M1022",
+  "source_file": "870276_4291099M1022_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/870276_4291099M1022_2_01",
+  "extracted_at": "2026-11-06T18:05:00.414Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25174,
+    "output": 722
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "インレビックカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "FEDR 100mg",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル剤（錠剤ではない）。識別コードは「FEDR 100mg」で、表裏の区別は記載なし。大きさは「0号カプセル」「質量 約395mg」の記載のみで、mm の数値は記載なし。",
+      "color": "ボディ：赤褐色、キャップ：赤褐色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色 ボディ：赤褐色 キャップ：赤褐色／剤形 硬カプセル剤／大きさ 0号カプセル／質量 約395mg／識別コード FEDR 100mg"
+    }
+  ]
+}

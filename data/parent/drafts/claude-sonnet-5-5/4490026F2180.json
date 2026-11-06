@@ -1,0 +1,30 @@
+{
+  "id": "4490026F2180",
+  "source_file": "180095_4490026F2180_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_4490026F2180_1_05",
+  "extracted_at": "2026-11-06T18:11:21.961Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21785,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠10mg「オーハラ」",
+      "strength": "10mg",
+      "imprint_front": "モンテルカスト 10 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として「モンテルカスト 10 オーハラ」と記載。表面・裏面のどちらに入っているかの区別は文章では記載なし（外形図のみ）",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡橙色のフィルムコーティング錠／大きさ 直径：8.1mm 厚さ：4.1mm／識別表示 モンテルカスト 10 オーハラ"
+    }
+  ]
+}

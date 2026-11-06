@@ -1,0 +1,30 @@
+{
+  "id": "4490023F1024",
+  "source_file": "780069_4490023F1024_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_4490023F1024_1_25",
+  "extracted_at": "2026-11-06T18:09:29.275Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24604,
+    "output": 300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレグラ錠60mg",
+      "strength": "60mg",
+      "imprint_front": "06",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「06」。外形図には社名マーク様の表示もあるが、テキスト上は識別コード 06 のみ記載。表裏の区別は記載なし",
+      "color": "うすいだいだい色",
+      "shape": "oval",
+      "size_long_mm": 12.1,
+      "size_short_mm": 5.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすいだいだい色のフィルムコート錠 / 大きさ（mm） 長径12.1、短径5.6 / 厚さ（mm） 4.1 / 重 量（g） 0.21 / 識別コード 06"
+    }
+  ]
+}

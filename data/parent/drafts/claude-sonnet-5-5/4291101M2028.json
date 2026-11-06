@@ -1,0 +1,30 @@
+{
+  "id": "4291101M2028",
+  "source_file": "480866_4291101M1021_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_4291101M1021_1_02",
+  "extracted_at": "2026-11-06T18:05:09.180Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21071,
+    "output": 800
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イソトレックスカプセル16mg",
+      "strength": "16mg",
+      "imprint_front": "RL30",
+      "imprint_back": "未確認",
+      "imprint_note": "カプセル剤。識別コードはRL30（外形図ではカプセル両側に表示）。表裏の区別の記載なし",
+      "color": "濃青色",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 6.35,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "褐色～暗褐色の帯状のシールを施した、濃青色の不透明の硬カプセル剤（2号）で、内容物は黄色の懸濁液である。"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490016M1104",
+  "source_file": "480235_4490016M1104_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490016M1104_1_07",
+  "extracted_at": "2026-11-06T18:07:48.653Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9375,
+    "output": 861
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スプラタストトシル酸塩カプセル50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw425",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。識別コードは Tw425（表の「識別コード」欄より）。カプセル外形図には本体の印字もあるが判読できず、表裏の区別は未確認。全長は約14.2mm（4号カプセル）、質量は約115mg。",
+      "color": "頭部が白色、胴部が白色の不透明硬カプセル剤",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "頭部が白色、胴部が白色の不透明硬カプセル剤で、内容物はにおいはないか又は特異なにおいのある白色の粉末である。 識別コード Tw425"
+    }
+  ]
+}

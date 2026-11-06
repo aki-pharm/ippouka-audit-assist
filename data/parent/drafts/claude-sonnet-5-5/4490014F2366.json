@@ -1,0 +1,30 @@
+{
+  "id": "4490014F2366",
+  "source_file": "340409_4490014F2366_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_4490014F2366_1_01",
+  "extracted_at": "2026-11-06T18:07:34.829Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13342,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠20mg「SN」",
+      "strength": "20mg",
+      "imprint_front": "AZ 20",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「AZ 20」。外形図の表面に表示。裏面は図に刻印の記載なし（図のみで文字記載なし）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版、10mg錠削除）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコーティング錠 外形 表面 裏面 側面 規格 直径 8.0mm 厚さ 3.5mm 重量 180mg 識別コード AZ 20"
+    }
+  ]
+}

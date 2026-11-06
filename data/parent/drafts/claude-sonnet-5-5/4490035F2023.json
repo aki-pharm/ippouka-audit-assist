@@ -1,0 +1,30 @@
+{
+  "id": "4490035F2023",
+  "source_file": "480306_4490035F1027_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480306_4490035F1027_1_08",
+  "extracted_at": "2026-11-06T18:15:38.533Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13947,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シダキュアスギ花粉舌下錠5,000JAU",
+      "strength": "5,000JAU",
+      "imprint_front": "未確認",
+      "imprint_back": "なし",
+      "imprint_note": "外形図の表面に図柄（マーク）が描かれているが、文章による刻印・識別コードの記載はない。裏面は図上で無地。",
+      "color": "白色～帯黄褐色",
+      "shape": "round",
+      "size_long_mm": 11.3,
+      "size_short_mm": 11.3,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "白色～帯黄褐色、円形の凍結乾燥錠剤 / 直径11.3mm、厚さ3.8mm、重量33mg"
+    }
+  ]
+}

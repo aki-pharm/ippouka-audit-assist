@@ -1,0 +1,30 @@
+{
+  "id": "4413004F1200",
+  "source_file": "530258_4413004F1200_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_4413004F1200_1_06",
+  "extracted_at": "2026-11-06T18:06:00.189Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13228,
+    "output": 241
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニポラジン錠3mg",
+      "strength": "3mg",
+      "imprint_front": "NF",
+      "imprint_back": "121",
+      "imprint_note": "識別コード：NF 121（外形図では表面に「NF」と「121」が上下に表示）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ニポラジン錠3mg 白色の割線入り錠剤 直径8.0mm 厚さ2.6mm 質量170mg 識別コード NF 121"
+    }
+  ]
+}

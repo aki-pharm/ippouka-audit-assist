@@ -1,0 +1,30 @@
+{
+  "id": "6131001M1100",
+  "source_file": "480235_6131001M1100_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6131001M1100_1_16",
+  "extracted_at": "2026-11-06T18:18:02.434Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24979,
+    "output": 908
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アモキシシリンカプセル125mg「トーワ」",
+      "strength": "125mg",
+      "imprint_front": "アモキシシリン 125mg トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本品は錠剤ではなく硬カプセル剤（3号カプセル）。刻印・印字は外形図中の表記であり、本文の性状欄には記載がない。表裏の区別は未確認。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の硬カプセル剤で、内容物は白色～淡黄白色の粉末である。（外形：全長 約15.8mm、3号カプセル、質量 約206mg）"
+    }
+  ]
+}

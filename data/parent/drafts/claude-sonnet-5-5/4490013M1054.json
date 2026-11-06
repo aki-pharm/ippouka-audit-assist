@@ -1,0 +1,30 @@
+{
+  "id": "4490013M1054",
+  "source_file": "480235_4490013M1054_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490013M1054_1_02",
+  "extracted_at": "2026-11-06T18:06:55.218Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16627,
+    "output": 351
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エメダスチンフマル酸塩徐放カプセル1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "Tw419",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTw419（本体・包装に記載）。表裏の別は文書上不明。剤形は硬カプセル剤。外形図に全長約14.4mm、4号カプセルの記載あり。",
+      "color": "頭部が淡赤色、胴部が白色（内容物は白色～微黄白色の顆粒）",
+      "shape": "oblong",
+      "size_long_mm": 14.4,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "頭部が淡赤色、胴部が白色の不透明な硬カプセル剤であり、内容物は白色～微黄白色の顆粒（識別コード Tw419、全長 約14.4mm、4号カプセル）"
+    }
+  ]
+}

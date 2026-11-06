@@ -1,0 +1,30 @@
+{
+  "id": "6131001M1118",
+  "source_file": "580825_6131001M1118_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580825_6131001M1118_2_10",
+  "extracted_at": "2026-11-06T18:18:07.540Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21989,
+    "output": 817
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アモキシシリンカプセル125mg「日医工」",
+      "strength": "125mg",
+      "imprint_front": "0099",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル剤。本体コード・包装コードは0099。外形図には社名マークと0099が示されている。大きさは3号カプセルとのみ記載でmm値の記載なし。",
+      "color": "キャップ：白色、ボディ：白色、内容物：白色～淡黄白色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色調・性状 キャップ：白色 ボディ：白色 内容物：白色～淡黄白色の粉末 外形 0099 大きさ 3号カプセル 本体コード 0099 包装コード 0099"
+    }
+  ]
+}

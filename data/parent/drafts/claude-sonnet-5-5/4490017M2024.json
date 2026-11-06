@@ -1,0 +1,30 @@
+{
+  "id": "4490017M2024",
+  "source_file": "530169_4490017M1079_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_4490017M1079_1_21",
+  "extracted_at": "2026-11-06T18:08:09.611Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15345,
+    "output": 814
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プランルカストカプセル225mg「日医工」",
+      "strength": "225mg",
+      "imprint_front": "プランルカスト 225mg 581",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示（社名マークと識別コード581を含む）。剤形は硬カプセル（2号カプセル）。表裏の区別は記載なし",
+      "color": "キャップ：白色～帯黄白色、ボディ：白色～帯黄白色、内容物：白色～淡黄色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル／色調・性状 キャップ：白色～帯黄白色 ボディ：白色～帯黄白色 内容物：白色～淡黄色の粉末／大きさ 2号カプセル／本体表示 プランルカスト225mg 581／包装コード 581"
+    }
+  ]
+}

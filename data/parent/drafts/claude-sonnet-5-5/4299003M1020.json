@@ -1,0 +1,30 @@
+{
+  "id": "4299003M1020",
+  "source_file": "400256_4299003M1020_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_4299003M1020_3_04",
+  "extracted_at": "2026-11-06T18:05:27.566Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17932,
+    "output": 851
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アグリリンカプセル0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "063",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは社名マーク（S様のマーク）と「063」。剤形は硬カプセル、4号。表裏の区別は記載なし。長径・短径は短径がキャップの値。",
+      "color": "カプセル：白色（白色結晶性の粉末を含む）",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": 5.32,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル 色調 白色結晶性の粉末を含む カプセル：白色 識別コード 063 号数 4号 長径（mm） 約14.3 短径（mm） 約5.32（キャップ）"
+    }
+  ]
+}

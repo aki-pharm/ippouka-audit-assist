@@ -1,0 +1,30 @@
+{
+  "id": "4490021F1033",
+  "source_file": "270139_4490021F1033_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270139_4490021F1033_1_04",
+  "extracted_at": "2026-11-06T18:09:07.390Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17187,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラマトロバン錠50㎎「KO」",
+      "strength": "50mg",
+      "imprint_front": "KO 57",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード KO57。外形図には表面に「KO 57」の表示があるが、裏面および側面の刻印は文書中に明記されていない。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色 剤形 フィルムコーティング錠 外形 KO 57 直径（㎜） 約 7 厚さ（㎜） 約 3.2 質量（㎎） 約 137.5 識別コード KO57"
+    }
+  ]
+}

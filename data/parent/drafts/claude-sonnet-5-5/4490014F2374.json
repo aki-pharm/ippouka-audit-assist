@@ -1,0 +1,30 @@
+{
+  "id": "4490014F2374",
+  "source_file": "130202_4490014F1327_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130202_4490014F1327_1_03",
+  "extracted_at": "2026-11-06T18:07:39.133Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22654,
+    "output": 823
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠20mg「イワキ」",
+      "strength": "20mg",
+      "imprint_front": "YT",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）はYT20。外形図に記載の識別コード（錠剤）はYT。錠剤のどちらの面か（表裏）は記載なし。大きさは外形図の寸法表記（直径8.1mm、厚さ3.4mm）から読み取った。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠 ／ 識別コード（PTP）YT20 ／ 識別コード（錠剤）YT"
+    }
+  ]
+}

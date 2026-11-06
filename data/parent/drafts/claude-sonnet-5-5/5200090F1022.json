@@ -1,0 +1,30 @@
+{
+  "id": "5200090F1022",
+  "source_file": "180607_5200090F1022_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180607_5200090F1022_3_02",
+  "extracted_at": "2026-11-06T18:16:58.305Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8046,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オースギ大黄甘草湯エキスＴ錠",
+      "strength": "1錠",
+      "imprint_front": "SG-84T",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード ＳＧ－８４Ｔ（表裏の別は記載なし）",
+      "color": "淡褐色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2022年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 淡褐色のフィルムコーティング錠 外形 表面 裏面 側面 直径 約9.0mm 厚さ 約5.4mm 重さ 約330mg 識別コード ＳＧ－８４Ｔ"
+    }
+  ]
+}

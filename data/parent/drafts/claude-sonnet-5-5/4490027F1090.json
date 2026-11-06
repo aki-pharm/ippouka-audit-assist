@@ -1,0 +1,30 @@
+{
+  "id": "4490027F1090",
+  "source_file": "400278_4490027F1090_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_4490027F1090_1_08",
+  "extracted_at": "2026-11-06T18:12:49.793Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26899,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロラタジン錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "TU 521",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「TU 521」。割線入り。裏面の刻印の記載は添付文書の文言上は確認できない（図では裏面に割線）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ロラタジン錠10mg「TCK」 白色素錠（割線入り） TU 521 直径6.5mm 厚さ2.9mm 重量100mg"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "4490026F2059",
+  "source_file": "181615_4490026F2059_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_4490026F2059_3_03",
+  "extracted_at": "2026-11-06T18:11:10.075Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22970,
+    "output": 1173
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シングレア錠10mg",
+      "strength": "10mg",
+      "imprint_front": "752",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「752」。図では識別コードにマークが付されているが、文言での説明はなし",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2023年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・色調：円形・フィルムコーティング錠・明るい灰黄色／外形：直径：8.0mm、厚さ：4.1mm／識別コード：752"
+    },
+    {
+      "product_name": "シングレアOD錠10mg",
+      "strength": "10mg",
+      "imprint_front": "MSD710",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「MSD710（ブリスター包装）」と記載されており、ブリスター包装に表示される識別コード",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2023年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・色調：円形・口腔内崩壊錠・白色／外形：直径：約9.2mm、厚さ：約6.2mm／識別コード：MSD710（ブリスター包装）"
+    }
+  ]
+}

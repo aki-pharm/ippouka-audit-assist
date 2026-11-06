@@ -1,0 +1,30 @@
+{
+  "id": "4490033F2067",
+  "source_file": "480209_4490033F2067_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_4490033F2067_1_02",
+  "extracted_at": "2026-11-06T18:15:15.857Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18692,
+    "output": 237
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビラスチンOD錠20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に表示があるが、文字として記載されていないため判読不能。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 外形 直径(mm) 8.0 厚さ(mm) 3.8 質量(mg) 180"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4413004F1251",
+  "source_file": "100898_4413004F1251_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_4413004F1251_1_06",
+  "extracted_at": "2026-11-06T18:06:02.155Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13172,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゼスラン錠3mg",
+      "strength": "3mg",
+      "imprint_front": "TOYO 141",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：TOYO 141。外形図では表面に刻印、裏面は無地（片面割線入り）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・片面割線入りの素錠／大きさ 直径8.0mm、厚さ2.6mm／質量 170mg／識別コード TOYO 141"
+    }
+  ]
+}

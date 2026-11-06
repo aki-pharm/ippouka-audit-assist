@@ -1,0 +1,30 @@
+{
+  "id": "4490021F2030",
+  "source_file": "270139_4490021F1033_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270139_4490021F1033_1_04",
+  "extracted_at": "2026-11-06T18:09:14.005Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17187,
+    "output": 297
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラマトロバン錠75㎎「KO」",
+      "strength": "75mg",
+      "imprint_front": "KO 58",
+      "imprint_back": "なし",
+      "imprint_note": "外形図に「KO」と「58」の表示あり。識別コード KO58。裏面の刻印は記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色 / 剤形 フィルムコーティング錠 / 外形 KO 58 / 直径（㎜） 約 8 / 厚さ（㎜） 約 3.7 / 質量（㎎） 約 183 / 識別コード KO58"
+    }
+  ]
+}

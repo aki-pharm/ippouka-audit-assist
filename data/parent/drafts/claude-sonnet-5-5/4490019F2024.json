@@ -1,0 +1,46 @@
+{
+  "id": "4490019F2024",
+  "source_file": "400093_4490019F2024_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_4490019F2024_2_01",
+  "extracted_at": "2026-11-06T18:08:17.522Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15442,
+    "output": 1129
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エバステル錠10mg",
+      "strength": "10mg",
+      "imprint_front": "P175",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード P175。表裏の別は文言に記載なし",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年1月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入りフィルムコート錠／大きさ 短・長径(mm) 約5.1・約10.1 厚さ(mm) 約3.1 重さ(mg) 約135／識別コード P175"
+    },
+    {
+      "product_name": "エバステルOD錠10mg",
+      "strength": "10mg",
+      "imprint_front": "P178",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード P178。表裏の別は文言に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年1月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠(口腔内崩壊錠)／大きさ 直径(mm) 約8 厚さ(mm) 約3.1 重さ(mg) 約200／識別コード P178"
+    }
+  ]
+}

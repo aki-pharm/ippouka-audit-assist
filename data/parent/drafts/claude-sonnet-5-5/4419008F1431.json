@@ -1,0 +1,30 @@
+{
+  "id": "4419008F1431",
+  "source_file": "530113_4419008B1073_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_4419008B1073_3_04",
+  "extracted_at": "2026-11-06T18:06:09.437Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9531,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タベジール錠1mg",
+      "strength": "1mg",
+      "imprint_front": "NS 405",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NS 405。外形図は表面・裏面・側面とみられるが、裏面の刻印の記載は確認できない。片面割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性　状 白色の片面割線入りの素錠 / 大きさ 錠径：7.0mm、錠厚：2.3mm、重量：120mg / 識別コード NS 405"
+    }
+  ]
+}

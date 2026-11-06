@@ -1,0 +1,30 @@
+{
+  "id": "4490014F1360",
+  "source_file": "400073_4490014F1360_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_4490014F1360_1_01",
+  "extracted_at": "2026-11-06T18:07:19.956Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20909,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠10mg「ダイト」",
+      "strength": "10mg",
+      "imprint_front": "DK409",
+      "imprint_back": "なし",
+      "imprint_note": "外形の図では裏面に表示なし。識別コードは表面（DK 409）に表示",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄色フィルムコーティング錠 / 直径 6.6mm / 厚さ 3.2mm / 質量 103mg / 識別コード DK409"
+    }
+  ]
+}

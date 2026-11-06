@@ -1,0 +1,30 @@
+{
+  "id": "4490023F1296",
+  "source_file": "460028_4490023F1296_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_4490023F1296_1_05",
+  "extracted_at": "2026-11-06T18:09:52.873Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25541,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠60mg「ツルハラ」",
+      "strength": "60mg",
+      "imprint_front": "TSU630",
+      "imprint_back": "60",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 色調 うすいだいだい色 / 大きさ 直径 約 7.6mm 厚さ 約 3.8mm 質量 約 176mg / 識別コード 表面 TSU630 裏面 60"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6132013M2149",
+  "source_file": "450064_6132013M1126_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6132013M1126_1_08",
+  "extracted_at": "2026-11-06T18:19:29.849Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17625,
+    "output": 801
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフジニルカプセル100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "ch2Z",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。識別コードは ch2Z（外形図に社名マークと思われる「ch」と「2Z」の表示あり）。カプセル号数4、重量165mg。表裏の区別は記載なし。",
+      "color": "頭部、胴部共に淡赤色不透明（内容物は白色～淡黄色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 頭部、胴部共に淡赤色不透明の硬カプセル剤 内容物は白色～淡黄色の粉末 / カプセル号数 4 / 重量 165mg / 識別コード ch2Z"
+    }
+  ]
+}

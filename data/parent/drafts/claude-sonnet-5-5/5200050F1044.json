@@ -1,0 +1,30 @@
+{
+  "id": "5200050F1044",
+  "source_file": "180102_5200050F1044_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180102_5200050F1044_2_01",
+  "extracted_at": "2026-11-06T18:16:38.822Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7757,
+    "output": 269
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラシエ柴胡加竜骨牡蛎湯エキス錠",
+      "strength": "1錠",
+      "imprint_front": "EKT-12",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄にEKT-12と記載。表面・裏面の別は明記されていない",
+      "color": "淡褐色～褐色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色 淡褐色～褐色 外形 直径 9.2mm 厚さ 4.7mm 質量 330mg 識別コード EKT-12"
+    }
+  ]
+}

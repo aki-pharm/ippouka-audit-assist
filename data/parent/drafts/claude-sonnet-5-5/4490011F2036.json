@@ -1,0 +1,30 @@
+{
+  "id": "4490011F2036",
+  "source_file": "530258_4490011F1030_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_4490011F1030_3_07",
+  "extracted_at": "2026-11-06T18:06:40.507Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14357,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペミラストン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "NF 155",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNF 155。表裏の別は本文に記載なし（外形図では表面に「NF 155」の表示）",
+      "color": "微黄白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ペミラストン錠5mg 微黄白色～帯黄白色の割線入り素錠 においはなく、味はわずかに苦い 直径6.0mm 厚さ2.4mm 質量90mg 識別コード NF 155"
+    }
+  ]
+}

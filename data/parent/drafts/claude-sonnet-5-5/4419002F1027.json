@@ -1,0 +1,30 @@
+{
+  "id": "4419002F1027",
+  "source_file": "400186_4419002B1033_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4419002B1033_2_05",
+  "extracted_at": "2026-11-06T18:06:04.107Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9811,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ポララミン錠2mg",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "TTS-363",
+      "imprint_note": "識別コード TTS-363。外形図では表面に「ポララミン」の表示があるように見えるが、本文には記載なし。片面に割線あり",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 7.7,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の片面に割線の入っただ円形の錠剤　長径 約7.7mm　短径 約5.1mm　約0.10g　約2.8mm　識別コード TTS-363"
+    }
+  ]
+}

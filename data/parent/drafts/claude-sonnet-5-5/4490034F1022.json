@@ -1,0 +1,30 @@
+{
+  "id": "4490034F1022",
+  "source_file": "470006_4490034F1022_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470006_4490034F1022_1_06",
+  "extracted_at": "2026-11-06T18:15:33.103Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21856,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルパフィン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "TF10",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード TF10（表面に「TF/10」の印字が図示されている）。裏面は図示のみで刻印の記載なし。",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄赤色の円形の素錠 ／ 直径 6.3mm ／ 厚さ 3.0mm ／ 質量 100mg ／ 識別コード TF10"
+    }
+  ]
+}

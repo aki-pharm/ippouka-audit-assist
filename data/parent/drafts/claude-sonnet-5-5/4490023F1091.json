@@ -1,0 +1,30 @@
+{
+  "id": "4490023F1091",
+  "source_file": "171950_4490023F1091_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_4490023F1091_3_01",
+  "extracted_at": "2026-11-06T18:09:42.170Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22516,
+    "output": 1008
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠60mg「SANIK」",
+      "strength": "60mg",
+      "imprint_front": "02",
+      "imprint_back": "60",
+      "imprint_note": "表面の「02」の前に社名マークらしき表示が図中にある。刻印の文字は本文に記載がなく、外形図から読み取った。",
+      "color": "うすいだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 12.1,
+      "size_short_mm": 5.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "フェキソフェナジン塩酸塩錠60mg「SANIK」 フィルムコート錠 うすいだいだい色 長径：12.1 短径：5.6 厚さ（mm）4.1 重量（g）0.21"
+    }
+  ]
+}

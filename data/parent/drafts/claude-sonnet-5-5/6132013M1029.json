@@ -1,0 +1,30 @@
+{
+  "id": "6132013M1029",
+  "source_file": "171911_6132013M1029_4_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_6132013M1029_4_08",
+  "extracted_at": "2026-11-06T18:19:17.582Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17826,
+    "output": 739
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフゾンカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。識別コード欄は「－」で、刻印の有無は文章では明記されていない。外形は5号、質量約90mg。",
+      "color": "淡赤色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "セフゾンカプセル50mg 硬カプセル剤 淡赤色 － 号数 質量 5 号 約90mg"
+    }
+  ]
+}

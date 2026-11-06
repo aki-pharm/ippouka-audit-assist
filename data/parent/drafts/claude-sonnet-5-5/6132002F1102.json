@@ -1,0 +1,30 @@
+{
+  "id": "6132002F1102",
+  "source_file": "530169_6132002F1102_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_6132002F1102_1_01",
+  "extracted_at": "2026-11-06T18:18:31.664Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10251,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セファレキシン錠250mg「日医工」",
+      "strength": "250mg",
+      "imprint_front": "K1J",
+      "imprint_back": "なし",
+      "imprint_note": "本体コード・包装コードともにK1J。表面にはK1Jの上にマークの表示あり。裏面の刻印の記載なし（外形図は無地）。剤形はフィルムコーティング錠。",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 10.7,
+      "size_short_mm": 10.7,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2024年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡橙色 外形 直径（mm） 10.7 厚さ（mm） 4.7 質量（mg） 390 本体コード K1J 包装コード K1J"
+    }
+  ]
+}

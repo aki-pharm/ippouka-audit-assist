@@ -1,0 +1,46 @@
+{
+  "id": "4490028F2066",
+  "source_file": "400186_4490028F1132_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4490028F1132_1_04",
+  "extracted_at": "2026-11-06T18:14:19.763Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33263,
+    "output": 1165
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠2.5mg「タカタ」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載なし（外形図のみ）",
+      "color": "淡黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色楕円形のフィルムコーティング錠 長径 約8.1mm 短径 約4.6mm 重さ 約0.1g 厚さ 約3.3mm"
+    },
+    {
+      "product_name": "レボセチリジン塩酸塩OD錠2.5mg「タカタ」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載なし（外形図のみ）",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色円形の裸錠 直径 約7mm 重さ 約0.13g 厚さ 約2.6mm"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6131008F1030",
+  "source_file": "672212_6131008F1030_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6131008F1030_3_04",
+  "extracted_at": "2026-11-06T18:18:24.072Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17047,
+    "output": 226
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユナシン錠375mg",
+      "strength": "375mg",
+      "imprint_front": "PT U02",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「PT U02」。上面に表示。側面の刻印は記載なし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 19,
+      "size_short_mm": 6.7,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外形（mm） 識別コード 色調等 上面 側面 PT U02 白色 フィルムコーティング錠"
+    }
+  ]
+}

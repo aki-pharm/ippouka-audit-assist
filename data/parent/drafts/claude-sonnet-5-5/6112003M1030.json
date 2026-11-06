@@ -1,0 +1,30 @@
+{
+  "id": "6112003M1030",
+  "source_file": "672212_6112003M1030_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6112003M1030_3_04",
+  "extracted_at": "2026-11-06T18:17:40.240Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11794,
+    "output": 339
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リンコシンカプセル250mg",
+      "strength": "250mg",
+      "imprint_front": "UPJOHN 336",
+      "imprint_back": "未確認",
+      "imprint_note": "製品は錠剤ではなく1号カプセル。外形図には「UPJOHN 336」「9ミリ NHOr(?)」のような表示があるが、本文の識別コード欄には「UPJOHN」「336」と記載。裏面の刻印は本文に記載なし。",
+      "color": "頭部：濃青色 不透明、胴部：淡青色 不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 外形 識別コード 色調等 1号カプセル UPJOHN 336 頭部：濃青色 不透明 胴部：淡青色 不透明"
+    }
+  ]
+}

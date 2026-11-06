@@ -1,0 +1,30 @@
+{
+  "id": "6132013M2114",
+  "source_file": "530169_6132013M1096_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_6132013M1096_1_10",
+  "extracted_at": "2026-11-06T18:19:29.141Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15811,
+    "output": 698
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフジニルカプセル100mg「日医工」",
+      "strength": "100mg",
+      "imprint_front": "0306",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード・包装コードとも0306。外形図に社名マークらしき表示あり。剤形は硬カプセル剤（錠剤ではない）。大きさは4号カプセルで、mm表記なし",
+      "color": "カプセル：淡赤色不透明、内容物：白色～淡黄色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色調 カプセル：淡赤色不透明 内容物：白色～淡黄色の粉末 外形 0306 大きさ 4号カプセル 本体コード 0306 包装コード 0306"
+    }
+  ]
+}

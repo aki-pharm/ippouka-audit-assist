@@ -1,0 +1,30 @@
+{
+  "id": "6132013M1126",
+  "source_file": "450064_6132013M1126_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6132013M1126_1_08",
+  "extracted_at": "2026-11-06T18:19:21.669Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17625,
+    "output": 779
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフジニルカプセル50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "ch1Z",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。カプセル号数5、重量90.5mg。外形図に「ch 1Z」の表示あり。表裏の区別は記載なし。mm単位の大きさの記載なし。",
+      "color": "頭部、胴部共に淡赤色不透明の硬カプセル剤（内容物は白色～淡黄色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 頭部、胴部共に淡赤色不透明の硬カプセル剤 内容物は白色～淡黄色の粉末 / カプセル号数 5 / 重量 90.5mg / 識別コード ch1Z"
+    }
+  ]
+}

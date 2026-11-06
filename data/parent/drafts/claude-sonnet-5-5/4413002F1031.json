@@ -1,0 +1,30 @@
+{
+  "id": "4413002F1031",
+  "source_file": "400186_4413002C1035_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4413002C1035_2_04",
+  "extracted_at": "2026-11-06T18:05:54.050Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13635,
+    "output": 997
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピレチア錠(5mg)",
+      "strength": "5mg",
+      "imprint_front": "TTS-161",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「TTS-161」と記載。表裏のどちらに刻印・印字されているかは本文に記載なし。",
+      "color": "ごくうすい赤だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年5月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ピレチア錠(5mg) 性状：ごくうすい赤だいだい色の糖衣錠／直径 約6.1mm、厚さ 約3.7mm、識別コード TTS-161"
+    }
+  ]
+}

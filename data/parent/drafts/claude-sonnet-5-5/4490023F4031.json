@@ -1,0 +1,46 @@
+{
+  "id": "4490023F4031",
+  "source_file": "480235_4490023F1202_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490023F1202_1_05",
+  "extracted_at": "2026-11-06T18:10:37.555Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28116,
+    "output": 1412
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠30mg「トーワ」",
+      "strength": "30mg",
+      "imprint_front": "Tw343",
+      "imprint_back": "30",
+      "imprint_note": "裏面の「30」は外形図から確認。性状欄の文章には識別コード Tw343 のみ記載",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色のフィルムコーティング錠　識別コード Tw343　直径(mm) 6.0　厚さ(mm) 3.1"
+    },
+    {
+      "product_name": "フェキソフェナジン塩酸塩OD錠30mg「トーワ」",
+      "strength": "30mg",
+      "imprint_front": "フェキソフェナジン OD 30 トーワ",
+      "imprint_back": "フェキソフェナジン OD 30 トーワ",
+      "imprint_note": "本体表示。表・裏共通の欄に記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の口腔内崩壊錠　本体表示 フェキソフェナジン OD 30 トーワ　直径(mm) 8.5　厚さ(mm) 4.0"
+    }
+  ]
+}

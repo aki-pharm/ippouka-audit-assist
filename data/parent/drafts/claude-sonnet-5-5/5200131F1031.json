@@ -1,0 +1,30 @@
+{
+  "id": "5200131F1031",
+  "source_file": "270601_5200131F1031_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270601_5200131F1031_1_03",
+  "extracted_at": "2026-11-06T18:17:23.260Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8085,
+    "output": 333
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジュンコウ 補中益気湯FCエキス錠 医療用",
+      "strength": "未確認",
+      "imprint_front": "FC41T",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「ＦＣ４１Ｔ」。表面・裏面のどちらに刻印されているかは文書中に明記なし。規格（1錠あたりの含量）の記載はなく、1日量18錠中エキス4.9gとの記載のみ。",
+      "color": "黄褐色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2022年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 黄褐色の錠剤 外形 表面 裏面 側面 直径 約10mm 厚さ 約5.5mm 重さ 約417mg 識別コード ＦＣ４１Ｔ"
+    }
+  ]
+}

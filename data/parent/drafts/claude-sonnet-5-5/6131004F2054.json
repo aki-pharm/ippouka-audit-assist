@@ -1,0 +1,30 @@
+{
+  "id": "6131004F2054",
+  "source_file": "530169_6131004F2054_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_6131004F2054_1_08",
+  "extracted_at": "2026-11-06T18:18:24.693Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18379,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペングッド錠250mg",
+      "strength": "250mg",
+      "imprint_front": "n-PG250",
+      "imprint_back": "なし",
+      "imprint_note": "表面に本体コード「n-PG250」（社名マーク付き）の印字。裏面の印字は図上なし。側面は図のみ。包装コードも n-PG250。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.3,
+      "size_short_mm": 6.9,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径（mm） 15.3×6.9 厚さ（mm） 5.0 質量（mg） 450 本体コード n-PG250 包装コード n-PG250"
+    }
+  ]
+}

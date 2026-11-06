@@ -1,0 +1,30 @@
+{
+  "id": "6112001M2038",
+  "source_file": "672212_6112001M1031_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6112001M1031_3_06",
+  "extracted_at": "2026-11-06T18:17:40.547Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12568,
+    "output": 776
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダラシンカプセル150mg",
+      "strength": "150mg（力価）",
+      "imprint_front": "UPJOHN 225",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「UPJOHN 225」と記載。表裏の区別は本文に記載なし。外形は1号カプセル。",
+      "color": "頭部：橙色 不透明、胴部：淡橙色 不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "150mg（力価） 不透明 1号カプセル UPJOHN 225（頭部：橙色 不透明 胴部：淡橙色 不透明）"
+    }
+  ]
+}

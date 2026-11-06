@@ -1,0 +1,30 @@
+{
+  "id": "5200003M1022",
+  "source_file": "270127_5200003M1022_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270127_5200003M1022_1_12",
+  "extracted_at": "2026-11-06T18:16:14.016Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 6252,
+    "output": 316
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コタロー茵蔯蒿湯エキスカプセル",
+      "strength": "1カプセル",
+      "imprint_front": "NC135",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード NC135。外形図に社名マーク（◇に K）と NC135 の表示あり。号数1の硬カプセル剤",
+      "color": "キャップ：濃緑色不透明、ボディ：ベージュ色不透明、内容物：黄褐色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色調 キャップ：濃緑色不透明 ボディ：ベージュ色不透明 内容物：黄褐色の粉末 号数 1 識別コード NC135"
+    }
+  ]
+}

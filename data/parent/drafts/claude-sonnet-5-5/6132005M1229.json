@@ -1,0 +1,30 @@
+{
+  "id": "6132005M1229",
+  "source_file": "480235_6132005M1229_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6132005M1229_1_06",
+  "extracted_at": "2026-11-06T18:18:48.019Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10282,
+    "output": 863
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セファクロルカプセル250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "Tw CCL250",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤（2号カプセル）。識別コードは本体「Tw CCL250」、包装「Tw.CCL250」。表裏の区別はなく、外形図の刻印は判読できないため裏は未確認。",
+      "color": "頭部青色不透明、胴部白色不透明（内容物は白色～黄白色の粉末状）",
+      "shape": "oblong",
+      "size_long_mm": 17.9,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "頭部青色不透明、胴部白色不透明の硬カプセル剤であり、内容物は白色～黄白色の粉末状である。"
+    }
+  ]
+}

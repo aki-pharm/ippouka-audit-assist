@@ -1,0 +1,30 @@
+{
+  "id": "5200133M1021",
+  "source_file": "270127_5200133M1021_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270127_5200133M1021_2_17",
+  "extracted_at": "2026-11-06T18:17:25.573Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8249,
+    "output": 335
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コタロー麻黄附子細辛湯エキスカプセル",
+      "strength": "1カプセル",
+      "imprint_front": "FS127",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に社名マーク（◇に K）と FS127 の印字があるが、本文には識別コード FS127 と記載。カプセル剤（硬カプセル剤、号数2）",
+      "color": "キャップ：橙色不透明、ボディ：ベージュ色不透明、内容物：黄褐色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色調 キャップ：橙色不透明 ボディ：ベージュ色不透明 内容物：黄褐色の粉末 号数 2 識別コード FS127"
+    }
+  ]
+}

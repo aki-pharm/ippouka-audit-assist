@@ -1,0 +1,30 @@
+{
+  "id": "4490027F2169",
+  "source_file": "480235_4490027F2169_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490027F2169_1_07",
+  "extracted_at": "2026-11-06T18:13:22.147Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23994,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロラタジンOD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw337",
+      "imprint_back": "10",
+      "imprint_note": "識別コード：本体・包装ともTw337。裏面の「10」は外形図の表示から読み取った",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの口腔内崩壊錠 識別コード（本体・包装）Tw337 直径(mm) 6.5 厚さ(mm) 2.9 質量(mg) 100"
+    }
+  ]
+}

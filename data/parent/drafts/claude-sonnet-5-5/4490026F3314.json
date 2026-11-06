@@ -1,0 +1,30 @@
+{
+  "id": "4490026F3314",
+  "source_file": "580591_4490026F2334_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_4490026F2334_1_06",
+  "extracted_at": "2026-11-06T18:12:05.916Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23793,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "モンテルカスト 5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「モンテルカスト 5 JG」と記載。表面・裏面のどちらにどの表示があるかは本文からは判別できない。",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "モンテルカスト錠5mg「JG」 明るい灰黄色円形のフィルムコーティング錠 表面 裏面 側面 モンテルカスト 5 JG 直径6.5mm 厚さ3.0mm 重量104mg"
+    }
+  ]
+}

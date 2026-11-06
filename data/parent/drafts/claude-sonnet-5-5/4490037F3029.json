@@ -1,0 +1,30 @@
+{
+  "id": "4490037F3029",
+  "source_file": "672212_4490037F1026_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_4490037F1026_1_05",
+  "extracted_at": "2026-11-06T18:15:50.921Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34882,
+    "output": 898
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サイバインコ錠200mg",
+      "strength": "200mg",
+      "imprint_front": "ABR 200",
+      "imprint_back": "PFE",
+      "imprint_note": "識別コード：PFE ABR 200（外形図の上面にABR 200、下面にPFE）",
+      "color": "淡紅色",
+      "shape": null,
+      "size_long_mm": 18.4,
+      "size_short_mm": 8,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "サイバインコ錠200mg PFE ABR 200 淡紅色のフィルムコート錠 長径18.4mm、短径8.0mm、厚さ5.0mm"
+    }
+  ]
+}

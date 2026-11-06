@@ -1,0 +1,30 @@
+{
+  "id": "4490023F2179",
+  "source_file": "530372_4490023F1172_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_4490023F1172_1_04",
+  "extracted_at": "2026-11-06T18:10:18.999Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23448,
+    "output": 782
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠30mg「三和」",
+      "strength": "30mg",
+      "imprint_front": "Sc448",
+      "imprint_back": "30",
+      "imprint_note": "識別コードはSc448（表）。裏の「30」は外形図による。割線の記載なし。",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 うすいだいだい色のフィルムコーティング錠／直径 6.6mm／厚さ 3.3mm／重量 104mg／識別コード Sc448"
+    }
+  ]
+}

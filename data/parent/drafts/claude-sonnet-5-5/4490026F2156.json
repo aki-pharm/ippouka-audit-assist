@@ -1,0 +1,30 @@
+{
+  "id": "4490026F2156",
+  "source_file": "400278_4490026F2156_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_4490026F2156_3_06",
+  "extracted_at": "2026-11-06T18:11:17.061Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23602,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図には識別表示（10、TCK）らしきものが見られるが、本文テキストに刻印の記載がないため未確認",
+      "color": "淡橙色",
+      "shape": "other",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "モンテルカスト錠10mg「TCK」 淡橙色 フィルムコーティング錠 直径8.1mm 厚さ4.1mm 重量205mg"
+    }
+  ]
+}

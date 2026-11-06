@@ -1,0 +1,30 @@
+{
+  "id": "4490023F2101",
+  "source_file": "400278_4490023F1105_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_4490023F1105_1_03",
+  "extracted_at": "2026-11-06T18:10:04.359Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27478,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠30mg「TCK」",
+      "strength": "30mg",
+      "imprint_front": "TU 531",
+      "imprint_back": "未確認",
+      "imprint_note": "表の外形欄に識別コードの図があるが、表裏の区別は本文に記載がない。識別コードはTU 531",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.65,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フェキソフェナジン塩酸塩錠30mg「TCK」 直径6.1mm 厚さ3.65mm 重量104mg うすいだいだい色 フィルムコーティング錠 識別コード TU 531"
+    }
+  ]
+}

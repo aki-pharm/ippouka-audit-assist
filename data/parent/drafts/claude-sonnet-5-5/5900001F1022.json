@@ -1,0 +1,30 @@
+{
+  "id": "5900001F1022",
+  "source_file": "300303_5900001F1022_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300303_5900001F1022_1_13",
+  "extracted_at": "2026-11-06T18:17:31.028Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 5589,
+    "output": 323
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アコニンサン錠",
+      "strength": "1錠中 日局 加工ブシ末(ブシ末1)166.67mg",
+      "imprint_front": "ST-01",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「ST-01」と記載。表面・裏面のどちらに刻印があるかは文章では未記載（形状の図のみ）。",
+      "color": "淡褐色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 錠剤 色 淡褐色 におい 特異な芳香 味 苦い 識別コード ST-01 形状 表面 裏面 側面 直径 8.0 ㎜ 厚さ 4.0 ㎜ 質量 200 mg"
+    }
+  ]
+}

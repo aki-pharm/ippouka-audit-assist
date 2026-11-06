@@ -1,0 +1,30 @@
+{
+  "id": "4490028F1191",
+  "source_file": "671940_4490028F1191_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_4490028F1191_1_02",
+  "extracted_at": "2026-11-06T18:14:08.135Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28262,
+    "output": 626
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠5mg「フェルゼン」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの記載はなく、外形図のみのため文字として確認できない",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの楕円形のフィルムコーティング錠である。／直径：8.1mm 短径：4.6mm 厚さ：3.4mm 質量：103.0mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4490033F2032",
+  "source_file": "430773_4490033F2032_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_4490033F2032_1_02",
+  "extracted_at": "2026-11-06T18:15:04.852Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18385,
+    "output": 248
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビラスチンOD錠20mg「EP」",
+      "strength": "20mg",
+      "imprint_front": "BD",
+      "imprint_back": "EP",
+      "imprint_note": "識別コード：BD／EP（表に「BD EP」の2段表示。識別コード欄に「BD EP」と記載）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ビラスチンOD錠20mg「EP」 口腔内崩壊錠 白色 BD EP 8.0 2.9 180"
+    }
+  ]
+}

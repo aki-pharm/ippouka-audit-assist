@@ -1,0 +1,30 @@
+{
+  "id": "4490023F2020",
+  "source_file": "780069_4490023F1024_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_4490023F1024_1_25",
+  "extracted_at": "2026-11-06T18:09:57.342Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24604,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレグラ錠30mg",
+      "strength": "30mg",
+      "imprint_front": "03",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「03」（本文中の識別コード欄の記載）。裏面の刻印は本文に記載なし。外形図に社名ロゴ様のマークがあるが本文には記載なし。",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすいだいだい色のフィルムコート錠 / 大きさ（mm） 直径6.4 / 厚さ（mm） 3.4 / 識別コード 03"
+    }
+  ]
+}

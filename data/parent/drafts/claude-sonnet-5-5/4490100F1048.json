@@ -1,0 +1,30 @@
+{
+  "id": "4490100F1048",
+  "source_file": "530169_4490100F1048_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_4490100F1048_2_03",
+  "extracted_at": "2026-11-06T18:16:09.681Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20314,
+    "output": 1074
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プソフェキ配合錠「SANIK」",
+      "strength": "1錠中 日局フェキソフェナジン塩酸塩30mg・塩酸プソイドエフェドリン60mg",
+      "imprint_front": "03",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図に社名マークらしきものと「03」（本体コード03、包装コード03）。裏面は図のみで文字の記載なし。形状は文書に文字記載がなく、外形図と大きさ（17.5×7.8mm）から長円形と判断。割線の記載なし。",
+      "color": "うすいだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 17.5,
+      "size_short_mm": 7.8,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（徐放層を含む多層錠） 色調 うすいだいだい色 直径（mm） 17.5×7.8 厚さ（mm） 6 質量（mg） 588 本体コード 03 包装コード 03"
+    }
+  ]
+}

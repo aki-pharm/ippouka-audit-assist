@@ -1,0 +1,30 @@
+{
+  "id": "4490025F4022",
+  "source_file": "230124_4490025F3026_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_4490025F3026_1_10",
+  "extracted_at": "2026-11-06T18:10:46.291Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20790,
+    "output": 325
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレロックOD錠5",
+      "strength": "5mg",
+      "imprint_front": "KH023",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは錠剤本体、PTPシートに表示。裏面は刻印の記載なし（図は無地）",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2020年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "直径(mm) 7.5 8.5 厚さ(mm) 2.9 3.3 重量(g) 0.15 0.22 色調 剤皮 ごくうすい黄色 素錠 ごくうすい黄色 素錠 識別コード KH022（錠剤本体、PTPシートに表示） KH023（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

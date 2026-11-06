@@ -1,0 +1,30 @@
+{
+  "id": "4420002F2059",
+  "source_file": "172190_4420002F1117_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_4420002F1117_3_03",
+  "extracted_at": "2026-11-06T18:06:20.720Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13876,
+    "output": 869
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リマチル錠50mg",
+      "strength": "50mg",
+      "imprint_front": "リマチル 50",
+      "imprint_back": "なし",
+      "imprint_note": "外形図に基づく記載（上面に「リマチル 50」の表示あり、下面は表示なし）。文章での刻印の記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.8,
+      "size_short_mm": 7.8,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "リマチル錠50mg 性状：白色、糖衣錠 外形：直径7.8mm 厚さ4.4mm 重量約190mg"
+    }
+  ]
+}

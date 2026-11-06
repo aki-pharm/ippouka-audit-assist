@@ -1,0 +1,30 @@
+{
+  "id": "6132015F1061",
+  "source_file": "480235_6132015F1061_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6132015F1061_1_11",
+  "extracted_at": "2026-11-06T18:19:35.481Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12604,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフジトレン ピボキシル錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw721",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは本体・包装ともTw721。表に「Tw 721」の外形図あり、裏の刻印は記載なし",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12.3,
+      "size_short_mm": 5.8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード Tw721 直径(mm) 12.3/5.8（長径/短径） 厚さ(mm) 4.1"
+    }
+  ]
+}
