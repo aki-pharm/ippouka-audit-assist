@@ -1,0 +1,30 @@
+{
+  "id": "4291091F2023",
+  "source_file": "800155_4291091F1027_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_4291091F1027_1_03",
+  "extracted_at": "2026-11-06T18:04:34.266Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23358,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラズクルーズ錠240mg",
+      "strength": "240mg",
+      "imprint_front": "240",
+      "imprint_back": "LZ",
+      "imprint_note": "識別コード：LZ240。外形図の表面に「240」、裏面に「LZ」の印字あり",
+      "color": "赤紫色",
+      "shape": "oval",
+      "size_long_mm": 19.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 7.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ラズクルーズ錠240mg 色・剤形 赤紫色の楕円形のフィルムコーティング錠 ／ 長径19.6mm 短径9.6mm 厚さ7.5mm 重量1.1742g ／ 識別コード LZ240"
+    }
+  ]
+}

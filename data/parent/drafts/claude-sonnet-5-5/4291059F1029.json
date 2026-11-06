@@ -1,0 +1,30 @@
+{
+  "id": "4291059F1029",
+  "source_file": "800155_4291059F1029_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_4291059F1029_1_12",
+  "extracted_at": "2026-11-06T18:01:59.860Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26376,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アーリーダ錠60mg",
+      "strength": "60mg",
+      "imprint_front": "AR 60",
+      "imprint_back": "なし",
+      "imprint_note": "外形図では表面に「AR 60」、裏面と側面に刻印の表示なし。識別コード：AR60",
+      "color": "淡黄緑色～灰緑色",
+      "shape": "oval",
+      "size_long_mm": 16.8,
+      "size_short_mm": 8.7,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄緑色～灰緑色のフィルムコーティング錠　大きさ 長径（mm）16.8 短径（mm）8.7 厚さ（mm）6.0 重量（g）0.721　識別コード AR60"
+    }
+  ]
+}

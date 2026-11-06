@@ -1,0 +1,30 @@
+{
+  "id": "4291078F1021",
+  "source_file": "400107_4291078F1021_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4291078F1021_1_05",
+  "extracted_at": "2026-11-06T18:03:29.005Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15790,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジェセリ錠40mg",
+      "strength": "40mg",
+      "imprint_front": "40",
+      "imprint_back": "P116",
+      "imprint_note": "識別コード：P116。外形の図では表面に「40」、裏面に「P116」の表示あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 表面 裏面 側面 大きさ・質量 直径（mm） 厚み（mm） 質量（mg） 7.7 3.4 154.5 識別コード P116"
+    }
+  ]
+}

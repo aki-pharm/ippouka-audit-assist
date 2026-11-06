@@ -1,0 +1,30 @@
+{
+  "id": "4291076F1022",
+  "source_file": "112292_4291076F1022_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112292_4291076F1022_1_06",
+  "extracted_at": "2026-11-06T18:03:23.314Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25944,
+    "output": 778
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルマケラス錠120mg",
+      "strength": "120mg",
+      "imprint_front": "120",
+      "imprint_back": "AMG",
+      "imprint_note": "表面・裏面の刻印は外形図の表示による。文字情報としては識別コード AMG のみ記載",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 16,
+      "size_short_mm": 7.11,
+      "thickness_mm": 5.58,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色 黄色 剤形 フィルムコーティング錠 大きさ 長径 16.00mm 短径 7.11mm 厚さ 5.58mm 重量 618.0mg 識別コード AMG"
+    }
+  ]
+}

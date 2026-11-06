@@ -1,0 +1,30 @@
+{
+  "id": "4291047F1026",
+  "source_file": "300242_4291047F1026_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291047F1026_1_18",
+  "extracted_at": "2026-11-06T18:01:02.015Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36552,
+    "output": 307
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メキニスト錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "TT",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に社名マークと「TT」の記載あり。外形図では錠剤の片面に社名マーク、もう片面に「TT」が示されているが、表裏の別は文章では明記されていない。",
+      "color": "黄色",
+      "shape": "other",
+      "size_long_mm": 9,
+      "size_short_mm": 5,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "性状 黄色変形楕円形のフィルムコーティング錠 / 識別コード TT / 大きさ（約） 長径：9.0mm 短径：5.0mm 厚さ：3.8mm 質量：0.149g"
+    }
+  ]
+}

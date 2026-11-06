@@ -1,0 +1,30 @@
+{
+  "id": "4291033F1091",
+  "source_file": "480235_4291033F1091_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4291033F1091_1_02",
+  "extracted_at": "2026-11-06T17:59:55.206Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24569,
+    "output": 314
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アビラテロン酢酸エステル錠250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "アビラテロン 250 トーワ",
+      "imprint_back": "アビラテロン 250 トーワ",
+      "imprint_note": "本体表示。外形図では表・裏の両面に表示あり。割線の記載なし。",
+      "color": "ピンク色",
+      "shape": "oval",
+      "size_long_mm": 16.2,
+      "size_short_mm": 9.6,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2026年7月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 ピンク色の楕円形のフィルムコーティング錠 本体表示 アビラテロン 250 トーワ 直径(mm) 16.2／9.6（長径／短径） 厚さ(mm) 6.5 質量(mg) 約750"
+    }
+  ]
+}

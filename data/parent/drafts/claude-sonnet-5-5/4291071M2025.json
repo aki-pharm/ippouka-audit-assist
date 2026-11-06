@@ -1,0 +1,30 @@
+{
+  "id": "4291071M2025",
+  "source_file": "630004_4291071M1029_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_4291071M1029_1_11",
+  "extracted_at": "2026-11-06T18:02:54.593Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23324,
+    "output": 771
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヴァイトラックビカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "100 mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「100 mg」とバイエル社マークの記載あり。表裏の区別や刻印位置は文面からは確認できない。なお本剤は錠剤ではなく硬カプセル剤（0号）。",
+      "color": "乳白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第11版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色調 乳白色 号数 0号 識別コード 100 mg（バイエル社マーク）"
+    }
+  ]
+}

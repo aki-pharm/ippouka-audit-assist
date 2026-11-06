@@ -1,0 +1,30 @@
+{
+  "id": "4291054F3029",
+  "source_file": "530471_4291054F1026_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530471_4291054F1026_1_08",
+  "extracted_at": "2026-11-06T18:01:42.201Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28288,
+    "output": 937
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベージニオ錠150mg",
+      "strength": "150mg",
+      "imprint_front": "150",
+      "imprint_back": "Lilly",
+      "imprint_note": "識別コードは「Lilly 150」と記載。表面「150」・裏面「Lilly」は性状欄の表裏の図による",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 13.7,
+      "size_short_mm": 7.5,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠／長径:約13.7mm 短径:約7.5mm 厚さ:約5.2mm 重量:約0.43g／識別コード Lilly 150"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291045F1027",
+  "source_file": "670227_4291045F1027_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_4291045F1027_1_16",
+  "extracted_at": "2026-11-06T18:00:51.151Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34761,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タグリッソ錠40mg",
+      "strength": "40mg",
+      "imprint_front": "AZ40",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：AZ40。外形図の表面に「AZ 40」の表示あり。裏面の刻印は記載なし（外形図の裏面は無地に見える）。",
+      "color": "明るい灰みの黄赤",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "明るい灰みの黄赤の円形のフィルムコーティング錠　直径 約9mm　厚さ 約4.0mm　重量 約0.26g　識別コード AZ40"
+    }
+  ]
+}

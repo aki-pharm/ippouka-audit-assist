@@ -1,0 +1,30 @@
+{
+  "id": "4291034F2025",
+  "source_file": "300242_4291034F1029_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291034F1029_1_13",
+  "extracted_at": "2026-11-06T18:00:03.148Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38541,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジャカビ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "NVR",
+      "imprint_back": "L10",
+      "imprint_note": "識別コード欄は「NVR L10」。形状欄の図では表面に社名マーク様のNVRロゴ、裏面にL10の刻印が示されている。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.3,
+      "size_short_mm": 9.3,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 / 識別コード NVR L10 / 直径（mm）9.3 / 厚さ（mm）4.5 / 質量（g）0.32"
+    }
+  ]
+}

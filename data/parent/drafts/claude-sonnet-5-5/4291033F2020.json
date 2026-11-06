@@ -1,0 +1,30 @@
+{
+  "id": "4291033F2020",
+  "source_file": "800155_4291033F1024_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_4291033F1024_1_16",
+  "extracted_at": "2026-11-06T18:00:03.336Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24727,
+    "output": 1010
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザイティガ錠500mg",
+      "strength": "500mg",
+      "imprint_front": "500",
+      "imprint_back": "AA",
+      "imprint_note": "識別コードはAA500。表面に「500」、裏面に「AA」の印字（外形図による）。",
+      "color": "紫色",
+      "shape": "oblong",
+      "size_long_mm": 20,
+      "size_short_mm": 10,
+      "thickness_mm": 6.9,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 紫色のフィルムコーティング錠／長径（mm） 20.0／短径（mm） 10.0／厚さ（mm） 6.9／識別コード AA500"
+    }
+  ]
+}

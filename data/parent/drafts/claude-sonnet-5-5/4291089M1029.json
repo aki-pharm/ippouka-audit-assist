@@ -1,0 +1,30 @@
+{
+  "id": "4291089M1029",
+  "source_file": "701738_4291089M1029_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/701738_4291089M1029_1_03",
+  "extracted_at": "2026-11-06T18:04:29.811Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26845,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブルキンザカプセル80mg",
+      "strength": "80mg",
+      "imprint_front": "ZANU 80",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル（0号）。外形図に「ZANU 80」の印字あり。識別コード：ZANU 80。重量460mg",
+      "color": "白色～灰白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 22,
+      "size_short_mm": 7.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～灰白色不透明の0号硬カプセル／外形・大きさ ZANU 80 長さ：22mm、直径：7.6mm、重量：460mg／識別コード ZANU 80"
+    }
+  ]
+}

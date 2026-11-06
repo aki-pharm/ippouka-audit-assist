@@ -1,0 +1,30 @@
+{
+  "id": "4291077F1027",
+  "source_file": "300242_4291077F1027_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291077F1027_1_07",
+  "extracted_at": "2026-11-06T18:03:29.653Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23399,
+    "output": 1139
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セムブリックス錠20mg",
+      "strength": "20mg",
+      "imprint_front": "なし",
+      "imprint_back": "20",
+      "imprint_note": "識別コード「20」。外形図では一方の面が社名マークのみ、もう一方の面が「20」。表裏の別は本文に明記がなく、外形図の並びから判断",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "微黄色のフィルムコーティング錠 識別コード 20 大きさ（約） 直径：6.2mm 質量：105.00mg"
+    }
+  ]
+}

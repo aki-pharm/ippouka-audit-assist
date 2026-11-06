@@ -1,0 +1,30 @@
+{
+  "id": "4291086M1025",
+  "source_file": "670605_4291086M1025_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_4291086M1025_1_04",
+  "extracted_at": "2026-11-06T18:04:14.176Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26690,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オータイロカプセル40mg",
+      "strength": "40mg",
+      "imprint_front": "REP 40",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：REP 40。外形の図は添付文書に掲載されているが、刻印の表裏の区別は文章では記載されていない。剤形は硬カプセル剤（0号カプセル、質量約448mg）で錠剤ではない。",
+      "color": "ボディ：白色 キャップ：白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色 ボディ：白色 キャップ：白色／剤形 硬カプセル剤／大きさ 0号カプセル／質量 約448mg／識別コード REP 40"
+    }
+  ]
+}

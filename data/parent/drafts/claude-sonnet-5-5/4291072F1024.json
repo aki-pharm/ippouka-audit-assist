@@ -1,0 +1,30 @@
+{
+  "id": "4291072F1024",
+  "source_file": "150892_4291072F1024_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/150892_4291072F1024_1_04",
+  "extracted_at": "2026-11-06T18:02:54.298Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21804,
+    "output": 227
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペマジール錠4.5mg",
+      "strength": "4.5mg",
+      "imprint_front": "I",
+      "imprint_back": "4.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.35,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "ペマジール錠4.5mg 素錠 白色 刻印：表「I」裏「4.5」 直径（mm）約5.8 厚さ（mm）約3.35 重さ（mg）約80"
+    }
+  ]
+}

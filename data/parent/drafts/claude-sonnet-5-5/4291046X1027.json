@@ -1,0 +1,30 @@
+{
+  "id": "4291046X1027",
+  "source_file": "300242_4291046M1020_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291046M1020_1_16",
+  "extracted_at": "2026-11-06T18:00:57.831Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 39305,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タフィンラー小児用分散錠10mg",
+      "strength": "10mg",
+      "imprint_front": "NVR",
+      "imprint_back": "D",
+      "imprint_note": "識別コードは「NVR D」と記載。外形図では表に社名マーク様の「NVR」、裏に「D」が示されている",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄色の素錠 / 識別コード NVR D / 直径：6.0mm 厚さ：2.6mm 質量：80.0mg"
+    }
+  ]
+}

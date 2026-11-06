@@ -1,0 +1,30 @@
+{
+  "id": "4291079F2022",
+  "source_file": "430574_4291079F1026_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_4291079F1026_1_04",
+  "extracted_at": "2026-11-06T18:03:40.678Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26760,
+    "output": 958
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エザルミア錠100mg",
+      "strength": "100mg",
+      "imprint_front": "DSC 532",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「DSC 532」。表中の図には「100」の表示もあるが、表裏の区別は文書に明記なし",
+      "color": "赤白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 6.7,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "エザルミア錠100mg フィルムコーティング錠（楕円形） 赤白色 識別コード DSC 532 大きさ 14.1（長径）6.7（短径） 厚さ 約5.0 重さ 約440"
+    }
+  ]
+}

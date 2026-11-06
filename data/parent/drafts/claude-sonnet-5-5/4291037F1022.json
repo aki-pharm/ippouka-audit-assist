@@ -1,0 +1,30 @@
+{
+  "id": "4291037F1022",
+  "source_file": "450045_4291037F1022_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_4291037F1022_1_12",
+  "extracted_at": "2026-11-06T18:00:11.865Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25678,
+    "output": 306
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゼルボラフ錠240mg",
+      "strength": "240mg",
+      "imprint_front": "VEM",
+      "imprint_back": "なし",
+      "imprint_note": "表面に識別コード「VEM」の印字（外形図より）。裏面の刻印は外形図上では記載なし。",
+      "color": "帯赤白色～だいだい白色",
+      "shape": "oval",
+      "size_long_mm": 19.1,
+      "size_short_mm": 9.7,
+      "thickness_mm": 7.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 帯赤白色～だいだい白色 外形 表面 裏面 側面 長径 約19.1mm 短径 約9.7mm 厚さ 約7.4mm 質量 870mg 識別コード VEM"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291060F2028",
+  "source_file": "430574_4291060F1021_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_4291060F1021_1_07",
+  "extracted_at": "2026-11-06T18:02:11.104Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30450,
+    "output": 737
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヴァンフリタ錠26.5mg",
+      "strength": "26.5mg",
+      "imprint_front": "DSC512",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「DSC512」。外形図では「DSC」「512」の2行で表示。裏面の刻印の記載は確認できない",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ヴァンフリタ錠26.5mg フィルムコーティング錠 黄色 DSC512 直径10.2mm 厚さ約4.6mm 重さ約370mg"
+    }
+  ]
+}

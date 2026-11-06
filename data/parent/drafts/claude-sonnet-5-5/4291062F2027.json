@@ -1,0 +1,30 @@
+{
+  "id": "4291062F2027",
+  "source_file": "112130_4291062F3023_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_4291062F3023_1_11",
+  "extracted_at": "2026-11-06T18:02:21.633Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 46445,
+    "output": 875
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベネクレクスタ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "V 50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「V 50」。文章中では表裏の区別の記載なし",
+      "color": "淡褐色",
+      "shape": null,
+      "size_long_mm": 14,
+      "size_short_mm": 8,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第11版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色 淡褐色／長径：約14.0mm 短径：約8.0mm 厚さ：約5.5mm 重量：約0.6g／識別コード V 50"
+    }
+  ]
+}

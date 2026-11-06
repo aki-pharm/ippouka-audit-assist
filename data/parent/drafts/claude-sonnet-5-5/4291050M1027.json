@@ -1,0 +1,30 @@
+{
+  "id": "4291050M1027",
+  "source_file": "770098_4291050M1027_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/770098_4291050M1027_1_03",
+  "extracted_at": "2026-11-06T18:01:17.245Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14472,
+    "output": 334
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ムンデシンカプセル 100mg",
+      "strength": "100mg",
+      "imprint_front": "MKK211",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル剤（錠剤ではない）。識別コード MKK211（外形図ではカプセル本体に MKK 211 の表示）。1号カプセル、質量約326mg。頭部黄色、胴部淡黄色。",
+      "color": "頭部黄色，胴部淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 19.4,
+      "size_short_mm": 6.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 頭部黄色，胴部淡黄色の硬カプセル剤 / 大きさ 長径 19.4mm，短径 6.9mm，質量約 326mg，1 号カプセル / 識別コード MKK211"
+    }
+  ]
+}

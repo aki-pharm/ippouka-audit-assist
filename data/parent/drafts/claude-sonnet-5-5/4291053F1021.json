@@ -1,0 +1,30 @@
+{
+  "id": "4291053F1021",
+  "source_file": "800126_4291053F1021_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_4291053F1021_1_07",
+  "extracted_at": "2026-11-06T18:01:30.988Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25046,
+    "output": 302
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾスパタ錠40mg",
+      "strength": "40mg",
+      "imprint_front": "235",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは「235」。社名マーク（アステラスのロゴ）が併記されている。表に刻印（図中は社名マーク＋235）。裏・側面は図のみで文字記載なし。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色 淡黄色 外形・大きさ・重量 表 裏 側面 直径 約7.1mm 厚さ 約3.5mm 重量 約144mg 識別コード 235"
+    }
+  ]
+}

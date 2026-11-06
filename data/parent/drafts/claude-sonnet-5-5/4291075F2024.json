@@ -1,0 +1,30 @@
+{
+  "id": "4291075F2024",
+  "source_file": "530471_4291075F1028_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530471_4291075F1028_1_06",
+  "extracted_at": "2026-11-06T18:03:13.718Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33466,
+    "output": 728
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レットヴィモ錠80mg",
+      "strength": "80mg",
+      "imprint_front": "Ret 80",
+      "imprint_back": "6082",
+      "imprint_note": "識別コード欄に「Ret 80」「6082」の2段で記載。表・裏への割り当ては記載順に基づく",
+      "color": "暗赤紫色",
+      "shape": "round",
+      "size_long_mm": 7.3,
+      "size_short_mm": 7.3,
+      "thickness_mm": 4.61,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "レットヴィモ錠80mg 暗赤紫色のフィルムコーティング錠 直径:約7.3mm 厚さ:約4.61mm 重量:約207.4mg 識別コード Ret 80 6082"
+    }
+  ]
+}

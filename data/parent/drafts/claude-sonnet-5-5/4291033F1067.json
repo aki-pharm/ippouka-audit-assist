@@ -1,0 +1,30 @@
+{
+  "id": "4291033F1067",
+  "source_file": "300119_4291033F1067_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4291033F1067_1_02",
+  "extracted_at": "2026-11-06T17:59:48.914Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24624,
+    "output": 1031
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アビラテロン酢酸エステル錠250mg「サワイ」",
+      "strength": "250mg",
+      "imprint_front": "アビラテロン 250 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の「本体表示」欄の記載。表裏の区別は文章中に記載なし。",
+      "color": "ピンク色",
+      "shape": null,
+      "size_long_mm": 13.4,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 ピンク色 直径（mm） 13.4×7.1 厚さ（mm） 4.9 重量（mg） 約383 本体表示 アビラテロン 250 サワイ"
+    }
+  ]
+}

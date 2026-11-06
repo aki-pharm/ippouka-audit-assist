@@ -1,0 +1,30 @@
+{
+  "id": "4291057M1029",
+  "source_file": "180188_4291057M1029_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_4291057M1029_1_14",
+  "extracted_at": "2026-11-06T18:01:54.299Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45414,
+    "output": 786
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビラフトビカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "LGX 50mg",
+      "imprint_back": "未確認",
+      "imprint_note": "本品は硬カプセル剤（錠剤ではない）。識別コード欄に社名マーク様のロゴと「LGX 50mg」の記載あり。表裏の区別は添付文書に記載なし。",
+      "color": "頭部 赤褐色不透明、胴部 薄い黄赤色不透明",
+      "shape": "oblong",
+      "size_long_mm": 21.7,
+      "size_short_mm": 7.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／号数 0号／長径（mm） 約21.7／短径（mm） 約7.3／質量（mg） 約429.0／色調 頭部 赤褐色不透明、胴部 薄い黄赤色不透明／識別コード LGX 50mg"
+    }
+  ]
+}

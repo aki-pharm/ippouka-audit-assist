@@ -1,0 +1,30 @@
+{
+  "id": "4291058F1024",
+  "source_file": "180188_4291058F1024_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_4291058F1024_1_09",
+  "extracted_at": "2026-11-06T18:01:55.261Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31810,
+    "output": 349
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メクトビ錠15mg",
+      "strength": "15mg",
+      "imprint_front": "社名マーク 15",
+      "imprint_back": "15",
+      "imprint_note": "識別コード欄は「社名マーク（ARRAYロゴ）＋15」の図。表面は社名マークのみ、裏面は「15」の図。文字としてのテキスト記載はなく、図から読み取ったもの。割線の記載なし。",
+      "color": "黄色～暗黄色",
+      "shape": "oblong",
+      "size_long_mm": 12.3,
+      "size_short_mm": 5.3,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠　外　形 表面 裏面 側面　長径（mm） 約12.3　短径（mm） 約5.3　厚さ（mm） 約4.2　質量（mg） 約247.7　色　調 黄色～暗黄色　識別コード"
+    }
+  ]
+}

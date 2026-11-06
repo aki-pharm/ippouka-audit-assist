@@ -1,0 +1,30 @@
+{
+  "id": "4291033F1083",
+  "source_file": "530100_4291033F1083_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_4291033F1083_1_01",
+  "extracted_at": "2026-11-06T17:59:57.542Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28582,
+    "output": 974
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アビラテロン酢酸エステル錠250mg「ニプロ」",
+      "strength": "250mg",
+      "imprint_front": "アビラテロン 250 ニプロ",
+      "imprint_back": "アビラテロン 250 ニプロ",
+      "imprint_note": "刻印は本文には記載がなく、3.2 製剤の性状の外形図（表裏）から読み取った。外形図の3つ目は側面で刻印なし。",
+      "color": "ピンク色",
+      "shape": "oval",
+      "size_long_mm": 15.5,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ピンク色の楕円形のフィルムコーティング錠（長径）15.5（短径）6.6 厚さ5.0 重量424"
+    }
+  ]
+}

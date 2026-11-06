@@ -1,0 +1,30 @@
+{
+  "id": "4291077F2023",
+  "source_file": "300242_4291077F1027_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291077F1027_1_07",
+  "extracted_at": "2026-11-06T18:03:23.684Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23399,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セムブリックス錠40mg",
+      "strength": "40mg",
+      "imprint_front": "40",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「40」。外形図には表面・裏面（ロゴマーク入り）・側面が示されているが、刻印の表裏の内訳は本文に明記されていない。社名ロゴマークの刻印あり（外形図）。",
+      "color": "帯青紫白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性状 帯青紫白色のフィルムコーティング錠 識別コード 40 外形 大きさ（約） 直径：8.2mm 質量：208.00mg"
+    }
+  ]
+}

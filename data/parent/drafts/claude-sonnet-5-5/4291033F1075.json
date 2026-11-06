@@ -1,0 +1,30 @@
+{
+  "id": "4291033F1075",
+  "source_file": "270428_4291033F1075_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_4291033F1075_1_02",
+  "extracted_at": "2026-11-06T17:59:52.217Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27598,
+    "output": 1041
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アビラテロン酢酸エステル錠250mg「サンド」",
+      "strength": "250mg",
+      "imprint_front": "アビラテロン 250",
+      "imprint_back": "アビラテロン サンド",
+      "imprint_note": "外形の図に表示された印字（本文に文章での記載なし）。割線の記載なし",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 15.9,
+      "size_short_mm": 9.5,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名：アビラテロン酢酸エステル錠250mg「サンド」 剤形：フィルムコーティング錠 色調：白色 大きさ：長径：約15.9mm 短径：約9.5mm 厚さ：約6.2mm 質量：約0.736g"
+    }
+  ]
+}

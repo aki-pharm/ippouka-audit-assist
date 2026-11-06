@@ -1,0 +1,30 @@
+{
+  "id": "4291052F1027",
+  "source_file": "670227_4291052F1027_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_4291052F1027_1_14",
+  "extracted_at": "2026-11-06T18:01:24.844Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41111,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リムパーザ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "OP 100",
+      "imprint_back": "未確認",
+      "imprint_note": "外形（裏面）の図は刻印の記載なし（図のみ）。識別コード：OP 100",
+      "color": "黄色～暗黄色",
+      "shape": "oblong",
+      "size_long_mm": 14.7,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 黄色～暗黄色のフィルムコーティング錠 / 大きさ（長径） 約14.7mm / 大きさ（短径） 約7.6mm / 大きさ（厚さ） 約4.7mm / 質量 約0.41g / 識別コード OP 100"
+    }
+  ]
+}

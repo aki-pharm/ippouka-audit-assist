@@ -1,0 +1,30 @@
+{
+  "id": "4291091F1027",
+  "source_file": "800155_4291091F1027_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_4291091F1027_1_03",
+  "extracted_at": "2026-11-06T18:04:30.426Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23358,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラズクルーズ錠80mg",
+      "strength": "80mg",
+      "imprint_front": "80",
+      "imprint_back": "LZ",
+      "imprint_note": "識別コード：LZ80。外形の図に表面「80」、裏面「LZ」と表示。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 13.9,
+      "size_short_mm": 7,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ラズクルーズ錠80mg 色・剤形 黄色の楕円形のフィルムコーティング錠 大きさ 長径13.9mm 短径7.0mm 厚さ4.6mm 重量0.3914g 識別コード LZ80"
+    }
+  ]
+}

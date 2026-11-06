@@ -1,0 +1,30 @@
+{
+  "id": "4291083F3025",
+  "source_file": "340278_4291083F1022_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_4291083F1022_1_05",
+  "extracted_at": "2026-11-06T18:03:58.067Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22745,
+    "output": 802
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オムジャラ錠200mg",
+      "strength": "200mg",
+      "imprint_front": "M",
+      "imprint_back": "200",
+      "imprint_note": "識別コードは「M 200」。表は「M」、裏は「200」（外観図より）。",
+      "color": "褐色",
+      "shape": "oblong",
+      "size_long_mm": 15.7,
+      "size_short_mm": 7.5,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 褐色のフィルムコーティング錠／識別コード M 200／表（直径／長径×短径）約15.7×7.5mm／側面（厚さ）約5.5mm"
+    }
+  ]
+}

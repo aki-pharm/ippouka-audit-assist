@@ -1,0 +1,30 @@
+{
+  "id": "4291055F1020",
+  "source_file": "672212_4291055F1020_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_4291055F1020_2_07",
+  "extracted_at": "2026-11-06T18:01:46.320Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26666,
+    "output": 720
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ローブレナ錠25mg",
+      "strength": "25mg",
+      "imprint_front": "25 LLN",
+      "imprint_back": "なし",
+      "imprint_note": "下面は社名マーク（Pfizer）のみ",
+      "color": "ごく薄い紅色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "ローブレナ錠25mg 識別コード 25 LLN ごく薄い紅色 フィルムコーティング錠 直径 8.0 厚さ 約4.0"
+    }
+  ]
+}

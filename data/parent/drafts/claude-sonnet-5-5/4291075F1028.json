@@ -1,0 +1,30 @@
+{
+  "id": "4291075F1028",
+  "source_file": "530471_4291075F1028_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530471_4291075F1028_1_06",
+  "extracted_at": "2026-11-06T18:03:09.209Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33466,
+    "output": 848
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レットヴィモ錠40mg",
+      "strength": "40mg",
+      "imprint_front": "Ret 40",
+      "imprint_back": "5340",
+      "imprint_note": "識別コード欄に「Ret 40」「5340」の2段で記載。表裏への割り当ては記載順による（文書内に明示なし）。",
+      "color": "明るい灰色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.47,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "明るい灰色のフィルムコーティング錠 直径:約6mm 厚さ:約3.47mm 重量:約104.7mg 識別コード Ret 40 5340"
+    }
+  ]
+}

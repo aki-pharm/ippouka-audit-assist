@@ -1,0 +1,30 @@
+{
+  "id": "4291067F1023",
+  "source_file": "300242_4291067F1023_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291067F1023_1_04",
+  "extracted_at": "2026-11-06T18:02:34.017Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21107,
+    "output": 252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タブレクタ錠150mg",
+      "strength": "150mg",
+      "imprint_front": "NVR",
+      "imprint_back": "DU",
+      "imprint_note": "識別コード：NVR DU",
+      "color": "微橙褐色",
+      "shape": "oval",
+      "size_long_mm": 18.3,
+      "size_short_mm": 7.3,
+      "thickness_mm": 6.4,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状：微橙褐色の楕円形のフィルムコーティング錠　識別コード：NVR DU　大きさ（約）：長径：18.3mm 短径：7.3mm 厚さ：6.4mm 質量：770.00mg"
+    }
+  ]
+}

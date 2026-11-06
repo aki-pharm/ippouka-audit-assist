@@ -1,0 +1,30 @@
+{
+  "id": "4291070M1024",
+  "source_file": "670227_4291070M1024_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_4291070M1024_1_06",
+  "extracted_at": "2026-11-06T18:02:48.270Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24652,
+    "output": 698
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルケンスカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "ACA 100mg",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル剤（1号カプセル）で、錠剤ではない。質量約316mg。識別コードの表裏の区別は記載なし",
+      "color": "カプセル：キャップ部が青色、ボディ部が黄色",
+      "shape": "oblong",
+      "size_long_mm": 19.4,
+      "size_short_mm": 6.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 / 色調 カプセル：キャップ部が青色、ボディ部が黄色 / 外形 1号カプセル / 大きさ 長径 約19.4mm、短径 約6.9mm / 質量 約316mg / 識別コード ACA 100mg"
+    }
+  ]
+}

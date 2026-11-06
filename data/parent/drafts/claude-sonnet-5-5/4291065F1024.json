@@ -1,0 +1,30 @@
+{
+  "id": "4291065F1024",
+  "source_file": "380079_4291065F1024_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380079_4291065F1024_1_06",
+  "extracted_at": "2026-11-06T18:02:28.260Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16863,
+    "output": 331
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テプミトコ錠250mg",
+      "strength": "250mg",
+      "imprint_front": "M（社名マーク）／テプミトコ250",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄に社名マーク（M）と「テプミトコ250」の印字が表示されている。外形裏面の刻印については本文に記載がなく、図では確認できない。",
+      "color": "白みのやわらかい赤色",
+      "shape": "oval",
+      "size_long_mm": 18,
+      "size_short_mm": 9,
+      "thickness_mm": 6.9,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "販売名 テプミトコ錠250mg／剤形 フィルムコーティング錠／色調 白みのやわらかい赤色／直径 長径：18mm 短径：9mm／厚さ 6.9mm／質量 854.16mg／識別コード（M テプミトコ250）"
+    }
+  ]
+}

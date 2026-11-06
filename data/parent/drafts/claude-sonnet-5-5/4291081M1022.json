@@ -1,0 +1,30 @@
+{
+  "id": "4291081M1022",
+  "source_file": "672212_4291081M1022_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_4291081M1022_1_03",
+  "extracted_at": "2026-11-06T18:03:40.779Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26133,
+    "output": 686
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ターゼナカプセル0.1mg",
+      "strength": "0.1mg",
+      "imprint_front": "TLZ 0.1",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく4号硬カプセル。識別コードは表裏の区別なく「TLZ 0.1」と記載。外形図にはPfizerのロゴマークもあるが、本文では識別コードとして扱われていない。",
+      "color": "キャップ：白色、ボディ：白色",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "ターゼナカプセル0.1mg 14.3 × 5.3 TLZ 0.1 キャップ：白色 ボディ：白色 4号硬カプセル"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291068F1028",
+  "source_file": "400256_4291068F1028_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_4291068F1028_1_06",
+  "extracted_at": "2026-11-06T18:02:37.482Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24626,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゼジューラ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "Zejula",
+      "imprint_back": "100",
+      "imprint_note": "製剤表示は「Zejula 100」。上面に「Zejula」、下面に「100」の印字（図より）。割線の記載なし",
+      "color": "灰色",
+      "shape": "oval",
+      "size_long_mm": 12.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2023年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形のフィルムコーティング錠 色調 灰色 製剤表示 Zejula 100 大きさ（mm） 約12.2（長径） 約8.2（短径） 厚さ（mm） 約5.3 質量（mg） 343.3"
+    }
+  ]
+}

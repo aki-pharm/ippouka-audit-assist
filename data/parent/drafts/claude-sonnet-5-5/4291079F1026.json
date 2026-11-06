@@ -1,0 +1,30 @@
+{
+  "id": "4291079F1026",
+  "source_file": "430574_4291079F1026_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_4291079F1026_1_04",
+  "extracted_at": "2026-11-06T18:03:31.967Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26760,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エザルミア錠50mg",
+      "strength": "50mg",
+      "imprint_front": "DSC 531",
+      "imprint_back": "DSC 531",
+      "imprint_note": "識別コード「DSC 531」（表の文字情報では「DSC」「531」と分かれて記載）。表裏の別は文字情報では明記されていないため、図では両面に印字されているように見える",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "エザルミア錠50mg フィルムコーティング錠 白色 DSC 531 8.1（直径） 約4.4 約220"
+    }
+  ]
+}

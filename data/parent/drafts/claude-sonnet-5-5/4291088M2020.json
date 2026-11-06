@@ -1,0 +1,30 @@
+{
+  "id": "4291088M2020",
+  "source_file": "400256_4291088M1024_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_4291088M1024_1_03",
+  "extracted_at": "2026-11-06T18:04:22.477Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20420,
+    "output": 362
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フリュザクラカプセル5mg",
+      "strength": "5mg",
+      "imprint_front": "HM013 5mg",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル（錠剤ではない）。識別コード「HM013 5mg」。号数1号、質量約336mg。",
+      "color": "キャップ：黄色、ボディ：黄色",
+      "shape": "oblong",
+      "size_long_mm": 19.4,
+      "size_short_mm": 6.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル 硬カプセル / 色 キャップ：黄色 ボディ：白色 キャップ：黄色 ボディ：黄色 / 識別コード HM013 1mg HM013 5mg / 号数 3号 1号 / 長径（mm） 約15.9 約19.4 / 短径（mm） 約5.8 約6.9 / 質量（mg） 約100 約336"
+    }
+  ]
+}

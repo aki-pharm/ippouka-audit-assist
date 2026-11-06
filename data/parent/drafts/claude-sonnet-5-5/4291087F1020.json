@@ -1,0 +1,30 @@
+{
+  "id": "4291087F1020",
+  "source_file": "170033_4291087F1020_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_4291087F1020_1_03",
+  "extracted_at": "2026-11-06T18:04:21.138Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16792,
+    "output": 927
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タスフィゴ錠35mg",
+      "strength": "35mg",
+      "imprint_front": "TAS 35",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「TAS 35」。図中の表面には「ε」に見える記号が含まれる。裏面は図が空白で、文章での記載はない。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "タスフィゴ錠35mg フィルムコーティング錠 黄色 TAS 35 直径（mm）・質量（mg）・厚さ（mm） 8.1 206.0 4.2"
+    }
+  ]
+}

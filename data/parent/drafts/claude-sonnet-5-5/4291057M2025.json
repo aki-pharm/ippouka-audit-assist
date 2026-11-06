@@ -1,0 +1,30 @@
+{
+  "id": "4291057M2025",
+  "source_file": "180188_4291057M1029_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_4291057M1029_1_14",
+  "extracted_at": "2026-11-06T18:01:57.431Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45414,
+    "output": 854
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビラフトビカプセル75mg",
+      "strength": "75mg",
+      "imprint_front": "LGX 75mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの前に社名マーク様の記号あり。剤形は硬カプセル剤（錠剤ではない）、00号、質量約617.5mg。表裏の区別は記載なし。",
+      "color": "頭部 薄い黄赤色不透明、胴部 白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 23.3,
+      "size_short_mm": 8.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 号数 00号 長径（mm）約23.3 短径（mm）約8.2 質量（mg）約617.5 色調 頭部 薄い黄赤色不透明 胴部 白色不透明 識別コード LGX 75mg"
+    }
+  ]
+}

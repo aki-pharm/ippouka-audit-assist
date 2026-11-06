@@ -1,0 +1,30 @@
+{
+  "id": "4291047F2022",
+  "source_file": "300242_4291047F1026_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291047F1026_1_18",
+  "extracted_at": "2026-11-06T18:01:02.221Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36550,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メキニスト錠2mg",
+      "strength": "2mg",
+      "imprint_front": "LL",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「LL」（社名マークと併記）。外形図には社名マークと「LL」が示されている。裏面の刻印については文章での記載なし。",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "淡紅色円形のフィルムコーティング錠 / 識別コード LL / 大きさ（約）直径：7.6mm 厚さ：3.8mm 質量：0.170g"
+    }
+  ]
+}

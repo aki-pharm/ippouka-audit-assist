@@ -1,0 +1,30 @@
+{
+  "id": "4291092F1021",
+  "source_file": "670227_4291092F1021_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_4291092F1021_1_03",
+  "extracted_at": "2026-11-06T18:04:37.083Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32592,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルケンス錠100mg",
+      "strength": "100mg",
+      "imprint_front": "ACA100",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード ACA100。表面に印字（外形図より）。裏面の刻印は文書中に明記なし",
+      "color": "橙色",
+      "shape": "oval",
+      "size_long_mm": 13.2,
+      "size_short_mm": 7.7,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 橙色の楕円形のフィルムコーティング錠 / 径 約7.7mm × 約13.2mm / 厚さ 約5.3mm / 質量 約414mg / 識別コード ACA100"
+    }
+  ]
+}

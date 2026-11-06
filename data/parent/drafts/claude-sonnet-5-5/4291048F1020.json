@@ -1,0 +1,30 @@
+{
+  "id": "4291048F1020",
+  "source_file": "180078_4291048F1020_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_4291048F1020_1_09",
+  "extracted_at": "2026-11-06T18:01:05.587Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30712,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アイクルシグ錠15mg",
+      "strength": "15mg",
+      "imprint_front": "A5",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄に「A5」と記載。外形図の表面に「A5」、裏面と側面は刻印の図示なし。裏面の刻印は文書中に明記がないため「なし」とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アイクルシグ錠15mg 白色のフィルムコーティング錠 直径6.4mm 厚さ3.2mm 重さ約103mg 識別コード A5"
+    }
+  ]
+}

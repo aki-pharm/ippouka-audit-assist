@@ -1,0 +1,30 @@
+{
+  "id": "4291045F2023",
+  "source_file": "670227_4291045F1027_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_4291045F1027_1_16",
+  "extracted_at": "2026-11-06T18:00:52.546Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34761,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タグリッソ錠80mg",
+      "strength": "80mg",
+      "imprint_front": "AZ80",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：AZ80（表面に印字）。裏面の刻印は外形図に記載なし",
+      "color": "明るい灰みの黄赤",
+      "shape": "oval",
+      "size_long_mm": 14.5,
+      "size_short_mm": 7.3,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "明るい灰みの黄赤の楕円形のフィルムコーティング錠　大きさ 約14.5mm x 約7.3mm、厚さ 約5.3mm、重量 約0.52g、識別コード AZ80"
+    }
+  ]
+}

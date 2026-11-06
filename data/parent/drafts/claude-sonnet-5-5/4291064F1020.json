@@ -1,0 +1,30 @@
+{
+  "id": "4291064F1020",
+  "source_file": "400256_4291064F1020_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_4291064F1020_1_07",
+  "extracted_at": "2026-11-06T18:02:28.443Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26567,
+    "output": 269
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カボメティクス錠20mg",
+      "strength": "20mg",
+      "imprint_front": "20",
+      "imprint_back": "XL",
+      "imprint_note": "識別コードは「XL 20」。形状の図では上面に「20」、下面に「XL」の印字。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形のフィルムコーティング錠／錠剤の色 黄色／識別コード XL 20／大きさ（mm） 約5.6（直径）／厚さ（mm） 約3.8／質量（mg） 83.2"
+    }
+  ]
+}

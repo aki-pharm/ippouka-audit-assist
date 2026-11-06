@@ -1,0 +1,30 @@
+{
+  "id": "4291054F1026",
+  "source_file": "530471_4291054F1026_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530471_4291054F1026_1_08",
+  "extracted_at": "2026-11-06T18:01:37.074Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28288,
+    "output": 945
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベージニオ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "50",
+      "imprint_back": "Lilly",
+      "imprint_note": "識別コードは「Lilly 50」。表裏の振り分けは外観図（表面:50、裏面:Lilly）による。",
+      "color": "薄い帯赤黄色",
+      "shape": "oval",
+      "size_long_mm": 9.5,
+      "size_short_mm": 5.2,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 薄い帯赤黄色のフィルムコーティング錠／寸法・重量 長径:約9.5mm 短径:約5.2mm 厚さ:約3.7mm 重量:約0.14g／識別コード Lilly 50"
+    }
+  ]
+}

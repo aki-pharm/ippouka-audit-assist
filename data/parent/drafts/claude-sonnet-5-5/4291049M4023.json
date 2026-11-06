@@ -1,0 +1,30 @@
+{
+  "id": "4291049M4023",
+  "source_file": "400256_4291049M1024_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_4291049M1024_1_11",
+  "extracted_at": "2026-11-06T18:01:13.956Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25518,
+    "output": 417
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニンラーロカプセル0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は画像（Takedaロゴと「0.5mg」の表示）のみで、文字による記載がなく、刻印内容は読み取れない。剤形は錠剤ではなく硬カプセル剤。",
+      "color": "帯黄緑色",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 硬カプセル剤 硬カプセル剤 硬カプセル剤 色調 帯黄緑色 微赤色 明るい灰色 淡橙色 号数 3号 4号 4号 3号 長径（mm）約15.9 約14.3 約14.3 約15.9 短径（mm）5.8 5.3 5.3 5.8（0.5mg：硬カプセル剤、帯黄緑色、3号、長径約15.9mm、短径5.8mm）"
+    }
+  ]
+}

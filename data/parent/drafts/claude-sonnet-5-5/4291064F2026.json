@@ -1,0 +1,30 @@
+{
+  "id": "4291064F2026",
+  "source_file": "400256_4291064F1020_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_4291064F1020_1_07",
+  "extracted_at": "2026-11-06T18:02:25.724Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26567,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カボメティクス錠60mg",
+      "strength": "60mg",
+      "imprint_front": "60",
+      "imprint_back": "XL",
+      "imprint_note": "識別コード：XL 60（上面に「60」、下面に「XL」の表示）",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 11.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形のフィルムコーティング錠／錠剤の色 黄色／識別コード XL 60／大きさ（mm） 約11.3（長径）約6.3（短径）／厚さ（mm） 約5.0／質量（mg） 249.6"
+    }
+  ]
+}

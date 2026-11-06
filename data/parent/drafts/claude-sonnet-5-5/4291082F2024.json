@@ -1,0 +1,30 @@
+{
+  "id": "4291082F2024",
+  "source_file": "670227_4291082F1028_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_4291082F1028_1_04",
+  "extracted_at": "2026-11-06T18:03:46.909Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23665,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルカプ錠200mg",
+      "strength": "200mg",
+      "imprint_front": "CAV200",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：CAV200（図では表面に表示、裏面は無地）",
+      "color": "明るい灰みの黄赤色",
+      "shape": "oval",
+      "size_long_mm": 14.5,
+      "size_short_mm": 7.3,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "明るい灰みの黄赤色の楕円形のフィルムコーティング錠 / 大きさ 約14.5mm×約7.3mm、厚さ 約5.0mm / 重量 約0.52g / 識別コード CAV200"
+    }
+  ]
+}

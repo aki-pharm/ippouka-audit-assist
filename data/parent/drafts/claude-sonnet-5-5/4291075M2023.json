@@ -1,0 +1,30 @@
+{
+  "id": "4291075M2023",
+  "source_file": "530471_4291075M1027_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530471_4291075M1027_1_12",
+  "extracted_at": "2026-11-06T18:03:19.155Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32904,
+    "output": 727
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レットヴィモカプセル80mg",
+      "strength": "80mg",
+      "imprint_front": "2980",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは社名ロゴ（Lilly）と「2980」。外形図に「80mg」の表示あり。剤形は硬カプセル剤（0号カプセル）で、錠剤ではない。重量：約363mg。",
+      "color": "青色不透明",
+      "shape": "oblong",
+      "size_long_mm": 21.7,
+      "size_short_mm": 7.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第11版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 青色不透明の硬カプセル剤／外形 0号カプセル／寸法・重量 長径:約21.7mm 短径:約7.6mm 重量:約363mg／識別コード 2980"
+    }
+  ]
+}

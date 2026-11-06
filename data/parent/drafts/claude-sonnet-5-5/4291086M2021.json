@@ -1,0 +1,30 @@
+{
+  "id": "4291086M2021",
+  "source_file": "670605_4291086M1025_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_4291086M1025_1_04",
+  "extracted_at": "2026-11-06T18:04:16.862Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26690,
+    "output": 801
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オータイロカプセル160mg",
+      "strength": "160mg",
+      "imprint_front": "REP 160",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。識別コードは「REP 160」。表裏の区別は記載なし。大きさは0号カプセルとのみ記載があり、mm表記はない。",
+      "color": "ボディ：青色 キャップ：青色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "販売名 オータイロカプセル160mg／含量 160mg／色 ボディ：青色 キャップ：青色／剤形 硬カプセル剤／外形 REP 160／大きさ 0号カプセル／質量 約516mg／識別コード REP 160"
+    }
+  ]
+}

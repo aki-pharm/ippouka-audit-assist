@@ -1,0 +1,30 @@
+{
+  "id": "4291061M2021",
+  "source_file": "450045_4291061M1025_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_4291061M1025_1_11",
+  "extracted_at": "2026-11-06T18:02:10.590Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26440,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロズリートレクカプセル200mg",
+      "strength": "200mg",
+      "imprint_front": "ENT200",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル（錠剤ではない）。識別コードはENT200。号数は0号、質量546mg。外形図には「ENT 200」の印字が2行で表示されている。表裏の別は記載なし。",
+      "color": "明るい黄赤色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年8月改訂（第12版）",
+      "source_page": 1,
+      "source_quote": "剤 形 硬カプセル / 色 調 明るい黄赤色 / 号 数 0号 / 質 量 546mg / 識別コード ENT200"
+    }
+  ]
+}

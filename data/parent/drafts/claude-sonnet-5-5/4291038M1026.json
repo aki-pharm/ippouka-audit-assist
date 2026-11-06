@@ -1,0 +1,30 @@
+{
+  "id": "4291038M1026",
+  "source_file": "670605_4291038M1026_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_4291038M1026_2_05",
+  "extracted_at": "2026-11-06T18:00:21.196Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32120,
+    "output": 726
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ポマリストカプセル1mg",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印・印字の記載なし（外形図に印字らしき表示があるが文章では確認できない）。なお、本品は錠剤ではなく硬カプセル剤",
+      "color": "ボディ：黄色（不透明）、キャップ：暗青色（不透明）",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色 ボディ：黄色（不透明） キャップ：暗青色（不透明）／剤形 硬カプセル剤／大きさ 長径 約15.9mm 短径 約5.8mm／カプセル号数 3"
+    }
+  ]
+}

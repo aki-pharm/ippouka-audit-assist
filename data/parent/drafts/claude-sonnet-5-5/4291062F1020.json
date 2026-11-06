@@ -1,0 +1,30 @@
+{
+  "id": "4291062F1020",
+  "source_file": "112130_4291062F3023_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_4291062F3023_1_11",
+  "extracted_at": "2026-11-06T18:02:19.372Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 46445,
+    "output": 814
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベネクレクスタ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "10",
+      "imprint_back": "V",
+      "imprint_note": "識別コード：V 10（外形の図では上面に「10」、下面に「V」）。剤形：フィルムコーティング錠。重量：約0.1g",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第11版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色 淡黄色 外形・大きさ 直径：約6.0mm 厚さ：約3.8mm 重量：約0.1ｇ 識別コード V 10"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291074F1023",
+  "source_file": "780009_4291074F1023_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_4291074F1023_2_02",
+  "extracted_at": "2026-11-06T18:03:05.163Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17796,
+    "output": 747
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハイヤスタ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "HBI 10",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形の図（表）から読み取った。文章での記載はなく、裏の刻印の有無は図のみで明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "ハイヤスタ錠10mg フィルムコーティング錠 白色 直径（mm）9.7 厚さ（mm）3.9 重量（mg）257.5"
+    }
+  ]
+}
