@@ -1,7 +1,7 @@
 /**
  * 添付文書PDF → 外観情報の下書き（draft）
- *   npx tsx scripts/extract.ts pdfs/xxx.pdf --id <マスタのid> [--strength 5mg]
- * 出力：data/drafts/<id>.json（status: draft）。人が確認してから data/master.json に反映する。
+ *   npx tsx scripts/extract.ts pdfs/xxx.pdf --id <マスタのid> [--strength 5mg] [--model claude-sonnet-5-5] [--out data/parent/drafts]
+ * 出力：data/drafts/<id>.json（status: draft）。人が確認してから data/master.json に反映する。--out で出力先を変えられる。
  * APIキーは環境変数 ANTHROPIC_API_KEY または CLAUDE_API_KEY（.env.local か環境のシークレット）。
  */
 import fs from "node:fs";
@@ -40,6 +40,8 @@ async function main() {
   const id = arg("--id");
   const strength = arg("--strength");
   const sourceUrl = arg("--url");
+  const model = arg("--model") ?? "claude-opus-5-5";
+  const outDir = arg("--out") ?? path.join("data", "drafts");
   if (!pdfPath || !id) {
     console.error("使い方: npx tsx scripts/extract.ts <pdf> --id <id> [--strength 5mg] [--url <PMDAのURL>]");
     process.exit(1);
@@ -52,7 +54,7 @@ async function main() {
   }
   const client = new Anthropic({ apiKey });
   const response = await client.messages.parse({
-    model: "claude-opus-5-5",
+    model,
     max_tokens: 16000,
     output_config: { effort: "high", format: zodOutputFormat(ExtractResultSchema) },
     system: EXTRACT_SYSTEM,
@@ -84,7 +86,7 @@ async function main() {
     status: "draft",
     products: result.products,
   };
-  const outPath = path.join("data", "drafts", `${id}.json`);
+  const outPath = path.join(outDir, `${id}.json`);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
   console.log(`書き出し: ${outPath}`);
