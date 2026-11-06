@@ -1,0 +1,30 @@
+{
+  "id": "2144001F1020",
+  "source_file": "530258_2144001C1074_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2144001C1074_3_07",
+  "extracted_at": "2026-11-06T16:05:22.228Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24095,
+    "output": 243
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カプトリル錠12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "NF 275",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「NF 275」。表の外形欄に刻印の図があるが、表裏の区別は本文から確認できない",
+      "color": "白色の素錠",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 1.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "カプトリル錠12.5mg 白色の素錠（割線入） NF 275 6.0 1.8 75"
+    }
+  ]
+}

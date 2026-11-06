@@ -1,0 +1,30 @@
+{
+  "id": "2149048F2070",
+  "source_file": "480235_2149048F1073_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149048F1073_3_03",
+  "extracted_at": "2026-11-06T16:18:05.043Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28688,
+    "output": 686
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタン錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "40 アジル",
+      "imprint_back": "40 アジル サルタン トーワ",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 9.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の割線入りの楕円形のフィルムコーティング錠　本体表示 表 40 アジル、裏 40 アジル サルタン トーワ　9.1／5.1（長径／短径）　厚さ 3.3mm"
+    }
+  ]
+}

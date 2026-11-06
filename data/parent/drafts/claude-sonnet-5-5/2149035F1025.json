@@ -1,0 +1,30 @@
+{
+  "id": "2149035F1025",
+  "source_file": "670227_2149035F1025_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_2149035F1025_2_12",
+  "extracted_at": "2026-11-06T16:10:23.089Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17145,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スプレンジール錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "AZ125",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：AZ125。外形（裏面）の図には「2.5」の表示があるが、本文には刻印の記載なし。",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 うすいだいだい色のフィルムコーティング錠／大きさ（直径） 約6.1mm／大きさ（厚さ） 約3.0mm／質量 約0.09g／識別コード AZ125"
+    }
+  ]
+}

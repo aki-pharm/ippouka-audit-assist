@@ -1,0 +1,30 @@
+{
+  "id": "2144004F3026",
+  "source_file": "400061_2144004F1023_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_2144004F1023_2_08",
+  "extracted_at": "2026-11-06T16:05:40.411Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18115,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アデカット30mg錠",
+      "strength": "30mg",
+      "imprint_front": "221-223のうち223（識別コード 223）",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「223」（社名マークと併記）。図中の表裏の印字は本文からは確認できず、裏面の「30」の印字は文章では確認できない。",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすいだいだい色の割線入りの素錠／直径（mm） 7.1／厚さ（mm） 2.4／重量（mg） 120／識別コード 223"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149048F4064",
+  "source_file": "530113_2149048F4064_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2149048F4064_1_03",
+  "extracted_at": "2026-11-06T16:18:48.425Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29327,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタンOD錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "NS アジルサルタン OD10",
+      "imprint_back": "NS アジルサルタン OD10",
+      "imprint_note": "本体表示は表面・裏面を通じて「NS アジルサルタン OD10」と記載（10mgは表裏共通の欄に記載）。割線の記載なし。",
+      "color": "微黄赤色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "微黄赤色のフィルムコーティング錠　錠径：5.6mm　錠厚：2.8mm　重量：72mg　本体表示 表面・裏面 NS アジルサルタン OD10"
+    }
+  ]
+}

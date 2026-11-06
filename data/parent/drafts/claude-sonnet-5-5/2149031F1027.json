@@ -1,0 +1,30 @@
+{
+  "id": "2149031F1027",
+  "source_file": "450900_2149031F1027_6_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_2149031F1027_6_01",
+  "extracted_at": "2026-11-06T16:09:41.689Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17453,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ケルロング錠5 mg",
+      "strength": "5 mg",
+      "imprint_front": "MKC091",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード MKC091。外形の図には錠剤表面に「5」の表示もあるが、本文には記載なし。割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・フィルムコーティング錠（割線入り） 直径（mm） 約6.4 厚さ（mm） 約2.7 重量（mg） 84 識別コード MKC091"
+    }
+  ]
+}

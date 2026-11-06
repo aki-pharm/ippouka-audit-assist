@@ -1,0 +1,30 @@
+{
+  "id": "2149031F2023",
+  "source_file": "450900_2149031F1027_6_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_2149031F1027_6_01",
+  "extracted_at": "2026-11-06T16:09:42.695Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17453,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ケルロング錠10 mg",
+      "strength": "10 mg",
+      "imprint_front": "MKC 092",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはMKC092。表裏の別は本文に明記されていない。図には表面に「10」の表示があるが本文の記載ではない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・フィルムコーティング錠（割線入り） 直径（mm） 約6.4 約7.1 厚さ（mm） 約2.7 約3.2 重量（mg） 84 126 識別コード MKC091 MKC092"
+    }
+  ]
+}

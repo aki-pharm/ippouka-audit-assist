@@ -1,0 +1,46 @@
+{
+  "id": "2149026F8020",
+  "source_file": "671450_2149026F1026_4_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2149026F1026_4_05",
+  "extracted_at": "2026-11-06T16:09:16.283Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18973,
+    "output": 1128
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルデナリン錠4mg",
+      "strength": "4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "VTC04",
+      "imprint_note": "識別コード欄にはVTC04と記載。上面・下面のどちらかは本文では区別されておらず、外形図からの読み取り（下面にVTC04）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "カルデナリン錠 4mg VTC04 白色 割線入り 直径 素錠 8.0mm 厚さ 3.7mm 重量 200mg"
+    },
+    {
+      "product_name": "カルデナリンOD錠4mg",
+      "strength": "4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "VTC14",
+      "imprint_note": "識別コード欄にはVTC14と記載。上面・下面のどちらかは本文では区別されておらず、外形図からの読み取り（下面にVTC14）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "カルデナリン OD 錠 4mg VTC14 淡黄色 割線入り 直径 素錠 8.5mm 厚さ 3.5mm 重量 200mg"
+    }
+  ]
+}

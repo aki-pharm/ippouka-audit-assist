@@ -1,0 +1,30 @@
+{
+  "id": "2149032F2028",
+  "source_file": "430574_2149032F1021_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_2149032F1021_2_15",
+  "extracted_at": "2026-11-06T16:09:51.082Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33370,
+    "output": 253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アーチスト錠20mg",
+      "strength": "20mg",
+      "imprint_front": "319",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「319」。表裏の区別は本文テキストに記載なし（図中に社名マークらしき表示あり）。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アーチスト錠20mg フィルムコーティング錠（割線入） 白色～微黄白色 319 8.6（直径） 約3.3 約169"
+    }
+  ]
+}

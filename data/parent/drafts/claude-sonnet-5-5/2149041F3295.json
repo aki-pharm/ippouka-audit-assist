@@ -1,0 +1,30 @@
+{
+  "id": "2149041F3295",
+  "source_file": "530113_2149041F1292_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2149041F1292_1_08",
+  "extracted_at": "2026-11-06T16:13:06.632Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19225,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠80mg「日新」",
+      "strength": "80mg",
+      "imprint_front": "NS 232",
+      "imprint_back": "80",
+      "imprint_note": "識別コードはNS 232。外形図には表面にNS/232、裏面に80の表示あり（外形図の表示）。片面割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りのフィルムコーティング錠 錠径： 8.6mm 錠厚： 4.0mm 重量：228.6mg 識別コード NS 232"
+    }
+  ]
+}

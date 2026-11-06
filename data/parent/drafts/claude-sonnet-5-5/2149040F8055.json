@@ -1,0 +1,46 @@
+{
+  "id": "2149040F8055",
+  "source_file": "480235_2149040F1301_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149040F1301_1_13",
+  "extracted_at": "2026-11-06T16:12:23.547Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33349,
+    "output": 1041
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カンデサルタン錠12mg「トーワ」",
+      "strength": "12mg",
+      "imprint_front": "カンデ12",
+      "imprint_back": "カンデ12 サルタン トーワ",
+      "imprint_note": "本体表示。表：カンデ12、裏：カンデ12／サルタン トーワ",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "販売名 カンデサルタン錠12mg「トーワ」 性状・剤形 うすいだいだい色の割線入り素錠 本体表示 表 カンデ12 裏 カンデ12 サルタン トーワ 直径(mm) 7.0 厚さ(mm) 2.6 質量(mg) 130"
+    },
+    {
+      "product_name": "カンデサルタンOD錠12mg「トーワ」",
+      "strength": "12mg",
+      "imprint_front": "カンデ12",
+      "imprint_back": "カンデサルタン OD 12 トーワ",
+      "imprint_note": "本体表示。表：カンデ12、裏：カンデサルタン／OD 12 トーワ",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第4版）",
+      "source_page": 2,
+      "source_quote": "販売名 カンデサルタンOD錠12mg「トーワ」 性状・剤形 白色の割線入りの口腔内崩壊錠 本体表示 表 カンデ12 裏 カンデサルタン OD 12 トーワ 直径(mm) 9.5 厚さ(mm) 4.5 質量(mg) 315"
+    }
+  ]
+}

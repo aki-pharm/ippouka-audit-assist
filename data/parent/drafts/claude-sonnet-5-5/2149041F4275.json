@@ -1,0 +1,30 @@
+{
+  "id": "2149041F4275",
+  "source_file": "480235_2149041F1276_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149041F1276_1_09",
+  "extracted_at": "2026-11-06T16:13:40.694Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23382,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠160mg「トーワ」",
+      "strength": "160mg",
+      "imprint_front": "TwV17",
+      "imprint_back": "160",
+      "imprint_note": "識別コード欄はTwV17。表裏の刻印の詳細は図のみで、裏の「160」は図から読み取った",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 16,
+      "size_short_mm": 7.3,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の長楕円形をした割線入りのフィルムコーティング錠 / 識別コード TwV17 / 直径(mm) 16.0／7.3 (長径／短径) / 厚さ(mm) 4.4"
+    }
+  ]
+}

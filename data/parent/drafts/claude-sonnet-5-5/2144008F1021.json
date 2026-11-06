@@ -1,0 +1,30 @@
+{
+  "id": "2144008F1021",
+  "source_file": "400315_2144008F1021_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2144008F1021_1_26",
+  "extracted_at": "2026-11-06T16:05:56.716Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21330,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タナトリル錠2.5",
+      "strength": "2.5mg",
+      "imprint_front": "TA 134",
+      "imprint_back": "2.5",
+      "imprint_note": "外形図の表示より。識別コードはTA134。本文の文章では刻印の位置（表裏）の記載なし。側面の表示は未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・素錠 外形 識別コード TA134 TA135 サイズ 直径（mm）5.5 厚さ（mm）2.3 重量（g）0.06"
+    }
+  ]
+}

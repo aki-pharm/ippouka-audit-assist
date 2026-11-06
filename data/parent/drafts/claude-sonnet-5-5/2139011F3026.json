@@ -1,0 +1,30 @@
+{
+  "id": "2139011F3026",
+  "source_file": "180078_2139011D1022_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_2139011D1022_1_13",
+  "extracted_at": "2026-11-06T16:04:36.807Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 47157,
+    "output": 561
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サムスカOD錠7.5mg",
+      "strength": "7.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文字情報には刻印・識別コードの記載がなく、外形図のみのため判読不能",
+      "color": "青色",
+      "shape": "other",
+      "size_long_mm": 7.7,
+      "size_short_mm": 4.4,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第6版）",
+      "source_page": 2,
+      "source_quote": "サムスカ OD錠 7.5mg 青色の割線入りの変形長方形の素錠 7.7（長径） 4.4（短径） 厚さ2.6 重さ約85"
+    }
+  ]
+}

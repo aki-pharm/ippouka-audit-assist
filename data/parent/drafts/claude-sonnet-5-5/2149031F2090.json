@@ -1,0 +1,30 @@
+{
+  "id": "2149031F2090",
+  "source_file": "300119_2149031F1086_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149031F1086_1_05",
+  "extracted_at": "2026-11-06T16:09:46.314Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18102,
+    "output": 313
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタキソロール塩酸塩錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW 553",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：SW 553。外形の図に表裏の刻印配置が示されているが、本文には裏面の刻印の記載なし。割線入りフィルムコーティング錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 性状 白色 直径（mm） 6.1 7.1 厚さ（mm） 3.2 3.3 重量（mg） 約97 約134 識別コード SW 552 SW 553"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2149026F5021",
+  "source_file": "671450_2149026F1026_4_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2149026F1026_4_05",
+  "extracted_at": "2026-11-06T16:09:06.752Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18975,
+    "output": 1316
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルデナリン錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "0.5",
+      "imprint_back": "VT C01",
+      "imprint_note": "識別コード欄の記載はVTC01。上面の「0.5」と下面の「VT C01」は外形図の表示から読み取った",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "カルデナリン錠 0.5mg VTC01 白色 素錠 直径 6.0mm 厚さ 2.7mm 重量 90mg"
+    },
+    {
+      "product_name": "カルデナリンOD錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "0.5",
+      "imprint_back": "VT C11",
+      "imprint_note": "識別コード欄の記載はVTC11。上面の「0.5」と下面の「VT C11」は外形図の表示から読み取った",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "カルデナリン OD 錠 0.5mg VTC11 淡黄色 素錠 直径 6.0mm 厚さ 2.8mm 重量 80mg"
+    }
+  ]
+}

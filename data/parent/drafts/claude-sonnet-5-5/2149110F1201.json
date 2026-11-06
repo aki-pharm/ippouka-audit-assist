@@ -1,0 +1,46 @@
+{
+  "id": "2149110F1201",
+  "source_file": "530213_2149110F1201_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149110F1201_1_15",
+  "extracted_at": "2026-11-06T16:20:16.091Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33638,
+    "output": 592
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルヒド配合錠LD「ケミファ」",
+      "strength": "ロサルタンカリウム50.00mg／ヒドロクロロチアジド12.50mg（1錠中）",
+      "imprint_front": "NC LH",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NC　LH。表裏の刻印の区別は図のみで本文では明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の円形のフィルムコーティング錠／直径 8.0mm／厚さ 3.7mm／重量 205.0mg／識別コード NC　LH"
+    },
+    {
+      "product_name": "ロサルヒド配合錠HD「ケミファ」",
+      "strength": "ロサルタンカリウム100.0mg／ヒドロクロロチアジド12.50mg（1錠中）",
+      "imprint_front": "NCL HD",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NCL　HD。表裏の刻印の区別は図のみで本文では明記なし",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 7.7,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の楕円形のフィルムコーティング錠／長径 13.6mm 短径 7.7mm／厚さ 4.9mm／重量 415.0mg／識別コード NCL　HD"
+    }
+  ]
+}

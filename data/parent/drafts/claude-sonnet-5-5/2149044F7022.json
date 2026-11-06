@@ -1,0 +1,30 @@
+{
+  "id": "2149044F7022",
+  "source_file": "430574_2149044F5020_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_2149044F5020_1_08",
+  "extracted_at": "2026-11-06T16:15:54.330Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23070,
+    "output": 812
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメテックOD錠40mg",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に識別表示らしきものがあるが、本文の文字情報としては記載がなく判読不能",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "オルメテックOD錠40mg 素錠（口腔内崩壊錠）（割線入） 白色～微黄白色 直径9.6mm 厚さ約4.7mm 重さ約320mg"
+    }
+  ]
+}

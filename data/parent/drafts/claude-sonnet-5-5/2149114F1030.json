@@ -1,0 +1,30 @@
+{
+  "id": "2149114F1030",
+  "source_file": "430773_2149114F1030_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149114F1030_1_09",
+  "extracted_at": "2026-11-06T16:23:46.573Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25689,
+    "output": 306
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムバロ配合錠「DSEP」（バルサルタン80mg/アムロジピン5mg）",
+      "strength": "1錠中 バルサルタン80mg、アムロジピンとして5mg（アムロジピンベシル酸塩6.93mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に表裏の印字らしきものがあるが、本文テキストでは判読できないため未確認",
+      "color": "帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アムバロ配合錠「DSEP」 フィルムコーティング錠 帯黄白色 8.6 3.9 208"
+    }
+  ]
+}

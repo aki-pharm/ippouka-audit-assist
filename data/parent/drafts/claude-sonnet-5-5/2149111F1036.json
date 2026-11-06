@@ -1,0 +1,46 @@
+{
+  "id": "2149111F1036",
+  "source_file": "470007_2149111F1036_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2149111F1036_1_11",
+  "extracted_at": "2026-11-06T16:21:52.872Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30075,
+    "output": 1431
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カデチア配合錠LD「あすか」",
+      "strength": "1錠中：日局カンデサルタン シレキセチル4mg、日局ヒドロクロロチアジド6.25mg",
+      "imprint_front": "AK302",
+      "imprint_back": "4 C",
+      "imprint_note": "識別コードはAK302（文面記載）。裏面の「4 C」は製剤の性状欄の図から読み取ったもの。",
+      "color": "ごくうすい黄色",
+      "shape": null,
+      "size_long_mm": 8.6,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ごくうすい黄色の素錠　長径（mm）8.6　短径（mm）5.1　厚さ（mm）約3.0　重量（mg）130　識別コード AK302"
+    },
+    {
+      "product_name": "カデチア配合錠HD「あすか」",
+      "strength": "1錠中：日局カンデサルタン シレキセチル8mg、日局ヒドロクロロチアジド6.25mg",
+      "imprint_front": "AK312",
+      "imprint_back": "8 C",
+      "imprint_note": "識別コードはAK312（文面記載）。裏面の「8 C」は製剤の性状欄の図から読み取ったもの。",
+      "color": "ごくうすい紅色",
+      "shape": null,
+      "size_long_mm": 8.6,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ごくうすい紅色の素錠　長径（mm）8.6　短径（mm）5.1　厚さ（mm）約3.0　重量（mg）130　識別コード AK312"
+    }
+  ]
+}

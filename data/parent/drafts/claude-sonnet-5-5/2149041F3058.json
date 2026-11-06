@@ -1,0 +1,30 @@
+{
+  "id": "2149041F3058",
+  "source_file": "430773_2149041F1055_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149041F1055_1_09",
+  "extracted_at": "2026-11-06T16:12:32.162Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25110,
+    "output": 568
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠80mg「DSEP」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文字情報には刻印・識別コードの記載がなく、図のみで示されているため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "バルサルタン錠80mg「DSEP」 フィルムコーティング錠（割線入） 白色 8.6（直径） 3.7 190"
+    }
+  ]
+}

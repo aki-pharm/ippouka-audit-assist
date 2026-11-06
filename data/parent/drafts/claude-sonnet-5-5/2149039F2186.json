@@ -1,0 +1,30 @@
+{
+  "id": "2149039F2186",
+  "source_file": "580591_2149039F1180_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149039F1180_1_18",
+  "extracted_at": "2026-11-06T16:11:15.096Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24727,
+    "output": 733
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "JG E48",
+      "imprint_back": "50",
+      "imprint_note": "識別コード：JG E48。裏面の「50」は添付文書の外形図による。片面割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りフィルムコーティング錠 表面 裏面 側面 JG E48 直径 7.6mm 厚さ 3.5mm 重量 156mg"
+    }
+  ]
+}

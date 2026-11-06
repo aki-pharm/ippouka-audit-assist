@@ -1,0 +1,30 @@
+{
+  "id": "2149044F4104",
+  "source_file": "530213_2149044F1091_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149044F1091_2_06",
+  "extracted_at": "2026-11-06T16:15:33.621Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24443,
+    "output": 860
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン錠40mg「ケミファ」",
+      "strength": "40mg",
+      "imprint_front": "オルメサルタン 40 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の別なく1つのみ記載されており、表裏の割り当ては本文からは確認できない。外形の図は表・裏とも印字ありだが文字は読み取れず。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りの素錠 ／ 直径 9.6mm ／ 厚さ 3.6mm ／ 重量 320.0mg ／ 識別コード オルメサルタン 40 ケミファ"
+    }
+  ]
+}

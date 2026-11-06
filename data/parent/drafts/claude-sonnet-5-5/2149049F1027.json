@@ -1,0 +1,46 @@
+{
+  "id": "2149049F1027",
+  "source_file": "430574_2149049F1027_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_2149049F1027_1_09",
+  "extracted_at": "2026-11-06T16:19:36.024Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25247,
+    "output": 978
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミネブロ錠1.25mg",
+      "strength": "1.25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年12月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ミネブロ錠1.25mg 素錠 微黄白色 直径6.6mm 厚さ約3.2mm 重さ約100mg"
+    },
+    {
+      "product_name": "ミネブロOD錠1.25mg",
+      "strength": "1.25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2024年12月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ミネブロOD錠1.25mg 素錠（口腔内崩壊錠） 微黄白色 直径6.5mm 厚さ約3.1mm 重さ約87mg"
+    }
+  ]
+}

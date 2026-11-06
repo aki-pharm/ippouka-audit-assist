@@ -1,0 +1,30 @@
+{
+  "id": "2149039F2267",
+  "source_file": "530213_2149039F1260_2_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149039F1260_2_13",
+  "extracted_at": "2026-11-06T16:11:30.120Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25247,
+    "output": 791
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠50mg「ケミファ」",
+      "strength": "50mg",
+      "imprint_front": "NC L50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは NC L50。裏面の刻印について本文に記載なし（外形図には割線のみ図示）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状：割線を有する白色のフィルムコーティング錠／直径 7.6mm／厚さ 3.2mm／重量 155.4mg／識別コード NC L50"
+    }
+  ]
+}

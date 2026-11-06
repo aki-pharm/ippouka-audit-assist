@@ -1,0 +1,30 @@
+{
+  "id": "2149029F2131",
+  "source_file": "581120_2149029F1135_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149029F1135_1_03",
+  "extracted_at": "2026-11-06T16:09:32.558Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17872,
+    "output": 1004
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セリプロロール塩酸塩錠200mg「NIG」",
+      "strength": "200mg",
+      "imprint_front": "CL 200",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤表面の「CL 200」は外形図から読み取った。本文の識別コード欄は PTP の表示で「t CL」、図では「200mg t CL」。裏面の刻印は文章では確認できない。",
+      "color": "類白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 類白色のフィルムコーティング錠 ／ 直径 9.6mm ／ 厚さ 5.2mm ／ 質量 345mg ／ 識別コード（PTP） t CL"
+    }
+  ]
+}

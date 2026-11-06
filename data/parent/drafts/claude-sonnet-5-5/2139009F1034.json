@@ -1,0 +1,30 @@
+{
+  "id": "2139009F1034",
+  "source_file": "270139_2139009F1034_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270139_2139009F1034_1_06",
+  "extracted_at": "2026-11-06T16:04:21.621Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17528,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラセミド錠4mg「KO」",
+      "strength": "4mg",
+      "imprint_front": "KO72",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード KO72。表裏の別は文章中に記載なし（外形の図には「トラセミド」「4」の表示あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 白色／剤形 素錠（割線入り）／直径（㎜） 6／厚さ（㎜） 約 2.6／質量（㎎） 80／識別コード KO72"
+    }
+  ]
+}

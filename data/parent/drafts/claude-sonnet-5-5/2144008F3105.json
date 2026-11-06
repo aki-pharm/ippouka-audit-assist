@@ -1,0 +1,30 @@
+{
+  "id": "2144008F3105",
+  "source_file": "480209_2144008F3105_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2144008F3105_1_12",
+  "extracted_at": "2026-11-06T16:06:04.329Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21507,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダプリル塩酸塩錠10mg「PH」",
+      "strength": "10mg",
+      "imprint_front": "PH173",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPH173と記載（表裏の別は本文に記載なし）。外形図に表面・裏面・側面の印字あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色 直径(mm) 6.5 厚さ(mm) 2.6 質量(mg) 90 識別コード PH173"
+    }
+  ]
+}

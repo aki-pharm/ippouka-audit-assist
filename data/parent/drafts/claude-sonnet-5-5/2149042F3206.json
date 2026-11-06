@@ -1,0 +1,30 @@
+{
+  "id": "2149042F3206",
+  "source_file": "480235_2149042F1203_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149042F1203_1_06",
+  "extracted_at": "2026-11-06T16:14:50.907Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22937,
+    "output": 677
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠80mg「トーワ」",
+      "strength": "80mg",
+      "imprint_front": "テルミ 80",
+      "imprint_back": "テルミ 80 サルタン トーワ",
+      "imprint_note": "本体表示：表「テルミ 80」、裏「テルミ 80 サルタン トーワ」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠　本体表示 表 テルミ 80 裏 テルミ 80 サルタン トーワ　直径(mm) 10.1　厚さ(mm) 4.4"
+    }
+  ]
+}

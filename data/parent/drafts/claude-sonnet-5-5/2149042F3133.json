@@ -1,0 +1,30 @@
+{
+  "id": "2149042F3133",
+  "source_file": "530213_2149042F1130_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149042F1130_1_04",
+  "extracted_at": "2026-11-06T16:14:47.937Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20968,
+    "output": 609
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠80mg「ケミファ」",
+      "strength": "80mg",
+      "imprint_front": "テルミサルタン ケミファ 80",
+      "imprint_back": "テルミサルタン ケミファ 80",
+      "imprint_note": "識別コード：テルミサルタン 80 ケミファ。割線あり（40mg・80mg共通の記載）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠　直径 10.1mm　厚さ 4.4mm　識別コード テルミサルタン 80 ケミファ"
+    }
+  ]
+}

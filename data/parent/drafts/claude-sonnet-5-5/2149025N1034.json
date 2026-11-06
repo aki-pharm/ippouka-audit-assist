@@ -1,0 +1,30 @@
+{
+  "id": "2149025N1034",
+  "source_file": "180078_2149025N1034_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_2149025N1034_1_11",
+  "extracted_at": "2026-11-06T16:08:23.079Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16893,
+    "output": 744
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミケランLAカプセル15mg",
+      "strength": "15mg",
+      "imprint_front": "OG16",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル（4号）。識別コードはOG16（キャップ・ボディの別は文章に記載なし）。色はキャップ橙色（不透明）、ボディ白色（不透明）。内容物は白色、無臭の徐放性球状顆粒、重さ約164mg。",
+      "color": "キャップ：橙色（不透明）、ボディ：白色（不透明）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "キャップ 橙色（不透明）／ボディ 白色（不透明）／剤形 硬カプセル（4号）／内容物 白色、無臭の徐放性球状顆粒／重さ 約164mg／識別コード OG16"
+    }
+  ]
+}

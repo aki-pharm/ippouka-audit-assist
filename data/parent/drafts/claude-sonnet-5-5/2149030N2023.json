@@ -1,0 +1,30 @@
+{
+  "id": "2149030N2023",
+  "source_file": "171911_2149030N1027_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_2149030N1027_2_04",
+  "extracted_at": "2026-11-06T16:09:35.566Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13475,
+    "output": 304
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヒポカ10mgカプセル",
+      "strength": "10mg",
+      "imprint_front": "LT019",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄にLT019と記載。表裏のどちらに刻印されているかは本文に記載なし（外形図に印字あり）。カプセル剤で、錠剤の割線はなし。",
+      "color": "白色の帯状シールが施された帯褐黄色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ヒポカ10mgカプセル 徐放カプセル 白色の帯状シールが施された帯褐黄色不透明 号数 4号 質量 0.18g 識別コード LT019"
+    }
+  ]
+}

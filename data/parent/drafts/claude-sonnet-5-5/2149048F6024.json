@@ -1,0 +1,30 @@
+{
+  "id": "2149048F6024",
+  "source_file": "430773_2149048F4021_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149048F4021_1_04",
+  "extracted_at": "2026-11-06T16:19:18.347Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30824,
+    "output": 1006
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタンOD錠40mg「DSEP」",
+      "strength": "40mg",
+      "imprint_front": "アジル40",
+      "imprint_back": "アジルOD 40 DSEP",
+      "imprint_note": "識別コードは「アジル40」「アジルOD 40 DSEP」の2種が記載されているが、表裏のどちらかの明記はなし。添付文書に「（割線入）」の記載あり（20mgと共通の欄）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "アジルサルタンOD錠40mg「DSEP」 フィルムコーティング錠（口腔内崩壊錠）（割線入） 黄色 アジル40 アジルOD 40 DSEP 直径8.1mm 厚さ3.6mm 質量184mg"
+    }
+  ]
+}

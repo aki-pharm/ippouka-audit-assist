@@ -1,0 +1,30 @@
+{
+  "id": "2149048F3050",
+  "source_file": "270428_2149048F1057_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2149048F1057_1_04",
+  "extracted_at": "2026-11-06T16:18:20.302Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23091,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタン錠10mg「サンド」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状の文章には刻印・識別コードの記載なし（外形の図には印字があるが、文字は添付文書から読み取れない）",
+      "color": "微黄赤色",
+      "shape": "oval",
+      "size_long_mm": 7.3,
+      "size_short_mm": 4.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "本品は微黄赤色の楕円形のフィルムコーティング錠である／長径：7.3、短径：4.2 厚さ：約3.2"
+    }
+  ]
+}

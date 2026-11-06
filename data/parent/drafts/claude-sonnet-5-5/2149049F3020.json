@@ -1,0 +1,46 @@
+{
+  "id": "2149049F3020",
+  "source_file": "430574_2149049F1027_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_2149049F1027_1_09",
+  "extracted_at": "2026-11-06T16:19:34.737Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25245,
+    "output": 898
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミネブロ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしきものがあるが、本文に刻印の記載なし",
+      "color": "微赤白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ミネブロ錠5mg 素錠（割線入） 微赤白色 直径8.1mm 厚さ約4.1mm 重さ約200mg"
+    },
+    {
+      "product_name": "ミネブロOD錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしきものがあるが、本文に刻印の記載なし",
+      "color": "微赤白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ミネブロOD錠5mg 素錠（口腔内崩壊錠）（割線入） 微赤白色 直径8.0mm 厚さ約4.0mm 重さ約174mg"
+    }
+  ]
+}

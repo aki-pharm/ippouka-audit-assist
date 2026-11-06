@@ -1,0 +1,30 @@
+{
+  "id": "2149041F8025",
+  "source_file": "300242_2149041F5026_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_2149041F5026_1_13",
+  "extracted_at": "2026-11-06T16:14:14.289Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24099,
+    "output": 862
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ディオバンOD錠160mg",
+      "strength": "160mg",
+      "imprint_front": "NV 144",
+      "imprint_back": "未確認",
+      "imprint_note": "割線入り",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 15,
+      "size_short_mm": 8,
+      "thickness_mm": 6.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の楕円形をした割線入りの素錠／識別コード NV 144／大きさ（約）長径：15.0mm 短径：8.0mm 厚さ：6.1mm 質量：0.58g"
+    }
+  ]
+}

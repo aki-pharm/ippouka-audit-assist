@@ -1,0 +1,30 @@
+{
+  "id": "2149035F2021",
+  "source_file": "670227_2149035F1025_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_2149035F1025_2_12",
+  "extracted_at": "2026-11-06T16:10:31.573Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17143,
+    "output": 809
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スプレンジール錠5mg",
+      "strength": "5mg",
+      "imprint_front": "AZ126",
+      "imprint_back": "5",
+      "imprint_note": "表面は識別コードAZ126。裏面の「5」は外形図（裏面）の表示で、文章での記載はなし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 黄色のフィルムコーティング錠／大きさ（直径） 約6.1mm／大きさ（厚さ） 約3.0mm／質量 約0.09g／識別コード AZ126"
+    }
+  ]
+}

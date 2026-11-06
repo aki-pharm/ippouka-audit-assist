@@ -1,0 +1,30 @@
+{
+  "id": "2149045F3030",
+  "source_file": "480209_2149045F1037_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149045F1037_1_06",
+  "extracted_at": "2026-11-06T16:16:15.731Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37280,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エプレレノン錠100mg「杏林」",
+      "strength": "100mg",
+      "imprint_front": "エプレレ 100 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「エプレレ 100 杏林」と記載。外形図には表裏の両面が描かれているが、裏面の刻印について本文の記載はない。",
+      "color": "赤色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 赤色 本体表示 エプレレ 100 杏林 直径(mm) 9.6 厚さ(mm) 4.7 質量(mg) 350"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2149110F1040",
+  "source_file": "181615_2149110F1040_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_2149110F1040_2_05",
+  "extracted_at": "2026-11-06T16:19:53.389Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32151,
+    "output": 502
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレミネント配合錠LD",
+      "strength": "50mg/12.5mg",
+      "imprint_front": "MSD 717",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：MSD717。表面に印字（外形図より）。裏面の刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.9,
+      "size_short_mm": 8.9,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 円形・フィルムコーティング錠・白色 / 直径：8.9mm / 厚さ：4.1mm / 識別コード MSD717"
+    },
+    {
+      "product_name": "プレミネント配合錠HD",
+      "strength": "100mg/12.5mg",
+      "imprint_front": "745",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：745。表面に印字（外形図より）。裏面の刻印の記載なし。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.5,
+      "size_short_mm": 7.7,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 楕円形・フィルムコーティング錠・白色 / 長径：13.5mm 短径：7.7mm / 厚さ：4.8mm / 識別コード 745"
+    }
+  ]
+}

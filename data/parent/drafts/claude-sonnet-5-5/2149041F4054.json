@@ -1,0 +1,30 @@
+{
+  "id": "2149041F4054",
+  "source_file": "430773_2149041F1055_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149041F1055_1_09",
+  "extracted_at": "2026-11-06T16:13:21.444Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25110,
+    "output": 691
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠160mg「DSEP」",
+      "strength": "160mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文字情報には刻印・識別コードの記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 14.6,
+      "size_short_mm": 5.8,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "バルサルタン錠160mg「DSEP」 フィルムコーティング錠（割線入） 白色 14.6（長径）5.8（短径） 5.7 375"
+    }
+  ]
+}

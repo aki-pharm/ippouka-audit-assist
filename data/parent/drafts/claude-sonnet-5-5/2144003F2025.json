@@ -1,0 +1,30 @@
+{
+  "id": "2144003F2025",
+  "source_file": "400093_2144003F2025_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_2144003F2025_1_08",
+  "extracted_at": "2026-11-06T16:05:34.116Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19566,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セタプリル錠25mg",
+      "strength": "25mg",
+      "imprint_front": "P322",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはP322。外形図には「25」の表示と割線の図あり。裏面の刻印は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂(第5版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面割線入り素錠 / 大きさ 直径(mm) 約7 厚さ(mm) 約2.1 重さ(mg) 約100 / 識別コード P322"
+    }
+  ]
+}

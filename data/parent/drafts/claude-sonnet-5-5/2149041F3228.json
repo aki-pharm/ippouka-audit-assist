@@ -1,0 +1,30 @@
+{
+  "id": "2149041F3228",
+  "source_file": "300119_2149041F1225_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149041F1225_1_05",
+  "extracted_at": "2026-11-06T16:12:57.159Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24152,
+    "output": 904
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠80mg「サワイ」",
+      "strength": "80mg",
+      "imprint_front": "バルサルタン 80 SW",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示は「バルサルタン 80 SW」と記載。表裏の区別は本文に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠／性状 白色／直径（mm） 8.6／厚さ（mm） 3.9／重量（mg） 約208／識別表示 バルサルタン 80 SW"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149039F1074",
+  "source_file": "180095_2149039F1074_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2149039F1074_3_02",
+  "extracted_at": "2026-11-06T16:10:50.577Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23611,
+    "output": 321
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンK錠25mg「オーハラ」",
+      "strength": "25mg",
+      "imprint_front": "ロサルタン 25 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として「ロサルタン 25 オーハラ」と記載。表裏のどちらに刻印されているかは文面からは確認できない（外形図は画像のため判読不可）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色 割線入りの円形のフィルムコーティング錠 ／ 大きさ 直径：5.6mm 厚さ：2.9mm ／ 質量 73mg ／ 識別表示 ロサルタン 25 オーハラ"
+    }
+  ]
+}

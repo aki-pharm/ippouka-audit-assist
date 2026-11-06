@@ -1,0 +1,30 @@
+{
+  "id": "2149042F2021",
+  "source_file": "650168_2149042F1025_1_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_2149042F1025_1_27",
+  "extracted_at": "2026-11-06T16:14:18.577Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23865,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミカルディス錠40mg",
+      "strength": "40mg",
+      "imprint_front": "51H",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「51H」。外形図に社名マークらしき図柄が見えるが、本文には記載なし。表裏の別は本文に記載がないため裏は未確認。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色～微黄色の割線入り錠剤／直径 約8mm／厚さ 約2.8mm／重さ 約0.170g／識別コード 51H"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2149113F2082",
+  "source_file": "581120_2149113F1086_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149113F1086_1_07",
+  "extracted_at": "2026-11-06T16:23:40.672Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33466,
+    "output": 1362
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルチア配合錠AP「NIG」",
+      "strength": "テルミサルタン40mg/ヒドロクロロチアジド12.5mg",
+      "imprint_front": "TV TH1",
+      "imprint_back": "AP",
+      "imprint_note": "識別コードは「識別コード（PTP）」欄の記載（TV TH1）。外形図の錠剤には表面TV TH1、裏面APの表示あり。割線の記載なし。",
+      "color": "黄橙色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄橙色の素錠 / 直径 8.5mm / 厚さ 3.5mm / 質量 243.5mg / 識別コード（PTP） TV TH1"
+    },
+    {
+      "product_name": "テルチア配合錠BP「NIG」",
+      "strength": "テルミサルタン80mg/ヒドロクロロチアジド12.5mg",
+      "imprint_front": "TV TH2",
+      "imprint_back": "BP",
+      "imprint_note": "識別コードは「識別コード（PTP）」欄の記載（TV TH2）。外形図の錠剤には表面TV TH2、裏面BPの表示あり。割線の記載なし。",
+      "color": "黄橙色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄橙色の素錠 / 直径 11.0mm / 厚さ 4.3mm / 質量 487mg / 識別コード（PTP） TV TH2"
+    }
+  ]
+}

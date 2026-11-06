@@ -1,0 +1,30 @@
+{
+  "id": "2149045F1029",
+  "source_file": "671450_2149045F1029_4_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2149045F1029_4_10",
+  "extracted_at": "2026-11-06T16:16:07.782Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31592,
+    "output": 850
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セララ錠25mg",
+      "strength": "25mg",
+      "imprint_front": "NSR25",
+      "imprint_back": "VLE",
+      "imprint_note": "識別コードは「VLE NSR25」と記載。表（上面）と裏（下面）の割り当ては外形図の表示に基づく。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第11版）",
+      "source_page": 1,
+      "source_quote": "セララ錠25mg　VLE NSR25　黄色 フィルムコート錠　直径5.6mm　厚さ3.3mm　重量89mg"
+    }
+  ]
+}

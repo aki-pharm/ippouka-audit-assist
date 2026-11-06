@@ -1,0 +1,30 @@
+{
+  "id": "2149043F2026",
+  "source_file": "430574_2149043F1020_2_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_2149043F1020_2_18",
+  "extracted_at": "2026-11-06T16:15:10.307Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22094,
+    "output": 883
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルブロック錠16mg",
+      "strength": "16mg",
+      "imprint_front": "SANKYO 242",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「SANKYO 242」。外形図には「16」の表示も見えるが、文章での記載はないため裏面は未確認とした。",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "カルブロック錠16mg 素錠（割線入） 淡黄白色 SANKYO 242 直径9.2mm 厚さ約3.3mm 重さ約260mg"
+    }
+  ]
+}

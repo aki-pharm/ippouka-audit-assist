@@ -1,0 +1,30 @@
+{
+  "id": "2149002F1128",
+  "source_file": "672212_2149002F1128_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2149002F1128_3_03",
+  "extracted_at": "2026-11-06T16:06:55.000Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14225,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミニプレス錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "PT432",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPT432。表裏の別は文章中に明記されておらず（外形図の上面・下面・側面の刻印図のみ）、裏の刻印は確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2022年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ミニプレス錠0.5mg PT432 白色 割線入り 直径 素錠 6.4mm 厚さ 2.4mm"
+    }
+  ]
+}

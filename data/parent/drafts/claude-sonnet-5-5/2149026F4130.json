@@ -1,0 +1,30 @@
+{
+  "id": "2149026F4130",
+  "source_file": "830001_2149026F1131_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2149026F1131_1_07",
+  "extracted_at": "2026-11-06T16:08:48.347Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18243,
+    "output": 821
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドキサゾシン錠4mg「YD」",
+      "strength": "4mg",
+      "imprint_front": "YD 614",
+      "imprint_back": "4",
+      "imprint_note": "刻印は本文ではなく外形図から読み取った。外形図には「YD 614」の面と「4」の面が示されている。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入り素錠 / 直径 約8.1mm / 厚さ 約3.1mm / 重量 200mg"
+    }
+  ]
+}

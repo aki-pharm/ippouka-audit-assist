@@ -1,0 +1,30 @@
+{
+  "id": "2149032F2192",
+  "source_file": "730869_2149032F1196_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2149032F1196_1_06",
+  "extracted_at": "2026-11-06T16:10:11.705Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34878,
+    "output": 720
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルベジロール錠20mg「VTRS」",
+      "strength": "20mg",
+      "imprint_front": "20 CA",
+      "imprint_back": "VLE",
+      "imprint_note": "識別コード「20 CA VLE」。上面に20 CA、下面にVLE。割線入り。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "カルベジロール錠20mg「VTRS」 20 CA VLE 白色～微黄白色 割線入り フィルムコーティング錠 直径 8.7mm 厚さ 3.3mm 重量 182mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149040F3215",
+  "source_file": "530213_2149040F1212_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149040F1212_2_09",
+  "extracted_at": "2026-11-06T16:12:03.998Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29350,
+    "output": 786
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カンデサルタン錠8mg「ケミファ」",
+      "strength": "8mg",
+      "imprint_front": "カンデサルタン 8 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の区別なく1つ記載されている（外形図には表・裏の図あり）。割線入り。",
+      "color": "ごくうすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 ごくうすいだいだい色の割線入りの素錠 / 直径 7.1mm / 厚さ 2.6mm / 重量 130mg / 識別コード カンデサルタン 8 ケミファ"
+    }
+  ]
+}

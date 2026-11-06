@@ -1,0 +1,30 @@
+{
+  "id": "2149042F3060",
+  "source_file": "580591_2149042F1068_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149042F1068_1_05",
+  "extracted_at": "2026-11-06T16:14:48.845Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23662,
+    "output": 1246
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠80mg「JG」",
+      "strength": "80mg",
+      "imprint_front": "テルミサルタン 80 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「テルミサルタン 80 JG」の1件のみ記載されており、表裏のどちらの面かは文面からは未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "テルミサルタン錠80mg「JG」 白色のフィルムコーティング錠 直径 10.0mm 厚さ 5.0mm 重量 345mg 本体表示 テルミサルタン 80 JG"
+    }
+  ]
+}

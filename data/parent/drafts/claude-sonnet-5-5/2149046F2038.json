@@ -1,0 +1,30 @@
+{
+  "id": "2149046F2038",
+  "source_file": "343018_2149046F1031_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_2149046F1031_2_08",
+  "extracted_at": "2026-11-06T16:16:36.655Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20672,
+    "output": 860
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベタン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "133 100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「133 100」（社名マーク付き）。外形図に両面の印字が描かれているが、表・裏ごとの内訳は本文に明記されていないため裏面は未確認",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11,
+      "size_short_mm": 5.7,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のだ円形の割線入りフィルムコーティング錠である。（長径 約11.0mm、短径 約5.7mm、厚さ 約3.8mm、識別コード 133 100）"
+    }
+  ]
+}

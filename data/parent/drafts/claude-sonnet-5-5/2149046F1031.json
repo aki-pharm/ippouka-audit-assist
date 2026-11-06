@@ -1,0 +1,30 @@
+{
+  "id": "2149046F1031",
+  "source_file": "343018_2149046F1031_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_2149046F1031_2_08",
+  "extracted_at": "2026-11-06T16:16:26.658Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20672,
+    "output": 846
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベタン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "132 50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に社名マークと「132 50」の記載あり。表裏それぞれの刻印は図のみで文字では確認できないため、表裏の別は未確認",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.5,
+      "size_short_mm": 4.4,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のだ円形の割線入りフィルムコーティング錠である。（長径 約8.5mm 短径 約4.4mm 厚さ 約3.1mm）"
+    }
+  ]
+}

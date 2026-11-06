@@ -1,0 +1,30 @@
+{
+  "id": "2149041F3260",
+  "source_file": "460028_2149041F1268_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2149041F1268_1_08",
+  "extracted_at": "2026-11-06T16:12:57.500Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24346,
+    "output": 621
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠80mg「ツルハラ」",
+      "strength": "80mg",
+      "imprint_front": "TSU 556",
+      "imprint_back": "80",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠／色調 白色／大きさ 直径 約8.6mm、厚さ 約4.2mm／識別コード 表面TSU 556、裏面80"
+    }
+  ]
+}

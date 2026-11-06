@@ -1,0 +1,30 @@
+{
+  "id": "2149048F2088",
+  "source_file": "530100_2149048F1081_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149048F1081_1_04",
+  "extracted_at": "2026-11-06T16:18:10.680Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30268,
+    "output": 234
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタン錠40mg「ニプロ」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "テキスト上に刻印・識別コードの記載なし（外形の図のみ）",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 9.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の楕円形の割線入りフィルムコーティング錠 （長径）9.1 （短径）5.1 3.3 125"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149001F1034",
+  "source_file": "785117_2149001F1034_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/785117_2149001F1034_2_02",
+  "extracted_at": "2026-11-06T16:06:49.124Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10181,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カタプレス錠75μg",
+      "strength": "75μg（クロニジン塩酸塩0.075mg）",
+      "imprint_front": "1C",
+      "imprint_back": "1C",
+      "imprint_note": "外形図には社名マークと識別コード「1C」の表示あり。割線の両側に1C（外形図の表記）。表の識別コード欄は「1C」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形：白色の素錠（割線）　直径 6.0mm　厚さ 2.3mm　重さ 0.095g　識別コード 1C"
+    }
+  ]
+}

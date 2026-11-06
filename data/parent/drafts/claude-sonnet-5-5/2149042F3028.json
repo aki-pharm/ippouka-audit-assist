@@ -1,0 +1,30 @@
+{
+  "id": "2149042F3028",
+  "source_file": "650168_2149042F1025_1_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_2149042F1025_1_27",
+  "extracted_at": "2026-11-06T16:14:34.759Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23865,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミカルディス錠80mg",
+      "strength": "80mg",
+      "imprint_front": "52H",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「52H」（添付文書の識別コード欄の記載は「50H」「51H」「52H」。外形図には社名マークの図柄あり）。表裏の別は文章では明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の割線入りフィルムコート錠 / 直径 約10mm / 厚さ 約4.4mm / 重さ 約0.345g / 識別コード 52H"
+    }
+  ]
+}

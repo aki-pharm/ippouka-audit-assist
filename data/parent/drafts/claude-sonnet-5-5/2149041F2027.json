@@ -1,0 +1,30 @@
+{
+  "id": "2149041F2027",
+  "source_file": "300242_2149041F1020_2_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_2149041F1020_2_25",
+  "extracted_at": "2026-11-06T16:12:23.035Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21963,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ディオバン錠40mg",
+      "strength": "40mg",
+      "imprint_front": "NV",
+      "imprint_back": "133",
+      "imprint_note": "識別コード：NV 133。外形図では表面に「NV」、裏面に「133」の表示（割線入り）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りのフィルムコーティング錠 / 識別コード NV 133 / 大きさ（約）直径：7.1mm 厚さ：2.8mm 質量：0.10g"
+    }
+  ]
+}

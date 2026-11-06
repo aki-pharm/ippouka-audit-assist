@@ -1,0 +1,30 @@
+{
+  "id": "2149048F5044",
+  "source_file": "530213_2149048F4048_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149048F4048_2_03",
+  "extracted_at": "2026-11-06T16:19:00.469Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29502,
+    "output": 330
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタンOD錠20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "アジルサルタン 20/OD20 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「アジルサルタン 20/OD20 ケミファ」と記載。表裏のどちらに印字されているかは本文中に明記なし（外形図は画像）。",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第5版、用法及び用量変更）",
+      "source_page": 1,
+      "source_quote": "微赤色の割線入りのフィルムコーティング錠 / 直径 7.1mm / 厚さ 3.5mm / 重量 143mg / 識別コード アジルサルタン 20/OD20 ケミファ"
+    }
+  ]
+}

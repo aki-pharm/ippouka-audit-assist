@@ -1,0 +1,30 @@
+{
+  "id": "2149046F2046",
+  "source_file": "370242_2149046F1040_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370242_2149046F1040_1_10",
+  "extracted_at": "2026-11-06T16:16:42.285Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18675,
+    "output": 809
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠100mg「DSPB」",
+      "strength": "100mg",
+      "imprint_front": "DS552",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして記載。表裏のどちらに記載されているかは文書中に明記なし",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11.1,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のだ円形の割線入りフィルムコーティング錠　長径(mm) 約11.1　短径(mm) 約5.8　厚さ(mm) 約3.9　重さ(mg) 約204　識別コード DS552"
+    }
+  ]
+}

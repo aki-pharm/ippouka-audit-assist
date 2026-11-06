@@ -1,0 +1,30 @@
+{
+  "id": "2149012F2020",
+  "source_file": "230099_2149012F1059_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230099_2149012F1059_1_15",
+  "extracted_at": "2026-11-06T16:07:22.814Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14338,
+    "output": 241
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナトリックス錠2",
+      "strength": "2mg",
+      "imprint_front": "KYO252",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはKYO252。外形図に表面のみ識別コードが示されている。裏面の刻印は記載なし。",
+      "color": "淡桃色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡桃色の糖衣錠／大きさ 直径（mm） 約6.6／識別コード KYO252"
+    }
+  ]
+}

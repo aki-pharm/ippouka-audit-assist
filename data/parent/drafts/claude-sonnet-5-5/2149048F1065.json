@@ -1,0 +1,30 @@
+{
+  "id": "2149048F1065",
+  "source_file": "400813_2149048F1065_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2149048F1065_1_03",
+  "extracted_at": "2026-11-06T16:17:44.486Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22232,
+    "output": 718
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタン錠20mg「武田テバ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印・識別コードの記載がなく、図のみのため未確認",
+      "color": "微赤色",
+      "shape": null,
+      "size_long_mm": 9.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "微赤色の両面割線入りのフィルムコーティング錠　長径（mm）9.1　短径（mm）5.1　厚さ（mm）約3.3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149032F4020",
+  "source_file": "430574_2149032F1021_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_2149032F1021_2_15",
+  "extracted_at": "2026-11-06T16:10:14.196Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33372,
+    "output": 269
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アーチスト錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "317",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード317（表の外形図にも表示）。裏面の刻印は添付文書の文字情報には記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アーチスト錠2.5mg フィルムコーティング錠（楕円形・割線入） 白色～微黄白色 317 10.1（長径）5.1（短径） 約3.1 約135"
+    }
+  ]
+}

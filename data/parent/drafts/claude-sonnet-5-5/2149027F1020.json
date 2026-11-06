@@ -1,0 +1,30 @@
+{
+  "id": "2149027F1020",
+  "source_file": "400061_2149027F1020_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_2149027F1020_2_05",
+  "extracted_at": "2026-11-06T16:09:13.107Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13133,
+    "output": 239
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルスロット錠5",
+      "strength": "5mg",
+      "imprint_front": "230",
+      "imprint_back": "5",
+      "imprint_note": "識別コードは230。図では表面に社名マークと230、裏面に5の表示あり（社名マークを含む）",
+      "color": "黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "黄白色の割線入りの素錠／直径（mm）7.1／厚さ（mm）2.8／重量（mg）140／識別コード 230"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2135001F1136",
+  "source_file": "530169_2135001F1136_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2135001F1136_1_07",
+  "extracted_at": "2026-11-06T16:04:10.588Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14359,
+    "output": 847
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メフルシド錠25mg「日医工」",
+      "strength": "25mg",
+      "imprint_front": "154",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード・包装コードとも154。表面に社名マークと154の表示（図）。裏面の刻印の記載は文章では確認できず。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.55,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 直径（mm） 7.0 厚さ（mm） 2.55 質量（mg） 130 本体コード 154 包装コード 154"
+    }
+  ]
+}

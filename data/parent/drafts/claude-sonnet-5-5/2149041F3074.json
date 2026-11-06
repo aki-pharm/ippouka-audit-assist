@@ -1,0 +1,30 @@
+{
+  "id": "2149041F3074",
+  "source_file": "300166_2149041F1071_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2149041F1071_2_05",
+  "extracted_at": "2026-11-06T16:12:34.066Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23765,
+    "output": 637
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠80mg「FFP」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 バルサルタン錠80mg「FFP」 色・剤形 白色の割線入りのフィルムコーティング錠 サイズ 直径 重量 厚さ 約8.6mm 約240mg 約4.4mm"
+    }
+  ]
+}

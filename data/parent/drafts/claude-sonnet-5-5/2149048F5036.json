@@ -1,0 +1,30 @@
+{
+  "id": "2149048F5036",
+  "source_file": "480209_2149048F4030_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149048F4030_1_04",
+  "extracted_at": "2026-11-06T16:18:57.724Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30992,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタンOD錠20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に刻印らしき表示があるが、本文には刻印・識別コードの文字記載がないため未確認",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 微赤色 直径 (mm) 7.1 厚さ (mm) 3.5 質量 (mg) 143"
+    }
+  ]
+}

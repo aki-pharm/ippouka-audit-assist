@@ -1,0 +1,30 @@
+{
+  "id": "2149019F2294",
+  "source_file": "460028_2149019F1158_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2149019F1158_1_03",
+  "extracted_at": "2026-11-06T16:07:55.720Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12852,
+    "output": 797
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニカルジピン塩酸塩錠20mg「ツルハラ」",
+      "strength": "20mg",
+      "imprint_front": "TSU411",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは TSU411。割線入フィルムコート錠。表裏の刻印位置は本文に記載がないため、裏は未確認とした。",
+      "color": "白～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入フィルムコート錠／色調 白～微黄白色／大きさ 直径 約7.6mm、厚さ 約3.8mm／質量 約187mg／識別コード TSU411"
+    }
+  ]
+}

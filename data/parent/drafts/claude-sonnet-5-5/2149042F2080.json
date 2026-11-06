@@ -1,0 +1,30 @@
+{
+  "id": "2149042F2080",
+  "source_file": "530372_2149042F1084_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2149042F1084_2_05",
+  "extracted_at": "2026-11-06T16:14:24.885Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22697,
+    "output": 370
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠40mg「NPI」",
+      "strength": "40mg",
+      "imprint_front": "テルミサルタン 40 NPI",
+      "imprint_back": "テルミサルタン 40 NPI",
+      "imprint_note": "識別コード：テルミサルタン 40 NPI。表裏とも「テルミサルタン」「40」「NPI」の印字。割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠（20mg）／白色の割線入りのフィルムコーティング錠（40mg、80mg）；直径 6.1mm 8.1mm 10.1mm；厚さ 2.8mm 3.3mm 4.4mm；識別コード テルミサルタン 20 NPI／テルミサルタン 40 NPI／テルミサルタン 80 NPI"
+    }
+  ]
+}

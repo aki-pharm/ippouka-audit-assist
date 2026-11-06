@@ -1,0 +1,46 @@
+{
+  "id": "2149112F2096",
+  "source_file": "460028_2149112F1090_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2149112F1090_1_12",
+  "extracted_at": "2026-11-06T16:22:55.978Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28646,
+    "output": 615
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルヒディオ配合錠MD「ツルハラ」（バルサルタン80mg・ヒドロクロロチアジド6.25mg）",
+      "strength": "バルサルタン80mg/ヒドロクロロチアジド6.25mg",
+      "imprint_front": "TSU553",
+      "imprint_back": "80 6.25",
+      "imprint_note": null,
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 うすい赤色／大きさ 直径 約9.1mm、厚さ 約4.2mm／質量 約265mg／識別コード 表面 TSU553 裏面 80 6.25"
+    },
+    {
+      "product_name": "バルヒディオ配合錠EX「ツルハラ」（バルサルタン80mg・ヒドロクロロチアジド12.5mg）",
+      "strength": "バルサルタン80mg/ヒドロクロロチアジド12.5mg",
+      "imprint_front": "TSU552",
+      "imprint_back": "80 12.5",
+      "imprint_note": null,
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 ごくうすい赤色／大きさ 直径 約9.1mm、厚さ 約4.2mm／質量 約265mg／識別コード 表面 TSU552 裏面 80 12.5"
+    }
+  ]
+}

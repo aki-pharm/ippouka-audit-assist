@@ -1,0 +1,30 @@
+{
+  "id": "2149041F3023",
+  "source_file": "300242_2149041F1020_2_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_2149041F1020_2_25",
+  "extracted_at": "2026-11-06T16:12:24.581Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21963,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ディオバン錠80mg",
+      "strength": "80mg",
+      "imprint_front": "NV",
+      "imprint_back": "134",
+      "imprint_note": "識別コード：NV 134。外形図では表面にNVの刻印と割線、裏面に134の表示あり（片面割線）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りのフィルムコーティング錠 / 識別コード NV 134 / 大きさ（約） 直径：8.6mm 厚さ：3.7mm 質量：0.21g"
+    }
+  ]
+}

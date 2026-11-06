@@ -1,0 +1,46 @@
+{
+  "id": "2149110F1287",
+  "source_file": "530169_2149110F1287_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149110F1287_1_20",
+  "extracted_at": "2026-11-06T16:20:43.112Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32110,
+    "output": 1356
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルヒド配合錠LD「日医工」",
+      "strength": "1錠中 ロサルタンカリウム50mg／ヒドロクロロチアジド12.5mg",
+      "imprint_front": "ロサルヒド LD 日医工",
+      "imprint_back": "ロサルヒド LD 日医工",
+      "imprint_note": "本体表示として記載。包装コード855。表裏とも図に印字あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.9,
+      "size_short_mm": 8.9,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "円形のフィルムコーティング錠 色調 白色 直径（mm）8.9 厚さ（mm）4.1 質量（mg）255 本体表示 ロサルヒド LD 日医工 包装コード 855"
+    },
+    {
+      "product_name": "ロサルヒド配合錠HD「日医工」",
+      "strength": "1錠中 ロサルタンカリウム100mg／ヒドロクロロチアジド12.5mg",
+      "imprint_front": "ロサルヒド HD 日医工",
+      "imprint_back": "ロサルヒド HD 日医工",
+      "imprint_note": "本体表示として記載。包装コード854。表裏とも図に印字あり",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.5,
+      "size_short_mm": 7.7,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "楕円形のフィルムコーティング錠 色調 白色 直径（mm）13.5×7.7 厚さ（mm）4.9 質量（mg）410 本体表示 ロサルヒド HD 日医工 包装コード 854"
+    }
+  ]
+}

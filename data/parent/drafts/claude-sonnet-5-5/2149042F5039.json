@@ -1,0 +1,30 @@
+{
+  "id": "2149042F5039",
+  "source_file": "480235_2149042F4032_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149042F4032_1_05",
+  "extracted_at": "2026-11-06T16:15:03.281Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22811,
+    "output": 1180
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタンOD錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "テルミ 40",
+      "imprint_back": "テルミ 40 サルタン OD トーワ",
+      "imprint_note": "本体表示。表は「テルミ 40」、裏は「テルミ 40」「サルタン OD トーワ」と記載。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入りの口腔内崩壊錠　本体表示 表 テルミ 40／裏 テルミ 40 サルタン OD トーワ　直径(mm) 11.0　厚さ(mm) 4.8　質量(mg) 450"
+    }
+  ]
+}

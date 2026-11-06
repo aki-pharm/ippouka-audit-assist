@@ -1,0 +1,30 @@
+{
+  "id": "2149039F3247",
+  "source_file": "480209_2149039F1252_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149039F1252_1_20",
+  "extracted_at": "2026-11-06T16:11:42.826Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25233,
+    "output": 932
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠100mg「杏林」",
+      "strength": "100mg",
+      "imprint_front": "KRM141",
+      "imprint_back": "100",
+      "imprint_note": "表の識別コードはKRM141。裏面の「100」は3.2製剤の性状の外形図から読み取った。",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 11.1,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.5,
+      "score_line": false,
+      "source_revision": "2026年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 ティアドロップ形・フィルムコーティング錠／色調 白色／外形 長径：約11.1 短径：約7.6／厚さ(mm) 約4.5／質量(mg) 312／識別コード KRM141"
+    }
+  ]
+}

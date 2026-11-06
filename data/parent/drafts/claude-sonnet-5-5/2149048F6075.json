@@ -1,0 +1,30 @@
+{
+  "id": "2149048F6075",
+  "source_file": "400073_2149048F4072_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2149048F4072_1_05",
+  "extracted_at": "2026-11-06T16:19:24.901Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29180,
+    "output": 595
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタンOD錠40mg「フェルゼン」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の上面・下面は図のみで、刻印・識別コードを示す文字記載は確認できない",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の割線入りのフィルムコーティング錠（大きさ：直径 8.1mm、厚さ 3.6mm、質量 184mg）"
+    }
+  ]
+}

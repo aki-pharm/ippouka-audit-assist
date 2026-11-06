@@ -1,0 +1,30 @@
+{
+  "id": "2139008F2028",
+  "source_file": "300297_2139008F1056_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_2139008F1056_1_14",
+  "extracted_at": "2026-11-06T16:04:15.656Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14290,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダイアート錠30mg",
+      "strength": "30mg",
+      "imprint_front": "Sc224",
+      "imprint_back": "なし",
+      "imprint_note": "表面に識別コードSc224（表の図では「Sc」と「224」の間に割線）。裏面の刻印は外形図に記載なし。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.2,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "片面に割線を有するだ円の白色のフィルムコーティング錠　長径 10.2mm　短径 4.6mm　厚さ 3.0mm　重量 130mg　識別コード Sc224"
+    }
+  ]
+}

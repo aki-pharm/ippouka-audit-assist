@@ -1,0 +1,30 @@
+{
+  "id": "2149041F4283",
+  "source_file": "530169_2149041F1284_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149041F1284_1_11",
+  "extracted_at": "2026-11-06T16:13:45.497Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24942,
+    "output": 772
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠160mg「日医工」",
+      "strength": "160mg",
+      "imprint_front": "353",
+      "imprint_back": "160",
+      "imprint_note": "表面は社名マークと「353」の併記（本体表示：n353／160）。包装コード353",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 14.6,
+      "size_short_mm": 5.8,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠／色調 白色／直径（mm） 14.6×5.8／厚さ（mm） 5.7／本体表示 n353 160／包装コード 353"
+    }
+  ]
+}

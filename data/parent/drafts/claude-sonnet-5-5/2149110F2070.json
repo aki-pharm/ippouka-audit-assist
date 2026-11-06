@@ -1,0 +1,46 @@
+{
+  "id": "2149110F2070",
+  "source_file": "300297_2149110F1236_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_2149110F1236_1_16",
+  "extracted_at": "2026-11-06T16:21:08.628Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31107,
+    "output": 1113
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルヒド配合錠LD「三和」",
+      "strength": "ロサルタンカリウム50mg/ヒドロクロロチアジド12.5mg",
+      "imprint_front": "ロサルヒド LD 三和",
+      "imprint_back": "ロサルヒド LD 三和",
+      "imprint_note": "外形の図に印字が示されている。本文には刻印・印字の記載なし。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色円形のフィルムコーティング錠／直径 9.1mm／厚さ 3.9mm／重量 260mg"
+    },
+    {
+      "product_name": "ロサルヒド配合錠HD「三和」",
+      "strength": "ロサルタンカリウム100mg/ヒドロクロロチアジド12.5mg",
+      "imprint_front": "ロサルヒド HD 三和",
+      "imprint_back": "ロサルヒド HD 三和",
+      "imprint_note": "外形の図に印字が示されている。本文には刻印・印字の記載なし。割線の記載なし。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.7,
+      "size_short_mm": 7.4,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色楕円形のフィルムコーティング錠／長径 13.7mm／短径 7.4mm／厚さ 5.3mm／重量 462mg"
+    }
+  ]
+}

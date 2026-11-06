@@ -1,0 +1,30 @@
+{
+  "id": "2149010G1047",
+  "source_file": "431010_2149010G1047_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_2149010G1047_2_05",
+  "extracted_at": "2026-11-06T16:07:19.249Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17588,
+    "output": 304
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セロケンL錠120mg",
+      "strength": "120mg",
+      "imprint_front": "123",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「▲123」。表面に太陽ファルマの社名マーク（▲）と123の表示。裏面は割線のみ。テキスト上の識別コードは「▲123」",
+      "color": "白色～微帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 17.2,
+      "size_short_mm": 5.8,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色～微帯黄白色のフィルムコーティング錠（割線入） 長径 約17.2mm 短径 約5.8mm 厚さ 約4.6mm 重量 約0.412g 識別コード ▲123"
+    }
+  ]
+}

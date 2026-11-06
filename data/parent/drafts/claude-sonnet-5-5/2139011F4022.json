@@ -1,0 +1,30 @@
+{
+  "id": "2139011F4022",
+  "source_file": "180078_2139011D1022_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_2139011D1022_1_13",
+  "extracted_at": "2026-11-06T16:04:56.103Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 47155,
+    "output": 245
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サムスカOD錠15mg",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印・識別コードの記載なし（外形欄は図のみで文字として読み取れない）",
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第6版、再審査結果）",
+      "source_page": 2,
+      "source_quote": "サムスカOD錠15mg 青色の割線入りの素錠 8（直径） 厚さ3.1mm 重さ約170mg"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2149042F5020",
+  "source_file": "300119_2149042F1149_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149042F1149_1_05",
+  "extracted_at": "2026-11-06T16:15:01.038Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26231,
+    "output": 1128
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠40mg「サワイ」",
+      "strength": "40mg",
+      "imprint_front": "SW テルミサルタン 40",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書には「本体表示」として記載。表裏の区別の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠／性状 白色／直径（mm） 8.1／厚さ（mm） 3.5／重量（mg） 約173／本体表示 SW テルミサルタン 40"
+    },
+    {
+      "product_name": "テルミサルタンOD錠40mg「サワイ」",
+      "strength": "40mg",
+      "imprint_front": "テルミサルタン SW OD40",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書には「本体表示」として記載。表裏の区別の記載なし。口腔内崩壊錠。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）／性状 白色～微黄色／直径（mm） 10.0／厚さ（mm） 5.0／重量（mg） 約400／本体表示 テルミサルタン SW OD40"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2139011F3034",
+  "source_file": "430773_2139011F3034_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2139011F3034_1_08",
+  "extracted_at": "2026-11-06T16:04:40.401Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 50178,
+    "output": 303
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠7.5mg「DSEP」",
+      "strength": "7.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状の表には刻印・識別コードの文字による記載がなく、外形は図のみで示されているため、刻印は本文から確認できない",
+      "color": "薄い青色",
+      "shape": "oval",
+      "size_long_mm": 7.8,
+      "size_short_mm": 4.4,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "トルバプタンOD錠7.5mg「DSEP」 素錠（口腔内崩壊錠）（両面割線入） 薄い青色 7.8（長径）4.4（短径） 厚さ3.1mm 質量100mg"
+    }
+  ]
+}

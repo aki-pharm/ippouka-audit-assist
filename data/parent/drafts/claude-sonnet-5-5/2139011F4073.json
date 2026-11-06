@@ -1,0 +1,30 @@
+{
+  "id": "2139011F4073",
+  "source_file": "300119_2139011D1049_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2139011D1049_1_03",
+  "extracted_at": "2026-11-06T16:05:13.905Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45276,
+    "output": 711
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠15mg「サワイ」",
+      "strength": "15mg",
+      "imprint_front": "トルバプタン OD 15 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は文字情報からは不明",
+      "color": "うすい青色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）／性状 うすい青色／直径（mm） 8.1／厚さ（mm） 3.2／本体表示 トルバプタン OD 15 サワイ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2144001F2026",
+  "source_file": "530258_2144001C1074_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2144001C1074_3_07",
+  "extracted_at": "2026-11-06T16:05:26.839Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24093,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カプトリル錠25mg",
+      "strength": "25mg",
+      "imprint_front": "NF 276",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNF 276。外形図に社名マークらしき表示あり。割線は12.5mg錠の記載（白色の素錠（割線入））が表の色・剤形欄を共有しているため、25mg錠にも適用される可能性があるが、25mg錠単独の明記ではない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "カプトリル錠25mg 白色の素錠（割線入） NF 276 7.0 2.2 120"
+    }
+  ]
+}

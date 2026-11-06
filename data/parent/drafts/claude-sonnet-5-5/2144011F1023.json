@@ -1,0 +1,30 @@
+{
+  "id": "2144011F1023",
+  "source_file": "530263_2144011F1023_2_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2144011F1023_2_14",
+  "extracted_at": "2026-11-06T16:06:36.256Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20774,
+    "output": 681
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オドリック錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "257",
+      "imprint_back": "0.5",
+      "imprint_note": "識別コード表記に社名マークを伴う。割線を施した裸錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "製剤の色 白色／形状 割線を施した裸錠／識別コード 257 0.5／直径（mm）6／厚さ（mm）2.1"
+    }
+  ]
+}

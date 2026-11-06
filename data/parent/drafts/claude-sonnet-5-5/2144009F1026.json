@@ -1,0 +1,30 @@
+{
+  "id": "2144009F1026",
+  "source_file": "530258_2144009F1026_4_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2144009F1026_4_04",
+  "extracted_at": "2026-11-06T16:06:25.826Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22466,
+    "output": 250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エースコール錠1mg",
+      "strength": "1mg",
+      "imprint_front": "AFP 261",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはAFP 261。外形図では表面に「AFP/261」の表示。裏面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "エースコール錠1mg 白色の素錠（割線入） AFP 261 直径6.5mm 厚さ約2.2mm 質量約100mg"
+    }
+  ]
+}

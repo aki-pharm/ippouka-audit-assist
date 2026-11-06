@@ -1,0 +1,30 @@
+{
+  "id": "2149044F7030",
+  "source_file": "430773_2149044F5038_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149044F5038_1_14",
+  "extracted_at": "2026-11-06T16:15:53.179Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23342,
+    "output": 321
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタンOD錠40mg「DSEP」",
+      "strength": "40mg",
+      "imprint_front": "オルメ EP OD40",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「オルメ EP OD40」。表裏の別は本文に記載がなく、表裏の刻印は添付文書の図中にあるが本文では確認できない。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "オルメサルタンOD錠40mg「DSEP」 素錠（口腔内崩壊錠）（割線入） 白色～微黄白色 オルメ EP OD40 直径9.6mm 厚さ約4.7mm 質量約320mg"
+    }
+  ]
+}

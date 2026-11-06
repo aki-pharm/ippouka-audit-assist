@@ -1,0 +1,30 @@
+{
+  "id": "2149041F1020",
+  "source_file": "300242_2149041F1020_2_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_2149041F1020_2_25",
+  "extracted_at": "2026-11-06T16:12:20.732Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21963,
+    "output": 263
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ディオバン錠20mg",
+      "strength": "20mg",
+      "imprint_front": "NV",
+      "imprint_back": "132",
+      "imprint_note": "識別コード：NV 132。外形図では表面にNVの刻印、裏面に132の刻印、片面に割線あり",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の片面割線入りのフィルムコーティング錠　識別コード NV 132　大きさ（約）直径：7.1mm 厚さ：2.6mm 質量：0.10g"
+    }
+  ]
+}

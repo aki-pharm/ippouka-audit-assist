@@ -1,0 +1,30 @@
+{
+  "id": "2149040F1026",
+  "source_file": "400061_2149040F1026_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_2149040F1026_2_09",
+  "extracted_at": "2026-11-06T16:11:44.395Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27047,
+    "output": 752
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロプレス錠2",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "販売名 ブロプレス錠2 / 色・剤形 白色～帯黄白色の素錠 / 直径（mm） 7.1 / 厚さ（mm） 2.6 / 重量（mg） 130"
+    }
+  ]
+}

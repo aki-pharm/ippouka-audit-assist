@@ -1,0 +1,30 @@
+{
+  "id": "2149046F1120",
+  "source_file": "530169_2149046F1120_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149046F1120_1_06",
+  "extracted_at": "2026-11-06T16:16:31.306Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20097,
+    "output": 1186
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "イルベサルタン 50 日医工",
+      "imprint_back": "イルベサルタン",
+      "imprint_note": "本体表示欄の記載による。表面は割線入り。表裏の文字配置は図から完全には確認できない。",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.5,
+      "size_short_mm": 4.4,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 だ円形の割線入りのフィルムコーティング錠／色調 白色～帯黄白色／直径(mm) 8.5×4.4／厚さ(mm) 2.9／本体表示 イルベサルタン 50 日医工 イルベサルタン"
+    }
+  ]
+}

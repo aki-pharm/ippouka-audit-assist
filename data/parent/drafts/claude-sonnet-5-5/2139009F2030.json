@@ -1,0 +1,30 @@
+{
+  "id": "2139009F2030",
+  "source_file": "270139_2139009F1034_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270139_2139009F1034_1_06",
+  "extracted_at": "2026-11-06T16:04:26.365Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17528,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラセミド錠8㎎「KO」",
+      "strength": "8mg",
+      "imprint_front": "KO73",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード KO73。表裏の別は本文に記載なし（外形図には表面に社名マークと「8」の表示あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 白色／剤形 素錠（割線入り）／直径（㎜） 7／厚さ（㎜） 約 2.8／質量（㎎） 120／識別コード KO73"
+    }
+  ]
+}

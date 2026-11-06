@@ -1,0 +1,30 @@
+{
+  "id": "2149039F2275",
+  "source_file": "300119_2149039F1279_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149039F1279_1_14",
+  "extracted_at": "2026-11-06T16:11:32.366Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23317,
+    "output": 781
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW 32",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「SW 32」。外形図には裏面側に「50」の表示があるように見えるが、文書の文言では表裏の区別が明記されていないため未確認とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 / 性状 白色 / 直径（mm） 7.6 / 厚さ（mm） 3.3 / 重量（mg） 約154 / 識別コード SW 32"
+    }
+  ]
+}

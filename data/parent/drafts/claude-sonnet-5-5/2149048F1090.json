@@ -1,0 +1,30 @@
+{
+  "id": "2149048F1090",
+  "source_file": "400278_2149048F1090_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2149048F1090_2_03",
+  "extracted_at": "2026-11-06T16:17:53.273Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31578,
+    "output": 669
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタン錠20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印・識別コードの記載なし（外観図のみで判読不能）",
+      "color": "微赤色",
+      "shape": null,
+      "size_long_mm": 9.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "アジルサルタン錠20mg「TCK」 微赤色 フィルムコーティング錠 9.1 × 5.1 3.3 135 （割線入り）"
+    }
+  ]
+}

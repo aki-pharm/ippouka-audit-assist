@@ -1,0 +1,30 @@
+{
+  "id": "2144008F2028",
+  "source_file": "400315_2144008F1021_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2144008F1021_1_26",
+  "extracted_at": "2026-11-06T16:05:57.459Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21328,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タナトリル錠5",
+      "strength": "5mg",
+      "imprint_front": "TA135",
+      "imprint_back": "5",
+      "imprint_note": "外形図には表面にTA/135、裏面に「5」の表示あり。側面の外形図は割線のような表示があるが、文章での記載なし。識別コードはTA135",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・素錠 ／ 識別コード TA134 TA135 ／ サイズ 直径（mm）6.0 厚さ（mm）2.6 重量（g）0.08"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149029F2026",
+  "source_file": "530263_2149029F1020_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2149029F1020_1_13",
+  "extracted_at": "2026-11-06T16:09:28.596Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17788,
+    "output": 554
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレクトール錠200mg",
+      "strength": "200mg",
+      "imprint_front": "229",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の「229」の前に社名マークの表示あり。表裏の別は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年4月改訂",
+      "source_page": 1,
+      "source_quote": "セレクトール錠200mg 製剤の色：白色 形状：円形のフィルムコーティング錠 識別コード：229"
+    }
+  ]
+}

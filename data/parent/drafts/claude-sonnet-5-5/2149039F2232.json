@@ -1,0 +1,30 @@
+{
+  "id": "2149039F2232",
+  "source_file": "380087_2149039F1236_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2149039F1236_1_17",
+  "extracted_at": "2026-11-06T16:11:21.454Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24027,
+    "output": 1171
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠50mg「ZE」",
+      "strength": "50mg",
+      "imprint_front": "ZE74",
+      "imprint_back": "50",
+      "imprint_note": "識別コード「ZE74、50」。表裏の区別は外形図による（表：ZE74、裏：50）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 白色／剤形 フィルムコーティング錠（割線入り）／錠径（mm）7.6／厚み（mm）3.5／識別コード ZE74、50"
+    }
+  ]
+}

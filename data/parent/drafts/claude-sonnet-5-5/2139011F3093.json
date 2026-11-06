@@ -1,0 +1,30 @@
+{
+  "id": "2139011F3093",
+  "source_file": "480235_2139011D1030_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2139011D1030_1_07",
+  "extracted_at": "2026-11-06T16:04:57.134Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42384,
+    "output": 768
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠7.5mg「トーワ」",
+      "strength": "7.5mg",
+      "imprint_front": "7.5 トルバプ",
+      "imprint_back": "トルバプタン OD 7.5 トーワ",
+      "imprint_note": "本体表示。表は「7.5 トルバプ」、裏は「トルバプタン OD 7.5 トーワ」。",
+      "color": "青色",
+      "shape": "other",
+      "size_long_mm": 9.5,
+      "size_short_mm": 5.4,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "青色の割線入りの変形長方形の口腔内崩壊錠 / 本体表示 表 7.5 トルバプ 裏 トルバプタン OD 7.5 トーワ / 直径(mm) 長径：9.5，短径：5.4 / 厚さ(mm) 3.0"
+    }
+  ]
+}

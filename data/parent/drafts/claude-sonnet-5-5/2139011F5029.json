@@ -1,0 +1,30 @@
+{
+  "id": "2139011F5029",
+  "source_file": "480008_2139011F3042_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_2139011F3042_1_10",
+  "extracted_at": "2026-11-06T16:05:22.089Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 59230,
+    "output": 623
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠3.75mg「TE」",
+      "strength": "3.75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "薄い青色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "トルバプタンOD錠3.75mg「TE」 薄い青色の円形の素錠（口腔内崩壊錠） 直径5.6mm 厚さ2.3mm 質量50mg"
+    }
+  ]
+}

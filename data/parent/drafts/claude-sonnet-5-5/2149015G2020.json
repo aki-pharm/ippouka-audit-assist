@@ -1,0 +1,30 @@
+{
+  "id": "2149015G2020",
+  "source_file": "170033_2149015G1023_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2149015G1023_1_17",
+  "extracted_at": "2026-11-06T16:07:34.883Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14939,
+    "output": 309
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デタントールR錠6mg",
+      "strength": "6mg",
+      "imprint_front": "デタントールR6",
+      "imprint_back": "デタントールR6",
+      "imprint_note": "識別コードは「デタントールR6」。外形の表・裏に印字（図中の表記は「デタントール R 6」）。側面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 フィルムコーティング錠／識別コード デタントールR3 デタントールR6／直径（mm） 5.6 7.2／質量（mg） 83 166／厚さ（mm） 3.1 3.9／色 白色 白色"
+    }
+  ]
+}

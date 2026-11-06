@@ -1,0 +1,30 @@
+{
+  "id": "2149027F2027",
+  "source_file": "400061_2149027F1020_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_2149027F1020_2_05",
+  "extracted_at": "2026-11-06T16:09:17.716Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13133,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルスロット錠10",
+      "strength": "10mg",
+      "imprint_front": "231",
+      "imprint_back": "10",
+      "imprint_note": "識別コード「231」（社名マーク付き）。裏面は図中に「10」の表示あり。表面に社名マーク、側面に割線の図示あり",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色の割線入りの素錠／直径（mm） 7.6／厚さ（mm） 3.1／重量（mg） 170／識別コード 231"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149046F3107",
+  "source_file": "300119_2149046F1104_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149046F1104_1_05",
+  "extracted_at": "2026-11-06T16:17:10.355Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20351,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠200mg「サワイ」",
+      "strength": "200mg",
+      "imprint_front": "イルベサルタン 200 SW",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は文章では未確認。割線入り",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 / 性状 白色～帯黄白色 / 直径（mm） 14.1×7.4 / 厚さ（mm） 4.8 / 本体表示 イルベサルタン 200 SW"
+    }
+  ]
+}

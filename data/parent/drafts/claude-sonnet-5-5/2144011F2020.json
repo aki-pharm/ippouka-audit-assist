@@ -1,0 +1,30 @@
+{
+  "id": "2144011F2020",
+  "source_file": "530263_2144011F1023_2_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2144011F1023_2_14",
+  "extracted_at": "2026-11-06T16:06:38.139Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20772,
+    "output": 583
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オドリック錠1mg",
+      "strength": "1mg",
+      "imprint_front": "258",
+      "imprint_back": "1",
+      "imprint_note": "識別コードの前に社名マークあり（表：社名マーク 258）。割線を施した裸錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "製剤の色 白色 / 形状 割線を施した裸錠 / 識別コード 258 1 / 直径（mm）7 / 厚さ（mm）2.5"
+    }
+  ]
+}

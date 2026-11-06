@@ -1,0 +1,30 @@
+{
+  "id": "2149015F2024",
+  "source_file": "170033_2149015F1028_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2149015F1028_1_05",
+  "extracted_at": "2026-11-06T16:07:28.119Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14228,
+    "output": 222
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デタントール錠1mg",
+      "strength": "1mg",
+      "imprint_front": "229",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2022年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 デタントール錠1mg 剤形 糖衣錠 識別コード 230 直径（mm） 6.2 質量（mg） 100 厚さ（mm） 3.5 色 白色"
+    }
+  ]
+}

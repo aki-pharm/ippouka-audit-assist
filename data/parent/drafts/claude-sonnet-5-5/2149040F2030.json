@@ -1,0 +1,30 @@
+{
+  "id": "2149040F2030",
+  "source_file": "470007_2149040F1034_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2149040F1034_1_08",
+  "extracted_at": "2026-11-06T16:11:51.505Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27809,
+    "output": 297
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カンデサルタン錠4mg「あすか」",
+      "strength": "4mg",
+      "imprint_front": "AK252",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード AK252。表裏のどちらに記載されているかは本文からは確認できない（外観図に数字「4」の表示あり）",
+      "color": "白色～帯黄白色の割線入りの素錠",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りの素錠 / 直径（mm） 7.1 / 厚さ（mm） 2.6 / 重量（mg） 130 / 識別コード AK252"
+    }
+  ]
+}

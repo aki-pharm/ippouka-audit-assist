@@ -1,0 +1,30 @@
+{
+  "id": "2144004F2020",
+  "source_file": "400061_2144004F1023_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_2144004F1023_2_08",
+  "extracted_at": "2026-11-06T16:05:36.372Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18115,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アデカット15mg錠",
+      "strength": "15mg",
+      "imprint_front": "222",
+      "imprint_back": "15",
+      "imprint_note": "識別コード222（社名マーク付き）。図中の表裏の表示：表面に222、裏面に15。側面は割線入り。",
+      "color": "ごくうすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ごくうすいだいだい色の割線入りの素錠 / 直径（mm） 6.4 / 厚さ（mm） 2.3 / 重量（mg） 95 / 識別コード 222"
+    }
+  ]
+}

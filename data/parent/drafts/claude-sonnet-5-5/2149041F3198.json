@@ -1,0 +1,30 @@
+{
+  "id": "2149041F3198",
+  "source_file": "480209_2149041F1195_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149041F1195_1_13",
+  "extracted_at": "2026-11-06T16:12:44.140Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25916,
+    "output": 310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠80mg「杏林」",
+      "strength": "80mg",
+      "imprint_front": "バルサルタン 80 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「バルサルタン 80 杏林」と記載。表裏の区別は文章からは確認できない。割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 バルサルタン錠80mg「杏林」／剤形 割線入りフィルムコーティング錠／色調 白色／本体表示 バルサルタン 80 杏林／直径(mm) 8.6／厚さ(mm) 4.4／質量(mg) 240"
+    }
+  ]
+}

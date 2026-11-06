@@ -1,0 +1,30 @@
+{
+  "id": "2149009F2037",
+  "source_file": "112268_2149009F1030_3_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112268_2149009F1030_3_12",
+  "extracted_at": "2026-11-06T16:07:03.227Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16701,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トランデート錠100mg",
+      "strength": "100mg",
+      "imprint_front": "Sz T100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「Sz T100」。外形図には表面の刻印のみ示されており、裏面の記載は文章では確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径 8.1mm 厚さ 3.4mm 質量 155mg 識別コード Sz T100"
+    }
+  ]
+}

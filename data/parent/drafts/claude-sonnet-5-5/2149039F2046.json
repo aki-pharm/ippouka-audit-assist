@@ -1,0 +1,30 @@
+{
+  "id": "2149039F2046",
+  "source_file": "430773_2149039F1040_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149039F1040_1_16",
+  "extracted_at": "2026-11-06T16:10:57.854Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24668,
+    "output": 282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンK錠50mg「DSEP」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄は外形の図のみで、刻印・識別コードは文章として記載されていない（図中に表示あり、文字としては読み取れず）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ロサルタンK錠50mg｢DSEP｣ フィルムコーティング錠（円形・割線入） 白色 直径7.6mm 厚さ3.4mm 質量145mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149034F1020",
+  "source_file": "380077_2149034F1020_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380077_2149034F1020_3_06",
+  "extracted_at": "2026-11-06T16:10:16.022Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16733,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランデル錠10",
+      "strength": "10mg",
+      "imprint_front": "NZ1",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはNZ1（表面に表示）。裏面の刻印は外形図に記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコーティング錠 ／ 直径 約6.1mm ／ 厚さ 約3.1mm ／ 質量 約88.5mg ／ 識別コード NZ1"
+    }
+  ]
+}

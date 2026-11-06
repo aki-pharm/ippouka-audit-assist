@@ -1,0 +1,30 @@
+{
+  "id": "2149048F1049",
+  "source_file": "300119_2149048F1049_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149048F1049_1_03",
+  "extracted_at": "2026-11-06T16:17:40.126Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28073,
+    "output": 967
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタン錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "アジルサルタン 20 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は記載なし。割線入りフィルムコーティング錠。",
+      "color": "微赤色",
+      "shape": null,
+      "size_long_mm": 9.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版、用法及び用量変更）",
+      "source_page": 1,
+      "source_quote": "剤形：割線入りフィルムコーティング錠　性状：微赤色　直径（mm）：9.1×5.1　厚さ（mm）：3.3　重量（mg）：約125　本体表示：アジルサルタン 20 サワイ"
+    }
+  ]
+}

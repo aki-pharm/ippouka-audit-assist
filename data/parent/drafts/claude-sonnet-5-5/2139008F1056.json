@@ -1,0 +1,30 @@
+{
+  "id": "2139008F1056",
+  "source_file": "300297_2139008F1056_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_2139008F1056_1_14",
+  "extracted_at": "2026-11-06T16:04:17.322Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14290,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダイアート錠60mg",
+      "strength": "60mg",
+      "imprint_front": "Sc223",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードSc223は表面に表示。外形図では表に割線と識別コード、裏は無地。割線は片面のみ。",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 11.8,
+      "size_short_mm": 5.3,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "片面に割線を有するだ円の淡黄色のフィルムコーティング錠　長径 11.8mm　短径 5.3mm　厚さ 3.5mm　重量 190mg　識別コード Sc223"
+    }
+  ]
+}

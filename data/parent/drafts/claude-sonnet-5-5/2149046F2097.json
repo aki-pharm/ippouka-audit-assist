@@ -1,0 +1,30 @@
+{
+  "id": "2149046F2097",
+  "source_file": "530213_2149046F1090_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149046F1090_1_06",
+  "extracted_at": "2026-11-06T16:16:44.284Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21815,
+    "output": 342
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠100mg「ケミファ」",
+      "strength": "100mg",
+      "imprint_front": "イルベサルタン 100 ケミファ",
+      "imprint_back": "イルベサルタン 100 ケミファ",
+      "imprint_note": "識別コードは「イルベサルタン 100　ケミファ」。表・裏の印字の別は図のみで文字では確認できないため、表裏とも同一コードとして記載",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11.1,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りのフィルムコーティング錠　長径 11.1mm　短径 5.8mm　厚さ 3.8mm　重量 204.0mg　識別コード イルベサルタン100　ケミファ"
+    }
+  ]
+}

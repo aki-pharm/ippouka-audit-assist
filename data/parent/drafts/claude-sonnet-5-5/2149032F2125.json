@@ -1,0 +1,30 @@
+{
+  "id": "2149032F2125",
+  "source_file": "480235_2149032F1129_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149032F1129_1_22",
+  "extracted_at": "2026-11-06T16:10:01.706Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37171,
+    "output": 674
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルベジロール錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "カルベジ 20",
+      "imprint_back": "カルベジロール 20 トーワ",
+      "imprint_note": "割線入",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色のフィルムコーティング錠（割線入） 本体表示 表 カルベジ 20 裏 カルベジロール 20 トーワ 直径(mm) 8.6 厚さ(mm) 3.1 質量(mg) 169"
+    }
+  ]
+}

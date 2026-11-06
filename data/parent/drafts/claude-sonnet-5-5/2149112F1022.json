@@ -1,0 +1,46 @@
+{
+  "id": "2149112F1022",
+  "source_file": "300242_2149112F1022_1_24.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_2149112F1022_1_24",
+  "extracted_at": "2026-11-06T16:22:09.486Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27180,
+    "output": 573
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コディオ配合錠MD",
+      "strength": "バルサルタン80mg/ヒドロクロロチアジド6.25mg",
+      "imprint_front": "NV",
+      "imprint_back": "136",
+      "imprint_note": "識別コード NV 136（表に「NV」、裏に「136」と思われる外形図あり。表裏の区分は文章では未記載）",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.9,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "うすい赤色のフィルムコーティング錠 識別コード NV 136 大きさ（約） 直径：8.5mm 厚さ：3.9mm 質量：0.21g"
+    },
+    {
+      "product_name": "コディオ配合錠EX",
+      "strength": "バルサルタン80mg/ヒドロクロロチアジド12.5mg",
+      "imprint_front": "NV",
+      "imprint_back": "137",
+      "imprint_note": "識別コード NV 137（表に「NV」、裏に「137」と思われる外形図あり。表裏の区分は文章では未記載）",
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい赤色のフィルムコーティング錠 識別コード NV 137 大きさ（約） 直径：8.5mm 厚さ：4.0mm 質量：0.22g"
+    }
+  ]
+}

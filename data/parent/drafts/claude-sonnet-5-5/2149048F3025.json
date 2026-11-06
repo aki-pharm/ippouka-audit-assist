@@ -1,0 +1,30 @@
+{
+  "id": "2149048F3025",
+  "source_file": "400256_2149048F1022_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_2149048F1022_1_20",
+  "extracted_at": "2026-11-06T16:18:14.048Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27342,
+    "output": 951
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルバ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "アジルバ10",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤表示：アジルバ10（上面の表示。下面・側面の刻印の記載は文章では確認できず）",
+      "color": "微黄赤色",
+      "shape": null,
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "販売名 アジルバ錠10mg／剤形 フィルムコーティング錠／色 微黄赤色／製剤表示 アジルバ10／長径（mm）8.2／短径（mm）4.7／厚さ（mm）約3.1／質量（mg）約104"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149045F1037",
+  "source_file": "480209_2149045F1037_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149045F1037_1_06",
+  "extracted_at": "2026-11-06T16:16:10.404Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37280,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エプレレノン錠25mg「杏林」",
+      "strength": "25mg",
+      "imprint_front": "エプレレ 25 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「エプレレ 25 杏林」と記載。表裏の区別は文章では明記されていない（外形図には表・裏の図あり）。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 黄色／本体表示 エプレレ 25 杏林／直径(mm) 5.6／厚さ(mm) 3.3／質量(mg) 89"
+    }
+  ]
+}

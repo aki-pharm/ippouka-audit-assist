@@ -1,0 +1,30 @@
+{
+  "id": "2149027F3023",
+  "source_file": "400061_2149027F1020_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_2149027F1020_2_05",
+  "extracted_at": "2026-11-06T16:09:21.227Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13133,
+    "output": 850
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルスロット錠20",
+      "strength": "20mg",
+      "imprint_front": "232",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は社名マーク付きで「232」と記載。形状図の別の面には「20」の表示がありますが、本文には記載がありません。",
+      "color": "うすいだいだい黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "カルスロット錠20 色・剤形：うすいだいだい黄色の割線入りの素錠 直径（mm）8.1 厚さ（mm）3.2 重量（mg）200 識別コード 232"
+    }
+  ]
+}

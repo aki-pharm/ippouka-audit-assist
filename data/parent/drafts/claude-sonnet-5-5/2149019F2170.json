@@ -1,0 +1,30 @@
+{
+  "id": "2149019F2170",
+  "source_file": "171911_2149019B1059_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_2149019B1059_2_04",
+  "extracted_at": "2026-11-06T16:07:57.165Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15417,
+    "output": 975
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペルジピン錠20mg",
+      "strength": "20mg",
+      "imprint_front": "20",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の外形図に社名マークらしき図柄と「20」の表示あり（図からの読み取りで、本文に刻印の文章記載なし）。裏面は図上は無地だが、「なし」の明記はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ペルジピン錠20mg 糖衣錠 白色 表 裏 側面 直径 厚さ 質量 7.1mm 3.7mm 0.135g"
+    }
+  ]
+}

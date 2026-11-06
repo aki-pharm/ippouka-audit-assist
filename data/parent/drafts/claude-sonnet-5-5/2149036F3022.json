@@ -1,0 +1,30 @@
+{
+  "id": "2149036F3022",
+  "source_file": "530213_2149036F1020_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149036F1020_1_17",
+  "extracted_at": "2026-11-06T16:10:40.802Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14863,
+    "output": 705
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルバン錠100",
+      "strength": "100mg",
+      "imprint_front": "NC CE",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表面に表示。割線入り。裏面の刻印の有無は本文に記載がなく未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 直径 8.5mm 厚さ 3.2mm 重量 169mg 識別コード NC　CE"
+    }
+  ]
+}

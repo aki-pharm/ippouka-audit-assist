@@ -1,0 +1,30 @@
+{
+  "id": "2149040F2286",
+  "source_file": "460028_2149040F1280_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2149040F1280_1_12",
+  "extracted_at": "2026-11-06T16:11:51.674Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29360,
+    "output": 236
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カンデサルタン錠4mg「ツルハラ」",
+      "strength": "4mg",
+      "imprint_front": "TSU156",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／色調 白色／大きさ 直径 約7.0mm／厚さ 約2.5mm／質量 約125mg／識別コード 表面 TSU156 裏面 4"
+    }
+  ]
+}

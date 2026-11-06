@@ -1,0 +1,46 @@
+{
+  "id": "2149112F1057",
+  "source_file": "580591_2149112F1057_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149112F1057_1_10",
+  "extracted_at": "2026-11-06T16:22:17.569Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28796,
+    "output": 675
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルヒディオ配合錠MD「JG」",
+      "strength": "バルサルタン80.0mg/ヒドロクロロチアジド6.25mg",
+      "imprint_front": "バルヒディオ MD JG",
+      "imprint_back": "バルヒディオ MD JG",
+      "imprint_note": "本体表示は「バルヒディオ MD JG」。表面・裏面・側面の図あり（側面に表示の記載は確認できない）",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "バルヒディオ配合錠MD「JG」 うすい赤色のフィルムコーティング錠 表面 裏面 側面 バルヒディオ MD JG 直径 8.6mm 厚さ 4.1mm 重量 227mg"
+    },
+    {
+      "product_name": "バルヒディオ配合錠EX「JG」",
+      "strength": "バルサルタン80.0mg/ヒドロクロロチアジド12.5mg",
+      "imprint_front": "バルヒディオ EX JG",
+      "imprint_back": "バルヒディオ EX JG",
+      "imprint_note": "本体表示は「バルヒディオ EX JG」。表面・裏面・側面の図あり（側面に表示の記載は確認できない）",
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "バルヒディオ配合錠EX「JG」 ごくうすい赤色のフィルムコーティング錠 表面 裏面 側面 バルヒディオ EX JG 直径 8.6mm 厚さ 4.1mm 重量 227mg"
+    }
+  ]
+}

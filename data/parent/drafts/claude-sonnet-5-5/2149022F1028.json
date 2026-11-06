@@ -1,0 +1,30 @@
+{
+  "id": "2149022F1028",
+  "source_file": "171911_2149022F1028_4_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_2149022F1028_4_05",
+  "extracted_at": "2026-11-06T16:08:09.468Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12355,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニバジール錠2mg",
+      "strength": "2mg",
+      "imprint_front": "LT 003",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：LT003（表面に「LT/003」、側面に「LT003」の表示）。裏面の刻印は記載なし",
+      "color": "帯褐黄色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ニバジール錠 2 mg フィルムコーティング錠 帯褐黄色 表 裏 側面 003 直径 厚さ 質量 約6.2mm 約3.2mm 約95mg"
+    }
+  ]
+}

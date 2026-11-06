@@ -1,0 +1,30 @@
+{
+  "id": "2149041F3120",
+  "source_file": "400278_2149041F1128_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2149041F1128_1_08",
+  "extracted_at": "2026-11-06T16:12:41.161Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26771,
+    "output": 253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠80mg「TCK」",
+      "strength": "80mg",
+      "imprint_front": "TU 153",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTU 153。表裏の別は文書の文章からは確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "バルサルタン錠80mg「TCK」 白色フィルムコーティング錠（割線入り） TU 153 直径8.6mm 厚さ3.7mm 重量227mg"
+    }
+  ]
+}

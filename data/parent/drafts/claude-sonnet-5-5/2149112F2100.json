@@ -1,0 +1,46 @@
+{
+  "id": "2149112F2100",
+  "source_file": "480235_2149112F1103_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149112F1103_1_12",
+  "extracted_at": "2026-11-06T16:22:58.457Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28593,
+    "output": 711
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルヒディオ配合錠MD「トーワ」",
+      "strength": "1錠中 バルサルタン80mg／ヒドロクロロチアジド6.25mg",
+      "imprint_front": "バルヒディオ MD トーワ",
+      "imprint_back": "80 バルサルタン ヒドロクロロ 6.25",
+      "imprint_note": "本体表示。表・裏の印字を表で確認。形状は図のみで文章の記載なし",
+      "color": "うすい赤色",
+      "shape": null,
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "うすい赤色のフィルムコーティング錠 / 表 バルヒディオ MD トーワ / 裏 80 バルサルタン ヒドロクロロ 6.25 / 直径(mm) 8.5 / 厚さ(mm) 4.0 / 質量(mg) 212"
+    },
+    {
+      "product_name": "バルヒディオ配合錠EX「トーワ」",
+      "strength": "1錠中 バルサルタン80mg／ヒドロクロロチアジド12.5mg",
+      "imprint_front": "バルヒディオ EX トーワ",
+      "imprint_back": "80 バルサルタン ヒドロクロロ 12.5",
+      "imprint_note": "本体表示。表・裏の印字を表で確認。形状は図のみで文章の記載なし",
+      "color": "ごくうすい赤色",
+      "shape": null,
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい赤色のフィルムコーティング錠 / 表 バルヒディオ EX トーワ / 裏 80 バルサルタン ヒドロクロロ 12.5 / 直径(mm) 8.5 / 厚さ(mm) 4.2 / 質量(mg) 217"
+    }
+  ]
+}

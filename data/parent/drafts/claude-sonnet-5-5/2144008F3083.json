@@ -1,0 +1,30 @@
+{
+  "id": "2144008F3083",
+  "source_file": "180095_2144008F3083_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2144008F3083_1_09",
+  "extracted_at": "2026-11-06T16:06:05.068Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19268,
+    "output": 359
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダプリル塩酸塩錠10mg「オーハラ」",
+      "strength": "10mg",
+      "imprint_front": "イミダプリル 10 オーハラ",
+      "imprint_back": "イミダプリル 10 オーハラ",
+      "imprint_note": "識別コード欄に「イミダプリル 10 オーハラ」と記載。表面・裏面の刻印は外形の図に示されており、図の文字は判読が困難なため、識別コードの記載に基づく。片面割線入り素錠。",
+      "color": "薄いだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂(第2版)",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入り素錠 / 色調 薄いだいだい色 / 直径 7.0mm / 厚さ 2.9mm / 質量 120.0mg / 識別コード イミダプリル 10 オーハラ"
+    }
+  ]
+}

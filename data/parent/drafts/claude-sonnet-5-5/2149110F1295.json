@@ -1,0 +1,46 @@
+{
+  "id": "2149110F1295",
+  "source_file": "530113_2149110F1295_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2149110F1295_1_16",
+  "extracted_at": "2026-11-06T16:20:40.905Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24316,
+    "output": 1025
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルヒド配合錠LD「日新」 50mg/12.5mg",
+      "strength": "50mg/12.5mg",
+      "imprint_front": "ロサルヒド LD 日新",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は文章中に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色円形のフィルムコーティング錠 錠径：9.2mm 錠厚：3.8mm 重量：265mg 本体表示 ロサルヒド LD 日新"
+    },
+    {
+      "product_name": "ロサルヒド配合錠HD「日新」 100mg/12.5mg",
+      "strength": "100mg/12.5mg",
+      "imprint_front": "ロサルヒド HD 日新",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は文章中に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.2,
+      "size_short_mm": 11.2,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色円形のフィルムコーティング錠 錠径：11.2mm 錠厚：4.4mm 重量：420mg 本体表示 ロサルヒド HD 日新"
+    }
+  ]
+}

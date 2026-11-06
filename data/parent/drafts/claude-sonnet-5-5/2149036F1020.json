@@ -1,0 +1,30 @@
+{
+  "id": "2149036F1020",
+  "source_file": "530213_2149036F1020_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149036F1020_1_17",
+  "extracted_at": "2026-11-06T16:10:36.616Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14863,
+    "output": 238
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルバン錠25",
+      "strength": "25mg",
+      "imprint_front": "NC CG",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：NC　CG（表面に表示）。裏面の刻印は図上では表示なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠／直径 6.1mm／厚さ 2.9mm／重量 80mg／識別コード NC　CG"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149048F3084",
+  "source_file": "530100_2149048F1081_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149048F1081_1_04",
+  "extracted_at": "2026-11-06T16:18:28.696Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30268,
+    "output": 243
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタン錠10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文には刻印・識別コードの記載なし（外形の図のみ）",
+      "color": "微黄赤色",
+      "shape": "oval",
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "微黄赤色の楕円形のフィルムコーティング錠 （長径）8.2 （短径）4.7 3.1 94"
+    }
+  ]
+}

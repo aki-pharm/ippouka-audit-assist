@@ -1,0 +1,30 @@
+{
+  "id": "2144008F3180",
+  "source_file": "430773_2144008F1188_2_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2144008F1188_2_13",
+  "extracted_at": "2026-11-06T16:06:23.548Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24598,
+    "output": 750
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダプリル塩酸塩錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の文字情報に刻印の記載なし（外形図のみ）",
+      "color": "薄いだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "イミダプリル塩酸塩錠10mg「DSEP」 素錠（割線入） 薄いだいだい色 直径7.0mm 厚さ2.9mm 質量120.0mg"
+    }
+  ]
+}

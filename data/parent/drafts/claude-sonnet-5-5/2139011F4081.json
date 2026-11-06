@@ -1,0 +1,30 @@
+{
+  "id": "2139011F4081",
+  "source_file": "480235_2139011D1030_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2139011D1030_1_07",
+  "extracted_at": "2026-11-06T16:05:15.922Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42382,
+    "output": 983
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠15mg「トーワ」",
+      "strength": "15mg",
+      "imprint_front": "15 トルバプタン",
+      "imprint_back": "トルバプタン 15 OD トーワ",
+      "imprint_note": null,
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "青色の割線入りの口腔内崩壊錠　本体表示 表：15 トルバプタン　裏：トルバプタン 15 OD トーワ　直径(mm) 9.5　厚さ(mm) 4.3　質量(mg) 314"
+    }
+  ]
+}

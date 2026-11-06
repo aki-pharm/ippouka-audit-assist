@@ -1,0 +1,30 @@
+{
+  "id": "2149041F4208",
+  "source_file": "530213_2149041F1209_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149041F1209_2_08",
+  "extracted_at": "2026-11-06T16:13:34.664Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23917,
+    "output": 881
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠160mg「ケミファ」",
+      "strength": "160mg",
+      "imprint_front": "バルサルタン 160 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「バルサルタン 160 ケミファ」の記載あり。表裏の別は文字では記載されていない（外形図のみ）。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 16.3,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りのフィルムコーティング錠／（長径）16.3mm（短径）6.6mm／厚さ 5.0mm／識別コード バルサルタン 160 ケミファ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149012F1059",
+  "source_file": "230099_2149012F1059_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230099_2149012F1059_1_15",
+  "extracted_at": "2026-11-06T16:07:21.814Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14338,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナトリックス錠1",
+      "strength": "1mg",
+      "imprint_front": "KYO251",
+      "imprint_back": "KYO251",
+      "imprint_note": "識別コードはKYO251（表裏とも同一コードかは外形図のみで、文面からは表裏の区別は確認できない）",
+      "color": "白色〜帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 7.7,
+      "size_short_mm": 6.2,
+      "thickness_mm": null,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色〜帯黄白色の割線入りフィルムコーティング錠 / 大きさ 長径（mm）約7.7 短径（mm）約6.2 / 識別コード KYO251"
+    }
+  ]
+}

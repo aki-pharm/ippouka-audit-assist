@@ -1,0 +1,30 @@
+{
+  "id": "2149026F4122",
+  "source_file": "530258_2149026F1123_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2149026F1123_3_03",
+  "extracted_at": "2026-11-06T16:08:46.002Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20216,
+    "output": 841
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドキサゾシン錠4mg「EMEC」",
+      "strength": "4mg",
+      "imprint_front": "EE23",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載はEE23のみで、表裏の区別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ドキサゾシン錠4mg「EMEC」 白色の割線入りの素錠 EE23 8.5 3.5 200"
+    }
+  ]
+}

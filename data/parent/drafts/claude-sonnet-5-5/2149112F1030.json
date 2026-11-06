@@ -1,0 +1,46 @@
+{
+  "id": "2149112F1030",
+  "source_file": "270428_2149112F1030_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2149112F1030_1_11",
+  "extracted_at": "2026-11-06T16:22:17.231Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27342,
+    "output": 1135
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルヒディオ配合錠MD「サンド」",
+      "strength": "1錠中 バルサルタン80mg／ヒドロクロロチアジド6.25mg",
+      "imprint_front": "VH",
+      "imprint_back": "MD",
+      "imprint_note": "外形図では表にVH、裏にMDの表示。識別コード（PTP）はVH MDと記載",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠／色調 うすい赤色／大きさ 直径 8.5mm／厚さ 3.9mm／質量 0.21g／識別コード（PTP）VH MD"
+    },
+    {
+      "product_name": "バルヒディオ配合錠EX「サンド」",
+      "strength": "1錠中 バルサルタン80mg／ヒドロクロロチアジド12.5mg",
+      "imprint_front": "VH",
+      "imprint_back": "EX",
+      "imprint_note": "外形図では表にVH、裏にEXの表示。識別コード（PTP）はVH EXと記載",
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠／色調 ごくうすい赤色／大きさ 直径 8.5mm／厚さ 4.0mm／質量 0.22g／識別コード（PTP）VH EX"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149041F4089",
+  "source_file": "580591_2149041F1080_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149041F1080_1_12",
+  "extracted_at": "2026-11-06T16:13:22.352Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25000,
+    "output": 718
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠160mg「JG」",
+      "strength": "160mg",
+      "imprint_front": "JG 75",
+      "imprint_back": "160",
+      "imprint_note": "表面の「JG 75」は識別コード欄の記載。裏面の「160」は外形図から読み取った（文章での記載なし）。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 6.9,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の長楕円形をした割線入りのフィルムコーティング錠 表面 裏面 側面 JG 75 長径 短径 厚さ 重量 15.5mm 6.9mm 5.6mm 476mg"
+    }
+  ]
+}

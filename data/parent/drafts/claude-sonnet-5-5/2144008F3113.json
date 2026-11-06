@@ -1,0 +1,30 @@
+{
+  "id": "2144008F3113",
+  "source_file": "830001_2144008F3113_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2144008F3113_1_11",
+  "extracted_at": "2026-11-06T16:06:14.179Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20866,
+    "output": 693
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダプリル塩酸塩錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "YD 538",
+      "imprint_back": "10",
+      "imprint_note": "刻印は外形図の表示から読み取った（本文には記載なし）。片面割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の片面割線入りの素錠／直径 約6.5mm／厚さ 約3.4mm／重量 120mg"
+    }
+  ]
+}

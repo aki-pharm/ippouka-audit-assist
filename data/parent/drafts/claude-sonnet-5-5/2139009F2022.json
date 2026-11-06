@@ -1,0 +1,30 @@
+{
+  "id": "2139009F2022",
+  "source_file": "400315_2139009F1026_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2139009F1026_2_09",
+  "extracted_at": "2026-11-06T16:04:26.777Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16910,
+    "output": 815
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルプラック錠8mg",
+      "strength": "8mg",
+      "imprint_front": "Y-LU8",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の素錠(割線入り)　識別コード Y-LU8　サイズ 直径7.5mm 厚さ3.1mm 重量150mg"
+    }
+  ]
+}

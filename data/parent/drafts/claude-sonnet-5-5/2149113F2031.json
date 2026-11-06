@@ -1,0 +1,46 @@
+{
+  "id": "2149113F2031",
+  "source_file": "430773_2149113F1035_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149113F1035_1_12",
+  "extracted_at": "2026-11-06T16:23:30.895Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32527,
+    "output": 1074
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルチア配合錠AP「DSEP」",
+      "strength": "テルミサルタン40mg/ヒドロクロロチアジド12.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文に刻印・識別コードの文字記載なし",
+      "color": "黄橙色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "テルチア配合錠AP「DSEP」 素錠 黄橙色 約8.5 約3.4 約240"
+    },
+    {
+      "product_name": "テルチア配合錠BP「DSEP」",
+      "strength": "テルミサルタン80mg/ヒドロクロロチアジド12.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文に刻印・識別コードの文字記載なし",
+      "color": "黄橙色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "テルチア配合錠BP「DSEP」 素錠 黄橙色 約11 約4.1 約480"
+    }
+  ]
+}

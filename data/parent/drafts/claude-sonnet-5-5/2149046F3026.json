@@ -1,0 +1,30 @@
+{
+  "id": "2149046F3026",
+  "source_file": "400093_2149046F1023_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_2149046F1023_1_19",
+  "extracted_at": "2026-11-06T16:17:00.930Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18410,
+    "output": 859
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アバプロ錠200mg",
+      "strength": "200mg",
+      "imprint_front": "アバプロ 200",
+      "imprint_back": "アバプロ 200",
+      "imprint_note": "刻印は本文に記載がなく、外形図の表示に基づく。割線あり（表面）",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 7.4,
+      "thickness_mm": 5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のだ円形の割線入りフィルムコーティング錠（アバプロ錠200mg：長径 約14.1mm、短径 約7.4mm、厚さ 約5.0mm、重さ 約406mg）"
+    }
+  ]
+}

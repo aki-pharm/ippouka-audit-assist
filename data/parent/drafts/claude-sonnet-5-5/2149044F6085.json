@@ -1,0 +1,30 @@
+{
+  "id": "2149044F6085",
+  "source_file": "480235_2149044F5089_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149044F5089_2_04",
+  "extracted_at": "2026-11-06T16:15:44.397Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26924,
+    "output": 673
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタンOD錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "オルメ 20",
+      "imprint_back": "オルメサルタン 20 OD トーワ",
+      "imprint_note": "割線入り（本体表示：表 オルメ 20、裏 オルメサルタン 20 OD トーワ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色の割線入りの口腔内崩壊錠　本体表示 表：オルメ 20　裏：オルメサルタン 20 OD トーワ　直径(mm) 8.0　厚さ(mm) 3.4"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149044F2039",
+  "source_file": "580591_2149044F1032_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149044F1032_1_08",
+  "extracted_at": "2026-11-06T16:15:20.213Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25139,
+    "output": 315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン錠20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "オルメJG 20",
+      "imprint_back": "オルメサルタン 20 JG",
+      "imprint_note": "本体表示欄の記載。表面・裏面の区別は図の配置に基づく（表面：オルメJG 20、裏面：オルメサルタン 20 JG）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "オルメサルタン錠20mg「JG」 白色の片面割線入りの素錠 直径 8.0mm 厚さ 2.5mm 重量 160mg 本体表示 オルメJG 20 オルメサルタン 20 JG"
+    }
+  ]
+}

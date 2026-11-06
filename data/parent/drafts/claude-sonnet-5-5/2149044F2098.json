@@ -1,0 +1,30 @@
+{
+  "id": "2149044F2098",
+  "source_file": "530213_2149044F1091_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149044F1091_2_06",
+  "extracted_at": "2026-11-06T16:15:24.354Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24443,
+    "output": 838
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン錠20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "オルメサルタン 20 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄には表裏の区別なく1つのコードのみ記載されている。表裏の別は文書のテキストからは確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りの素錠／直径 8.0mm／厚さ 2.5mm／重量 160.0mg／識別コード オルメサルタン 20 ケミファ"
+    }
+  ]
+}

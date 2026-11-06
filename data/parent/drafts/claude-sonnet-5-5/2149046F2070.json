@@ -1,0 +1,30 @@
+{
+  "id": "2149046F2070",
+  "source_file": "180095_2149046F1074_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2149046F1074_1_05",
+  "extracted_at": "2026-11-06T16:16:43.199Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21518,
+    "output": 337
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠100mg「オーハラ」",
+      "strength": "100mg",
+      "imprint_front": "イルベサルタン100 オーハラ",
+      "imprint_back": "イルベサルタン100 オーハラ",
+      "imprint_note": "識別コードは表の記載「イルベサルタン100 オーハラ」。表面・裏面の個別の刻印内容は外形図のみで、文字としては確認できない。",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11.1,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂(第2版)",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形の割線入りのフィルムコーティング錠 色調 白色～帯黄白色 長径 11.1mm 短径 5.8mm 厚さ 3.8mm 識別コード イルベサルタン100 オーハラ"
+    }
+  ]
+}

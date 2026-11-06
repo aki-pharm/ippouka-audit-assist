@@ -1,0 +1,30 @@
+{
+  "id": "2149041F4291",
+  "source_file": "530113_2149041F1292_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2149041F1292_1_08",
+  "extracted_at": "2026-11-06T16:13:44.529Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19225,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠160mg「日新」",
+      "strength": "160mg",
+      "imprint_front": "NS 233",
+      "imprint_back": "160",
+      "imprint_note": "外形の図に「NS 233」「160」の表示あり。識別コード欄は「NS 233」。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 16.7,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の長楕円形をした割線入りのフィルムコーティング錠 長径： 16.7mm 短径： 6.6mm 錠厚： 5.5mm 重量：457.2mg 識別コード NS 233"
+    }
+  ]
+}

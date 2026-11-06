@@ -1,0 +1,30 @@
+{
+  "id": "2144006F3122",
+  "source_file": "300119_2144006F1120_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2144006F1120_1_07",
+  "extracted_at": "2026-11-06T16:05:52.461Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24853,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リシノプリル錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "SW 757",
+      "imprint_back": "20",
+      "imprint_note": "外形の図に「SW 757」と「20」の表示あり。識別コード欄には SW 757 と記載。割線入り素錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／性状 白色／直径（mm） 8.0／厚さ（mm） 3.1／重量（mg） 約220／識別コード SW 757"
+    }
+  ]
+}

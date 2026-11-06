@@ -1,0 +1,30 @@
+{
+  "id": "2149041F6030",
+  "source_file": "480235_2149041F5034_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149041F5034_1_09",
+  "extracted_at": "2026-11-06T16:14:04.818Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23700,
+    "output": 669
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタンOD錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "バルサ40",
+      "imprint_back": "バルサルタン OD 40 トーワ",
+      "imprint_note": "本体表示（印刷）。裏面は3行表記（バルサルタン／OD 40／トーワ）。形状は「円形」の明記がなく、直径の記載から round とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの口腔内崩壊錠／本体表示 表 バルサ40 裏 バルサルタン OD 40 トーワ／直径(mm) 8.5 厚さ(mm) 4.1 質量(mg) 225"
+    }
+  ]
+}

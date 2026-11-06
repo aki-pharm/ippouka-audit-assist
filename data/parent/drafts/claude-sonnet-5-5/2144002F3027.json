@@ -1,0 +1,30 @@
+{
+  "id": "2144002F3027",
+  "source_file": "181615_2144002F1024_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_2144002F1024_3_04",
+  "extracted_at": "2026-11-06T16:05:32.189Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20370,
+    "output": 236
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レニベース錠10",
+      "strength": "10mg",
+      "imprint_front": "MSD713",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはMSD713。裏面は割線の図あり（外形図より）。",
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 円形・素錠・うすい桃色 / 直径：8.0mm / 厚さ：2.8mm / 識別コード MSD713"
+    }
+  ]
+}

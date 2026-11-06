@@ -1,0 +1,30 @@
+{
+  "id": "2149046F3158",
+  "source_file": "300166_2149046F1155_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2149046F1155_1_03",
+  "extracted_at": "2026-11-06T16:17:17.182Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19741,
+    "output": 337
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠200mg「KMP」",
+      "strength": "200mg",
+      "imprint_front": "イルベサルタン 200 KMP",
+      "imprint_back": "イルベサルタン 200 KMP",
+      "imprint_note": "識別コードは「イルベサルタン 200 KMP」と記載。表面・裏面の個別の刻印内容は文書の文字情報では確認できない（外形図に表示）。",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色楕円形の割線入りのフィルムコーティング錠 / サイズ 長径13.6mm 短径6.6mm 厚さ4.5mm 重量328mg / 識別コード イルベサルタン 200 KMP"
+    }
+  ]
+}

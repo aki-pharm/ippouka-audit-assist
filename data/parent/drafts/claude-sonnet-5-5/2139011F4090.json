@@ -1,0 +1,30 @@
+{
+  "id": "2139011F4090",
+  "source_file": "530100_2139011F3069_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2139011F3069_1_08",
+  "extracted_at": "2026-11-06T16:05:12.892Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 62050,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠15mg「ニプロ」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文には刻印・識別コードの記載なし（外形図に印字があるが文字としては読み取れない）",
+      "color": "薄い青色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 2,
+      "source_quote": "トルバプタンOD錠15mg「ニプロ」 薄い青色の割線入りの素錠（口腔内崩壊錠） 直径8.6mm 厚さ3.7mm 重量200mg"
+    }
+  ]
+}

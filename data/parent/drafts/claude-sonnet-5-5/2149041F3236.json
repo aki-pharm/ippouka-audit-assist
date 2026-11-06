@@ -1,0 +1,30 @@
+{
+  "id": "2149041F3236",
+  "source_file": "270428_2149041F1233_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2149041F1233_1_11",
+  "extracted_at": "2026-11-06T16:12:56.589Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22019,
+    "output": 714
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠80mg「サンド」",
+      "strength": "80mg",
+      "imprint_front": "VL",
+      "imprint_back": "80",
+      "imprint_note": "識別コードはVL80。表面にVL、裏面に80と外形図に示されている。片面割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りのフィルムコーティング錠／識別コード VL80／直径：8.6mm 厚さ：3.7mm 質量：0.21g"
+    }
+  ]
+}

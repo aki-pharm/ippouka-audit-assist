@@ -1,0 +1,30 @@
+{
+  "id": "2149026F4149",
+  "source_file": "300119_2149026F1140_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149026F1140_1_06",
+  "extracted_at": "2026-11-06T16:08:52.095Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15760,
+    "output": 901
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドキサゾシン錠4mg「サワイ」",
+      "strength": "4mg",
+      "imprint_front": "SW DX4",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは本文表に SW DX4 と記載。裏面の刻印は本文に記載がなく、外形図のみのため未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／性状 白色／直径（mm）8.1／厚さ（mm）3.1／重量（mg）約200／識別コード SW DX4（ドキサゾシン錠4mg「サワイ」の列）"
+    }
+  ]
+}

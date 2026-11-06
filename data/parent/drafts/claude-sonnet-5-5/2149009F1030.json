@@ -1,0 +1,30 @@
+{
+  "id": "2149009F1030",
+  "source_file": "112268_2149009F1030_3_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112268_2149009F1030_3_12",
+  "extracted_at": "2026-11-06T16:06:59.718Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16701,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トランデート錠50mg",
+      "strength": "50mg",
+      "imprint_front": "Sz T50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：Sz T50（表の外形図には表面に「Sz T50」の表示。裏面・側面の刻印は文書に記載なし）。剤形はフィルムコーティング錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 トランデート錠50mg／剤形 フィルムコーティング錠／色調 白色／外形 直径 6.6mm／厚さ 2.7mm／質量 78mg／識別コード Sz T50"
+    }
+  ]
+}

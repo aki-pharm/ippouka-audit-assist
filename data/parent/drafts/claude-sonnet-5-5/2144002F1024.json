@@ -1,0 +1,30 @@
+{
+  "id": "2144002F1024",
+  "source_file": "181615_2144002F1024_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_2144002F1024_3_04",
+  "extracted_at": "2026-11-06T16:05:28.567Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20372,
+    "output": 245
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レニベース錠2.5",
+      "strength": "2.5mg",
+      "imprint_front": "MSD14",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：MSD14（表面に印字）。裏面の外形図は無地で、割線の記載なし",
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 1.7,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 円形・素錠・うすい桃色 直径：5.1mm 厚さ：1.7mm 識別コード MSD14"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149046F3131",
+  "source_file": "530100_2149046F1139_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149046F1139_1_09",
+  "extracted_at": "2026-11-06T16:17:14.081Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22035,
+    "output": 250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠200mg「ニプロ」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "文章中に刻印・識別コードの記載なし（図のみ）",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りフィルムコーティング錠（長径）14.1（短径）7.4 厚さ4.5 重量347"
+    }
+  ]
+}

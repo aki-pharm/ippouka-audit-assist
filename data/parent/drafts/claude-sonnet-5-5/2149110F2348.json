@@ -1,0 +1,46 @@
+{
+  "id": "2149110F2348",
+  "source_file": "581120_2149110F1376_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149110F1376_1_05",
+  "extracted_at": "2026-11-06T16:21:43.174Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31666,
+    "output": 1286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルヒド配合錠LD「NIG」",
+      "strength": "ロサルタンカリウム50.00mg/ヒドロクロロチアジド12.50mg",
+      "imprint_front": "ロサルヒド LD NIG",
+      "imprint_back": "ロサルヒド LD NIG",
+      "imprint_note": "外形図の印字による。本文中に刻印の文章記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠　直径 7.6mm　厚さ 3.9mm　質量 187mg"
+    },
+    {
+      "product_name": "ロサルヒド配合錠HD「NIG」",
+      "strength": "ロサルタンカリウム100.00mg/ヒドロクロロチアジド12.50mg",
+      "imprint_front": "ロサルヒド HD NIG",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の印字による。本文中に刻印の文章記載はなし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠　長径 13.6mm　短径 6.6mm　厚さ 4.1mm　質量 310mg"
+    }
+  ]
+}

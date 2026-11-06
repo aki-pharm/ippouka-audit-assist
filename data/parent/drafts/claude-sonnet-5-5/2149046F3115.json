@@ -1,0 +1,30 @@
+{
+  "id": "2149046F3115",
+  "source_file": "480235_2149046F1112_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149046F1112_2_05",
+  "extracted_at": "2026-11-06T16:17:10.996Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19799,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "200 イルベ",
+      "imprint_back": "イルベサルタン 200 トーワ",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りのフィルムコーティング錠 / 本体表示 表 200 イルベ、裏 イルベサルタン 200 トーワ / 直径(mm) 14.1／7.4（長径／短径）/ 厚さ(mm) 4.6"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2139011F3050",
+  "source_file": "180079_2139011F3050_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180079_2139011F3050_1_05",
+  "extracted_at": "2026-11-06T16:04:45.137Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 39178,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠7.5mg「オーツカ」",
+      "strength": "7.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状の文字情報には刻印・識別コードの記載なし（外形の図中に表示はあるが、文章では確認できない）",
+      "color": "青色",
+      "shape": "other",
+      "size_long_mm": 7.7,
+      "size_short_mm": 4.4,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "トルバプタンOD錠7.5mg「オーツカ」 青色の割線入りの変形長方形の素錠 7.7（長径） 4.4（短径） 2.6 約85"
+    }
+  ]
+}

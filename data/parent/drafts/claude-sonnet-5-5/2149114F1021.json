@@ -1,0 +1,30 @@
+{
+  "id": "2149114F1021",
+  "source_file": "300242_2149114F1021_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_2149114F1021_1_19",
+  "extracted_at": "2026-11-06T16:23:42.846Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24440,
+    "output": 870
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エックスフォージ配合錠",
+      "strength": "1錠中バルサルタン80mg・アムロジピン5mg（アムロジピンベシル酸塩6.93mg）",
+      "imprint_front": "NV",
+      "imprint_back": "140",
+      "imprint_note": "識別コード NV 140（外形図では表がNV、裏が140）",
+      "color": "帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 帯黄白色のフィルムコーティング錠　識別コード NV 140　大きさ（約） 直径：8.5mm　厚さ：3.9mm　質量：0.21g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149041F7029",
+  "source_file": "300242_2149041F5026_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_2149041F5026_1_13",
+  "extracted_at": "2026-11-06T16:14:08.208Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24099,
+    "output": 852
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ディオバンOD錠80mg",
+      "strength": "80mg",
+      "imprint_front": "NV 143",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは3.2製剤の性状の表の記載。裏面の刻印は本文に記載なし。形状は「直径」の記載から円形とした。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状：白色の素錠／識別コード：NV 143／大きさ（約）直径：9.5mm 厚さ：5.4mm 質量：0.31g"
+    }
+  ]
+}

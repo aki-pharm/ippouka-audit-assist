@@ -1,0 +1,30 @@
+{
+  "id": "2139009F1026",
+  "source_file": "400315_2139009F1026_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2139009F1026_2_09",
+  "extracted_at": "2026-11-06T16:04:24.709Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16910,
+    "output": 824
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルプラック錠4mg",
+      "strength": "4mg",
+      "imprint_front": "Y-LU4",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード Y-LU4（外形図では表面に Y/LU4 の表示）。裏面の刻印は文書に記載なし。割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の素錠(割線入り)　識別コード Y-LU4　サイズ 直径(mm) 7.0 厚さ(mm) 2.8 重量(mg) 120"
+    }
+  ]
+}

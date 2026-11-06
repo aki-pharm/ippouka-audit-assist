@@ -1,0 +1,46 @@
+{
+  "id": "2149111F1028",
+  "source_file": "400061_2149111F1028_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_2149111F1028_2_10",
+  "extracted_at": "2026-11-06T16:21:50.787Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27225,
+    "output": 1548
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エカード配合錠LD",
+      "strength": "1錠中：カンデサルタン シレキセチル4mg・ヒドロクロロチアジド6.25mg",
+      "imprint_front": "293",
+      "imprint_back": "4 C",
+      "imprint_note": "表の識別コード欄は「293」。裏面の「4 C」は製剤の性状の図から読み取った（本文に文言の記載なし）。識別コードの前に社名マークらしき印あり。",
+      "color": "ごくうすい黄色",
+      "shape": "oval",
+      "size_long_mm": 8.6,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 エカード配合錠LD 色・剤形 ごくうすい黄色の素錠 長径（mm） 8.6 短径（mm） 5.1 厚さ（mm） 約3.0 重量（mg） 130 識別コード 293"
+    },
+    {
+      "product_name": "エカード配合錠HD",
+      "strength": "1錠中：カンデサルタン シレキセチル8mg・ヒドロクロロチアジド6.25mg",
+      "imprint_front": "294",
+      "imprint_back": "8 C",
+      "imprint_note": "表の識別コード欄は「294」。裏面の「8 C」は製剤の性状の図から読み取った（本文に文言の記載なし）。識別コードの前に社名マークらしき印あり。",
+      "color": "ごくうすい紅色",
+      "shape": "oval",
+      "size_long_mm": 8.6,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 エカード配合錠HD 色・剤形 ごくうすい紅色の素錠 長径（mm） 8.6 短径（mm） 5.1 厚さ（mm） 約3.0 重量（mg） 130 識別コード 294"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149048F3041",
+  "source_file": "300119_2149048F1049_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149048F1049_1_03",
+  "extracted_at": "2026-11-06T16:18:22.479Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28073,
+    "output": 1047
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタン錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "アジルサルタン 10 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「アジルサルタン 10 サワイ」と記載。表裏の区別は本文に記載なし",
+      "color": "微黄赤色",
+      "shape": null,
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／性状 微黄赤色／直径（mm） 8.2×4.7／厚さ（mm） 3.1／重量（mg） 約94／本体表示 アジルサルタン 10 サワイ"
+    }
+  ]
+}

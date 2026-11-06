@@ -1,0 +1,30 @@
+{
+  "id": "2149114F1153",
+  "source_file": "480209_2149114F1153_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149114F1153_1_11",
+  "extracted_at": "2026-11-06T16:24:04.137Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26031,
+    "output": 344
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムバロ配合錠「杏林」（バルサルタン80mg／アムロジピン5mg配合錠）",
+      "strength": "1錠中 バルサルタン80mg及びアムロジピンとして5mg",
+      "imprint_front": "アムバロ 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「アムバロ 杏林」と記載。外形図には表裏の表示があるが、裏面の刻印は文章では明記されていない。",
+      "color": "帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 帯黄白色 外形 本体表示 アムバロ 杏林 直径(mm) 8.6 厚さ(mm) 4.3 質量(mg) 240"
+    }
+  ]
+}

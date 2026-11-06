@@ -1,0 +1,30 @@
+{
+  "id": "2149046F1023",
+  "source_file": "400093_2149046F1023_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_2149046F1023_1_19",
+  "extracted_at": "2026-11-06T16:16:26.233Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18410,
+    "output": 856
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アバプロ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印の記載がない。外形の図には表示があるように見えるが、文字として確認できないため未確認とした。",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.6,
+      "size_short_mm": 4.5,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色のだ円形の割線入りフィルムコーティング錠 ／ 長径（mm）約8.6 短径（mm）約4.5 厚さ（mm）約3.3（アバプロ錠50mg）"
+    }
+  ]
+}

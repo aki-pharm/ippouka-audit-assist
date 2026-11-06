@@ -1,0 +1,30 @@
+{
+  "id": "2149041F3368",
+  "source_file": "171950_2149041F1365_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_2149041F1365_1_05",
+  "extracted_at": "2026-11-06T16:13:14.164Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23394,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠80mg「Me」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表裏の刻印は外形の図に示されているが、本文のテキストでは判読できず、確認できなかった。割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "バルサルタン錠80mg「Me」 割線入りフィルムコーティング錠 白色 直径（mm）8.6 厚さ（mm）3.8 重量（mg）209"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2149114F1064",
+  "source_file": "580591_2149114F1064_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149114F1064_1_11",
+  "extracted_at": "2026-11-06T16:23:49.411Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24031,
+    "output": 364
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムバロ配合錠「JG」（バルサルタン80mg／アムロジピン5mg）",
+      "strength": "1錠（バルサルタン80mg・アムロジピンとして5mg）",
+      "imprint_front": "アムバロ JG",
+      "imprint_back": "アムバロ JG",
+      "imprint_note": "本体表示は「アムバロ　JG」。表面・裏面・側面の外形図が掲載されているが、側面の刻印の有無は文章では未記載。割線の記載なし。",
+      "color": "帯黄白色のフィルムコーティング錠",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アムバロ配合錠「JG」 帯黄白色のフィルムコーティング錠 表面 裏面 側面 アムバロ　JG 直径 8.6mm 厚さ 4.3mm 重量 240mg"
+    }
+  ]
+}

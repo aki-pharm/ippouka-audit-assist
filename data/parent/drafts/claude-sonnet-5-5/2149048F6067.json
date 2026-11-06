@@ -1,0 +1,30 @@
+{
+  "id": "2149048F6067",
+  "source_file": "530113_2149048F4064_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2149048F4064_1_03",
+  "extracted_at": "2026-11-06T16:19:23.308Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29327,
+    "output": 717
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジルサルタンOD錠40mg「日新」",
+      "strength": "40mg",
+      "imprint_front": "アジル40",
+      "imprint_back": "NS アジルサルタン OD40",
+      "imprint_note": "割線入り",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状：黄色の割線入りのフィルムコーティング錠／大きさ：錠径：8.1mm 錠厚：3.6mm 重量：184mg／本体表示：表面 アジル40、裏面 NS アジルサルタン OD40"
+    }
+  ]
+}

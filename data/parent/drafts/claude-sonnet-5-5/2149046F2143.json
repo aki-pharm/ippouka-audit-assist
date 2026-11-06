@@ -1,0 +1,30 @@
+{
+  "id": "2149046F2143",
+  "source_file": "450064_2149046F1147_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2149046F1147_1_05",
+  "extracted_at": "2026-11-06T16:16:53.200Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21915,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "JG N62",
+      "imprint_back": "イルベサルタン 100 JG",
+      "imprint_note": "識別コード：JG N62、本体表示：イルベサルタン 100　JG",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11.2,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～帯黄白色のだ円形の割線入りフィルムコーティング錠／長径 11.2mm 短径 5.8mm 厚さ 3.7mm／識別コード JG N62／本体表示 イルベサルタン 100　JG"
+    }
+  ]
+}

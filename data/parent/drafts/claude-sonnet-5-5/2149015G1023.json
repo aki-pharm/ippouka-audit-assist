@@ -1,0 +1,30 @@
+{
+  "id": "2149015G1023",
+  "source_file": "170033_2149015G1023_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2149015G1023_1_17",
+  "extracted_at": "2026-11-06T16:07:34.090Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14939,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デタントールR錠3mg",
+      "strength": "3mg",
+      "imprint_front": "デタントールR3",
+      "imprint_back": "デタントールR3",
+      "imprint_note": "識別コード「デタントールR3」。外形の表・裏にそれぞれ印字（図の表示は「デタン トールR 3」）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 識別コード デタントールR3 直径（mm） 5.6 質量（mg） 83 厚さ（mm） 3.1 色 白色"
+    }
+  ]
+}

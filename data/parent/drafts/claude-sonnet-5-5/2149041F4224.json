@@ -1,0 +1,30 @@
+{
+  "id": "2149041F4224",
+  "source_file": "300119_2149041F1225_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149041F1225_1_05",
+  "extracted_at": "2026-11-06T16:13:35.396Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24152,
+    "output": 809
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠160mg「サワイ」",
+      "strength": "160mg",
+      "imprint_front": "SW V160",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として「SW V160」と記載。表裏の別は本文に記載なし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 14.6,
+      "size_short_mm": 5.8,
+      "thickness_mm": 6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：割線入りフィルムコーティング錠／性状：白色／直径（mm）14.6×5.8／厚さ（mm）6.0／識別表示：SW V160"
+    }
+  ]
+}
