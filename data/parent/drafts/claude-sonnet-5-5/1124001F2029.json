@@ -1,0 +1,30 @@
+{
+  "id": "1124001F2029",
+  "source_file": "400061_1124001B1039_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_1124001B1039_2_06",
+  "extracted_at": "2026-11-06T15:03:21.680Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13002,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユーロジン2mg錠",
+      "strength": "2mg",
+      "imprint_front": "142",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード142（社名マーク入りの表示）。片面割線入り。形状欄の図に基づく刻印は表側が識別コード142、割線面に「2」の表示。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面割線入りの素錠 / 直径（mm） 7.1 / 厚さ（mm） 2.4 / 重量（mg） 120 / 識別コード 142"
+    }
+  ]
+}

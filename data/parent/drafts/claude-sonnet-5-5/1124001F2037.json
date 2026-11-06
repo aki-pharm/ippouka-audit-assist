@@ -1,0 +1,30 @@
+{
+  "id": "1124001F2037",
+  "source_file": "672173_1124001F1030_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1124001F1030_3_07",
+  "extracted_at": "2026-11-06T15:03:20.472Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15387,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスタゾラム錠2mg「アメル」",
+      "strength": "2mg",
+      "imprint_front": "KW088",
+      "imprint_back": "2",
+      "imprint_note": "識別コード欄は「KW088 /2」と記載。割線は片面。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "エスタゾラム錠2mg「アメル」 片面割線入り素錠 白色 直径：約7.0mm 厚さ：約2.3mm 質量：約120mg 識別コード KW088/2"
+    }
+  ]
+}

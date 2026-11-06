@@ -1,0 +1,30 @@
+{
+  "id": "1124002M2022",
+  "source_file": "672173_1124002M2022_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1124002M2022_2_02",
+  "extracted_at": "2026-11-06T15:03:29.476Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14780,
+    "output": 707
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダルメートカプセル 15",
+      "strength": "15mg",
+      "imprint_front": "KW323",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード KW323。外形図ではキャップとボディの両方に表示。剤形は硬カプセル剤（錠剤ではない）、号数4。",
+      "color": "キャップ：濃青色、ボディ：白色",
+      "shape": "oblong",
+      "size_long_mm": 14.6,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色調 キャップ：濃青色 ボディ：白色 大きさ A 約 14.6mm B 約 5.3mm 号数 4 質量 約 190mg 識別コード KW323"
+    }
+  ]
+}
