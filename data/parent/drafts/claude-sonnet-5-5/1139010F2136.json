@@ -1,0 +1,30 @@
+{
+  "id": "1139010F2136",
+  "source_file": "780009_1139010F1130_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1139010F1130_1_05",
+  "extracted_at": "2026-11-06T15:10:53.154Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32228,
+    "output": 754
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠500mg「明治」",
+      "strength": "500mg",
+      "imprint_front": "レベチラ",
+      "imprint_back": "500 メイジ",
+      "imprint_note": "刻印は製剤の性状欄の外形図（表・裏）による。表面の「レベチラ」は割線をはさんで印字されている。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 16.5,
+      "size_short_mm": 7.8,
+      "thickness_mm": 5.8,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "レベチラセタム錠500mg「明治」 楕円形の割線入りフィルムコーティング錠 黄色 長径：16.5 短径：7.8 厚さ（mm）5.8 重量（mg）554"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1124017F4162",
+  "source_file": "730119_1124017B1145_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730119_1124017B1145_2_07",
+  "extracted_at": "2026-11-06T15:04:11.206Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16374,
+    "output": 247
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ホリゾン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "MI511",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード MI511（表面に記載）。外形図の裏面には刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 裸錠 色 白色 外形 表 裏 側面 大きさ 直径 7.0mm 厚さ 2.5mm 重量 0.12g 識別コード MI511"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1139015F2104",
+  "source_file": "400073_1139015F1108_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1139015F1108_1_03",
+  "extracted_at": "2026-11-06T15:12:33.920Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34152,
+    "output": 909
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラコサミド錠100mg「ダイト」",
+      "strength": "100mg",
+      "imprint_front": "ラコサミド 100 ダイト",
+      "imprint_back": "ラコサミド 100 ダイト",
+      "imprint_note": "刻印・印字は性状欄の本文ではなく外形図（表・裏）から読み取った。裏面に割線あり。",
+      "color": "濃黄色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版、承認条件削除）",
+      "source_page": 1,
+      "source_quote": "濃黄色の楕円形の割線入りフィルムコーティング錠　長径、短径 約13.1mm、約6.1mm　厚さ 約4.1mm　質量 約259.6mg"
+    }
+  ]
+}

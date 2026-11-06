@@ -1,0 +1,30 @@
+{
+  "id": "1129010F1079",
+  "source_file": "830001_1129010F1079_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1129010F1079_1_04",
+  "extracted_at": "2026-11-06T15:06:38.108Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27040,
+    "output": 998
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠1mg「YD」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文言に刻印・識別コードの記載なし（外形図のみ）。割線の記載もなし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠　直径 約6.1mm　厚さ 約2.8mm　重量 104.5mg"
+    }
+  ]
+}

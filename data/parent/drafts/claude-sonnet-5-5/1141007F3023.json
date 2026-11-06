@@ -1,0 +1,30 @@
+{
+  "id": "1141007F3023",
+  "source_file": "172190_1141007F1063_5_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_1141007F1063_5_07",
+  "extracted_at": "2026-11-06T15:13:22.452Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17998,
+    "output": 826
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カロナール錠500",
+      "strength": "500mg",
+      "imprint_front": "SD115",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「SD115」と記載。裏面の刻印について文章での記載はなし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15,
+      "size_short_mm": 8,
+      "thickness_mm": 5.9,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "本剤は割線入りの白色の素錠である。／長径 15.0mm 短径 8.0mm／厚さ 5.9mm／識別コード SD115"
+    }
+  ]
+}

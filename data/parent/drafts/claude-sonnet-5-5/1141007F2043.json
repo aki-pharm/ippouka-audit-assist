@@ -1,0 +1,30 @@
+{
+  "id": "1141007F2043",
+  "source_file": "450064_1141007F1152_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_1141007F1152_1_08",
+  "extracted_at": "2026-11-06T15:13:16.054Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17481,
+    "output": 830
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アセトアミノフェン錠300mg「JG」",
+      "strength": "300mg",
+      "imprint_front": "アセトアミノフェン 300 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「－」（記載なし）。刻印・印字は本体表示「アセトアミノフェン 300 JG」。表裏の別は文章では確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.1,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の素錠／大きさ 直径 10.0mm／厚さ 4.1mm／識別コード －／本体表示 アセトアミノフェン 300 JG"
+    }
+  ]
+}

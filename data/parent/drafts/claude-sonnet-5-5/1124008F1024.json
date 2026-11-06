@@ -1,0 +1,30 @@
+{
+  "id": "1124008F1024",
+  "source_file": "170033_1124008F1024_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1124008F1024_1_21",
+  "extracted_at": "2026-11-06T15:03:42.620Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15287,
+    "output": 808
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サイレース錠1mg",
+      "strength": "1mg",
+      "imprint_front": "201",
+      "imprint_back": "1",
+      "imprint_note": "外形図では表に社名マーク（ε）と識別コード201、裏に丸囲みの「1」。文章では識別コード201のみ記載。",
+      "color": "淡青色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／識別コード 201／直径（mm）7.1／質量（mg）107.0／厚さ（mm）2.7／色 淡青色※ 割線入り（※フィルムコーティング内部（素錠）は青色）"
+    }
+  ]
+}

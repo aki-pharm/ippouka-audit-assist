@@ -1,0 +1,30 @@
+{
+  "id": "1139010F1105",
+  "source_file": "530169_1139010F1105_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1139010F1105_1_06",
+  "extracted_at": "2026-11-06T15:10:07.002Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34315,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠250mg「日医工」",
+      "strength": "250mg",
+      "imprint_front": "レベチラセタム 250 日医工",
+      "imprint_back": "レベチラセタム 250 日医工",
+      "imprint_note": "本体表示。表面・裏面の両面に印字（250mg錠は割線の記載なし）",
+      "color": "青色",
+      "shape": "oval",
+      "size_long_mm": 12.9,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4.6,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "楕円形のフィルムコーティング錠 色調 青色 直径（mm） 12.9×6.1 厚さ（mm） 4.6 質量（mg） 275 本体表示 レベチラセタム 250 日医工"
+    }
+  ]
+}

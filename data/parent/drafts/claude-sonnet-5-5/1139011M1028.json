@@ -1,0 +1,46 @@
+{
+  "id": "1139011M1028",
+  "source_file": "780009_1139011M1028_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1139011M1028_1_08",
+  "extracted_at": "2026-11-06T15:11:08.078Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28569,
+    "output": 1249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ディアコミット カプセル250mg",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印・印字の記載なし。外形図には「Diacomit」「250mg」の印字らしき表示あり（本文での確認不可）。錠剤ではなく硬カプセル剤（カプセル番号2）",
+      "color": "明るい帯紫赤色",
+      "shape": "oblong",
+      "size_long_mm": 18.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ディアコミットカプセル250mg 硬カプセル剤 明るい帯紫赤色 カプセル番号 2 外形 長径：18.1 短径：6.1 重量 約0.32g"
+    },
+    {
+      "product_name": "ディアコミット ドライシロップ分包250mg",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなくドライシロップ剤（顆粒、分包品）のため刻印の記載なし",
+      "color": "ごくうすい帯赤白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ディアコミットドライシロップ分包250mg 846 ドライシロップ剤 ごくうすい帯赤白色の顆粒 分包品 芳香"
+    }
+  ]
+}

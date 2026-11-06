@@ -1,0 +1,30 @@
+{
+  "id": "1129010F3047",
+  "source_file": "300166_1129010F1044_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1129010F1044_2_03",
+  "extracted_at": "2026-11-06T15:07:04.713Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25696,
+    "output": 1083
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠3mg「KMP」",
+      "strength": "3mg",
+      "imprint_front": "エスゾピクロン 3 KMP",
+      "imprint_back": "エスゾピクロン 3 KMP",
+      "imprint_note": "本体表示。外形図では両面に表示。側面図あり",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 性状 淡赤色 / 直径(mm) 6.5 / 厚さ(mm) 3.2 / 重量(mg) 約105 / 本体表示 エスゾピクロン 3 KMP"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1129008F1039",
+  "source_file": "400093_1129008F1039_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1129008F1039_2_12",
+  "extracted_at": "2026-11-06T15:05:31.856Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15922,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セディール錠5mg",
+      "strength": "5mg",
+      "imprint_front": "034",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード034。外形の図には社名マークらしき表示もあるが、文書の文字情報では識別コードのみ記載。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡黄色のフィルムコート錠 直径(mm) 約6.1 厚さ(mm) 約2.7 重さ(mg) 約82 識別コード 034"
+    }
+  ]
+}

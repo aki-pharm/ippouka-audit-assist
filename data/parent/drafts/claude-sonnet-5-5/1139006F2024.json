@@ -1,0 +1,30 @@
+{
+  "id": "1139006F2024",
+  "source_file": "400093_1139006C1030_2_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1139006C1030_2_19",
+  "extracted_at": "2026-11-06T15:08:35.403Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20586,
+    "output": 718
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マイスタン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "P772",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード P772（表裏のどちらに入っているかは本文に記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年4月改訂(第3版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠／大きさ 直径(mm) 約7 厚さ(mm) 約2.5 重さ(mg) 約120／識別コード P772"
+    }
+  ]
+}

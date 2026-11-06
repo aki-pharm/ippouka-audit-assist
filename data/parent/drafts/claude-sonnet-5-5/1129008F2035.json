@@ -1,0 +1,30 @@
+{
+  "id": "1129008F2035",
+  "source_file": "400093_1129008F1039_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1129008F1039_2_12",
+  "extracted_at": "2026-11-06T15:05:37.878Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15922,
+    "output": 853
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セディール錠10mg",
+      "strength": "10mg",
+      "imprint_front": "044",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは社名マーク（◆）と「044」。表裏の別は本文に記載がなく未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "セディール錠10mg 色・剤形：白色のフィルムコート錠 大きさ：直径 約6.1mm、厚さ 約2.7mm、重さ 約82mg 識別コード：044"
+    }
+  ]
+}

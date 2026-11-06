@@ -1,0 +1,30 @@
+{
+  "id": "1129010F1028",
+  "source_file": "170033_1129010F1028_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1129010F1028_1_13",
+  "extracted_at": "2026-11-06T15:06:26.266Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25796,
+    "output": 232
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルネスタ錠1mg",
+      "strength": "1mg",
+      "imprint_front": "ルネスタ1",
+      "imprint_back": "ルネスタ1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.45,
+      "size_short_mm": 6.45,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ルネスタ錠1mg フィルムコーティング錠 白色 ルネスタ1 直径（mm）・質量（mg）・厚さ（mm） 6.45 104.5 3.2"
+    }
+  ]
+}

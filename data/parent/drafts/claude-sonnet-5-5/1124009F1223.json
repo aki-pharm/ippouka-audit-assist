@@ -1,0 +1,30 @@
+{
+  "id": "1124009F1223",
+  "source_file": "650168_1124009F1223_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_1124009F1223_1_15",
+  "extracted_at": "2026-11-06T15:03:47.074Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15110,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レンドルミン錠0.25mg",
+      "strength": "0.25mg",
+      "imprint_front": "13A",
+      "imprint_back": "13A",
+      "imprint_note": "識別コード「13A」。外形の図には表裏とも13Aの表示と社名マークがある。テキスト上の識別コードは「13A」のみ。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色の素錠（割線） 直 径 8.0mm 厚 さ 2.4mm 重 さ 0.15g 識別コード 13A"
+    }
+  ]
+}

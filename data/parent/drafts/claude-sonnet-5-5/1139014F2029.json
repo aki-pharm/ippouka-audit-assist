@@ -1,0 +1,30 @@
+{
+  "id": "1139014F2029",
+  "source_file": "170033_1139014F1022_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1139014F1022_1_10",
+  "extracted_at": "2026-11-06T15:11:18.142Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33618,
+    "output": 766
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フィコンパ錠4mg",
+      "strength": "4mg",
+      "imprint_front": "ε277",
+      "imprint_back": "4",
+      "imprint_note": "識別コード277。外形図の表に社名マーク（ε）と275/277の表記、裏に規格数字の表示あり（外形図の図示より）。",
+      "color": "赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "販売名 フィコンパ錠4mg／剤形 フィルムコーティング錠／識別コード 277／直径（mm） 8.1／質量（mg） 210／厚さ（mm） 4.2／色 赤色"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1141007F3031",
+  "source_file": "730119_1141007F1195_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730119_1141007F1195_1_14",
+  "extracted_at": "2026-11-06T15:13:24.555Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17949,
+    "output": 893
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アセトアミノフェン錠500mg「マルイシ」",
+      "strength": "500mg",
+      "imprint_front": "アセトアミノフェン 500",
+      "imprint_back": "アセトアミノフェン 500 マルイシ",
+      "imprint_note": "本体表示（印字）。割線あり",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 8,
+      "thickness_mm": 5.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠で割線がある。／大きさ 長径15.5mm、短径8.0mm／厚さ 5.3mm／本体表示 表面 アセトアミノフェン 500／裏面 アセトアミノフェン 500 マルイシ"
+    }
+  ]
+}

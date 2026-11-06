@@ -1,0 +1,30 @@
+{
+  "id": "1129009F2021",
+  "source_file": "800126_1129009F1025_3_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_1129009F1025_3_26",
+  "extracted_at": "2026-11-06T15:05:42.256Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24999,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マイスリー錠10mg",
+      "strength": "10mg",
+      "imprint_front": "631",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード631。表に社名マークらしき図柄あり（文面では未記載）。片面割線入。裏面の刻印は文面に記載なし（図では無地）。",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "マイスリー錠10mg フィルムコーティング錠（片面割線入） 淡いだいだい色 表 裏 側面 631 直径 厚さ 重量 約8.6mm 約3.3mm 約185mg"
+    }
+  ]
+}

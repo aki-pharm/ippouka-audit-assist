@@ -1,0 +1,30 @@
+{
+  "id": "1125004F1023",
+  "source_file": "670126_1125003B2031_1_35.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670126_1125003B2031_1_35",
+  "extracted_at": "2026-11-06T15:05:18.381Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23587,
+    "output": 251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェノバール錠30mg",
+      "strength": "30mg",
+      "imprint_front": "P3",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図には表面に「P3」の表示あり。裏面の刻印は添付文書に記載なし。割線の記載なし。剤形は素錠、重さ120mg。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "フェノバール錠30mg 素錠 白色 P3 7.0 3.0 120 （識別コード P3）"
+    }
+  ]
+}

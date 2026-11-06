@@ -1,0 +1,30 @@
+{
+  "id": "1129010F2059",
+  "source_file": "530372_1129010F1052_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_1129010F1052_1_04",
+  "extracted_at": "2026-11-06T15:06:53.028Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27313,
+    "output": 765
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠2mg「NPI」",
+      "strength": "2mg",
+      "imprint_front": "エスゾピクロン 2",
+      "imprint_back": "2 NPI",
+      "imprint_note": "識別コード「エスゾピクロン 2 /2 NPI」。外形図の裏面に割線あり。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.44,
+      "size_short_mm": 6.44,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入りのフィルムコーティング錠／直径 6.44mm／厚さ 3.1mm／重量 104.5mg／識別コード エスゾピクロン 2 /2 NPI"
+    }
+  ]
+}

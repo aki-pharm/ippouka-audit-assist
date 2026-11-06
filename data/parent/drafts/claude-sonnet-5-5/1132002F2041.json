@@ -1,0 +1,30 @@
+{
+  "id": "1132002F2041",
+  "source_file": "400093_1132002F1037_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1132002F1037_1_22",
+  "extracted_at": "2026-11-06T15:07:30.759Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25258,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレビアチン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "P172",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード P172。外形の図には表面に社名マーク（P）と P172 の表示があるが、裏面の刻印の記載は本文にない。割線入り素錠。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年4月改訂(第3版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠 / 大きさ 直径(mm)約9 厚さ(mm)約3.4 重さ(mg)約200 / 識別コード P172"
+    }
+  ]
+}

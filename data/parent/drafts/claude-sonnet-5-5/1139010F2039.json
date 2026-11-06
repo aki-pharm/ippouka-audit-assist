@@ -1,0 +1,30 @@
+{
+  "id": "1139010F2039",
+  "source_file": "580591_1139010F1032_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1139010F1032_1_07",
+  "extracted_at": "2026-11-06T15:10:27.677Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38571,
+    "output": 318
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠500mg「JG」",
+      "strength": "500mg",
+      "imprint_front": "レベチラセタム 500 JG",
+      "imprint_back": "レベチラセタム 500 JG",
+      "imprint_note": "本体表示：レベチラセタム 500 JG。表面・裏面の図に同様の表示あり（側面の表示は未確認）。",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 16.5,
+      "size_short_mm": 7.8,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "レベチラセタム錠500mg「JG」 黄色のフィルムコーティング錠 表面 裏面 側面 レベチラセタム 500 JG 長径 16.5mm 短径 7.8mm 厚さ 6.0mm 重量 568mg"
+    }
+  ]
+}

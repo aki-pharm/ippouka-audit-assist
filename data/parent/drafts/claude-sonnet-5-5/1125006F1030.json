@@ -1,0 +1,30 @@
+{
+  "id": "1125006F1030",
+  "source_file": "400315_1125006F1030_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1125006F1030_1_12",
+  "extracted_at": "2026-11-06T15:05:18.980Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11961,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラボナ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "TA 123",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に識別コードTA123の表示あり。表面と裏面の刻印の区別は文章では記載なし（外形図は表・裏・側面の3図）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・フィルムコーティング錠 外形 直径（mm）：7.0 厚さ（mm）：3.3 重量（g）：0.13 識別コード TA123"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1139010F2098",
+  "source_file": "480235_1139010F1091_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1139010F1091_3_06",
+  "extracted_at": "2026-11-06T15:10:45.401Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35394,
+    "output": 679
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠500mg「トーワ」",
+      "strength": "500mg",
+      "imprint_front": "500 レベチラセタム",
+      "imprint_back": "レベチラセタム 500 トーワ",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 16.4,
+      "size_short_mm": 7.7,
+      "thickness_mm": 5.8,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "黄色の楕円形の割線入りのフィルムコーティング錠　本体表示 表 500 レベチラセタム／裏 レベチラセタム 500 トーワ　直径(mm) 16.4／7.7（長径／短径）　厚さ(mm) 5.8"
+    }
+  ]
+}

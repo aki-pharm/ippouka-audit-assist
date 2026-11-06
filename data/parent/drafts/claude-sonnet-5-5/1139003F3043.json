@@ -1,0 +1,30 @@
+{
+  "id": "1139003F3043",
+  "source_file": "431010_1139003C1044_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_1139003C1044_2_04",
+  "extracted_at": "2026-11-06T15:08:00.082Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15675,
+    "output": 812
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リボトリール錠2mg",
+      "strength": "2mg",
+      "imprint_front": "TYP・2・",
+      "imprint_back": "DV",
+      "imprint_note": "識別コードは「TYP・2・/DV」と記載。どちらが表裏かは本文に明記がなく、錠剤は割線入り",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "リボトリール錠2mg｜色 うすいだいだい色｜剤形 素錠（割線入り）｜識別コード TYP・2・/DV｜直径 約8.0mm｜厚さ 約2.3mm｜平均重量 約150mg"
+    }
+  ]
+}

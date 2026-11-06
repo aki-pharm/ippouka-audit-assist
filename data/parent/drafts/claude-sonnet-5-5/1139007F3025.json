@@ -1,0 +1,30 @@
+{
+  "id": "1139007F3025",
+  "source_file": "670109_1139007F1022_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_1139007F1022_3_04",
+  "extracted_at": "2026-11-06T15:08:42.194Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30670,
+    "output": 569
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガバペン錠400mg",
+      "strength": "400mg",
+      "imprint_front": "GPN400",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして GPN400 の記載あり。刻印の表裏の区別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.3,
+      "size_short_mm": 10.3,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色フィルムコート錠／大きさ 直径 10.3mm（400mg）、厚さ 5.3mm（400mg）／識別コード GPN400"
+    }
+  ]
+}

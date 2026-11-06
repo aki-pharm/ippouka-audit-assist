@@ -1,0 +1,30 @@
+{
+  "id": "1147002F1560",
+  "source_file": "300242_1147002F1560_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_1147002F1560_1_11",
+  "extracted_at": "2026-11-06T15:13:35.948Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22385,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボルタレン錠25mg",
+      "strength": "25mg",
+      "imprint_front": "CG 301",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：CG 301（外形の図では表面に「CG 301」の表示。裏面の刻印は文章上は記載なし）",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄赤色のフィルムコーティング錠 識別コード CG 301 大きさ（約）直径：7.1mm　厚さ：3.3mm　質量：0.14g"
+    }
+  ]
+}

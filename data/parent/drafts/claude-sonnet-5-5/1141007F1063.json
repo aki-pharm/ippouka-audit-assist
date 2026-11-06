@@ -1,0 +1,30 @@
+{
+  "id": "1141007F1063",
+  "source_file": "172190_1141007F1063_5_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_1141007F1063_5_07",
+  "extracted_at": "2026-11-06T15:13:04.762Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17998,
+    "output": 631
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カロナール錠200",
+      "strength": "200mg",
+      "imprint_front": "SD112",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "本剤は白色の割線入り錠剤で、わずかにメントールのにおいがあり、味は苦い。（規格：直径 10.0mm、厚さ 3.3mm、重量 300mg、識別コード SD112）"
+    }
+  ]
+}

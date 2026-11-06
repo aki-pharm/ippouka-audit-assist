@@ -1,0 +1,30 @@
+{
+  "id": "1139004F1096",
+  "source_file": "581120_1139004F1096_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1139004F1096_2_03",
+  "extracted_at": "2026-11-06T15:08:01.910Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24989,
+    "output": 252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デパケン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "KH102",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）としてKH102と記載。錠剤本体の刻印については記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色のフィルムコーティング錠 外形 直径 8.2mm 厚さ 4.2mm 質量 0.19g 識別コード（PTP） KH102"
+    }
+  ]
+}

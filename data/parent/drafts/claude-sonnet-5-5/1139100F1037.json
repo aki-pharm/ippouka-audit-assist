@@ -1,0 +1,30 @@
+{
+  "id": "1139100F1037",
+  "source_file": "400093_1139100F1037_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1139100F1037_1_15",
+  "extracted_at": "2026-11-06T15:12:45.982Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29889,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "複合アレビアチン配合錠",
+      "strength": "1錠中 日局フェニトイン67.0mg、日局フェノバルビタール33.0mg",
+      "imprint_front": "P645",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード P645。外形図では表面に社名マークらしき図とP/645の表示があるが、裏面の刻印は文章では確認できない",
+      "color": "ほとんど白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂(第3版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 ほとんど白色の割線入り素錠 / 大きさ 直径(mm) 約8 厚さ(mm) 約3.5 重さ(mg) 約180 / 識別コード P645"
+    }
+  ]
+}

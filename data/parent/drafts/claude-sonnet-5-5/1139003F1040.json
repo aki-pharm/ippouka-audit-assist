@@ -1,0 +1,30 @@
+{
+  "id": "1139003F1040",
+  "source_file": "431010_1139003C1044_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_1139003C1044_2_04",
+  "extracted_at": "2026-11-06T15:07:47.541Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15677,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リボトリール錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "TYP0.5",
+      "imprint_back": "DU",
+      "imprint_note": "識別コードは「TYP0.5/DU」。表の記載は平面（表裏）の識別コードで、どちらの面がどのコードかは文書の本文からは確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色 白色／剤形 素錠／識別コード TYP0.5/DU／直径 約8.0mm／厚さ 約2.3mm／平均重量 約150mg"
+    }
+  ]
+}

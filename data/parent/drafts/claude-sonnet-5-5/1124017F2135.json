@@ -1,0 +1,30 @@
+{
+  "id": "1124017F2135",
+  "source_file": "400061_1124017B1129_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_1124017B1129_2_10",
+  "extracted_at": "2026-11-06T15:04:07.490Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13403,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "2mgセルシン錠",
+      "strength": "2mg",
+      "imprint_front": "110",
+      "imprint_back": "2",
+      "imprint_note": "識別コード110（社名マーク付き）。図では表に社名マークと110、裏に2の表示、側面図あり。片面割線入り",
+      "color": "白色～黄みの白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色～黄みの白色の片面割線入りの素錠 直径（mm）6.1 厚さ（mm）2.4 重量（mg）90 識別コード 110"
+    }
+  ]
+}

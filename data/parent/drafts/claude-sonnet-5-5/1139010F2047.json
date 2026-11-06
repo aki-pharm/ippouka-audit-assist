@@ -1,0 +1,30 @@
+{
+  "id": "1139010F2047",
+  "source_file": "400073_1139010F1040_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1139010F1040_1_09",
+  "extracted_at": "2026-11-06T15:10:32.232Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36218,
+    "output": 886
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠500mg「VTRS」",
+      "strength": "500mg",
+      "imprint_front": "レベチラセタム 500",
+      "imprint_back": "VT RS",
+      "imprint_note": "刻印は性状欄の外形図（上面・下面）から読み取ったもので、本文テキストには記載なし。下面はVTとRSの間に割線。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 16.4,
+      "size_short_mm": 7.6,
+      "thickness_mm": 6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "黄色の割線入りの楕円形のフィルムコーティング錠 長径 短径 厚さ 質量 16.4mm 7.6mm 6.0mm 554mg"
+    }
+  ]
+}

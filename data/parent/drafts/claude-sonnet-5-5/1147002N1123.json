@@ -1,0 +1,30 @@
+{
+  "id": "1147002N1123",
+  "source_file": "650034_1147002N1123_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650034_1147002N1123_2_12",
+  "extracted_at": "2026-11-06T15:13:44.954Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21194,
+    "output": 841
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナボールSRカプセル37.5",
+      "strength": "37.5mg",
+      "imprint_front": "SS112",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤（3号カプセル）。外形図では頭部・体部ともに「SS 112」の表示があるが、表裏の区別は文章に記載なし。大きさ（mm）の記載なし。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 頭部体部ともに白色の硬カプセル剤／外形 3号カプセル／識別コード SS112"
+    }
+  ]
+}

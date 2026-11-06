@@ -1,0 +1,30 @@
+{
+  "id": "1145005M1020",
+  "source_file": "170033_1145005M1020_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1145005M1020_1_18",
+  "extracted_at": "2026-11-06T15:13:34.482Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18909,
+    "output": 803
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "インフリーカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "235",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「235」。外形図には社名マークらしき記号も見られるが、本文には記載なし。裏面の刻印は記載なし。",
+      "color": "カプセル 上半分：白、下半分：白／内容物 淡黄色の粒及び粉末",
+      "shape": "oblong",
+      "size_long_mm": 16.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "販売名 インフリーカプセル100mg／剤形 硬カプセル剤／識別コード 235／大きさ 全長（mm）：16.2 号数：3号／質量（mg） 236／色 カプセル 上半分：白 下半分：白 内容物 淡黄色の粒及び粉末"
+    }
+  ]
+}

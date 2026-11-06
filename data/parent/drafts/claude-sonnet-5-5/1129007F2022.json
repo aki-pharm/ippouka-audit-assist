@@ -1,0 +1,30 @@
+{
+  "id": "1129007F2022",
+  "source_file": "780069_1129007F1026_1_28.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_1129007F1026_1_28",
+  "extracted_at": "2026-11-06T15:05:30.402Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16699,
+    "output": 795
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アモバン錠10",
+      "strength": "10mg",
+      "imprint_front": "なし",
+      "imprint_back": "ZC",
+      "imprint_note": "識別コードZCは裏面（外形図より）。表面は割線のみ。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10,
+      "size_short_mm": 5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色フィルムコーティング錠（割線入り）／外形 平面 棒状／大きさ（mm） 長径10、短径 5／厚 さ（mm） 約 3／識別コード ZC"
+    }
+  ]
+}

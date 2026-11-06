@@ -1,0 +1,30 @@
+{
+  "id": "1139004G3027",
+  "source_file": "270072_1139004D1052_3_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_1139004D1052_3_21",
+  "extracted_at": "2026-11-06T15:08:25.858Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28475,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレニカR錠400mg",
+      "strength": "400mg",
+      "imprint_front": "603 604のうち604（Kowaマーク付き）",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは604。社名マーク（Kowa）と併記。外形図には錠剤表面に社名マークと604の記載あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.2,
+      "size_short_mm": 11.2,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性 状 白色のフィルムコーティング錠（徐放錠）である。 外 形 直径：11.2mm 厚さ： 6.5mm 重量： 490mg 識別コード 604"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1139008F3020",
+  "source_file": "230124_1139008F1027_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_1139008F1027_1_20",
+  "extracted_at": "2026-11-06T15:08:50.295Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30350,
+    "output": 311
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トピナ錠25mg",
+      "strength": "25mg",
+      "imprint_front": "KH115",
+      "imprint_back": "なし",
+      "imprint_note": "表面に「KH 115」と表示。識別コードKH115は錠剤本体およびPTPシートに表示。裏面・側面の刻印の記載はなし（図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 6.1 ／ 厚さ（mm） 2.8 ／ 表面 KH 115 ／ 色調 白色 ／ 剤皮 フィルムコーティング錠 ／ 識別コード KH115（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1139004G2055",
+  "source_file": "672173_1139004G1067_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1139004G1067_2_09",
+  "extracted_at": "2026-11-06T15:08:22.229Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31805,
+    "output": 645
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルプロ酸ナトリウムSR錠200mg「アメル」",
+      "strength": "200mg",
+      "imprint_front": "Kw VPA R",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「Kw VPA R」と記載。表裏の区別は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 6.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "糖衣錠 Kw VPA R 白色 直径：約 10.5mm 厚さ：約 6.4mm 質量：約 487.0mg"
+    }
+  ]
+}

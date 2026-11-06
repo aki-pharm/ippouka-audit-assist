@@ -1,0 +1,30 @@
+{
+  "id": "1139012F2020",
+  "source_file": "170033_1139012F1023_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1139012F1023_1_06",
+  "extracted_at": "2026-11-06T15:11:03.013Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23007,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イノベロン錠200mg",
+      "strength": "200mg",
+      "imprint_front": "261/262のうち262（識別コード262、表に「ε 262」の印字）",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは262。表の印字には社名マーク（ε）を含む。割線入り。",
+      "color": "淡赤色",
+      "shape": "oval",
+      "size_long_mm": 15.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2022年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（楕円形）（割線入り） 識別コード 262 長径（mm）15.2 短径（mm）6.2 質量（mg）374 厚さ（mm）4.5 色 淡赤色"
+    }
+  ]
+}

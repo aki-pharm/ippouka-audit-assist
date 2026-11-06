@@ -1,0 +1,30 @@
+{
+  "id": "1124020F4032",
+  "source_file": "112268_1124020C1045_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112268_1124020C1045_2_08",
+  "extracted_at": "2026-11-06T15:04:28.426Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12885,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レキソタン錠5",
+      "strength": "5mg",
+      "imprint_front": "CP 5",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「CP 5」（表面に印字）。割線入り素錠。裏面の刻印は記載なし（図では割線のみ）。",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／色調 淡黄赤色／直径（mm） 約8.0／厚さ（mm） 約2.3／重量（mg） 約150／識別コード CP 5"
+    }
+  ]
+}

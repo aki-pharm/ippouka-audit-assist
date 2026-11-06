@@ -1,0 +1,30 @@
+{
+  "id": "1139015F1027",
+  "source_file": "820110_1139015F1027_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/820110_1139015F1027_1_15",
+  "extracted_at": "2026-11-06T15:11:30.242Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34455,
+    "output": 801
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビムパット錠50mg",
+      "strength": "50mg",
+      "imprint_front": "SP",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "ピンク色",
+      "shape": null,
+      "size_long_mm": 10.4,
+      "size_short_mm": 4.9,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色／剤形 ピンク色／フィルムコート錠 長径、短径 約10.4mm、約4.9mm 厚 さ 約3.2mm 識別コード 表 SP 裏 50"
+    }
+  ]
+}

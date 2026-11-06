@@ -1,0 +1,30 @@
+{
+  "id": "1129010F3128",
+  "source_file": "480235_1129010F1125_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1129010F1125_1_03",
+  "extracted_at": "2026-11-06T15:07:20.183Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25048,
+    "output": 1278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "3 エスゾピクロン トーワ",
+      "imprint_back": "3 エスゾピクロン トーワ",
+      "imprint_note": "本体表示欄は表裏が結合セルで、3mgは「3 エスゾピクロン トーワ」の1つの記載。外形図でも表裏とも3の刻印。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡赤色のフィルムコーティング錠／本体表示 3 エスゾピクロン トーワ／直径(mm) 6.1／厚さ(mm) 2.8／質量(mg) 104.5"
+    }
+  ]
+}

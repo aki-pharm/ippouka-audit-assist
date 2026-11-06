@@ -1,0 +1,30 @@
+{
+  "id": "1129010F2040",
+  "source_file": "300166_1129010F1044_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1129010F1044_2_03",
+  "extracted_at": "2026-11-06T15:06:50.215Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25696,
+    "output": 1108
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠2mg「KMP」",
+      "strength": "2mg",
+      "imprint_front": "エスゾピクロン 2 KMP",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「エスゾピクロン 2 KMP」と記載。表裏の区別は文書から確認できない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "エスゾピクロン錠2mg「KMP」：剤形 割線入りフィルムコーティング錠／性状 淡黄色／直径(mm) 6.5／厚さ(mm) 3.2／重量(mg) 約105／本体表示 エスゾピクロン 2 KMP"
+    }
+  ]
+}

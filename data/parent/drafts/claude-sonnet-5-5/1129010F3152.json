@@ -1,0 +1,30 @@
+{
+  "id": "1129010F3152",
+  "source_file": "780009_1129010F1150_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1129010F1150_1_03",
+  "extracted_at": "2026-11-06T15:07:26.569Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21270,
+    "output": 732
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠3mg「明治」",
+      "strength": "3mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表・裏）に印字らしき表示があるが、本文テキストには刻印・識別コードの記載がなく判読できない",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "エスゾピクロン錠3mg「明治」 フィルムコーティング錠 淡赤色 直径（mm）6.1 厚さ（mm）2.8 重量（mg）104.5"
+    }
+  ]
+}

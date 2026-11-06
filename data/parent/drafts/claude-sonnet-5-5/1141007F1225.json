@@ -1,0 +1,30 @@
+{
+  "id": "1141007F1225",
+  "source_file": "400278_1141007F1225_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1141007F1225_1_07",
+  "extracted_at": "2026-11-06T15:13:13.492Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17294,
+    "output": 711
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アセトアミノフェン錠200mg「TCK」",
+      "strength": "200mg",
+      "imprint_front": "TU 101",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TU 101。割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "アセトアミノフェン錠200mg「TCK」 101 TU 白色 素錠（割線入り） TU 101 9.0 3.6 253"
+    }
+  ]
+}

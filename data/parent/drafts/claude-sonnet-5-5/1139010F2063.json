@@ -1,0 +1,30 @@
+{
+  "id": "1139010F2063",
+  "source_file": "480209_1139010F1067_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1139010F1067_1_09",
+  "extracted_at": "2026-11-06T15:10:37.963Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37714,
+    "output": 320
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠500mg「杏林」",
+      "strength": "500mg",
+      "imprint_front": "レベチラセタム 500 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：レベチラセタム 500 杏林。剤形：楕円形 割線入りフィルムコーティング錠。裏面の表示は添付文書の文言では確認できない。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 16.5,
+      "size_short_mm": 7.7,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形 割線入り フィルムコーティング錠／色調 黄色／本体表示 レベチラセタム 500 杏林／直径(mm) 長径：16.5 短径：7.7／厚さ(mm) 5.6"
+    }
+  ]
+}

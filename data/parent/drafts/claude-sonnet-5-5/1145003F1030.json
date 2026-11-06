@@ -1,0 +1,30 @@
+{
+  "id": "1145003F1030",
+  "source_file": "270072_1145003F1030_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_1145003F1030_1_12",
+  "extracted_at": "2026-11-06T15:13:29.020Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18151,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランツジールコーワ錠30mg",
+      "strength": "30mg",
+      "imprint_front": "330",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図には社名マーク（Kowa）が表示され、識別コード欄には社名マークと330が記載されている。裏面の刻印は本文に明記なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠である。直径約7.2mm、厚さ約3.7mm、重量145mg 識別コード 330"
+    }
+  ]
+}

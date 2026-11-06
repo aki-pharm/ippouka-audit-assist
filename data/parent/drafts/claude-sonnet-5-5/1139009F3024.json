@@ -1,0 +1,30 @@
+{
+  "id": "1139009F3024",
+  "source_file": "340278_1139009F1021_1_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_1139009F1021_1_27",
+  "extracted_at": "2026-11-06T15:09:08.162Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 50141,
+    "output": 1322
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラミクタール錠25mg",
+      "strength": "25mg",
+      "imprint_front": "GS CL5",
+      "imprint_back": "25",
+      "imprint_note": "裏面の「25」は3.2製剤の性状の図から読み取った。文章では識別コードのみ記載。大きさ（直径5.2mm、厚さ2.0mm）も図中の数値で、小さく不鮮明なため要確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.2,
+      "size_short_mm": 5.2,
+      "thickness_mm": 2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色の素錠 識別コード GS CL5（ラミクタール錠25mg）、質量 63mg"
+    }
+  ]
+}

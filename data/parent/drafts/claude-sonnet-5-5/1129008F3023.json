@@ -1,0 +1,30 @@
+{
+  "id": "1129008F3023",
+  "source_file": "400093_1129008F1039_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1129008F1039_2_12",
+  "extracted_at": "2026-11-06T15:05:33.604Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15922,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セディール錠20mg",
+      "strength": "20mg",
+      "imprint_front": "DS047",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「DS047」。外形図には「DS 047」と「20」の表示あり（表裏の別は文書上不明）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコート錠 ／ 直径 約8.1mm、厚さ 約3.1mm、重さ 約163mg ／ 識別コード DS047"
+    }
+  ]
+}

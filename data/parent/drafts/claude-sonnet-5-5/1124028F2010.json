@@ -1,0 +1,30 @@
+{
+  "id": "1124028F2010",
+  "source_file": "460028_1124028B1062_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1124028B1062_1_08",
+  "extracted_at": "2026-11-06T15:05:02.646Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10490,
+    "output": 250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロルジアゼポキシド錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印・識別コードの記載なし（外形欄は図のみ）",
+      "color": "淡緑色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠、色調 淡緑色、大きさ 直径 約7.0mm、厚さ 約4.3mm、質量 約160mg"
+    }
+  ]
+}

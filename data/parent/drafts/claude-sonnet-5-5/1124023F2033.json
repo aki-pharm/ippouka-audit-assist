@@ -1,0 +1,30 @@
+{
+  "id": "1124023F2033",
+  "source_file": "671450_1124023F1037_5_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_1124023F1037_5_05",
+  "extracted_at": "2026-11-06T15:04:55.006Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13513,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソラナックス0.8mg錠",
+      "strength": "0.8mg",
+      "imprint_front": "UPJOHN 91",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「UPJOHN 91」は上面に表示。下面・側面の刻印は文字情報としては記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ソラナックス 0.8mg 錠 UPJOHN 91 白色 割線入り 素錠 直径 7.2mm 厚さ 2.9mm 重量 129mg"
+    }
+  ]
+}

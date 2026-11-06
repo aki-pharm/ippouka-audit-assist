@@ -1,0 +1,30 @@
+{
+  "id": "1139010F2128",
+  "source_file": "671940_1139010F1121_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_1139010F1121_1_06",
+  "extracted_at": "2026-11-06T15:10:52.859Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37698,
+    "output": 809
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠500mg「フェルゼン」",
+      "strength": "500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図には印字があるように見えるが、性状欄の文章には刻印・識別コードの記載がないため未確認とした",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 16.4,
+      "size_short_mm": 7.6,
+      "thickness_mm": 6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "黄色の割線入りの楕円形のフィルムコーティング錠（大きさ等：直径 約16.4mm、短径 約7.6mm、厚さ 約6.0mm、質量 約554mg）"
+    }
+  ]
+}

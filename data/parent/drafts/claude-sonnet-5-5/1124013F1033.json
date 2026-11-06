@@ -1,0 +1,30 @@
+{
+  "id": "1124013F1033",
+  "source_file": "530258_1124013B1031_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1124013B1031_3_04",
+  "extracted_at": "2026-11-06T15:03:56.685Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13283,
+    "output": 247
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレナール錠5",
+      "strength": "5mg",
+      "imprint_front": "NF106",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄にNF106と記載。表裏の区別は本文中に明記なし（外形図には「NF 106」の表示あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "セレナール錠5 白色・糖衣錠 直径5.8mm 厚さ3.4mm 質量90mg 識別コード NF106"
+    }
+  ]
+}

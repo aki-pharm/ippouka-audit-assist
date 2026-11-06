@@ -1,0 +1,30 @@
+{
+  "id": "1129010F3055",
+  "source_file": "530372_1129010F1052_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_1129010F1052_1_04",
+  "extracted_at": "2026-11-06T15:07:04.404Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27313,
+    "output": 856
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠3mg「NPI」",
+      "strength": "3mg",
+      "imprint_front": "エスゾピクロン 3",
+      "imprint_back": "3 NPI",
+      "imprint_note": "識別コード「エスゾピクロン 3 /3 NPI」を表（エスゾピクロン 3）と裏（3 NPI）に分けて記載",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.44,
+      "size_short_mm": 6.44,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤色のフィルムコーティング錠　直径 6.44mm　厚さ 3.1mm　重量 104.5mg　識別コード エスゾピクロン 3 /3 NPI"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1124020F1025",
+  "source_file": "112268_1124020C1045_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112268_1124020C1045_2_08",
+  "extracted_at": "2026-11-06T15:04:17.927Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12885,
+    "output": 231
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レキソタン錠1",
+      "strength": "1mg",
+      "imprint_front": "CP 1",
+      "imprint_back": "なし",
+      "imprint_note": "裏面は割線のみ。識別コードは「CP 1」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／色調 白色／直径（mm） 約6.0／厚さ（mm） 約2.0／重量（mg） 約75／識別コード CP 1"
+    }
+  ]
+}

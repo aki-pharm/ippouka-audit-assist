@@ -1,0 +1,30 @@
+{
+  "id": "1139010F2020",
+  "source_file": "820110_1139010F1024_1_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/820110_1139010F1024_1_27",
+  "extracted_at": "2026-11-06T15:10:31.256Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35974,
+    "output": 822
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イーケプラ錠500mg",
+      "strength": "500mg",
+      "imprint_front": "ucb 500",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「ucb 500」と記載。表裏の区別は文章では記載なし。外形は図のみで形状の文章記載なし",
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": 16.4,
+      "size_short_mm": 7.7,
+      "thickness_mm": 5.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "販売名 イーケプラ錠500mg／色／剤形 黄色／フィルムコート錠／長径、短径 約16.4mm、約7.7mm／厚さ 約5.8mm／重量 約554mg／識別コード ucb 500"
+    }
+  ]
+}

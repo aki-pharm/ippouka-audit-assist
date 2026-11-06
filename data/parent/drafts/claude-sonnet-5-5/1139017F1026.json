@@ -1,0 +1,30 @@
+{
+  "id": "1139017F1026",
+  "source_file": "820110_1139017F1026_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/820110_1139017F1026_1_02",
+  "extracted_at": "2026-11-06T15:12:40.334Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26819,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブリィビアクト錠25mg",
+      "strength": "25mg",
+      "imprint_front": "u25",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはu25。外形図では表面にu25の表示があり、裏面と側面には表示なし。",
+      "color": "灰色",
+      "shape": "oval",
+      "size_long_mm": 8.9,
+      "size_short_mm": 5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色/剤形 灰色/フィルムコート錠 長径、短径 約8.9mm、約5.0mm 厚 さ 約3.4mm 重 量 約142mg 識別コード u25"
+    }
+  ]
+}

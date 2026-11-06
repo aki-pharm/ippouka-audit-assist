@@ -1,0 +1,30 @@
+{
+  "id": "1139005F1023",
+  "source_file": "400093_1139005B1048_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1139005B1048_1_18",
+  "extracted_at": "2026-11-06T15:08:27.656Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16790,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エクセグラン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "P132",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードP132（外形図では表面に社名マークと思われる「P」と「132」の表示）。裏面の刻印の記載は確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年10月改訂(第2版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコート錠／大きさ 直径(mm) 約8.1、厚さ(mm) 約3.7、重さ(mg) 約185／識別コード P132"
+    }
+  ]
+}

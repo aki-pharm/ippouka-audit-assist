@@ -1,0 +1,30 @@
+{
+  "id": "1139008F2023",
+  "source_file": "230124_1139008F1027_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_1139008F1027_1_20",
+  "extracted_at": "2026-11-06T15:08:48.755Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30350,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トピナ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "KH117",
+      "imprint_back": "なし",
+      "imprint_note": "表面に「KH 117」（2段表示）。識別コードはKH117（錠剤本体、PTPシートに表示）。裏面・側面に刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 8.1／厚さ（mm） 3.6／重量（g） 0.19／表面 KH 117／色調 白色／剤皮 フィルムコーティング錠／識別コード KH117（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

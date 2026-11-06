@@ -1,0 +1,30 @@
+{
+  "id": "1124010F1021",
+  "source_file": "730119_1124010F1021_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730119_1124010F1021_3_02",
+  "extracted_at": "2026-11-06T15:03:56.976Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12673,
+    "output": 640
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エバミール錠1.0",
+      "strength": "1.0mg",
+      "imprint_front": "MIA1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード MIA1。表裏の別は文章での記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色 直径 7.0mm 厚さ 2.4mm 質量 0.12g 識別コード MIA1"
+    }
+  ]
+}

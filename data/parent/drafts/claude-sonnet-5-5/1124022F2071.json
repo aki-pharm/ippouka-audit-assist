@@ -1,0 +1,30 @@
+{
+  "id": "1124022F2071",
+  "source_file": "672212_1124022F1067_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1124022F1067_3_05",
+  "extracted_at": "2026-11-06T15:04:44.421Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12698,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワイパックス錠1.0",
+      "strength": "1.0mg",
+      "imprint_front": "WPX/1.0",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは上面・下面の区別なく「WPX/1.0」と記載。割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ワイパックス錠1.0 WPX/1.0 白色 素錠 直径 割線入り 約6.4mm 厚さ 約2.4mm 重量 約100mg"
+    }
+  ]
+}

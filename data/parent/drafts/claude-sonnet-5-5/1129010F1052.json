@@ -1,0 +1,30 @@
+{
+  "id": "1129010F1052",
+  "source_file": "530372_1129010F1052_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_1129010F1052_1_04",
+  "extracted_at": "2026-11-06T15:06:36.825Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27313,
+    "output": 866
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠1mg「NPI」",
+      "strength": "1mg",
+      "imprint_front": "エスゾピクロン 1",
+      "imprint_back": "1 NPI",
+      "imprint_note": "識別コード欄の記載は「エスゾピクロン 1 /1 NPI」。「/」の前後を表・裏として記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.44,
+      "size_short_mm": 6.44,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠／直径 6.44mm／厚さ 3.1mm／重量 104.5mg／識別コード エスゾピクロン 1 /1 NPI"
+    }
+  ]
+}

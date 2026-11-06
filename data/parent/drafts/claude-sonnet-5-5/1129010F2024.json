@@ -1,0 +1,30 @@
+{
+  "id": "1129010F2024",
+  "source_file": "170033_1129010F1028_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1129010F1028_1_13",
+  "extracted_at": "2026-11-06T15:06:46.475Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25796,
+    "output": 719
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルネスタ錠2mg",
+      "strength": "2mg",
+      "imprint_front": "ルネスタ2",
+      "imprint_back": "ルネスタ2",
+      "imprint_note": "識別コードは表裏の列にまたがって「ルネスタ2」と記載。外形図では表裏とも同じ表示。側面は割線入り",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.45,
+      "size_short_mm": 6.45,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ルネスタ錠2mg フィルムコーティング錠 淡黄色 割線入り ルネスタ2 直径（mm）・質量（mg）・厚さ（mm） 6.45 104.5 3.2"
+    }
+  ]
+}

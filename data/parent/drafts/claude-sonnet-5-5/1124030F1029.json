@@ -1,0 +1,30 @@
+{
+  "id": "1124030F1029",
+  "source_file": "650034_1124030F1029_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650034_1124030F1029_2_17",
+  "extracted_at": "2026-11-06T15:05:08.708Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13556,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドラール錠15",
+      "strength": "15mg",
+      "imprint_front": "SS 515",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはSS515。表裏の別は本文に記載がなく、外形図からも判別できないため、表は「SS 515」としている",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡橙色・わずかに特異な味・素錠（割線入り）／直径（mm）8.5／厚さ（mm）2.8／質量（mg）200／識別コード SS515"
+    }
+  ]
+}

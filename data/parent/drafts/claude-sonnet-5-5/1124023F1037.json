@@ -1,0 +1,30 @@
+{
+  "id": "1124023F1037",
+  "source_file": "671450_1124023F1037_5_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_1124023F1037_5_05",
+  "extracted_at": "2026-11-06T15:04:53.655Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13513,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソラナックス0.4mg錠",
+      "strength": "0.4mg",
+      "imprint_front": "UPJOHN 72",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：UPJOHN 72（上面の表示。下面・側面の刻印の記載は確認できない）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ソラナックス 0.4mg 錠 UPJOHN 72 白色 割線入り 素錠 長径 9.1mm 短径 5.6mm 厚さ 3.2mm 重量 129mg"
+    }
+  ]
+}

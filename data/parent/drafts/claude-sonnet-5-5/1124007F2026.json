@@ -1,0 +1,30 @@
+{
+  "id": "1124007F2026",
+  "source_file": "672212_1124007F1020_4_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1124007F1020_4_12",
+  "extracted_at": "2026-11-06T15:03:40.270Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17721,
+    "output": 879
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハルシオン0.25mg錠",
+      "strength": "0.25mg",
+      "imprint_front": "UPJOHN 17",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「UPJOHN 17」。割線入り。",
+      "color": "淡青色",
+      "shape": "oval",
+      "size_long_mm": 7.9,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ハルシオン0.25mg錠 0.25mg UPJOHN 17 淡青色 割線入り 素錠 長径7.9mm 短径5.7mm 厚さ2.0mm 重量0.10g"
+    }
+  ]
+}

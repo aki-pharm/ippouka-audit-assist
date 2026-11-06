@@ -1,0 +1,30 @@
+{
+  "id": "1137001F1039",
+  "source_file": "672173_1137001F1039_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1137001F1039_2_03",
+  "extracted_at": "2026-11-06T15:07:37.800Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8863,
+    "output": 703
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オスポロット錠50mg",
+      "strength": "50mg",
+      "imprint_front": "KW002",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはKW002と記載。表裏の区別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.95,
+      "score_line": null,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "オスポロット錠50mg 光沢のあるフィルムコーティング錠 白色 KW002 直径：約6.1mm 厚さ：約2.95mm 質量：約97mg"
+    }
+  ]
+}

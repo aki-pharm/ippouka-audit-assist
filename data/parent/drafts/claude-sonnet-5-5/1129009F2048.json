@@ -1,0 +1,30 @@
+{
+  "id": "1129009F2048",
+  "source_file": "530258_1129009F1041_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1129009F1041_1_13",
+  "extracted_at": "2026-11-06T15:05:48.728Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22973,
+    "output": 901
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「AFP」",
+      "strength": "10mg",
+      "imprint_front": "NF 223",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載はNF 223のみ。裏面の表示は本文に記載なし。",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の片面割線入りフィルムコーティング錠　識別コード NF 223　直径8.5mm　厚さ3.0mm　質量約180mg"
+    }
+  ]
+}

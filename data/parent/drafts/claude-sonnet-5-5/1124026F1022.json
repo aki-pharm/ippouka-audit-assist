@@ -1,0 +1,30 @@
+{
+  "id": "1124026F1022",
+  "source_file": "790005_1124026F1022_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_1124026F1022_1_01",
+  "extracted_at": "2026-11-06T15:05:01.120Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12382,
+    "output": 230
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グランダキシン錠50",
+      "strength": "50mg",
+      "imprint_front": "MO110",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード MO110。外形図に「MO 110」と表示。裏面の刻印は本文に記載なし",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 微黄白色の素錠 外形（mm） 重量（mg） 210 識別コード MO110"
+    }
+  ]
+}

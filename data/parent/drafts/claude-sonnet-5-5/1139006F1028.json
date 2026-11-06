@@ -1,0 +1,30 @@
+{
+  "id": "1139006F1028",
+  "source_file": "400093_1139006C1030_2_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1139006C1030_2_19",
+  "extracted_at": "2026-11-06T15:08:36.440Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20586,
+    "output": 788
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マイスタン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "P771",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード P771 のみ本文に記載。外形図には裏面に「5」らしき表示があるが、本文に記載がないため未確認とした",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年4月改訂(第3版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすいだいだい色の割線入り素錠 / 大きさ 直径(mm) 約6.5 厚さ(mm) 約2.3 重さ(mg) 約100 / 識別コード P771"
+    }
+  ]
+}

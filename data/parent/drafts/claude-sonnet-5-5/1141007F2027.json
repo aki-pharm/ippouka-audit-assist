@@ -1,0 +1,30 @@
+{
+  "id": "1141007F2027",
+  "source_file": "172190_1141007F1063_5_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_1141007F1063_5_07",
+  "extracted_at": "2026-11-06T15:13:13.840Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17998,
+    "output": 866
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カロナール錠300",
+      "strength": "300mg",
+      "imprint_front": "SD113",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード SD113（表面の外形図に「SD」「113」の表示あり）。裏面の刻印は文章では記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "本剤は白色の素錠で、わずかにメントールのにおいがあり、味は苦い。（規格：直径 10.0mm、厚さ 4.0mm、重量 375mg、識別コード SD113）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1139014F2037",
+  "source_file": "672173_1139014F1030_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1139014F1030_1_02",
+  "extracted_at": "2026-11-06T15:11:19.814Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35832,
+    "output": 899
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペランパネル錠 4mg「アメル」",
+      "strength": "4mg",
+      "imprint_front": "ペランパネル 4 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「ペランパネル 4 アメル」と記載。表裏の区別は文章に記載なし。割線の記載なし。",
+      "color": "赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ペランパネル錠 4mg「アメル」 フィルムコーティング錠 赤色 直径：約 8.1mm 厚さ：約 4.2mm 質量：約 203.5mg 識別コード ペランパネル 4 アメル"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1139009F2028",
+  "source_file": "340278_1139009F1021_1_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_1139009F1021_1_27",
+  "extracted_at": "2026-11-06T15:09:02.289Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 50141,
+    "output": 942
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラミクタール錠小児用5mg",
+      "strength": "5mg",
+      "imprint_front": "GS CL2",
+      "imprint_back": "5",
+      "imprint_note": "裏面の「5」は表の図から読み取った。寸法（8.0×4.0mm、厚さ2.8mm）と形状も図の表示に基づく。質量101mg。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8,
+      "size_short_mm": 4,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色の素錠　識別コード GS CL2（ラミクタール錠小児用5mg）"
+    }
+  ]
+}

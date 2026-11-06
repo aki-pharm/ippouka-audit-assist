@@ -1,0 +1,30 @@
+{
+  "id": "1139015F1094",
+  "source_file": "270428_1139015F1094_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1139015F1094_1_03",
+  "extracted_at": "2026-11-06T15:12:00.203Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34025,
+    "output": 1210
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラコサミド錠50mg「サンド」",
+      "strength": "50mg",
+      "imprint_front": "ラコサミド 50 サンド",
+      "imprint_back": "ラコサミド 50 サンド",
+      "imprint_note": "外形図（表・裏）に「ラコサミド 50 サンド」の表示あり。本文中に刻印・印字の文言での記載はなく、外形図から読み取った",
+      "color": "淡赤紫色～淡赤色",
+      "shape": null,
+      "size_long_mm": 9.8,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 ラコサミド錠50mg「サンド」 色・剤形：淡赤紫色～淡赤色のフィルムコーティング錠 大きさ：長径 9.8mm、短径 4.6mm、厚さ 3.1mm、質量 104mg"
+    }
+  ]
+}

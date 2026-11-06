@@ -1,0 +1,30 @@
+{
+  "id": "1129009F1025",
+  "source_file": "800126_1129009F1025_3_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_1129009F1025_3_26",
+  "extracted_at": "2026-11-06T15:05:42.342Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24999,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マイスリー錠5mg",
+      "strength": "5mg",
+      "imprint_front": "601",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード601。社名マーク（Astellasのマーク）が表面に付されている。割線は片面のみ。",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "マイスリー錠5mg フィルムコーティング錠（片面割線入） 淡いだいだい色 表 裏 側面 601 直径 厚さ 重量 約6.6mm 約2.7mm 約93mg 識別コード 601"
+    }
+  ]
+}

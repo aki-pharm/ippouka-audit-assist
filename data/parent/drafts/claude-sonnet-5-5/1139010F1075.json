@@ -1,0 +1,30 @@
+{
+  "id": "1139010F1075",
+  "source_file": "300119_1139010F1075_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1139010F1075_1_06",
+  "extracted_at": "2026-11-06T15:09:59.227Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36205,
+    "output": 319
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠250mg「サワイ」",
+      "strength": "250mg",
+      "imprint_front": "レベチラセタム 250 サワイ",
+      "imprint_back": "レベチラセタム 250 サワイ",
+      "imprint_note": "本体表示として記載。外形図には表・裏の両面に表示が描かれているが、表裏の別の文言は本文に明記されていない。割線の記載なし。",
+      "color": "青色",
+      "shape": "oval",
+      "size_long_mm": 12.8,
+      "size_short_mm": 6,
+      "thickness_mm": 4.6,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／性状 青色／直径（mm） 12.8×6.0／厚さ（mm） 4.6／重量（mg） 約277／本体表示 レベチラセタム 250 サワイ"
+    }
+  ]
+}

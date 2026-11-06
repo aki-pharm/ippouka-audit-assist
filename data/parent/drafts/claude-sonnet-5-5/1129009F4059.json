@@ -1,0 +1,30 @@
+{
+  "id": "1129009F4059",
+  "source_file": "230064_1129009F3052_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230064_1129009F3052_1_10",
+  "extracted_at": "2026-11-06T15:06:18.689Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24865,
+    "output": 1223
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩ODフィルム10mg「モチダ」",
+      "strength": "10mg",
+      "imprint_front": "QQ407",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの印字面は未確認。剤形は「切れ目入りフィルム剤（口腔内崩壊剤）」。厚さは100〜130μm（範囲のため数値欄はnull）",
+      "color": "淡橙白色",
+      "shape": "other",
+      "size_long_mm": 20,
+      "size_short_mm": 14,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形：切れ目入りフィルム剤（口腔内崩壊剤）／色：淡橙白色／大きさ：長辺20mm、短辺14mm、厚さ100～130μm／識別コード：QQ407"
+    }
+  ]
+}

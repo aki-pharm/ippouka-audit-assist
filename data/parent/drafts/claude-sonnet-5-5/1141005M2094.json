@@ -1,0 +1,30 @@
+{
+  "id": "1141005M2094",
+  "source_file": "672212_1141005M2094_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1141005M2094_2_05",
+  "extracted_at": "2026-11-06T15:13:03.652Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17287,
+    "output": 844
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ポンタールカプセル250mg",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル剤（1号）。性状欄の文章に刻印・識別コードの記載なし（外形図に印字らしき表示があるが判読不確実）。",
+      "color": "白色不透明（白色～淡黄色の粒を含む粉末入り）",
+      "shape": "oblong",
+      "size_long_mm": 19.2,
+      "size_short_mm": 6.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ポンタールカプセル250mg 硬カプセル剤（1号） 白色不透明（白色～淡黄色の粒を含む粉末入り） 約19.2（長径） 約6.9（短径） 約420（重さmg）"
+    }
+  ]
+}

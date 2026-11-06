@@ -1,0 +1,30 @@
+{
+  "id": "1132002F1037",
+  "source_file": "400093_1132002F1037_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1132002F1037_1_22",
+  "extracted_at": "2026-11-06T15:07:28.943Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25258,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレビアチン錠25mg",
+      "strength": "25mg",
+      "imprint_front": "P171",
+      "imprint_back": "25",
+      "imprint_note": "識別コードはP171。外形図では表に「P 171」、裏に「25」の表示あり。",
+      "color": "白色の素錠",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年4月改訂(第3版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 ／ 大きさ 直径(mm) 約6.5 厚さ(mm) 約3.0 重さ(mg) 約100 ／ 識別コード P171"
+    }
+  ]
+}

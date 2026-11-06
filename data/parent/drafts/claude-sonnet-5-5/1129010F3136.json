@@ -1,0 +1,30 @@
+{
+  "id": "1129010F3136",
+  "source_file": "530113_1129010F1133_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1129010F1133_1_03",
+  "extracted_at": "2026-11-06T15:07:21.556Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25461,
+    "output": 825
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠3mg「日新」",
+      "strength": "3mg",
+      "imprint_front": "エスゾピクロン3 NS",
+      "imprint_back": "エスゾピクロン 3 NS",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤色のフィルムコーティング錠　錠径：6.1mm　錠厚：2.8mm　重量：104.5mg　本体表示 表面 エスゾピクロン3 NS　裏面 エスゾピクロン3 NS"
+    }
+  ]
+}

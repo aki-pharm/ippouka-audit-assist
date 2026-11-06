@@ -1,0 +1,30 @@
+{
+  "id": "1124029F2022",
+  "source_file": "780009_1124029F1026_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1124029F1026_1_17",
+  "extracted_at": "2026-11-06T15:05:12.916Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14580,
+    "output": 890
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メイラックス錠2mg",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表）に刻印らしき表示があるが、本文テキストでは文字を確認できないため未確認",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.35,
+      "size_short_mm": 6.35,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2023年2月改訂",
+      "source_page": 1,
+      "source_quote": "メイラックス錠2mg 素錠 うすいだいだい色 直径(mm) 6.35 厚さ(mm) 2.5 重量(g) 0.1"
+    }
+  ]
+}

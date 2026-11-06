@@ -1,0 +1,30 @@
+{
+  "id": "1139009F1021",
+  "source_file": "340278_1139009F1021_1_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_1139009F1021_1_27",
+  "extracted_at": "2026-11-06T15:09:04.189Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 50141,
+    "output": 903
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラミクタール錠小児用2mg",
+      "strength": "2mg",
+      "imprint_front": "LTG 2",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は文字情報で確認できない（図のみ）。大きさ・形は3.2項の図中の数値（直径4.8mm、厚さ1.6mm）と図の形状による。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.8,
+      "size_short_mm": 4.8,
+      "thickness_mm": 1.6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色の素錠　識別コード LTG　2（ラミクタール錠小児用2mg）"
+    }
+  ]
+}

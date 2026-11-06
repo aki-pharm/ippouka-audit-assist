@@ -1,0 +1,30 @@
+{
+  "id": "1139010F1059",
+  "source_file": "672173_1139010F1059_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1139010F1059_2_02",
+  "extracted_at": "2026-11-06T15:09:51.954Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37719,
+    "output": 305
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠250mg「アメル」",
+      "strength": "250mg",
+      "imprint_front": "レベチラセタム 250 アメル",
+      "imprint_back": "レベチラセタム 250 アメル",
+      "imprint_note": "本体表示（表裏とも）。外形の図では表面・裏面に同様の印字が見られる。割線の記載なし",
+      "color": "青色",
+      "shape": "oval",
+      "size_long_mm": 12.9,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形のフィルムコーティング錠／色調 青色／直径（mm） 12.9×6.1／厚さ（mm） 4.6／質量（mg） 275／本体表示 レベチラセタム 250 アメル"
+    }
+  ]
+}

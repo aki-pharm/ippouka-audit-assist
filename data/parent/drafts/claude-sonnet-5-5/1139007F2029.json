@@ -1,0 +1,30 @@
+{
+  "id": "1139007F2029",
+  "source_file": "670109_1139007F1022_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_1139007F1022_3_04",
+  "extracted_at": "2026-11-06T15:08:39.292Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30670,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガバペン錠300mg",
+      "strength": "300mg",
+      "imprint_front": "GPN300",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄にGPN300と記載。刻印の面（表・裏）の区別は文書中に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.4,
+      "size_short_mm": 9.4,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色フィルムコート錠 / 大きさ 直径 9.4mm 厚さ 4.8mm 質量 350.83mg / 識別コード GPN300"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1139015F1132",
+  "source_file": "480235_1139015F1132_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1139015F1132_1_02",
+  "extracted_at": "2026-11-06T15:12:07.359Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31252,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラコサミド錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "50 ラコサミド",
+      "imprint_back": "ラコサミド 50 トーワ",
+      "imprint_note": null,
+      "color": "ピンク色",
+      "shape": "oval",
+      "size_long_mm": 10.4,
+      "size_short_mm": 4.9,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第3版、効能変更）",
+      "source_page": 1,
+      "source_quote": "ピンク色の割線入りの楕円形のフィルムコーティング錠 表 50 ラコサミド 裏 ラコサミド 50 トーワ 10.4／4.9（長径／短径） 厚さ 3.2"
+    }
+  ]
+}

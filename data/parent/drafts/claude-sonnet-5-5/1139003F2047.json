@@ -1,0 +1,30 @@
+{
+  "id": "1139003F2047",
+  "source_file": "431010_1139003C1044_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_1139003C1044_2_04",
+  "extracted_at": "2026-11-06T15:07:55.313Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15675,
+    "output": 867
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リボトリール錠1mg",
+      "strength": "1mg",
+      "imprint_front": "TYP・1・",
+      "imprint_back": "FT",
+      "imprint_note": "識別コードは「TYP・1・/FT」と表記。表裏の区別は文章では明記されていない。剤形は素錠（割線入り）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "リボトリール錠1mg：色 白色、剤形 素錠（割線入り）、識別コード TYP・1・/FT、直径 約8.0mm、厚さ 約2.3mm、平均重量 約150mg"
+    }
+  ]
+}

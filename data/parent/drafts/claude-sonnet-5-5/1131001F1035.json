@@ -1,0 +1,30 @@
+{
+  "id": "1131001F1035",
+  "source_file": "400093_1131001A1038_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1131001A1038_1_10",
+  "extracted_at": "2026-11-06T15:07:25.888Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8240,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クランポール錠200mg",
+      "strength": "200mg",
+      "imprint_front": "P205",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：P205。外形図には表にPマークと205の表示、割線あり。裏面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2022年4月改訂(第1版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠／大きさ 直径(mm) 約9.5 厚さ(mm) 約3.9 重さ(mg) 約300／識別コード P205"
+    }
+  ]
+}

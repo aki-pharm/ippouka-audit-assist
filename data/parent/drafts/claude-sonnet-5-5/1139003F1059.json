@@ -1,0 +1,30 @@
+{
+  "id": "1139003F1059",
+  "source_file": "400093_1139003C1052_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1139003C1052_2_15",
+  "extracted_at": "2026-11-06T15:07:50.839Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14549,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランドセン錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "DS011",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード DS011。外形の図に「0.5」の表示と思われる記載があるが、本文テキストには刻印の面（表裏）の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2022年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 / 直径(mm) 約8 / 厚さ(mm) 約2.3 / 重さ(mg) 約150 / 識別コード DS011"
+    }
+  ]
+}

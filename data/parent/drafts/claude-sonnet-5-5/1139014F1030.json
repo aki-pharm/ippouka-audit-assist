@@ -1,0 +1,30 @@
+{
+  "id": "1139014F1030",
+  "source_file": "672173_1139014F1030_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1139014F1030_1_02",
+  "extracted_at": "2026-11-06T15:11:10.616Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35832,
+    "output": 358
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペランパネル錠2mg「アメル」",
+      "strength": "2mg",
+      "imprint_front": "ペランパネル 2 アメル",
+      "imprint_back": "ペランパネル 2 アメル",
+      "imprint_note": "識別コード欄に「ペランパネル 2 アメル」と記載。表裏の刻印の別は本文からは確認できず、両面に同じ表示がある可能性は図からの推測のため、表裏の区別は未確認。側面（厚さ方向）の表示は未確認。",
+      "color": "橙色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ペランパネル錠 2mg「アメル」 フィルムコーティング錠 橙色 直径：約 6.6mm 厚さ：約 3.1mm 質量：約 102.5mg 識別コード ペランパネル 2 アメル"
+    }
+  ]
+}

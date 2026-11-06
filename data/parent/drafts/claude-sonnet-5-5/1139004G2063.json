@@ -1,0 +1,30 @@
+{
+  "id": "1139004G2063",
+  "source_file": "581120_1139004G1040_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1139004G1040_2_03",
+  "extracted_at": "2026-11-06T15:08:19.784Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28556,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デパケンR錠200mg",
+      "strength": "200mg",
+      "imprint_front": "KH114",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）としてKH114。外形図では錠剤表面にKH 114の表示あり。裏面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 6.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の糖衣錠／直径 10.6mm／厚さ 6.6mm／質量 0.52g／識別コード（PTP） KH114"
+    }
+  ]
+}

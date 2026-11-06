@@ -1,0 +1,30 @@
+{
+  "id": "1129009F2293",
+  "source_file": "530169_1129009F1297_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1129009F1297_1_11",
+  "extracted_at": "2026-11-06T15:06:00.128Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21884,
+    "output": 881
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "175",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード175、包装コード175。表面の図には社名マークと175が示されている。裏面の刻印文字は文書中に記載なし（割線入り）。",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠／色調 淡いだいだい色／直径（mm）7.1／厚さ（mm）3.2／質量（mg）124／本体コード 175／包装コード 175"
+    }
+  ]
+}

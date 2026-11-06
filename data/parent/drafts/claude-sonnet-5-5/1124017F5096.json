@@ -1,0 +1,30 @@
+{
+  "id": "1124017F5096",
+  "source_file": "460028_1124017F2216_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1124017F2216_1_14",
+  "extracted_at": "2026-11-06T15:04:16.754Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13705,
+    "output": 251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジアゼパム錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "TSU303",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TSU303。割線は片面。",
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入りの素錠 / 色調 青色 / 大きさ 直径 約8.0mm 厚さ 約2.7mm / 質量 約170mg / 識別コード TSU303"
+    }
+  ]
+}

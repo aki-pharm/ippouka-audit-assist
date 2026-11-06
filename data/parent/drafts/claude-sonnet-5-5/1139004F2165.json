@@ -1,0 +1,30 @@
+{
+  "id": "1139004F2165",
+  "source_file": "672173_1139004F1088_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1139004F1088_2_07",
+  "extracted_at": "2026-11-06T15:08:02.948Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27693,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルプロ酸ナトリウム錠200mg「アメル」",
+      "strength": "200mg",
+      "imprint_front": "Kw 221",
+      "imprint_back": "200",
+      "imprint_note": "識別コード：Kw 221 /200",
+      "color": "橙黄色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "バルプロ酸ナトリウム錠200mg「アメル」 フィルムコーティング錠 橙黄色 直径：約 10.1mm 厚さ：約 5.0mm 質量：約 380mg 識別コード Kw 221 /200"
+    }
+  ]
+}

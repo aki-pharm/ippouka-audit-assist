@@ -1,0 +1,30 @@
+{
+  "id": "1124017F5037",
+  "source_file": "400061_1124017B1129_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_1124017B1129_2_10",
+  "extracted_at": "2026-11-06T15:04:13.895Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13403,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "10mgセルシン錠",
+      "strength": "10mg",
+      "imprint_front": "110を除き 112",
+      "imprint_back": "10",
+      "imprint_note": "識別コード欄に社名マーク入りで「112」と記載。形状図では表面に社名マークと112、裏面に10、側面に割線が示されている。",
+      "color": "白色～黄みの白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～黄みの白色の片面割線入りの素錠／直径（mm） 8.1／厚さ（mm） 2.6／重量（mg） 170／識別コード 112"
+    }
+  ]
+}

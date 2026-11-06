@@ -1,0 +1,30 @@
+{
+  "id": "1139015F1078",
+  "source_file": "530213_1139015F1078_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1139015F1078_2_04",
+  "extracted_at": "2026-11-06T15:11:52.735Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32912,
+    "output": 1186
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラコサミド錠50mg「ケミファ」",
+      "strength": "50mg",
+      "imprint_front": "ラコサミド 50 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは1つだけ記載されており、表裏のどちらに印字されているかは本文に明記なし",
+      "color": "ピンク色",
+      "shape": "oblong",
+      "size_long_mm": 10.4,
+      "size_short_mm": 4.9,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状 ピンク色のフィルムコーティング錠／直径 長径 10.4mm 短径 4.9mm／厚さ 3.3mm／重量 124.0mg／識別コード ラコサミド 50 ケミファ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1129009F2110",
+  "source_file": "580591_1129009F1114_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1129009F1114_1_16",
+  "extracted_at": "2026-11-06T15:05:48.329Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24099,
+    "output": 284
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "JG C16",
+      "imprint_back": "10",
+      "imprint_note": "識別コード欄は「JG C16」。裏面の「10」は図中の表示（本文の文字記載ではなく図から確認）",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の片面割線入りフィルムコーティング錠 表面 裏面 側面 JG C16 直径 8.6mm 厚さ 3.0mm 重量 185mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1124021F1046",
+  "source_file": "460028_1124021F1046_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1124021F1046_1_16",
+  "extracted_at": "2026-11-06T15:04:33.874Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10939,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メダゼパム錠2（ツルハラ）",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印・識別コードの記載なし（外形は図のみ）",
+      "color": "淡青色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 / 色調 淡青色 / 大きさ 直径 約6.0mm / 厚さ 約3.9mm / 質量 約100mg"
+    }
+  ]
+}

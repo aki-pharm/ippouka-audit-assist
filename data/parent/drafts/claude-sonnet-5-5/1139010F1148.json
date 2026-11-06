@@ -1,0 +1,30 @@
+{
+  "id": "1139010F1148",
+  "source_file": "270428_1139010F1148_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1139010F1148_1_06",
+  "extracted_at": "2026-11-06T15:10:22.304Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35229,
+    "output": 726
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠250mg「サンド」",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印・識別コードの記載なし。外形図の表裏に印字（製品名・規格）があるように見えるが、文字での記載はないため未確認とした。",
+      "color": "淡青色",
+      "shape": "oval",
+      "size_long_mm": 12.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡青色の楕円形のフィルムコーティング錠　大きさ 長径：12.6mm 短径：6.6mm 厚さ 5.0mm 質量 301mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1139004F2203",
+  "source_file": "400093_1139004F1126_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1139004F1126_1_08",
+  "extracted_at": "2026-11-06T15:08:10.797Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27047,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルプロ酸ナトリウム錠200mg「DSP」",
+      "strength": "200mg",
+      "imprint_front": "P722",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはP722。外形の図は表・裏・側面が示されているが、刻印の位置（表裏）は文章では明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂(第4版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の糖衣錠 白色の糖衣錠 … 直径(mm) 約10.1 厚さ(mm) 約5.3 重さ(mg) 約330 識別コード P721 P722"
+    }
+  ]
+}

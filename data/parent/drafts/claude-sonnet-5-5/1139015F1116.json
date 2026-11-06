@@ -1,0 +1,30 @@
+{
+  "id": "1139015F1116",
+  "source_file": "400186_1139015F1116_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1139015F1116_1_03",
+  "extracted_at": "2026-11-06T15:12:06.332Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34389,
+    "output": 946
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラコサミド錠50mg「タカタ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印・識別コードの記載なし（外形図には印字らしき表示あり、文字は確認できず）",
+      "color": "ごく薄い赤色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ごく薄い赤色楕円形のフィルムコーティング錠　長径：約10.1mm　短径：約4.7mm　重さ：約0.1251g　厚さ：約3.4mm"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1139010F1067",
+  "source_file": "480209_1139010F1067_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1139010F1067_1_09",
+  "extracted_at": "2026-11-06T15:09:54.576Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37714,
+    "output": 306
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠250mg「杏林」",
+      "strength": "250mg",
+      "imprint_front": "レベチラセタム 250 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：レベチラセタム 250 杏林（表裏の区別は記載なし）。外形図には表裏とも表示あり。",
+      "color": "青色",
+      "shape": "oval",
+      "size_long_mm": 12.8,
+      "size_short_mm": 6,
+      "thickness_mm": 4.5,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形 フィルムコーティング錠／色調 青色／本体表示 レベチラセタム 250 杏林／直径(mm) 長径：12.8 短径：6.0／厚さ(mm) 4.5／質量(mg) 277"
+    }
+  ]
+}

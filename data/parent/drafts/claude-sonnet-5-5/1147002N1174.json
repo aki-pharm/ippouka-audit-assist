@@ -1,0 +1,30 @@
+{
+  "id": "1147002N1174",
+  "source_file": "471825_1147002N1174_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/471825_1147002N1174_2_03",
+  "extracted_at": "2026-11-06T15:13:43.707Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19591,
+    "output": 316
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボルタレンSRカプセル37.5mg",
+      "strength": "37.5mg",
+      "imprint_front": "CG　305",
+      "imprint_back": "CG　305",
+      "imprint_note": "剤形は錠剤ではなく硬カプセル（3号）。外形図ではカプセル本体に識別コードが表示されている。質量：0.27g。裏面の刻印は外形図で両面表示と読み取れるが、文章では識別コード CG　305 のみ記載",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の3号硬カプセル／識別コード CG　305／大きさ（約）長径：15.8mm　短径：5.8mm　質量：0.27g"
+    }
+  ]
+}

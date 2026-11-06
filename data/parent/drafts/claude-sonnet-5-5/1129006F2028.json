@@ -1,0 +1,30 @@
+{
+  "id": "1129006F2028",
+  "source_file": "672173_1129006F1021_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1129006F1021_3_04",
+  "extracted_at": "2026-11-06T15:05:23.249Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16126,
+    "output": 479
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスミー錠2mg",
+      "strength": "2mg",
+      "imprint_front": "リスミー2",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の円形の素錠である。／大きさ 直径 約7.0mm 厚さ 約2.4mm／識別コード（表/裏） リスミー2/2"
+    }
+  ]
+}

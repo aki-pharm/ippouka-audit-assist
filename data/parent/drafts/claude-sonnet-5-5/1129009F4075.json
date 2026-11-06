@@ -1,0 +1,30 @@
+{
+  "id": "1129009F4075",
+  "source_file": "530169_1129009F3079_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1129009F3079_1_11",
+  "extracted_at": "2026-11-06T15:06:25.755Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22030,
+    "output": 884
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩OD錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "181",
+      "imprint_back": "10",
+      "imprint_note": "表面は社名マークと181（本体コード）。表面に割線あり。包装コードは181（PTPシート）",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 淡いだいだい色 直径（mm） 8.0 厚さ（mm） 3.3 質量（mg） 180 本体コード 181 10 包装コード 181"
+    }
+  ]
+}

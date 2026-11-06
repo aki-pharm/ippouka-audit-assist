@@ -1,0 +1,30 @@
+{
+  "id": "1139009F3040",
+  "source_file": "672173_1139009F1072_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1139009F1072_2_11",
+  "extracted_at": "2026-11-06T15:09:13.917Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 62967,
+    "output": 310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラモトリギン錠25mg「アメル」",
+      "strength": "25mg",
+      "imprint_front": "ラモトリギン アメル",
+      "imprint_back": "25",
+      "imprint_note": "識別コード欄に「25 ラモトリギン アメル」と記載。表裏の区別は添付文書の文字情報からは明確でないため、外形図の表示に基づき表・裏を割り当てた。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.3,
+      "size_short_mm": 5.3,
+      "thickness_mm": 2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 2,
+      "source_quote": "ラモトリギン錠 25mg「アメル」 素錠 25 ラモトリギン アメル 白色 直径：約 5.3mm 厚さ：約 2.0mm 質量：約 63.3mg"
+    }
+  ]
+}

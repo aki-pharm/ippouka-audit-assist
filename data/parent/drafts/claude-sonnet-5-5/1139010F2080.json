@@ -1,0 +1,30 @@
+{
+  "id": "1139010F2080",
+  "source_file": "400186_1139010F1083_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1139010F1083_1_05",
+  "extracted_at": "2026-11-06T15:10:43.538Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38514,
+    "output": 978
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠500mg「タカタ」",
+      "strength": "500mg",
+      "imprint_front": "レベチラセタム 500 タカタ",
+      "imprint_back": "レベチラセタム 500 タカタ",
+      "imprint_note": "刻印は性状欄の外形図（表面・裏面）から読み取り。本文テキストには刻印の記載なし。割線の記載なし（図でも確認できず）。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 16.5,
+      "size_short_mm": 7.7,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "黄色楕円形のフィルムコーティング錠　長径：約16.5mm　短径：約7.7mm　重さ：約0.554g　厚さ：約5.7mm"
+    }
+  ]
+}

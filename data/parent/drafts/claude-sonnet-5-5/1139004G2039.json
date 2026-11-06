@@ -1,0 +1,30 @@
+{
+  "id": "1139004G2039",
+  "source_file": "270072_1139004D1052_3_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_1139004D1052_3_21",
+  "extracted_at": "2026-11-06T15:08:17.068Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28475,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレニカR錠200mg",
+      "strength": "200mg",
+      "imprint_front": "603",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード603。外形図に社名マーク（Kowa）あり。表裏の別は文書に明記なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性 状 白色のフィルムコーティング錠（徐放錠）である。 外 形 直径： 9.2mm 厚さ： 5.0mm 重量：250mg 識別コード 603"
+    }
+  ]
+}

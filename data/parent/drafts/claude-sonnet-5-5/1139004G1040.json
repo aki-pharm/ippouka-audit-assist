@@ -1,0 +1,30 @@
+{
+  "id": "1139004G1040",
+  "source_file": "581120_1139004G1040_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1139004G1040_2_03",
+  "extracted_at": "2026-11-06T15:08:12.854Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28556,
+    "output": 253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デパケンR錠100mg",
+      "strength": "100mg",
+      "imprint_front": "KH 113",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「KH 113」の表示あり。識別コード（PTP）はKH113。表裏の別は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.3,
+      "size_short_mm": 8.3,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の糖衣錠 直径 8.3mm 厚さ 5.4mm 質量 0.26g 識別コード（PTP） KH113"
+    }
+  ]
+}

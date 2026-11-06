@@ -1,0 +1,30 @@
+{
+  "id": "1124009F2025",
+  "source_file": "650168_1124009F2025_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_1124009F2025_1_19",
+  "extracted_at": "2026-11-06T15:03:49.175Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15889,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レンドルミンD錠0.25mg",
+      "strength": "0.25mg",
+      "imprint_front": "13C",
+      "imprint_back": "13C",
+      "imprint_note": "識別コード「13C」。外形図には表裏の「13C」表示と、社名マークらしき表示がある。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色の口腔内崩壊錠（割線） 直 径 8.0mm 厚 さ 2.7mm 重 さ 0.17g 識別コード 13C"
+    }
+  ]
+}

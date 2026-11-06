@@ -1,0 +1,30 @@
+{
+  "id": "1139010F1024",
+  "source_file": "820110_1139010F1024_1_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/820110_1139010F1024_1_27",
+  "extracted_at": "2026-11-06T15:09:44.656Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35974,
+    "output": 610
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イーケプラ錠250mg",
+      "strength": "250mg",
+      "imprint_front": "ucb 250",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「ucb 250」の記載のみ。表裏の区別は本文に記載なし",
+      "color": "青色",
+      "shape": null,
+      "size_long_mm": 12.8,
+      "size_short_mm": 6,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色／剤形 青色／フィルムコート錠　長径、短径 約12.8mm、約6.0mm　厚さ 約4.6mm　重量 約277mg　識別コード ucb 250"
+    }
+  ]
+}

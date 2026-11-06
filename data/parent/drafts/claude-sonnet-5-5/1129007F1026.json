@@ -1,0 +1,30 @@
+{
+  "id": "1129007F1026",
+  "source_file": "780069_1129007F1026_1_28.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_1129007F1026_1_28",
+  "extracted_at": "2026-11-06T15:05:29.760Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16701,
+    "output": 636
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アモバン錠7.5",
+      "strength": "7.5mg",
+      "imprint_front": "なし",
+      "imprint_back": "RY",
+      "imprint_note": "識別コードRY。外形図では表に割線のみ、裏にRYが表示されている",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：白色フィルムコーティング錠（割線入り）／外形 平面：楕円形／大きさ（mm）：長径10、短径 5／厚さ（mm）：約 3／識別コード：RY"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1139015F2023",
+  "source_file": "820110_1139015F1027_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/820110_1139015F1027_1_15",
+  "extracted_at": "2026-11-06T15:12:13.171Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34455,
+    "output": 610
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビムパット錠100mg",
+      "strength": "100mg",
+      "imprint_front": "SP",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "濃黄色",
+      "shape": null,
+      "size_long_mm": 13.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色／剤形 濃黄色／フィルムコート錠、長径、短径 約13.1mm、約6.1mm、厚さ 約4.1mm、識別コード 表 SP 裏 100"
+    }
+  ]
+}

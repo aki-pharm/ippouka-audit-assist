@@ -1,0 +1,30 @@
+{
+  "id": "1145005M2026",
+  "source_file": "170033_1145005M1020_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1145005M1020_1_18",
+  "extracted_at": "2026-11-06T15:13:37.029Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18909,
+    "output": 1008
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "インフリーSカプセル200mg",
+      "strength": "200mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「－」。外形図にはカプセル上に「インフリー200」の印字がある（識別コードの記載はなし）。",
+      "color": "カプセル：淡橙色、内容物：淡黄色の粘性のある液体",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 軟カプセル剤／識別コード －／大きさ 長径（mm）：13.1 短径（mm）： 8.1／質量（mg） 525／色 カプセル 淡橙色 内容物 淡黄色の粘性のある液体"
+    }
+  ]
+}

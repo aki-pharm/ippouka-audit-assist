@@ -1,0 +1,30 @@
+{
+  "id": "1139010F2055",
+  "source_file": "672173_1139010F1059_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1139010F1059_2_02",
+  "extracted_at": "2026-11-06T15:10:32.240Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37719,
+    "output": 302
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠500mg「アメル」",
+      "strength": "500mg",
+      "imprint_front": "レベチラセタム 500 アメル",
+      "imprint_back": "レベチラセタム 500 アメル",
+      "imprint_note": "本体表示：レベチラセタム/500/アメル。割線入り。外形の表面・裏面の図に印字あり",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 16.5,
+      "size_short_mm": 7.8,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの楕円形のフィルムコーティング錠／色調 黄色／直径（mm） 16.5×7.8／厚さ（mm） 5.7／本体表示 レベチラセタム 500 アメル"
+    }
+  ]
+}

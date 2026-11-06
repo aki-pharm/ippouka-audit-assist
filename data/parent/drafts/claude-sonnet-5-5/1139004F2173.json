@@ -1,0 +1,30 @@
+{
+  "id": "1139004F2173",
+  "source_file": "581120_1139004F1096_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1139004F1096_2_03",
+  "extracted_at": "2026-11-06T15:08:04.366Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24989,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デパケン錠200mg",
+      "strength": "200mg",
+      "imprint_front": "KH103",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）としてKH103の記載あり。錠剤本体への刻印の有無は記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色のフィルムコーティング錠 外形 直径 9.2mm 厚さ 4.9mm 質量 0.26g 識別コード（PTP） KH103"
+    }
+  ]
+}

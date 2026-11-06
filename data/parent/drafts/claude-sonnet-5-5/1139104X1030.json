@@ -1,0 +1,62 @@
+{
+  "id": "1139104X1030",
+  "source_file": "670126_1139103X1036_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670126_1139103X1036_1_16",
+  "extracted_at": "2026-11-06T15:12:54.097Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32417,
+    "output": 1345
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヒダントールD配合錠",
+      "strength": "1錠中 フェニトイン16.667mg・フェノバルビタール8.333mg・安息香酸ナトリウムカフェイン16.667mg",
+      "imprint_front": "D",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は社名マークとDの併記（◇D）。素錠、重さ250mg",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ヒダントールD配合錠 素錠 白色 D 9.1 3.8 250（識別コード：D）"
+    },
+    {
+      "product_name": "ヒダントールE配合錠",
+      "strength": "1錠中 フェニトイン20.833mg・フェノバルビタール8.333mg・安息香酸ナトリウムカフェイン16.667mg",
+      "imprint_front": "E",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は社名マークとEの併記（◇E）。素錠、重さ250mg",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ヒダントールE配合錠 素錠 白色 E 9.1 3.8 250（識別コード：E）"
+    },
+    {
+      "product_name": "ヒダントールF配合錠",
+      "strength": "1錠中 フェニトイン25mg・フェノバルビタール8.333mg・安息香酸ナトリウムカフェイン16.667mg",
+      "imprint_front": "F",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は社名マークとFの併記（◇F）。素錠、重さ250mg",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ヒダントールF配合錠 素錠 白色 F 9.1 3.8 250（識別コード：F）"
+    }
+  ]
+}

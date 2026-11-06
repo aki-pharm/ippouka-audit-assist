@@ -1,0 +1,30 @@
+{
+  "id": "1139009F4020",
+  "source_file": "340278_1139009F1021_1_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_1139009F1021_1_27",
+  "extracted_at": "2026-11-06T15:09:30.141Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 50141,
+    "output": 1007
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラミクタール錠100mg",
+      "strength": "100mg",
+      "imprint_front": "GS CL7",
+      "imprint_back": "100",
+      "imprint_note": "裏面の「100」は表中の図から読み取った。識別コードの文字欄には記載なし。大きさ（直径8.3mm、厚さ3.2mm）も図中の数値。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.3,
+      "size_short_mm": 8.3,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色の素錠／識別コード GS CL7（ラミクタール錠100mg）／質量（mg）253"
+    }
+  ]
+}

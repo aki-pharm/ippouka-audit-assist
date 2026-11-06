@@ -1,0 +1,30 @@
+{
+  "id": "1124007F1020",
+  "source_file": "672212_1124007F1020_4_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1124007F1020_4_12",
+  "extracted_at": "2026-11-06T15:03:40.436Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17721,
+    "output": 1113
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハルシオン0.125mg錠",
+      "strength": "0.125mg",
+      "imprint_front": "UPJOHN 10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「UPJOHN 10」。上面・下面のどちらの刻印かは文章では明記されておらず、外形図で上面に刻印が見える。",
+      "color": "淡紫色",
+      "shape": "oval",
+      "size_long_mm": 7.9,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ハルシオン0.125mg錠 0.125mg UPJOHN 10 淡紫色 素錠 長径7.9mm 短径5.7mm 厚さ2.2mm 重量0.10g"
+    }
+  ]
+}

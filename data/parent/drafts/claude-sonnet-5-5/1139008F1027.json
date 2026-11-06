@@ -1,0 +1,30 @@
+{
+  "id": "1139008F1027",
+  "source_file": "230124_1139008F1027_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_1139008F1027_1_20",
+  "extracted_at": "2026-11-06T15:08:45.911Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30350,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トピナ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "KH116",
+      "imprint_back": "なし",
+      "imprint_note": "表面に「KH 116」と表示。識別コードKH116は錠剤本体、PTPシートに表示。裏面・側面の表示はなし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 7.1／厚さ（mm） 3.3／重量（g） 0.13／表面 KH 116／色調 白色／剤皮 フィルムコーティング錠／識別コード KH116（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

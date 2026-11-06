@@ -1,0 +1,30 @@
+{
+  "id": "1139004F2190",
+  "source_file": "670126_1139004F1118_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670126_1139004F1118_1_15",
+  "extracted_at": "2026-11-06T15:08:13.333Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27739,
+    "output": 891
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルプロ酸Na錠200mg「フジナガ」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードEP200はPTPシートに表示と記載。錠剤本体の刻印についての記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "バルプロ酸Na錠200mg「フジナガ」 フィルムコーティング錠 白色 EP200（PTPシートに表示） 直径9.1mm 厚さ4.8mm 重さ260mg"
+    }
+  ]
+}

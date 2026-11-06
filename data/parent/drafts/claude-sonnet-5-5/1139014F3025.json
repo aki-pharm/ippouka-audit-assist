@@ -1,0 +1,30 @@
+{
+  "id": "1139014F3025",
+  "source_file": "400186_1139014F3025_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1139014F3025_2_03",
+  "extracted_at": "2026-11-06T15:11:23.141Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37124,
+    "output": 723
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペランパネルOD錠2mg「タカタ」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は図で示されており、本文テキストからは読み取れないため未確認",
+      "color": "ごく薄い黄赤色～薄い黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ごく薄い黄赤色～薄い黄赤色の割線入りの裸錠（表面 直径 約6.5mm、裏面 重さ 約0.10g、側面 厚さ 約2.8mm）"
+    }
+  ]
+}

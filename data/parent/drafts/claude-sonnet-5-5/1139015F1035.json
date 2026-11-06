@@ -1,0 +1,30 @@
+{
+  "id": "1139015F1035",
+  "source_file": "580591_1139015F1035_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1139015F1035_1_04",
+  "extracted_at": "2026-11-06T15:11:30.236Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33479,
+    "output": 327
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラコサミド錠50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "ラコサミド 50 JG",
+      "imprint_back": "ラコサミド 50 JG",
+      "imprint_note": "本体表示：ラコサミド 50 JG（添付文書の外形図では表面・裏面に表示あり、側面は表示なし）",
+      "color": "淡赤紫色～淡赤色",
+      "shape": "oval",
+      "size_long_mm": 9.8,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ラコサミド錠50mg「JG」 淡赤紫色～淡赤色のフィルムコーティング錠 長径 9.8mm 短径 4.6mm 厚さ 3.1mm 重量 104mg 本体表示 ラコサミド 50 JG"
+    }
+  ]
+}

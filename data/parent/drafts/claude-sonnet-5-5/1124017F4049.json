@@ -1,0 +1,30 @@
+{
+  "id": "1124017F4049",
+  "source_file": "400061_1124017B1129_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_1124017B1129_2_10",
+  "extracted_at": "2026-11-06T15:04:10.338Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13403,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "5mgセルシン錠",
+      "strength": "5mg",
+      "imprint_front": "111",
+      "imprint_back": "5",
+      "imprint_note": "識別コード「111」（社名マーク付き）。裏面は「5」の表示。片面割線入り。",
+      "color": "淡黄色～淡だいだい黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄色～淡だいだい黄色の片面割線入りの素錠 直径（mm）7.1 厚さ（mm）2.3 重量（mg）120 識別コード 111"
+    }
+  ]
+}
