@@ -1,0 +1,30 @@
+{
+  "id": "6250031F1102",
+  "source_file": "480235_6250031F1102_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6250031F1102_1_05",
+  "extracted_at": "2026-11-06T18:29:08.591Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22984,
+    "output": 762
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファムシクロビル錠250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "ファムシクロビル 250 トーワ",
+      "imprint_back": "ファムシクロビル 250 トーワ",
+      "imprint_note": "本体表示は表・裏が結合した1つの欄に記載されているため、表裏とも同じ表示として記載。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠／本体表示 表 裏 ファムシクロビル 250 トーワ／直径(mm) 9.6／厚さ(mm) 4.4／質量(mg) 319"
+    }
+  ]
+}

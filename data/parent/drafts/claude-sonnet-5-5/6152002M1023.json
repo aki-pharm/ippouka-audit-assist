@@ -1,0 +1,30 @@
+{
+  "id": "6152002M1023",
+  "source_file": "480866_6152002M1023_4_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_6152002M1023_4_04",
+  "extracted_at": "2026-11-06T18:21:52.686Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10504,
+    "output": 250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アクロマイシンVカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "KY10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：KY10（カプセル剤）。表裏の区別は記載なし",
+      "color": "白色～淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": 14.6,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～淡黄白色のハードカプセル剤 / 外形・大きさ 5.3mm 14.6mm / 識別コード KY10"
+    }
+  ]
+}

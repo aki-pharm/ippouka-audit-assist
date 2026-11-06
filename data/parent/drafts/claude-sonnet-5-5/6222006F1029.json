@@ -1,0 +1,30 @@
+{
+  "id": "6222006F1029",
+  "source_file": "180078_6222006F1029_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_6222006F1029_1_12",
+  "extracted_at": "2026-11-06T18:24:04.371Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18695,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デルティバ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "DLM 50",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図には表面に「DLM 50」の表示がある。表の識別コード欄には「DLM50」と記載。裏面の刻印は記載なし。割線の記載なし。",
+      "color": "帯褐黄色",
+      "shape": "round",
+      "size_long_mm": 11.7,
+      "size_short_mm": 11.7,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "デルティバ錠50mg 帯褐黄色のフィルムコーティング錠 11.7 5.3 約536 DLM50"
+    }
+  ]
+}

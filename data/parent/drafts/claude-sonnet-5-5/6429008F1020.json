@@ -1,0 +1,30 @@
+{
+  "id": "6429008F1020",
+  "source_file": "170050_6429008F1020_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_6429008F1020_2_07",
+  "extracted_at": "2026-11-06T18:33:27.606Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13012,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ストロメクトール錠3mg",
+      "strength": "3mg",
+      "imprint_front": "MSD32",
+      "imprint_back": "MSD32",
+      "imprint_note": "識別コード MSD32。表面にMSDロゴ、裏面に32の表示（外形図より）。表裏の個別の刻印は表からは文字で明記されていない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形・裸錠 色調 白色 外形 直径：5.6mm 厚さ：2.0mm 質量 約0.06g 識別コード MSD32"
+    }
+  ]
+}

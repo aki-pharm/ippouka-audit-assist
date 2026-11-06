@@ -1,0 +1,30 @@
+{
+  "id": "6141002F2078",
+  "source_file": "300119_6141002F2078_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6141002F2078_1_11",
+  "extracted_at": "2026-11-06T18:20:24.138Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17262,
+    "output": 897
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エリスロマイシン錠200mg「サワイ」",
+      "strength": "200mg",
+      "imprint_front": "エリスロマイシン 200",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄に「エリスロマイシン 200」の表示あり。識別コード SW-325 はPTPに表示（錠剤本体の刻印としての記載なし）。",
+      "color": "橙色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "外　形 エリスロマイシン 200 剤　形 腸溶性フィルムコーティング錠 性　状 橙色 直径（mm） 10.2 厚さ（mm） 5.1 重量（mg） 約324 識別コード SW-325（PTPに表示）"
+    }
+  ]
+}

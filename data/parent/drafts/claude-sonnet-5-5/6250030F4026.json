@@ -1,0 +1,30 @@
+{
+  "id": "6250030F4026",
+  "source_file": "800155_6250030F4026_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_6250030F4026_1_03",
+  "extracted_at": "2026-11-06T18:28:55.567Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43477,
+    "output": 1017
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プリジスタ錠600mg",
+      "strength": "600mg",
+      "imprint_front": "TMC",
+      "imprint_back": "600MG",
+      "imprint_note": "識別コードは「TMC 600MG」。表裏の区別は外形図の表示による。形状の記載は文章中になく、割線の記載もない。",
+      "color": "だいだい色",
+      "shape": null,
+      "size_long_mm": 21.1,
+      "size_short_mm": 10.5,
+      "thickness_mm": 7.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 だいだい色のフィルムコーティング錠 ／ 大きさ 長径（mm）21.1 短径（mm）10.5 厚さ（mm）7.2 重量（g）1.30 ／ 識別コード TMC 600MG"
+    }
+  ]
+}

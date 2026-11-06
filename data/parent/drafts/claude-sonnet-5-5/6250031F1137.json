@@ -1,0 +1,30 @@
+{
+  "id": "6250031F1137",
+  "source_file": "290508_6250031F1137_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/290508_6250031F1137_1_09",
+  "extracted_at": "2026-11-06T18:29:11.088Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26224,
+    "output": 665
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファムシクロビル錠250mg「日本臓器」",
+      "strength": "250mg",
+      "imprint_front": "Z133",
+      "imprint_back": "250",
+      "imprint_note": "表の識別コードはZ133（外形図ではZと133の2段表記）。裏の「250」は外形図の表示から確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：白色円形のフィルムコート錠／外形：約9.1mm、側面約5.2mm、質量 約320mg／識別コード：Z133"
+    }
+  ]
+}

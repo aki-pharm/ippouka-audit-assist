@@ -1,0 +1,30 @@
+{
+  "id": "6429001F1036",
+  "source_file": "300089_6429001F1036_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300089_6429001F1036_2_05",
+  "extracted_at": "2026-11-06T18:33:19.983Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8818,
+    "output": 723
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コンバントリン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "S13",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはS13と記載。外形図では表面に「S/13」の表示、裏面に割線のみが描かれているが、裏面の刻印の有無は本文に明記なし。大きさ（直径11.2mm、厚さ4.3mm）は外形図の寸法表示から転記。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 11.2,
+      "size_short_mm": 11.2,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色の素錠 / 識別コード S13"
+    }
+  ]
+}

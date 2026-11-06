@@ -1,0 +1,30 @@
+{
+  "id": "6250014F1036",
+  "source_file": "166272_6250014F1036_2_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/166272_6250014F1036_2_13",
+  "extracted_at": "2026-11-06T18:26:51.019Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28915,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザイアジェン錠300mg",
+      "strength": "300mg",
+      "imprint_front": "GX 623",
+      "imprint_back": "なし",
+      "imprint_note": "裏面の刻印についての記載は本文になく、図では裏面に刻印は見られない。表に識別コードGX 623が記載されている。",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 18.4,
+      "size_short_mm": 7.2,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2024年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 黄色のフィルムコーティング錠 識別コード GX 623 表（長径×短径）18.4mm×7.2mm （厚さ）6.0mm 質量 814mg"
+    }
+  ]
+}

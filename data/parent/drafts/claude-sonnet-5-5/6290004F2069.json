@@ -1,0 +1,30 @@
+{
+  "id": "6290004F2069",
+  "source_file": "530169_6290004F1070_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_6290004F1070_1_18",
+  "extracted_at": "2026-11-06T18:32:10.498Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37179,
+    "output": 1118
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イトラコナゾール錠100mg「日医工」",
+      "strength": "100mg",
+      "imprint_front": "62H",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード 62H、包装コード 538（表のコード記載による）。裏面の刻印の有無は文字では記載なし",
+      "color": "帯黄白色～黄白色",
+      "shape": "oblong",
+      "size_long_mm": 14.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 帯黄白色～黄白色 直径（mm） 14.1×7.1 厚さ（mm） 4.9 質量（mg） 410 本体コード 62H 包装コード 538"
+    }
+  ]
+}

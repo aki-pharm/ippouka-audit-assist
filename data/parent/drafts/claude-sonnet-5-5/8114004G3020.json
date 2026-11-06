@@ -1,0 +1,30 @@
+{
+  "id": "8114004G3020",
+  "source_file": "343018_8114004G1027_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_8114004G1027_2_06",
+  "extracted_at": "2026-11-06T18:33:52.432Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18567,
+    "output": 674
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "MSコンチン錠60mg",
+      "strength": "60mg",
+      "imprint_front": "902",
+      "imprint_back": "60",
+      "imprint_note": "識別コード欄は「社名マーク 902：60」（図より）。表面は社名マークと902、裏面は60。",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "だいだい色の円形のフィルムコーティング錠で、においはない。／直径 約7.1mm 厚さ 約4.4mm／識別コード 902：60"
+    }
+  ]
+}

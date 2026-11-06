@@ -1,0 +1,30 @@
+{
+  "id": "6250119F1029",
+  "source_file": "166272_6250119F1029_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/166272_6250119F1029_1_11",
+  "extracted_at": "2026-11-06T18:31:12.077Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41747,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドウベイト配合錠",
+      "strength": "1錠中 ドルテグラビルとして50mg・ラミブジン300mg",
+      "imprint_front": "SV 137",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「SV 137」。裏面の図に刻印の記載なし。割線の記載なし。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 18.7,
+      "size_short_mm": 9.6,
+      "thickness_mm": 5.8,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色のフィルムコーティング錠 / 識別コード SV 137 / 表（長径×短径）約18.7mm×約9.6mm / 側面（厚さ）約5.8mm"
+    }
+  ]
+}

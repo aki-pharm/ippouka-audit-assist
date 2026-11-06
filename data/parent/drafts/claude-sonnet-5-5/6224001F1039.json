@@ -1,0 +1,30 @@
+{
+  "id": "6224001F1039",
+  "source_file": "780009_6224001F1039_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_6224001F1039_1_04",
+  "extracted_at": "2026-11-06T18:24:14.605Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8350,
+    "output": 860
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ツベルミン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "MS T08",
+      "imprint_back": "なし",
+      "imprint_note": "刻印は外形図（表・裏）から読み取った。文章での記載はない。表は「MS」「T08」、裏は刻印のない図。",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ツベルミン錠100mg 腸溶性フィルムコーティング錠 だいだい色 直径（mm）8.2 厚さ（mm）4.5 重量（mg）188.58"
+    }
+  ]
+}

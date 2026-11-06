@@ -1,0 +1,30 @@
+{
+  "id": "6250100F1032",
+  "source_file": "166272_6250100F1032_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/166272_6250100F1032_2_15",
+  "extracted_at": "2026-11-06T18:30:17.526Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36655,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コンビビル配合錠",
+      "strength": "1錠中 ジドブジン300mg・ラミブジン150mg",
+      "imprint_front": "GX FC3",
+      "imprint_back": "なし",
+      "imprint_note": "裏面の刻印の記載はなし（図は無地）。側面の刻印の記載もなし",
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 17.6,
+      "size_short_mm": 7.3,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2024年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色～微黄白色のフィルムコーティング錠 識別コード GX FC3 表（長径×短径）17.6mm×7.3mm 側面（厚さ）6.5mm 質量 769mg"
+    }
+  ]
+}

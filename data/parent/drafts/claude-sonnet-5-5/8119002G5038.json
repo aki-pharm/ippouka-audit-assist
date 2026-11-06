@@ -1,0 +1,30 @@
+{
+  "id": "8119002G5038",
+  "source_file": "430574_8119002G5038_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119002G5038_2_01",
+  "extracted_at": "2026-11-06T18:34:31.728Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23737,
+    "output": 669
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキシコドン徐放錠5mgNX「第一三共」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に印字らしきものがあるが、文字としては読み取れないため未確認",
+      "color": "微橙色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "オキシコドン徐放錠5mgNX「第一三共」 素錠 微橙色 直径7.0mm 厚さ約3.7mm 重さ約120mg"
+    }
+  ]
+}

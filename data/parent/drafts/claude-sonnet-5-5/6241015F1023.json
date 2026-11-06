@@ -1,0 +1,30 @@
+{
+  "id": "6241015F1023",
+  "source_file": "780009_6241015F1023_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_6241015F1023_1_19",
+  "extracted_at": "2026-11-06T18:25:49.953Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18650,
+    "output": 251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スオード錠100",
+      "strength": "100",
+      "imprint_front": "スオード 100",
+      "imprint_back": "スオード 100",
+      "imprint_note": "外形の図に「スオード 100」と表示されている。本文テキストには刻印の文字記載なし（図より判読）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": false,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "スオード錠100 フィルムコーティング錠 淡黄色 直径（mm）8.1 厚さ（mm）4.1 重量（mg）197.1"
+    }
+  ]
+}

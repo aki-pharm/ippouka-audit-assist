@@ -1,0 +1,30 @@
+{
+  "id": "6241013F2101",
+  "source_file": "380087_6241013F2101_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_6241013F2101_1_10",
+  "extracted_at": "2026-11-06T18:25:11.346Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33832,
+    "output": 825
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「ZE」",
+      "strength": "250mg",
+      "imprint_front": "レボフロキサシン ZE 250",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書には「本体表示」として記載。表裏の区別は記載なし。外形図に割線あり。形状（円形・楕円形など）の明記はなし。",
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": 13.7,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 黄色／剤形 フィルムコーティング錠（割線入り）／錠径（mm） 13.7/6.6／厚み（mm） 4.1／重量（mg） 332／本体表示 レボフロキサシン ZE 250"
+    }
+  ]
+}

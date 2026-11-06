@@ -1,0 +1,30 @@
+{
+  "id": "6250036F1024",
+  "source_file": "800155_6250036F1024_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_6250036F1024_1_22",
+  "extracted_at": "2026-11-06T18:29:29.435Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 44705,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エジュラント錠25mg",
+      "strength": "25mg",
+      "imprint_front": "TMC",
+      "imprint_back": "25",
+      "imprint_note": "識別コード：TMC 25（表面にTMC、裏面に25）",
+      "color": "白色～オフホワイト",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～オフホワイトのフィルムコーティング錠 / 大きさ 直径（mm）6.4 厚さ（mm）3.4 重量（g）0.1 / 識別コード TMC 25"
+    }
+  ]
+}

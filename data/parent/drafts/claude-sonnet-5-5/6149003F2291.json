@@ -1,0 +1,30 @@
+{
+  "id": "6149003F2291",
+  "source_file": "581120_6149003F2291_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_6149003F2291_1_08",
+  "extracted_at": "2026-11-06T18:21:15.170Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35231,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠200mg「NIG」",
+      "strength": "200mg",
+      "imprint_front": "t 62",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）は「t 062」と記載。外形図の表面には「t 62」と印字されている。裏面の刻印の記載は確認できず。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径：8.6mm 厚さ：5.2mm 質量：270mg 識別コード（PTP） t 062"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "8114004G2023",
+  "source_file": "343018_8114004G1027_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_8114004G1027_2_06",
+  "extracted_at": "2026-11-06T18:33:52.981Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18567,
+    "output": 740
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "MSコンチン錠30mg",
+      "strength": "30mg",
+      "imprint_front": "902",
+      "imprint_back": "30",
+      "imprint_note": "表面は社名マークと902（識別コード表記：902：30）。性状欄の本文には刻印の記載がなく、外形の図と識別コードの欄による。",
+      "color": "青紫～赤紫色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "青紫～赤紫色の円形のフィルムコーティング錠で、においはない。（大きさ：直径 約7.1mm、厚さ 約4.4mm、質量 約0.155g）"
+    }
+  ]
+}

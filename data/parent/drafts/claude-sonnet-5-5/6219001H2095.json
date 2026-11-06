@@ -1,0 +1,30 @@
+{
+  "id": "6219001H2095",
+  "source_file": "450064_6219001H1102_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6219001H1102_1_08",
+  "extracted_at": "2026-11-06T18:23:56.968Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19047,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サラゾスルファピリジン腸溶錠250mg「CH」",
+      "strength": "250mg",
+      "imprint_front": "CHT",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：CHT（外形図では表面に「CH T」の表示。裏面の刻印は記載なし）",
+      "color": "黄色〜黄褐色",
+      "shape": "round",
+      "size_long_mm": 9.8,
+      "size_short_mm": 9.8,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 黄色〜黄褐色の腸溶性フィルムコーティング錠／大きさ 直径 9.8mm 厚さ 5.7mm／重量 390mg／識別コード CHT"
+    }
+  ]
+}

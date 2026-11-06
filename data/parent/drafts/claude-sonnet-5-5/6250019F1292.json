@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1292",
+  "source_file": "480187_6250019F1292_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480187_6250019F1292_1_12",
+  "extracted_at": "2026-11-06T18:27:46.330Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29777,
+    "output": 285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「日本臓器」",
+      "strength": "500mg",
+      "imprint_front": "Z131",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはZ131。外形図の表裏には「バラシクロビル 500」の印字が図示されている",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色～微黄白色のフィルムコーティング錠 ／ 外形 表 18.5mm 7.5mm 側面 6.2mm 裏 質量 700mg ／ 識別コード Z131"
+    }
+  ]
+}

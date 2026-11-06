@@ -1,0 +1,30 @@
+{
+  "id": "8119002F7027",
+  "source_file": "430574_8119002F5024_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119002F5024_2_01",
+  "extracted_at": "2026-11-06T18:34:19.935Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26358,
+    "output": 894
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキシコドン錠10mgNX「第一三共」",
+      "strength": "10mg",
+      "imprint_front": "オキシコドン錠",
+      "imprint_back": "10",
+      "imprint_note": "外形図（表・裏）から確認。本文には記載がなく、印字か刻印かの記載もない",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.4,
+      "size_short_mm": 4.4,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "オキシコドン錠10mgNX「第一三共」 素錠（楕円形） 白色 8.4（長径）4.4（短径） 約3.2 約100"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6179001F2046",
+  "source_file": "580591_6179001F1040_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_6179001F1040_1_20",
+  "extracted_at": "2026-11-06T18:23:15.689Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 46218,
+    "output": 942
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボリコナゾール錠200mg「JG」",
+      "strength": "200mg",
+      "imprint_front": "ボリコナゾール 200 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「ボリコナゾール 200 JG」。表面・裏面の別は文章では明記されていない（図に割線あり）。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 14.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ボリコナゾール錠200mg「JG」 白色の割線入りフィルムコーティング錠 長径 14.1mm 短径 7.1mm 厚さ 4.7mm 重量 410mg 本体表示 ボリコナゾール 200 JG"
+    }
+  ]
+}

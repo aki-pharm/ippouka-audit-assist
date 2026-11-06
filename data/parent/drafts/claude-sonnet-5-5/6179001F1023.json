@@ -1,0 +1,30 @@
+{
+  "id": "6179001F1023",
+  "source_file": "672212_6179001F1023_3_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6179001F1023_3_13",
+  "extracted_at": "2026-11-06T18:22:43.610Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43441,
+    "output": 700
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブイフェンド錠50mg",
+      "strength": "50mg",
+      "imprint_front": "Pfizer",
+      "imprint_back": "VOR50",
+      "imprint_note": "識別コード欄に「Pfizer VOR50」と記載。表裏の区別は外形図（左：Pfizerロゴ、右：VOR 50）による",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "ブイフェンド錠50mg Pfizer VOR50 白色 フィルムコート錠"
+    }
+  ]
+}

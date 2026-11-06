@@ -1,0 +1,30 @@
+{
+  "id": "7990003F2024",
+  "source_file": "672212_7990003F1028_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_7990003F1028_3_04",
+  "extracted_at": "2026-11-06T18:33:41.272Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28181,
+    "output": 999
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チャンピックス錠1mg",
+      "strength": "1mg",
+      "imprint_front": "Pfizer",
+      "imprint_back": "CHX1.0",
+      "imprint_note": "識別コードは「Pfizer・CHX1.0」と記載。外形図では表面にPfizerのロゴ、裏面にCHX 1.0の表示あり。",
+      "color": "淡青色",
+      "shape": "oblong",
+      "size_long_mm": 10,
+      "size_short_mm": 5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2020年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡青色/フィルムコート錠/Pfizer・CHX1.0"
+    }
+  ]
+}

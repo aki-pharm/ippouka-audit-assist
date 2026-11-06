@@ -1,0 +1,30 @@
+{
+  "id": "8119002G8029",
+  "source_file": "343018_8119002G5020_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_8119002G5020_2_09",
+  "extracted_at": "2026-11-06T18:34:47.958Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32019,
+    "output": 844
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキシコンチンTR錠 40mg",
+      "strength": "40mg",
+      "imprint_front": "923",
+      "imprint_back": "40",
+      "imprint_note": "識別コード「923:40」。表面は社名マークと923、裏面は40（外形図より）",
+      "color": "微黄白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "微黄白色～淡黄色の円形のフィルムコーティング錠である。／直径 約7.1mm 厚さ 約4.3mm／識別コード 923:40"
+    }
+  ]
+}

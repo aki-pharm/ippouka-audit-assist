@@ -1,0 +1,30 @@
+{
+  "id": "6290001F1050",
+  "source_file": "672173_6290001F1050_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_6290001F1050_2_02",
+  "extracted_at": "2026-11-06T18:31:17.474Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14507,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンコチル錠500mg",
+      "strength": "500mg",
+      "imprint_front": "KW 027",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：KW027。外形図には表面に「KW 027」の表示があり、裏面の刻印は文書に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2022年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 大きさ 直径：約 10.1mm 厚さ：約 6.0mm 質量 約 550mg 識別コード KW027"
+    }
+  ]
+}

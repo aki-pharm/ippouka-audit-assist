@@ -1,0 +1,30 @@
+{
+  "id": "6419006F1024",
+  "source_file": "780069_6419006F1024_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_6419006F1024_1_04",
+  "extracted_at": "2026-11-06T18:32:59.747Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14943,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スピラマイシン錠150万単位「サノフィ」",
+      "strength": "150万国際単位",
+      "imprint_front": "RPR 107",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード RPR 107（表裏の区別は本文に記載なし）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコーティング錠 外 形 直径（mm） 10 厚さ（mm） 5.5 重量 （mg） 408.47 識別コード RPR 107"
+    }
+  ]
+}

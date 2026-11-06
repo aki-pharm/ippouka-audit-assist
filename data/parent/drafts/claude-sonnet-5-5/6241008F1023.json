@@ -1,0 +1,30 @@
+{
+  "id": "6241008F1023",
+  "source_file": "630004_6241008F1023_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_6241008F1023_1_26",
+  "extracted_at": "2026-11-06T18:24:46.798Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25372,
+    "output": 775
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シプロキサン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの欄は図（イラスト）のみで、テキストとして読み取れる記載がないため未確認",
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～淡黄色 外形 直径 8mm 厚さ 3.1mm 質量 153mg 識別コード"
+    }
+  ]
+}

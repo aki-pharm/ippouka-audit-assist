@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1128",
+  "source_file": "530100_6250019F1128_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_6250019F1128_1_08",
+  "extracted_at": "2026-11-06T18:27:13.459Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33729,
+    "output": 829
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「NP」",
+      "strength": "500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文には刻印・識別コードの記載なし。外形図に印字らしき表示があるが、本文で確認できないため未確認とした。",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "バラシクロビル錠500mg「NP」 白色～微黄白色のフィルムコーティング錠 （長径）18.5 （短径）7.5 厚さ6.2 重量700"
+    }
+  ]
+}

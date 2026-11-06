@@ -1,0 +1,30 @@
+{
+  "id": "6241013F3256",
+  "source_file": "480235_6241013F2250_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6241013F2250_1_11",
+  "extracted_at": "2026-11-06T18:25:44.965Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34129,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠500mg「トーワ」",
+      "strength": "500mg",
+      "imprint_front": "TwL2",
+      "imprint_back": "500",
+      "imprint_note": "識別コードの表側は「TwL2」、裏側は「500」と図示されている。割線あり。",
+      "color": "うすいだいだい色",
+      "shape": "oval",
+      "size_long_mm": 18.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色の楕円形の割線入りのフィルムコーティング錠 / 識別コード TwL2 / 直径(mm) 18.2／8.2（長径／短径） / 厚さ(mm) 5.1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "8114004N6028",
+  "source_file": "470006_8114004N4025_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470006_8114004N4025_2_06",
+  "extracted_at": "2026-11-06T18:33:57.215Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16185,
+    "output": 394
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "MSツワイスロンカプセル60mg",
+      "strength": "60mg",
+      "imprint_front": "TF-TL60",
+      "imprint_back": "TF-TL60",
+      "imprint_note": "識別コード：TF-TL60。剤形は徐放性顆粒を充填した硬カプセル剤（錠剤ではない）。3号カプセル、質量約0.199g。色は顆粒：白色～淡褐色、キャップ：だいだい色不透明、ボディ：無色透明",
+      "color": "顆粒：白色～淡褐色、キャップ：だいだい色不透明、ボディ：無色透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "顆粒：白色～淡褐色 キャップ：だいだい色不透明 ボディ：無色透明 ／ 3号カプセル ／ 約0.199g ／ 識別コード TF-TL60（剤形：徐放性顆粒を充填した硬カプセル剤）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6152005M2074",
+  "source_file": "672212_6152005M1043_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6152005M1043_3_07",
+  "extracted_at": "2026-11-06T18:22:20.082Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17884,
+    "output": 638
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノマイシンカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "LL 324",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は錠剤ではなく2号硬カプセル。識別コードの記載は表裏の区別なし。大きさは外形図の数値（全長18.0mm、直径6.3mm）",
+      "color": "薄いベージュ色",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 6.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ミノマイシンカプセル 100mg LL 324 薄いベージュ色 2 号硬カプセル"
+    }
+  ]
+}

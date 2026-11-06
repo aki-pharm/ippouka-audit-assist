@@ -1,0 +1,30 @@
+{
+  "id": "6250121F1026",
+  "source_file": "170050_6250121F1026_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_6250121F1026_1_02",
+  "extracted_at": "2026-11-06T18:31:15.838Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28886,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イドビンソ配合錠（ドラビリン100mg/イスラトラビル0.25mg）",
+      "strength": "ドラビリン100mg/イスラトラビルとして0.25mg",
+      "imprint_front": "772",
+      "imprint_back": "なし",
+      "imprint_note": "表面に識別コード772。裏面の刻印は外形図に表示なし",
+      "color": "ピンク色",
+      "shape": "oval",
+      "size_long_mm": 17.8,
+      "size_short_mm": 9,
+      "thickness_mm": 6.3,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 楕円形・フィルムコーティング錠・ピンク色 長径：17.8mm、短径：9.0mm 厚さ：6.3mm 識別コード 772"
+    }
+  ]
+}

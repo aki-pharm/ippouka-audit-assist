@@ -1,0 +1,30 @@
+{
+  "id": "6151001F2053",
+  "source_file": "530258_6151001F1030_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_6151001F1030_2_04",
+  "extracted_at": "2026-11-06T18:21:47.341Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12375,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロロマイセチン錠250",
+      "strength": "250mg",
+      "imprint_front": "NF 712",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NF 712（外形図では錠剤表面に表示）。裏面の刻印については記載なし",
+      "color": "暗赤褐色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "クロロマイセチン錠250 暗赤褐色・糖衣錠 NF 712 直径10.6mm 厚さ5.7mm 質量480mg"
+    }
+  ]
+}

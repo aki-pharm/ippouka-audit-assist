@@ -1,0 +1,30 @@
+{
+  "id": "8115001F1106",
+  "source_file": "400256_8115001F1106_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_8115001F1106_1_10",
+  "extracted_at": "2026-11-06T18:34:09.768Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10984,
+    "output": 898
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コデインリン酸塩錠20mg「タケダ」",
+      "strength": "20mg",
+      "imprint_front": "871",
+      "imprint_back": "20",
+      "imprint_note": "識別コードは社名マーク付きの「871」。上面に社名マークと871、下面に20の印字が図示されている",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2019年7月改訂",
+      "source_page": 1,
+      "source_quote": "販売名 コデインリン酸塩錠20mg「タケダ」 剤形 素錠 錠剤の色 白色～微黄白色 識別コード 871 形状 上面・下面・側面 直径(mm) 6.5 厚さ(mm) 4.0"
+    }
+  ]
+}

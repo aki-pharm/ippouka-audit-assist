@@ -1,0 +1,30 @@
+{
+  "id": "6241005F1020",
+  "source_file": "231099_6241005F1020_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_6241005F1020_3_05",
+  "extracted_at": "2026-11-06T18:24:20.799Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17919,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バクシダール錠100mg",
+      "strength": "100mg",
+      "imprint_front": "KP-711",
+      "imprint_back": "KP-711",
+      "imprint_note": "識別コードKP-711。外形図では表面にKP 711の表示あり。裏面の刻印は添付文書に個別の記載なし。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～微黄色 外形 直径：7.0mm 厚さ：3.5mm 質量：約141mg 識別コード KP-711"
+    }
+  ]
+}

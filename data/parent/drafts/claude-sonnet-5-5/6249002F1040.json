@@ -1,0 +1,30 @@
+{
+  "id": "6249002F1040",
+  "source_file": "300119_6249002F1040_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6249002F1040_1_09",
+  "extracted_at": "2026-11-06T18:26:17.119Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28426,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リネゾリド錠600mg「サワイ」",
+      "strength": "600mg",
+      "imprint_front": "SW LZ",
+      "imprint_back": "600",
+      "imprint_note": "外形図には表面「SW LZ」、裏面「600」、側面の図が描かれている。識別コード欄の記載は「SW LZ」。",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 17.4,
+      "size_short_mm": 8.2,
+      "thickness_mm": 6.3,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色～微黄白色 直径（mm） 17.4×8.2 厚さ（mm） 6.3 重量（mg） 約720 識別コード SW LZ"
+    }
+  ]
+}

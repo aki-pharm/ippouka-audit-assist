@@ -1,0 +1,30 @@
+{
+  "id": "6250049F1021",
+  "source_file": "170050_6250049F1021_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_6250049F1021_1_06",
+  "extracted_at": "2026-11-06T18:29:54.956Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24270,
+    "output": 874
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピフェルトロ®錠100mg",
+      "strength": "100mg",
+      "imprint_front": "700",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は社名マーク付きの「700」と図示されている。裏面の刻印は文章での記載がなく未確認。割線の記載なし。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 19,
+      "size_short_mm": 9.5,
+      "thickness_mm": 7.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 楕円形・フィルムコーティング錠・白色 長径：19.0mm 短径：9.5mm 厚さ：7.1mm 識別コード 700"
+    }
+  ]
+}

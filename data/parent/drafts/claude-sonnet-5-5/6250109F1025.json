@@ -1,0 +1,30 @@
+{
+  "id": "6250109F1025",
+  "source_file": "230867_6250109F1025_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230867_6250109F1025_2_06",
+  "extracted_at": "2026-11-06T18:30:46.062Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 54900,
+    "output": 957
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゲンボイヤ配合錠",
+      "strength": "1錠（エルビテグラビル150mg・コビシスタット150mg・エムトリシタビン200mg・テノホビル アラフェナミド10mg）",
+      "imprint_front": "GSI",
+      "imprint_back": "510",
+      "imprint_note": "識別コード GSI-510（外形図：上面 GSI、下面 510）",
+      "color": "緑色",
+      "shape": null,
+      "size_long_mm": 19.2,
+      "size_short_mm": 8.7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 緑色のフィルムコーティング錠 ／ サイズ 長径 約19.2mm，短径 約8.7mm，重量 約1,080mg ／ 識別コード GSI-510"
+    }
+  ]
+}

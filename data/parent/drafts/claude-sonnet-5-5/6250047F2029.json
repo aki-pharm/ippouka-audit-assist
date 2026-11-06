@@ -1,0 +1,30 @@
+{
+  "id": "6250047F2029",
+  "source_file": "340018_6250047F1022_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_6250047F1022_1_21",
+  "extracted_at": "2026-11-06T18:29:52.620Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35981,
+    "output": 872
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾフルーザ錠20mg",
+      "strength": "20mg",
+      "imprint_front": "772",
+      "imprint_back": "20",
+      "imprint_note": "表面に社名マークと「772」、裏面に「20」（識別コード：社名マーク772:20）。刻印は添付文書の外形図による。",
+      "color": "白色～淡黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.5,
+      "size_short_mm": 4.4,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の楕円形のフィルムコーティング錠である。／長径 約8.5mm 短径 約4.4mm 厚さ 約3.40mm／識別コード 772:20"
+    }
+  ]
+}

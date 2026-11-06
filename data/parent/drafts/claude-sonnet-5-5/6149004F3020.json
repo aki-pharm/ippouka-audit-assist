@@ -1,0 +1,30 @@
+{
+  "id": "6149004F3020",
+  "source_file": "400186_6149004C1080_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6149004C1080_1_12",
+  "extracted_at": "2026-11-06T18:21:41.477Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21513,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジスロマイシン小児用錠100mg「タカタ」",
+      "strength": "100mg",
+      "imprint_front": "TTS 700",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：TTS-700。表面に「TTS 700」の印字が図示されている。裏面は無地（刻印の記載なし）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠　表面直径 約7.6mm　裏面重さ 約0.155g　側面厚さ 約3.9mm　識別コード TTS-700"
+    }
+  ]
+}

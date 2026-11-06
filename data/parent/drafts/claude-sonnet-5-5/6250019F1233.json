@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1233",
+  "source_file": "300119_6250019F1233_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6250019F1233_1_09",
+  "extracted_at": "2026-11-06T18:27:32.027Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29132,
+    "output": 319
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「サワイ」",
+      "strength": "500mg",
+      "imprint_front": "バラシクロビル SW 500",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「バラシクロビル SW 500」と記載。表裏の区別は記載なし（外形図には割線のある面と割線のない面に表示あり）",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 17.3,
+      "size_short_mm": 8.1,
+      "thickness_mm": 6.5,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 性状 白色～微黄白色 直径（mm） 17.3×8.1 厚さ（mm） 6.5 重量（mg） 約730 本体表示 バラシクロビル SW 500"
+    }
+  ]
+}

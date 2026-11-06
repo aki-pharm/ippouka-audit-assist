@@ -1,0 +1,30 @@
+{
+  "id": "6250024F1030",
+  "source_file": "340278_6250024F1030_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6250024F1030_1_09",
+  "extracted_at": "2026-11-06T18:28:17.894Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26427,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テノゼット錠300mg",
+      "strength": "300mg",
+      "imprint_front": "GSK 300",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「GSK 300」。裏面の刻印の記載なし（図のみで文言の記載なし）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 17,
+      "size_short_mm": 10.5,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色のフィルムコーティング錠 識別コード GSK 300 （長径×短径）17.0mm×10.5mm （厚さ）5.3mm 質量 693mg"
+    }
+  ]
+}

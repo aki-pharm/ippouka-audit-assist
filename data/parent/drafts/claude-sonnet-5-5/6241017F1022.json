@@ -1,0 +1,30 @@
+{
+  "id": "6241017F1022",
+  "source_file": "400022_6241017F1022_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400022_6241017F1022_2_08",
+  "extracted_at": "2026-11-06T18:26:01.919Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23613,
+    "output": 1048
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジェニナック錠200mg",
+      "strength": "200mg",
+      "imprint_front": "ジェニナック 200",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の表示は外形図（上面）から読み取った。下面は外形図に表示がないが、文章での記載はない。",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ジェニナック錠200mg 淡橙色 フィルムコーティング錠 直径（mm）約8.6 厚さ（mm）約4.7 重量（mg）約306"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6290002M2026",
+  "source_file": "672212_6290002M1020_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6290002M1020_3_06",
+  "extracted_at": "2026-11-06T18:31:46.834Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27566,
+    "output": 912
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジフルカンカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "D06",
+      "imprint_back": "D06",
+      "imprint_note": "剤形は錠剤ではなく硬カプセル（3号）。識別コードD06にファイザー社名マークが併記されている（外形図より）。表裏の区別は記載なし。",
+      "color": "キャップ：だいだい色、ボディ：だいだい色",
+      "shape": "oblong",
+      "size_long_mm": 15,
+      "size_short_mm": 5.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "ジフルカンカプセル100mg D06 キャップ：だいだい色 ボディ：だいだい色 3号硬カプセル"
+    }
+  ]
+}

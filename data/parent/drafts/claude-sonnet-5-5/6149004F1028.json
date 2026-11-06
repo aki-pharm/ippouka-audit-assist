@@ -1,0 +1,30 @@
+{
+  "id": "6149004F1028",
+  "source_file": "672212_6149004F1028_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6149004F1028_3_03",
+  "extracted_at": "2026-11-06T18:21:20.747Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28248,
+    "output": 939
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジスロマック錠250mg",
+      "strength": "250mg",
+      "imprint_front": "Pfizer",
+      "imprint_back": "ZTM 250",
+      "imprint_note": "識別コード表記は「Pfizer ZTM250」。上面は図に Pfizer の表記、下面は図に ZTM 250 の表記。割線の記載は確認できず。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.9,
+      "thickness_mm": 5.6,
+      "score_line": null,
+      "source_revision": "2022年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "外形（mm）13.6×6.9、厚さ5.6／識別コード Pfizer ZTM250／色調等 白色 フィルムコート錠"
+    }
+  ]
+}

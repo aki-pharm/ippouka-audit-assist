@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1365",
+  "source_file": "112268_6250019F1365_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112268_6250019F1365_1_03",
+  "extracted_at": "2026-11-06T18:27:49.023Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31568,
+    "output": 314
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「SPKK」",
+      "strength": "500mg",
+      "imprint_front": "JACF1",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：JA CF1（表に印字）。裏の刻印の記載なし（図は無地）",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": 7.3,
+      "thickness_mm": 6.1,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 バラシクロビル錠500mg「SPKK」 剤形・性状 白色～微黄白色のフィルムコート錠 識別コード JA CF1 表（長径×短径）18.5mm×7.3mm 側面（厚さ）6.1mm 質量 700mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "8114004G1027",
+  "source_file": "343018_8114004G1027_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_8114004G1027_2_06",
+  "extracted_at": "2026-11-06T18:33:49.075Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18567,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "MSコンチン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "902（社名マーク付き）",
+      "imprint_back": "10",
+      "imprint_note": "表面に社名マークと識別コード「902」、裏面に「10」の印字。識別コード欄は「902：10」",
+      "color": "うすい黄褐色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "うすい黄褐色の円形のフィルムコーティング錠で、においはない。／直径 約 7.1mm 厚さ 約 4.4mm"
+    }
+  ]
+}

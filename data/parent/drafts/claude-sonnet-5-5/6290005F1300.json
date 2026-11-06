@@ -1,0 +1,30 @@
+{
+  "id": "6290005F1300",
+  "source_file": "480235_6290005F1300_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6290005F1300_1_06",
+  "extracted_at": "2026-11-06T18:32:20.556Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18134,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルビナフィン錠125mg「トーワ」",
+      "strength": "125mg",
+      "imprint_front": "Tw177",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード Tw177（外形図では表面に Tw/177 と表示、裏面に表示なし）。割線は性状欄に記載あり。",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～淡黄白色の割線入りのフィルムコーティング錠 識別コード Tw177 直径(mm) 8.1 厚さ(mm) 4.2 質量(mg) 188"
+    }
+  ]
+}

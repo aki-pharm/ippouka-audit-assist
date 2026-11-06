@@ -1,0 +1,30 @@
+{
+  "id": "6179001F1058",
+  "source_file": "672173_6179001F1058_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_6179001F1058_2_12",
+  "extracted_at": "2026-11-06T18:23:00.581Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 51907,
+    "output": 1189
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボリコナゾール錠50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "ボリコナゾール 50 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「ボリコナゾール 50 アメル」と記載。表裏の区別は本文テキストからは判別できないため、裏は未確認。割線入りの記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ボリコナゾール錠50mg「アメル」 フィルムコーティング錠 白色 直径：約 7.1mm 厚さ：約 3.5mm 質量：約 144.0mg 識別コード ボリコナゾール 50 アメル"
+    }
+  ]
+}

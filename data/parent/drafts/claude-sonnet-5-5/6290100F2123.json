@@ -1,0 +1,30 @@
+{
+  "id": "6290100F2123",
+  "source_file": "431010_6290100D1096_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_6290100D1096_2_08",
+  "extracted_at": "2026-11-06T18:32:36.449Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18396,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バクトラミン配合錠",
+      "strength": "1錠中 トリメトプリム80mg・日局スルファメトキサゾール400mg",
+      "imprint_front": "BS",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「BS」。平面・側面の表記は図のみで、表裏の別は文章では確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 5.3,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色 白色／剤形 素錠（割線入り）／識別コード BS／直径 約11mm／厚さ 約5.3mm／平均重量 約500mg"
+    }
+  ]
+}

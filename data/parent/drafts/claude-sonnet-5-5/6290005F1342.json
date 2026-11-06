@@ -1,0 +1,30 @@
+{
+  "id": "6290005F1342",
+  "source_file": "400186_6290005F1342_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6290005F1342_2_02",
+  "extracted_at": "2026-11-06T18:32:30.129Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18247,
+    "output": 328
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルビナフィン錠125mg「タカタ」",
+      "strength": "125mg",
+      "imprint_front": "TTS-660",
+      "imprint_back": "TTS-660",
+      "imprint_note": "識別コード TTS-660（PTPシートに表示）。表面・裏面・側面の外形図が掲載されているが、錠剤本体への刻印の有無・位置は文章では明記されていない。表面の図には割線らしき線が描かれている。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のフィルムコーティング錠　直径 約8.1mm　厚さ 約4.5mm　質量 約178mg　識別コード TTS-660（PTPシートに表示）"
+    }
+  ]
+}

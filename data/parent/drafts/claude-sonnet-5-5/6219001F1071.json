@@ -1,0 +1,30 @@
+{
+  "id": "6219001F1071",
+  "source_file": "672212_6219001F1071_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6219001F1071_3_04",
+  "extracted_at": "2026-11-06T18:23:45.987Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13908,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サラゾピリン錠500mg",
+      "strength": "500mg",
+      "imprint_front": "KPh 101",
+      "imprint_back": "KPh",
+      "imprint_note": "識別コード欄は「KPh 101」。外形図では上面に「101」、下面に「KPh」の表示。側面は割線入り。",
+      "color": "黄色～黄褐色",
+      "shape": "oval",
+      "size_long_mm": 17.7,
+      "size_short_mm": 7.5,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "識別コード KPh 101 色調等 黄色～黄褐色 だ円形の素錠 割線入り 直径 17.7×7.5mm 厚さ 5.7mm 重量 640mg"
+    }
+  ]
+}

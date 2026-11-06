@@ -1,0 +1,30 @@
+{
+  "id": "6250031F1153",
+  "source_file": "300166_6250031F1153_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_6250031F1153_1_04",
+  "extracted_at": "2026-11-06T18:29:17.941Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23752,
+    "output": 753
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファムシクロビル錠250mg「KMP」",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表面・裏面）に印字らしき表示があるが、本文に刻印・識別コードの記載はないため確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 ／ 直径（mm） 約 9.6 ／ 厚さ（mm） 約 4.8 ／ 重量（g） 約 0.3"
+    }
+  ]
+}

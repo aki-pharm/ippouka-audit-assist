@@ -1,0 +1,30 @@
+{
+  "id": "6290002M2115",
+  "source_file": "672173_6290002M1100_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_6290002M1100_2_10",
+  "extracted_at": "2026-11-06T18:31:44.719Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34076,
+    "output": 394
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルコナゾールカプセル100mg「アメル」",
+      "strength": "100mg",
+      "imprint_front": "KW589",
+      "imprint_back": "100",
+      "imprint_note": "硬カプセル剤（3号カプセル）。識別コードは「KW589 100」と記載。表裏の区別は明記されていないため、KW589を表、100を裏として記載",
+      "color": "キャップ：だいだい色不透明、ボディ：だいだい色不透明（カプセルの内容物は、白色〜微黄白色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "フルコナゾールカプセル100mg「アメル」 硬カプセル剤 キャップ：だいだい色不透明 ボディ：だいだい色不透明 A：約15.9mm B：約5.8mm 質量：約269.0mg 識別コード KW589 100 ／ カプセルの内容物は、白色〜微黄白色の粉末である。"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6250029F1083",
+  "source_file": "400042_6250029F1083_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_6250029F1083_1_05",
+  "extracted_at": "2026-11-06T18:28:39.502Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27807,
+    "output": 1092
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エンテカビル錠0.5mg「YD」",
+      "strength": "0.5mg",
+      "imprint_front": "YD14",
+      "imprint_back": "0.5",
+      "imprint_note": "裏面の「0.5」は外形図から読み取った。本文には識別コード YD14 のみ記載。外形の寸法は「垂線 約9.0mm」と記載され、長径・短径の区別はないため size_long_mm に入れた。",
+      "color": "白色～微黄白色",
+      "shape": "other",
+      "size_long_mm": 9,
+      "size_short_mm": null,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色、フィルムコーティング錠である。 垂線 約9.0mm 厚さ 約3.6mm 重量 206mg 識別コード YD14"
+    }
+  ]
+}

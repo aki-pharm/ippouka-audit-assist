@@ -1,0 +1,30 @@
+{
+  "id": "6164001M1216",
+  "source_file": "430574_6164001M1216_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_6164001M1216_1_18",
+  "extracted_at": "2026-11-06T18:22:32.361Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32795,
+    "output": 653
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リファジンカプセル150mg",
+      "strength": "150mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図にボディー部分に印字らしき表示があるが、添付文書の文字情報としては刻印・識別コードの記載なし",
+      "color": "キャップ：青色 不透明、ボディー：赤色 不透明",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "リファジンカプセル150mg カプセル(3号) 色：キャップ 青色 不透明、ボディー 赤色 不透明 外形：全長 約15.8mm、重さ 約229mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6250024F1021",
+  "source_file": "230867_6250024F1021_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230867_6250024F1021_2_04",
+  "extracted_at": "2026-11-06T18:28:16.234Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26068,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビリアード錠300mg",
+      "strength": "300mg",
+      "imprint_front": "GILEAD 4331",
+      "imprint_back": "300",
+      "imprint_note": "識別コード：GILEAD4331-300。外形図より、上面にGILEAD/4331、下面に300の印字",
+      "color": "うすい青色",
+      "shape": "oval",
+      "size_long_mm": 17,
+      "size_short_mm": 10.5,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすい青色のフィルムコーティング錠 サイズ 長径 約17.0mm，短径 約10.5mm，厚さ 約5.0mm 識別コード GILEAD4331-300"
+    }
+  ]
+}

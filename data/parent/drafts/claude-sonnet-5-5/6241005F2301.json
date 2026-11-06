@@ -1,0 +1,30 @@
+{
+  "id": "6241005F2301",
+  "source_file": "460028_6241005F1267_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_6241005F1267_1_10",
+  "extracted_at": "2026-11-06T18:24:27.964Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18485,
+    "output": 307
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノルフロキサシン錠200mg「ツルハラ」",
+      "strength": "200mg",
+      "imprint_front": "TSU575",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTSU575。外形図には表面に「TSU 575」の表示、側面図に割線様の表示があるが、本文中には刻印の表裏や割線の明記なし。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2023年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～微黄色 大きさ 直径 約 9.1mm 厚さ 約 5.0mm 質量 約 275mg 識別コード TSU575"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6149004F4027",
+  "source_file": "480235_6149004F1168_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6149004F1168_1_12",
+  "extracted_at": "2026-11-06T18:21:41.234Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30437,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジスロマイシン錠500mg「トーワ」",
+      "strength": "500mg",
+      "imprint_front": "Tw719",
+      "imprint_back": "500",
+      "imprint_note": "表に「Tw719」、裏に「500」の印字（識別コードはTw719）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.7,
+      "size_short_mm": 7.9,
+      "thickness_mm": 6.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 / 識別コード Tw718 Tw719 / 直径(mm) 12.6／6.4（長径／短径） 15.7／7.9（長径／短径） / 厚さ(mm) 4.9 6.4"
+    }
+  ]
+}

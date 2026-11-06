@@ -1,0 +1,30 @@
+{
+  "id": "7990101F1035",
+  "source_file": "380077_7990101F1035_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380077_7990101F1035_1_07",
+  "extracted_at": "2026-11-06T18:33:40.354Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17664,
+    "output": 328
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビジクリア配合錠",
+      "strength": "1錠（リン酸二水素ナトリウム一水和物734.7mg及び無水リン酸水素二ナトリウム265.3mg）",
+      "imprint_front": "ZP55",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード ZP55。外形図では表面にZP55の表示があり、裏面・側面には表示なし。",
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 16,
+      "size_short_mm": 8,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2022年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形の素錠 / 色調 白色～微黄白色 / 大きさ 約16.0mm（長径）、約8.0mm（短径） / 厚さ 約6.5mm / 質量 約1.07g / 識別コード ZP55"
+    }
+  ]
+}

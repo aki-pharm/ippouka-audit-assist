@@ -1,0 +1,30 @@
+{
+  "id": "8119002G6026",
+  "source_file": "343018_8119002G5020_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_8119002G5020_2_09",
+  "extracted_at": "2026-11-06T18:34:38.130Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32019,
+    "output": 693
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキシコンチンTR錠 10mg",
+      "strength": "10mg",
+      "imprint_front": "921",
+      "imprint_back": "10",
+      "imprint_note": "表面は社名マークと921（識別コード 921:10）。裏面は10。文字情報は添付文書の図および識別コード欄に基づく",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "白色の円形のフィルムコーティング錠である。／直径 約 7.1mm 厚さ 約 4.7mm／識別コード 921:10"
+    }
+  ]
+}

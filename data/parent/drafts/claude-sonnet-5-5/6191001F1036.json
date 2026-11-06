@@ -1,0 +1,30 @@
+{
+  "id": "6191001F1036",
+  "source_file": "780009_6191001F1036_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_6191001F1036_1_07",
+  "extracted_at": "2026-11-06T18:23:48.099Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10486,
+    "output": 1013
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビクシリンS配合錠",
+      "strength": "1錠中 アンピシリン水和物125mg（力価）・クロキサシリンナトリウム水和物125mg（力価）（合計250mg（力価））",
+      "imprint_front": "MS P07",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図（表）の表示から読み取った。性状の文章には刻印の記載なし。裏面の表示は判読できず未確認。",
+      "color": "うすいだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 13.2,
+      "size_short_mm": 5.8,
+      "thickness_mm": 5.6,
+      "score_line": null,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "ビクシリンS配合錠 フィルムコーティング錠 うすいだいだい色 長径：13.2 短径：5.8 厚さ（mm）5.6 重量（g）0.451"
+    }
+  ]
+}

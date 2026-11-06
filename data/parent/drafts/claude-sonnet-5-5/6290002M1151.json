@@ -1,0 +1,30 @@
+{
+  "id": "6290002M1151",
+  "source_file": "270428_6290002M1151_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_6290002M1151_1_16",
+  "extracted_at": "2026-11-06T18:31:40.232Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31195,
+    "output": 899
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルコナゾールカプセル50mg「サンド」",
+      "strength": "50mg",
+      "imprint_front": "Sz748",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤（4号硬カプセル、質量200mg）。識別コードSz748。表裏の区別は記載なし。",
+      "color": "頭部白色不透明、胴部白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：硬カプセル剤／色調：頭部白色不透明、胴部白色不透明／性状：内容物は白色の粉末／外形：(4号硬カプセル)／質量：200mg／識別コード：Sz748"
+    }
+  ]
+}

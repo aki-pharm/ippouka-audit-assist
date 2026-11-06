@@ -1,0 +1,30 @@
+{
+  "id": "6241018F1027",
+  "source_file": "430574_6241018C1020_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_6241018C1020_1_23",
+  "extracted_at": "2026-11-06T18:25:58.318Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23969,
+    "output": 269
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グレースビット錠50mg",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の外形図には表面に何らかの印字らしきものが描かれているが、本文中に刻印・識別コードの文字記載はない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "グレースビット錠50mg フィルムコーティング錠 白色～微黄白色 直径7.7mm 厚さ約4.1mm 重さ約165mg"
+    }
+  ]
+}

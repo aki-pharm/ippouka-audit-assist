@@ -1,0 +1,46 @@
+{
+  "id": "6290100F3022",
+  "source_file": "343018_6290100D1088_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_6290100D1088_2_09",
+  "extracted_at": "2026-11-06T18:32:43.244Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21478,
+    "output": 1096
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バクタ配合錠",
+      "strength": "1錠中 スルファメトキサゾール400mg・トリメトプリム80mg",
+      "imprint_front": "780",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マークと780の識別コード（識別コード：マーク 780）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色の円形の素錠である。 直径 約 11.0mm 厚さ 約 5.1mm 質量 約 0.50g"
+    },
+    {
+      "product_name": "バクタミニ配合錠",
+      "strength": "1錠中 スルファメトキサゾール100mg・トリメトプリム20mg",
+      "imprint_front": "779",
+      "imprint_back": "100 20",
+      "imprint_note": "表面に社名マークと779の識別コード（識別コード：マーク 779：100 20）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色の円形の素錠である。 直径 約 6.0mm 厚さ 約 4.4mm 質量 約0.13g"
+    }
+  ]
+}

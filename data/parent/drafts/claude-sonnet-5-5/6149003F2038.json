@@ -1,0 +1,30 @@
+{
+  "id": "6149003F2038",
+  "source_file": "400059_6149003F2038_1_38.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_6149003F2038_1_38",
+  "extracted_at": "2026-11-06T18:20:57.684Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37205,
+    "output": 997
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリス錠200",
+      "strength": "200mg",
+      "imprint_front": "クラリス 200",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の上面に「クラリス 200」の表示あり（本文に刻印の文字記載はなく、図からの読み取り）。下面は図では無表示だが、「なし」の明記はないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "クラリス錠 200 白色 フィルムコーティング錠 直径（mm）約 8.6 厚さ（mm）約 5.4 重量（mg）約 250"
+    }
+  ]
+}

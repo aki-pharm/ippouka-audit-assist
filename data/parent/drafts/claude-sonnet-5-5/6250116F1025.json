@@ -1,0 +1,30 @@
+{
+  "id": "6250116F1025",
+  "source_file": "230867_6250116F1025_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230867_6250116F1025_1_07",
+  "extracted_at": "2026-11-06T18:31:04.947Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 47157,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エプクルーサ配合錠",
+      "strength": "1錠中 ソホスブビル 400mg、ベルパタスビル 100mg",
+      "imprint_front": "GSI",
+      "imprint_back": "7916",
+      "imprint_note": "識別コード：GSI・7916（外形図に「GSI」「7916」の表示あり）",
+      "color": "ピンク色",
+      "shape": "other",
+      "size_long_mm": 20,
+      "size_short_mm": 10,
+      "thickness_mm": 6.6,
+      "score_line": null,
+      "source_revision": "2023年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ピンク色のひし形のフィルムコーティング錠 大きさ 長径 20mm、短径 10mm、厚さ 6.6mm、重さ 1030mg 識別コード GSI・7916"
+    }
+  ]
+}

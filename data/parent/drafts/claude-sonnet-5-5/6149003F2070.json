@@ -1,0 +1,30 @@
+{
+  "id": "6149003F2070",
+  "source_file": "530372_6149003F2070_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_6149003F2070_1_23",
+  "extracted_at": "2026-11-06T18:20:54.762Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36934,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠200mg「NPI」",
+      "strength": "200mg",
+      "imprint_front": "NPI 614",
+      "imprint_back": "なし",
+      "imprint_note": "表に識別コード「NPI 614」の印字あり（外形図より）。裏面は刻印の記載なし（外形図では無地）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコート錠 / 直径 8.7mm / 厚さ 5.4mm / 重量 250mg / 識別コード NPI 614"
+    }
+  ]
+}

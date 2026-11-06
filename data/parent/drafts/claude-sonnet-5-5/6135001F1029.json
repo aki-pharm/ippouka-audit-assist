@@ -1,0 +1,30 @@
+{
+  "id": "6135001F1029",
+  "source_file": "780009_6135001F1029_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_6135001F1029_1_14",
+  "extracted_at": "2026-11-06T18:20:09.459Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9812,
+    "output": 620
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ホスミシン錠250",
+      "strength": "250mg（力価）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文中に刻印・識別コードの文字記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 12,
+      "size_short_mm": 5.5,
+      "thickness_mm": 5.6,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ホスミシン錠250 素錠 白色 長径：12.0 短径：5.5 厚さ（mm）5.6 重量（g）0.403"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6250048F1027",
+  "source_file": "170050_6250048F1027_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_6250048F1027_1_10",
+  "extracted_at": "2026-11-06T18:29:51.030Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31686,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレバイミス錠240mg",
+      "strength": "240mg",
+      "imprint_front": "なし",
+      "imprint_back": "591",
+      "imprint_note": "表面に社名マーク（MSDロゴ）の図柄あり。識別コード欄は「社名マーク 591」",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 16.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "販売名 プレバイミス®錠240mg 剤形・色調 楕円形・フィルムコーティング錠・黄色 外形 表面 長径：16.5mm 短径：8.5mm 裏面 側面 厚さ：5.2mm 重量 約618mg 識別コード 591"
+    }
+  ]
+}

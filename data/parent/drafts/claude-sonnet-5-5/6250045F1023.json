@@ -1,0 +1,30 @@
+{
+  "id": "6250045F1023",
+  "source_file": "230867_6250045F1023_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230867_6250045F1023_1_10",
+  "extracted_at": "2026-11-06T18:29:42.396Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29096,
+    "output": 999
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベムリディ錠25mg",
+      "strength": "25mg",
+      "imprint_front": "25",
+      "imprint_back": "GSI",
+      "imprint_note": "本文の識別コードは「GSI・25」。表裏の別は本文に明記がなく、外形図の表示順から「25」を表、「GSI」を裏とした。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色のフィルムコーティング錠 / 大きさ 直径 8mm、厚さ 4mm、重さ 208mg / 識別コード GSI・25"
+    }
+  ]
+}

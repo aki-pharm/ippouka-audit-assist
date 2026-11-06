@@ -1,0 +1,30 @@
+{
+  "id": "6250053F1028",
+  "source_file": "230867_6250053F1028_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230867_6250053F1028_1_04",
+  "extracted_at": "2026-11-06T18:30:05.535Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24914,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シュンレンカ錠300mg",
+      "strength": "300mg",
+      "imprint_front": "GSI",
+      "imprint_back": "62L",
+      "imprint_note": "識別コードは「GSI・62L」と記載。外形図では錠剤の両面（GSI、62L）と側面が示されている。",
+      "color": "淡褐色",
+      "shape": null,
+      "size_long_mm": 21,
+      "size_short_mm": 10,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡褐色のフィルムコーティング錠 / 大きさ 長径約21mm、短径約10mm、重量約1560mg / 識別コード GSI・62L"
+    }
+  ]
+}

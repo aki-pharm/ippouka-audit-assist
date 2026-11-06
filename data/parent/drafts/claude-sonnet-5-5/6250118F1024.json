@@ -1,0 +1,30 @@
+{
+  "id": "6250118F1024",
+  "source_file": "800155_6250118F1024_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_6250118F1024_1_09",
+  "extracted_at": "2026-11-06T18:31:09.949Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 65843,
+    "output": 334
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シムツーザ配合錠",
+      "strength": "1錠（ダルナビルとして800mg、コビシスタットとして150mg、エムトリシタビンとして200mg、テノホビル アラフェナミドとして10mg）",
+      "imprint_front": "JG",
+      "imprint_back": "8121",
+      "imprint_note": "識別コード：JG 8121（表面にJG、裏面に8121）",
+      "color": "黄色～帯黄褐色",
+      "shape": "oblong",
+      "size_long_mm": 22,
+      "size_short_mm": 10,
+      "thickness_mm": 8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色～帯黄褐色のフィルムコーティング錠 外形 表面 裏面 側面 大きさ 長径（mm） 短径（mm） 厚さ（mm） 重量（g） 22 10 8 1.60 識別コード JG 8121"
+    }
+  ]
+}

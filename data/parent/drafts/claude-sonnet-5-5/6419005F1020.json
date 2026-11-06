@@ -1,0 +1,30 @@
+{
+  "id": "6419005F1020",
+  "source_file": "780069_6419005F1020_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_6419005F1020_1_05",
+  "extracted_at": "2026-11-06T18:32:58.910Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17043,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プリマキン錠15mg「サノフィ」",
+      "strength": "15mg",
+      "imprint_front": "P97",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「P97」。外形図の表面に社名マークと P97 が示されている。裏面の刻印は記載なし。",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第3版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "色 ･ 剤 形 うすい赤色のフィルムコーティング錠 外 形 直径（mm） 7.5 厚さ（mm） 4.5 重量（mg） 199 識別コード P97"
+    }
+  ]
+}

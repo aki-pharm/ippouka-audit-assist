@@ -1,0 +1,30 @@
+{
+  "id": "6250002F2269",
+  "source_file": "480235_6250002F1262_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6250002F1262_1_10",
+  "extracted_at": "2026-11-06T18:26:39.782Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19565,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アシクロビル錠400mg「トーワ」",
+      "strength": "400mg",
+      "imprint_front": "Tw 140",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはTw140。表の図には「Tw」と「140」が上下に分かれて印字され、その間に割線がある。裏面の図には刻印の表示なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 5,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線つきの素錠で、においはない。 識別コード Tw139 Tw140 直径(mm) 8.6 11.0 厚さ(mm) 4.0 5.0"
+    }
+  ]
+}

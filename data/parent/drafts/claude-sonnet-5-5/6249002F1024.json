@@ -1,0 +1,30 @@
+{
+  "id": "6249002F1024",
+  "source_file": "672212_6249002F1024_5_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6249002F1024_5_09",
+  "extracted_at": "2026-11-06T18:26:13.478Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27939,
+    "output": 778
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザイボックス錠600mg",
+      "strength": "600mg",
+      "imprint_front": "600",
+      "imprint_back": "ZYV",
+      "imprint_note": "識別コードは「600 ZYV」。上面に「600」、下面に「ZYV」（外形図より）",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 10,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "600 ZYV 白色～微黄白色 フィルムコーティング錠 長径18mm 短径10mm 厚さ6mm 重量861mg"
+    }
+  ]
+}

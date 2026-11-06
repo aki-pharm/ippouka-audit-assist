@@ -1,0 +1,30 @@
+{
+  "id": "6241013F2055",
+  "source_file": "430773_6241013C2032_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_6241013C2032_1_15",
+  "extracted_at": "2026-11-06T18:25:02.353Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30432,
+    "output": 307
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「DSEP」",
+      "strength": "250mg",
+      "imprint_front": "レボフロ 250 EP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「レボフロ 250 EP」。外形図には表裏の印字が描かれているが、表・裏の別は本文に明記されていないため裏は未確認",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 13.7,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2023年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "レボフロキサシン錠250mg「DSEP」 フィルムコーティング錠（楕円形・割線入） 黄色 レボフロ250 EP 13.7（長径） 6.6（短径） 約4.1 約337"
+    }
+  ]
+}

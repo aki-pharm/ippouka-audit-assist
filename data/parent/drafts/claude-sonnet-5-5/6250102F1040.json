@@ -1,0 +1,30 @@
+{
+  "id": "6250102F1040",
+  "source_file": "672173_6250102F1040_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_6250102F1040_2_06",
+  "extracted_at": "2026-11-06T18:30:28.219Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35461,
+    "output": 320
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラバミコム配合錠「アメル」",
+      "strength": "1錠中 ラミブジン300mg・アバカビルとして600mg（アバカビル硫酸塩702mg）",
+      "imprint_front": "KW",
+      "imprint_back": "111",
+      "imprint_note": "識別コード：KW/111。外形図では錠剤の片面に「KW」「111」が並んで表示されている。表裏の別は明記なし",
+      "color": "だいだい色",
+      "shape": "oblong",
+      "size_long_mm": 20.5,
+      "size_short_mm": 9,
+      "thickness_mm": 8.3,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 だいだい色 長径：約 20.5mm 短径：約 9.0mm 厚さ：約 8.3mm 質量：約 1291.5mg 識別コード KW/111"
+    }
+  ]
+}

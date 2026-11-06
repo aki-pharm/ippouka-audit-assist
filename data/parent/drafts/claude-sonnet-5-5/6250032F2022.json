@@ -1,0 +1,30 @@
+{
+  "id": "6250032F2022",
+  "source_file": "170050_6250032F2022_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_6250032F2022_1_07",
+  "extracted_at": "2026-11-06T18:29:24.333Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21362,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アイセントレス錠600mg",
+      "strength": "600mg",
+      "imprint_front": "242",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マーク（MSDロゴ）と「242」の識別コード。裏面は刻印の記載なし（外形図でも無地）",
+      "color": "うすい黄色",
+      "shape": "oblong",
+      "size_long_mm": 19.1,
+      "size_short_mm": 9.7,
+      "thickness_mm": 6.1,
+      "score_line": false,
+      "source_revision": "2025年10月改訂（第4版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 長円形・フィルムコーティング錠・うすい黄色 ／ 長径：19.1mm 短径：9.7mm 厚さ：6.1mm 識別コード 242"
+    }
+  ]
+}

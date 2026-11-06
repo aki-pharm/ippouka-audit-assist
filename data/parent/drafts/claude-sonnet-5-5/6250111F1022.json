@@ -1,0 +1,46 @@
+{
+  "id": "6250111F1022",
+  "source_file": "230867_6250111F1022_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230867_6250111F1022_2_04",
+  "extracted_at": "2026-11-06T18:30:51.458Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40942,
+    "output": 1349
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デシコビ配合錠LT",
+      "strength": "エムトリシタビン200mg及びテノホビル アラフェナミドとして10mg（テノホビル アラフェナミドフマル酸塩11.2mg）",
+      "imprint_front": "GSI",
+      "imprint_back": "210",
+      "imprint_note": "識別コード GSI-210（外形図では上面にGSI、下面に210）",
+      "color": "灰色",
+      "shape": null,
+      "size_long_mm": 12.7,
+      "size_short_mm": 6.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 灰色のフィルムコーティング錠 / サイズ 長径 約12.7mm，短径 約6.5mm，重量 約360mg / 識別コード GSI-210"
+    },
+    {
+      "product_name": "デシコビ配合錠HT",
+      "strength": "エムトリシタビン200mg及びテノホビル アラフェナミドとして25mg（テノホビル アラフェナミドフマル酸塩28mg）",
+      "imprint_front": "GSI",
+      "imprint_back": "225",
+      "imprint_note": "識別コード GSI-225（外形図では上面にGSI、下面に225）",
+      "color": "青色",
+      "shape": null,
+      "size_long_mm": 12.7,
+      "size_short_mm": 6.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 青色のフィルムコーティング錠 / サイズ 長径 約12.7mm，短径 約6.5mm，重量 約360mg / 識別コード GSI-225"
+    }
+  ]
+}

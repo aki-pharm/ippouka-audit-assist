@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1080",
+  "source_file": "300166_6250019F1080_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_6250019F1080_2_04",
+  "extracted_at": "2026-11-06T18:27:05.757Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29384,
+    "output": 303
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「FFP」",
+      "strength": "500mg",
+      "imprint_front": "バラシクロビル 500 FFP",
+      "imprint_back": "バラシクロビル 500 FFP",
+      "imprint_note": "外形の図（表面・裏面）に表示された印字。側面に刻印の記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコーティング錠 外形 表面 裏面 側面 サイズ 長径：約18.5mm 短径：約7.5mm 重量 厚さ 700mg 約6.2mm"
+    }
+  ]
+}

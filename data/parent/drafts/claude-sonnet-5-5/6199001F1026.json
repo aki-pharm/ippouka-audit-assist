@@ -1,0 +1,30 @@
+{
+  "id": "6199001F1026",
+  "source_file": "470007_6199001F1026_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_6199001F1026_1_07",
+  "extracted_at": "2026-11-06T18:23:45.221Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18018,
+    "output": 243
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リフキシマ錠200mg",
+      "strength": "200mg",
+      "imprint_front": "リフキシマ",
+      "imprint_back": "なし",
+      "imprint_note": "製剤表示「リフキシマ」。外形図では表面に印字、裏面には表示なし",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 5.2,
+      "score_line": false,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤色フィルムコーティング錠 直径約10.2mm 厚さ約5.2mm 質量約356mg 製剤表示 リフキシマ"
+    }
+  ]
+}

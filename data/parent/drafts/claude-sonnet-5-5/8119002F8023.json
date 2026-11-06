@@ -1,0 +1,30 @@
+{
+  "id": "8119002F8023",
+  "source_file": "430574_8119002F5024_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119002F5024_2_01",
+  "extracted_at": "2026-11-06T18:34:32.279Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26358,
+    "output": 1020
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキシコドン錠20mgNX「第一三共」",
+      "strength": "20mg",
+      "imprint_front": "オキシコドン錠",
+      "imprint_back": "20",
+      "imprint_note": "刻印は製剤の性状欄の外形図から判読（表：オキシコドン錠、裏：20）。本文に文章での記載はない。",
+      "color": "淡赤白色",
+      "shape": "oval",
+      "size_long_mm": 10.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "オキシコドン錠20mgNX「第一三共」 素錠（楕円形） 淡赤白色 10.6（長径）5.6（短径） 厚さ約4.1mm 重さ約200mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "7223001M1035",
+  "source_file": "380999_7223001M1035_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380999_7223001M1035_2_06",
+  "extracted_at": "2026-11-06T18:33:30.625Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12819,
+    "output": 608
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトピロンカプセル250mg",
+      "strength": "250mg",
+      "imprint_front": "CG 501",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード CG 501。剤形は軟カプセル剤。外形図の右側に円形の図があるが、裏面の刻印の記載は確認できない。",
+      "color": "微帯黄白色～淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 18.3,
+      "size_short_mm": 7.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 微帯黄白色～淡黄色の軟カプセル剤 / 寸法・重量 長径：18.3mm 短径：7.6mm 重量：770mg / 識別コード CG 501"
+    }
+  ]
+}

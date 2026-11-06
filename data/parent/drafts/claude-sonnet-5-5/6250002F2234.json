@@ -1,0 +1,30 @@
+{
+  "id": "6250002F2234",
+  "source_file": "300119_6250002F1238_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6250002F1238_1_10",
+  "extracted_at": "2026-11-06T18:26:37.332Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19674,
+    "output": 339
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アシクロビル錠400mg「サワイ」",
+      "strength": "400mg",
+      "imprint_front": "SW 317",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：SW 317（添付文書の外形図には表面に「SW 317」の表示。裏面の刻印の記載は確認できない）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.8,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 割線入り素錠 素錠 / 性　状 白色 / 直径（mm） 9.0 10.0 / 厚さ（mm） 3.1 5.8 / 重量（mg） 約240 約470 / 識別コード SW 307 SW 317（400mgは素錠、直径10.0mm、厚さ5.8mm、識別コード SW 317）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6250115F1020",
+  "source_file": "166272_6250115F1020_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/166272_6250115F1020_1_12",
+  "extracted_at": "2026-11-06T18:31:01.687Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42639,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジャルカ配合錠",
+      "strength": "1錠中 ドルテグラビルとして50mg・リルピビリンとして25mg",
+      "imprint_front": "SV J3T",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：SV J3T。表に印字。裏の図には刻印の表示なし。",
+      "color": "帯紅白色",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": 7.2,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 帯紅白色のフィルムコーティング錠 識別コード SV J3T 表(長径×短径) 約14.3mm×約7.2mm 側面（厚さ） 約5.7mm 質量 515mg"
+    }
+  ]
+}

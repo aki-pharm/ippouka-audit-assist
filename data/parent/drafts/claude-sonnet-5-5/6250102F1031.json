@@ -1,0 +1,30 @@
+{
+  "id": "6250102F1031",
+  "source_file": "166272_6250102F1031_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/166272_6250102F1031_2_15",
+  "extracted_at": "2026-11-06T18:30:24.730Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35879,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エプジコム配合錠",
+      "strength": "1錠中 ラミブジン300mg・アバカビル600mg（アバカビル硫酸塩702mg）",
+      "imprint_front": "GS FC2",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：GS FC2（表に記載）。裏の刻印についての記載は添付文書の本文になし",
+      "color": "だいだい色",
+      "shape": "oblong",
+      "size_long_mm": 20.3,
+      "size_short_mm": 8.9,
+      "thickness_mm": 8.3,
+      "score_line": null,
+      "source_revision": "2024年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 だいだい色のフィルムコーティング錠 識別コード GS FC2 表（長径×短径）20.3mm×8.9mm 側面（厚さ）8.3mm 質量 1414mg"
+    }
+  ]
+}

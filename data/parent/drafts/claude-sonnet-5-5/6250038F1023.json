@@ -1,0 +1,30 @@
+{
+  "id": "6250038F1023",
+  "source_file": "166272_6250038F1023_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/166272_6250038F1023_1_22",
+  "extracted_at": "2026-11-06T18:29:30.884Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31978,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テビケイ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "SV 572",
+      "imprint_back": "50",
+      "imprint_note": "識別コード：SV572。表裏の刻印は図示（表：SV 572、裏：50）。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 黄色のフィルムコーティング錠 識別コード SV572 表（直径）約9.1mm 裏 側面（厚さ）約4.7mm 質量 309mg"
+    }
+  ]
+}

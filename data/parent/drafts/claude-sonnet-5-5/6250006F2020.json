@@ -1,0 +1,30 @@
+{
+  "id": "6250006F2020",
+  "source_file": "166272_6250006F1031_X_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/166272_6250006F1031_X_12",
+  "extracted_at": "2026-11-06T18:26:44.678Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28889,
+    "output": 679
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピビル錠300",
+      "strength": "300mg",
+      "imprint_front": "GX EJ7",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表に記載。裏の刻印は文字での記載なし",
+      "color": "灰色",
+      "shape": null,
+      "size_long_mm": 17.3,
+      "size_short_mm": 8.5,
+      "thickness_mm": 5.6,
+      "score_line": null,
+      "source_revision": "2024年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "販売名 エピビル錠300／剤形・性状 灰色のフィルムコーティング錠／識別コード GX EJ7／表（長径×短径）17.3mm×8.5mm／側面（厚さ）5.6mm／質量 615mg"
+    }
+  ]
+}

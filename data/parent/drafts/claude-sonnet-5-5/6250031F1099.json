@@ -1,0 +1,30 @@
+{
+  "id": "6250031F1099",
+  "source_file": "400186_6250031F1099_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6250031F1099_1_05",
+  "extracted_at": "2026-11-06T18:29:07.249Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23890,
+    "output": 877
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファムシクロビル錠250mg「タカタ」",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字があるが、文字としての記載がないため判読できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠　表面 直径 約9.6mm　裏面 重さ 約0.3g　側面 厚さ 約4.8mm"
+    }
+  ]
+}

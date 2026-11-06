@@ -1,0 +1,30 @@
+{
+  "id": "6141004F1038",
+  "source_file": "730869_6141004F1038_3_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_6141004F1038_3_08",
+  "extracted_at": "2026-11-06T18:20:27.034Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14966,
+    "output": 893
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エリスロシン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "13",
+      "imprint_back": "M",
+      "imprint_note": "識別コード M13。上面「13」、下面「M」は外形図の表示による",
+      "color": "類白色",
+      "shape": "round",
+      "size_long_mm": 9.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "エリスロシン錠100mg M13 類白色 フィルムコーティング錠 直径9.7mm 厚さ4.6mm 重量330mg"
+    }
+  ]
+}

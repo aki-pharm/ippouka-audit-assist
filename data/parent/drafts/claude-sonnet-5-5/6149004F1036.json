@@ -1,0 +1,30 @@
+{
+  "id": "6149004F1036",
+  "source_file": "380087_6149004F1036_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_6149004F1036_1_13",
+  "extracted_at": "2026-11-06T18:21:22.802Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29703,
+    "output": 325
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジスロマイシン錠250mg「DSEP」",
+      "strength": "250mg",
+      "imprint_front": "AZM EP",
+      "imprint_back": "AZM250",
+      "imprint_note": "識別コード欄に「AZM EP」「AZM250」と記載。表裏の区別は文書中に明記されていないが、外形の図では2つの面にそれぞれ AZM EP、AZM250 が示されている。",
+      "color": "白色～帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 13.8,
+      "size_short_mm": 7.1,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色・フィルムコーティング錠 規格 長径：13.8mm/短径：7.1mm 厚み：5.5mm 質量：468mg 識別コード AZM EP AZM250"
+    }
+  ]
+}

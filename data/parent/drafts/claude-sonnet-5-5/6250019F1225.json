@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1225",
+  "source_file": "300089_6250019F1225_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300089_6250019F1225_1_08",
+  "extracted_at": "2026-11-06T18:27:31.531Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29864,
+    "output": 314
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「サトウ」",
+      "strength": "500mg",
+      "imprint_front": "バラシクロビル　500　SATO",
+      "imprint_back": "バラシクロビル　500　SATO",
+      "imprint_note": "識別コード欄に「バラシクロビル　500　SATO」と記載。外形図の表・裏とも同表記が確認できる。",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色～微黄白色のフィルムコーティング錠　大きさ 長径：18.5mm　短径：7.5mm　厚さ 6.2mm　識別コード バラシクロビル　500　SATO"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6419003F1039",
+  "source_file": "650034_6419003F1039_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650034_6419003F1039_1_10",
+  "extracted_at": "2026-11-06T18:32:50.949Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22431,
+    "output": 218
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メファキン「ヒサミツ」錠275",
+      "strength": "275mg",
+      "imprint_front": "HP015",
+      "imprint_back": "HP015",
+      "imprint_note": "識別コード HP015（表裏の別は記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 12,
+      "size_short_mm": 12,
+      "thickness_mm": null,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "十字割線を有する白色のフィルムコーティング錠。 直径：約12mm　質量：519mg 識別コード HP015"
+    }
+  ]
+}

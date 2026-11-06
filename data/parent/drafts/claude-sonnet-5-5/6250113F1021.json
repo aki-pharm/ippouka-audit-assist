@@ -1,0 +1,30 @@
+{
+  "id": "6250113F1021",
+  "source_file": "112130_6250113F1021_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_6250113F1021_1_07",
+  "extracted_at": "2026-11-06T18:30:55.245Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40988,
+    "output": 332
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マヴィレット配合錠",
+      "strength": "1錠中 グレカプレビル水和物（無水物として）100mg、ピブレンタスビル 40mg",
+      "imprint_front": "NXT",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NXT。外形図は上面・下面・側面が示され、上面に「NXT」の表示あり。下面の刻印の記載は本文になし",
+      "color": "桃色",
+      "shape": "oval",
+      "size_long_mm": 18.8,
+      "size_short_mm": 10,
+      "thickness_mm": 6.8,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 桃色の楕円形のフィルムコーティング錠 ／ 大きさ 長径（mm）18.8 短径（mm）10.0 厚さ（mm）6.8 重量（g）0.96 ／ 識別コード NXT"
+    }
+  ]
+}

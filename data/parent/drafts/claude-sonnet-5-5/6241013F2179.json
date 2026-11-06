@@ -1,0 +1,30 @@
+{
+  "id": "6241013F2179",
+  "source_file": "400042_6241013F2179_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_6241013F2179_1_12",
+  "extracted_at": "2026-11-06T18:25:17.471Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33202,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「ケミファ」",
+      "strength": "250mg",
+      "imprint_front": "LX250",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：LX250（表に表示。裏は割線のみ）",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "黄色の楕円形の割線入りフィルムコーティング錠　長径 13.6 mm　短径 6.6 mm　厚さ 4.1 mm　重量 335 mg　識別コード LX250"
+    }
+  ]
+}

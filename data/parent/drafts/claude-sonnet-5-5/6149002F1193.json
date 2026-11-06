@@ -1,0 +1,30 @@
+{
+  "id": "6149002F1193",
+  "source_file": "480235_6149002F1193_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6149002F1193_1_06",
+  "extracted_at": "2026-11-06T18:20:35.457Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14761,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキシスロマイシン錠150mg「トーワ」",
+      "strength": "150mg",
+      "imprint_front": "Tw RXM",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは本体・包装ともに「Tw RXM」と記載。外形図では表面に「Tw RXM」の印字、裏面は無地",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 / 識別コード Tw RXM / 直径(mm) 9.1 / 厚さ(mm) 3.9 / 質量(mg) 215"
+    }
+  ]
+}

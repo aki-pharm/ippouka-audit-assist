@@ -1,0 +1,30 @@
+{
+  "id": "6132016F1147",
+  "source_file": "480235_6132016F1147_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6132016F1147_1_01",
+  "extracted_at": "2026-11-06T18:19:53.292Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17691,
+    "output": 297
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフカペン ピボキシル塩酸塩錠75mg「TW」",
+      "strength": "75mg",
+      "imprint_front": "TW セフカペン 75",
+      "imprint_back": "なし",
+      "imprint_note": "本体表示「TW セフカペン 75」、表に「TW セフカペン 75」の印字（図）。裏面の表示は記載なし（図では無地）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の円形のフィルムコーティング錠 本体表示 TW セフカペン 75 直径(mm) 約7.6 厚さ(mm) 約3.6 質量(mg) 約170"
+    }
+  ]
+}

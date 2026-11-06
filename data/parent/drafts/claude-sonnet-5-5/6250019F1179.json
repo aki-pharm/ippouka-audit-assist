@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1179",
+  "source_file": "130202_6250019F1179_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130202_6250019F1179_1_11",
+  "extracted_at": "2026-11-06T18:27:24.523Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29978,
+    "output": 768
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「イワキ」",
+      "strength": "500mg",
+      "imprint_front": "バラシクロビル 500 イワキ",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図は表面と側面のみで、裏面の記載は確認できない。識別コードは「バラシクロビル 500 イワキ」",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色～微黄白色のフィルムコーティング錠／識別コード（錠剤） バラシクロビル 500 イワキ（外形図の寸法表記：18.5mm、7.5mm、6.2mm）"
+    }
+  ]
+}

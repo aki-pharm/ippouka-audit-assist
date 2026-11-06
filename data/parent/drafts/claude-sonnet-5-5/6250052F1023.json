@@ -1,0 +1,30 @@
+{
+  "id": "6250052F1023",
+  "source_file": "340018_6250052F1023_2_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_6250052F1023_2_16",
+  "extracted_at": "2026-11-06T18:30:09.686Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 44581,
+    "output": 827
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾコーバ錠125mg",
+      "strength": "125mg",
+      "imprint_front": "711",
+      "imprint_back": "125",
+      "imprint_note": "識別コード「711：125」（社名マーク付き）。表面に社名マークと711、裏面に125の表示",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の円形の素錠である。 直径 約9.0mm 厚さ 約4.4mm 識別コード 711：125"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6149003F2267",
+  "source_file": "400278_6149003F2267_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6149003F2267_2_06",
+  "extracted_at": "2026-11-06T18:21:08.912Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37147,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠200mg「TCK」",
+      "strength": "200mg",
+      "imprint_front": "TU 606",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「TU 606」。錠剤表面に印字（図では「TU 606」と表示）。裏面の刻印は性状欄に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "クラリスロマイシン錠200mg「TCK」 白色 フィルムコート錠 TU 606 直径8.7mm 厚さ5.4mm 重量250mg"
+    }
+  ]
+}

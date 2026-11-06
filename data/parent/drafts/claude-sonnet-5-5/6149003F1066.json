@@ -1,0 +1,30 @@
+{
+  "id": "6149003F1066",
+  "source_file": "530372_6149003F1066_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_6149003F1066_1_20",
+  "extracted_at": "2026-11-06T18:20:44.155Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29463,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠50mg小児用「NPI」",
+      "strength": "50mg",
+      "imprint_front": "NPI MP",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード: NPI MP（外形図の表面に表示）。裏面は外形図上で印字なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコート錠 外形 表 裏 側面 直径 6.2mm 厚さ 3.7mm 重量 84mg 識別コード NPI MP"
+    }
+  ]
+}

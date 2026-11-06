@@ -1,0 +1,30 @@
+{
+  "id": "6241006F1040",
+  "source_file": "300119_6241006F1040_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241006F1040_2_09",
+  "extracted_at": "2026-11-06T18:24:35.080Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15568,
+    "output": 322
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オフロキサシン錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "オフロキサシン SW",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：オフロキサシン SW。外形図には表面にオフロキサシン/SW、裏面（円形のみ）、側面の図が示されているが、裏面の刻印の記載は文章中にない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 フィルムコーティング錠 性 状 白色～微黄白色 直径（mm） 8.1 厚さ（mm） 3.6 重量（mg） 約192 本体表示 オフロキサシン SW"
+    }
+  ]
+}

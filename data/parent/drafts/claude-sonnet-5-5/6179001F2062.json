@@ -1,0 +1,30 @@
+{
+  "id": "6179001F2062",
+  "source_file": "400186_6179001F1066_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6179001F1066_1_19",
+  "extracted_at": "2026-11-06T18:23:24.513Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 48718,
+    "output": 1117
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボリコナゾール錠200mg「タカタ」",
+      "strength": "200mg",
+      "imprint_front": "ボリコナゾール 200 タカタ",
+      "imprint_back": "ボリコナゾール 200 タカタ",
+      "imprint_note": "刻印は外形図の印字から確認（本文テキストには刻印の記載なし）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.8,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 長径 約13.6mm 短径 約6.8mm 重さ 約0.47g 厚さ 約6.5mm"
+    }
+  ]
+}

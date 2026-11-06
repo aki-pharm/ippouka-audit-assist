@@ -1,0 +1,30 @@
+{
+  "id": "6149004F1141",
+  "source_file": "400186_6149004F1141_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6149004F1141_1_11",
+  "extracted_at": "2026-11-06T18:21:34.553Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21626,
+    "output": 1135
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジスロマイシン錠250mg「タカタ」",
+      "strength": "250mg",
+      "imprint_front": "A250",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TTS-668。裏面は図に刻印の表示なし（明記はない）",
+      "color": "白色のフィルムコーティング錠",
+      "shape": "oblong",
+      "size_long_mm": 12.7,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 表面 A250 長径約12.7mm 短径約6.5mm 裏面 重さ約0.370g 側面 厚さ約5.1mm 識別コード TTS-668"
+    }
+  ]
+}

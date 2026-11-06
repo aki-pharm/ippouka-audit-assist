@@ -1,0 +1,30 @@
+{
+  "id": "6219001H1056",
+  "source_file": "172190_6219001H1056_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_6219001H1056_3_04",
+  "extracted_at": "2026-11-06T18:23:51.702Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17398,
+    "output": 284
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アザルフィジンEN錠500mg",
+      "strength": "500mg",
+      "imprint_front": "KPh",
+      "imprint_back": "102",
+      "imprint_note": "識別コード欄は「KPh 102」。外形図では上面にKPh、下面に102の表示。",
+      "color": "黄色～黄褐色",
+      "shape": "oval",
+      "size_long_mm": 18,
+      "size_short_mm": 9.5,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 黄色～黄褐色楕円形の腸溶性フィルムコーティング錠 ／ 長径 18.0mm 短径 9.5mm 厚さ 5.2mm 重量 665mg ／ 識別コード KPh 102"
+    }
+  ]
+}

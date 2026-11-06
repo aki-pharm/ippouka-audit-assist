@@ -1,0 +1,30 @@
+{
+  "id": "6241013F3205",
+  "source_file": "300119_6241013F2209_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241013F2209_1_09",
+  "extracted_at": "2026-11-06T18:25:44.290Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31251,
+    "output": 332
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠500mg「サワイ」",
+      "strength": "500mg",
+      "imprint_front": "レボフロキサシン SW 500",
+      "imprint_back": "レボフロキサシン SW 500",
+      "imprint_note": "本体表示として「レボフロキサシン SW 500」と記載。外形図では表裏に表示、割線入り（錠剤の側面にも割線の図あり）",
+      "color": "うすいだいだい色",
+      "shape": "oval",
+      "size_long_mm": 16.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤　形 割線入りフィルムコーティング錠／性　状 うすいだいだい色／直径（mm） 16.1×8.1／厚さ（mm） 5.6／重量（mg） 約655／本体表示 レボフロキサシン SW 500"
+    }
+  ]
+}

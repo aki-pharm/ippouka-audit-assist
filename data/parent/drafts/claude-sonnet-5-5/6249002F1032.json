@@ -1,0 +1,30 @@
+{
+  "id": "6249002F1032",
+  "source_file": "780009_6249002F1032_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_6249002F1032_1_09",
+  "extracted_at": "2026-11-06T18:26:17.723Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24644,
+    "output": 1160
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リネゾリド錠600mg「明治」",
+      "strength": "600mg",
+      "imprint_front": "リネゾリド 600 明治",
+      "imprint_back": "リネゾリド 600 明治",
+      "imprint_note": "刻印・印字の内容は文章では記載がなく、3.2 製剤の性状の外形図（表・裏）の表示から読み取った。割線の有無も文章に記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 18.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "リネゾリド錠600mg「明治」 フィルムコーティング錠 白色～微黄白色 長径：18.7 短径：9.7 厚さ（mm）6.2 重量（mg）861"
+    }
+  ]
+}

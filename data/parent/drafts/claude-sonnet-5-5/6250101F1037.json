@@ -1,0 +1,30 @@
+{
+  "id": "6250101F1037",
+  "source_file": "112130_6250101F1037_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_6250101F1037_2_15",
+  "extracted_at": "2026-11-06T18:30:22.138Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40517,
+    "output": 305
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カレトラ配合錠",
+      "strength": "1錠中 ロピナビル200mg・リトナビル50mg",
+      "imprint_front": "AL",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「AL」と記載。外形図の上面・下面・側面のうち刻印の位置は本文から確認できず、表裏の区別は未確認",
+      "color": "赤色",
+      "shape": "oblong",
+      "size_long_mm": 19,
+      "size_short_mm": 10,
+      "thickness_mm": 8,
+      "score_line": null,
+      "source_revision": "2024年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 赤色のフィルムコーティング錠 ／ 大きさ 長径（mm）約19 短径（mm）約10 厚さ（mm）約8 重さ（g）約1.24 ／ 識別コード AL"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6241010F3023",
+  "source_file": "400022_6241010C1024_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400022_6241010C1024_2_08",
+  "extracted_at": "2026-11-06T18:24:57.172Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19048,
+    "output": 753
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オゼックス錠小児用60mg",
+      "strength": "60mg",
+      "imprint_front": "275",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは本文テキストでは「（PTP）」とのみ記載。「275」は同ページの外形・識別コード欄の図から読み取り、社名マークらしき記号が併記されている。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤色のフィルムコーティング錠（割線入り）　大きさ（mm）直径：約6.6、厚さ：約3.6　識別コード（PTP）"
+    }
+  ]
+}

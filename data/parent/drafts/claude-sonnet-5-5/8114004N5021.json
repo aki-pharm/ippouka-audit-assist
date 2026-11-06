@@ -1,0 +1,30 @@
+{
+  "id": "8114004N5021",
+  "source_file": "470006_8114004N4025_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470006_8114004N4025_2_06",
+  "extracted_at": "2026-11-06T18:34:01.313Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16185,
+    "output": 1061
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "MSツワイスロンカプセル30mg",
+      "strength": "30mg",
+      "imprint_front": "TF-TL30",
+      "imprint_back": "TF-TL30",
+      "imprint_note": "識別コードTF-TL30。外形図ではキャップ・ボディの両方に「TF-TL 30」の表示あり。カプセル剤（4号カプセル、質量約0.115g）で、大きさ（mm）の記載なし",
+      "color": "顆粒：白色～淡褐色、キャップ：淡紅色不透明、ボディ：無色透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形：徐放性顆粒を充填した硬カプセル剤／色：顆粒：白色～淡褐色 キャップ：淡紅色不透明 ボディ：無色透明／外形：4号カプセル／質量：約0.115g／識別コード：TF-TL30"
+    }
+  ]
+}

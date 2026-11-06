@@ -1,0 +1,30 @@
+{
+  "id": "6241010F2086",
+  "source_file": "300119_6241010F1080_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241010F1080_1_13",
+  "extracted_at": "2026-11-06T18:24:48.854Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19485,
+    "output": 304
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トスフロキサシントシル酸塩錠150mg「サワイ」",
+      "strength": "150mg",
+      "imprint_front": "SW TFX 150",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「SW TFX 150」と記載。表裏の区別は文章では記載なし（外形図に印字あり）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色 直径（mm） 7.6 8.6 厚さ（mm） 3.1 4.7 重量（mg） 約150 約298 識別コード SW TFX 75 SW TFX 150"
+    }
+  ]
+}

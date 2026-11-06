@@ -1,0 +1,30 @@
+{
+  "id": "6250029F2020",
+  "source_file": "300119_6250029F2020_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6250029F2020_1_04",
+  "extracted_at": "2026-11-06T18:28:46.308Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29044,
+    "output": 303
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エンテカビルOD錠0.5mg「サワイ」",
+      "strength": "0.5mg",
+      "imprint_front": "SW ET",
+      "imprint_back": "0.5",
+      "imprint_note": "外形の図では、一方の面に「SW ET」、もう一方の面に「0.5」の表示がある。識別コード欄には「SW ET」と記載。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／性状 白色～微黄白色／垂線（mm） 6.5／厚さ（mm） 2.9／重量（mg） 約100／識別コード SW ET"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1241",
+  "source_file": "300297_6250019F1241_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_6250019F1241_1_09",
+  "extracted_at": "2026-11-06T18:27:39.885Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29354,
+    "output": 915
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「三和」",
+      "strength": "500mg",
+      "imprint_front": "バラシクロビル 500 三和",
+      "imprint_back": "バラシクロビル 500 三和",
+      "imprint_note": "刻印は外形図（表・裏）に記載。本文の文字記載ではなく図からの読み取り。側面図あり。重量700mg",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 6.2,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコーティング錠 / 長径 18.5mm 短径 7.5mm 厚さ 6.2mm 重量 700mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6132016F2046",
+  "source_file": "450064_6132016F1040_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6132016F1040_2_10",
+  "extracted_at": "2026-11-06T18:19:57.272Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18561,
+    "output": 302
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフカペンピボキシル塩酸塩錠100mg「CH」",
+      "strength": "100mg",
+      "imprint_front": "セフカペン 100 CH",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「セフカペン　100　CH」と記載。表裏の区別は文章では未記載（外形図には両面の図あり）",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 うすい赤色の円形のフィルムコーティング錠／大きさ 直径 8.7mm／厚さ 3.9mm／重量 220mg／本体表示 セフカペン　100　CH"
+    }
+  ]
+}

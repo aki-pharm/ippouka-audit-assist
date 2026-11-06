@@ -1,0 +1,30 @@
+{
+  "id": "6179001F1031",
+  "source_file": "430773_6179001F1031_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_6179001F1031_1_22",
+  "extracted_at": "2026-11-06T18:22:45.637Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 44053,
+    "output": 720
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボリコナゾール錠50mg「DSEP」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文には刻印・識別コードの文字記載なし（外形図に印字の表示はあるが本文では確認できない）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "ボリコナゾール錠50mg「DSEP」 フィルムコーティング錠 白色 7.1（直径） 3.5 152"
+    }
+  ]
+}

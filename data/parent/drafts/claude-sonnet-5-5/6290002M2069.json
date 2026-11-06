@@ -1,0 +1,30 @@
+{
+  "id": "6290002M2069",
+  "source_file": "670109_6290002M1062_1_31.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_6290002M1062_1_31",
+  "extracted_at": "2026-11-06T18:31:47.644Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30106,
+    "output": 763
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルコナゾールカプセル100mg「F」",
+      "strength": "100mg",
+      "imprint_front": "FJ12",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤（3号硬カプセル）。識別コードFJ12のみ記載があり、表裏の区別は文書の文章からは確認できない。割線の記載なし（カプセルのため該当しない可能性）。",
+      "color": "ボディだいだい色、キャップだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 15.6,
+      "size_short_mm": 5.7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ボディだいだい色、キャップだいだい色の硬カプセル剤である。カプセルの内容物は白色～微黄白色の粉末である。 3号硬カプセル 大きさ 直径 5.7mm 長さ 15.6mm 識別コード FJ12"
+    }
+  ]
+}

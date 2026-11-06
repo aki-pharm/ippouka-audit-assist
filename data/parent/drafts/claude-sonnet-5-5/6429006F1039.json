@@ -1,0 +1,30 @@
+{
+  "id": "6429006F1039",
+  "source_file": "630004_6429006F1039_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_6429006F1039_1_07",
+  "extracted_at": "2026-11-06T18:33:19.444Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12429,
+    "output": 328
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビルトリシド錠600mg",
+      "strength": "600mg",
+      "imprint_front": "LG BAYER",
+      "imprint_back": "LG BAYER",
+      "imprint_note": "識別コードは「LG BAYER」。テキスト上は識別コード欄に表裏の区別の記載なし。外形図には「LG」「BAYER」の表示あり。",
+      "color": "白色～橙色を帯びた白色",
+      "shape": "oblong",
+      "size_long_mm": 22.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 6.4,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 長円形のフィルムコーティング錠（割線あり） 色調 白色～橙色を帯びた白色 外形 長径 22.2mm 短径 8.2mm 厚さ 6.4mm 質量 912.0mg 識別コード LG BAYER"
+    }
+  ]
+}

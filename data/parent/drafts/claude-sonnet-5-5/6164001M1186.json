@@ -1,0 +1,30 @@
+{
+  "id": "6164001M1186",
+  "source_file": "270428_6164001M1186_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_6164001M1186_1_25",
+  "extracted_at": "2026-11-06T18:22:33.534Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34215,
+    "output": 912
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リファンピシンカプセル150mg「サンド」",
+      "strength": "150mg",
+      "imprint_front": "RFP",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤（3号）。識別コード欄には「RFP」とのみ記載。外形図にはカプセル上の印字があるが、表裏の区別は文字情報からは確認できない。",
+      "color": "キャップ：赤色不透明、ボディ：だいだい色不透明、内容物：橙赤色の結晶性粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形：硬カプセル剤（3号）／色調：キャップ：赤色不透明 ボディ：だいだい色不透明 内容物：橙赤色の結晶性粉末／質量：180mg（内容物）／識別コード：RFP"
+    }
+  ]
+}

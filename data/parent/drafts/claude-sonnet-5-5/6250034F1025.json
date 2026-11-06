@@ -1,0 +1,30 @@
+{
+  "id": "6250034F1025",
+  "source_file": "166272_6250034F1025_2_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/166272_6250034F1025_2_14",
+  "extracted_at": "2026-11-06T18:29:33.722Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36093,
+    "output": 1020
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シーエルセントリ錠150mg",
+      "strength": "150mg",
+      "imprint_front": "未確認",
+      "imprint_back": "MVC 150",
+      "imprint_note": "識別コード MVC 150。図では裏面に表示されている。表面の刻印の有無は文章に記載がない",
+      "color": "青色",
+      "shape": "oval",
+      "size_long_mm": 15.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 青色のフィルムコーティング錠 識別コード MVC 150 表（長径×短径）15.7mm×8.7mm 側面（厚さ）4.7mm 質量 624mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6149003F1031",
+  "source_file": "400059_6149003F1031_1_39.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_6149003F1031_1_39",
+  "extracted_at": "2026-11-06T18:20:43.788Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30837,
+    "output": 689
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリス錠50小児用",
+      "strength": "50mg",
+      "imprint_front": "T17",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードT17。下面の刻印は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "クラリス錠50小児用 T17 白色 フィルムコーティング錠 直径（mm）約6 厚さ（mm）約3.5 重量（mg）約84"
+    }
+  ]
+}

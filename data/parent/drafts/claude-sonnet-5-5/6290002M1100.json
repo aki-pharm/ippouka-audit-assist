@@ -1,0 +1,30 @@
+{
+  "id": "6290002M1100",
+  "source_file": "672173_6290002M1100_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_6290002M1100_2_10",
+  "extracted_at": "2026-11-06T18:31:27.700Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34076,
+    "output": 710
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルコナゾールカプセル50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "KW588 50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはKW588および50。カプセルの表裏の区別は記載なし。4号カプセル。",
+      "color": "キャップ：白色不透明、ボディ：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "硬カプセル剤 キャップ：白色不透明 ボディ：白色不透明 A：約14.2mm B：約5.3mm 質量：約200.0mg 識別コード KW588 50"
+    }
+  ]
+}

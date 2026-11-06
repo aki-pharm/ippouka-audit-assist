@@ -1,0 +1,30 @@
+{
+  "id": "6290002M2131",
+  "source_file": "300119_6290002M1135_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6290002M1135_1_23",
+  "extracted_at": "2026-11-06T18:31:49.234Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28198,
+    "output": 359
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルコナゾールカプセル100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW-885",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル剤（錠剤ではない）。識別コードはカプセルに表示。外形は3号。重量約241mg。外形図には識別コードと含量の表示あり。",
+      "color": "頭部：だいだい色不透明、胴部：だいだい色不透明、内容物：白色～微黄白色の粉末又は塊を含む粉末",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "頭　部：だいだい色不透明 胴　部：だいだい色不透明 内容物：白色～微黄白色の粉末又は塊を含む粉末 全長（mm） 15.8 重量（mg） 約241 識別コード SW-885"
+    }
+  ]
+}

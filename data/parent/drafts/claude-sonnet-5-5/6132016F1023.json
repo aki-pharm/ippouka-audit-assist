@@ -1,0 +1,30 @@
+{
+  "id": "6132016F1023",
+  "source_file": "340018_6132016F1023_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_6132016F1023_1_25",
+  "extracted_at": "2026-11-06T18:19:46.462Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17628,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フロモックス錠75mg",
+      "strength": "75mg",
+      "imprint_front": "フロモックス 75",
+      "imprint_back": "なし",
+      "imprint_note": "製剤表示は「フロモックス ㊮ 75」（社名マークを含む）。裏面の図に刻印の記載なし。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の円形のフィルムコーティング錠である。 直径 約 7.6mm 厚さ 約 3.6mm 製剤表示 フロモックス 75"
+    }
+  ]
+}

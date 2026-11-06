@@ -1,0 +1,30 @@
+{
+  "id": "6179001F1082",
+  "source_file": "480235_6179001F1082_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6179001F1082_1_20",
+  "extracted_at": "2026-11-06T18:22:58.052Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45229,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボリコナゾール錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "ボリコナ50",
+      "imprint_back": "ボリコナゾール 50 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠　本体表示　表 ボリコナ50　裏 ボリコナゾール 50 トーワ　直径(mm) 7.1　厚さ(mm) 3.3"
+    }
+  ]
+}

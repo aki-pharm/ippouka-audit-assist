@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1063",
+  "source_file": "530169_6250019F1063_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_6250019F1063_2_02",
+  "extracted_at": "2026-11-06T18:27:00.282Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28116,
+    "output": 285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「EE」",
+      "strength": "500mg",
+      "imprint_front": "バラシクロ",
+      "imprint_back": "500 EE",
+      "imprint_note": "本体表示：バラシクロ 500 EE。裏面に割線あり",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.7,
+      "size_short_mm": 7.4,
+      "thickness_mm": 6.3,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 白色～微黄白色 直径（mm） 約18.7×7.4 厚さ（mm） 約6.3 質量（mg） 約697 本体表示 バラシクロ 500 EE"
+    }
+  ]
+}

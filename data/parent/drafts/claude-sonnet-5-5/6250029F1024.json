@@ -1,0 +1,30 @@
+{
+  "id": "6250029F1024",
+  "source_file": "670605_6250029F1024_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_6250029F1024_1_18",
+  "extracted_at": "2026-11-06T18:28:27.238Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28626,
+    "output": 815
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラクルード錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "BMS",
+      "imprint_back": "1611",
+      "imprint_note": "識別コードは「BMS 1611」。表裏の区別は外観図に基づく（BMSのマークと1611が各面に表示）。垂線8.4mm（三角形のため直径・長径短径の記載なし）、重さ206mg。",
+      "color": "白色～微黄白色",
+      "shape": "other",
+      "size_long_mm": 8.4,
+      "size_short_mm": null,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2022年7月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の三角形のフィルムコート錠 識別コード BMS 1611 垂線 8.4mm 厚さ 3.7mm 重さ 206mg"
+    }
+  ]
+}

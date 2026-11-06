@@ -1,0 +1,30 @@
+{
+  "id": "6141004F2042",
+  "source_file": "730869_6141004F1038_3_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_6141004F1038_3_08",
+  "extracted_at": "2026-11-06T18:20:29.390Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14966,
+    "output": 710
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エリスロシン錠200mg",
+      "strength": "200mg",
+      "imprint_front": "14",
+      "imprint_back": "M",
+      "imprint_note": "識別コード M14（上面「14」、下面「M」）。割線の記載なし",
+      "color": "類白色",
+      "shape": "round",
+      "size_long_mm": 11.9,
+      "size_short_mm": 11.9,
+      "thickness_mm": 5.9,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "エリスロシン錠200mg M14 類白色 フィルムコーティング錠 直径 11.9mm 厚さ 5.9mm 重量 647mg"
+    }
+  ]
+}

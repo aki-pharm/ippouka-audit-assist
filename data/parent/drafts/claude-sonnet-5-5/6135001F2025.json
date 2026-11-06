@@ -1,0 +1,30 @@
+{
+  "id": "6135001F2025",
+  "source_file": "780009_6135001F1029_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_6135001F1029_1_14",
+  "extracted_at": "2026-11-06T18:20:09.671Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9812,
+    "output": 610
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ホスミシン錠500",
+      "strength": "500",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に表示があるが、文字としては記載されておらず判読できないため未確認",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 16,
+      "size_short_mm": 7.4,
+      "thickness_mm": 6.8,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ホスミシン錠500 素錠 白色 長径：16.0 短径：7.4 厚さ（mm）6.8 重量（g）0.806"
+    }
+  ]
+}

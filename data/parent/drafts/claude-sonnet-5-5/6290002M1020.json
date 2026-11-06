@@ -1,0 +1,30 @@
+{
+  "id": "6290002M1020",
+  "source_file": "672212_6290002M1020_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6290002M1020_3_06",
+  "extracted_at": "2026-11-06T18:31:24.550Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27566,
+    "output": 856
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジフルカンカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "D05",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードD05。外形図にはファイザー社名マークとD05の表示あり。本文に表裏の区別の記載なし。錠剤ではなく4号硬カプセル。",
+      "color": "キャップ：白色、ボディ：白色",
+      "shape": "oblong",
+      "size_long_mm": 13.5,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "ジフルカンカプセル50mg D05 キャップ：白色 ボディ：白色 4号硬カプセル"
+    }
+  ]
+}

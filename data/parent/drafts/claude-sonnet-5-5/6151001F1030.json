@@ -1,0 +1,30 @@
+{
+  "id": "6151001F1030",
+  "source_file": "530258_6151001F1030_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_6151001F1030_2_04",
+  "extracted_at": "2026-11-06T18:21:46.795Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12375,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロロマイセチン錠50",
+      "strength": "50mg",
+      "imprint_front": "NF 711",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「NF 711」と記載。裏面の刻印は記載なし。",
+      "color": "暗赤褐色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "クロロマイセチン錠50 暗赤褐色・糖衣錠 NF 711 7.2 3.7 150（色・剤形、識別コード、直径(mm)、厚さ(mm)、質量(mg)）"
+    }
+  ]
+}

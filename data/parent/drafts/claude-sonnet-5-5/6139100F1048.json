@@ -1,0 +1,30 @@
+{
+  "id": "6139100F1048",
+  "source_file": "340278_6139100F1048_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6139100F1048_1_18",
+  "extracted_at": "2026-11-06T18:20:22.240Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19980,
+    "output": 1065
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オーグメンチン配合錠125SS",
+      "strength": "125SS（1錠中 クラブラン酸カリウム62.5mg（力価）・アモキシシリン水和物125mg（力価）、合計187.5mg）",
+      "imprint_front": "GS610",
+      "imprint_back": "未確認",
+      "imprint_note": "指定の「187.5mg」は添付文書に規格として記載がなく、125SSの有効成分合計（62.5mg+125mg）に相当するため125SSの行を記載。裏面の刻印の記載は文章中になく、図のみ。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色のフィルムコーティング錠／識別コード GS610／表（長径×短径）13.1mm×7.1mm／側面（厚さ）5.1mm／質量 387mg"
+    }
+  ]
+}

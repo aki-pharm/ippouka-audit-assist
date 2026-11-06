@@ -1,0 +1,30 @@
+{
+  "id": "6241013F2080",
+  "source_file": "400278_6241013F2080_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6241013F2080_2_08",
+  "extracted_at": "2026-11-06T18:25:03.853Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33483,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「TCK」",
+      "strength": "250mg",
+      "imprint_front": "TU 714",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：TU 714（表示は外形図の位置から片面と推測されるが、裏面の記載は文書中に明記なし）。割線入り",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "黄色楕円形 フィルムコーティング錠（割線入り） TU 714 13.6 × 6.6 4.0 335"
+    }
+  ]
+}

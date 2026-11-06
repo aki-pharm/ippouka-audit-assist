@@ -1,0 +1,30 @@
+{
+  "id": "6250055F1027",
+  "source_file": "400256_6250055F1027_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_6250055F1027_1_03",
+  "extracted_at": "2026-11-06T18:30:15.965Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22206,
+    "output": 247
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リブテンシティ錠200mg",
+      "strength": "200mg",
+      "imprint_front": "SHP",
+      "imprint_back": "620",
+      "imprint_note": "識別コード：SHP620（上面にSHP、下面に620）",
+      "color": "青色",
+      "shape": "oval",
+      "size_long_mm": 15.5,
+      "size_short_mm": 7.8,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 楕円形のフィルムコーティング錠・青色 識別コード SHP620 長径（mm）約15.5 短径（mm）約7.8 厚さ（mm）約5.0"
+    }
+  ]
+}

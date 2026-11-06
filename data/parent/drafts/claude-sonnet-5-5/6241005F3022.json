@@ -1,0 +1,30 @@
+{
+  "id": "6241005F3022",
+  "source_file": "231099_6241005F3022_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_6241005F3022_2_04",
+  "extracted_at": "2026-11-06T18:24:30.984Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17104,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "小児用バクシダール錠50mg",
+      "strength": "50mg",
+      "imprint_front": "KP-111",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード KP-111（外形図では表面に KP/111 の表示）。裏面の刻印の記載は確認できない。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～微黄色 直径：5.6mm 質量：約70mg 厚さ：2.8mm 識別コード KP-111"
+    }
+  ]
+}

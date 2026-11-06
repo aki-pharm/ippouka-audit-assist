@@ -1,0 +1,30 @@
+{
+  "id": "6250029F1121",
+  "source_file": "480235_6250029F1121_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6250029F1121_1_04",
+  "extracted_at": "2026-11-06T18:28:38.957Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28729,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エンテカビル錠0.5mg「トーワ」",
+      "strength": "0.5mg",
+      "imprint_front": "Tw716",
+      "imprint_back": "0.5",
+      "imprint_note": "外形の図より、表に「Tw 716」、裏に「0.5」の印字を確認。識別コードとして記載があるのは「Tw716」",
+      "color": "白色～微黄白色",
+      "shape": "other",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色の三角形のフィルムコーティング錠 識別コード Tw716 垂線(mm) 8.5 厚さ(mm) 3.6 質量(mg) 206"
+    }
+  ]
+}

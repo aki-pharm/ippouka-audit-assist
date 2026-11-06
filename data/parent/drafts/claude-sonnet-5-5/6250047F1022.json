@@ -1,0 +1,30 @@
+{
+  "id": "6250047F1022",
+  "source_file": "340018_6250047F1022_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_6250047F1022_1_21",
+  "extracted_at": "2026-11-06T18:29:44.578Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35981,
+    "output": 786
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾフルーザ錠 10mg",
+      "strength": "10mg",
+      "imprint_front": "771",
+      "imprint_back": "10",
+      "imprint_note": "識別コードは社名マークと「771:10」。表面に社名マークと771、裏面に10。割線入り。",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.65,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の円形の割線入り素錠である。 直径 約5.0mm 厚さ 約2.65mm 識別コード 771:10"
+    }
+  ]
+}

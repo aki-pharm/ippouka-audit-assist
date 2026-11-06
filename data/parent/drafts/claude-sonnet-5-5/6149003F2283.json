@@ -1,0 +1,30 @@
+{
+  "id": "6149003F2283",
+  "source_file": "370035_6149003F2283_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370035_6149003F2283_1_04",
+  "extracted_at": "2026-11-06T18:21:17.817Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37289,
+    "output": 1108
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠200mg「大正」",
+      "strength": "200mg",
+      "imprint_front": "クラリスロマイシン 大正",
+      "imprint_back": "未確認",
+      "imprint_note": "表の文字情報では刻印は「正大 クラリス ロマイシ ン」と抽出されており、図の上面表示から「クラリスロマイシン」と「大正」と読み取った。下面は図が空白だが、刻印なしの明記はないため未確認とした。側面の図に割線の記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "クラリスロマイシン錠 200mg「大正」 白色 フィルムコーティング錠 上面 下面 側面 正大 クラリスロマイシン 直径（mm）約 8.6 厚さ（mm）約 5.4 重量（mg）約 250"
+    }
+  ]
+}

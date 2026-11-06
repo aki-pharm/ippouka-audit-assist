@@ -1,0 +1,30 @@
+{
+  "id": "6290002M2158",
+  "source_file": "270428_6290002M1151_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_6290002M1151_1_16",
+  "extracted_at": "2026-11-06T18:31:56.106Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31195,
+    "output": 886
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルコナゾールカプセル100mg「サンド」",
+      "strength": "100mg",
+      "imprint_front": "Sz749",
+      "imprint_back": "未確認",
+      "imprint_note": "本品は錠剤ではなく硬カプセル剤（3号硬カプセル）。識別コードは Sz749（外形図には 749Sz の表記）。表裏の区別は記載なし。質量270mg。内容物は白色の粉末。大きさ（mm）の記載なし。",
+      "color": "頭部だいだい色不透明、胴部だいだい色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "硬カプセル剤 頭部だいだい色不透明、胴部だいだい色不透明 内容物は白色の粉末 （3号硬カプセル） 質量270mg 識別コード Sz749"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6250031F1080",
+  "source_file": "300119_6250031F1080_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6250031F1080_1_04",
+  "extracted_at": "2026-11-06T18:28:59.315Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21261,
+    "output": 300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファムシクロビル錠250mg「サワイ」",
+      "strength": "250mg",
+      "imprint_front": "SW FC",
+      "imprint_back": "250",
+      "imprint_note": "識別コード：SW FC。外形図には表面「SW FC」、裏面「250」の表示があるが、裏面の刻印は性状欄の文章には記載がなく、図から読み取ったもの。側面図あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色 直径（mm） 9.1 厚さ（mm） 4.6 重量（mg） 約288 識別コード SW FC"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6149004F1168",
+  "source_file": "480235_6149004F1168_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6149004F1168_1_12",
+  "extracted_at": "2026-11-06T18:21:37.139Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30437,
+    "output": 1001
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジスロマイシン錠250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "Tw718",
+      "imprint_back": "250",
+      "imprint_note": "表の識別コードはTw718。裏の「250」は外形図の表示から読み取った。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 12.6,
+      "size_short_mm": 6.4,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 / 識別コード Tw718 / 直径(mm) 12.6／6.4（長径／短径） / 厚さ(mm) 4.9"
+    }
+  ]
+}

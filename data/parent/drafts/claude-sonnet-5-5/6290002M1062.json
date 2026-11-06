@@ -1,0 +1,30 @@
+{
+  "id": "6290002M1062",
+  "source_file": "670109_6290002M1062_1_31.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_6290002M1062_1_31",
+  "extracted_at": "2026-11-06T18:31:26.214Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30106,
+    "output": 728
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルコナゾールカプセル50mg「F」",
+      "strength": "50mg",
+      "imprint_front": "FJ11",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく4号硬カプセル剤。識別コードはFJ11（表裏の別は記載なし）",
+      "color": "ボディ白色、キャップ白色",
+      "shape": "oblong",
+      "size_long_mm": 14.4,
+      "size_short_mm": 5.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ボディ白色、キャップ白色の硬カプセル剤である。カプセルの内容物は白色～微黄白色の粉末である。／外形 4号硬カプセル／大きさ 直径 5.2mm 長さ 14.4mm／識別コード FJ11"
+    }
+  ]
+}

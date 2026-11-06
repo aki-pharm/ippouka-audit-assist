@@ -1,0 +1,30 @@
+{
+  "id": "6149004F2024",
+  "source_file": "672212_6149004F2024_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6149004F2024_3_03",
+  "extracted_at": "2026-11-06T18:21:37.158Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24103,
+    "output": 864
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジスロマック錠600mg",
+      "strength": "600mg",
+      "imprint_front": "PFIZER",
+      "imprint_back": "308",
+      "imprint_note": "識別コード欄は「PFIZER 308」。外形図では上面にPFIZER、下面に308。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 19.3,
+      "size_short_mm": 10.5,
+      "thickness_mm": 7,
+      "score_line": null,
+      "source_revision": "2022年6月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 外形（mm）上面 下面 側面 19.3 10.5 7.0／識別コード PFIZER 308／色調等 白色 フィルムコート錠"
+    }
+  ]
+}

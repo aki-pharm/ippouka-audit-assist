@@ -1,0 +1,30 @@
+{
+  "id": "6250020F1023",
+  "source_file": "340278_6250020F1023_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6250020F1023_1_19",
+  "extracted_at": "2026-11-06T18:27:58.585Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18219,
+    "output": 918
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゼフィックス錠100",
+      "strength": "100mg",
+      "imprint_front": "GX CG5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表に記載。裏の刻印についての文章記載はなし",
+      "color": "うすいだいだい褐色",
+      "shape": "oblong",
+      "size_long_mm": 11.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 うすいだいだい褐色のフィルムコーティング錠 識別コード GX CG5 （長径×短径）11.5mm×5.5mm （厚さ）3.6mm"
+    }
+  ]
+}

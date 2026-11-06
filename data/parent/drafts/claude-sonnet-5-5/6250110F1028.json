@@ -1,0 +1,30 @@
+{
+  "id": "6250110F1028",
+  "source_file": "800155_6250110F1028_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_6250110F1028_1_17",
+  "extracted_at": "2026-11-06T18:30:48.187Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 50802,
+    "output": 698
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレジコビックス配合錠",
+      "strength": "1錠中 ダルナビルとして800mg、コビシスタット150mg",
+      "imprint_front": "TG",
+      "imprint_back": "800",
+      "imprint_note": "識別コード TG 800（外形図で表面にTG、裏面に800）",
+      "color": "ピンク色",
+      "shape": "oblong",
+      "size_long_mm": 23,
+      "size_short_mm": 11.5,
+      "thickness_mm": 8.7,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ピンク色のフィルムコーティング錠 / 大きさ 長径（mm）23.0 短径（mm）11.5 厚さ（mm）8.7 重量（mg）1,650 / 識別コード TG 800"
+    }
+  ]
+}

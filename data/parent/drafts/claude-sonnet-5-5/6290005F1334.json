@@ -1,0 +1,30 @@
+{
+  "id": "6290005F1334",
+  "source_file": "400278_6290005F1334_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6290005F1334_1_03",
+  "extracted_at": "2026-11-06T18:32:27.003Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18639,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルビナフィン錠125mg「TCK」",
+      "strength": "125mg",
+      "imprint_front": "TU",
+      "imprint_back": "603",
+      "imprint_note": "識別コード「TU 603」。表裏の区別は添付文書の本文表からは不明（図ではTU/603と表示）",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "テルビナフィン錠125mg「TCK」 白色～淡黄白色 素錠（割線入り） TU 603 直径9.1mm 厚さ3.7mm 重量210mg"
+    }
+  ]
+}

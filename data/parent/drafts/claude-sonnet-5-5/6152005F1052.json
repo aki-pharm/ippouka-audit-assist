@@ -1,0 +1,30 @@
+{
+  "id": "6152005F1052",
+  "source_file": "672212_6152005F1052_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6152005F1052_3_07",
+  "extracted_at": "2026-11-06T18:22:06.090Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15442,
+    "output": 659
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノマイシン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "LL 315",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の上面に記載。下面の刻印は文章では明記されていない。",
+      "color": "黄色～暗黄色",
+      "shape": "round",
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ミノマイシン錠 50mg LL 315 黄色～暗黄色フィルムコーティング錠 直径 5.7mm 厚さ 3.2mm"
+    }
+  ]
+}

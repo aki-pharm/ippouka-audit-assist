@@ -1,0 +1,30 @@
+{
+  "id": "6179001F2054",
+  "source_file": "672173_6179001F1058_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_6179001F1058_2_12",
+  "extracted_at": "2026-11-06T18:23:23.986Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 51907,
+    "output": 1101
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボリコナゾール錠200mg「アメル」",
+      "strength": "200mg",
+      "imprint_front": "ボリコナゾール 200 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「ボリコナゾール 200 アメル」と記載。表裏のどちらに印字されているかは本文中に明記なし（外形図のみ）。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ボリコナゾール錠200mg「アメル」 割線入りフィルムコーティング錠 白色 長径：約14.2mm 短径：約7.1mm 厚さ：約4.7mm 質量：約410.0mg 識別コード ボリコナゾール 200 アメル"
+    }
+  ]
+}

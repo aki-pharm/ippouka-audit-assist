@@ -1,0 +1,30 @@
+{
+  "id": "6250029F1032",
+  "source_file": "260054_6250029F1032_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/260054_6250029F1032_1_06",
+  "extracted_at": "2026-11-06T18:28:28.606Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14659,
+    "output": 972
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エンテカビル錠0.5mg「CMX」",
+      "strength": "0.5mg",
+      "imprint_front": "ETV",
+      "imprint_back": "0.5",
+      "imprint_note": "識別コードは「ETV 0.5」。表裏の別は外観図の並び（ETV、0.5の順）による。大きさは垂線8.3mm、厚さ3.7mm、重さ206mg。",
+      "color": "白色～微黄白色",
+      "shape": "other",
+      "size_long_mm": 8.3,
+      "size_short_mm": null,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "エンテカビル錠0.5mg「CMX」 白色～微黄白色の三角形のフィルムコート錠 ETV 0.5 垂線8.3mm 厚さ3.7mm 重さ206mg"
+    }
+  ]
+}

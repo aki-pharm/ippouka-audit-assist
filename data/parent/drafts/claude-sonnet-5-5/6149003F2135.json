@@ -1,0 +1,30 @@
+{
+  "id": "6149003F2135",
+  "source_file": "400186_6149003F2135_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6149003F2135_1_25",
+  "extracted_at": "2026-11-06T18:21:07.316Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42171,
+    "output": 771
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠200mg「タカタ」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に印字らしき表示があるが、テキストでは読み取れないため刻印は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠　表面 直径 約8.6mm／裏面 重さ 約0.25g／側面 厚さ 約5.1mm"
+    }
+  ]
+}

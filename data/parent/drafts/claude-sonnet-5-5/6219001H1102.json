@@ -1,0 +1,30 @@
+{
+  "id": "6219001H1102",
+  "source_file": "450064_6219001H1102_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6219001H1102_1_08",
+  "extracted_at": "2026-11-06T18:23:53.272Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19047,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サラゾスルファピリジン腸溶錠500mg「CH」",
+      "strength": "500mg",
+      "imprint_front": "CHL",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：CHL。表裏の別は記載なし（外形図には表面に「CHL」の表示あり）",
+      "color": "黄色〜黄褐色",
+      "shape": "oval",
+      "size_long_mm": 18.3,
+      "size_short_mm": 9.8,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "黄色〜黄褐色楕円形の腸溶性フィルムコーティング錠　長径 18.3mm　短径 9.8mm　厚さ 5.2mm　重量 655mg　識別コード CHL"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6241019F1021",
+  "source_file": "231099_6241019F1021_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_6241019F1021_2_04",
+  "extracted_at": "2026-11-06T18:26:10.321Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20207,
+    "output": 979
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラスビック錠75mg",
+      "strength": "75mg",
+      "imprint_front": "ラスビック",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の「ラスビック」は外形図に描かれた印字で、性状欄の本文には刻印の記載がない。裏面は本文に記載がないため未確認。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.8,
+      "size_short_mm": 7.8,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡黄色 直径：7.8mm 厚さ：3.8mm 質量：約196mg"
+    }
+  ]
+}

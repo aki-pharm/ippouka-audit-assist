@@ -1,0 +1,30 @@
+{
+  "id": "6250011F1024",
+  "source_file": "112130_6250011F1024_2_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_6250011F1024_2_19",
+  "extracted_at": "2026-11-06T18:26:51.212Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31480,
+    "output": 785
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノービア錠100mg",
+      "strength": "100mg",
+      "imprint_front": "NK",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「NK」。外形図では上面に刻印があるが、下面の刻印は文章では確認できない。割線の記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 17,
+      "size_short_mm": 9,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコーティング錠 大きさ 長径（mm）約17 短径（mm）約9 厚さ（mm）約6 重さ（g）約0.79 識別コード NK"
+    }
+  ]
+}

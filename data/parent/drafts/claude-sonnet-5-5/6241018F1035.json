@@ -1,0 +1,30 @@
+{
+  "id": "6241018F1035",
+  "source_file": "300119_6241018F1035_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241018F1035_1_08",
+  "extracted_at": "2026-11-06T18:26:03.707Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23784,
+    "output": 310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シタフロキサシン錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "シタフロ 50 SW",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「シタフロ 50 SW」と記載。外形図には表面・裏面・側面の図があるが、表裏の別は文章では明記されていない。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 性　状 白色～微黄白色 直径（mm） 7.7 厚さ（mm） 4.1 重量（mg） 約164 本体表示 シタフロ 50 SW"
+    }
+  ]
+}

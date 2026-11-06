@@ -1,0 +1,30 @@
+{
+  "id": "6250025F1026",
+  "source_file": "400315_6250025F1026_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_6250025F1026_1_21",
+  "extracted_at": "2026-11-06T18:28:21.238Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35169,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バリキサ錠450mg",
+      "strength": "450mg",
+      "imprint_front": "VGC",
+      "imprint_back": "450",
+      "imprint_note": "外形図には表面に「VGC」、裏面に「450」の表示があり、側面にも表示あり。識別コードは VGC450",
+      "color": "淡赤色",
+      "shape": "oblong",
+      "size_long_mm": 17,
+      "size_short_mm": 8,
+      "thickness_mm": 7,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤色・フィルムコーティング錠 ／ 識別コード VGC450 ／ サイズ 長径(mm)17.0 短径(mm)8.0 厚さ(mm)7.0 重量(g)0.62"
+    }
+  ]
+}

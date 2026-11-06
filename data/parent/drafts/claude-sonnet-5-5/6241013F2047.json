@@ -1,0 +1,30 @@
+{
+  "id": "6241013F2047",
+  "source_file": "450064_6241013F2047_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6241013F2047_1_11",
+  "extracted_at": "2026-11-06T18:24:59.478Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32833,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「CH」",
+      "strength": "250mg",
+      "imprint_front": "ch245",
+      "imprint_back": "ch245",
+      "imprint_note": "識別コードは表裏とも記載されているが、外形図の表示から表裏ともch245と推定。表裏の別は文面に明記なし",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 13.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 黄色の割線入りフィルムコーティング錠 / 大きさ 長径 13.7mm 短径 6.7mm 厚さ 4.2mm 重量 337mg / 識別コード ch245"
+    }
+  ]
+}

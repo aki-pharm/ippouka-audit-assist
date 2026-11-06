@@ -1,0 +1,30 @@
+{
+  "id": "6290005F1024",
+  "source_file": "480866_6290005F1024_3_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_6290005F1024_3_08",
+  "extracted_at": "2026-11-06T18:32:17.387Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17929,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラミシール錠125mg",
+      "strength": "125mg",
+      "imprint_front": "LP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：LP。外形図では表面に「LP」の刻印と、片面に割線が示されている。裏面の刻印は文章中に記載なし",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～淡黄白色の片面割線入りの素錠 識別コード LP 大きさ（約） 直径：9.0mm　厚さ：3.7mm　質量：0.21g"
+    }
+  ]
+}

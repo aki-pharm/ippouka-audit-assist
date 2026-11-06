@@ -1,0 +1,30 @@
+{
+  "id": "6219001H2117",
+  "source_file": "581120_6219001H1129_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_6219001H1129_1_06",
+  "extracted_at": "2026-11-06T18:24:05.767Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18635,
+    "output": 832
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サラゾスルファピリジン腸溶錠250mg「NIG」",
+      "strength": "250mg",
+      "imprint_front": "t 404",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）として t 404 と記載。錠剤の表裏のどちらに刻印されているかの記載はなし",
+      "color": "黄色～黄褐色",
+      "shape": "round",
+      "size_long_mm": 9.8,
+      "size_short_mm": 9.8,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "黄色～黄褐色の腸溶性フィルムコーティング錠 直径 9.8mm 厚さ 5.7mm 質量 390mg 識別コード（PTP） t 404"
+    }
+  ]
+}

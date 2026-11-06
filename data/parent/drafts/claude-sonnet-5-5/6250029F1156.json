@@ -1,0 +1,30 @@
+{
+  "id": "6250029F1156",
+  "source_file": "581120_6250029F1156_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_6250029F1156_1_04",
+  "extracted_at": "2026-11-06T18:28:43.887Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30376,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エンテカビル錠0.5mg「NIG」",
+      "strength": "0.5mg",
+      "imprint_front": "TV ETV1",
+      "imprint_back": "0.5",
+      "imprint_note": "識別コード（PTP）：TV ETV1。外形図に表面「TV ETV1」、裏面「0.5」の表示あり。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコーティング錠　外形 直径：8.1mm 厚さ：4.1mm 質量：206mg　識別コード（PTP） TV ETV1"
+    }
+  ]
+}

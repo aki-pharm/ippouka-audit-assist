@@ -1,0 +1,30 @@
+{
+  "id": "8119002G5020",
+  "source_file": "343018_8119002G5020_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_8119002G5020_2_09",
+  "extracted_at": "2026-11-06T18:34:30.612Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32019,
+    "output": 799
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキシコンチン TR錠 5mg",
+      "strength": "5mg",
+      "imprint_front": "920",
+      "imprint_back": "5",
+      "imprint_note": "表面は社名マークと920（識別コード：社名マーク 920:5）。社名マークは識別コードの一部として併記されている。",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色の円形のフィルムコーティング錠である。／直径 約7.1mm 厚さ 約4.8mm／識別コード 社名マーク 920:5"
+    }
+  ]
+}

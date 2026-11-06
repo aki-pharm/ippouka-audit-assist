@@ -1,0 +1,30 @@
+{
+  "id": "6149003F2232",
+  "source_file": "480235_6149003F2232_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6149003F2232_1_14",
+  "extracted_at": "2026-11-06T18:21:05.026Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34993,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "Tw714",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード Tw714（外形図では表に「Tw 714」の表示、裏は無地）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.9,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード Tw714 外形 表 裏 側面 直径(mm) 8.6 厚さ(mm) 4.9 質量(mg) 260"
+    }
+  ]
+}

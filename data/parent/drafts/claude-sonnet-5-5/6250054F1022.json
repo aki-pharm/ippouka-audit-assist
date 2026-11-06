@@ -1,0 +1,30 @@
+{
+  "id": "6250054F1022",
+  "source_file": "400022_6250054F1022_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400022_6250054F1022_1_01",
+  "extracted_at": "2026-11-06T18:30:17.032Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31842,
+    "output": 732
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アビガン錠200mg",
+      "strength": "200mg",
+      "imprint_front": "アビガン 200",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「アビガン 200」の表示あり（本文には刻印・印字の記載なし）。裏面は外形図でも明記なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色のフィルムコーティング錠 大きさ（mm) 直径：約8.7、厚さ：約4.3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6241013F3043",
+  "source_file": "450064_6241013F2047_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6241013F2047_1_11",
+  "extracted_at": "2026-11-06T18:25:35.206Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32833,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠500mg「CH」",
+      "strength": "500mg",
+      "imprint_front": "ch246",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「ch246」と記載。表裏の区別は文書の本文には明記されていない（外形の図には表示あり）。割線入り。",
+      "color": "うすいだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 18.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 うすいだいだい色の割線入りフィルムコーティング錠／大きさ 長径 18.2mm 短径 8.2mm 厚さ 5.1mm／重量 674mg／識別コード ch246"
+    }
+  ]
+}

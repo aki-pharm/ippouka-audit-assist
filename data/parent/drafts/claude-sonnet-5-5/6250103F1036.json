@@ -1,0 +1,30 @@
+{
+  "id": "6250103F1036",
+  "source_file": "230867_6250103F1036_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230867_6250103F1036_2_06",
+  "extracted_at": "2026-11-06T18:30:33.118Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34715,
+    "output": 939
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ツルバダ配合錠（エムトリシタビン200mg・テノホビル ジソプロキシルフマル酸塩300mg 1錠）",
+      "strength": "1錠中 エムトリシタビン200mg及びテノホビル ジソプロキシルフマル酸塩300mg",
+      "imprint_front": "GILEAD",
+      "imprint_back": "701",
+      "imprint_note": "識別コード GILEAD-701（外形図では上面にGILEAD、下面に701）",
+      "color": "青色",
+      "shape": "oblong",
+      "size_long_mm": 19.2,
+      "size_short_mm": 8.7,
+      "thickness_mm": 7.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 青色のフィルムコーティング錠／サイズ 長径 約19.2mm，短径 約8.7mm，厚さ 約7.1mm／識別コード GILEAD-701"
+    }
+  ]
+}

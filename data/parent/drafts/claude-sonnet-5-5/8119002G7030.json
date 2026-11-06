@@ -1,0 +1,30 @@
+{
+  "id": "8119002G7030",
+  "source_file": "430574_8119002G5038_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119002G5038_2_01",
+  "extracted_at": "2026-11-06T18:34:46.560Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23737,
+    "output": 699
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキシコドン徐放錠20mgNX「第一三共」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に刻印らしき表示はあるが、本文・表の文字としては刻印の記載がないため未確認",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "オキシコドン徐放錠20mgNX「第一三共」 素錠 微赤色 8.0 約4.5 約200"
+    }
+  ]
+}

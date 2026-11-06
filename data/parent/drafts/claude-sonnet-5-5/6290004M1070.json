@@ -1,0 +1,30 @@
+{
+  "id": "6290004M1070",
+  "source_file": "300119_6290004M1070_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6290004M1070_1_17",
+  "extracted_at": "2026-11-06T18:32:23.802Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36340,
+    "output": 979
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イトラコナゾールカプセル50mg「SW」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤（2号）。性状欄の文章に刻印・識別コードの記載はない。外形図にはカプセル上に「イトラコナゾール」「50mg」「SW」の印字が見られるが、文章での記載はないため未確認とした。",
+      "color": "頭部：淡黄色不透明、胴部：淡黄色不透明、内容物：白色～微黄白色の粉末又は塊を含む粉末",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 性状 頭部：淡黄色不透明 胴部：淡黄色不透明 内容物：白色～微黄白色の粉末又は塊を含む粉末 全長（mm） 17.8 重量（mg） 約229（外形：2号）"
+    }
+  ]
+}

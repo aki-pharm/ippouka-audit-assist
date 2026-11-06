@@ -1,0 +1,30 @@
+{
+  "id": "6290002M2140",
+  "source_file": "580591_6290002M1143_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_6290002M1143_1_23",
+  "extracted_at": "2026-11-06T18:31:55.042Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31599,
+    "output": 799
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルコナゾールカプセル100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "JG J06",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「JG J06」。外形図には「100mg」の表示と「JG J06」の印字がある。表裏の区別は記載なし。剤形は錠剤ではなく硬カプセル剤。大きさは3号カプセル（mm表記なし）、重量270mg。",
+      "color": "キャップ部だいだい色不透明、ボディー部だいだい色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "キャップ部だいだい色不透明、ボディー部だいだい色不透明の硬カプセル剤 JG J06 大きさ 3号カプセル 重量 270mg"
+    }
+  ]
+}

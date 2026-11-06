@@ -1,0 +1,30 @@
+{
+  "id": "6241013F2225",
+  "source_file": "400186_6241013F2225_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6241013F2225_1_14",
+  "extracted_at": "2026-11-06T18:25:28.646Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33821,
+    "output": 1022
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「タカタ」",
+      "strength": "250mg",
+      "imprint_front": "レボフロキサシン 250 タカタ",
+      "imprint_back": "レボフロキサシン 250 タカタ",
+      "imprint_note": "性状欄の文章に刻印の記載はなく、外形図（表面・裏面）の表示から読み取った。割線入り",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 12.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "黄色の楕円形の割線入りのフィルムコーティング錠　長径 約12.6mm 短径 約6.6mm　厚さ 約4.5mm　重さ 約0.318g"
+    }
+  ]
+}

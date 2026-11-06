@@ -1,0 +1,30 @@
+{
+  "id": "6132016F2020",
+  "source_file": "340018_6132016F1023_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_6132016F1023_1_25",
+  "extracted_at": "2026-11-06T18:19:57.615Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17628,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フロモックス錠100mg",
+      "strength": "100mg",
+      "imprint_front": "フロモックス 100",
+      "imprint_back": "なし",
+      "imprint_note": "製剤表示に社名マーク（シオノギマーク）を含む。表面に「フロモックス 100」の表示。裏面は図上、表示なし。",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "うすい赤色の円形のフィルムコーティング錠である。 直径 約 8.6mm 厚さ 約 3.7mm 製剤表示 フロモックス 100"
+    }
+  ]
+}

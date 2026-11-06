@@ -1,0 +1,46 @@
+{
+  "id": "6419101F1020",
+  "source_file": "340278_6419101F1020_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6419101F1020_1_10",
+  "extracted_at": "2026-11-06T18:33:10.637Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36102,
+    "output": 1161
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マラロン小児用配合錠",
+      "strength": "1錠中 アトバコン62.5mg・プログアニル塩酸塩25mg",
+      "imprint_front": "GX CG7",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表に記載。裏の刻印は文言では明記されていない",
+      "color": "淡紅白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・性状 淡紅白色円形のフィルムコーティング錠 / 識別コード GX CG7 / 表（直径）7.5mm / 側面（厚さ）3.0mm"
+    },
+    {
+      "product_name": "マラロン配合錠",
+      "strength": "1錠中 アトバコン250mg・プログアニル塩酸塩100mg",
+      "imprint_front": "GX CM3",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表に記載。裏の刻印は文言では明記されていない",
+      "color": "淡紅白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・性状 淡紅白色円形のフィルムコーティング錠 / 識別コード GX CM3 / 表（直径）11.1mm / 側面（厚さ）5.2mm"
+    }
+  ]
+}

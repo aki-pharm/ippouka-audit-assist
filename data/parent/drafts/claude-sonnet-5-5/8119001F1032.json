@@ -1,0 +1,30 @@
+{
+  "id": "8119001F1032",
+  "source_file": "430574_8119001F1032_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119001F1032_3_01",
+  "extracted_at": "2026-11-06T18:34:06.853Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9828,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メテバニール錠2mg",
+      "strength": "2mg",
+      "imprint_front": "SANKYO 807",
+      "imprint_back": "2",
+      "imprint_note": "表の外形図には「SANKYO 807」の刻印と、裏面とみられる図に「2」の表示があるが、文章上は識別コードとして「SANKYO 807」のみ記載。片面割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メテバニール錠2mg 素錠（片面割線入） 白色 SANKYO 807 直径8.0mm 厚さ約3.7mm 重さ約200mg"
+    }
+  ]
+}

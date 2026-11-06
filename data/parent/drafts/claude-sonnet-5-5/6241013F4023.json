@@ -1,0 +1,46 @@
+{
+  "id": "6241013F4023",
+  "source_file": "480235_6241013F2250_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6241013F2250_1_11",
+  "extracted_at": "2026-11-06T18:25:51.764Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34129,
+    "output": 1220
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "TwL1",
+      "imprint_back": "250",
+      "imprint_note": "識別コードは表（TwL1）。裏の「250」は外形図の表示から確認",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 13.7,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "黄色の楕円形の割線入りのフィルムコーティング錠 識別コード TwL1 直径(mm) 13.7／6.6（長径／短径） 厚さ(mm) 4.1"
+    },
+    {
+      "product_name": "レボフロキサシンOD錠250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "TwL3",
+      "imprint_back": "250",
+      "imprint_note": "識別コードは表（TwL3）。裏の「250」は外形図の表示から確認。形状は文章に明記がなく、直径の記載と外形図（円形）による",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 12,
+      "size_short_mm": 12,
+      "thickness_mm": 5.9,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入りの口腔内崩壊錠 識別コード TwL3 直径(mm) 12.0 厚さ(mm) 5.9"
+    }
+  ]
+}

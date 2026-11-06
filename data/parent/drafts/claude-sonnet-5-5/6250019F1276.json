@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1276",
+  "source_file": "480235_6250019F1276_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6250019F1276_1_08",
+  "extracted_at": "2026-11-06T18:27:40.366Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29260,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「トーワ」",
+      "strength": "500mg",
+      "imprint_front": "Tw027",
+      "imprint_back": "500",
+      "imprint_note": "識別コード Tw027。外形図の表に「Tw 027」の印字、裏に「500」の印字が見られる。",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 17.6,
+      "size_short_mm": 8.2,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色のフィルムコーティング錠 識別コード Tw027 直径(mm) 17.6／8.2（長径／短径） 厚さ(mm) 6.0"
+    }
+  ]
+}

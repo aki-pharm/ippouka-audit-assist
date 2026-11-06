@@ -1,0 +1,30 @@
+{
+  "id": "6250002F2021",
+  "source_file": "340278_6250002F1025_W_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6250002F1025_W_20",
+  "extracted_at": "2026-11-06T18:26:33.932Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18604,
+    "output": 240
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾビラックス錠400",
+      "strength": "400mg",
+      "imprint_front": "GX CM1",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード GX CM1（表面に印字）。裏面の刻印は図示上なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色の割線入り素錠 識別コード GX CM1 表（直径）11mm 側面（厚さ）5.2mm 質量 522mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1250",
+  "source_file": "460028_6250019F1250_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_6250019F1250_1_09",
+  "extracted_at": "2026-11-06T18:27:38.232Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29439,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「ツルハラ」",
+      "strength": "500mg",
+      "imprint_front": "TSU561",
+      "imprint_back": "なし",
+      "imprint_note": "外形図では表面に「TSU 561」の表示。裏面の刻印の記載なし。識別コード TSU561",
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 16.6,
+      "size_short_mm": 6.9,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形フィルムコーティング錠 色調 白色～微黄白色 外形 大きさ 長径 約16.6mm 短径 約6.9mm 厚さ 約6.2mm 質量 約620mg 識別コード TSU561"
+    }
+  ]
+}

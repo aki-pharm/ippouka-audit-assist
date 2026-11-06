@@ -1,0 +1,30 @@
+{
+  "id": "6149002F1177",
+  "source_file": "300119_6149002F1177_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6149002F1177_1_06",
+  "extracted_at": "2026-11-06T18:20:32.808Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15116,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキシスロマイシン錠150mg「サワイ」",
+      "strength": "150mg",
+      "imprint_front": "ロキシスロ SW 150",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ロキシスロ SW 150」の記載あり。表裏の区別は本文に記載なし（外形図には表面の表示のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 フィルムコーティング錠 性 状 白色 直径（mm） 9.1 厚さ（mm） 4.6 重量（mg） 約227 本体表示 ロキシスロ SW 150"
+    }
+  ]
+}

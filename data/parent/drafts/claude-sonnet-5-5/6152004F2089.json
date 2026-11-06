@@ -1,0 +1,30 @@
+{
+  "id": "6152004F2089",
+  "source_file": "672212_6152004F1074_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6152004F1074_3_04",
+  "extracted_at": "2026-11-06T18:22:02.190Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14778,
+    "output": 766
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビブラマイシン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "PT097",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード PT097。表裏の別は文章での記載なし（外形図の表面に PT と数字の表示あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ビブラマイシン錠100mg PT097 白色 フィルムコーティング錠"
+    }
+  ]
+}

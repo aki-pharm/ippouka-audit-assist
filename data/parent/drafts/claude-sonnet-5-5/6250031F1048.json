@@ -1,0 +1,30 @@
+{
+  "id": "6250031F1048",
+  "source_file": "400073_6250031F1048_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_6250031F1048_1_06",
+  "extracted_at": "2026-11-06T18:28:53.570Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23474,
+    "output": 345
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファムシクロビル錠 250mg「JG」",
+      "strength": "250mg",
+      "imprint_front": "ファムシクロビル 250 JG",
+      "imprint_back": "ファムシクロビル 250 JG",
+      "imprint_note": "本体表示：「ファムシクロビル 250 JG」。表面・裏面・側面のうち、側面の表示は未確認。表裏の刻印位置の区別は文書上明確でない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第3版、承認条件削除）",
+      "source_page": 1,
+      "source_quote": "ファムシクロビル錠 250mg「JG」 白色のフィルムコーティング錠 表面 裏面 側面 直径 10.1㎜ 厚さ 4.4mm 重量 339mg 本体表示 ファムシクロビル 250 JG"
+    }
+  ]
+}

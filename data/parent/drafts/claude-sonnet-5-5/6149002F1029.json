@@ -1,0 +1,30 @@
+{
+  "id": "6149002F1029",
+  "source_file": "780069_6149002F1029_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_6149002F1029_1_20",
+  "extracted_at": "2026-11-06T18:20:29.782Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16399,
+    "output": 241
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルリッド錠150",
+      "strength": "150mg",
+      "imprint_front": "RU",
+      "imprint_back": "164 D",
+      "imprint_note": "識別コード：RU 164 D（表面にRU、裏面に164 D）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2023年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 直径（mm） 9.1 厚さ（mm） 4.0 重量（mg） 215 識別コード RU 164 D"
+    }
+  ]
+}

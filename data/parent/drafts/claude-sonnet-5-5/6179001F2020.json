@@ -1,0 +1,30 @@
+{
+  "id": "6179001F2020",
+  "source_file": "672212_6179001F1023_3_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6179001F1023_3_13",
+  "extracted_at": "2026-11-06T18:23:11.402Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43441,
+    "output": 804
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブイフェンド錠200mg",
+      "strength": "200mg",
+      "imprint_front": "Pfizer",
+      "imprint_back": "VOR 200",
+      "imprint_note": "識別コードは「Pfizer VOR200」。表裏の区別は外形図による。割線の記載なし",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 15.5,
+      "size_short_mm": 7.7,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "ブイフェンド錠200mg 外形（mm）15.5×7.7、厚さ6.5 識別コード Pfizer VOR200 色調等 白色 フィルムコート錠"
+    }
+  ]
+}

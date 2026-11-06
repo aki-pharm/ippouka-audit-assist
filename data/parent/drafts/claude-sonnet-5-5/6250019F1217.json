@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1217",
+  "source_file": "530213_6250019F1217_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_6250019F1217_2_07",
+  "extracted_at": "2026-11-06T18:27:26.484Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29354,
+    "output": 320
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「ケミファ」",
+      "strength": "500mg",
+      "imprint_front": "バラシクロビル 500ケミファ",
+      "imprint_back": "バラシクロビル 500ケミファ",
+      "imprint_note": "識別コード欄の記載は「バラシクロビル　500ケミファ」。外形の表・裏の図に同様の印字が示されている。",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色のフィルムコーティング錠 / 長径 18.5mm 短径 7.5mm 厚さ 6.2mm 重量 700mg 識別コード バラシクロビル　500ケミファ"
+    }
+  ]
+}

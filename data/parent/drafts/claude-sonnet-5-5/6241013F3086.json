@@ -1,0 +1,30 @@
+{
+  "id": "6241013F3086",
+  "source_file": "400278_6241013F2080_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6241013F2080_2_08",
+  "extracted_at": "2026-11-06T18:25:41.405Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33483,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠500mg「TCK」",
+      "strength": "500mg",
+      "imprint_front": "TU 715",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTU 715。表面にTU 715の印字があると思われるが、裏面の刻印は本文中に記載がないため未確認。割線入り。",
+      "color": "うすいだいだい色",
+      "shape": "oval",
+      "size_long_mm": 16.2,
+      "size_short_mm": 7.9,
+      "thickness_mm": 5.4,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "レボフロキサシン錠500mg「TCK」 うすいだいだい色 楕円形 フィルムコーティング錠（割線入り） TU 715 16.2 × 7.9 5.4 670"
+    }
+  ]
+}

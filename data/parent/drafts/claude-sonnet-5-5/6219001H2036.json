@@ -1,0 +1,30 @@
+{
+  "id": "6219001H2036",
+  "source_file": "172190_6219001H1056_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_6219001H1056_3_04",
+  "extracted_at": "2026-11-06T18:23:55.746Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17398,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アザルフィジンEN錠250mg",
+      "strength": "250mg",
+      "imprint_front": "KPh",
+      "imprint_back": "250",
+      "imprint_note": "識別コード「KPh 250」。上面に「KPh」、下面に「250」と印字（外形図より）",
+      "color": "黄色～黄褐色",
+      "shape": "oval",
+      "size_long_mm": 12.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 黄色～黄褐色楕円形の腸溶性フィルムコーティング錠 ／ 長径 12.8mm 短径 6.8mm 厚さ 4.6mm 重量 334.2mg ／ 識別コード KPh 250"
+    }
+  ]
+}

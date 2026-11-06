@@ -1,0 +1,30 @@
+{
+  "id": "6241006F1121",
+  "source_file": "530258_6241006F1121_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_6241006F1121_2_06",
+  "extracted_at": "2026-11-06T18:24:38.072Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21894,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タリビッド錠100mg",
+      "strength": "100mg",
+      "imprint_front": "NF 721",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：NF 721（表面に表示。外形図では表にNF/721、裏は無地）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "タリビッド錠100mg 白色～微黄白色・フィルムコーティング錠 識別コード NF 721 直径8.1mm 厚さ3.8mm 重さ204mg"
+    }
+  ]
+}

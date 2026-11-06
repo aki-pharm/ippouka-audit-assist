@@ -1,0 +1,30 @@
+{
+  "id": "6250021M1027",
+  "source_file": "450045_6250021M1027_1_40.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_6250021M1027_1_40",
+  "extracted_at": "2026-11-06T18:28:09.354Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25786,
+    "output": 817
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タミフルカプセル75",
+      "strength": "75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル（錠剤ではない）。本文に刻印・識別コードの記載はなし。外形図に「タミフル」「75」の表示が描かれているが、本文では確認できない。",
+      "color": "キャップ：淡黄色、ボディ：明るい灰色",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル／色調 キャップ：淡黄色 ボディ：明るい灰色／長径 約17.8mm／号数 2号／質量 約230mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "7990003F1028",
+  "source_file": "672212_7990003F1028_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_7990003F1028_3_04",
+  "extracted_at": "2026-11-06T18:33:40.844Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28183,
+    "output": 1006
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チャンピックス錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "Pfizer・CHX0.5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「Pfizer・CHX0.5」。外形図には 8mm、4mm、3mm の数値があり、長径8mm、短径4mm、厚さ3mmと読み取った。形状は文章での記載がなく、割線の記載もない。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 8,
+      "size_short_mm": 4,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2020年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色/フィルムコート錠/Pfizer・CHX0.5"
+    }
+  ]
+}

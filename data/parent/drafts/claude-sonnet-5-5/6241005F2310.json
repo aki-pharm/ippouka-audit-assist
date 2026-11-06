@@ -1,0 +1,30 @@
+{
+  "id": "6241005F2310",
+  "source_file": "300119_6241005F1275_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241005F1275_1_07",
+  "extracted_at": "2026-11-06T18:24:29.882Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18332,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノルフロキサシン錠200mg「サワイ」",
+      "strength": "200mg",
+      "imprint_front": "SW 011",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：SW 011（表示面の別は文書に明記なし。外形図では片面に表示）",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　性状 白色～微黄色　直径（mm） 9.1　厚さ（mm） 4.5　重量（mg） 約247　識別コード SW 011"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6179001F2038",
+  "source_file": "430773_6179001F1031_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_6179001F1031_1_22",
+  "extracted_at": "2026-11-06T18:23:10.869Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 44053,
+    "output": 777
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボリコナゾール錠200mg「DSEP」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄に刻印・識別コードの文字記載なし。外形図の錠剤上に「ボリコナゾール200 DSEP」の印字らしきものが見えるが、文字としての記載がないため確定せず",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.8,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "ボリコナゾール錠200mg「DSEP」 フィルムコーティング錠 白色 13.6（長径） 6.8（短径） 厚さ6.5 質量465mg"
+    }
+  ]
+}

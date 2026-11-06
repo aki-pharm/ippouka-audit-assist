@@ -1,0 +1,30 @@
+{
+  "id": "6179002H1029",
+  "source_file": "170050_6179002H1029_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_6179002H1029_1_14",
+  "extracted_at": "2026-11-06T18:23:33.561Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36007,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノクサフィル錠100mg",
+      "strength": "100mg",
+      "imprint_front": "100",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：100。外形図では表面に「100」の表示があり、裏面には表示なし。腸溶錠",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 17.5,
+      "size_short_mm": 6.7,
+      "thickness_mm": 6.7,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第13版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 長円形・フィルムコーティング錠（腸溶錠）・黄色 外形 長径：17.5mm、短径：6.7mm 厚さ：6.7mm 識別コード 100"
+    }
+  ]
+}

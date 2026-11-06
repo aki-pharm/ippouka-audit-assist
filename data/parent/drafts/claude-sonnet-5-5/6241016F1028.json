@@ -1,0 +1,30 @@
+{
+  "id": "6241016F1028",
+  "source_file": "630004_6241016F1028_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_6241016F1028_1_23",
+  "extracted_at": "2026-11-06T18:25:56.959Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23904,
+    "output": 820
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アベロックス錠400mg",
+      "strength": "400mg",
+      "imprint_front": "M 400",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「M　400」。外形図の表面に「M」と「400」の表示あり。裏面の刻印の記載は文章では確認できない。",
+      "color": "淡灰赤色",
+      "shape": "oblong",
+      "size_long_mm": 17,
+      "size_short_mm": 7,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 淡灰赤色 外形 長径 17mm 短径 7mm 厚さ 5.7mm 質量 699.8mg 識別コード M 400"
+    }
+  ]
+}

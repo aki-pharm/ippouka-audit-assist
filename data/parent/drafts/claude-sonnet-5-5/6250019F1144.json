@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1144",
+  "source_file": "400278_6250019F1144_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6250019F1144_1_12",
+  "extracted_at": "2026-11-06T18:27:17.580Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31879,
+    "output": 837
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「TCK」",
+      "strength": "500mg",
+      "imprint_front": "TU 615",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TU 615。剤形はフィルムコーティング錠。裏面の刻印は文章では記載なし",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "バラシクロビル錠500mg「TCK」 TU 白色～微黄白色 フィルムコーティング錠 TU 615 18.5 × 7.5 6.2 700"
+    }
+  ]
+}

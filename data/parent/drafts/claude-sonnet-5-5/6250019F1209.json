@@ -1,0 +1,30 @@
+{
+  "id": "6250019F1209",
+  "source_file": "480209_6250019F1209_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_6250019F1209_1_10",
+  "extracted_at": "2026-11-06T18:27:25.117Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29380,
+    "output": 340
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バラシクロビル錠500mg「杏林」",
+      "strength": "500mg",
+      "imprint_front": "バラシクロビル 500 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：バラシクロビル 500 杏林。外形図は表面・裏面（図中に表示あり）と側面が示されているが、裏面の刻印の文字は本文に記載がないため未確認。",
+      "color": "白色〜微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色〜微黄白色 本体表示 バラシクロビル 500 杏林 直径(mm) 長径：18.5 短径：7.5 厚さ(mm) 6.2 質量(mg) 700"
+    }
+  ]
+}

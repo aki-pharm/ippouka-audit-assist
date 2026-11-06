@@ -1,0 +1,30 @@
+{
+  "id": "6290007M1022",
+  "source_file": "300089_6290007M1022_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300089_6290007M1022_1_08",
+  "extracted_at": "2026-11-06T18:32:32.354Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18370,
+    "output": 322
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ネイリンカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "SATO 18",
+      "imprint_back": "SATO 18",
+      "imprint_note": "識別コード「SATO 18」（カプセル、PTPシートに表示）。本製品は錠剤ではなく3号硬カプセル。表裏の区別は記載なし。",
+      "color": "キャップ部は赤色及びボディ部は黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.6,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 キャップ部は赤色及びボディ部は黄色の3号硬カプセル／外形・大きさ 長さ15.6mm 直径5.8mm／識別コード SATO 18（カプセル、PTPシートに表示）"
+    }
+  ]
+}

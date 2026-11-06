@@ -1,0 +1,30 @@
+{
+  "id": "6250002F1262",
+  "source_file": "480235_6250002F1262_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6250002F1262_1_10",
+  "extracted_at": "2026-11-06T18:26:32.627Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19565,
+    "output": 263
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アシクロビル錠200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "Tw 139",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：Tw139（表に記載）。裏の刻印は図上空白。錠剤は割線つき",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の割線つきの素錠で、においはない。 識別コード Tw139 Tw140 直径(mm) 8.6 11.0 厚さ(mm) 4.0 5.0"
+    }
+  ]
+}

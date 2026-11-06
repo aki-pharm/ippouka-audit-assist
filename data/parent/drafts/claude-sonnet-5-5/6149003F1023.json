@@ -1,0 +1,30 @@
+{
+  "id": "6149003F1023",
+  "source_file": "530213_6149003F1023_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_6149003F1023_3_06",
+  "extracted_at": "2026-11-06T18:20:37.916Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27853,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリシッド錠50mg小児用",
+      "strength": "50mg",
+      "imprint_front": "クラリシッド 50",
+      "imprint_back": "クラリシッド 50",
+      "imprint_note": "識別コード「クラリシッド　50」。外形の図では表・裏とも同様の印字が示されている。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "製剤の性状 白色のフィルムコーティング錠 ／ 直径 約6mm ／ 厚さ 約3.5mm ／ 重量 84mg ／ 識別コード クラリシッド　50"
+    }
+  ]
+}

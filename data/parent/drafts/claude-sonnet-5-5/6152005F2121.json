@@ -1,0 +1,30 @@
+{
+  "id": "6152005F2121",
+  "source_file": "480235_6152005F1109_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6152005F1109_1_12",
+  "extracted_at": "2026-11-06T18:22:19.107Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17741,
+    "output": 894
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノサイクリン塩酸塩錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw",
+      "imprint_back": "M100",
+      "imprint_note": "識別コード TwM100。表は「Tw」、裏は「M/100」（外形図の表示より）",
+      "color": "黄色～暗黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色～暗黄色のフィルムコーティング錠／識別コード TwM100／直径(mm) 7.6／厚さ(mm) 3.5／質量(mg) 157"
+    }
+  ]
+}

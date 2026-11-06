@@ -1,0 +1,30 @@
+{
+  "id": "6241013F3175",
+  "source_file": "400042_6241013F2179_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_6241013F2179_1_12",
+  "extracted_at": "2026-11-06T18:25:40.718Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33202,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠500mg「ケミファ」",
+      "strength": "500mg",
+      "imprint_front": "LX 500",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「LX 500」。外形図の表に「LX」「500」の表示があり、その間に割線。裏は割線のみで表示の記載なし。",
+      "color": "うすいだいだい色",
+      "shape": "oval",
+      "size_long_mm": 16.2,
+      "size_short_mm": 7.9,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色の楕円形の割線入りフィルムコーティング錠"
+    }
+  ]
+}

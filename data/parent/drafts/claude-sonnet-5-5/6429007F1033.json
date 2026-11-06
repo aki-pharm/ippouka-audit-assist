@@ -1,0 +1,30 @@
+{
+  "id": "6429007F1033",
+  "source_file": "340278_6429007F1033_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6429007F1033_1_07",
+  "extracted_at": "2026-11-06T18:33:24.554Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9228,
+    "output": 224
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスカゾール錠200mg",
+      "strength": "200mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.5,
+      "size_short_mm": 11.5,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色のフィルムコーティング錠 識別コード なし 表、裏（直径）11.5mm 側面（厚さ）6.5mm 質量 0.67g"
+    }
+  ]
+}

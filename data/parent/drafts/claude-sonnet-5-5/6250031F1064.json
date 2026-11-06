@@ -1,0 +1,30 @@
+{
+  "id": "6250031F1064",
+  "source_file": "640452_6250031F1064_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/640452_6250031F1064_1_05",
+  "extracted_at": "2026-11-06T18:28:57.068Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23044,
+    "output": 331
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファムシクロビル錠250mg「YD」",
+      "strength": "250mg",
+      "imprint_front": "ファムシクロビル 250 YD",
+      "imprint_back": "ファムシクロビル 250 YD",
+      "imprint_note": "識別コードは「ファムシクロビル 250 YD」。表面・裏面の個別の刻印内容は本文テキストでは区別されていない（外形図に表面・裏面・側面の表示あり）。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠である。 大きさ 直径：10.1mm　厚さ：4.4mm 質量 339mg 識別コード ファムシクロビル 250 YD"
+    }
+  ]
+}

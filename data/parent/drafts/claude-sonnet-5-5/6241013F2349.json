@@ -1,0 +1,30 @@
+{
+  "id": "6241013F2349",
+  "source_file": "270029_6241013F2349_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_6241013F2349_1_04",
+  "extracted_at": "2026-11-06T18:25:33.263Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33503,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「クニヒロ」",
+      "strength": "250mg",
+      "imprint_front": "KS572",
+      "imprint_back": "なし",
+      "imprint_note": "外形図では表面に「KS 572」の表示があり、割線が入っている。識別コード：KS572。裏面の刻印の記載は確認できないため「なし」とした。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "黄色の 楕円形の割線入り フィルムコーティング錠 ／ 長径×短径 13.6mm×6.6mm ／ 厚さ 4.1mm ／ 重量 335.0mg ／ 識別コード KS572"
+    }
+  ]
+}

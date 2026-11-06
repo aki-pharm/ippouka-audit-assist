@@ -1,0 +1,30 @@
+{
+  "id": "6290002M1143",
+  "source_file": "580591_6290002M1143_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_6290002M1143_1_23",
+  "extracted_at": "2026-11-06T18:31:35.651Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31599,
+    "output": 791
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルコナゾールカプセル50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "JG J05",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「JG J05」。外形図ではカプセルに「50mg」「JG J05」の表示あり。表裏の区別は本文に記載なし。剤形は硬カプセル剤（4号カプセル、重量200mg）。",
+      "color": "キャップ部白色不透明、ボディー部白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "フルコナゾールカプセル 50mg「JG」 キャップ部白色不透明、ボディー部白色不透明の硬カプセル剤 JG J05 大きさ 4号カプセル 重量 200mg"
+    }
+  ]
+}
