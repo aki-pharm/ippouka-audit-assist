@@ -1,0 +1,30 @@
+{
+  "id": "1149027F1034",
+  "source_file": "300297_1149027F1034_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_1149027F1034_1_10",
+  "extracted_at": "2026-11-06T15:14:27.139Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14380,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レリフェン錠400mg",
+      "strength": "400mg",
+      "imprint_front": "REL",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード 錠剤本体：REL/PTP：Sc102。裏面の図には刻印の記載なし。割線の記載なし。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.6,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色のフィルムコート錠 / 直径 11.1mm / 厚さ 5.6mm / 重量 498mg / 識別コード 錠剤本体：REL/PTP：Sc102"
+    }
+  ]
+}

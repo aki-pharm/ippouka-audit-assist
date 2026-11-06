@@ -1,0 +1,30 @@
+{
+  "id": "1149037F1119",
+  "source_file": "300119_1149037F1119_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1149037F1119_1_07",
+  "extracted_at": "2026-11-06T15:15:41.198Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36218,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "セレコキシブ 100 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「セレコキシブ 100 サワイ」と記載。表裏の区別は本文テキストでは確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／性状 白色／直径（mm） 8.0／厚さ（mm） 2.7／重量（mg） 約175／本体表示 セレコキシブ 100 サワイ"
+    }
+  ]
+}

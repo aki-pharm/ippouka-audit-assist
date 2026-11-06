@@ -1,0 +1,30 @@
+{
+  "id": "1169006F2023",
+  "source_file": "400093_1169006F1027_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1169006F1027_2_01",
+  "extracted_at": "2026-11-06T15:18:03.769Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20601,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドプスOD錠200mg",
+      "strength": "200mg",
+      "imprint_front": "DS054",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードDS054。外形図には表面にDS054、200の表示が見られるが、表裏の区別は本文に明記なし。",
+      "color": "白色～淡褐色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "割線入りの白色～淡褐色の素錠 … 直径（mm）約10 厚さ（mm）約4.7 重さ（mg）約400 識別コード DS054"
+    }
+  ]
+}

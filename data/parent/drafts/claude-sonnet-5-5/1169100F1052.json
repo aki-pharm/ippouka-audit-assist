@@ -1,0 +1,30 @@
+{
+  "id": "1169100F1052",
+  "source_file": "180095_1169100F1052_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1169100F1052_2_01",
+  "extracted_at": "2026-11-06T15:22:26.148Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14539,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イーシー・ドパール配合錠",
+      "strength": "1錠（レボドパ100mg・ベンセラジド25mg含有）",
+      "imprint_front": "KH108",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード KH108。表面に「KH」「108」の印字が確認できる（外形図）。裏面の刻印は記載なし",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版、承継に伴う改訂）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤色・素錠（割線入） 大きさ 直径：9.1mm 厚さ：3.5mm 質量 0.27g 識別コード KH108"
+    }
+  ]
+}

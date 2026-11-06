@@ -1,0 +1,30 @@
+{
+  "id": "1161001F2057",
+  "source_file": "480866_1161001F1050_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_1161001F1050_1_01",
+  "extracted_at": "2026-11-06T15:17:45.001Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22609,
+    "output": 343
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンメトレル錠100mg",
+      "strength": "100mg",
+      "imprint_front": "SJ 212",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはSJ 212。表裏の別は本文に記載がなく、外形図の刻印面と思われるが文字としては確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年7月改訂（第3版、細粒10%の削除）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコート錠 / 識別コード SJ 211 SJ 212 / 大きさ（約） 直径7.1mm　厚さ3.3mm　質量0.12g 直径8.1mm　厚さ3.5mm　質量0.17g（100mgはSJ 212、直径8.1mm、厚さ3.5mm、質量0.17g）"
+    }
+  ]
+}

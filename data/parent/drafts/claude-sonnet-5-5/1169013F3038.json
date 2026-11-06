@@ -1,0 +1,30 @@
+{
+  "id": "1169013F3038",
+  "source_file": "450064_1169013F1035_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_1169013F1035_1_06",
+  "extracted_at": "2026-11-06T15:19:53.144Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19164,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロピニロール錠2mg「JG」",
+      "strength": "2mg",
+      "imprint_front": "JG C56",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「JG　C56」。外形の図には「2」の表示あり（図中の表記のため参考）",
+      "color": "淡紅白色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 淡紅白色のフィルムコーティング錠 / 大きさ 直径 7.7mm 厚さ 3.3mm 重量 155mg / 識別コード JG　C56"
+    }
+  ]
+}

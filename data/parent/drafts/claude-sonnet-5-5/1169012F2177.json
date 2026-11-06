@@ -1,0 +1,30 @@
+{
+  "id": "1169012F2177",
+  "source_file": "530169_1169012F1170_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1169012F1170_1_11",
+  "extracted_at": "2026-11-06T15:19:12.861Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29759,
+    "output": 963
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラミペキソール塩酸塩錠0.5mg「日医工」",
+      "strength": "0.5mg",
+      "imprint_front": "639",
+      "imprint_back": "639",
+      "imprint_note": "本体コード n 639、包装コード 639（nは社名マーク）。割線入りの素錠。表裏それぞれの刻印は外形図から読み取った",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠／色調 白色／直径（mm）7.7×10.7／厚さ（mm）2.9／質量（mg）210／本体コード 639／包装コード 639"
+    }
+  ]
+}

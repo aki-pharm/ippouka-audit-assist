@@ -1,0 +1,30 @@
+{
+  "id": "1149036F2021",
+  "source_file": "400059_1149036F1025_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_1149036F1025_1_26",
+  "extracted_at": "2026-11-06T15:15:29.843Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22923,
+    "output": 1023
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロルカム錠 4mg",
+      "strength": "4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「―」。外形図の上面に製品名の表示（ロルカム 4）が見えるが、本文には刻印の記載がない。下面は図では無地だが、本文には記載がない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ロルカム錠 4mg ― 白色 フィルムコーティング錠 直径（mm）約 7 厚さ（mm）約 3.3 重量（mg）約 168"
+    }
+  ]
+}

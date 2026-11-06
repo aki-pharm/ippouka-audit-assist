@@ -1,0 +1,30 @@
+{
+  "id": "1169015F2049",
+  "source_file": "430773_1169015F2049_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1169015F2049_1_01",
+  "extracted_at": "2026-11-06T15:20:45.328Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23652,
+    "output": 1157
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠25mgTRE「DSEP」",
+      "strength": "25mg",
+      "imprint_front": "ゾニサミド TRE OD 25 EP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「ゾニサミド TRE OD 25 EP」と記載されているが、表裏の区別は本文に記載がない。剤形は素錠（口腔内崩壊錠）。形状は外形の図と直径の記載から円形と判断。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ゾニサミドOD錠25mgTRE「DSEP」 素錠（口腔内崩壊錠） 白色～帯黄白色 ゾニサミド TRE OD 25 EP 直径8.0mm 厚さ3.2mm 重さ190mg"
+    }
+  ]
+}

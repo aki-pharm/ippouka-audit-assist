@@ -1,0 +1,30 @@
+{
+  "id": "1149036F1033",
+  "source_file": "270139_1149036F1033_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270139_1149036F1033_1_08",
+  "extracted_at": "2026-11-06T15:15:30.490Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26377,
+    "output": 1231
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロルノキシカム錠2mg「KO」",
+      "strength": "2mg",
+      "imprint_front": "ロルノキシカム 2",
+      "imprint_back": "ロルノキシカム 2",
+      "imprint_note": "識別コード：KO74（外形図では表裏とも「ロルノキシカム 2」の印字。識別コードの印字位置は記載なし）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色 剤形 フィルムコーティング錠 外形 ロルノキシカム 2 ロルノキシカム 2 直径（mm） 約 6 厚さ（mm） 約 2.6 質量（mg） 約 83.5 識別コード KO74"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1149037F1216",
+  "source_file": "171950_1149037F1216_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_1149037F1216_1_05",
+  "extracted_at": "2026-11-06T15:16:02.229Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34277,
+    "output": 644
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「明治」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形の図に示されているが、本文に文字としての記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "セレコキシブ錠100mg「明治」 割線入り素錠 白色 直径（mm）8.0 厚さ（mm）2.7 重量（mg）180"
+    }
+  ]
+}

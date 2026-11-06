@@ -1,0 +1,30 @@
+{
+  "id": "1169001F1253",
+  "source_file": "480209_1169001F1253_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1169001F1253_1_06",
+  "extracted_at": "2026-11-06T15:17:55.380Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12307,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリヘキシフェニジル塩酸塩錠2mg「杏林」",
+      "strength": "2mg",
+      "imprint_front": "PH 108",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：PH108（外形図では表面に「PH/108」と表示）。裏面の刻印については記載なし（割線のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色 外形 直径(mm) 8.1 厚さ(mm) 2.9 質量(mg) 200 識別コード PH108"
+    }
+  ]
+}

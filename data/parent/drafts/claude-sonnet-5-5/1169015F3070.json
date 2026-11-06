@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3070",
+  "source_file": "672173_1169015F2073_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1169015F2073_1_01",
+  "extracted_at": "2026-11-06T15:21:48.078Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25852,
+    "output": 1186
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミド OD 錠 50mgTRE「アメル」",
+      "strength": "50mg",
+      "imprint_front": "50 ゾニサミド TRE OD アメル",
+      "imprint_back": "アメル TRE OD ゾニサミド 50",
+      "imprint_note": "識別コード欄に「50 ゾニサミド TRE OD アメル /アメル TRE OD ゾニサミド 50」と記載。スラッシュ前後を表・裏に振り分けたが、表裏の別は文面上明記されていない。",
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ゾニサミド OD 錠 50mgTRE「アメル」 割線入り 素錠 50 ゾニサミド TRE OD アメル /アメル TRE OD ゾニサミド 50 微黄白色～淡黄白色 直径：約 10.6mm 厚さ：約 3.8mm 質量：約 400.0mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1149034F1026",
+  "source_file": "730119_1149034F1026_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730119_1149034F1026_2_05",
+  "extracted_at": "2026-11-06T15:14:45.201Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15731,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソセゴン錠25mg",
+      "strength": "25mg",
+      "imprint_front": "MI210",
+      "imprint_back": "なし",
+      "imprint_note": "外形図の表に「MI 210」の表示あり。裏は無地の図。識別コード欄は「MI210」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "販売名 ソセゴン錠25mg 剤形 フィルムコーティング錠 色 白色 外形 表 裏 側面 直径 6.7mm 厚さ 3.1mm 重量 0.105g 識別コード MI210"
+    }
+  ]
+}

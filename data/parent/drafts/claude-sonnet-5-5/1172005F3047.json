@@ -1,0 +1,30 @@
+{
+  "id": "1172005F3047",
+  "source_file": "400186_1172005C1064_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1172005C1064_2_09",
+  "extracted_at": "2026-11-06T15:23:27.751Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17399,
+    "output": 1098
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニューレプチル錠25mg",
+      "strength": "25mg",
+      "imprint_front": "TTS-583",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載はTTS-583。表面の図には「25 NLP」と読める印字があるが、本文には刻印の記載がない。裏面は図のみで文字の記載なし。",
+      "color": "黄だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "黄だいだい色の円形の糖衣錠で、においはない。（表面直径 約6.1mm、裏面重さ 約0.12g、側面厚さ 約3.7mm、識別コード TTS-583）"
+    }
+  ]
+}

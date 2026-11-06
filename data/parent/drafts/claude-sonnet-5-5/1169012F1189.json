@@ -1,0 +1,30 @@
+{
+  "id": "1169012F1189",
+  "source_file": "530113_1169012F1189_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1169012F1189_1_11",
+  "extracted_at": "2026-11-06T15:18:49.959Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19403,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラミペキソール塩酸塩錠0.125mg「日新」",
+      "strength": "0.125mg",
+      "imprint_front": "NS 145",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NS 145。外形の図には「0.125」の表示も見られるが、添付文書の文字情報では表裏の刻印の区別は記載されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性 状 白色の素錠 ／ 大きさ 錠径：6.0mm 錠厚：2.5mm 重量： 85mg ／ 識別コード NS 145"
+    }
+  ]
+}

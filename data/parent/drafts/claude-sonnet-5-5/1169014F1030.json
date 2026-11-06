@@ -1,0 +1,30 @@
+{
+  "id": "1169014F1030",
+  "source_file": "580591_1169014F1030_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1169014F1030_1_07",
+  "extracted_at": "2026-11-06T15:20:25.437Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23300,
+    "output": 335
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エンタカポン錠100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "エンタカポン 100 JG",
+      "imprint_back": "なし",
+      "imprint_note": "本体表示：エンタカポン 100 JG（表面）。裏面の表示は記載なし（外形図上は無地）",
+      "color": "うすい黄赤色～くすんだ黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "エンタカポン錠100mg「JG」 うすい黄赤色～くすんだ黄赤色の楕円形のフィルムコーティング錠 表面 裏面 側面 エンタカポン 100 JG 長径 短径 厚さ 重量 13.2mm 6.2mm 4.6mm 313mg"
+    }
+  ]
+}

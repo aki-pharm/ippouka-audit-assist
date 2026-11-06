@@ -1,0 +1,30 @@
+{
+  "id": "1169017F1025",
+  "source_file": "400256_1169017F1025_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_1169017F1025_1_09",
+  "extracted_at": "2026-11-06T15:22:17.783Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28873,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジレクト錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "GIL 0.5",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは上面に表示（図）。下面・側面の刻印は図上、表示なし",
+      "color": "白色〜ほとんど白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 / 色調 白色〜ほとんど白色 / 識別コード GIL 0.5 / 直径（mm）6.5 / 厚さ（mm）約2.4 / 質量（mg）約105"
+    }
+  ]
+}

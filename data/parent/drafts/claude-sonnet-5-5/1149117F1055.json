@@ -1,0 +1,30 @@
+{
+  "id": "1149117F1055",
+  "source_file": "580591_1149117F1055_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1149117F1055_1_09",
+  "extracted_at": "2026-11-06T15:17:10.450Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32093,
+    "output": 808
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「JG」",
+      "strength": "1錠中 トラマドール塩酸塩37.500mg・アセトアミノフェン325.000mg",
+      "imprint_front": "トアラセット JG",
+      "imprint_back": "トアラセット JG",
+      "imprint_note": "本体表示は「トアラセット JG」。表面・裏面とも外形図に同じ表示が記載されている。",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 6.8,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "淡黄色のフィルムコーティング錠 表面 裏面 側面 長径15.5mm 短径6.8mm 厚さ5.4mm 重量454mg 本体表示 トアラセット JG"
+    }
+  ]
+}

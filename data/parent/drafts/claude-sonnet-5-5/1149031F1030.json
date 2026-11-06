@@ -1,0 +1,30 @@
+{
+  "id": "1149031F1030",
+  "source_file": "530263_1149031F1030_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_1149031F1030_1_16",
+  "extracted_at": "2026-11-06T15:14:35.698Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12349,
+    "output": 232
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オークル錠100mg",
+      "strength": "100mg",
+      "imprint_front": "111",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの前に社名マークらしきものが印字されている（画像上）。テキストでは「識別コード 111」と記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 オークル錠100mg 製剤の色 白色 形状 円形のフィルムコーティング錠 識別コード 111"
+    }
+  ]
+}

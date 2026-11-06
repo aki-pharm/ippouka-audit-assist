@@ -1,0 +1,30 @@
+{
+  "id": "1169015F2030",
+  "source_file": "370242_1169015F2030_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370242_1169015F2030_1_02",
+  "extracted_at": "2026-11-06T15:20:38.380Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22804,
+    "output": 294
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠25mg TRE「SMPP」",
+      "strength": "25mg",
+      "imprint_front": "ゾニサミド OD25",
+      "imprint_back": "SMPP",
+      "imprint_note": "外形図より。表面「ゾニサミド OD25」、裏面「SMPP」と表示。側面図も掲載。文章での刻印記載はなし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年2月改訂(第3版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の素錠 ／ 大きさ 直径(mm) 約8 厚さ(mm) 約3.2 重さ(mg) 約200"
+    }
+  ]
+}

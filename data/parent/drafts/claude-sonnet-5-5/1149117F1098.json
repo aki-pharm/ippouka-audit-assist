@@ -1,0 +1,30 @@
+{
+  "id": "1149117F1098",
+  "source_file": "400278_1149117F1098_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1149117F1098_1_09",
+  "extracted_at": "2026-11-06T15:17:22.454Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33028,
+    "output": 821
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「TCK」",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg・アセトアミノフェン325mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状の表に刻印・印字の文字記載はない。外形図には販売名の表示が見えるが、文章での記載はないため未確認とした。",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 15.2,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "トアラセット配合錠「TCK」 淡黄色楕円形 フィルムコーティング錠 15.2 × 6.6 5.2 438"
+    }
+  ]
+}

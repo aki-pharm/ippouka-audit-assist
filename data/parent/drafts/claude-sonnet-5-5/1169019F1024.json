@@ -1,0 +1,30 @@
+{
+  "id": "1169019F1024",
+  "source_file": "180188_1169019F1024_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_1169019F1024_1_04",
+  "extracted_at": "2026-11-06T15:22:31.805Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21364,
+    "output": 1051
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オンジェンティス錠25mg",
+      "strength": "25mg",
+      "imprint_front": "オンジェンティス 25",
+      "imprint_back": "オンジェンティス 25",
+      "imprint_note": "外形図（表面・裏面）に「オンジェンティス 25」の表示あり。文章での刻印・印字の記載はなく、刻印か印字かは未確認。",
+      "color": "淡赤色",
+      "shape": "oblong",
+      "size_long_mm": 11.6,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／長径(mm) 約11.6／短径(mm) 約5.1／厚さ(mm) 約3.6／質量(mg) 約205／色調 淡赤色"
+    }
+  ]
+}

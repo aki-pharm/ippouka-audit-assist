@@ -1,0 +1,30 @@
+{
+  "id": "1149038F2039",
+  "source_file": "270139_1149038F1032_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270139_1149038F1032_1_02",
+  "extracted_at": "2026-11-06T15:16:42.420Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28518,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラマドール塩酸塩OD錠50mg「KO」",
+      "strength": "50mg",
+      "imprint_front": "KO91",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはKO91。表裏の区別は本文の記載からは確認できない（外形図では表面に「OD 50」の表示あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2024年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "製剤の色 白色／形状・剤形 片面に割線を施した円形の口腔内崩壊錠／直径（㎜） 約9㎜／厚さ（㎜） 約 4.2 ㎜／識別コード KO91"
+    }
+  ]
+}

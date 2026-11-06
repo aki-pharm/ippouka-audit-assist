@@ -1,0 +1,30 @@
+{
+  "id": "1149035F2132",
+  "source_file": "530213_1149035F1136_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1149035F1136_1_09",
+  "extracted_at": "2026-11-06T15:15:02.538Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24553,
+    "output": 242
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メロキシカム錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "NC M10",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：NC　M10。割線あり（表面に割線）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄色の割線入りの素錠／直径 8.0mm／厚さ 2.8mm／重量 180mg／識別コード NC　M10"
+    }
+  ]
+}

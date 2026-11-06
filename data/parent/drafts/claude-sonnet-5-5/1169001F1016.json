@@ -1,0 +1,30 @@
+{
+  "id": "1169001F1016",
+  "source_file": "581120_1169001F1270_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1169001F1270_1_03",
+  "extracted_at": "2026-11-06T15:17:53.446Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10965,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリヘキシフェニジル塩酸塩錠2mg「NIG」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文中の識別コードはPTPの表示として「t TX」と記載されている。錠剤本体の刻印は文章では記載なし（外形図に「T X」様の表示あり）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 外形 直径：6.5mm 厚さ：2.3mm 質量：100mg 識別コード（PTP） t TX"
+    }
+  ]
+}

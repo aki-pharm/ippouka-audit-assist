@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3169",
+  "source_file": "530100_1169015F2162_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1169015F2162_1_01",
+  "extracted_at": "2026-11-06T15:22:10.382Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25960,
+    "output": 549
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミド OD 錠 50mgTRE「ニプロ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "微黄白色～淡黄白色の割線入り素錠（口腔内崩壊錠） 直径10.5mm 厚さ3.8mm 重量380mg"
+    }
+  ]
+}

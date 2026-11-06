@@ -1,0 +1,30 @@
+{
+  "id": "1149037F1160",
+  "source_file": "530113_1149037F1160_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1149037F1160_1_05",
+  "extracted_at": "2026-11-06T15:15:51.232Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26063,
+    "output": 576
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「日新」",
+      "strength": "100mg",
+      "imprint_front": "セレコ100",
+      "imprint_back": "セレコキシブ 100 NS",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状：白色の割線入りの円形の素錠　大きさ：錠径：8.0mm 錠厚：2.7mm 重量：180mg　本体表示：表面 セレコ100、裏面 セレコキシブ 100 NS"
+    }
+  ]
+}

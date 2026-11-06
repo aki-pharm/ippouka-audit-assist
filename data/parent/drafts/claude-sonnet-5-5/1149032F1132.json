@@ -1,0 +1,30 @@
+{
+  "id": "1149032F1132",
+  "source_file": "300119_1149032F1132_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1149032F1132_1_05",
+  "extracted_at": "2026-11-06T15:14:38.972Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18218,
+    "output": 316
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エトドラク錠100mg「SW」",
+      "strength": "100mg",
+      "imprint_front": "SW 447",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：SW 447。外形図には表面の刻印、裏面、側面の図が示されているが、裏面の刻印の有無は本文に明記されていない。剤形：フィルムコーティング錠",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 性　状 淡黄色 直径（mm） 7.1 9.1 厚さ（mm） 3.9 4.8 重量（mg） 約128 約258 識別コード SW 447 SW 448"
+    }
+  ]
+}

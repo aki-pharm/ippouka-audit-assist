@@ -1,0 +1,46 @@
+{
+  "id": "1169101F1146",
+  "source_file": "181615_1169101F1146_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_1169101F1146_3_02",
+  "extracted_at": "2026-11-06T15:22:46.059Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15079,
+    "output": 463
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メネシット配合錠100",
+      "strength": "100",
+      "imprint_front": "NMB647",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：NMB647。外形図の裏面には割線が描かれている。",
+      "color": "うすい青色",
+      "shape": "oval",
+      "size_long_mm": 12.9,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・色調 楕円形・素錠・うすい青色 長径：12.9mm 短径：7.2mm 厚さ：3.0mm 識別コード NMB647"
+    },
+    {
+      "product_name": "メネシット配合錠250",
+      "strength": "250",
+      "imprint_front": "NMB654",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：NMB654。外形図の裏面には割線が描かれている。",
+      "color": "うすい青色",
+      "shape": "oval",
+      "size_long_mm": 14.9,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・色調 楕円形・素錠・うすい青色 長径：14.9mm 短径：8.2mm 厚さ：4.4mm 識別コード NMB654"
+    }
+  ]
+}

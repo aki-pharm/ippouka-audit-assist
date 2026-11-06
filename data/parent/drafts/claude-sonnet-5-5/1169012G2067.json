@@ -1,0 +1,30 @@
+{
+  "id": "1169012G2067",
+  "source_file": "180095_1169012G1060_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1169012G1060_2_05",
+  "extracted_at": "2026-11-06T15:19:40.122Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23918,
+    "output": 332
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラミペキソール塩酸塩LA錠1.5mgMI「オーハラ」",
+      "strength": "1.5mg",
+      "imprint_front": "プラミペキソール LA 1.5 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の区別が本文に明記されていない（識別コード欄に「プラミペキソール LA 1.5 オーハラ」と記載）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 6.9,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色 長楕円形の フィルムコーティング錠 ／ 長径：14.1mm 短径：6.9mm 厚さ：5.1mm ／ 質量 365mg ／ 識別コード プラミペキソール LA 1.5 オーハラ"
+    }
+  ]
+}

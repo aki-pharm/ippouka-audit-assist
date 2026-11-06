@@ -1,0 +1,30 @@
+{
+  "id": "1149037F2204",
+  "source_file": "750007_1149037F1208_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/750007_1149037F1208_1_06",
+  "extracted_at": "2026-11-06T15:16:29.077Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36054,
+    "output": 300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠200mg「三笠」",
+      "strength": "200mg",
+      "imprint_front": "セレコキシブ 200 三笠",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「セレコキシブ 200 三笠」と記載。表裏の区別は本文に明記なし（外形図に表示あり）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 白色／剤形 楕円形 割線入り素錠／重量 360mg／大きさ 長径13.0mm 短径6.5mm／厚さ 5.2mm／識別コード セレコキシブ 200 三笠"
+    }
+  ]
+}

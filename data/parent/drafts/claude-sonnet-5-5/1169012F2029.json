@@ -1,0 +1,30 @@
+{
+  "id": "1169012F2029",
+  "source_file": "650168_1169012F1022_1_28.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_1169012F1022_1_28",
+  "extracted_at": "2026-11-06T15:18:55.891Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28342,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビ・シフロール錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "P8",
+      "imprint_back": "P8",
+      "imprint_note": "識別コード P8。外形図には社名マークの記載あり。表裏とも P8 と読み取れるが、文言上は識別コード P8 のみの記載",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の素錠（割線）／長径 10.6mm／短径 7.6mm／厚さ 約2.9mm／重さ 0.21g／識別コード P8"
+    }
+  ]
+}

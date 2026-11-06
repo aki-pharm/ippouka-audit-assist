@@ -1,0 +1,30 @@
+{
+  "id": "1149037F1194",
+  "source_file": "671940_1149037F1194_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_1149037F1194_1_08",
+  "extracted_at": "2026-11-06T15:15:52.678Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37961,
+    "output": 615
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「フェルゼン」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの文字記載なし（外形図に表示はあるが文字として確認できない）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの円形の素錠　直径：8.1mm　厚さ：2.7mm　質量：180mg"
+    }
+  ]
+}

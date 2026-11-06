@@ -1,0 +1,30 @@
+{
+  "id": "1149038G3022",
+  "source_file": "530288_1149038G2026_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530288_1149038G2026_1_11",
+  "extracted_at": "2026-11-06T15:16:50.589Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32200,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ツートラム錠100mg",
+      "strength": "100mg",
+      "imprint_front": "ツートラム 100",
+      "imprint_back": "ツートラム 100",
+      "imprint_note": "外形図に表・裏とも「ツートラム 100」の表示あり。側面にも印字の記載はなし。",
+      "color": "淡紅色と白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.9,
+      "score_line": false,
+      "source_revision": "2024年5月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 フイルムコーティング2層錠／錠剤の色 淡紅色と白色／外形 8.6mm、側面 4.9mm、質量 263mg（表・裏：ツートラム 100）"
+    }
+  ]
+}

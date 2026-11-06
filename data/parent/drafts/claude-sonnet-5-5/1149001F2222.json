@@ -1,0 +1,30 @@
+{
+  "id": "1149001F2222",
+  "source_file": "581120_1149001F1501_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1149001F1501_1_04",
+  "extracted_at": "2026-11-06T15:14:02.911Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18700,
+    "output": 707
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イブプロフェン錠200mg「NIG」",
+      "strength": "200mg",
+      "imprint_front": "t 262",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）としての記載。錠剤本体への刻印かどうかは文書に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.3,
+      "size_short_mm": 10.3,
+      "thickness_mm": 5.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の糖衣錠／直径 10.3mm／厚さ 5.8mm／質量 390mg／識別コード（PTP） t 262"
+    }
+  ]
+}

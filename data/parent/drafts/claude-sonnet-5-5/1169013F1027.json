@@ -1,0 +1,30 @@
+{
+  "id": "1169013F1027",
+  "source_file": "340278_1169013F1027_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_1169013F1027_1_18",
+  "extracted_at": "2026-11-06T15:19:46.751Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17226,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レキップ錠0.25mg",
+      "strength": "0.25mg",
+      "imprint_front": "SB 4890",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード SB 4890。表裏の刻印の内訳は文章では記載されておらず、図のみ。",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 7.6,
+      "size_short_mm": null,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色のフィルムコーティング錠 / 識別コード SB 4890 / 表（長径）7.6mm / 側面（厚さ）約4.3mm"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1169006M1034",
+  "source_file": "672173_1169006M1034_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1169006M1034_2_03",
+  "extracted_at": "2026-11-06T15:18:07.167Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21900,
+    "output": 305
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドロキシドパカプセル100mg「アメル」",
+      "strength": "100mg",
+      "imprint_front": "KW ドロキシドパ 100",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル剤（4号カプセル）。識別コードの表裏の区別は記載なし。",
+      "color": "キャップ：だいだい色不透明、ボディ：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "硬カプセル剤 KW ドロキシドパ 100 キャップ：だいだい色不透明 ボディ：白色不透明 A：約 14.5mm B：約 5.3mm 質量：約 190.0mg"
+    }
+  ]
+}

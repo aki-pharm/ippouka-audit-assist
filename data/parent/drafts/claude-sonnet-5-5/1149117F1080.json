@@ -1,0 +1,30 @@
+{
+  "id": "1149117F1080",
+  "source_file": "480187_1149117F1080_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480187_1149117F1080_1_09",
+  "extracted_at": "2026-11-06T15:17:18.345Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30286,
+    "output": 1101
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「TC」",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg・アセトアミノフェン325mg",
+      "imprint_front": "トアラセット TC",
+      "imprint_back": "トアラセット TC",
+      "imprint_note": "識別コード欄に「44」（TCマーク付き）と記載。表面・裏面の「トアラセット TC」は外形図に基づく（本文テキストには記載なし）。",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 6.3,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色のフィルムコーティング錠 / 大きさ 長径（mm）15.5 短径（mm）6.3 厚さ（mm）5.4 重量（mg）441 / 識別コード 44"
+    }
+  ]
+}

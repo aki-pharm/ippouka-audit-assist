@@ -1,0 +1,30 @@
+{
+  "id": "1149037F1097",
+  "source_file": "480209_1149037F1097_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1149037F1097_2_07",
+  "extracted_at": "2026-11-06T15:15:41.208Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38391,
+    "output": 873
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「杏林」",
+      "strength": "100mg",
+      "imprint_front": "セレコキシブ 100 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書には「本体表示」として記載されており、表裏の区別は記載なし。形状は「円形」の明記がなく、直径(mm)の記載から円形(round)とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 セレコキシブ錠100mg「杏林」 剤形 割線入り素錠 色調 白色 本体表示 セレコキシブ 100 杏林 直径(mm) 8.0 厚さ(mm) 2.8 質量(mg) 180"
+    }
+  ]
+}

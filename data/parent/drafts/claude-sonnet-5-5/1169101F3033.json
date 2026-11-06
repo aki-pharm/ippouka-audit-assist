@@ -1,0 +1,62 @@
+{
+  "id": "1169101F3033",
+  "source_file": "400073_1169101F1170_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1169101F1170_1_14",
+  "extracted_at": "2026-11-06T15:23:08.753Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18418,
+    "output": 1317
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドパコール配合錠L50",
+      "strength": "L50（1錠中 レボドパ50mg、カルビドパ水和物5.4mg（無水物として5mg））",
+      "imprint_front": "DK421",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード DK421（表裏の別は記載なし）",
+      "color": "うす紅色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うす紅色の素錠（割線入り）／直径（mm）6.5／厚さ（mm）2.4／質量（mg）100／識別コード DK421"
+    },
+    {
+      "product_name": "ドパコール配合錠L100",
+      "strength": "L100（1錠中 レボドパ100mg、カルビドパ水和物10.8mg（無水物として10mg））",
+      "imprint_front": "DK026",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード DK026（表裏の別は記載なし）",
+      "color": "うす紅色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うす紅色の楕円形の素錠（割線入り）／長径 13.1 短径 7.1／厚さ（mm）2.5／質量（mg）230／識別コード DK026"
+    },
+    {
+      "product_name": "ドパコール配合錠L250",
+      "strength": "L250（1錠中 レボドパ250mg、カルビドパ水和物27mg（無水物として25mg））",
+      "imprint_front": "DK501",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード DK501（表裏の別は記載なし）",
+      "color": "うす紅色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うす紅色の素錠（割線入り）／直径（mm）11.0／厚さ（mm）4.4／質量（mg）440／識別コード DK501"
+    }
+  ]
+}

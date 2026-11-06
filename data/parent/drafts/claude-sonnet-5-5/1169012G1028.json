@@ -1,0 +1,30 @@
+{
+  "id": "1169012G1028",
+  "source_file": "650168_1169012G1028_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_1169012G1028_1_10",
+  "extracted_at": "2026-11-06T15:19:20.745Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22657,
+    "output": 245
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミラペックスLA錠0.375mg",
+      "strength": "0.375mg",
+      "imprint_front": "P1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード P1（社名マークあり）。割線の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色の素錠 / 長 径 約9mm / 短 径 約9mm / 厚 さ 約4.1mm / 重 さ 約0.25g / 識別コード P1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1149037F2093",
+  "source_file": "480209_1149037F1097_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1149037F1097_2_07",
+  "extracted_at": "2026-11-06T15:16:13.946Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38391,
+    "output": 771
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠200mg「杏林」",
+      "strength": "200mg",
+      "imprint_front": "セレコキシブ 200 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「セレコキシブ 200 杏林」と記載。表裏の区別は文章では記載なし",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形 割線入り素錠 / 色調 白色 / 本体表示 セレコキシブ 200 杏林 / 長径：13.0 短径：6.5 / 厚さ(mm) 5.2"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1169013G1022",
+  "source_file": "340278_1169013G1022_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_1169013G1022_1_08",
+  "extracted_at": "2026-11-06T15:20:04.805Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18121,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レキップCR錠2mg",
+      "strength": "2mg",
+      "imprint_front": "GS",
+      "imprint_back": "3V2",
+      "imprint_note": "識別コード：GS 3V2（表にGS、裏に3V2）",
+      "color": "淡紅白色",
+      "shape": "oblong",
+      "size_long_mm": 12.6,
+      "size_short_mm": 6.9,
+      "thickness_mm": 6.4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 淡紅白色のフィルムコーティング錠 識別コード GS 3V2 表（長径×短径）12.6mm×6.9mm 側面（厚さ）6.4mm 質量 474mg"
+    }
+  ]
+}

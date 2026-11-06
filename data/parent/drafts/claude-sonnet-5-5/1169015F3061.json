@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3061",
+  "source_file": "380087_1169015F2065_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1169015F2065_1_01",
+  "extracted_at": "2026-11-06T15:21:40.632Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24002,
+    "output": 357
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠50mgTRE「ZE」",
+      "strength": "50mg",
+      "imprint_front": "ゾニサミド OD ZE 50 TRE",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は文書中に明記されていない。割線入り素錠",
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 ゾニサミドOD錠50mgTRE「ZE」 色調 微黄白色～淡黄白色 剤形 割線入り素錠（口腔内崩壊錠） 錠径（mm） 10.5 厚み（mm） 3.8 重量（mg） 380 本体表示 ゾニサミド OD ZE 50 TRE"
+    }
+  ]
+}

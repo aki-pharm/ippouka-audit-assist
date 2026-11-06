@@ -1,0 +1,30 @@
+{
+  "id": "1169008F1026",
+  "source_file": "180095_1169008F1026_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1169008F1026_3_01",
+  "extracted_at": "2026-11-06T15:18:14.063Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18800,
+    "output": 866
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペルマックス錠50μg",
+      "strength": "50μg",
+      "imprint_front": "KH120",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は識別コードKH120（KH/120の2段表示）。裏面・側面は図のみで文字の記載なし",
+      "color": "うすい黄色",
+      "shape": null,
+      "size_long_mm": 11.7,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "販売名 ペルマックス錠50μg／色調 うすい黄色／剤形 素錠／長径（mm） 11.7／短径（mm） 6.4／厚さ（mm） 3.8／質量（g） 0.30／識別コード KH120"
+    }
+  ]
+}

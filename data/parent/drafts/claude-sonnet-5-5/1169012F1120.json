@@ -1,0 +1,30 @@
+{
+  "id": "1169012F1120",
+  "source_file": "830001_1169012F1120_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1169012F1120_1_13",
+  "extracted_at": "2026-11-06T15:18:51.446Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31626,
+    "output": 874
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラミペキソール塩酸塩錠0.125mg「YD」",
+      "strength": "0.125mg",
+      "imprint_front": "YD 176",
+      "imprint_back": "0.125",
+      "imprint_note": "外形図の表示より（性状の本文には刻印の記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠　直径 約6mm　厚さ 約2.5mm　重量 85mg"
+    }
+  ]
+}

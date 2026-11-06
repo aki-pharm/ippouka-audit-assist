@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3118",
+  "source_file": "270428_1169015F2111_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1169015F2111_1_01",
+  "extracted_at": "2026-11-06T15:21:56.635Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25829,
+    "output": 973
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠50mg TRE「サンド」",
+      "strength": "50mg",
+      "imprint_front": "ゾニサミド OD50",
+      "imprint_back": "50 ゾニサミド サンド",
+      "imprint_note": "刻印・印字は外形図（表・裏）から読み取り。本文の性状欄に文章での記載はない。表面に割線あり。",
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2024年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "微黄白色～淡黄白色の割線入り素錠（直径10.6mm、厚さ3.9mm、質量400mg）"
+    }
+  ]
+}

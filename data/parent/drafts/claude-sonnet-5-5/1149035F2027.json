@@ -1,0 +1,30 @@
+{
+  "id": "1149035F2027",
+  "source_file": "650168_1149035F1020_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_1149035F1020_1_19",
+  "extracted_at": "2026-11-06T15:14:53.415Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24101,
+    "output": 251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モービック錠10mg",
+      "strength": "10mg",
+      "imprint_front": "C10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード C10。外形図には社名マークの表示あり。表裏の刻印の別は本文に明記されていない。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 淡黄色の割線入り錠剤 / 直径 約8mm / 厚さ 約2.8mm / 重さ 約0.18g / 識別コード C10"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1169016F1020",
+  "source_file": "230124_1169016F1020_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_1169016F1020_1_07",
+  "extracted_at": "2026-11-06T15:22:13.613Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23289,
+    "output": 313
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノウリアスト錠20mg",
+      "strength": "20mg",
+      "imprint_front": "KH 131",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード KH131（錠剤本体、PTPシートに表示）。表面に刻印の図あり、裏面は図のみで刻印の記載なし。",
+      "color": "黄褐色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2022年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 ノウリアスト錠20mg 直径（mm） 7.1 厚さ（mm） 3.3 重量（g） 0.14 色調 剤皮 黄褐色 フィルムコーティング錠 識別コード KH131（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1169012F1073",
+  "source_file": "580591_1169012F1073_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1169012F1073_1_14",
+  "extracted_at": "2026-11-06T15:18:43.240Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28923,
+    "output": 252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラミペキソール塩酸塩錠0.125mg「JG」",
+      "strength": "0.125mg",
+      "imprint_front": "JG 16",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：JG 16（表面に表示）。裏面の刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色の錠剤　表面 裏面 側面 JG 16　直径 6mm 厚さ 2.3mm 重量 85mg　識別コード JG 16"
+    }
+  ]
+}

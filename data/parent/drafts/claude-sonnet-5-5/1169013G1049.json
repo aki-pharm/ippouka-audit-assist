@@ -1,0 +1,30 @@
+{
+  "id": "1169013G1049",
+  "source_file": "480235_1169013G1049_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1169013G1049_1_06",
+  "extracted_at": "2026-11-06T15:20:06.835Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21413,
+    "output": 333
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロピニロール徐放錠2mg「トーワ」",
+      "strength": "2mg",
+      "imprint_front": "ロピニロール 徐放 2 トーワ",
+      "imprint_back": "ロピニロール 徐放 2 トーワ",
+      "imprint_note": "本体表示として「ロピニロール 徐放 2 トーワ」と記載。表・裏に表示（図より）。側面の表示は記載なし。",
+      "color": "淡紅白色",
+      "shape": "oval",
+      "size_long_mm": 12.6,
+      "size_short_mm": 6.9,
+      "thickness_mm": 6.4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡紅白色の楕円形のフィルムコーティング錠 / 本体表示 ロピニロール 徐放 2 トーワ / 直径(mm) 12.6／6.9（長径／短径） / 厚さ(mm) 6.4"
+    }
+  ]
+}

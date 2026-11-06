@@ -1,0 +1,30 @@
+{
+  "id": "1169015F2138",
+  "source_file": "480235_1169015F2138_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1169015F2138_1_01",
+  "extracted_at": "2026-11-06T15:21:11.732Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23876,
+    "output": 366
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠25mg TRE「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "25 ゾニサミド TRE OD トーワ",
+      "imprint_back": "25 ゾニサミド TRE OD トーワ",
+      "imprint_note": "本体表示は「25 ゾニサミド TRE OD トーワ」（表・裏の区別は本体表示欄で1行のみ記載。外形図の表・裏にも「25」等の表示あり）。割線の記載なし。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の口腔内崩壊錠 / 本体表示 25 ゾニサミド TRE OD トーワ / 直径(mm) 7.0 / 厚さ(mm) 3.4 / 質量(mg) 135"
+    }
+  ]
+}

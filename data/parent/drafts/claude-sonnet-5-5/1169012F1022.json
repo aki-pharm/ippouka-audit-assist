@@ -1,0 +1,30 @@
+{
+  "id": "1169012F1022",
+  "source_file": "650168_1169012F1022_1_28.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_1169012F1022_1_28",
+  "extracted_at": "2026-11-06T15:18:36.361Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28342,
+    "output": 831
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビ・シフロール錠0.125mg",
+      "strength": "0.125mg",
+      "imprint_front": "P6",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に社名マークと併記（P6）。裏面の刻印は文章中に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の素錠／外形 長径 6mm 短径 6mm 厚さ 約2.4mm 重さ 0.085g 識別コード P6"
+    }
+  ]
+}

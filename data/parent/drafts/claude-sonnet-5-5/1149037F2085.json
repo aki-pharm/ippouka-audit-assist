@@ -1,0 +1,30 @@
+{
+  "id": "1149037F2085",
+  "source_file": "180095_1149037F1089_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1149037F1089_1_07",
+  "extracted_at": "2026-11-06T15:16:09.728Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37847,
+    "output": 331
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠200mg「オーハラ」",
+      "strength": "200mg",
+      "imprint_front": "セレコキシブ 200 オーハラ",
+      "imprint_back": "セレコキシブ 200 オーハラ",
+      "imprint_note": "識別コード欄に「セレコキシブ 200 オーハラ」と記載。外形の表面・裏面は図で示されており、表裏の刻印の別は文章では記載なし。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色・割線入り素錠／大きさ（mm）長径：13.0 短径：6.5／厚さ（mm）5.2／質量（mg）360／識別コード セレコキシブ 200 オーハラ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1169015F2103",
+  "source_file": "300119_1169015F2103_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1169015F2103_1_02",
+  "extracted_at": "2026-11-06T15:21:02.548Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23111,
+    "output": 322
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠25mgTRE「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "TRE ゾニサミド",
+      "imprint_back": "OD 25 サワイ",
+      "imprint_note": "本体表示として「TRE ゾニサミド OD 25 サワイ」と記載。表裏の区別は文面からは不明",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／性状 白色～帯黄白色／直径（mm） 8.0／厚さ（mm） 3.2／重量（mg） 約200／本体表示 TRE ゾニサミド OD 25 サワイ"
+    }
+  ]
+}

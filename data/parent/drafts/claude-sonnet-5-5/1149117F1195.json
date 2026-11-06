@@ -1,0 +1,30 @@
+{
+  "id": "1149117F1195",
+  "source_file": "480235_1149117F1195_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1149117F1195_1_08",
+  "extracted_at": "2026-11-06T15:17:32.224Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30339,
+    "output": 371
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「トーワ」（1錠中 トラマドール塩酸塩37.5mg・アセトアミノフェン325mg）",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg/アセトアミノフェン325mg",
+      "imprint_front": "トアラセット 配合 トーワ",
+      "imprint_back": "トラマドール 37.5 アセトアミノフェン 325",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 15.6,
+      "size_short_mm": 6.9,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の楕円形のフィルムコーティング錠 本体表示 表 トアラセット 配合 トーワ 裏 トラマドール 37.5 アセトアミノフェン 325 直径(mm) 15.6 ／6.9（長径／短径） 厚さ(mm) 5.3"
+    }
+  ]
+}

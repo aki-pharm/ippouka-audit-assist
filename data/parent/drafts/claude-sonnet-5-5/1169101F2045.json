@@ -1,0 +1,46 @@
+{
+  "id": "1169101F2045",
+  "source_file": "180095_1169101F1120_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1169101F1120_2_04",
+  "extracted_at": "2026-11-06T15:22:55.776Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17862,
+    "output": 1058
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ネオドパストン配合錠L100",
+      "strength": "レボドパ100mg・カルビドパ水和物10.8mg（無水物として10mg）",
+      "imprint_front": "OHARA 100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「OHARA 100」。表裏の別は本文に記載なし。割線入。",
+      "color": "うす紅色",
+      "shape": "oval",
+      "size_long_mm": 12.8,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形の素錠（割線入） 色 うす紅色 大きさ・厚さ 長径：12.8mm 短径：7.2mm 厚さ：3.4mm 識別コード OHARA 100"
+    },
+    {
+      "product_name": "ネオドパストン配合錠L250",
+      "strength": "レボドパ250mg・カルビドパ水和物27mg（無水物として25mg）",
+      "imprint_front": "OHARA 250",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「OHARA 250」。表裏の別は本文に記載なし。割線入。",
+      "color": "うす紅色",
+      "shape": "oval",
+      "size_long_mm": 14.8,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形の素錠（割線入） 色 うす紅色 大きさ・厚さ 長径：14.8mm 短径：8.2mm 厚さ：4.2mm 識別コード OHARA 250"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1149035F2191",
+  "source_file": "530169_1149035F1195_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1149035F1195_1_11",
+  "extracted_at": "2026-11-06T15:15:14.794Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24919,
+    "output": 1042
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メロキシカム錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "767",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コードは「n767」（社名マーク n と 767）、包装コードは767。裏面は図に割線が示されているが、文字の記載は確認できない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠／色調 淡黄色／直径（mm）7.0／厚さ（mm）3.0／質量（mg）120／本体コード n767／包装コード 767"
+    }
+  ]
+}

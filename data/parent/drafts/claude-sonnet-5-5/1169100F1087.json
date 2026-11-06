@@ -1,0 +1,46 @@
+{
+  "id": "1169100F1087",
+  "source_file": "431010_1169100F2024_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_1169100F2024_1_02",
+  "extracted_at": "2026-11-06T15:22:38.602Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16460,
+    "output": 1023
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マドパー配合錠L50",
+      "strength": "L50（1錠中 レボドパ50mg、ベンセラジドとして12.5mg）",
+      "imprint_front": "TYP50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：TYP50（表裏の別は記載なし）",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡赤色・素錠（割線入り） 直径 約7.0mm 厚さ 約2.7mm 識別コード TYP50"
+    },
+    {
+      "product_name": "マドパー配合錠L100",
+      "strength": "L100（1錠中 レボドパ100mg、ベンセラジドとして25mg）",
+      "imprint_front": "FR",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：FR（表裏の別は記載なし）",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡赤色・素錠（割線入り） 直径 約9.0mm 厚さ 約3.3mm 識別コード FR"
+    }
+  ]
+}

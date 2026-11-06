@@ -1,0 +1,30 @@
+{
+  "id": "1149117F1284",
+  "source_file": "300166_1149117F1284_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1149117F1284_1_03",
+  "extracted_at": "2026-11-06T15:17:47.653Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32538,
+    "output": 1163
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「KMP」",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg・アセトアミノフェン325mg",
+      "imprint_front": "トアラセット配合錠 KMP",
+      "imprint_back": "トアラセット配合錠 KMP",
+      "imprint_note": "識別コードは「トアラセット配合錠 KMP」。外形図では表面・裏面とも印字。重量431mg。",
+      "color": "淡黄色",
+      "shape": null,
+      "size_long_mm": 15.2,
+      "size_short_mm": 6.4,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色 フィルムコーティング錠 / 外形 長径：15.2mm 短径：6.4mm 厚さ：5.1mm / 識別コード トアラセット配合錠 KMP"
+    }
+  ]
+}

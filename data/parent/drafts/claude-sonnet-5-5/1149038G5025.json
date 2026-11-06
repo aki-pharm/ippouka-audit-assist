@@ -1,0 +1,30 @@
+{
+  "id": "1149038G5025",
+  "source_file": "530288_1149038G2026_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530288_1149038G2026_1_11",
+  "extracted_at": "2026-11-06T15:16:54.462Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32200,
+    "output": 336
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ツートラム錠25mg",
+      "strength": "25mg",
+      "imprint_front": "ツートラム 25",
+      "imprint_back": "ツートラム 25",
+      "imprint_note": "表裏とも「ツートラム 25」の印字。割線の記載なし。剤形はフイルムコーティング2層錠（速放部：白色、フィルム層：無色透明、徐放部：白色）。質量173mg。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 ツートラム錠25mg 剤形 フイルムコーティング2層錠 錠剤の色 白色 外形 7.6mm 表 ツートラム 25 裏 ツートラム 25 側面 4.3mm 質量173mg"
+    }
+  ]
+}

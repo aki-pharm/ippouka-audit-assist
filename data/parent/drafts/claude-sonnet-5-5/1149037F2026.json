@@ -1,0 +1,30 @@
+{
+  "id": "1149037F2026",
+  "source_file": "671450_1149037F1020_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_1149037F1020_2_05",
+  "extracted_at": "2026-11-06T15:16:03.431Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34894,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコックス錠200mg",
+      "strength": "200mg",
+      "imprint_front": "VT215",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄にVT215と記載。表に刻印（図）あり、裏は図上刻印の記載なし。素錠（割線入）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2025年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "セレコックス錠200mg 素錠（割線入） 白色 表 裏 側面 VT215 直径 厚さ 重量 長径13.0mm 短径6.5mm 5.1mm 0.36g"
+    }
+  ]
+}

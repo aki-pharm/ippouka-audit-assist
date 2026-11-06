@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3096",
+  "source_file": "530213_1169015F2090_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1169015F2090_1_01",
+  "extracted_at": "2026-11-06T15:21:46.058Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23700,
+    "output": 329
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠50mgTRE「ケミファ」",
+      "strength": "50mg",
+      "imprint_front": "ゾニサミドOD 50 ケミファ",
+      "imprint_back": "ゾニサミドOD 50 ケミファ",
+      "imprint_note": "識別コードは「ゾニサミドOD 50 ケミファ」と記載。外形の表・裏の刻印印字は図による（裏面には割線あり）。",
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "性状 微黄白色～淡黄白色の割線入り素錠／直径 10.6mm／厚さ 3.9mm／重量 400mg／識別コード ゾニサミドOD 50 ケミファ"
+    }
+  ]
+}

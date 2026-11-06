@@ -1,0 +1,30 @@
+{
+  "id": "1169018F1020",
+  "source_file": "170033_1169018F1020_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1169018F1020_2_03",
+  "extracted_at": "2026-11-06T15:22:24.917Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25502,
+    "output": 812
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エクフィナ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "エクフィナ",
+      "imprint_back": "エクフィナ",
+      "imprint_note": "外形図に「エクフィナ」の表示あり（本文中に刻印・識別コードの文章記載はなし）。割線の有無は本文に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・色 白色のフィルムコーティング錠 外形 表 裏 側面 直径（mm） 約7.1 厚さ（mm） 約3.5 重量（mg） 約130.0"
+    }
+  ]
+}

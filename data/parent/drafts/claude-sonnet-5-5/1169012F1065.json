@@ -1,0 +1,30 @@
+{
+  "id": "1169012F1065",
+  "source_file": "300166_1169012F1065_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1169012F1065_2_06",
+  "extracted_at": "2026-11-06T15:18:38.852Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29477,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラミペキソール塩酸塩錠0.125mg「FFP」",
+      "strength": "0.125mg",
+      "imprint_front": "FF 161",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「FF 161」。表面の識別コードのみ本文に記載。裏面の刻印は本文に記載なし（外形図に表示あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 ／ サイズ 直径（mm）約6.0 重量（mg）約85 厚さ（mm）約2.5 ／ 識別コード FF 161"
+    }
+  ]
+}

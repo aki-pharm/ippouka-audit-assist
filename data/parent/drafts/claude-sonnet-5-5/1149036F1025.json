@@ -1,0 +1,30 @@
+{
+  "id": "1149036F1025",
+  "source_file": "400059_1149036F1025_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_1149036F1025_1_26",
+  "extracted_at": "2026-11-06T15:15:20.217Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22923,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロルカム錠2mg",
+      "strength": "2mg",
+      "imprint_front": "T742",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に T742 と記載。上面に識別コードの印字あり。下面の刻印は文書中に文字記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ロルカム錠 2mg T742 白色 フィルムコーティング錠 上面 下面 側面 直径（mm） 厚さ（mm） 重量（mg） 約 6 約 2.6 約 84"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1169012G2032",
+  "source_file": "430773_1169012G1036_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1169012G1036_1_07",
+  "extracted_at": "2026-11-06T15:19:39.048Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23582,
+    "output": 816
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラミペキソール塩酸塩LA錠1.5mgMI「DSEP」",
+      "strength": "1.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印の記載なし（外形は図のみ）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 14.1,
+      "size_short_mm": 6.9,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2024年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "プラミペキソール塩酸塩LA錠1.5mgMI「DSEP」 フィルムコーティング錠 白色 14.1（長径）6.9（短径） 5.1 365"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3029",
+  "source_file": "400093_1169015F2022_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1169015F2022_1_12",
+  "extracted_at": "2026-11-06T15:21:32.423Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22560,
+    "output": 777
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トレリーフOD錠50mg",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印の記載なし（外形は図のみで、文字としては確認できない）",
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 微黄白色～淡黄白色の割線入り素錠 / 大きさ 直径(mm)約10.5 厚さ(mm)約3.8 重さ(mg)約400"
+    }
+  ]
+}

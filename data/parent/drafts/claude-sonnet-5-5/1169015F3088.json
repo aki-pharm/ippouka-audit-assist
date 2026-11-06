@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3088",
+  "source_file": "480209_1169015F2081_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1169015F2081_1_01",
+  "extracted_at": "2026-11-06T15:21:48.725Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25438,
+    "output": 697
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠50mgTRE「杏林」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印・識別コードの記載なし（外形は図のみ）",
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 微黄白色～淡黄白色 直径(mm) 10.5 厚さ(mm) 3.8 質量(mg) 400"
+    }
+  ]
+}

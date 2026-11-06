@@ -1,0 +1,30 @@
+{
+  "id": "1149037F2131",
+  "source_file": "400813_1149037F1135_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1149037F1135_1_07",
+  "extracted_at": "2026-11-06T15:16:27.488Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37834,
+    "output": 834
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠200mg「武田テバ」",
+      "strength": "200mg",
+      "imprint_front": "セレコ200 キシブ",
+      "imprint_back": "セレコキシブ 200",
+      "imprint_note": "刻印は文章ではなく外観図から読み取った。表は割線で「セレコ200」と「キシブ」に分かれる。表裏とも社名マークらしき印字あり。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の楕円形の片面1/2割線入り素錠 ／ 長径13.5、短径6.5 ／ 厚さ（mm）4.2"
+    }
+  ]
+}

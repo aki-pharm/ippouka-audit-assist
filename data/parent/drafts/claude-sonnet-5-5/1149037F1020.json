@@ -1,0 +1,30 @@
+{
+  "id": "1149037F1020",
+  "source_file": "671450_1149037F1020_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_1149037F1020_2_05",
+  "extracted_at": "2026-11-06T15:15:32.978Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34894,
+    "output": 269
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコックス錠100mg",
+      "strength": "100mg",
+      "imprint_front": "VT214",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄にVT214と記載。割線入の素錠。表のみに識別コードの記載（裏・側面の刻印の記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "セレコックス錠100mg 素錠（割線入） 白色 表 裏 側面 直径 厚さ 重量 8.0mm 2.7mm 0.18g 識別コード VT214"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1169015F2065",
+  "source_file": "380087_1169015F2065_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1169015F2065_1_01",
+  "extracted_at": "2026-11-06T15:20:49.469Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24002,
+    "output": 329
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠25mgTRE「ZE」",
+      "strength": "25mg",
+      "imprint_front": "ゾニサミド OD ZE 25 TRE",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ゾニサミド OD ZE 25 TRE」と記載。表裏の区別は記載がなく、裏面の刻印は不明",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～帯黄白色／剤形 素錠（口腔内崩壊錠）／錠径（mm） 8.0／厚み（mm） 3.2／重量（mg） 190／本体表示 ゾニサミド OD ZE 25 TRE"
+    }
+  ]
+}

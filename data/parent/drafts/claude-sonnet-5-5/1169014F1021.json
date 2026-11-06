@@ -1,0 +1,30 @@
+{
+  "id": "1169014F1021",
+  "source_file": "181764_1169014F1021_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181764_1169014F1021_2_02",
+  "extracted_at": "2026-11-06T15:20:22.228Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22139,
+    "output": 306
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コムタン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "COM",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「COM」。外形図には表面に「COM」の印字が図示されているが、裏面の刻印については本文に記載なし",
+      "color": "うすい黄赤色～くすんだ黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 うすい黄赤色～くすんだ黄赤色の楕円形のフィルムコーティング錠 識別コード COM 大きさ（約） 長径：13.0mm 短径：6.0mm 厚さ：4.9mm 質量：0.354g"
+    }
+  ]
+}

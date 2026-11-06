@@ -1,0 +1,30 @@
+{
+  "id": "1149009M1035",
+  "source_file": "470007_1149009M1035_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_1149009M1035_2_08",
+  "extracted_at": "2026-11-06T15:14:12.819Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10066,
+    "output": 823
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パラミヂンカプセル300mg",
+      "strength": "300mg",
+      "imprint_front": "153",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード153（製剤の性状欄に記載）。外形図には他の表示もあるが、本文には識別コード153のみ記載。剤形は硬カプセル剤（1号）で、全長約19.2mm、質量約477mg。",
+      "color": "白色の粉末を含む白色～黄白色",
+      "shape": "oblong",
+      "size_long_mm": 19.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色の粉末を含む白色～黄白色の硬カプセル剤（1号） 外 形 全長 約19.2mm 質 量 約477mg 識別コード 153"
+    }
+  ]
+}

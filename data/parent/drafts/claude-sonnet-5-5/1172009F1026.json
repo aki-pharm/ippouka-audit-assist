@@ -1,0 +1,30 @@
+{
+  "id": "1172009F1026",
+  "source_file": "400315_1172009B1032_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1172009B1032_2_17",
+  "extracted_at": "2026-11-06T15:23:28.076Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16202,
+    "output": 836
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルメジン糖衣錠(0.25)",
+      "strength": "0.25mg",
+      "imprint_front": "Y-FL.0.25",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはY-FL.0.25。表裏の刻印位置は本文に記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フルメジン糖衣錠(0.25)：性状・剤形 白色・糖衣錠、識別コード Y-FL.0.25、直径6.5mm、厚さ4.0mm、重量140mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1149117F1071",
+  "source_file": "340409_1149117F1071_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_1149117F1071_1_08",
+  "extracted_at": "2026-11-06T15:17:13.682Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33006,
+    "output": 754
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「SN」",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg・アセトアミノフェン325mg",
+      "imprint_front": "トアラセット SK17",
+      "imprint_back": "トアラセット SK17",
+      "imprint_note": "外形図の表面・裏面ともに「トアラセット SK17」の表示。識別コードはSK17。",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 15.2,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：淡黄色の楕円形のフィルムコーティング錠／規格：長径15.2mm、短径6.6mm、厚さ5.2mm、重量438mg／識別コード：SK17"
+    }
+  ]
+}

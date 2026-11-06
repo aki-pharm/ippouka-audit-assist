@@ -1,0 +1,30 @@
+{
+  "id": "1149035F2140",
+  "source_file": "300119_1149035F1144_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1149035F1144_1_07",
+  "extracted_at": "2026-11-06T15:15:06.730Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24799,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メロキシカム錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW MX10",
+      "imprint_back": "10",
+      "imprint_note": "識別コード：SW MX10。外形の図では表に「SW MX10」、裏に「10」の表示が見られるが、裏面の表示は性状欄の文章には記載がない。割線入り素錠。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／性状 淡黄色／直径（mm） 8.0／厚さ（mm） 2.8／重量（mg） 約180／識別コード SW MX10"
+    }
+  ]
+}

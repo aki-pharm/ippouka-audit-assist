@@ -1,0 +1,30 @@
+{
+  "id": "1148001F2101",
+  "source_file": "171911_1148001F1059_3_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_1148001F1059_3_09",
+  "extracted_at": "2026-11-06T15:13:53.080Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12558,
+    "output": 916
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソランタール錠100mg",
+      "strength": "100mg",
+      "imprint_front": "LT 001",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「001」（図中の表面にはLTの文字も表示）。裏面の刻印について文章での明記はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ソランタール錠100mg フィルムコーティング錠 白色 表 裏 側面 001 直径 厚さ 質量 約7.1mm 約3.1mm 約133mg"
+    }
+  ]
+}

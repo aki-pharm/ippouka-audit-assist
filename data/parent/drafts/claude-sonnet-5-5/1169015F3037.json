@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3037",
+  "source_file": "370242_1169015F2030_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370242_1169015F2030_1_02",
+  "extracted_at": "2026-11-06T15:21:36.356Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22804,
+    "output": 891
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠50mg TRE「SMPP」",
+      "strength": "50mg",
+      "imprint_front": "ゾニサミド OD50",
+      "imprint_back": "ゾニサミド SMPP",
+      "imprint_note": "外形図の表示による（表裏の別は図から判断）。側面図に刻印の記載なし。割線入り。",
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年2月改訂(第3版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 微黄白色～淡黄白色の割線入り素錠 / 外形 ゾニサミド OD50 ゾニサミド SMPP / 大きさ 直径(mm) 約10.5 厚さ(mm) 約3.8 重さ(mg) 約400"
+    }
+  ]
+}

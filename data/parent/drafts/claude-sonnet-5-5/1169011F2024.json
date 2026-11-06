@@ -1,0 +1,30 @@
+{
+  "id": "1169011F2024",
+  "source_file": "672212_1169011F1028_5_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1169011F1028_5_05",
+  "extracted_at": "2026-11-06T15:18:32.027Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27429,
+    "output": 995
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カバサール錠1.0mg",
+      "strength": "1.0mg",
+      "imprint_front": "701",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「701」と記載。上面・下面のどちらに刻印されているかは文章では記載なし。割線入り。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 7.4,
+      "size_short_mm": 3.8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "カバサール錠1.0mg 1.00mg 701 白色 割線入り 長径 素錠 7.4mm 短径 3.8mm 厚さ 2.8mm 重量 80mg"
+    }
+  ]
+}

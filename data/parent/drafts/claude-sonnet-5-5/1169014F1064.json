@@ -1,0 +1,30 @@
+{
+  "id": "1169014F1064",
+  "source_file": "480235_1169014F1064_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1169014F1064_1_06",
+  "extracted_at": "2026-11-06T15:20:29.581Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22909,
+    "output": 342
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エンタカポン錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "エンタカポン 100 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「エンタカポン 100 トーワ」と記載。表・裏の別は文章では明記されていない（外形図に表・裏・側面の図あり）",
+      "color": "うすい黄赤色～くすんだ黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすい黄赤色～くすんだ黄赤色の楕円形のフィルムコーティング錠 本体表示 エンタカポン 100 トーワ 直径(mm) 13.2/6.2（長径/短径） 厚さ(mm) 4.7"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1169013G1065",
+  "source_file": "300166_1169013G1065_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1169013G1065_1_03",
+  "extracted_at": "2026-11-06T15:20:12.462Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21830,
+    "output": 374
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロピニロール徐放錠2mg「KMP」",
+      "strength": "2mg",
+      "imprint_front": "ロピニロール 徐放 2 KMP",
+      "imprint_back": "ロピニロール 徐放 2 KMP",
+      "imprint_note": "本体表示：表「ロピニロール 徐放 2 KMP」、裏「徐放 2 KMP」と記載（表の欄はロピニロール／徐放 2 KMP の2行表記）。割線の記載なし。",
+      "color": "淡紅白色",
+      "shape": "oval",
+      "size_long_mm": 12.6,
+      "size_short_mm": 6.9,
+      "thickness_mm": 6.4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡紅白色の楕円形のフィルムコーティング錠 ／ 本体表示 表 ロピニロール 徐放 2 KMP、裏 徐放 2 KMP ／ 直径（mm）12.6／6.9（長径／短径） ／ 厚さ（mm）6.4"
+    }
+  ]
+}

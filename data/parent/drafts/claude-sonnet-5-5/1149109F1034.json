@@ -1,0 +1,46 @@
+{
+  "id": "1149109F1034",
+  "source_file": "530169_1149109F1034_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1149109F1034_1_09",
+  "extracted_at": "2026-11-06T15:17:03.931Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18469,
+    "output": 1313
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クリアミン配合錠A1.0",
+      "strength": "A1.0（1錠中 エルゴタミン酒石酸塩1mg、無水カフェイン50mg、イソプロピルアンチピリン300mg）",
+      "imprint_front": "CLA NN210",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード CLA NN210、包装コード NN210。裏面の刻印は文章では記載がなく、図は無地に見えるが明記はない。",
+      "color": "外層が淡黄色で内核が白色",
+      "shape": "round",
+      "size_long_mm": 11.5,
+      "size_short_mm": 11.5,
+      "thickness_mm": 5.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 有核錠 色調 外層が淡黄色で内核が白色 直径（mm）11.5 厚さ（mm）5.6 質量（mg）510 本体コード CLA NN210 包装コード NN210"
+    },
+    {
+      "product_name": "クリアミン配合錠S0.5",
+      "strength": "S0.5（1錠中 エルゴタミン酒石酸塩0.5mg、無水カフェイン25mg、イソプロピルアンチピリン150mg）",
+      "imprint_front": "NN215",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード NN215、包装コード NN215。裏面の刻印は文章では記載がなく、図は無地に見えるが明記はない。",
+      "color": "外層がうすいだいだい色で内核が白色～灰色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 有核錠 色調 外層がうすいだいだい色で内核が白色～灰色 直径（mm）9.0 厚さ（mm）5.0 質量（mg）290 本体コード NN215 包装コード NN215"
+    }
+  ]
+}

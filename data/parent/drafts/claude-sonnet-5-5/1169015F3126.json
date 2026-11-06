@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3126",
+  "source_file": "400073_1169015F2120_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1169015F2120_1_01",
+  "extracted_at": "2026-11-06T15:21:57.007Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24105,
+    "output": 631
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠50mg TRE「ダイト」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に表裏の印字とみられる表示があるが、本文に刻印・識別コードの記載がなく読み取れないため未確認",
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2024年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 微黄白色～淡黄白色の割線入り素錠／直径 10.6mm／厚さ 3.9mm／質量 400mg"
+    }
+  ]
+}

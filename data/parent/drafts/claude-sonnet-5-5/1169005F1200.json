@@ -1,0 +1,30 @@
+{
+  "id": "1169005F1200",
+  "source_file": "480866_1169005F1200_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_1169005F1200_2_08",
+  "extracted_at": "2026-11-06T15:17:58.250Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20021,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パーロデル錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "SJ",
+      "imprint_back": "XC",
+      "imprint_note": "識別コード「SJ XC」。外形図では片面に「SJ」、割線のある面に「X|C」と表示されている。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の片面割線入りの素錠／識別コード SJ XC／大きさ（約） 直径：7.0mm　厚さ：2.9mm　質量：0.14g"
+    }
+  ]
+}

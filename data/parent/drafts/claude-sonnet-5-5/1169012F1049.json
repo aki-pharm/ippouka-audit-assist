@@ -1,0 +1,30 @@
+{
+  "id": "1169012F1049",
+  "source_file": "430773_1169012F1049_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1169012F1049_1_13",
+  "extracted_at": "2026-11-06T15:18:39.476Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31310,
+    "output": 879
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラミペキソール塩酸塩錠0.125mg「DSEP」",
+      "strength": "0.125mg",
+      "imprint_front": "PPX EP",
+      "imprint_back": "PPX 0.125",
+      "imprint_note": "識別コードは「PPX EP 0.125」と記載。表裏の振り分けは外形図に基づく。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "プラミペキソール塩酸塩錠0.125mg「DSEP」 素錠 白色 PPX EP 6.0 2.5 85 0.125"
+    }
+  ]
+}

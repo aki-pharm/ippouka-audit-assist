@@ -1,0 +1,30 @@
+{
+  "id": "1149035F2183",
+  "source_file": "480235_1149035F1187_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1149035F1187_1_11",
+  "extracted_at": "2026-11-06T15:15:14.045Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24678,
+    "output": 685
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メロキシカム錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw517",
+      "imprint_back": "10",
+      "imprint_note": "識別コードの文字情報はTw517。裏面の「10」は製剤の性状欄の外形図による（本文テキストには記載なし）。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の割線入りの素錠 / 識別コード Tw517 / 直径(mm) 8.0 / 厚さ(mm) 2.9 / 質量(mg) 180"
+    }
+  ]
+}

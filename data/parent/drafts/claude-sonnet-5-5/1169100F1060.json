@@ -1,0 +1,30 @@
+{
+  "id": "1169100F1060",
+  "source_file": "530258_1169100F1060_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1169100F1060_2_05",
+  "extracted_at": "2026-11-06T15:22:36.427Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17085,
+    "output": 777
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ネオドパゾール配合錠",
+      "strength": "1錠中 レボドパ（日局）100mg、ベンセラジド塩酸塩（日局）28.5mg（ベンセラジドとして25.0mg）",
+      "imprint_front": "NF 119",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2022年6月改訂",
+      "source_page": 1,
+      "source_quote": "ネオドパゾール配合錠 淡赤色・素錠（割線入） 識別コード NF 119 直径9.1mm 厚さ3.2mm 質量270mg"
+    }
+  ]
+}

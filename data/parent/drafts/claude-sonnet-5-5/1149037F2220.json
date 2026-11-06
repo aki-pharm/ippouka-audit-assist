@@ -1,0 +1,30 @@
+{
+  "id": "1149037F2220",
+  "source_file": "730869_1149037F1224_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_1149037F1224_1_04",
+  "extracted_at": "2026-11-06T15:16:33.903Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35129,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠200mg「VTRS」",
+      "strength": "200mg",
+      "imprint_front": "VT CE2",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「VT CE2」。表の図に刻印あり。裏面の刻印は図中に確認できない。割線は側面に入っている。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2025年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "セレコキシブ錠200mg「VTRS」 素錠（割線入） 白色 直径 厚さ 重量 VT CE2 長径13.0mm 短径6.5mm 5.1mm 360mg"
+    }
+  ]
+}

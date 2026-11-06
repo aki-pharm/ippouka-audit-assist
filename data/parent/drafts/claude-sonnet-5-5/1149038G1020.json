@@ -1,0 +1,30 @@
+{
+  "id": "1149038G1020",
+  "source_file": "530263_1149038G1020_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_1149038G1020_1_14",
+  "extracted_at": "2026-11-06T15:16:49.037Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26733,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワントラム錠100mg",
+      "strength": "100mg",
+      "imprint_front": "134",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄に社名マークと思われる記号の後に「134」と記載（表面に印字）。裏面の刻印は外形図で記載なし。",
+      "color": "白色～灰白色",
+      "shape": "round",
+      "size_long_mm": 9.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "製剤の色 白色～灰白色 形状 円形のフィルムコーティング錠 識別コード 134 直径（mm） 9.7 厚さ（mm） 5.2 質量（mg） 362.25"
+    }
+  ]
+}

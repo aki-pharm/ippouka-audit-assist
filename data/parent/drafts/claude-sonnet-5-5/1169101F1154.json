@@ -1,0 +1,46 @@
+{
+  "id": "1169101F1154",
+  "source_file": "672173_1169101F1154_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1169101F1154_2_04",
+  "extracted_at": "2026-11-06T15:22:53.803Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18033,
+    "output": 1076
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルコーパ配合錠 L100",
+      "strength": "L100（1錠中 日局レボドパ 100mg、日局カルビドパ水和物 10.8mg（無水物として 10mg））",
+      "imprint_front": "KW 177",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード KW 177。割線入り素錠。質量：約 170mg",
+      "color": "うす紅色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "カルコーパ配合錠 L100 割線入り素錠 KW 177 うす紅色 直径：約 8.0mm 厚さ：約 2.7mm 質量：約 170mg"
+    },
+    {
+      "product_name": "カルコーパ配合錠 L250",
+      "strength": "L250（1錠中 日局レボドパ 250mg、日局カルビドパ水和物 27mg（無水物として 25mg））",
+      "imprint_front": "KW 180",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード KW 180。割線入り素錠。質量：約 440mg",
+      "color": "うす紅色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "カルコーパ配合錠 L250 割線入り素錠 KW 180 うす紅色 直径：約 11.0mm 厚さ：約 4.4mm 質量：約 440mg"
+    }
+  ]
+}

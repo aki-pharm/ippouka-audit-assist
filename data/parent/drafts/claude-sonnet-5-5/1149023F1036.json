@@ -1,0 +1,30 @@
+{
+  "id": "1149023F1036",
+  "source_file": "530288_1149023F1036_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530288_1149023F1036_1_11",
+  "extracted_at": "2026-11-06T15:14:23.126Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15550,
+    "output": 816
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノイロトロピン錠4単位",
+      "strength": "4単位",
+      "imprint_front": "Z111",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表のみ記載。外形図の裏は無地に見えるが、刻印なしの明記はない。フィルムコーティング錠、重量156mg",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 錠剤の色 うすいだいだい色 外形 7.1mm 3.5mm 表 裏 側面 重量 156mg 識別コード Z111"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1149035F1195",
+  "source_file": "530169_1149035F1195_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1149035F1195_1_11",
+  "extracted_at": "2026-11-06T15:14:58.612Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24919,
+    "output": 781
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メロキシカム錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "768",
+      "imprint_back": "5",
+      "imprint_note": "表面は日医工の社名マーク（n）と識別コード768。本体コードはn768、5。包装コードは768。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2025年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠／色調 淡黄色／直径（mm）6.0／厚さ（mm）2.8／質量（mg）85／本体コード n768 5／包装コード 768"
+    }
+  ]
+}

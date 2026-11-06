@@ -1,0 +1,30 @@
+{
+  "id": "1149037F2107",
+  "source_file": "530213_1149037F1100_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1149037F1100_2_05",
+  "extracted_at": "2026-11-06T15:16:13.378Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38314,
+    "output": 328
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠200mg「ケミファ」",
+      "strength": "200mg",
+      "imprint_front": "セレコキシブ 200 ケミファ",
+      "imprint_back": "セレコキシブ 200 ケミファ",
+      "imprint_note": "識別コード「セレコキシブ 200　ケミファ」。表裏の印字は外形図による確認で、文書には表裏別の明記なし",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りのだ円形の素錠 ／ 長径 13.0mm 短径 6.5mm ／ 厚さ 5.1mm ／ 重量 360.0mg ／ 識別コード セレコキシブ 200　ケミファ"
+    }
+  ]
+}

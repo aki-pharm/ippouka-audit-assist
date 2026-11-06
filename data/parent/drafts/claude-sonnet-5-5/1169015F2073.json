@@ -1,0 +1,30 @@
+{
+  "id": "1169015F2073",
+  "source_file": "672173_1169015F2073_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1169015F2073_1_01",
+  "extracted_at": "2026-11-06T15:20:53.029Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25852,
+    "output": 337
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミド OD 錠 25mgTRE「アメル」",
+      "strength": "25mg",
+      "imprint_front": "25 ゾニサミド TRE OD アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載は「25 ゾニサミド TRE OD アメル」。表裏の区別は文章からは確認できないため、表・裏は特定していない。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ゾニサミド OD 錠 25mgTRE「アメル」 素錠 25 ゾニサミド TRE OD アメル 白色～帯黄白色 直径：約 8.0mm 厚さ：約 3.2mm 質量：約 200.0mg"
+    }
+  ]
+}

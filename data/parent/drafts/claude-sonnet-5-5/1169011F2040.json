@@ -1,0 +1,30 @@
+{
+  "id": "1169011F2040",
+  "source_file": "300119_1169011F1044_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1169011F1044_1_14",
+  "extracted_at": "2026-11-06T15:18:27.428Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25747,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カベルゴリン錠1.0mg「サワイ」",
+      "strength": "1.0mg",
+      "imprint_front": "SW CG",
+      "imprint_back": "1",
+      "imprint_note": "識別コードは「SW CG 1」。添付文書の外形図では表面にSW CG、裏面に1の表記がある",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 7.4,
+      "size_short_mm": 3.8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／性状 白色／直径（mm） 7.4×3.8／厚さ（mm） 2.9／重量（mg） 約80／識別コード SW CG 1"
+    }
+  ]
+}

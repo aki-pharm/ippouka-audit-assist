@@ -1,0 +1,30 @@
+{
+  "id": "1169005F1260",
+  "source_file": "400073_1169005F1260_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1169005F1260_1_08",
+  "extracted_at": "2026-11-06T15:17:59.731Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18225,
+    "output": 282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロモクリプチン錠2.5mg「フソー」",
+      "strength": "2.5mg",
+      "imprint_front": "DK025",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード DK025。外形の図に表面のみ識別コード表示あり、裏面の刻印は本文に記載なし。片面割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 片面割線入りの白色の素錠 大きさ 直径（mm） 7.1 厚さ（mm） 2.3 質量（mg） 120 識別コード DK025"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1149035F2051",
+  "source_file": "530100_1149035F1055_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1149035F1055_3_06",
+  "extracted_at": "2026-11-06T15:15:04.590Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28922,
+    "output": 823
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メロキシカム錠10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "NP-258",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-258と記載。表裏の別は本文に記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "メロキシカム錠10mg「NP」 淡黄色の割線入り素錠 直径8.0mm 厚さ2.9mm 重量180mg 識別コード NP-258"
+    }
+  ]
+}

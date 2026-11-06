@@ -1,0 +1,30 @@
+{
+  "id": "1149007F1142",
+  "source_file": "530100_1149007F1142_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1149007F1142_3_01",
+  "extracted_at": "2026-11-06T15:14:08.221Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17712,
+    "output": 642
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナイキサン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "TA124",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTA124と記載。裏面の刻印の有無は本文に記載がないため未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ナイキサン錠100mg 白色の素錠 7.0 3.5 125 TA124"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1149117F1160",
+  "source_file": "300119_1149117F1160_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1149117F1160_1_08",
+  "extracted_at": "2026-11-06T15:17:26.277Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29839,
+    "output": 373
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「サワイ」",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg・アセトアミノフェン325mg",
+      "imprint_front": "トアラセット 配合錠 サワイ",
+      "imprint_back": "トアラセット 配合錠 サワイ",
+      "imprint_note": "本体表示「トアラセット 配合錠 サワイ」。外形図は表裏と側面の3図で、表裏とも同じ表示が描かれている。割線の記載なし。",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.2,
+      "size_short_mm": 7,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 性状 淡黄色 / 直径（mm） 15．2×7．0 / 厚さ（mm） 5．5 / 重量（mg） 約441 / 本体表示 トアラセット 配合錠 サワイ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1149026F1056",
+  "source_file": "400059_1149026F1056_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_1149026F1056_1_09",
+  "extracted_at": "2026-11-06T15:14:21.241Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13583,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルボ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "T71",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードT71は上面に表示（外形図では上面にT/71）。下面の刻印は図上なし。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アルボ錠 100mg T71 白 色 素 錠 上面 下面 側面 直径（mm） 厚さ（mm） 重量（mg） 約 7 約 2.7 約 115"
+    }
+  ]
+}

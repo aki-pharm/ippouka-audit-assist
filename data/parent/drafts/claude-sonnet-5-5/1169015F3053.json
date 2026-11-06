@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3053",
+  "source_file": "270139_1169015F2057_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270139_1169015F2057_1_01",
+  "extracted_at": "2026-11-06T15:21:41.744Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26182,
+    "output": 982
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠50mgTRE「KO」",
+      "strength": "50mg",
+      "imprint_front": "ゾニサミド OD 50",
+      "imprint_back": "ゾニサミド OD 50",
+      "imprint_note": "刻印は外形図の文字から転記。表裏それぞれの刻印の区別は図の判読による。",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄白色の割線入り錠剤 外形 ゾニサミド OD 50 ゾニサミド 直径（mm） 約 9 厚さ（mm） 約 3.8"
+    }
+  ]
+}

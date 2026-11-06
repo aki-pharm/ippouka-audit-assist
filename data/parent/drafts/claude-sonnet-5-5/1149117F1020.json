@@ -1,0 +1,30 @@
+{
+  "id": "1149117F1020",
+  "source_file": "800155_1149117F1020_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_1149117F1020_1_26",
+  "extracted_at": "2026-11-06T15:17:06.460Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29526,
+    "output": 852
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラムセット配合錠",
+      "strength": "1錠中 日局トラマドール塩酸塩37.5mg・日局アセトアミノフェン325mg",
+      "imprint_front": "J-C",
+      "imprint_back": "T/P",
+      "imprint_note": "識別コード「J-C T/P」。外形図の表面にJ-C、裏面にT/Pの表示あり。割線の記載なし。",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 6.3,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色のフィルムコーティング錠 外形 表面 J-C 裏面 T/P 大きさ 長径（mm）15.5 短径（mm）6.3 厚さ（mm）5.5 重量（mg）441 識別コード J-C T/P"
+    }
+  ]
+}

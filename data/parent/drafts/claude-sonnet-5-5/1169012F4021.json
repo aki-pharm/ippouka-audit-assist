@@ -1,0 +1,30 @@
+{
+  "id": "1169012F4021",
+  "source_file": "480235_1169012F3025_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1169012F3025_1_11",
+  "extracted_at": "2026-11-06T15:19:17.266Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30182,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラミペキソール塩酸塩OD錠0.5mg「トーワ」",
+      "strength": "0.5mg",
+      "imprint_front": "Tw 577",
+      "imprint_back": "0.5",
+      "imprint_note": "識別コードはTw577。表に「Tw/577」、裏に「0.5」の印字が図示されている。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡赤色の割線入りの口腔内崩壊錠　識別コード Tw577　直径(mm) 8.0　厚さ(mm) 3.4　質量(mg) 180"
+    }
+  ]
+}

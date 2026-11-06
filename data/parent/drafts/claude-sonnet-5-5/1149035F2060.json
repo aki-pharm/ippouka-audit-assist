@@ -1,0 +1,30 @@
+{
+  "id": "1149035F2060",
+  "source_file": "530372_1149035F1063_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_1149035F1063_1_08",
+  "extracted_at": "2026-11-06T15:15:01.606Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26408,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メロキシカム錠10mg「NPI」",
+      "strength": "10mg",
+      "imprint_front": "NPI 108",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：NPI 108。表に割線あり（図）。裏面の刻印は外形図上なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄色の割線入りの素錠／直径 8.0mm／厚さ 2.8mm／重量 180mg／識別コード NPI 108"
+    }
+  ]
+}

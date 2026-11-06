@@ -1,0 +1,30 @@
+{
+  "id": "1148001F1059",
+  "source_file": "171911_1148001F1059_3_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_1148001F1059_3_09",
+  "extracted_at": "2026-11-06T15:13:50.276Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12558,
+    "output": 1054
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソランタール錠50mg",
+      "strength": "50mg",
+      "imprint_front": "LT 002",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは本文テキストでは「002」。図の表面にはLT・002の表示あり。裏面は図上で刻印がないように見えるが、文章での明記はないため未確認とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ソランタール錠50mg フィルムコーティング錠 白色 表 裏 側面 002 直径 厚さ 質量 約6.1mm 約2.9mm 約92mg"
+    }
+  ]
+}

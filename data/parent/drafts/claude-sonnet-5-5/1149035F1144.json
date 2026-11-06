@@ -1,0 +1,30 @@
+{
+  "id": "1149035F1144",
+  "source_file": "300119_1149035F1144_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1149035F1144_1_07",
+  "extracted_at": "2026-11-06T15:14:52.230Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24799,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メロキシカム錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW MX5",
+      "imprint_back": "5",
+      "imprint_note": "外形の図に「SW MX5」「5」の表示あり。表側が識別コード、裏側の表示は図の読み取りによる。識別コード欄の記載は「SW MX5」。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2025年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠／性状 淡黄色／直径（mm） 6.0／厚さ（mm） 2.4／重量（mg） 約90／識別コード SW MX5"
+    }
+  ]
+}

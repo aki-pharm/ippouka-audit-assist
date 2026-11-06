@@ -1,0 +1,30 @@
+{
+  "id": "1149117F1179",
+  "source_file": "270428_1149117F1179_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1149117F1179_1_09",
+  "extracted_at": "2026-11-06T15:17:33.960Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32121,
+    "output": 1051
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「サンド」",
+      "strength": "1錠（トラマドール塩酸塩37.5mg・アセトアミノフェン325mg）",
+      "imprint_front": "トアラセット サンド",
+      "imprint_back": "トラマドール アセトアミノフェン",
+      "imprint_note": "外形図に記載された文字。刻印か印字かは添付文書に明記なし。形は外形図に基づく（文章での形の記載なし）",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 6.3,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡黄色 外形 表 トアラセット サンド 裏 トラマドール アセトアミノフェン 大きさ 直径 長径 15.5mm 短径 6.3mm 厚さ 5.4mm 質量 441mg"
+    }
+  ]
+}

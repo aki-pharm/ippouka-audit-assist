@@ -1,0 +1,30 @@
+{
+  "id": "1149037F1224",
+  "source_file": "730869_1149037F1224_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_1149037F1224_1_04",
+  "extracted_at": "2026-11-06T15:16:00.152Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35129,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「VTRS」",
+      "strength": "100mg",
+      "imprint_front": "VT CE1",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：VT CE1（図では表面に表示）。裏面は無地（図より）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "セレコキシブ錠100mg「VTRS」 素錠（割線入） 白色 VT CE1 直径 8.0mm 厚さ 2.7mm 重量 180mg"
+    }
+  ]
+}

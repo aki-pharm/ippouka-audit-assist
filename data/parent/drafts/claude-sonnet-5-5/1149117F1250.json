@@ -1,0 +1,30 @@
+{
+  "id": "1149117F1250",
+  "source_file": "750007_1149117F1250_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/750007_1149117F1250_1_08",
+  "extracted_at": "2026-11-06T15:17:33.409Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30387,
+    "output": 337
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「三笠」",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg・アセトアミノフェン325mg",
+      "imprint_front": "トアラセット 三笠",
+      "imprint_back": "トアラセット 三笠",
+      "imprint_note": "識別コード欄に「トアラセット　三笠」と記載。外形図の表面・裏面に印字あり。側面の記載は確認できず。",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.6,
+      "size_short_mm": 6.4,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色のフィルムコーティング錠／大きさ 長径（mm）15.6 短径（mm）6.4 厚さ（mm）5.1 重量（mg）441／識別コード トアラセット　三笠"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1149035F1020",
+  "source_file": "650168_1149035F1020_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_1149035F1020_1_19",
+  "extracted_at": "2026-11-06T15:14:48.277Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24101,
+    "output": 253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モービック錠5mg",
+      "strength": "5mg",
+      "imprint_front": "C5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：C5（社名マークあり）。外形の図には表裏に刻印の図が示されているが、表裏の別は本文に明記されていない。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2025年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 淡黄色の錠剤／直径 約6mm／厚さ 約2.3mm／重さ 約0.09g／識別コード C5"
+    }
+  ]
+}

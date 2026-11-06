@@ -1,0 +1,30 @@
+{
+  "id": "1149037F2115",
+  "source_file": "300119_1149037F1119_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1149037F1119_1_07",
+  "extracted_at": "2026-11-06T15:16:15.577Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36218,
+    "output": 331
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠200mg「サワイ」",
+      "strength": "200mg",
+      "imprint_front": "セレコ 200 キシブ サワイ",
+      "imprint_back": "セレコ 200 キシブ サワイ",
+      "imprint_note": "本体表示：セレコキシブ 200 サワイ。外形図には表裏の表示あり。表裏の表示内容の詳細は文章では記載なし（外形図による）。側面にも図あり。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／性状 白色／直径（mm） 13.0×6.5／厚さ（mm） 5.1／重量（mg） 約360／本体表示 セレコキシブ 200 サワイ"
+    }
+  ]
+}

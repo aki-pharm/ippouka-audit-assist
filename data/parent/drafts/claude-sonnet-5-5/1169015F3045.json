@@ -1,0 +1,30 @@
+{
+  "id": "1169015F3045",
+  "source_file": "430773_1169015F2049_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1169015F2049_1_01",
+  "extracted_at": "2026-11-06T15:21:37.236Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23652,
+    "output": 357
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミドOD錠50mgTRE「DSEP」",
+      "strength": "50mg",
+      "imprint_front": "ゾニサミド TRE OD 50",
+      "imprint_back": "EP",
+      "imprint_note": "識別コード：ゾニサミド TRE OD 50 EP。表裏の別は添付文書の文字情報では明記されておらず、「EP」を裏として記載（要確認）",
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ゾニサミドOD錠50mgTRE「DSEP」 素錠（口腔内崩壊錠）（割線入） 微黄白色～淡黄白色 ゾニサミド TRE OD 50 10.5 3.8 380 EP（識別コード：ゾニサミド TRE OD 50 EP）"
+    }
+  ]
+}

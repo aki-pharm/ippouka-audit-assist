@@ -1,0 +1,30 @@
+{
+  "id": "1169013F1035",
+  "source_file": "450064_1169013F1035_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_1169013F1035_1_06",
+  "extracted_at": "2026-11-06T15:19:48.903Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19166,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロピニロール錠0.25mg「JG」",
+      "strength": "0.25mg",
+      "imprint_front": "JG C54",
+      "imprint_back": "0.25",
+      "imprint_note": "外形図には表面に「JG C54」、裏面に「0.25」の表示あり。識別コードは「JG　C54」。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 / 大きさ 直径 7.2mm 厚さ 2.9mm 重量 124mg / 識別コード JG　C54"
+    }
+  ]
+}

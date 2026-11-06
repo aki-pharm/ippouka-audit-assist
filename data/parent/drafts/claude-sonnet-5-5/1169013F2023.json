@@ -1,0 +1,30 @@
+{
+  "id": "1169013F2023",
+  "source_file": "340278_1169013F1027_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_1169013F1027_1_18",
+  "extracted_at": "2026-11-06T15:19:49.228Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17224,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レキップ錠1mg",
+      "strength": "1mg",
+      "imprint_front": "SB 4892",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「SB 4892」。裏面は図のみで、文字による記載なし",
+      "color": "淡黄緑色",
+      "shape": "other",
+      "size_long_mm": 7.6,
+      "size_short_mm": null,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 淡黄緑色のフィルムコーティング錠 / 識別コード SB 4892 / 表（長径）7.6mm / 側面（厚さ）約4.3mm"
+    }
+  ]
+}

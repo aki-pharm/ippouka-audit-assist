@@ -1,0 +1,30 @@
+{
+  "id": "1169012F3025",
+  "source_file": "480235_1169012F3025_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1169012F3025_1_11",
+  "extracted_at": "2026-11-06T15:19:20.124Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30182,
+    "output": 799
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラミペキソール塩酸塩OD錠0.125mg「トーワ」",
+      "strength": "0.125mg",
+      "imprint_front": "Tw570",
+      "imprint_back": "0.125",
+      "imprint_note": "裏面の「0.125」は外形図の表示から読み取った（文章には記載なし）。割線の記載なし。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡赤色の口腔内崩壊錠　識別コード Tw570　直径(mm) 6.0　厚さ(mm) 2.9　質量(mg) 90"
+    }
+  ]
+}

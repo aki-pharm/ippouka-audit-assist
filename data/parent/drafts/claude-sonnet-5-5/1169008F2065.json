@@ -1,0 +1,30 @@
+{
+  "id": "1169008F2065",
+  "source_file": "300119_1169008F1069_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1169008F1069_2_06",
+  "extracted_at": "2026-11-06T15:18:17.501Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19163,
+    "output": 306
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペルゴリド錠250μg「サワイ」",
+      "strength": "250μg",
+      "imprint_front": "SW 737",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード SW 737。外形図には表面・裏面（別の面）の図があるが、裏面の刻印は文章では確認できない。",
+      "color": "うすい緑色",
+      "shape": "oblong",
+      "size_long_mm": 11.6,
+      "size_short_mm": 6.3,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2022年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 / 性状 うすい黄色 うすい緑色 / 直径（mm） 11.6×6.3 11.6×6.3 / 厚さ（mm） 4.0 4.0 / 識別コード SW 736 SW 737"
+    }
+  ]
+}
