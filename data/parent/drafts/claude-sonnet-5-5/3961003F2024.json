@@ -1,0 +1,30 @@
+{
+  "id": "3961003F2024",
+  "source_file": "431010_3961003F1028_4_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_3961003F1028_4_03",
+  "extracted_at": "2026-11-06T17:33:13.602Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16163,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オイグルコン錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "BM302",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはBM302（表面の刻印の位置は図による）。裏面の刻印の有無は文章では未記載。割線入り素錠",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8,
+      "size_short_mm": 4,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（割線入り）／色調 白色／識別コード BM302／長径 8.0mm 短径 4.0mm／厚さ 2.2mm／質量 0.08g"
+    }
+  ]
+}

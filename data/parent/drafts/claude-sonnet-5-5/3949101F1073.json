@@ -1,0 +1,30 @@
+{
+  "id": "3949101F1073",
+  "source_file": "530213_3949101A1149_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3949101A1149_1_05",
+  "extracted_at": "2026-11-06T17:33:10.679Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14715,
+    "output": 655
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウラリット配合錠",
+      "strength": "1錠",
+      "imprint_front": "NCP U",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「NCP U」（表面にNCPとU、割線を挟んで表記）。裏面の刻印は文章での記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 5.9,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠　大きさ 直径 10.2mm 厚さ 5.9mm 重量 565.0mg　識別コード NCP U"
+    }
+  ]
+}

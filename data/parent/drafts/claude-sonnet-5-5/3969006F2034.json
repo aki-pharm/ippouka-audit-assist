@@ -1,0 +1,30 @@
+{
+  "id": "3969006F2034",
+  "source_file": "111890_3969006F1038_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/111890_3969006F1038_2_08",
+  "extracted_at": "2026-11-06T17:34:19.133Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19739,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファスティック錠90",
+      "strength": "90mg",
+      "imprint_front": "AJ2 90",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「AJ2 90」。図では表に「AJ2/90」の印字、裏は無地、側面は図のみ。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ファスティック錠90 フィルムコーティング錠 淡赤色 表 裏 側面 AJ2 90 直径 厚さ 重量 約8.1mm 約4.3mm 約0.17g（識別コード AJ2 90）"
+    }
+  ]
+}

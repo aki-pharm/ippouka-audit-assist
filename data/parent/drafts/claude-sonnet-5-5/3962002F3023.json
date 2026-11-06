@@ -1,0 +1,30 @@
+{
+  "id": "3962002F3023",
+  "source_file": "400093_3962002F2027_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_3962002F2027_1_22",
+  "extracted_at": "2026-11-06T17:33:41.282Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30704,
+    "output": 282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトグルコ錠500mg",
+      "strength": "500mg",
+      "imprint_front": "DS272",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはDS272。表裏の区別は本文に記載なし（外形図には「DS|272」と「500」の表示あり）",
+      "color": "白色～帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": 7.3,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の割線入りのフィルムコート錠（長径 約15.8mm、短径 約7.3mm、厚さ 約5.7mm、重さ 約538mg、識別コード DS272）"
+    }
+  ]
+}

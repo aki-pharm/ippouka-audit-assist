@@ -1,0 +1,30 @@
+{
+  "id": "3949005F1022",
+  "source_file": "790005_3949005F1022_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_3949005F1022_2_01",
+  "extracted_at": "2026-11-06T17:33:01.541Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22301,
+    "output": 766
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユリス錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "FY321",
+      "imprint_back": "0.5",
+      "imprint_note": "表面は識別コードFY321（外形図では「FY 321」）。裏面の「0.5」は外形図の表示であり、本文には記載なし。",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色調・性状 白色～淡黄白色、素錠／大きさ 直径 約6.5mm、厚さ 約2.8mm／識別コード FY321（ユリス錠0.5mg）"
+    }
+  ]
+}

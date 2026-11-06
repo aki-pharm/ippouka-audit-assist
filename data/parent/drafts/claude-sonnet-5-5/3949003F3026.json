@@ -1,0 +1,30 @@
+{
+  "id": "3949003F3026",
+  "source_file": "470310_3949003F1023_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3949003F1023_1_18",
+  "extracted_at": "2026-11-06T17:31:49.994Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29626,
+    "output": 904
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブリク錠40mg",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図（表面・裏面）に示されているが、本文テキストには記載がないため未確認",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄色、円形の割線入りフィルムコーティング錠（直径 約9mm、厚さ 約4mm、質量 約261mg）"
+    }
+  ]
+}

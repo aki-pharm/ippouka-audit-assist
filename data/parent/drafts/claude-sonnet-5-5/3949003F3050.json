@@ -1,0 +1,30 @@
+{
+  "id": "3949003F3050",
+  "source_file": "580591_3949003F1058_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3949003F1058_1_07",
+  "extracted_at": "2026-11-06T17:32:00.770Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29448,
+    "output": 954
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠 40mg「JG」",
+      "strength": "40mg",
+      "imprint_front": "フェブキソ JG 40",
+      "imprint_back": "フェブキソスタット 40 JG",
+      "imprint_note": "本体表示は2種類が併記されている。表面・裏面への割り当ては表中の記載順による。片面割線入り。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2025年7月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の円形の片面割線入りフィルムコーティング錠　直径 8.6mm　厚さ 4.3mm　重量 258mg　本体表示：フェブキソ JG 40／フェブキソスタット 40 JG"
+    }
+  ]
+}

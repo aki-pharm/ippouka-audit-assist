@@ -1,0 +1,30 @@
+{
+  "id": "3399101F1048",
+  "source_file": "171950_3399101F1048_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_3399101F1048_3_01",
+  "extracted_at": "2026-11-06T17:29:36.530Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29928,
+    "output": 995
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロレアス配合錠「SANIK」",
+      "strength": "1錠中 クロピドグレルとして75mg（日局クロピドグレル硫酸塩97.88mg）／日局アスピリン100mg",
+      "imprint_front": "ロレアス SANIK",
+      "imprint_back": "ロレアス SANIK",
+      "imprint_note": "刻印は外形図（表・裏）の表示から確認。本文に刻印の文言記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ロレアス配合錠「SANIK」 フィルムコーティング錠 白色～微黄白色 直径(mm) 11 厚さ(mm) 6 重量(mg) 約540"
+    }
+  ]
+}

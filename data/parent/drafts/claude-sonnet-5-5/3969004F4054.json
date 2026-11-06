@@ -1,0 +1,30 @@
+{
+  "id": "3969004F4054",
+  "source_file": "340409_3969004F3058_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_3969004F3058_1_21",
+  "extracted_at": "2026-11-06T17:34:08.059Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19612,
+    "output": 223
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボグリボースOD錠0.3mg「ケミファ」",
+      "strength": "0.3mg",
+      "imprint_front": "VL3",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2025年1月改訂",
+      "source_page": 1,
+      "source_quote": "性状：微黄色の素錠の口腔内崩壊錠　直径 8.5mm　厚さ 3.2mm　重量 225mg　識別コード VL3"
+    }
+  ]
+}

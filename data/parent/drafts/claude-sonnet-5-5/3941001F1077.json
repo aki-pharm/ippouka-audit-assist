@@ -1,0 +1,30 @@
+{
+  "id": "3941001F1077",
+  "source_file": "400186_3941001F1077_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3941001F1077_1_11",
+  "extracted_at": "2026-11-06T17:31:17.092Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18196,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コルヒチン錠0.5mg「タカタ」",
+      "strength": "0.5mg",
+      "imprint_front": "TTS 592",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード TTS-592（表面に印字）。裏面には記載なし。",
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.1,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版、用法変更、用量変更）",
+      "source_page": 1,
+      "source_quote": "青色の円形の素錠である。 識別コード TTS-592 表面 直径 約7.0mm 裏面 重さ 約0.11g 側面 厚さ 約2.1mm"
+    }
+  ]
+}

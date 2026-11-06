@@ -1,0 +1,30 @@
+{
+  "id": "3949002F1053",
+  "source_file": "480008_3949002F1053_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_3949002F1053_2_04",
+  "extracted_at": "2026-11-06T17:31:22.975Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13575,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユリノーム錠25mg",
+      "strength": "25mg",
+      "imprint_front": "TO-082 25",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「TO-082 25」。表面に表示。割線入り。裏面の刻印の記載は確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ユリノーム錠25mg 白色の裸錠（割線入り） 直径6.5mm 厚さ2.1mm 質量100mg 識別コード TO-082 25"
+    }
+  ]
+}

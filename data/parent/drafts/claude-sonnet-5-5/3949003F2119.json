@@ -1,0 +1,30 @@
+{
+  "id": "3949003F2119",
+  "source_file": "480235_3949003F1112_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3949003F1112_1_04",
+  "extracted_at": "2026-11-06T17:31:39.212Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28625,
+    "output": 585
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "20 フェブキソ",
+      "imprint_back": "20 フェブキソスタット トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠／本体表示 表 20 フェブキソ、裏 20 フェブキソスタット トーワ／直径(mm) 7.0、厚さ(mm) 3.4"
+    }
+  ]
+}

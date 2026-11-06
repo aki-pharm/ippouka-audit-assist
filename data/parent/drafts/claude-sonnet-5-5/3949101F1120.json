@@ -1,0 +1,30 @@
+{
+  "id": "3949101F1120",
+  "source_file": "530372_3949101A1190_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3949101A1190_1_02",
+  "extracted_at": "2026-11-06T17:33:08.591Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10618,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエンメット配合錠",
+      "strength": "1錠中 クエン酸カリウム231.5mg・クエン酸ナトリウム水和物195.0mg",
+      "imprint_front": "NPI 106",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「NPI　106」が表面に表示されている。裏面の刻印は外形図上に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 5.9,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りフィルムコーティング錠 外形 表 裏 側面 直径 10.2mm 厚さ 5.9mm 重量 565.0mg 識別コード NPI　106"
+    }
+  ]
+}

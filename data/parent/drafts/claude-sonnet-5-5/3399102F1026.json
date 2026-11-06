@@ -1,0 +1,30 @@
+{
+  "id": "3399102F1026",
+  "source_file": "400061_3399102F1026_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3399102F1026_2_10",
+  "extracted_at": "2026-11-06T17:29:41.583Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26723,
+    "output": 1091
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タケルダ配合錠",
+      "strength": "1錠中 アスピリン100mg/ランソプラゾール15mg",
+      "imprint_front": "タケルダ",
+      "imprint_back": "100/15",
+      "imprint_note": "刻印は性状欄の形状図の表示から読み取り（本文中に刻印の文言はなし）",
+      "color": "白～帯黄白色の素錠で赤橙色～暗褐色の斑点がある（腸溶性細粒を含む有核錠）",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある。(腸溶性細粒を含む有核錠) 直径 10.0mm 厚さ 約5.4mm 重量 437mg"
+    }
+  ]
+}

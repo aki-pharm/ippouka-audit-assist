@@ -1,0 +1,30 @@
+{
+  "id": "3969006F1038",
+  "source_file": "111890_3969006F1038_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/111890_3969006F1038_2_08",
+  "extracted_at": "2026-11-06T17:34:13.363Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19739,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファスティック錠30",
+      "strength": "30mg",
+      "imprint_front": "AJ2",
+      "imprint_back": "30",
+      "imprint_note": "識別コード：AJ2 30（表：AJ2、裏：30）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ファスティック錠30 フィルムコーティング錠 白色 表 裏 側面 AJ2 30 直径 厚さ 重量 約7.1mm 約3.5mm 約0.12g 識別コード AJ2 30"
+    }
+  ]
+}

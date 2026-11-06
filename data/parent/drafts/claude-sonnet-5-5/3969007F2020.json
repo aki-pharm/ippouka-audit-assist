@@ -1,0 +1,30 @@
+{
+  "id": "3969007F2020",
+  "source_file": "400061_3969007F1024_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3969007F1024_2_05",
+  "extracted_at": "2026-11-06T17:34:27.766Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23365,
+    "output": 284
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アクトス錠30",
+      "strength": "30mg",
+      "imprint_front": "390",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「391」と記載（アクトス錠30）。表面の図中には社名マークと「30」「391」の印字がある旨が図示されているが、表裏の別は本文に明記なし。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りの素錠 / 直径 7.0mm 厚さ 2.5mm 重量 120mg / 識別コード 391"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3961008F1020",
+  "source_file": "780069_3961008F1020_1_31.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_3961008F1020_1_31",
+  "extracted_at": "2026-11-06T17:33:20.931Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22722,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマリール1mg錠",
+      "strength": "1mg",
+      "imprint_front": "NMK",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNMK。表裏の別は文章中に記載なし（外形図に刻印の表示あり）",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡紅色・裸錠（割線入り） 直径（mm） 6.0 厚さ（mm） 2.2 重量（g） 0.085 識別コード NMK"
+    }
+  ]
+}

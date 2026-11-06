@@ -1,0 +1,30 @@
+{
+  "id": "3949003F6041",
+  "source_file": "530113_3949003F4057_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3949003F4057_1_04",
+  "extracted_at": "2026-11-06T17:32:38.636Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30225,
+    "output": 284
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタットOD錠40mg｢日新｣",
+      "strength": "40mg",
+      "imprint_front": "フェブキソ OD40 NS",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「フェブキソ OD40　NS」と記載。表裏の区別は文章からは不明。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第4版、効能変更）",
+      "source_page": 1,
+      "source_quote": "白色～微黄色の割線入りの素錠　錠径：9.0mm　錠厚：3.8mm　重量：250mg　本体表示 フェブキソ OD40　NS"
+    }
+  ]
+}

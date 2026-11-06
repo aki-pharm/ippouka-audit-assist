@@ -1,0 +1,30 @@
+{
+  "id": "3969004F2027",
+  "source_file": "400061_3969004F1020_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3969004F1020_2_07",
+  "extracted_at": "2026-11-06T17:33:53.074Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17749,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベイスン錠0.3",
+      "strength": "0.3mg",
+      "imprint_front": "351",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「352」。PDF画像上では表面に社名マークと352、裏面に0.3の印字が見られるが、本文には識別コード352のみ記載。",
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2025年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ベイスン錠0.3 白色〜帯黄白色の素錠 直径8.1mm 厚さ3.1mm 重量200mg 識別コード 352"
+    }
+  ]
+}

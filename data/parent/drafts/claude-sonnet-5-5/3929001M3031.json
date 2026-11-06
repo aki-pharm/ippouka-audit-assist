@@ -1,0 +1,30 @@
+{
+  "id": "3929001M3031",
+  "source_file": "400059_3929001M3031_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_3929001M3031_1_07",
+  "extracted_at": "2026-11-06T17:30:17.476Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14300,
+    "output": 856
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メタルカプターゼカプセル 200mg",
+      "strength": "200mg",
+      "imprint_front": "T652",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル（1号）。識別コードは T652。外形図にも「200」「T652」の表示があるが、表裏の区別は本文に記載なし。重量は約380mg。",
+      "color": "キャップ部が淡かっ色、ボディ部が淡黄色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メタルカプターゼカプセル 200mg　識別コード T652　キャップ部が淡かっ色、ボディ部が淡黄色の 1 号硬カプセル　重量（mg）約 380"
+    }
+  ]
+}

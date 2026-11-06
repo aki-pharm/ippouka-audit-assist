@@ -1,0 +1,30 @@
+{
+  "id": "3919003F2020",
+  "source_file": "671450_3919003F2020_5_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_3919003F2020_5_02",
+  "extracted_at": "2026-11-06T17:29:48.159Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14140,
+    "output": 906
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チオラ錠100",
+      "strength": "100mg",
+      "imprint_front": "チオラ 100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードMH165はPTPシートに表示。上面の「チオラ 100」は外形図の表記。下面の記載は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.3,
+      "size_short_mm": 9.3,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "チオラ錠100 MH165（PTPシートに表示） 白色 糖衣錠 直径 9.3mm 厚さ 5.2mm 重量 340mg"
+    }
+  ]
+}

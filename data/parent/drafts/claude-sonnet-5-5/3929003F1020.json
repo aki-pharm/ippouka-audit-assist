@@ -1,0 +1,30 @@
+{
+  "id": "3929003F1020",
+  "source_file": "250052_3929003F1020_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/250052_3929003F1020_1_05",
+  "extracted_at": "2026-11-06T17:30:20.387Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9342,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クレメジン速崩錠500mg",
+      "strength": "500mg",
+      "imprint_front": "KRH103",
+      "imprint_back": "KRH103",
+      "imprint_note": "識別コードはSP包装に表示（錠剤本体への刻印の記載はなし）",
+      "color": "黒色",
+      "shape": "round",
+      "size_long_mm": 15,
+      "size_short_mm": 15,
+      "thickness_mm": 7.4,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黒色の錠剤 / 規格 直径（mm）15 厚さ（mm）7.4 重さ（mg）540 / 識別コード KRH103（SP包装に表示）"
+    }
+  ]
+}

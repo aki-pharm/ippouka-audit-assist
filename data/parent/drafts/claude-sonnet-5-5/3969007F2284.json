@@ -1,0 +1,30 @@
+{
+  "id": "3969007F2284",
+  "source_file": "530213_3969007F1288_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3969007F1288_1_10",
+  "extracted_at": "2026-11-06T17:34:28.662Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24851,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠30mg「ケミファ」",
+      "strength": "30mg",
+      "imprint_front": "NC PL",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「NC　PL」。外形の表裏の刻印は図のみで文字としては確認できず、表裏の区別は未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色の割線入りの素錠 ／ 直径 7.0mm 7.0mm ／ 厚さ 2.3mm 2.4mm ／ 識別コード NC　PS NC　PL"
+    }
+  ]
+}

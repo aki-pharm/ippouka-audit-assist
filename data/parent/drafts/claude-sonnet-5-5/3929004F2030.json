@@ -1,0 +1,30 @@
+{
+  "id": "3929004F2030",
+  "source_file": "672212_3929004F2030_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_3929004F2030_3_06",
+  "extracted_at": "2026-11-06T17:30:27.560Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20998,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロイコボリン錠25mg",
+      "strength": "25mg",
+      "imprint_front": "LL 25",
+      "imprint_back": "なし",
+      "imprint_note": "上面に「LL 25」の識別コード。下面は図上刻印の記載なし。側面図あり。",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ロイコボリン錠25mg　識別コード LL 25　淡黄白色 素錠　直径 9.6mm　厚さ 4.5mm　重量 333mg"
+    }
+  ]
+}

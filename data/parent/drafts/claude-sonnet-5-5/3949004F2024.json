@@ -1,0 +1,30 @@
+{
+  "id": "3949004F2024",
+  "source_file": "300297_3949004F1028_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3949004F1028_1_07",
+  "extracted_at": "2026-11-06T17:32:49.552Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21571,
+    "output": 771
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウリアデック錠40mg",
+      "strength": "40mg",
+      "imprint_front": "Sc342",
+      "imprint_back": "40",
+      "imprint_note": "識別コードはSc342。裏面の「40」は製剤の性状の外形図に表示されたもの（文章での記載なし）",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2022年5月改訂",
+      "source_page": 1,
+      "source_quote": "片面に割線を有する白色～淡黄白色の素錠　直径 約7mm　厚さ 約3.2mm　識別コード Sc342"
+    }
+  ]
+}

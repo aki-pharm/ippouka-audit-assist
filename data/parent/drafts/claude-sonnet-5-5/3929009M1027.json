@@ -1,0 +1,30 @@
+{
+  "id": "3929009M1027",
+  "source_file": "671450_3929009M1027_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_3929009M1027_2_03",
+  "extracted_at": "2026-11-06T17:31:18.595Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14576,
+    "output": 850
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニシスタゴンカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "MYLAN CYSTA 50",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく3号硬カプセル。識別コード欄は「―」。外形図に「MYLAN」「CYSTA 50」の印字あり。裏面の記載は確認できず",
+      "color": "頭部：白色、胴部：白色",
+      "shape": "oblong",
+      "size_long_mm": 15.6,
+      "size_short_mm": 5.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "ニシスタゴンカプセル50mg MYLAN CYSTA 50 ― 頭部：白色 胴部：白色 3号硬カプセル（15.6mm×5.5mm）"
+    }
+  ]
+}

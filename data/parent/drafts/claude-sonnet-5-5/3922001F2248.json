@@ -1,0 +1,30 @@
+{
+  "id": "3922001F2248",
+  "source_file": "450064_3922001B2041_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_3922001B2041_3_07",
+  "extracted_at": "2026-11-06T17:30:04.320Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8312,
+    "output": 662
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タチオン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "ch307",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 5.9,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の糖衣錠 / 大きさ 直径 10.2mm 厚さ 5.9mm / 識別コード ch307"
+    }
+  ]
+}

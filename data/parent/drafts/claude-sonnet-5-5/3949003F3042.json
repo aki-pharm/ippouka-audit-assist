@@ -1,0 +1,30 @@
+{
+  "id": "3949003F3042",
+  "source_file": "430773_3949003F1040_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3949003F1040_1_06",
+  "extracted_at": "2026-11-06T17:31:53.295Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27909,
+    "output": 669
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠40mg「DSEP」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表示はあるが、文字として判読できないため未確認",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フェブキソスタット錠40mg「DSEP」 フィルムコーティング錠（割線入） 白色～微黄色 直径約9mm 厚さ約4mm 重さ約261mg"
+    }
+  ]
+}

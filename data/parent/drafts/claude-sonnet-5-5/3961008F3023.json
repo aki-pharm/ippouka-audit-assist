@@ -1,0 +1,30 @@
+{
+  "id": "3961008F3023",
+  "source_file": "780069_3961008F1020_1_31.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_3961008F1020_1_31",
+  "extracted_at": "2026-11-06T17:33:28.076Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22724,
+    "output": 757
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマリール0.5mg錠",
+      "strength": "0.5mg",
+      "imprint_front": "NM",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.5,
+      "size_short_mm": 4.5,
+      "thickness_mm": 2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 アマリール0.5mg錠 色・剤形 白色・裸錠 外形 直径（mm） 4.5 厚さ（mm） 2.0 重量（g） 0.0425 識別コード NM"
+    }
+  ]
+}

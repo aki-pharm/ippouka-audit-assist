@@ -1,0 +1,30 @@
+{
+  "id": "3929004F1025",
+  "source_file": "672212_3929004F1025_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_3929004F1025_3_04",
+  "extracted_at": "2026-11-06T17:30:22.653Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9227,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロイコボリン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "LL 5",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「LL 5」。上面に「LL」と「5」の刻印。下面の刻印の記載は図中に見られない。",
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ロイコボリン錠5mg 上面 下面 側面 LL 5 白色～淡黄色 素錠 直径 8.0mm 厚さ 3.4mm"
+    }
+  ]
+}

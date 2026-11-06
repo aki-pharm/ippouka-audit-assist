@@ -1,0 +1,30 @@
+{
+  "id": "3929004F2064",
+  "source_file": "580591_3929004F2064_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3929004F2064_1_07",
+  "extracted_at": "2026-11-06T17:30:36.805Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20857,
+    "output": 739
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ホリナート錠25mg「JG」",
+      "strength": "25mg",
+      "imprint_front": "JG F45",
+      "imprint_back": "25",
+      "imprint_note": "識別コード欄は「JG F45」。裏面の「25」は外形図の表示から読み取った。",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年1月改訂",
+      "source_page": 1,
+      "source_quote": "ホリナート錠25mg「JG」 淡黄白色の錠剤 表面 裏面 側面 JG F45 直径 8.0mm 厚さ 3.5mm 重量 180mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3961008F5050",
+  "source_file": "340409_3961008F4054_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_3961008F4054_1_13",
+  "extracted_at": "2026-11-06T17:33:30.842Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25026,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリドOD錠3mg「ケミファ」",
+      "strength": "3mg",
+      "imprint_front": "GL3",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：GL3（表面に表示）。裏面の刻印の記載は本文になし。外形図では裏面に表示なし。",
+      "color": "薄い橙色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "薄い橙色の片面1/2割線入りの素錠（直径 8.0 mm、厚さ 3.6 mm、重量 175 mg、識別コード GL3）"
+    }
+  ]
+}

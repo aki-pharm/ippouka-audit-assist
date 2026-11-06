@@ -1,0 +1,30 @@
+{
+  "id": "3961003F1028",
+  "source_file": "431010_3961003F1028_4_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_3961003F1028_4_03",
+  "extracted_at": "2026-11-06T17:33:10.906Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16163,
+    "output": 243
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オイグルコン錠1.25mg",
+      "strength": "1.25mg",
+      "imprint_front": "BM300",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード BM300（表面に印字）。剤形は素錠（割線入り）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2025年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（割線入り）／色調 白色／識別コード BM300／直径 6.0mm／厚さ 2.1mm／質量 0.08g"
+    }
+  ]
+}

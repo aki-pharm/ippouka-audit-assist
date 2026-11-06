@@ -1,0 +1,30 @@
+{
+  "id": "3929007F2050",
+  "source_file": "670082_3929007F1053_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670082_3929007F1053_1_01",
+  "extracted_at": "2026-11-06T17:31:10.631Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21592,
+    "output": 370
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "酢酸亜鉛錠50mg「ケミファ」",
+      "strength": "50mg",
+      "imprint_front": "サクサンアエン 50 ケミファ",
+      "imprint_back": "サクサンアエン 50 ケミファ",
+      "imprint_note": "識別コードは「サクサンアエン　50　ケミファ」。表裏の刻印の別は本文には記載がなく、外形図から表裏とも同じ識別コードと推定。外形図の印字内容は文字として確認できないため、表・裏とも識別コードの記載をそのまま採用。割線は裏面にあり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線を施したフィルムコーティング錠／直径 8.6mm／厚さ 3.9mm／重量 257.5mg／識別コード サクサンアエン　50　ケミファ"
+    }
+  ]
+}

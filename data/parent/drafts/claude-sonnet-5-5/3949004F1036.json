@@ -1,0 +1,30 @@
+{
+  "id": "3949004F1036",
+  "source_file": "790005_3949004F1036_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_3949004F1036_2_01",
+  "extracted_at": "2026-11-06T17:32:45.289Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23086,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トピロリック錠20mg",
+      "strength": "20mg",
+      "imprint_front": "FY311",
+      "imprint_back": "20",
+      "imprint_note": "外形の図から、表面に識別コードFY311、裏面に「20」の表示。本文の識別コード欄はFY311。",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 錠剤／色調・性状 白色～淡黄白色の素錠／大きさ 直径 約6mm／厚さ 約2.4mm／質量 約70mg／識別コード FY311"
+    }
+  ]
+}

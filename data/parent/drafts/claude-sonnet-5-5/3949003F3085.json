@@ -1,0 +1,30 @@
+{
+  "id": "3949003F3085",
+  "source_file": "480209_3949003F1082_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3949003F1082_1_08",
+  "extracted_at": "2026-11-06T17:32:10.565Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30682,
+    "output": 875
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠40mg「杏林」",
+      "strength": "40mg",
+      "imprint_front": "フェブキソ 杏林 40",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本体表示欄には「フェブキソ 杏林 40」とのみ記載があり、表裏の区別は書かれていない",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.9,
+      "size_short_mm": 8.9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 白色～微黄色 本体表示 フェブキソ 杏林 40 直径(mm) 約8.9 厚さ(mm) 約4.1"
+    }
+  ]
+}

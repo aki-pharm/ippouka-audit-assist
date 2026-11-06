@@ -1,0 +1,30 @@
+{
+  "id": "3949004F3020",
+  "source_file": "300297_3949004F1028_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3949004F1028_1_07",
+  "extracted_at": "2026-11-06T17:32:54.371Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21571,
+    "output": 833
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウリアデック錠60mg",
+      "strength": "60mg",
+      "imprint_front": "Sc343",
+      "imprint_back": "60",
+      "imprint_note": "表は識別コードSc343（文書上は2段表記）。裏の「60」は外形図から確認（本文には記載なし）。割線は片面。",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2022年5月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 片面に割線を有する白色～淡黄白色の素錠／直径 約8mm／厚さ 約3.7mm／重量 約210mg／識別コード Sc343"
+    }
+  ]
+}

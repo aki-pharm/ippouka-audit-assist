@@ -1,0 +1,30 @@
+{
+  "id": "3922001F2345",
+  "source_file": "460028_3922001F2345_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3922001F2345_1_04",
+  "extracted_at": "2026-11-06T17:30:01.917Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 6192,
+    "output": 215
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グルタチオン錠100mg「ツルハラ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色糖衣錠 外形 大きさ 直径 約8.7mm 厚さ 約5.4mm 質量 約300mg"
+    }
+  ]
+}

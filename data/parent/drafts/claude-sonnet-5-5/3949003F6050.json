@@ -1,0 +1,46 @@
+{
+  "id": "3949003F6050",
+  "source_file": "780009_3949003F1147_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_3949003F1147_1_06",
+  "extracted_at": "2026-11-06T17:32:40.610Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32576,
+    "output": 934
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠40mg「明治」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図のみで、本文の文字情報としては記載なし",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "フェブキソスタット錠40mg「明治」 割線入りフィルムコーティング錠 白色～微黄色 直径(mm)9.1 厚さ(mm)3.7 重量(mg)258.0"
+    },
+    {
+      "product_name": "フェブキソスタットOD錠40mg「明治」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図のみで、本文の文字情報としては記載なし",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "フェブキソスタットOD錠40mg「明治」 割線入り素錠 白色～微黄色 直径(mm)9.0 厚さ(mm)3.8 重量(mg)250.0"
+    }
+  ]
+}

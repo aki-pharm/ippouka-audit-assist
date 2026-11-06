@@ -1,0 +1,30 @@
+{
+  "id": "3949003F3131",
+  "source_file": "530100_3949003F1139_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3949003F1139_1_06",
+  "extracted_at": "2026-11-06T17:32:21.363Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33829,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠40㎎「ニプロ」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文字情報には刻印・識別コードの記載なし（外形の図中に印字らしき表示はあるが、文字としては読み取れない）",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄色の割線入りフィルムコーティング錠 9.0 4.0 261"
+    }
+  ]
+}

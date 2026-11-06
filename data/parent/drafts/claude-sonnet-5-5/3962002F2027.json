@@ -1,0 +1,30 @@
+{
+  "id": "3962002F2027",
+  "source_file": "400093_3962002F2027_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_3962002F2027_1_22",
+  "extracted_at": "2026-11-06T17:33:42.904Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30704,
+    "output": 765
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトグルコ錠250mg",
+      "strength": "250mg",
+      "imprint_front": "DS271",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはDS271。外形図には「250」の表示があるが、本文の記載は識別コード DS271 のみ",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りのフィルムコート錠／大きさ 直径（mm）約9.1 厚さ（mm）約4.1 重さ（mg）約271／識別コード DS271"
+    }
+  ]
+}

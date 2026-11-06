@@ -1,0 +1,30 @@
+{
+  "id": "3962002F1071",
+  "source_file": "530263_3962002F1071_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_3962002F1071_1_25",
+  "extracted_at": "2026-11-06T17:33:34.559Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20687,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリコラン錠250mg",
+      "strength": "250mg",
+      "imprint_front": "302",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「302」（表面に社名マークと302の表示あり。裏面の刻印の記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "製剤の色 白色 / 形状 両面に割線を施した円形のフィルムコーティング錠 / 識別コード 302 / 直径（mm） 9.1 / 厚さ（mm） 4.5 / 重さ（mg） 278"
+    }
+  ]
+}

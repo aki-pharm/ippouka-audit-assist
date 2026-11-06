@@ -1,0 +1,30 @@
+{
+  "id": "3929001M1039",
+  "source_file": "400059_3929001M1039_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_3929001M1039_1_10",
+  "extracted_at": "2026-11-06T17:30:13.273Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22203,
+    "output": 761
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メタルカプターゼカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "T650",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく3号硬カプセル。識別コードはT650。重量は約210mg。大きさ（mm）の記載なし。",
+      "color": "淡橙色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メタルカプターゼカプセル 50mg T650 キャップ部及びボディ部が淡橙色不透明な 3 号硬カプセル 重量（mg）約 210"
+    }
+  ]
+}

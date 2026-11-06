@@ -1,0 +1,30 @@
+{
+  "id": "3969006F2069",
+  "source_file": "530169_3969006F1062_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3969006F1062_1_06",
+  "extracted_at": "2026-11-06T17:34:22.237Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20704,
+    "output": 304
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナテグリニド錠90mg「日医工」",
+      "strength": "90mg",
+      "imprint_front": "ナテグリニド 90 日医工",
+      "imprint_back": "ナテグリニド 90 日医工",
+      "imprint_note": "本体表示：ナテグリニド/90/日医工、包装コード：467（表裏とも同じ表示）",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　色調 淡赤色　直径（mm） 8.1　厚さ（mm） 4.2　質量（mg） 175　本体表示 ナテグリニド 90 日医工　包装コード 467"
+    }
+  ]
+}

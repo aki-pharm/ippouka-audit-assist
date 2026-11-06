@@ -1,0 +1,30 @@
+{
+  "id": "3949003F6033",
+  "source_file": "530213_3949003F4030_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3949003F4030_1_05",
+  "extracted_at": "2026-11-06T17:32:31.560Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30255,
+    "output": 391
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタットOD錠40mg「ケミファ」",
+      "strength": "40mg",
+      "imprint_front": "フェブキソ 40 ODケミファ",
+      "imprint_back": "フェブキソ 40 ODケミファ",
+      "imprint_note": "識別コード「フェブキソ40 ODケミファ」。表・裏とも同一の識別コード（外形図の表記は文字化けのため、識別コード欄の記載を採用）。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄色の素錠 白色～微黄色の割線入りの素錠 ／ 直径 6.0mm 7.0mm 9.0mm ／ 厚さ 2.8mm 3.0mm 3.8mm ／ 識別コード フェブキソ10 ODケミファ フェブキソ20 ODケミファ フェブキソ40 ODケミファ"
+    }
+  ]
+}

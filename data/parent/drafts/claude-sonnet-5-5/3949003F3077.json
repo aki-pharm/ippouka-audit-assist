@@ -1,0 +1,30 @@
+{
+  "id": "3949003F3077",
+  "source_file": "830001_3949003F1074_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3949003F1074_1_06",
+  "extracted_at": "2026-11-06T17:32:05.922Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30611,
+    "output": 642
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠40mg「YD」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に刻印らしき表示があるが、本文に文字での記載がなく判読できないため未確認",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.9,
+      "size_short_mm": 8.9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄色、円形の割線入りフィルムコーティング錠である。 直径 約8.9mm 厚さ 約4.1mm 重量 256mg"
+    }
+  ]
+}

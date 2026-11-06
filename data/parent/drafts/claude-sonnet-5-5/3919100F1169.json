@@ -1,0 +1,30 @@
+{
+  "id": "3919100F1169",
+  "source_file": "530113_3919100F1169_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3919100F1169_1_04",
+  "extracted_at": "2026-11-06T17:29:55.106Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8616,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニチファーゲン配合錠",
+      "strength": "1錠",
+      "imprint_front": "NS 33",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NS 33。外形の図は表面・裏面・側面と思われるが、裏面の刻印の有無は文章で明記されていない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性 状 白色の糖衣錠 / 大きさ 錠径：8.0mm、錠厚：4.6mm、重量：240mg / 識別コード NS 33"
+    }
+  ]
+}

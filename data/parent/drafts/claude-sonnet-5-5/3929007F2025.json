@@ -1,0 +1,30 @@
+{
+  "id": "3929007F2025",
+  "source_file": "620095_3929007F1029_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620095_3929007F1029_2_15",
+  "extracted_at": "2026-11-06T17:31:03.537Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21025,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノベルジン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "NPC98",
+      "imprint_back": "NPC98",
+      "imprint_note": "外形図に表面・裏面・側面の表示あり。識別コードはNPC98。外形図の表面・裏面の個別の印字内容は文字として確認できないため、識別コードを表裏に記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "割線を施した白色のフィルムコーティング錠 ／ 大きさ：直径 8.5mm、厚さ 3.8mm、重量 256mg ／ 識別コード NPC98"
+    }
+  ]
+}

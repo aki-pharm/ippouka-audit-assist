@@ -1,0 +1,30 @@
+{
+  "id": "3949003F3115",
+  "source_file": "480235_3949003F1112_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3949003F1112_1_04",
+  "extracted_at": "2026-11-06T17:32:12.474Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28625,
+    "output": 318
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "40 フェブキソ",
+      "imprint_back": "40 フェブキソスタット トーワ",
+      "imprint_note": "本体表示：表「40 フェブキソ」、裏「40 フェブキソスタット トーワ」。外形の表に割線あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠（錠40mg）／本体表示 表 40 フェブキソ、裏 40 フェブキソスタット トーワ／直径(mm) 8.5、厚さ(mm) 3.9、質量(mg) 224"
+    }
+  ]
+}

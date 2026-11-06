@@ -1,0 +1,30 @@
+{
+  "id": "3929005M1029",
+  "source_file": "460026_3929005M1029_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460026_3929005M1029_1_15",
+  "extracted_at": "2026-11-06T17:30:51.003Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8571,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メタライト250カプセル",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄には社名マーク（ツムラのマーク）と「-01」のような表示が図で示されているが、テキストでは判読できないため未確認。製品は錠剤ではなく硬カプセル剤（1号）。",
+      "color": "淡褐色",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色 剤形 号数 識別コード キャップ ボディ 硬カプセル剤 1号 淡褐色 淡褐色"
+    }
+  ]
+}

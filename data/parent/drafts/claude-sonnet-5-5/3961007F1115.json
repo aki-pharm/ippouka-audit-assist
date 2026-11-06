@@ -1,0 +1,30 @@
+{
+  "id": "3961007F1115",
+  "source_file": "400093_3961007F1115_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_3961007F1115_1_14",
+  "extracted_at": "2026-11-06T17:33:18.606Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16029,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリミクロン錠40mg",
+      "strength": "40mg",
+      "imprint_front": "P211",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはP211。外形図には表面にPマーク入りの識別コード（211）、裏面に割線が描かれているが、表裏の別は本文に明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年4月改訂(第3版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠／大きさ 直径(mm) 約6.5 厚さ(mm) 約2.2 重さ(mg) 約80／識別コード P211"
+    }
+  ]
+}

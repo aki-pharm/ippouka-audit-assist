@@ -1,0 +1,30 @@
+{
+  "id": "3969003F2146",
+  "source_file": "581120_3969003F1140_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3969003F1140_1_03",
+  "extracted_at": "2026-11-06T17:33:50.619Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17834,
+    "output": 650
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アカルボース錠100mg「NIG」",
+      "strength": "100mg",
+      "imprint_front": "t 602",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」欄の記載。錠剤本体の刻印の表裏の別は記載なし。片面1/2割線入り",
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～淡黄色の片面1/2割線入り素錠 / 直径 9.0mm / 厚さ 3.8mm / 質量 240mg / 識別コード（PTP） t 602"
+    }
+  ]
+}

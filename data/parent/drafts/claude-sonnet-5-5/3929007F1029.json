@@ -1,0 +1,30 @@
+{
+  "id": "3929007F1029",
+  "source_file": "620095_3929007F1029_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620095_3929007F1029_2_15",
+  "extracted_at": "2026-11-06T17:30:58.808Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21025,
+    "output": 1167
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノベルジン錠25mg",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNPC97。表裏のどちらに刻印されているかは添付文書の文字情報から確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ノベルジン錠25mg 剤形・色：白色のフィルムコーティング錠／大きさ 直径 6.5mm、厚さ 3.2mm、重量 129mg／識別コード NPC97"
+    }
+  ]
+}

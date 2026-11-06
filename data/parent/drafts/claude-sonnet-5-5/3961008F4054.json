@@ -1,0 +1,30 @@
+{
+  "id": "3961008F4054",
+  "source_file": "340409_3961008F4054_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_3961008F4054_1_13",
+  "extracted_at": "2026-11-06T17:33:33.147Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25026,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリドOD錠1mg「ケミファ」",
+      "strength": "1mg",
+      "imprint_front": "GL1",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：GL1。外形図上は表面に識別コード、片面に1/2割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面1/2割線入りの素錠 ／ 直径 6.0 mm ／ 厚さ 3.0 mm ／ 重量 85 mg ／ 識別コード GL1"
+    }
+  ]
+}

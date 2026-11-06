@@ -1,0 +1,30 @@
+{
+  "id": "3969004F4020",
+  "source_file": "400061_3969004F3023_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3969004F3023_2_08",
+  "extracted_at": "2026-11-06T17:34:04.439Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18033,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベイスンOD錠0.3",
+      "strength": "0.3mg",
+      "imprint_front": "342",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード342。表面に社名マークと思われる記号の表示あり。錠剤図には裏面に「0.3」の印字が見られるが、本文には記載なし",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "販売名 ベイスンOD錠0.3／色・剤形 微黄色の口腔内崩壊錠／直径 8.6mm 厚さ 3.2mm 重量 220mg／識別コード 342"
+    }
+  ]
+}

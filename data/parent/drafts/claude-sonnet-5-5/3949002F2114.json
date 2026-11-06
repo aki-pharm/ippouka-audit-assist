@@ -1,0 +1,30 @@
+{
+  "id": "3949002F2114",
+  "source_file": "480008_3949002F1053_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_3949002F1053_2_04",
+  "extracted_at": "2026-11-06T17:31:23.401Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13575,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユリノーム錠50mg",
+      "strength": "50mg",
+      "imprint_front": "TO-082 50",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「TO-082 50」。外形図の表面に「TO-082」「50」の印字、裏面は割線のみ（外形図より）",
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ユリノーム錠50mg 白色～淡黄色の裸錠（割線入り） 直径7.5mm 厚さ2.4mm 質量150mg 識別コード TO-082 50"
+    }
+  ]
+}

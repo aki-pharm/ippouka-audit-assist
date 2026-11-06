@@ -1,0 +1,30 @@
+{
+  "id": "3969004F3031",
+  "source_file": "230064_3969004F3031_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230064_3969004F3031_1_13",
+  "extracted_at": "2026-11-06T17:34:07.879Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17956,
+    "output": 987
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボグリボースODフィルム0.2「QQ」",
+      "strength": "0.2mg",
+      "imprint_front": "QQ401",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードQQ401（表裏の区別は記載なし）。剤形は「切れ目入りフィルム剤（口腔内崩壊剤）」で、外形図の上面・下面に切れ目の印あり",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 20,
+      "size_short_mm": 14,
+      "thickness_mm": 0.08,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 ボグリボースODフィルム0.2「QQ」／剤形 切れ目入りフィルム剤（口腔内崩壊剤）／色 白色／大きさ 長辺 20 mm、短辺 14 mm、厚さ 約80 μm／識別コード QQ401"
+    }
+  ]
+}

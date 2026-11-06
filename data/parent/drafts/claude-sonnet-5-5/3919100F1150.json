@@ -1,0 +1,30 @@
+{
+  "id": "3919100F1150",
+  "source_file": "750315_3919100F1150_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/750315_3919100F1150_1_08",
+  "extracted_at": "2026-11-06T17:29:52.367Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13061,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリチロン配合錠",
+      "strength": "1錠（グリチルリチン酸一アンモニウム35mg（グリチルリチン酸として25mg）、日局グリシン25mg、DL-メチオニン25mg）",
+      "imprint_front": "GL",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「GL」。外形図で表面に「GL」、裏面・側面は刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "グリチロン配合錠 GL 表 裏 側面 白色 糖衣錠 直径8.1mm 厚さ5.0mm"
+    }
+  ]
+}

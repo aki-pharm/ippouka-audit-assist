@@ -1,0 +1,30 @@
+{
+  "id": "3929004F2080",
+  "source_file": "400186_3929004F2080_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3929004F2080_1_07",
+  "extracted_at": "2026-11-06T17:30:40.917Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23149,
+    "output": 808
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ホリナート錠25mg「NK」",
+      "strength": "25mg",
+      "imprint_front": "ホリナート 25 NK",
+      "imprint_back": "ホリナート 25 NK",
+      "imprint_note": "本体表示の記載。外形図は表・裏が同一欄で示されており、表裏の区別はない。",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形：淡黄白色の裸錠／大きさ：直径 約7mm、厚さ 約2.8mm／質量：約0.12g／本体表示：ホリナート 25 NK"
+    }
+  ]
+}

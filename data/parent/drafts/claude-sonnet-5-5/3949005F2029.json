@@ -1,0 +1,30 @@
+{
+  "id": "3949005F2029",
+  "source_file": "790005_3949005F1022_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_3949005F1022_2_01",
+  "extracted_at": "2026-11-06T17:33:01.902Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22299,
+    "output": 770
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユリス錠1mg",
+      "strength": "1mg",
+      "imprint_front": "FY322",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード FY322。裏面の表示は文字情報として記載なし。片面に割線を有する",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色調・性状 白色～淡黄白色、片面に割線を有する素錠　大きさ 直径 約8.0mm 厚さ 約3.8mm　識別コード FY322"
+    }
+  ]
+}

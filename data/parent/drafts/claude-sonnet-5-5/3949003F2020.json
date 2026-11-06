@@ -1,0 +1,30 @@
+{
+  "id": "3949003F2020",
+  "source_file": "470310_3949003F1023_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3949003F1023_1_18",
+  "extracted_at": "2026-11-06T17:31:41.999Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29626,
+    "output": 1041
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブリク錠20mg",
+      "strength": "20mg",
+      "imprint_front": "20",
+      "imprint_back": "20",
+      "imprint_note": "外形図（表面・裏面）に基づく。表面・裏面とも「20」と小さな文字が見えるが、本文に刻印の記載はなく、図の判読には不確実さがある",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄色、円形の割線入りフィルムコーティング錠（大きさ：直径 約7mm、厚さ 約3mm、質量 約132mg）"
+    }
+  ]
+}

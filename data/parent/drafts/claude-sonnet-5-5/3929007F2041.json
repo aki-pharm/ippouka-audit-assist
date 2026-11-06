@@ -1,0 +1,30 @@
+{
+  "id": "3929007F2041",
+  "source_file": "400073_3929007F1045_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_3929007F1045_1_08",
+  "extracted_at": "2026-11-06T17:31:05.303Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21494,
+    "output": 269
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "酢酸亜鉛錠50mg「ノーベル」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図（表面・裏面）に印字らしき表示があるが、本文テキストには刻印・識別コードの記載がなく読み取れないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "割線を施した白色のフィルムコーティング錠　大きさ 直径 8.5mm　厚さ 3.8mm　質量 256mg"
+    }
+  ]
+}

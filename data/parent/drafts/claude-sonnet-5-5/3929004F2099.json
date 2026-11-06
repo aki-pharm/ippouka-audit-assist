@@ -1,0 +1,30 @@
+{
+  "id": "3929004F2099",
+  "source_file": "180095_3929004F2099_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_3929004F2099_1_07",
+  "extracted_at": "2026-11-06T17:30:38.415Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22703,
+    "output": 320
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ホリナート錠25mg「オーハラ」",
+      "strength": "25mg",
+      "imprint_front": "ホリナート 25 オーハラ",
+      "imprint_back": "ホリナート 25 オーハラ",
+      "imprint_note": "識別コードは「ホリナート 25 オーハラ」と記載。表面・裏面の個別の刻印内容は文章では明記されておらず、外形の図に表示。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂(第3版、承認条件削除)",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径 8.1mm 厚さ 3.4mm 質量 166mg 識別コード ホリナート 25 オーハラ"
+    }
+  ]
+}

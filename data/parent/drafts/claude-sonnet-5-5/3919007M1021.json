@@ -1,0 +1,30 @@
+{
+  "id": "3919007M1021",
+  "source_file": "300297_3919007M1021_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3919007M1021_1_10",
+  "extracted_at": "2026-11-06T17:29:47.728Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10903,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セロシオンカプセル10",
+      "strength": "10mg",
+      "imprint_front": "Sc281",
+      "imprint_back": "Sc281",
+      "imprint_note": "剤形は4号硬カプセル剤（錠剤ではない）。識別コードSc281。外形図は頭部・胴部とも白色。重量220mg（内容物180mg）。大きさ（mm）の記載なし。表裏の区別は記載なし。",
+      "color": "頭部白色、胴部白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "頭部白色、胴部白色の4号硬カプセル剤で、内容物は白色の粒状粉末であり、においはなく、味はわずかに酸味がある"
+    }
+  ]
+}

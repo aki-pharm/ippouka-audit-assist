@@ -1,0 +1,30 @@
+{
+  "id": "3399101F1056",
+  "source_file": "480209_3399101F1056_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3399101F1056_1_11",
+  "extracted_at": "2026-11-06T17:29:33.294Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38092,
+    "output": 320
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロレアス配合錠「杏林」",
+      "strength": "1錠（クロピドグレルとして75mg、アスピリン100mg）",
+      "imprint_front": "ロレアス 杏林",
+      "imprint_back": "ロレアス 杏林",
+      "imprint_note": "本体表示「ロレアス 杏林」。外形図では両面に表示されているが、表裏の別は本文に明記なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 10.7,
+      "size_short_mm": 10.7,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～微黄白色 外形 本体表示 ロレアス 杏林 直径(mm) 10.7 厚さ(mm) 5.7 質量(mg) 466"
+    }
+  ]
+}

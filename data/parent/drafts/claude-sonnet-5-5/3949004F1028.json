@@ -1,0 +1,30 @@
+{
+  "id": "3949004F1028",
+  "source_file": "300297_3949004F1028_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3949004F1028_1_07",
+  "extracted_at": "2026-11-06T17:32:38.982Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21571,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウリアデック錠20mg",
+      "strength": "20mg",
+      "imprint_front": "Sc341",
+      "imprint_back": "20",
+      "imprint_note": "識別コードSc341。裏面の「20」は図から読み取った表示で、文章での記載はない",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2022年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～淡黄白色の素錠 ／ 直径 約6mm ／ 厚さ 約2.4mm ／ 重量 約70mg ／ 識別コード Sc341"
+    }
+  ]
+}
