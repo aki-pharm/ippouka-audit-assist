@@ -27,3 +27,6 @@ next-env.d.ts
 .DS_Store
 *.pem
 npm-debug.log*
+
+# 親マスタ用の PMDA 一覧ページのキャッシュ（コミットしない）
+/captures/pmda-gl/

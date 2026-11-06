@@ -6,9 +6,12 @@
 - 外観（刻印・色・大きさ）は PMDA の添付文書から、`scripts/extract.ts` で Claude に書き写させ、人が確認してから入れる（運用マスタと同じ手順）
 
 ## 作り方
-1. 厚労省のページから最新の内用薬 Excel を取得し、`node scripts/build-parent.cjs <xlsx>` で CSV に変換（予定）
-2. 品目ごとに PMDA の添付文書を特定して `source_url` を登録
+1. 厚労省のページから最新の内用薬 Excel を取得し、錠剤・カプセルだけを `naifuku-tablets-YYYYMMDD.csv` に変換（11/6 は手作業。スクリプト化は今後）
+2. `node scripts/pmda-link.cjs`：PMDA の `GeneralList/<YJコード>`（同じ成分・剤形の全製品と添付文書PDFの一覧を返す）を成分ごとに1回取得し、販売名が一致する文書を選んで `pmda-links.json` に書く。一致しなかった品目は `pmda-unmatched.csv`
 3. `npm run extract` → 下書き → 人の確認
+
+- `pmda-links.json`：yj_code → 添付文書の doc_id・URL・PDF掲載日・PMDA掲載の販売名・製造販売元。`match` は exact（販売名が完全一致）／loose（部分一致）
+- メーカー欄が空の行（薬価基準の統一名収載）は実製品ではないので紐づかない
 
 ## 注意
 - 施設の採用品リストは公開リポジトリに入れない（別の非公開の置き場で扱う）
