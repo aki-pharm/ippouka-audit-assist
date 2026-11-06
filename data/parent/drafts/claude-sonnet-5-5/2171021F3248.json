@@ -1,0 +1,30 @@
+{
+  "id": "2171021F3248",
+  "source_file": "480235_2171021F1253_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2171021F1253_1_03",
+  "extracted_at": "2026-11-06T16:33:44.363Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17263,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベニジピン塩酸塩錠8mg「トーワ」",
+      "strength": "8mg",
+      "imprint_front": "Tw 270",
+      "imprint_back": "8",
+      "imprint_note": "識別コード Tw270（表）。裏面には「8」の表示あり（図より）。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "黄色の割線入りのフィルムコーティング錠 識別コード Tw270 直径(mm) 8.1 厚さ(mm) 3.9 質量(mg) 210"
+    }
+  ]
+}

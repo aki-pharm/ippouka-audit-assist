@@ -1,0 +1,30 @@
+{
+  "id": "2160005F1021",
+  "source_file": "671450_2160005F1021_4_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2160005F1021_4_04",
+  "extracted_at": "2026-11-06T16:30:35.287Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24571,
+    "output": 753
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レルパックス錠20mg",
+      "strength": "20mg",
+      "imprint_front": "VLE",
+      "imprint_back": "REP20",
+      "imprint_note": "識別コード欄に「VLE・REP20」と記載。上面・下面の刻印は図で示されており、表裏の割り当ては図に基づく。フィルムコート錠、重量104mg。",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "VLE・REP20 だいだい色 フィルムコート錠 直径 6.3mm 厚さ 3.0mm 重量 104mg"
+    }
+  ]
+}

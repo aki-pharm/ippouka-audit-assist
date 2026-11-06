@@ -1,0 +1,46 @@
+{
+  "id": "2149121F1102",
+  "source_file": "530100_2149121F1102_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149121F1102_1_05",
+  "extracted_at": "2026-11-06T16:28:55.108Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28936,
+    "output": 1105
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジルムロ配合錠LD「ニプロ」",
+      "strength": "アジルサルタン20mg/アムロジピン2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文テキストに刻印・識別コードの記載がなく判読できないため未確認",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "ジルムロ配合錠LD「ニプロ」 微赤色のフィルムコーティング錠 直径8.2mm 厚さ4.7mm 重量221mg"
+    },
+    {
+      "product_name": "ジルムロ配合錠HD「ニプロ」",
+      "strength": "アジルサルタン20mg/アムロジピン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文テキストに刻印・識別コードの記載がなく判読できないため未確認",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "ジルムロ配合錠HD「ニプロ」 微黄色のフィルムコーティング錠 直径8.2mm 厚さ4.7mm 重量221mg"
+    }
+  ]
+}

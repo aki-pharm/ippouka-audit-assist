@@ -1,0 +1,30 @@
+{
+  "id": "2171014G1267",
+  "source_file": "530169_2171014G1267_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2171014G1267_1_07",
+  "extracted_at": "2026-11-06T16:32:23.919Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19705,
+    "output": 313
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンL錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "298",
+      "imprint_back": "10",
+      "imprint_note": "表面に社名マーク（π）と298、裏面に10。本体コード：298/10、包装コード：298-L10。製剤の性状欄は表面・裏面・側面の図で示されている。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 徐放錠（フィルムコーティング錠） 色 調 淡赤色 直径(mm) 6.1 厚さ(mm) 2.9 質量(mg) 82.5 本体コード 298 10 包装コード 298 -L10"
+    }
+  ]
+}

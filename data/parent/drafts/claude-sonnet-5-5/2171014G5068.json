@@ -1,0 +1,30 @@
+{
+  "id": "2171014G5068",
+  "source_file": "300119_2171014G3065_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2171014G3065_1_15",
+  "extracted_at": "2026-11-06T16:33:00.970Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23839,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンCR錠40mg「サワイ」",
+      "strength": "40mg",
+      "imprint_front": "SW NF CR40",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは外形の図に表示。裏面の刻印は文章では記載なし。",
+      "color": "淡赤褐色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 徐放性フィルムコーティング錠 / 性状 淡赤褐色 / 直径（mm） 8.4 / 厚さ（mm） 4.5 / 識別コード SW NF CR40"
+    }
+  ]
+}

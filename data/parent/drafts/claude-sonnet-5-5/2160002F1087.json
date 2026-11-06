@@ -1,0 +1,30 @@
+{
+  "id": "2160002F1087",
+  "source_file": "400042_2160002F1087_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_2160002F1087_1_04",
+  "extracted_at": "2026-11-06T16:29:53.005Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11571,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミドドリン塩酸塩錠2mg「JG」",
+      "strength": "2mg",
+      "imprint_front": "JG E36",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは「JG　E36」。表面に印字（画像上は表面にJGマークとE36）。裏面の刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ミドドリン塩酸塩錠2mg「JG」 白色の片面1/2割線入り素錠 表面 裏面 側面 JG　E36 直径6.0mm 厚さ2.2mm 重量80mg"
+    }
+  ]
+}

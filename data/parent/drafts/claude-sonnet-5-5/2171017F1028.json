@@ -1,0 +1,30 @@
+{
+  "id": "2171017F1028",
+  "source_file": "450045_2171017F1028_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_2171017F1028_1_17",
+  "extracted_at": "2026-11-06T16:33:14.202Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14218,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シグマート錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "C-21F",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：C-21F。裏面の刻印については文書に記載なし（外形図では裏面に文字なし）。割線の記載なし（剤形：素錠）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2022年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 / 色調 白色 / 直径 5mm / 厚さ 2mm / 質量 約50mg / 識別コード C-21F"
+    }
+  ]
+}

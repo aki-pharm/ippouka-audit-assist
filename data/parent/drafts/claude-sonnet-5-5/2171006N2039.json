@@ -1,0 +1,30 @@
+{
+  "id": "2171006N2039",
+  "source_file": "400315_2171006N1105_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2171006N1105_1_15",
+  "extracted_at": "2026-11-06T16:31:50.865Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20537,
+    "output": 813
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヘルベッサーRカプセル200mg",
+      "strength": "200mg",
+      "imprint_front": "TA304",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は錠剤ではなく硬カプセル剤（徐放カプセル）。識別コードは「識別コード」欄の記載（外形図ではカプセル本体にTA/304の表示）。裏の記載は添付文書になし。",
+      "color": "赤色/白色（頭部/胴部）",
+      "shape": "oblong",
+      "size_long_mm": 17.7,
+      "size_short_mm": 6.4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "赤色/白色（頭部/胴部）の2号硬カプセル剤（徐放カプセル）／識別コード TA304／サイズ 長さ（mm）17.7 径（mm）6.4 重量（g）0.32"
+    }
+  ]
+}

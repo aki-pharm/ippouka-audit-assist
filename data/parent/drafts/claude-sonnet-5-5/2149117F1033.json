@@ -1,0 +1,46 @@
+{
+  "id": "2149117F1033",
+  "source_file": "430773_2149117F1033_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149117F1033_1_08",
+  "extracted_at": "2026-11-06T16:25:42.506Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34295,
+    "output": 1059
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テラムロ配合錠AP「DSEP」",
+      "strength": "テルミサルタン40mg/アムロジピン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図には印字らしき表示があるが、文章での刻印・識別コードの記載はないため未確認",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "テラムロ配合錠AP「DSEP」 フィルムコート錠 淡赤色 直径約8.5mm 厚さ約4.0mm 質量約248mg"
+    },
+    {
+      "product_name": "テラムロ配合錠BP「DSEP」",
+      "strength": "テルミサルタン80mg/アムロジピン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図には印字らしき表示があるが、文章での刻印・識別コードの記載はないため未確認",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "テラムロ配合錠BP「DSEP」 フィルムコート錠 淡赤色 直径約11mm 厚さ約4.9mm 質量約493mg"
+    }
+  ]
+}

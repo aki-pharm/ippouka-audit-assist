@@ -1,0 +1,30 @@
+{
+  "id": "2171014G2301",
+  "source_file": "530169_2171014G1267_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2171014G1267_1_07",
+  "extracted_at": "2026-11-06T16:32:29.145Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19705,
+    "output": 803
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンL錠20mg「日医工」",
+      "strength": "20mg",
+      "imprint_front": "299",
+      "imprint_back": "20",
+      "imprint_note": "表面は社名マーク（日医工ロゴ）と「299」、裏面は「20」。本体コード「299 20」、包装コード「299 -L20」。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 剤形 徐放錠（フィルムコーティング錠）、色調 淡赤色、直径(mm) 6.1、厚さ(mm) 2.9、質量(mg) 82.5、本体コード 299 20（ニフェジピンL錠20mg「日医工」）、包装コード 299 -L20"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2171021F3124",
+  "source_file": "180095_2171021F1075_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2171021F1075_3_01",
+  "extracted_at": "2026-11-06T16:33:40.008Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15032,
+    "output": 306
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベニジピン塩酸塩錠8mg「OME」",
+      "strength": "8mg",
+      "imprint_front": "OH-274",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはOH-274。表面・裏面それぞれの刻印の内訳は本文テキストには記載がなく、外形図のみ（本文からは確認できない）。割線入りフィルムコーティング錠。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2024年3月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色 割線入りフィルムコーティング錠 ／ 大きさ 直径：8.6mm 厚さ：3.9mm ／ 識別コード OH-274"
+    }
+  ]
+}

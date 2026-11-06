@@ -1,0 +1,30 @@
+{
+  "id": "2171014G3111",
+  "source_file": "380087_2171014G3111_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2171014G3111_1_05",
+  "extracted_at": "2026-11-06T16:32:45.283Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26053,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンCR錠10mg「ZE」",
+      "strength": "10mg",
+      "imprint_front": "ZE101",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：ZE101。外形の図には表面に「ZE 101」の表示があるが、裏面の刻印については文章での記載なし",
+      "color": "帯赤灰色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 帯赤灰色／剤形 フィルムコーティング錠（徐放錠）／錠径（mm） 7.2／厚み（mm） 4.0／重量（mg） 137／識別コード ZE101"
+    }
+  ]
+}

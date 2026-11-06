@@ -1,0 +1,30 @@
+{
+  "id": "2171021F3280",
+  "source_file": "400278_2171021F1296_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2171021F1296_1_03",
+  "extracted_at": "2026-11-06T16:33:53.557Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17322,
+    "output": 654
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベニジピン塩酸塩錠8mg「TCK」",
+      "strength": "8mg",
+      "imprint_front": "TU 206",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「TU 206」と記載。割線入り。裏面の刻印は記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ベニジピン塩酸塩錠8mg「TCK」 黄色フィルムコーティング錠（割線入り） TU 206 直径8.1mm 厚さ3.6mm 重量200mg"
+    }
+  ]
+}

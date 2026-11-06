@@ -1,0 +1,46 @@
+{
+  "id": "2149116F2027",
+  "source_file": "400061_2149116F1020_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_2149116F1020_2_08",
+  "extracted_at": "2026-11-06T16:25:13.195Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25236,
+    "output": 1246
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユニシア配合錠LD",
+      "strength": "カンデサルタン シレキセチル8mg/アムロジピン2.5mg",
+      "imprint_front": "272",
+      "imprint_back": "LD",
+      "imprint_note": "識別コード272。形状欄の図では表面に社名マークと272、裏面にLDが確認できる",
+      "color": "淡黄色",
+      "shape": null,
+      "size_long_mm": 8.6,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ユニシア配合錠LD 剤形・色：淡黄色の素錠 長径8.6mm 短径5.1mm 厚さ約3.0mm 重量130mg 識別コード 272"
+    },
+    {
+      "product_name": "ユニシア配合錠HD",
+      "strength": "カンデサルタン シレキセチル8mg/アムロジピン5mg",
+      "imprint_front": "273",
+      "imprint_back": "HD",
+      "imprint_note": "識別コード273。形状欄の図では表面に社名マークと273、裏面にHDが確認できる",
+      "color": "淡赤色",
+      "shape": null,
+      "size_long_mm": 8.6,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ユニシア配合錠HD 剤形・色：淡赤色の素錠 長径8.6mm 短径5.1mm 厚さ約3.0mm 重量130mg 識別コード 273"
+    }
+  ]
+}

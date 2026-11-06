@@ -1,0 +1,46 @@
+{
+  "id": "2149116F2086",
+  "source_file": "480235_2149116F1080_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149116F1080_1_06",
+  "extracted_at": "2026-11-06T16:25:31.000Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26493,
+    "output": 965
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カムシア配合錠LD「トーワ」",
+      "strength": "カンデサルタン シレキセチル8mg/アムロジピン2.5mg",
+      "imprint_front": "カムシア LD トーワ",
+      "imprint_back": "8 カンデ アムロジ 2.5",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 8.5,
+      "size_short_mm": 5,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の楕円形の素錠／本体表示 表 カムシア LD トーワ 裏 8 カンデ アムロジ 2.5／直径(mm) 8.5／5.0（長径／短径）／厚さ(mm) 3.0"
+    },
+    {
+      "product_name": "カムシア配合錠HD「トーワ」",
+      "strength": "カンデサルタン シレキセチル8mg/アムロジピン5mg",
+      "imprint_front": "カムシア HD トーワ",
+      "imprint_back": "8 カンデ アムロジ 5",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "oval",
+      "size_long_mm": 8.5,
+      "size_short_mm": 5,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤色の楕円形の素錠／本体表示 表 カムシア HD トーワ 裏 8 カンデ アムロジ 5／直径(mm) 8.5／5.0（長径／短径）／厚さ(mm) 3.1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2160003F1162",
+  "source_file": "112268_2160003F1162_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112268_2160003F1162_1_03",
+  "extracted_at": "2026-11-06T16:30:17.782Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21436,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スマトリプタン錠50mg「SPKK」",
+      "strength": "50mg",
+      "imprint_front": "JA ES3",
+      "imprint_back": "なし",
+      "imprint_note": "表面に識別コード「JA ES3」（2段）の印字。裏面は図上、刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "スマトリプタン錠50mg「SPKK」 剤形・性状：白色のフィルムコート錠 識別コード：JA ES3 表（直径）7.6mm 側面（厚さ）3.4mm 質量 153mg"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2149118F2158",
+  "source_file": "480235_2149118F1151_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149118F1151_1_05",
+  "extracted_at": "2026-11-06T16:27:56.407Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29019,
+    "output": 1090
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルアミクス配合錠LD「トーワ」",
+      "strength": "イルベサルタン100mg/アムロジピンとして5mg",
+      "imprint_front": "イルアミクス LD トーワ",
+      "imprint_back": "100 イルベ アムロジ 5",
+      "imprint_note": "本体表示（表・裏とも印字）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のフィルムコーティング錠 本体表示 表 イルアミクス LD トーワ 裏 100 イルベ アムロジ 5 直径(mm) 8.1 厚さ(mm) 3.8 質量(mg) 175"
+    },
+    {
+      "product_name": "イルアミクス配合錠HD「トーワ」",
+      "strength": "イルベサルタン100mg/アムロジピンとして10mg",
+      "imprint_front": "イルアミクス HD トーワ",
+      "imprint_back": "100 イルベ アムロジ 10",
+      "imprint_note": "本体表示（表・裏とも印字）",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色のフィルムコーティング錠 本体表示 表 イルアミクス HD トーワ 裏 100 イルベ アムロジ 10 直径(mm) 8.1 厚さ(mm) 3.8 質量(mg) 175"
+    }
+  ]
+}

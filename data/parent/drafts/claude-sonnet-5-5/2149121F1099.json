@@ -1,0 +1,78 @@
+{
+  "id": "2149121F1099",
+  "source_file": "480235_2149121F1099_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149121F1099_1_05",
+  "extracted_at": "2026-11-06T16:28:56.841Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30633,
+    "output": 2099
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジルムロ配合錠LD「トーワ」",
+      "strength": "LD（アジルサルタン20mg／アムロジピンとして2.5mg）",
+      "imprint_front": "ジルムロ LD トーワ",
+      "imprint_back": "アジル 20 アムロジ 2.5",
+      "imprint_note": "本体表示：表 ジルムロ LD トーワ、裏 アジル 20 アムロジ 2.5",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "微赤色のフィルムコーティング錠／本体表示 表 ジルムロ LD トーワ 裏 アジル 20 アムロジ 2.5／直径(mm) 8.2 厚さ(mm) 4.6 質量(mg) 221"
+    },
+    {
+      "product_name": "ジルムロ配合錠HD「トーワ」",
+      "strength": "HD（アジルサルタン20mg／アムロジピンとして5mg）",
+      "imprint_front": "ジルムロ HD トーワ",
+      "imprint_back": "アジル 20 アムロジ 5",
+      "imprint_note": "本体表示：表 ジルムロ HD トーワ、裏 アジル 20 アムロジ 5",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "微黄色のフィルムコーティング錠／本体表示 表 ジルムロ HD トーワ 裏 アジル 20 アムロジ 5／直径(mm) 8.2 厚さ(mm) 4.6 質量(mg) 221"
+    },
+    {
+      "product_name": "ジルムロ配合OD錠LD「トーワ」",
+      "strength": "LD（アジルサルタン20mg／アムロジピンとして2.5mg）",
+      "imprint_front": "ジルムロ OD LD トーワ",
+      "imprint_back": "アジル 20 アムロジ 2.5",
+      "imprint_note": "本体表示：表 ジルムロ OD LD トーワ、裏 アジル 20 アムロジ 2.5。口腔内崩壊錠",
+      "color": "帯黄白色の層及び帯褐黄色の顆粒を含む帯褐黄白色の層からなる",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "帯黄白色の層及び帯褐黄色の顆粒を含む帯褐黄白色の層からなる口腔内崩壊錠／本体表示 表 ジルムロ OD LD トーワ 裏 アジル 20 アムロジ 2.5／直径(mm) 8.5 厚さ(mm) 3.7 質量(mg) 210"
+    },
+    {
+      "product_name": "ジルムロ配合OD錠HD「トーワ」",
+      "strength": "HD（アジルサルタン20mg／アムロジピンとして5mg）",
+      "imprint_front": "ジルムロ OD HD トーワ",
+      "imprint_back": "アジル 20 アムロジ 5",
+      "imprint_note": "本体表示：表 ジルムロ OD HD トーワ、裏 アジル 20 アムロジ 5。口腔内崩壊錠",
+      "color": "帯黄白色の層及び帯褐黄色の顆粒を含む帯褐黄白色の層からなる",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "帯黄白色の層及び帯褐黄色の顆粒を含む帯褐黄白色の層からなる口腔内崩壊錠／本体表示 表 ジルムロ OD HD トーワ 裏 アジル 20 アムロジ 5／直径(mm) 9.5 厚さ(mm) 4.0 質量(mg) 280"
+    }
+  ]
+}

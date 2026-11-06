@@ -1,0 +1,30 @@
+{
+  "id": "2171008F1070",
+  "source_file": "170033_2171008F1070_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2171008F1070_2_12",
+  "extracted_at": "2026-11-06T16:31:57.063Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18685,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワソラン錠40mg",
+      "strength": "40mg",
+      "imprint_front": "ε213",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはε213。表に印字。裏・側面の刻印の記載なし（図のみ）",
+      "color": "黄緑色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 ワソラン錠40mg 剤形 糖衣錠 識別コード ε213 外形 表 裏 側面 直径(mm) 7.2 質量(mg) 145 厚さ(mm) 4.0 色 黄緑色"
+    }
+  ]
+}

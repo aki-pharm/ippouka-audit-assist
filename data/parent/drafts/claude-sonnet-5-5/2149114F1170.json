@@ -1,0 +1,30 @@
+{
+  "id": "2149114F1170",
+  "source_file": "300119_2149114F1170_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149114F1170_1_09",
+  "extracted_at": "2026-11-06T16:24:11.484Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23776,
+    "output": 346
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムバロ配合錠「サワイ」（バルサルタン80mg・アムロジピン5mg）",
+      "strength": "1錠中 バルサルタン80mg／アムロジピンとして5mg",
+      "imprint_front": "SW アムバロ",
+      "imprint_back": "SW アムバロ",
+      "imprint_note": "外形図には表・裏の図と側面図が示されている。本体表示は「SW アムバロ」。表裏それぞれの識別表示の詳細は本文からは未確認。",
+      "color": "帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 帯黄白色 直径（mm） 8.1 厚さ（mm） 3.9 重量（mg） 約187 本体表示 SW アムバロ"
+    }
+  ]
+}

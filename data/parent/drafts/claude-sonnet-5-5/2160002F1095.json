@@ -1,0 +1,30 @@
+{
+  "id": "2160002F1095",
+  "source_file": "180095_2160002F1095_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2160002F1095_1_04",
+  "extracted_at": "2026-11-06T16:29:56.970Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12720,
+    "output": 357
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミドドリン塩酸塩錠2mg「オーハラ」",
+      "strength": "2mg",
+      "imprint_front": "ミドドリン 2 オーハラ",
+      "imprint_back": "ミドドリン 2 オーハラ",
+      "imprint_note": "識別コード欄に「ミドドリン 2 オーハラ」と記載。表面・裏面それぞれの刻印の内訳は文章中に明記されておらず、表裏とも同じ識別コードと仮定した記載ではない（外形図に表裏の印字あり）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色 割線入り素錠 外形 表面 裏面 側面 直径：6.5mm　厚さ：2.5mm 質量 100mg 識別コード ミドドリン 2 オーハラ"
+    }
+  ]
+}

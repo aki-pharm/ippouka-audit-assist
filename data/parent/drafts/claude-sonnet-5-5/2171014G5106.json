@@ -1,0 +1,30 @@
+{
+  "id": "2171014G5106",
+  "source_file": "530169_2171014G3103_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2171014G3103_1_08",
+  "extracted_at": "2026-11-06T16:33:06.329Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24359,
+    "output": 318
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンCR錠40mg「日医工」",
+      "strength": "40mg",
+      "imprint_front": "077/078/079のうち079（表面：ⓝ 079）",
+      "imprint_back": "なし",
+      "imprint_note": "本体コード n 079、包装コード 079。表面に社名マーク（n）と識別コード079。裏面は刻印の記載なし（図は無地）。",
+      "color": "淡赤褐色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 4.5,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（徐放錠）／色調 淡赤褐色／直径(mm) 8.4／厚さ(mm) 4.5／質量(mg) 217／本体コード n 079／包装コード 079"
+    }
+  ]
+}

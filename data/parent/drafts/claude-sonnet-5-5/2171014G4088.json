@@ -1,0 +1,30 @@
+{
+  "id": "2171014G4088",
+  "source_file": "530100_2171014G3081_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2171014G3081_3_06",
+  "extracted_at": "2026-11-06T16:32:51.051Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29487,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンCR錠20mg「NP」",
+      "strength": "20mg",
+      "imprint_front": "NT-253",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NT-253（錠剤表面に「NT 253」と表示）。裏面の刻印は添付文書に記載なし",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 7.8,
+      "size_short_mm": 7.8,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ニフェジピン CR 錠 20mg「NP」 淡赤色のフィルムコーティング錠（徐放錠） 直径7.8mm 厚さ4.3mm 重量170.5mg 識別コード NT-253"
+    }
+  ]
+}

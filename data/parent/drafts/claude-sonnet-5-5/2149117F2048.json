@@ -1,0 +1,46 @@
+{
+  "id": "2149117F2048",
+  "source_file": "650037_2149117F1041_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650037_2149117F1041_2_07",
+  "extracted_at": "2026-11-06T16:26:17.841Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34636,
+    "output": 1083
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テラムロ配合錠 AP「EE」",
+      "strength": "テルミサルタン40mg・アムロジピン5mg",
+      "imprint_front": "EE テラムロ AP",
+      "imprint_back": "40 テルミサルタン アムロジピン 5",
+      "imprint_note": "本体表示。割線の記載は確認できない",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 淡赤色のフィルムコーティング錠 直径（mm）8.6 厚さ（mm）4.1 本体表示 EE テラムロ AP／40 テルミサルタン アムロジピン 5"
+    },
+    {
+      "product_name": "テラムロ配合錠 BP「EE」",
+      "strength": "テルミサルタン80mg・アムロジピン5mg",
+      "imprint_front": "EE テラムロ BP",
+      "imprint_back": "80 テルミサルタン アムロジピン 5",
+      "imprint_note": "本体表示。割線の記載は確認できない",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 淡赤色のフィルムコーティング錠 直径（mm）11.1 厚さ（mm）5.0 本体表示 EE テラムロ BP／80 テルミサルタン アムロジピン 5"
+    }
+  ]
+}

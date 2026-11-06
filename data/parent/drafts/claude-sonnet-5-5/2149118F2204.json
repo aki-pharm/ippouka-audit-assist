@@ -1,0 +1,46 @@
+{
+  "id": "2149118F2204",
+  "source_file": "400073_2149118F1208_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2149118F1208_2_03",
+  "extracted_at": "2026-11-06T16:28:06.804Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29315,
+    "output": 1355
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルアミクス配合錠LD「ダイト」",
+      "strength": "1錠中 日局イルベサルタン100mg及び日局アムロジピンベシル酸塩6.93mg（アムロジピンとして5mg）",
+      "imprint_front": "イルアミクス LD ダイト",
+      "imprint_back": "イルアミクス LD 100/5",
+      "imprint_note": "刻印は外形の図から判読（本文には文字としての記載なし）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のフィルムコーティング錠　直径 8.1mm　厚さ 3.8mm　質量 175mg"
+    },
+    {
+      "product_name": "イルアミクス配合錠HD「ダイト」",
+      "strength": "1錠中 日局イルベサルタン100mg及び日局アムロジピンベシル酸塩13.87mg（アムロジピンとして10mg）",
+      "imprint_front": "イルアミクス HD ダイト",
+      "imprint_back": "イルアミクス HD 100/10",
+      "imprint_note": "刻印は外形の図から判読（本文には文字としての記載なし）",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色のフィルムコーティング錠　直径 8.1mm　厚さ 3.8mm　質量 175mg"
+    }
+  ]
+}

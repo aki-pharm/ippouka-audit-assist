@@ -1,0 +1,30 @@
+{
+  "id": "2160003F1189",
+  "source_file": "480235_2160003F1189_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2160003F1189_1_02",
+  "extracted_at": "2026-11-06T16:30:20.310Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20482,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スマトリプタン錠50mg「TW」",
+      "strength": "50mg",
+      "imprint_front": "Tw 057",
+      "imprint_back": "SUM 50",
+      "imprint_note": "識別コードはTw057。外形図の表に「Tw 057」、裏に「SUM 50」の印字が見られる（外形図による）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～帯黄白色のフィルムコーティング錠 識別コード Tw057 直径(mm) 約7.6 厚さ(mm) 約3.6 質量(mg) 約156.0"
+    }
+  ]
+}

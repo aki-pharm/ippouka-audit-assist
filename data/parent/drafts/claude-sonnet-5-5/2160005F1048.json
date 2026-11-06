@@ -1,0 +1,30 @@
+{
+  "id": "2160005F1048",
+  "source_file": "400278_2160005F1048_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2160005F1048_1_05",
+  "extracted_at": "2026-11-06T16:30:38.837Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27579,
+    "output": 800
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エレトリプタン錠20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「20」「TCK」らしき印字が見えるが、文字での記載はなく判読が確実でないため未確認とした",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "エレトリプタン錠 20mg「TCK」 直径6.6mm 厚さ3.1mm 重量108mg だいだい色 フィルムコーティング錠"
+    }
+  ]
+}

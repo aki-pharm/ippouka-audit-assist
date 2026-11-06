@@ -1,0 +1,30 @@
+{
+  "id": "2149114F1218",
+  "source_file": "480235_2149114F1218_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149114F1218_1_09",
+  "extracted_at": "2026-11-06T16:24:13.964Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23963,
+    "output": 332
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムバロ配合錠「トーワ」（バルサルタン80mg/アムロジピン5mg）",
+      "strength": "1錠中 バルサルタン80mg・アムロジピンとして5mg",
+      "imprint_front": "アムバロ 配合 トーワ",
+      "imprint_back": "80 バルサ アムロジ 5",
+      "imprint_note": null,
+      "color": "帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 帯黄白色のフィルムコーティング錠 / 本体表示 表 アムバロ 配合 トーワ 裏 80 バルサ アムロジ 5 / 直径(mm) 8.6 / 厚さ(mm) 4.0 / 質量(mg) 207"
+    }
+  ]
+}

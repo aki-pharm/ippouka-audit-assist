@@ -1,0 +1,30 @@
+{
+  "id": "2171014G5025",
+  "source_file": "630004_2171014G3022_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_2171014G3022_1_26",
+  "extracted_at": "2026-11-06T16:33:06.233Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24256,
+    "output": 845
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アダラートCR錠40mg",
+      "strength": "40mg",
+      "imprint_front": "A0 40",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは外形図・識別コード欄の図から判読（本文テキストには記載なし）。裏面は社名マーク（BAYERクロス）のみ",
+      "color": "淡赤褐色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2023年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　色調 淡赤褐色（CR錠40mg）　直径 8.1mm　厚さ 5.0mm　質量 237mg　識別コード（図）"
+    }
+  ]
+}

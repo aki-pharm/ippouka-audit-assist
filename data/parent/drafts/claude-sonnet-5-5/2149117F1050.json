@@ -1,0 +1,46 @@
+{
+  "id": "2149117F1050",
+  "source_file": "300119_2149117F1050_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149117F1050_1_05",
+  "extracted_at": "2026-11-06T16:25:47.176Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33826,
+    "output": 704
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テラムロ配合錠AP「サワイ」（テルミサルタン40mg／アムロジピン5mg）",
+      "strength": "テルミサルタン40mg・アムロジピンとして5mg",
+      "imprint_front": "SW テラムロ AP",
+      "imprint_back": "SW テラムロ AP",
+      "imprint_note": "本体表示は「SW テラムロ AP」。外形図では表裏の両面に表示あり。側面にも表示のように見える図あり（確認は図のみ）。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠　性　状 淡赤色　直径（mm） 8.6 11.1　厚さ（mm） 4.1 5.0　重量（mg） 約250 約495　本体表示 SW テラムロ AP SW テラムロ BP"
+    },
+    {
+      "product_name": "テラムロ配合錠BP「サワイ」（テルミサルタン80mg／アムロジピン5mg）",
+      "strength": "テルミサルタン80mg・アムロジピンとして5mg",
+      "imprint_front": "SW テラムロ BP",
+      "imprint_back": "SW テラムロ BP",
+      "imprint_note": "本体表示は「SW テラムロ BP」。外形図では表裏の両面に表示あり。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠　性　状 淡赤色　直径（mm） 8.6 11.1　厚さ（mm） 4.1 5.0　重量（mg） 約250 約495　本体表示 SW テラムロ AP SW テラムロ BP"
+    }
+  ]
+}

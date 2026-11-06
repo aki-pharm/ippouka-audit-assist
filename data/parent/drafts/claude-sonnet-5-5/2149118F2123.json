@@ -1,0 +1,46 @@
+{
+  "id": "2149118F2123",
+  "source_file": "270428_2149118F1127_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2149118F1127_1_08",
+  "extracted_at": "2026-11-06T16:27:55.486Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28741,
+    "output": 1423
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルアミクス配合錠LD「サンド」",
+      "strength": "イルベサルタン100mg/アムロジピン5mg",
+      "imprint_front": "イルアミクス LD サンド",
+      "imprint_back": "100 5",
+      "imprint_note": "刻印・印字は製剤の性状欄の外形図から読み取った。本文中に刻印の文章記載はない。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 イルアミクス配合錠LD「サンド」 剤形 フィルムコーティング錠 色調 白色～帯黄白色 直径 8.1mm 厚さ 3.9mm 質量 180mg"
+    },
+    {
+      "product_name": "イルアミクス配合錠HD「サンド」",
+      "strength": "イルベサルタン100mg/アムロジピン10mg",
+      "imprint_front": "イルアミクス HD サンド",
+      "imprint_back": "100 10",
+      "imprint_note": "刻印・印字は製剤の性状欄の外形図から読み取った。本文中に刻印の文章記載はない。",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 イルアミクス配合錠HD「サンド」 剤形 フィルムコーティング錠 色調 うすいだいだい色 直径 8.1mm 厚さ 3.9mm 質量 180mg"
+    }
+  ]
+}

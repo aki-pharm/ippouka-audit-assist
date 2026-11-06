@@ -1,0 +1,30 @@
+{
+  "id": "2171014G1232",
+  "source_file": "300119_2171014G1232_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2171014G1232_3_05",
+  "extracted_at": "2026-11-06T16:32:21.302Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19430,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンL錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW 083",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「SW 083」の表示あり。識別コードは SW 083。裏面の刻印は文章では記載なし。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 徐放性フィルムコーティング錠 / 性状 淡赤色 / 直径（mm） 6.1 / 厚さ（mm） 3.2 / 重量（mg） 約93 / 識別コード SW 083"
+    }
+  ]
+}

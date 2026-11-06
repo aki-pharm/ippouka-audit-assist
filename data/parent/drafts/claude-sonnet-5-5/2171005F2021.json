@@ -1,0 +1,30 @@
+{
+  "id": "2171005F2021",
+  "source_file": "270072_2171005F1068_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_2171005F1068_1_07",
+  "extracted_at": "2026-11-06T16:31:26.385Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10759,
+    "output": 680
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コメリアンコーワ錠100",
+      "strength": "100mg",
+      "imprint_front": "500",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード500（社名マークと併記）。裏面の刻印の有無は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2022年11月改訂",
+      "source_page": 1,
+      "source_quote": "割線を有する白色のフィルムコーティング錠である。 直径約8.7mm 厚さ約4.1mm 重量200mg 識別コード 500"
+    }
+  ]
+}

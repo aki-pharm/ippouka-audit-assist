@@ -1,0 +1,46 @@
+{
+  "id": "2149116F2043",
+  "source_file": "270428_2149116F1047_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2149116F1047_2_11",
+  "extracted_at": "2026-11-06T16:25:23.891Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26684,
+    "output": 1282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カムシア配合錠LD「サンド」",
+      "strength": "カンデサルタン シレキセチル8mg/アムロジピンとして2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの記載なし（外形図のみ）",
+      "color": "淡黄色",
+      "shape": null,
+      "size_long_mm": 8.5,
+      "size_short_mm": 5,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "カムシア配合錠LD「サンド」 剤形：素錠 色：淡黄色 大きさ：長径8.5mm 短径5.0mm 厚さ：3.2mm 重さ：125mg"
+    },
+    {
+      "product_name": "カムシア配合錠HD「サンド」",
+      "strength": "カンデサルタン シレキセチル8mg/アムロジピンとして5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの記載なし（外形図のみ）",
+      "color": "淡赤色",
+      "shape": null,
+      "size_long_mm": 8.5,
+      "size_short_mm": 5,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "カムシア配合錠HD「サンド」 剤形：素錠 色：淡赤色 大きさ：長径8.5mm 短径5.0mm 厚さ：3.3mm 重さ：130mg"
+    }
+  ]
+}

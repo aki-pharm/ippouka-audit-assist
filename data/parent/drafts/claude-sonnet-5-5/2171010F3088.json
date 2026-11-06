@@ -1,0 +1,30 @@
+{
+  "id": "2171010F3088",
+  "source_file": "460028_2171010F3088_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2171010F3088_1_05",
+  "extracted_at": "2026-11-06T16:32:05.525Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13054,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジピリダモール錠100mg「ツルハラ」",
+      "strength": "100mg",
+      "imprint_front": "TSU 647",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：TSU647。外形図では表面に「TSU 647」の表示あり。裏面・側面の刻印の記載は確認できない。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡赤色 外形 大きさ 直径 約7.1mm 厚さ 約3.7mm 質量 約125mg 識別コード TSU647"
+    }
+  ]
+}

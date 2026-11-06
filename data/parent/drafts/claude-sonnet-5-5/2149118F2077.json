@@ -1,0 +1,46 @@
+{
+  "id": "2149118F2077",
+  "source_file": "830001_2149118F1070_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2149118F1070_1_08",
+  "extracted_at": "2026-11-06T16:27:40.275Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31330,
+    "output": 1132
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルアミクス配合錠LD「YD」（イルベサルタン100mg・アムロジピンとして5mg）",
+      "strength": "イルベサルタン100mg/アムロジピン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文言に刻印・識別コードの記載なし（外形図に印字の表示あり）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～帯黄白色のフィルムコーティング錠　外形 直径 約8.1mm　厚さ 約3.9mm　重量 180mg"
+    },
+    {
+      "product_name": "イルアミクス配合錠HD「YD」（イルベサルタン100mg・アムロジピンとして10mg）",
+      "strength": "イルベサルタン100mg/アムロジピン10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文言に刻印・識別コードの記載なし（外形図に印字の表示あり）",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすいだいだい色のフィルムコーティング錠　外形 直径 約8.1mm　厚さ 約3.9mm　重量 180mg"
+    }
+  ]
+}

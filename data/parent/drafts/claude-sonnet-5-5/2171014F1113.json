@@ -1,0 +1,30 @@
+{
+  "id": "2171014F1113",
+  "source_file": "460028_2171014C1060_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2171014C1060_1_06",
+  "extracted_at": "2026-11-06T16:32:15.023Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17282,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピン錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図はあるが、刻印・識別コードの記載は確認できない",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 ニフェジピン錠10mg「ツルハラ」 剤形 フィルムコーティング錠 色調 淡橙色 大きさ 直径 約7.1mm 厚さ 約3.5mm 質量 約99.5mg"
+    }
+  ]
+}

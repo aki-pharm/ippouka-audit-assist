@@ -1,0 +1,30 @@
+{
+  "id": "2160005F1072",
+  "source_file": "480235_2160005F1072_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2160005F1072_1_04",
+  "extracted_at": "2026-11-06T16:30:45.741Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25608,
+    "output": 311
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エレトリプタン錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "エレトリプタン 20 トーワ",
+      "imprint_back": "エレトリプタン 20 トーワ",
+      "imprint_note": "本体表示として「エレトリプタン 20 トーワ」と記載。外形図では表裏とも表示あり。割線の記載なし。",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 だいだい色のフィルムコーティング錠 本体表示 エレトリプタン 20 トーワ 直径(mm) 6.6 厚さ(mm) 3.1 質量(mg) 108"
+    }
+  ]
+}

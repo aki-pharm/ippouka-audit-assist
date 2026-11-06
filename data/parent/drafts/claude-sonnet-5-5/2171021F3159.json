@@ -1,0 +1,30 @@
+{
+  "id": "2171021F3159",
+  "source_file": "830001_2171021F1105_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2171021F1105_1_11",
+  "extracted_at": "2026-11-06T16:33:46.155Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17068,
+    "output": 848
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベニジピン塩酸塩錠8mg「YD」",
+      "strength": "8mg",
+      "imprint_front": "YD 963",
+      "imprint_back": "8",
+      "imprint_note": "刻印は本文テキストになく、3.2 製剤の性状の外形図から読み取った。割線は片面のみ。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "黄色の片面割線入りフィルムコーティング錠　直径 約9.1mm　厚さ 約3.8mm　重量 258mg"
+    }
+  ]
+}

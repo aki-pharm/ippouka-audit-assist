@@ -1,0 +1,46 @@
+{
+  "id": "2149116F2051",
+  "source_file": "530100_2149116F1055_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149116F1055_1_09",
+  "extracted_at": "2026-11-06T16:25:23.434Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28881,
+    "output": 1141
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カムシア配合錠LD「ニプロ」",
+      "strength": "LD（カンデサルタン シレキセチル 8mg／アムロジピンとして 2.5mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の文章に刻印・識別コードの記載なし（外形図に印字らしき図はあるが文字は判読できず）",
+      "color": "淡黄色",
+      "shape": null,
+      "size_long_mm": 8.5,
+      "size_short_mm": 5,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "カムシア配合錠 LD「ニプロ」 淡黄色の素錠 （長径）8.5 （短径）5.0 3.2 125"
+    },
+    {
+      "product_name": "カムシア配合錠HD「ニプロ」",
+      "strength": "HD（カンデサルタン シレキセチル 8mg／アムロジピンとして 5mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の文章に刻印・識別コードの記載なし（外形図に印字らしき図はあるが文字は判読できず）",
+      "color": "淡赤色",
+      "shape": null,
+      "size_long_mm": 8.5,
+      "size_short_mm": 5,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "カムシア配合錠 HD「ニプロ」 淡赤色の素錠 （長径）8.5 （短径）5.0 3.3 130"
+    }
+  ]
+}

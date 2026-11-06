@@ -1,0 +1,30 @@
+{
+  "id": "2171021F3264",
+  "source_file": "530113_2171021F1261_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2171021F1261_1_03",
+  "extracted_at": "2026-11-06T16:33:51.138Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15956,
+    "output": 900
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベニジピン塩酸塩錠8mg「NS」",
+      "strength": "8mg",
+      "imprint_front": "NS 544",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NS 544。外形図の裏面側に「8」の表示があるように見えるが、文章での記載はないため裏は未確認",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の片面割線入りのフィルムコーティング錠　錠径：8.1mm　錠厚：3.9mm　識別コード NS 544"
+    }
+  ]
+}

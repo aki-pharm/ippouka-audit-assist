@@ -1,0 +1,46 @@
+{
+  "id": "2149118F2034",
+  "source_file": "370242_2149118F1038_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370242_2149118F1038_1_10",
+  "extracted_at": "2026-11-06T16:27:26.922Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29051,
+    "output": 1117
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルアミクス配合錠LD「DSPB」",
+      "strength": "イルベサルタン100mg/アムロジピン5mg",
+      "imprint_front": "DS517",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色のフィルムコーティング錠／直径(mm) 約8.1 厚さ(mm) 約3.7 重さ(mg) 約175／識別コード DS517"
+    },
+    {
+      "product_name": "イルアミクス配合錠HD「DSPB」",
+      "strength": "イルベサルタン100mg/アムロジピン10mg",
+      "imprint_front": "DS527",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすいだいだい色のフィルムコーティング錠／直径(mm) 約8.1 厚さ(mm) 約3.8 重さ(mg) 約182／識別コード DS527"
+    }
+  ]
+}

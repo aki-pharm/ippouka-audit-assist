@@ -1,0 +1,30 @@
+{
+  "id": "2171006F2026",
+  "source_file": "400315_2171006F1224_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2171006F1224_1_14",
+  "extracted_at": "2026-11-06T16:31:33.129Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21022,
+    "output": 730
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヘルベッサー錠60",
+      "strength": "60mg",
+      "imprint_front": "TA125",
+      "imprint_back": "60",
+      "imprint_note": "識別コードはTA125。外形図では表面にTA 125、裏面に60の表示あり（裏面の「60」は外形図からの読み取り）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・素錠（徐放錠） 識別コード TA125 サイズ 直径（mm）8.0 厚さ（mm）3.5 重量（g）0.185"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2160005F1110",
+  "source_file": "730869_2160005F1110_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2160005F1110_1_03",
+  "extracted_at": "2026-11-06T16:30:54.448Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24862,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エレトリプタン錠20mg「VTRS」",
+      "strength": "20mg",
+      "imprint_front": "ELT 20",
+      "imprint_back": "ELT 20",
+      "imprint_note": "識別コード「ELT 20」。外形の上面・下面に表示（図中の表記）。側面の刻印は未確認。",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "外形 識別コード 色調等 上面 下面 側面 ELT 20 だいだい色 フィルムコート錠 直径 6.3mm 厚さ 3.0mm 重量 104mg"
+    }
+  ]
+}

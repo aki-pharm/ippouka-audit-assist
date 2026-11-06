@@ -1,0 +1,30 @@
+{
+  "id": "2171006N1148",
+  "source_file": "300119_2171006N1148_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2171006N1148_1_09",
+  "extracted_at": "2026-11-06T16:31:43.307Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19285,
+    "output": 823
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジルチアゼム塩酸塩Rカプセル100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW-725",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤（徐放カプセル）、外形は4号。識別コードはSW-725と記載されているが、表裏の別は本文に記載なし。",
+      "color": "頭部：白色不透明、胴部：白色不透明、内容物：白色～帯黄白色の粒",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "外形 4号／剤形 硬カプセル剤（徐放カプセル）／性状 頭部：白色不透明 胴部：白色不透明 内容物：白色～帯黄白色の粒／全長（mm） 14.2／識別コード SW-725"
+    }
+  ]
+}

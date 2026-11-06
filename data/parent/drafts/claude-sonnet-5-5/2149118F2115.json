@@ -1,0 +1,46 @@
+{
+  "id": "2149118F2115",
+  "source_file": "300119_2149118F1119_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149118F1119_1_06",
+  "extracted_at": "2026-11-06T16:27:49.405Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28943,
+    "output": 1195
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルアミクス配合錠LD「サワイ」",
+      "strength": "イルベサルタン100mg/アムロジピンとして5mg",
+      "imprint_front": "SW イルアミクス LD",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。裏面の刻印は文章では明記なし（外形図には両面が描かれている）。割線の記載なし",
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色〜帯黄白色 直径（mm） 8.1 厚さ（mm） 3.7 重量（mg） 約185 本体表示 SW イルアミクス LD"
+    },
+    {
+      "product_name": "イルアミクス配合錠HD「サワイ」",
+      "strength": "イルベサルタン100mg/アムロジピンとして10mg",
+      "imprint_front": "SW イルアミクス HD",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。裏面の刻印は文章では明記なし（外形図には両面が描かれている）。割線の記載なし",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 うすいだいだい色 直径（mm） 8.1 厚さ（mm） 3.7 重量（mg） 約182 本体表示 SW イルアミクス HD"
+    }
+  ]
+}

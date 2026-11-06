@@ -1,0 +1,30 @@
+{
+  "id": "2171020F2026",
+  "source_file": "400315_2171020F1020_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2171020F1020_2_09",
+  "extracted_at": "2026-11-06T16:33:25.987Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16005,
+    "output": 824
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バイロテンシン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "Y-BL10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載は Y-BL10。外形図では表面に Y と BL10 の2段表示。裏面の刻印の有無は文章に記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "バイロテンシン錠10mg 性状・剤形：淡黄色・フィルムコーティング錠 識別コード：Y-BL10 サイズ：直径(mm) 6.2 厚さ(mm) 3.1 重量(mg) 89"
+    }
+  ]
+}

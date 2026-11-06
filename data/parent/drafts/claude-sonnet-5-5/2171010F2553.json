@@ -1,0 +1,30 @@
+{
+  "id": "2171010F2553",
+  "source_file": "785117_2171010F2553_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/785117_2171010F2553_2_02",
+  "extracted_at": "2026-11-06T16:32:01.035Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14711,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペルサンチン錠25mg",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図には表面に何らかの印字があるように見えるが、文字としての記載はなく識別コードは未確認",
+      "color": "橙赤色",
+      "shape": "round",
+      "size_long_mm": 6.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 橙赤色の糖衣錠 外 形 直 径 6. 3㎜ 厚 さ 3. 3㎜ 重 さ 0. 095g"
+    }
+  ]
+}

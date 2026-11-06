@@ -1,0 +1,30 @@
+{
+  "id": "2160003F1090",
+  "source_file": "830001_2160003F1090_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2160003F1090_1_09",
+  "extracted_at": "2026-11-06T16:30:16.618Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22331,
+    "output": 776
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スマトリプタン錠50mg「YD」",
+      "strength": "50mg",
+      "imprint_front": "YD 253",
+      "imprint_back": "未確認",
+      "imprint_note": "表の識別コードは文章では記載がなく、外形図から読み取った。裏面の刻印は文章に記載がない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 外形 直径 約7.6mm 厚さ 約3.5mm 重量 153mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2171021F3116",
+  "source_file": "530372_2171021F1067_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2171021F1067_2_09",
+  "extracted_at": "2026-11-06T16:33:37.218Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17454,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベニジピン塩酸塩錠8mg「NPI」",
+      "strength": "8mg",
+      "imprint_front": "NPI 117",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは「NPI　117」。外形図の表に印字、裏は無地。側面図に割線の形状あり。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 割線入りの黄色のフィルムコーティング錠　直径 8.1mm　厚さ 3.6mm　重量 200mg　識別コード NPI　117"
+    }
+  ]
+}

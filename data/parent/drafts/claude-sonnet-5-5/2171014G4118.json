@@ -1,0 +1,30 @@
+{
+  "id": "2171014G4118",
+  "source_file": "380087_2171014G3111_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2171014G3111_1_05",
+  "extracted_at": "2026-11-06T16:32:56.970Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26053,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンCR錠20mg「ZE」",
+      "strength": "20mg",
+      "imprint_front": "ZE102",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に「ZE 102」と表示。識別コード欄にZE102と記載。裏面の刻印は文章では確認できない",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 7.8,
+      "size_short_mm": 7.8,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 淡赤色／剤形 フィルムコーティング錠（徐放錠）／錠径（mm） 7.8／厚み（mm） 4.3／重量（mg） 170.5／識別コード ZE102"
+    }
+  ]
+}

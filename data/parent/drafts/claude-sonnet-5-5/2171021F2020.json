@@ -1,0 +1,30 @@
+{
+  "id": "2171021F2020",
+  "source_file": "230124_2171021F1024_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_2171021F1024_1_23",
+  "extracted_at": "2026-11-06T16:33:35.946Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16343,
+    "output": 1019
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コニール錠4",
+      "strength": "4mg",
+      "imprint_front": "KH209",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは錠剤本体とPTPシートに表示。裏面の刻印は本文に記載がなく、割線の有無も本文に明記がないため未確認（score_line は null）。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2021年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 コニール錠4 直径（mm）7.1 厚さ（mm）3.3 重量（g）0.13 色調 剤皮 黄色 フィルムコーティング錠 識別コード KH209（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

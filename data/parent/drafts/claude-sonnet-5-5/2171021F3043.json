@@ -1,0 +1,30 @@
+{
+  "id": "2171021F3043",
+  "source_file": "780075_2171021F1113_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_2171021F1113_1_08",
+  "extracted_at": "2026-11-06T16:33:33.340Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16960,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベニジピン塩酸塩錠8mg「サワイ」",
+      "strength": "8mg",
+      "imprint_front": "SW BN8",
+      "imprint_back": "8",
+      "imprint_note": "外形図より、表面にSW BN8、裏面に8の表示。識別表示欄には「SW BN8」と記載。割線入りフィルムコーティング錠。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠　性状 黄色　直径（mm）8.1　厚さ（mm）3.9　識別表示 SW BN8"
+    }
+  ]
+}

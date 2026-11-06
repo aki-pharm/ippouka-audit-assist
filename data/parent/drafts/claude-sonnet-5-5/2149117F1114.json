@@ -1,0 +1,46 @@
+{
+  "id": "2149117F1114",
+  "source_file": "581120_2149117F1114_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149117F1114_1_04",
+  "extracted_at": "2026-11-06T16:26:09.174Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31821,
+    "output": 1202
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テラムロ配合錠AP「NIG」",
+      "strength": "テルミサルタン40mg・アムロジピン5mg（アムロジピンベシル酸塩6.93mg）",
+      "imprint_front": "TV TAP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」の欄に記載。錠剤本体の表裏の別は文章では記載なし",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡赤色のフィルムコーティング錠 直径 8.6mm 厚さ 4.3mm 質量 245mg 識別コード（PTP） TV TAP"
+    },
+    {
+      "product_name": "テラムロ配合錠BP「NIG」",
+      "strength": "テルミサルタン80mg・アムロジピン5mg（アムロジピンベシル酸塩6.93mg）",
+      "imprint_front": "TV TBP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」の欄に記載。錠剤本体の表裏の別は文章では記載なし",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡赤色のフィルムコーティング錠 直径 11.1mm 厚さ 5.2mm 質量 490mg 識別コード（PTP） TV TBP"
+    }
+  ]
+}
