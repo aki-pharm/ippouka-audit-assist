@@ -1,0 +1,30 @@
+{
+  "id": "2359007F1020",
+  "source_file": "340018_2359007F1020_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_2359007F1020_1_07",
+  "extracted_at": "2026-11-06T17:01:02.286Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18798,
+    "output": 882
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スインプロイク錠 0.2mg",
+      "strength": "0.2mg",
+      "imprint_front": "222",
+      "imprint_back": "0.2",
+      "imprint_note": "外形図・識別コード欄（図の表記）に基づく。表面は社名マークと「222」、裏面は「0.2」。本文テキストには識別コードの文字がなく、図から読み取った。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の円形のフィルムコーティング錠である。 大きさ 直径 約 6.5mm 厚さ 約 3.5mm"
+    }
+  ]
+}

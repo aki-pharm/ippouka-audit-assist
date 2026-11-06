@@ -1,0 +1,30 @@
+{
+  "id": "2399005F1183",
+  "source_file": "530258_2399005F1183_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2399005F1183_3_05",
+  "extracted_at": "2026-11-06T17:02:12.023Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16855,
+    "output": 785
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドンペリドン錠5mg「EMEC」",
+      "strength": "5mg",
+      "imprint_front": "EE29",
+      "imprint_back": "5",
+      "imprint_note": "表の識別コード欄はEE29。裏面の「5」は外形図の表示による",
+      "color": "白色の素錠",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ドンペリドン錠5mg「EMEC」 白色の素錠 EE29 8.0 3.2 165"
+    }
+  ]
+}

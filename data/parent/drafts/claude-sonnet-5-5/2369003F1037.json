@@ -1,0 +1,30 @@
+{
+  "id": "2369003F1037",
+  "source_file": "180095_2369003F1037_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2369003F1037_3_01",
+  "extracted_at": "2026-11-06T17:01:31.338Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9013,
+    "output": 246
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スパカール錠40mg",
+      "strength": "40mg",
+      "imprint_front": "OH-251",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード OH-251。外形図では表面に「OH 251」の表示あり、裏面は無地",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色・素錠 / 大きさ 直径：7.6mm　厚さ：2.9mm / 識別コード OH-251"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2359008F1025",
+  "source_file": "111890_2359008F1025_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/111890_2359008F1025_2_06",
+  "extracted_at": "2026-11-06T17:00:56.368Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14871,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グーフィス錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の表面・裏面に印字（グーフィス）らしき図が見られるが、本文テキストには刻印の記載がないため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2022年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "グーフィス錠5mg フィルムコーティング錠 淡黄色 直径 約6.1mm 厚み 約3.9mm 重量 約110.3mg"
+    }
+  ]
+}

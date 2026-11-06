@@ -1,0 +1,30 @@
+{
+  "id": "2362001F2220",
+  "source_file": "480235_2362001F1118_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2362001F1118_1_07",
+  "extracted_at": "2026-11-06T17:01:27.683Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18380,
+    "output": 968
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウルソデオキシコール酸錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "TwU02",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは表面（外形図でTw/U02）。裏面は外形図で割線のみ。形状の文章記載はなく、直径の記載と外形図から円形と判断。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "片面割線入りの白色素錠で、においはなく、味は苦い。（識別コード TwU02、直径8.0mm、厚さ2.7mm、質量150mg）"
+    }
+  ]
+}

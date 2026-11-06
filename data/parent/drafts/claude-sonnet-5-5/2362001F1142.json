@@ -1,0 +1,30 @@
+{
+  "id": "2362001F1142",
+  "source_file": "581120_2362001F1142_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2362001F1142_1_05",
+  "extracted_at": "2026-11-06T17:01:11.608Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18500,
+    "output": 284
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウルソデオキシコール酸錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "US 50",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード（PTP）：US 50mg。外形図では錠剤表面に「US 50」の表示あり。裏面の刻印の記載は確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 ／ 直径 6.0mm ／ 厚さ 2.2mm ／ 質量 70mg ／ 識別コード（PTP） US US"
+    }
+  ]
+}

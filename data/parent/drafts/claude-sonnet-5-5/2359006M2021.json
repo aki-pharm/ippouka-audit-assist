@@ -1,0 +1,30 @@
+{
+  "id": "2359006M2021",
+  "source_file": "671450_2359006M1025_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2359006M1025_3_04",
+  "extracted_at": "2026-11-06T17:00:50.164Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15265,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アミティーザカプセル12μg",
+      "strength": "12μg",
+      "imprint_front": "SPI AB",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに表示。軟カプセル。内容液：無色～微黄色澄明の液",
+      "color": "白色不透明（カプセル）",
+      "shape": "oval",
+      "size_long_mm": 9.5,
+      "size_short_mm": 6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アミティーザカプセル12μg SPI AB（PTPに表示） カプセル：だ円球形の白色不透明 内容液：無色～微黄色澄明の液 軟カプセル（9.5mm×6.0mm）"
+    }
+  ]
+}

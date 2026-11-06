@@ -1,0 +1,30 @@
+{
+  "id": "2344009F3038",
+  "source_file": "731040_2344009F1035_7_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/731040_2344009F1035_7_06",
+  "extracted_at": "2026-11-06T17:00:26.490Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14783,
+    "output": 886
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マグミット錠200mg",
+      "strength": "200mg",
+      "imprint_front": "マグミット 200",
+      "imprint_back": "マグミット 200",
+      "imprint_note": "外形図に表示された文字を読み取ったもの。文字色は紫。側面の表示は未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "マグミット錠100mg、200mg、250mg、330mg、500mg：白色・円形の素錠 ／ マグミット錠200mg 7.5（直径mm） 3.4（厚さmm） 232（質量mg） 紫（文字色）"
+    }
+  ]
+}

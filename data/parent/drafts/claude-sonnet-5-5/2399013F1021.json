@@ -1,0 +1,30 @@
+{
+  "id": "2399013F1021",
+  "source_file": "230034_2399013F1021_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2399013F1021_1_13",
+  "extracted_at": "2026-11-06T17:03:24.322Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21899,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サラジェン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "社名マーク（Ⓚ）",
+      "imprint_back": "S5",
+      "imprint_note": "識別コード欄に「Ⓚ S5」と記載。表面は社名マーク、裏面は S5。側面は外形図のみ。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 外形 表面 裏面 側面 直径 約6.4mm 厚さ 約3.5mm 質量 約113.5mg 識別コード Ⓚ S5"
+    }
+  ]
+}

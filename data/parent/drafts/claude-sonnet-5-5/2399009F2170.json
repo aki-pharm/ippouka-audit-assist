@@ -1,0 +1,30 @@
+{
+  "id": "2399009F2170",
+  "source_file": "581120_2399009F1181_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2399009F1181_3_01",
+  "extracted_at": "2026-11-06T17:02:43.210Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23195,
+    "output": 899
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メサラジン徐放錠500mg「日医工P」",
+      "strength": "500mg",
+      "imprint_front": "t 30",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード「t 30」。包装コードは「t 030」。裏面の刻印は本文に記載がなく、外形図でも確認できないため未確認",
+      "color": "白色～淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.7,
+      "size_short_mm": 7.2,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "両面1/2割線入りのフィルムコーティング錠（徐放錠）　色調 白色～淡黄白色　直径（mm） 18.7×7.2　厚さ（mm） 5.7　質量（mg） 756.66　本体コード t 30　包装コード t 030"
+    }
+  ]
+}

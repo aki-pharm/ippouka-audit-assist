@@ -1,0 +1,30 @@
+{
+  "id": "2419001F3026",
+  "source_file": "670666_2419001F1023_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670666_2419001F1023_1_18",
+  "extracted_at": "2026-11-06T17:04:04.301Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19781,
+    "output": 619
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミニリンメルト®OD錠 60µg",
+      "strength": "60µg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図のみで、刻印・識別コードの文字での記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 12,
+      "size_short_mm": 12,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の口腔内崩壊錠 / 大きさ 直径12mm×厚さ3mm"
+    }
+  ]
+}

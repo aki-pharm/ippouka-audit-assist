@@ -1,0 +1,30 @@
+{
+  "id": "2399020F1021",
+  "source_file": "672212_2399020F1021_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2399020F1021_1_02",
+  "extracted_at": "2026-11-06T17:03:56.986Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25293,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベルスピティ錠2mg",
+      "strength": "2mg",
+      "imprint_front": "ETR 2",
+      "imprint_back": "ETR",
+      "imprint_note": "識別コード欄は「ETR 2」。外形の図は上面「2」、下面「ETR」、側面は無地。割線の記載なし。",
+      "color": "緑色のフィルムコーティング錠",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ベルスピティ錠2mg 上面 下面 側面 ETR 2 緑色のフィルムコーティング錠 直径：6.4mm、厚さ：3.6mm"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2399005F4026",
+  "source_file": "230124_2399005F3020_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_2399005F3020_1_09",
+  "extracted_at": "2026-11-06T17:02:17.697Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18156,
+    "output": 374
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナウゼリンOD錠10",
+      "strength": "10mg",
+      "imprint_front": "KH313",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは錠剤本体およびPTPシートに表示。表面にKH/313の印字あり。裏面の刻印は記載なし（図上は無地）。",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 ナウゼリンOD錠5 ナウゼリンOD錠10 直径（mm） 6.0 7.0 厚さ（mm） 2.3 2.6 重量（g） 0.08 0.12 色調 剤皮 ごくうすい黄色 素錠 ごくうすい黄色 素錠 識別コード KH312（錠剤本体、PTPシートに表示） KH313（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2354002F1030",
+  "source_file": "270072_2354002F1030_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_2354002F1030_1_09",
+  "extracted_at": "2026-11-06T17:00:41.769Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7734,
+    "output": 591
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アジャストAコーワ錠40mg",
+      "strength": "40mg",
+      "imprint_front": "010",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード010（図では社名マーク（Kowa）と併記）。裏面の刻印は文書に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の糖衣錠である。 直径約7.1mm、厚さ約4.2mm、重量170mg 識別コード 010"
+    }
+  ]
+}

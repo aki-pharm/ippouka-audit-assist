@@ -1,0 +1,30 @@
+{
+  "id": "2399009F4024",
+  "source_file": "790005_2399009F4024_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_2399009F4024_1_15",
+  "extracted_at": "2026-11-06T17:02:57.925Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23057,
+    "output": 736
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リアルダ錠1200mg",
+      "strength": "1200mg",
+      "imprint_front": "S476",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード S476。外形図の上面に表示。下面の刻印は文章で明記されていないため未確認",
+      "color": "赤褐色",
+      "shape": "oval",
+      "size_long_mm": 20.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 7.6,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "性状 赤褐色で楕円形のフィルムコーティング錠（腸溶錠）／識別コード S476（外形図：20.7mm、9.7mm、厚さ7.6mm、重量1385mg）"
+    }
+  ]
+}

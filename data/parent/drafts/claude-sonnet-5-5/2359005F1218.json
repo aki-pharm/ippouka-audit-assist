@@ -1,0 +1,30 @@
+{
+  "id": "2359005F1218",
+  "source_file": "470310_2359005F1218_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_2359005F1218_1_07",
+  "extracted_at": "2026-11-06T17:00:51.496Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8425,
+    "output": 762
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラキソベロン錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "ラキソベロン",
+      "imprint_back": "ラキソベロン",
+      "imprint_note": "本文に刻印の記載はなし。外形図の表面・裏面に「ラキソベロン」の文字表示あり（図から読み取り）。外形図に約6.1mm（直径）、約2.8mm（厚さ）、質量約82mgの記載あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2022年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色、円形のフィルムコーティング錠で、におい及び味はない"
+    }
+  ]
+}

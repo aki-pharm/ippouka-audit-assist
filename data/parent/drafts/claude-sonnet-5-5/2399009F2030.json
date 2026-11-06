@@ -1,0 +1,30 @@
+{
+  "id": "2399009F2030",
+  "source_file": "670666_2399009F1149_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670666_2399009F1149_3_02",
+  "extracted_at": "2026-11-06T17:02:33.460Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20681,
+    "output": 316
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペンタサ錠500mg",
+      "strength": "500mg",
+      "imprint_front": "KP-011",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄にはKP-011と記載。外形図には「KP 011」の表示あり。裏面の刻印は文書上明記なし",
+      "color": "灰白色～淡灰黄色の斑点入りの白色～淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 17,
+      "size_short_mm": 7.2,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "灰白色～淡灰黄色の斑点入りの白色～淡黄色の素錠で、割線を有する。 長径：17.0mm 短径：7.2mm 厚さ：5.1mm 質量：約750mg 識別コード KP-011"
+    }
+  ]
+}

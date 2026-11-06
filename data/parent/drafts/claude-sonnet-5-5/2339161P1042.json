@@ -1,0 +1,30 @@
+{
+  "id": "2339161P1042",
+  "source_file": "580825_2339161P1042_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580825_2339161P1042_2_03",
+  "extracted_at": "2026-11-06T17:00:07.439Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 6137,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェンラーゼ配合カプセル",
+      "strength": "1カプセル",
+      "imprint_front": "650",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード 650、包装コード 650（社名マーク付き）。外形図に650と社名マークの印字あり。表裏の区別は記載なし",
+      "color": "キャップ：淡緑色不透明、ボディ：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色調 キャップ：淡緑色不透明 ボディ：白色不透明 大きさ 3号カプセル 本体コード 650 包装コード 650"
+    }
+  ]
+}

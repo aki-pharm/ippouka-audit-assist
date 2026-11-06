@@ -1,0 +1,30 @@
+{
+  "id": "2399010F2024",
+  "source_file": "400093_2399010B1034_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_2399010B1034_1_14",
+  "extracted_at": "2026-11-06T17:03:02.249Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13529,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガスモチン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "P218",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード P218。表裏の別は本文に明記なし（外形図には「P218」と「5」の表示あり）。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 9.2,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年8月改訂(第4版)",
+      "source_page": 1,
+      "source_quote": "剤形 白色の割線入りフィルムコート錠 / 大きさ 短・長径(mm) 約4.7・約9.2、厚さ(mm) 約3.6、重さ(mg) 約135 / 識別コード P218"
+    }
+  ]
+}

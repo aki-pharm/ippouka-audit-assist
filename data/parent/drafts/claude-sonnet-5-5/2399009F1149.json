@@ -1,0 +1,30 @@
+{
+  "id": "2399009F1149",
+  "source_file": "670666_2399009F1149_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670666_2399009F1149_3_02",
+  "extracted_at": "2026-11-06T17:02:26.597Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20681,
+    "output": 307
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペンタサ錠250mg",
+      "strength": "250mg",
+      "imprint_front": "KP-007",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「KP-007」と記載。表裏の区別は本文に明記なし（外形図に「KP」「007」の表示あり）",
+      "color": "灰白色～淡灰黄色の斑点入りの白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "灰白色～淡灰黄色の斑点入りの白色～淡黄色の素錠で、割線を有する。 直径：9.5mm 厚さ：4.6mm 質量：約375mg 識別コード KP-007"
+    }
+  ]
+}

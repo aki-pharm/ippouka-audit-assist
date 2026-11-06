@@ -1,0 +1,30 @@
+{
+  "id": "2391008M1030",
+  "source_file": "530191_2391008M1030_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_2391008M1030_1_02",
+  "extracted_at": "2026-11-06T17:01:51.101Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31801,
+    "output": 1026
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アプレピタントカプセル80mg「NK」",
+      "strength": "80mg",
+      "imprint_front": "アプレピタント 80mg NK（外形図の印字）",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル剤（3号）。刻印は外形図に印字されているが、本文には記載がなく、表裏の区別は未確認。大きさは全長15.8mmのみで、短径・厚さの記載なし。質量は約225mg。",
+      "color": "頭部：白色不透明、胴部：白色不透明、内容物：白色～灰白色の顆粒又は粉末",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "硬カプセル剤　頭部：白色不透明　胴部：白色不透明　内容物：白色～灰白色の顆粒又は粉末　全長（mm）15.8　質量（mg）約225　外形：3号"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2431004F1056",
+  "source_file": "470007_2431004F1056_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2431004F1056_1_06",
+  "extracted_at": "2026-11-06T17:04:16.795Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15131,
+    "output": 637
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チラーヂンS錠50μg",
+      "strength": "50μg",
+      "imprint_front": "TZ224",
+      "imprint_back": "50",
+      "imprint_note": "識別コードはTZ224。表面にTZ 224、裏面に50の印字が外形図に描かれている。割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "チラーヂンS錠50μg 白色素錠（割線入り） TZ224 直径6.5mm 厚さ2.4mm 質量100mg"
+    }
+  ]
+}

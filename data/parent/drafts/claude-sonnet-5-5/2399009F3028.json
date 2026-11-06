@@ -1,0 +1,30 @@
+{
+  "id": "2399009F3028",
+  "source_file": "380077_2399009F3028_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380077_2399009F3028_1_14",
+  "extracted_at": "2026-11-06T17:02:47.306Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17401,
+    "output": 811
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アサコール錠400mg",
+      "strength": "400mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはZP65だが、PTPに記載とあり、錠剤本体の刻印の記載は未確認",
+      "color": "帯赤褐色～褐色",
+      "shape": "oblong",
+      "size_long_mm": 14.7,
+      "size_short_mm": 5.9,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 帯赤褐色～褐色のpH依存放出性フィルムコーティング錠 / 大きさ（mm） 14.7（長径）、5.9（短径） / 厚さ（mm） 6.5 / 識別コード ZP65（PTPに記載）"
+    }
+  ]
+}

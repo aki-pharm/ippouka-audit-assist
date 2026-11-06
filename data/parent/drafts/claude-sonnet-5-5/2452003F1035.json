@@ -1,0 +1,30 @@
+{
+  "id": "2452003F1035",
+  "source_file": "112268_2452003F1035_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112268_2452003F1035_2_07",
+  "extracted_at": "2026-11-06T17:04:31.274Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15607,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フロリネフ錠0.1mg",
+      "strength": "0.1mg",
+      "imprint_front": "FT01",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に割線のような線が描かれているが、文言としての記載はなし。識別コードはFT01（表面のFT01の記載位置は外形図より）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 フロリネフ錠0.1mg 剤形 素錠 色調 白色 外形 直径 6.4mm 厚さ 3.0mm 質量 0.1g 識別コード FT01"
+    }
+  ]
+}

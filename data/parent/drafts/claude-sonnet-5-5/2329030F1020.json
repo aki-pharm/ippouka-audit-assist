@@ -1,0 +1,30 @@
+{
+  "id": "2329030F1020",
+  "source_file": "400256_2329030F1020_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_2329030F1020_1_16",
+  "extracted_at": "2026-11-06T16:59:46.567Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30665,
+    "output": 802
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タケキャブ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "タケキャブ10",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤表示欄に「タケキャブ10」と記載。下面の刻印の有無は本文に明記なし",
+      "color": "微黄色",
+      "shape": "oval",
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 微黄色のフィルムコーティング錠／製剤表示 タケキャブ10／長径（mm）8.2／短径（mm）4.7／厚さ（mm）約3.4"
+    }
+  ]
+}

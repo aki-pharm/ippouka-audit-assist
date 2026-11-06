@@ -1,0 +1,30 @@
+{
+  "id": "2391004F1024",
+  "source_file": "171911_2391004F1024_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_2391004F1024_2_03",
+  "extracted_at": "2026-11-06T17:01:42.232Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11760,
+    "output": 369
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナゼアOD錠0.1mg",
+      "strength": "0.1mg",
+      "imprint_front": "LT 016",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「シート記載」と記載あり。錠剤本体への刻印かは不明。表面・裏面の識別コードは図のみで文字は読み取れない。",
+      "color": "曲面側：うすい赤みの黄色、平面側：くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊錠 色調 曲面側：うすい赤みの黄色 平面側：くすんだ赤みの黄色 大きさ 直径 8.5mm 厚さ 4.0mm 質量 0.17g 識別コード 016（シート記載） 本剤は、頂部が扁平な半球状の錠剤である。"
+    }
+  ]
+}

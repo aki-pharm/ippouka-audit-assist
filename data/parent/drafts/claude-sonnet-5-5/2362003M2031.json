@@ -1,0 +1,30 @@
+{
+  "id": "2362003M2031",
+  "source_file": "670142_2362003M2031_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670142_2362003M2031_1_07",
+  "extracted_at": "2026-11-06T17:01:25.077Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9530,
+    "output": 344
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チノカプセル125",
+      "strength": "125mg",
+      "imprint_front": "CHINO",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：CHINO（カプセルに表示）、FPF441（PTPシートに表示）。本剤は錠剤ではなく硬カプセル剤。カプセル本体の裏表の区別は記載なし",
+      "color": "緑色不透明（上部下部とも）、内容物は白色の粉末",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外観・性状 上部下部とも緑色不透明の3号硬カプセル（内容物は白色の粉末） 識別コード CHINO（カプセルに表示） FPF441（PTPシートに表示） 外形等 長径：約15.8mm 短径：約5.8mm"
+    }
+  ]
+}

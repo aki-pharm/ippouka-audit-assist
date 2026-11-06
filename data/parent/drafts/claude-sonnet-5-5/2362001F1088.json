@@ -1,0 +1,30 @@
+{
+  "id": "2362001F1088",
+  "source_file": "400315_2362001F1088_2_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2362001F1088_2_13",
+  "extracted_at": "2026-11-06T17:01:08.001Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17616,
+    "output": 740
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウルソ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "234",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは社名マークと「234」の併記（⌽234）。裏面の刻印は文章では確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ウルソ錠50mg 白色・においなし・素錠 識別コード 234 サイズ 直径6.0mm 厚さ約2.4mm 重量75mg"
+    }
+  ]
+}

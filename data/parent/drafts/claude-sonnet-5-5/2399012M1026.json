@@ -1,0 +1,30 @@
+{
+  "id": "2399012M1026",
+  "source_file": "530258_2399012M1026_4_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2399012M1026_4_03",
+  "extracted_at": "2026-11-06T17:03:17.438Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13419,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エボザックカプセル30mg",
+      "strength": "30mg",
+      "imprint_front": "エボザック 30",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形はカプセル（3号）であり錠剤ではない。識別コードは添付文書の表に記載。表裏の区別は記載なし。",
+      "color": "キャップ：黄色、ボディー：白色（白色の粉末を充填）",
+      "shape": "oblong",
+      "size_long_mm": 16,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "キャップ：黄色 ボディー：白色（白色の粉末を充填）・カプセル（3号） 長径16mm 質量271mg 識別コード エボザック 30"
+    }
+  ]
+}

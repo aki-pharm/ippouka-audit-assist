@@ -1,0 +1,30 @@
+{
+  "id": "2362001F1118",
+  "source_file": "480235_2362001F1118_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2362001F1118_1_07",
+  "extracted_at": "2026-11-06T17:01:12.970Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18380,
+    "output": 807
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウルソデオキシコール酸錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "TwU01",
+      "imprint_back": "50",
+      "imprint_note": "表は識別コード（Tw/U01）、裏は「50」。裏の「50」は外形図から読み取った。外形図では割線は確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色、円形、レンズ状の素錠である。 識別コード TwU01 直径(mm) 6.0 厚さ(mm) 2.9 質量(mg) 75"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2399008F1020",
+  "source_file": "671450_2399008F1020_7_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2399008F1020_7_04",
+  "extracted_at": "2026-11-06T17:02:19.951Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10554,
+    "output": 251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガナトン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "HC 803",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはHC803。上面に「HC 803」の表示。下面は割線。フィルムコーティング錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.3,
+      "size_short_mm": 7.3,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ガナトン錠50mg HC803 白色 割線入り フィルムコーティング錠 直径 7.3mm 厚さ 3.1mm 重量 130mg"
+    }
+  ]
+}

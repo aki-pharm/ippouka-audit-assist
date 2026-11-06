@@ -1,0 +1,30 @@
+{
+  "id": "2399005F2023",
+  "source_file": "230124_2399005F1027_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_2399005F1027_1_21",
+  "extracted_at": "2026-11-06T17:02:07.386Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17714,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナウゼリン錠10",
+      "strength": "10mg",
+      "imprint_front": "KH306",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは錠剤本体、PTPシートに表示。裏面の刻印は記載なし（図では無地）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 ナウゼリン錠10 直径(mm) 7.1 厚さ(mm) 3.4 重量(g) 0.11 色調 白色 剤皮 フィルムコーティング錠 識別コード KH306（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

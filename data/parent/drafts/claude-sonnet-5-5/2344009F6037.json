@@ -1,0 +1,30 @@
+{
+  "id": "2344009F6037",
+  "source_file": "830039_2344009F3046_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830039_2344009F3046_1_07",
+  "extracted_at": "2026-11-06T17:00:37.778Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16429,
+    "output": 615
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "酸化マグネシウム錠400mg「ヨシダ」",
+      "strength": "400mg",
+      "imprint_front": "YO MG 4",
+      "imprint_back": "400",
+      "imprint_note": "本体表示。文字色の欄は「－」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠／直径（mm）9.5／厚さ（mm）4.7／本体表示 表面 YO MG 4、裏面 400／文字色 －"
+    }
+  ]
+}

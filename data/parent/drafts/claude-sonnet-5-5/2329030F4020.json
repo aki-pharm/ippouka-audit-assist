@@ -1,0 +1,30 @@
+{
+  "id": "2329030F4020",
+  "source_file": "400256_2329030F3023_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_2329030F3023_1_06",
+  "extracted_at": "2026-11-06T16:59:55.438Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31809,
+    "output": 787
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タケキャブOD錠20mg",
+      "strength": "20mg",
+      "imprint_front": "タケキャブ",
+      "imprint_back": "OD 20",
+      "imprint_note": "製剤表示は「タケキャブ OD20」。上面が「タケキャブ」、下面が「OD 20」の印字（図より）。両面に割線あり。",
+      "color": "白色～ほとんど白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2026年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～ほとんど白色の両面割線入りの素錠／製剤表示 タケキャブ OD20／直径（mm）約10.1／厚さ（mm）約4.5"
+    }
+  ]
+}

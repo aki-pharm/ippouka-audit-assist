@@ -1,0 +1,30 @@
+{
+  "id": "2399008F1110",
+  "source_file": "300119_2399008F1110_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2399008F1110_1_05",
+  "extracted_at": "2026-11-06T17:02:21.806Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10803,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イトプリド塩酸塩錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW ITD50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード SW ITD50。外形図には「SW ITD50」の表示、「50」の表示および側面図あり。割線入りフィルムコーティング錠。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 割線入りフィルムコーティング錠 性 状 白色 直径（mm） 7.4 厚さ（mm） 3.1 重量（mg） 約130 識別コード SW ITD50"
+    }
+  ]
+}

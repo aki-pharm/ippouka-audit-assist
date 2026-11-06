@@ -1,0 +1,30 @@
+{
+  "id": "2399011F1030",
+  "source_file": "671450_2399011C1050_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2399011C1050_3_03",
+  "extracted_at": "2026-11-06T17:03:14.370Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12156,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ポリフル錠500mg",
+      "strength": "500mg",
+      "imprint_front": "HC237",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード HC237 は上面に表示。下面の刻印の記載はないが、外形図では下面に表示なし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": 7.6,
+      "thickness_mm": 5.9,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ポリフル錠500mg HC237 白色 フィルムコーティング錠 長径17.8mm 短径7.6mm 厚さ5.9mm 重量785mg"
+    }
+  ]
+}

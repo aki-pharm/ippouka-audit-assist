@@ -1,0 +1,30 @@
+{
+  "id": "2399009F2188",
+  "source_file": "480235_2399009F1190_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2399009F1190_1_06",
+  "extracted_at": "2026-11-06T17:02:44.874Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22920,
+    "output": 836
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メサラジン徐放錠500mg「トーワ」",
+      "strength": "500mg",
+      "imprint_front": "Tw026",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード Tw026。両面1/2割線入り。裏面の刻印は本文に記載なし",
+      "color": "白色～淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.7,
+      "size_short_mm": 7.2,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の両面1/2割線入りフィルムコーティング錠（徐放錠）／識別コード Tw026／18.7／7.2（長径／短径）／厚さ 5.7mm"
+    }
+  ]
+}

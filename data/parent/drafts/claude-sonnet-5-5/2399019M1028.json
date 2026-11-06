@@ -1,0 +1,30 @@
+{
+  "id": "2399019M1028",
+  "source_file": "670605_2399019M1028_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_2399019M1028_1_17",
+  "extracted_at": "2026-11-06T17:03:58.712Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30321,
+    "output": 772
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゼポジアカプセル0.92mg",
+      "strength": "0.92mg",
+      "imprint_front": "OZA 0.92mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「OZA 0.92mg」の記載あり。表裏の区別は記載がなく未確認。",
+      "color": "ボディ：橙色 キャップ：橙色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色 ボディ：橙色 キャップ：橙色 剤形 硬カプセル剤 大きさ 4号カプセル 質量 約138mg 識別コード OZA 0.92mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2399014F1026",
+  "source_file": "800126_2399014F1026_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2399014F1026_1_15",
+  "extracted_at": "2026-11-06T17:03:30.546Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16017,
+    "output": 883
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イリボー錠2.5μg",
+      "strength": "2.5μg",
+      "imprint_front": "イリボー 2.5",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は本文に記載がなく、3.2の外形図（表）から読み取った。裏の図には刻印の表示なし（本文に「なし」の明記はない）。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2021年3月改訂（第2版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "イリボー錠2.5μg フィルムコーティング錠 淡黄色 表 裏 側面 直径 厚さ 重量 5.6mm 3.0mm 0.078g"
+    }
+  ]
+}

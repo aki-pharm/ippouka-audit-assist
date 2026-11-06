@@ -1,0 +1,30 @@
+{
+  "id": "2329029M2090",
+  "source_file": "530113_2329029M1094_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2329029M1094_1_04",
+  "extracted_at": "2026-11-06T16:59:35.387Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31937,
+    "output": 831
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エソメプラゾールカプセル20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "エソメプラゾール 20 NS",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。カプセル剤のため表裏の区別の記載なし。添付文書の対象は錠剤ではなく硬カプセル剤（5号カプセル）。",
+      "color": "ボディがごくうすい黄赤色でキャップが濃い青色の硬カプセル剤（内容物は白色～ごくうすい黄色の腸溶性顆粒）",
+      "shape": "oblong",
+      "size_long_mm": 11.4,
+      "size_short_mm": 4.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "ボディがごくうすい黄赤色でキャップが濃い青色の硬カプセル剤で、内容物は白色～ごくうすい黄色の腸溶性顆粒である。 / 5号カプセル 長径：11.40mm 短径：4.90mm 重量：117.5 mg / 本体表示 エソメプラゾール 20 NS"
+    }
+  ]
+}

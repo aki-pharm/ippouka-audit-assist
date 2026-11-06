@@ -1,0 +1,30 @@
+{
+  "id": "2452002F1030",
+  "source_file": "672212_2452002F1030_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2452002F1030_3_07",
+  "extracted_at": "2026-11-06T17:04:32.209Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20088,
+    "output": 672
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コートリル錠10mg",
+      "strength": "10mg",
+      "imprint_front": "PT 324",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「PT 324」。裏面の記載は文章になく、外形図からは読み取れない。大きさは外形図中の数値（直径7.1mm、厚さ3.3mm）による。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "コートリル錠10mg 識別コード PT 324 色調等 白色 素錠 割線入り"
+    }
+  ]
+}

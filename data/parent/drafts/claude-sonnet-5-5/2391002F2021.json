@@ -1,0 +1,30 @@
+{
+  "id": "2391002F2021",
+  "source_file": "431010_2391002C1037_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_2391002C1037_2_04",
+  "extracted_at": "2026-11-06T17:01:39.927Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14831,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カイトリル錠2mg",
+      "strength": "2mg",
+      "imprint_front": "K2",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード K2。表面に表示。裏面の刻印の記載なし（外形図では裏面に表示なし）。",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 / 剤形 三角形のフィルムコーティング錠 / 識別コード K1 K2 － / 垂線 約7.1mm 約8.5mm － / 厚さ 約2.7mm 約3.7mm －"
+    }
+  ]
+}

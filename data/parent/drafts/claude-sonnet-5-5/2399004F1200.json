@@ -1,0 +1,30 @@
+{
+  "id": "2399004F1200",
+  "source_file": "530169_2399004F1200_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2399004F1200_2_08",
+  "extracted_at": "2026-11-06T17:02:02.327Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13960,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プリンペラン錠5",
+      "strength": "5mg",
+      "imprint_front": "634",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マーク（ロゴ）と識別コード634が印刷されている図あり。文字情報としては識別コード634。裏面は図上、刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径（mm） 約6.1 厚さ（mm） 約2.9 質量（mg） 約92 識別コード 634"
+    }
+  ]
+}

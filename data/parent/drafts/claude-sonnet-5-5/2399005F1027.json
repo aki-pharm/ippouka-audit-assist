@@ -1,0 +1,30 @@
+{
+  "id": "2399005F1027",
+  "source_file": "230124_2399005F1027_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_2399005F1027_1_21",
+  "extracted_at": "2026-11-06T17:02:06.715Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17714,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナウゼリン錠5",
+      "strength": "5mg",
+      "imprint_front": "KH305",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは錠剤本体およびPTPシートに表示。裏面の刻印は図で空白（記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 ナウゼリン錠5 ナウゼリン錠10 直径(mm) 6.1 7.1 厚さ(mm) 3.2 3.4 重量(g) 0.08 0.11 色調 白色 剤皮 フィルムコーティング錠 識別コード KH305（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

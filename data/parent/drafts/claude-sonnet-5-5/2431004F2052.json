@@ -1,0 +1,30 @@
+{
+  "id": "2431004F2052",
+  "source_file": "470007_2431004F1056_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2431004F1056_1_06",
+  "extracted_at": "2026-11-06T17:04:12.835Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15131,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チラーヂンS錠25μg",
+      "strength": "25μg",
+      "imprint_front": "TZ 214",
+      "imprint_back": "25",
+      "imprint_note": "識別コード：TZ214。表に「TZ 214」、裏に「25」の表示（図より）。側面に割線あり",
+      "color": "淡赤色素錠",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "チラーヂンS錠25μg 淡赤色素錠（割線入り） TZ214 直径6.5mm 厚さ2.4mm 質量100mg"
+    }
+  ]
+}

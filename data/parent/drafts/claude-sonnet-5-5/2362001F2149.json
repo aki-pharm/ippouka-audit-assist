@@ -1,0 +1,30 @@
+{
+  "id": "2362001F2149",
+  "source_file": "400315_2362001F1088_2_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2362001F1088_2_13",
+  "extracted_at": "2026-11-06T17:01:17.371Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17616,
+    "output": 735
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウルソ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "235",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード235（社名マーク併記）。裏面の刻印は文書に明記なし。割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ウルソ錠100mg 白色・においなし・素錠(割線入り) 識別コード 235 直径(mm)8.0 厚さ(mm)約2.7 重量(mg)150"
+    }
+  ]
+}

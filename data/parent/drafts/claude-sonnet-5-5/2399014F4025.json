@@ -1,0 +1,30 @@
+{
+  "id": "2399014F4025",
+  "source_file": "800126_2399014F3029_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2399014F3029_1_08",
+  "extracted_at": "2026-11-06T17:03:34.654Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20062,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イリボーOD錠5μg",
+      "strength": "5μg",
+      "imprint_front": "157",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マーク（ASTELLASマーク）と「157」。識別コードは「157」（社名マーク付き）。裏面は刻印の記載なし（図では無地）",
+      "color": "うすい黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2021年3月改訂（第2版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "イリボーOD錠5μg 口腔内崩壊錠 うすい黄みの赤色 表 裏 側面 157 直径 厚さ 重量 約8.5mm 約3.8mm 約0.18g"
+    }
+  ]
+}

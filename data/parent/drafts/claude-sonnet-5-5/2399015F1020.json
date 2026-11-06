@@ -1,0 +1,30 @@
+{
+  "id": "2399015F1020",
+  "source_file": "380077_2399015F1020_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380077_2399015F1020_1_09",
+  "extracted_at": "2026-11-06T17:03:37.698Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15943,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アコファイド錠100mg",
+      "strength": "100mg",
+      "imprint_front": "アコファイド 100",
+      "imprint_back": "なし",
+      "imprint_note": "表面に「アコファイド」「100」の表記。裏面の刻印の記載なし。側面の図あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 表面 アコファイド 100 裏面 側面 大きさ 直径 9.1mm 厚さ 4.2mm 質量 257mg"
+    }
+  ]
+}

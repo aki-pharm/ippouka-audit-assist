@@ -1,0 +1,30 @@
+{
+  "id": "2454002F3020",
+  "source_file": "530169_2454002F1183_3_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2454002F1183_3_18",
+  "extracted_at": "2026-11-06T17:04:37.888Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24809,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デカドロン錠4mg",
+      "strength": "4mg",
+      "imprint_front": "545",
+      "imprint_back": "なし",
+      "imprint_note": "本体コード：545（表面に「4」の表示も図中にあり）、包装コード：545。裏面は割線のみで刻印の記載なし。",
+      "color": "淡赤色",
+      "shape": "other",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの五角形の素錠 色調 淡赤色 直径（mm） 7.4 厚さ（mm） 2.8 質量（mg） 150 本体コード 545 包装コード 545"
+    }
+  ]
+}

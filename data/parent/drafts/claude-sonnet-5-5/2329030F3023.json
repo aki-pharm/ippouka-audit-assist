@@ -1,0 +1,30 @@
+{
+  "id": "2329030F3023",
+  "source_file": "400256_2329030F3023_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_2329030F3023_1_06",
+  "extracted_at": "2026-11-06T16:59:50.184Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31809,
+    "output": 736
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タケキャブOD錠10mg",
+      "strength": "10mg",
+      "imprint_front": "タケキャブ",
+      "imprint_back": "OD10",
+      "imprint_note": "製剤表示は「タケキャブ OD10」。上面と下面の振り分けは添付文書の図による。",
+      "color": "白色～ほとんど白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2026年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～ほとんど白色の素錠／製剤表示 タケキャブ OD10／直径（mm） 約8.1／厚さ（mm） 約3.5"
+    }
+  ]
+}

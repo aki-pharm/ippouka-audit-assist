@@ -1,0 +1,30 @@
+{
+  "id": "2344003F1038",
+  "source_file": "170510_2344003F1038_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170510_2344003F1038_3_01",
+  "extracted_at": "2026-11-06T17:00:11.740Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9400,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルマグ錠350mg",
+      "strength": "350mg",
+      "imprint_front": "HK 008",
+      "imprint_back": "HK 008",
+      "imprint_note": "識別コード：HK 008（表裏の別は記載なし。外形図は表・裏・側面を図示）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2024年8月改訂(第1版)",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色・素錠 外形 表 裏 側面 サイズ 直径：10.5 mm, 厚さ：4.9 mm 質量 0.55 g 識別コード HK 008"
+    }
+  ]
+}

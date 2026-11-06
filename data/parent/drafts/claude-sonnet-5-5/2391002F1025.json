@@ -1,0 +1,30 @@
+{
+  "id": "2391002F1025",
+  "source_file": "431010_2391002C1037_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_2391002C1037_2_04",
+  "extracted_at": "2026-11-06T17:01:40.458Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14831,
+    "output": 230
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カイトリル錠1mg",
+      "strength": "1mg",
+      "imprint_front": "K1",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードK1（表面）。裏面・側面は「－」表記",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2023年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 白色／剤形 三角形のフィルムコーティング錠／識別コード K1／垂線 約7.1mm／厚さ 約2.7mm"
+    }
+  ]
+}

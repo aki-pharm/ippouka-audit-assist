@@ -1,0 +1,30 @@
+{
+  "id": "2391008M2044",
+  "source_file": "300119_2391008M1048_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2391008M1048_1_03",
+  "extracted_at": "2026-11-06T17:01:59.945Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27726,
+    "output": 934
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アプレピタントカプセル125mg「サワイ」",
+      "strength": "125mg",
+      "imprint_front": "アプレピタント 125mg",
+      "imprint_back": "サワイ",
+      "imprint_note": "外形図の印字による（性状の文章には刻印の記載なし）。剤形は硬カプセル剤（2号）",
+      "color": "頭部：淡赤色不透明、胴部：白色不透明、内容物：白色～灰白色の顆粒又は粉末",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 性状 頭部：淡赤色不透明 胴部：白色不透明 内容物：白色～灰白色の顆粒又は粉末 全長（mm） 17．8 重量（mg） 約338"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2344008F1081",
+  "source_file": "100898_2344008F1081_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2344008F1081_1_07",
+  "extracted_at": "2026-11-06T17:00:15.627Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8046,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "炭カル錠500mg「旭化成」",
+      "strength": "500mg",
+      "imprint_front": "251",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マークと識別コード251。識別コード欄は「社名マーク 251」。裏面の刻印の記載なし（外形図では無地）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・素錠 / 大きさ 直径9.5mm、厚さ5.1mm / 質 量 580mg / 識別コード 251"
+    }
+  ]
+}

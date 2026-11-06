@@ -1,0 +1,30 @@
+{
+  "id": "2399016G1020",
+  "source_file": "670666_2399016G1020_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670666_2399016G1020_1_03",
+  "extracted_at": "2026-11-06T17:03:42.544Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15658,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コレチメント錠9mg",
+      "strength": "9mg",
+      "imprint_front": "MX9",
+      "imprint_back": "なし",
+      "imprint_note": "外形図では表面に「MX9」の表示があり、裏面には表示なし。識別コード欄に「MX9」と記載。側面は図のみ。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコーティング錠 / 大きさ 直径 9.5mm 厚さ 4.7mm / 識別コード MX9"
+    }
+  ]
+}

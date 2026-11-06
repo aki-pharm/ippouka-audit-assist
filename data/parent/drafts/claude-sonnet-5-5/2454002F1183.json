@@ -1,0 +1,30 @@
+{
+  "id": "2454002F1183",
+  "source_file": "530169_2454002F1183_3_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2454002F1183_3_18",
+  "extracted_at": "2026-11-06T17:04:36.337Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24811,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デカドロン錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "535",
+      "imprint_back": "なし",
+      "imprint_note": "本体コード：535、包装コード：535。表面に社名マークと思われる表示が併記されているが、テキストでは確認できない。裏面は割線のみで刻印の記載なし。",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 6.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの五角形の素錠 色調 白色 直径（mm） 6.3 厚さ（mm） 2.4 質量（mg） 93.5 本体コード 535 包装コード 535"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2399009F3044",
+  "source_file": "300119_2399009F3044_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2399009F3044_2_06",
+  "extracted_at": "2026-11-06T17:02:52.130Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16414,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メサラジン腸溶錠400mg「サワイ」",
+      "strength": "400mg",
+      "imprint_front": "SW M400",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：SW M400（外形図では表面にSWM400の表示）。裏面の刻印は文書に記載なし",
+      "color": "帯赤褐色～褐色",
+      "shape": "oblong",
+      "size_long_mm": 15.3,
+      "size_short_mm": 7,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 pH依存放出性フィルムコーティング錠 性状 帯赤褐色～褐色 直径（mm） 15.3×7.0 厚さ（mm） 5.3 重量（mg） 約502 識別コード SW M400"
+    }
+  ]
+}

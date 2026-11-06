@@ -1,0 +1,30 @@
+{
+  "id": "2344009F1035",
+  "source_file": "731040_2344009F1035_B_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/731040_2344009F1035_B_05",
+  "extracted_at": "2026-11-06T17:00:22.006Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14678,
+    "output": 692
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マグミット錠250mg",
+      "strength": "250mg",
+      "imprint_front": "マグミット 250",
+      "imprint_back": "マグミット 250",
+      "imprint_note": "印字（文字色：緑）。刻印の内容は外形図の表記から転記。本文に文字での記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "マグミット錠100mg、250mg、330mg、500mg：白色・円形の素錠／マグミット錠250mg 直径8mm 厚さ4.4mm 質量300mg 文字色 緑"
+    }
+  ]
+}

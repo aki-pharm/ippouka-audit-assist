@@ -1,0 +1,30 @@
+{
+  "id": "2399009F5020",
+  "source_file": "790005_2399009F4024_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_2399009F4024_1_15",
+  "extracted_at": "2026-11-06T17:02:59.889Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23055,
+    "output": 873
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リアルダ錠600mg",
+      "strength": "600mg",
+      "imprint_front": "S6",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "赤褐色",
+      "shape": "oval",
+      "size_long_mm": 17.1,
+      "size_short_mm": 8,
+      "thickness_mm": 5.8,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "赤褐色で楕円形のフィルムコーティング錠（腸溶錠）／識別コード S6"
+    }
+  ]
+}

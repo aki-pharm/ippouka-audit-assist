@@ -1,0 +1,30 @@
+{
+  "id": "2391008M1048",
+  "source_file": "300119_2391008M1048_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2391008M1048_1_03",
+  "extracted_at": "2026-11-06T17:01:53.746Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27726,
+    "output": 861
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アプレピタントカプセル80mg「サワイ」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は硬カプセル剤（3号）で錠剤ではない。外形図に印字らしき表示があるが、性状の本文には刻印・識別コードの記載がない。",
+      "color": "頭部：白色不透明、胴部：白色不透明、内容物：白色～灰白色の顆粒又は粉末",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／外形 3号／性状 頭部：白色不透明 胴部：白色不透明 内容物：白色～灰白色の顆粒又は粉末／全長（mm） 15．8"
+    }
+  ]
+}

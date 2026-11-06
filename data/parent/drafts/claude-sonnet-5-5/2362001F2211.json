@@ -1,0 +1,30 @@
+{
+  "id": "2362001F2211",
+  "source_file": "300119_2362001F2211_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2362001F2211_1_03",
+  "extracted_at": "2026-11-06T17:01:19.238Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16121,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウルソデオキシコール酸錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW 170",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード SW 170。表裏の刻印の別は文章では記載なし（外形図に表示）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色 においはなく、味は苦い 直径（mm） 8.0 厚さ（mm） 2.8 重量（mg） 約155 識別コード SW 170"
+    }
+  ]
+}

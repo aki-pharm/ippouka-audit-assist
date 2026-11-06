@@ -1,0 +1,30 @@
+{
+  "id": "2354003F2316",
+  "source_file": "480866_2354003F2316_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_2354003F2316_2_08",
+  "extracted_at": "2026-11-06T17:00:43.184Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8333,
+    "output": 233
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プルゼニド錠 12mg",
+      "strength": "12mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "帯黄暗赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 帯黄暗赤色の糖衣錠 外形（円形の図）識別コード なし 大きさ（約） 直径：6.0mm 厚さ：4.0mm 質量：0.12g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2399012M1034",
+  "source_file": "530191_2399012M1034_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_2399012M1034_1_15",
+  "extracted_at": "2026-11-06T17:03:21.188Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13554,
+    "output": 688
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サリグレンカプセル30mg",
+      "strength": "30mg",
+      "imprint_front": "NK1182",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル（3号カプセル）。識別コードはNK1182。外形図には「NK 1182」が2か所示されているが、表裏の別は本文に記載がない。質量0.27g。",
+      "color": "黄色と白色からなる硬カプセルで、内容物は白色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色と白色からなる硬カプセルで、内容物は白色の粉末である／外形 3号カプセル／質量 0.27g／識別コード NK1182"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2399017F1020",
+  "source_file": "800126_2399017F1020_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2399017F1020_1_07",
+  "extracted_at": "2026-11-06T17:03:47.940Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14569,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リンゼス錠0.25mg",
+      "strength": "0.25mg",
+      "imprint_front": "725",
+      "imprint_back": "なし",
+      "imprint_note": "表に社名マークと「725」の印字、識別コード「725」（社名マーク付き）。側面は印字の記載なし。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 剤形 フィルムコーティング錠 色 淡黄色 外形・大きさ・重量 表 裏 側面 直径 約6.6mm 厚さ 約3.1mm 重量 約115mg 識別コード 725"
+    }
+  ]
+}

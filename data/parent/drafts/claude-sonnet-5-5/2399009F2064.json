@@ -1,0 +1,30 @@
+{
+  "id": "2399009F2064",
+  "source_file": "530213_2399009F1092_4_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2399009F1092_4_05",
+  "extracted_at": "2026-11-06T17:02:38.241Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23014,
+    "output": 816
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メサラジン錠500mg「ケミファ」",
+      "strength": "500mg",
+      "imprint_front": "NCP 500",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「NCP 500」の記載あり。裏面の刻印は文字での記載なし。割線を有する。",
+      "color": "灰白色～淡灰黄色の斑点入りの白色～淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 17.1,
+      "size_short_mm": 7.3,
+      "thickness_mm": 5.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "灰白色～淡灰黄色の斑点入りの白色～淡黄色の素錠で、割線を有する。（長径17.1mm、短径7.3mm、厚さ5.5mm、識別コード NCP 500）"
+    }
+  ]
+}

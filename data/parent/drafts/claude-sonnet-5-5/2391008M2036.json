@@ -1,0 +1,30 @@
+{
+  "id": "2391008M2036",
+  "source_file": "530191_2391008M1030_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_2391008M1030_1_02",
+  "extracted_at": "2026-11-06T17:01:53.856Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31801,
+    "output": 1047
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アプレピタントカプセル125mg「NK」",
+      "strength": "125mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載なし。外形図にはカプセルへの印字（アプレピタント、NK、125mg）が描かれているが、文章での記載はないため未確認とした。",
+      "color": "頭部：淡赤色不透明、胴部：白色不透明、内容物：白色～灰白色の顆粒又は粉末",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "2号 硬カプセル剤 頭部：淡赤色不透明 胴部：白色不透明 内容物：白色～灰白色の顆粒又は粉末 全長(mm) 17.8 質量(mg) 約338"
+    }
+  ]
+}
