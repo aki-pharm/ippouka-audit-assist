@@ -43748,5 +43748,1563 @@
   "maker": "",
   "match": "exact",
   "candidates": 1
+ },
+ "6132015F1061": {
+  "doc_id": "480235_6132015F1061_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6132015F1061_1_11",
+  "pdf_date": "2023-11-10",
+  "pmda_names": [
+   "セフジトレンピボキシル錠100mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6132015F1096": {
+  "doc_id": "300119_6132015F1118_1_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6132015F1118_1_01",
+  "pdf_date": "2025-06-13",
+  "pmda_names": [
+   "セフジトレン　ピボキシル錠100mg「SW」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6132015F1100": {
+  "doc_id": "180024_6132015F1100_1_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180024_6132015F1100_1_01",
+  "pdf_date": "2023-12-08",
+  "pmda_names": [
+   "セフジトレン　ピボキシル錠100mg「OK」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6132015F1118": {
+  "doc_id": "300119_6132015F1118_1_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6132015F1118_1_01",
+  "pdf_date": "2025-06-13",
+  "pmda_names": [
+   "セフジトレン　ピボキシル錠100mg「SW」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6132016F1023": {
+  "doc_id": "340018_6132016F1023_1_25",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_6132016F1023_1_25",
+  "pdf_date": "2026-01-28",
+  "pmda_names": [
+   "フロモックス錠75mg",
+   "フロモックス錠100mg"
+  ],
+  "maker": "製造販売元／塩野義製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6132016F1040": {
+  "doc_id": "450064_6132016F1040_2_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6132016F1040_2_10",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "セフカペンピボキシル塩酸塩錠75mg「CH」",
+   "セフカペンピボキシル塩酸塩錠100mg「CH」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6132016F1112": {
+  "doc_id": "300119_6132016F1139_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6132016F1139_1_02",
+  "pdf_date": "2025-06-19",
+  "pmda_names": [
+   "セフカペン　ピボキシル塩酸塩錠75mg「SW」",
+   "セフカペン　ピボキシル塩酸塩錠100mg「SW」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6132016F1120": {
+  "doc_id": "480235_6132016F1147_1_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6132016F1147_1_01",
+  "pdf_date": "2025-06-13",
+  "pmda_names": [
+   "セフカペン　ピボキシル塩酸塩錠75mg「TW」",
+   "セフカペン　ピボキシル塩酸塩錠100mg「TW」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6132016F1139": {
+  "doc_id": "300119_6132016F1139_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6132016F1139_1_02",
+  "pdf_date": "2025-06-19",
+  "pmda_names": [
+   "セフカペン　ピボキシル塩酸塩錠75mg「SW」",
+   "セフカペン　ピボキシル塩酸塩錠100mg「SW」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6132016F1147": {
+  "doc_id": "480235_6132016F1147_1_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6132016F1147_1_01",
+  "pdf_date": "2025-06-13",
+  "pmda_names": [
+   "セフカペン　ピボキシル塩酸塩錠75mg「TW」",
+   "セフカペン　ピボキシル塩酸塩錠100mg「TW」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6132016F2020": {
+  "doc_id": "340018_6132016F1023_1_25",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_6132016F1023_1_25",
+  "pdf_date": "2026-01-28",
+  "pmda_names": [
+   "フロモックス錠75mg",
+   "フロモックス錠100mg"
+  ],
+  "maker": "製造販売元／塩野義製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6132016F2046": {
+  "doc_id": "450064_6132016F1040_2_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6132016F1040_2_10",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "セフカペンピボキシル塩酸塩錠75mg「CH」",
+   "セフカペンピボキシル塩酸塩錠100mg「CH」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6132016F2119": {
+  "doc_id": "300119_6132016F1139_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6132016F1139_1_02",
+  "pdf_date": "2025-06-19",
+  "pmda_names": [
+   "セフカペン　ピボキシル塩酸塩錠75mg「SW」",
+   "セフカペン　ピボキシル塩酸塩錠100mg「SW」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6132016F2127": {
+  "doc_id": "480235_6132016F1147_1_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6132016F1147_1_01",
+  "pdf_date": "2025-06-13",
+  "pmda_names": [
+   "セフカペン　ピボキシル塩酸塩錠75mg「TW」",
+   "セフカペン　ピボキシル塩酸塩錠100mg「TW」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6132016F2135": {
+  "doc_id": "300119_6132016F1139_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6132016F1139_1_02",
+  "pdf_date": "2025-06-19",
+  "pmda_names": [
+   "セフカペン　ピボキシル塩酸塩錠75mg「SW」",
+   "セフカペン　ピボキシル塩酸塩錠100mg「SW」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6132016F2143": {
+  "doc_id": "480235_6132016F1147_1_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6132016F1147_1_01",
+  "pdf_date": "2025-06-13",
+  "pmda_names": [
+   "セフカペン　ピボキシル塩酸塩錠75mg「TW」",
+   "セフカペン　ピボキシル塩酸塩錠100mg「TW」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6135001F1029": {
+  "doc_id": "780009_6135001F1029_1_14",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_6135001F1029_1_14",
+  "pdf_date": "2023-07-18",
+  "pmda_names": [
+   "ホスミシン錠250",
+   "ホスミシン錠500"
+  ],
+  "maker": "製造販売元／Meiji Seika ファルマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6135001F2025": {
+  "doc_id": "780009_6135001F1029_1_14",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_6135001F1029_1_14",
+  "pdf_date": "2023-07-18",
+  "pmda_names": [
+   "ホスミシン錠250",
+   "ホスミシン錠500"
+  ],
+  "maker": "製造販売元／Meiji Seika ファルマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6139001F1028": {
+  "doc_id": "730155_6139001F1028_3_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730155_6139001F1028_3_12",
+  "pdf_date": "2023-07-31",
+  "pmda_names": [
+   "ファロム錠150mg",
+   "ファロム錠200mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6139001F2024": {
+  "doc_id": "730155_6139001F1028_3_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730155_6139001F1028_3_12",
+  "pdf_date": "2023-07-31",
+  "pmda_names": [
+   "ファロム錠150mg",
+   "ファロム錠200mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6139100F1048": {
+  "doc_id": "340278_6139100F1048_1_18",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6139100F1048_1_18",
+  "pdf_date": "2026-06-26",
+  "pmda_names": [
+   "オーグメンチン配合錠125SS",
+   "オーグメンチン配合錠250RS"
+  ],
+  "maker": "製造販売元／グラクソ・スミスクライン株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6139100F2044": {
+  "doc_id": "340278_6139100F1048_1_18",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6139100F1048_1_18",
+  "pdf_date": "2026-06-26",
+  "pmda_names": [
+   "オーグメンチン配合錠125SS",
+   "オーグメンチン配合錠250RS"
+  ],
+  "maker": "製造販売元／グラクソ・スミスクライン株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6141002F2078": {
+  "doc_id": "300119_6141002F2078_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6141002F2078_1_11",
+  "pdf_date": "2026-07-24",
+  "pmda_names": [
+   "エリスロマイシン錠200mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6141004F1038": {
+  "doc_id": "730869_6141004F1038_3_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_6141004F1038_3_08",
+  "pdf_date": "2026-07-08",
+  "pmda_names": [
+   "エリスロシン錠100mg",
+   "エリスロシン錠200mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6141004F2042": {
+  "doc_id": "730869_6141004F1038_3_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_6141004F1038_3_08",
+  "pdf_date": "2026-07-08",
+  "pmda_names": [
+   "エリスロシン錠100mg",
+   "エリスロシン錠200mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149002F1177": {
+  "doc_id": "300119_6149002F1177_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6149002F1177_1_06",
+  "pdf_date": "2023-12-27",
+  "pmda_names": [
+   "ロキシスロマイシン錠150mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149002F1193": {
+  "doc_id": "480235_6149002F1193_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6149002F1193_1_06",
+  "pdf_date": "2023-10-25",
+  "pmda_names": [
+   "ロキシスロマイシン錠150mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149003F1031": {
+  "doc_id": "400059_6149003F1031_1_39",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_6149003F1031_1_39",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "クラリス錠50小児用",
+   "クラリスドライシロップ10％小児用"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149003F1066": {
+  "doc_id": "530372_6149003F1066_1_20",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_6149003F1066_1_20",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "クラリスロマイシン錠50mg小児用「NPI」"
+  ],
+  "maker": "製造販売元／日本薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149003F2046": {
+  "doc_id": "450064_6149003F2046_2_17",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6149003F2046_2_17",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "クラリスロマイシン錠200mg「CH」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149003F2070": {
+  "doc_id": "530372_6149003F2070_1_23",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_6149003F2070_1_23",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "クラリスロマイシン錠200mg「NPI」"
+  ],
+  "maker": "製造販売元／日本薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149003F2100": {
+  "doc_id": "300119_6149003F2100_1_28",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6149003F2100_1_28",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "クラリスロマイシン錠200mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149003F2135": {
+  "doc_id": "400186_6149003F2135_1_25",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6149003F2135_1_25",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "クラリスロマイシン錠200mg「タカタ」"
+  ],
+  "maker": "製造販売元／高田製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149003F2232": {
+  "doc_id": "480235_6149003F2232_1_14",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6149003F2232_1_14",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "クラリスロマイシン錠200mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149003F2267": {
+  "doc_id": "400278_6149003F2267_2_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6149003F2267_2_06",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "クラリスロマイシン錠200mg「TCK」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6149003F2283": {
+  "doc_id": "370035_6149003F2283_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370035_6149003F2283_1_04",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "クラリスロマイシン錠200㎎「大正」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149003F2291": {
+  "doc_id": "581120_6149003F2291_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_6149003F2291_1_08",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "クラリスロマイシン錠200mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149004F1036": {
+  "doc_id": "380087_6149004F1036_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_6149004F1036_1_13",
+  "pdf_date": "2025-03-28",
+  "pmda_names": [
+   "アジスロマイシン錠250mg「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149004F1125": {
+  "doc_id": "300119_6149004F1125_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6149004F1125_1_10",
+  "pdf_date": "2023-12-27",
+  "pmda_names": [
+   "アジスロマイシン錠250mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149004F1141": {
+  "doc_id": "400186_6149004F1141_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6149004F1141_1_11",
+  "pdf_date": "2023-07-28",
+  "pmda_names": [
+   "アジスロマイシン錠250mg「タカタ」"
+  ],
+  "maker": "製造販売元／高田製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149004F1168": {
+  "doc_id": "480235_6149004F1168_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6149004F1168_1_12",
+  "pdf_date": "2024-09-27",
+  "pmda_names": [
+   "アジスロマイシン錠250mg「トーワ」",
+   "アジスロマイシン錠500mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149004F3020": {
+  "doc_id": "400186_6149004C1080_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6149004C1080_1_12",
+  "pdf_date": "2023-07-07",
+  "pmda_names": [
+   "アジスロマイシン小児用細粒10％「タカタ」",
+   "アジスロマイシン小児用錠100mg「タカタ」"
+  ],
+  "maker": "製造販売元／高田製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149004F4027": {
+  "doc_id": "480235_6149004F1168_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6149004F1168_1_12",
+  "pdf_date": "2024-09-27",
+  "pmda_names": [
+   "アジスロマイシン錠250mg「トーワ」",
+   "アジスロマイシン錠500mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6149004M1027": {
+  "doc_id": "672212_6149004M1027_3_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6149004M1027_3_04",
+  "pdf_date": "2024-08-28",
+  "pmda_names": [
+   "ジスロマックカプセル小児用100mg"
+  ],
+  "maker": "製造販売元／ファイザー株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6151001F1030": {
+  "doc_id": "530258_6151001F1030_2_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_6151001F1030_2_04",
+  "pdf_date": "2023-01-16",
+  "pmda_names": [
+   "クロロマイセチン錠50",
+   "クロロマイセチン錠250"
+  ],
+  "maker": "製造販売元／アルフレッサ ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6151001F2053": {
+  "doc_id": "530258_6151001F1030_2_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_6151001F1030_2_04",
+  "pdf_date": "2023-01-16",
+  "pmda_names": [
+   "クロロマイセチン錠50",
+   "クロロマイセチン錠250"
+  ],
+  "maker": "製造販売元／アルフレッサ ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6152002M1023": {
+  "doc_id": "480866_6152002M1023_4_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_6152002M1023_4_04",
+  "pdf_date": "2024-07-16",
+  "pmda_names": [
+   "アクロマイシンVカプセル50mg",
+   "アクロマイシンVカプセル250mg"
+  ],
+  "maker": "製造販売元／サンファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6152002M2020": {
+  "doc_id": "480866_6152002M1023_4_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_6152002M1023_4_04",
+  "pdf_date": "2024-07-16",
+  "pmda_names": [
+   "アクロマイシンVカプセル50mg",
+   "アクロマイシンVカプセル250mg"
+  ],
+  "maker": "製造販売元／サンファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6152004F1074": {
+  "doc_id": "672212_6152004F1074_3_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6152004F1074_3_04",
+  "pdf_date": "2024-03-28",
+  "pmda_names": [
+   "ビブラマイシン錠50mg",
+   "ビブラマイシン錠100mg"
+  ],
+  "maker": "製造販売元／ファイザー株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6152004F2089": {
+  "doc_id": "672212_6152004F1074_3_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6152004F1074_3_04",
+  "pdf_date": "2024-03-28",
+  "pmda_names": [
+   "ビブラマイシン錠50mg",
+   "ビブラマイシン錠100mg"
+  ],
+  "maker": "製造販売元／ファイザー株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6152005F1095": {
+  "doc_id": "300119_6152005F1095_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6152005F1095_1_10",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ミノサイクリン塩酸塩錠50mg「サワイ」",
+   "ミノサイクリン塩酸塩錠100mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6152005F1109": {
+  "doc_id": "480235_6152005F1109_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6152005F1109_1_12",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ミノサイクリン塩酸塩錠50mg「トーワ」",
+   "ミノサイクリン塩酸塩錠100mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6152005F2113": {
+  "doc_id": "300119_6152005F1095_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6152005F1095_1_10",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ミノサイクリン塩酸塩錠50mg「サワイ」",
+   "ミノサイクリン塩酸塩錠100mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6152005F2121": {
+  "doc_id": "480235_6152005F1109_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6152005F1109_1_12",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ミノサイクリン塩酸塩錠50mg「トーワ」",
+   "ミノサイクリン塩酸塩錠100mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6152005M1043": {
+  "doc_id": "672212_6152005M1043_3_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6152005M1043_3_07",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ミノマイシンカプセル50mg",
+   "ミノマイシンカプセル100mg"
+  ],
+  "maker": "製造販売元／ファイザー株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6152005M2074": {
+  "doc_id": "672212_6152005M1043_3_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6152005M1043_3_07",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ミノマイシンカプセル50mg",
+   "ミノマイシンカプセル100mg"
+  ],
+  "maker": "製造販売元／ファイザー株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6162001M1041": {
+  "doc_id": "780009_6162001M1041_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_6162001M1041_1_05",
+  "pdf_date": "2023-03-23",
+  "pmda_names": [
+   "サイクロセリンカプセル250mg「明治」"
+  ],
+  "maker": "製造販売元／Meiji Seika ファルマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6164001M1186": {
+  "doc_id": "270428_6164001M1186_1_25",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_6164001M1186_1_25",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "リファンピシンカプセル150mg「サンド」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F1023": {
+  "doc_id": "672212_6179001F1023_3_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6179001F1023_3_13",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ブイフェンド錠50mg",
+   "ブイフェンド錠200mg"
+  ],
+  "maker": "製造販売元／ファイザー株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F1031": {
+  "doc_id": "430773_6179001F1031_1_22",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_6179001F1031_1_22",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「DSEP」",
+   "ボリコナゾール錠200mg「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F1040": {
+  "doc_id": "580591_6179001F1040_1_20",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_6179001F1040_1_20",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「JG」",
+   "ボリコナゾール錠100mg「JG」",
+   "ボリコナゾール錠200mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F1058": {
+  "doc_id": "672173_6179001F1058_2_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_6179001F1058_2_12",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「アメル」",
+   "ボリコナゾール錠100mg「アメル」",
+   "ボリコナゾール錠200mg「アメル」"
+  ],
+  "maker": "製造販売元／共和薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F1066": {
+  "doc_id": "400186_6179001F1066_1_19",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6179001F1066_1_19",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「タカタ」",
+   "ボリコナゾール錠200mg「タカタ」"
+  ],
+  "maker": "製造販売元／高田製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F1082": {
+  "doc_id": "480235_6179001F1082_1_20",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6179001F1082_1_20",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「トーワ」",
+   "ボリコナゾール錠200mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F1112": {
+  "doc_id": "581120_6179001F1112_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_6179001F1112_1_09",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「NIG」",
+   "ボリコナゾール錠200mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F2020": {
+  "doc_id": "672212_6179001F1023_3_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_6179001F1023_3_13",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ブイフェンド錠50mg",
+   "ブイフェンド錠200mg"
+  ],
+  "maker": "製造販売元／ファイザー株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F2038": {
+  "doc_id": "430773_6179001F1031_1_22",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_6179001F1031_1_22",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「DSEP」",
+   "ボリコナゾール錠200mg「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F2046": {
+  "doc_id": "580591_6179001F1040_1_20",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_6179001F1040_1_20",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「JG」",
+   "ボリコナゾール錠100mg「JG」",
+   "ボリコナゾール錠200mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F2054": {
+  "doc_id": "672173_6179001F1058_2_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_6179001F1058_2_12",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「アメル」",
+   "ボリコナゾール錠100mg「アメル」",
+   "ボリコナゾール錠200mg「アメル」"
+  ],
+  "maker": "製造販売元／共和薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F2062": {
+  "doc_id": "400186_6179001F1066_1_19",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6179001F1066_1_19",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「タカタ」",
+   "ボリコナゾール錠200mg「タカタ」"
+  ],
+  "maker": "製造販売元／高田製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F2089": {
+  "doc_id": "480235_6179001F1082_1_20",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6179001F1082_1_20",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「トーワ」",
+   "ボリコナゾール錠200mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F2119": {
+  "doc_id": "581120_6179001F1112_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_6179001F1112_1_09",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「NIG」",
+   "ボリコナゾール錠200mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F3026": {
+  "doc_id": "580591_6179001F1040_1_20",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_6179001F1040_1_20",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「JG」",
+   "ボリコナゾール錠100mg「JG」",
+   "ボリコナゾール錠200mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179001F3034": {
+  "doc_id": "672173_6179001F1058_2_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_6179001F1058_2_12",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "ボリコナゾール錠50mg「アメル」",
+   "ボリコナゾール錠100mg「アメル」",
+   "ボリコナゾール錠200mg「アメル」"
+  ],
+  "maker": "製造販売元／共和薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179003M1021": {
+  "doc_id": "100898_6179003M1021_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_6179003M1021_1_05",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "クレセンバカプセル40mg",
+   "クレセンバカプセル100mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6179003M2028": {
+  "doc_id": "100898_6179003M1021_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_6179003M1021_1_05",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "クレセンバカプセル40mg",
+   "クレセンバカプセル100mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6219001H1056": {
+  "doc_id": "172190_6219001H1056_3_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_6219001H1056_3_04",
+  "pdf_date": "2025-09-09",
+  "pmda_names": [
+   "アザルフィジンEN錠250mg",
+   "アザルフィジンEN錠500mg"
+  ],
+  "maker": "製造販売元／あゆみ製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6219001H1102": {
+  "doc_id": "450064_6219001H1102_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6219001H1102_1_08",
+  "pdf_date": "2026-05-29",
+  "pmda_names": [
+   "サラゾスルファピリジン腸溶錠250mg「CH」",
+   "サラゾスルファピリジン腸溶錠500mg「CH」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6219001H1129": {
+  "doc_id": "581120_6219001H1129_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_6219001H1129_1_06",
+  "pdf_date": "2026-05-29",
+  "pmda_names": [
+   "サラゾスルファピリジン腸溶錠250mg「NIG」",
+   "サラゾスルファピリジン腸溶錠500mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6219001H2036": {
+  "doc_id": "172190_6219001H1056_3_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_6219001H1056_3_04",
+  "pdf_date": "2025-09-09",
+  "pmda_names": [
+   "アザルフィジンEN錠250mg",
+   "アザルフィジンEN錠500mg"
+  ],
+  "maker": "製造販売元／あゆみ製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6219001H2095": {
+  "doc_id": "450064_6219001H1102_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6219001H1102_1_08",
+  "pdf_date": "2026-05-29",
+  "pmda_names": [
+   "サラゾスルファピリジン腸溶錠250mg「CH」",
+   "サラゾスルファピリジン腸溶錠500mg「CH」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6219001H2117": {
+  "doc_id": "581120_6219001H1129_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_6219001H1129_1_06",
+  "pdf_date": "2026-05-29",
+  "pmda_names": [
+   "サラゾスルファピリジン腸溶錠250mg「NIG」",
+   "サラゾスルファピリジン腸溶錠500mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6222007F1023": {
+  "doc_id": "800155_6222007F1023_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_6222007F1023_1_04",
+  "pdf_date": "2026-06-01",
+  "pmda_names": [
+   "サチュロ錠100mgを服用される患者さんへ"
+  ],
+  "maker": "",
+  "match": "loose",
+  "candidates": 1
+ },
+ "6225001F1036": {
+  "doc_id": "200022_6225001F1036_1_19",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/200022_6225001F1036_1_19",
+  "pdf_date": "2023-03-23",
+  "pmda_names": [
+   "エブトール125mg錠",
+   "エブトール250mg錠"
+  ],
+  "maker": "製造販売元／科研製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6225001F2032": {
+  "doc_id": "200022_6225001F1036_1_19",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/200022_6225001F1036_1_19",
+  "pdf_date": "2023-03-23",
+  "pmda_names": [
+   "エブトール125mg錠",
+   "エブトール250mg錠"
+  ],
+  "maker": "製造販売元／科研製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241005F1020": {
+  "doc_id": "231099_6241005F1020_3_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_6241005F1020_3_05",
+  "pdf_date": "2025-06-24",
+  "pmda_names": [
+   "バクシダール錠100mg",
+   "バクシダール錠200mg"
+  ],
+  "maker": "製造販売元／杏林製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241005F1267": {
+  "doc_id": "460028_6241005F1267_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_6241005F1267_1_10",
+  "pdf_date": "2023-06-02",
+  "pmda_names": [
+   "ノルフロキサシン錠100mg「ツルハラ」",
+   "ノルフロキサシン錠200mg「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241005F1275": {
+  "doc_id": "300119_6241005F1275_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241005F1275_1_07",
+  "pdf_date": "2025-05-14",
+  "pmda_names": [
+   "ノルフロキサシン錠100mg「サワイ」",
+   "ノルフロキサシン錠200mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241005F2026": {
+  "doc_id": "231099_6241005F1020_3_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_6241005F1020_3_05",
+  "pdf_date": "2025-06-24",
+  "pmda_names": [
+   "バクシダール錠100mg",
+   "バクシダール錠200mg"
+  ],
+  "maker": "製造販売元／杏林製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241005F2301": {
+  "doc_id": "460028_6241005F1267_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_6241005F1267_1_10",
+  "pdf_date": "2023-06-02",
+  "pmda_names": [
+   "ノルフロキサシン錠100mg「ツルハラ」",
+   "ノルフロキサシン錠200mg「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241005F2310": {
+  "doc_id": "300119_6241005F1275_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241005F1275_1_07",
+  "pdf_date": "2025-05-14",
+  "pmda_names": [
+   "ノルフロキサシン錠100mg「サワイ」",
+   "ノルフロキサシン錠200mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241006F1040": {
+  "doc_id": "300119_6241006F1040_2_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241006F1040_2_09",
+  "pdf_date": "2025-09-30",
+  "pmda_names": [
+   "オフロキサシン錠100mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241006F1059": {
+  "doc_id": "460028_6241006F1059_1_20",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_6241006F1059_1_20",
+  "pdf_date": "2025-09-30",
+  "pmda_names": [
+   "オフロキサシン錠100mg「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241008F1023": {
+  "doc_id": "630004_6241008F1023_1_26",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_6241008F1023_1_26",
+  "pdf_date": "2026-09-29",
+  "pmda_names": [
+   "シプロキサン錠100mg",
+   "シプロキサン錠200mg"
+  ],
+  "maker": "製造販売元／バイエル薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241008F2020": {
+  "doc_id": "630004_6241008F1023_1_26",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_6241008F1023_1_26",
+  "pdf_date": "2026-09-29",
+  "pmda_names": [
+   "シプロキサン錠100mg",
+   "シプロキサン錠200mg"
+  ],
+  "maker": "製造販売元／バイエル薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241010F1080": {
+  "doc_id": "300119_6241010F1080_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241010F1080_1_13",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "トスフロキサシントシル酸塩錠75mg「サワイ」",
+   "トスフロキサシントシル酸塩錠150mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241010F2027": {
+  "doc_id": "400022_6241010F1020_2_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400022_6241010F1020_2_08",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "オゼックス錠75",
+   "オゼックス錠150"
+  ],
+  "maker": "製造販売元／富士フイルム富山化学株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241010F2086": {
+  "doc_id": "300119_6241010F1080_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241010F1080_1_13",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "トスフロキサシントシル酸塩錠75mg「サワイ」",
+   "トスフロキサシントシル酸塩錠150mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241010F3023": {
+  "doc_id": "400022_6241010C1024_2_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400022_6241010C1024_2_08",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "オゼックス細粒小児用15%",
+   "オゼックス錠小児用60mg"
+  ],
+  "maker": "製造販売元／富士フイルム富山化学株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2020": {
+  "doc_id": "430574_6241013C2024_1_24",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_6241013C2024_1_24",
+  "pdf_date": "2025-05-20",
+  "pmda_names": [
+   "クラビット錠250mg",
+   "クラビット錠500mg",
+   "クラビット細粒10%"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2047": {
+  "doc_id": "450064_6241013F2047_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6241013F2047_1_11",
+  "pdf_date": "2025-06-04",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「CH」",
+   "レボフロキサシン錠500mg「CH」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2055": {
+  "doc_id": "430773_6241013C2032_1_15",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_6241013C2032_1_15",
+  "pdf_date": "2025-05-20",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「DSEP」",
+   "レボフロキサシン錠500mg「DSEP」",
+   "レボフロキサシン細粒10%「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2080": {
+  "doc_id": "400278_6241013F2080_2_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6241013F2080_2_08",
+  "pdf_date": "2025-05-20",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「TCK」",
+   "レボフロキサシン錠500mg「TCK」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6241013F2101": {
+  "doc_id": "380087_6241013F2101_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_6241013F2101_1_10",
+  "pdf_date": "2025-08-04",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「ZE」",
+   "レボフロキサシン錠500mg「ZE」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2136": {
+  "doc_id": "130202_6241013F2136_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130202_6241013F2136_1_09",
+  "pdf_date": "2023-07-20",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「イワキ」",
+   "レボフロキサシン錠500mg「イワキ」"
+  ],
+  "maker": "製造販売元／岩城製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2160": {
+  "doc_id": "480209_6241013F2160_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_6241013F2160_1_13",
+  "pdf_date": "2025-06-16",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「杏林」",
+   "レボフロキサシン錠500mg「杏林」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2179": {
+  "doc_id": "400042_6241013F2179_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_6241013F2179_1_12",
+  "pdf_date": "2025-01-06",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「ケミファ」",
+   "レボフロキサシン錠500mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2209": {
+  "doc_id": "300119_6241013F2209_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241013F2209_1_09",
+  "pdf_date": "2025-03-11",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「サワイ」",
+   "レボフロキサシン錠500mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2225": {
+  "doc_id": "400186_6241013F2225_1_14",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_6241013F2225_1_14",
+  "pdf_date": "2026-01-30",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「タカタ」",
+   "レボフロキサシン錠500mg「タカタ」"
+  ],
+  "maker": "製造販売元／高田製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2250": {
+  "doc_id": "480235_6241013F2250_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6241013F2250_1_11",
+  "pdf_date": "2025-06-10",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「トーワ」",
+   "レボフロキサシン錠500mg「トーワ」",
+   "レボフロキサシンOD錠250mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2330": {
+  "doc_id": "830001_6241013F2330_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_6241013F2330_1_05",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「陽進」",
+   "レボフロキサシン錠500mg「陽進」"
+  ],
+  "maker": "製造販売元／陽進堂ホールディングス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F2349": {
+  "doc_id": "270029_6241013F2349_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_6241013F2349_1_04",
+  "pdf_date": "2024-03-15",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「クニヒロ」",
+   "レボフロキサシン錠500mg「クニヒロ」"
+  ],
+  "maker": "製造販売元／皇漢堂製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F3027": {
+  "doc_id": "430574_6241013C2024_1_24",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_6241013C2024_1_24",
+  "pdf_date": "2025-05-20",
+  "pmda_names": [
+   "クラビット錠250mg",
+   "クラビット錠500mg",
+   "クラビット細粒10%"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F3043": {
+  "doc_id": "450064_6241013F2047_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6241013F2047_1_11",
+  "pdf_date": "2025-06-04",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「CH」",
+   "レボフロキサシン錠500mg「CH」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F3051": {
+  "doc_id": "430773_6241013C2032_1_15",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_6241013C2032_1_15",
+  "pdf_date": "2025-05-20",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「DSEP」",
+   "レボフロキサシン錠500mg「DSEP」",
+   "レボフロキサシン細粒10%「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F3086": {
+  "doc_id": "400278_6241013F2080_2_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6241013F2080_2_08",
+  "pdf_date": "2025-05-20",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「TCK」",
+   "レボフロキサシン錠500mg「TCK」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "6241013F3175": {
+  "doc_id": "400042_6241013F2179_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_6241013F2179_1_12",
+  "pdf_date": "2025-01-06",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「ケミファ」",
+   "レボフロキサシン錠500mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F3205": {
+  "doc_id": "300119_6241013F2209_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241013F2209_1_09",
+  "pdf_date": "2025-03-11",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「サワイ」",
+   "レボフロキサシン錠500mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F3256": {
+  "doc_id": "480235_6241013F2250_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6241013F2250_1_11",
+  "pdf_date": "2025-06-10",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「トーワ」",
+   "レボフロキサシン錠500mg「トーワ」",
+   "レボフロキサシンOD錠250mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241013F4023": {
+  "doc_id": "480235_6241013F2250_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6241013F2250_1_11",
+  "pdf_date": "2025-06-10",
+  "pmda_names": [
+   "レボフロキサシン錠250mg「トーワ」",
+   "レボフロキサシン錠500mg「トーワ」",
+   "レボフロキサシンOD錠250mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241018F1027": {
+  "doc_id": "430574_6241018C1020_1_23",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_6241018C1020_1_23",
+  "pdf_date": "2025-03-05",
+  "pmda_names": [
+   "グレースビット錠50mg",
+   "グレースビット細粒10%"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6241018F1035": {
+  "doc_id": "300119_6241018F1035_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6241018F1035_1_08",
+  "pdf_date": "2025-03-05",
+  "pmda_names": [
+   "シタフロキサシン錠50mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6249002F1040": {
+  "doc_id": "300119_6249002F1040_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6249002F1040_1_09",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "リネゾリド錠600mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6250002F1025": {
+  "doc_id": "340278_6250002F1025_W_20",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6250002F1025_W_20",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "ゾビラックス錠200",
+   "ゾビラックス錠400"
+  ],
+  "maker": "製造販売元／グラクソ・スミスクライン株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6250002F1238": {
+  "doc_id": "300119_6250002F1238_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6250002F1238_1_10",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "アシクロビル錠200mg「サワイ」",
+   "アシクロビル錠400mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6250002F1262": {
+  "doc_id": "480235_6250002F1262_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6250002F1262_1_10",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "アシクロビル錠200mg「トーワ」",
+   "アシクロビル錠400mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6250002F2021": {
+  "doc_id": "340278_6250002F1025_W_20",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6250002F1025_W_20",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "ゾビラックス錠200",
+   "ゾビラックス錠400"
+  ],
+  "maker": "製造販売元／グラクソ・スミスクライン株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6250002F2234": {
+  "doc_id": "300119_6250002F1238_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6250002F1238_1_10",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "アシクロビル錠200mg「サワイ」",
+   "アシクロビル錠400mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6250002F2269": {
+  "doc_id": "480235_6250002F1262_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_6250002F1262_1_10",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "アシクロビル錠200mg「トーワ」",
+   "アシクロビル錠400mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6250006F1031": {
+  "doc_id": "166272_6250006F1031_X_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/166272_6250006F1031_X_12",
+  "pdf_date": "2024-08-20",
+  "pmda_names": [
+   "エピビル錠150",
+   "エピビル錠300"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "6250006F2020": {
+  "doc_id": "166272_6250006F1031_X_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/166272_6250006F1031_X_12",
+  "pdf_date": "2024-08-20",
+  "pmda_names": [
+   "エピビル錠150",
+   "エピビル錠300"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
  }
 }
