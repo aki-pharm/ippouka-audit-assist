@@ -29158,5 +29158,4503 @@
   "maker": "製造販売元／株式会社三和化学研究所",
   "match": "exact",
   "candidates": 1
+ },
+ "2499005F1030": {
+  "doc_id": "200022_2499005F1030_2_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/200022_2499005F1030_2_12",
+  "pdf_date": "2026-06-16",
+  "pmda_names": [
+   "プロスタグランジンE2錠0.5mg「科研」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2499010F1082": {
+  "doc_id": "340269_2499010F1082_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340269_2499010F1082_1_08",
+  "pdf_date": "2026-07-27",
+  "pmda_names": [
+   "ジエノゲスト錠1mg「キッセイ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499010F2046": {
+  "doc_id": "790250_2499010F2046_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790250_2499010F2046_1_08",
+  "pdf_date": "2025-10-22",
+  "pmda_names": [
+   "ジエノゲストOD錠1mg「モチダ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499010F2054": {
+  "doc_id": "340269_2499010F2054_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340269_2499010F2054_1_05",
+  "pdf_date": "2025-11-21",
+  "pmda_names": [
+   "ジエノゲストOD錠1mg「キッセイ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499010F2062": {
+  "doc_id": "480235_2499010F2062_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2499010F2062_1_05",
+  "pdf_date": "2025-11-05",
+  "pmda_names": [
+   "ジエノゲストOD錠1mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499010F3034": {
+  "doc_id": "790250_2499010F3034_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790250_2499010F3034_1_04",
+  "pdf_date": "2025-10-22",
+  "pmda_names": [
+   "ジエノゲスト錠0.5mg「モチダ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499011F1028": {
+  "doc_id": "430773_2499011F1028_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2499011F1028_1_04",
+  "pdf_date": "2024-05-17",
+  "pmda_names": [
+   "デュタステリド錠0.5mgAV「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499011F1036": {
+  "doc_id": "530113_2499011F1036_3_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2499011F1036_3_04",
+  "pdf_date": "2026-02-02",
+  "pmda_names": [
+   "デュタステリド錠0.5mgAV「NS」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 3
+ },
+ "2499011F1044": {
+  "doc_id": "830001_2499011F1044_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2499011F1044_1_05",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "デュタステリド錠0.5mgAV「YD」"
+  ],
+  "maker": "製造販売元／陽進堂ホールディングス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499011F1052": {
+  "doc_id": "780009_2499011F1052_2_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2499011F1052_2_02",
+  "pdf_date": "2023-08-01",
+  "pmda_names": [
+   "デュタステリド錠0.5mgAV「明治」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499011M1043": {
+  "doc_id": "650208_2499011M1043_2_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_2499011M1043_2_05",
+  "pdf_date": "2025-05-15",
+  "pmda_names": [
+   "デュタステリドカプセル0.5mgAV「BMD」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2499011M1051": {
+  "doc_id": "430773_2499011M1051_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2499011M1051_1_03",
+  "pdf_date": "2024-05-17",
+  "pmda_names": [
+   "デュタステリドカプセル0.5mgAV「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499011M1060": {
+  "doc_id": "580591_2499011M1060_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2499011M1060_1_03",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "デュタステリドカプセル0.5mgAV「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499011M1078": {
+  "doc_id": "480187_2499011M1078_2_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480187_2499011M1078_2_02",
+  "pdf_date": "2023-12-14",
+  "pmda_names": [
+   "デュタステリドカプセル0.5mgAV「TC」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499011M1094": {
+  "doc_id": "300119_2499011M1094_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2499011M1094_1_02",
+  "pdf_date": "2023-06-30",
+  "pmda_names": [
+   "デュタステリドカプセル0.5mgAV「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499011M1108": {
+  "doc_id": "400813_2499011M1108_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2499011M1108_1_03",
+  "pdf_date": "2025-09-01",
+  "pmda_names": [
+   "デュタステリドカプセル0.5mgAV「武田テバ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499011M1116": {
+  "doc_id": "480235_2499011M1116_3_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2499011M1116_3_05",
+  "pdf_date": "2026-08-19",
+  "pmda_names": [
+   "デュタステリドカプセル0.5mgAV「トーワ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 3
+ },
+ "2499011M1132": {
+  "doc_id": "530100_2499011M1132_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2499011M1132_1_04",
+  "pdf_date": "2023-12-12",
+  "pmda_names": [
+   "デュタステリドカプセル0.5mgAV「ニプロ」"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499012F2029": {
+  "doc_id": "180078_2139011D1022_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_2139011D1022_1_13",
+  "pdf_date": "2025-12-09",
+  "pmda_names": [
+   "サムスカOD錠7.5mg",
+   "サムスカOD錠15mg",
+   "サムスカOD錠30mg",
+   "サムスカ顆粒1%"
+  ],
+  "maker": "製造販売元／大塚製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499014F1021": {
+  "doc_id": "620023_2499014F1021_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620023_2499014F1021_1_07",
+  "pdf_date": "2026-05-22",
+  "pmda_names": [
+   "リベルサス錠3mg",
+   "リベルサス錠7mg",
+   "リベルサス錠14mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499014F2028": {
+  "doc_id": "620023_2499014F1021_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620023_2499014F1021_1_07",
+  "pdf_date": "2026-05-22",
+  "pmda_names": [
+   "リベルサス錠3mg",
+   "リベルサス錠7mg",
+   "リベルサス錠14mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499014F3024": {
+  "doc_id": "620023_2499014F1021_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620023_2499014F1021_1_07",
+  "pdf_date": "2026-05-22",
+  "pmda_names": [
+   "リベルサス錠3mg",
+   "リベルサス錠7mg",
+   "リベルサス錠14mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499015F1026": {
+  "doc_id": "870276_2499015F1026_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/870276_2499015F1026_1_06",
+  "pdf_date": "2025-09-16",
+  "pmda_names": [
+   "イスツリサ錠1mg",
+   "イスツリサ錠5mg"
+  ],
+  "maker": "製造販売元／レコルダティ・レア・ディジーズ・ジャパン株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2499015F2022": {
+  "doc_id": "870276_2499015F1026_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/870276_2499015F1026_1_06",
+  "pdf_date": "2025-09-16",
+  "pmda_names": [
+   "イスツリサ錠1mg",
+   "イスツリサ錠5mg"
+  ],
+  "maker": "製造販売元／レコルダティ・レア・ディジーズ・ジャパン株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2531002F1010": {
+  "doc_id": "670109_2531002F1222_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_2531002F1222_1_12",
+  "pdf_date": "2026-03-17",
+  "pmda_names": [
+   "メチルエルゴメトリンマレイン酸塩錠0.125mg「F」"
+  ],
+  "maker": "製造販売元／富士製薬工業株式会社",
+  "match": "loose",
+  "candidates": 1
+ },
+ "2590002F1517": {
+  "doc_id": "300119_2590002F1517_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590002F1517_1_02",
+  "pdf_date": "2024-01-31",
+  "pmda_names": [
+   "フラボキサート塩酸塩錠200mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590004F1354": {
+  "doc_id": "470007_2590004F1354_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590004F1354_1_05",
+  "pdf_date": "2024-10-31",
+  "pmda_names": [
+   "リトドリン塩酸塩錠5mg「あすか」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590005F1022": {
+  "doc_id": "450900_2590005F1022_3_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_2590005F1022_3_01",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "ポラキス錠1",
+   "ポラキス錠2",
+   "ポラキス錠3"
+  ],
+  "maker": "製造販売元／チェプラファーム株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590005F1316": {
+  "doc_id": "300119_2590005F1316_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590005F1316_1_04",
+  "pdf_date": "2024-02-29",
+  "pmda_names": [
+   "オキシブチニン塩酸塩錠1mg「サワイ」",
+   "オキシブチニン塩酸塩錠2mg「サワイ」",
+   "オキシブチニン塩酸塩錠3mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590005F2029": {
+  "doc_id": "450900_2590005F1022_3_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_2590005F1022_3_01",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "ポラキス錠1",
+   "ポラキス錠2",
+   "ポラキス錠3"
+  ],
+  "maker": "製造販売元／チェプラファーム株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590005F2274": {
+  "doc_id": "300119_2590005F1316_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590005F1316_1_04",
+  "pdf_date": "2024-02-29",
+  "pmda_names": [
+   "オキシブチニン塩酸塩錠1mg「サワイ」",
+   "オキシブチニン塩酸塩錠2mg「サワイ」",
+   "オキシブチニン塩酸塩錠3mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590005F3025": {
+  "doc_id": "450900_2590005F1022_3_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_2590005F1022_3_01",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "ポラキス錠1",
+   "ポラキス錠2",
+   "ポラキス錠3"
+  ],
+  "maker": "製造販売元／チェプラファーム株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590005F3173": {
+  "doc_id": "300119_2590005F1316_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590005F1316_1_04",
+  "pdf_date": "2024-02-29",
+  "pmda_names": [
+   "オキシブチニン塩酸塩錠1mg「サワイ」",
+   "オキシブチニン塩酸塩錠2mg「サワイ」",
+   "オキシブチニン塩酸塩錠3mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F1021": {
+  "doc_id": "400107_2590007C1025_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_2590007C1025_1_09",
+  "pdf_date": "2021-08-10",
+  "pmda_names": [
+   "バップフォー錠10",
+   "バップフォー錠20",
+   "バップフォー細粒2%"
+  ],
+  "maker": "製造販売元／大鵬薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F1307": {
+  "doc_id": "480235_2590007F1307_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590007F1307_1_08",
+  "pdf_date": "2025-05-26",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「トーワ」",
+   "プロピベリン塩酸塩錠20mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F1323": {
+  "doc_id": "470007_2590007F1323_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590007F1323_1_05",
+  "pdf_date": "2024-10-31",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「あすか」",
+   "プロピベリン塩酸塩錠20mg「あすか」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F2028": {
+  "doc_id": "400107_2590007C1025_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_2590007C1025_1_09",
+  "pdf_date": "2021-08-10",
+  "pmda_names": [
+   "バップフォー錠10",
+   "バップフォー錠20",
+   "バップフォー細粒2%"
+  ],
+  "maker": "製造販売元／大鵬薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F2257": {
+  "doc_id": "830001_2590007F1269_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2590007F1269_1_07",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「YD」",
+   "プロピベリン塩酸塩錠20mg「YD」"
+  ],
+  "maker": "製造販売元／陽進堂ホールディングス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F2265": {
+  "doc_id": "450064_2590007F1277_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2590007F1277_1_04",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「JG」",
+   "プロピベリン塩酸塩錠20mg「JG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F2273": {
+  "doc_id": "530113_2590007F1285_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2590007F1285_1_03",
+  "pdf_date": "2023-12-04",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「NS」",
+   "プロピベリン塩酸塩錠20mg「NS」"
+  ],
+  "maker": "製造販売元／日新製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F2290": {
+  "doc_id": "480235_2590007F1307_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590007F1307_1_08",
+  "pdf_date": "2025-05-26",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「トーワ」",
+   "プロピベリン塩酸塩錠20mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F2303": {
+  "doc_id": "480209_2590007F1315_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590007F1315_1_05",
+  "pdf_date": "2024-05-07",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「杏林」",
+   "プロピベリン塩酸塩錠20mg「杏林」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F2311": {
+  "doc_id": "470007_2590007F1323_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590007F1323_1_05",
+  "pdf_date": "2024-10-31",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「あすか」",
+   "プロピベリン塩酸塩錠20mg「あすか」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F2338": {
+  "doc_id": "400278_2590007F1340_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2590007F1340_1_03",
+  "pdf_date": "2024-02-09",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「TCK」",
+   "プロピベリン塩酸塩錠20mg「TCK」"
+  ],
+  "maker": "製造販売元／辰巳化学株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F2346": {
+  "doc_id": "581120_2590007F1358_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590007F1358_1_03",
+  "pdf_date": "2026-02-01",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「NIG」",
+   "プロピベリン塩酸塩錠20mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590007F2362": {
+  "doc_id": "300119_2590007F1374_1_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590007F1374_1_01",
+  "pdf_date": "2023-12-08",
+  "pmda_names": [
+   "プロピベリン塩酸塩錠10mg「サワイ」",
+   "プロピベリン塩酸塩錠20mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F1026": {
+  "doc_id": "800126_2590008F1026_1_14",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590008F1026_1_14",
+  "pdf_date": "2026-11-02",
+  "pmda_names": [
+   "ハルナールD錠0.1mg",
+   "ハルナールD錠0.2mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F1050": {
+  "doc_id": "530372_2590008F1050_2_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2590008F1050_2_06",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「ケミファ」",
+   "タムスロシン塩酸塩OD錠0.2mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590008F1077": {
+  "doc_id": "530169_2590008F1077_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590008F1077_1_06",
+  "pdf_date": "2024-09-10",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「日医工」",
+   "タムスロシン塩酸塩OD錠0.2mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F1085": {
+  "doc_id": "530113_2590008F1085_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2590008F1085_1_05",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「日新」",
+   "タムスロシン塩酸塩OD錠0.2mg「日新」"
+  ],
+  "maker": "製造販売元／日新製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F1093": {
+  "doc_id": "780009_2590008F1093_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2590008F1093_1_07",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「明治」",
+   "タムスロシン塩酸塩OD錠0.2mg「明治」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F1123": {
+  "doc_id": "300119_2590008F1123_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590008F1123_1_07",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「サワイ」",
+   "タムスロシン塩酸塩OD錠0.2mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F1131": {
+  "doc_id": "450064_2590008F1131_2_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2590008F1131_2_08",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「CH」",
+   "タムスロシン塩酸塩OD錠0.2mg「CH」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F1166": {
+  "doc_id": "480235_2590008F1166_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590008F1166_1_07",
+  "pdf_date": "2025-05-26",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「トーワ」",
+   "タムスロシン塩酸塩OD錠0.2mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F1182": {
+  "doc_id": "470007_2590008F1182_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590008F1182_1_04",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「あすか」",
+   "タムスロシン塩酸塩OD錠0.2mg「あすか」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F1190": {
+  "doc_id": "730869_2590008F1190_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2590008F1190_1_05",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「VTRS」",
+   "タムスロシン塩酸塩OD錠0.2mg「VTRS」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F2022": {
+  "doc_id": "800126_2590008F1026_1_14",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590008F1026_1_14",
+  "pdf_date": "2026-11-02",
+  "pmda_names": [
+   "ハルナールD錠0.1mg",
+   "ハルナールD錠0.2mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F2057": {
+  "doc_id": "530372_2590008F1050_2_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2590008F1050_2_06",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「ケミファ」",
+   "タムスロシン塩酸塩OD錠0.2mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590008F2073": {
+  "doc_id": "530169_2590008F1077_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590008F1077_1_06",
+  "pdf_date": "2024-09-10",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「日医工」",
+   "タムスロシン塩酸塩OD錠0.2mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F2081": {
+  "doc_id": "530113_2590008F1085_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2590008F1085_1_05",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「日新」",
+   "タムスロシン塩酸塩OD錠0.2mg「日新」"
+  ],
+  "maker": "製造販売元／日新製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F2120": {
+  "doc_id": "300119_2590008F1123_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590008F1123_1_07",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「サワイ」",
+   "タムスロシン塩酸塩OD錠0.2mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F2138": {
+  "doc_id": "450064_2590008F1131_2_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2590008F1131_2_08",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「CH」",
+   "タムスロシン塩酸塩OD錠0.2mg「CH」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F2162": {
+  "doc_id": "480235_2590008F1166_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590008F1166_1_07",
+  "pdf_date": "2025-05-26",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「トーワ」",
+   "タムスロシン塩酸塩OD錠0.2mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008F2189": {
+  "doc_id": "470007_2590008F1182_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590008F1182_1_04",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩OD錠0.1mg「あすか」",
+   "タムスロシン塩酸塩OD錠0.2mg「あすか」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008N1233": {
+  "doc_id": "581120_2590008N1233_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590008N1233_1_03",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩カプセル0.1mg「NIG」",
+   "タムスロシン塩酸塩カプセル0.2mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590008N2230": {
+  "doc_id": "581120_2590008N1233_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590008N1233_1_03",
+  "pdf_date": "2024-04-11",
+  "pmda_names": [
+   "タムスロシン塩酸塩カプセル0.1mg「NIG」",
+   "タムスロシン塩酸塩カプセル0.2mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F1039": {
+  "doc_id": "100898_2590009F1039_2_16",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2590009F1039_2_16",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "フリバス錠 25mg",
+   "フリバス錠 50mg",
+   "フリバス錠 75mg"
+  ],
+  "maker": "製造販売元／旭化成セラピューティクス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F1144": {
+  "doc_id": "530169_2590009F1144_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590009F1144_1_05",
+  "pdf_date": "2024-10-31",
+  "pmda_names": [
+   "ナフトピジル錠25mg「日医工」",
+   "ナフトピジル錠50mg「日医工」",
+   "ナフトピジル錠75mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F2035": {
+  "doc_id": "100898_2590009F1039_2_16",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2590009F1039_2_16",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "フリバス錠 25mg",
+   "フリバス錠 50mg",
+   "フリバス錠 75mg"
+  ],
+  "maker": "製造販売元／旭化成セラピューティクス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F3023": {
+  "doc_id": "100898_2590009F1039_2_16",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2590009F1039_2_16",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "フリバス錠 25mg",
+   "フリバス錠 50mg",
+   "フリバス錠 75mg"
+  ],
+  "maker": "製造販売元／旭化成セラピューティクス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F3139": {
+  "doc_id": "530169_2590009F1144_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590009F1144_1_05",
+  "pdf_date": "2024-10-31",
+  "pmda_names": [
+   "ナフトピジル錠25mg「日医工」",
+   "ナフトピジル錠50mg「日医工」",
+   "ナフトピジル錠75mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F4020": {
+  "doc_id": "100898_2590009F4020_1_16",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2590009F4020_1_16",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "フリバスOD錠 25mg",
+   "フリバスOD錠 50mg",
+   "フリバスOD錠 75mg"
+  ],
+  "maker": "製造販売元／旭化成セラピューティクス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F4038": {
+  "doc_id": "430773_2590009F4038_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2590009F4038_1_05",
+  "pdf_date": "2024-05-17",
+  "pmda_names": [
+   "ナフトピジルOD錠25mg「DSEP」",
+   "ナフトピジルOD錠50mg「DSEP」",
+   "ナフトピジルOD錠75mg「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F4062": {
+  "doc_id": "580591_2590009F4062_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590009F4062_1_04",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "ナフトピジルOD錠25mg「JG」",
+   "ナフトピジルOD錠50mg「JG」",
+   "ナフトピジルOD錠75mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F4127": {
+  "doc_id": "530372_2590009F4127_2_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2590009F4127_2_03",
+  "pdf_date": "2025-12-01",
+  "pmda_names": [
+   "ナフトピジルOD錠25mg「ケミファ」",
+   "ナフトピジルOD錠50mg「ケミファ」",
+   "ナフトピジルOD錠75mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590009F4224": {
+  "doc_id": "480235_2590009F4224_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590009F4224_1_02",
+  "pdf_date": "2023-06-12",
+  "pmda_names": [
+   "ナフトピジルOD錠25mg「トーワ」",
+   "ナフトピジルOD錠50mg「トーワ」",
+   "ナフトピジルOD錠75mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F4232": {
+  "doc_id": "581120_2590009F4232_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590009F4232_1_03",
+  "pdf_date": "2026-02-01",
+  "pmda_names": [
+   "ナフトピジルOD錠25mg「NIG」",
+   "ナフトピジルOD錠50mg「NIG」",
+   "ナフトピジルOD錠75mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F5026": {
+  "doc_id": "100898_2590009F4020_1_16",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2590009F4020_1_16",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "フリバスOD錠 25mg",
+   "フリバスOD錠 50mg",
+   "フリバスOD錠 75mg"
+  ],
+  "maker": "製造販売元／旭化成セラピューティクス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F5069": {
+  "doc_id": "580591_2590009F4062_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590009F4062_1_04",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "ナフトピジルOD錠25mg「JG」",
+   "ナフトピジルOD錠50mg「JG」",
+   "ナフトピジルOD錠75mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F5123": {
+  "doc_id": "530372_2590009F4127_2_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2590009F4127_2_03",
+  "pdf_date": "2025-12-01",
+  "pmda_names": [
+   "ナフトピジルOD錠25mg「ケミファ」",
+   "ナフトピジルOD錠50mg「ケミファ」",
+   "ナフトピジルOD錠75mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590009F5220": {
+  "doc_id": "480235_2590009F4224_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590009F4224_1_02",
+  "pdf_date": "2023-06-12",
+  "pmda_names": [
+   "ナフトピジルOD錠25mg「トーワ」",
+   "ナフトピジルOD錠50mg「トーワ」",
+   "ナフトピジルOD錠75mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F5239": {
+  "doc_id": "581120_2590009F4232_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590009F4232_1_03",
+  "pdf_date": "2026-02-01",
+  "pmda_names": [
+   "ナフトピジルOD錠25mg「NIG」",
+   "ナフトピジルOD錠50mg「NIG」",
+   "ナフトピジルOD錠75mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590009F6022": {
+  "doc_id": "100898_2590009F4020_1_16",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2590009F4020_1_16",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "フリバスOD錠 25mg",
+   "フリバスOD錠 50mg",
+   "フリバスOD錠 75mg"
+  ],
+  "maker": "製造販売元／旭化成セラピューティクス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590010F1023": {
+  "doc_id": "230034_2590010F1023_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2590010F1023_1_12",
+  "pdf_date": "2026-01-26",
+  "pmda_names": [
+   "ユリーフ錠2mg",
+   "ユリーフ錠4mg",
+   "ユリーフOD錠2mg",
+   "ユリーフOD錠4mg"
+  ],
+  "maker": "製造販売元／キッセイ薬品工業株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590010F2020": {
+  "doc_id": "230034_2590010F1023_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2590010F1023_1_12",
+  "pdf_date": "2026-01-26",
+  "pmda_names": [
+   "ユリーフ錠2mg",
+   "ユリーフ錠4mg",
+   "ユリーフOD錠2mg",
+   "ユリーフOD錠4mg"
+  ],
+  "maker": "製造販売元／キッセイ薬品工業株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590010F2038": {
+  "doc_id": "430773_2590010F1031_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2590010F1031_1_06",
+  "pdf_date": "2026-02-06",
+  "pmda_names": [
+   "シロドシン錠2mg「DSEP」",
+   "シロドシン錠4mg「DSEP」",
+   "シロドシンOD錠2mg「DSEP」",
+   "シロドシンOD錠4mg「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590010F2046": {
+  "doc_id": "580591_2590010F1040_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590010F1040_1_04",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "シロドシン錠2mg「JG」",
+   "シロドシン錠4mg「JG」",
+   "シロドシンOD錠2mg「JG」",
+   "シロドシンOD錠4mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590010F2054": {
+  "doc_id": "300166_2590010F1058_2_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2590010F1058_2_03",
+  "pdf_date": "2023-12-01",
+  "pmda_names": [
+   "シロドシン錠2mg「KMP」",
+   "シロドシン錠4mg「KMP」",
+   "シロドシンOD錠2mg「KMP」",
+   "シロドシンOD錠4mg「KMP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590010F2100": {
+  "doc_id": "180095_2590010F3107_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2590010F3107_1_03",
+  "pdf_date": "2023-10-31",
+  "pmda_names": [
+   "シロドシン錠2mg「オーハラ」",
+   "シロドシン錠4mg「オーハラ」",
+   "シロドシンOD錠2mg「オーハラ」",
+   "シロドシンOD錠4mg「オーハラ」"
+  ],
+  "maker": "製造販売元／大原薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590010F3026": {
+  "doc_id": "230034_2590010F1023_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2590010F1023_1_12",
+  "pdf_date": "2026-01-26",
+  "pmda_names": [
+   "ユリーフ錠2mg",
+   "ユリーフ錠4mg",
+   "ユリーフOD錠2mg",
+   "ユリーフOD錠4mg"
+  ],
+  "maker": "製造販売元／キッセイ薬品工業株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590010F4022": {
+  "doc_id": "230034_2590010F1023_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2590010F1023_1_12",
+  "pdf_date": "2026-01-26",
+  "pmda_names": [
+   "ユリーフ錠2mg",
+   "ユリーフ錠4mg",
+   "ユリーフOD錠2mg",
+   "ユリーフOD錠4mg"
+  ],
+  "maker": "製造販売元／キッセイ薬品工業株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590010F4030": {
+  "doc_id": "430773_2590010F1031_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2590010F1031_1_06",
+  "pdf_date": "2026-02-06",
+  "pmda_names": [
+   "シロドシン錠2mg「DSEP」",
+   "シロドシン錠4mg「DSEP」",
+   "シロドシンOD錠2mg「DSEP」",
+   "シロドシンOD錠4mg「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590010F4057": {
+  "doc_id": "300166_2590010F1058_2_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2590010F1058_2_03",
+  "pdf_date": "2023-12-01",
+  "pmda_names": [
+   "シロドシン錠2mg「KMP」",
+   "シロドシン錠4mg「KMP」",
+   "シロドシンOD錠2mg「KMP」",
+   "シロドシンOD錠4mg「KMP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590010F4103": {
+  "doc_id": "180095_2590010F3107_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2590010F3107_1_03",
+  "pdf_date": "2023-10-31",
+  "pmda_names": [
+   "シロドシン錠2mg「オーハラ」",
+   "シロドシン錠4mg「オーハラ」",
+   "シロドシンOD錠2mg「オーハラ」",
+   "シロドシンOD錠4mg「オーハラ」"
+  ],
+  "maker": "製造販売元／大原薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590010F4111": {
+  "doc_id": "480209_2590010F3115_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590010F3115_1_02",
+  "pdf_date": "2026-08-03",
+  "pmda_names": [
+   "シロドシンOD錠2mg「杏林」",
+   "シロドシンOD錠4mg「杏林」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590010F4154": {
+  "doc_id": "530113_2590010F3158_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2590010F3158_1_03",
+  "pdf_date": "2023-09-29",
+  "pmda_names": [
+   "シロドシンOD錠2mg「日新」",
+   "シロドシンOD錠4mg「日新」"
+  ],
+  "maker": "製造販売元／日新製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590010F4170": {
+  "doc_id": "580591_2590010F1040_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590010F1040_1_04",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "シロドシン錠2mg「JG」",
+   "シロドシン錠4mg「JG」",
+   "シロドシンOD錠2mg「JG」",
+   "シロドシンOD錠4mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F1028": {
+  "doc_id": "800126_2590011F1028_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590011F1028_1_13",
+  "pdf_date": "2026-11-02",
+  "pmda_names": [
+   "ベシケア錠2.5mg",
+   "ベシケア錠5mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F1036": {
+  "doc_id": "400278_2590011F1036_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2590011F1036_1_02",
+  "pdf_date": "2026-11-06",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「TCK」",
+   "ソリフェナシンコハク酸塩錠5mg「TCK」"
+  ],
+  "maker": "製造販売元／辰巳化学株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F1044": {
+  "doc_id": "830001_2590011F1044_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2590011F1044_1_02",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「YD」",
+   "ソリフェナシンコハク酸塩錠5mg「YD」"
+  ],
+  "maker": "製造販売元／陽進堂ホールディングス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F1052": {
+  "doc_id": "300119_2590011F1052_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590011F1052_1_03",
+  "pdf_date": "2025-09-11",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「サワイ」",
+   "ソリフェナシンコハク酸塩錠5mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F1060": {
+  "doc_id": "460028_2590011F1060_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2590011F1060_1_02",
+  "pdf_date": "2021-06-29",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「ツルハラ」",
+   "ソリフェナシンコハク酸塩錠5mg「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F1079": {
+  "doc_id": "480235_2590011F1079_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590011F1079_1_02",
+  "pdf_date": "2025-06-02",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「トーワ」",
+   "ソリフェナシンコハク酸塩錠5mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F1087": {
+  "doc_id": "530169_2590011F1087_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590011F1087_1_02",
+  "pdf_date": "2022-01-04",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「日医工」",
+   "ソリフェナシンコハク酸塩錠5mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F2024": {
+  "doc_id": "800126_2590011F1028_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590011F1028_1_13",
+  "pdf_date": "2026-11-02",
+  "pmda_names": [
+   "ベシケア錠2.5mg",
+   "ベシケア錠5mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F2032": {
+  "doc_id": "400278_2590011F1036_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2590011F1036_1_02",
+  "pdf_date": "2026-11-06",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「TCK」",
+   "ソリフェナシンコハク酸塩錠5mg「TCK」"
+  ],
+  "maker": "製造販売元／辰巳化学株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F2040": {
+  "doc_id": "830001_2590011F1044_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2590011F1044_1_02",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「YD」",
+   "ソリフェナシンコハク酸塩錠5mg「YD」"
+  ],
+  "maker": "製造販売元／陽進堂ホールディングス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F2059": {
+  "doc_id": "300119_2590011F1052_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590011F1052_1_03",
+  "pdf_date": "2025-09-11",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「サワイ」",
+   "ソリフェナシンコハク酸塩錠5mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F2067": {
+  "doc_id": "460028_2590011F1060_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2590011F1060_1_02",
+  "pdf_date": "2021-06-29",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「ツルハラ」",
+   "ソリフェナシンコハク酸塩錠5mg「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F2075": {
+  "doc_id": "480235_2590011F1079_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590011F1079_1_02",
+  "pdf_date": "2025-06-02",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「トーワ」",
+   "ソリフェナシンコハク酸塩錠5mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F2083": {
+  "doc_id": "530169_2590011F1087_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590011F1087_1_02",
+  "pdf_date": "2022-01-04",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩錠2.5mg「日医工」",
+   "ソリフェナシンコハク酸塩錠5mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F3020": {
+  "doc_id": "800126_2590011F3020_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590011F3020_1_09",
+  "pdf_date": "2026-11-02",
+  "pmda_names": [
+   "ベシケアOD錠2.5mg",
+   "ベシケアOD錠5mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F3039": {
+  "doc_id": "580591_2590011F3039_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590011F3039_1_03",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩OD錠2.5mg「JG」",
+   "ソリフェナシンコハク酸塩OD錠5mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F3047": {
+  "doc_id": "300119_2590011F3047_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590011F3047_1_02",
+  "pdf_date": "2025-10-29",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩OD錠2.5mg「サワイ」",
+   "ソリフェナシンコハク酸塩OD錠5mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F3055": {
+  "doc_id": "480235_2590011F3055_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590011F3055_1_02",
+  "pdf_date": "2025-05-26",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩OD錠2.5mg「トーワ」",
+   "ソリフェナシンコハク酸塩OD錠5mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F3063": {
+  "doc_id": "530100_2590011F3063_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2590011F3063_1_03",
+  "pdf_date": "2026-04-21",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩OD錠2.5mg「ニプロ」",
+   "ソリフェナシンコハク酸塩OD錠5mg「ニプロ」"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F3071": {
+  "doc_id": "530169_2590011F3071_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590011F3071_1_02",
+  "pdf_date": "2022-01-04",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩OD錠2.5mg「日医工」",
+   "ソリフェナシンコハク酸塩OD錠5mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F4027": {
+  "doc_id": "800126_2590011F3020_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590011F3020_1_09",
+  "pdf_date": "2026-11-02",
+  "pmda_names": [
+   "ベシケアOD錠2.5mg",
+   "ベシケアOD錠5mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F4035": {
+  "doc_id": "580591_2590011F3039_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590011F3039_1_03",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩OD錠2.5mg「JG」",
+   "ソリフェナシンコハク酸塩OD錠5mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F4043": {
+  "doc_id": "300119_2590011F3047_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590011F3047_1_02",
+  "pdf_date": "2025-10-29",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩OD錠2.5mg「サワイ」",
+   "ソリフェナシンコハク酸塩OD錠5mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F4051": {
+  "doc_id": "480235_2590011F3055_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590011F3055_1_02",
+  "pdf_date": "2025-05-26",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩OD錠2.5mg「トーワ」",
+   "ソリフェナシンコハク酸塩OD錠5mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F4060": {
+  "doc_id": "530100_2590011F3063_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2590011F3063_1_03",
+  "pdf_date": "2026-04-21",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩OD錠2.5mg「ニプロ」",
+   "ソリフェナシンコハク酸塩OD錠5mg「ニプロ」"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590011F4078": {
+  "doc_id": "530169_2590011F3071_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590011F3071_1_02",
+  "pdf_date": "2022-01-04",
+  "pmda_names": [
+   "ソリフェナシンコハク酸塩OD錠2.5mg「日医工」",
+   "ソリフェナシンコハク酸塩OD錠5mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F1027": {
+  "doc_id": "231099_2590013F1027_2_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_2590013F1027_2_07",
+  "pdf_date": "2026-06-01",
+  "pmda_names": [
+   "ウリトス錠0.1mg",
+   "ウリトスOD錠0.1mg"
+  ],
+  "maker": "製造販売元／杏林製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F1035": {
+  "doc_id": "180188_2590013F1035_1_17",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_2590013F1035_1_17",
+  "pdf_date": "2025-06-02",
+  "pmda_names": [
+   "ステーブラ錠0.1mg",
+   "ステーブラOD錠0.1mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F1043": {
+  "doc_id": "450064_2590013F1043_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2590013F1043_1_03",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "イミダフェナシン錠0.1mg「JG」",
+   "イミダフェナシンOD錠0.1mg「JG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F1051": {
+  "doc_id": "830001_2590013F1051_2_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2590013F1051_2_03",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "イミダフェナシン錠0.1mg「YD」",
+   "イミダフェナシンOD錠0.1mg「YD」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590013F1060": {
+  "doc_id": "480209_2590013F1060_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590013F1060_1_04",
+  "pdf_date": "2025-06-24",
+  "pmda_names": [
+   "イミダフェナシン錠0.1mg「杏林」",
+   "イミダフェナシンOD錠0.1mg「杏林」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F1078": {
+  "doc_id": "300119_2590013F1078_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590013F1078_1_04",
+  "pdf_date": "2026-03-27",
+  "pmda_names": [
+   "イミダフェナシン錠0.1mg「サワイ」",
+   "イミダフェナシンOD錠0.1mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F2023": {
+  "doc_id": "231099_2590013F1027_2_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_2590013F1027_2_07",
+  "pdf_date": "2026-06-01",
+  "pmda_names": [
+   "ウリトス錠0.1mg",
+   "ウリトスOD錠0.1mg"
+  ],
+  "maker": "製造販売元／杏林製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F2031": {
+  "doc_id": "180188_2590013F1035_1_17",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_2590013F1035_1_17",
+  "pdf_date": "2025-06-02",
+  "pmda_names": [
+   "ステーブラ錠0.1mg",
+   "ステーブラOD錠0.1mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F2040": {
+  "doc_id": "450064_2590013F1043_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2590013F1043_1_03",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "イミダフェナシン錠0.1mg「JG」",
+   "イミダフェナシンOD錠0.1mg「JG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F2058": {
+  "doc_id": "400278_2590013F2058_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2590013F2058_1_03",
+  "pdf_date": "2026-04-06",
+  "pmda_names": [
+   "イミダフェナシンOD錠0.1mg「TCK」"
+  ],
+  "maker": "製造販売元／辰巳化学株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F2066": {
+  "doc_id": "830001_2590013F1051_2_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2590013F1051_2_03",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "イミダフェナシン錠0.1mg「YD」",
+   "イミダフェナシンOD錠0.1mg「YD」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "2590013F2074": {
+  "doc_id": "480209_2590013F1060_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590013F1060_1_04",
+  "pdf_date": "2025-06-24",
+  "pmda_names": [
+   "イミダフェナシン錠0.1mg「杏林」",
+   "イミダフェナシンOD錠0.1mg「杏林」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F2082": {
+  "doc_id": "300119_2590013F1078_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590013F1078_1_04",
+  "pdf_date": "2026-03-27",
+  "pmda_names": [
+   "イミダフェナシン錠0.1mg「サワイ」",
+   "イミダフェナシンOD錠0.1mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F2090": {
+  "doc_id": "460028_2590013F2090_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2590013F2090_1_03",
+  "pdf_date": "2024-01-23",
+  "pmda_names": [
+   "イミダフェナシンOD錠0.1mg「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590013F2104": {
+  "doc_id": "480235_2590013F2104_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590013F2104_1_03",
+  "pdf_date": "2025-05-26",
+  "pmda_names": [
+   "イミダフェナシンOD錠0.1mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590014F1021": {
+  "doc_id": "800126_2590014F1021_1_14",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590014F1021_1_14",
+  "pdf_date": "2026-11-02",
+  "pmda_names": [
+   "ベタニス錠25mg",
+   "ベタニス錠50mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590014F2028": {
+  "doc_id": "800126_2590014F1021_1_14",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590014F1021_1_14",
+  "pdf_date": "2026-11-02",
+  "pmda_names": [
+   "ベタニス錠25mg",
+   "ベタニス錠50mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590015G1021": {
+  "doc_id": "672212_2590015G1021_2_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2590015G1021_2_05",
+  "pdf_date": "2024-03-28",
+  "pmda_names": [
+   "トビエース錠4mg",
+   "トビエース錠8mg"
+  ],
+  "maker": "製造販売元／ファイザー株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590015G1030": {
+  "doc_id": "300119_2590015G1030_1_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590015G1030_1_01",
+  "pdf_date": "2026-06-12",
+  "pmda_names": [
+   "フェソテロジンフマル酸塩徐放錠4mg「サワイ」",
+   "フェソテロジンフマル酸塩徐放錠8mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590015G2028": {
+  "doc_id": "672212_2590015G1021_2_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2590015G1021_2_05",
+  "pdf_date": "2024-03-28",
+  "pmda_names": [
+   "トビエース錠4mg",
+   "トビエース錠8mg"
+  ],
+  "maker": "製造販売元／ファイザー株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590015G2036": {
+  "doc_id": "300119_2590015G1030_1_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590015G1030_1_01",
+  "pdf_date": "2026-06-12",
+  "pmda_names": [
+   "フェソテロジンフマル酸塩徐放錠4mg「サワイ」",
+   "フェソテロジンフマル酸塩徐放錠8mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F1020": {
+  "doc_id": "530263_2590016F1020_2_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590016F1020_2_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "ザルティア錠2.5mg",
+   "ザルティア錠5mg"
+  ],
+  "maker": "製造販売元／日本新薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F1039": {
+  "doc_id": "580591_2590016F1039_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590016F1039_1_08",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「JG」",
+   "タダラフィル錠5mgZA「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F1047": {
+  "doc_id": "470007_2590016F1047_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590016F1047_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「あすか」",
+   "タダラフィル錠5mgZA「あすか」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F1055": {
+  "doc_id": "480209_2590016F1055_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590016F1055_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「杏林」",
+   "タダラフィル錠5mgZA「杏林」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F1063": {
+  "doc_id": "300119_2590016F1063_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590016F1063_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「サワイ」",
+   "タダラフィル錠5mgZA「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F1071": {
+  "doc_id": "270428_2590016F1071_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2590016F1071_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「サンド」",
+   "タダラフィル錠5mgZA「サンド」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F1080": {
+  "doc_id": "530169_2590016F1080_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590016F1080_1_07",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「日医工」",
+   "タダラフィル錠5mgZA「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F1098": {
+  "doc_id": "530100_2590016F1098_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2590016F1098_1_08",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「ニプロ」",
+   "タダラフィル錠5mgZA「ニプロ」"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F1101": {
+  "doc_id": "340409_2590016F1101_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_2590016F1101_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「フソー」",
+   "タダラフィル錠5mgZA「フソー」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F1110": {
+  "doc_id": "340013_2590016F1110_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340013_2590016F1110_1_05",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「シオエ」",
+   "タダラフィル錠5mgZA「シオエ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F2027": {
+  "doc_id": "530263_2590016F1020_2_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590016F1020_2_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "ザルティア錠2.5mg",
+   "ザルティア錠5mg"
+  ],
+  "maker": "製造販売元／日本新薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F2035": {
+  "doc_id": "580591_2590016F1039_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590016F1039_1_08",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「JG」",
+   "タダラフィル錠5mgZA「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F2043": {
+  "doc_id": "470007_2590016F1047_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590016F1047_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「あすか」",
+   "タダラフィル錠5mgZA「あすか」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F2051": {
+  "doc_id": "480209_2590016F1055_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590016F1055_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「杏林」",
+   "タダラフィル錠5mgZA「杏林」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F2060": {
+  "doc_id": "300119_2590016F1063_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590016F1063_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「サワイ」",
+   "タダラフィル錠5mgZA「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F2078": {
+  "doc_id": "270428_2590016F1071_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2590016F1071_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「サンド」",
+   "タダラフィル錠5mgZA「サンド」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F2086": {
+  "doc_id": "530169_2590016F1080_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590016F1080_1_07",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「日医工」",
+   "タダラフィル錠5mgZA「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F2094": {
+  "doc_id": "530100_2590016F1098_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2590016F1098_1_08",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「ニプロ」",
+   "タダラフィル錠5mgZA「ニプロ」"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F2108": {
+  "doc_id": "340409_2590016F1101_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_2590016F1101_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「フソー」",
+   "タダラフィル錠5mgZA「フソー」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F2116": {
+  "doc_id": "340013_2590016F1110_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340013_2590016F1110_1_05",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィル錠2.5mgZA「シオエ」",
+   "タダラフィル錠5mgZA「シオエ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F3023": {
+  "doc_id": "480235_2590016F3023_3_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590016F3023_3_07",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィルOD錠2.5mgZA「トーワ」",
+   "タダラフィルOD錠5mgZA「トーワ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 3
+ },
+ "2590016F4020": {
+  "doc_id": "480235_2590016F3023_3_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590016F3023_3_07",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "タダラフィルOD錠2.5mgZA「トーワ」",
+   "タダラフィルOD錠5mgZA「トーワ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 3
+ },
+ "2590016F5026": {
+  "doc_id": "530263_2590016F5026_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590016F5026_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "シアリス錠5mg",
+   "シアリス錠10mg",
+   "シアリス錠20mg"
+  ],
+  "maker": "製造販売元／日本新薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F6022": {
+  "doc_id": "530263_2590016F5026_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590016F5026_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "シアリス錠5mg",
+   "シアリス錠10mg",
+   "シアリス錠20mg"
+  ],
+  "maker": "製造販売元／日本新薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590016F7029": {
+  "doc_id": "530263_2590016F5026_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590016F5026_1_06",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "シアリス錠5mg",
+   "シアリス錠10mg",
+   "シアリス錠20mg"
+  ],
+  "maker": "製造販売元／日本新薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590018F1020": {
+  "doc_id": "671450_2590018F1020_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2590018F1020_1_05",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "バイアグラ錠25mg",
+   "バイアグラ錠50mg",
+   "バイアグラODフィルム25mg",
+   "バイアグラODフィルム50mg"
+  ],
+  "maker": "製造販売元／ヴィアトリス製薬合同会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590018F2026": {
+  "doc_id": "671450_2590018F1020_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2590018F1020_1_05",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "バイアグラ錠25mg",
+   "バイアグラ錠50mg",
+   "バイアグラODフィルム25mg",
+   "バイアグラODフィルム50mg"
+  ],
+  "maker": "製造販売元／ヴィアトリス製薬合同会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590018F3022": {
+  "doc_id": "671450_2590018F1020_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2590018F1020_1_05",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "バイアグラ錠25mg",
+   "バイアグラ錠50mg",
+   "バイアグラODフィルム25mg",
+   "バイアグラODフィルム50mg"
+  ],
+  "maker": "製造販売元／ヴィアトリス製薬合同会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2590018F4029": {
+  "doc_id": "671450_2590018F1020_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2590018F1020_1_05",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "バイアグラ錠25mg",
+   "バイアグラ錠50mg",
+   "バイアグラODフィルム25mg",
+   "バイアグラODフィルム50mg"
+  ],
+  "maker": "製造販売元／ヴィアトリス製薬合同会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2900001F1029": {
+  "doc_id": "780075_2900001A2036_2_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_2900001A2036_2_02",
+  "pdf_date": "2023-09-29",
+  "pmda_names": [
+   "セファランチン末1％",
+   "セファランチン錠1mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2900002F4065": {
+  "doc_id": "180078_2900002F4065_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_2900002F4065_1_08",
+  "pdf_date": "2022-11-07",
+  "pmda_names": [
+   "ハイゼット錠25mg",
+   "ハイゼット錠50mg"
+  ],
+  "maker": "製造販売元／大塚製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2900002F5274": {
+  "doc_id": "180078_2900002F4065_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_2900002F4065_1_08",
+  "pdf_date": "2022-11-07",
+  "pmda_names": [
+   "ハイゼット錠25mg",
+   "ハイゼット錠50mg"
+  ],
+  "maker": "製造販売元／大塚製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "2900002F5290": {
+  "doc_id": "460028_2900002C1213_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2900002C1213_1_07",
+  "pdf_date": "2024-02-02",
+  "pmda_names": [
+   "ガンマオリザノール錠50mg「ツルハラ」",
+   "ガンマオリザノール細粒20%「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112001F1055": {
+  "doc_id": "470310_3112001F1055_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3112001F1055_1_07",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "ワンアルファ錠0.25μg",
+   "ワンアルファ錠0.5μg",
+   "ワンアルファ錠1.0μg"
+  ],
+  "maker": "製造販売元／帝人ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112001F1063": {
+  "doc_id": "672173_3112001F1063_2_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_3112001F1063_2_04",
+  "pdf_date": "2024-02-15",
+  "pmda_names": [
+   "アルファカルシドール錠0.25μg「アメル」",
+   "アルファカルシドール錠0.5μg「アメル」",
+   "アルファカルシドール錠1.0μg「アメル」"
+  ],
+  "maker": "製造販売元／共和薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112001F2051": {
+  "doc_id": "470310_3112001F1055_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3112001F1055_1_07",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "ワンアルファ錠0.25μg",
+   "ワンアルファ錠0.5μg",
+   "ワンアルファ錠1.0μg"
+  ],
+  "maker": "製造販売元／帝人ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112001F2060": {
+  "doc_id": "672173_3112001F1063_2_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_3112001F1063_2_04",
+  "pdf_date": "2024-02-15",
+  "pmda_names": [
+   "アルファカルシドール錠0.25μg「アメル」",
+   "アルファカルシドール錠0.5μg「アメル」",
+   "アルファカルシドール錠1.0μg「アメル」"
+  ],
+  "maker": "製造販売元／共和薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112001F3058": {
+  "doc_id": "470310_3112001F1055_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3112001F1055_1_07",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "ワンアルファ錠0.25μg",
+   "ワンアルファ錠0.5μg",
+   "ワンアルファ錠1.0μg"
+  ],
+  "maker": "製造販売元／帝人ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112001F3066": {
+  "doc_id": "672173_3112001F1063_2_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_3112001F1063_2_04",
+  "pdf_date": "2024-02-15",
+  "pmda_names": [
+   "アルファカルシドール錠0.25μg「アメル」",
+   "アルファカルシドール錠0.5μg「アメル」",
+   "アルファカルシドール錠1.0μg「アメル」"
+  ],
+  "maker": "製造販売元／共和薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112001M1046": {
+  "doc_id": "450045_3112001M1046_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112001M1046_1_11",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "アルファロールカプセル0.25μg",
+   "アルファロールカプセル0.5μg",
+   "アルファロールカプセル1μg"
+  ],
+  "maker": "製造販売元／中外製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112001M2069": {
+  "doc_id": "450045_3112001M1046_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112001M1046_1_11",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "アルファロールカプセル0.25μg",
+   "アルファロールカプセル0.5μg",
+   "アルファロールカプセル1μg"
+  ],
+  "maker": "製造販売元／中外製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112001M3065": {
+  "doc_id": "450045_3112001M1046_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112001M1046_1_11",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "アルファロールカプセル0.25μg",
+   "アルファロールカプセル0.5μg",
+   "アルファロールカプセル1μg"
+  ],
+  "maker": "製造販売元／中外製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112001M4266": {
+  "doc_id": "650208_3112001M4266_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_3112001M4266_1_05",
+  "pdf_date": "2024-02-13",
+  "pmda_names": [
+   "アルファカルシドールカプセル3μg「BMD」"
+  ],
+  "maker": "製造販売元／株式会社ビオメディクス",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112004M1023": {
+  "doc_id": "450045_3112004M1023_4_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112004M1023_4_13",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "ロカルトロールカプセル0.25",
+   "ロカルトロールカプセル0.5"
+  ],
+  "maker": "製造販売元／中外製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112004M2020": {
+  "doc_id": "450045_3112004M1023_4_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112004M1023_4_13",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "ロカルトロールカプセル0.25",
+   "ロカルトロールカプセル0.5"
+  ],
+  "maker": "製造販売元／中外製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112005F1029": {
+  "doc_id": "400093_3112005F1029_2_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_3112005F1029_2_11",
+  "pdf_date": "2022-11-01",
+  "pmda_names": [
+   "フルスタン錠0.15",
+   "フルスタン錠0.3"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112005F1037": {
+  "doc_id": "400059_3112005F1037_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_3112005F1037_1_11",
+  "pdf_date": "2023-01-30",
+  "pmda_names": [
+   "ホーネル錠0.15",
+   "ホーネル錠0.3"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112005F2025": {
+  "doc_id": "400093_3112005F1029_2_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_3112005F1029_2_11",
+  "pdf_date": "2022-11-01",
+  "pmda_names": [
+   "フルスタン錠0.15",
+   "フルスタン錠0.3"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112005F2033": {
+  "doc_id": "400059_3112005F1037_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_3112005F1037_1_11",
+  "pdf_date": "2023-01-30",
+  "pmda_names": [
+   "ホーネル錠0.15",
+   "ホーネル錠0.3"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112006F1023": {
+  "doc_id": "450045_3112006F1023_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112006F1023_1_03",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "エディロール錠0.5μg",
+   "エディロール錠0.75μg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112006F2020": {
+  "doc_id": "450045_3112006F1023_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112006F1023_1_03",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "エディロール錠0.5μg",
+   "エディロール錠0.75μg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112006M1022": {
+  "doc_id": "450045_3112006M1022_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112006M1022_1_12",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "エディロールカプセル0.5μg",
+   "エディロールカプセル0.75μg"
+  ],
+  "maker": "製造販売元／中外製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112006M1030": {
+  "doc_id": "300119_3112006M1030_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3112006M1030_1_07",
+  "pdf_date": "2026-03-27",
+  "pmda_names": [
+   "エルデカルシトールカプセル0.5μg「サワイ」",
+   "エルデカルシトールカプセル0.75μg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112006M1049": {
+  "doc_id": "530169_3112006M1049_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3112006M1049_1_06",
+  "pdf_date": "2024-02-15",
+  "pmda_names": [
+   "エルデカルシトールカプセル0.5μg「日医工」",
+   "エルデカルシトールカプセル0.75μg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112006M1057": {
+  "doc_id": "480235_3112006M1057_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3112006M1057_1_02",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "エルデカルシトールカプセル0.5μg「トーワ」",
+   "エルデカルシトールカプセル0.75μg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112006M2029": {
+  "doc_id": "450045_3112006M1022_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112006M1022_1_12",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "エディロールカプセル0.5μg",
+   "エディロールカプセル0.75μg"
+  ],
+  "maker": "製造販売元／中外製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112006M2037": {
+  "doc_id": "300119_3112006M1030_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3112006M1030_1_07",
+  "pdf_date": "2026-03-27",
+  "pmda_names": [
+   "エルデカルシトールカプセル0.5μg「サワイ」",
+   "エルデカルシトールカプセル0.75μg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112006M2045": {
+  "doc_id": "530169_3112006M1049_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3112006M1049_1_06",
+  "pdf_date": "2024-02-15",
+  "pmda_names": [
+   "エルデカルシトールカプセル0.5μg「日医工」",
+   "エルデカルシトールカプセル0.75μg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3112006M2053": {
+  "doc_id": "480235_3112006M1057_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3112006M1057_1_02",
+  "pdf_date": "2024-02-05",
+  "pmda_names": [
+   "エルデカルシトールカプセル0.5μg「トーワ」",
+   "エルデカルシトールカプセル0.75μg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3119001M1020": {
+  "doc_id": "431010_3119001M1020_3_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_3119001M1020_3_04",
+  "pdf_date": "2024-01-24",
+  "pmda_names": [
+   "チガソンカプセル10",
+   "チガソンカプセル25"
+  ],
+  "maker": "製造販売元／太陽ファルマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3119001M2027": {
+  "doc_id": "431010_3119001M1020_3_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_3119001M1020_3_04",
+  "pdf_date": "2024-01-24",
+  "pmda_names": [
+   "チガソンカプセル10",
+   "チガソンカプセル25"
+  ],
+  "maker": "製造販売元／太陽ファルマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3122004F2132": {
+  "doc_id": "460028_3122004F2132_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3122004F2132_1_03",
+  "pdf_date": "2023-01-20",
+  "pmda_names": [
+   "チアミンジスルフィド錠10mg「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3122007F1024": {
+  "doc_id": "400061_3122007F2039_2_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3122007F2039_2_07",
+  "pdf_date": "2025-12-24",
+  "pmda_names": [
+   "25mgアリナミンF糖衣錠",
+   "50mgアリナミンF糖衣錠"
+  ],
+  "maker": "",
+  "match": "loose",
+  "candidates": 1
+ },
+ "3122007F2039": {
+  "doc_id": "400061_3122007F2039_2_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3122007F2039_2_07",
+  "pdf_date": "2025-12-24",
+  "pmda_names": [
+   "25mgアリナミンF糖衣錠",
+   "50mgアリナミンF糖衣錠"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3122007F2063": {
+  "doc_id": "480235_3122007F2063_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3122007F2063_1_04",
+  "pdf_date": "2024-10-30",
+  "pmda_names": [
+   "フルスルチアミン錠25mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3122007F3027": {
+  "doc_id": "400061_3122007F2039_2_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3122007F2039_2_07",
+  "pdf_date": "2025-12-24",
+  "pmda_names": [
+   "25mgアリナミンF糖衣錠",
+   "50mgアリナミンF糖衣錠"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3133001F1110": {
+  "doc_id": "530258_3133001B1193_4_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3133001B1193_4_03",
+  "pdf_date": "2023-08-03",
+  "pmda_names": [
+   "パントシン錠30",
+   "パントシン錠60",
+   "パントシン錠100",
+   "パントシン錠200",
+   "パントシン散20%",
+   "パントシン細粒50%"
+  ],
+  "maker": "製造販売元／アルフレッサ ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3133001F1136": {
+  "doc_id": "460028_3133001C1199_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3133001C1199_1_05",
+  "pdf_date": "2024-11-15",
+  "pmda_names": [
+   "パンテチン錠30mg「ツルハラ」",
+   "パンテチン錠60mg「ツルハラ」",
+   "パンテチン細粒20%「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3133001F2132": {
+  "doc_id": "530258_3133001B1193_4_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3133001B1193_4_03",
+  "pdf_date": "2023-08-03",
+  "pmda_names": [
+   "パントシン錠30",
+   "パントシン錠60",
+   "パントシン錠100",
+   "パントシン錠200",
+   "パントシン散20%",
+   "パントシン細粒50%"
+  ],
+  "maker": "製造販売元／アルフレッサ ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3133001F2264": {
+  "doc_id": "460028_3133001C1199_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3133001C1199_1_05",
+  "pdf_date": "2024-11-15",
+  "pmda_names": [
+   "パンテチン錠30mg「ツルハラ」",
+   "パンテチン錠60mg「ツルハラ」",
+   "パンテチン細粒20%「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3133001F3090": {
+  "doc_id": "530258_3133001B1193_4_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3133001B1193_4_03",
+  "pdf_date": "2023-08-03",
+  "pmda_names": [
+   "パントシン錠30",
+   "パントシン錠60",
+   "パントシン錠100",
+   "パントシン錠200",
+   "パントシン散20%",
+   "パントシン細粒50%"
+  ],
+  "maker": "製造販売元／アルフレッサ ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3133001F4020": {
+  "doc_id": "530258_3133001B1193_4_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3133001B1193_4_03",
+  "pdf_date": "2023-08-03",
+  "pmda_names": [
+   "パントシン錠30",
+   "パントシン錠60",
+   "パントシン錠100",
+   "パントシン錠200",
+   "パントシン散20%",
+   "パントシン細粒50%"
+  ],
+  "maker": "製造販売元／アルフレッサ ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3134003F1388": {
+  "doc_id": "431010_3134003F1388_2_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_3134003F1388_2_04",
+  "pdf_date": "2025-11-28",
+  "pmda_names": [
+   "ピドキサール錠10mg",
+   "ピドキサール錠20mg",
+   "ピドキサール錠30mg"
+  ],
+  "maker": "製造販売元／太陽ファルマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3134003F2147": {
+  "doc_id": "431010_3134003F1388_2_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_3134003F1388_2_04",
+  "pdf_date": "2025-11-28",
+  "pmda_names": [
+   "ピドキサール錠10mg",
+   "ピドキサール錠20mg",
+   "ピドキサール錠30mg"
+  ],
+  "maker": "製造販売元／太陽ファルマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3134003F2163": {
+  "doc_id": "460028_3134003F1400_2_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3134003F1400_2_04",
+  "pdf_date": "2024-09-09",
+  "pmda_names": [
+   "ピリドキサール錠10mg「ツルハラ」",
+   "ピリドキサール錠20mg「ツルハラ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3134003F3330": {
+  "doc_id": "431010_3134003F1388_2_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_3134003F1388_2_04",
+  "pdf_date": "2025-11-28",
+  "pmda_names": [
+   "ピドキサール錠10mg",
+   "ピドキサール錠20mg",
+   "ピドキサール錠30mg"
+  ],
+  "maker": "製造販売元／太陽ファルマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3136004F1050": {
+  "doc_id": "170033_3136004C1038_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_3136004C1038_1_05",
+  "pdf_date": "2023-04-27",
+  "pmda_names": [
+   "メチコバール錠250μg",
+   "メチコバール錠500μg",
+   "メチコバール細粒0.1%"
+  ],
+  "maker": "製造販売元／エーザイ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3136004F2138": {
+  "doc_id": "170033_3136004C1038_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_3136004C1038_1_05",
+  "pdf_date": "2023-04-27",
+  "pmda_names": [
+   "メチコバール錠250μg",
+   "メチコバール錠500μg",
+   "メチコバール細粒0.1%"
+  ],
+  "maker": "製造販売元／エーザイ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3136004M1173": {
+  "doc_id": "530113_3136004M1173_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3136004M1173_1_02",
+  "pdf_date": "2023-12-28",
+  "pmda_names": [
+   "メコバラミンカプセル250μg「日新」"
+  ],
+  "maker": "製造販売元／日新製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3150002F1280": {
+  "doc_id": "480235_3150002F1280_2_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3150002F1280_2_03",
+  "pdf_date": "2024-10-08",
+  "pmda_names": [
+   "トコフェロール酢酸エステル錠50mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3150002F2065": {
+  "doc_id": "460028_3150002D1068_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3150002D1068_1_04",
+  "pdf_date": "2024-01-25",
+  "pmda_names": [
+   "トコフェロール酢酸エステル錠100mg「ツルハラ」",
+   "トコフェロール酢酸エステル顆粒20%「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3150002M1122": {
+  "doc_id": "730869_3150002M1122_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3150002M1122_1_05",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "トコフェロール酢酸エステルカプセル100mg「VTRS」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3160001F1311": {
+  "doc_id": "400256_3160001B1069_2_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_3160001B1069_2_02",
+  "pdf_date": "2023-01-20",
+  "pmda_names": [
+   "カチーフN錠5mg",
+   "カチーフN散10mg/g"
+  ],
+  "maker": "製造販売元／武田薬品工業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3160001F1338": {
+  "doc_id": "460028_3160001F1338_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3160001F1338_1_07",
+  "pdf_date": "2023-10-17",
+  "pmda_names": [
+   "ビタミンK1錠5mg「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3179109M1074": {
+  "doc_id": "530258_3179108B1036_2_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3179108B1036_2_03",
+  "pdf_date": "2023-05-17",
+  "pmda_names": [
+   "ビタメジン配合カプセルB25",
+   "ビタメジン配合カプセルB50",
+   "ビタメジン配合散"
+  ],
+  "maker": "製造販売元／アルフレッサ ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3179110M1034": {
+  "doc_id": "530258_3179108B1036_2_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3179108B1036_2_03",
+  "pdf_date": "2023-05-17",
+  "pmda_names": [
+   "ビタメジン配合カプセルB25",
+   "ビタメジン配合カプセルB50",
+   "ビタメジン配合散"
+  ],
+  "maker": "製造販売元／アルフレッサ ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3179115F2034": {
+  "doc_id": "343018_3179115D1096_2_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_3179115D1096_2_03",
+  "pdf_date": "2023-10-30",
+  "pmda_names": [
+   "シナール配合錠",
+   "シナール配合顆粒"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3221004F2025": {
+  "doc_id": "400021_3221004F2025_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400021_3221004F2025_1_02",
+  "pdf_date": "2024-04-19",
+  "pmda_names": [
+   "ヨウレチン錠「100」",
+   "ヨウレチン散0.02％"
+  ],
+  "maker": "製造販売元／第一薬品産業株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3222007G1033": {
+  "doc_id": "671450_3222007G1033_3_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_3222007G1033_3_02",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "フェロ・グラデュメット錠105mg"
+  ],
+  "maker": "製造販売元／ヴィアトリス製薬合同会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3222013F1025": {
+  "doc_id": "530258_3222013D1059_3_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3222013D1059_3_03",
+  "pdf_date": "2025-02-03",
+  "pmda_names": [
+   "フェロミア錠50mg",
+   "フェロミア顆粒8.3%"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3222013F1157": {
+  "doc_id": "300119_3222013F1157_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3222013F1157_1_05",
+  "pdf_date": "2024-09-30",
+  "pmda_names": [
+   "クエン酸第一鉄Na錠50mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3222013F1165": {
+  "doc_id": "460028_3222013D1075_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3222013D1075_1_09",
+  "pdf_date": "2026-07-06",
+  "pmda_names": [
+   "クエン酸第一鉄ナトリウム錠50mg「ツルハラ」",
+   "クエン酸第一鉄ナトリウム顆粒8.3%「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3229002G1082": {
+  "doc_id": "300094_3229002G1082_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300094_3229002G1082_1_02",
+  "pdf_date": "2023-11-21",
+  "pmda_names": [
+   "塩化カリウム徐放錠600mg「St」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3229005F1080": {
+  "doc_id": "530100_3229005B1038_3_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3229005B1038_3_01",
+  "pdf_date": "2025-04-01",
+  "pmda_names": [
+   "アスパラカリウム錠300mg",
+   "アスパラカリウム散50%"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3229007F1047": {
+  "doc_id": "480866_3229007C1032_3_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_3229007C1032_3_04",
+  "pdf_date": "2024-07-16",
+  "pmda_names": [
+   "グルコンサンK錠5mEq",
+   "グルコンサンK錠2.5mEq",
+   "グルコンサンK細粒4mEq/g"
+  ],
+  "maker": "製造販売元／サンファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3229007F2035": {
+  "doc_id": "480866_3229007C1032_3_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_3229007C1032_3_04",
+  "pdf_date": "2024-07-16",
+  "pmda_names": [
+   "グルコンサンK錠5mEq",
+   "グルコンサンK錠2.5mEq",
+   "グルコンサンK細粒4mEq/g"
+  ],
+  "maker": "製造販売元／サンファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3229008F1025": {
+  "doc_id": "620095_3229008F1025_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620095_3229008F1025_1_03",
+  "pdf_date": "2026-06-08",
+  "pmda_names": [
+   "ジンタス錠25mg",
+   "ジンタス錠50mg"
+  ],
+  "maker": "製造販売元／ノーベルファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3229008F2021": {
+  "doc_id": "620095_3229008F1025_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620095_3229008F1025_1_03",
+  "pdf_date": "2026-06-08",
+  "pmda_names": [
+   "ジンタス錠25mg",
+   "ジンタス錠50mg"
+  ],
+  "maker": "製造販売元／ノーベルファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3321002F1092": {
+  "doc_id": "530100_3321002B1139_3_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3321002B1139_3_01",
+  "pdf_date": "2025-04-01",
+  "pmda_names": [
+   "アドナ錠10mg",
+   "アドナ錠30mg",
+   "アドナ散10％"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3321002F1114": {
+  "doc_id": "530169_3321002F1114_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3321002F1114_1_05",
+  "pdf_date": "2025-04-28",
+  "pmda_names": [
+   "カルバゾクロムスルホン酸ナトリウム錠10mg「日医工」",
+   "カルバゾクロムスルホン酸ナトリウム錠30mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3321002F2366": {
+  "doc_id": "530100_3321002B1139_3_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3321002B1139_3_01",
+  "pdf_date": "2025-04-01",
+  "pmda_names": [
+   "アドナ錠10mg",
+   "アドナ錠30mg",
+   "アドナ散10％"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3321002F2439": {
+  "doc_id": "460028_3321002C1150_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3321002C1150_1_05",
+  "pdf_date": "2024-02-26",
+  "pmda_names": [
+   "カルバゾクロムスルホン酸Na錠30mg「ツルハラ」",
+   "カルバゾクロムスルホン酸Na細粒10%「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3327002F1142": {
+  "doc_id": "430574_3327002B1027_2_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3327002B1027_2_07",
+  "pdf_date": "2023-01-20",
+  "pmda_names": [
+   "トランサミン錠250mg",
+   "トランサミン錠500mg",
+   "トランサミンカプセル250mg",
+   "トランサミン散50%"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3327002F2041": {
+  "doc_id": "430574_3327002B1027_2_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3327002B1027_2_07",
+  "pdf_date": "2023-01-20",
+  "pmda_names": [
+   "トランサミン錠250mg",
+   "トランサミン錠500mg",
+   "トランサミンカプセル250mg",
+   "トランサミン散50%"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3327002F2050": {
+  "doc_id": "830001_3327002F1169_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3327002F1169_1_07",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "トラネキサム酸錠250mg「YD」",
+   "トラネキサム酸錠500mg「YD」"
+  ],
+  "maker": "製造販売元／陽進堂ホールディングス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3327002M1303": {
+  "doc_id": "430574_3327002B1027_2_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3327002B1027_2_07",
+  "pdf_date": "2023-01-20",
+  "pmda_names": [
+   "トランサミン錠250mg",
+   "トランサミン錠500mg",
+   "トランサミンカプセル250mg",
+   "トランサミン散50%"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3332001F1024": {
+  "doc_id": "300119_3332001D1023_2_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3332001D1023_2_01",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "ワーファリン錠0.5mg",
+   "ワーファリン錠1mg",
+   "ワーファリン錠5mg",
+   "ワーファリン顆粒0.2％"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3332001F1083": {
+  "doc_id": "480235_3332001F1083_1_22",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3332001F1083_1_22",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "ワルファリンK錠0.5mg「トーワ」",
+   "ワルファリンK錠1mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3332001F1130": {
+  "doc_id": "581120_3332001F1130_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3332001F1130_1_05",
+  "pdf_date": "2026-02-01",
+  "pmda_names": [
+   "ワルファリンK錠0.5mg「NIG」",
+   "ワルファリンK錠1mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3332001F3035": {
+  "doc_id": "300119_3332001D1023_2_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3332001D1023_2_01",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "ワーファリン錠0.5mg",
+   "ワーファリン錠1mg",
+   "ワーファリン錠5mg",
+   "ワーファリン顆粒0.2％"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3332001F3051": {
+  "doc_id": "480235_3332001F1083_1_22",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3332001F1083_1_22",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "ワルファリンK錠0.5mg「トーワ」",
+   "ワルファリンK錠1mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3332001F3086": {
+  "doc_id": "581120_3332001F1130_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3332001F1130_1_05",
+  "pdf_date": "2026-02-01",
+  "pmda_names": [
+   "ワルファリンK錠0.5mg「NIG」",
+   "ワルファリンK錠1mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339001M1024": {
+  "doc_id": "650168_3339001M1024_1_19",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_3339001M1024_1_19",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "プラザキサカプセル75mg",
+   "プラザキサカプセル110mg"
+  ],
+  "maker": "製造販売元／日本ベーリンガーインゲルハイム株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339001M2020": {
+  "doc_id": "650168_3339001M1024_1_19",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_3339001M1024_1_19",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "プラザキサカプセル75mg",
+   "プラザキサカプセル110mg"
+  ],
+  "maker": "製造販売元／日本ベーリンガーインゲルハイム株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339002F1020": {
+  "doc_id": "430574_3339002F1020_1_19",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F1020_1_19",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "リクシアナ錠15mg",
+   "リクシアナ錠30mg",
+   "リクシアナ錠60mg"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339002F2026": {
+  "doc_id": "430574_3339002F1020_1_19",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F1020_1_19",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "リクシアナ錠15mg",
+   "リクシアナ錠30mg",
+   "リクシアナ錠60mg"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339002F3022": {
+  "doc_id": "430574_3339002F1020_1_19",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F1020_1_19",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "リクシアナ錠15mg",
+   "リクシアナ錠30mg",
+   "リクシアナ錠60mg"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339002F4029": {
+  "doc_id": "430574_3339002F4029_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F4029_1_12",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "リクシアナOD錠15mg",
+   "リクシアナOD錠30mg",
+   "リクシアナOD錠60mg"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339002F5025": {
+  "doc_id": "430574_3339002F4029_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F4029_1_12",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "リクシアナOD錠15mg",
+   "リクシアナOD錠30mg",
+   "リクシアナOD錠60mg"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339002F6021": {
+  "doc_id": "430574_3339002F4029_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F4029_1_12",
+  "pdf_date": "2025-11-26",
+  "pmda_names": [
+   "リクシアナOD錠15mg",
+   "リクシアナOD錠30mg",
+   "リクシアナOD錠60mg"
+  ],
+  "maker": "製造販売元／第一三共株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F1024": {
+  "doc_id": "630004_3339003F1024_1_29",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_3339003F1024_1_29",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "イグザレルト錠10mg",
+   "イグザレルト錠15mg"
+  ],
+  "maker": "製造販売元／バイエル薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F1032": {
+  "doc_id": "300119_3339003F1032_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3339003F1032_1_04",
+  "pdf_date": "2026-08-18",
+  "pmda_names": [
+   "リバーロキサバン錠10mg「サワイ」",
+   "リバーロキサバン錠15mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F1040": {
+  "doc_id": "641522_3339003F1040_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/641522_3339003F1040_1_05",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "リバーロキサバン錠10mg「バイエル」",
+   "リバーロキサバン錠15mg「バイエル」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F2020": {
+  "doc_id": "630004_3339003F1024_1_29",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_3339003F1024_1_29",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "イグザレルト錠10mg",
+   "イグザレルト錠15mg"
+  ],
+  "maker": "製造販売元／バイエル薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F2039": {
+  "doc_id": "300119_3339003F1032_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3339003F1032_1_04",
+  "pdf_date": "2026-08-18",
+  "pmda_names": [
+   "リバーロキサバン錠10mg「サワイ」",
+   "リバーロキサバン錠15mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F2047": {
+  "doc_id": "641522_3339003F1040_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/641522_3339003F1040_1_05",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "リバーロキサバン錠10mg「バイエル」",
+   "リバーロキサバン錠15mg「バイエル」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F3027": {
+  "doc_id": "630004_3339003F3027_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_3339003F3027_1_11",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "イグザレルトOD錠10mg",
+   "イグザレルトOD錠15mg"
+  ],
+  "maker": "製造販売元／バイエル薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F3035": {
+  "doc_id": "580591_3339003F3035_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3339003F3035_1_07",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「JG」",
+   "リバーロキサバンOD錠15mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F3043": {
+  "doc_id": "400278_3339003F3043_3_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3339003F3043_3_05",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「TCK」",
+   "リバーロキサバンOD錠15mg「TCK」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 3
+ },
+ "3339003F3051": {
+  "doc_id": "300119_3339003F3051_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3339003F3051_1_04",
+  "pdf_date": "2026-08-18",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「サワイ」",
+   "リバーロキサバンOD錠15mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F3060": {
+  "doc_id": "480235_3339003F3060_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3339003F3060_1_04",
+  "pdf_date": "2026-08-18",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「トーワ」",
+   "リバーロキサバンOD錠15mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F3078": {
+  "doc_id": "530169_3339003F3078_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3339003F3078_1_05",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「日医工」",
+   "リバーロキサバンOD錠15mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F3086": {
+  "doc_id": "530100_3339003F3086_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3339003F3086_1_04",
+  "pdf_date": "2026-08-19",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「ニプロ」",
+   "リバーロキサバンOD錠15mg「ニプロ」"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F3094": {
+  "doc_id": "641522_3339003F3094_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/641522_3339003F3094_1_05",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「バイエル」",
+   "リバーロキサバンOD錠15mg「バイエル」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F4023": {
+  "doc_id": "630004_3339003F3027_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_3339003F3027_1_11",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "イグザレルトOD錠10mg",
+   "イグザレルトOD錠15mg"
+  ],
+  "maker": "製造販売元／バイエル薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F4031": {
+  "doc_id": "580591_3339003F3035_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3339003F3035_1_07",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「JG」",
+   "リバーロキサバンOD錠15mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F4040": {
+  "doc_id": "400278_3339003F3043_3_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3339003F3043_3_05",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「TCK」",
+   "リバーロキサバンOD錠15mg「TCK」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 3
+ },
+ "3339003F4058": {
+  "doc_id": "300119_3339003F3051_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3339003F3051_1_04",
+  "pdf_date": "2026-08-18",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「サワイ」",
+   "リバーロキサバンOD錠15mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F4066": {
+  "doc_id": "480235_3339003F3060_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3339003F3060_1_04",
+  "pdf_date": "2026-08-18",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「トーワ」",
+   "リバーロキサバンOD錠15mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F4074": {
+  "doc_id": "530169_3339003F3078_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3339003F3078_1_05",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「日医工」",
+   "リバーロキサバンOD錠15mg「日医工」"
+  ],
+  "maker": "製造販売元／日医工株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F4082": {
+  "doc_id": "530100_3339003F3086_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3339003F3086_1_04",
+  "pdf_date": "2026-08-19",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「ニプロ」",
+   "リバーロキサバンOD錠15mg「ニプロ」"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339003F4090": {
+  "doc_id": "641522_3339003F3094_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/641522_3339003F3094_1_05",
+  "pdf_date": "2026-10-27",
+  "pmda_names": [
+   "リバーロキサバンOD錠10mg「バイエル」",
+   "リバーロキサバンOD錠15mg「バイエル」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339004F1029": {
+  "doc_id": "670605_3339004F1029_1_22",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_3339004F1029_1_22",
+  "pdf_date": "2026-03-06",
+  "pmda_names": [
+   "エリキュース錠2.5mg",
+   "エリキュース錠5mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3339004F2025": {
+  "doc_id": "670605_3339004F1029_1_22",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_3339004F1029_1_22",
+  "pdf_date": "2026-03-06",
+  "pmda_names": [
+   "エリキュース錠2.5mg",
+   "エリキュース錠5mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399001F1384": {
+  "doc_id": "450900_3399001C1027_6_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_3399001C1027_6_01",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "パナルジン錠100mg",
+   "パナルジン細粒10%",
+   "パナルジン細粒10%"
+  ],
+  "maker": "製造販売元／チェプラファーム株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399002F2300": {
+  "doc_id": "530372_3399002F1290_2_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3399002F1290_2_02",
+  "pdf_date": "2024-03-13",
+  "pmda_names": [
+   "シロスタゾール錠50mg「ケミファ」",
+   "シロスタゾール錠100mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399002F2393": {
+  "doc_id": "730869_3399002F1362_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3399002F1362_1_03",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "シロスタゾール錠50mg「VTRS」",
+   "シロスタゾール錠100mg「VTRS」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399002F3020": {
+  "doc_id": "180078_3399002F3020_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_3399002F3020_1_11",
+  "pdf_date": "2023-02-27",
+  "pmda_names": [
+   "プレタールOD錠50mg",
+   "プレタールOD錠100mg"
+  ],
+  "maker": "製造販売元／大塚製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399002F4027": {
+  "doc_id": "180078_3399002F3020_1_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_3399002F3020_1_11",
+  "pdf_date": "2023-02-27",
+  "pmda_names": [
+   "プレタールOD錠50mg",
+   "プレタールOD錠100mg"
+  ],
+  "maker": "製造販売元／大塚製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399002F4043": {
+  "doc_id": "400186_3399002F3047_1_05",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3399002F3047_1_05",
+  "pdf_date": "2023-11-30",
+  "pmda_names": [
+   "シロスタゾールOD錠50mg「タカタ」",
+   "シロスタゾールOD錠100mg「タカタ」"
+  ],
+  "maker": "製造販売元／高田製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399002F4060": {
+  "doc_id": "530372_3399002F3063_2_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3399002F3063_2_02",
+  "pdf_date": "2024-03-14",
+  "pmda_names": [
+   "シロスタゾールOD錠50mg「ケミファ」",
+   "シロスタゾールOD錠100mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399002F4124": {
+  "doc_id": "730869_3399002F3128_1_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3399002F3128_1_03",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "シロスタゾールOD錠50mg「VTRS」",
+   "シロスタゾールOD錠100mg「VTRS」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399003F1120": {
+  "doc_id": "340409_3399003F1120_4_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_3399003F1120_4_03",
+  "pdf_date": "2026-01-13",
+  "pmda_names": [
+   "リマプロストアルファデクス錠5μg「SN」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 4
+ },
+ "3399004M1336": {
+  "doc_id": "780075_3399004M1336_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_3399004M1336_1_10",
+  "pdf_date": "2024-11-13",
+  "pmda_names": [
+   "イコサペント酸エチルカプセル300mg「サワイ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399004M1425": {
+  "doc_id": "480187_3399004M1425_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480187_3399004M1425_1_06",
+  "pdf_date": "2024-11-13",
+  "pmda_names": [
+   "イコサペント酸エチルカプセル300mg「杏林」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399005F1200": {
+  "doc_id": "300119_3399005F1200_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3399005F1200_1_06",
+  "pdf_date": "2023-07-31",
+  "pmda_names": [
+   "ベラプロストNa錠20μg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399005F2060": {
+  "doc_id": "830001_3399005F1218_1_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3399005F1218_1_09",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "ベラプロストNa錠20μg「YD」",
+   "ベラプロストNa錠40μg「YD」"
+  ],
+  "maker": "製造販売元／陽進堂ホールディングス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399005F2079": {
+  "doc_id": "480235_3399005F1234_1_08",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399005F1234_1_08",
+  "pdf_date": "2023-12-20",
+  "pmda_names": [
+   "ベラプロストNa錠20μg「トーワ」",
+   "ベラプロストNa錠40μg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399005F2109": {
+  "doc_id": "581120_3399005F1323_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3399005F1323_1_04",
+  "pdf_date": "2026-02-01",
+  "pmda_names": [
+   "ベラプロストNa錠20μg「NIG」",
+   "ベラプロストNa錠40μg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399006F1026": {
+  "doc_id": "400315_3399006C1020_3_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_3399006C1020_3_11",
+  "pdf_date": "2025-12-01",
+  "pmda_names": [
+   "アンプラーグ錠50mg",
+   "アンプラーグ錠100mg",
+   "アンプラーグ細粒10%"
+  ],
+  "maker": "製造販売元／田辺ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399006F1174": {
+  "doc_id": "530213_3399006F1174_2_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3399006F1174_2_09",
+  "pdf_date": "2024-03-13",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「ケミファ」",
+   "サルポグレラート塩酸塩錠100mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399006F1182": {
+  "doc_id": "300119_3399006F1182_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3399006F1182_1_07",
+  "pdf_date": "2024-02-29",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「サワイ」",
+   "サルポグレラート塩酸塩錠100mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399006F2022": {
+  "doc_id": "400315_3399006C1020_3_11",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_3399006C1020_3_11",
+  "pdf_date": "2025-12-01",
+  "pmda_names": [
+   "アンプラーグ錠50mg",
+   "アンプラーグ錠100mg",
+   "アンプラーグ細粒10%"
+  ],
+  "maker": "製造販売元／田辺ファーマ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399006F2065": {
+  "doc_id": "580591_3399006F1069_1_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3399006F1069_1_10",
+  "pdf_date": "2024-10-21",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「JG」",
+   "サルポグレラート塩酸塩錠100mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399006F2090": {
+  "doc_id": "530100_3399006F1093_3_03",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3399006F1093_3_03",
+  "pdf_date": "2024-01-12",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「NP」",
+   "サルポグレラート塩酸塩錠100mg「NP」"
+  ],
+  "maker": "製造販売元／ニプロ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399006F2111": {
+  "doc_id": "400278_3399006F1115_1_06",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3399006F1115_1_06",
+  "pdf_date": "2025-12-25",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「TCK」",
+   "サルポグレラート塩酸塩錠100mg「TCK」"
+  ],
+  "maker": "製造販売元／辰巳化学株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399006F2162": {
+  "doc_id": "180095_3399006F1166_2_10",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_3399006F1166_2_10",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「オーハラ」",
+   "サルポグレラート塩酸塩錠100mg「オーハラ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399006F2170": {
+  "doc_id": "530213_3399006F1174_2_09",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3399006F1174_2_09",
+  "pdf_date": "2024-03-13",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「ケミファ」",
+   "サルポグレラート塩酸塩錠100mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399006F2189": {
+  "doc_id": "300119_3399006F1182_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3399006F1182_1_07",
+  "pdf_date": "2024-02-29",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「サワイ」",
+   "サルポグレラート塩酸塩錠100mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399006F2197": {
+  "doc_id": "270428_3399006F1190_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_3399006F1190_1_04",
+  "pdf_date": "2024-01-23",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「サンド」",
+   "サルポグレラート塩酸塩錠100mg「サンド」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399006F2227": {
+  "doc_id": "480235_3399006F1220_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399006F1220_1_07",
+  "pdf_date": "2023-12-20",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「トーワ」",
+   "サルポグレラート塩酸塩錠100mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399006F2308": {
+  "doc_id": "581120_3399006F1301_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3399006F1301_1_04",
+  "pdf_date": "2026-02-01",
+  "pmda_names": [
+   "サルポグレラート塩酸塩錠50mg「NIG」",
+   "サルポグレラート塩酸塩錠100mg「NIG」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F1025": {
+  "doc_id": "780069_3399008F1025_1_31",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_3399008F1025_1_31",
+  "pdf_date": "2025-05-01",
+  "pmda_names": [
+   "プラビックス錠25mg",
+   "プラビックス錠75mg"
+  ],
+  "maker": "製造販売元／サノフィ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F1076": {
+  "doc_id": "580591_3399008F1076_1_16",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3399008F1076_1_16",
+  "pdf_date": "2025-05-08",
+  "pmda_names": [
+   "クロピドグレル錠25mg「JG」",
+   "クロピドグレル錠75mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F1114": {
+  "doc_id": "171950_3399008F1114_4_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_3399008F1114_4_01",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "クロピドグレル錠25mg「SANIK」",
+   "クロピドグレル錠75mg「SANIK」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F1130": {
+  "doc_id": "400278_3399008F1130_3_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3399008F1130_3_01",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "クロピドグレル錠25mg「TCK」",
+   "クロピドグレル錠75mg「TCK」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399008F1173": {
+  "doc_id": "400073_3399008F1173_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_3399008F1173_1_13",
+  "pdf_date": "2026-01-30",
+  "pmda_names": [
+   "クロピドグレル錠25mg「科研」",
+   "クロピドグレル錠75mg「科研」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F1190": {
+  "doc_id": "530213_3399008F1190_2_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3399008F1190_2_13",
+  "pdf_date": "2023-12-14",
+  "pmda_names": [
+   "クロピドグレル錠25mg「ケミファ」",
+   "クロピドグレル錠75mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399008F1203": {
+  "doc_id": "300119_3399008F1203_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3399008F1203_1_12",
+  "pdf_date": "2023-06-30",
+  "pmda_names": [
+   "クロピドグレル錠25mg「サワイ」",
+   "クロピドグレル錠50mg「サワイ」",
+   "クロピドグレル錠75mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F1211": {
+  "doc_id": "270428_3399008F1211_1_17",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_3399008F1211_1_17",
+  "pdf_date": "2024-08-01",
+  "pmda_names": [
+   "クロピドグレル錠25mg「サンド」",
+   "クロピドグレル錠75mg「サンド」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F1246": {
+  "doc_id": "460028_3399008F1246_1_18",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3399008F1246_1_18",
+  "pdf_date": "2023-09-13",
+  "pmda_names": [
+   "クロピドグレル錠25mg「ツルハラ」",
+   "クロピドグレル錠75mg「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F1262": {
+  "doc_id": "480235_3399008F1262_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399008F1262_1_12",
+  "pdf_date": "2025-05-26",
+  "pmda_names": [
+   "クロピドグレル錠25mg「トーワ」",
+   "クロピドグレル錠75mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399008F1319": {
+  "doc_id": "400186_3399008F1319_1_18",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3399008F1319_1_18",
+  "pdf_date": "2024-01-12",
+  "pmda_names": [
+   "クロピドグレル錠25mg「明治」",
+   "クロピドグレル錠50mg「明治」",
+   "クロピドグレル錠75mg「明治」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2021": {
+  "doc_id": "780069_3399008F1025_1_31",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_3399008F1025_1_31",
+  "pdf_date": "2025-05-01",
+  "pmda_names": [
+   "プラビックス錠25mg",
+   "プラビックス錠75mg"
+  ],
+  "maker": "製造販売元／サノフィ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2072": {
+  "doc_id": "580591_3399008F1076_1_16",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3399008F1076_1_16",
+  "pdf_date": "2025-05-08",
+  "pmda_names": [
+   "クロピドグレル錠25mg「JG」",
+   "クロピドグレル錠75mg「JG」"
+  ],
+  "maker": "製造販売元／日本ジェネリック株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2110": {
+  "doc_id": "171950_3399008F1114_4_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_3399008F1114_4_01",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "クロピドグレル錠25mg「SANIK」",
+   "クロピドグレル錠75mg「SANIK」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2137": {
+  "doc_id": "400278_3399008F1130_3_01",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3399008F1130_3_01",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "クロピドグレル錠25mg「TCK」",
+   "クロピドグレル錠75mg「TCK」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399008F2145": {
+  "doc_id": "830001_3399008F1149_1_14",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3399008F1149_1_14",
+  "pdf_date": "2026-04-01",
+  "pmda_names": [
+   "クロピドグレル錠25mg「YD」",
+   "クロピドグレル錠75mg「YD」"
+  ],
+  "maker": "製造販売元／陽進堂ホールディングス株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2170": {
+  "doc_id": "400073_3399008F1173_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_3399008F1173_1_13",
+  "pdf_date": "2026-01-30",
+  "pmda_names": [
+   "クロピドグレル錠25mg「科研」",
+   "クロピドグレル錠75mg「科研」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2188": {
+  "doc_id": "480209_3399008F1181_1_18",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3399008F1181_1_18",
+  "pdf_date": "2026-10-08",
+  "pmda_names": [
+   "クロピドグレル錠25mg「杏林」",
+   "クロピドグレル錠75mg「杏林」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2196": {
+  "doc_id": "530213_3399008F1190_2_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3399008F1190_2_13",
+  "pdf_date": "2023-12-14",
+  "pmda_names": [
+   "クロピドグレル錠25mg「ケミファ」",
+   "クロピドグレル錠75mg「ケミファ」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399008F2200": {
+  "doc_id": "300119_3399008F1203_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3399008F1203_1_12",
+  "pdf_date": "2023-06-30",
+  "pmda_names": [
+   "クロピドグレル錠25mg「サワイ」",
+   "クロピドグレル錠50mg「サワイ」",
+   "クロピドグレル錠75mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2218": {
+  "doc_id": "270428_3399008F1211_1_17",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_3399008F1211_1_17",
+  "pdf_date": "2024-08-01",
+  "pmda_names": [
+   "クロピドグレル錠25mg「サンド」",
+   "クロピドグレル錠75mg「サンド」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2226": {
+  "doc_id": "530372_3399008F1220_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3399008F1220_1_12",
+  "pdf_date": "2023-12-28",
+  "pmda_names": [
+   "クロピドグレル錠25mg「三和」",
+   "クロピドグレル錠75mg「三和」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2242": {
+  "doc_id": "460028_3399008F1246_1_18",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3399008F1246_1_18",
+  "pdf_date": "2023-09-13",
+  "pmda_names": [
+   "クロピドグレル錠25mg「ツルハラ」",
+   "クロピドグレル錠75mg「ツルハラ」"
+  ],
+  "maker": "製造販売元／鶴原製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2269": {
+  "doc_id": "480235_3399008F1262_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399008F1262_1_12",
+  "pdf_date": "2025-05-26",
+  "pmda_names": [
+   "クロピドグレル錠25mg「トーワ」",
+   "クロピドグレル錠75mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 2
+ },
+ "3399008F2277": {
+  "doc_id": "530113_3399008F1270_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3399008F1270_1_13",
+  "pdf_date": "2024-02-01",
+  "pmda_names": [
+   "クロピドグレル錠25mg「日新」",
+   "クロピドグレル錠75mg「日新」"
+  ],
+  "maker": "製造販売元／日新製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2315": {
+  "doc_id": "400186_3399008F1319_1_18",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3399008F1319_1_18",
+  "pdf_date": "2024-01-12",
+  "pmda_names": [
+   "クロピドグレル錠25mg「明治」",
+   "クロピドグレル錠50mg「明治」",
+   "クロピドグレル錠75mg「明治」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2331": {
+  "doc_id": "671940_3399008F1335_1_07",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_3399008F1335_1_07",
+  "pdf_date": "2023-10-23",
+  "pmda_names": [
+   "クロピドグレル錠25mg「フェルゼン」",
+   "クロピドグレル錠75mg「フェルゼン」"
+  ],
+  "maker": "製造販売元／株式会社フェルゼンファーマ",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2340": {
+  "doc_id": "270029_3399008F1343_1_15",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_3399008F1343_1_15",
+  "pdf_date": "2024-03-15",
+  "pmda_names": [
+   "クロピドグレル錠25mg「クニヒロ」",
+   "クロピドグレル錠75mg「クニヒロ」"
+  ],
+  "maker": "製造販売元／皇漢堂製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F2358": {
+  "doc_id": "730869_3399008F1351_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3399008F1351_1_04",
+  "pdf_date": "2024-07-01",
+  "pmda_names": [
+   "クロピドグレル錠25mg「VTRS」",
+   "クロピドグレル錠75mg「VTRS」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F3044": {
+  "doc_id": "400278_3399008F1130_1_18",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3399008F1130_1_18",
+  "pdf_date": "2026-01-20",
+  "pmda_names": [
+   "クロピドグレル錠25mg「TCK」（旧製品）",
+   "クロピドグレル錠50mg「TCK」",
+   "クロピドグレル錠75mg「TCK」（旧製品）"
+  ],
+  "maker": "製造販売元／辰巳化学株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F3052": {
+  "doc_id": "300119_3399008F1203_1_12",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3399008F1203_1_12",
+  "pdf_date": "2023-06-30",
+  "pmda_names": [
+   "クロピドグレル錠25mg「サワイ」",
+   "クロピドグレル錠50mg「サワイ」",
+   "クロピドグレル錠75mg「サワイ」"
+  ],
+  "maker": "製造販売元／沢井製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399008F3079": {
+  "doc_id": "400186_3399008F1319_1_18",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3399008F1319_1_18",
+  "pdf_date": "2024-01-12",
+  "pmda_names": [
+   "クロピドグレル錠25mg「明治」",
+   "クロピドグレル錠50mg「明治」",
+   "クロピドグレル錠75mg「明治」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F1020": {
+  "doc_id": "430574_3399009F1020_1_22",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3399009F1020_1_22",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "エフィエント錠2.5mg",
+   "エフィエント錠3.75mg",
+   "エフィエント錠5mg",
+   "エフィエントOD錠20mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F1038": {
+  "doc_id": "430773_3399009F3030_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3399009F3030_1_04",
+  "pdf_date": "2026-06-17",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「DSEP」",
+   "プラスグレル錠3.75mg「DSEP」",
+   "プラスグレル錠5mg「DSEP」",
+   "プラスグレルOD錠20mg「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F1046": {
+  "doc_id": "480235_3399009F1046_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399009F1046_1_04",
+  "pdf_date": "2026-06-17",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「トーワ」",
+   "プラスグレル錠3.75mg「トーワ」",
+   "プラスグレル錠5mg「トーワ」",
+   "プラスグレルOD錠20mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F1054": {
+  "doc_id": "530113_3399009F1054_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3399009F1054_1_02",
+  "pdf_date": "2026-08-05",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「日新」",
+   "プラスグレル錠3.75mg「日新」",
+   "プラスグレル錠20mg「日新」"
+  ],
+  "maker": "製造販売元／日新製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F2026": {
+  "doc_id": "430574_3399009F1020_1_22",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3399009F1020_1_22",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "エフィエント錠2.5mg",
+   "エフィエント錠3.75mg",
+   "エフィエント錠5mg",
+   "エフィエントOD錠20mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F2034": {
+  "doc_id": "430773_3399009F3030_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3399009F3030_1_04",
+  "pdf_date": "2026-06-17",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「DSEP」",
+   "プラスグレル錠3.75mg「DSEP」",
+   "プラスグレル錠5mg「DSEP」",
+   "プラスグレルOD錠20mg「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F2042": {
+  "doc_id": "480235_3399009F1046_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399009F1046_1_04",
+  "pdf_date": "2026-06-17",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「トーワ」",
+   "プラスグレル錠3.75mg「トーワ」",
+   "プラスグレル錠5mg「トーワ」",
+   "プラスグレルOD錠20mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F3022": {
+  "doc_id": "430574_3399009F1020_1_22",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3399009F1020_1_22",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "エフィエント錠2.5mg",
+   "エフィエント錠3.75mg",
+   "エフィエント錠5mg",
+   "エフィエントOD錠20mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F3030": {
+  "doc_id": "430773_3399009F3030_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3399009F3030_1_04",
+  "pdf_date": "2026-06-17",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「DSEP」",
+   "プラスグレル錠3.75mg「DSEP」",
+   "プラスグレル錠5mg「DSEP」",
+   "プラスグレルOD錠20mg「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F3049": {
+  "doc_id": "480235_3399009F1046_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399009F1046_1_04",
+  "pdf_date": "2026-06-17",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「トーワ」",
+   "プラスグレル錠3.75mg「トーワ」",
+   "プラスグレル錠5mg「トーワ」",
+   "プラスグレルOD錠20mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F3057": {
+  "doc_id": "530113_3399009F1054_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3399009F1054_1_02",
+  "pdf_date": "2026-08-05",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「日新」",
+   "プラスグレル錠3.75mg「日新」",
+   "プラスグレル錠20mg「日新」"
+  ],
+  "maker": "製造販売元／日新製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F4037": {
+  "doc_id": "530113_3399009F1054_1_02",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3399009F1054_1_02",
+  "pdf_date": "2026-08-05",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「日新」",
+   "プラスグレル錠3.75mg「日新」",
+   "プラスグレル錠20mg「日新」"
+  ],
+  "maker": "製造販売元／日新製薬株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F5025": {
+  "doc_id": "430574_3399009F1020_1_22",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3399009F1020_1_22",
+  "pdf_date": "2026-02-10",
+  "pmda_names": [
+   "エフィエント錠2.5mg",
+   "エフィエント錠3.75mg",
+   "エフィエント錠5mg",
+   "エフィエントOD錠20mg"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F5033": {
+  "doc_id": "430773_3399009F3030_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3399009F3030_1_04",
+  "pdf_date": "2026-06-17",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「DSEP」",
+   "プラスグレル錠3.75mg「DSEP」",
+   "プラスグレル錠5mg「DSEP」",
+   "プラスグレルOD錠20mg「DSEP」"
+  ],
+  "maker": "",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399009F5041": {
+  "doc_id": "480235_3399009F1046_1_04",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399009F1046_1_04",
+  "pdf_date": "2026-06-17",
+  "pmda_names": [
+   "プラスグレル錠2.5mg「トーワ」",
+   "プラスグレル錠3.75mg「トーワ」",
+   "プラスグレル錠5mg「トーワ」",
+   "プラスグレルOD錠20mg「トーワ」"
+  ],
+  "maker": "製造販売元／東和薬品株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399011F1027": {
+  "doc_id": "670227_3399011F1027_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_3399011F1027_1_13",
+  "pdf_date": "2026-11-04",
+  "pmda_names": [
+   "ブリリンタ錠60mg",
+   "ブリリンタ錠90mg"
+  ],
+  "maker": "製造販売元／アストラゼネカ株式会社",
+  "match": "exact",
+  "candidates": 1
+ },
+ "3399011F2023": {
+  "doc_id": "670227_3399011F1027_1_13",
+  "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_3399011F1027_1_13",
+  "pdf_date": "2026-11-04",
+  "pmda_names": [
+   "ブリリンタ錠60mg",
+   "ブリリンタ錠90mg"
+  ],
+  "maker": "製造販売元／アストラゼネカ株式会社",
+  "match": "exact",
+  "candidates": 1
  }
 }
