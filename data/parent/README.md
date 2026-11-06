@@ -10,7 +10,8 @@
 2. `node scripts/pmda-link.cjs`：PMDA の `GeneralList/<YJコード>`（同じ成分・剤形の全製品と添付文書PDFの一覧を返す）を成分ごとに1回取得し、販売名が一致する文書を選んで `pmda-links.json` に書く。一致しなかった品目は `pmda-unmatched.csv`
 3. `npm run extract` → 下書き → 人の確認
 
-- `pmda-links.json`：yj_code → 添付文書の doc_id・URL・PDF掲載日・PMDA掲載の販売名・製造販売元。`match` は exact（販売名が完全一致）／loose（部分一致）
+- `pmda-links.json`：yj_code → 添付文書の doc_id・URL・PDF掲載日・PMDA掲載の販売名・製造販売元。`match` は exact（販売名が完全一致）／loose（部分一致）／single_doc（名前で決まらないがその成分の文書が1つだけ）
+- 11/6 の結果：メーカーありの 4,318 品目のうち 4,2xx 品目が紐づいた（99%超）。文書（PDF）の数は約 2,000（1つの文書に複数規格が載るため）
 - メーカー欄が空の行（薬価基準の統一名収載）は実製品ではないので紐づかない
 
 ## 注意

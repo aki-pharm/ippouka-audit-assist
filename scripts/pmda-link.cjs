@@ -42,8 +42,10 @@ function parseGL(html) {
     const row = m[1];
     const pdf = row.match(/ResultDataSetPDF\/([0-9A-Z_]+)'>PDF\((\d{4})年(\d{2})月(\d{2})日\)/);
     if (!pdf) continue;
+    // 販売名：長いと popUp("…／…") に全文、短いと最初の <td> にそのまま入る
     const pop = row.match(/popUp\("([^"]*)"\)/);
-    const names = (pop ? pop[1] : "").split("／").map((s) => s.trim()).filter(Boolean);
+    const firstTd = (row.match(/<td[^>]*>([\s\S]*?)<\/td>/) || [, ""])[1].replace(/<[^>]+>/g, "").trim();
+    const names = (pop ? pop[1] : firstTd).split("／").map((s) => s.trim()).filter(Boolean);
     const maker = (row.match(/<td>([^<]*(?:製造販売元|販売元|製造元)[^<]*)<\/td>/) || [, ""])[1].replace(/\s+/g, " ").trim();
     docs.push({ doc_id: pdf[1], pdf_date: `${pdf[2]}-${pdf[3]}-${pdf[4]}`, names, maker });
   }
@@ -65,8 +67,11 @@ for (const [k, items] of groups) {
     const target = norm(r.brand_name);
     const hits = docs.filter((d) => d.names.some((nm) => norm(nm) === target));
     const loose = hits.length ? hits : docs.filter((d) => d.names.some((nm) => norm(nm).includes(target) || target.includes(norm(nm))));
-    const pick = (loose.length ? loose : []).sort((a, b) => (a.pdf_date < b.pdf_date ? 1 : -1))[0];
-    if (pick) { links[r.yj_code] = { doc_id: pick.doc_id, url: `https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/${pick.doc_id}`, pdf_date: pick.pdf_date, pmda_names: pick.names, maker: pick.maker, match: hits.length ? "exact" : "loose", candidates: loose.length }; matched++; }
+    // 名前で決まらず、その成分の文書が1つしかなければそれ（販売名の表記ゆれ対策。match: single_doc）
+    const single = !loose.length && docs.length === 1 && r.maker ? docs : [];
+    const pool = loose.length ? loose : single;
+    const pick = pool.slice().sort((a, b) => (a.pdf_date < b.pdf_date ? 1 : -1))[0];
+    if (pick) { links[r.yj_code] = { doc_id: pick.doc_id, url: `https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/${pick.doc_id}`, pdf_date: pick.pdf_date, pmda_names: pick.names, maker: pick.maker, match: hits.length ? "exact" : loose.length ? "loose" : "single_doc", candidates: pool.length }; matched++; }
     else unmatched.push({ yj_code: r.yj_code, brand_name: r.brand_name, maker: r.maker, reason: docs.length ? "no_name_match" : "no_docs", docs: docs.length });
     done++;
   }
