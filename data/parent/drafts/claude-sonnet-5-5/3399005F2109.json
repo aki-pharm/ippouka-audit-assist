@@ -1,0 +1,30 @@
+{
+  "id": "3399005F2109",
+  "source_file": "581120_3399005F1323_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3399005F1323_1_04",
+  "extracted_at": "2026-11-06T17:26:08.185Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17979,
+    "output": 957
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラプロストNa錠40μg「NIG」",
+      "strength": "40μg",
+      "imprint_front": "BR 40",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤表面の刻印・印字は外形の図から読み取った。表裏の区別は文章に記載がなく、裏面は図に示されていない。PTPの識別コードは「t BR 40μg」。",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡橙色のフィルムコーティング錠／外形 直径 6.1mm 厚さ 2.8mm 質量 85mg／識別コード（PTP） t BR 40μg"
+    }
+  ]
+}

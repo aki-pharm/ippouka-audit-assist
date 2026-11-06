@@ -1,0 +1,30 @@
+{
+  "id": "3122007F2039",
+  "source_file": "400061_3122007F2039_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3122007F2039_2_07",
+  "extracted_at": "2026-11-06T17:20:31.378Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8949,
+    "output": 243
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "25mgアリナミンF糖衣錠",
+      "strength": "25mg",
+      "imprint_front": "307",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは307（社名マークと併記）。表裏の別は本文に記載なし。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色の糖衣錠 形　状 直径 厚さ 重量 8.5mm 4.7mm 250mg 識別コード 307"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2590016F1055",
+  "source_file": "480209_2590016F1055_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590016F1055_1_06",
+  "extracted_at": "2026-11-06T17:16:40.748Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31821,
+    "output": 1016
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠2.5mgZA「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "KRM237",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKRM237。表裏の区別は本文に記載なし",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 8.8,
+      "size_short_mm": 5.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 色調 黄色 / 直径(mm) 長径：8.8 短径5.5 / 厚さ(mm) 3.5 / 質量(mg) 129 / 識別コード KRM237"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3399008F2226",
+  "source_file": "530372_3399008F1220_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3399008F1220_1_12",
+  "extracted_at": "2026-11-06T17:27:56.264Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31808,
+    "output": 789
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠75mg「三和」",
+      "strength": "75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表・裏）に印字らしきものが見えるが、本文中に刻印・識別コードの文字記載がないため未確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色のフィルムコーティング錠 ／ 直径 8.6mm ／ 厚さ 4.9mm ／ 重量 269mg"
+    }
+  ]
+}

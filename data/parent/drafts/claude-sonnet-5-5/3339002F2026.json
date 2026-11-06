@@ -1,0 +1,30 @@
+{
+  "id": "3339002F2026",
+  "source_file": "430574_3339002F1020_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F1020_1_19",
+  "extracted_at": "2026-11-06T17:23:43.753Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41903,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リクシアナ錠30mg",
+      "strength": "30mg",
+      "imprint_front": "DSC 472",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「DSC 472」と記載。表面の刻印位置の区別（表裏）は本文中に明記なし。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "リクシアナ錠30mg フィルムコーティング錠（割線入） 淡赤色 DSC 472 8.6（直径） 約3.8 約210"
+    }
+  ]
+}

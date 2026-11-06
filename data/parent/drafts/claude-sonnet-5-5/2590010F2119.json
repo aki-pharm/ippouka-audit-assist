@@ -1,0 +1,30 @@
+{
+  "id": "2590010F2119",
+  "source_file": "480209_2590010F2119_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590010F2119_1_02",
+  "extracted_at": "2026-11-06T17:13:10.780Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22394,
+    "output": 1137
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシン錠4mg「杏林」",
+      "strength": "4mg",
+      "imprint_front": "シロドシン 4 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書には「本体表示 シロドシン 4 杏林」と一括で記載されており、表裏の区別は文章からは確認できない",
+      "color": "白色～微黄白色",
+      "shape": null,
+      "size_long_mm": 11.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 白色～微黄白色 本体表示 シロドシン 4 杏林 直径(mm) 長径：11.2 短径：6.2 厚さ(mm) 3.6 質量(mg) 208"
+    }
+  ]
+}

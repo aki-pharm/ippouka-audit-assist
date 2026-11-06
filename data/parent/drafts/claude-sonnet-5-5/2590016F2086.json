@@ -1,0 +1,30 @@
+{
+  "id": "2590016F2086",
+  "source_file": "530169_2590016F1080_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590016F1080_1_07",
+  "extracted_at": "2026-11-06T17:17:33.015Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29631,
+    "output": 956
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠5mgZA「日医工」",
+      "strength": "5mg",
+      "imprint_front": "タダラフィル ZA 5 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本体表示欄に「タダラフィル ZA 5 日医工」とあるが、表裏の別は文章では示されていない。表裏の識別は図のみで文章からは確認できないため、裏面は未確認とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色／直径（mm）7.5 厚さ（mm）3.6 質量（mg）180 本体表示 タダラフィル ZA 5 日医工"
+    }
+  ]
+}

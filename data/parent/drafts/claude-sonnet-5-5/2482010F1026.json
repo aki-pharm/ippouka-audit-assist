@@ -1,0 +1,30 @@
+{
+  "id": "2482010F1026",
+  "source_file": "630004_2482010F1026_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_2482010F1026_1_18",
+  "extracted_at": "2026-11-06T17:07:13.708Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20797,
+    "output": 331
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウェールナラ配合錠",
+      "strength": "1錠中エストラジオール1mg及びレボノルゲストレル0.04mg含有",
+      "imprint_front": "SC（六角形の枠で囲まれた識別コード）",
+      "imprint_back": "なし",
+      "imprint_note": "外形の図では表面に六角形で囲まれた「SC」の識別コードが示されている。裏面は無印の円形で図示されている。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.85,
+      "score_line": false,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 ウェールナラ配合錠 剤形 フィルムコーティング錠 色調 淡赤色 外形 直径 6mm 厚さ 2.85mm 質量 82mg 識別コ－ド"
+    }
+  ]
+}

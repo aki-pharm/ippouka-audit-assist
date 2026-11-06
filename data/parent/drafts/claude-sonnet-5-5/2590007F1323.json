@@ -1,0 +1,30 @@
+{
+  "id": "2590007F1323",
+  "source_file": "470007_2590007F1323_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590007F1323_1_05",
+  "extracted_at": "2026-11-06T17:10:34.144Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19025,
+    "output": 241
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピベリン塩酸塩錠10mg「あすか」",
+      "strength": "10mg",
+      "imprint_front": "TZ217",
+      "imprint_back": "10",
+      "imprint_note": "識別コード：TZ217。外形図の裏面には「10」の表示あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径約6.1mm 厚さ約3.1mm 質量約94mg 識別コード TZ217"
+    }
+  ]
+}

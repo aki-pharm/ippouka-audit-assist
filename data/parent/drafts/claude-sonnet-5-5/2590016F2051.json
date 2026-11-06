@@ -1,0 +1,30 @@
+{
+  "id": "2590016F2051",
+  "source_file": "480209_2590016F1055_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590016F1055_1_06",
+  "extracted_at": "2026-11-06T17:17:23.063Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31819,
+    "output": 929
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠5mgZA「杏林」",
+      "strength": "5mg",
+      "imprint_front": "KRM238",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏の別は文章では記載なし（外形図には数字「5」の表示がみられる）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 9.9,
+      "size_short_mm": 6.2,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　色調 白色　直径(mm) 長径：9.9 短径6.2　厚さ(mm) 4.0　質量(mg) 180　識別コード KRM238"
+    }
+  ]
+}

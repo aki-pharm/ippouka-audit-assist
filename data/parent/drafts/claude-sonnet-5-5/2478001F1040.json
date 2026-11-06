@@ -1,0 +1,30 @@
+{
+  "id": "2478001F1040",
+  "source_file": "670109_2478001F1040_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_2478001F1040_2_07",
+  "extracted_at": "2026-11-06T17:05:47.759Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9970,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルトラール錠2mg",
+      "strength": "2mg",
+      "imprint_front": "FJ 364",
+      "imprint_back": "2",
+      "imprint_note": "識別コード：FJ364。表面に「FJ 364」、裏面に「2」の印字（外形図より）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2024年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ルトラール錠2mg 白色の錠剤 大きさ 直径 約7.0mm 厚さ 約3.4mm 質量 約0.13g 識別コード FJ364"
+    }
+  ]
+}

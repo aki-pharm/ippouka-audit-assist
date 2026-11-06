@@ -1,0 +1,30 @@
+{
+  "id": "3112005F1029",
+  "source_file": "400093_3112005F1029_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_3112005F1029_2_11",
+  "extracted_at": "2026-11-06T17:19:36.588Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14472,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルスタン錠0.15",
+      "strength": "0.15μg",
+      "imprint_front": "212",
+      "imprint_back": "0.15",
+      "imprint_note": "外形図に社名マークと思われる記号あり。識別コードは212。裏面の「0.15」は外形図に基づく表示。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2022年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 ／ 大きさ 直径(mm) 約7 厚さ(mm) 約3.5 重さ(mg) 約140 ／ 識別コード 212"
+    }
+  ]
+}

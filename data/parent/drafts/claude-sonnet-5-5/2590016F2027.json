@@ -1,0 +1,30 @@
+{
+  "id": "2590016F2027",
+  "source_file": "530263_2590016F1020_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590016F1020_2_06",
+  "extracted_at": "2026-11-06T17:17:09.511Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28217,
+    "output": 1039
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザルティア錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの欄は図のみで、文字として記載がなく読み取れないため未確認",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 9.7,
+      "size_short_mm": 6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコート錠／長径：約9.7mm 短径：約6.0mm 厚さ：約4.0mm 重量：約0.18g"
+    }
+  ]
+}

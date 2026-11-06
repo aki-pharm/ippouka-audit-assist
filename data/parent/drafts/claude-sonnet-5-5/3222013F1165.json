@@ -1,0 +1,30 @@
+{
+  "id": "3222013F1165",
+  "source_file": "460028_3222013D1075_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3222013D1075_1_09",
+  "extracted_at": "2026-11-06T17:22:24.763Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14153,
+    "output": 251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエン酸第一鉄ナトリウム錠50mg「ツルハラ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印・識別コードの記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5.8,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 大きさ 直径 約10.1mm 厚さ 約5.8mm 質量 約525mg"
+    }
+  ]
+}

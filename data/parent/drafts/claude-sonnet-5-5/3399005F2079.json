@@ -1,0 +1,30 @@
+{
+  "id": "3399005F2079",
+  "source_file": "480235_3399005F1234_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399005F1234_1_08",
+  "extracted_at": "2026-11-06T17:25:59.196Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17953,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラプロストNa錠40μg「トーワ」",
+      "strength": "40μg",
+      "imprint_front": "Tw229",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは本体に表示（Tw229）。外形の図では表面にTw 229の表示、裏面は表示なし",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡紅色のフィルムコーティング錠　識別コード Tw229　直径(mm) 6.2　厚さ(mm) 2.8　質量(mg) 83"
+    }
+  ]
+}

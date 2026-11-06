@@ -1,0 +1,30 @@
+{
+  "id": "3229008F2021",
+  "source_file": "620095_3229008F1025_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620095_3229008F1025_1_03",
+  "extracted_at": "2026-11-06T17:22:41.914Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12471,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジンタス錠25mg",
+      "strength": "25mg",
+      "imprint_front": "NPC94",
+      "imprint_back": "なし",
+      "imprint_note": "表面に識別コードNPC94（製剤の性状欄の図では2段表記）。裏面は刻印の記載なし（図は無地）。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 ／ 大きさ 直径 9.0mm 厚さ 3.7mm 重量 310mg ／ 識別コード NPC94"
+    }
+  ]
+}

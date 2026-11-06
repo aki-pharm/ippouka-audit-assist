@@ -1,0 +1,30 @@
+{
+  "id": "2590003F1023",
+  "source_file": "480143_2590003F1023_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480143_2590003F1023_1_15",
+  "extracted_at": "2026-11-06T17:10:07.368Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8843,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セルニルトン錠",
+      "strength": "1錠",
+      "imprint_front": "FS/C03",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：FS/C03（表面に「FS C03」の2段表示。裏面は刻印の記載なし）",
+      "color": "淡緑色",
+      "shape": "round",
+      "size_long_mm": 9.8,
+      "size_short_mm": 9.8,
+      "thickness_mm": 4.9,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡緑色の素錠である。 大きさ 直径 9.8mm 厚さ 4.9mm 質量 約400mg 識別コード FS/C03"
+    }
+  ]
+}

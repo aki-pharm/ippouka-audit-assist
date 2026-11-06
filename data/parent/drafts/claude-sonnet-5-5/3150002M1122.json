@@ -1,0 +1,30 @@
+{
+  "id": "3150002M1122",
+  "source_file": "730869_3150002M1122_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3150002M1122_1_05",
+  "extracted_at": "2026-11-06T17:21:28.303Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8176,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トコフェロール酢酸エステルカプセル100mg「VTRS」",
+      "strength": "100mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「－」",
+      "color": "カプセル：赤色（内容物：淡黄色の油性液）",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": null,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "カプセル：赤色の球形の軟カプセル剤で、においはほとんどない 内容物：淡黄色の油性液で、わずかに特異なにおいがある（外形 8.0mm×8.0mm、識別コード －）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3136004F1050",
+  "source_file": "170033_3136004C1038_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_3136004C1038_1_05",
+  "extracted_at": "2026-11-06T17:21:13.947Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13702,
+    "output": 776
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メチコバール錠250μg",
+      "strength": "250μg",
+      "imprint_front": "321",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード321。外形図では表に社名マーク（ε）と321の表示あり。裏は図上で刻印の表示なし（文言での明記はなし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠／識別コード 321／直径（mm） 6.2／質量（mg） 95／厚さ（mm） 3.4／色 白色"
+    }
+  ]
+}

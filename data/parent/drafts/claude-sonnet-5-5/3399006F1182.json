@@ -1,0 +1,30 @@
+{
+  "id": "3399006F1182",
+  "source_file": "300119_3399006F1182_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3399006F1182_1_07",
+  "extracted_at": "2026-11-06T17:26:17.645Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12728,
+    "output": 956
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW サルポグレラート 50",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「SW サルポグレラート 50」の記載あり。表裏の別は文章では明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　性状 白色　直径（mm）7.6　厚さ（mm）3.6　重量（mg）約145　本体表示 SW サルポグレラート 50"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3112001F3066",
+  "source_file": "672173_3112001F1063_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_3112001F1063_2_04",
+  "extracted_at": "2026-11-06T17:19:06.789Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14515,
+    "output": 677
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルファカルシドール錠1.0μg「アメル」",
+      "strength": "1.0μg",
+      "imprint_front": "KW173",
+      "imprint_back": "1.0",
+      "imprint_note": "識別コード表記は「KW173/1.0」。表と裏の区分は図から判断",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アルファカルシドール錠1.0μg「アメル」 素錠 直径：約6.1mm 厚さ：約2.2mm 質量：約85.1mg KW173/1.0 白色"
+    }
+  ]
+}

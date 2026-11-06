@@ -1,0 +1,30 @@
+{
+  "id": "3112001M2018",
+  "source_file": "450045_3112001B4036_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112001B4036_1_07",
+  "extracted_at": "2026-11-06T17:19:16.272Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12498,
+    "output": 698
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルファロール散1μg/g（1包（0.5g）中アルファカルシドール0.5μg）",
+      "strength": "0.5μg（1包0.5g中）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は散剤（粉末）で錠剤ではないため、刻印・割線の記載なし",
+      "color": "白色～微黄白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 散剤 性状 白色～微黄白色の粉末"
+    }
+  ]
+}

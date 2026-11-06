@@ -1,0 +1,30 @@
+{
+  "id": "3399008F1173",
+  "source_file": "400073_3399008F1173_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_3399008F1173_1_13",
+  "extracted_at": "2026-11-06T17:27:02.704Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33221,
+    "output": 936
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「科研」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはDK531（包装表示）。錠剤本体の刻印としての記載は本文になし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色 白色～微黄白色 直径 6.7mm 厚さ 3.7mm 質量 120mg 識別コード DK531（包装表示）"
+    }
+  ]
+}

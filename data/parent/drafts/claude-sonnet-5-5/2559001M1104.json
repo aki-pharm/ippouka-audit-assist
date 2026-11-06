@@ -1,0 +1,30 @@
+{
+  "id": "2559001M1104",
+  "source_file": "100168_2559001M1104_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100168_2559001M1104_1_09",
+  "extracted_at": "2026-11-06T17:09:55.104Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9735,
+    "output": 710
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヘモクロンカプセル200mg",
+      "strength": "200mg",
+      "imprint_front": "259",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の識別コード欄に記号（社名マークと思われる）が付記されている。裏面の記載は確認できない。剤形は軟カプセル剤（錠剤ではない）。",
+      "color": "乳白色～うすいベージュ色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2021年12月改訂",
+      "source_page": 1,
+      "source_quote": "乳白色～うすいベージュ色の軟カプセル剤で、内容物は無色～淡黄色の粘稠な液である。 外形 長径（mm） 短径（mm） 識別コード 10.1 7.1 259"
+    }
+  ]
+}

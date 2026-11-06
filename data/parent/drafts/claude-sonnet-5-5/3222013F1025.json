@@ -1,0 +1,30 @@
+{
+  "id": "3222013F1025",
+  "source_file": "530258_3222013D1059_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3222013D1059_3_03",
+  "extracted_at": "2026-11-06T17:22:19.355Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14645,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェロミア錠50mg",
+      "strength": "50mg",
+      "imprint_front": "S301",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄にS301と記載。表の図に「S 301」の刻印が示されている。裏面の刻印は文書中の図に表示がなく、文章での明記はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.3,
+      "size_short_mm": 10.3,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フェロミア錠50mg フィルムコート錠 白色 S301 直径（mm）･ 質量（mg）･ 厚さ（mm） 10.3 550 5.0"
+    }
+  ]
+}

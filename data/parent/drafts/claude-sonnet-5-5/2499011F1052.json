@@ -1,0 +1,30 @@
+{
+  "id": "2499011F1052",
+  "source_file": "780009_2499011F1052_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2499011F1052_2_02",
+  "extracted_at": "2026-11-06T17:08:58.918Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18209,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュタステリド錠0.5mgAV「明治」",
+      "strength": "0.5mg",
+      "imprint_front": "MS 125",
+      "imprint_back": "0.5",
+      "imprint_note": "識別コード：MS 125（表に表示）。裏面は「0.5」の表示。側面の表示は未確認。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "デュタステリド錠0.5mgAV「明治」 フィルムコーティング錠 淡黄色 識別コード MS 125 直径7.1mm 厚さ3.2mm 重量135mg"
+    }
+  ]
+}

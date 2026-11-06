@@ -1,0 +1,30 @@
+{
+  "id": "2590007F2028",
+  "source_file": "400107_2590007C1025_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_2590007C1025_1_09",
+  "extracted_at": "2026-11-06T17:10:39.892Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19095,
+    "output": 1065
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バップフォー錠20",
+      "strength": "20mg",
+      "imprint_front": "TC272",
+      "imprint_back": "20",
+      "imprint_note": "本文には識別コード TC272 のみ記載。表裏の刻印は外形図（表面 TC272、裏面 20）による。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2021年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の扁平球状のフィルムコーティング錠である。／直径(mm) 7.1 厚み(mm) 3.2 質量(mg) 125／識別コード TC272"
+    }
+  ]
+}

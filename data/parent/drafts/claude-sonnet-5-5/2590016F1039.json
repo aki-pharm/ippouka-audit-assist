@@ -1,0 +1,30 @@
+{
+  "id": "2590016F1039",
+  "source_file": "580591_2590016F1039_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590016F1039_1_08",
+  "extracted_at": "2026-11-06T17:16:33.140Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30542,
+    "output": 909
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠2.5mgZA「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "タダラフィル ZA 2.5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は1つのみ記載。注）錠剤の向きと印字の組み合わせは2通りある。",
+      "color": "淡橙黄色",
+      "shape": "other",
+      "size_long_mm": 8.7,
+      "size_short_mm": 5.4,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "淡橙黄色のティアドロップ形のフィルムコーティング錠　長径 8.7mm 短径 5.4mm 厚さ 3.4mm 重量 130mg　本体表示 タダラフィル ZA 2.5 JG"
+    }
+  ]
+}

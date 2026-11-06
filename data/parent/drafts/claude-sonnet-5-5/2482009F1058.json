@@ -1,0 +1,46 @@
+{
+  "id": "2482009F1058",
+  "source_file": "790250_2482009F1058_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790250_2482009F1058_1_13",
+  "extracted_at": "2026-11-06T17:06:43.464Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32333,
+    "output": 1249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フリウェル配合錠LD「モチダ」",
+      "strength": "1錠中 日局ノルエチステロン 1mg、日局エチニルエストラジオール 0.035mg",
+      "imprint_front": "MO25L",
+      "imprint_back": "なし",
+      "imprint_note": "外形図の上面に「MO 25L」の表示あり。下面は外形図上で刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 外形（mm） 重量（mg） 100 識別コード MO25L"
+    },
+    {
+      "product_name": "フリウェル配合錠ULD「モチダ」",
+      "strength": "1錠中 日局ノルエチステロン 1mg、日局エチニルエストラジオール 0.02mg",
+      "imprint_front": "MO25R",
+      "imprint_back": "なし",
+      "imprint_note": "外形図の上面に「MO 25R」の表示あり。下面は外形図上で刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 外形（mm） 重量（mg） 100 識別コード MO25R"
+    }
+  ]
+}

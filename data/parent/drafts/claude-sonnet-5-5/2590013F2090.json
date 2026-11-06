@@ -1,0 +1,30 @@
+{
+  "id": "2590013F2090",
+  "source_file": "460028_2590013F2090_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2590013F2090_1_03",
+  "extracted_at": "2026-11-06T17:15:53.330Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21809,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダフェナシンOD錠0.1mg「ツルハラ」",
+      "strength": "0.1mg",
+      "imprint_front": "TSU049",
+      "imprint_back": "0.1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／色調 白色／大きさ 直径 約7.5mm 厚さ 約4.0mm／質量 約180mg／識別コード 表面 TSU049 裏面 0.1"
+    }
+  ]
+}

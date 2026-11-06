@@ -1,0 +1,46 @@
+{
+  "id": "2590010F1023",
+  "source_file": "230034_2590010F1023_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2590010F1023_1_12",
+  "extracted_at": "2026-11-06T17:12:42.646Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25966,
+    "output": 1382
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユリーフ錠2mg",
+      "strength": "2mg",
+      "imprint_front": "なし",
+      "imprint_back": "KD 2",
+      "imprint_note": "識別コード：KD2（社名マーク付き）。表面は社名マークのみ、裏面にKD 2（外形図より）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 ユリーフ錠2mg 剤形 フィルムコート錠 色調 白色～微黄白色 直径 6.4mm 厚さ 約3.2mm 質量 約104mg 識別コード KD2"
+    },
+    {
+      "product_name": "ユリーフOD錠2mg",
+      "strength": "2mg",
+      "imprint_front": "なし",
+      "imprint_back": "UR 2",
+      "imprint_note": "識別コード：UR2（社名マーク付き）。表面は社名マークのみ、裏面にUR 2（外形図より）",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 ユリーフOD錠2mg 剤形 素錠（口腔内崩壊錠） 色調 淡黄赤色 直径 6.4mm 厚さ 約3.0mm 質量 約100mg 識別コード UR2"
+    }
+  ]
+}

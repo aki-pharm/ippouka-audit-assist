@@ -1,0 +1,30 @@
+{
+  "id": "2590011F2067",
+  "source_file": "460028_2590011F1060_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2590011F1060_1_02",
+  "extracted_at": "2026-11-06T17:14:17.447Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25451,
+    "output": 640
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "TSU 322",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2021年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "剤型 ごくうすい黄色のフィルムコーティング錠／大きさ 直径 7.6mm 厚さ 3.5mm 質量 154mg／識別記号 表：TSU 322、裏：5"
+    }
+  ]
+}

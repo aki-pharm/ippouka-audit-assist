@@ -1,0 +1,30 @@
+{
+  "id": "2590011F3055",
+  "source_file": "480235_2590011F3055_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590011F3055_1_02",
+  "extracted_at": "2026-11-06T17:14:43.150Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23540,
+    "output": 1205
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩OD錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "ソリフェナシン 2.5 OD トーワ",
+      "imprint_back": "ソリフェナシン 2.5 OD トーワ",
+      "imprint_note": "本体表示欄が表・裏で結合されており、表裏とも同じ表示と解釈。性状欄に割線の記載なし（5mg錠は「割線入り」と記載）。",
+      "color": "淡黄色（帯褐黄色の顆粒を含む）",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "帯褐黄色の顆粒を含む淡黄色の口腔内崩壊錠／本体表示 ソリフェナシン 2.5 OD トーワ／直径(mm) 5.5／厚さ(mm) 3.0"
+    }
+  ]
+}

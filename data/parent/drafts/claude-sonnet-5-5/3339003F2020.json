@@ -1,0 +1,30 @@
+{
+  "id": "3339003F2020",
+  "source_file": "630004_3339003F1024_1_29.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_3339003F1024_1_29",
+  "extracted_at": "2026-11-06T17:24:06.665Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 50858,
+    "output": 313
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イグザレルト錠15mg",
+      "strength": "15mg",
+      "imprint_front": "15（識別コード）",
+      "imprint_back": "BAYERクロス（社名マーク）",
+      "imprint_note": "外形図および識別コード欄に、表に「15」と、裏に「BAYER」の社名マークの記載あり。識別コードの文字情報は図中の記載で、本文には文字での記載なし。",
+      "color": "赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第11版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡赤色 赤色 外形 直径 6mm 6mm 厚さ 2.8mm 2.8mm 質量 87.5mg 87.5mg 識別コード"
+    }
+  ]
+}

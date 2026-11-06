@@ -1,0 +1,30 @@
+{
+  "id": "2590008F2057",
+  "source_file": "530372_2590008F1050_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2590008F1050_2_06",
+  "extracted_at": "2026-11-06T17:11:36.548Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16942,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タムスロシン塩酸塩OD錠0.2mg「ケミファ」",
+      "strength": "0.2mg",
+      "imprint_front": "NPI 126",
+      "imprint_back": "0.2",
+      "imprint_note": "裏面の「0.2」は外形図の表示から確認。識別コードは NPI 126。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 / 直径 7.5mm / 厚さ 3.6mm / 重量 160mg / 識別コード NPI 126"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2590016F1047",
+  "source_file": "470007_2590016F1047_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590016F1047_1_06",
+  "extracted_at": "2026-11-06T17:16:35.447Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28889,
+    "output": 800
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠2.5mg ZA「あすか」",
+      "strength": "2.5mg",
+      "imprint_front": "タダラフィルZA 2.5 あすか",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の「製剤表示」欄には「タダラフィルZA 2.5 あすか」とのみ記載があり、表裏の別は文章では示されていない。",
+      "color": "淡橙黄色",
+      "shape": "other",
+      "size_long_mm": 8.7,
+      "size_short_mm": 5.4,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡橙黄色のティアドロップ形のフィルムコーティング錠 / 長径約8.7mm 短径約5.4mm 厚さ約3.4mm 質量約129.8mg / 製剤表示 タダラフィルZA 2.5 あすか"
+    }
+  ]
+}

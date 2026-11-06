@@ -1,0 +1,30 @@
+{
+  "id": "2491001F6273",
+  "source_file": "581120_2491001F6273_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2491001F6273_2_02",
+  "extracted_at": "2026-11-06T17:07:46.163Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9076,
+    "output": 761
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カリジノゲナーゼ錠50単位「NIG」",
+      "strength": "50単位",
+      "imprint_front": "201",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード201、包装コード201。外形図の表面には社名マークらしき表示あり（文章には記載なし）",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 腸溶性フィルムコーティング錠 色調 だいだい色 外形 直径：6.2mm 厚さ：3.5mm 質量：115mg 本体コード 201 包装コード 201"
+    }
+  ]
+}

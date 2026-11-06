@@ -1,0 +1,30 @@
+{
+  "id": "2478002F2068",
+  "source_file": "670109_2478002F2068_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_2478002F2068_1_04",
+  "extracted_at": "2026-11-06T17:06:09.380Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13318,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メドロキシプロゲステロン酢酸エステル錠5mg「F」",
+      "strength": "5mg",
+      "imprint_front": "FJ 32",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：FJ32。外形図では表面に「FJ/32」の2段表示。割線入り素錠。質量120mg",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠 / 大きさ 直径 7.0mm 厚さ 2.3mm 質量 120mg / 識別コード FJ32"
+    }
+  ]
+}

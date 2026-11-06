@@ -1,0 +1,46 @@
+{
+  "id": "2590010F4103",
+  "source_file": "180095_2590010F3107_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2590010F3107_1_03",
+  "extracted_at": "2026-11-06T17:13:30.447Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24118,
+    "output": 1339
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシン錠4mg「オーハラ」",
+      "strength": "4mg",
+      "imprint_front": "シロドシン 4 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として記載。表裏の区別は本文に記載なし",
+      "color": "白色～微黄白色",
+      "shape": null,
+      "size_long_mm": 11.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 白色～微黄白色 長径：11.2mm 短径：6.2mm 厚さ：3.6mm 識別表示 シロドシン 4 オーハラ"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「オーハラ」",
+      "strength": "4mg",
+      "imprint_front": "シロドシン OD4 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として記載。表裏の区別は本文に記載なし",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "割線入り素錠（口腔内崩壊錠） 淡黄赤色 直径：8.0mm 厚さ：3.9mm 識別表示 シロドシン OD4 オーハラ"
+    }
+  ]
+}

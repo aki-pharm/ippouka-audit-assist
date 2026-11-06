@@ -1,0 +1,30 @@
+{
+  "id": "3399004M1026",
+  "source_file": "790005_3399004M1026_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_3399004M1026_1_19",
+  "extracted_at": "2026-11-06T17:25:43.192Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15708,
+    "output": 826
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エパデールカプセル300",
+      "strength": "300mg",
+      "imprint_front": "MO207",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに表示（カプセル本体への刻印の記載なし）。本剤は軟カプセル剤で錠剤ではない。",
+      "color": "淡黄色透明",
+      "shape": null,
+      "size_long_mm": 18,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄色透明（軟カプセル剤）／外形（mm）約18（図）／識別コード MO207（PTPに表示）"
+    }
+  ]
+}

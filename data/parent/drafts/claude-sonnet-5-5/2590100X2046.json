@@ -1,0 +1,30 @@
+{
+  "id": "2590100X2046",
+  "source_file": "530263_2590100X2046_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590100X2046_1_04",
+  "extracted_at": "2026-11-06T17:18:18.901Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9103,
+    "output": 211
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エビプロスタット配合錠DB",
+      "strength": "1錠",
+      "imprint_front": "222",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード222（社名マーク付き）。表裏の区別は記載なし",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2020年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の色 白色 形状 腸溶性のフィルムコーティング錠 識別コード 222"
+    }
+  ]
+}

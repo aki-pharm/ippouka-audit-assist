@@ -1,0 +1,30 @@
+{
+  "id": "3321002F1114",
+  "source_file": "530169_3321002F1114_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3321002F1114_1_05",
+  "extracted_at": "2026-11-06T17:22:55.323Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8994,
+    "output": 912
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルバゾクロムスルホン酸ナトリウム錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "33A",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード33A、包装コード33A。裏面の刻印は文章での記載なし（図の裏面は空白に見えるが明記なし）。",
+      "color": "橙黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 橙黄色 直径（mm） 7.1 厚さ（mm） 2.8 質量（mg） 120 本体コード 33A 包装コード 33A"
+    }
+  ]
+}

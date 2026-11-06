@@ -1,0 +1,30 @@
+{
+  "id": "2499010F1082",
+  "source_file": "340269_2499010F1082_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340269_2499010F1082_1_08",
+  "extracted_at": "2026-11-06T17:08:14.866Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21045,
+    "output": 300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジエノゲスト錠1mg「キッセイ」",
+      "strength": "1mg",
+      "imprint_front": "ジエノゲスト 1 キッセイ",
+      "imprint_back": "ジエノゲスト 1 キッセイ",
+      "imprint_note": "本体表示の表・裏ともに「ジエノゲスト 1 キッセイ」と記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 本体表示 表 裏 ジエノゲスト 1 キッセイ 直径(mm) 6.6 厚さ(mm) 2.9 質量(mg) 110"
+    }
+  ]
+}

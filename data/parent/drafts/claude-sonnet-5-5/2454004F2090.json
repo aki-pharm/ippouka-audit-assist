@@ -1,0 +1,30 @@
+{
+  "id": "2454004F2090",
+  "source_file": "343018_2454004B1040_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_2454004B1040_2_08",
+  "extracted_at": "2026-11-06T17:04:57.478Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22790,
+    "output": 970
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リンデロン錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "347",
+      "imprint_back": "0.5",
+      "imprint_note": "識別コードは図中に「347 : 0.5」と表記。表面に社名マークと347、裏面に0.5（図からの読み取り）。本文テキストには識別コードの記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の円形の素錠である。 直径 約5.0mm 厚さ 約2.3mm 質量 約0.05g"
+    }
+  ]
+}

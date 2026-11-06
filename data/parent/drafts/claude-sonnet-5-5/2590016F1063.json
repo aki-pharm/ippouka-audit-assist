@@ -1,0 +1,30 @@
+{
+  "id": "2590016F1063",
+  "source_file": "300119_2590016F1063_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590016F1063_1_06",
+  "extracted_at": "2026-11-06T17:16:47.056Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29211,
+    "output": 877
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠2.5mgZA「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "タダラフィル 2.5 ZA サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本体表示は「タダラフィル 2.5 ZA サワイ」のみで、表裏の区別は文章に記載なし（外形図に表裏の図あり）",
+      "color": "淡橙黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／性状 淡橙黄色／直径（mm）6.1／厚さ（mm）2.7／重量（mg）約84／本体表示 タダラフィル 2.5 ZA サワイ"
+    }
+  ]
+}

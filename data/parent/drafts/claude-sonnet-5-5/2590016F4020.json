@@ -1,0 +1,30 @@
+{
+  "id": "2590016F4020",
+  "source_file": "480235_2590016F3023_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590016F3023_3_07",
+  "extracted_at": "2026-11-06T17:17:47.924Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29519,
+    "output": 766
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィルOD錠5mgZA「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "タダラ ZA 5",
+      "imprint_back": "5 タダラフィル ZA OD トーワ",
+      "imprint_note": "割線入りの口腔内崩壊錠",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色の割線入りの口腔内崩壊錠 本体表示 表 タダラ ZA 5 裏 5 タダラフィル ZA OD トーワ 直径(mm) 7.5 厚さ(mm) 3.2"
+    }
+  ]
+}

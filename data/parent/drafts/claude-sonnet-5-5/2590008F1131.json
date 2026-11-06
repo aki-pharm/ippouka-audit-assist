@@ -1,0 +1,30 @@
+{
+  "id": "2590008F1131",
+  "source_file": "450064_2590008F1131_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2590008F1131_2_08",
+  "extracted_at": "2026-11-06T17:11:26.098Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16900,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タムスロシン塩酸塩OD錠0.1mg「CH」",
+      "strength": "0.1mg",
+      "imprint_front": "ch262",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード ch262。外形図には錠剤の表面・裏面・側面が示されているが、刻印の表裏の区別は本文に記載がない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の素錠 / 大きさ 直径 7.0mm 厚さ 3.4mm / 重量 120mg / 識別コード ch262"
+    }
+  ]
+}

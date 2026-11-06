@@ -1,0 +1,30 @@
+{
+  "id": "2478003F1031",
+  "source_file": "671450_2478003F1031_4_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2478003F1031_4_03",
+  "extracted_at": "2026-11-06T17:06:19.976Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11231,
+    "output": 226
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュファストン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "M17",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードM17は上面に表示。下面は割線のみ。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "デュファストン錠5mg M17 白色 素錠 直径 厚さ 重量 割線入り 7.0mm 2.6mm 130mg"
+    }
+  ]
+}

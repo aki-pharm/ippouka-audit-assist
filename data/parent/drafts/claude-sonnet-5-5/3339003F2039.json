@@ -1,0 +1,30 @@
+{
+  "id": "3339003F2039",
+  "source_file": "300119_3339003F1032_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3339003F1032_1_04",
+  "extracted_at": "2026-11-06T17:24:07.340Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 47892,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リバーロキサバン錠15mg「サワイ」",
+      "strength": "15mg",
+      "imprint_front": "リバーロキサバン 15 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は本文テキストでは確認できない（外形図は画像）。",
+      "color": "赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／性状 赤色／直径（mm） 6.1／厚さ（mm） 2.8／重量（mg） 約88／本体表示 リバーロキサバン 15 サワイ"
+    }
+  ]
+}

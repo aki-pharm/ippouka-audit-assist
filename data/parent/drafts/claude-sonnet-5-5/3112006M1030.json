@@ -1,0 +1,30 @@
+{
+  "id": "3112006M1030",
+  "source_file": "300119_3112006M1030_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3112006M1030_1_07",
+  "extracted_at": "2026-11-06T17:20:02.139Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23284,
+    "output": 708
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルデカルシトールカプセル0.5μg「サワイ」",
+      "strength": "0.5μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印・識別コードの記載なし。剤形は軟カプセル剤（錠剤ではない）。外形は図で円形。重量は約164mg",
+      "color": "茶白色不透明",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性　状 茶白色不透明 茶褐色透明 内容物：無色澄明のわずかに粘稠な液 直径（mm） 6.5"
+    }
+  ]
+}

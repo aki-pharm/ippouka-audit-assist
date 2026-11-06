@@ -1,0 +1,30 @@
+{
+  "id": "2459100F1197",
+  "source_file": "480235_2459100F1197_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2459100F1197_1_12",
+  "extracted_at": "2026-11-06T17:05:26.264Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18854,
+    "output": 300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタセレミン配合錠",
+      "strength": "1錠中 ベタメタゾン0.25mg・d-クロルフェニラミンマレイン酸塩2mg",
+      "imprint_front": "TwBS",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはTwBS。外形図では表に「Tw BS」の表示、裏は無地。割線の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 識別コード TwBS 外形 表 裏 側面 直径(mm) 7.0 厚さ(mm) 3.8 質量(mg) 150"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2478002F3056",
+  "source_file": "230124_2478002F3056_3_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_2478002F3056_3_10",
+  "extracted_at": "2026-11-06T17:06:17.267Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16618,
+    "output": 297
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヒスロンH錠200mg",
+      "strength": "200mg",
+      "imprint_front": "KH405",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは錠剤本体、PTPシートに表示。外形図（表面・裏面・側面）には表面にKH/405の表示が見られるが、裏面の刻印の記載は本文になし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 9.0 厚さ（mm） 3.5 重量（g） 0.23 色調 剤皮 白色 割線入り素錠 識別コード KH405（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

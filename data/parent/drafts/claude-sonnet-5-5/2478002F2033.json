@@ -1,0 +1,30 @@
+{
+  "id": "2478002F2033",
+  "source_file": "230124_2478002F2033_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_2478002F2033_1_15",
+  "extracted_at": "2026-11-06T17:06:08.317Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15243,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヒスロン錠5",
+      "strength": "5mg",
+      "imprint_front": "KH401",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは錠剤本体、PTPシートに表示。外形図の表面にKH/401の表示あり、裏面は無地",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.1,
+      "score_line": null,
+      "source_revision": "2024年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 7.1 厚さ（mm） 2.1 重量（g） 0.10 色調 剤皮 白色 素錠 識別コード KH401（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

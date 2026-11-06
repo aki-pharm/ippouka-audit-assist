@@ -1,0 +1,30 @@
+{
+  "id": "2590007F2338",
+  "source_file": "400278_2590007F1340_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2590007F1340_1_03",
+  "extracted_at": "2026-11-06T17:11:00.226Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20498,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピベリン塩酸塩錠 20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "Tu 202",
+      "imprint_back": "20",
+      "imprint_note": "外形の図には表面に「Tu 202」、裏面に「20」の表示があり、識別コード欄は「Tu 202」。形状は図からは円形と読み取れるが、文章での形の記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "プロピベリン塩酸塩錠 20mg「TCK」 白色 フィルムコーティング錠 Tu 202 7.1 3.1 125"
+    }
+  ]
+}

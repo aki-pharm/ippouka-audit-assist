@@ -1,0 +1,30 @@
+{
+  "id": "3339003F3035",
+  "source_file": "580591_3339003F3035_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3339003F3035_1_07",
+  "extracted_at": "2026-11-06T17:24:21.237Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 53454,
+    "output": 347
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リバーロキサバンOD錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "リバーロキサバンOD 10 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「リバーロキサバンOD 10 JG」と記載。表面・裏面のどちらに刻印されているかは本文テキストからは判別できない（図は表面・裏面・側面を表示）。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "リバーロキサバンOD錠10mg「JG」 白色～帯黄白色円形の口腔内崩壊錠 表面 裏面 側面 リバーロキサバンOD 10 JG 直径7.0mm 厚さ3.1mm 重量120mg"
+    }
+  ]
+}

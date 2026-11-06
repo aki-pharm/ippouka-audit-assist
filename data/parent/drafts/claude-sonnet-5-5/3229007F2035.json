@@ -1,0 +1,30 @@
+{
+  "id": "3229007F2035",
+  "source_file": "480866_3229007C1032_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_3229007C1032_3_04",
+  "extracted_at": "2026-11-06T17:22:40.277Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13134,
+    "output": 1113
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グルコンサンK錠5mEq",
+      "strength": "5mEq",
+      "imprint_front": "KY02",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（包装コード）KY02。外形図では表面に割線を挟んで「KY|02」と表示。外形図は表裏が1つにまとめて示されており、裏面の刻印は読み取れない。外形が円形か否かは文章で明記されていないため、形と短径は未確認",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 19.2,
+      "size_short_mm": null,
+      "thickness_mm": 7.8,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色・フィルムコーティング錠 両面割線入り／直径19.2（mm）／厚さ7.8（mm）／識別コード（包装コード）KY02（KY02）"
+    }
+  ]
+}

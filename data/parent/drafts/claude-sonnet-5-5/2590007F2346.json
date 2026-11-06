@@ -1,0 +1,30 @@
+{
+  "id": "2590007F2346",
+  "source_file": "581120_2590007F1358_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590007F1358_1_03",
+  "extracted_at": "2026-11-06T17:11:07.740Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17988,
+    "output": 914
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピベリン塩酸塩錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "HYZ18",
+      "imprint_back": "未確認",
+      "imprint_note": "本文の識別コードは「（PTP）」と記載されている。錠剤本体への印字は本文に記載がない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の扁平球状のフィルムコート錠 直径 7.2mm 厚さ 3.1mm 質量 約125mg 識別コード（PTP） HYZ18"
+    }
+  ]
+}

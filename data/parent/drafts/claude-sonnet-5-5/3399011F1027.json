@@ -1,0 +1,30 @@
+{
+  "id": "3399011F1027",
+  "source_file": "670227_3399011F1027_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_3399011F1027_1_13",
+  "extracted_at": "2026-11-06T17:29:18.829Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30434,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブリリンタ錠60mg",
+      "strength": "60mg",
+      "imprint_front": "60T",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「60T」（表面に印字。裏面の識別コードの記載はなし）",
+      "color": "ごくうすい黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄みの赤色の円形のフィルムコーティング錠 ／ 直径 約8.1mm ／ 厚さ 約3.8mm ／ 重量 約0.21g ／ 識別コード 60T"
+    }
+  ]
+}

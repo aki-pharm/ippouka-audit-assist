@@ -1,0 +1,30 @@
+{
+  "id": "3399008F2072",
+  "source_file": "580591_3399008F1076_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3399008F1076_1_16",
+  "extracted_at": "2026-11-06T17:27:27.791Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32020,
+    "output": 320
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠75mg「JG」",
+      "strength": "75mg",
+      "imprint_front": "クロピドグレル 75 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に「クロピドグレル 75 JG」と記載。表面・裏面それぞれの表示内訳は文字では明記されていない（外形図のみ）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠75mg「JG」 白色～微黄白色のフィルムコーティング錠 表面 裏面 側面 クロピドグレル 75 JG 直径 8.1mm 厚さ 4.0mm 重量 230mg"
+    }
+  ]
+}

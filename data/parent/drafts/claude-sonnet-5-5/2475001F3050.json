@@ -1,0 +1,30 @@
+{
+  "id": "2475001F3050",
+  "source_file": "470007_2475001F3050_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2475001F3050_1_18",
+  "extracted_at": "2026-11-06T17:05:44.683Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14862,
+    "output": 249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ホーリン錠1mg",
+      "strength": "1mg",
+      "imprint_front": "TZ266",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード TZ266（表面に「TZ 266」の2段表示）。裏面に割線あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の素錠（割線入り） 外形 表 側面 裏 直径8.0mm 厚さ3.1mm 質量200mg 識別コード TZ266"
+    }
+  ]
+}

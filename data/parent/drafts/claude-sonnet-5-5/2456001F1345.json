@@ -1,0 +1,30 @@
+{
+  "id": "2456001F1345",
+  "source_file": "100898_2456001F1345_2_30.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2456001F1345_2_30",
+  "extracted_at": "2026-11-06T17:04:55.887Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23937,
+    "output": 243
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレドニゾロン錠5mg（旭化成）",
+      "strength": "5mg",
+      "imprint_front": "261",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄に社名マークと「261」が記載されている。割線は片面のみ。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の円形片面割線入りの素錠／大きさ 直径7.7mm、厚さ2.5mm／識別コード 261"
+    }
+  ]
+}

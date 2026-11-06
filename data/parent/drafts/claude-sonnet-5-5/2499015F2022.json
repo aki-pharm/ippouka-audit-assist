@@ -1,0 +1,30 @@
+{
+  "id": "2499015F2022",
+  "source_file": "870276_2499015F1026_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/870276_2499015F1026_1_06",
+  "extracted_at": "2026-11-06T17:09:45.058Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23038,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イスツリサ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「5」。外形欄に表面・裏面・側面の図あり（裏面の刻印の有無は本文に記載なし）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠 / 識別コード 5 / 大きさ（約）直径：7.1mm 厚さ：2.8mm 質量：118.0mg"
+    }
+  ]
+}

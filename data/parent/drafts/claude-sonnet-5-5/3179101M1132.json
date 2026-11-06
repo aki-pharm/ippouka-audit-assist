@@ -1,0 +1,30 @@
+{
+  "id": "3179101M1132",
+  "source_file": "460028_3179101M1132_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3179101M1132_1_03",
+  "extracted_at": "2026-11-06T17:21:52.925Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8510,
+    "output": 343
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジアイナ配合カプセル",
+      "strength": "1カプセル（チアミンジスルフィド10mg/ピリドキシン塩酸塩25mg/シアノコバラミン0.25mg）",
+      "imprint_front": "TSU260",
+      "imprint_back": "TSU260",
+      "imprint_note": "識別コード TSU260。外形図ではカプセルの頭部・胴部それぞれに表示されている。",
+      "color": "頭部赤色不透明、胴部肌色不透明",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 5.7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色調 頭部赤色不透明 胴部肌色不透明 大きさ 長径 約15.5mm 短径 約5.7mm 質量 約300mg 識別コード TSU260 号数 3号"
+    }
+  ]
+}

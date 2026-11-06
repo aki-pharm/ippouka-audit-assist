@@ -1,0 +1,30 @@
+{
+  "id": "2590008F1093",
+  "source_file": "780009_2590008F1093_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2590008F1093_1_07",
+  "extracted_at": "2026-11-06T17:11:22.729Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16287,
+    "output": 813
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タムスロシン塩酸塩OD錠0.1mg「明治」",
+      "strength": "0.1mg",
+      "imprint_front": "MS 011",
+      "imprint_back": "0.1",
+      "imprint_note": "刻印は外形図から判読（表：MS 011、裏：0.1）。性状欄の文章には刻印の記載なし。割線は文章に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "タムスロシン塩酸塩OD錠0.1mg「明治」 素錠 白色 直径（mm）7.0 厚さ（mm）3.4 重量（mg）120"
+    }
+  ]
+}

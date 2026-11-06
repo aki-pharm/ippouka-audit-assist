@@ -1,0 +1,30 @@
+{
+  "id": "3399002F3020",
+  "source_file": "180078_3399002F3020_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_3399002F3020_1_11",
+  "extracted_at": "2026-11-06T17:25:20.664Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23498,
+    "output": 211
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレタールOD錠50mg",
+      "strength": "50mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「－」。外形図には社名マーク様の表示あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年2月改訂(第3版)",
+      "source_page": 1,
+      "source_quote": "プレタールOD錠50mg 白色の素錠 7.0 2.8 約125 －"
+    }
+  ]
+}

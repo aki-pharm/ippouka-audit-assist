@@ -1,0 +1,30 @@
+{
+  "id": "2590008F1077",
+  "source_file": "530169_2590008F1077_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590008F1077_1_06",
+  "extracted_at": "2026-11-06T17:11:20.200Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15485,
+    "output": 993
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タムスロシン塩酸塩OD錠0.1mg「日医工」",
+      "strength": "0.1mg",
+      "imprint_front": "701",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マークと701の表示あり。本体コード701、包装コード701。裏面は図に刻印の表示なし（文章での明記なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 色調 白色 直径（mm） 7.0 厚さ（mm） 3.4 質量（mg） 120 本体コード 701 包装コード 701"
+    }
+  ]
+}

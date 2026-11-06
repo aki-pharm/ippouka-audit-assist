@@ -1,0 +1,30 @@
+{
+  "id": "3119001M1020",
+  "source_file": "431010_3119001M1020_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_3119001M1020_3_04",
+  "extracted_at": "2026-11-06T17:20:18.651Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15975,
+    "output": 336
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チガソン カプセル10",
+      "strength": "10mg",
+      "imprint_front": "TIGASON10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：TIGASON10。外形の図にはカプセルへの表示（TIGASON 10、TYP）が描かれているが、表裏の別は本文に記載なし。剤形は硬カプセル（4号）",
+      "color": "キャップ：淡赤褐色、ボディー：淡赤白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 チガソン カプセル10 色 キャップ 淡赤褐色 ボディー 淡赤白色 剤形 硬カプセル（4号） 質量 約103.0mg 識別コード TIGASON10"
+    }
+  ]
+}

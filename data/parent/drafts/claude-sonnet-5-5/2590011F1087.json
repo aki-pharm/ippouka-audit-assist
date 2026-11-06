@@ -1,0 +1,30 @@
+{
+  "id": "2590011F1087",
+  "source_file": "530169_2590011F1087_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590011F1087_1_02",
+  "extracted_at": "2026-11-06T17:14:08.364Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20588,
+    "output": 831
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩錠2.5mg「日医工」",
+      "strength": "2.5mg",
+      "imprint_front": "n496",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード n496、包装コードは添付文書に記載あり。裏面は図のみで文字による記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2021年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径（mm） 6.1 厚さ（mm） 2.7 質量（g） 0.077 本体コード n496 包装コード n496"
+    }
+  ]
+}

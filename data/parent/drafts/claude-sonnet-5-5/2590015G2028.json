@@ -1,0 +1,30 @@
+{
+  "id": "2590015G2028",
+  "source_file": "672212_2590015G1021_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2590015G1021_2_05",
+  "extracted_at": "2026-11-06T17:16:17.734Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30950,
+    "output": 765
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トビエース錠8mg",
+      "strength": "8mg",
+      "imprint_front": "FT",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の上面に「FT」の表示あり。側面の表示は文章では確認できない。",
+      "color": "青色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "トビエース錠 8mg FT 青色 徐放錠（3.2 製剤の性状 外形（mm）上面 13×6.5、側面 4.8）"
+    }
+  ]
+}

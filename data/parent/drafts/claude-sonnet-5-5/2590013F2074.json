@@ -1,0 +1,46 @@
+{
+  "id": "2590013F2074",
+  "source_file": "480209_2590013F1060_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590013F1060_1_04",
+  "extracted_at": "2026-11-06T17:15:41.406Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22645,
+    "output": 558
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダフェナシン錠0.1mg「杏林」",
+      "strength": "0.1mg",
+      "imprint_front": "KRM274",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：KRM274（外形図には表面の印字のみ。裏面の記載なし）",
+      "color": "淡赤色～淡赤褐色又は淡赤紫色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 淡赤色～淡赤褐色又は淡赤紫色／外形 直径：7.1mm 厚さ：3.5mm 質量：約140mg／識別コード KRM274"
+    },
+    {
+      "product_name": "イミダフェナシンOD錠0.1mg「杏林」",
+      "strength": "0.1mg",
+      "imprint_front": "KRM275",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：KRM275（外形図には表面の印字のみ。裏面の記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／色調 白色／外形 直径：7.6mm 厚さ：4.1mm 質量：約180mg／識別コード KRM275"
+    }
+  ]
+}

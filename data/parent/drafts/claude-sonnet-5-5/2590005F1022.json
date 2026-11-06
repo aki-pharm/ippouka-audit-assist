@@ -1,0 +1,30 @@
+{
+  "id": "2590005F1022",
+  "source_file": "450900_2590005F1022_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_2590005F1022_3_01",
+  "extracted_at": "2026-11-06T17:10:14.057Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13027,
+    "output": 263
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ポラキス錠2",
+      "strength": "2mg",
+      "imprint_front": "2 KL600",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「2 KL600」（外形図では表面に表示）。裏面の刻印の記載は添付文書の表にはなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色割線入り素錠 / 直径（mm）8.1 / 厚さ（mm）3.4 / 重量（mg）178 / 識別コード 2 KL600"
+    }
+  ]
+}

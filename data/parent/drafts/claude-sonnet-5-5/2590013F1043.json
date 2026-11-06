@@ -1,0 +1,46 @@
+{
+  "id": "2590013F1043",
+  "source_file": "450064_2590013F1043_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2590013F1043_1_03",
+  "extracted_at": "2026-11-06T17:15:13.275Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26524,
+    "output": 1039
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダフェナシン錠0.1mg「JG」",
+      "strength": "0.1mg",
+      "imprint_front": "イミダフェナシン 0.1 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は文章では記載なし",
+      "color": "淡赤色～淡赤褐色又は淡赤紫色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 淡赤色～淡赤褐色又は淡赤紫色のフィルムコーティング錠／大きさ 直径 7.2mm、厚さ 3.4mm／重量 138mg／本体表示 イミダフェナシン 0.1 JG"
+    },
+    {
+      "product_name": "イミダフェナシンOD錠0.1mg「JG」",
+      "strength": "0.1mg",
+      "imprint_front": "イミダフェナシンOD 0.1 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は文章では記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の素錠／大きさ 直径 7.6mm、厚さ 3.8mm／重量 160mg／本体表示 イミダフェナシンOD 0.1 JG"
+    }
+  ]
+}

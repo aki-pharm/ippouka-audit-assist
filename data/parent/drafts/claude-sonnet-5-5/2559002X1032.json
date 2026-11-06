@@ -1,0 +1,30 @@
+{
+  "id": "2559002X1032",
+  "source_file": "480143_2559002X1032_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480143_2559002X1032_1_07",
+  "extracted_at": "2026-11-06T17:09:53.909Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8661,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヘモリンガル舌下錠0.18mg",
+      "strength": "0.18mg",
+      "imprint_front": "FS-H08",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードFS-H08は一次包装シートに記載（錠剤本体の刻印かは未確認）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の裸錠である。 大きさ 直径 6.0mm 厚さ 3.0mm 質量 約100mg 識別コード FS-H08（一次包装シートに記載）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2590011F2083",
+  "source_file": "530169_2590011F1087_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590011F1087_1_02",
+  "extracted_at": "2026-11-06T17:14:26.517Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20586,
+    "output": 914
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "n497",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード n497（表面）。包装コードは「497 n」（PTPシート等の表示で、錠剤本体の刻印としては扱わない）。裏面は図のみで、文言による記載なし。",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2021年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 ごくうすい黄色 直径（mm）7.6 厚さ（mm）3.5 質量（g）0.154 本体コード n497 包装コード 497 n"
+    }
+  ]
+}

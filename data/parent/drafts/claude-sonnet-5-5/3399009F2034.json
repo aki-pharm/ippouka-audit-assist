@@ -1,0 +1,30 @@
+{
+  "id": "3399009F2034",
+  "source_file": "430773_3399009F3030_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3399009F3030_1_04",
+  "extracted_at": "2026-11-06T17:28:50.273Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31845,
+    "output": 697
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラスグレル錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄に表裏の図が掲載されているが、刻印・識別コードの文字は本文に記載がなく読み取れないため未確認",
+      "color": "微黄赤色",
+      "shape": "oval",
+      "size_long_mm": 8.7,
+      "size_short_mm": 4.7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "プラスグレル錠5mg「DSEP」 フィルムコーティング錠（楕円形・割線入） 微黄赤色 8.7（長径）4.7（短径） 約2.9 約107.5"
+    }
+  ]
+}

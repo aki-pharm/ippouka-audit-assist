@@ -1,0 +1,30 @@
+{
+  "id": "3399003F1120",
+  "source_file": "340409_3399003F1120_4_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_3399003F1120_4_03",
+  "extracted_at": "2026-11-06T17:25:38.579Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13784,
+    "output": 314
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リマプロストアルファデクス錠5μg「SN」",
+      "strength": "5μg",
+      "imprint_front": "LS",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「LS（錠剤）」「ZFP（PTP）」と記載。ZFPはPTP包装の識別コード。外形の図では表面にLSの刻印、裏面は刻印の記載なし（図は円形のみ）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 外形 表 裏 側面 直径 6.0mm 厚さ 2.4mm 重量 90mg 識別コード LS（錠剤） ZFP（PTP）"
+    }
+  ]
+}

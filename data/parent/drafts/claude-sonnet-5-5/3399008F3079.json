@@ -1,0 +1,30 @@
+{
+  "id": "3399008F3079",
+  "source_file": "400186_3399008F1319_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3399008F1319_1_18",
+  "extracted_at": "2026-11-06T17:28:31.863Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32584,
+    "output": 959
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠50mg「明治」",
+      "strength": "50mg",
+      "imprint_front": "クロピドグレル 50 明治",
+      "imprint_back": "クロピドグレル 50 明治",
+      "imprint_note": "外形図の表・裏に同じ表示（クロピドグレル 50 明治）。刻印か印字かの明記はなし。側面は表示なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠50mg「明治」 フィルムコーティング錠 白色～微黄白色 直径(mm) 7.2 厚さ(mm) 3.4 重量(mg) 146"
+    }
+  ]
+}

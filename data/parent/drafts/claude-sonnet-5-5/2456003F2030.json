@@ -1,0 +1,30 @@
+{
+  "id": "2456003F2030",
+  "source_file": "672212_2456003F1034_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2456003F1034_3_06",
+  "extracted_at": "2026-11-06T17:05:10.741Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23239,
+    "output": 844
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メドロール錠4mg",
+      "strength": "4mg",
+      "imprint_front": "UPJOHN 56",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「UPJOHN 56」と記載。下面は割線のみ図示。素錠",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.2,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "メドロール錠4mg 4mg UPJOHN 56 白色 割線入り 素錠 長径 8.2mm 短径 5.6mm 厚さ 2.2mm 重量 100mg"
+    }
+  ]
+}

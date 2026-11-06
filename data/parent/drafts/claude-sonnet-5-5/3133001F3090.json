@@ -1,0 +1,30 @@
+{
+  "id": "3133001F3090",
+  "source_file": "530258_3133001B1193_4_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3133001B1193_4_03",
+  "extracted_at": "2026-11-06T17:20:53.346Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13184,
+    "output": 643
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パントシン錠100",
+      "strength": "100mg",
+      "imprint_front": "NF504",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "パントシン錠 100 白色～微黄白色・フィルムコーティング錠 NF504 直径8.1mm 厚さ4.5mm 質量213.2mg"
+    }
+  ]
+}

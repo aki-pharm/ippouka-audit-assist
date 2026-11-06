@@ -1,0 +1,30 @@
+{
+  "id": "3399008F2021",
+  "source_file": "780069_3399008F1025_1_31.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_3399008F1025_1_31",
+  "extracted_at": "2026-11-06T17:27:23.778Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30311,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラビックス錠75mg",
+      "strength": "75mg",
+      "imprint_front": "プラビックス75",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「プラビックス75」。表裏の区別は文書の文字情報からは確認できない（外形図あり）。割線の記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色 ･ 剤 形 白色～微黄白色・フィルムコーティング錠 外 形 直径（mm） 6.8 8.7 厚さ（mm） 3.7 4.9 重量（mg） 約120 約269 本体表示 プラビックス25 プラビックス75"
+    }
+  ]
+}

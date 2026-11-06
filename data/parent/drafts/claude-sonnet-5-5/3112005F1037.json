@@ -1,0 +1,30 @@
+{
+  "id": "3112005F1037",
+  "source_file": "400059_3112005F1037_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_3112005F1037_1_11",
+  "extracted_at": "2026-11-06T17:19:41.555Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16507,
+    "output": 241
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ホーネル錠0.15",
+      "strength": "0.15",
+      "imprint_front": "T 621",
+      "imprint_back": "0.15",
+      "imprint_note": "識別コード：T621。製剤の性状欄の図では上面にT/621、下面に0.15の表示あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2023年1月改訂",
+      "source_page": 1,
+      "source_quote": "ホーネル錠 0.15 T621 白色の素錠 ... 直径（mm）約 7 厚さ（mm）約 3.5 重量（mg）約 140"
+    }
+  ]
+}

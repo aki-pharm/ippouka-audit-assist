@@ -1,0 +1,30 @@
+{
+  "id": "3112006M2053",
+  "source_file": "480235_3112006M1057_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3112006M1057_1_02",
+  "extracted_at": "2026-11-06T17:20:12.219Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20549,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルデカルシトールカプセル0.75μg「トーワ」",
+      "strength": "0.75μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印・識別コードの記載なし",
+      "color": "茶褐色透明",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 軟カプセル 色調 茶白色不透明 茶褐色透明 外形（球形） 直径(mm) 約6.6 約6.6 質量(mg) 約164 約164"
+    }
+  ]
+}

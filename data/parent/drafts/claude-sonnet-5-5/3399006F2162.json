@@ -1,0 +1,30 @@
+{
+  "id": "3399006F2162",
+  "source_file": "180095_3399006F1166_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_3399006F1166_2_10",
+  "extracted_at": "2026-11-06T17:26:23.474Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13268,
+    "output": 330
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠100mg「オーハラ」",
+      "strength": "100mg",
+      "imprint_front": "サルポグレラート 100 オーハラ",
+      "imprint_back": "サルポグレラート 100 オーハラ",
+      "imprint_note": "識別コードとして「サルポグレラート 100 オーハラ」と記載。表面・裏面の刻印の別は本文に明記されておらず、外形図に表面・裏面の表示あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色 割線入りの円形のフィルムコーティング錠 直径：8.6mm 厚さ：4.2mm 質量 227.0mg 識別コード サルポグレラート 100 オーハラ"
+    }
+  ]
+}

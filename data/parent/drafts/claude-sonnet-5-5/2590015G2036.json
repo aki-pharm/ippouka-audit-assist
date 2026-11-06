@@ -1,0 +1,30 @@
+{
+  "id": "2590015G2036",
+  "source_file": "300119_2590015G1030_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590015G1030_1_01",
+  "extracted_at": "2026-11-06T17:16:16.347Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29643,
+    "output": 344
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェソテロジンフマル酸塩徐放錠8mg「サワイ」",
+      "strength": "8mg",
+      "imprint_front": "フェソテロジン 8 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「フェソテロジン 8 サワイ」と記載。裏面の表示は文章中に明記なし（外形図のみ）",
+      "color": "青色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 徐放性フィルムコーティング錠 / 性状 淡青色 青色 / 直径（mm） 13.1×6.6 13.1×6.6 / 厚さ（mm） 4.8 4.9 / 本体表示 フェソテロジン 4 サワイ フェソテロジン 8 サワイ"
+    }
+  ]
+}

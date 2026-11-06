@@ -1,0 +1,30 @@
+{
+  "id": "3399004M1336",
+  "source_file": "780075_3399004M1336_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_3399004M1336_1_10",
+  "extracted_at": "2026-11-06T17:25:44.416Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14884,
+    "output": 307
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イコサペント酸エチルカプセル300mg「サワイ」",
+      "strength": "300mg",
+      "imprint_front": "SW-365",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに表示。カプセル本体への刻印の記載は未確認。剤形は軟カプセル剤",
+      "color": "淡黄色透明",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": 6.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 軟カプセル剤 性状 淡黄色透明 内容物：無色～微黄色の澄明な液体 長径（mm） 17.8 短径（mm） 6.5 重量（mg） 約541 識別コード SW-365（PTPに表示）"
+    }
+  ]
+}

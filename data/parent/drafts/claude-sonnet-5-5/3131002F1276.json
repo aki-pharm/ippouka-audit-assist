@@ -1,0 +1,30 @@
+{
+  "id": "3131002F1276",
+  "source_file": "530100_3131002F1276_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3131002F1276_2_01",
+  "extracted_at": "2026-11-06T17:20:46.501Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8218,
+    "output": 961
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハイボン錠 20mg",
+      "strength": "20mg",
+      "imprint_front": "HIBON",
+      "imprint_back": "HIBON",
+      "imprint_note": "刻印の文字は本文には記載がなく、外形図（表・裏）の表示から読み取った。割線の記載はない。形状（楕円形）も外形図から判断。",
+      "color": "黄色～淡褐黄色",
+      "shape": "oval",
+      "size_long_mm": 10.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ハイボン錠 20mg　黄色～淡褐黄色の素錠　（長径）10.5　（短径）5.5　厚さ 約 3.5　重量 188"
+    }
+  ]
+}

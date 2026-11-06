@@ -1,0 +1,30 @@
+{
+  "id": "2590011F2024",
+  "source_file": "800126_2590011F1028_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590011F1028_1_13",
+  "extracted_at": "2026-11-06T17:14:07.476Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22058,
+    "output": 666
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベシケア錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形・大きさ・重量の表には表・裏・側面の図があるが、刻印の文字は本文テキストに記載がないため未確認",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ベシケア錠5mg フィルムコーティング錠 ごくうすい黄色 直径7.6mm 厚さ3.5mm 重量0.154g"
+    }
+  ]
+}

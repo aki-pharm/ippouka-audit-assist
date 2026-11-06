@@ -1,0 +1,30 @@
+{
+  "id": "2590018F1020",
+  "source_file": "671450_2590018F1020_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2590018F1020_1_05",
+  "extracted_at": "2026-11-06T17:18:10.690Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24536,
+    "output": 886
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バイアグラ錠25mg",
+      "strength": "25mg",
+      "imprint_front": "VIAGRA",
+      "imprint_back": "VGR 25",
+      "imprint_note": "識別コード欄に「VIAGRA VGR 25」と記載。表裏の振り分けは外形図の表記順（左がVIAGRA、右がVGR 25）による。",
+      "color": "青色",
+      "shape": "other",
+      "size_long_mm": 9.3,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "バイアグラ錠25mg　VIAGRA VGR 25　青色 フィルムコート錠（外形図：6.8、9.3、厚さ3.4）"
+    }
+  ]
+}

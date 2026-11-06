@@ -1,0 +1,30 @@
+{
+  "id": "3339003F3027",
+  "source_file": "630004_3339003F3027_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_3339003F3027_1_11",
+  "extracted_at": "2026-11-06T17:24:20.317Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 51889,
+    "output": 715
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イグザレルトOD錠10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄に刻印・識別コードの文字での記載なし。外形は図のみで、文章からは刻印内容を確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第11版）",
+      "source_page": 1,
+      "source_quote": "販売名 イグザレルトOD錠10mg／剤形 素錠（口腔内崩壊錠）／色調 白色／外形（図）／直径 7.0mm／厚さ 3.2mm／質量 120mg"
+    }
+  ]
+}

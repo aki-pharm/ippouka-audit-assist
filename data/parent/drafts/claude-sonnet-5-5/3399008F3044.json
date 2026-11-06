@@ -1,0 +1,30 @@
+{
+  "id": "3399008F3044",
+  "source_file": "400278_3399008F1130_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3399008F1130_1_18",
+  "extracted_at": "2026-11-06T17:28:28.033Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34586,
+    "output": 726
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠50mg「TCK」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄に刻印・識別コードの文章記載なし。外形図には印字があるように見えるが、文字は判読できず確定できない",
+      "color": "白色〜微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠50mg「TCK」 白色〜微黄白色 フィルムコーティング錠 8.1 4.2 220.6"
+    }
+  ]
+}

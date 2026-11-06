@@ -1,0 +1,46 @@
+{
+  "id": "2482009F1082",
+  "source_file": "480235_2482009F1082_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2482009F1082_1_10",
+  "extracted_at": "2026-11-06T17:06:58.136Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31887,
+    "output": 1267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フリウェル配合錠LD「トーワ」",
+      "strength": "1錠中 ノルエチステロン1mg・エチニルエストラジオール0.035mg",
+      "imprint_front": "フリウェル LD トーワ",
+      "imprint_back": "フリウェル LD トーワ",
+      "imprint_note": "本体表示の記載による。外形図では表・裏とも同じ表示が描かれている。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 本体表示 フリウェル LD トーワ 直径(mm) 6.6 厚さ(mm) 2.9 質量(mg) 103.5"
+    },
+    {
+      "product_name": "フリウェル配合錠ULD「トーワ」",
+      "strength": "1錠中 ノルエチステロン1mg・エチニルエストラジオール0.02mg",
+      "imprint_front": "フリウェル ULD トーワ",
+      "imprint_back": "フリウェル ULD トーワ",
+      "imprint_note": "本体表示の記載による。外形図では表・裏とも同じ表示が描かれている。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 本体表示 フリウェル ULD トーワ 直径(mm) 6.6 厚さ(mm) 2.9 質量(mg) 103.5"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2459100F1162",
+  "source_file": "400186_2459100F1162_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_2459100F1162_2_12",
+  "extracted_at": "2026-11-06T17:05:27.072Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18805,
+    "output": 1074
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレスタミン配合錠",
+      "strength": "1錠中 日局ベタメタゾン0.25mg、日局d-クロルフェニラミンマレイン酸塩2mg",
+      "imprint_front": "セレスタミン",
+      "imprint_back": "TTS 311",
+      "imprint_note": "識別コードは TTS-311。表面の「セレスタミン」は円で囲まれた印字で、画像から読み取った。重さは約0.19g。割線の記載はなし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.65,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "セレスタミン配合錠 白色の円形の素錠 表面 直径 約8.0mm、裏面 重さ 約0.19g、側面 厚さ 約3.65mm、識別コード TTS-311（裏面に TTS 311）"
+    }
+  ]
+}

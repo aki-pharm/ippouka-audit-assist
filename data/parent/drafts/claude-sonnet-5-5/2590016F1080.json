@@ -1,0 +1,30 @@
+{
+  "id": "2590016F1080",
+  "source_file": "530169_2590016F1080_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590016F1080_1_07",
+  "extracted_at": "2026-11-06T17:16:53.948Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29633,
+    "output": 1142
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠2.5mgZA「日医工」",
+      "strength": "2.5mg",
+      "imprint_front": "タダラフィル ZA 2.5 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「タダラフィル ZA 2.5 日医工」と記載。表裏それぞれの刻印内容は文章では区別されていないため、裏面は未確認とした。",
+      "color": "うすい赤みの黄色～ごくうすい赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 うすい赤みの黄色～ごくうすい赤みの黄色／直径（mm） 6.0／厚さ（mm） 2.8／質量（mg） 91／本体表示 タダラフィル ZA 2.5 日医工"
+    }
+  ]
+}

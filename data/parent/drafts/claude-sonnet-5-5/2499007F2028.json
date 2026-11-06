@@ -1,0 +1,30 @@
+{
+  "id": "2499007F2028",
+  "source_file": "400315_2499007F2028_3_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2499007F2028_3_11",
+  "extracted_at": "2026-11-06T17:07:58.244Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13936,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボンゾール錠200mg",
+      "strength": "200mg",
+      "imprint_front": "246",
+      "imprint_back": "246",
+      "imprint_note": "識別コード「246」。外形図には社名マークと246の表示あり。裏面の刻印は外形図上は表面と同じ表示で、文言では未記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 5,
+      "score_line": false,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・においはない・フィルムコーティング錠 外形 直径（mm）:8.6 厚さ（mm）:約 5.0 重量（mg）:250 識別コード 246"
+    }
+  ]
+}

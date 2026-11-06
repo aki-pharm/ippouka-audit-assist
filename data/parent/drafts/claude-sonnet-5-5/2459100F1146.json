@@ -1,0 +1,30 @@
+{
+  "id": "2459100F1146",
+  "source_file": "530169_2459100F1146_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2459100F1146_1_11",
+  "extracted_at": "2026-11-06T17:05:20.521Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18755,
+    "output": 759
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サクコルチン配合錠",
+      "strength": "1錠中 ベタメタゾン0.25mg、d-クロルフェニラミンマレイン酸塩2.0mg",
+      "imprint_front": "313",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図に社名マークらしき表示があり、本体コード・包装コードとも313。裏面の図には表示なし（文章での記載なし）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 直径（mm） 8.0 厚さ（mm） 3.4 質量（mg） 190 本体コード 313 包装コード 313"
+    }
+  ]
+}

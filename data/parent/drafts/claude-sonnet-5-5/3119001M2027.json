@@ -1,0 +1,30 @@
+{
+  "id": "3119001M2027",
+  "source_file": "431010_3119001M1020_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_3119001M1020_3_04",
+  "extracted_at": "2026-11-06T17:20:20.349Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15975,
+    "output": 823
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チガソン カプセル25",
+      "strength": "25mg",
+      "imprint_front": "TIGASON25",
+      "imprint_back": "未確認",
+      "imprint_note": "外形は図のみで、文字による記載なし。識別コードは「TIGASON25」。剤形は硬カプセル（2号）",
+      "color": "キャップ：淡赤褐色、ボディー：淡赤褐色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 チガソン カプセル25／色 キャップ 淡赤褐色、ボディー 淡赤褐色／剤形 硬カプセル（2号）／質量 約209.0mg／識別コード TIGASON25"
+    }
+  ]
+}

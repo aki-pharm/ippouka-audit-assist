@@ -1,0 +1,30 @@
+{
+  "id": "2590011F2032",
+  "source_file": "400278_2590011F1036_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2590011F1036_1_02",
+  "extracted_at": "2026-11-06T17:14:10.496Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23878,
+    "output": 711
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ソリフェナシンコハク酸塩錠5mg「TCK」 ごくうすい黄色 フィルムコーティング錠 直径7.6mm 厚さ3.5mm 重量154mg"
+    }
+  ]
+}

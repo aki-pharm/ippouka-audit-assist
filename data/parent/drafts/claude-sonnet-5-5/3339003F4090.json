@@ -1,0 +1,30 @@
+{
+  "id": "3339003F4090",
+  "source_file": "641522_3339003F3094_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/641522_3339003F3094_1_05",
+  "extracted_at": "2026-11-06T17:25:08.536Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 47826,
+    "output": 824
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リバーロキサバンOD錠15mg「バイエル」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは図のみで文字としての記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）、色調 白色、直径 8.5mm、厚さ 3.4mm、質量 180mg（リバーロキサバンOD錠15mg「バイエル」）"
+    }
+  ]
+}

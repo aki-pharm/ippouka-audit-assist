@@ -1,0 +1,30 @@
+{
+  "id": "2590011F4043",
+  "source_file": "300119_2590011F3047_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590011F3047_1_02",
+  "extracted_at": "2026-11-06T17:14:47.659Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23768,
+    "output": 343
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩OD錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "ソリフェナシン OD 5 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ソリフェナシン OD 5 サワイ」と記載。割線入り素錠（口腔内崩壊錠）。表裏の区別は文書中に記載なし。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 淡黄色 直径（mm） 7.5 厚さ（mm） 4.0 重量（mg） 約185 本体表示 ソリフェナシン OD 5 サワイ"
+    }
+  ]
+}

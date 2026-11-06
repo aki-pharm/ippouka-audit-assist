@@ -1,0 +1,30 @@
+{
+  "id": "3112006M1049",
+  "source_file": "530169_3112006M1049_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3112006M1049_1_06",
+  "extracted_at": "2026-11-06T17:20:04.275Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21721,
+    "output": 878
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルデカルシトールカプセル0.5μg「日医工」",
+      "strength": "0.5μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄に包装コード「208」（社名マーク付き）の記載あり。カプセル本体への刻印・印字としての記載は確認できない",
+      "color": "茶白色不透明",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "茶白色不透明の軟カプセル剤であり、内容物は無色澄明のわずかに粘稠な液である。（外形 直径(mm) 6.5、質量(mg) 164、包装コード 208）"
+    }
+  ]
+}

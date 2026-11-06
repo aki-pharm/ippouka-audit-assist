@@ -1,0 +1,30 @@
+{
+  "id": "2482011F2035",
+  "source_file": "641522_2482011F2035_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/641522_2482011F2035_1_02",
+  "extracted_at": "2026-11-06T17:07:20.769Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32589,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドロエチフレックス配合錠「バイエル」",
+      "strength": "1錠中ドロスピレノン3mg及びエチニルエストラジオール0.020mg",
+      "imprint_front": "Y（識別コードの図）",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に「Y」の囲み記号が表示されている。識別コード欄にも同じ記号が図示されている。文字としての記載はなく、図のみ。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡赤色 外形 直径 6mm 厚さ 2.90mm 質量 83.0mg 識別コード"
+    }
+  ]
+}

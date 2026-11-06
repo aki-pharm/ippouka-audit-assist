@@ -1,0 +1,30 @@
+{
+  "id": "2499010F2070",
+  "source_file": "670109_2499010F2070_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_2499010F2070_1_06",
+  "extracted_at": "2026-11-06T17:08:37.646Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23539,
+    "output": 306
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジエノゲストOD錠1mg「F」",
+      "strength": "1mg",
+      "imprint_front": "FJ 73",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「FJ73」。外形図には表裏に印字（表：FJ/73、裏：OD/1のような表示）が描かれているが、文章での刻印の表裏の記載はない。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のコーティング錠（口腔内崩壊錠）／大きさ 直径 6.6mm 厚さ 3.0mm 質量 104mg／識別コード FJ73"
+    }
+  ]
+}

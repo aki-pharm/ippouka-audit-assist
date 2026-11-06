@@ -1,0 +1,30 @@
+{
+  "id": "3399012F1021",
+  "source_file": "371336_3399012F1021_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/371336_3399012F1021_1_06",
+  "extracted_at": "2026-11-06T17:29:23.230Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29701,
+    "output": 247
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドプテレット錠20mg",
+      "strength": "20mg",
+      "imprint_front": "AVA",
+      "imprint_back": "20",
+      "imprint_note": "識別コード：AVA 20（表面にAVA、裏面に20の表示）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤型 淡黄色のフィルムコーティング錠 / 直径：約7.6mm 厚さ：約3.8mm 質量：約172mg / 識別コード AVA 20"
+    }
+  ]
+}

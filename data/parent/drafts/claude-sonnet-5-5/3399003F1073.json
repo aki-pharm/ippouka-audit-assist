@@ -1,0 +1,30 @@
+{
+  "id": "3399003F1073",
+  "source_file": "180188_3399003F1073_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_3399003F1073_1_13",
+  "extracted_at": "2026-11-06T17:25:41.638Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13816,
+    "output": 970
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オパルモン錠5μg",
+      "strength": "5μg",
+      "imprint_front": "ONO 201",
+      "imprint_back": "未確認",
+      "imprint_note": "表面にONOの社名マークと201の識別コード。裏面は図が無地で、文章による刻印の記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠／外形（表面・裏面・側面）／直径(mm) 6.5／厚さ(mm) 2.9／質量(mg) 約95／色調 白色／識別コード ONO 201"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2590011F1079",
+  "source_file": "480235_2590011F1079_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590011F1079_1_02",
+  "extracted_at": "2026-11-06T17:14:02.229Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21582,
+    "output": 326
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "ソリフェナシン 2.5 トーワ",
+      "imprint_back": "ソリフェナシン 2.5 トーワ",
+      "imprint_note": "本体表示は表・裏ともに「ソリフェナシン 2.5 トーワ」と記載。外形図の表・裏に印字あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠　本体表示（表・裏）ソリフェナシン 2.5 トーワ　直径(mm) 6.1　厚さ(mm) 2.7　質量(mg) 83"
+    }
+  ]
+}

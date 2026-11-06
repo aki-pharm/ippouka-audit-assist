@@ -1,0 +1,30 @@
+{
+  "id": "3133001F1110",
+  "source_file": "530258_3133001B1193_4_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3133001B1193_4_03",
+  "extracted_at": "2026-11-06T17:20:44.690Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13184,
+    "output": 680
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パントシン錠30",
+      "strength": "30mg",
+      "imprint_front": "NF502",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード NF502（表裏の別は添付文書本文に記載なし）",
+      "color": "うすいだいだい～だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "パントシン錠 30 うすいだいだい～だいだい色・フィルムコーティング錠 NF502 6.8 3.5 111.1"
+    }
+  ]
+}

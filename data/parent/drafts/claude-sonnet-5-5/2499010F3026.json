@@ -1,0 +1,30 @@
+{
+  "id": "2499010F3026",
+  "source_file": "790005_2499010F3026_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_2499010F3026_1_04",
+  "extracted_at": "2026-11-06T17:08:44.316Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19218,
+    "output": 851
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ディナゲスト錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "MO237",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図では表面に「MO 237」の表示。裏面は添付文書に文字での記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 外形（mm）（外形図 6.6、2.9）重量（mg）106 識別コード MO237"
+    }
+  ]
+}

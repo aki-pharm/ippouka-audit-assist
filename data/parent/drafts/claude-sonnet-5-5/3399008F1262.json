@@ -1,0 +1,30 @@
+{
+  "id": "3399008F1262",
+  "source_file": "480235_3399008F1262_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399008F1262_1_12",
+  "extracted_at": "2026-11-06T17:27:23.772Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31369,
+    "output": 1004
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "クロピドグレル 25 トーワ",
+      "imprint_back": "クロピドグレル 25 トーワ",
+      "imprint_note": "本体表示の欄は表・裏で1つにまとめて記載されているため、表裏とも同じ表示として転記。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 / 本体表示 表・裏 クロピドグレル 25 トーワ / 直径(mm) 5.7 / 厚さ(mm) 2.8 / 質量(mg) 78"
+    }
+  ]
+}

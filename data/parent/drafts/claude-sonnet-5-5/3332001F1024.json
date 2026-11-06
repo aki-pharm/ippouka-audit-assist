@@ -1,0 +1,30 @@
+{
+  "id": "3332001F1024",
+  "source_file": "300119_3332001D1023_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3332001D1023_2_01",
+  "extracted_at": "2026-11-06T17:23:18.369Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32138,
+    "output": 990
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワーファリン錠1mg",
+      "strength": "1mg",
+      "imprint_front": "256",
+      "imprint_back": "1",
+      "imprint_note": "識別コードは本文では「256」。外形図の表側には「ε256」様の表示があり、裏側には「1」の表示がある（外形図から確認）。割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ワーファリン錠1mg：剤形 素錠（割線入り）、識別コード 256、直径（mm）8.1、質量（mg）190、厚さ（mm）3.1、色 白色"
+    }
+  ]
+}

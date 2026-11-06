@@ -1,0 +1,30 @@
+{
+  "id": "2478002F1070",
+  "source_file": "672212_2478002F1070_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2478002F1070_3_05",
+  "extracted_at": "2026-11-06T17:06:02.222Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9748,
+    "output": 700
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロベラ錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄の上面の図に丸で囲んだ「U」状の表示があるが、文章では刻印の記載なし。下面の図は割線。",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "だいだい色・割線入り 素錠 直径 6.5mm 厚さ 2.6mm 質量 99mg"
+    }
+  ]
+}

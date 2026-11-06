@@ -1,0 +1,30 @@
+{
+  "id": "3339003F3086",
+  "source_file": "530100_3339003F3086_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3339003F3086_1_04",
+  "extracted_at": "2026-11-06T17:24:42.639Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 56726,
+    "output": 468
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リバーロキサバンOD錠10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色の円形の素錠（口腔内崩壊錠） 直径7.1mm 厚さ3.4mm 重量120mg"
+    }
+  ]
+}

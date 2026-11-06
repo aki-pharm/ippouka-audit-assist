@@ -1,0 +1,30 @@
+{
+  "id": "3112001M4266",
+  "source_file": "650208_3112001M4266_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_3112001M4266_1_05",
+  "extracted_at": "2026-11-06T17:19:29.995Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12849,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルファカルシドールカプセル 3μg「BMD」",
+      "strength": "3μg",
+      "imprint_front": "BMD24（PTP）",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに記載。本剤は軟カプセル剤（球形）。質量は約234mg",
+      "color": "淡橙色",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "本剤は淡橙色不透明の球形の軟カプセル剤である。内容物は無色～淡黄色澄明の油性液である。 色調 淡橙色 識別コード BMD24（PTP） 質量 約234mg"
+    }
+  ]
+}

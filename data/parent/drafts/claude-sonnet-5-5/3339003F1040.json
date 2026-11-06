@@ -1,0 +1,30 @@
+{
+  "id": "3339003F1040",
+  "source_file": "641522_3339003F1040_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/641522_3339003F1040_1_05",
+  "extracted_at": "2026-11-06T17:24:10.630Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 46798,
+    "output": 1144
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リバーロキサバン錠10mg「バイエル」",
+      "strength": "10mg",
+      "imprint_front": "C 10",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードの文字情報は本文テキストになく、外形・識別コード欄の図から読み取った（「C 10」とバイエルのクロスマーク）。クロスマークは社名マークのみ。表裏の別は図の並び順に基づく。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡赤色 直径 6mm 厚さ 2.8mm 質量 87.5mg（リバーロキサバン錠10mg「バイエル」）"
+    }
+  ]
+}

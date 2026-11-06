@@ -1,0 +1,30 @@
+{
+  "id": "3122007F3027",
+  "source_file": "400061_3122007F2039_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3122007F2039_2_07",
+  "extracted_at": "2026-11-06T17:20:34.489Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8949,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "50mgアリナミンF糖衣錠",
+      "strength": "50mg",
+      "imprint_front": "308",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「308」。図中には社名マークと「308/50」の表示があるが、表裏の区別は本文に記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色の糖衣錠 形　状 直径 厚さ 重量 8.5mm 4.7mm 250mg 9.2mm 4.9mm 320mg 識別コード 307 308"
+    }
+  ]
+}

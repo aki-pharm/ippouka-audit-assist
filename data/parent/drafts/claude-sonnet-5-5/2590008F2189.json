@@ -1,0 +1,30 @@
+{
+  "id": "2590008F2189",
+  "source_file": "470007_2590008F1182_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590008F1182_1_04",
+  "extracted_at": "2026-11-06T17:11:47.355Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16953,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タムスロシン塩酸塩OD錠0.2mg「あすか」",
+      "strength": "0.2mg",
+      "imprint_front": "AK279",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード AK279。表の刻印と裏の刻印の区別は文章から確認できない（外形図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色素錠 / 直径7.5mm　厚さ3.6mm　質量160mg / 識別コード AK279"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3399010F1022",
+  "source_file": "340018_3399010F1022_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_3399010F1022_1_06",
+  "extracted_at": "2026-11-06T17:29:16.510Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18076,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ムルプレタ錠 3mg",
+      "strength": "3mg",
+      "imprint_front": "551",
+      "imprint_back": "3",
+      "imprint_note": "表面に社名マーク（シオノギ）と551、裏面に3。識別コードは「（社名マーク）551：3」",
+      "color": "微赤色～淡赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第2版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "微赤色～淡赤色の円形のフィルムコーティング錠である。 大きさ 直径 約7.0mm 厚さ 約4.0mm 質量 約0.19g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3339002F6021",
+  "source_file": "430574_3339002F4029_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F4029_1_12",
+  "extracted_at": "2026-11-06T17:23:51.202Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43042,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リクシアナOD錠60mg",
+      "strength": "60mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印・識別コードの文字情報は本文に記載がなく、外形の図のみ（図中の文字は判読不能）",
+      "color": "微黄白色",
+      "shape": "oval",
+      "size_long_mm": 13.4,
+      "size_short_mm": 7,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "リクシアナOD錠60mg 素錠（口腔内崩壊錠）（楕円形・割線入） 微黄白色 13.4（長径）7.0（短径） 約4.7 約360"
+    }
+  ]
+}

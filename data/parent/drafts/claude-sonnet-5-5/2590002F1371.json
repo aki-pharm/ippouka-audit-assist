@@ -1,0 +1,30 @@
+{
+  "id": "2590002F1371",
+  "source_file": "530263_2590002F1371_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590002F1371_1_02",
+  "extracted_at": "2026-11-06T17:10:02.000Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9716,
+    "output": 249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブラダロン錠200mg",
+      "strength": "200mg",
+      "imprint_front": "217",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード217（社名マークと併記されている）。裏面の刻印は外形図上なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.9,
+      "score_line": false,
+      "source_revision": "2020年12月改訂",
+      "source_page": 1,
+      "source_quote": "製剤の色 淡黄色 形状 フィルムコーティング錠 識別コード 217 直径（mm） 9.1 厚さ（mm） 4.9 質量（mg） 256.5"
+    }
+  ]
+}

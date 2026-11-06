@@ -1,0 +1,30 @@
+{
+  "id": "2499010F1023",
+  "source_file": "790005_2499010F1023_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_2499010F1023_1_16",
+  "extracted_at": "2026-11-06T17:08:10.423Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20414,
+    "output": 832
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ディナゲスト錠1mg",
+      "strength": "1mg",
+      "imprint_front": "MO235",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 識別コード MO235"
+    }
+  ]
+}

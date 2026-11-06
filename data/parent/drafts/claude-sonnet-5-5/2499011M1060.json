@@ -1,0 +1,30 @@
+{
+  "id": "2499011M1060",
+  "source_file": "580591_2499011M1060_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2499011M1060_1_03",
+  "extracted_at": "2026-11-06T17:09:16.485Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19567,
+    "output": 578
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュタステリドカプセル0.5mgAV「JG」",
+      "strength": "0.5mg",
+      "imprint_front": "デュタステリド 0.5AV JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別の記載なし。剤形は軟カプセル剤で、重量336mg",
+      "color": "淡黄色不透明",
+      "shape": "oval",
+      "size_long_mm": 10.9,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡黄色不透明の楕円球形の軟カプセル剤 本体表示：デュタステリド 0.5AV JG 長径 10.9mm 短径 7.0mm 重量 336mg"
+    }
+  ]
+}

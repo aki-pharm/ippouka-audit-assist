@@ -1,0 +1,30 @@
+{
+  "id": "3339003F3060",
+  "source_file": "480235_3339003F3060_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3339003F3060_1_04",
+  "extracted_at": "2026-11-06T17:24:30.974Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 52042,
+    "output": 342
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リバーロキサバンOD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "リバーロキサバン 10 OD トーワ",
+      "imprint_back": "リバーロキサバン 10 OD トーワ",
+      "imprint_note": "本体表示として「リバーロキサバン 10 OD トーワ」と記載。表・裏の表示はそれぞれ図で示されており、表裏の個別の文字は文章では確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の口腔内崩壊錠 / 本体表示 リバーロキサバン 10 OD トーワ / 直径(mm) 6.0 / 厚さ(mm) 2.8 / 質量(mg) 86"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2900002F5274",
+  "source_file": "180078_2900002F4065_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_2900002F4065_1_08",
+  "extracted_at": "2026-11-06T17:18:43.531Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12204,
+    "output": 227
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハイゼット錠50mg",
+      "strength": "50mg",
+      "imprint_front": "OG01",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄にOG01と記載。表裏の区別は文章では記載なし（外形図に表示あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2022年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ハイゼット錠50mg 白色の糖衣錠 8.2 4.8 OG01"
+    }
+  ]
+}

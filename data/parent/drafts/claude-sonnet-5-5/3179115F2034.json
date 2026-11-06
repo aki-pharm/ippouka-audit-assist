@@ -1,0 +1,30 @@
+{
+  "id": "3179115F2034",
+  "source_file": "343018_3179115D1096_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_3179115D1096_2_03",
+  "extracted_at": "2026-11-06T17:22:08.715Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8682,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シナール配合錠",
+      "strength": "1錠中 アスコルビン酸200mg・パントテン酸カルシウム3mg",
+      "imprint_front": "438",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マーク（シオノギマーク）と識別コード438。識別コード欄は「（社名マーク）438」と記載。裏面の刻印の記載なし（図では無地）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の円形の素錠である。 直径 約10.0mm 厚さ 約4.7mm 質量 約0.5g 識別コード 438"
+    }
+  ]
+}

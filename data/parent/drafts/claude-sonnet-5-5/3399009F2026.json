@@ -1,0 +1,30 @@
+{
+  "id": "3399009F2026",
+  "source_file": "430574_3399009F1020_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3399009F1020_1_22",
+  "extracted_at": "2026-11-06T17:28:47.973Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29486,
+    "output": 738
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エフィエント錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状の表には外形の図が載っているが、刻印・識別コードは文章では記載されていないため未確認とした。",
+      "color": "微黄赤色",
+      "shape": "oval",
+      "size_long_mm": 8.7,
+      "size_short_mm": 4.7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "エフィエント錠5mg フィルムコーティング錠（楕円形・割線入） 微黄赤色 8.7（長径）4.7（短径） 約2.9 約107.5"
+    }
+  ]
+}

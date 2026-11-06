@@ -1,0 +1,30 @@
+{
+  "id": "2475001F3017",
+  "source_file": "670109_2475001F3084_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_2475001F3084_1_13",
+  "extracted_at": "2026-11-06T17:05:37.911Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17945,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エストリオール錠1mg「F」",
+      "strength": "1mg",
+      "imprint_front": "FJ 02",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：FJ02。外形図では表面に「FJ」「02」の刻印（割線を挟む）。裏面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・性状 白色の割線入り素錠 / 外形 FJ 02 / 大きさ 直径 8mm 厚さ 2.9mm 質量 200mg / 識別コード FJ02"
+    }
+  ]
+}

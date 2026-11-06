@@ -1,0 +1,30 @@
+{
+  "id": "2590016F2078",
+  "source_file": "270428_2590016F1071_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2590016F1071_1_06",
+  "extracted_at": "2026-11-06T17:17:29.480Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31132,
+    "output": 1022
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠5mgZA「サンド」",
+      "strength": "5mg",
+      "imprint_front": "STZ",
+      "imprint_back": "5",
+      "imprint_note": "錠剤の刻印は外形図（表：STZ、裏：5）から読み取り。本文の識別コード（PTP）は STZ5",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 9.9,
+      "size_short_mm": 6.2,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 大きさ 直径 長径9.9mm 短径6.2mm 厚さ 4.0mm 質量 180mg 識別コード（PTP） STZ5"
+    }
+  ]
+}

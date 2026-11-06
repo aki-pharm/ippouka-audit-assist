@@ -1,0 +1,30 @@
+{
+  "id": "2590009F3139",
+  "source_file": "530169_2590009F1144_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590009F1144_1_05",
+  "extracted_at": "2026-11-06T17:12:09.239Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13548,
+    "output": 893
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジル錠75mg「日医工」",
+      "strength": "75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：ナフトピジル 75 日医工、包装コード 242（表裏のどちらに表示されているかは文字情報からは未確認）",
+      "color": "黄白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.8,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠／色調 黄白色～淡黄色／直径（mm） 9.6／厚さ（mm） 4.8／本体表示 ナフトピジル 75 日医工／包装コード 242"
+    }
+  ]
+}

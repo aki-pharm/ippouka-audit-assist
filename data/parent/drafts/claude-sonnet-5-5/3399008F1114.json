@@ -1,0 +1,30 @@
+{
+  "id": "3399008F1114",
+  "source_file": "171950_3399008F1114_4_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_3399008F1114_4_01",
+  "extracted_at": "2026-11-06T17:26:53.325Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28301,
+    "output": 714
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「SANIK」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形の図でのみ示されており、本文には文字での記載がないため未確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠25mg「SANIK」 フィルムコーティング錠 白色～微黄白色 直径（mm）6.8 厚さ（mm）3.7 重量（mg）約120"
+    }
+  ]
+}

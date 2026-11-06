@@ -1,0 +1,30 @@
+{
+  "id": "3150002F2065",
+  "source_file": "460028_3150002D1068_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3150002D1068_1_04",
+  "extracted_at": "2026-11-06T17:21:25.478Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 6633,
+    "output": 251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トコフェロール酢酸エステル錠100mg「ツルハラ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印の記載なし。剤形は糖衣錠、質量は約500mg",
+      "color": "橙色",
+      "shape": null,
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠／色調 橙色／大きさ 直径 約10.5mm／厚さ 約6.5mm／質量 約500mg"
+    }
+  ]
+}

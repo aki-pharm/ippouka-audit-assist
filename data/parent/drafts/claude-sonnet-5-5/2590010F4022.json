@@ -1,0 +1,46 @@
+{
+  "id": "2590010F4022",
+  "source_file": "230034_2590010F1023_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2590010F1023_1_12",
+  "extracted_at": "2026-11-06T17:13:20.322Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25966,
+    "output": 1629
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユリーフ錠4mg",
+      "strength": "4mg",
+      "imprint_front": "なし",
+      "imprint_back": "KD 4",
+      "imprint_note": "表面は社名マークのみ。識別コード KD4 は裏面（割線の両側）。識別コード欄の表記は「KD4」",
+      "color": "白色～微黄白色",
+      "shape": null,
+      "size_long_mm": 11,
+      "size_short_mm": 6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 ユリーフ錠4mg 剤形 フィルムコート錠 割線入り 色調 白色～微黄白色 長径 11.0mm 短径 6.0mm 厚さ 約3.7mm 質量 約208mg 識別コード KD4"
+    },
+    {
+      "product_name": "ユリーフOD錠4mg",
+      "strength": "4mg",
+      "imprint_front": "なし",
+      "imprint_back": "UR 4",
+      "imprint_note": "表面は社名マークのみ。識別コード UR4 は裏面。識別コード欄の表記は「UR4」",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 ユリーフOD錠4mg 剤形 素錠（口腔内崩壊錠） 割線入り 色調 淡黄赤色 直径 8.0mm 厚さ 約3.8mm 質量 約200mg 識別コード UR4"
+    }
+  ]
+}

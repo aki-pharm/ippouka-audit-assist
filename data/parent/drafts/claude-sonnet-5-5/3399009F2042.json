@@ -1,0 +1,30 @@
+{
+  "id": "3399009F2042",
+  "source_file": "480235_3399009F1046_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399009F1046_1_04",
+  "extracted_at": "2026-11-06T17:28:50.055Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30162,
+    "output": 303
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラスグレル錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "プラスグレル 5 トーワ",
+      "imprint_back": "プラスグレル 5 トーワ",
+      "imprint_note": "本体表示は「プラスグレル 5 トーワ」。割線入り。表・裏とも同じ本体表示",
+      "color": "微黄赤色",
+      "shape": "oval",
+      "size_long_mm": 8.7,
+      "size_short_mm": 4.7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "微黄赤色の楕円形の割線入りのフィルムコーティング錠　本体表示 プラスグレル 5 トーワ　直径(mm) 8.7／4.7（長径／短径）　厚さ(mm) 約2.9"
+    }
+  ]
+}

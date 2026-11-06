@@ -1,0 +1,30 @@
+{
+  "id": "2499010F1112",
+  "source_file": "530100_2499010F1112_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2499010F1112_1_07",
+  "extracted_at": "2026-11-06T17:08:21.029Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25092,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジエノゲスト錠1mg「ニプロ」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "テキストでは刻印の記載なし。外形欄の図には表裏の識別表示らしきものがあるが、文字として読み取れず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ジエノゲスト錠1mg「ニプロ」 白色のフィルムコーティング錠 6.6 2.9 106"
+    }
+  ]
+}

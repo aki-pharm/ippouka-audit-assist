@@ -1,0 +1,30 @@
+{
+  "id": "2590011F4078",
+  "source_file": "530169_2590011F3071_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590011F3071_1_02",
+  "extracted_at": "2026-11-06T17:14:55.647Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21977,
+    "output": 338
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩OD錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "n499",
+      "imprint_back": "なし",
+      "imprint_note": "表面に本体コード n499、包装コード 499 の記載あり。裏面・側面の刻印の記載なし（外形図は無地の円形）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2021年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊錠 色調 白色 淡黄色 ／ 直径（mm） 約7.0 約7.5 ／ 厚さ（mm） 約3.8 約4.0 ／ 質量（g） 約0.13 約0.15 ／ 本体コード n498 n499 ／ 包装コード 498 499"
+    }
+  ]
+}

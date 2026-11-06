@@ -1,0 +1,30 @@
+{
+  "id": "2590016F1098",
+  "source_file": "530100_2590016F1098_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2590016F1098_1_08",
+  "extracted_at": "2026-11-06T17:16:58.168Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34852,
+    "output": 672
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠2.5mgZA「ニプロ」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤印字は2通りあると記載（外形図に印字あり、文字としての記載なし）",
+      "color": "淡橙黄色",
+      "shape": "other",
+      "size_long_mm": 8.7,
+      "size_short_mm": 5.4,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡橙黄色のティアドロップ形のフィルムコーティング錠 （長径）8.7 （短径）5.4 厚さ3.4 重量129.8 ／ 錠剤印字は2通りある。"
+    }
+  ]
+}

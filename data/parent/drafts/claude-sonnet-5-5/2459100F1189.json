@@ -1,0 +1,30 @@
+{
+  "id": "2459100F1189",
+  "source_file": "581120_2459100F1189_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2459100F1189_2_05",
+  "extracted_at": "2026-11-06T17:05:24.566Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18707,
+    "output": 297
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラデスミン配合錠",
+      "strength": "1錠中：ベタメタゾン 0.25mg、d-クロルフェニラミンマレイン酸塩 2mg",
+      "imprint_front": "BC",
+      "imprint_back": "なし",
+      "imprint_note": "外形の図に「BC」の表示あり。識別コード（PTP）は「t BC」。裏面の刻印は図・本文に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 外形 直径：8.0mm 厚さ：3.6mm 質量：190mg 識別コード（PTP） t BC"
+    }
+  ]
+}

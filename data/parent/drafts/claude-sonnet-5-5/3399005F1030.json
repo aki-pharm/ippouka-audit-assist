@@ -1,0 +1,30 @@
+{
+  "id": "3399005F1030",
+  "source_file": "200022_3399005F1030_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/200022_3399005F1030_1_21",
+  "extracted_at": "2026-11-06T17:25:51.751Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16635,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロサイリン錠20（ベラプロストナトリウム錠 20μg）",
+      "strength": "20μg",
+      "imprint_front": "KC32",
+      "imprint_back": "なし",
+      "imprint_note": "表面に「KC 32」の刻印（図示）。識別コード KC32。裏面は刻印の図示なし。",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色 白色～淡黄白色 形状 表 裏 側面 直径 6.2mm 厚さ 2.8mm 質量 83mg 識別コード KC32"
+    }
+  ]
+}

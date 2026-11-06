@@ -1,0 +1,30 @@
+{
+  "id": "2590011F3039",
+  "source_file": "580591_2590011F3039_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590011F3039_1_03",
+  "extracted_at": "2026-11-06T17:14:29.880Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24090,
+    "output": 341
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩OD錠2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "ソリフェナシン OD 2.5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ソリフェナシン OD 2.5 JG」と記載。表面・裏面のどちらの表示かは文書中の文字情報では区別されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ソリフェナシンコハク酸塩OD錠2.5mg「JG」 円形の白色の錠剤 表面 裏面 側面 ソリフェナシン OD 2.5 JG 直径 7.0mm 厚さ 3.4mm 重量 130mg"
+    }
+  ]
+}

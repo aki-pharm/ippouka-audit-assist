@@ -1,0 +1,30 @@
+{
+  "id": "3332001F1083",
+  "source_file": "480235_3332001F1083_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3332001F1083_1_22",
+  "extracted_at": "2026-11-06T17:23:13.866Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35017,
+    "output": 684
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワルファリンK錠1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "Tw532",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTw532。裏面は外形の図のみで、文字による記載がないため未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠／識別コード Tw532／直径(mm) 8.0／厚さ(mm) 2.7／質量(mg) 180"
+    }
+  ]
+}

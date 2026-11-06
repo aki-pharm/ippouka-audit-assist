@@ -1,0 +1,13 @@
+{
+  "id": "3112001M1011",
+  "source_file": "450045_3112001B4036_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112001B4036_1_07",
+  "extracted_at": "2026-11-06T17:19:09.417Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12498,
+    "output": 344
+  },
+  "status": "draft",
+  "products": []
+}

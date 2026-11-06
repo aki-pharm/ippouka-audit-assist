@@ -1,0 +1,30 @@
+{
+  "id": "3134002F1057",
+  "source_file": "670109_3134002F1057_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_3134002F1057_1_07",
+  "extracted_at": "2026-11-06T17:20:55.808Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8565,
+    "output": 249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビタミンB6錠30mg「F」",
+      "strength": "30mg",
+      "imprint_front": "FJTF",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「FJTF」と記載。表裏の区別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 片面に割線のある白色の円形素錠 / 大きさ 直径 7mm 厚さ 2.7mm 質量 130mg / 識別コード FJTF"
+    }
+  ]
+}

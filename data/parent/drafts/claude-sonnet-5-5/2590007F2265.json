@@ -1,0 +1,30 @@
+{
+  "id": "2590007F2265",
+  "source_file": "450064_2590007F1277_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2590007F1277_1_04",
+  "extracted_at": "2026-11-06T17:10:41.675Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18669,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピベリン塩酸塩錠20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "ch115",
+      "imprint_back": "20",
+      "imprint_note": "外形の図に「ch115」「20」の表示あり。表裏の区別は本文に明記なし。識別コード欄は ch115",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 / 大きさ 直径 7.1mm 厚さ 3.1mm / 重量 125mg / 識別コード ch115"
+    }
+  ]
+}

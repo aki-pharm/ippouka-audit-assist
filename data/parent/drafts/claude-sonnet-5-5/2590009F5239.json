@@ -1,0 +1,30 @@
+{
+  "id": "2590009F5239",
+  "source_file": "581120_2590009F4232_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590009F4232_1_03",
+  "extracted_at": "2026-11-06T17:12:33.148Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13920,
+    "output": 860
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジルOD錠75mg「NIG」",
+      "strength": "75mg",
+      "imprint_front": "TV NP3",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」としての記載。片面1/2割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り口腔内崩壊錠 / 直径 10.0mm / 厚さ 4.9mm / 識別コード（PTP） TV NP3"
+    }
+  ]
+}

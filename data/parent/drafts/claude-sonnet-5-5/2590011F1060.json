@@ -1,0 +1,30 @@
+{
+  "id": "2590011F1060",
+  "source_file": "460028_2590011F1060_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2590011F1060_1_02",
+  "extracted_at": "2026-11-06T17:13:59.667Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25453,
+    "output": 659
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩錠2.5mg「ツルハラ」",
+      "strength": "2.5mg",
+      "imprint_front": "323",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2021年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "剤型 白色のフィルムコーティング錠／大きさ 直径 6.1mm 厚さ 2.7mm 質量 77mg／識別記号 表：323、裏：2.5"
+    }
+  ]
+}

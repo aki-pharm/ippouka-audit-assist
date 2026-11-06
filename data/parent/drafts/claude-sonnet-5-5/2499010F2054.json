@@ -1,0 +1,30 @@
+{
+  "id": "2499010F2054",
+  "source_file": "340269_2499010F2054_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340269_2499010F2054_1_05",
+  "extracted_at": "2026-11-06T17:08:29.497Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21549,
+    "output": 338
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジエノゲストOD錠1mg「キッセイ」",
+      "strength": "1mg",
+      "imprint_front": "ジエノゲスト OD 1 キッセイ",
+      "imprint_back": "ジエノゲスト OD 1 キッセイ",
+      "imprint_note": "本体表示の欄に表・裏とも「ジエノゲスト OD 1 キッセイ」と記載（表と裏が共通の1行表示）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄色の口腔内崩壊錠 / 本体表示 表・裏 ジエノゲスト OD 1 キッセイ / 直径(mm) 6.5 / 厚さ(mm) 3.1 / 質量(mg) 112"
+    }
+  ]
+}

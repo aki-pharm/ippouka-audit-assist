@@ -1,0 +1,30 @@
+{
+  "id": "2590008F2081",
+  "source_file": "530113_2590008F1085_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2590008F1085_1_05",
+  "extracted_at": "2026-11-06T17:11:38.751Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16942,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タムスロシン塩酸塩OD錠0.2mg「日新」",
+      "strength": "0.2mg",
+      "imprint_front": "NS 537",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図には表面に「NS 537」の刻印、側面（厚み）の図が示されている。識別コード欄に「NS 537」と記載。裏面の刻印の記載は確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性　状 白色の素錠／大きさ 錠径：7.5mm 錠厚：3.6mm 重量：160mg／識別コード NS 537"
+    }
+  ]
+}

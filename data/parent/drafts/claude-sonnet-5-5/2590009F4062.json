@@ -1,0 +1,30 @@
+{
+  "id": "2590009F4062",
+  "source_file": "580591_2590009F4062_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590009F4062_1_04",
+  "extracted_at": "2026-11-06T17:12:17.273Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14681,
+    "output": 661
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジルOD錠50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "JG E84",
+      "imprint_back": "50",
+      "imprint_note": "識別コード欄の記載は「JG E84」。裏面の「50」は添付文書の外形図（裏面）で確認。割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 表面 裏面 側面 JG E84 直径 9.1mm 厚さ 3.4mm 重量 250mg"
+    }
+  ]
+}

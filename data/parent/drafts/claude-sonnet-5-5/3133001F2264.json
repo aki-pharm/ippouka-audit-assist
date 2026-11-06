@@ -1,0 +1,30 @@
+{
+  "id": "3133001F2264",
+  "source_file": "460028_3133001C1199_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3133001C1199_1_05",
+  "extracted_at": "2026-11-06T17:20:47.867Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10479,
+    "output": 225
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パンテチン錠60mg「ツルハラ」",
+      "strength": "60mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 色調 白色 / 大きさ 直径 約9.1mm / 厚さ 約4.9mm / 質量 約295mg"
+    }
+  ]
+}

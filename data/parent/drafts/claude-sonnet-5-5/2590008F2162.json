@@ -1,0 +1,30 @@
+{
+  "id": "2590008F2162",
+  "source_file": "480235_2590008F1166_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590008F1166_1_07",
+  "extracted_at": "2026-11-06T17:11:49.857Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16541,
+    "output": 848
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タムスロシン塩酸塩OD錠0.2mg「トーワ」",
+      "strength": "0.2mg",
+      "imprint_front": "Tw527",
+      "imprint_back": "0.2",
+      "imprint_note": "表の識別コードは本文の識別コード欄（Tw527）による。裏面の「0.2」は外形図から読み取った（本文には記載なし）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の円形の口腔内崩壊錠／識別コード Tw527／直径(mm) 8.5／厚さ(mm) 4.1／質量(mg) 226"
+    }
+  ]
+}

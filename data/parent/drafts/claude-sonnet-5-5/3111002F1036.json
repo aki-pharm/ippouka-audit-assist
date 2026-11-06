@@ -1,0 +1,30 @@
+{
+  "id": "3111002F1036",
+  "source_file": "530258_3111002F1036_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3111002F1036_3_02",
+  "extracted_at": "2026-11-06T17:18:54.664Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9653,
+    "output": 992
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チョコラA錠1万単位",
+      "strength": "1万単位（1錠中 ビタミンAとして10,000ビタミンA単位）",
+      "imprint_front": "ε301",
+      "imprint_back": "なし",
+      "imprint_note": "表面に識別コード301（図ではεマークと併記。テキスト上は301のみ）。裏面の図に刻印は見られない。質量450mg。",
+      "color": "チョコレート色",
+      "shape": "round",
+      "size_long_mm": 9.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 5.7,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "チョコラA錠1万単位 糖衣錠 チョコレート色 直径（mm）・質量（mg）・厚さ（mm） 301 9.7 450 5.7"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2590008N1233",
+  "source_file": "581120_2590008N1233_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590008N1233_1_03",
+  "extracted_at": "2026-11-06T17:11:54.816Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14648,
+    "output": 784
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タムスロシン塩酸塩カプセル0.1mg「NIG」",
+      "strength": "0.1mg",
+      "imprint_front": "t 526",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに記載（識別コード（PTP）t 526）。カプセル本体の刻印については本文に記載なし。剤形は錠剤ではなくカプセル剤",
+      "color": "蓋部ごくうすい黄色不透明、胴体部白色不透明、内容物が白色〜微黄白色の粒",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "蓋部ごくうすい黄色不透明、胴体部白色不透明、内容物が白色〜微黄白色の粒のカプセル剤／大きさ 4号カプセル／質量 122.8mg／識別コード（PTP） t 526"
+    }
+  ]
+}

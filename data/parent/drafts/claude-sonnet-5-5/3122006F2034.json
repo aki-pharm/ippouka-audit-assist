@@ -1,0 +1,30 @@
+{
+  "id": "3122006F2034",
+  "source_file": "530100_3122006F2034_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3122006F2034_3_01",
+  "extracted_at": "2026-11-06T17:20:25.281Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7785,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベストン糖衣錠（25mg）",
+      "strength": "25mg",
+      "imprint_front": "TA005",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：TA005（表面に印字、図では「TA 005」と表記）。裏面の刻印の記載はなく、外形図は無地",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.3,
+      "size_short_mm": 7.3,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ベストン糖衣錠（25mg） 白色の糖衣錠 直径7.3mm 厚さ3.8mm 重量162.1mg 識別コード TA005"
+    }
+  ]
+}

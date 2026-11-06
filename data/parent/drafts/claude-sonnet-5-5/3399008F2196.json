@@ -1,0 +1,30 @@
+{
+  "id": "3399008F2196",
+  "source_file": "530213_3399008F1190_2_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3399008F1190_2_13",
+  "extracted_at": "2026-11-06T17:27:44.260Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32144,
+    "output": 333
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠75mg「ケミファ」",
+      "strength": "75mg",
+      "imprint_front": "クロピドグレル 75 ケミファ",
+      "imprint_back": "クロピドグレル 75 ケミファ",
+      "imprint_note": "識別コード欄の記載は「クロピドグレル 75 ケミファ」。外形図の表・裏とも同様の印字が描かれている。割線の記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色のフィルムコーティング錠 ／ 直径 8.6mm ／ 厚さ 4.9mm ／ 重量 269mg ／ 識別コード クロピドグレル 75 ケミファ"
+    }
+  ]
+}

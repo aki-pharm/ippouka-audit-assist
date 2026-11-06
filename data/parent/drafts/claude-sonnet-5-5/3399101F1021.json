@@ -1,0 +1,30 @@
+{
+  "id": "3399101F1021",
+  "source_file": "780069_3399101F1021_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_3399101F1021_1_19",
+  "extracted_at": "2026-11-06T17:29:26.771Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38064,
+    "output": 317
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コンプラビン配合錠",
+      "strength": "1錠（クロピドグレル75mg・アスピリン100mg）",
+      "imprint_front": "コンプラビン",
+      "imprint_back": "コンプラビン",
+      "imprint_note": "本体表示：コンプラビン。外形図には円形の表裏2面と側面（厚みのある形）が描かれ、各面に「コンプラビン」の表示がある。割線の記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形（1錠中）白色～微黄白色・フィルムコーティング錠　外形　直径 11mm　厚さ 6mm　重量 約540mg　本体表示 コンプラビン"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2590008F1026",
+  "source_file": "800126_2590008F1026_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590008F1026_1_14",
+  "extracted_at": "2026-11-06T17:11:07.664Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13814,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハルナールD錠0.1mg",
+      "strength": "0.1mg",
+      "imprint_front": "HA0.1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「HA0.1」（社名マーク付き）。表裏の刻印の内訳は文章では記載がなく、図のみ。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ハルナールD錠0.1mg 口腔内崩壊錠 白色 表 裏 側面 HA0.1 直径 厚さ 重量 7.5mm 3.3mm 0.12g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2499010F2062",
+  "source_file": "480235_2499010F2062_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2499010F2062_1_05",
+  "extracted_at": "2026-11-06T17:08:36.998Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23198,
+    "output": 304
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジエノゲストOD錠1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "ジエノゲスト OD 1 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ジエノゲスト OD 1 トーワ」と記載。表裏の別は文章では明記されていない。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の口腔内崩壊錠 本体表示 ジエノゲスト OD 1 トーワ 直径(mm) 6.5 厚さ(mm) 3.1 質量(mg) 112"
+    }
+  ]
+}

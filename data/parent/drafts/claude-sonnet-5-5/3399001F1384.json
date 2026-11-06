@@ -1,0 +1,30 @@
+{
+  "id": "3399001F1384",
+  "source_file": "450900_3399001C1027_6_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_3399001C1027_6_01",
+  "extracted_at": "2026-11-06T17:25:15.473Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18055,
+    "output": 914
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パナルジン錠100 mg",
+      "strength": "100 mg",
+      "imprint_front": "sa PN",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「sa PN」（外形図の表面に表示）。裏面の刻印は文章では明記されていない（外形図の裏面は無地に見えるが断定しない）。",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8.3,
+      "size_short_mm": 8.3,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～淡黄白色・フィルムコーティング錠／直径（mm） 8.3／厚さ（mm） 4.6／重量（mg） 約208／識別コード sa PN"
+    }
+  ]
+}

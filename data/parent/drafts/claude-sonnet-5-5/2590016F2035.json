@@ -1,0 +1,30 @@
+{
+  "id": "2590016F2035",
+  "source_file": "580591_2590016F1039_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590016F1039_1_08",
+  "extracted_at": "2026-11-06T17:17:14.043Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30540,
+    "output": 1078
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠5mgZA「JG」",
+      "strength": "5mg",
+      "imprint_front": "タダラフィル ZA 5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「タダラフィル ZA 5 JG」と記載。表面・裏面の別の記載はなし。注）錠剤の向きと印字の組み合わせは2通りある。",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 9.8,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色のティアドロップ形のフィルムコーティング錠　長径 9.8mm 短径 6.1mm 厚さ 4.0mm 重量 180mg　本体表示 タダラフィル ZA 5 JG"
+    }
+  ]
+}

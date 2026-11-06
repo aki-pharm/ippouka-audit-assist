@@ -1,0 +1,30 @@
+{
+  "id": "3399002F4060",
+  "source_file": "530372_3399002F3063_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3399002F3063_2_02",
+  "extracted_at": "2026-11-06T17:25:30.113Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24520,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾールOD錠100mg「ケミファ」",
+      "strength": "100mg",
+      "imprint_front": "NPI 135",
+      "imprint_back": "100",
+      "imprint_note": "識別コード：NPI 135。外形の図で表面にNPI 135、裏面に100の表示あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 白色の割線入りの素錠 ／ 直径 7.1mm 9.1mm ／ 厚さ 2.8mm 3.5mm ／ 識別コード NPI 134 NPI 135"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2482014F1024",
+  "source_file": "181615_2482014F1024_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_2482014F1024_1_01",
+  "extracted_at": "2026-11-06T17:07:29.848Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23564,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マルシロン配合錠",
+      "strength": "1錠中 デソゲストレル0.15mg・エチニルエストラジオール0.02mg",
+      "imprint_front": "TR4",
+      "imprint_back": "ORGANON",
+      "imprint_note": "識別コード：TR4、☆ORGANON（外形図に表示あり）。表裏の区別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 白色の素錠 / 大きさ 直径 6mm、厚さ 約2.5mm、重量 80mg / 識別コード TR4 ☆ORGANON"
+    }
+  ]
+}

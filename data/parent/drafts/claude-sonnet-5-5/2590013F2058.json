@@ -1,0 +1,30 @@
+{
+  "id": "2590013F2058",
+  "source_file": "400278_2590013F2058_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2590013F2058_1_03",
+  "extracted_at": "2026-11-06T17:15:40.147Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23407,
+    "output": 555
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダフェナシンOD錠0.1mg「TCK」",
+      "strength": "0.1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "イミダフェナシンOD錠0.1mg「TCK」 直径7.5mm 厚さ4.0mm 重量174mg 白色 素錠"
+    }
+  ]
+}

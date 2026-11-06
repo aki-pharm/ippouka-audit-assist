@@ -1,0 +1,30 @@
+{
+  "id": "3399005F2060",
+  "source_file": "830001_3399005F1218_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3399005F1218_1_09",
+  "extracted_at": "2026-11-06T17:26:00.663Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17502,
+    "output": 737
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラプロストNa錠40μg「YD」",
+      "strength": "40μg",
+      "imprint_front": "YD 663",
+      "imprint_back": "40",
+      "imprint_note": "刻印は3.2 製剤の性状の外形図から読み取り（表：YD/663、裏：40）。本文テキストには刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠／直径 約8.1mm／厚さ 約3.6mm／重量 198mg"
+    }
+  ]
+}

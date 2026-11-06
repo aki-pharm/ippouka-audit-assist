@@ -1,0 +1,46 @@
+{
+  "id": "2590013F1027",
+  "source_file": "231099_2590013F1027_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_2590013F1027_2_07",
+  "extracted_at": "2026-11-06T17:15:06.056Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22561,
+    "output": 1195
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウリトス錠0.1mg",
+      "strength": "0.1mg",
+      "imprint_front": "ウリトス0.1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：ウリトス0.1（薬物本体）、KP-197（包装）。KP-197は包装の識別コードで、錠剤本体の刻印は「ウリトス0.1」。裏面の刻印は記載なし。",
+      "color": "淡赤色～淡赤褐色又は淡赤紫色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　色調 淡赤色～淡赤褐色又は淡赤紫色　外形 直径：7.1mm 厚さ：3.5mm 質量：約140mg　識別コード ウリトス0.1（薬物本体）KP-197（包装）"
+    },
+    {
+      "product_name": "ウリトスOD錠0.1mg",
+      "strength": "0.1mg",
+      "imprint_front": "KP-121",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）　色調 白色　外形 直径：7.6mm 厚さ：4.1mm 質量：約180mg　識別コード KP-121"
+    }
+  ]
+}

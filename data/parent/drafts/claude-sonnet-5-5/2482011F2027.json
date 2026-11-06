@@ -1,0 +1,30 @@
+{
+  "id": "2482011F2027",
+  "source_file": "630004_2482011F2027_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_2482011F2027_1_11",
+  "extracted_at": "2026-11-06T17:07:23.762Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32485,
+    "output": 884
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヤーズフレックス配合錠",
+      "strength": "1錠中ドロスピレノン3mg及びエチニルエストラジオール（ベータデクスとして）0.020mg",
+      "imprint_front": "DS",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは外形図・識別コード欄の図（六角形の中の「DS」）から読み取った。裏面の刻印は文章では明記されていない。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡赤色 外形 直径 6mm 厚さ 2.90mm 質量 83.0mg 識別コード"
+    }
+  ]
+}

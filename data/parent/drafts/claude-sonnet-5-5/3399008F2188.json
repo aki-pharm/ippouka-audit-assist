@@ -1,0 +1,30 @@
+{
+  "id": "3399008F2188",
+  "source_file": "480209_3399008F1181_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3399008F1181_1_18",
+  "extracted_at": "2026-11-06T17:27:41.024Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33309,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠75mg「杏林」",
+      "strength": "75mg",
+      "imprint_front": "クロピドグレル 75 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「クロピドグレル 75 杏林」と記載。表裏の区別は本文から確認できない。外形図に割線は確認できず、記載もない。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～微黄白色 本体表示 クロピドグレル 75 杏林 直径(mm) 8.7 厚さ(mm) 4.8 質量(mg) 270"
+    }
+  ]
+}

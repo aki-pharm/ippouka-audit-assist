@@ -1,0 +1,30 @@
+{
+  "id": "2559101X1036",
+  "source_file": "340269_2559101X1036_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340269_2559101X1036_2_06",
+  "extracted_at": "2026-11-06T17:09:56.462Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8969,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヘモナーゼ配合錠",
+      "strength": "1錠（ブロメライン35,000ブロメライン単位、トコフェロール酢酸エステル10mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マークまたはロゴのような印字が図示されているが、本文中に刻印の文字記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 5.6,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 腸溶性糖衣錠 色調 白色 外形・規格 表 裏 側面 直径mm 厚さmm 質量mg 9.6 5.6 385.1"
+    }
+  ]
+}

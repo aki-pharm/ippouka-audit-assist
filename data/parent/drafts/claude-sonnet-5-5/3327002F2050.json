@@ -1,0 +1,30 @@
+{
+  "id": "3327002F2050",
+  "source_file": "830001_3327002F1169_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3327002F1169_1_07",
+  "extracted_at": "2026-11-06T17:23:05.256Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11809,
+    "output": 669
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラネキサム酸錠500mg「YD」",
+      "strength": "500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 18.5,
+      "size_short_mm": null,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "トラネキサム酸錠500mg「YD」 性状・剤形 白色の素錠 （長径）約18.5mm 厚さ 約4.6mm 重量 600mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3332001F3086",
+  "source_file": "581120_3332001F1130_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3332001F1130_1_05",
+  "extracted_at": "2026-11-06T17:23:27.489Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32874,
+    "output": 837
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワルファリンK錠0.5mg「NIG」",
+      "strength": "0.5mg",
+      "imprint_front": "t 431",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書本文の「識別コード（PTP）」欄の記載。外形図には錠剤に「0.5」の表示があるように見えるが、本文には記載なし。片面1/2割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 ／ 直径 7.0mm ／ 厚さ 2.3mm ／ 質量 115mg ／ 識別コード（PTP） t 431"
+    }
+  ]
+}

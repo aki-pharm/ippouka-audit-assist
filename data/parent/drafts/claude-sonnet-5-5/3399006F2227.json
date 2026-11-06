@@ -1,0 +1,30 @@
+{
+  "id": "3399006F2227",
+  "source_file": "480235_3399006F1220_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399006F1220_1_07",
+  "extracted_at": "2026-11-06T17:26:36.248Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12627,
+    "output": 754
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw742",
+      "imprint_back": "100",
+      "imprint_note": "識別コードは本体・包装ともTw742。外形図では表が「Tw」「742」の2段表示、裏が「100」。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 識別コード Tw742 直径(mm) 8.1 厚さ(mm) 4.2 質量(mg) 208"
+    }
+  ]
+}

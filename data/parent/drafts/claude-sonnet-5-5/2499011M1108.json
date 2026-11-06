@@ -1,0 +1,30 @@
+{
+  "id": "2499011M1108",
+  "source_file": "400813_2499011M1108_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2499011M1108_1_03",
+  "extracted_at": "2026-11-06T17:09:23.298Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18605,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュタステリドカプセル0.5mgAV「武田テバ」",
+      "strength": "0.5mg",
+      "imprint_front": "TT D AG",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：TT D AG（カプセル剤。表裏の区別の記載なし）",
+      "color": "淡黄色不透明",
+      "shape": "oblong",
+      "size_long_mm": 19.3,
+      "size_short_mm": null,
+      "thickness_mm": 6.6,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・性状 淡黄色不透明の軟カプセル剤 / 形 状 全長 約19.3mm 厚さ 約 6.6mm 質量 599mg / 識別コード TT D AG"
+    }
+  ]
+}

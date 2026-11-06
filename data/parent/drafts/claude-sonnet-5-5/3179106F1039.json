@@ -1,0 +1,30 @@
+{
+  "id": "3179106F1039",
+  "source_file": "171911_3179106F1039_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_3179106F1039_2_05",
+  "extracted_at": "2026-11-06T17:22:00.190Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9234,
+    "output": 924
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノイロビタン配合錠",
+      "strength": "1錠中 オクトチアミン25mg、リボフラビン2.5mg、ピリドキシン塩酸塩40mg、シアノコバラミン0.25mg",
+      "imprint_front": "LT006",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード LT006（表に「LT 006」の表示）。裏の刻印は文章に記載がなく、図は無地に見えるが明記がないため未確認",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 淡紅色 直径 約7.1mm 厚さ 約3.3mm 質量 約136mg 識別コード LT006"
+    }
+  ]
+}

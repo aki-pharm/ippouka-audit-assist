@@ -1,0 +1,30 @@
+{
+  "id": "2482012F1025",
+  "source_file": "620095_2482012F1025_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620095_2482012F1025_1_12",
+  "extracted_at": "2026-11-06T17:07:21.077Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26178,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジェミーナ配合錠",
+      "strength": "1錠中 レボノルゲストレル0.09mg・エチニルエストラジオール0.02mg",
+      "imprint_front": "NPC",
+      "imprint_back": "33",
+      "imprint_note": "識別コード：NPC33（表面にNPC、裏面に33）。外形図には表面・裏面ともに丸囲みの表示あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 / 大きさ 直径 6.1mm 厚さ 3.2mm 重量 110mg / 識別コード NPC33"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2456003F1034",
+  "source_file": "672212_2456003F1034_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2456003F1034_3_06",
+  "extracted_at": "2026-11-06T17:05:09.630Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23239,
+    "output": 976
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メドロール錠2mg",
+      "strength": "2mg",
+      "imprint_front": "UPJOHN 49",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の「識別コード」欄の記載。上面・下面のどちらに刻印されているかは文章中に明記なし。重量105mg、素錠。",
+      "color": "淡紅色",
+      "shape": null,
+      "size_long_mm": 8.2,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "メドロール錠2mg 2mg UPJOHN 49 淡紅色 割線入り 素錠 長径 8.2mm 短径 5.6mm 厚さ 2.3mm 重量 105mg"
+    }
+  ]
+}

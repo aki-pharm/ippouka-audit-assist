@@ -1,0 +1,46 @@
+{
+  "id": "2590013F2031",
+  "source_file": "180188_2590013F1035_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_2590013F1035_1_17",
+  "extracted_at": "2026-11-06T17:15:36.404Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22970,
+    "output": 1972
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ステーブラ錠 0.1mg",
+      "strength": "0.1mg",
+      "imprint_front": "ステーブラ 0.1",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「—」。外形図の表面に製品名の印字（ステーブラ 0.1）が描かれている。裏面の図には刻印なし。",
+      "color": "淡赤色～淡赤褐色又は淡赤紫色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ステーブラ錠 0.1mg：フィルムコーティング錠、直径7.1mm、厚さ3.5mm、質量約140mg、識別コード「—」、色調 淡赤色～淡赤褐色又は淡赤紫色"
+    },
+    {
+      "product_name": "ステーブラOD錠 0.1mg",
+      "strength": "0.1mg",
+      "imprint_front": "ONO 517",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード ONO 517（表面）。裏面の図には刻印なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ステーブラOD錠 0.1mg：素錠（口腔内崩壊錠）、直径7.6mm、厚さ4.1mm、質量約180mg、識別コード ONO 517、色調 白色"
+    }
+  ]
+}

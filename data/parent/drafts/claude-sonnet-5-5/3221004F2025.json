@@ -1,0 +1,30 @@
+{
+  "id": "3221004F2025",
+  "source_file": "400021_3221004F2025_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400021_3221004F2025_1_02",
+  "extracted_at": "2026-11-06T17:22:14.064Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9868,
+    "output": 218
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヨウレチン錠「100」",
+      "strength": "100",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の糖衣錠 / 直径（mm） 8.1 / 厚さ（mm） 4.6 / 重量（g） 0.23 / 識別コード なし"
+    }
+  ]
+}

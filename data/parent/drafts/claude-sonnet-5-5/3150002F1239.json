@@ -1,0 +1,30 @@
+{
+  "id": "3150002F1239",
+  "source_file": "530258_3150002F1239_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3150002F1239_2_02",
+  "extracted_at": "2026-11-06T17:21:20.258Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8257,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユベラ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "302",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マーク（ε）と302の表示あり。識別コードは「ε 302」。裏面・側面の刻印は記載なし（図では無地）。剤形は糖衣錠。",
+      "color": "橙色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 5.6,
+      "score_line": false,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ユベラ錠50mg 糖衣錠 橙色 302 直径（mm）・質量（mg）・厚さ（mm） 10.2 430 5.6 識別コード ε 302"
+    }
+  ]
+}

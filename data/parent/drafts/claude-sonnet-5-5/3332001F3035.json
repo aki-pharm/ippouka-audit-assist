@@ -1,0 +1,30 @@
+{
+  "id": "3332001F3035",
+  "source_file": "300119_3332001D1023_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3332001D1023_2_01",
+  "extracted_at": "2026-11-06T17:23:22.838Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32140,
+    "output": 925
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワーファリン錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "255",
+      "imprint_back": "0.5",
+      "imprint_note": "識別コードは表の文字列「255」（外形図ではEマークが付いている）。裏の「0.5」は外形図から読み取った表示で、文章中には記載なし。表は割線入り。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（割線入り）／識別コード 255／直径（mm）7.6／厚さ（mm）2.8／色 淡黄色（ワーファリン錠0.5mgの列）"
+    }
+  ]
+}

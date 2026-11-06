@@ -1,0 +1,30 @@
+{
+  "id": "3339002F4029",
+  "source_file": "430574_3339002F4029_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F4029_1_12",
+  "extracted_at": "2026-11-06T17:23:46.903Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43042,
+    "output": 252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リクシアナOD錠15mg",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状の表には外形の図が載っているが、刻印・識別コードの文字は本文に記載がないため未確認",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2025年11月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "リクシアナOD錠15mg 素錠（口腔内崩壊錠） 微黄白色 6.6（直径） 約3.1 約90"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3399009F5033",
+  "source_file": "430773_3399009F3030_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3399009F3030_1_04",
+  "extracted_at": "2026-11-06T17:29:12.450Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31845,
+    "output": 908
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラスグレルOD錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしきものがあるが、本文の性状欄には刻印・識別コードの文字記載がないため未確認",
+      "color": "微橙白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "プラスグレルOD錠20mg「DSEP」 素錠（口腔内崩壊錠）（楕円形） 微橙白色 14.1（長径）6.6（短径） 約5.2 約400"
+    }
+  ]
+}

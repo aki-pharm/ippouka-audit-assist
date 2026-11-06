@@ -1,0 +1,30 @@
+{
+  "id": "2590016F7029",
+  "source_file": "530263_2590016F5026_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590016F5026_1_06",
+  "extracted_at": "2026-11-06T17:17:59.894Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27541,
+    "output": 1158
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シアリス錠20mg",
+      "strength": "20mg",
+      "imprint_front": "C20",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの欄は文字情報がなく図のみ。表面は図から「C20」（ロゴ風書体）と読み取った。裏面は図上で刻印が見えないが、「なし」の明記はない。形状（楕円形）も図による。割線の記載は文字情報になし。",
+      "color": "くすんだ黄色",
+      "shape": "oval",
+      "size_long_mm": 12.3,
+      "size_short_mm": 7.6,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 くすんだ黄色のフィルムコート錠／寸法・重量（シアリス錠20mg）長径：約12.3mm 短径：約7.6mm 厚さ：約5.0mm 重量：約0.36g"
+    }
+  ]
+}

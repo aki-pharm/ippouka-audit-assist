@@ -1,0 +1,30 @@
+{
+  "id": "2590004F1354",
+  "source_file": "470007_2590004F1354_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2590004F1354_1_05",
+  "extracted_at": "2026-11-06T17:10:11.294Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12754,
+    "output": 247
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リトドリン塩酸塩錠5mg「あすか」",
+      "strength": "5mg",
+      "imprint_front": "TZ",
+      "imprint_back": "159",
+      "imprint_note": "識別コード TZ159（表に「TZ」、裏に「159」と図示）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠 外形 直径約6.1mm 厚さ約3.1mm 質量約93mg 識別コード TZ159"
+    }
+  ]
+}

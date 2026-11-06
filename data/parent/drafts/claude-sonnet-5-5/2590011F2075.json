@@ -1,0 +1,30 @@
+{
+  "id": "2590011F2075",
+  "source_file": "480235_2590011F1079_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590011F1079_1_02",
+  "extracted_at": "2026-11-06T17:14:22.716Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21580,
+    "output": 825
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソリフェナシンコハク酸塩錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "ソリフェナシン 5 トーワ",
+      "imprint_back": "ソリフェナシン 5 トーワ",
+      "imprint_note": "本体表示として表・裏にまたがって記載（表裏とも同じ表示）",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄色のフィルムコーティング錠／本体表示 ソリフェナシン 5 トーワ／直径(mm) 7.6／厚さ(mm) 3.5／質量(mg) 165"
+    }
+  ]
+}

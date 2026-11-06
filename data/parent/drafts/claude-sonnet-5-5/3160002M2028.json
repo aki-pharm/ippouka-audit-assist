@@ -1,0 +1,30 @@
+{
+  "id": "3160002M2028",
+  "source_file": "170033_3160002M2028_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_3160002M2028_1_15",
+  "extracted_at": "2026-11-06T17:21:51.095Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15079,
+    "output": 813
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グラケーカプセル15mg",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は軟カプセル（錠剤ではない）。性状欄の外形に図があり「グラケー」の表示が見えるが、文章としての刻印の記載はないため未確認とした。",
+      "color": "カプセル：橙色（内容物：淡黄色の粘稠な液又は半固形物）",
+      "shape": null,
+      "size_long_mm": 9.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 グラケーカプセル15mg 剤形 軟カプセル 外形 長径（mm） 9.6 短径（mm） 5.6 質量（mg） 190 色 カプセル 橙色 内容物 淡黄色の粘稠な液又は半固形物"
+    }
+  ]
+}

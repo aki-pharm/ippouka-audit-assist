@@ -1,0 +1,30 @@
+{
+  "id": "2590013F2104",
+  "source_file": "480235_2590013F2104_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590013F2104_1_03",
+  "extracted_at": "2026-11-06T17:15:57.705Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22983,
+    "output": 349
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダフェナシンOD錠0.1mg「トーワ」",
+      "strength": "0.1mg",
+      "imprint_front": "イミダフェナシン 0.1 OD トーワ",
+      "imprint_back": "イミダフェナシン 0.1 OD トーワ",
+      "imprint_note": "本体表示は表・裏とも「イミダフェナシン 0.1 OD トーワ」と記載。割線の記載なし",
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 ごくうすい赤色の口腔内崩壊錠 / 本体表示 表 裏 イミダフェナシン 0.1 OD トーワ / 直径(mm) 7.0 / 厚さ(mm) 3.5 / 質量(mg) 145"
+    }
+  ]
+}

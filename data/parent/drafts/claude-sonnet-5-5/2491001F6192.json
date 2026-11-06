@@ -1,0 +1,30 @@
+{
+  "id": "2491001F6192",
+  "source_file": "530169_2491001F5170_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2491001F5170_1_08",
+  "extracted_at": "2026-11-06T17:07:42.979Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9448,
+    "output": 961
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カリジノゲナーゼ錠50単位「日医工」",
+      "strength": "50単位",
+      "imprint_front": "201",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード201（図では表面に社名マークと201）。裏面は文章に記載がなく、図では無地に見えるが明記なし。包装コードは201。",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 腸溶性フィルムコーティング錠 色調 だいだい色 直径（mm） 6.2 厚さ（mm） 3.5 質量（mg） 115 本体コード 201 包装コード 201"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2491001M3044",
+  "source_file": "300297_2491001F5056_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_2491001F5056_1_07",
+  "extracted_at": "2026-11-06T17:07:45.796Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10134,
+    "output": 860
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルナクリン錠25",
+      "strength": "25単位",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「―」。外形図の表裏に印字らしきものが見えるが、本文に刻印・印字の記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.3,
+      "size_short_mm": 7.3,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の腸溶性フィルムコーティング錠であり、におい及び味はない／直径 7.3mm／厚さ 3.6mm／重量 141mg／識別コード ―"
+    }
+  ]
+}

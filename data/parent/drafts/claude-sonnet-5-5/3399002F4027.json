@@ -1,0 +1,30 @@
+{
+  "id": "3399002F4027",
+  "source_file": "180078_3399002F3020_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_3399002F3020_1_11",
+  "extracted_at": "2026-11-06T17:25:25.342Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23498,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレタールOD錠100mg",
+      "strength": "100mg",
+      "imprint_front": "OG18",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄には「OG18」と記載。表裏の区別は本文に記載なし（外形図には「OG18」「B100」様の表示と「プレタール 100」の印字が見えるが、本文テキストでは確認不可）。割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "プレタールOD錠100mg 白色の割線入りの素錠 9.0 3.8 約250 OG18"
+    }
+  ]
+}

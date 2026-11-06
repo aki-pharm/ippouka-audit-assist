@@ -1,0 +1,30 @@
+{
+  "id": "2590011F4027",
+  "source_file": "800126_2590011F3020_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590011F3020_1_09",
+  "extracted_at": "2026-11-06T17:14:49.868Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23032,
+    "output": 989
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベシケアOD錠5mg",
+      "strength": "5mg",
+      "imprint_front": "5 ベシケア OD",
+      "imprint_back": "なし",
+      "imprint_note": "刻印の文字は本文に記載がなく、3.2 製剤の性状の外形図（表）による。裏は外形図で無地。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ベシケアOD錠5mg 口腔内崩壊錠 淡黄色 直径 約7.5mm 厚さ 約4.0mm 重量 約0.15g"
+    }
+  ]
+}

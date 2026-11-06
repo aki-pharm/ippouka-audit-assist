@@ -1,0 +1,30 @@
+{
+  "id": "2590005F3025",
+  "source_file": "450900_2590005F1022_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_2590005F1022_3_01",
+  "extracted_at": "2026-11-06T17:10:21.736Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13027,
+    "output": 243
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ポラキス錠1",
+      "strength": "1mg",
+      "imprint_front": "1 KL600",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「1 KL600」（表の識別コード欄より。外形図には錠剤表面に印字あり）",
+      "color": "白色素錠",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色素錠／直径（mm）8.1／厚さ（mm）3.4／重量（mg）178／識別コード 1 KL600"
+    }
+  ]
+}

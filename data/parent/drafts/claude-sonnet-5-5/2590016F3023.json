@@ -1,0 +1,30 @@
+{
+  "id": "2590016F3023",
+  "source_file": "480235_2590016F3023_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590016F3023_3_07",
+  "extracted_at": "2026-11-06T17:17:43.864Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29521,
+    "output": 933
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィルOD錠2.5mgZA「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "2.5 タダラフィル ZA OD トーワ",
+      "imprint_back": "2.5 タダラフィル ZA OD トーワ",
+      "imprint_note": "本体表示の表・裏の欄が結合されており、2.5mgは1つの表示（2.5 タダラフィル ZA OD トーワ）のみ記載。表と裏で同一かどうかは明記なし。",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色の口腔内崩壊錠／本体表示 2.5 タダラフィル ZA OD トーワ／直径(mm) 5.5／厚さ(mm) 2.7"
+    }
+  ]
+}

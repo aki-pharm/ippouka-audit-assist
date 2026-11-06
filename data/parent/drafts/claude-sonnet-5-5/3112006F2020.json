@@ -1,0 +1,30 @@
+{
+  "id": "3112006F2020",
+  "source_file": "450045_3112006F1023_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112006F1023_1_03",
+  "extracted_at": "2026-11-06T17:19:51.985Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20888,
+    "output": 349
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エディロール錠0.75μg",
+      "strength": "0.75μg",
+      "imprint_front": "エディロール0.75",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「エディロール0.75」。平面に印字（図）。裏面（側面図のみ）の刻印の記載なし",
+      "color": "明るい灰みの赤色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 エディロール錠0.5μg エディロール錠0.75μg 剤形 フィルムコーティング錠 色調 薄い赤みの黄色 明るい灰みの赤色 平面 側面 直径 約7.2mm 厚さ 約3.1mm 質量 約129.6mg 識別コード エディロール0.5 エディロール0.75"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2590005F1316",
+  "source_file": "300119_2590005F1316_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590005F1316_1_04",
+  "extracted_at": "2026-11-06T17:10:17.358Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14625,
+    "output": 337
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキシブチニン塩酸塩錠2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW 771",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード SW 771。割線入りフィルムコーティング錠。外形図の表裏の別は本文に記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 割線入りフィルムコーティング錠 性　状 白色～帯黄白色 直径（mm） 6.1 6.1 7.1 厚さ（mm） 3.2 3.2 3.3 重量（mg） 約99 約99 約130 識別コード SW 770 SW 771 SW 772"
+    }
+  ]
+}

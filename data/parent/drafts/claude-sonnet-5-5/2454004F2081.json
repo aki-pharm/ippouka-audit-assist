@@ -1,0 +1,30 @@
+{
+  "id": "2454004F2081",
+  "source_file": "300119_2454004F2081_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2454004F2081_2_17",
+  "extracted_at": "2026-11-06T17:04:49.269Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20309,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタメタゾン錠0.5mg「サワイ」",
+      "strength": "0.5mg",
+      "imprint_front": "SW 263",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「SW 263」。外形図には割線が示されている。裏面の刻印は文章では記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色 直径（mm） 5.0 厚さ（mm） 2.4 重量（mg） 約50 識別コード SW 263"
+    }
+  ]
+}

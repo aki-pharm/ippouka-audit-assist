@@ -1,0 +1,30 @@
+{
+  "id": "2590009F5026",
+  "source_file": "100898_2590009F4020_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2590009F4020_1_16",
+  "extracted_at": "2026-11-06T17:12:22.356Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13725,
+    "output": 249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フリバスOD錠75mg",
+      "strength": "75mg",
+      "imprint_front": "216",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード216（表）。外形図の裏面には刻印の記載なし。口腔内崩壊錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・口腔内崩壊錠 / 大きさ 直径10.0mm 厚み3.9mm / 重 量 300mg / 識別コード 216"
+    }
+  ]
+}

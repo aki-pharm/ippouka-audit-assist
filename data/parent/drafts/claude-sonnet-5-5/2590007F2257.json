@@ -1,0 +1,30 @@
+{
+  "id": "2590007F2257",
+  "source_file": "830001_2590007F1269_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2590007F1269_1_07",
+  "extracted_at": "2026-11-06T17:10:44.952Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18315,
+    "output": 753
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピベリン塩酸塩錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "YD 365",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は3.2項の外形図から読み取った。本文に刻印の記載はない。裏面は外形図で無地に見えるが、「なし」とは明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠／直径 約7.1mm／厚さ 約3mm／重量 125mg"
+    }
+  ]
+}

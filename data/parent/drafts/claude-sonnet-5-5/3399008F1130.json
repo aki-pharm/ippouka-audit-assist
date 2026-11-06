@@ -1,0 +1,30 @@
+{
+  "id": "3399008F1130",
+  "source_file": "400278_3399008F1130_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3399008F1130_3_01",
+  "extracted_at": "2026-11-06T17:27:01.260Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34080,
+    "output": 800
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「TCK」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に刻印らしき表示があるが、本文に文字の記載がなく読み取れないため未確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠25mg「TCK」 直径6.7mm 厚さ3.7mm 重量120mg 白色～微黄白色 フィルムコーティング錠"
+    }
+  ]
+}

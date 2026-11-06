@@ -1,0 +1,30 @@
+{
+  "id": "3134003F3330",
+  "source_file": "431010_3134003F1388_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_3134003F1388_2_04",
+  "extracted_at": "2026-11-06T17:21:02.923Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8754,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピドキサール錠30mg",
+      "strength": "30mg",
+      "imprint_front": "C-31A 30",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは錠剤表面に「C-31A」「30」の2段表記（外形図より）。裏面の記載なし。",
+      "color": "白色糖衣錠（腸溶錠）",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色糖衣錠（腸溶錠） 外形 直径 9.1mm 厚さ 4.8mm 識別コード C-31A 30 重量 約300mg"
+    }
+  ]
+}

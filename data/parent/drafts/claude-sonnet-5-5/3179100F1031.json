@@ -1,0 +1,30 @@
+{
+  "id": "3179100F1031",
+  "source_file": "390092_3179100F1031_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/390092_3179100F1031_2_10",
+  "extracted_at": "2026-11-06T17:21:49.801Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8386,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビフロキシン配合錠",
+      "strength": "1錠中 リボフラビン5mg・ピリドキシン塩酸塩10mg",
+      "imprint_front": "H",
+      "imprint_back": "なし",
+      "imprint_note": "外形図では表面に「H」の識別コードが示されている。裏面の刻印の記載はなく、側面図に割線は示されていない。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ビフロキシン配合錠 色・剤形：黄色・素錠 識別コード：H 直径(mm)：約9.0 厚さ(mm)：約3.0 質量(mg)：約250"
+    }
+  ]
+}

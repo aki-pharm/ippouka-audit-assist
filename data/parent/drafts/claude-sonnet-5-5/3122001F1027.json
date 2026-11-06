@@ -1,0 +1,30 @@
+{
+  "id": "3122001F1027",
+  "source_file": "400186_3122001F1027_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3122001F1027_2_04",
+  "extracted_at": "2026-11-06T17:20:18.042Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7962,
+    "output": 252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジセタミン錠25",
+      "strength": "25mg",
+      "imprint_front": "TTS-318",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTTS-318。外形図の表面にも印字があるが、表裏の別は文面上明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の糖衣錠 表面 直径 裏面 重さ 側面 厚さ TTS-318 約6.1mm 約0.12g 約3.7mm"
+    }
+  ]
+}

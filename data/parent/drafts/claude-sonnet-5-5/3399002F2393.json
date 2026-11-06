@@ -1,0 +1,30 @@
+{
+  "id": "3399002F2393",
+  "source_file": "730869_3399002F1362_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3399002F1362_1_03",
+  "extracted_at": "2026-11-06T17:25:16.042Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20263,
+    "output": 249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾール錠100mg「VTRS」",
+      "strength": "100mg",
+      "imprint_front": "MH123",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはMH123（上面に表示）。下面の刻印は文書に記載なし。",
+      "color": "白色素錠",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "シロスタゾール錠100mg「VTRS」 MH123 白色素錠 直径8.0mm 厚さ2.8mm 重量170mg"
+    }
+  ]
+}

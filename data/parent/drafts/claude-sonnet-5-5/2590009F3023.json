@@ -1,0 +1,30 @@
+{
+  "id": "2590009F3023",
+  "source_file": "100898_2590009F1039_2_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2590009F1039_2_16",
+  "extracted_at": "2026-11-06T17:12:00.203Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12952,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フリバス錠75mg",
+      "strength": "75mg",
+      "imprint_front": "217",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マーク（Ⓐ様のロゴ）と識別コード217の記載あり。外形図では裏面に刻印なし。片面割線入り。",
+      "color": "黄白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄白色～淡黄色・片面割線入りの素錠／大きさ 直径9.5mm 厚み4.6mm／識別コード 217"
+    }
+  ]
+}

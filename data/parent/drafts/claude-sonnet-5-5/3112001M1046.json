@@ -1,0 +1,30 @@
+{
+  "id": "3112001M1046",
+  "source_file": "450045_3112001M1046_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112001M1046_1_11",
+  "extracted_at": "2026-11-06T17:19:14.225Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13077,
+    "output": 660
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルファロールカプセル0.25μg",
+      "strength": "0.25μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄に刻印・識別コードの記載なし。剤形は軟カプセル、外形は「球形」と記載（形は球形のため other とした）",
+      "color": "褐色透明",
+      "shape": "other",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 軟カプセル 色調 褐色透明 外形 （球形） 直径 5.6mm 質量 約100mg"
+    }
+  ]
+}

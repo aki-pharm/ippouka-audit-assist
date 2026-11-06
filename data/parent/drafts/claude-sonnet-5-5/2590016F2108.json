@@ -1,0 +1,30 @@
+{
+  "id": "2590016F2108",
+  "source_file": "340409_2590016F1101_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_2590016F1101_1_06",
+  "extracted_at": "2026-11-06T17:17:39.990Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29626,
+    "output": 1024
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠5mgZA「フソー」",
+      "strength": "5mg",
+      "imprint_front": "SK 19",
+      "imprint_back": "なし",
+      "imprint_note": "刻印は3.2製剤の性状の外形図（表面）から読み取ったもので、本文中に文字としての記載はない。裏面は外形図上で刻印なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠／規格 直径 約8.1mm、厚さ 約3.1mm、重量 約165mg"
+    }
+  ]
+}

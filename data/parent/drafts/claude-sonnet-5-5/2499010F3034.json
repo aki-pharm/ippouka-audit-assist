@@ -1,0 +1,30 @@
+{
+  "id": "2499010F3034",
+  "source_file": "790250_2499010F3034_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790250_2499010F3034_1_04",
+  "extracted_at": "2026-11-06T17:08:51.360Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19596,
+    "output": 1021
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジエノゲスト錠0.5mg「モチダ」",
+      "strength": "0.5mg",
+      "imprint_front": "MO224",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはMO224と記載。外形図には表面にMO/224の表示あり。裏面の刻印は本文に明記なし。外形図の寸法（直径6.6mm、厚さ2.9mm）は図中の数値を読み取った。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 / 外形（mm）/ 重量（mg）106 / 識別コード MO224"
+    }
+  ]
+}

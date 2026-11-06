@@ -1,0 +1,30 @@
+{
+  "id": "2499001F1032",
+  "source_file": "470007_2499001F1032_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2499001F1032_1_06",
+  "extracted_at": "2026-11-06T17:07:48.922Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9841,
+    "output": 238
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セキソビット錠100mg",
+      "strength": "100mg",
+      "imprint_front": "TZ153",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード TZ153（表に印字）。裏は外形図に刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色素錠 外形 表 側面 裏 直径8.0mm 厚さ2.9mm 質量170mg 識別コード TZ153"
+    }
+  ]
+}

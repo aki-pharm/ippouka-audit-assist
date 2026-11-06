@@ -1,0 +1,30 @@
+{
+  "id": "3339004F1029",
+  "source_file": "670605_3339004F1029_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_3339004F1029_1_22",
+  "extracted_at": "2026-11-06T17:25:05.086Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33611,
+    "output": 251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エリキュース錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "893",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは893。外観図には「2½」の表示があるが、表裏の刻印の詳細は本文に記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の円形のフィルムコーティング錠 / 識別コード 893 / 直径6.0mm / 厚さ 2.7mm / 重さ 104mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2499011M1094",
+  "source_file": "300119_2499011M1094_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2499011M1094_1_02",
+  "extracted_at": "2026-11-06T17:09:18.390Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19062,
+    "output": 309
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュタステリドカプセル0.5mgAV「サワイ」",
+      "strength": "0.5mg",
+      "imprint_front": "デュタステリド 0.5 AV サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "軟カプセル剤。本体表示として記載。重量は約336mg。",
+      "color": "淡黄色不透明",
+      "shape": "oval",
+      "size_long_mm": 10.9,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 軟カプセル剤 / 性状 淡黄色不透明の楕円球形 / 長径（mm） 10.9 / 短径（mm） 7.0 / 重量（mg） 約336 / 本体表示 デュタステリド 0.5 AV サワイ"
+    }
+  ]
+}

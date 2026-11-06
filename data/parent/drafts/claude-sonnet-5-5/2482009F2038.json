@@ -1,0 +1,46 @@
+{
+  "id": "2482009F2038",
+  "source_file": "470007_2482009F1066_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2482009F1066_1_05",
+  "extracted_at": "2026-11-06T17:06:59.541Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29026,
+    "output": 603
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フリウェル配合錠LD「あすか」",
+      "strength": "1錠中 ノルエチステロン1mg・エチニルエストラジオール0.035mg",
+      "imprint_front": "AK396",
+      "imprint_back": "LD",
+      "imprint_note": "表面に識別コード AK396（AKの下に396の2段表記と思われる）、裏面にLDの表示。刻印の表裏の内容は外形図の表記による。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 ／ 大きさ 直径 6.5mm 厚さ 2.2mm 重量 100mg ／ 識別コード AK396"
+    },
+    {
+      "product_name": "フリウェル配合錠ULD「あすか」",
+      "strength": "1錠中 ノルエチステロン1mg・エチニルエストラジオール0.02mg",
+      "imprint_front": "AK406",
+      "imprint_back": "ULD",
+      "imprint_note": "表面に識別コード AK406（AKの下に406の2段表記と思われる）、裏面にULDの表示。刻印の表裏の内容は外形図の表記による。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 ／ 大きさ 直径 6.5mm 厚さ 2.2mm 重量 100mg ／ 識別コード AK406"
+    }
+  ]
+}

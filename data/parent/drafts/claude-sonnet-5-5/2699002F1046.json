@@ -1,0 +1,30 @@
+{
+  "id": "2699002F1046",
+  "source_file": "400059_2699002F1046_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_2699002F1046_1_08",
+  "extracted_at": "2026-11-06T17:18:28.602Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12571,
+    "output": 246
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オクソラレン錠 10mg",
+      "strength": "10mg",
+      "imprint_front": "T130",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして T130 が記載されている。上面・下面の刻印の別は文章では明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "オクソラレン錠 10mg T130 白色の糖衣錠 直径（mm）約 8 厚さ（mm）約 4.6 重量（mg）約 240"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2478002F3064",
+  "source_file": "670109_2478002F3064_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_2478002F3064_1_04",
+  "extracted_at": "2026-11-06T17:06:17.057Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16234,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メドロキシプロゲステロン酢酸エステル錠200mg「F」",
+      "strength": "200mg",
+      "imprint_front": "M 200",
+      "imprint_back": "なし",
+      "imprint_note": "外形図より。表面に「M」「200」の印字。識別コード（PTPシート）：FJM200。片面に割線",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 片面に割線の入った白色の素錠　外形 M 200　大きさ 直径 9.0mm 厚さ 3.3mm 質量 230mg　識別コード（PTPシート） FJM200"
+    }
+  ]
+}

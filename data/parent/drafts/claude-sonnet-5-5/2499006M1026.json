@@ -1,0 +1,30 @@
+{
+  "id": "2499006M1026",
+  "source_file": "800015_2499006M1026_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800015_2499006M1026_2_17",
+  "extracted_at": "2026-11-06T17:07:55.562Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13603,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オペプリム（ミトタンカプセル 500mg）",
+      "strength": "500mg",
+      "imprint_front": "YA928",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル（0号）。識別コードはYA928。外形図にYA928の表示あり。裏面の刻印の記載なし。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 21.8,
+      "size_short_mm": 7.1,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・硬カプセル（0号）／大きさ 全長：21.8mm　長径：7.4mm　短径：7.1mm／質量 650mg／識別コード YA928"
+    }
+  ]
+}

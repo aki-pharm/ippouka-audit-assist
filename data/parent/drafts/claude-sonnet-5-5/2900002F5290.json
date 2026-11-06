@@ -1,0 +1,30 @@
+{
+  "id": "2900002F5290",
+  "source_file": "460028_2900002C1213_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2900002C1213_1_07",
+  "extracted_at": "2026-11-06T17:18:47.216Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9929,
+    "output": 249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガンマオリザノール錠50mg「ツルハラ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄は図のみで、刻印・識別コードの文字記載は確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 色調 白色 大きさ 直径 約 8.1mm 厚さ 約 5.0mm 質量 約 230mg"
+    }
+  ]
+}

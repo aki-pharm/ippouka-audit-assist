@@ -1,0 +1,30 @@
+{
+  "id": "3399009F4037",
+  "source_file": "530113_3399009F1054_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3399009F1054_1_02",
+  "extracted_at": "2026-11-06T17:29:03.863Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30184,
+    "output": 285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラスグレル錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "NS プラスグレル 20",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「NS プラスグレル 20」と記載。裏面の表示は文字情報では確認できない（外形図に両面が描かれているが文字で読み取れない）。",
+      "color": "微橙白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "微橙白色のフィルムコーティング錠 錠径：8.1mm 錠厚：3.9mm 重量：207mg 本体表示 NS プラスグレル 20"
+    }
+  ]
+}

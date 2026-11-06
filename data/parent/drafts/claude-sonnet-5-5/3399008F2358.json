@@ -1,0 +1,30 @@
+{
+  "id": "3399008F2358",
+  "source_file": "730869_3399008F1351_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3399008F1351_1_04",
+  "extracted_at": "2026-11-06T17:28:21.175Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31260,
+    "output": 1170
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠75mg「VTRS」",
+      "strength": "75mg",
+      "imprint_front": "クロピドグレル",
+      "imprint_back": "75",
+      "imprint_note": "識別コード欄は「－」。刻印は外形図（上面：クロピドグレル、下面：75）から読み取った。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠75mg「VTRS」 － 白色～微黄白色フィルムコーティング錠 直径8.7mm 厚さ4.9mm 重量269mg"
+    }
+  ]
+}

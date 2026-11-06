@@ -1,0 +1,30 @@
+{
+  "id": "3229002G1082",
+  "source_file": "300094_3229002G1082_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300094_3229002G1082_1_02",
+  "extracted_at": "2026-11-06T17:22:29.001Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12558,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "塩化カリウム徐放錠600mg「St」",
+      "strength": "600mg",
+      "imprint_front": "St 108",
+      "imprint_back": "St 108",
+      "imprint_note": "識別コードはPTPシートに表示と記載。錠剤本体の刻印の有無は明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 6.4,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠（徐放錠）／直径：11.0mm 厚さ：6.4mm／識別コード St 108（PTPシートに表示）"
+    }
+  ]
+}

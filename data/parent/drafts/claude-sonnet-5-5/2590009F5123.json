@@ -1,0 +1,30 @@
+{
+  "id": "2590009F5123",
+  "source_file": "530372_2590009F4127_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2590009F4127_2_03",
+  "extracted_at": "2026-11-06T17:12:26.462Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13968,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジルOD錠75mg「ケミファ」",
+      "strength": "75mg",
+      "imprint_front": "NPI 138",
+      "imprint_back": "75",
+      "imprint_note": "裏面の「75」は図の外形から読み取った表示。識別コードは添付文書記載の「NPI 138」。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りの素錠 / 直径 10.0mm / 厚さ 4.9mm / 識別コード NPI 138"
+    }
+  ]
+}

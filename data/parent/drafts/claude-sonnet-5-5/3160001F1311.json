@@ -1,0 +1,30 @@
+{
+  "id": "3160001F1311",
+  "source_file": "400256_3160001B1069_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_3160001B1069_2_02",
+  "extracted_at": "2026-11-06T17:21:30.943Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8142,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カチーフN錠5mg",
+      "strength": "5mg",
+      "imprint_front": "NY313",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード NY313。上面に「NY 313」の表示あり。下面・側面の刻印の記載なし",
+      "color": "白色～黄みの白色",
+      "shape": "round",
+      "size_long_mm": 9.3,
+      "size_short_mm": 9.3,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 色 白色～黄みの白色 識別コード NY313 形状 上面 下面 側面 直径（mm） 9.3 厚さ（mm） 5.0"
+    }
+  ]
+}

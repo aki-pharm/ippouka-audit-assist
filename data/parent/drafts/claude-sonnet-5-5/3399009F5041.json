@@ -1,0 +1,30 @@
+{
+  "id": "3399009F5041",
+  "source_file": "480235_3399009F1046_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399009F1046_1_04",
+  "extracted_at": "2026-11-06T17:29:08.881Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30162,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラスグレルOD錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "プラスグレル OD 20 トーワ",
+      "imprint_back": "プラスグレル OD 20 トーワ",
+      "imprint_note": "本体表示：プラスグレル OD 20 トーワ（表裏とも）。割線の記載なし。",
+      "color": "微橙白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "微橙白色の楕円形の口腔内崩壊錠　本体表示 プラスグレル OD 20 トーワ　直径(mm) 14.1／6.6（長径／短径）　厚さ(mm) 約5.2"
+    }
+  ]
+}

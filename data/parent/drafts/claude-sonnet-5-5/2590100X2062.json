@@ -1,0 +1,30 @@
+{
+  "id": "2590100X2062",
+  "source_file": "581120_2590100X2062_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590100X2062_1_01",
+  "extracted_at": "2026-11-06T17:18:28.181Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8627,
+    "output": 835
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルサメットS配合錠",
+      "strength": "1錠",
+      "imprint_front": "t 299",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPの項に記載（錠剤自体への刻印の有無は文章では明記なし）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.3,
+      "size_short_mm": 8.3,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色の腸溶性フィルムコーティング錠 外形 直径：8.3mm 厚さ：4.5mm 質量：210mg 識別コード（PTP） t 299"
+    }
+  ]
+}

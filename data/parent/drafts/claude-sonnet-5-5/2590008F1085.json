@@ -1,0 +1,30 @@
+{
+  "id": "2590008F1085",
+  "source_file": "530113_2590008F1085_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2590008F1085_1_05",
+  "extracted_at": "2026-11-06T17:11:15.486Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16942,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タムスロシン塩酸塩OD錠0.1mg「日新」",
+      "strength": "0.1mg",
+      "imprint_front": "NS 536",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NS 536。外形の図に表面の刻印（NS 536）、上面、側面が示されている。裏面の刻印については記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠　大きさ 錠径：7.0mm 錠厚：3.4mm 重量：120mg　識別コード NS 536"
+    }
+  ]
+}

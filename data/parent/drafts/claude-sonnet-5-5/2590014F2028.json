@@ -1,0 +1,30 @@
+{
+  "id": "2590014F2028",
+  "source_file": "800126_2590014F1021_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590014F1021_1_14",
+  "extracted_at": "2026-11-06T17:16:05.813Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27614,
+    "output": 970
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタニス錠50mg",
+      "strength": "50mg",
+      "imprint_front": "ベタニス 50",
+      "imprint_back": "ベタニス 50",
+      "imprint_note": "刻印は文章ではなく外形図の表・裏に表示されたもの（図から読み取り）。刻印の文字は本文に記載なし",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 12.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ベタニス錠50mg フィルムコーティング錠 黄色 表 裏 側面 直径 厚さ 重量 長径：約12.1mm 短径：約6.1mm 約5.2mm 約0.258g"
+    }
+  ]
+}

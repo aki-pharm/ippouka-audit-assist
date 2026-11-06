@@ -1,0 +1,30 @@
+{
+  "id": "3112001F1055",
+  "source_file": "470310_3112001F1055_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3112001F1055_1_07",
+  "extracted_at": "2026-11-06T17:18:56.160Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13430,
+    "output": 836
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワンアルファ錠0.25μg",
+      "strength": "0.25μg",
+      "imprint_front": "ワンアルファ",
+      "imprint_back": "0.25",
+      "imprint_note": "表面は「ワンアルファ」の印字、裏面は「0.25の刻印入り」。主薬の含有量を数字で表示している。印字に対して刻印の向きは一定ではない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色・円形の素錠で、においはない。 主薬の含有量を数字で表示している。（裏面：ワンアルファ 0.25の刻印入り）"
+    }
+  ]
+}

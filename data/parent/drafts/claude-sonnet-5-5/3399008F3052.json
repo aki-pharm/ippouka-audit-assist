@@ -1,0 +1,30 @@
+{
+  "id": "3399008F3052",
+  "source_file": "300119_3399008F1203_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3399008F1203_1_12",
+  "extracted_at": "2026-11-06T17:28:23.035Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31882,
+    "output": 326
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠50mg｢サワイ｣",
+      "strength": "50mg",
+      "imprint_front": "クロピドグレル 50 SW",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は本文に明記なし。外形図には表裏の印字と側面図が描かれているが、割線の有無は本文に記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 性状 白色～微黄白色 / 直径（mm） 7.7 / 厚さ（mm） 4.2 / 重量（mg） 約180 / 本体表示 クロピドグレル 50 SW"
+    }
+  ]
+}

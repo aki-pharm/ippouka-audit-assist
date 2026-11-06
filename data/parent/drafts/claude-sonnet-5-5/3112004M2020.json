@@ -1,0 +1,30 @@
+{
+  "id": "3112004M2020",
+  "source_file": "450045_3112004M1023_4_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3112004M1023_4_13",
+  "extracted_at": "2026-11-06T17:19:36.109Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13813,
+    "output": 731
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロカルトロールカプセル0.5",
+      "strength": "0.5μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": null,
+      "size_long_mm": 9.6,
+      "size_short_mm": 6.7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 軟カプセル 色調 淡赤色 長径 約9.6mm 短径 約6.7mm 質量 約272mg"
+    }
+  ]
+}

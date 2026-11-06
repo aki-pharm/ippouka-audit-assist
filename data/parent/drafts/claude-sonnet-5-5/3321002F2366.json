@@ -1,0 +1,30 @@
+{
+  "id": "3321002F2366",
+  "source_file": "530100_3321002B1139_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3321002B1139_3_01",
+  "extracted_at": "2026-11-06T17:22:50.810Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9485,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アドナ錠30mg",
+      "strength": "30mg",
+      "imprint_front": "TA107",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードTA107（表の外形図では錠剤表面に「TA 107」と印字）。裏面の刻印の記載は確認できず、外形図に裏面表示なし",
+      "color": "橙黄色～橙黄褐色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "アドナ錠 30mg 橙黄色～橙黄褐色の素錠 8.0 3.6 200 TA107"
+    }
+  ]
+}

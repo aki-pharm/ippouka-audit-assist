@@ -1,0 +1,30 @@
+{
+  "id": "2499010F1120",
+  "source_file": "790250_2499010F1120_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790250_2499010F1120_1_10",
+  "extracted_at": "2026-11-06T17:08:29.177Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22837,
+    "output": 942
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジエノゲスト錠1mg「モチダ」",
+      "strength": "1mg",
+      "imprint_front": "MO222",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード MO222。外形図では表面に「MO 222」の表示あり。裏面の刻印は本文に記載なし（図は無地）。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 / 外形（mm）（直径6.6、厚さ2.9の図）/ 重量（mg）106 / 識別コード MO222"
+    }
+  ]
+}

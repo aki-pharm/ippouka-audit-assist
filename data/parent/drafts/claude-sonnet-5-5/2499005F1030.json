@@ -1,0 +1,30 @@
+{
+  "id": "2499005F1030",
+  "source_file": "200022_2499005F1030_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/200022_2499005F1030_2_12",
+  "extracted_at": "2026-11-06T17:07:51.506Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14160,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロスタグランジンE2錠0.5mg「科研」",
+      "strength": "0.5mg",
+      "imprint_front": "KC 29",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：KC29。表面に「KC」「29」の2段表示。裏面の刻印は図上で確認できず",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 色 淡黄白色 / 直径 8.2mm / 厚さ 4.7mm / 質量 0.215g / 識別コード KC29"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2590010F2038",
+  "source_file": "430773_2590010F1031_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2590010F1031_1_06",
+  "extracted_at": "2026-11-06T17:12:49.998Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25589,
+    "output": 1661
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシン錠4mg「DSEP」",
+      "strength": "4mg",
+      "imprint_front": "SI 4 EP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「SI 4」「EP」（製剤の性状表）。表裏のどちらに何が刻印されているかは文章では確認できない。割線入。",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 11,
+      "size_short_mm": 6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "シロドシン錠4mg「DSEP」 フィルムコート錠（割線入） 白色～微黄白色 SI 4 EP 11.0（長径） 6.0（短径） 約3.7 約208"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「DSEP」",
+      "strength": "4mg",
+      "imprint_front": "SI d4 EP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「SI d4」「EP」（製剤の性状表）。表裏のどちらに何が刻印されているかは文章では確認できない。素錠（口腔内崩壊錠）、割線入。",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "シロドシンOD錠4mg「DSEP」 素錠（口腔内崩壊錠）（割線入） 淡黄赤色 SI d4 EP 8.0（直径） 約3.8 約200"
+    }
+  ]
+}

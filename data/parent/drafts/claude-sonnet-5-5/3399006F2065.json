@@ -1,0 +1,30 @@
+{
+  "id": "3399006F2065",
+  "source_file": "580591_3399006F1069_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3399006F1069_1_10",
+  "extracted_at": "2026-11-06T17:26:14.906Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13727,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠 100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "サルポグレラート 100 JG",
+      "imprint_back": "サルポグレラート 100 JG",
+      "imprint_note": "本体表示：サルポグレラート 100 JG。表面・裏面にあり、側面に割線あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの円形のフィルムコーティング錠 直径 8.6mm 厚さ 4.2mm 重量 227mg 本体表示 サルポグレラート 100 JG"
+    }
+  ]
+}

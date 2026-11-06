@@ -1,0 +1,30 @@
+{
+  "id": "3399006F2090",
+  "source_file": "530100_3399006F1093_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3399006F1093_3_03",
+  "extracted_at": "2026-11-06T17:26:19.451Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13044,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠 100mg「NP」",
+      "strength": "100mg",
+      "imprint_front": "NP-527",
+      "imprint_back": "100",
+      "imprint_note": "識別コードはNP-527。表面にNP 527の印字、裏面に100の印字が図示されている（外形図による）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠　サルポグレラート塩酸塩錠 100mg「NP」 7.6 4.0 157.0 NP-527"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2482009F1074",
+  "source_file": "300119_2482009F1074_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2482009F1074_1_06",
+  "extracted_at": "2026-11-06T17:06:53.605Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31937,
+    "output": 1106
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フリウェル配合錠LD「サワイ」",
+      "strength": "1錠中 日局ノルエチステロン 1mg・日局エチニルエストラジオール 0.035mg",
+      "imprint_front": "SW-F LD",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして記載。外形図に表裏・側面の図があるが、裏面の刻印の有無は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠／性状 白色／直径（mm）6.5／厚さ（mm）2.2／重量（mg）約100／識別コード SW-F LD"
+    },
+    {
+      "product_name": "フリウェル配合錠ULD「サワイ」",
+      "strength": "1錠中 日局ノルエチステロン 1mg・日局エチニルエストラジオール 0.02mg",
+      "imprint_front": "SW-F ULD",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして記載。外形図に表裏・側面の図があるが、裏面の刻印の有無は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠／性状 白色／直径（mm）6.5／厚さ（mm）2.2／重量（mg）約100／識別コード SW-F ULD"
+    }
+  ]
+}

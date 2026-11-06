@@ -1,0 +1,30 @@
+{
+  "id": "3327002F2041",
+  "source_file": "430574_3327002B1027_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3327002B1027_2_07",
+  "extracted_at": "2026-11-06T17:22:58.471Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12763,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トランサミン錠500mg",
+      "strength": "500mg",
+      "imprint_front": "608",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード608。外形図には社名マークが付されている。裏面の刻印は文書中で確認できない。",
+      "color": "白色～淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": 7.2,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "トランサミン錠500mg フィルムコーティング錠 白色～淡黄白色 17.8（長径） 7.2（短径） 約5.0 約574 識別コード 608"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2590001F1024",
+  "source_file": "530263_2590001F1024_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590001F1024_1_06",
+  "extracted_at": "2026-11-06T17:09:59.151Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 5988,
+    "output": 185
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウロカルン錠225mg",
+      "strength": "225mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2020年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の色 淡黄色 形状 長円形のフィルムコーティング錠"
+    }
+  ]
+}

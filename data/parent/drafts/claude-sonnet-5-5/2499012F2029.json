@@ -1,0 +1,30 @@
+{
+  "id": "2499012F2029",
+  "source_file": "180078_2139011D1022_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_2139011D1022_1_13",
+  "extracted_at": "2026-11-06T17:09:33.676Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 47155,
+    "output": 613
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サムスカOD錠30mg",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "青色",
+      "shape": "other",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第6版、再審査結果）",
+      "source_page": 2,
+      "source_quote": "青色の割線入りの四角形の素錠　7.4（一辺）　厚さ3.1mm　重さ約160mg"
+    }
+  ]
+}

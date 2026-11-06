@@ -1,0 +1,30 @@
+{
+  "id": "2499016F1020",
+  "source_file": "230034_2499016F1020_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2499016F1020_1_01",
+  "extracted_at": "2026-11-06T17:09:48.543Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18647,
+    "output": 297
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イセルティ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "Ⓚ100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：Ⓚ100。外形の図では表面に社名マーク入りの識別コード、裏面に「100」の表示があるが、本文には識別コード「Ⓚ100」のみ記載",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡黄色 外形 大きさ 直径 10mm 厚さ 約4.8mm 質量 約416mg 識別コード Ⓚ100"
+    }
+  ]
+}

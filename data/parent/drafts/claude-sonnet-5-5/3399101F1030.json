@@ -1,0 +1,30 @@
+{
+  "id": "3399101F1030",
+  "source_file": "530113_3399101F1030_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3399101F1030_2_06",
+  "extracted_at": "2026-11-06T17:29:28.021Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30488,
+    "output": 368
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロレアス配合錠「NS」",
+      "strength": "1錠（クロピドグレルとして75mg、アスピリン100mg）",
+      "imprint_front": "ロレアス 配合錠 NS",
+      "imprint_back": "ロレアス 配合錠 NS",
+      "imprint_note": "本体表示として「ロレアス 配合錠 NS」と記載。外形図には表裏2面と側面が描かれているが、表裏別の刻印内容は本文に明記されていないため両面とも本体表示を記載。割線の記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 10.7,
+      "size_short_mm": 10.7,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性 状 白色～微黄白色のフィルムコーティング錠 / 大きさ 錠径：10.7mm、錠厚：5.7mm、重量：466mg / 本体表示 ロレアス 配合錠 NS"
+    }
+  ]
+}

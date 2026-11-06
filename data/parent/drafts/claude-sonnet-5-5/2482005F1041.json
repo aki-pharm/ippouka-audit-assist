@@ -1,0 +1,30 @@
+{
+  "id": "2482005F1041",
+  "source_file": "470007_2482005F1041_3_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2482005F1041_3_11",
+  "extracted_at": "2026-11-06T17:06:27.972Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17528,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラノバール配合錠",
+      "strength": "1錠中 日局ノルゲストレル0.5mg・日局エチニルエストラジオール0.05mg",
+      "imprint_front": "AK376",
+      "imprint_back": "なし",
+      "imprint_note": "外形の表に「AK」の表示あり。識別コードはAK376。裏面の刻印の記載なし。糖衣錠。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の糖衣錠 外形 表 側面 裏 直径約5.6mm 厚さ約3.8mm 質量約90mg 識別コード AK376"
+    }
+  ]
+}

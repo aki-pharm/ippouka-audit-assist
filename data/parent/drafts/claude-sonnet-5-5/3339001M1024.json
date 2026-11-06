@@ -1,0 +1,30 @@
+{
+  "id": "3339001M1024",
+  "source_file": "650168_3339001M1024_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_3339001M1024_1_19",
+  "extracted_at": "2026-11-06T17:23:38.698Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29130,
+    "output": 643
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラザキサカプセル75mg",
+      "strength": "75mg",
+      "imprint_front": "R75",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードR75の記載のみ。表裏の別は記載なし。剤形は錠剤ではなく硬カプセル剤（2号）。",
+      "color": "頭部及び胴部不透明な白色",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：頭部及び胴部不透明な白色の硬カプセル剤／外形：2号／長さ：約18mm／直径：約6mm／識別コード：R75"
+    }
+  ]
+}

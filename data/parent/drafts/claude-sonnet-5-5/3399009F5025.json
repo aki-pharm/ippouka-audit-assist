@@ -1,0 +1,30 @@
+{
+  "id": "3399009F5025",
+  "source_file": "430574_3399009F1020_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3399009F1020_1_22",
+  "extracted_at": "2026-11-06T17:29:07.971Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29486,
+    "output": 665
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エフィエントOD錠20mg",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状の記載に刻印・識別コードの文言なし（外形の図のみ）",
+      "color": "微橙白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "エフィエントOD錠20mg 素錠（口腔内崩壊錠）（楕円形） 微橙白色 14.1（長径）6.6（短径） 約5.2 約400"
+    }
+  ]
+}

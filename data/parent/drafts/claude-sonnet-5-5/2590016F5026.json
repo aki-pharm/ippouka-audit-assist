@@ -1,0 +1,30 @@
+{
+  "id": "2590016F5026",
+  "source_file": "530263_2590016F5026_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2590016F5026_1_06",
+  "extracted_at": "2026-11-06T17:17:56.299Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27541,
+    "output": 1097
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シアリス錠5mg",
+      "strength": "5mg",
+      "imprint_front": "C5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは外形図中の画像表記（装飾的な「C」と「5」）で、本文テキストには記載なし。裏面は文字での記載なし",
+      "color": "くすんだ黄色",
+      "shape": null,
+      "size_long_mm": 9.7,
+      "size_short_mm": 6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 くすんだ黄色のフィルムコート錠／寸法・重量 長径：約9.7mm 短径：約6.0mm 厚さ：約4.0mm 重量：約0.18g／識別コード C5"
+    }
+  ]
+}

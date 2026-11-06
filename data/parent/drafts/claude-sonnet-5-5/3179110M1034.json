@@ -1,0 +1,46 @@
+{
+  "id": "3179110M1034",
+  "source_file": "530258_3179108B1036_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3179108B1036_2_03",
+  "extracted_at": "2026-11-06T17:22:09.277Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12589,
+    "output": 1173
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビタメジン配合カプセル B25",
+      "strength": "B25（1カプセル中ベンフォチアミン34.58mg（チアミン塩化物塩酸塩として25mg）、ピリドキシン塩酸塩25mg、シアノコバラミン250μg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "キャップ：赤色不透明、ボディー：淡黄赤色不透明（淡紅色の粉末を充填）",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ビタメジン配合カプセル B25 キャップ：赤色不透明 ボディー：淡黄赤色不透明（淡紅色の粉末を充填）・カプセル（3号） 長径15.8mm 短径5.8mm 質量240mg"
+    },
+    {
+      "product_name": "ビタメジン配合カプセル B50",
+      "strength": "B50（1カプセル中ベンフォチアミン69.15mg（チアミン塩化物塩酸塩として50mg）、ピリドキシン塩酸塩50mg、シアノコバラミン500μg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "キャップ：赤色不透明、ボディー：淡黄赤色不透明（淡紅色の粉末を充填）",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": 6.4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ビタメジン配合カプセル B50 キャップ：赤色不透明 ボディー：淡黄赤色不透明（淡紅色の粉末を充填）・カプセル（2号） 長径17.8mm 短径6.4mm 質量360mg"
+    }
+  ]
+}

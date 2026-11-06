@@ -1,0 +1,30 @@
+{
+  "id": "3339002F1020",
+  "source_file": "430574_3339002F1020_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F1020_1_19",
+  "extracted_at": "2026-11-06T17:23:37.413Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41903,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リクシアナ錠15mg",
+      "strength": "15mg",
+      "imprint_front": "DSC 471",
+      "imprint_back": "未確認",
+      "imprint_note": "表の「識別コード」欄に「DSC 471」と記載。外形欄の図には錠剤の表面に「DSC 471」の刻印図が示されているが、裏面の刻印の記載は文字では確認できない。割線の記載なし。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "リクシアナ錠15mg フィルムコーティング錠 黄色 DSC 471 6.8（直径） 約3.6 約105"
+    }
+  ]
+}

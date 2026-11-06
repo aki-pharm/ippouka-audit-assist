@@ -1,0 +1,30 @@
+{
+  "id": "3160002M1021",
+  "source_file": "170033_3160002M1021_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_3160002M1021_1_10",
+  "extracted_at": "2026-11-06T17:21:45.657Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10705,
+    "output": 750
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ケイツーカプセル5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文には刻印・識別コードの記載がないため未確認",
+      "color": "上半分：黄赤色不透明、下半分：淡黄赤色不透明（内容物：淡黄色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形：硬カプセル／全長(mm)：14.5／質量(mg)：170／号数：4／色：カプセル 上半分：黄赤色不透明 下半分：淡黄赤色不透明 内容物 淡黄色の粉末"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3339002F3022",
+  "source_file": "430574_3339002F1020_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3339002F1020_1_19",
+  "extracted_at": "2026-11-06T17:23:44.808Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41903,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リクシアナ錠60mg",
+      "strength": "60mg",
+      "imprint_front": "DSC 475",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「DSC 475」。外形図では表面に「DSC475」の表示あり。裏面の刻印の記載は添付文書になし。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 13.5,
+      "size_short_mm": 7.1,
+      "thickness_mm": 5,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "リクシアナ錠60mg フィルムコーティング錠（楕円形・割線入） 黄色 DSC 475 13.5（長径）7.1（短径） 約5.0 約416"
+    }
+  ]
+}

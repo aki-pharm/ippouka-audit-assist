@@ -1,0 +1,30 @@
+{
+  "id": "2499008F1034",
+  "source_file": "790005_2499008F1034_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_2499008F1034_1_05",
+  "extracted_at": "2026-11-06T17:08:07.202Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9093,
+    "output": 907
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デソパン錠60mg",
+      "strength": "60mg",
+      "imprint_front": "MO231",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図では表面に「MO/231」の表示があり、裏面は無地の円として描かれているが、本文に裏面の刻印の有無は明記されていない。",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2021年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 微黄白色の素錠 外形（mm） 重量（mg） 125 識別コード MO231"
+    }
+  ]
+}

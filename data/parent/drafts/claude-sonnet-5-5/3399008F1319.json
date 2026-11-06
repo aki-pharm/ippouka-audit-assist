@@ -1,0 +1,30 @@
+{
+  "id": "3399008F1319",
+  "source_file": "400186_3399008F1319_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3399008F1319_1_18",
+  "extracted_at": "2026-11-06T17:27:26.850Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32584,
+    "output": 919
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「明治」",
+      "strength": "25mg",
+      "imprint_front": "クロピドグレル 25 明治",
+      "imprint_back": "クロピドグレル 25 明治",
+      "imprint_note": "製剤の性状の外形図で、表・裏とも「クロピドグレル 25 明治」の印字。割線についての記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠25mg「明治」 フィルムコーティング錠 白色～微黄白色 直径6.2mm 厚さ2.9mm 重量92mg"
+    }
+  ]
+}

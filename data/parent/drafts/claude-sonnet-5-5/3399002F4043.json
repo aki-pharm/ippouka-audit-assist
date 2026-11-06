@@ -1,0 +1,30 @@
+{
+  "id": "3399002F4043",
+  "source_file": "400186_3399002F3047_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3399002F3047_1_05",
+  "extracted_at": "2026-11-06T17:25:28.761Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25895,
+    "output": 767
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾールOD錠100mg「タカタ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの文字記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの裸錠（表面直径 約9.1mm、裏面重さ 約0.250g、側面厚さ 約3.8mm）"
+    }
+  ]
+}

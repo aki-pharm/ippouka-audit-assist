@@ -1,0 +1,30 @@
+{
+  "id": "3229005F1080",
+  "source_file": "530100_3229005B1038_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3229005B1038_3_01",
+  "extracted_at": "2026-11-06T17:22:31.900Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12529,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アスパラカリウム錠300mg",
+      "strength": "300mg",
+      "imprint_front": "TA102",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは「TA102」。外形図では表面にTA 102の表示、側面図あり。裏面の刻印の記載は確認できず。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "アスパラカリウム錠300mg 白色のフィルムコーティング錠 直径11.0mm 厚さ5.1mm 重量472.8mg 識別コード TA102"
+    }
+  ]
+}

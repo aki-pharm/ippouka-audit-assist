@@ -1,0 +1,30 @@
+{
+  "id": "2478001G1143",
+  "source_file": "470007_2478001G1143_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2478001G1143_1_07",
+  "extracted_at": "2026-11-06T17:05:59.975Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12394,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロスタールL錠50mg",
+      "strength": "50mg",
+      "imprint_front": "TZ326",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード TZ326（外形図の表側に「TZ 326」の表示あり）。裏面の刻印の記載なし。",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2024年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "微黄色の徐放性フィルムコーティング錠　直径約9.2mm　厚さ約4.6mm　質量約283mg　識別コード TZ326"
+    }
+  ]
+}

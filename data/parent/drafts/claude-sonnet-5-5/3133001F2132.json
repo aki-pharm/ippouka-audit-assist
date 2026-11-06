@@ -1,0 +1,30 @@
+{
+  "id": "3133001F2132",
+  "source_file": "530258_3133001B1193_4_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3133001B1193_4_03",
+  "extracted_at": "2026-11-06T17:20:49.672Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13184,
+    "output": 659
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パントシン錠 60",
+      "strength": "60mg（1錠中パンテチン（日局）75mg、パンテチンとして60mg）",
+      "imprint_front": "NF503",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「NF503」と記載。表裏の区別は文章では記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "パントシン錠 60 白色～微黄白色・フィルムコーティング錠 NF503 7.1 3.7 129.1"
+    }
+  ]
+}

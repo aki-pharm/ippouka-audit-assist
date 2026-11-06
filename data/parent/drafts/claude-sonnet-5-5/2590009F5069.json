@@ -1,0 +1,30 @@
+{
+  "id": "2590009F5069",
+  "source_file": "580591_2590009F4062_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590009F4062_1_04",
+  "extracted_at": "2026-11-06T17:12:24.375Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14681,
+    "output": 269
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジルOD錠75mg「JG」",
+      "strength": "75mg",
+      "imprint_front": "JG E85",
+      "imprint_back": "75",
+      "imprint_note": "表面に「JG E85」、裏面に「75」の印字（図より）。識別コード欄は「JG E85」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ナフトピジルOD錠75mg「JG」 白色の割線入りの素錠 表面 裏面 側面 JG E85 直径10.1mm 厚さ4.1mm 重量375mg"
+    }
+  ]
+}

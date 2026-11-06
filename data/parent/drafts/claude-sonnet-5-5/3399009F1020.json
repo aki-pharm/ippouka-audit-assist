@@ -1,0 +1,30 @@
+{
+  "id": "3399009F1020",
+  "source_file": "430574_3399009F1020_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_3399009F1020_1_22",
+  "extracted_at": "2026-11-06T17:28:31.447Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29488,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エフィエント錠3.75mg",
+      "strength": "3.75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に「エフィエント 3.75」と読める印字の図示があるが、本文には刻印・識別コードの文字情報の記載なし",
+      "color": "微赤白色",
+      "shape": "oval",
+      "size_long_mm": 7.3,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "エフィエント錠3.75mg フィルムコーティング錠（楕円形） 微赤白色 7.3（長径） 5.1（短径） 約3.2 約107.5"
+    }
+  ]
+}

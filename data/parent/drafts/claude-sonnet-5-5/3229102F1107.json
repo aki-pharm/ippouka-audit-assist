@@ -1,0 +1,30 @@
+{
+  "id": "3229102F1107",
+  "source_file": "400315_3229102F1107_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_3229102F1107_1_09",
+  "extracted_at": "2026-11-06T17:22:48.502Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12387,
+    "output": 893
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アスパラ配合錠",
+      "strength": "1錠中 L-アスパラギン酸カリウム75mg、L-アスパラギン酸マグネシウム75mg",
+      "imprint_front": "TA001",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の表面に「TA 001」の表示あり。裏面の刻印は文章では記載なし。添付文書に150mgという単独の規格表記はなく、載っているのは1錠中75mg+75mgの1規格のみ。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・糖衣錠 外形 直径（mm）：10.6 厚さ（mm）：5.2 重量（g）：0.51 識別コード TA001"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3222007G1033",
+  "source_file": "671450_3222007G1033_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_3222007G1033_3_02",
+  "extracted_at": "2026-11-06T17:22:21.151Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8990,
+    "output": 791
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェロ・グラデュメット錠 105mg",
+      "strength": "105mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "社名マークのみ（識別コード欄は「－」。上面に「M」を丸で囲んだマークの図示あり）",
+      "color": "赤色",
+      "shape": "round",
+      "size_long_mm": 9.9,
+      "size_short_mm": 9.9,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フェロ・グラデュメット錠 105mg　識別コード －　色調等 赤色 フィルム錠 徐放錠　直径 9.9mm　厚さ 3.8mm　重量 413mg"
+    }
+  ]
+}

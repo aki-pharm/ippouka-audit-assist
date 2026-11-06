@@ -1,0 +1,30 @@
+{
+  "id": "2590007F2290",
+  "source_file": "480235_2590007F1307_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590007F1307_1_08",
+  "extracted_at": "2026-11-06T17:10:54.513Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18206,
+    "output": 1041
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピベリン塩酸塩錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "Tw274",
+      "imprint_back": "20",
+      "imprint_note": "識別コードは Tw274。裏面の「20」は外形図の表示による",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の扁平球状のフィルムコーティング錠 / 識別コード Tw274 / 直径(mm) 7.1 / 厚さ(mm) 3.1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3229008F1025",
+  "source_file": "620095_3229008F1025_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620095_3229008F1025_1_03",
+  "extracted_at": "2026-11-06T17:22:38.115Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12471,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジンタス錠50mg",
+      "strength": "50mg",
+      "imprint_front": "NPC95",
+      "imprint_back": "NPC95",
+      "imprint_note": "識別コードは表裏とも NPC 95 と表示（図より）。割線あり。表裏の刻印は図の表示に基づく。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 17,
+      "size_short_mm": 7,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の楕円形の割線入りの素錠 ／ 大きさ （長径）17.0mm （短径）7.0mm ／ 厚さ 5.7mm ／ 識別コード NPC95"
+    }
+  ]
+}

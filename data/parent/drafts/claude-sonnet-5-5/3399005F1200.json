@@ -1,0 +1,30 @@
+{
+  "id": "3399005F1200",
+  "source_file": "300119_3399005F1200_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3399005F1200_1_06",
+  "extracted_at": "2026-11-06T17:25:56.168Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15416,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラプロストNa錠20μg「サワイ」",
+      "strength": "20μg",
+      "imprint_front": "SW 715",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「SW 715」。外形図の表面に表示されているが、裏面の刻印の記載は確認できない。割線の記載なし",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色～淡黄白色 直径（mm） 6.1 厚さ（mm） 3.1 重量（mg） 約98 識別コード SW 715"
+    }
+  ]
+}

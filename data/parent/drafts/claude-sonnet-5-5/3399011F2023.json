@@ -1,0 +1,30 @@
+{
+  "id": "3399011F2023",
+  "source_file": "670227_3399011F1027_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_3399011F1027_1_13",
+  "extracted_at": "2026-11-06T17:29:16.708Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30434,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブリリンタ錠90mg",
+      "strength": "90mg",
+      "imprint_front": "90T",
+      "imprint_back": "なし",
+      "imprint_note": "表面に識別コード「90T」（「90」と「T」の2段表示）。裏面は図上、刻印の記載なし。",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "うすい黄色の円形のフィルムコーティング錠　直径 約9.2mm　厚さ 約4.6mm　重量 約0.31g　識別コード 90T"
+    }
+  ]
+}

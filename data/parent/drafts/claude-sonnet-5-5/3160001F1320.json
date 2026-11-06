@@ -1,0 +1,30 @@
+{
+  "id": "3160001F1320",
+  "source_file": "170033_3160001F1320_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_3160001F1320_1_08",
+  "extracted_at": "2026-11-06T17:21:33.274Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7725,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ケーワン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "EISAI KY005",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「EISAI KY005」。表裏の別は文面では確認できない（外形の表の図に印字あり、裏は図のみ）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 ケーワン錠5mg 剤形 素錠 識別コード EISAI KY005 外形 表 裏 側面 直径（mm） 10.1 質量（mg） 360 厚さ（mm） 3.5 色 淡黄色"
+    }
+  ]
+}

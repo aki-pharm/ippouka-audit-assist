@@ -1,0 +1,30 @@
+{
+  "id": "2590016F2116",
+  "source_file": "340013_2590016F1110_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340013_2590016F1110_1_05",
+  "extracted_at": "2026-11-06T17:17:45.111Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32255,
+    "output": 1392
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠5mg ZA「シオエ」",
+      "strength": "5mg",
+      "imprint_front": "5 シオエ",
+      "imprint_back": "5Z",
+      "imprint_note": "識別コードの文字は本文テキストになく、3.2 製剤の性状の外形図（表面・裏面）と識別コード欄の画像から読み取った。字体が装飾的なため裏面の読み取りには不確かさが残る。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 9.7,
+      "size_short_mm": 6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコート錠 / 寸法・重量 長径：約9.7mm 短径：約6.0mm 厚さ：約4.0mm 重量：約0.18g / 識別コード（画像）"
+    }
+  ]
+}

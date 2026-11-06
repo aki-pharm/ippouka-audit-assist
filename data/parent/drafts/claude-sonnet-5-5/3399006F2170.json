@@ -1,0 +1,30 @@
+{
+  "id": "3399006F2170",
+  "source_file": "530213_3399006F1174_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3399006F1174_2_09",
+  "extracted_at": "2026-11-06T17:26:26.132Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13122,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠100mg「ケミファ」",
+      "strength": "100mg",
+      "imprint_front": "NCP 33E",
+      "imprint_back": "100",
+      "imprint_note": "外形の図に基づく。表に識別コード、裏に「100」の表示。割線あり（性状欄に記載）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "割線入りの白色のフィルムコーティング錠　直径 8.6mm　厚さ 4.5mm　重量 260mg　識別コード NCP 33E"
+    }
+  ]
+}
