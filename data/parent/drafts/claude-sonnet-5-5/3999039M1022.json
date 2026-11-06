@@ -1,0 +1,30 @@
+{
+  "id": "3999039M1022",
+  "source_file": "650168_3999039M1022_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_3999039M1022_1_15",
+  "extracted_at": "2026-11-06T17:48:24.500Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25960,
+    "output": 722
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オフェブカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "100",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく軟カプセル剤。識別コード欄に「100」と記載（外形図には社名マークらしき表示と100あり）。裏面の記載は未確認。",
+      "color": "うすい橙色不透明",
+      "shape": "oblong",
+      "size_long_mm": 16.3,
+      "size_short_mm": 6.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形 うすい橙色不透明の軟カプセル剤／外形 長径 約16.3mm 直径 約6.2mm 重さ 約441.96mg／識別コード 100"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3969008F4052",
+  "source_file": "400278_3969008F3056_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3969008F3056_1_06",
+  "extracted_at": "2026-11-06T17:35:01.435Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30994,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミチグリニドCa・OD錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "TU 345",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：TU 345。外形図では錠剤の表に刻印があり、割線入りと記載。裏面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ミチグリニドCa・OD錠10mg「TCK」 白色 素錠（割線入り） TU 345 直径8.1mm 厚さ3.0mm 重量150mg"
+    }
+  ]
+}

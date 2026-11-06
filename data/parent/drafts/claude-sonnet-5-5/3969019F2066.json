@@ -1,0 +1,30 @@
+{
+  "id": "3969019F2066",
+  "source_file": "480235_3969019F1060_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3969019F1060_1_01",
+  "extracted_at": "2026-11-06T17:37:58.373Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29468,
+    "output": 350
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダパグリフロジン錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "ダパグリフロジン 10 トーワ",
+      "imprint_back": "ダパグリフロジン 10 トーワ",
+      "imprint_note": "本体表示として「ダパグリフロジン 10 トーワ」と記載。表・裏の外形図にも同様の表示あり。",
+      "color": "淡黄色～黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色～黄色のフィルムコーティング錠　本体表示 ダパグリフロジン 5 トーワ ダパグリフロジン 10 トーワ　直径(mm) 6.1 7.6　厚さ(mm) 2.6 3.4　質量(mg) 79 156"
+    }
+  ]
+}

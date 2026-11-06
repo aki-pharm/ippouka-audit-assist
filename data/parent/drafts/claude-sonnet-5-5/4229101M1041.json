@@ -1,0 +1,30 @@
+{
+  "id": "4229101M1041",
+  "source_file": "300119_4229101M1041_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4229101M1041_2_01",
+  "extracted_at": "2026-11-06T17:53:07.226Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34561,
+    "output": 742
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスエーワン配合カプセルT20",
+      "strength": "T20（1カプセル中 日局テガフール20mg、ギメラシル5.8mg、オテラシルカリウム19.6mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は錠剤ではなく硬カプセル剤（4号）。刻印・識別コードは文章に記載がなく、外形図のみ（図中の文字は判読不能）",
+      "color": "頭部：白色不透明、胴部：白色不透明、内容物：白色の粒を含む粉末",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／性状 頭部：白色不透明 胴部：白色不透明 内容物：白色の粒を含む粉末／全長（mm）14.5／外形 4号"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999031F1035",
+  "source_file": "170033_3999031F1035_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_3999031F1035_1_12",
+  "extracted_at": "2026-11-06T17:47:34.568Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18285,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ケアラム錠25mg",
+      "strength": "25mg",
+      "imprint_front": "ケアラム25",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：ケアラム25。外形の図では表にのみ「ケアラム 25」の表示があり、裏は無地",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2022年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 ケアラム錠25mg 剤形 フィルムコーティング錠 識別コード ケアラム25 直径（mm） 約7.6 質量（mg） 約190.6 厚さ（mm） 約4.1 色 白色"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999028F1050",
+  "source_file": "480235_3999028F1050_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999028F1050_1_01",
+  "extracted_at": "2026-11-06T17:46:59.245Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24110,
+    "output": 887
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルトロンボパグ錠12.5mg「トーワ」",
+      "strength": "12.5mg",
+      "imprint_front": "エルトロンボパグ 12.5 トーワ",
+      "imprint_back": "エルトロンボパグ 12.5 トーワ",
+      "imprint_note": "本体表示は表・裏が1つの欄にまとめて記載されている。直径8.1mm、厚さ3.6mm、質量184mg。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2026年3月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 / 本体表示 エルトロンボパグ 12.5 トーワ / 直径(mm) 8.1 / 厚さ(mm) 3.6"
+    }
+  ]
+}

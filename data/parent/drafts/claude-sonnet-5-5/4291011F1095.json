@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1095",
+  "source_file": "530100_4291011F1095_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_4291011F1095_1_18",
+  "extracted_at": "2026-11-06T17:55:28.164Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33591,
+    "output": 860
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「ニプロ」",
+      "strength": "100mg",
+      "imprint_front": "NP-222",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは NP-222 と記載。表裏のどちらに刻印されているかは本文に記載なし",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "くすんだ黄赤色～濃い黄赤色の割線入りのフィルムコーティング錠 直径8.2mm 厚さ4.7mm 重量210mg 識別コード NP-222"
+    }
+  ]
+}

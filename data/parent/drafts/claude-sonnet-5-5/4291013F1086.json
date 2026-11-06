@@ -1,0 +1,30 @@
+{
+  "id": "4291013F1086",
+  "source_file": "530169_4291013F1086_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_4291013F1086_1_06",
+  "extracted_at": "2026-11-06T17:56:24.103Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27478,
+    "output": 1244
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゲフィチニブ錠250mg「日医工」",
+      "strength": "250mg",
+      "imprint_front": "ゲフィチニブ 250 日医工",
+      "imprint_back": "ゲフィチニブ 250 日医工",
+      "imprint_note": "本体表示は表裏の区別なく1箇所のみ記載（表裏とも図に同様の表示あり）。包装コード211は別記（錠剤本体の刻印かは未確認）。割線の記載なし。",
+      "color": "褐色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2025年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形のフィルムコーティング錠 色調 褐色 直径（mm） 11.1 厚さ（mm） 5.5 質量（mg） 515 本体表示 ゲフィチニブ 250 日医工 包装コード 211"
+    }
+  ]
+}

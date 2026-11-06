@@ -1,0 +1,30 @@
+{
+  "id": "4291020F2066",
+  "source_file": "480235_4291020F1060_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4291020F1060_1_05",
+  "extracted_at": "2026-11-06T17:57:31.752Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33910,
+    "output": 807
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダサチニブ錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "ダサチニブ 50 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "「本体表示」として記載。表裏それぞれの表示は文字情報では区別されていないため、裏は未確認とした。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.9,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の楕円形のフィルムコーティング錠 本体表示 ダサチニブ 50 トーワ 10.9／5.8（長径／短径） 厚さ(mm) 3.7"
+    }
+  ]
+}

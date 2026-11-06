@@ -1,0 +1,30 @@
+{
+  "id": "3999040F1026",
+  "source_file": "400059_3999040F1026_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_3999040F1026_3_02",
+  "extracted_at": "2026-11-06T17:48:34.744Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23816,
+    "output": 895
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボンビバ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "ボンビバ 100mg",
+      "imprint_back": "ボンビバ 100mg",
+      "imprint_note": "識別コード欄は「ボンビバ 100mg」。外形の平面図は2つとも「ボンビバ 100mg」の表示。割線の記載なし。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 12.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 / 長径 約12.2mm / 短径 約6.2mm / 厚さ 約4.5mm / 質量 312mg / 識別コード ボンビバ 100mg"
+    }
+  ]
+}

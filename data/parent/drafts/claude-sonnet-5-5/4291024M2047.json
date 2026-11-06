@@ -1,0 +1,30 @@
+{
+  "id": "4291024M2047",
+  "source_file": "670109_4291024M1040_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_4291024M1040_1_05",
+  "extracted_at": "2026-11-06T17:58:38.119Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41756,
+    "output": 591
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レナリドミドカプセル2.5mg「F」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に印字らしきものがあるが、本文テキストに刻印・識別コードの記載がないため未確認",
+      "color": "ボディ：白色（不透明）、キャップ：緑色（不透明）",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": 5.32,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "色 ボディ：白色（不透明） キャップ：緑色（不透明）／剤形 硬カプセル剤／大きさ 長径 14.3mm 短径 5.32mm／カプセル号数 4"
+    }
+  ]
+}

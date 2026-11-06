@@ -1,0 +1,30 @@
+{
+  "id": "4219004F1025",
+  "source_file": "530191_4219004F1025_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4219004F1025_1_08",
+  "extracted_at": "2026-11-06T17:51:48.289Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28435,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テモゾロミド錠20mg「NK」",
+      "strength": "20mg",
+      "imprint_front": "テモゾロミド 20",
+      "imprint_back": "テモゾロミド 20",
+      "imprint_note": "本体表示として「テモゾロミド 20」と記載。外形の表・裏に表示。",
+      "color": "淡紅白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 淡紅白色のフィルムコーティング錠 直径 約6.1mm 厚さ 約2.4mm 質量 約70mg 本体表示 テモゾロミド 20"
+    }
+  ]
+}

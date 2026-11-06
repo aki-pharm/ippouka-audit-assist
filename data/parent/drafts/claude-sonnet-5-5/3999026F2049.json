@@ -1,0 +1,30 @@
+{
+  "id": "3999026F2049",
+  "source_file": "580591_3999026F2049_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3999026F2049_1_07",
+  "extracted_at": "2026-11-06T17:46:27.694Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19915,
+    "output": 310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "ミノドロン 50 JG",
+      "imprint_back": "ミノドロン 50 JG",
+      "imprint_note": "本体表示は「ミノドロン 50 JG」。表面・裏面の図に表示あり（側面は表示なし）",
+      "color": "ごくうすい赤色",
+      "shape": "oval",
+      "size_long_mm": 13.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4.4,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい赤色のだ円形のフィルムコーティング錠 表面 裏面 側面 ミノドロン 50 JG 長径 13.2mm 短径 7.2mm 厚さ 4.4mm 重量 310mg"
+    }
+  ]
+}

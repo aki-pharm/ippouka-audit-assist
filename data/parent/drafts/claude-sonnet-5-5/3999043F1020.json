@@ -1,0 +1,30 @@
+{
+  "id": "3999043F1020",
+  "source_file": "530471_3999043F1020_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530471_3999043F1020_1_18",
+  "extracted_at": "2026-11-06T17:48:55.884Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 73683,
+    "output": 1274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルミエント錠2mg",
+      "strength": "2mg",
+      "imprint_front": "なし",
+      "imprint_back": "2",
+      "imprint_note": "外形図では表面は社名マーク（Lilly）のみ、裏面に「2」。識別コード欄は「Lilly 2（刻印）」。",
+      "color": "淡赤白色",
+      "shape": "oval",
+      "size_long_mm": 9,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第13版）",
+      "source_page": 2,
+      "source_quote": "くぼみのある淡赤白色の楕円形のフィルムコーティング錠／長径:約9.0mm 短径:約7.5mm 厚さ:約3mm 重量:約0.2g／識別コード Lilly 2 (刻印)"
+    }
+  ]
+}

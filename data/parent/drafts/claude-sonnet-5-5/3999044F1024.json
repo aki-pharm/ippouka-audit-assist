@@ -1,0 +1,30 @@
+{
+  "id": "3999044F1024",
+  "source_file": "230124_3999044F1024_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_3999044F1024_1_11",
+  "extracted_at": "2026-11-06T17:48:57.629Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24728,
+    "output": 315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルケディア錠1mg",
+      "strength": "1mg",
+      "imprint_front": "KH601",
+      "imprint_back": "KH601",
+      "imprint_note": "識別コードは錠剤本体、PTPシートに表示。表裏の別は文書に明記なし（外形図には「オルケディア」のマーク、「1」、「KH 601」の表示あり）",
+      "color": "黄白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 7.2 / 厚さ（mm） 3.3 / 重量（mg） 139 / 色調 黄白色 / 剤皮 フィルムコーティング錠 / 識別コード KH601（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

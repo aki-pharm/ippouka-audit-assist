@@ -1,0 +1,30 @@
+{
+  "id": "3999062F1022",
+  "source_file": "870056_3999062F1022_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/870056_3999062F1022_1_03",
+  "extracted_at": "2026-11-06T17:50:53.660Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17840,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボイデヤ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "DCN 50",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：DCN 50（表面に印字）。裏面の刻印は外形図で確認できず、文書に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色円形のフィルムコーティング錠 大きさ 直径約8mm 厚さ 約3.8mm 重量 約209mg 識別コード DCN 50"
+    }
+  ]
+}

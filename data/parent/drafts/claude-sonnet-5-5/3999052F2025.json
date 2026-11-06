@@ -1,0 +1,30 @@
+{
+  "id": "3999052F2025",
+  "source_file": "340018_3999052F1029_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_3999052F1029_2_01",
+  "extracted_at": "2026-11-06T17:50:04.546Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23222,
+    "output": 700
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エナロイ錠4mg",
+      "strength": "4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表面・裏面）に表示があるが、本文テキストに刻印・識別コードの記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りフィルムコーティング錠 / サイズ 直径約7.1mm，厚さ約3.2mm，重量約137mg"
+    }
+  ]
+}

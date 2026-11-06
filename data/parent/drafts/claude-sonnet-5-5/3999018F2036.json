@@ -1,0 +1,30 @@
+{
+  "id": "3999018F2036",
+  "source_file": "470310_3999018F2036_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3999018F2036_1_21",
+  "extracted_at": "2026-11-06T17:44:10.668Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21587,
+    "output": 244
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボナロン錠35mg",
+      "strength": "35mg",
+      "imprint_front": "TJN",
+      "imprint_back": "35",
+      "imprint_note": "識別コード：TJN 35",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.3,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・性状 白色楕円形の裸錠　外形 表面 裏面 側面 長径: 10.3mm 短径: 5.6mm 厚さ: 3.6mm　質量 約175mg　識別コード TJN 35"
+    }
+  ]
+}

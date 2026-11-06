@@ -1,0 +1,30 @@
+{
+  "id": "3999018F2133",
+  "source_file": "830001_3999018F2133_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3999018F2133_1_10",
+  "extracted_at": "2026-11-06T17:44:22.783Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22774,
+    "output": 811
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠35mg「YD」",
+      "strength": "35mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印・識別コードの記載がなく、外形は図のみで文字として読み取れないため未確認。形状（円形・楕円形などの区別）と割線の有無も文章に記載がない。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 10.3,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 外形 直径 （長径）約10.3mm（短径）約5.6mm 厚さ 約3.8mm 重量 175mg"
+    }
+  ]
+}

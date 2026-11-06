@@ -1,0 +1,30 @@
+{
+  "id": "3999021F1090",
+  "source_file": "480235_3999021F1090_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999021F1090_1_03",
+  "extracted_at": "2026-11-06T17:45:23.139Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19677,
+    "output": 319
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラロキシフェン塩酸塩錠60mg「トーワ」",
+      "strength": "60mg",
+      "imprint_front": "ラロキシフェン 60 トーワ",
+      "imprint_back": "ラロキシフェン 60 トーワ",
+      "imprint_note": "本体表示は「ラロキシフェン 60 トーワ」。外形図の表・裏の両面に同じ表示あり。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の楕円形のフィルムコーティング錠 本体表示 ラロキシフェン 60 トーワ 直径(mm) 12.1/6.6（長径/短径） 厚さ(mm) 4.4"
+    }
+  ]
+}

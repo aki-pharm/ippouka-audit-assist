@@ -1,0 +1,30 @@
+{
+  "id": "3969019F4026",
+  "source_file": "480209_3969019F3020_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3969019F3020_1_01",
+  "extracted_at": "2026-11-06T17:38:08.570Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31671,
+    "output": 676
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダパグリフロジンOD錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形は図のみで、刻印・識別コードは本文に文字として記載がないため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 ダパグリフロジンOD錠10mg「杏林」 剤形 素錠 色調 淡黄色 直径(mm) 10.0 厚さ(mm) 4.6 質量(mg) 360"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999042F3028",
+  "source_file": "112292_3999042F1025_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112292_3999042F1025_3_05",
+  "extracted_at": "2026-11-06T17:48:45.196Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27691,
+    "output": 898
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オテズラ錠30mg",
+      "strength": "30mg",
+      "imprint_front": "APR",
+      "imprint_back": "30",
+      "imprint_note": "刻印は性状欄の外形の図（表面・裏面）から読み取ったもので、文章での記載はない",
+      "color": "淡褐色",
+      "shape": null,
+      "size_long_mm": 11.81,
+      "size_short_mm": 6.35,
+      "thickness_mm": 4.97,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 オテズラ錠30mg／色 淡褐色／剤形 フィルムコーティング錠／大きさ 長径 11.81mm 短径 6.35mm／厚さ 4.97mm／重量 312.0mg"
+    }
+  ]
+}

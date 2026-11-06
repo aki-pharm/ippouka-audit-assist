@@ -1,0 +1,30 @@
+{
+  "id": "3999018F1056",
+  "source_file": "340409_3999018F1056_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_3999018F1056_1_17",
+  "extracted_at": "2026-11-06T17:43:56.984Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20456,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠5mg「SN」",
+      "strength": "5mg",
+      "imprint_front": "AS5",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：AS5（表面に表示）。裏面の刻印は図上なし。割線の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色 白色 形状 表 裏 側面 直径 8.0mm 厚さ 3.0mm 質量 190mg 識別コード AS5"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999014M2045",
+  "source_file": "580591_3999014M1049_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3999014M1049_1_19",
+  "extracted_at": "2026-11-06T17:42:59.738Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 49710,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムスカプセル0.5mg「JG」",
+      "strength": "0.5mg",
+      "imprint_front": "JG F28",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル剤（錠剤ではない）。識別コードはJG F28。大きさは5号カプセル、重量119mg。内容物は白色の粉末。外形図にカプセル本体の表示あり。",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の硬カプセル剤であり、内容物は白色の粉末 JG F28 大きさ 5 号カプセル 重量 119mg"
+    }
+  ]
+}

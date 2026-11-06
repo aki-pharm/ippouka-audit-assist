@@ -1,0 +1,30 @@
+{
+  "id": "3999004M3129",
+  "source_file": "480187_3999004M3129_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480187_3999004M3129_1_16",
+  "extracted_at": "2026-11-06T17:41:03.806Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43012,
+    "output": 914
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シクロスポリンカプセル10mg「TC」",
+      "strength": "10mg",
+      "imprint_front": "32",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに表示（TCロゴマークと「32」）。カプセル本体の刻印の記載は確認できない。外形図は楕円形状。",
+      "color": "白色～淡黄白色",
+      "shape": "oval",
+      "size_long_mm": 8,
+      "size_short_mm": 5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の光沢のある軟カプセル剤で特異なにおいがある。／大きさ 長径 約8mm 短径 約5mm／識別コード（PTPに表示）"
+    }
+  ]
+}

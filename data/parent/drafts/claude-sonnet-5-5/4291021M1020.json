@@ -1,0 +1,30 @@
+{
+  "id": "4291021M1020",
+  "source_file": "300242_4291021M1020_1_30.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291021M1020_1_30",
+  "extracted_at": "2026-11-06T17:57:42.240Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41596,
+    "output": 751
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タシグナカプセル200mg",
+      "strength": "200mg",
+      "imprint_front": "NVR TKI",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は錠剤ではなく硬カプセル。識別コードは「NVR TKI」で、表裏の区別は記載なし。",
+      "color": "淡黄色の不透明",
+      "shape": "oblong",
+      "size_long_mm": 21.8,
+      "size_short_mm": 7.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "外観：淡黄色の不透明の硬カプセル／識別コード：NVR TKI／大きさ（約）長径：21.8mm 短径：7.6mm 質量：0.50g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999047F2024",
+  "source_file": "800126_3999047F1028_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_3999047F1028_1_08",
+  "extracted_at": "2026-11-06T17:49:23.433Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30323,
+    "output": 765
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エベレンゾ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "エベレンゾ 50",
+      "imprint_back": "エベレンゾ 50",
+      "imprint_note": "外形図に「エベレンゾ 50」の表示が表・裏の両面にある。文章での刻印の説明はなく、外形図から読み取った。",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "エベレンゾ錠50mg フィルムコーティング錠 淡黄赤色 直径 約8.1mm 厚さ 約3.7mm 重量 約0.21g"
+    }
+  ]
+}

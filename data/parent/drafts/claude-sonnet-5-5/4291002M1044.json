@@ -1,0 +1,30 @@
+{
+  "id": "4291002M1044",
+  "source_file": "431010_4291002M1044_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_4291002M1044_1_02",
+  "extracted_at": "2026-11-06T17:53:26.657Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13909,
+    "output": 771
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "塩酸プロカルバジンカプセル50mg「TYP」",
+      "strength": "50mg",
+      "imprint_front": "プロカルバジン／50mg",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は硬カプセルで、識別コードはカプセルへの表示と思われるが、表裏の区別は記載なし。添付文書には「識別コード プロカルバジン／50mg」とのみ記載。",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 17.6,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色 キャップ 淡黄色 ボディー／剤形 硬カプセル（2号）／長径 約17.6mm／平均重量 約318mg／識別コード プロカルバジン／50mg"
+    }
+  ]
+}

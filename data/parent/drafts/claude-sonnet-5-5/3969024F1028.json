@@ -1,0 +1,30 @@
+{
+  "id": "3969024F1028",
+  "source_file": "470310_3969024F1028_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3969024F1028_2_02",
+  "extracted_at": "2026-11-06T17:38:46.395Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25096,
+    "output": 1193
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザファテック錠50mg",
+      "strength": "50mg",
+      "imprint_front": "D388",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは◎マークと併記（◎D388）。製剤表示：なし。下面の刻印は文字情報に記載なし",
+      "color": "淡黄赤色",
+      "shape": "oval",
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第4版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "ザファテック錠50mg 剤形：フィルムコーティング錠 錠剤の色：淡黄赤色 識別コード：◎D388 製剤表示：なし 大きさ(mm)：長径8.2 短径4.7 厚さ(mm)：約3.1 質量(mg)：約93"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999004M4028",
+  "source_file": "300242_3999004M3021_2_33.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_3999004M3021_2_33",
+  "extracted_at": "2026-11-06T17:40:58.486Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 46473,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ネオーラル25mgカプセル",
+      "strength": "25mg",
+      "imprint_front": "NVR25mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNVR25mg（外形図では「NVR 25mg」と表示）。添付文書上は表裏の区別の記載なし。剤形は軟カプセル（錠剤ではない）。",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 14,
+      "size_short_mm": 8.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の光沢のある軟カプセルで特異なにおいがある。／識別コード NVR25mg／大きさ（約）長径：14mm 短径：8.2mm 質量：0.4g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999055F3025",
+  "source_file": "630004_3999055F1022_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_3999055F1022_1_03",
+  "extracted_at": "2026-11-06T17:50:28.825Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30088,
+    "output": 1168
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マスーレッド錠25mg",
+      "strength": "25mg",
+      "imprint_front": "マスー レッド 25",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表面・裏面）に印字の図示あり。文章では刻印の記載なし。図が表面・裏面のどちらに対応するか判別できないため、裏面は未確認",
+      "color": "灰黄赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2022年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 色調 灰黄赤色 / 大きさ 直径7mm / 厚さ 3.1mm / 質量 128.6mg"
+    }
+  ]
+}

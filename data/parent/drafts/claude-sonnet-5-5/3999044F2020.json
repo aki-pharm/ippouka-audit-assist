@@ -1,0 +1,30 @@
+{
+  "id": "3999044F2020",
+  "source_file": "230124_3999044F1024_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_3999044F1024_1_11",
+  "extracted_at": "2026-11-06T17:49:00.373Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24728,
+    "output": 319
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルケディア錠2mg",
+      "strength": "2mg",
+      "imprint_front": "KH602",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは錠剤本体、PTPシートに表示。外形図には「2」の表示あり。裏面の刻印は文章では確認できない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 7.2 7.2 7.2 / 厚さ（mm） 3.3 3.3 3.3 / 重量（mg） 139 139 139 / 色調 淡黄色 / 剤皮 フィルムコーティング錠 / 識別コード KH602（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

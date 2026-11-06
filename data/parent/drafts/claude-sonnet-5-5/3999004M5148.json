@@ -1,0 +1,30 @@
+{
+  "id": "3999004M5148",
+  "source_file": "730869_3999004C1058_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3999004C1058_1_07",
+  "extracted_at": "2026-11-06T17:41:23.645Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43643,
+    "output": 326
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シクロスポリンカプセル50mg「VTRS」",
+      "strength": "50mg",
+      "imprint_front": "MH178",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに表示。カプセル本体への刻印の有無は記載なし。内容物：微黄色～淡黄色澄明の油状の液で、粘性がある",
+      "color": "帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18.1,
+      "size_short_mm": 6.4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "シクロスポリンカプセル50mg「VTRS」 18.1mm×6.4mm MH178（PTPに表示） カプセル：帯黄白色の光沢のある軟カプセルである 内容物：微黄色～淡黄色澄明の油状の液で、粘性がある"
+    }
+  ]
+}

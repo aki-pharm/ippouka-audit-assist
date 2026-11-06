@@ -1,0 +1,30 @@
+{
+  "id": "3999028F2056",
+  "source_file": "480235_3999028F1050_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999028F1050_1_01",
+  "extracted_at": "2026-11-06T17:47:06.915Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24108,
+    "output": 680
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルトロンボパグ錠25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "25 エルトロンボ",
+      "imprint_back": "エルトロンボパグ 25 トーワ",
+      "imprint_note": "本体表示（印字）。割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2026年3月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠　本体表示 表 25 エルトロンボ 裏 エルトロンボパグ 25 トーワ　直径(mm) 10.1　厚さ(mm) 4.6"
+    }
+  ]
+}

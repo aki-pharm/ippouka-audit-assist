@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1168",
+  "source_file": "480235_4291011F1168_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4291011F1168_1_15",
+  "extracted_at": "2026-11-06T17:55:39.844Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30019,
+    "output": 844
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw543",
+      "imprint_back": "100",
+      "imprint_note": "識別コードはTw543。外形図では表に「Tw」「543」、裏に「100」の印字が見られる（裏の「100」は図から確認）。",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "くすんだ黄赤色～濃い黄赤色の割線入りのフィルムコーティング錠　識別コード Tw543　直径(mm) 8.6　厚さ(mm) 3.9"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999027F1020",
+  "source_file": "672212_3999027F1020_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_3999027F1020_2_03",
+  "extracted_at": "2026-11-06T17:46:42.813Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17485,
+    "output": 294
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビビアント錠20mg",
+      "strength": "20mg",
+      "imprint_front": "WY 20",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：WY20。表面に印字（画像上は表面に「WY 20」、裏面・側面に刻印の記載なし）",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 11.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2019年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 外形 識別コード 色調等 表面 裏面 側面 WY20 淡黄色 フィルムコーティング錠 長径 11.1mm 短径 6.1mm 厚さ 5.0mm 重量 310mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999019F1158",
+  "source_file": "530372_3999019F1158_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3999019F1158_2_07",
+  "extracted_at": "2026-11-06T17:44:38.300Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19988,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸ナトリウム錠2.5mg「ケミファ」",
+      "strength": "2.5mg",
+      "imprint_front": "NPI 130",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色のフィルムコーティング錠 外形 表 裏 側面 直径 6.6mm 厚さ 3.5mm 重量 114.0mg 識別コード NPI 130"
+    }
+  ]
+}

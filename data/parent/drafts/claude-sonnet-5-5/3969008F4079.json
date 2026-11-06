@@ -1,0 +1,30 @@
+{
+  "id": "3969008F4079",
+  "source_file": "850079_3969008F3072_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/850079_3969008F3072_1_06",
+  "extracted_at": "2026-11-06T17:35:08.977Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28773,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミチグリニド Ca・OD 錠 10mg「フソー」",
+      "strength": "10mg",
+      "imprint_front": "Mt10",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは Mt10。外形図の表面に Mt/10 の表示あり、裏面は無地。片面に1/2割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面 1／2 割線入りの素錠 ／ 規格 直径 8.1mm 厚さ 3.0mm 重量 150mg ／ 識別コード Mt10"
+    }
+  ]
+}

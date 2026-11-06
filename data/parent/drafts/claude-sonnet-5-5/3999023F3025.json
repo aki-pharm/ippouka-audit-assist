@@ -1,0 +1,30 @@
+{
+  "id": "3999023F3025",
+  "source_file": "230124_3999023F1022_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_3999023F1022_2_11",
+  "extracted_at": "2026-11-06T17:45:45.351Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25755,
+    "output": 811
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レグパラ錠12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "KR05",
+      "imprint_back": "KR05",
+      "imprint_note": "識別コードKR05。表面・裏面の図にも表示あり。フィルムコーティング錠、総重量約104mg",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2019年11月改訂",
+      "source_page": 1,
+      "source_quote": "色 淡黄赤色 / 剤形 フィルムコーティング錠 / 直径（mm） 6 / 厚さ（mm） 3.4 / 総重量（mg） 約104 / 識別コード KR05"
+    }
+  ]
+}

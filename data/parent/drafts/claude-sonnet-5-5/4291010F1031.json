@@ -1,0 +1,30 @@
+{
+  "id": "4291010F1031",
+  "source_file": "670227_4291010F1031_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_4291010F1031_1_18",
+  "extracted_at": "2026-11-06T17:54:45.617Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22860,
+    "output": 263
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリミデックス錠1mg",
+      "strength": "1mg",
+      "imprint_front": "Adx 1",
+      "imprint_back": "未確認",
+      "imprint_note": "外形（裏面）には図が示されているが、識別コードの文字としては記載されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠 / 大きさ（直径） 約6.0mm / 大きさ（厚さ） 約3.2mm / 質量 約0.1g / 識別コード Adx 1"
+    }
+  ]
+}

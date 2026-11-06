@@ -1,0 +1,30 @@
+{
+  "id": "3969015F2025",
+  "source_file": "400315_3969015F1029_2_30.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_3969015F1029_2_30",
+  "extracted_at": "2026-11-06T17:36:54.784Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26352,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テネリア錠40mg",
+      "strength": "40mg",
+      "imprint_front": "テネリア 40",
+      "imprint_back": "テネリア 40",
+      "imprint_note": "外形の図に「テネリア40」と表示。表裏それぞれに「テネリア 40」の印字が図示されている（側面図は刻印なし）。文章での刻印の説明はなし。",
+      "color": "やわらかい黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 やわらかい黄みの赤色・フィルムコーティング錠（サイズ 直径（mm）8.6 厚さ（mm）4.5 重量（mg）248）"
+    }
+  ]
+}

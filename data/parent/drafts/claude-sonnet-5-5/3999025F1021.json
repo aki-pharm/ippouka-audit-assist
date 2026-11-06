@@ -1,0 +1,30 @@
+{
+  "id": "3999025F1021",
+  "source_file": "340018_3999025F1021_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_3999025F1021_1_12",
+  "extracted_at": "2026-11-06T17:45:54.141Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16363,
+    "output": 587
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピレスパ錠 200mg",
+      "strength": "200mg",
+      "imprint_front": "521（社名マークと併記）",
+      "imprint_back": "200",
+      "imprint_note": "表面は社名マーク（シオノギ）と「521」、識別コードは「521：200」。刻印は添付文書の外形図と識別コード欄の図による。",
+      "color": "淡黄色～淡黄褐色",
+      "shape": "oval",
+      "size_long_mm": 12.2,
+      "size_short_mm": 6.4,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2022年3月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色～淡黄褐色の楕円形のフィルムコーティング錠である。"
+    }
+  ]
+}

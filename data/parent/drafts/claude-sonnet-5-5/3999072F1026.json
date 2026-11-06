@@ -1,0 +1,30 @@
+{
+  "id": "3999072F1026",
+  "source_file": "780069_3999072F1026_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_3999072F1026_1_01",
+  "extracted_at": "2026-11-06T17:51:27.296Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21047,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウェイリズ錠400mg",
+      "strength": "400mg",
+      "imprint_front": "P",
+      "imprint_back": "400",
+      "imprint_note": "識別コード「P 400」。外形図では表面に「P」、裏面に「400」と表示されている。",
+      "color": "橙色",
+      "shape": "oval",
+      "size_long_mm": 16.6,
+      "size_short_mm": 8.1,
+      "thickness_mm": 7.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 フィルムコーティング錠 色 調 橙色 外 形 直 径 長径16.6mm、短径8.1mm 厚 さ 7.6mm 質 量 824.0mg 識別コード P 400"
+    }
+  ]
+}

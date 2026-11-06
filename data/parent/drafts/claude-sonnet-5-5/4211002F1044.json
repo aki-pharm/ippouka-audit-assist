@@ -1,0 +1,30 @@
+{
+  "id": "4211002F1044",
+  "source_file": "340018_4211002F1044_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_4211002F1044_1_15",
+  "extracted_at": "2026-11-06T17:51:39.216Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19302,
+    "output": 228
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エンドキサン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄に刻印・識別コードの記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2022年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色の円形の糖衣錠である。（大きさ 直径 約8.1mm、厚さ 約4.6mm、質量 約0.24g）"
+    }
+  ]
+}

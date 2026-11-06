@@ -1,0 +1,30 @@
+{
+  "id": "3969009F3026",
+  "source_file": "300297_3969009F1023_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3969009F1023_1_20",
+  "extracted_at": "2026-11-06T17:35:17.052Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22350,
+    "output": 802
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セイブル錠75mg",
+      "strength": "75mg",
+      "imprint_front": "Sc397",
+      "imprint_back": "75",
+      "imprint_note": "表の識別コードはSc397（製剤の性状の表に記載）。裏の「75」は外形図に表示されており、本文の文字記載はなし。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12,
+      "size_short_mm": 5,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色両面割線入り楕円形のフィルムコーティング錠（セイブル錠50mgと同じ欄に記載）／長径 12.0mm 短径 5.0mm 厚さ 3.3mm 重量 184mg 識別コード Sc397"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4223005F1049",
+  "source_file": "480235_4223005F1049_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4223005F1049_1_04",
+  "extracted_at": "2026-11-06T17:52:09.605Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35784,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カペシタビン錠300mg「トーワ」",
+      "strength": "300mg",
+      "imprint_front": "カペシタビン 300 トーワ",
+      "imprint_back": "カペシタビン 300 トーワ",
+      "imprint_note": "本体表示：カペシタビン 300 トーワ（外形図は表・裏とも同表示）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.5,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠 本体表示 カペシタビン 300 トーワ 直径(mm) 13.5／7.2（長径／短径） 厚さ(mm) 4.8 質量(mg) 385"
+    }
+  ]
+}

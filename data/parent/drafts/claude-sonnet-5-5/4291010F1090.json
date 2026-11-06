@@ -1,0 +1,30 @@
+{
+  "id": "4291010F1090",
+  "source_file": "530191_4291010F1090_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291010F1090_1_11",
+  "extracted_at": "2026-11-06T17:54:56.997Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18478,
+    "output": 854
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アナストロゾール錠1mg「NK」",
+      "strength": "1mg",
+      "imprint_front": "アナストロゾール 1mg",
+      "imprint_back": "アナストロゾール NK",
+      "imprint_note": "本体表示の記載順（アナストロゾール 1mg／アナストロゾール NK）を表・裏の順に対応させた。表裏の割り当ては文面では明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：白色の円形のフィルムコーティング錠　直径：約6.1mm　厚さ：約3.2mm　質量：約0.1g　本体表示：アナストロゾール 1mg、アナストロゾール NK"
+    }
+  ]
+}

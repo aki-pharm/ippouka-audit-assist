@@ -1,0 +1,30 @@
+{
+  "id": "3999021F1023",
+  "source_file": "850372_3999021F1023_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/850372_3999021F1023_3_02",
+  "extracted_at": "2026-11-06T17:45:17.153Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18489,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エビスタ錠60 mg",
+      "strength": "60 mg",
+      "imprint_front": "4165",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：4165（表面に表示）。裏面の刻印は図に表示なし。割線の記載なし",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色楕円形のフィルムコート錠 / 寸法・重量 長径：約12.1 mm　短径：約6.6 mm　厚さ：約 4.3 mm　重量：約0.25 g / 識別コード 4165"
+    }
+  ]
+}

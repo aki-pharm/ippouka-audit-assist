@@ -1,0 +1,30 @@
+{
+  "id": "3999046F1023",
+  "source_file": "800126_3999046F1023_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_3999046F1023_1_08",
+  "extracted_at": "2026-11-06T17:49:13.150Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35647,
+    "output": 768
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スマイラフ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "スマイラフ 50",
+      "imprint_back": "スマイラフ 50",
+      "imprint_note": "刻印は文章ではなく外形図（表・裏）から読み取った。文章での記載はなし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "スマイラフ錠50mg フィルムコーティング錠 黄色 直径 約7.6mm 厚さ 約3.5mm 重量 約0.17g"
+    }
+  ]
+}

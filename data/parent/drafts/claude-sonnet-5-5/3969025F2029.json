@@ -1,0 +1,30 @@
+{
+  "id": "3969025F2029",
+  "source_file": "230034_3969025F1022_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_3969025F1022_2_02",
+  "extracted_at": "2026-11-06T17:38:51.838Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23462,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マリゼブ錠25mg",
+      "strength": "25mg",
+      "imprint_front": "Ⓚ782",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードⒺ782（Ⓚ782）。表裏の別は文章では明記されておらず、外形の図に表面・裏面のマークが示されている。社名マークを含む識別コードとして記載",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 9.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第5版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "剤形 アーモンド形・フィルムコーティング錠／色調 白色／長径 9.6mm／短径 5.6mm／厚さ 約4.0mm／質量 約166mg／識別コード Ⓚ782"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "4291009F2116",
+  "source_file": "480235_4291009F1217_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4291009F1217_1_05",
+  "extracted_at": "2026-11-06T17:54:44.539Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18572,
+    "output": 1627
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビカルタミド錠80mg「トーワ」",
+      "strength": "80mg",
+      "imprint_front": "Tw745",
+      "imprint_back": "80",
+      "imprint_note": "識別コード（本体・包装）はTw745。表はTw 745、裏は80（外形図より）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の円形のフィルムコーティング錠 識別コード 本体 Tw745 直径(mm) 7.6 厚さ(mm) 4.3"
+    },
+    {
+      "product_name": "ビカルタミドOD錠80mg「トーワ」",
+      "strength": "80mg",
+      "imprint_front": "Tw BIC",
+      "imprint_back": "なし",
+      "imprint_note": "本体はTw BIC、包装はTw. BIC。裏面の外形図は無地（刻印の記載なし）。形状は性状欄に記載がなく、直径表示と外形図から円形とした",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の口腔内崩壊錠 識別コード 本体 Tw BIC 包装 Tw. BIC 直径(mm) 10.0 厚さ(mm) 4.4"
+    }
+  ]
+}

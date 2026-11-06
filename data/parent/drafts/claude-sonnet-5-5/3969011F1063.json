@@ -1,0 +1,30 @@
+{
+  "id": "3969011F1063",
+  "source_file": "480209_3969011F1063_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3969011F1063_1_03",
+  "extracted_at": "2026-11-06T17:36:20.652Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28024,
+    "output": 643
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビルダグリプチン錠50mg「杏林」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文テキストに刻印の記載がなく判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色 外形 直径(mm) 8.0 厚さ(mm) 3.8 質量(mg) 200"
+    }
+  ]
+}

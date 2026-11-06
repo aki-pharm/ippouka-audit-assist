@@ -1,0 +1,30 @@
+{
+  "id": "4291005F1081",
+  "source_file": "730869_4291005F1081_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_4291005F1081_1_03",
+  "extracted_at": "2026-11-06T17:53:36.520Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10871,
+    "output": 248
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルタミド錠125mg「VTRS」",
+      "strength": "125mg",
+      "imprint_front": "MH271",
+      "imprint_back": "なし",
+      "imprint_note": "上面に識別コードMH 271（2段表記）の印字。下面は表示なし。",
+      "color": "淡黄色素錠",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フルタミド錠125mg「VTRS」 MH271 淡黄色素錠 直径8.5mm 厚さ3.9mm 重量250mg"
+    }
+  ]
+}

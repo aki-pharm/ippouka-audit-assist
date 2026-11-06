@@ -1,0 +1,30 @@
+{
+  "id": "4291020F2023",
+  "source_file": "670605_4291020F1027_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_4291020F1027_1_19",
+  "extracted_at": "2026-11-06T17:57:23.052Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33280,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スプリセル錠50mg",
+      "strength": "50mg",
+      "imprint_front": "BMS",
+      "imprint_back": "528",
+      "imprint_note": "識別コード：BMS 528（表裏の別は添付文書の記載から確定できないため、BMSと528に分けて記載）",
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 10.9,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の楕円形のフィルムコート錠／識別コード BMS 528／長径10.9mm 短径5.8mm／厚さ 3.6mm／重さ 207.0mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999033F2030",
+  "source_file": "480235_3999033F1034_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999033F1034_3_02",
+  "extracted_at": "2026-11-06T17:47:51.766Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12532,
+    "output": 309
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボカルニチンFF錠250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "レボカルニチン FF 250 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「表」「裏」の欄にまとめて記載されている。表裏の別は文章では確認できないため、裏の刻印は未確認とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.2,
+      "size_short_mm": 11.2,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2022年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠 / 本体表示 レボカルニチン FF 250 トーワ / 直径(mm) 11.2 / 厚さ(mm) 5.2 / 質量(mg) 492"
+    }
+  ]
+}

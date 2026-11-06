@@ -1,0 +1,30 @@
+{
+  "id": "3999022F2024",
+  "source_file": "300242_3999022F1028_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_3999022F1028_1_15",
+  "extracted_at": "2026-11-06T17:45:35.527Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 46941,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サーティカン錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "NVR",
+      "imprint_back": "CH",
+      "imprint_note": "識別コード「NVR CH」。外形の図からは表裏の振り分けは読み取れないため、表=NVR、裏=CHとした（推定を含む）",
+      "color": "白色～黄色のまだらをもつ素錠",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～黄色のまだらをもつ素錠／識別コード NVR CH／大きさ（約）直径：7.0mm 厚さ：2.8mm 質量：0.125g"
+    }
+  ]
+}

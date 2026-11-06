@@ -1,0 +1,30 @@
+{
+  "id": "3999018F2028",
+  "source_file": "181615_3999018F2028_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_3999018F2028_3_02",
+  "extracted_at": "2026-11-06T17:44:09.130Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19832,
+    "output": 253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フォサマック®錠35mg",
+      "strength": "35mg",
+      "imprint_front": "77",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：77。外形の図では表面に「77」の表示があり、裏面には表示なし（図による）。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.3,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 楕円形・裸錠・白色 / 表面 長径：10.3mm 短径：5.6mm / 厚さ：3.6mm / 識別コード 77"
+    }
+  ]
+}

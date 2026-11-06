@@ -1,0 +1,30 @@
+{
+  "id": "4291013F1027",
+  "source_file": "670227_4291013F1027_1_34.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_4291013F1027_1_34",
+  "extracted_at": "2026-11-06T17:56:03.006Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28558,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イレッサ錠250",
+      "strength": "250mg",
+      "imprint_front": "IRESSA 250",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードとして「IRESSA 250」が記載されている。表面の刻印、裏面は図のみで文字記載なし",
+      "color": "褐色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 褐色のフィルムコーティング錠 / 外形 表面・裏面・側面 / 大きさ 直径 約11mm 厚さ 約5.4mm / 重量 約0.5g / 識別コード IRESSA 250"
+    }
+  ]
+}

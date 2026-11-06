@@ -1,0 +1,30 @@
+{
+  "id": "3969023F2020",
+  "source_file": "650168_3969023F1023_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_3969023F1023_1_19",
+  "extracted_at": "2026-11-06T17:38:36.770Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 47524,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジャディアンス錠25mg",
+      "strength": "25mg",
+      "imprint_front": "S25",
+      "imprint_back": "S25",
+      "imprint_note": "識別コードは「S25」。外形図では錠剤の両面にS25と社名マークが表示されている。社名マーク（ベーリンガーインゲルハイム）あり。",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 11.1,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤 形 淡黄色のフィルムコート錠 / 外 形 / 直 径 11.1×5.6mm / 厚 さ 3.8mm / 重 さ 206mg / 識別コード S25"
+    }
+  ]
+}

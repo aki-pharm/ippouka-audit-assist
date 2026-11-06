@@ -1,0 +1,30 @@
+{
+  "id": "3969102F1020",
+  "source_file": "230034_3969102F1020_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_3969102F1020_1_12",
+  "extracted_at": "2026-11-06T17:39:21.663Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22728,
+    "output": 1042
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グルベス配合錠",
+      "strength": "1錠中 ミチグリニドカルシウム水和物10mg・ボグリボース0.2mg",
+      "imprint_front": "MV",
+      "imprint_back": "MV",
+      "imprint_note": "外形の図に社名マークとMVの表示あり。識別コード欄の本文は空欄で、刻印は図から読み取り",
+      "color": "淡赤白色",
+      "shape": "oblong",
+      "size_long_mm": 10,
+      "size_short_mm": 5,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 淡赤白色 外形 表面 裏面 側面 長径 10.0㎜ 短径 5.0㎜ 厚さ 約3.0㎜ 質量 約150㎎ 識別コード"
+    }
+  ]
+}

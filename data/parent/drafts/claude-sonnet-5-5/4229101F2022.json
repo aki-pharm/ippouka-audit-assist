@@ -1,0 +1,30 @@
+{
+  "id": "4229101F2022",
+  "source_file": "400107_4229101F1026_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4229101F1026_1_09",
+  "extracted_at": "2026-11-06T17:52:51.327Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37715,
+    "output": 353
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ティーエスワン配合OD錠T25",
+      "strength": "T25（1錠中 テガフール25mg、ギメラシル7.25mg、オテラシルカリウム24.5mg）",
+      "imprint_front": "TC 43",
+      "imprint_back": "25",
+      "imprint_note": "識別コード：TC43。外形の図では表面にTC43、裏面に25の表示。側面図あり。",
+      "color": "片面の中央部が白色、他の部分がうすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "口腔内崩壊性の有核錠である。片面の中央部が白色、他の部分がうすいだいだい色の錠剤であり、特異なにおいがある。（大きさ・質量：直径8.0mm、厚み3.9mm、質量約182mg　識別コード TC43）"
+    }
+  ]
+}

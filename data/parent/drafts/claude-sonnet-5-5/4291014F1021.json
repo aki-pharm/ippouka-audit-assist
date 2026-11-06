@@ -1,0 +1,30 @@
+{
+  "id": "4291014F1021",
+  "source_file": "480114_4291014F1021_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480114_4291014F1021_1_14",
+  "extracted_at": "2026-11-06T17:56:22.172Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18917,
+    "output": 236
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムノレイク錠2mg",
+      "strength": "2mg",
+      "imprint_front": "402",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「402」（社名マークあり）。外形図では表に刻印、裏は刻印なしの図示",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2022年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状：白色の素錠　外形：表・裏・側面　大きさ：直径7mm 厚さ3mm 質量150mg　識別コード：402"
+    }
+  ]
+}

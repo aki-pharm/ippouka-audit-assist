@@ -1,0 +1,30 @@
+{
+  "id": "4291033F1032",
+  "source_file": "430773_4291033F1032_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_4291033F1032_1_02",
+  "extracted_at": "2026-11-06T17:59:35.164Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27228,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アビラテロン酢酸エステル錠250mg「DSEP」",
+      "strength": "250mg",
+      "imprint_front": "A250EP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「A250EP」。表裏の別は本文に明記されておらず、外形図でも判読できないため裏面は未確認。割線の記載なし。",
+      "color": "ピンク色",
+      "shape": "oval",
+      "size_long_mm": 16,
+      "size_short_mm": 9.6,
+      "thickness_mm": 6.3,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アビラテロン酢酸エステル錠250mg「DSEP」 フィルムコーティング錠 ピンク色 A250EP 16.0（長径） 9.6（短径） 6.3 736"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291020F2058",
+  "source_file": "300119_4291020F1051_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4291020F1051_1_04",
+  "extracted_at": "2026-11-06T17:57:28.235Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33763,
+    "output": 368
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダサチニブ錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "ダサチニブ 50 サワイ",
+      "imprint_back": "ダサチニブ 50 サワイ",
+      "imprint_note": "本体表示として「ダサチニブ 50 サワイ」と記載。表裏の区別は文面からは不明（外形図には表・裏の2面と側面あり）。割線の記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 10.9,
+      "size_short_mm": 5.9,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 性　状 白色～微黄白色 直径（mm） 5.7 10.9×5.9 厚さ（mm） 3.3 3.6 重量（mg） 約83 約207 本体表示 ダサチニブ 20 サワイ ダサチニブ 50 サワイ"
+    }
+  ]
+}

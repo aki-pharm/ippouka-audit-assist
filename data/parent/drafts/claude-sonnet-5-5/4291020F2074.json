@@ -1,0 +1,30 @@
+{
+  "id": "4291020F2074",
+  "source_file": "672358_4291020F1078_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672358_4291020F1078_1_02",
+  "extracted_at": "2026-11-06T17:57:31.377Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33441,
+    "output": 233
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダサチニブ錠50mg「BMSH」",
+      "strength": "50mg",
+      "imprint_front": "BMH",
+      "imprint_back": "12",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 10.9,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の楕円形のフィルムコート錠 / 識別コード BMH 12 / 長径10.9mm 短径5.8mm / 厚さ 3.6mm"
+    }
+  ]
+}

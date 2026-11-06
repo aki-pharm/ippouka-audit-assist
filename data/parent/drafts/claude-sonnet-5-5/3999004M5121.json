@@ -1,0 +1,30 @@
+{
+  "id": "3999004M5121",
+  "source_file": "480187_3999004M3129_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480187_3999004M3129_1_16",
+  "extracted_at": "2026-11-06T17:41:25.339Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43012,
+    "output": 977
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シクロスポリンカプセル50mg「TC」",
+      "strength": "50mg",
+      "imprint_front": "34",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに表示。TCマーク（社名マーク）と「34」が併記されている。カプセル本体の刻印の記載は未確認。",
+      "color": "白色～淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 6.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の光沢のある軟カプセル剤で特異なにおいがある。 大きさ 長径 約18mm 短径 約6.5mm 質量 568mg 識別コード（PTPに表示）"
+    }
+  ]
+}

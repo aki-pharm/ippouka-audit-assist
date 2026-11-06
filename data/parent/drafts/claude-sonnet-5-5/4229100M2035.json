@@ -1,0 +1,30 @@
+{
+  "id": "4229100M2035",
+  "source_file": "400107_4229100D3023_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4229100D3023_1_08",
+  "extracted_at": "2026-11-06T17:52:39.362Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27850,
+    "output": 1073
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユーエフティ配合カプセルT100",
+      "strength": "1カプセル中 テガフール100mg・ウラシル224mg",
+      "imprint_front": "TC434",
+      "imprint_back": "未確認",
+      "imprint_note": "カプセル剤（2号カプセル）。大きさは全長17.6mm、長径6.3mm、短径6.0mm、質量414.2mg。size_long_mmは全長、size_short_mmは長径、thickness_mmは短径の値を入れた。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 17.6,
+      "size_short_mm": 6.3,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の顆粒及び粉末を含む白色の不透明硬カプセル剤である。 外形 2号カプセル 全長（mm）17.6 長径（mm）6.3 短径（mm）6.0 質量（mg）414.2 識別コード TC434"
+    }
+  ]
+}

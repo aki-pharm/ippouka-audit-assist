@@ -1,0 +1,30 @@
+{
+  "id": "3999037M2020",
+  "source_file": "780069_3999037M1023_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_3999037M1023_2_06",
+  "extracted_at": "2026-11-06T17:48:10.369Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41532,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サデルガカプセル25mg",
+      "strength": "25mg",
+      "imprint_front": "GZ04",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード GZ04（カプセル剤。外形は4号。重量約105.5mg）",
+      "color": "光沢のある乳白色",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 光沢のある乳白色の硬カプセル／外 形 4号／大きさ（約） 長径：14.3mm 短径：5.3mm 重量：105.5mg／識別コード GZ04"
+    }
+  ]
+}

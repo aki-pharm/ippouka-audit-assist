@@ -1,0 +1,30 @@
+{
+  "id": "3969010F2030",
+  "source_file": "170050_3969010F1034_2_36.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_3969010F1034_2_36",
+  "extracted_at": "2026-11-06T17:35:54.351Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26838,
+    "output": 1199
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジャヌビア錠50mg",
+      "strength": "50mg",
+      "imprint_front": "MSD 112",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは MSD 112。外形図では表面に表示され、裏面は割線のみ。裏面の刻印の有無は本文に明記なし。",
+      "color": "ごくうすい赤黄色",
+      "shape": "oblong",
+      "size_long_mm": 11.5,
+      "size_short_mm": 4.8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "長円形、フィルムコーティング錠（割線入り）／ごくうすい赤黄色／長径：11.5mm 短径：4.8mm／厚さ：3.1mm／識別コード MSD 112"
+    }
+  ]
+}

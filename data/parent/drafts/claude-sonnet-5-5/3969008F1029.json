@@ -1,0 +1,46 @@
+{
+  "id": "3969008F1029",
+  "source_file": "230034_3969008F1029_1_24.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_3969008F1029_1_24",
+  "extracted_at": "2026-11-06T17:34:42.998Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28223,
+    "output": 1292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グルファスト錠5mg",
+      "strength": "5mg",
+      "imprint_front": "なし",
+      "imprint_back": "GF 5",
+      "imprint_note": "表面は社名マーク（Ⓚ）のみ。識別コードはⒸ GF5（図中の表記）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 グルファスト錠5mg／含量 5mg／剤形 素錠／色調 白色／直径 6.0mm／厚さ 約2.0mm／質量 約75mg／識別コード GF5"
+    },
+    {
+      "product_name": "グルファストOD錠5mg",
+      "strength": "5mg",
+      "imprint_front": "なし",
+      "imprint_back": "GF D5",
+      "imprint_note": "表面は社名マーク（Ⓚ）のみ。識別コードはⒸ GFD5（図中の表記）",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 グルファストOD錠5mg／含量 5mg／剤形 素錠（口腔内崩壊錠）／色調 微黄白色／直径 6.4mm／厚さ 約3.1mm／質量 約100mg／識別コード GFD5"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999019F1034",
+  "source_file": "400256_3999019F1034_1_30.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_3999019F1034_1_30",
+  "extracted_at": "2026-11-06T17:44:31.788Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18364,
+    "output": 300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベネット錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "395",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「395」。上面に社名マーク（武田マーク）とみられる図が識別コードとともに表示。下面・側面の刻印の記載は図のみで文章の記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／錠剤の色 白色～帯黄白色／識別コード 395／形状 上面・下面・側面／直径(mm) 6.6／厚さ(mm) 3.4"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3969019F2058",
+  "source_file": "430773_3969019F1051_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3969019F1051_1_02",
+  "extracted_at": "2026-11-06T17:37:56.984Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29595,
+    "output": 694
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダパグリフロジン錠10mg「EP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印・識別コードの文字記載なし（外形は図のみ）",
+      "color": "淡黄色～黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ダパグリフロジン錠10mg「EP」 フィルムコーティング錠 淡黄色～黄色 直径7.6mm 厚さ3.4mm 質量156mg"
+    }
+  ]
+}

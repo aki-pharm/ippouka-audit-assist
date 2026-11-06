@@ -1,0 +1,30 @@
+{
+  "id": "4291012F1022",
+  "source_file": "672212_4291012F1022_4_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_4291012F1022_4_02",
+  "extracted_at": "2026-11-06T17:55:59.996Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15569,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロマシン錠 25mg",
+      "strength": "25mg",
+      "imprint_front": "7663",
+      "imprint_back": "なし",
+      "imprint_note": "上面に識別コード7663の記載あり。下面・側面の図には刻印の記載なし（下面は表示なし）。",
+      "color": "白色～微灰白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2022年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "識別コード 7663 色調等 白色～微灰白色 直径 糖衣錠 6.0mm 厚さ 4.0mm 重量 100mg"
+    }
+  ]
+}

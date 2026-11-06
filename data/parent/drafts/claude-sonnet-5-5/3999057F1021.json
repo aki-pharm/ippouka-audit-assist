@@ -1,0 +1,30 @@
+{
+  "id": "3999057F1021",
+  "source_file": "670605_3999057F1021_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_3999057F1021_1_03",
+  "extracted_at": "2026-11-06T17:50:36.081Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29360,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソーティクツ錠6mg",
+      "strength": "6mg",
+      "imprint_front": "BMS 895",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「BMS 895」。外観図には「BMS 895」「6mg」の印字が表に示されているが、裏面・側面の刻印の記載は本文にない",
+      "color": "薄い黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第4版、効能変更）",
+      "source_page": 1,
+      "source_quote": "性状 薄い黄赤色の円形のフィルムコーティング錠 識別コード BMS 895 直径 約8.1mm 厚さ 約4.1mm 重さ 約206mg"
+    }
+  ]
+}

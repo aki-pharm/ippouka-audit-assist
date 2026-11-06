@@ -1,0 +1,30 @@
+{
+  "id": "3999026F2090",
+  "source_file": "480235_3999026F2090_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999026F2090_1_08",
+  "extracted_at": "2026-11-06T17:46:36.358Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19354,
+    "output": 329
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "ミノドロン 50 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ミノドロン 50 トーワ」と記載。表・裏・側面の外形図あり（表裏それぞれの表示の内訳は文章では確認できない）",
+      "color": "ごくうすい赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 ごくうすい赤色の楕円形のフィルムコーティング錠 本体表示 ミノドロン 50 トーワ 直径(mm) 13.1／7.1（長径／短径） 厚さ(mm) 4.2"
+    }
+  ]
+}

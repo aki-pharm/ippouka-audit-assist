@@ -1,0 +1,30 @@
+{
+  "id": "3999013F1371",
+  "source_file": "430773_3999013F1371_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3999013F1371_1_03",
+  "extracted_at": "2026-11-06T17:41:59.849Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12701,
+    "output": 253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エパルレスタット錠50mg「DSEP」",
+      "strength": "50mg",
+      "imprint_front": "NS 36",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NS36。外形の図では表面に「NS 36」の表示あり。裏面の刻印の記載は確認できず。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "エパルレスタット錠50mg「DSEP」 フィルムコート錠 白色 NS36 6.6 3.7 120"
+    }
+  ]
+}

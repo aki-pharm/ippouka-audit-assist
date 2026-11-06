@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1214",
+  "source_file": "581120_4291011F1214_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_4291011F1214_1_03",
+  "extracted_at": "2026-11-06T17:55:45.108Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27781,
+    "output": 285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「NIG」",
+      "strength": "100mg",
+      "imprint_front": "NIG",
+      "imprint_back": "IM 01",
+      "imprint_note": "識別コード：NIG IM 01。片面割線入り",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 くすんだ黄赤色～濃い黄赤色の片面割線入りのフィルムコーティング錠 外形 直径：9.1mm 厚さ：3.7mm 質量：195.7mg 識別コード NIG IM 01"
+    }
+  ]
+}

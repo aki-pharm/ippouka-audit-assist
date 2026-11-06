@@ -1,0 +1,30 @@
+{
+  "id": "4291024M1032",
+  "source_file": "672358_4291024M1032_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672358_4291024M1032_1_04",
+  "extracted_at": "2026-11-06T17:58:16.461Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 39694,
+    "output": 645
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レナリドミドカプセル5mg「BMSH」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は硬カプセル剤（錠剤ではない）。性状欄の文章に刻印・識別コードの記載なし（外形図に表示あり、文字は判読不能）。カプセル号数2。",
+      "color": "白色〜灰黄白色（不透明）",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 6.35,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 レナリドミドカプセル5mg「BMSH」 色 白色〜灰黄白色（不透明） 剤形 硬カプセル剤 大きさ 長径 18.0mm 短径 6.35mm カプセル号数 2"
+    }
+  ]
+}

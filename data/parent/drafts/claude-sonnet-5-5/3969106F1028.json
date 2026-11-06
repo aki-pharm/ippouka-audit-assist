@@ -1,0 +1,46 @@
+{
+  "id": "3969106F1028",
+  "source_file": "400315_3969106F1028_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_3969106F1028_1_20",
+  "extracted_at": "2026-11-06T17:40:02.758Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 39573,
+    "output": 1328
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カナリア配合錠（1錠中 テネリグリプチンとして20mg/カナグリフロジンとして100mg）",
+      "strength": "1錠（テネリグリプチン20mg/カナグリフロジン100mg）",
+      "imprint_front": "カナリア",
+      "imprint_back": "カナリア",
+      "imprint_note": "外形図の表示に基づく（刻印・印字の表記は「カナリア」）。本文に刻印の文章記載はなし。割線の記載なし。",
+      "color": "うすい橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすい橙色・フィルムコーティング錠 外形 カナリア 直径（mm）8.6 厚さ（mm）4.5 重量（mg）244"
+    },
+    {
+      "product_name": "カナリア配合OD錠（1錠中 テネリグリプチンとして20mg/カナグリフロジンとして100mg）",
+      "strength": "1錠（テネリグリプチン20mg/カナグリフロジン100mg）",
+      "imprint_front": "カナリアOD",
+      "imprint_back": "カナリアOD",
+      "imprint_note": "外形図の表示に基づく（刻印・印字の表記は「カナリアOD」）。本文に刻印の文章記載はなし。割線の記載なし。",
+      "color": "淡黄褐色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄褐色・素錠（口腔内崩壊錠） 外形 カナリアOD 直径（mm）9.5 厚さ（mm）4.4 重量（mg）303.6"
+    }
+  ]
+}

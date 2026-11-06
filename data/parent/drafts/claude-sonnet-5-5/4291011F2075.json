@@ -1,0 +1,30 @@
+{
+  "id": "4291011F2075",
+  "source_file": "300119_4291011F1133_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4291011F1133_1_18",
+  "extracted_at": "2026-11-06T17:55:57.631Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30035,
+    "output": 938
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠200mg「サワイ」",
+      "strength": "200mg",
+      "imprint_front": "SW IT 200",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはSW IT 200（表裏の区別は本文に記載なし）",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": null,
+      "size_long_mm": 13.7,
+      "size_short_mm": 6.9,
+      "thickness_mm": 5.4,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 / 性状 くすんだ黄赤色～濃い黄赤色 / 直径（mm） 13.7×6.9 / 厚さ（mm） 5.4 / 識別コード SW IT 200"
+    }
+  ]
+}

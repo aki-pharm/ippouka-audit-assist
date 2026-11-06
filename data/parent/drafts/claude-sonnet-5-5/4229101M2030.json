@@ -1,0 +1,30 @@
+{
+  "id": "4229101M2030",
+  "source_file": "400107_4229101D1025_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4229101D1025_1_14",
+  "extracted_at": "2026-11-06T17:53:14.117Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37499,
+    "output": 1211
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ティーエスワン配合カプセルT25",
+      "strength": "25mg（1カプセル中テガフール25mg）",
+      "imprint_front": "TC443",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードTC443。本文に表裏の区別の記載はない。大きさは全長14.5mm、長径5.2mm、短径5.0mm（4号カプセル）。size_long_mmは全長、size_short_mmは長径、thickness_mmは短径の値を入れた。",
+      "color": "キャップがだいだい色、ボディが白色",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": 5.2,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の粉末及び粒を含むキャップがだいだい色、ボディが白色の不透明硬カプセル剤である。／4号カプセル／全長14.5mm 長径5.2mm 短径5.0mm 質量約214mg／識別コード TC443"
+    }
+  ]
+}

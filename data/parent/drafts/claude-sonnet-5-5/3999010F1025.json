@@ -1,0 +1,30 @@
+{
+  "id": "3999010F1025",
+  "source_file": "400093_3999010F1025_2_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_3999010F1025_2_23",
+  "extracted_at": "2026-11-06T17:41:35.026Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19149,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダイドロネル錠200",
+      "strength": "200mg",
+      "imprint_front": "202",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に社名マーク（◆状のマーク）と「202」の記載あり。裏面の刻印は文章では不明。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠 / 大きさ 直径（mm）約9 厚さ（mm）約3.5 重さ（mg）約255 / 識別コード 202"
+    }
+  ]
+}

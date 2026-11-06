@@ -1,0 +1,30 @@
+{
+  "id": "3969008F3056",
+  "source_file": "400278_3969008F3056_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3969008F3056_1_06",
+  "extracted_at": "2026-11-06T17:34:51.018Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30994,
+    "output": 213
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミチグリニドCa・OD錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "TU 344",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ミチグリニドCa・OD錠5mg「TCK」 白色 素錠 TU 344 6.0 2.4 75"
+    }
+  ]
+}

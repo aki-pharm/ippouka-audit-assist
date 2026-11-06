@@ -1,0 +1,30 @@
+{
+  "id": "3999013F1410",
+  "source_file": "730869_3999013F1410_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3999013F1410_1_03",
+  "extracted_at": "2026-11-06T17:42:05.973Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12445,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エパルレスタット錠50mg「VTRS」",
+      "strength": "50mg",
+      "imprint_front": "EP 50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「EP 50」。上面の図には「EP 50」の表示があり、下面は無地の図で刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "エパルレスタット錠50mg「VTRS」 EP 50 白色 フィルムコーティング錠 直径 7mm 厚さ 2.9mm 重量 120mg"
+    }
+  ]
+}

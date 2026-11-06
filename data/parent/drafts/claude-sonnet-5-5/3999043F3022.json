@@ -1,0 +1,30 @@
+{
+  "id": "3999043F3022",
+  "source_file": "530471_3999043F1020_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530471_3999043F1020_1_18",
+  "extracted_at": "2026-11-06T17:48:54.896Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 73683,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルミエント錠1mg",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「(刻印)」とあるが、刻印の文字は本文テキストからは読み取れない（外形の図に社名マークと「1」らしき表示があるが、文字としては確認できない）",
+      "color": "微赤白色",
+      "shape": "round",
+      "size_long_mm": 6.75,
+      "size_short_mm": 6.75,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第13版）",
+      "source_page": 2,
+      "source_quote": "くぼみのある微赤白色の円形のフィルムコーティング錠 直径:約6.75mm 厚さ:2.5mm 重量:約0.1g 識別コード (刻印)"
+    }
+  ]
+}

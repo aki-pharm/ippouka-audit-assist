@@ -1,0 +1,30 @@
+{
+  "id": "4219002F1034",
+  "source_file": "112268_4219002F1034_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112268_4219002F1034_2_06",
+  "extracted_at": "2026-11-06T17:51:47.554Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11614,
+    "output": 747
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルケラン錠2mg",
+      "strength": "2mg",
+      "imprint_front": "GX EH3",
+      "imprint_back": "未確認",
+      "imprint_note": "本文には識別コード GX EH3 のみ記載。外形図には「A」を丸で囲んだ表示があるが、本文に刻印としての記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 直径 6.5mm 厚さ 3.5mm 質量 103mg 識別コード GX EH3"
+    }
+  ]
+}

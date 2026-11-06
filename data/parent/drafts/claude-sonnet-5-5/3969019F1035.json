@@ -1,0 +1,30 @@
+{
+  "id": "3969019F1035",
+  "source_file": "400813_3969019F1035_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_3969019F1035_1_01",
+  "extracted_at": "2026-11-06T17:37:38.689Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29581,
+    "output": 878
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダパグリフロジン錠5mg「TSP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印・識別コードの記載なし（形状の図に印字らしきものがあるが文章では確認できない）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色のフィルムコーティング錠／直径（mm） 6.8／厚さ（mm） 3.9／重量（mg） 129"
+    }
+  ]
+}

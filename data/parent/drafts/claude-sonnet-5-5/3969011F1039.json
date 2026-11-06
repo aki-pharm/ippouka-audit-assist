@@ -1,0 +1,30 @@
+{
+  "id": "3969011F1039",
+  "source_file": "580591_3969011F1039_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3969011F1039_1_02",
+  "extracted_at": "2026-11-06T17:36:12.760Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28439,
+    "output": 324
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビルダグリプチン錠50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "ビルダ50／ビルダグリプチン 50 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ビルダ50／ビルダグリプチン 50 JG」と記載。表面・裏面・側面のどれに対応するかは文字情報からは判別できないため、表・裏の振り分けは未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りの素錠　直径 8.0mm　厚さ 3.7mm　重量 200mg　本体表示 ビルダ50／ビルダグリプチン 50 JG"
+    }
+  ]
+}

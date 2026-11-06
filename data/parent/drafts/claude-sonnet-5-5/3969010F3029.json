@@ -1,0 +1,30 @@
+{
+  "id": "3969010F3029",
+  "source_file": "180188_3969010F1026_1_37.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_3969010F1026_1_37",
+  "extracted_at": "2026-11-06T17:35:58.864Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26810,
+    "output": 1022
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グラクティブ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "ono 662",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表面に「ono 662」。裏面の刻印は文字情報では確認できない。",
+      "color": "うすい赤黄色",
+      "shape": "round",
+      "size_long_mm": 9.8,
+      "size_short_mm": 9.8,
+      "thickness_mm": 4.2,
+      "score_line": false,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 グラクティブ錠100mg：剤形 フィルムコーティング錠、色調 うすい赤黄色、直径（mm）9.8、厚さ（mm）4.2、質量（mg）約416、識別コード 662（ono 662）"
+    }
+  ]
+}

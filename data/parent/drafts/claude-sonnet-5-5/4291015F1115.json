@@ -1,0 +1,30 @@
+{
+  "id": "4291015F1115",
+  "source_file": "400073_4291015F1115_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_4291015F1115_1_05",
+  "extracted_at": "2026-11-06T17:56:28.595Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23631,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レトロゾール錠2.5mg「ケミファ」",
+      "strength": "2.5mg",
+      "imprint_front": "DK",
+      "imprint_back": "523",
+      "imprint_note": "識別コード：DK 523（外形の表にDK、裏に523の表示）",
+      "color": "帯赤黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 帯赤黄色のフィルムコーティング錠 外形 表 裏 側面 直径 6.1mm 厚さ 3.3mm 重量 102.0mg 識別コード DK 523"
+    }
+  ]
+}

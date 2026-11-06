@@ -1,0 +1,30 @@
+{
+  "id": "3999028F2021",
+  "source_file": "300242_3999028F1025_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_3999028F1025_2_08",
+  "extracted_at": "2026-11-06T17:46:58.814Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32648,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボレード錠25mg",
+      "strength": "25mg",
+      "imprint_front": "GSNX3",
+      "imprint_back": "25",
+      "imprint_note": "識別コードは「GSNX3 25」と記載。表裏の区別は文書の文字情報からは明記されていないため、表にGSNX3、裏に25と読み取った",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.3,
+      "size_short_mm": 10.3,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色円形のフィルムコーティング錠／識別コード GSNX3 25／大きさ（約） 直径：10.3mm　厚さ：4.2mm 質量：364mg"
+    }
+  ]
+}

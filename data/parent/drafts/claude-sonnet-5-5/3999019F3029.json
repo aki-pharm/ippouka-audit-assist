@@ -1,0 +1,30 @@
+{
+  "id": "3999019F3029",
+  "source_file": "111890_3999019F3029_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/111890_3999019F3029_1_14",
+  "extracted_at": "2026-11-06T17:45:04.904Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17396,
+    "output": 316
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アクトネル錠75mg",
+      "strength": "75mg",
+      "imprint_front": "アクトネル75",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「―注）」で、注）に「「アクトネル75」の印字あり」と記載。表面に印字。裏・側面の刻印の記載なし",
+      "color": "微黄色",
+      "shape": "oval",
+      "size_long_mm": 10.2,
+      "size_short_mm": 5.2,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "アクトネル錠75mg フィルムコーティング錠 微黄色 楕円形 ―注） 長径（mm）・短径（mm）・質量（g）・厚さ（mm） 約10.2 約5.2 約0.21 約4.0 注）「アクトネル75」の印字あり"
+    }
+  ]
+}

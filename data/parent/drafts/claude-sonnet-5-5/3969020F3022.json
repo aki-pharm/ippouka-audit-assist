@@ -1,0 +1,30 @@
+{
+  "id": "3969020F3022",
+  "source_file": "400059_3969020F3022_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_3969020F3022_1_03",
+  "extracted_at": "2026-11-06T17:38:21.967Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34980,
+    "output": 640
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルセフィ OD フィルム 2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印・識別コードの記載なし（形状欄は図のみ）。剤形は口腔内崩壊フィルム剤（錠剤ではない）。厚さは70～90μmと範囲で記載されているため thickness_mm は null とした",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 20,
+      "size_short_mm": 14,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版、用法変更）",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊フィルム剤 / 色調 白色 / 大きさ 長辺（mm）20 短辺（mm）14 厚さ（μm）70～90"
+    }
+  ]
+}

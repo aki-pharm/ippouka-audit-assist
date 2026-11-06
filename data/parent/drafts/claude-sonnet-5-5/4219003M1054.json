@@ -1,0 +1,30 @@
+{
+  "id": "4219003M1054",
+  "source_file": "530263_4219003M1054_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_4219003M1054_1_08",
+  "extracted_at": "2026-11-06T17:51:45.174Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13483,
+    "output": 241
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エストラサイトカプセル156.7mg",
+      "strength": "156.7mg",
+      "imprint_front": "401",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード401（添付文書の図では社名マークの付いた表示。文書本文は「識別コード 401」）。剤形は硬カプセル剤で錠剤ではない。",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の色 白色 形状 硬カプセル剤 識別コード 401"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291011F2059",
+  "source_file": "480235_4291011F1168_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4291011F1168_1_15",
+  "extracted_at": "2026-11-06T17:55:53.545Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30019,
+    "output": 770
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "Tw545",
+      "imprint_back": "200",
+      "imprint_note": "識別コードはTw545。裏面の「200」は文章ではなく外形図から読み取った。",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "oval",
+      "size_long_mm": 16,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "くすんだ黄赤色～濃い黄赤色の楕円形の割線入りのフィルムコーティング錠　識別コード Tw545　直径(mm) 16.0／7.4（長径／短径）　厚さ(mm) 4.7"
+    }
+  ]
+}

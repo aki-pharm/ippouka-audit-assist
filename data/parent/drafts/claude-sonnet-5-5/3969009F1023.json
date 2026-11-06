@@ -1,0 +1,30 @@
+{
+  "id": "3969009F1023",
+  "source_file": "300297_3969009F1023_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3969009F1023_1_20",
+  "extracted_at": "2026-11-06T17:35:14.460Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22350,
+    "output": 668
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セイブル錠25mg",
+      "strength": "25mg",
+      "imprint_front": "Sc395",
+      "imprint_back": "25",
+      "imprint_note": "表は識別コードSc395。裏の「25」は外形図の表示から確認。両面割線入り。",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 4.5,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色両面割線入り楕円形のフィルムコーティング錠　長径 10.0mm　短径 4.5mm　厚さ 2.9mm　重量 129mg　識別コード Sc395"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999031F1060",
+  "source_file": "530213_3999031F1060_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3999031F1060_2_02",
+  "extracted_at": "2026-11-06T17:47:41.074Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18977,
+    "output": 310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イグラチモド錠25mg「ケミファ」",
+      "strength": "25mg",
+      "imprint_front": "イグラチモド 25 ケミファ",
+      "imprint_back": "イグラチモド 25 ケミファ",
+      "imprint_note": "識別コードは「イグラチモド 25 ケミファ」と記載。外形の表・裏に印字の図あり（表裏の個別の文字内容は本文に明記なし）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.1,
+      "score_line": false,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 直径 7.6mm 厚さ 4.1mm 重量 190.6mg 識別コード イグラチモド　25　ケミファ"
+    }
+  ]
+}

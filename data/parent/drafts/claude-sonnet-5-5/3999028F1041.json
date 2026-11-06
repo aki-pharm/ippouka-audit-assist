@@ -1,0 +1,30 @@
+{
+  "id": "3999028F1041",
+  "source_file": "300119_3999028F1041_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3999028F1041_1_01",
+  "extracted_at": "2026-11-06T17:46:54.286Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24248,
+    "output": 331
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルトロンボパグ錠12.5mg「サワイ」",
+      "strength": "12.5mg",
+      "imprint_front": "エルトロンボパグ 12.5 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「エルトロンボパグ 12.5 サワイ」と記載。表裏の区別は文章では明記されていない。外形図に両面と側面の図あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 性状 白色 / 直径（mm） 8.0 / 厚さ（mm） 3.6 / 重量（mg） 約184 / 本体表示 エルトロンボパグ 12.5 サワイ"
+    }
+  ]
+}

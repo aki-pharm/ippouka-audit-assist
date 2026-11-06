@@ -1,0 +1,30 @@
+{
+  "id": "4229001M1027",
+  "source_file": "450900_4229001M1027_4_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_4229001M1027_4_02",
+  "extracted_at": "2026-11-06T17:52:30.250Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12495,
+    "output": 314
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハイドレアカプセル500 mg",
+      "strength": "500 mg",
+      "imprint_front": "CHP 500",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル（錠剤ではない）。識別コード CHP 500。サイズは0号。内容物は白色の粉末。表裏の区別は記載なし。",
+      "color": "ボディ：帯紫赤色不透明 キャップ：帯青緑色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色 ボディ：帯紫赤色不透明 キャップ：帯青緑色不透明 内容物 白色の粉末 形 状 サイズ 0号 硬カプセル 識別コード CHP 500"
+    }
+  ]
+}

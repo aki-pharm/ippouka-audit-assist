@@ -1,0 +1,30 @@
+{
+  "id": "4291013F1043",
+  "source_file": "580591_4291013F1043_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_4291013F1043_1_06",
+  "extracted_at": "2026-11-06T17:56:07.066Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28990,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゲフィチニブ錠250mg「JG」",
+      "strength": "250mg",
+      "imprint_front": "JG G35",
+      "imprint_back": "250",
+      "imprint_note": "表面に「JG」「G35」、裏面に「250」の印字。識別コードは「JG G35」。",
+      "color": "褐色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.5,
+      "score_line": false,
+      "source_revision": "2025年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ゲフィチニブ錠250mg「JG」 褐色フィルムコーティング錠 表面 裏面 側面 JG G35 直径11.1mm 厚さ5.5mm 重量512mg 識別コード JG G35"
+    }
+  ]
+}

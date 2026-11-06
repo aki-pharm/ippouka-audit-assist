@@ -1,0 +1,30 @@
+{
+  "id": "3999031F1051",
+  "source_file": "172190_3999031F1051_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_3999031F1051_1_02",
+  "extracted_at": "2026-11-06T17:47:36.135Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18538,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イグラチモド錠25mg「あゆみ」",
+      "strength": "25mg",
+      "imprint_front": "イグラチモド 25 あゆみ",
+      "imprint_back": "なし",
+      "imprint_note": "外形図の表に「イグラチモド25あゆみ」の印字あり、裏・側面に表示なし。割線の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形：フィルムコーティング錠　識別コード：イグラチモド25 あゆみ　直径(mm)：約7.6　質量(mg)：約190.6　厚さ(mm)：約4.1　色：白色"
+    }
+  ]
+}

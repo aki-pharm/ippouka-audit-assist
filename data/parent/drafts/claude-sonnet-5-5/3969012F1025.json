@@ -1,0 +1,30 @@
+{
+  "id": "3969012F1025",
+  "source_file": "470310_3969012F1025_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3969012F1025_2_02",
+  "extracted_at": "2026-11-06T17:36:38.519Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25130,
+    "output": 842
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ネシーナ錠6.25mg",
+      "strength": "6.25mg",
+      "imprint_front": "ネシーナ 6.25",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤表示として「ネシーナ 6.25」。上面に表示。下面の刻印の記載は文章中になし",
+      "color": "淡赤色",
+      "shape": "oblong",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形：割線入りのフィルムコーティング錠／錠剤の色：淡赤色／製剤表示：ネシーナ 6.25／長径(mm)：10.1／短径(mm)：5.1／厚さ(mm)：約3.4"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291021M2027",
+  "source_file": "300242_4291021M1020_1_30.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291021M1020_1_30",
+  "extracted_at": "2026-11-06T17:57:41.229Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41596,
+    "output": 727
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タシグナカプセル150mg",
+      "strength": "150mg",
+      "imprint_front": "NVR BCR",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は錠剤ではなく硬カプセル。識別コードは「NVR BCR」とのみ記載があり、表裏の区別は書かれていない。",
+      "color": "黄赤色",
+      "shape": "oblong",
+      "size_long_mm": 19.4,
+      "size_short_mm": 6.7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "外観：黄赤色の不透明の硬カプセル／識別コード：NVR BCR／大きさ（約）：長径：19.4mm 短径：6.7mm 質量：0.38g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999019F2049",
+  "source_file": "300119_3999019F2049_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3999019F2049_1_14",
+  "extracted_at": "2026-11-06T17:44:48.121Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19968,
+    "output": 324
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠17.5mg「サワイ」",
+      "strength": "17.5mg",
+      "imprint_front": "リセドロン 17.5 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：リセドロン 17.5 サワイ。外形図は表面・裏面・側面が描かれているが、裏面の刻印の記載は文章では確認できない。",
+      "color": "淡紅色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 淡紅色 直径（mm） 8.1×4.6 厚さ（mm） 3.5 重量（mg） 約114 本体表示 リセドロン 17.5 サワイ"
+    }
+  ]
+}

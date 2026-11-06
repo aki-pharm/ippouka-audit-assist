@@ -1,0 +1,30 @@
+{
+  "id": "3999065M1025",
+  "source_file": "180078_3999065M1025_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_3999065M1025_1_03",
+  "extracted_at": "2026-11-06T17:51:04.119Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26377,
+    "output": 322
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルプキネスカプセル7.9mg",
+      "strength": "7.9mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印・識別コードの記載なし。剤形は軟カプセル（錠剤ではない）。内容物は無色～黄色の澄明な液又は半固体、重さ約0.4g",
+      "color": "淡黄赤色～黄赤色",
+      "shape": "oblong",
+      "size_long_mm": 12.5,
+      "size_short_mm": 6.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ルプキネスカプセル7.9mg 淡黄赤色～黄赤色 軟カプセル 無色～黄色の澄明な液又は半固体 約12.5（長径）約6.3（短径） 約0.4"
+    }
+  ]
+}

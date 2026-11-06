@@ -1,0 +1,30 @@
+{
+  "id": "3969018F1022",
+  "source_file": "800126_3969018F1022_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_3969018F1022_1_16",
+  "extracted_at": "2026-11-06T17:37:26.180Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36072,
+    "output": 795
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スーグラ錠25mg",
+      "strength": "25mg",
+      "imprint_front": "スーグラ 25",
+      "imprint_back": "スーグラ 25",
+      "imprint_note": "本文に文字での記載はなく、3.2 製剤の性状の外形図（表・裏）の印字から読み取った。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年8月改訂（第5版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "スーグラ錠25mg フィルムコーティング錠 淡黄色 直径 約8.1mm 厚さ 約3.6mm 重量 約186mg"
+    }
+  ]
+}

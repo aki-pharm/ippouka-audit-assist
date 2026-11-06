@@ -1,0 +1,30 @@
+{
+  "id": "4219004M1024",
+  "source_file": "180095_4219004M1024_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_4219004M1024_2_02",
+  "extracted_at": "2026-11-06T17:51:57.457Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28520,
+    "output": 667
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テモダール®カプセル20mg",
+      "strength": "20mg",
+      "imprint_front": "20mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは社名マークと「20mg」（印字は茶色）。剤形は硬カプセル剤で錠剤ではない。号数は2号。外形は図のみで文章の記載なし。",
+      "color": "キャップ：白色不透明、ボディ：白色不透明、印字：茶色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／色 キャップ 白色不透明、ボディ 白色不透明、印字 茶色／号数 2号／識別コード 20mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999020F2025",
+  "source_file": "780069_3999020F1029_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_3999020F1029_1_22",
+  "extracted_at": "2026-11-06T17:45:10.115Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35230,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アラバ錠20mg",
+      "strength": "20mg",
+      "imprint_front": "ZBO",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：ZBO。表示面（表・裏）の区別は添付文書の文章には記載なし（外形図には錠剤に ZBO の印字が描かれている）",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 アラバ錠20mg／色・剤形 微黄白色のフィルムコーティング錠／直径（mm）7.1／厚さ（mm）4.1／重量（mg）153.5／識別コード ZBO"
+    }
+  ]
+}

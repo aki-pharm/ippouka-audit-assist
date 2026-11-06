@@ -1,0 +1,30 @@
+{
+  "id": "4223005F1090",
+  "source_file": "400073_4223005F1090_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_4223005F1090_1_02",
+  "extracted_at": "2026-11-06T17:52:26.313Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37238,
+    "output": 324
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カペシタビン錠300mg「タカタ」",
+      "strength": "300mg",
+      "imprint_front": "カペシタビン 300 タカタ",
+      "imprint_back": "カペシタビン 300 タカタ",
+      "imprint_note": "表面・裏面ともに「カペシタビン」「300」「タカタ」の印字。本文テキストでは「タカタ」「カペシタビン」のみ抽出され、300 は図中の表記より",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.5,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4.8,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 表面 裏面 側面 サイズ 長径 13.5mm 短径 7.2mm 厚さ 4.8mm 質量 385mg"
+    }
+  ]
+}

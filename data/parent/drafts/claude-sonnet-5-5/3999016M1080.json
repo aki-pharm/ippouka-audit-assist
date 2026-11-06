@@ -1,0 +1,30 @@
+{
+  "id": "3999016M1080",
+  "source_file": "270428_3999016M1080_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_3999016M1080_1_10",
+  "extracted_at": "2026-11-06T17:43:41.245Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23937,
+    "output": 732
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトトレキサートカプセル2mg「サンド」",
+      "strength": "2mg",
+      "imprint_front": "Sz834",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤（4号硬カプセル）。識別コードは Sz834 と記載されており、表裏の別は文書上の記載では確認できない。大きさ（長径・短径・厚さ）の記載なし、質量140mg。",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／色調 黄色／性状 内容物は淡黄色の粉末／外形 （4号硬カプセル）／質量 140mg／識別コード Sz834"
+    }
+  ]
+}

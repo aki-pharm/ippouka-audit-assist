@@ -1,0 +1,30 @@
+{
+  "id": "3999018F1200",
+  "source_file": "730869_3999018F1200_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3999018F1200_2_02",
+  "extracted_at": "2026-11-06T17:44:03.873Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20912,
+    "output": 252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "M 117",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード M117。外形の図ではおもて面に「M/117」の表示。裏面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 外形 直径：8.0mm 厚さ：3.0mm 質量：190mg 識別コード M117"
+    }
+  ]
+}

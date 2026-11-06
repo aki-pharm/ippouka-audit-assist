@@ -1,0 +1,30 @@
+{
+  "id": "3999013F1339",
+  "source_file": "480235_3999013F1339_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999013F1339_1_04",
+  "extracted_at": "2026-11-06T17:41:49.152Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12747,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エパルレスタット錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw247",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード Tw247。外形の図は表に Tw/247 の印字、裏は無地",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコート錠 識別コード Tw247 外形 表 裏 側面 直径(mm) 6.7 厚さ(mm) 3.8 質量(mg) 120"
+    }
+  ]
+}

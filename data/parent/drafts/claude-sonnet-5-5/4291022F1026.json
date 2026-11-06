@@ -1,0 +1,30 @@
+{
+  "id": "4291022F1026",
+  "source_file": "300242_4291022F1026_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291022F1026_2_05",
+  "extracted_at": "2026-11-06T17:57:51.569Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32758,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タイケルブ錠250mg",
+      "strength": "250mg",
+      "imprint_front": "GS XJG",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：GS XJG（外形図では片面に「GS XJG」の表示、他の面・側面の刻印の記載は確認できない）",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 19.1,
+      "size_short_mm": 10.5,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2020年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 黄色楕円形のフィルムコーティング錠 / 識別コード GS XJG / 大きさ（約） 長径：19.1mm 短径：10.5mm 厚さ：6.5mm 質量：0.927g"
+    }
+  ]
+}

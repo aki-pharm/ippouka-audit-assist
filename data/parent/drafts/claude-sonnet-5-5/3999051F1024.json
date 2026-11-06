@@ -1,0 +1,30 @@
+{
+  "id": "3999051F1024",
+  "source_file": "300242_3999051F1024_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_3999051F1024_1_05",
+  "extracted_at": "2026-11-06T17:49:56.207Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35888,
+    "output": 703
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メーゼント錠0.25mg",
+      "strength": "0.25mg",
+      "imprint_front": "なし",
+      "imprint_back": "T",
+      "imprint_note": "識別コード欄は社名マークとT。外形図では表は社名マークのみ、裏がT",
+      "color": "薄い赤色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状：薄い赤色のフィルムコーティング錠　識別コード：T　大きさ（約）：直径：6.2mm　厚さ：2.8mm　質量：89.6mg"
+    }
+  ]
+}

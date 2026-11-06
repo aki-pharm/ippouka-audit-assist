@@ -1,0 +1,30 @@
+{
+  "id": "3969009F2020",
+  "source_file": "300297_3969009F1023_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3969009F1023_1_20",
+  "extracted_at": "2026-11-06T17:35:16.432Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22350,
+    "output": 693
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セイブル錠50mg",
+      "strength": "50mg",
+      "imprint_front": "Sc396",
+      "imprint_back": "50",
+      "imprint_note": "識別コードSc396は表面。裏面の「50」は外形図に表示されたもの（本文には記載なし）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 4.5,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "白色両面割線入り楕円形のフィルムコーティング錠　長径 10.0mm　短径 4.5mm　厚さ 2.9mm　識別コード Sc396"
+    }
+  ]
+}

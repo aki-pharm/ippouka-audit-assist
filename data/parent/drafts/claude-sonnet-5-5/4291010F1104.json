@@ -1,0 +1,30 @@
+{
+  "id": "4291010F1104",
+  "source_file": "530100_4291010F1104_5_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_4291010F1104_5_07",
+  "extracted_at": "2026-11-06T17:54:55.752Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21381,
+    "output": 252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アナストロゾール錠1mg「NP」",
+      "strength": "1mg",
+      "imprint_front": "A1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：A1（錠剤表面の識別コードとして記載。裏面の刻印の記載は文章中になし）。重量98mg",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アナストロゾール錠1mg「NP」 白色円形のフィルムコーティング錠 6.1 2.8 98 A1"
+    }
+  ]
+}

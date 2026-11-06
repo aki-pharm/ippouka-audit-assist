@@ -1,0 +1,30 @@
+{
+  "id": "3969011F1110",
+  "source_file": "400073_3969011F1110_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_3969011F1110_1_02",
+  "extracted_at": "2026-11-06T17:36:33.454Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27518,
+    "output": 679
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビルダグリプチン錠50mg「フェルゼン」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表面・裏面の印字らしき図はあるが、性状欄の本文には刻印・識別コードの記載がない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の片面割線入りの素錠 直径：6.5mm 厚さ：2.5mm 質量：100mg"
+    }
+  ]
+}

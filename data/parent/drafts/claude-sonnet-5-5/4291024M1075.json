@@ -1,0 +1,30 @@
+{
+  "id": "4291024M1075",
+  "source_file": "670142_4291024M2071_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670142_4291024M2071_1_03",
+  "extracted_at": "2026-11-06T17:58:31.339Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36048,
+    "output": 747
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レナリドミドカプセル5mg「FNK」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの記載なし。外形図に印字があるが本文では読み取れないため未確認。剤形は硬カプセル剤（3号）で、錠剤ではない。",
+      "color": "上部：白色～灰黄白色不透明、下部：白色～灰黄白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色 上部：白色～灰黄白色不透明 下部：白色～灰黄白色不透明／剤形 硬カプセル剤／大きさ 長径 約15.8mm 短径 約5.8mm／カプセル号数 3号"
+    }
+  ]
+}

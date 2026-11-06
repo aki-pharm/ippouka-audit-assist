@@ -1,0 +1,30 @@
+{
+  "id": "3969020F2026",
+  "source_file": "400059_3969020F1020_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_3969020F1020_1_13",
+  "extracted_at": "2026-11-06T17:38:14.932Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34411,
+    "output": 808
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルセフィ錠 5mg",
+      "strength": "5mg",
+      "imprint_front": "ルセフィ 5",
+      "imprint_back": "ルセフィ 5",
+      "imprint_note": "本文に刻印の記載はなく、3.2 製剤の性状の外形図（上面・下面）の表示から読み取り。側面の表示は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版、用法変更）",
+      "source_page": 1,
+      "source_quote": "ルセフィ錠 5mg 白色 フィルムコーティング錠 上面 下面 側面 直径（mm） 厚さ（mm） 重量（mg） 約 8.6 約 5.0 約 286"
+    }
+  ]
+}

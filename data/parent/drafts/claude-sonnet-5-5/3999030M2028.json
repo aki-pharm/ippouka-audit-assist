@@ -1,0 +1,30 @@
+{
+  "id": "3999030M2028",
+  "source_file": "112604_3999030M2028_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112604_3999030M2028_1_02",
+  "extracted_at": "2026-11-06T17:47:27.689Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14118,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オプフォルダカプセル65mg",
+      "strength": "65mg",
+      "imprint_front": "AT2221",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：AT2221（外形図ではカプセル上に表示）。製品は硬カプセルであり錠剤ではない。",
+      "color": "ボディが白色不透明でキャップが灰色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ボディが白色不透明でキャップが灰色不透明の硬カプセル／大きさ 2号カプセル／識別コード AT2221"
+    }
+  ]
+}

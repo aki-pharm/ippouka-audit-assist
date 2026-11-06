@@ -1,0 +1,30 @@
+{
+  "id": "4229101F1050",
+  "source_file": "340264_4229101F1050_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340264_4229101F1050_1_08",
+  "extracted_at": "2026-11-06T17:52:56.230Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37808,
+    "output": 982
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスワンタイホウ配合OD錠T20",
+      "strength": "T20（1錠中テガフール20mg、ギメラシル5.8mg、オテラシルカリウム19.6mg）",
+      "imprint_front": "OT41",
+      "imprint_back": "20",
+      "imprint_note": "識別コードはOT41。外形図の裏面には「20」の表示あり（本文の識別コード欄にはOT41のみ記載）。有核錠で、口腔内崩壊性。",
+      "color": "片面の中央部が白色、他の部分がうすい青緑色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "口腔内崩壊性の有核錠である。片面の中央部が白色、他の部分がうすい青緑色の錠剤であり、特異なにおいがある。（大きさ・質量：直径7.5mm、厚み3.5mm、質量約146mg／識別コード：OT41）"
+    }
+  ]
+}

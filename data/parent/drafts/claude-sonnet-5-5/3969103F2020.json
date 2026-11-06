@@ -1,0 +1,46 @@
+{
+  "id": "3969103F2020",
+  "source_file": "470310_3969103F1024_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3969103F1024_2_03",
+  "extracted_at": "2026-11-06T17:39:34.213Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31191,
+    "output": 1392
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リオベル配合錠LD",
+      "strength": "1錠中 アログリプチン25mg（安息香酸塩34mg）及びピオグリタゾン15mg（塩酸塩16.53mg）",
+      "imprint_front": "382",
+      "imprint_back": "15/25",
+      "imprint_note": "上面は識別コード382に社名マーク（◎）あり。下面の15/25は形状の図から確認（本文の識別コード欄には382のみ記載）",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／錠剤の色 微黄色／識別コード 382／直径(mm) 8.7／厚さ(mm) 約5.0"
+    },
+    {
+      "product_name": "リオベル配合錠HD",
+      "strength": "1錠中 アログリプチン25mg（安息香酸塩34mg）及びピオグリタゾン30mg（塩酸塩33.06mg）",
+      "imprint_front": "383",
+      "imprint_back": "30/25",
+      "imprint_note": "上面は識別コード383に社名マーク（◎）あり。下面の30/25は形状の図から確認（本文の識別コード欄には383のみ記載）",
+      "color": "微黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／錠剤の色 微黄赤色／識別コード 383／直径(mm) 8.7／厚さ(mm) 約5.0"
+    }
+  ]
+}

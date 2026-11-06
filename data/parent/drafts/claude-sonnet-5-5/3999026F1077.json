@@ -1,0 +1,30 @@
+{
+  "id": "3999026F1077",
+  "source_file": "300119_3999026F1077_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3999026F1077_1_04",
+  "extracted_at": "2026-11-06T17:46:08.453Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19127,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠1mg「サワイ」",
+      "strength": "1mg",
+      "imprint_front": "SW ミノドロン 1",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示のみ記載。裏面の表示は文章中に記載なし。割線についての記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色 直径（mm） 6.6 厚さ（mm） 2.8 重量（mg） 約104 本体表示 SW ミノドロン 1"
+    }
+  ]
+}

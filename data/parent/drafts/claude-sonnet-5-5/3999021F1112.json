@@ -1,0 +1,30 @@
+{
+  "id": "3999021F1112",
+  "source_file": "530113_3999021F1112_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3999021F1112_2_03",
+  "extracted_at": "2026-11-06T17:45:28.520Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19939,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラロキシフェン塩酸塩錠60mg「日新」",
+      "strength": "60mg",
+      "imprint_front": "ラロキシフェン 60 日新",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：ラロキシフェン 60 日新。外形図には表裏の記載があるが、裏面の刻印は文章では確認できない。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12.2,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性 状 白色楕円形のフィルムコーティング錠 / 大きさ 長径：12.2mm、短径：6.6mm、錠厚：4.5mm、重量：250mg / 本体表示 ラロキシフェン 60 日新"
+    }
+  ]
+}

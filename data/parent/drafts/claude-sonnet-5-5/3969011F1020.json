@@ -1,0 +1,30 @@
+{
+  "id": "3969011F1020",
+  "source_file": "300242_3969011F1020_1_28.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_3969011F1020_1_28",
+  "extracted_at": "2026-11-06T17:36:05.003Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27722,
+    "output": 239
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エクア錠50mg",
+      "strength": "50mg",
+      "imprint_front": "NVR",
+      "imprint_back": "FB",
+      "imprint_note": "識別コード：NVR FB",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年1月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の片面割線入りの素錠 / 識別コード NVR FB / 大きさ（約） 直径：8.0mm　厚さ：3.6mm　質量：0.20g"
+    }
+  ]
+}

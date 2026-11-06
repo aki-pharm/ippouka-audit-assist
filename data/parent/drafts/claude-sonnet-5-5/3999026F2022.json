@@ -1,0 +1,30 @@
+{
+  "id": "3999026F2022",
+  "source_file": "800126_3999026F2022_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_3999026F2022_1_17",
+  "extracted_at": "2026-11-06T17:46:23.901Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20763,
+    "output": 988
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボノテオ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "ボノテオ50",
+      "imprint_back": "未確認",
+      "imprint_note": "表の「ボノテオ50」は外形図から読み取った。本文に刻印・識別コードの文字記載はなく、裏面の表示は未確認。",
+      "color": "ごくうすい赤色",
+      "shape": null,
+      "size_long_mm": 13.1,
+      "size_short_mm": 7,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 ごくうすい赤色 長径 約13.1mm 短径 約 7.0mm 約4.1mm 約0.309g"
+    }
+  ]
+}

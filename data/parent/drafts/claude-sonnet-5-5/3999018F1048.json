@@ -1,0 +1,30 @@
+{
+  "id": "3999018F1048",
+  "source_file": "400042_3999018F1048_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_3999018F1048_1_15",
+  "extracted_at": "2026-11-06T17:43:56.083Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21218,
+    "output": 644
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠5mg「DK」",
+      "strength": "5mg",
+      "imprint_front": "AT5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードAT5。外形図の表面にAT5の表示あり。裏面の刻印は本文に記載がない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 直径 8.0 mm 厚さ 3.0 mm 重量 190 mg 識別コード AT5"
+    }
+  ]
+}

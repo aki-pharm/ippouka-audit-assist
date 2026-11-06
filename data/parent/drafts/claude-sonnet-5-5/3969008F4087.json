@@ -1,0 +1,30 @@
+{
+  "id": "3969008F4087",
+  "source_file": "340409_3969008F3080_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_3969008F3080_1_02",
+  "extracted_at": "2026-11-06T17:35:07.900Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29053,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミチグリニドCa・OD錠10mg「SN」",
+      "strength": "10mg",
+      "imprint_front": "SK 3",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：SK3。表面に識別コード「SK 3」と割線（1/2割線）が印刷されている。裏面は無地（図より）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の片面1／2割線入りの素錠（直径8.1mm、厚さ3.0mm、重量150mg、識別コード SK3）"
+    }
+  ]
+}

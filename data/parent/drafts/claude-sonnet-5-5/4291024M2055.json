@@ -1,0 +1,30 @@
+{
+  "id": "4291024M2055",
+  "source_file": "300119_4291024M1059_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4291024M1059_1_04",
+  "extracted_at": "2026-11-06T17:58:43.644Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40105,
+    "output": 801
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レナリドミドカプセル2.5mg「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル剤（4号）。外形図に印字らしき表示はあるが、刻印・識別コードの文字は本文に記載がない。錠剤ではなくカプセル剤で、大きさは全長のみ記載（短径・厚さの記載なし）。",
+      "color": "頭部：青緑色不透明、胴部：白色～灰黄白色不透明、内容物：白色～微黄色の粉末",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／性状 頭部：青緑色不透明 胴部：白色～灰黄白色不透明 内容物：白色～微黄色の粉末／全長（mm） 14.2（外形 4号）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999028F1025",
+  "source_file": "300242_3999028F1025_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_3999028F1025_2_08",
+  "extracted_at": "2026-11-06T17:46:48.376Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32650,
+    "output": 236
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボレード錠12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "GSMZ1",
+      "imprint_back": "12.5",
+      "imprint_note": "識別コード「GSMZ1 12.5」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.9,
+      "size_short_mm": 7.9,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色円形のフィルムコーティング錠　識別コード GSMZ1 12.5　大きさ（約）直径：7.9mm　厚さ：3.5mm　質量：184mg"
+    }
+  ]
+}

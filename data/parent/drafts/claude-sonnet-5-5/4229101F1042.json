@@ -1,0 +1,30 @@
+{
+  "id": "4229101F1042",
+  "source_file": "530191_4229101F1042_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4229101F1042_1_13",
+  "extracted_at": "2026-11-06T17:52:50.221Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41380,
+    "output": 800
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エヌケーエスワン配合OD錠T20",
+      "strength": "T20（1錠中テガフール20.0mg、ギメラシル5.8mg、オテラシルカリウム19.6mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄は図で示されているが、刻印・識別コードの文字は本文に記載がないため未確認",
+      "color": "うすい青緑色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "うすい青緑色のフィルムコーティング錠（口腔内崩壊錠）／直径(mm) 約7.1　厚さ(mm) 約3.2　質量(mg) 約139"
+    }
+  ]
+}

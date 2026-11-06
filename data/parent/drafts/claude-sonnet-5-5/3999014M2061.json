@@ -1,0 +1,30 @@
+{
+  "id": "3999014M2061",
+  "source_file": "530100_3999014M1065_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3999014M1065_1_18",
+  "extracted_at": "2026-11-06T17:43:00.915Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 56475,
+    "output": 366
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムスカプセル0.5mg「ニプロ」",
+      "strength": "0.5mg",
+      "imprint_front": "タクロリムス 0.5 ニプロ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「タクロリムス 0.5 ニプロ」と記載。剤形は錠剤ではなく硬カプセル（長径11.0mm、短径4.8mm、内容重量90mg）。内容物は白色の粉末。裏面の刻印に関する記載なし。",
+      "color": "キャップ、ボディ：淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 11,
+      "size_short_mm": 4.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "タクロリムスカプセル0.5mg「ニプロ」 白色の粉末 キャップ、ボディ：淡黄色の硬カプセル 11.0 4.8 90 タクロリムス 0.5 ニプロ"
+    }
+  ]
+}

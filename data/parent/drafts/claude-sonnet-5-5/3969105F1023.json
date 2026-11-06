@@ -1,0 +1,30 @@
+{
+  "id": "3969105F1023",
+  "source_file": "470310_3969105F1023_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3969105F1023_2_03",
+  "extracted_at": "2026-11-06T17:39:55.519Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30444,
+    "output": 726
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イニシンク配合錠",
+      "strength": "1錠中 アログリプチン25mg（アログリプチン安息香酸塩34mg）/メトホルミン塩酸塩500mg",
+      "imprint_front": "317",
+      "imprint_back": "25/500",
+      "imprint_note": "上面は社名マークと317。識別コード欄の記載は「317」（社名マーク付き）。下面の25/500は形状（下面）の図から読み取り",
+      "color": "微赤色",
+      "shape": null,
+      "size_long_mm": 13.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 6.6,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／錠剤の色 微赤色／識別コード 317／長径(mm) 13.7／短径(mm) 8.7／厚さ(mm) 約6.6／質量(mg) 約631"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291016F2027",
+  "source_file": "450900_4291016F1020_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_4291016F1020_2_01",
+  "extracted_at": "2026-11-06T17:56:38.260Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33130,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タルセバ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "T 100",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは T100。外形の図では表面に「T/100」の表示があり、裏面には表示なし（図からの読み取り）",
+      "color": "白色～黄白色",
+      "shape": "round",
+      "size_long_mm": 8.9,
+      "size_short_mm": 8.9,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 白色～黄白色／直径 約8.9mm／厚さ 約4.9mm／質量 309.00mg／識別コード T100"
+    }
+  ]
+}

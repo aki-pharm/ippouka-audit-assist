@@ -1,0 +1,30 @@
+{
+  "id": "3999054F1028",
+  "source_file": "180188_3999054F1028_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_3999054F1028_1_07",
+  "extracted_at": "2026-11-06T17:50:16.256Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27173,
+    "output": 956
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エドルミズ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "エドルミズ 50",
+      "imprint_back": "エドルミズ 50",
+      "imprint_note": "刻印は外形図（表面・裏面）の表示から読み取り。本文に文字での刻印記載はなく、形状・割線の文字記載もなし",
+      "color": "薄い黄色",
+      "shape": null,
+      "size_long_mm": 14.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 外形 表面 裏面 側面 長径（mm）約14.1 短径（mm）約6.6 厚さ（mm）約5.2 質量（mg）約364 色調 薄い黄色"
+    }
+  ]
+}

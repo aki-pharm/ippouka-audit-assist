@@ -1,0 +1,30 @@
+{
+  "id": "3969011F1047",
+  "source_file": "400278_3969011F1047_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3969011F1047_1_02",
+  "extracted_at": "2026-11-06T17:36:12.116Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29084,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビルダグリプチン錠50mg「TCK」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に印字らしきものが見られるが、本文には刻印・識別コードの文字記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ビルダグリプチン錠 50mg「TCK」 直径8.0mm 厚さ3.0mm 重量185mg 白色～微黄白色 素錠（割線入り）"
+    }
+  ]
+}

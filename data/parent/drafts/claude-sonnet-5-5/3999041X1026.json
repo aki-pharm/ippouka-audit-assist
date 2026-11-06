@@ -1,0 +1,30 @@
+{
+  "id": "3999041X1026",
+  "source_file": "870276_3999041X1026_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/870276_3999041X1026_2_07",
+  "extracted_at": "2026-11-06T17:48:32.269Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17058,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カーバグル分散錠200mg",
+      "strength": "200mg",
+      "imprint_front": "cccc",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはcccc。両面に割線、片面に刻印入り。刻印のある面が表か裏かは本文に明記なし（表裏の区別は図のみ）。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 6,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "両面に割線、片面に刻印入りの白色の棒状の錠剤 長径約18.0mm 短径約 6.0mm 質量約500mg 厚さ約4.6mm 識別コード cccc"
+    }
+  ]
+}

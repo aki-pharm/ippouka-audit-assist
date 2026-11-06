@@ -1,0 +1,30 @@
+{
+  "id": "3969009F3042",
+  "source_file": "580591_3969009F1040_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3969009F1040_1_05",
+  "extracted_at": "2026-11-06T17:35:23.085Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25276,
+    "output": 326
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミグリトール錠75mg「JG」",
+      "strength": "75mg",
+      "imprint_front": "ミグリトール 75 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「ミグリトール 75 JG」。表面・裏面・側面の図が載っているが、どの面にどの表示があるかは文章では区別されていない。割線入り。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ミグリトール錠75mg「JG」 白色割線入り楕円形のフィルムコーティング錠 表面 裏面 側面 ミグリトール 75 JG 長径 短径 厚さ 重量 12.1mm 5.1mm 3.5mm 195mg"
+    }
+  ]
+}

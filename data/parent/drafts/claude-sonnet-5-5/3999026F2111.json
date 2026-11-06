@@ -1,0 +1,30 @@
+{
+  "id": "3999026F2111",
+  "source_file": "530100_3999026F2111_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3999026F2111_1_09",
+  "extracted_at": "2026-11-06T17:46:41.054Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21644,
+    "output": 710
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠 50mg「ニプロ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文には刻印・識別コードの記載なし（外形図に印字らしき表示はあるが判読不能のため未確認）",
+      "color": "ごくうすい赤色",
+      "shape": "oval",
+      "size_long_mm": 12.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "ごくうすい赤色の楕円形のフィルムコーティング錠（長径）12.1（短径）6.1 厚さ 4.4 重量 309"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999029M1029",
+  "source_file": "400315_3999029M1029_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_3999029M1029_1_18",
+  "extracted_at": "2026-11-06T17:47:17.903Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30653,
+    "output": 715
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イムセラカプセル0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "FTY 0.5mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「FTY 0.5mg」と記載。カプセルのどの面に印字されているかは文章では明記されておらず、表裏の区別は未確認。",
+      "color": "キャップが明るい黄色不透明、ボディが白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "外観 キャップが明るい黄色不透明、ボディが白色不透明の3号硬カプセル／外形 長径（mm）：15.9 短径（mm）：5.8 重量（g）：0.096／識別コード FTY 0.5mg"
+    }
+  ]
+}

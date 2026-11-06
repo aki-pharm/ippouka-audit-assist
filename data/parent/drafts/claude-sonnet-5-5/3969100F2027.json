@@ -1,0 +1,46 @@
+{
+  "id": "3969100F2027",
+  "source_file": "400061_3969100F1020_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3969100F1020_2_08",
+  "extracted_at": "2026-11-06T17:39:09.804Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31869,
+    "output": 1409
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メタクト配合錠LD",
+      "strength": "LD（ピオグリタゾンとして15mg/メトホルミン塩酸塩500mg）",
+      "imprint_front": "321",
+      "imprint_back": "15/500",
+      "imprint_note": "識別コード321の横に社名マーク（図による）。裏面の15/500は形状の図から読み取った",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 13.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 6.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 長径(mm) 13.7 短径(mm) 8.7 厚さ(mm) 約6.6 重量(mg) 約657 識別コード 321"
+    },
+    {
+      "product_name": "メタクト配合錠HD",
+      "strength": "HD（ピオグリタゾンとして30mg/メトホルミン塩酸塩500mg）",
+      "imprint_front": "322",
+      "imprint_back": "30/500",
+      "imprint_note": "識別コード322の横に社名マーク（図による）。裏面の30/500は形状の図から読み取った",
+      "color": "帯黄白色",
+      "shape": null,
+      "size_long_mm": 14.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "帯黄白色のフィルムコーティング錠 長径(mm) 14.2 短径(mm) 9.2 厚さ(mm) 約6.5 重量(mg) 約683 識別コード 322"
+    }
+  ]
+}

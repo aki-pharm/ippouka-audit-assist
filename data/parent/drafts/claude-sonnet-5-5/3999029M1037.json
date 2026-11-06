@@ -1,0 +1,30 @@
+{
+  "id": "3999029M1037",
+  "source_file": "300242_3999029M1037_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_3999029M1037_1_19",
+  "extracted_at": "2026-11-06T17:47:19.149Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29044,
+    "output": 773
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジレニアカプセル0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "FTY 0.5mg",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。識別コードの表裏の別は本文に記載なし（外形図に印字あり）",
+      "color": "キャップが明るい黄色不透明、ボディが白色不透明（内容物は白色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2021年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外観 キャップが明るい黄色不透明、ボディが白色不透明の3号硬カプセル／識別コード FTY 0.5mg／大きさ（約） 長径：15.9mm 短径：5.8mm 質量：0.096g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4219004M2020",
+  "source_file": "180095_4219004M1024_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_4219004M1024_2_02",
+  "extracted_at": "2026-11-06T17:51:59.621Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28520,
+    "output": 916
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テモダールカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "100mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは社名マークと「100mg」。印字は青色。号数は1号（硬カプセル剤）。キャップ・ボディのどちらに印字されているかは本文に記載なし。大きさ・割線の記載なし。",
+      "color": "キャップ：白色不透明、ボディ：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色 キャップ 白色不透明 ボディ 白色不透明 印字 青色 号数 1号 識別コード 100mg"
+    }
+  ]
+}

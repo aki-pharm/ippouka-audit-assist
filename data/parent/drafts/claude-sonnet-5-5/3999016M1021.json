@@ -1,0 +1,30 @@
+{
+  "id": "3999016M1021",
+  "source_file": "672212_3999016M1021_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_3999016M1021_3_06",
+  "extracted_at": "2026-11-06T17:43:31.848Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22936,
+    "output": 673
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リウマトレックスカプセル2mg",
+      "strength": "2mg",
+      "imprint_front": "606",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に606とともに社名マークらしき記号の記載あり。カプセル剤（4号カプセル、硬カプセル剤）で、錠剤ではない。",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 14.7,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "リウマトレックスカプセル2mg 4号カプセル 606 黄色 硬カプセル剤"
+    }
+  ]
+}

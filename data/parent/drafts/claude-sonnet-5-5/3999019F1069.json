@@ -1,0 +1,30 @@
+{
+  "id": "3999019F1069",
+  "source_file": "530100_3999019F1069_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3999019F1069_3_06",
+  "extracted_at": "2026-11-06T17:44:37.033Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22472,
+    "output": 900
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠2.5mg「NP」",
+      "strength": "2.5mg",
+      "imprint_front": "NP-732",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとしてNP-732の記載あり。表裏の別は本文に明記されていないため、裏面は未確認とした。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のフィルムコーティング錠 直径6.6mm 厚さ3.4mm 重量115mg 識別コード NP-732"
+    }
+  ]
+}

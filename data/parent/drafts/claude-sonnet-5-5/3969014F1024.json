@@ -1,0 +1,30 @@
+{
+  "id": "3969014F1024",
+  "source_file": "650168_3969014F1024_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_3969014F1024_1_21",
+  "extracted_at": "2026-11-06T17:36:57.101Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26128,
+    "output": 847
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラゼンタ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "D5",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは「社名マーク D5」と記載。外形図では片面がD5、もう片面は社名マークのみ。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤 形 淡赤色のフィルムコート錠 外 形 直 径 約8mm 厚 さ 約3.5mm 重 さ 約185mg 識別コード D5"
+    }
+  ]
+}

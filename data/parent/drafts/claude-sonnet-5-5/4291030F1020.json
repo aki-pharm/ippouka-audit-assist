@@ -1,0 +1,30 @@
+{
+  "id": "4291030F1020",
+  "source_file": "650168_4291030F1020_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_4291030F1020_1_11",
+  "extracted_at": "2026-11-06T17:59:12.661Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23354,
+    "output": 294
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジオトリフ錠20mg",
+      "strength": "20mg",
+      "imprint_front": "T20",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード T20（社名マークと併記）。外形の図には裏面に社名マークらしき図柄があるが、文書の文字情報では裏面の刻印は確認できない。",
+      "color": "白色～わずかに帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色～わずかに帯黄白色のフィルムコート錠／外形 直径 約8.1mm 厚さ 約3.6mm 重さ 約185mg 識別コード T20"
+    }
+  ]
+}

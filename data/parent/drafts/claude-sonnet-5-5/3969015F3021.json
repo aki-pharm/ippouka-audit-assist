@@ -1,0 +1,30 @@
+{
+  "id": "3969015F3021",
+  "source_file": "400315_3969015F3021_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_3969015F3021_1_07",
+  "extracted_at": "2026-11-06T17:37:07.986Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27306,
+    "output": 965
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テネリアOD錠20mg",
+      "strength": "20mg",
+      "imprint_front": "テネリア OD20",
+      "imprint_back": "テネリア OD20",
+      "imprint_note": "外形欄に「テネリアOD20」と記載。外形図では両面に同じ表示が見られる。",
+      "color": "帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "テネリアOD錠20mg 性状・剤形 帯黄白色・素錠（口腔内崩壊錠） 外形 テネリアOD20 サイズ 直径（mm）7.5 厚さ（mm）3.1 重量（mg）140"
+    }
+  ]
+}

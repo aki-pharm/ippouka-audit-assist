@@ -1,0 +1,46 @@
+{
+  "id": "3969101F2021",
+  "source_file": "400061_3969101F1025_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3969101F1025_2_06",
+  "extracted_at": "2026-11-06T17:39:17.224Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27290,
+    "output": 1241
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソニアス配合錠LD",
+      "strength": "ピオグリタゾン/グリメピリドとして15mg/1mg",
+      "imprint_front": "323",
+      "imprint_back": "15/1",
+      "imprint_note": "識別コードは社名マーク付き（表：マーク＋323）。裏面の「15/1」は添付文書の外観図による",
+      "color": "白色～帯黄白色の層と帯赤白色の層",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の層と帯赤白色の層からなる素錠 / 直径 7.1mm 厚さ 約3.3mm 重量 160mg / 識別コード 323"
+    },
+    {
+      "product_name": "ソニアス配合錠HD",
+      "strength": "ピオグリタゾン/グリメピリドとして30mg/3mg",
+      "imprint_front": "324",
+      "imprint_back": "30/3",
+      "imprint_note": "識別コードは社名マーク付き（表：マーク＋324）。裏面の「30/3」は添付文書の外観図による",
+      "color": "白色～帯黄白色の層と帯黄白色の層",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の層と帯黄白色の層からなる素錠 / 直径 8.1mm 厚さ 約3.3mm 重量 200mg / 識別コード 324"
+    }
+  ]
+}

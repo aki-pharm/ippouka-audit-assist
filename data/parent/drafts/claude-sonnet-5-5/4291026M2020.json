@@ -1,0 +1,30 @@
+{
+  "id": "4291026M2020",
+  "source_file": "672212_4291026M1023_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_4291026M1023_2_05",
+  "extracted_at": "2026-11-06T17:58:58.692Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24355,
+    "output": 906
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザーコリカプセル250mg",
+      "strength": "250mg",
+      "imprint_front": "Pfizer CRZ 250",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤はカプセル剤（錠剤ではない）。識別コード欄は「Pfizer CRZ 250」。表裏の区別は文書に明記なし。外形図ではキャップにPfizerのロゴ、ボディに「CRZ 250」の表示。外形は図から、全長21.7mm、径7.6mm。0号硬カプセル。",
+      "color": "キャップ：淡赤色 ボディ：淡赤色",
+      "shape": "oblong",
+      "size_long_mm": 21.7,
+      "size_short_mm": 7.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ザーコリカプセル250mg 外形（mm）7.6 21.7 識別コード Pfizer CRZ 250 色調等 キャップ：淡赤色 ボディ：淡赤色 0号硬カプセル"
+    }
+  ]
+}

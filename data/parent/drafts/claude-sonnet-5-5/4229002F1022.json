@@ -1,0 +1,30 @@
+{
+  "id": "4229002F1022",
+  "source_file": "780069_4229002F1022_4_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_4229002F1022_4_04",
+  "extracted_at": "2026-11-06T17:52:32.439Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23995,
+    "output": 282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルダラ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "LN",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードLN（外形図では表面に表示。裏面の刻印の記載は添付文書本文になし）",
+      "color": "うすい帯黄赤色",
+      "shape": "oblong",
+      "size_long_mm": 10.8,
+      "size_short_mm": 4.2,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすい帯黄赤色のフィルムコーティング錠 外形 長径（mm） 10.8 短径（mm） 4.2 厚さ（mm） 3.3 重量（mg） 154 識別コード LN"
+    }
+  ]
+}

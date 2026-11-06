@@ -1,0 +1,46 @@
+{
+  "id": "3969104F2041",
+  "source_file": "530113_3969104F1045_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3969104F1045_2_02",
+  "extracted_at": "2026-11-06T17:39:48.916Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35790,
+    "output": 641
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メホビル配合錠LD「日新」",
+      "strength": "1錠中 ビルダグリプチン50mg／日本薬局方メトホルミン塩酸塩250mg",
+      "imprint_front": "メホビル LD NS",
+      "imprint_back": "未確認",
+      "imprint_note": "「本体表示」欄の記載。外形図に両面の表示があるが、表裏の区別は文章では確認できない",
+      "color": "微黄色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.4,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "微黄色の楕円形のフィルムコーティング錠 ／ 長径：13.6mm 短径： 6.4mm 錠厚： 4.8mm 重量： 353mg ／ 本体表示 メホビル　LD　NS"
+    },
+    {
+      "product_name": "メホビル配合錠HD「日新」",
+      "strength": "1錠中 ビルダグリプチン50mg／日本薬局方メトホルミン塩酸塩500mg",
+      "imprint_front": "メホビル HD NS",
+      "imprint_back": "未確認",
+      "imprint_note": "「本体表示」欄の記載。外形図に両面の表示があるが、表裏の区別は文章では確認できない",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 16.5,
+      "size_short_mm": 7.8,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の楕円形のフィルムコーティング錠 ／ 長径：16.5mm 短径： 7.8mm 錠厚： 6.0mm 重量： 648mg ／ 本体表示 メホビル　HD　NS"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999063F1027",
+  "source_file": "780009_3999063F1027_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_3999063F1027_1_03",
+  "extracted_at": "2026-11-06T17:50:59.803Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20898,
+    "output": 245
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レズロック錠200mg",
+      "strength": "200mg",
+      "imprint_front": "KDM",
+      "imprint_back": "200",
+      "imprint_note": "表面に「KDM」、裏面に「200」の印字（外形図より）。側面は無地",
+      "color": "微黄色～黄色",
+      "shape": "oval",
+      "size_long_mm": 14.9,
+      "size_short_mm": 7.5,
+      "thickness_mm": 5.9,
+      "score_line": false,
+      "source_revision": "2025年6月改訂",
+      "source_page": 1,
+      "source_quote": "レズロック錠200mg 楕円形のフィルムコーティング錠 微黄色～黄色 長径：14.9 短径：7.5 厚さ5.9 重量525"
+    }
+  ]
+}

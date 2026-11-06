@@ -1,0 +1,30 @@
+{
+  "id": "3969025F1022",
+  "source_file": "230034_3969025F1022_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_3969025F1022_2_02",
+  "extracted_at": "2026-11-06T17:38:52.005Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23464,
+    "output": 324
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マリゼブ錠12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "Ⓚ781",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードⒺⓀ781は製剤の性状の表に記載。表面・裏面のどちらに刻印されているかは本文に明記されていない（外形図に社名マークと識別コードの図あり）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第5版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "販売名 マリゼブ錠12.5mg／剤形 円形・フィルムコーティング錠／色調 黄色／直径 5.8mm／厚さ 約3.2mm／質量 約85mg／識別コード Ⓚ781"
+    }
+  ]
+}

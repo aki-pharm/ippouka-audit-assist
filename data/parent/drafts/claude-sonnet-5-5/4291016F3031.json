@@ -1,0 +1,30 @@
+{
+  "id": "4291016F3031",
+  "source_file": "530191_4291016F3031_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291016F3031_1_02",
+  "extracted_at": "2026-11-06T17:56:46.776Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27243,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルロチニブ錠150mg「NK」",
+      "strength": "150mg",
+      "imprint_front": "エルロチニブ150",
+      "imprint_back": "エルロチニブ150",
+      "imprint_note": "本体表示：エルロチニブ150。外形の表・裏の図に刻印の表示あり。側面の図では割線の記載なし。",
+      "color": "白色～黄白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～黄白色 外形 表・裏 側面 大きさ 直径 約9.6mm 厚さ 約5.0mm 質量 385.5mg 本体表示 エルロチニブ150"
+    }
+  ]
+}

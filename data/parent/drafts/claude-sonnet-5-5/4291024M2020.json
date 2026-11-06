@@ -1,0 +1,30 @@
+{
+  "id": "4291024M2020",
+  "source_file": "670605_4291024M1024_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_4291024M1024_2_06",
+  "extracted_at": "2026-11-06T17:58:33.957Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43849,
+    "output": 811
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レブラミドカプセル2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形は図で示されており、本文テキストに刻印の記載がないため未確認。剤形は硬カプセル剤（カプセル号数4）で、錠剤ではない。",
+      "color": "ボディ：白色〜灰黄白色（不透明）、キャップ：青緑色（不透明）",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": 5.32,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色 ボディ：白色〜灰黄白色（不透明）キャップ：青緑色（不透明）／剤形 硬カプセル剤／大きさ 長径 14.3mm 短径 5.32mm／カプセル号数 4"
+    }
+  ]
+}

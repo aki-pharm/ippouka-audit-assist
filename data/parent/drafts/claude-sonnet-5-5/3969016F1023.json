@@ -1,0 +1,30 @@
+{
+  "id": "3969016F1023",
+  "source_file": "300297_3969016F1023_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3969016F1023_1_12",
+  "extracted_at": "2026-11-06T17:37:05.276Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25402,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スイニー錠100mg",
+      "strength": "100mg",
+      "imprint_front": "Sc312",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード Sc312。外形の図では表に「Sc/312」の表示、裏は表示なし。社名マークの記載なし。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 片面に割線を有する淡黄色のフィルムコーティング錠 ／ 直径 8.1mm ／ 厚さ 3.4mm ／ 重量 155mg ／ 識別コード Sc312"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999026F1026",
+  "source_file": "800126_3999026F1026_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_3999026F1026_1_21",
+  "extracted_at": "2026-11-06T17:46:01.340Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20601,
+    "output": 728
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボノテオ錠1mg",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの文字記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色 表 裏 側面 直径 厚さ 重量 約6.6mm 約3.0mm 約0.10g"
+    }
+  ]
+}

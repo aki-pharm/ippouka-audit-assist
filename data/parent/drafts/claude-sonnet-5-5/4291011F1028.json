@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1028",
+  "source_file": "300242_4291011F1028_1_29.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291011F1028_1_29",
+  "extracted_at": "2026-11-06T17:55:11.885Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 44339,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリベック錠100mg",
+      "strength": "100mg",
+      "imprint_front": "NVR",
+      "imprint_back": "SA",
+      "imprint_note": "識別コードは「NVR SA」。外形図に表裏の刻印表示あり（表裏の振り分けは図からの読み取りで、文書に明記なし）",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "くすんだ黄赤色～濃い黄赤色の片面割線入りのフィルムコーティング錠 / 識別コード NVR SA / 大きさ（約） 直径：9.2mm　厚さ：3.1mm　質量：0.1965g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999023F2029",
+  "source_file": "230124_3999023F1022_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_3999023F1022_2_11",
+  "extracted_at": "2026-11-06T17:45:42.851Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25753,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レグパラ錠75mg",
+      "strength": "75mg",
+      "imprint_front": "KR03",
+      "imprint_back": "KR03",
+      "imprint_note": "識別コード：KR03（表面・裏面に印字）。側面にも識別コード表示は図のみで文字記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2019年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 レグパラ錠75mg／色 淡黄色／剤形 フィルムコーティング錠／直径（mm）8／厚さ（mm）4／総重量（mg）約207／識別コード KR03"
+    }
+  ]
+}

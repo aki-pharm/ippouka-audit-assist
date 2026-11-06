@@ -1,0 +1,46 @@
+{
+  "id": "3969008F2025",
+  "source_file": "230034_3969008F1029_1_24.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_3969008F1029_1_24",
+  "extracted_at": "2026-11-06T17:34:47.325Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28223,
+    "output": 1605
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グルファスト錠10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：Ⓚ GF10（表裏のどちらに刻印されているかは未確認）。添付文書の本文テキストには識別コードの文字が無く、図の識別コード欄の表記による",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10,
+      "size_short_mm": 5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 グルファスト錠10mg／含量 10mg／剤形 素錠 割線入り／色調 白色／長径 10.0mm／短径 5.0mm／厚さ 約3.0mm／質量 約150mg／識別コード GF10"
+    },
+    {
+      "product_name": "グルファストOD錠10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：Ⓚ GFD10（表裏のどちらに刻印されているかは未確認）。添付文書の本文テキストには識別コードの文字が無く、図の識別コード欄の表記による",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 グルファストOD錠10mg／含量 10mg／剤形 素錠（口腔内崩壊錠） 割線入り／色調 微黄白色／直径 8.0mm／厚さ 約3.8mm／質量 約200mg／識別コード GFD10"
+    }
+  ]
+}

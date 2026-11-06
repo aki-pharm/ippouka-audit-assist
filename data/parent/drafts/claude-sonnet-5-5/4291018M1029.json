@@ -1,0 +1,30 @@
+{
+  "id": "4291018M1029",
+  "source_file": "672212_4291018M1029_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_4291018M1029_3_04",
+  "extracted_at": "2026-11-06T17:56:55.923Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34853,
+    "output": 738
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スーテントカプセル12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "Pfizer STN 12.5mg",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく4号硬カプセル。識別コードの表裏の別は記載なし。外形寸法は外形図の数値（長さ14.3mm、直径5.3mm）。",
+      "color": "キャップ：濃赤褐色、ボディ：濃赤褐色",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "4号硬カプセル Pfizer STN 12.5mg キャップ：濃赤褐色 ボディ：濃赤褐色"
+    }
+  ]
+}

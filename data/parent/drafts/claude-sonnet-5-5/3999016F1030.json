@@ -1,0 +1,30 @@
+{
+  "id": "3999016F1030",
+  "source_file": "400315_3999016F1030_1_24.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_3999016F1030_1_24",
+  "extracted_at": "2026-11-06T17:43:22.981Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21138,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトトレキサート錠2mg「タナベ」",
+      "strength": "2mg",
+      "imprint_front": "TA141",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：TA141（外形図は表面に印字、裏面の刻印は記載なし）",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 12,
+      "size_short_mm": 5.5,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色・長円形の割線入りの素錠 識別コード TA141 サイズ 長径12mm 短径5.5mm 厚さ4mm 重量約0.25g"
+    }
+  ]
+}

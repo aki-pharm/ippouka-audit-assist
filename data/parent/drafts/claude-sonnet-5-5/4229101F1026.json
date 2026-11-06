@@ -1,0 +1,30 @@
+{
+  "id": "4229101F1026",
+  "source_file": "400107_4229101F1026_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_4229101F1026_1_09",
+  "extracted_at": "2026-11-06T17:52:39.049Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37715,
+    "output": 351
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ティーエスワン配合OD錠T20",
+      "strength": "T20（1錠中テガフール20mg、ギメラシル5.8mg、オテラシルカリウム19.6mg）",
+      "imprint_front": "TC41",
+      "imprint_back": "20",
+      "imprint_note": "識別コード：TC41。外形の図の表面に「TC 41」、裏面に「20」の印字が見られる。側面の図あり。",
+      "color": "片面の中央部が白色、他の部分がうすい青緑色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "口腔内崩壊性の有核錠である。片面の中央部が白色、他の部分がうすい青緑色の錠剤であり、特異なにおいがある。（直径7.5mm、厚み3.5mm、質量約146mg、識別コード TC41）"
+    }
+  ]
+}

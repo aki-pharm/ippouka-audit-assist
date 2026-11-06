@@ -1,0 +1,30 @@
+{
+  "id": "4291019M1023",
+  "source_file": "670142_4291019M1023_1_30.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670142_4291019M1023_1_30",
+  "extracted_at": "2026-11-06T17:56:59.806Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26145,
+    "output": 800
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サレドカプセル100",
+      "strength": "100mg",
+      "imprint_front": "サリドマイド サレド100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「サリドマイド」「サレド100」と記載。カプセルのどの面に印字されているかは本文に記載がないため、表裏の区別は未確認。本品は錠剤ではなく硬カプセル。",
+      "color": "上部だいだい色不透明、下部白色不透明（内容物は白色～淡黄色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 6.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "上部だいだい色不透明、下部白色不透明の2号硬カプセル（内容物は白色～淡黄色の粉末）／識別コード：サリドマイド サレド100／外形等：長径：約18.0mm 短径：約6.3mm"
+    }
+  ]
+}

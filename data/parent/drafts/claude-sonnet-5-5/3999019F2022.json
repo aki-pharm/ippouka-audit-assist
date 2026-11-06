@@ -1,0 +1,30 @@
+{
+  "id": "3999019F2022",
+  "source_file": "111890_3999019F2022_2_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/111890_3999019F2022_2_19",
+  "extracted_at": "2026-11-06T17:44:44.369Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18991,
+    "output": 263
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アクトネル錠17.5mg",
+      "strength": "17.5mg",
+      "imprint_front": "AJ4",
+      "imprint_back": "17.5",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アクトネル錠17.5mg フィルムコーティング錠 識別コード AJ4 17.5 淡紅色 楕円形 長径（㎜）・短径（㎜）・質量（g）・厚さ（㎜） 約8.1 約4.6 約0.11 約3.3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291007F1021",
+  "source_file": "530191_4291007F1021_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291007F1021_1_17",
+  "extracted_at": "2026-11-06T17:53:41.579Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13535,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェアストン錠40",
+      "strength": "40mg",
+      "imprint_front": "NK7104",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード NK7104 と記載。表裏のどちらに刻印されているかは文書中のテキストからは確認できない。外形図には表・裏の図あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の裸錠 / 大きさ 直径 7.5mm 厚さ 約3.2mm 質量 0.14g 識別コード NK7104"
+    }
+  ]
+}

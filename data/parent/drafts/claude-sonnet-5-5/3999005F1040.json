@@ -1,0 +1,30 @@
+{
+  "id": "3999005F1040",
+  "source_file": "670109_3999005F1040_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_3999005F1040_2_02",
+  "extracted_at": "2026-11-06T17:41:27.607Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26088,
+    "output": 253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アザニン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "TA 101",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：TA101。外形図では表面に「TA／101」の印字が見られる（割線入）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色・素錠（割線入）／大きさ 直径 8.0mm 厚さ 3.0mm 重量 0.16g／識別コード TA101"
+    }
+  ]
+}

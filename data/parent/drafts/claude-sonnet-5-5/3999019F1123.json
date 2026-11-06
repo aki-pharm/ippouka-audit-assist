@@ -1,0 +1,30 @@
+{
+  "id": "3999019F1123",
+  "source_file": "530113_3999019F1123_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3999019F1123_1_10",
+  "extracted_at": "2026-11-06T17:44:38.878Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20185,
+    "output": 858
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠2.5mg「日新」",
+      "strength": "2.5mg",
+      "imprint_front": "NS 371",
+      "imprint_back": "2.5",
+      "imprint_note": "識別コードはNS 371。裏面の「2.5」は外形の図に表示されているもので、本文には記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性 状 白色～帯黄白色のフィルムコーティング錠 / 大きさ 錠径：6.6mm、錠厚：3.4mm、重量：114mg / 識別コード NS 371"
+    }
+  ]
+}

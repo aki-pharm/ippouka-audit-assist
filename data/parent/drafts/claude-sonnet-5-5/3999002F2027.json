@@ -1,0 +1,30 @@
+{
+  "id": "3999002F2027",
+  "source_file": "100898_3999002F1020_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_3999002F1020_2_15",
+  "extracted_at": "2026-11-06T17:40:26.223Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19593,
+    "output": 210
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブレディニン錠50",
+      "strength": "50mg",
+      "imprint_front": "324",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色・片面割線入りのフィルムコーティング錠 / 大きさ 直径 8.6mm、厚さ 3.6mm / 識別コード 325"
+    }
+  ]
+}

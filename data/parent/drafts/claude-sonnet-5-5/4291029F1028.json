@@ -1,0 +1,30 @@
+{
+  "id": "4291029F1028",
+  "source_file": "630004_4291029F1028_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_4291029F1028_1_14",
+  "extracted_at": "2026-11-06T17:59:11.138Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29154,
+    "output": 723
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スチバーガ錠40mg",
+      "strength": "40mg",
+      "imprint_front": "40",
+      "imprint_back": "BAYER",
+      "imprint_note": "識別コード「40 BAYER」。外形図に「40」と「BAYER」が示されている。表裏の別は文章では明記なし。",
+      "color": "淡赤色",
+      "shape": "oval",
+      "size_long_mm": 16,
+      "size_short_mm": 7,
+      "thickness_mm": 5.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形のフィルムコーティング錠／色調 淡赤色／長径 16mm／短径 7mm／厚さ 5.6mm／質量 472.00mg／識別コード 40 BAYER"
+    }
+  ]
+}

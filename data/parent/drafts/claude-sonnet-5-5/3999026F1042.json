@@ -1,0 +1,30 @@
+{
+  "id": "3999026F1042",
+  "source_file": "580591_3999026F1042_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3999026F1042_1_06",
+  "extracted_at": "2026-11-06T17:46:03.604Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19965,
+    "output": 811
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠1mg「JG」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ミノドロン 1 JG」と記載されているが、表面・裏面のどちらに何が印字されているかは文章では確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ミノドロン酸錠 1mg「JG」 白色のフィルムコーティング錠 直径 6.6mm 厚さ 2.8mm 重量 104mg 本体表示 ミノドロン 1 JG"
+    }
+  ]
+}

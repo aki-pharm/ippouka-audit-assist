@@ -1,0 +1,30 @@
+{
+  "id": "3999038F1045",
+  "source_file": "300119_3999038F1045_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3999038F1045_1_03",
+  "extracted_at": "2026-11-06T17:48:18.387Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20263,
+    "output": 316
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヒドロキシクロロキン硫酸塩錠200mg「サワイ」",
+      "strength": "200mg",
+      "imprint_front": "ヒドロキシクロロキン 200 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示。外形図に表面・裏面・側面の図あり（裏面の刻印は文章では明記されていない）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 11.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 性　状 白色 直径（mm） 11.2×6.2 厚さ（mm） 4.5 重量（mg） 約280 本体表示 ヒドロキシクロロキン 200 サワイ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999018F2095",
+  "source_file": "530169_3999018F2095_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999018F2095_1_12",
+  "extracted_at": "2026-11-06T17:44:23.624Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20907,
+    "output": 1049
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠35mg「日医工」",
+      "strength": "35mg",
+      "imprint_front": "819",
+      "imprint_back": "35",
+      "imprint_note": "図中、表面の819の前に日医工の社名マークらしき表示あり。本体コード：819/35、包装コード：819。側面の図あり。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 10.3,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 表面 819 裏面 35 側面 外形 直径（mm） 10.3×5.6 厚さ（mm） 3.6 質量（mg） 175 本体コード 819 35 包装コード 819"
+    }
+  ]
+}

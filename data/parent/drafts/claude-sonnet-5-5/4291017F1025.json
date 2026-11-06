@@ -1,0 +1,30 @@
+{
+  "id": "4291017F1025",
+  "source_file": "630004_4291017F1025_1_33.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_4291017F1025_1_33",
+  "extracted_at": "2026-11-06T17:56:47.713Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34200,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ネクサバール錠200mg",
+      "strength": "200mg",
+      "imprint_front": "200",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「200」と社名マーク（BAYERクロス）の表記。外形図には表面に「200」、裏面に社名マークの図あり。裏面の刻印は文章では明記されていない。",
+      "color": "赤色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 赤色 外形 直径 10mm 厚さ 4.5mm 質量 349.85mg 識別コード 200"
+    }
+  ]
+}

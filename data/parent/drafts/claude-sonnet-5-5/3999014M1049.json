@@ -1,0 +1,30 @@
+{
+  "id": "3999014M1049",
+  "source_file": "580591_3999014M1049_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3999014M1049_1_19",
+  "extracted_at": "2026-11-06T17:42:47.796Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 49708,
+    "output": 315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムスカプセル1mg「JG」",
+      "strength": "1mg",
+      "imprint_front": "JG F29",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「JG F29」と記載。表裏の区別は本文中に明記なし。剤形は硬カプセル剤（錠剤ではない）。",
+      "color": "白色の硬カプセル剤であり、内容物は白色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第8版、効能変更、用法及び用量変更）",
+      "source_page": 1,
+      "source_quote": "タクロリムスカプセル1mg「JG」 白色の硬カプセル剤であり、内容物は白色の粉末 JG F29 大きさ 5号カプセル 重量 119mg"
+    }
+  ]
+}

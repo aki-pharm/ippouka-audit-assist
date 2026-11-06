@@ -1,0 +1,30 @@
+{
+  "id": "3999014N2024",
+  "source_file": "800126_3999014N1028_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_3999014N1028_1_25",
+  "extracted_at": "2026-11-06T17:43:19.028Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38979,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グラセプターカプセル1mg",
+      "strength": "1mg",
+      "imprint_front": "677",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に社名マーク（➤）と677の表示あり。剤形は硬カプセル剤（錠剤ではない）。号数4号、重量約150mg。大きさ（mm）の記載なし。",
+      "color": "白色/だいだい色",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "グラセプターカプセル1mg 硬カプセル剤 白色/だいだい色 号数 4号 重量 約150mg 識別コード 677"
+    }
+  ]
+}

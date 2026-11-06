@@ -1,0 +1,30 @@
+{
+  "id": "3999014M3076",
+  "source_file": "730869_3999014M3076_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3999014M3076_1_10",
+  "extracted_at": "2026-11-06T17:43:13.496Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36489,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムスカプセル5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「－」。外形図には「タクロリムス」「5mg VTRS」の印字が図示されているが、本文の記載ではない。剤形は錠剤ではなく4号硬カプセル。",
+      "color": "頭部：灰赤色、胴部：灰赤色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "タクロリムスカプセル5mg「VTRS」 － 頭部：灰赤色 胴部：灰赤色 4号硬カプセル"
+    }
+  ]
+}

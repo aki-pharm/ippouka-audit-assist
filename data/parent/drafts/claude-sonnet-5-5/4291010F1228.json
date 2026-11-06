@@ -1,0 +1,30 @@
+{
+  "id": "4291010F1228",
+  "source_file": "430773_4291010F1228_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_4291010F1228_1_08",
+  "extracted_at": "2026-11-06T17:55:12.736Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17323,
+    "output": 744
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アナストロゾール錠1mg「DSEP」",
+      "strength": "1mg",
+      "imprint_front": "EP A1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「EP A1」と記載されているが、表裏のどちらに刻印されているか本文に明記がない。外形図の表示から表面と推定されるが、確認はできていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アナストロゾール錠1mg「DSEP」 フィルムコーティング錠 白色 EP A1 約6.0 約3.2 約102.25"
+    }
+  ]
+}

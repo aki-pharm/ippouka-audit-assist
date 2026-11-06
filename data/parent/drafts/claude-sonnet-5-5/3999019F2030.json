@@ -1,0 +1,30 @@
+{
+  "id": "3999019F2030",
+  "source_file": "400256_3999019F2030_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_3999019F2030_1_26",
+  "extracted_at": "2026-11-06T17:44:47.453Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18952,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベネット錠17.5mg",
+      "strength": "17.5mg",
+      "imprint_front": "311",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「311」（社名マーク併記の図あり）。上面に識別コード、下面・側面の刻印の記載は未確認。割線の記載なし。",
+      "color": "淡紅色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "販売名 ベネット錠17.5mg／剤形 フィルムコーティング錠／錠剤の色 淡紅色／識別コード 311／長径(mm) 8.1／短径(mm) 4.6／厚さ(mm) 3.4"
+    }
+  ]
+}

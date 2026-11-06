@@ -1,0 +1,30 @@
+{
+  "id": "4291023F2027",
+  "source_file": "300242_4291023F1020_1_29.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291023F1020_1_29",
+  "extracted_at": "2026-11-06T17:58:04.314Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40976,
+    "output": 971
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アフィニトール錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "NVR",
+      "imprint_back": "LCL",
+      "imprint_note": "識別コードは「NVR LCL」と記載。外形図では一方の面にNVR、もう一方の面にLCLが表示されている。",
+      "color": "白色～微黄白色の素錠",
+      "shape": null,
+      "size_long_mm": 10.1,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の素錠／識別コード NVR LCL／大きさ（約）長径：10.1mm 短径：4.1mm 厚さ：2.9mm 質量：0.125g"
+    }
+  ]
+}

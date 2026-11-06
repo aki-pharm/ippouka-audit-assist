@@ -1,0 +1,30 @@
+{
+  "id": "3999055F1022",
+  "source_file": "630004_3999055F1022_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_3999055F1022_1_03",
+  "extracted_at": "2026-11-06T17:50:19.213Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30088,
+    "output": 1020
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マスーレッド錠5mg",
+      "strength": "5mg",
+      "imprint_front": "マスー レッド 5",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は文章ではなく外形の図で示されており、図から読み取った表記。裏面の刻印は文章では確認できないため未確認",
+      "color": "淡赤黄色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2022年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡赤黄色 大きさ 直径5mm 厚さ 2.9mm 質量 61.75mg"
+    }
+  ]
+}

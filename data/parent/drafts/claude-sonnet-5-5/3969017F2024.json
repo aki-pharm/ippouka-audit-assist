@@ -1,0 +1,30 @@
+{
+  "id": "3969017F2024",
+  "source_file": "230124_3969017F1028_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_3969017F1028_1_16",
+  "extracted_at": "2026-11-06T17:37:15.255Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26618,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オングリザ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "KH 623",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードKH623（錠剤本体、PTPシートに表示）。外形図では表面にKH 623の表示、裏面と側面は表示なしと見られるが、文章では表裏の区別は記載なし",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡紅色のフィルムコーティング錠 直径（mm）8.2 厚さ（mm）4.2 重量（mg）約240 識別コード KH623（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

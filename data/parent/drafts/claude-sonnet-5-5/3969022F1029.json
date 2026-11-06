@@ -1,0 +1,46 @@
+{
+  "id": "3969022F1029",
+  "source_file": "400315_3969022F1029_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_3969022F1029_1_25",
+  "extracted_at": "2026-11-06T17:38:30.964Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40243,
+    "output": 1274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カナグル錠100mg",
+      "strength": "100mg",
+      "imprint_front": "カナグル 100",
+      "imprint_back": "カナグル 100",
+      "imprint_note": "本文に刻印・印字の記載なし。外形図の錠剤表面に「カナグル 100」と見える表示から記載（本文では未確認）",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすい黄色・フィルムコーティング錠／外形 直径7.6mm 厚さ3.4mm 重量144.3mg"
+    },
+    {
+      "product_name": "カナグルOD錠100mg",
+      "strength": "100mg",
+      "imprint_front": "カナグル OD",
+      "imprint_back": "カナグル OD",
+      "imprint_note": "本文に刻印・印字の記載なし。外形図の錠剤表面に「カナグル OD」と見える表示から記載（本文では未確認）",
+      "color": "淡黄褐色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄褐色・素錠（口腔内崩壊錠）／外形 直径9.5mm 厚さ4.4mm 重量303mg"
+    }
+  ]
+}

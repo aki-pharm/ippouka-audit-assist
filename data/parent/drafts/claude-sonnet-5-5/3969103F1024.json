@@ -1,0 +1,46 @@
+{
+  "id": "3969103F1024",
+  "source_file": "470310_3969103F1024_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3969103F1024_2_03",
+  "extracted_at": "2026-11-06T17:39:31.206Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31191,
+    "output": 1082
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リオベル配合錠LD",
+      "strength": "アログリプチンとして25mg及びピオグリタゾンとして15mg",
+      "imprint_front": "382",
+      "imprint_back": "15/25",
+      "imprint_note": "識別コード欄は「◎ 382」。社名マークらしき記号が付く。下面は図中に「15」「25」の表示。",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／錠剤の色 微黄色／識別コード ◎382／直径(mm) 8.7／厚さ(mm) 約5.0"
+    },
+    {
+      "product_name": "リオベル配合錠HD",
+      "strength": "アログリプチンとして25mg及びピオグリタゾンとして30mg",
+      "imprint_front": "383",
+      "imprint_back": "30/25",
+      "imprint_note": "識別コード欄は「◎ 383」。社名マークらしき記号が付く。下面は図中に「30」「25」の表示。",
+      "color": "微黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／錠剤の色 微黄赤色／識別コード ◎383／直径(mm) 8.7／厚さ(mm) 約5.0"
+    }
+  ]
+}

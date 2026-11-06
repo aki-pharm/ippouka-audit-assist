@@ -1,0 +1,30 @@
+{
+  "id": "4291013F1035",
+  "source_file": "430773_4291013F1035_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_4291013F1035_1_07",
+  "extracted_at": "2026-11-06T17:56:08.260Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28627,
+    "output": 787
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゲフィチニブ錠250mg「DSEP」",
+      "strength": "250mg",
+      "imprint_front": "GFTN 250",
+      "imprint_back": "GFTN EP",
+      "imprint_note": "識別コード欄は「GFTN 250 EP」。表・裏の区分は外形図の表示による。",
+      "color": "褐色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ゲフィチニブ錠250mg「DSEP」 フィルムコーティング錠 褐色 識別コード GFTN 250 EP 直径（mm）約11 厚さ（mm）約5.4 質量（g）約0.5"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3969026F1027",
+  "source_file": "400093_3969026F1027_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_3969026F1027_1_07",
+  "extracted_at": "2026-11-06T17:38:54.619Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28506,
+    "output": 326
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ツイミーグ錠500mg",
+      "strength": "500mg",
+      "imprint_front": "ツイミーグ 500",
+      "imprint_back": "ツイミーグ 500",
+      "imprint_note": "外形図に「ツイミーグ 500」の表示が2面（表・裏）に描かれている。側面図あり。文章での刻印の記載はなく、外形図からの読み取り。割線の記載なし。",
+      "color": "白色～帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 17.6,
+      "size_short_mm": 7.1,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年1月改訂(第6版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色のフィルムコーティング錠 / 大きさ 長径(mm)約17.6 短径(mm)約7.1 厚さ(mm)約5.3 重さ(mg)約569"
+    }
+  ]
+}

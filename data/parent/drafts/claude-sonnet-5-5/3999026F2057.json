@@ -1,0 +1,30 @@
+{
+  "id": "3999026F2057",
+  "source_file": "830001_3999026F2057_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3999026F2057_3_06",
+  "extracted_at": "2026-11-06T17:46:29.604Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21215,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠50mg「YD」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に印字らしきものが見えるが、本文には刻印・識別コードの文言の記載なし",
+      "color": "ごくうすい赤色",
+      "shape": "oval",
+      "size_long_mm": 13.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 ごくうすい赤色のだ円形のフィルムコーティング錠　直径（長径）約13.2mm（短径）約7.2mm　厚さ 約4.4mm　重量 310mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1222",
+  "source_file": "400186_4291011F1222_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4291011F1222_1_02",
+  "extracted_at": "2026-11-06T17:55:46.589Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29368,
+    "output": 328
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「タカタ」",
+      "strength": "100mg",
+      "imprint_front": "YA 821",
+      "imprint_back": "イマチニブ 100",
+      "imprint_note": "識別コード：YA821。外形の図に表面・裏面の印字あり（裏面の印字は図から読み取った内容で、本文には記載なし）",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "性状 くすんだ黄赤色～濃い黄赤色の片面割線入りのフィルムコーティング錠 ／ 識別コード YA821 ／ 大きさ（約） 直径：7.6mm 厚さ：2.9mm 質量：0.126g"
+    }
+  ]
+}

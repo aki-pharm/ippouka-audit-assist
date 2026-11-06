@@ -1,0 +1,30 @@
+{
+  "id": "4291033F1040",
+  "source_file": "580591_4291033F1040_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_4291033F1040_1_01",
+  "extracted_at": "2026-11-06T17:59:35.878Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25325,
+    "output": 318
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アビラテロン酢酸エステル錠250mg「JG」",
+      "strength": "250mg",
+      "imprint_front": "アビラテロン 250 JG",
+      "imprint_back": "アビラテロン 250 JG",
+      "imprint_note": "本体表示：アビラテロン 250 JG（表面・裏面に表示）。側面は表示なし。割線の記載なし",
+      "color": "やわらかい黄みの赤色",
+      "shape": "oval",
+      "size_long_mm": 16.1,
+      "size_short_mm": 9.6,
+      "thickness_mm": 6.5,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "やわらかい黄みの赤色のフィルムコーティング錠　表面 裏面 側面　アビラテロン 250 JG　長径 16.1mm 短径 9.6mm 厚さ 6.5mm 重量 736mg"
+    }
+  ]
+}

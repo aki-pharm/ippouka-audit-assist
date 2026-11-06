@@ -1,0 +1,30 @@
+{
+  "id": "3969010F3037",
+  "source_file": "170050_3969010F1034_2_36.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_3969010F1034_2_36",
+  "extracted_at": "2026-11-06T17:35:56.088Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26838,
+    "output": 966
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジャヌビア錠100mg",
+      "strength": "100mg",
+      "imprint_front": "MSD",
+      "imprint_back": "277",
+      "imprint_note": "識別コードは「MSD 277」。表面にMSD、裏面に277と外形図に表示されている",
+      "color": "うすい赤黄色",
+      "shape": "round",
+      "size_long_mm": 9.8,
+      "size_short_mm": 9.8,
+      "thickness_mm": 4.2,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "円形、フィルムコーティング錠　うすい赤黄色　直径：9.8mm　厚さ：4.2mm　識別コード MSD 277"
+    }
+  ]
+}

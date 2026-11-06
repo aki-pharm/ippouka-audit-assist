@@ -1,0 +1,30 @@
+{
+  "id": "3999016F2029",
+  "source_file": "530288_3999016F1081_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530288_3999016F1081_1_10",
+  "extracted_at": "2026-11-06T17:43:27.744Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27615,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトトレキサート錠1mg「日本臓器」",
+      "strength": "1mg",
+      "imprint_front": "Z71",
+      "imprint_back": "1",
+      "imprint_note": "識別コード：Z71。裏面の刻印は図中の「1」と読み取れる（本文テキストでは「I」と表記）",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形フィルムコーティング錠 色調 淡紅色 外形 7.1mm 3.5mm 重量 155mg 識別コード Z71"
+    }
+  ]
+}

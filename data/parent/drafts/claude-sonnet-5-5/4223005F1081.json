@@ -1,0 +1,30 @@
+{
+  "id": "4223005F1081",
+  "source_file": "530191_4223005F1081_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4223005F1081_1_04",
+  "extracted_at": "2026-11-06T17:52:24.163Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37094,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カペシタビン錠300mg「NK」",
+      "strength": "300mg",
+      "imprint_front": "カペシタビン300",
+      "imprint_back": "カペシタビン300",
+      "imprint_note": "本体表示：カペシタビン300（外形図の表・裏とも同表示）。割線の記載なし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13.4,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠 / 大きさ 長径 約13.4mm 短径 約7.1mm 厚さ 約4.8mm 質量 約377mg / 本体表示 カペシタビン300"
+    }
+  ]
+}

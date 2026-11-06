@@ -1,0 +1,30 @@
+{
+  "id": "3999028F1068",
+  "source_file": "530169_3999028F1068_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999028F1068_1_01",
+  "extracted_at": "2026-11-06T17:47:00.538Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22350,
+    "output": 775
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルトロンボパグ錠12.5mg「日医工」",
+      "strength": "12.5mg",
+      "imprint_front": "エルトロンボパグ 12.5",
+      "imprint_back": "エルトロンボパグ 日医工",
+      "imprint_note": "「本体表示」欄の記載。刻印か印字かの区別は記載なし。割線の記載なし。形状は文字では記載がなく、直径の記載から円形とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径（mm） 8.1 厚さ（mm） 3.7 質量（mg） 184 本体表示 エルトロンボパグ 12.5 / エルトロンボパグ 日医工"
+    }
+  ]
+}

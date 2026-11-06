@@ -1,0 +1,30 @@
+{
+  "id": "3969019F2082",
+  "source_file": "530100_3969019F1086_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3969019F1086_1_02",
+  "extracted_at": "2026-11-06T17:38:03.487Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33196,
+    "output": 282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダパグリフロジン錠 10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "NP-D10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-D10。表・裏の別は本文に明記なし（図では表面に「NP D10」の印字、側面は無地）",
+      "color": "淡黄色～黄色",
+      "shape": "other",
+      "size_long_mm": 10.9,
+      "size_short_mm": 7.9,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年8月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄色～黄色の菱形のフィルムコーティング錠（長径）10.9（短径）7.9 厚さ4.0 重量260 識別コード NP-D10"
+    }
+  ]
+}

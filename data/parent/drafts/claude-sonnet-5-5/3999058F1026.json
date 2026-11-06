@@ -1,0 +1,30 @@
+{
+  "id": "3999058F1026",
+  "source_file": "230034_3999058F1026_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_3999058F1026_1_05",
+  "extracted_at": "2026-11-06T17:50:39.887Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28236,
+    "output": 649
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タバリス錠100mg",
+      "strength": "100mg",
+      "imprint_front": "R100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして R100 の記載のみ。表裏のどちらに表示されているかは本文からは確認できない",
+      "color": "薄い黄赤色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 薄い黄赤色／大きさ 直径：9.0mm 厚さ：約4.8mm／質量 約343mg／識別コード R100"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999023F1022",
+  "source_file": "230124_3999023F1022_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_3999023F1022_2_11",
+  "extracted_at": "2026-11-06T17:45:45.136Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25753,
+    "output": 867
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レグパラ錠25mg",
+      "strength": "25mg",
+      "imprint_front": "KR02",
+      "imprint_back": "KR02",
+      "imprint_note": "識別コードは表中に KR02 と記載。表面・裏面の刻印は外観図から判断（本文に表裏の別の記載なし）",
+      "color": "淡緑色～淡黄緑色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2019年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 レグパラ錠25mg／色 淡緑色～淡黄緑色／剤形 フィルムコーティング錠／直径（mm） 8／厚さ（mm） 4／総重量（mg） 約207／識別コード KR02"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999073F3023",
+  "source_file": "181251_3999073F1020_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181251_3999073F1020_1_01",
+  "extracted_at": "2026-11-06T17:51:34.632Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25635,
+    "output": 666
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジョエンジャ錠70mg",
+      "strength": "70mg",
+      "imprint_front": "LNB",
+      "imprint_back": "70",
+      "imprint_note": "識別コード LNB 70。表面・裏面の振り分けは外形図の表記による",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 16,
+      "size_short_mm": 6.3,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色のフィルムコーティング錠 / 形状 楕円形 / 直径（mm）16（長径）×6.3（短径） / 厚さ（mm）6.0 / 識別コード LNB 70"
+    }
+  ]
+}

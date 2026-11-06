@@ -1,0 +1,30 @@
+{
+  "id": "3999049F3020",
+  "source_file": "340278_3999049F1027_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_3999049F1027_1_05",
+  "extracted_at": "2026-11-06T17:49:39.646Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20824,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダーブロック錠4mg",
+      "strength": "4mg",
+      "imprint_front": "GS 13",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「GS 13」。表に印字あり。裏の刻印についての明記はなく、図では裏は無地に見える。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色の フィルムコーティング錠 / 識別コード GS 13 / 表（直径） 7.1mm / 側面（厚さ） 3.8mm / 質量 155mg"
+    }
+  ]
+}

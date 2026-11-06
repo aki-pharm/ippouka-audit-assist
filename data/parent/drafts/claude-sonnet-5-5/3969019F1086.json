@@ -1,0 +1,30 @@
+{
+  "id": "3969019F1086",
+  "source_file": "530100_3969019F1086_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3969019F1086_1_02",
+  "extracted_at": "2026-11-06T17:37:49.598Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33196,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダパグリフロジン錠 5mg「ニプロ」",
+      "strength": "5mg",
+      "imprint_front": "NP-D5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは NP-D5。表裏の別は文章では明記されていない（外形図に表示あり）。割線の記載なし。",
+      "color": "淡黄色～黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年8月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄色～黄色の円形のフィルムコーティング錠 7.1 3.2 130 NP-D5"
+    }
+  ]
+}

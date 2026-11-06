@@ -1,0 +1,30 @@
+{
+  "id": "3999019F2057",
+  "source_file": "670109_3999019F2057_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_3999019F2057_1_17",
+  "extracted_at": "2026-11-06T17:44:50.198Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21782,
+    "output": 311
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠17.5mg「F」",
+      "strength": "17.5mg",
+      "imprint_front": "FJ63",
+      "imprint_back": "17.5",
+      "imprint_note": "識別コード：FJ63。外形の図には表に「FJ63」、裏に「17.5」の表示が見られる（図からの読み取り）。割線の記載なし",
+      "color": "淡紅色",
+      "shape": "oval",
+      "size_long_mm": 7.8,
+      "size_short_mm": 4.8,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡紅色の楕円形のフィルムコーティング錠 ／ 大きさ 長径 7.8mm 短径 4.8mm 厚さ 3.4mm 質量 114mg ／ 識別コード FJ63"
+    }
+  ]
+}

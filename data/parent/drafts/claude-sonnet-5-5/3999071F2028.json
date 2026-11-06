@@ -1,0 +1,30 @@
+{
+  "id": "3999071F2028",
+  "source_file": "650168_3999071F1021_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_3999071F1021_1_02",
+  "extracted_at": "2026-11-06T17:51:25.374Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26584,
+    "output": 831
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジャスケイド錠18mg",
+      "strength": "18mg",
+      "imprint_front": "F18",
+      "imprint_back": "なし",
+      "imprint_note": "裏面は社名マークのみ（識別コード欄は社名マークとF18の記載）。外形図からの判断",
+      "color": "淡赤色",
+      "shape": "oblong",
+      "size_long_mm": 12,
+      "size_short_mm": 5.9,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 淡赤色のフィルムコート錠／長径 約12mm／短径 約5.9mm／厚さ 約4.2mm／識別コード F18"
+    }
+  ]
+}

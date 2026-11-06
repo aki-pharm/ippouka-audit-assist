@@ -1,0 +1,30 @@
+{
+  "id": "3999014F6025",
+  "source_file": "172190_3999014F1058_3_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_3999014F1058_3_08",
+  "extracted_at": "2026-11-06T17:42:43.898Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 57945,
+    "output": 973
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムス錠2mg「あゆみ」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「－」。外形図の表裏に印字らしき表示はあるが、文字としては読み取れないため未確認",
+      "color": "ごく薄い赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 2,
+      "source_quote": "タクロリムス錠2mg「あゆみ」 フィルムコーティング錠 ごく薄い赤色 直径8.1mm 厚さ3.6mm 重量199mg 識別コード －"
+    }
+  ]
+}

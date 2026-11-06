@@ -1,0 +1,30 @@
+{
+  "id": "4291016F1039",
+  "source_file": "530191_4291016F1039_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291016F1039_1_02",
+  "extracted_at": "2026-11-06T17:56:37.672Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35945,
+    "output": 326
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルロチニブ錠25mg「NK」",
+      "strength": "25mg",
+      "imprint_front": "エルロチニブ25",
+      "imprint_back": "エルロチニブ25",
+      "imprint_note": "本体表示「エルロチニブ25」。外形の表・裏の図に印字あり（表裏それぞれの記載内容は文章では区別されていない）。側面の刻印記載なし。",
+      "color": "白色～黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～黄白色 外形 表・裏 側面 大きさ 直径 約6.5mm 厚さ 約3.2mm 質量 99.5mg 本体表示 エルロチニブ25"
+    }
+  ]
+}

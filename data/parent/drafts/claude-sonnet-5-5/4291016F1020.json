@@ -1,0 +1,30 @@
+{
+  "id": "4291016F1020",
+  "source_file": "450900_4291016F1020_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_4291016F1020_2_01",
+  "extracted_at": "2026-11-06T17:56:36.454Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33130,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タルセバ錠25mg",
+      "strength": "25mg",
+      "imprint_front": "T25",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード T25。外形の表面に「T 25」と表示、裏面は図上無表示。割線の記載なし",
+      "color": "白色～黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 白色～黄白色／直径 約6.5mm／厚さ 約3.3mm／質量 103.00mg／識別コード T25"
+    }
+  ]
+}

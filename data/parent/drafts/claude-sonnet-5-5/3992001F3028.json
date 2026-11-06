@@ -1,0 +1,30 @@
+{
+  "id": "3992001F3028",
+  "source_file": "270072_3992001F1084_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_3992001F1084_1_18",
+  "extracted_at": "2026-11-06T17:40:27.058Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9333,
+    "output": 688
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アデホスコーワ腸溶錠60",
+      "strength": "60mg",
+      "imprint_front": "160",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは社名マーク（Kowaロゴ）と「160」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.3,
+      "size_short_mm": 8.3,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠（腸溶錠）である。 直径約8.3mm 厚さ約4.4mm 重量220mg 識別コード 160"
+    }
+  ]
+}

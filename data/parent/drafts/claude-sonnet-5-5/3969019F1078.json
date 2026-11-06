@@ -1,0 +1,30 @@
+{
+  "id": "3969019F1078",
+  "source_file": "530113_3969019F1078_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3969019F1078_3_01",
+  "extracted_at": "2026-11-06T17:37:45.365Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28065,
+    "output": 294
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダパグリフロジン錠5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "NS ダパグリフロジン 5",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「NS ダパグリフロジン 5」と記載。裏面の刻印の記載は確認できない。",
+      "color": "淡黄色～黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状：淡黄色～黄色のフィルムコーティング錠　大きさ：錠径：6.1mm 錠厚：2.6mm 重量：79mg　本体表示：NS ダパグリフロジン 5"
+    }
+  ]
+}

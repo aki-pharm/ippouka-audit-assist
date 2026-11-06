@@ -1,0 +1,30 @@
+{
+  "id": "3969021F1032",
+  "source_file": "270072_3969021F1032_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_3969021F1032_1_12",
+  "extracted_at": "2026-11-06T17:38:23.010Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27214,
+    "output": 252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デベルザ錠20mg",
+      "strength": "20mg",
+      "imprint_front": "122",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード122。表面に社名マーク（Kowa）と「122」の表示あり。外形図には裏面の表示なし",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "うすい黄色のフィルムコーティング錠（円形・割線入り） 直径約6.1mm、厚さ約3.3mm、重量105mg 識別コード 122"
+    }
+  ]
+}

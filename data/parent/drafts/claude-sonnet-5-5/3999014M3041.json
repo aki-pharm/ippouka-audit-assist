@@ -1,0 +1,30 @@
+{
+  "id": "3999014M3041",
+  "source_file": "580591_3999014M3041_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3999014M3041_1_17",
+  "extracted_at": "2026-11-06T17:43:09.602Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37653,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムスカプセル5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "JG F30",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル剤（錠剤ではない）。識別コードの記載のみで、表裏の区別は本文から確認できない。外形図にカプセル本体の印字あり。",
+      "color": "灰赤色の硬カプセル剤であり、内容物は白色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "灰赤色の硬カプセル剤であり、内容物は白色の粉末　JG F30　大きさ 4号カプセル　重量 180mg"
+    }
+  ]
+}

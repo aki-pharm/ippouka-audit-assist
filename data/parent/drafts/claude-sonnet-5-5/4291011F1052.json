@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1052",
+  "source_file": "530191_4291011F1052_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291011F1052_1_21",
+  "extracted_at": "2026-11-06T17:55:12.274Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30799,
+    "output": 342
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「NK」",
+      "strength": "100mg",
+      "imprint_front": "100 イマチニブNK",
+      "imprint_back": "NKイマチニブ 100",
+      "imprint_note": "本体表示：100 イマチニブNK：NKイマチニブ 100（表・裏の外形図に印字あり）。表裏の区別は本体表示の記載順に基づく",
+      "color": "明るい黄赤色～暗い黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "明るい黄赤色～暗い黄赤色の片面割線入りの円形のフィルムコーティング錠 / 大きさ 直径 約8.1mm 厚さ 約3.3mm / 本体表示 100 イマチニブNK：NKイマチニブ 100"
+    }
+  ]
+}

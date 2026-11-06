@@ -1,0 +1,30 @@
+{
+  "id": "3999021F1074",
+  "source_file": "400042_3999021F1074_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_3999021F1074_1_03",
+  "extracted_at": "2026-11-06T17:45:21.612Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20282,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラロキシフェン塩酸塩錠60mg「DK」",
+      "strength": "60mg",
+      "imprint_front": "RXF",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：RXF（表面に表示）。裏面の刻印は外形図に記載なし",
+      "color": "ごく薄い黄白色",
+      "shape": "oval",
+      "size_long_mm": 10.9,
+      "size_short_mm": 6,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ごく薄い黄白色の楕円形のフィルムコーティング錠 長径10.9mm 短径6.0mm 厚さ4.4mm 重量248mg 識別コード RXF"
+    }
+  ]
+}

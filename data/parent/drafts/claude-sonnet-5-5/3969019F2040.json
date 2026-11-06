@@ -1,0 +1,30 @@
+{
+  "id": "3969019F2040",
+  "source_file": "300119_3969019F1043_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3969019F1043_1_02",
+  "extracted_at": "2026-11-06T17:37:53.389Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29653,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダパグリフロジン錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "ダパグリフロジン 10 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は文章中に明記なし。",
+      "color": "淡黄色～黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠／性状 淡黄色～黄色／直径（mm） 8.6／厚さ（mm） 4.4／重量（mg） 約248／本体表示 ダパグリフロジン 10 サワイ"
+    }
+  ]
+}

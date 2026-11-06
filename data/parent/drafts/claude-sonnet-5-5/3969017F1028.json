@@ -1,0 +1,30 @@
+{
+  "id": "3969017F1028",
+  "source_file": "230124_3969017F1028_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_3969017F1028_1_16",
+  "extracted_at": "2026-11-06T17:37:12.801Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26620,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オングリザ錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "KH 622",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはKH622（錠剤本体、PTPシートに表示）。外形図では表面にKH/622の表示あり。裏面の刻印は記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄色のフィルムコーティング錠 直径（mm） 8.2 厚さ（mm） 4.2 重量（mg） 約240 識別コード KH622（錠剤本体、PTPシートに表示）"
+    }
+  ]
+}

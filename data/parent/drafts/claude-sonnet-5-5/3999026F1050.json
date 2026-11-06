@@ -1,0 +1,30 @@
+{
+  "id": "3999026F1050",
+  "source_file": "830001_3999026F1050_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3999026F1050_1_06",
+  "extracted_at": "2026-11-06T17:46:08.315Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21242,
+    "output": 568
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠1mg「YD」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表示らしきものがあるが、文字としての記載がなく判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 直径 約6.6mm 厚さ 約2.8mm 重量 104mg"
+    }
+  ]
+}

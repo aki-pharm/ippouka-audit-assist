@@ -1,0 +1,30 @@
+{
+  "id": "3999017M1026",
+  "source_file": "450045_3999017B1025_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_3999017B1025_1_17",
+  "extracted_at": "2026-11-06T17:43:48.003Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36217,
+    "output": 1064
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セルセプトカプセル250",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル。外形図に印字らしき表記（CellCept 250 Roche）が見えるが、本文には刻印・識別コードの記載なし",
+      "color": "キャップ：淡青色、ボディ：淡赤褐色",
+      "shape": "oblong",
+      "size_long_mm": 19.6,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル／色調 キャップ：淡青色 ボディ：淡赤褐色／外形 長径 約19.6mm／号数 1号／質量 約379mg"
+    }
+  ]
+}

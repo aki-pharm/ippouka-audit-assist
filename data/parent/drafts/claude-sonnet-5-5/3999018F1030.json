@@ -1,0 +1,30 @@
+{
+  "id": "3999018F1030",
+  "source_file": "470310_3999018F1030_2_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3999018F1030_2_26",
+  "extracted_at": "2026-11-06T17:43:51.542Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21543,
+    "output": 708
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボナロン®錠5mg",
+      "strength": "5mg",
+      "imprint_front": "TJN BNT",
+      "imprint_back": "5",
+      "imprint_note": "識別コード：TJN BNT。外形図の表面にTJN BNT、裏面に5の表示あり。質量約200mg",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.9,
+      "size_short_mm": 7.9,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・性状 白色円形の裸錠／外形 表面 TJN BNT、裏面 5、側面 約7.9mm・約3.0mm／質量 約200mg／識別コード TJN BNT"
+    }
+  ]
+}

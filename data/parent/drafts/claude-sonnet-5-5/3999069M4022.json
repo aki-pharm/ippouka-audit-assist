@@ -1,0 +1,30 @@
+{
+  "id": "3999069M4022",
+  "source_file": "151077_3999069M1023_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/151077_3999069M1023_1_02",
+  "extracted_at": "2026-11-06T17:51:15.823Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32484,
+    "output": 236
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソホノスカプセル5mg",
+      "strength": "5mg",
+      "imprint_front": "PVO 5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード。製剤はカプセル剤（錠剤ではない）。表裏の区別の記載なし",
+      "color": "白色不透明",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ソホノスカプセル 5 mg 白色不透明の 0 号硬カプセル 白色の粉末 PVO 5"
+    }
+  ]
+}

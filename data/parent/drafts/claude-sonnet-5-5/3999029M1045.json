@@ -1,0 +1,30 @@
+{
+  "id": "3999029M1045",
+  "source_file": "300119_3999029M1045_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3999029M1045_1_02",
+  "extracted_at": "2026-11-06T17:47:22.434Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27397,
+    "output": 860
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フィンゴリモドカプセル 0.5mg「サワイ」",
+      "strength": "0.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印・識別コードの記載なし（外形図に印字らしき表示はあるが本文では確認できず）。剤形は硬カプセル剤（4号）で錠剤ではない",
+      "color": "頭部：明るい黄色不透明、胴部：白色不透明、内容物：白色の粉末",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 性状 頭部：明るい黄色不透明 胴部：白色不透明 内容物：白色の粉末 全長（mm）14.2 重量（mg）約88（外形：4号）"
+    }
+  ]
+}

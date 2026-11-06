@@ -1,0 +1,30 @@
+{
+  "id": "3999056M1026",
+  "source_file": "230034_3999056M1026_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_3999056M1026_1_07",
+  "extracted_at": "2026-11-06T17:50:34.982Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18444,
+    "output": 711
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タブネオスカプセル10mg",
+      "strength": "10mg",
+      "imprint_front": "CCX168",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤（0号）。識別コードはCCX168と記載されているが、表裏の別は記載なし。",
+      "color": "頭部：不透明な橙色／胴部：不透明な黄色",
+      "shape": "oblong",
+      "size_long_mm": 22,
+      "size_short_mm": 8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤（0号） 色調 頭部：不透明な橙色／胴部：不透明な黄色 大きさ 長径 約22mm 短径 約8mm 質量 約601mg 識別コード CCX168"
+    }
+  ]
+}

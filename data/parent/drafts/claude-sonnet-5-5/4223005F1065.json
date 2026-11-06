@@ -1,0 +1,30 @@
+{
+  "id": "4223005F1065",
+  "source_file": "400073_4223005F1065_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_4223005F1065_1_08",
+  "extracted_at": "2026-11-06T17:52:14.717Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37261,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カペシタビン錠300mg「ヤクルト」",
+      "strength": "300mg",
+      "imprint_front": "YA829",
+      "imprint_back": "未確認",
+      "imprint_note": "表面・裏面に「カペシタビン 300 ヤクルト」の印字あり（図示）。識別コード YA829（包装表示）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13.5,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 ／ 長径 13.5mm 短径 7.2mm 厚さ 4.8mm 質量 385mg ／ 識別コード YA829（包装表示）"
+    }
+  ]
+}

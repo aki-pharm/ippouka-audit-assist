@@ -1,0 +1,30 @@
+{
+  "id": "3969010F1034",
+  "source_file": "170050_3969010F1034_2_36.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_3969010F1034_2_36",
+  "extracted_at": "2026-11-06T17:35:44.875Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26838,
+    "output": 778
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジャヌビア®錠25mg",
+      "strength": "25mg",
+      "imprint_front": "MSD 221",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード MSD 221（表裏の別は文章では明記なし）。割線入り",
+      "color": "うすい赤黄色",
+      "shape": "oblong",
+      "size_long_mm": 9.1,
+      "size_short_mm": 3.8,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "長円形、フィルムコーティング錠（割線入り） うすい赤黄色 長径：9.1mm 短径：3.8mm 厚さ：2.5mm 識別コード MSD 221"
+    }
+  ]
+}

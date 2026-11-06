@@ -1,0 +1,30 @@
+{
+  "id": "3999019F2170",
+  "source_file": "530169_3999019F2170_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999019F2170_1_15",
+  "extracted_at": "2026-11-06T17:45:03.416Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20662,
+    "output": 826
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠17.5mg「日医工」",
+      "strength": "17.5mg",
+      "imprint_front": "リセドロン17.5 日医工",
+      "imprint_back": "リセドロン17.5 日医工",
+      "imprint_note": "本体表示は「リセドロン17.5 日医工」と1か所のみ記載。外形図では表面・裏面とも表示あり。包装コード823（PTP等の包装上の表示）。割線の記載なし。",
+      "color": "淡紅色",
+      "shape": "oval",
+      "size_long_mm": 9.2,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形のフィルムコーティング錠 色調 淡紅色 直径（mm） 4.6×9.2 厚さ（mm） 3.3 質量（mg） 124 本体表示 リセドロン17.5 日医工 包装コード 823"
+    }
+  ]
+}

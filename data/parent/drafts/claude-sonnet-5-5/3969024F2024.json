@@ -1,0 +1,30 @@
+{
+  "id": "3969024F2024",
+  "source_file": "470310_3969024F1028_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3969024F1028_2_02",
+  "extracted_at": "2026-11-06T17:38:44.043Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25096,
+    "output": 1050
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザファテック錠100mg",
+      "strength": "100mg",
+      "imprint_front": "Ⓣ D389",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「Ⓣ D389」。両面割線入りフィルムコーティング錠。製剤表示は「なし」。下面の刻印は表から読み取れないため未確認",
+      "color": "淡赤色",
+      "shape": "oblong",
+      "size_long_mm": 11,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第4版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "ザファテック錠100mg：剤形 両面割線入りフィルムコーティング錠／錠剤の色 淡赤色／識別コード Ⓣ D389／製剤表示 なし／大きさ 長径11.0mm 短径5.6mm／厚さ 約3.8mm／質量 約187mg"
+    }
+  ]
+}

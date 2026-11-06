@@ -1,0 +1,30 @@
+{
+  "id": "3999049F4026",
+  "source_file": "340278_3999049F1027_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_3999049F1027_1_05",
+  "extracted_at": "2026-11-06T17:49:45.418Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20824,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダーブロック錠6mg",
+      "strength": "6mg",
+      "imprint_front": "GS IM",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「GS IM」は表面に印字（図では表のみ表示、裏は無地）。裏面の刻印の記載は本文になく、図は無地",
+      "color": "帯赤白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "帯赤白色のフィルムコーティング錠　識別コード GS IM　表（直径）9.1mm　側面（厚さ）4.7mm　質量308mg"
+    }
+  ]
+}

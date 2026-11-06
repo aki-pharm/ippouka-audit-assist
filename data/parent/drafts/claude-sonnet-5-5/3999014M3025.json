@@ -1,0 +1,30 @@
+{
+  "id": "3999014M3025",
+  "source_file": "800126_3999014M3025_3_35.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_3999014M3025_3_35",
+  "extracted_at": "2026-11-06T17:43:06.727Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43014,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プログラフカプセル5mg",
+      "strength": "5mg",
+      "imprint_front": "657",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に社名マーク（アステラスのロゴ）と657の表記あり。カプセル剤で、カプセル本体の表裏の刻印の区別は本文に記載なし。",
+      "color": "灰赤色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 剤形 色 外形・号数・重量 識別コード 硬カプセル剤 灰赤色 号数 重量 657 4号 約180mg"
+    }
+  ]
+}

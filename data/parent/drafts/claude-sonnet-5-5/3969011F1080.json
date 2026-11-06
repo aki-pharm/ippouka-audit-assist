@@ -1,0 +1,30 @@
+{
+  "id": "3969011F1080",
+  "source_file": "480235_3969011F1080_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3969011F1080_2_02",
+  "extracted_at": "2026-11-06T17:36:21.813Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26365,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビルダグリプチン錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "ビルダ50",
+      "imprint_back": "ビルダグリプチン 50 トーワ",
+      "imprint_note": "本体表示：表「ビルダ50」、裏「ビルダグリプチン 50 トーワ」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りのフィルムコーティング錠 本体表示 表 ビルダ50 裏 ビルダグリプチン 50 トーワ 直径(mm) 8.1 厚さ(mm) 3.6 質量(mg) 181"
+    }
+  ]
+}

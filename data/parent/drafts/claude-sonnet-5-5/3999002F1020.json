@@ -1,0 +1,30 @@
+{
+  "id": "3999002F1020",
+  "source_file": "100898_3999002F1020_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_3999002F1020_2_15",
+  "extracted_at": "2026-11-06T17:40:26.015Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19593,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブレディニン錠25",
+      "strength": "25mg",
+      "imprint_front": "324",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード324（社名マークあり）。外形図は表面に社名マークと324を示す。裏面の刻印は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.8,
+      "size_short_mm": 7.8,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・フィルムコーティング錠 ／ 大きさ 直径 7.8mm、厚さ 3.1mm ／ 重量 150mg ／ 識別コード 324"
+    }
+  ]
+}

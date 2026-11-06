@@ -1,0 +1,30 @@
+{
+  "id": "4291016F2035",
+  "source_file": "530191_4291016F1039_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291016F1039_1_02",
+  "extracted_at": "2026-11-06T17:56:41.342Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35945,
+    "output": 331
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルロチニブ錠100mg「NK」",
+      "strength": "100mg",
+      "imprint_front": "エルロチニブ100",
+      "imprint_back": "エルロチニブ100",
+      "imprint_note": "本体表示「エルロチニブ100」。外形欄は表・裏の図のみで、表と裏それぞれの刻印の別は文章で明記されていないため、本体表示を両面に記載。割線の記載なし。",
+      "color": "白色～黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 色調 白色～黄白色 / 大きさ 直径 約8.6mm、厚さ 約4.3mm / 質量 258.2mg / 本体表示 エルロチニブ100"
+    }
+  ]
+}

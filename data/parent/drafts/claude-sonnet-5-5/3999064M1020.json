@@ -1,0 +1,30 @@
+{
+  "id": "3999064M1020",
+  "source_file": "300242_3999064M1020_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_3999064M1020_1_03",
+  "extracted_at": "2026-11-06T17:51:03.248Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28815,
+    "output": 331
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファビハルタカプセル200mg",
+      "strength": "200mg",
+      "imprint_front": "NVR",
+      "imprint_back": "LNP200",
+      "imprint_note": "識別コード：NVR LNP200（カプセル。外形図では一方に「NVR」、他方に「LNP 200」の表示）",
+      "color": "微黄色不透明の硬カプセル（内容物：白色～薄い帯紫赤白色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": 21.7,
+      "size_short_mm": 7.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版、効能変更）",
+      "source_page": 1,
+      "source_quote": "外観 微黄色不透明の硬カプセル／内容物 白色～薄い帯紫赤白色の粉末／識別コード NVR LNP200／大きさ（約） 長径：21.7mm 短径：7.6mm 質量：0.32g"
+    }
+  ]
+}

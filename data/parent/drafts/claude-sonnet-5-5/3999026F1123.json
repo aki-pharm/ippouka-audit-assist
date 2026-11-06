@@ -1,0 +1,30 @@
+{
+  "id": "3999026F1123",
+  "source_file": "750007_3999026F1123_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/750007_3999026F1123_2_05",
+  "extracted_at": "2026-11-06T17:46:21.794Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21544,
+    "output": 902
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠1mg「三笠」",
+      "strength": "1mg",
+      "imprint_front": "ミノドロン 1 ミカサ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「ミノドロン 1 ミカサ」と記載。表裏のどちらに印字されているかは本文テキストでは確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠／直径（mm）6.6／厚さ（mm）2.8／重量（mg）104／識別コード ミノドロン 1 ミカサ"
+    }
+  ]
+}

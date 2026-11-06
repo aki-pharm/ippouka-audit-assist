@@ -1,0 +1,30 @@
+{
+  "id": "3969009F5045",
+  "source_file": "480235_3969009F4049_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3969009F4049_1_03",
+  "extracted_at": "2026-11-06T17:35:37.841Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24909,
+    "output": 695
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミグリトールOD錠75mg「トーワ」",
+      "strength": "75mg",
+      "imprint_front": "ミグリ 75",
+      "imprint_back": "75 ミグリトール OD トーワ",
+      "imprint_note": "本体表示（印字）。割線入り。外形図に基づき円形と判断。直径10.0mm、厚さ3.4mm、質量270mg",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微黄白色の割線入りの口腔内崩壊錠／本体表示 表 ミグリ 75、裏 75 ミグリトール OD トーワ／直径(mm) 10.0、厚さ(mm) 3.4、質量(mg) 270"
+    }
+  ]
+}

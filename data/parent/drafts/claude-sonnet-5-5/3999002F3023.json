@@ -1,0 +1,30 @@
+{
+  "id": "3999002F3023",
+  "source_file": "100898_3999002F3023_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_3999002F3023_1_04",
+  "extracted_at": "2026-11-06T17:40:36.905Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22497,
+    "output": 786
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブレディニンOD錠25",
+      "strength": "25mg",
+      "imprint_front": "322",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に社名マーク様の記号と「322」の表記あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.25,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・口腔内崩壊錠／大きさ 直径 7.5mm、厚さ 2.25mm／識別コード 322"
+    }
+  ]
+}

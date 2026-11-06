@@ -1,0 +1,30 @@
+{
+  "id": "4291021M3023",
+  "source_file": "300242_4291021M1020_1_30.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291021M1020_1_30",
+  "extracted_at": "2026-11-06T17:57:50.516Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41596,
+    "output": 713
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タシグナカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "NVR ABL",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は錠剤ではなく硬カプセル。識別コード「NVR ABL」のみ記載があり、表裏の区別は記載なし。質量は約0.14g。",
+      "color": "キャップが黄赤色不透明、ボディが淡黄色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "外観：キャップが黄赤色不透明、ボディが淡黄色不透明の硬カプセル／識別コード：NVR ABL／大きさ（約）：長径：14.5mm 短径：5.3mm 質量：0.14g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291003F1163",
+  "source_file": "670227_4291003F1163_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_4291003F1163_1_20",
+  "extracted_at": "2026-11-06T17:53:24.444Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15844,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノルバデックス錠10mg",
+      "strength": "10mg",
+      "imprint_front": "NOLVADEX 10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NOLVADEX 10（外形（表面）に印字。裏面の刻印は記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠 / 大きさ（直径） 約8.1mm / 大きさ（厚さ） 約3.3mm / 識別コード NOLVADEX 10"
+    }
+  ]
+}

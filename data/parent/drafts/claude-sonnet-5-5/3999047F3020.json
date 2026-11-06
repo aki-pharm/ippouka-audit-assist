@@ -1,0 +1,30 @@
+{
+  "id": "3999047F3020",
+  "source_file": "800126_3999047F1028_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_3999047F1028_1_08",
+  "extracted_at": "2026-11-06T17:49:27.954Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30323,
+    "output": 1117
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エベレンゾ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "エベレンゾ 100",
+      "imprint_back": "エベレンゾ 100",
+      "imprint_note": "刻印は本文には文字で書かれておらず、製剤の性状の図（表・裏）から読み取った。印字か刻印かは未確認。",
+      "color": "淡黄赤色",
+      "shape": "oblong",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "エベレンゾ錠100mg フィルムコーティング錠 淡黄赤色 直径 長径：約13.1mm 短径：約7.0mm 厚さ 約5.0mm 重量 約0.42g"
+    }
+  ]
+}

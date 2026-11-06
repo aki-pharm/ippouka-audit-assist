@@ -1,0 +1,30 @@
+{
+  "id": "3999019F1026",
+  "source_file": "111890_3999019F1026_2_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/111890_3999019F1026_2_20",
+  "extracted_at": "2026-11-06T17:44:28.302Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18500,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アクトネル錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "AJ3",
+      "imprint_back": "2.5",
+      "imprint_note": "識別コード：AJ3、2.5。側面の刻印は未記載",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "アクトネル錠2.5mg フィルムコーティング錠 白色～帯黄白色 識別コード AJ3 2.5 直径（mm）・質量（g）・厚さ（mm）約6.6 約0.11 約3.4"
+    }
+  ]
+}

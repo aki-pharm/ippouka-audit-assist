@@ -1,0 +1,30 @@
+{
+  "id": "3999037M1023",
+  "source_file": "780069_3999037M1023_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_3999037M1023_2_06",
+  "extracted_at": "2026-11-06T17:48:08.047Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41532,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サデルガカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "GZ02",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル。識別コードはGZ02。外形は2号。重量約331.0mg。",
+      "color": "光沢のある青緑色と乳白色",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 6.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 光沢のある青緑色と乳白色の硬カプセル／外形 2号／大きさ（約）長径：18.0mm 短径：6.2mm 重量：331.0mg／識別コード GZ02"
+    }
+  ]
+}

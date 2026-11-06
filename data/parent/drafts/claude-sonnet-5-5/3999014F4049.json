@@ -1,0 +1,30 @@
+{
+  "id": "3999014F4049",
+  "source_file": "172190_3999014F1058_3_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_3999014F1058_3_08",
+  "extracted_at": "2026-11-06T17:42:30.731Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 57945,
+    "output": 810
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムス錠3mg「あゆみ」",
+      "strength": "3mg",
+      "imprint_front": "AY",
+      "imprint_back": "3",
+      "imprint_note": "識別コード「AY 3」。外形図で表に「AY」と割線、裏に「3」を確認。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 2,
+      "source_quote": "タクロリムス錠3mg「あゆみ」 割線入りのフィルムコーティング錠 淡黄色 直径8.1mm 厚さ3.4mm 重量190mg 識別コード AY 3"
+    }
+  ]
+}

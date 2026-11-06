@@ -1,0 +1,30 @@
+{
+  "id": "3999069M3026",
+  "source_file": "151077_3999069M1023_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/151077_3999069M1023_1_02",
+  "extracted_at": "2026-11-06T17:51:11.811Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32486,
+    "output": 739
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ソホノスカプセル2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "PVO 2.5",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。識別コードは「PVO 2.5」と記載されているが、表裏の区別は記載なし。内容物は白色の粉末。",
+      "color": "白色不透明",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ソホノスカプセル2.5mg 白色不透明の0号硬カプセル 白色の粉末 PVO 2.5（3.2 製剤の性状：販売名／外観／内容物／識別コード）"
+    }
+  ]
+}

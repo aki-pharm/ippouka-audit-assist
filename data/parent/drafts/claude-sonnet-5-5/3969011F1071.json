@@ -1,0 +1,30 @@
+{
+  "id": "3969011F1071",
+  "source_file": "300119_3969011F1071_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3969011F1071_1_02",
+  "extracted_at": "2026-11-06T17:36:20.635Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26590,
+    "output": 317
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビルダグリプチン錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "ビルダグリプチン 50 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ビルダグリプチン 50 サワイ」と記載。表・裏の区別は文章からは不明。剤形は割線入り素錠。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色～微黄白色 直径（mm） 8.0 厚さ（mm） 3.6 重量（mg） 約200 本体表示 ビルダグリプチン 50 サワイ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999006F1037",
+  "source_file": "650034_3999006A1030_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650034_3999006A1030_2_07",
+  "extracted_at": "2026-11-06T17:41:28.661Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8691,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハイチオール錠40",
+      "strength": "40mg",
+      "imprint_front": "SS 104",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード SS104（錠剤表面に SS／104 と表示）。裏面の刻印の記載は確認できないため「なし」とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色フィルムコーティング錠 ／ 識別コード SS104 ／ 外 形 6.2mm（直径） 3.0mm（厚さ） 95mg（重量）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3999016F1073",
+  "source_file": "172190_3999016F1073_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_3999016F1073_3_04",
+  "extracted_at": "2026-11-06T17:43:26.095Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25879,
+    "output": 204
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトトレキサート錠2mg「あゆみ」",
+      "strength": "2mg",
+      "imprint_front": "MTX",
+      "imprint_back": "2mg",
+      "imprint_note": "識別コード：MTX（表）、2mg（裏）",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 12,
+      "size_short_mm": 5.5,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "片面に割線のある淡黄色の長円形の素錠"
+    }
+  ]
+}

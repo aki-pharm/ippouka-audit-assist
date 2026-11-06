@@ -1,0 +1,30 @@
+{
+  "id": "4291015F1077",
+  "source_file": "580591_4291015F1077_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_4291015F1077_1_06",
+  "extracted_at": "2026-11-06T17:56:28.260Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22503,
+    "output": 698
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レトロゾール錠2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "JG G09",
+      "imprint_back": "2.5",
+      "imprint_note": "識別コードは「JG G09」。裏面の「2.5」は性状欄の外形図から読み取った。側面の刻印は図では確認できない。",
+      "color": "帯赤黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "帯赤黄色のフィルムコーティング錠 表面 裏面 側面 JG G09 直径 厚さ 重量 6.1mm 3.2mm 103mg 識別コード JG G09"
+    }
+  ]
+}

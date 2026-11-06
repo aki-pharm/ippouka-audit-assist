@@ -1,0 +1,30 @@
+{
+  "id": "3999003F1297",
+  "source_file": "180188_3999003F1297_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_3999003F1297_1_13",
+  "extracted_at": "2026-11-06T17:40:38.582Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12884,
+    "output": 910
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フオイパン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "ONO 305",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄および表面の外形図に「ONO 305」の表示あり。裏面の外形図には刻印が描かれていないが、本文に「なし」との明記はない。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 直径（mm） 6.6 厚さ（mm） 4.0 質量（mg） 約126 色調 白色～帯黄白色 識別コード ONO 305"
+    }
+  ]
+}

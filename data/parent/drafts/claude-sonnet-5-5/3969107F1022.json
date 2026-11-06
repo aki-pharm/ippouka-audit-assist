@@ -1,0 +1,30 @@
+{
+  "id": "3969107F1022",
+  "source_file": "170050_3969107F1022_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_3969107F1022_1_11",
+  "extracted_at": "2026-11-06T17:40:04.563Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35576,
+    "output": 323
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スージャヌ配合錠（シタグリプチンとして50mg／イプラグリフロジンとして50mg）",
+      "strength": "シタグリプチン50mg／イプラグリフロジン50mg",
+      "imprint_front": "スージャヌ",
+      "imprint_back": "スージャヌ",
+      "imprint_note": "識別コード欄に「スージャヌ」と記載。外形図の表面・裏面にも表示あり。",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 円形、フィルムコーティング錠、淡黄赤色 / 直径：9.6mm / 厚さ：4.6mm / 重量 約350mg / 識別コード スージャヌ"
+    }
+  ]
+}

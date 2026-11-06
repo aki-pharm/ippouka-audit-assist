@@ -1,0 +1,30 @@
+{
+  "id": "3999018F2044",
+  "source_file": "400042_3999018F2044_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_3999018F2044_2_04",
+  "extracted_at": "2026-11-06T17:44:12.190Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20929,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠35mg「DK」",
+      "strength": "35mg",
+      "imprint_front": "MW35",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：MW35（表面に印字）。裏面の刻印の記載なし（外形図では裏面に表示なし）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12,
+      "size_short_mm": 6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の楕円形の素錠 外形 表面 裏面 側面 長径 12.0 mm 短径 6.0 mm 厚さ 3.9 mm 重量 220 mg 識別コード MW35"
+    }
+  ]
+}

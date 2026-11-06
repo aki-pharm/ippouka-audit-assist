@@ -1,0 +1,30 @@
+{
+  "id": "4291025M1029",
+  "source_file": "170050_4291025M1029_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_4291025M1029_1_11",
+  "extracted_at": "2026-11-06T17:58:50.048Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18099,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾリンザ®カプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "568",
+      "imprint_back": "100mg",
+      "imprint_note": "剤形は錠剤ではなく硬カプセル剤（カプセル3号）。識別コードは「568　100mg」と記載",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 5.82,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "外観・性状 白色の硬カプセル剤　外形等 カプセル3号 長径：約15.9mm 短径：約5.82mm　識別コード 568　100mg"
+    }
+  ]
+}

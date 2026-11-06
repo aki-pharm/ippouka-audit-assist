@@ -1,0 +1,30 @@
+{
+  "id": "4291020F1051",
+  "source_file": "300119_4291020F1051_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4291020F1051_1_04",
+  "extracted_at": "2026-11-06T17:57:17.574Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33763,
+    "output": 305
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダサチニブ錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "ダサチニブ 20 サワイ",
+      "imprint_back": "ダサチニブ 20 サワイ",
+      "imprint_note": "本体表示：ダサチニブ 20 サワイ（表裏の別は文書に明記なし）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／性状 白色～微黄白色／直径（mm） 5.7／厚さ（mm） 3.3／重量（mg） 約83／本体表示 ダサチニブ 20 サワイ"
+    }
+  ]
+}

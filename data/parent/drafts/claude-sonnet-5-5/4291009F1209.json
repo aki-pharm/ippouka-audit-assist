@@ -1,0 +1,30 @@
+{
+  "id": "4291009F1209",
+  "source_file": "180095_4291009F1209_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_4291009F1209_2_12",
+  "extracted_at": "2026-11-06T17:54:01.666Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15517,
+    "output": 313
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビカルタミド錠80mg「オーハラ」",
+      "strength": "80mg",
+      "imprint_front": "ビカルタミド 80 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として「ビカルタミド 80 オーハラ」と記載。表面・裏面の個別の刻印内容は本文テキストに記載なし（外形図のみ）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・円形のフィルムコーティング錠 ／ 大きさ 直径：7.6mm 厚さ：4.4mm ／ 識別表示 ビカルタミド 80 オーハラ"
+    }
+  ]
+}

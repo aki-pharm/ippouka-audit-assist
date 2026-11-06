@@ -1,0 +1,30 @@
+{
+  "id": "4291020F1043",
+  "source_file": "530191_4291020F1043_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291020F1043_1_04",
+  "extracted_at": "2026-11-06T17:57:11.912Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33599,
+    "output": 302
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダサチニブ錠20mg「NK」",
+      "strength": "20mg",
+      "imprint_front": "ダサチニブ20",
+      "imprint_back": "未確認",
+      "imprint_note": "「本体表示」欄に「ダサチニブ20」と記載。外形図には表面の表示のみ確認でき、裏面の刻印・表示の記載は文章中にない。割線の記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の円形のフィルムコート錠／大きさ（mm） 直径：5.6 厚さ：3.3／本体表示 ダサチニブ20"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3969008F4060",
+  "source_file": "400042_3969008F3064_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_3969008F3064_1_06",
+  "extracted_at": "2026-11-06T17:35:06.145Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26627,
+    "output": 303
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミチグリニドCa・OD錠10mg「三和」",
+      "strength": "10mg",
+      "imprint_front": "MG10",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：MG10。外形の表に刻印、裏は図上刻印の記載なし。片面1／2割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 白色の片面1／2割線入りの素錠 ／ 直径 6.0mm 8.1mm ／ 厚さ 2.4mm 3.0mm ／ 重量 75mg 150mg ／ 識別コード MG5 MG10"
+    }
+  ]
+}

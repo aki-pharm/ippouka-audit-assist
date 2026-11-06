@@ -1,0 +1,30 @@
+{
+  "id": "3969007F4023",
+  "source_file": "400061_3969007F3027_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_3969007F3027_2_06",
+  "extracted_at": "2026-11-06T17:34:33.884Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23924,
+    "output": 221
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アクトスOD錠30",
+      "strength": "30mg",
+      "imprint_front": "376",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 帯黄白色の割線入り口腔内崩壊錠 / 直径 9.1mm 厚さ 3.6mm 重量 240mg / 識別コード 377"
+    }
+  ]
+}

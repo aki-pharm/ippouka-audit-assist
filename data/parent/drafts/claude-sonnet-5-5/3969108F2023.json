@@ -1,0 +1,46 @@
+{
+  "id": "3969108F2023",
+  "source_file": "650168_3969108F1027_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_3969108F1027_1_08",
+  "extracted_at": "2026-11-06T17:40:17.137Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38319,
+    "output": 1376
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラディアンス配合錠AP",
+      "strength": "1錠中エンパグリフロジン10mg、リナグリプチン5mg",
+      "imprint_front": "10/5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード10/5（社名マークを併記）。外形図では一方の面に社名マーク、他方の面に10/5。表裏の区別は未確認。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "淡黄色のフィルムコート錠／垂線 約8.1mm／厚さ 約3.2mm／識別コード 10/5"
+    },
+    {
+      "product_name": "トラディアンス配合錠BP",
+      "strength": "1錠中エンパグリフロジン25mg、リナグリプチン5mg",
+      "imprint_front": "25/5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード25/5（社名マークを併記）。外形図では一方の面に社名マーク、他方の面に25/5。表裏の区別は未確認。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "淡赤色のフィルムコート錠／垂線 約8.1mm／厚さ 約3.2mm／識別コード 25/5"
+    }
+  ]
+}

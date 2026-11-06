@@ -1,0 +1,30 @@
+{
+  "id": "3999014F2038",
+  "source_file": "530169_3999014F1031_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999014F1031_1_18",
+  "extracted_at": "2026-11-06T17:42:18.334Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 48563,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムス錠1mg「日医工」",
+      "strength": "1mg",
+      "imprint_front": "898",
+      "imprint_back": "1",
+      "imprint_note": "表面に社名マークと「898」、裏面に「1」の表示。本体コード：898 / 1、包装コード：898",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第6版、効能変更、用法及び用量変更）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 直径（mm） 5.6 6.1 厚さ（mm） 2.8 3.0 質量（mg） 78 100 本体コード 898 1 包装コード 898"
+    }
+  ]
+}

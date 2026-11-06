@@ -1,0 +1,30 @@
+{
+  "id": "4291027F2025",
+  "source_file": "672212_4291027F1029_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_4291027F1029_2_05",
+  "extracted_at": "2026-11-06T17:59:08.760Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26308,
+    "output": 1228
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "インライタ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "Pfizer",
+      "imprint_back": "5 XNB",
+      "imprint_note": "上面にPfizer、下面に5 XNB（識別コード欄の表記：Pfizer 5 XNB）。外形図の数値は7.7mmと3.8mmのみ読み取れ、短径の記載は確認できない。",
+      "color": "赤色",
+      "shape": "other",
+      "size_long_mm": 7.7,
+      "size_short_mm": null,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "インライタ錠5mg Pfizer 5 XNB 赤色 フィルムコーティング錠"
+    }
+  ]
+}

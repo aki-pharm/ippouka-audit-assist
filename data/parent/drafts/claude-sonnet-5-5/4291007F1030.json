@@ -1,0 +1,30 @@
+{
+  "id": "4291007F1030",
+  "source_file": "780075_4291007F1030_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_4291007F1030_1_12",
+  "extracted_at": "2026-11-06T17:53:42.203Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13497,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トレミフェン錠40mg「サワイ」",
+      "strength": "40mg",
+      "imprint_front": "SW TMF",
+      "imprint_back": "40",
+      "imprint_note": "外形欄の表面に「SW TMF」、裏面に「40」の表示、側面図あり。識別コード：SW TMF。割線入り素錠。重量約140mg。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 / 性状 白色 / 直径（mm） 7.5 / 厚さ（mm） 3.2 / 重量（mg） 約140 / 識別コード SW TMF"
+    }
+  ]
+}

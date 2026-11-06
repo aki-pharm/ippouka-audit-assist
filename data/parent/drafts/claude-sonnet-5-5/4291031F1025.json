@@ -1,0 +1,30 @@
+{
+  "id": "4291031F1025",
+  "source_file": "800126_4291031F1025_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_4291031F1025_1_11",
+  "extracted_at": "2026-11-06T17:59:26.302Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36031,
+    "output": 958
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イクスタンジ錠40mg",
+      "strength": "40mg",
+      "imprint_front": "イクスタンジ 40",
+      "imprint_back": "未確認",
+      "imprint_note": "文章中に刻印の記載はなし。3.2の外形図（表・裏）に「イクスタンジ 40」の印字が図示されているため図から転記。表と裏が別々に示されていないため裏は未確認。割線の記載なし。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "イクスタンジ錠 40mg フィルムコーティング錠 黄色 直径 約10.1mm 厚さ 約4.6mm 重量 約0.335g"
+    }
+  ]
+}

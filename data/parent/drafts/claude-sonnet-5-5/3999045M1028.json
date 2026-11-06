@@ -1,0 +1,30 @@
+{
+  "id": "3999045M1028",
+  "source_file": "112604_3999045M1028_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112604_3999045M1028_1_06",
+  "extracted_at": "2026-11-06T17:49:04.928Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23231,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガラフォルド カプセル123mg",
+      "strength": "123mg",
+      "imprint_front": "A1001",
+      "imprint_back": "A1001",
+      "imprint_note": "識別コード。外形図にはボディ・キャップ双方にA1001の表示あり（カプセル剤）",
+      "color": "ボディが白色不透明でキャップが青色不透明",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 6.4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ボディが白色不透明でキャップが青色不透明の硬カプセル 大きさ 6.4×18.0mm（2号） 識別コード A1001"
+    }
+  ]
+}

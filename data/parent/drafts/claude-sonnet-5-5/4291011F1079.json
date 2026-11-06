@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1079",
+  "source_file": "430773_4291011F1079_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_4291011F1079_1_19",
+  "extracted_at": "2026-11-06T17:55:24.569Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29406,
+    "output": 806
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「DSEP」",
+      "strength": "100mg",
+      "imprint_front": "ITN EP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「ITN EP」。外形図では表面に ITN/EP の2行の表示。裏面の刻印は記載なし。",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "イマチニブ錠100mg「DSEP」 フィルムコーティング錠（割線入） くすんだ黄赤色～濃い黄赤色 直径7.6mm 厚さ3.3mm 質量125mg 識別コード ITN EP"
+    }
+  ]
+}

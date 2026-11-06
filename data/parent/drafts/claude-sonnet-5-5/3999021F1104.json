@@ -1,0 +1,30 @@
+{
+  "id": "3999021F1104",
+  "source_file": "530169_3999021F1104_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999021F1104_1_03",
+  "extracted_at": "2026-11-06T17:45:26.048Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18588,
+    "output": 331
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラロキシフェン塩酸塩錠60mg「日医工」",
+      "strength": "60mg",
+      "imprint_front": "ラロキシフェン 日医工",
+      "imprint_back": "ラロキシフェン 日医工",
+      "imprint_note": "本体表示：ラロキシフェン 60 日医工、包装コード：020",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12.2,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2022年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 表面 ラロキシフェン 日医工 裏面 ラロキシフェン 日医工 直径(mm) 12.2×6.6 厚さ(mm) 4.5 質量(mg) 250 本体表示 ラロキシフェン 60 日医工 包装コード 020"
+    }
+  ]
+}

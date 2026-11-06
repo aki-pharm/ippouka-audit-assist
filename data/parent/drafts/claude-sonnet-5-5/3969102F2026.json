@@ -1,0 +1,30 @@
+{
+  "id": "3969102F2026",
+  "source_file": "230034_3969102F2026_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_3969102F2026_1_04",
+  "extracted_at": "2026-11-06T17:39:18.870Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26426,
+    "output": 371
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グルベス配合OD錠",
+      "strength": "1錠中 ミチグリニドカルシウム水和物10mg・ボグリボース0.2mg",
+      "imprint_front": "GB OD",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード GBOD。表面に社名マークと思われる記号の図あり（テキストでは判読不能）。外形図は表面・裏面・側面の記載あり。表裏どちらにGB ODがあるかは図の表示順から裏面と推定されるが、本文テキストでは明記なし",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2020年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 淡赤白色 表面 裏面 側面 GB OD 外形 直径 8.0㎜ 厚さ 約3.9㎜ 質量 約200㎎ 識別コード GBOD"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291009F2094",
+  "source_file": "530100_4291009F2094_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_4291009F2094_2_01",
+  "extracted_at": "2026-11-06T17:54:39.830Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20075,
+    "output": 910
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビカルタミドOD錠80mg「ニプロ」",
+      "strength": "80mg",
+      "imprint_front": "NP-731",
+      "imprint_back": "80",
+      "imprint_note": "識別コードとして文字で記載されているのはNP-731のみ。裏面の「80」は外形図の表示に基づく。表裏の別も図の並び順による。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ビカルタミドOD錠80mg「ニプロ」 白色～微黄白色の素錠（口腔内崩壊錠） 直径10.0mm 厚さ2.9mm 重量300mg 識別コード NP-731"
+    }
+  ]
+}

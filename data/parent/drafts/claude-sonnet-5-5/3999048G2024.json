@@ -1,0 +1,30 @@
+{
+  "id": "3999048G2024",
+  "source_file": "112130_3999048G2024_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_3999048G2024_1_21",
+  "extracted_at": "2026-11-06T17:49:31.770Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 84245,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リンヴォック錠15mg",
+      "strength": "15mg",
+      "imprint_front": "15",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「15」（社名マークとともに表示）。識別コード欄に「15」と記載。上面・下面・側面の外形図あり、下面の刻印の有無は文章で明記されていない",
+      "color": "紫色",
+      "shape": "oval",
+      "size_long_mm": 14,
+      "size_short_mm": 8,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第17版）",
+      "source_page": 2,
+      "source_quote": "紫色の楕円形のフィルムコーティング錠 長径：約14mm、短径：約8mm、厚さ：約5mm、重量：約0.5g 識別コード 15"
+    }
+  ]
+}

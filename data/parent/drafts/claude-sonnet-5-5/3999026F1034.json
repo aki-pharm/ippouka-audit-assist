@@ -1,0 +1,30 @@
+{
+  "id": "3999026F1034",
+  "source_file": "180188_3999026F1034_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_3999026F1034_1_20",
+  "extracted_at": "2026-11-06T17:46:00.313Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19090,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リカルボン錠1mg",
+      "strength": "1mg",
+      "imprint_front": "ONO 621",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「ONO 621」は表面に表示（図中は上段ONO、下段621の2段表記）。裏面は無地（図に刻印なし）。側面図あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／外形 表面・裏面・側面／直径(mm) 約6.6／厚さ(mm) 約3.0／質量(g) 約0.10／色調 白色／識別コード ONO 621"
+    }
+  ]
+}

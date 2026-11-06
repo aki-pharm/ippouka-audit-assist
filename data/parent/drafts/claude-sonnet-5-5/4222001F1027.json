@@ -1,0 +1,30 @@
+{
+  "id": "4222001F1027",
+  "source_file": "672212_4222001F1027_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_4222001F1027_3_03",
+  "extracted_at": "2026-11-06T17:51:55.615Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14274,
+    "output": 285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メソトレキセート錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "LL",
+      "imprint_back": "M1",
+      "imprint_note": "上面「LL」、下面「M1」、識別コード「LL M1」。側面の刻印は記載なし。割線入り素錠",
+      "color": "わずかにまだらをもつ淡黄褐色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メソトレキセート錠2.5mg LL M1 わずかにまだらをもつ淡黄褐色 割線入り 素錠 直径 6.4mm 厚さ 3.1mm"
+    }
+  ]
+}

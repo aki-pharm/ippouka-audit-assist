@@ -1,0 +1,30 @@
+{
+  "id": "3969019F1027",
+  "source_file": "670227_3969019F1027_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_3969019F1027_2_17",
+  "extracted_at": "2026-11-06T17:37:27.787Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41645,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フォシーガ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "5",
+      "imprint_back": "1427",
+      "imprint_note": "表面に「5」、裏面に「1427」（識別コード）。表面・裏面の刻印は外形図の表示から確認",
+      "color": "淡黄色～黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "淡黄色～黄色の円形のフィルムコーティング錠 ／ 大きさ 直径/長径 7.1mm、厚さ 3.2mm、重量 130mg ／ 識別コード 1427"
+    }
+  ]
+}

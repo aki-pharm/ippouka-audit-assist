@@ -1,0 +1,30 @@
+{
+  "id": "3999013F1428",
+  "source_file": "581120_3999013F1428_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3999013F1428_1_03",
+  "extracted_at": "2026-11-06T17:42:13.515Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12782,
+    "output": 783
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エパルレスタット錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "t 507",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは文書上「（PTP）t 507」と記載。錠剤本体の刻印の文字表記はなく、外形図に表示あり。裏面の刻印は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径：6.7mm 厚さ：3.8mm 質量：122mg 識別コード（PTP） t 507"
+    }
+  ]
+}

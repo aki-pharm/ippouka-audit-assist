@@ -1,0 +1,30 @@
+{
+  "id": "3999014F5053",
+  "source_file": "172190_3999014F5053_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/172190_3999014F5053_3_07",
+  "extracted_at": "2026-11-06T17:42:38.015Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41982,
+    "output": 249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムス錠5mg「あゆみ」",
+      "strength": "5mg",
+      "imprint_front": "AY 5",
+      "imprint_back": "5",
+      "imprint_note": "識別コード：AY 5（表は「AY 5」、裏は「5」）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.8,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "識別コード AY 5 / 性状 白色の楕円形のフィルムコーティング錠（長径13.6mm、短径6.8mm、厚さ4.6mm、重量400mg）"
+    }
+  ]
+}

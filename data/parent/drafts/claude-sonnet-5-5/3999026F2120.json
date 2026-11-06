@@ -1,0 +1,30 @@
+{
+  "id": "3999026F2120",
+  "source_file": "750007_3999026F2120_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/750007_3999026F2120_2_05",
+  "extracted_at": "2026-11-06T17:46:39.892Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21481,
+    "output": 309
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠50mg「三笠」",
+      "strength": "50mg",
+      "imprint_front": "ミノドロン 50 ミカサ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：ミノドロン 50 ミカサ。表裏の別は本文に記載なし（外形図に表示あり）",
+      "color": "ごくうすい赤色",
+      "shape": "oval",
+      "size_long_mm": 13.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい赤色のだ円形のフィルムコーティング錠 直径（mm）長径：13.2 短径：7.2 厚さ（mm）4.4 重量（mg）310 識別コード ミノドロン 50 ミカサ"
+    }
+  ]
+}

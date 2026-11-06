@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1133",
+  "source_file": "300119_4291011F1133_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4291011F1133_1_18",
+  "extracted_at": "2026-11-06T17:55:34.922Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30035,
+    "output": 813
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW IT 100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「SW IT 100」と記載。表裏のどちらに刻印されているかは文面からは不明",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠／性状 くすんだ黄赤色～濃い黄赤色／直径（mm） 9.2／厚さ（mm） 3.9／重量（mg） 約245／識別コード SW IT 100"
+    }
+  ]
+}

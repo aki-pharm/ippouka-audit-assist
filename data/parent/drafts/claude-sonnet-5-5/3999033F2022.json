@@ -1,0 +1,30 @@
+{
+  "id": "3999033F2022",
+  "source_file": "180078_3999033F1026_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_3999033F1026_1_06",
+  "extracted_at": "2026-11-06T17:47:53.246Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12579,
+    "output": 693
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルカルチンFF錠250mg",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に印字らしきものがあるが、本文テキストに刻印の記載がなく読み取れないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2023年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "エルカルチンFF錠250mg 白色のフィルムコーティング錠 10.5 5.4 約437（直径10.5mm、厚さ5.4mm、重さ約437mg）"
+    }
+  ]
+}

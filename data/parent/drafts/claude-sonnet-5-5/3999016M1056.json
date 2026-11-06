@@ -1,0 +1,30 @@
+{
+  "id": "3999016M1056",
+  "source_file": "300119_3999016M1056_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3999016M1056_1_26",
+  "extracted_at": "2026-11-06T17:43:34.638Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23585,
+    "output": 353
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトトレキサートカプセル2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW-254",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル剤（4号）。識別コードSW-254。表裏の別は記載なし。本品は錠剤ではなくカプセル剤。",
+      "color": "頭部：黄色不透明、胴部：黄色不透明、内容物：淡黄色の粉末又は塊を含む粉末",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 硬カプセル剤 性　状 頭　部：黄色不透明 胴　部：黄色不透明 内容物：淡黄色の粉末又は塊を含む粉末 全長（mm） 14.5 重量（mg） 約180 識別コード SW-254"
+    }
+  ]
+}

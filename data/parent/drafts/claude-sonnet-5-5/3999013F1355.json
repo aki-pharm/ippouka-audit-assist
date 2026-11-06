@@ -1,0 +1,30 @@
+{
+  "id": "3999013F1355",
+  "source_file": "530100_3999013F1355_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3999013F1355_1_05",
+  "extracted_at": "2026-11-06T17:41:55.372Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13556,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エパルレスタット錠50mg「NP」",
+      "strength": "50mg",
+      "imprint_front": "TP-225",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表示はTP-225。表裏の区別は記載なし。外形図には側面（厚さ）も図示されているが、割線の記載はなし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "エパルレスタット錠50mg「NP」 白色のフィルムコート錠 直径6.7mm 厚さ3.5mm 重量120mg 識別コード TP-225"
+    }
+  ]
+}

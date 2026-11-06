@@ -1,0 +1,30 @@
+{
+  "id": "4291009F2060",
+  "source_file": "670082_4291009F2060_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670082_4291009F2060_1_03",
+  "extracted_at": "2026-11-06T17:54:22.410Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17745,
+    "output": 284
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビカルタミドOD錠80mg「ケミファ」",
+      "strength": "80mg",
+      "imprint_front": "ビカルOD",
+      "imprint_back": "FCI",
+      "imprint_note": "識別コード：ビカルOD FCI（表に「ビカルOD」、裏に「FCI」と外形図に表示）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の素錠 外形 表 裏 側面 直径 10.1mm 厚さ 2.9mm 重量 300mg 識別コード ビカルOD FCI"
+    }
+  ]
+}

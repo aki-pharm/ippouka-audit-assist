@@ -1,0 +1,30 @@
+{
+  "id": "3999019F3037",
+  "source_file": "400256_3999019F3037_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_3999019F3037_1_16",
+  "extracted_at": "2026-11-06T17:45:07.096Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15652,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベネット錠75mg",
+      "strength": "75mg",
+      "imprint_front": "312",
+      "imprint_back": "75",
+      "imprint_note": "識別コード「◎312」（社名マークと312）。上面に社名マークと312、下面に75の印字。側面は表示なし。",
+      "color": "微黄色",
+      "shape": "oval",
+      "size_long_mm": 10.2,
+      "size_short_mm": 5.2,
+      "thickness_mm": 4.2,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／錠剤の色 微黄色／識別コード 312／形状 上面・下面・側面／長径(mm) 10.2／短径(mm) 5.2／厚さ(mm) 約4.2"
+    }
+  ]
+}

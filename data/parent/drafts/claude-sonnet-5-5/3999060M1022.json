@@ -1,0 +1,30 @@
+{
+  "id": "3999060M1022",
+  "source_file": "672212_3999060M1022_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_3999060M1022_1_03",
+  "extracted_at": "2026-11-06T17:50:47.162Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25884,
+    "output": 366
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リットフーロカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "RCB 50",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく3号硬カプセル。外形図にPfizerロゴ（社名マーク）と「RCB 50」の印字あり。識別コード欄は「RCB 50」。表裏の区別は記載なし。",
+      "color": "キャップ：淡青色、ボディ：淡黄色（内容物：白色～淡紅色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "リットフーロカプセル 50mg 外形（mm）15.9 / 5.8 識別コード RCB 50 色調等 キャップ：淡青色 ボディ：淡黄色 3 号硬カプセル 内容物：白色～淡紅色の粉末"
+    }
+  ]
+}

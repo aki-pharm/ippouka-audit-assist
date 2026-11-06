@@ -1,0 +1,30 @@
+{
+  "id": "3999019F2081",
+  "source_file": "530100_3999019F2081_3_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3999019F2081_3_12",
+  "extracted_at": "2026-11-06T17:44:53.175Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22585,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠17.5mg「NP」",
+      "strength": "17.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "テキストでは刻印の文字は記載されていない（外形図に刻印らしき表示があるが、文字として読み取れないため未確認）",
+      "color": "淡紅色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡紅色の楕円形のフィルムコーティング錠 （長径）8.1 （短径）4.6 3.4 115"
+    }
+  ]
+}

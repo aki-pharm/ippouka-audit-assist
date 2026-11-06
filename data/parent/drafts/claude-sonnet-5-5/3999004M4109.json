@@ -1,0 +1,30 @@
+{
+  "id": "3999004M4109",
+  "source_file": "530169_3999004M3102_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999004M3102_1_14",
+  "extracted_at": "2026-11-06T17:41:12.842Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42040,
+    "output": 735
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シクロスポリンカプセル25mg「日医工」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく軟カプセル剤。性状欄に刻印の記載はなく、外形欄に「包装コード 448」（図中は社名マーク付き）とあるが、カプセル本体への刻印かは明記されていないため未確認とした。",
+      "color": "白色～淡黄白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の光沢のある軟カプセル剤で、特異なにおいがある。"
+    }
+  ]
+}

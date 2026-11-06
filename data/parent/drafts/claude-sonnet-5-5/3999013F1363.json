@@ -1,0 +1,30 @@
+{
+  "id": "3999013F1363",
+  "source_file": "480143_3999013F1363_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480143_3999013F1363_1_04",
+  "extracted_at": "2026-11-06T17:41:59.028Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12222,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エパルレスタット錠50mg「フソー」",
+      "strength": "50mg",
+      "imprint_front": "TH 711",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード TH711（表面に2段で「TH」「711」と表示）。裏面・側面の刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 / 大きさ 直径 6.6mm 厚さ 3.9mm / 質量 約120mg / 識別コード TH711"
+    }
+  ]
+}

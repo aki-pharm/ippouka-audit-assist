@@ -1,0 +1,30 @@
+{
+  "id": "4291031F2021",
+  "source_file": "800126_4291031F1025_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_4291031F1025_1_11",
+  "extracted_at": "2026-11-06T17:59:25.589Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36031,
+    "output": 1023
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イクスタンジ錠80mg",
+      "strength": "80mg",
+      "imprint_front": "イクスタンジ 80",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載はなく、3.2の外形図に「イクスタンジ 80」の印字が見える。裏面の印字は図から区別できない。",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 17.2,
+      "size_short_mm": 9.1,
+      "thickness_mm": 5.9,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "イクスタンジ錠 80mg フィルムコーティング錠 黄色 表・裏 側面 直径 厚さ 重量 長径：約17.2mm 短径：約9.1mm 約5.9mm 約0.670g"
+    }
+  ]
+}

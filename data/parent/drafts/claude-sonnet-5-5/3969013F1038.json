@@ -1,0 +1,30 @@
+{
+  "id": "3969013F1038",
+  "source_file": "300119_3969013F1038_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3969013F1038_1_04",
+  "extracted_at": "2026-11-06T17:36:46.797Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32703,
+    "output": 296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レパグリニド錠0.25mg「サワイ」",
+      "strength": "0.25mg",
+      "imprint_front": "レパグリニド 0.25 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は本文テキストからは確認できない。割線入り素錠。",
+      "color": "淡赤色",
+      "shape": "oval",
+      "size_long_mm": 7,
+      "size_short_mm": 5,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／性状 淡赤色／直径（mm） 7.0×5.0／厚さ（mm） 2.8／重量（mg） 約95／本体表示 レパグリニド 0.25 サワイ"
+    }
+  ]
+}

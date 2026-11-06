@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1141",
+  "source_file": "580591_4291011F1141_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_4291011F1141_1_15",
+  "extracted_at": "2026-11-06T17:55:34.562Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29968,
+    "output": 339
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "イマチニブ 100 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「イマチニブ 100 JG」と記載。表面・裏面のどちらの表示かは文面上では区別されていない（外形図の表面・裏面・側面の図あり）。",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "くすんだ黄赤色～濃い黄赤色の片面割線入りのフィルムコーティング錠 ／ 直径 8.6mm 厚さ 3.5mm 重量 187mg ／ 本体表示 イマチニブ 100 JG"
+    }
+  ]
+}

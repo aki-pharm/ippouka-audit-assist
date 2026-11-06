@@ -1,0 +1,30 @@
+{
+  "id": "4291019M3026",
+  "source_file": "670142_4291019M1023_1_30.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670142_4291019M1023_1_30",
+  "extracted_at": "2026-11-06T17:57:03.912Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26145,
+    "output": 677
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サレドカプセル25",
+      "strength": "25mg",
+      "imprint_front": "サリドマイド サレド25",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。識別コードは「サリドマイド／サレド25」と記載されているが、表裏（上部・下部）のどちらに印字されているかは本文に記載がない。",
+      "color": "上部緑色不透明、下部白色不透明（内容物は白色～淡黄色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "上部緑色不透明、下部白色不透明の4号硬カプセル（内容物は白色～淡黄色の粉末） / 識別コード：サリドマイド サレド25 / 外形等 長径：約14.3mm 短径：約5.3mm"
+    }
+  ]
+}

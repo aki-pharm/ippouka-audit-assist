@@ -1,0 +1,30 @@
+{
+  "id": "4291030F3023",
+  "source_file": "650168_4291030F1020_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_4291030F1020_1_11",
+  "extracted_at": "2026-11-06T17:59:15.077Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23354,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジオトリフ錠40mg",
+      "strength": "40mg",
+      "imprint_front": "T40",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は社名マーク＋T40。外形図では片面にT40、もう片面に社名マークとみられるが、文字での記載は識別コードのみ",
+      "color": "淡青色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡青色のフィルムコート錠 直径 約10.1mm 厚さ 約4.5mm 重さ 約368mg 識別コード T40"
+    }
+  ]
+}

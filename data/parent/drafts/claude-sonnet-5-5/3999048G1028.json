@@ -1,0 +1,30 @@
+{
+  "id": "3999048G1028",
+  "source_file": "112130_3999048G2024_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_3999048G2024_1_21",
+  "extracted_at": "2026-11-06T17:49:27.206Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 84247,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リンヴォック錠7.5mg",
+      "strength": "7.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「7.5」と記載されている。錠剤の上面・下面のどちらに刻印されているかは、添付文書の本文からは確認できない。",
+      "color": "緑色",
+      "shape": "oval",
+      "size_long_mm": 14,
+      "size_short_mm": 8,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 2,
+      "source_quote": "緑色の楕円形のフィルムコーティング錠 / 長径：約14mm、短径：約8mm、厚さ：約5mm、重量：約0.5g / 識別コード 7.5"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "3969109F1021",
+  "source_file": "300297_3969109F1021_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3969109F1021_1_08",
+  "extracted_at": "2026-11-06T17:40:14.091Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31535,
+    "output": 571
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトアナ配合錠LD",
+      "strength": "アナグリプチン100mg/メトホルミン塩酸塩250mg",
+      "imprint_front": "Sc125",
+      "imprint_back": "LD",
+      "imprint_note": "外形図の表に「Sc125」、裏に「LD」の表示あり（識別コード：Sc125）",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 15,
+      "size_short_mm": 6.4,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 楕円の淡黄色のフィルムコーティング錠／長径 15.0mm／短径 6.4mm／厚さ 5.3mm／重量 407mg／識別コード Sc125"
+    },
+    {
+      "product_name": "メトアナ配合錠HD",
+      "strength": "アナグリプチン100mg/メトホルミン塩酸塩500mg",
+      "imprint_front": "Sc150",
+      "imprint_back": "HD",
+      "imprint_note": "外形図の表に「Sc150」、裏に「HD」の表示あり（識別コード：Sc150）",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 18.2,
+      "size_short_mm": 7.7,
+      "thickness_mm": 6.4,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 楕円の淡黄色のフィルムコーティング錠／長径 18.2mm／短径 7.7mm／厚さ 6.4mm／重量 710mg／識別コード Sc150"
+    }
+  ]
+}

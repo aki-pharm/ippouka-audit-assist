@@ -1,0 +1,30 @@
+{
+  "id": "3999028F1033",
+  "source_file": "670109_3999028F1033_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_3999028F1033_1_01",
+  "extracted_at": "2026-11-06T17:46:49.103Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25796,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エルトロンボパグ錠12.5mg「F」",
+      "strength": "12.5mg",
+      "imprint_front": "FJ13",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードFJ13。外形図には表面に「FJ13 12.5」と思われる印字があるが、本文には表裏の区別の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色円形のフィルムコーティング錠 / 大きさ 直径 8.1mm 厚さ 3.7mm 質量 184mg / 識別コード FJ13"
+    }
+  ]
+}

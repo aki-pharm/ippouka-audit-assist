@@ -1,0 +1,30 @@
+{
+  "id": "3999039M2029",
+  "source_file": "650168_3999039M1022_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_3999039M1022_1_15",
+  "extracted_at": "2026-11-06T17:48:27.386Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25960,
+    "output": 768
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オフェブカプセル150mg",
+      "strength": "150mg",
+      "imprint_front": "150",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく軟カプセル剤。識別コード欄に社名マークと併記されている（図中）。表裏の区別は記載なし。",
+      "color": "褐色不透明",
+      "shape": "oblong",
+      "size_long_mm": 17.6,
+      "size_short_mm": 7.1,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形：褐色不透明の軟カプセル剤／外形 長径 約17.6mm、直径 約7.1mm、重さ 約626.76mg／識別コード 150"
+    }
+  ]
+}

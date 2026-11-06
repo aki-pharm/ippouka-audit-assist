@@ -1,0 +1,30 @@
+{
+  "id": "4291030F2027",
+  "source_file": "650168_4291030F1020_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650168_4291030F1020_1_11",
+  "extracted_at": "2026-11-06T17:59:13.155Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23354,
+    "output": 302
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジオトリフ錠30mg",
+      "strength": "30mg",
+      "imprint_front": "T30",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード T30 の前に社名マークが付されている（識別コード欄：「T30」）。外形の図では片面に識別コード、もう片面に社名マークが描かれているが、文章での裏面の記載はない。",
+      "color": "濃青色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ジオトリフ錠30mg 剤形：濃青色のフィルムコート錠 外形 直径 約9.1mm 厚さ 約4.1mm 重さ 約277mg 識別コード T30"
+    }
+  ]
+}

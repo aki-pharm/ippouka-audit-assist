@@ -1,0 +1,30 @@
+{
+  "id": "3969024F3020",
+  "source_file": "470310_3969024F1028_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3969024F1028_2_02",
+  "extracted_at": "2026-11-06T17:38:47.658Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25096,
+    "output": 1085
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザファテック錠25mg",
+      "strength": "25mg",
+      "imprint_front": "ザファテック25",
+      "imprint_back": "ザファテック25",
+      "imprint_note": "識別コードは「なし」。製剤表示として「ザファテック25」の記載あり（上面・下面の図に表示）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2025年10月改訂（第4版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "ザファテック錠25mg：剤形 フィルムコーティング錠、錠剤の色 黄色、識別コード なし、製剤表示 ザファテック25、大きさ 直径6.1mm、厚さ 約3.3mm、質量 約93mg"
+    }
+  ]
+}

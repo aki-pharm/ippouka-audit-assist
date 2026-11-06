@@ -1,0 +1,30 @@
+{
+  "id": "4291020F1027",
+  "source_file": "670605_4291020F1027_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_4291020F1027_1_19",
+  "extracted_at": "2026-11-06T17:57:07.698Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33280,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スプリセル錠20mg",
+      "strength": "20mg",
+      "imprint_front": "BMS",
+      "imprint_back": "527",
+      "imprint_note": "識別コード：BMS 527（表にBMS、裏に527と推定される外観図だが、文書上は識別コードとして「BMS 527」と記載）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の円形のフィルムコート錠 / 識別コード BMS 527 / 直径5.6mm / 厚さ 3.3mm"
+    }
+  ]
+}

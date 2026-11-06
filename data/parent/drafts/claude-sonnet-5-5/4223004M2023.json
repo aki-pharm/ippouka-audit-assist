@@ -1,0 +1,30 @@
+{
+  "id": "4223004M2023",
+  "source_file": "431010_4223004M2023_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_4223004M2023_3_02",
+  "extracted_at": "2026-11-06T17:52:02.287Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13767,
+    "output": 297
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルツロンカプセル200",
+      "strength": "200mg",
+      "imprint_front": "フルツロン／200",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「フルツロン／200」（キャップ・ボディーのどちらに印字されているかは本文に記載なし）。剤形は硬カプセル（2号）で錠剤ではない。",
+      "color": "キャップ：淡赤白色、ボディー：白色",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色 キャップ 淡赤白色 ボディー 白色 剤形 硬カプセル（2号） 外形 識別コード フルツロン／200 平均重量 約278mg"
+    }
+  ]
+}

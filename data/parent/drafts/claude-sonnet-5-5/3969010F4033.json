@@ -1,0 +1,30 @@
+{
+  "id": "3969010F4033",
+  "source_file": "170050_3969010F1034_2_36.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_3969010F1034_2_36",
+  "extracted_at": "2026-11-06T17:36:05.484Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26840,
+    "output": 865
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジャヌビア錠12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "MSD",
+      "imprint_back": "211",
+      "imprint_note": "識別コード MSD 211。表裏の区別は外形の図による（表面MSD、裏面211）",
+      "color": "明るい灰色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調：円形、フィルムコーティング錠、明るい灰色／外形：直径：6.1mm、厚さ：2.7mm／識別コード：MSD 211"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291033F1059",
+  "source_file": "530191_4291033F1059_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291033F1059_1_01",
+  "extracted_at": "2026-11-06T17:59:46.193Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26201,
+    "output": 851
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アビラテロン酢酸エステル錠250mg「NK」",
+      "strength": "250mg",
+      "imprint_front": "アビラテロン250NK",
+      "imprint_back": "アビラテロン250NK",
+      "imprint_note": "本体表示。外形図は表・裏とも同じ表示",
+      "color": "ピンク色",
+      "shape": null,
+      "size_long_mm": 13.4,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2025年8月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 ピンク色のフィルムコーティング錠 / 大きさ 直径 13.4mm×7.1mm 厚さ 4.9mm / 質量 約383mg / 本体表示 アビラテロン250NK"
+    }
+  ]
+}

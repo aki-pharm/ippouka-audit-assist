@@ -1,0 +1,30 @@
+{
+  "id": "3999053F2020",
+  "source_file": "230867_3999053F1023_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230867_3999053F1023_1_05",
+  "extracted_at": "2026-11-06T17:50:06.165Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43496,
+    "output": 239
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジセレカ錠200mg",
+      "strength": "200mg",
+      "imprint_front": "GSI",
+      "imprint_back": "200",
+      "imprint_note": "識別コード：GSI 200（外形図では片面に「GSI」、もう片面に「200」と記載）",
+      "color": "淡褐色",
+      "shape": "oblong",
+      "size_long_mm": 17,
+      "size_short_mm": 8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "淡褐色のフィルムコーティング錠　長径：約17mm　短径：約8mm　重量：約824mg　識別コード GSI 200"
+    }
+  ]
+}

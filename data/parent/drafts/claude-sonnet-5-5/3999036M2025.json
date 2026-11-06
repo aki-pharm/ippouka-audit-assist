@@ -1,0 +1,30 @@
+{
+  "id": "3999036M2025",
+  "source_file": "800126_3999036M1029_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_3999036M1029_1_07",
+  "extracted_at": "2026-11-06T17:48:01.957Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16300,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オーファディンカプセル5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNTBC5mg。表・裏の外形図に印字があるが、表裏それぞれの内容は文字として読み取れないため未確認。剤形は錠剤ではなく硬カプセル剤（3号、重量約0.26g）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年6月改訂",
+      "source_page": 1,
+      "source_quote": "オーファディンカプセル5mg 硬カプセル剤 白色 識別コード NTBC5mg 号数 3号 重量 約0.26g"
+    }
+  ]
+}

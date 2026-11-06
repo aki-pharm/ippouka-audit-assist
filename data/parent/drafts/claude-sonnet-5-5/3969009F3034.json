@@ -1,0 +1,30 @@
+{
+  "id": "3969009F3034",
+  "source_file": "480235_3969009F1031_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3969009F1031_1_04",
+  "extracted_at": "2026-11-06T17:35:25.800Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25099,
+    "output": 776
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミグリトール錠75mg「トーワ」",
+      "strength": "75mg",
+      "imprint_front": "ミグリ 75",
+      "imprint_back": "ミグリトール 75 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2023年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠（本体表示 表：ミグリ 75、裏：ミグリトール 75 トーワ／直径 8.0mm、厚さ 2.9mm）"
+    }
+  ]
+}

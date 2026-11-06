@@ -1,0 +1,30 @@
+{
+  "id": "3999004M3145",
+  "source_file": "730869_3999004C1058_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3999004C1058_1_07",
+  "extracted_at": "2026-11-06T17:41:04.786Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43643,
+    "output": 825
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シクロスポリンカプセル10mg「VTRS」",
+      "strength": "10mg",
+      "imprint_front": "MH175",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに表示（カプセル本体への刻印かは記載なし）",
+      "color": "帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 5.8,
+      "size_short_mm": 5.4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "シクロスポリンカプセル10mg「VTRS」 5.8mm×5.4mm MH175（PTPに表示） カプセル：帯黄白色の光沢のある軟カプセルである 内容物：微黄色～淡黄色澄明の油状の液で、粘性がある"
+    }
+  ]
+}

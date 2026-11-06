@@ -1,0 +1,30 @@
+{
+  "id": "4291020F1078",
+  "source_file": "672358_4291020F1078_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672358_4291020F1078_1_02",
+  "extracted_at": "2026-11-06T17:57:19.768Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33441,
+    "output": 242
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダサチニブ錠20mg「BMSH」",
+      "strength": "20mg",
+      "imprint_front": "BMH",
+      "imprint_back": "11",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の円形のフィルムコート錠 識別コード BMH 11 外観 直径 長径・短径 直径5.6mm 厚さ 3.3mm 重さ 83.2mg"
+    }
+  ]
+}

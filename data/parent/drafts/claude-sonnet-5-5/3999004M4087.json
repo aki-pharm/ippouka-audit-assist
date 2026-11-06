@@ -1,0 +1,30 @@
+{
+  "id": "3999004M4087",
+  "source_file": "650208_3999004M3080_8_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_3999004M3080_8_07",
+  "extracted_at": "2026-11-06T17:41:03.359Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 44108,
+    "output": 341
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シクロスポリンカプセル25mg「BMD」",
+      "strength": "25mg",
+      "imprint_front": "BMD32（PTPに記載）",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに記載。カプセル本体の刻印は添付文書の文字情報からは確認できず（外形図にはカプセル上に「シクロスポリン BMD 25mg」の表示あり）。軟カプセル剤であり割線の記載なし。重量：337mg",
+      "color": "黄白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 12,
+      "size_short_mm": 6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "黄白色不透明の軟カプセルで、特異なにおいがある。／識別コード BMD32（PTPに記載）／大きさ 長径：約12mm 短径：約6mm 重量：337mg"
+    }
+  ]
+}

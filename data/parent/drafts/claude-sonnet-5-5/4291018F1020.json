@@ -1,0 +1,30 @@
+{
+  "id": "4291018F1020",
+  "source_file": "530191_4291018F1020_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291018F1020_1_04",
+  "extracted_at": "2026-11-06T17:56:56.563Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40013,
+    "output": 907
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スニチニブ錠12.5mg「NK」",
+      "strength": "12.5mg",
+      "imprint_front": "スニチニブ 12.5",
+      "imprint_back": "スニチニブ NK",
+      "imprint_note": "本体表示「スニチニブ 12.5：スニチニブ NK」。表・裏の図の並び順から表=スニチニブ 12.5、裏=スニチニブ NK とした。",
+      "color": "薄い赤～暗い赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状：薄い赤～暗い赤色のフィルムコーティング錠／直径 8.1mm／厚さ 3.4mm／質量 185mg／本体表示 スニチニブ 12.5：スニチニブ NK"
+    }
+  ]
+}

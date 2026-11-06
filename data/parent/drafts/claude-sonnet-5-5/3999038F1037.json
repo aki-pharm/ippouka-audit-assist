@@ -1,0 +1,30 @@
+{
+  "id": "3999038F1037",
+  "source_file": "430773_3999038F1037_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3999038F1037_1_03",
+  "extracted_at": "2026-11-06T17:48:21.988Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21609,
+    "output": 1069
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヒドロキシクロロキン硫酸塩錠200mg「DSEP」",
+      "strength": "200mg",
+      "imprint_front": "ヒドロキシクロロキン 200 EP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「ヒドロキシクロロキン 200 EP」と記載。表裏の別は本文に明記なし。割線の記載なし。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 12.9,
+      "size_short_mm": 6.2,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ヒドロキシクロロキン硫酸塩錠200mg「DSEP」 フィルムコーティング錠 白色 （長径）12.9 （短径）6.2 厚さ4.4 質量312.0 識別コード ヒドロキシクロロキン 200 EP"
+    }
+  ]
+}

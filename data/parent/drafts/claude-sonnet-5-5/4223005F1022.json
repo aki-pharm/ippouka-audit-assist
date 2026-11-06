@@ -1,0 +1,30 @@
+{
+  "id": "4223005F1022",
+  "source_file": "450900_4223005F1022_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_4223005F1022_2_02",
+  "extracted_at": "2026-11-06T17:52:05.790Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36575,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゼローダ錠300",
+      "strength": "300mg",
+      "imprint_front": "ゼローダ300",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図では、平面に「ゼローダ300」の表示がある。側面の刻印については記載なし。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.4,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 平面 側面 長径 約13.4mm 短径 約7.1mm 厚さ 約4.8mm 質量 約385mg 識別コード ゼローダ300"
+    }
+  ]
+}

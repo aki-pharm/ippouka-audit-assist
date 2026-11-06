@@ -1,0 +1,30 @@
+{
+  "id": "4223005F1057",
+  "source_file": "530169_4223005F1057_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_4223005F1057_1_05",
+  "extracted_at": "2026-11-06T17:52:16.800Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34218,
+    "output": 856
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カペシタビン錠300mg「日医工」",
+      "strength": "300mg",
+      "imprint_front": "カペシタビン 300 日医工",
+      "imprint_back": "カペシタビン 300 日医工",
+      "imprint_note": "本体表示：カペシタビン 300 日医工（表裏とも同じ表示）。包装コード：263",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 13.5,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 長径（mm） 13.5 短径（mm） 7.2 厚さ（mm） 4.8 質量（mg） 385 本体表示 カペシタビン 300 日医工 包装コード 263"
+    }
+  ]
+}

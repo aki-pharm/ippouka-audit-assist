@@ -1,0 +1,30 @@
+{
+  "id": "3969017F2032",
+  "source_file": "300119_3969017F1036_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3969017F1036_1_02",
+  "extracted_at": "2026-11-06T17:37:21.030Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26715,
+    "output": 835
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サキサグリプチン錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "サキサグリプチン 5 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は文面に記載なし",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 8.3,
+      "size_short_mm": 8.3,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠／性状 淡紅色／直径（mm）8.3／厚さ（mm）3.9／重量（mg）約236／本体表示 サキサグリプチン 5 サワイ"
+    }
+  ]
+}

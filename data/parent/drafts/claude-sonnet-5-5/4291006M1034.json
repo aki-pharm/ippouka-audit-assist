@@ -1,0 +1,30 @@
+{
+  "id": "4291006M1034",
+  "source_file": "450900_4291006M1034_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_4291006M1034_3_01",
+  "extracted_at": "2026-11-06T17:53:39.988Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17197,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベサノイドカプセル10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印・識別コードの記載なし。剤形は軟カプセル（錠剤ではない）",
+      "color": "片側半分：黄色～帯赤黄色、片側半分：赤褐色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色 片側半分 黄色～帯赤黄色 / 片側半分 赤褐色 / 剤形 軟カプセル / 長径 約10.0mm / 短径 約7.0mm / 平均重量 約275mg"
+    }
+  ]
+}

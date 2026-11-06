@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1125",
+  "source_file": "530213_4291011F1125_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_4291011F1125_1_15",
+  "extracted_at": "2026-11-06T17:55:26.507Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29480,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「ケミファ」",
+      "strength": "100mg",
+      "imprint_front": "NC IM",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：NC IM（表面）。裏面は割線のみ（片面割線入り）。",
+      "color": "くすんだ黄赤色〜濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状 くすんだ黄赤色〜濃い黄赤色の片面割線入りのフィルムコーティング錠 直径 7.6mm 厚さ 3.3mm 重量 125.0mg 識別コード NC IM"
+    }
+  ]
+}

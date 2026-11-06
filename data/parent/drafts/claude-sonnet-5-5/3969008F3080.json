@@ -1,0 +1,30 @@
+{
+  "id": "3969008F3080",
+  "source_file": "340409_3969008F3080_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_3969008F3080_1_02",
+  "extracted_at": "2026-11-06T17:34:58.336Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29053,
+    "output": 913
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミチグリニドCa・OD錠5mg「SN」",
+      "strength": "5mg",
+      "imprint_front": "SK2",
+      "imprint_back": "なし",
+      "imprint_note": "表面に識別コードSK2（外形図では「SK」の下に「2」）。裏面の外形図に刻印の表示なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ミチグリニドCa・OD錠5mg「SN」 色・剤形：白色の素錠 規格：直径 6.0mm、厚さ 2.4mm、重量 75mg 識別コード：SK2"
+    }
+  ]
+}

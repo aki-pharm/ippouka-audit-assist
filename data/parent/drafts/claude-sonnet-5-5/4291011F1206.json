@@ -1,0 +1,30 @@
+{
+  "id": "4291011F1206",
+  "source_file": "300166_4291011F1206_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_4291011F1206_1_07",
+  "extracted_at": "2026-11-06T17:55:44.893Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27800,
+    "output": 763
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「KMP」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "YL122",
+      "imprint_note": "識別表示YL122。外形図では裏面にYL/122の表示。表面の刻印は文章では記載なし。",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状 くすんだ黄赤色～濃い黄赤色 片面割線入りのフィルムコーティング錠 直径：7.6mm 厚さ：3.3mm 重量 125mg 識別表示 YL122"
+    }
+  ]
+}

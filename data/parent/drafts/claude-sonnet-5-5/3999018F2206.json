@@ -1,0 +1,30 @@
+{
+  "id": "3999018F2206",
+  "source_file": "730869_3999018F2206_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3999018F2206_1_04",
+  "extracted_at": "2026-11-06T17:44:25.939Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20717,
+    "output": 1050
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠35mg｢VTRS｣",
+      "strength": "35mg",
+      "imprint_front": "M",
+      "imprint_back": "35",
+      "imprint_note": "外形図の刻印表記。識別コードは M127（シートに記載）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.3,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アレンドロン酸錠35mg ｢VTRS｣ M127（シートに記載） 白色 素錠 長径10.3mm 短径5.6mm 厚さ3.6mm 重量175mg"
+    }
+  ]
+}

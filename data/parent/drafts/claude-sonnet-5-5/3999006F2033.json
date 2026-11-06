@@ -1,0 +1,30 @@
+{
+  "id": "3999006F2033",
+  "source_file": "650034_3999006A1030_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650034_3999006A1030_2_07",
+  "extracted_at": "2026-11-06T17:41:33.669Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8691,
+    "output": 708
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハイチオール錠80",
+      "strength": "80mg",
+      "imprint_front": "SS108",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図では表面に SS/108 の表示あり。裏面の刻印については本文に明記なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 ハイチオール錠80／剤形・性状 白色フィルムコーティング錠／識別コード SS108／外形 8.2mm（直径）3.5mm（厚さ）185mg（重量）"
+    }
+  ]
+}
