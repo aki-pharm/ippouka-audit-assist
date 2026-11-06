@@ -1,0 +1,30 @@
+{
+  "id": "2329028F3158",
+  "source_file": "400278_2329028F1198_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2329028F1198_1_19",
+  "extracted_at": "2026-11-06T16:58:17.380Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33254,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールナトリウム錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状の表には刻印・識別コードの文字による記載がなく、外形の図のみ。テキストでは確認できないため未確認とした。",
+      "color": "淡黄色",
+      "shape": null,
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ラベプラゾールナトリウム錠5mg「TCK」 淡黄色 腸溶フィルムコーティング錠 直径5.7mm 厚さ2.7mm 重量67mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2329028F3239",
+  "source_file": "581120_2329028F1333_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2329028F1333_1_08",
+  "extracted_at": "2026-11-06T16:58:35.325Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30495,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に表示があるが、本文中に刻印・識別コードの文字記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色の腸溶フィルムコーティング錠 外形 直径 5.7mm 6.7mm 厚さ 2.7mm 3.7mm 質量 67mg 約132mg"
+    }
+  ]
+}

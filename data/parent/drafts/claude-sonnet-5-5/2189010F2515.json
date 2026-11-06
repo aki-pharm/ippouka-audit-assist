@@ -1,0 +1,30 @@
+{
+  "id": "2189010F2515",
+  "source_file": "581120_2189010F1497_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2189010F1497_1_03",
+  "extracted_at": "2026-11-06T16:38:28.294Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20318,
+    "output": 754
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "t 034",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」欄の記載（t 034）。外形図の錠剤には t/34 の表示あり。割線が入っている面と刻印の面の対応は記載なし。",
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 微紅色の片面1/2割線入り素錠／直径 7.5mm／厚さ 2.5mm／識別コード（PTP） t 034"
+    }
+  ]
+}

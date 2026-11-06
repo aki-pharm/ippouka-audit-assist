@@ -1,0 +1,30 @@
+{
+  "id": "2171022F5326",
+  "source_file": "130107_2171022F1215_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130107_2171022F1215_1_26",
+  "extracted_at": "2026-11-06T16:35:38.634Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19740,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠10mg「イセイ」",
+      "strength": "10mg",
+      "imprint_front": "IC-533",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：IC-533。表面・裏面・側面の外形図あり（図中には裏面に「10」の表示があるように見えるが、本文には明記なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 白色 直径 8.6mm 厚さ 4.1mm 質量 258mg 識別コード IC-533"
+    }
+  ]
+}

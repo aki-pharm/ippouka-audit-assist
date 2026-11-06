@@ -1,0 +1,30 @@
+{
+  "id": "2251001G1025",
+  "source_file": "530169_2251001G1025_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2251001G1025_1_22",
+  "extracted_at": "2026-11-06T16:51:59.130Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15788,
+    "output": 858
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユニコン錠200",
+      "strength": "200mg",
+      "imprint_front": "PF",
+      "imprint_back": "U200",
+      "imprint_note": "本体コード PF/U200（表面・裏面の個別の刻印は図のみで、文章では表裏の区別は未記載）。包装コード 830。割線については文章に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤 形 徐放錠 色 調 白色 直径（mm） 6.4 9.5 11.0 厚さ（mm） 2.9 2.8 4.1 質量（mg） 119 238 475 本体コード PF/U100 PF/U200 PF/U400 包装コード 837 830 831（ユニコン錠200は中央の列）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2189015F2151",
+  "source_file": "460028_2189015F1155_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2189015F1155_1_17",
+  "extracted_at": "2026-11-06T16:39:55.670Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27061,
+    "output": 238
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠10mg「TSU」",
+      "strength": "10mg",
+      "imprint_front": "A59",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 大きさ 直径 約 6.1mm 厚さ 約 2.8mm 質量 約 88.5mg 識別コード 表面 A59、裏面 10"
+    }
+  ]
+}

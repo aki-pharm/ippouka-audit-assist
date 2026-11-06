@@ -1,0 +1,30 @@
+{
+  "id": "2190024F3026",
+  "source_file": "671450_2190024F3026_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2190024F3026_2_03",
+  "extracted_at": "2026-11-06T16:46:04.957Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12241,
+    "output": 235
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルタンOD錠250mg",
+      "strength": "250mg",
+      "imprint_front": "M508",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードM508は上面に表示（M／508の2段表記）。下面は刻印の記載なし。",
+      "color": "白色素錠",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "カルタンOD錠250mg M508 白色素錠 直径8.0mm 厚さ3.9mm 重量300mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2171022F6284",
+  "source_file": "400813_2171022F3340_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2171022F3340_1_08",
+  "extracted_at": "2026-11-06T16:36:46.668Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21380,
+    "output": 859
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠10mg「武田テバ」",
+      "strength": "10mg",
+      "imprint_front": "TV10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPの欄に記載。表の形状図には「TV/10」の表示あり。片面1/2割線入り",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色の片面1/2割線入り口腔内崩壊錠／直径（mm）10.0／厚さ（mm）4.5／識別コード（PTP）TV10"
+    }
+  ]
+}

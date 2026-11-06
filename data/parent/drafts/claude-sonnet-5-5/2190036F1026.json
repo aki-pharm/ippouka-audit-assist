@@ -1,0 +1,30 @@
+{
+  "id": "2190036F1026",
+  "source_file": "230034_2190036F1026_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2190036F1026_1_07",
+  "extracted_at": "2026-11-06T16:47:53.456Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14209,
+    "output": 765
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピートルチュアブル錠250mg",
+      "strength": "250mg",
+      "imprint_front": "KISSEI PA250",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「KISSEI PA250」と記載。表裏の別は本文に明記されておらず、外形図では表面に表示。内径5.5mm（中央のくぼみと思われるが、本文に説明なし）。",
+      "color": "茶色",
+      "shape": "round",
+      "size_long_mm": 16.5,
+      "size_short_mm": 16.5,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 チュアブル錠 色調 茶色 外径 16.5mm 内径 5.5mm 厚さ 約5.2mm 質量 約1240mg 識別コード KISSEI PA250"
+    }
+  ]
+}

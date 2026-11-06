@@ -1,0 +1,30 @@
+{
+  "id": "2329023F1047",
+  "source_file": "400042_2329023F1047_3_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_2329023F1047_3_09",
+  "extracted_at": "2026-11-06T16:55:25.075Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29335,
+    "output": 352
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランソプラゾールOD錠15mg「DK」",
+      "strength": "15mg",
+      "imprint_front": "LP15",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：LP15。外形図の表面に「LP 15」の表示あり。裏面の刻印については外形図のみで文章記載なし",
+      "color": "白色～帯黄白色の素錠で淡褐色～暗褐色の斑点がある（腸溶性の粒を含む口腔内崩壊錠）",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の素錠で淡褐色～暗褐色の斑点がある（腸溶性の粒を含む口腔内崩壊錠）／直径 9.0mm　厚さ 4.7mm　重量 340mg／識別コード LP15"
+    }
+  ]
+}

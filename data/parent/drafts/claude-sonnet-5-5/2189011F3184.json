@@ -1,0 +1,30 @@
+{
+  "id": "2189011F3184",
+  "source_file": "480235_2189011F1220_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2189011F1220_1_21",
+  "extracted_at": "2026-11-06T16:39:05.051Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18264,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "Tw505",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード Tw505（表の外形図に「Tw 505」の表示あり）。裏の刻印は文書に記載なし",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 15,
+      "size_short_mm": 6.8,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の楕円形の素錠　識別コード Tw505　直径(mm) 15／6.8（長径／短径）　厚さ(mm) 4.6　質量(mg) 400"
+    }
+  ]
+}

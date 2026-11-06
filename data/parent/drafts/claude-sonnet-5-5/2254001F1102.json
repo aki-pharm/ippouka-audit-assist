@@ -1,0 +1,30 @@
+{
+  "id": "2254001F1102",
+  "source_file": "530169_2254001F1102_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2254001F1102_1_07",
+  "extracted_at": "2026-11-06T16:52:20.619Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9997,
+    "output": 286
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルブタモール錠2mg「日医工」",
+      "strength": "2mg",
+      "imprint_front": "117",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マークと「117」の識別コード（本体コード117、包装コード117）。剤形は割線入りの素錠。裏面の刻印の記載なし（図上は無地）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 白色 直径（mm） 6.0 厚さ（mm） 2.4 質量（mg） 90 本体コード 117 包装コード 117"
+    }
+  ]
+}

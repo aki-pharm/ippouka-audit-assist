@@ -1,0 +1,30 @@
+{
+  "id": "2189018F1035",
+  "source_file": "430773_2189018F1035_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2189018F1035_1_04",
+  "extracted_at": "2026-11-06T16:43:36.075Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23645,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "EP ez",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「EP ez」。外形の図中の表示は表面のみ確認でき、裏面の刻印は文章中に記載なし。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2020年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "エゼチミブ錠10mg「DSEP」 素錠（割線入） 白色 EP ez 8.1（長径）4.1（短径） 2.4 100"
+    }
+  ]
+}

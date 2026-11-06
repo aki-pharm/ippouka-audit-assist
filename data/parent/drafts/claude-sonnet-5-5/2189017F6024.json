@@ -1,0 +1,46 @@
+{
+  "id": "2189017F6024",
+  "source_file": "480235_2189017F1219_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2189017F1219_1_13",
+  "extracted_at": "2026-11-06T16:43:34.642Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37076,
+    "output": 1565
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "ロスバスタチン 10 トーワ",
+      "imprint_back": "ロスバスタチン 10 トーワ",
+      "imprint_note": "本体表示は表・裏の区別なく1つの表示として記載されている",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色のフィルムコーティング錠／本体表示 表・裏 ロスバスタチン 10 トーワ／直径(mm) 9.2／厚さ(mm) 4.2"
+    },
+    {
+      "product_name": "ロスバスタチンOD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "ロスバスタチン 10 OD トーワ",
+      "imprint_back": "ロスバスタチン 10 OD トーワ",
+      "imprint_note": "本体表示は表・裏の区別なく1つの表示として記載されている",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 12,
+      "size_short_mm": 12,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄白色の口腔内崩壊錠／本体表示 表・裏 ロスバスタチン 10 OD トーワ／直径(mm) 12.0／厚さ(mm) 4.9"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2325005F1040",
+  "source_file": "830001_2325005F1040_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2325005F1040_1_04",
+  "extracted_at": "2026-11-06T16:54:05.157Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9163,
+    "output": 871
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニザチジン錠150mg「YD」",
+      "strength": "150mg",
+      "imprint_front": "YD 661",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は外形の図から読み取り（本文に文章での記載なし）。裏面は図では刻印が見えないが、「なし」の明記はない。図中のYDと661の間に線あり（割線かどうかは記載なし）。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色のフィルムコーティング錠 / 直径 約9mm / 厚さ 約4.1mm / 重量 250mg"
+    }
+  ]
+}

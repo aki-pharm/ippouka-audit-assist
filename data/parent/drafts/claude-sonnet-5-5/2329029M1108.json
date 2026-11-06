@@ -1,0 +1,30 @@
+{
+  "id": "2329029M1108",
+  "source_file": "530100_2329029M1108_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2329029M1108_1_05",
+  "extracted_at": "2026-11-06T16:59:14.586Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35211,
+    "output": 723
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エソメプラゾールカプセル10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文テキストに識別コードの記載がなく読み取れない",
+      "color": "キャップが灰紫色、ボディがうすい黄色",
+      "shape": "oblong",
+      "size_long_mm": 11.4,
+      "size_short_mm": 4.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "エソメプラゾールカプセル10mg「ニプロ」 白色～ごくうすい黄色の腸溶性顆粒 褐色の腸溶性顆粒を認めることがある キャップが灰紫色、ボディがうすい黄色の硬カプセル剤 長径11.40mm 短径4.90mm 内容重量43mg"
+    }
+  ]
+}

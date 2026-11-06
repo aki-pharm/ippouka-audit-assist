@@ -1,0 +1,30 @@
+{
+  "id": "2329029M2023",
+  "source_file": "670227_2329029M1027_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_2329029M1027_1_21",
+  "extracted_at": "2026-11-06T16:59:19.155Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34759,
+    "output": 988
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ネキシウムカプセル20mg",
+      "strength": "20mg",
+      "imprint_front": "AZネキシウム20",
+      "imprint_back": "未確認",
+      "imprint_note": "カプセル周囲に「AZネキシウム20」の記載あり（識別コード）。表裏の区別の記載なし。なお本剤は錠剤ではなくカプセル剤（5号カプセル）。",
+      "color": "濃い青色（キャップ）、ごくうすい黄赤（ボディ）",
+      "shape": "oblong",
+      "size_long_mm": 11.4,
+      "size_short_mm": 4.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "カプセル剤 濃い青色（キャップ）ごくうすい黄赤（ボディ） 5号カプセル（カプセル周囲に「AZネキシウム20」の記載あり） 長径 11.40（mm） 短径 4.90（mm） 識別コード AZネキシウム20"
+    }
+  ]
+}

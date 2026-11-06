@@ -1,0 +1,78 @@
+{
+  "id": "2190101F1080",
+  "source_file": "300119_2190101F1080_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2190101F1080_1_16",
+  "extracted_at": "2026-11-06T16:49:32.904Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41020,
+    "output": 1706
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマルエット配合錠1番「サワイ」",
+      "strength": "アムロジピン2.5mg/アトルバスタチン5mg",
+      "imprint_front": "アマルエット 1",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。裏面の記載は確認できない",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　性状 黄色　直径（mm）5.6　厚さ（mm）2.7　重量（mg）約72　本体表示 アマルエット 1"
+    },
+    {
+      "product_name": "アマルエット配合錠2番「サワイ」",
+      "strength": "アムロジピン2.5mg/アトルバスタチン10mg",
+      "imprint_front": "アマルエット 2",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。裏面の記載は確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　性状 白色　直径（mm）6.6　厚さ（mm）2.9　重量（mg）約103　本体表示 アマルエット 2"
+    },
+    {
+      "product_name": "アマルエット配合錠3番「サワイ」",
+      "strength": "アムロジピン5mg/アトルバスタチン5mg",
+      "imprint_front": "アマルエット 3",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。裏面の記載は確認できない",
+      "color": "うすい紅色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　性状 うすい紅色　直径（mm）5.6　厚さ（mm）2.7　重量（mg）約72　本体表示 アマルエット 3"
+    },
+    {
+      "product_name": "アマルエット配合錠4番「サワイ」",
+      "strength": "アムロジピン5mg/アトルバスタチン10mg",
+      "imprint_front": "アマルエット 4",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。裏面の記載は確認できない",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.6,
+      "size_short_mm": 4.9,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　性状 白色　直径（mm）8.6×4.9　厚さ（mm）3.0　重量（mg）約103　本体表示 アマルエット 4"
+    }
+  ]
+}

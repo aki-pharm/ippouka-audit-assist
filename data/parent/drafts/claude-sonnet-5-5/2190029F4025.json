@@ -1,0 +1,30 @@
+{
+  "id": "2190029F4025",
+  "source_file": "630004_2190029F3029_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_2190029F3029_1_05",
+  "extracted_at": "2026-11-06T16:46:45.721Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17544,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ホスレノールOD錠500mg",
+      "strength": "500mg",
+      "imprint_front": "FOD 500",
+      "imprint_back": "FOD 500",
+      "imprint_note": "識別コード：FOD 500。外形の図では表裏に印字あり（テキストでは表裏の区別の明記なし）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 13,
+      "size_short_mm": 13,
+      "thickness_mm": 5.4,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊錠 色調 白色 外形 直径 10mm 13mm 厚さ 4.6mm 5.4mm 質量 601mg 1202mg 識別コード FOD 250 FOD 500"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2319001F1060",
+  "source_file": "530169_2319001F1060_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2319001F1060_1_04",
+  "extracted_at": "2026-11-06T16:53:15.036Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13258,
+    "output": 306
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロペラミド塩酸塩錠1mg「あすか」",
+      "strength": "1mg",
+      "imprint_front": "O.S RP",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：O.S-RP。外形図では表に「O.S/RP」と2段で表示、裏は刻印なし（外形図より）。",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色～微黄色フィルムコーティング錠 ／ 直径（mm） 約6.6 ／ 厚さ（mm） 約2.9 ／ 質量（mg） 約104 ／ 識別コード O.S-RP"
+    }
+  ]
+}

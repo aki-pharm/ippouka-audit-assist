@@ -1,0 +1,46 @@
+{
+  "id": "2189102F2020",
+  "source_file": "181615_2189102F1024_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_2189102F1024_3_07",
+  "extracted_at": "2026-11-06T16:45:08.110Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 39525,
+    "output": 981
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスーゼット®配合錠LD",
+      "strength": "10mg/2.6mg（ロスバスタチンとして2.5mg）",
+      "imprint_front": "37",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：37。裏面の刻印は文章では記載がなく未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 円形・素錠・白色／直径：7.1mm／厚さ：3.2mm／識別コード 37"
+    },
+    {
+      "product_name": "ロスーゼット®配合錠HD",
+      "strength": "10mg/5.2mg（ロスバスタチンとして5mg）",
+      "imprint_front": "850",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：850。裏面の刻印は文章では記載がなく未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 円形・素錠・白色／直径：8.1mm／厚さ：3.2mm／識別コード 850"
+    }
+  ]
+}

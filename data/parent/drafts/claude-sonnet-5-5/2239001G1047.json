@@ -1,0 +1,30 @@
+{
+  "id": "2239001G1047",
+  "source_file": "530100_2239001G1047_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2239001G1047_1_04",
+  "extracted_at": "2026-11-06T16:51:19.458Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12499,
+    "output": 329
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩徐放OD錠45mg「ニプロ」",
+      "strength": "45mg",
+      "imprint_front": "NP 143",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：NP-143。図では表面にNPのマークと143の表示あり。裏面は刻印の記載なし。",
+      "color": "白色の素錠で、微黄白色～淡黄白色の斑点がある（徐放口腔内崩壊錠）",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の素錠で、微黄白色～淡黄白色の斑点がある（徐放口腔内崩壊錠） 直径10.0mm 厚さ6.0mm 重量460mg 識別コード NP-143"
+    }
+  ]
+}

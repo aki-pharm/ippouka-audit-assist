@@ -1,0 +1,30 @@
+{
+  "id": "2325001F1211",
+  "source_file": "400093_2325001F1211_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_2325001F1211_1_01",
+  "extracted_at": "2026-11-06T16:53:35.969Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17689,
+    "output": 822
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タガメット錠200mg",
+      "strength": "200mg",
+      "imprint_front": "◆424",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「◆424」と記載。◆は社名マークと思われるが、文書上の説明はなし。外形欄に表・裏・側面の図あり。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコート錠 / 大きさ 直径(mm)約8.7 厚さ(mm)約4.1 重さ(mg)約231 / 識別コード ◆424"
+    }
+  ]
+}

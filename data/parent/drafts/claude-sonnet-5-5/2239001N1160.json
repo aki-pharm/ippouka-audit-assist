@@ -1,0 +1,30 @@
+{
+  "id": "2239001N1160",
+  "source_file": "480235_2239001N1160_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2239001N1160_1_03",
+  "extracted_at": "2026-11-06T16:51:28.504Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9691,
+    "output": 729
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩徐放カプセル45mg「トーワ」",
+      "strength": "45mg",
+      "imprint_front": "Tw411",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。識別コード欄の記載は Tw411 のみ。外形図には別の印字らしきものがあるが判読できず、文章での記載もない。号数は3号カプセル、質量は約228mg。",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の硬カプセル剤で、内容物は白色～帯黄白色の粒。 識別コード Tw411 外形 全長 約15.8mm（3号カプセル）"
+    }
+  ]
+}

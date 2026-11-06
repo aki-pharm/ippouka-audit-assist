@@ -1,0 +1,30 @@
+{
+  "id": "2290001F1028",
+  "source_file": "170050_2290001F1028_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_2290001F1028_1_06",
+  "extracted_at": "2026-11-06T16:52:38.423Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19782,
+    "output": 269
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リフヌア錠45mg",
+      "strength": "45mg",
+      "imprint_front": "777",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：777。表面に刻印の図あり、裏面は刻印なしの図。フィルムコーティング錠。質量約463.5mg",
+      "color": "ピンク色",
+      "shape": "round",
+      "size_long_mm": 10.4,
+      "size_short_mm": 10.4,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 円形・フィルムコーティング錠・ピンク色 直径：約10.4mm 厚さ：約5.3mm 質量 約463.5mg 識別コード 777"
+    }
+  ]
+}

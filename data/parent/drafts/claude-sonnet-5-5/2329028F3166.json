@@ -1,0 +1,30 @@
+{
+  "id": "2329028F3166",
+  "source_file": "400073_2329028F1201_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2329028F1201_1_20",
+  "extracted_at": "2026-11-06T16:58:27.917Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32302,
+    "output": 809
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールナトリウム錠5mg「科研」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「－」。外形図には印字らしき表示（表に「5」、裏に社名マーク様のもの）があるが、本文には刻印の記載がないため未確認とした。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5.9,
+      "size_short_mm": 5.9,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（腸溶錠） 色 淡黄色 直径 5.9mm 厚さ 2.6mm 質量 69.5mg 識別コード －"
+    }
+  ]
+}

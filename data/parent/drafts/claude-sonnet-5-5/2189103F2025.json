@@ -1,0 +1,46 @@
+{
+  "id": "2189103F2025",
+  "source_file": "270072_2189103F1029_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_2189103F1029_1_02",
+  "extracted_at": "2026-11-06T16:45:19.040Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35126,
+    "output": 1015
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リバゼブ配合錠LD",
+      "strength": "ピタバスタチンカルシウム／エゼチミブとして2.0mg/10.0mg",
+      "imprint_front": "221",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード221。外形図では社名マーク（Kowa）が識別コードとともに表示されている",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状：白色、円形のフィルムコーティング錠である。 外形：直径8.1mm 厚さ4.4mm 重量218mg 識別コード：221"
+    },
+    {
+      "product_name": "リバゼブ配合錠HD",
+      "strength": "ピタバスタチンカルシウム／エゼチミブとして4.0mg/10.0mg",
+      "imprint_front": "222",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード222。外形図では社名マーク（Kowa）が識別コードとともに表示されている",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状：淡黄色、円形のフィルムコーティング錠である。 外形：直径8.1mm 厚さ4.4mm 重量218mg 識別コード：222"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2189011F1220",
+  "source_file": "480235_2189011F1220_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2189011F1220_1_21",
+  "extracted_at": "2026-11-06T16:38:37.440Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18264,
+    "output": 727
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "Tw133",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード Tw133。裏面の刻印の有無は文章では確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色の割線入りの素錠／識別コード Tw133／直径(mm) 6.4／厚さ(mm) 2.4／質量(mg) 100"
+    }
+  ]
+}

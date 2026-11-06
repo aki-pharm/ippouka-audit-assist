@@ -1,0 +1,30 @@
+{
+  "id": "2223001F2145",
+  "source_file": "480235_2223001F2145_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2223001F2145_1_02",
+  "extracted_at": "2026-11-06T16:50:34.720Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9853,
+    "output": 282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デキストロメトルファン臭化水素酸塩錠15mg「トーワ」",
+      "strength": "15mg",
+      "imprint_front": "TwSST",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：TwSST（表面に Tw / SST の2段で表示）。裏面の刻印は外形図上なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 識別コード TwSST 外形 表 裏 側面 直径(mm) 8.0 厚さ(mm) 3.6 質量(mg) 200"
+    }
+  ]
+}

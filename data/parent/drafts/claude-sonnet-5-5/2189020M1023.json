@@ -1,0 +1,30 @@
+{
+  "id": "2189020M1023",
+  "source_file": "870276_2189020M1023_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/870276_2189020M1023_2_11",
+  "extracted_at": "2026-11-06T16:44:32.737Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34243,
+    "output": 858
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジャクスタピッドカプセル 5 mg",
+      "strength": "5 mg",
+      "imprint_front": "A733／5 mg",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル剤。「A733」及び「5 mg」の黒色印字（識別コード A733／5 mg）。表裏（頭部・胴部）の別は記載なし。大きさ欄に重量約176mgの記載あり。",
+      "color": "暗橙色（頭部）／暗橙色（胴部）",
+      "shape": "oblong",
+      "size_long_mm": 19.4,
+      "size_short_mm": 6.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "暗橙色（頭部）／暗橙色（胴部）の硬カプセル剤、「A733」及び「5 mg」の黒色印字　長径約19.4mm　短径約6.9mm／約176mg　A733／5 mg"
+    }
+  ]
+}

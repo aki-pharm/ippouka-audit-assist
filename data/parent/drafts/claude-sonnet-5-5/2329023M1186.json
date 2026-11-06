@@ -1,0 +1,30 @@
+{
+  "id": "2329023M1186",
+  "source_file": "581120_2329023M1186_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2329023M1186_1_08",
+  "extracted_at": "2026-11-06T16:55:49.957Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30140,
+    "output": 738
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランソプラゾールカプセル15mg「NIG」",
+      "strength": "15mg",
+      "imprint_front": "t 524",
+      "imprint_back": "未確認",
+      "imprint_note": "本品は錠剤ではなくカプセル剤。識別コードは「t 524」とのみ記載され、表裏の区別は文章では不明。大きさは4号カプセルと記載（mm値の記載なし）。質量175mg。",
+      "color": "蓋部・胴体部とも白色不透明、内容物が白色～わずかに褐色を帯びた白色顆粒",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "蓋部・胴体部とも白色不透明、内容物が白色～わずかに褐色を帯びた白色顆粒のカプセル剤（内容顆粒は腸溶性である）／大きさ 4号カプセル／質量 175mg／識別コード t 524"
+    }
+  ]
+}

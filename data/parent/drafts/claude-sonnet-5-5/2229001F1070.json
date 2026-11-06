@@ -1,0 +1,30 @@
+{
+  "id": "2229001F1070",
+  "source_file": "400278_2229001F1070_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2229001F1070_1_01",
+  "extracted_at": "2026-11-06T16:50:45.266Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8195,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジメモルファンリン酸塩錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "TU HF",
+      "imprint_back": "TU HF",
+      "imprint_note": "識別コードは表示欄に「TU HF」と記載。表裏の区別は本文から確認できず、図では片面に表示。剤形は糖衣錠。重量145mg。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "ジメモルファンリン酸塩錠10mg「TCK」 直径7.0mm 厚さ3.9mm 重量145mg 白色 糖衣錠 識別コード TU HF"
+    }
+  ]
+}

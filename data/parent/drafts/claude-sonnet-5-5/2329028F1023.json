@@ -1,0 +1,30 @@
+{
+  "id": "2329028F1023",
+  "source_file": "170033_2329028F1023_1_36.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2329028F1023_1_36",
+  "extracted_at": "2026-11-06T16:56:15.480Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29027,
+    "output": 821
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パリエット錠10mg",
+      "strength": "10mg",
+      "imprint_front": "εパリエット10",
+      "imprint_back": "εパリエット10",
+      "imprint_note": "識別コードは「εパリエット10」。外形欄の図では表・裏とも同じ印字。刻印か印刷かは文書に明記なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "パリエット錠10mg 剤形:フィルムコーティング錠（腸溶錠） 識別コード:εパリエット10 外形 直径(mm) 6.7 質量(mg) 132 厚さ(mm) 3.6 色:淡黄色"
+    }
+  ]
+}

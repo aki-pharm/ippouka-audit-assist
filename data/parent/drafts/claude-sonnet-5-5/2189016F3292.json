@@ -1,0 +1,30 @@
+{
+  "id": "2189016F3292",
+  "source_file": "290870_2189016F1290_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/290870_2189016F1290_2_01",
+  "extracted_at": "2026-11-06T16:41:35.090Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24413,
+    "output": 369
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンカルシウム錠4mg「KOG」",
+      "strength": "4mg",
+      "imprint_front": "ピタバスタチン 4 KOG",
+      "imprint_back": "ピタバ 4",
+      "imprint_note": "識別表示欄に「ピタバスタチン 4 KOG/ピタバ 4」と記載。表裏の区別は文書の本文からは明記されていないため、表を「ピタバスタチン 4 KOG」、裏を「ピタバ 4」と記載（外形図の表示順に基づく）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄色、円形の割線入りフィルムコーティング錠である。 外形 直径8.6mm 厚さ3.9mm 重量249mg 識別表示 ピタバスタチン 4 KOG/ピタバ 4"
+    }
+  ]
+}

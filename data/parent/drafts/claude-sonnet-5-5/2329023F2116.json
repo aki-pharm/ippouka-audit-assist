@@ -1,0 +1,30 @@
+{
+  "id": "2329023F2116",
+  "source_file": "340409_2329023F1110_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_2329023F1110_2_17",
+  "extracted_at": "2026-11-06T16:55:36.402Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32791,
+    "output": 315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランソプラゾールOD錠30mg「ケミファ」",
+      "strength": "30mg",
+      "imprint_front": "LZ 30",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは表面の外形図に表示。裏面の刻印は記載なし（外形図の裏面は無地）。",
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 12,
+      "size_short_mm": 12,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状 白色〜帯黄白色の素錠で淡褐色〜暗褐色の斑点がある腸溶性の粒を含む口腔内崩壊錠 / 直径 12.0mm / 厚さ 5.4mm / 重量 680mg / 識別コード LZ 30"
+    }
+  ]
+}

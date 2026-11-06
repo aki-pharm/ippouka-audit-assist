@@ -1,0 +1,30 @@
+{
+  "id": "2329028F2127",
+  "source_file": "530113_2329028F2127_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2329028F2127_1_15",
+  "extracted_at": "2026-11-06T16:57:23.338Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14826,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "ラベプラゾール 20 NS",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ラベプラゾール 20 NS」と記載。表裏の区別は文章中に記載なし（外形図には表面2つと側面の図あり）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性 状 淡黄色の腸溶フィルムコーティング錠 / 大きさ 錠径：7.2mm、錠厚：3.8mm、重量：142mg / 本体表示 ラベプラゾール 20 NS"
+    }
+  ]
+}

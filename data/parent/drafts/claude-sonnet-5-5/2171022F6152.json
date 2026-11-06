@@ -1,0 +1,46 @@
+{
+  "id": "2171022F6152",
+  "source_file": "530169_2171022F1355_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2171022F1355_1_25",
+  "extracted_at": "2026-11-06T16:36:23.676Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26136,
+    "output": 1364
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "558",
+      "imprint_back": "10",
+      "imprint_note": "表面は社名マークと「558」、裏面は「10」（本体表示：「558」「10」）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠／色調 白色／直径（mm）8.6／厚さ（mm）3.8／質量（mg）260／本体表示 558 10"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "586",
+      "imprint_back": "10",
+      "imprint_note": "表面は社名マークと「586」、裏面は「10」（本体コード：「586」「10」）",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠）／色調 うすいだいだい色／直径（mm）8.1／厚さ（mm）3.7／質量（mg）190／本体コード 586 10"
+    }
+  ]
+}

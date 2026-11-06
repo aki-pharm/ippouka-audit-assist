@@ -1,0 +1,30 @@
+{
+  "id": "2316016F1022",
+  "source_file": "890016_2316016B1039_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/890016_2316016B1039_2_05",
+  "extracted_at": "2026-11-06T16:52:58.730Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7860,
+    "output": 978
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベニン錠",
+      "strength": "1錠（1錠中耐性乳酸菌 18mg）",
+      "imprint_front": "W55",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の本文抽出では「55」のみ。図では「W」と「55」の表示あり。裏面の刻印の記載は文章中になし。",
+      "color": "白色～わずかに淡黄褐色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～わずかに淡黄褐色の素錠。においはないか又はわずかに特異なにおいがあり、味はわずかに甘い。／直径：8mm　厚さ：約 4.1mm　質量：200mg／識別コード 55"
+    }
+  ]
+}

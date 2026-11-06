@@ -1,0 +1,30 @@
+{
+  "id": "2189018F1108",
+  "source_file": "672173_2189018F1108_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_2189018F1108_2_04",
+  "extracted_at": "2026-11-06T16:43:56.671Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23135,
+    "output": 782
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「アメル」",
+      "strength": "10mg",
+      "imprint_front": "エゼチミブ 10 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「エゼチミブ 10 アメル」と記載。表裏の区別は本文に記載なし。形状は本文に記載なし（外形図のみ）。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.2,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 長径：約8.2mm 短径：約4.2mm 錠厚：約2.7mm 質量：約100.0mg エゼチミブ 10 アメル 白色"
+    }
+  ]
+}

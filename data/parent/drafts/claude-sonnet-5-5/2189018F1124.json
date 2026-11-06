@@ -1,0 +1,30 @@
+{
+  "id": "2189018F1124",
+  "source_file": "400073_2189018F1124_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2189018F1124_2_03",
+  "extracted_at": "2026-11-06T16:44:06.412Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24744,
+    "output": 915
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：エゼチミブ 10 ケミファ（表裏のどちらに何が刻印されているかは本文に記載なし）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.2,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 片面に割線のある白色の素錠 / 長径（mm）8.2 短径（mm）4.2 厚さ（mm）2.6 重量（mg）100 識別コード エゼチミブ 10 ケミファ"
+    }
+  ]
+}

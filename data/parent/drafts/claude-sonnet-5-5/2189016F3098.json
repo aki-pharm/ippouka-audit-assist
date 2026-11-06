@@ -1,0 +1,30 @@
+{
+  "id": "2189016F3098",
+  "source_file": "400186_2189016F1168_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_2189016F1168_1_15",
+  "extracted_at": "2026-11-06T16:41:07.167Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28076,
+    "output": 321
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠4mg「タカタ」",
+      "strength": "4mg",
+      "imprint_front": "TTS 473",
+      "imprint_back": "4",
+      "imprint_note": "側面：TTS-473（識別コード欄の表記）。表面に「TTS 473」、裏面に「4」の表示",
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ピタバスタチンCa錠4mg「タカタ」 ごくうすい赤色の割線入りのフィルムコーティング錠 表面 TTS 473 直径 約8.6mm 裏面 4 重さ 約0.248g 側面 厚さ 約3.9mm 識別コード TTS-473"
+    }
+  ]
+}

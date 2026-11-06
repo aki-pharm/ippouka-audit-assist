@@ -1,0 +1,30 @@
+{
+  "id": "2223001F2099",
+  "source_file": "343018_2223001B1210_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_2223001B1210_2_04",
+  "extracted_at": "2026-11-06T16:50:33.464Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9563,
+    "output": 793
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メジコン錠15mg",
+      "strength": "15mg",
+      "imprint_front": "150",
+      "imprint_back": "15",
+      "imprint_note": "表面に社名マーク（シオノギ）と「150」、裏面に「15」。識別コード欄は「社名マーク150 : 15」。表の図から読み取り。割線は図に見られない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2022年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "セラックコーティングを施した白色円形の錠剤である。／大きさ：直径 約5.0mm、厚さ 約2.3mm／識別コード：150 : 15"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2190029F4084",
+  "source_file": "480235_2190029F3088_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2190029F3088_1_02",
+  "extracted_at": "2026-11-06T16:46:57.888Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18542,
+    "output": 725
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "炭酸ランタンOD錠500mg「トーワ」",
+      "strength": "500mg",
+      "imprint_front": "500 ランタン OD トーワ",
+      "imprint_back": "500 ランタン OD トーワ",
+      "imprint_note": "本体表示は表・裏とも同一の表記（本体表示欄より）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 13,
+      "size_short_mm": 13,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2025年8月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠／本体表示 500 ランタン OD トーワ／直径(mm) 13／厚さ(mm) 4.9／質量(mg) 1200"
+    }
+  ]
+}

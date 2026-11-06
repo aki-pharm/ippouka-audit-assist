@@ -1,0 +1,46 @@
+{
+  "id": "2316017F2023",
+  "source_file": "480019_2316017B1041_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480019_2316017B1041_1_08",
+  "extracted_at": "2026-11-06T16:53:00.620Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12764,
+    "output": 1132
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビオスリー配合錠（1錠中 ラクトミン2mg、酪酸菌10mg、糖化菌10mg）",
+      "strength": "1錠中 ラクトミン2mg、酪酸菌10mg、糖化菌10mg",
+      "imprint_front": "TK03",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載（TK03）。裏面の刻印は本文に記載なし",
+      "color": "白色～わずかに黄褐色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2022年4月改訂",
+      "source_page": 1,
+      "source_quote": "販売名 ビオスリー配合錠 剤形 素錠 色調 白色～わずかに黄褐色 直径 8mm 厚さ 4.2mm 重量 200mg/錠 識別コード TK03"
+    },
+    {
+      "product_name": "ビオスリー配合OD錠（1錠中 ラクトミン2mg、酪酸菌10mg、糖化菌10mg）",
+      "strength": "1錠中 ラクトミン2mg、酪酸菌10mg、糖化菌10mg",
+      "imprint_front": "TK04",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載（TK04）。裏面の刻印は本文に記載なし",
+      "color": "白色～わずかに黄褐色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2022年4月改訂",
+      "source_page": 1,
+      "source_quote": "販売名 ビオスリー配合OD錠 剤形 素錠（口腔内崩壊錠） 色調 白色～わずかに黄褐色 直径 6.5mm 厚さ 2.5mm 重量 100mg/錠 識別コード TK04"
+    }
+  ]
+}

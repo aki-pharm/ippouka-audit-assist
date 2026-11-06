@@ -1,0 +1,30 @@
+{
+  "id": "2190021F1348",
+  "source_file": "400315_2190021B1095_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2190021B1095_1_11",
+  "extracted_at": "2026-11-06T16:45:42.904Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11771,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サアミオン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "TA129",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TA129。外形図は表面に「TA 129」の表示あり。裏面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・フィルムコーティング錠 ／ 識別コード TA129 ／ サイズ 直径（mm）6.2 厚さ（mm）3.0 重量（g）0.085"
+    }
+  ]
+}

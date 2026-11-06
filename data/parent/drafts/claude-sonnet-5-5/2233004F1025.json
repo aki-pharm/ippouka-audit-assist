@@ -1,0 +1,30 @@
+{
+  "id": "2233004F1025",
+  "source_file": "400315_2233004F1025_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2233004F1025_2_07",
+  "extracted_at": "2026-11-06T16:51:07.493Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13159,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クリアナール錠200mg",
+      "strength": "200mg",
+      "imprint_front": "021",
+      "imprint_back": "021",
+      "imprint_note": "外形図に社名マーク（ロゴ）と「021」の表示あり。識別コードは「021」。表・裏の別は文書に明記されておらず、外形図では表面と裏面の両方に同じ表示が見られる。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": false,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・フィルムコーティング錠 外形 直径（mm）：8.1 厚さ（mm）：4.2 重量（mg）：228 識別コード 021"
+    }
+  ]
+}

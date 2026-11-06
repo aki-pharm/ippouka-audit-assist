@@ -1,0 +1,46 @@
+{
+  "id": "2171022F6306",
+  "source_file": "730869_2171022F1487_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2171022F1487_1_04",
+  "extracted_at": "2026-11-06T16:36:49.951Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22866,
+    "output": 1115
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠10mg「VTRS」",
+      "strength": "10mg",
+      "imprint_front": "アムロジピン VT 10",
+      "imprint_back": "アムロジピン VT 10",
+      "imprint_note": "識別コードは上面・下面に表示。割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "外形（mm）上面 8.4／下面 8.4／側面 4.0　重量 258mg　識別コード アムロジピン VT 10　色調等 白色 フィルムコーティング錠 割線入り"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「VTRS」",
+      "strength": "10mg",
+      "imprint_front": "アムロジピン VT OD 10",
+      "imprint_back": "アムロジピン VT OD 10",
+      "imprint_note": "識別コードは上面・下面に表示。割線入り",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "外形（mm）上面 8.0／下面 8.0／側面 3.5　重量 180mg　識別コード アムロジピン VT OD 10　色調等 淡黄色 素錠 割線入り"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2329023F1020",
+  "source_file": "400061_2329023F1020_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_2329023F1020_2_10",
+  "extracted_at": "2026-11-06T16:55:24.843Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30847,
+    "output": 853
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タケプロンOD錠15",
+      "strength": "15mg",
+      "imprint_front": "212",
+      "imprint_back": "15",
+      "imprint_note": "識別コードは社名マーク＋212（表）。裏の「15」は形状の図から確認。",
+      "color": "白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある。（腸溶性細粒を含む口腔内崩壊錠）／直径(mm) 8.5／厚さ(mm) 4.6／識別コード 212"
+    }
+  ]
+}

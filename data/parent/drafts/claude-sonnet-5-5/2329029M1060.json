@@ -1,0 +1,30 @@
+{
+  "id": "2329029M1060",
+  "source_file": "530213_2329029M1060_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2329029M1060_1_04",
+  "extracted_at": "2026-11-06T16:58:58.813Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32993,
+    "output": 342
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エソメプラゾールカプセル10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "エソメプラゾール10 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：エソメプラゾール10 ケミファ（表裏の区別は記載なし）。剤形は硬カプセル剤（5号カプセル）、重量72.5mg",
+      "color": "ボディがうすい黄色でキャップが灰紫色",
+      "shape": "oblong",
+      "size_long_mm": 11.4,
+      "size_short_mm": 4.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ボディがうすい黄色でキャップが灰紫色の硬カプセル剤／5号カプセル／長径 11.40mm／短径 4.90mm／重量 72.5mg／識別コード エソメプラゾール10 ケミファ"
+    }
+  ]
+}

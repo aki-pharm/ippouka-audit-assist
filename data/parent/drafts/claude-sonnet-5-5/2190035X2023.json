@@ -1,0 +1,30 @@
+{
+  "id": "2190035X2023",
+  "source_file": "800155_2190035X1027_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_2190035X1027_1_01",
+  "extracted_at": "2026-11-06T16:47:48.751Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22391,
+    "output": 248
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オプスミット小児用分散錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "Mn",
+      "imprint_back": "2.5",
+      "imprint_note": "識別コードは Mn 2.5（表面に「Mn」、裏面に「2.5」）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年3月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の円形の錠剤／長径、直径（mm） 9（直径）／厚さ（mm） 3.6／識別コード Mn 2.5"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2171022F6136",
+  "source_file": "270428_2171022F3188_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2171022F3188_1_18",
+  "extracted_at": "2026-11-06T16:36:19.376Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21743,
+    "output": 841
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠10mg「サンド」",
+      "strength": "10mg",
+      "imprint_front": "SAO10",
+      "imprint_back": "未確認",
+      "imprint_note": "SAO10は識別コード（PTP）として記載。錠剤本体の刻印は外形の図のみで、文章での記載なし",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.8,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形（又は性状）淡橙色の割線入り素錠／大きさ 直径 8.6mm 厚さ 4.8mm／識別コード（PTP）SAO10"
+    }
+  ]
+}

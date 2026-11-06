@@ -1,0 +1,30 @@
+{
+  "id": "2189016F3276",
+  "source_file": "530113_2189016F1192_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2189016F1192_1_19",
+  "extracted_at": "2026-11-06T16:41:34.727Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18908,
+    "output": 294
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠4mg「日新」",
+      "strength": "4mg",
+      "imprint_front": "ピタバスタチン 4 NS",
+      "imprint_back": "ピタバスタチン 4 NS",
+      "imprint_note": "本体表示として「ピタバスタチン 4 NS」と記載。外形の図では表裏の両面に表示あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性 状：白色のフィルムコーティング錠　大きさ：錠径：8.6mm 錠厚：4.1mm 重量：240mg　本体表示：ピタバスタチン 4 NS"
+    }
+  ]
+}

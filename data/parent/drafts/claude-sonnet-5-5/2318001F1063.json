@@ -1,0 +1,30 @@
+{
+  "id": "2318001F1063",
+  "source_file": "230034_2318001B1037_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2318001B1037_1_04",
+  "extracted_at": "2026-11-06T16:53:07.372Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11977,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガスコン錠40mg",
+      "strength": "40mg",
+      "imprint_front": "なし",
+      "imprint_back": "GS 40",
+      "imprint_note": "表面は社名マーク（K）のみ。識別コードは「(K) GS40」と記載。裏面に「GS 40」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.15,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠／色調 白色／外形:表面（社名マーク）／外形:裏面 GS 40／直径 8.6mm／厚さ 約4.15mm／質量 約220mg／識別コード (K)GS40"
+    }
+  ]
+}

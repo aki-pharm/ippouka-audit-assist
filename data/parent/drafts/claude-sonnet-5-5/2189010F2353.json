@@ -1,0 +1,30 @@
+{
+  "id": "2189010F2353",
+  "source_file": "300119_2189010F1330_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2189010F1330_1_10",
+  "extracted_at": "2026-11-06T16:37:58.158Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19997,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW 707",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード SW 707。剤形は割線入り素錠。外形の図に割線が描かれている。",
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 / 性状 微紅色 / 直径（mm） 7.0 / 厚さ（mm） 2.4 / 重量（mg） 約110 / 識別コード SW 707"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2189015F2020",
+  "source_file": "671450_2189015F1023_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2189015F1023_2_06",
+  "extracted_at": "2026-11-06T16:39:35.309Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25489,
+    "output": 215
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リピトール錠10mg",
+      "strength": "10mg",
+      "imprint_front": "VT 716",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年5月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "リピトール錠10mg 直径6.1mm 厚さ2.7mm 重量88mg 識別コード VT 716 色調等 白色 フィルムコーティング錠"
+    }
+  ]
+}

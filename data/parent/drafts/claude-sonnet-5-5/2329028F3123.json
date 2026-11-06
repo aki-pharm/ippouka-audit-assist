@@ -1,0 +1,30 @@
+{
+  "id": "2329028F3123",
+  "source_file": "180095_2329028F1147_3_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2329028F1147_3_21",
+  "extracted_at": "2026-11-06T16:58:20.794Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33991,
+    "output": 848
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa塩錠5mg「オーハラ」",
+      "strength": "5mg",
+      "imprint_front": "ラベプラ 5 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示は表裏の区別なく「ラベプラ 5 オーハラ」と1項目で記載。裏面の刻印は文字では明記されていないため未確認とした。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5.9,
+      "size_short_mm": 5.9,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色・フィルムコーティング錠（腸溶錠） 大きさ 直径：5.9mm 厚さ：2.6mm 識別表示 ラベプラ 5 オーハラ"
+    }
+  ]
+}

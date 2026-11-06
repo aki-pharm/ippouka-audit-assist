@@ -1,0 +1,30 @@
+{
+  "id": "2190044F1020",
+  "source_file": "630004_2190044F1020_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_2190044F1020_1_08",
+  "extracted_at": "2026-11-06T16:48:42.741Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36646,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ケレンディア錠10mg",
+      "strength": "10mg",
+      "imprint_front": "10",
+      "imprint_back": "FI",
+      "imprint_note": "外形図に表示された識別コードは「10」と「FI」。表裏の別は外形図の並び（上から10、FI）による",
+      "color": "淡赤色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 淡赤色／長径 10mm／短径 5mm／厚さ 3.4mm／質量 136mg／識別コード 10 FI"
+    }
+  ]
+}

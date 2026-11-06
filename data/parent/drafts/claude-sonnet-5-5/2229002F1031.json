@@ -1,0 +1,30 @@
+{
+  "id": "2229002F1031",
+  "source_file": "530263_2229002D1030_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2229002D1030_1_06",
+  "extracted_at": "2026-11-06T16:50:47.111Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9713,
+    "output": 230
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コルドリン錠12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "218",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に社名マークと「218」の記載あり（画像上は社名マーク付き）。裏面の刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 円形のフィルムコーティング錠 / 製剤の色 白色 / 識別コード 218"
+    }
+  ]
+}

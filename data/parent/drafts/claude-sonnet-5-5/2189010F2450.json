@@ -1,0 +1,30 @@
+{
+  "id": "2189010F2450",
+  "source_file": "530113_2189010F1438_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2189010F1438_2_12",
+  "extracted_at": "2026-11-06T16:38:15.082Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20718,
+    "output": 654
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠10mg「NS」",
+      "strength": "10mg",
+      "imprint_front": "プラバ10",
+      "imprint_back": "プラバスタチン 10 NS",
+      "imprint_note": "片面に割線あり",
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性状：片面に割線の入った微紅色の素錠／大きさ：錠径：7.0mm 錠厚：2.4mm 重量：120mg／本体表示：表面 プラバ10 裏面 プラバスタチン 10 NS"
+    }
+  ]
+}

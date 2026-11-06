@@ -1,0 +1,30 @@
+{
+  "id": "2251001G3060",
+  "source_file": "480235_2251001G1092_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2251001G1092_1_07",
+  "extracted_at": "2026-11-06T16:52:07.636Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19211,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テオフィリン徐放U錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw138",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはTw138。外形図では表に「Tw 138」の表示があり、裏は無地（割線なし）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠(徐放錠)／識別コード Tw138／直径(mm) 7.2／厚さ(mm) 2.2／質量(mg) 115"
+    }
+  ]
+}

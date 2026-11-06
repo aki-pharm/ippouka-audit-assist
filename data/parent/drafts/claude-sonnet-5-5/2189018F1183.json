@@ -1,0 +1,30 @@
+{
+  "id": "2189018F1183",
+  "source_file": "530113_2189018F1183_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2189018F1183_1_02",
+  "extracted_at": "2026-11-06T16:44:15.336Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23326,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "エゼチミブ 10 NS",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「エゼチミブ 10 NS」と記載。表裏の区別は本文に記載なし（外形図に表示あり）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2022年1月改訂（第1版、効能変更）",
+      "source_page": 1,
+      "source_quote": "性状：白色の割線入りの素錠 / 大きさ：長径：8.1mm、短径：4.1mm、錠厚：2.7mm、重量：100mg / 本体表示：エゼチミブ 10 NS"
+    }
+  ]
+}

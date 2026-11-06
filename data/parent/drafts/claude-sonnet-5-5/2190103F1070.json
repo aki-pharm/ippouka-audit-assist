@@ -1,0 +1,78 @@
+{
+  "id": "2190103F1070",
+  "source_file": "530213_2190101F1071_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2190101F1071_1_14",
+  "extracted_at": "2026-11-06T16:50:13.247Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 46185,
+    "output": 2034
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマルエット配合錠1番「ケミファ」",
+      "strength": "アムロジピン2.5mg/アトルバスタチン5mg",
+      "imprint_front": "アマルエット ケミファ",
+      "imprint_back": "1",
+      "imprint_note": "識別コード「アマルエット ケミファ 1」。表裏の振り分けは外形図による",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "うすい黄色のフィルムコーティング錠　直径 6.6mm　厚さ 2.7mm　重量 103mg　識別コード アマルエット ケミファ 1"
+    },
+    {
+      "product_name": "アマルエット配合錠2番「ケミファ」",
+      "strength": "アムロジピン2.5mg/アトルバスタチン10mg",
+      "imprint_front": "アマルエット ケミファ",
+      "imprint_back": "2",
+      "imprint_note": "識別コード「アマルエット ケミファ 2」。表裏の振り分けは外形図による",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠　直径 6.6mm　厚さ 2.6mm　重量 98mg　識別コード アマルエット ケミファ 2"
+    },
+    {
+      "product_name": "アマルエット配合錠3番「ケミファ」",
+      "strength": "アムロジピン5mg/アトルバスタチン5mg",
+      "imprint_front": "アマルエット ケミファ",
+      "imprint_back": "3",
+      "imprint_note": "識別コード「アマルエット ケミファ 3」。表裏の振り分けは外形図による",
+      "color": "うすい黄色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "うすい黄色のフィルムコーティング錠　長径 8.1mm　短径 4.6mm　厚さ 2.8mm　重量 103mg　識別コード アマルエット ケミファ 3"
+    },
+    {
+      "product_name": "アマルエット配合錠4番「ケミファ」",
+      "strength": "アムロジピン5mg/アトルバスタチン10mg",
+      "imprint_front": "アマルエット ケミファ",
+      "imprint_back": "4",
+      "imprint_note": "識別コード「アマルエット ケミファ 4」。表裏の振り分けは外形図による",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠　長径 8.1mm　短径 4.6mm　厚さ 2.9mm　重量 103mg　識別コード アマルエット ケミファ 4"
+    }
+  ]
+}

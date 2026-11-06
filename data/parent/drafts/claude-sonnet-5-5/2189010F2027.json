@@ -1,0 +1,30 @@
+{
+  "id": "2189010F2027",
+  "source_file": "430574_2189010C1032_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_2189010C1032_2_15",
+  "extracted_at": "2026-11-06T16:37:49.988Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20193,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メバロチン錠10",
+      "strength": "10mg",
+      "imprint_front": "SANKYO 232",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「SANKYO 232」。錠剤の外形図には表面に「SANKYO」「232」の印字が描かれている。裏面の刻印は文章では記載なし。",
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "メバロチン錠10 素錠（割線入）微紅色 SANKYO 232 7.5 約2.6 約140"
+    }
+  ]
+}

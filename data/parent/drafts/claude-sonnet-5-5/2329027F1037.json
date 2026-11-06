@@ -1,0 +1,30 @@
+{
+  "id": "2329027F1037",
+  "source_file": "300119_2329027F1037_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2329027F1037_1_05",
+  "extracted_at": "2026-11-06T16:56:09.603Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14163,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ポラプレジンクOD錠75mg「サワイ」",
+      "strength": "75mg",
+      "imprint_front": "SW PLZ",
+      "imprint_back": "75",
+      "imprint_note": "外形図では、片面に「SW PLZ」、もう片面に「75」の表示がある。識別コードは SW PLZ。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 性状 白色～微黄白色 直径（mm） 7.0 厚さ（mm） 3.4 重量（mg） 約130 識別コード SW PLZ"
+    }
+  ]
+}

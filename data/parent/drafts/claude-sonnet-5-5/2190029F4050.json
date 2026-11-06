@@ -1,0 +1,30 @@
+{
+  "id": "2190029F4050",
+  "source_file": "580591_2190029F3053_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2190029F3053_1_06",
+  "extracted_at": "2026-11-06T16:46:52.218Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19659,
+    "output": 775
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "炭酸ランタンOD錠500mg「JG」",
+      "strength": "500mg",
+      "imprint_front": "ランタン JG",
+      "imprint_back": "500",
+      "imprint_note": "本体表示欄の記載（ランタン JG／500）。識別コード欄は「―」。",
+      "color": "白色～灰白色の錠剤",
+      "shape": "round",
+      "size_long_mm": 13,
+      "size_short_mm": 13,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "炭酸ランタンOD錠500mg「JG」 白色～灰白色の錠剤 表面 裏面 側面 ― ランタン JG／500 直径 厚さ 重量 13mm 5.4mm 1260mg"
+    }
+  ]
+}

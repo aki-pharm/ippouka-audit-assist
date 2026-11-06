@@ -1,0 +1,30 @@
+{
+  "id": "2190030F1045",
+  "source_file": "480008_2190030F1045_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_2190030F1045_1_10",
+  "extracted_at": "2026-11-06T16:47:08.273Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33253,
+    "output": 710
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠20mgAD「TE」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表面・裏面）に印字らしき表示があるが、本文に刻印・識別コードの文言がなく判読できないため未確認",
+      "color": "うすい赤褐色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "タダラフィル錠20mgAD「TE」 うすい赤褐色の円形の素錠 直径7.5mm 厚さ3.4mm 質量160mg"
+    }
+  ]
+}

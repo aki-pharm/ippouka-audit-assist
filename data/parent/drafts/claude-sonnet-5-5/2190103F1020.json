@@ -1,0 +1,78 @@
+{
+  "id": "2190103F1020",
+  "source_file": "671450_2190101F1020_4_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2190101F1020_4_07",
+  "extracted_at": "2026-11-06T16:50:06.920Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 39666,
+    "output": 1861
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カデュエット配合錠1番",
+      "strength": "アムロジピン2.5mg/アトルバスタチン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：CDT255（表裏の別は本文テキストでは未確認）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "カデュエット配合錠1番 103mg CDT255 白色 フィルムコーティング錠"
+    },
+    {
+      "product_name": "カデュエット配合錠2番",
+      "strength": "アムロジピン2.5mg/アトルバスタチン10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：CDT251（表裏の別は本文テキストでは未確認）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "カデュエット配合錠2番 103mg CDT251 白色 フィルムコーティング錠"
+    },
+    {
+      "product_name": "カデュエット配合錠3番",
+      "strength": "アムロジピン5mg/アトルバスタチン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「―」（記載なし）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "カデュエット配合錠3番 103mg ― 白色 フィルムコーティング錠"
+    },
+    {
+      "product_name": "カデュエット配合錠4番",
+      "strength": "アムロジピン5mg/アトルバスタチン10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「―」（記載なし）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "カデュエット配合錠4番 103mg ― 白色 フィルムコーティング錠"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2171022F6101",
+  "source_file": "672173_2171022F3145_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_2171022F3145_2_03",
+  "extracted_at": "2026-11-06T16:36:07.187Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24294,
+    "output": 808
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠10mg「アメル」",
+      "strength": "10mg",
+      "imprint_front": "n586",
+      "imprint_back": "10",
+      "imprint_note": "本体表示は「n586」「10」。表面に割線あり。「n」は社名マークと思われるが、添付文書上は本体表示に含まれて記載されている。",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠）／色調 うすいだいだい色／直径（mm）8.1／厚さ（mm）3.7／質量（mg）190／本体表示 n586 10"
+    }
+  ]
+}

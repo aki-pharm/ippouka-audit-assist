@@ -1,0 +1,30 @@
+{
+  "id": "2329028F2224",
+  "source_file": "270428_2329028F2224_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2329028F2224_1_12",
+  "extracted_at": "2026-11-06T16:57:43.933Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19278,
+    "output": 609
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールナトリウム錠20mg「サンド」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図（表・裏）に印字らしきものがあるが、文字での記載はなく読み取れないため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄色のフィルムコーティング錠（腸溶錠） 大きさ 直径 7.2mm 厚さ 3.4mm 質量 147mg"
+    }
+  ]
+}

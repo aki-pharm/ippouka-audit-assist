@@ -1,0 +1,30 @@
+{
+  "id": "2183007G2027",
+  "source_file": "270072_2183007G1020_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_2183007G1020_1_04",
+  "extracted_at": "2026-11-06T16:37:34.103Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29341,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パルモディアXR錠0.4mg",
+      "strength": "0.4mg",
+      "imprint_front": "パルモディアXR 0.4",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として「パルモディアXR 0.4」と記載。表裏の区別は本文に明記されていない（外形図には表面・裏面の表示あり）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "淡黄色、円形のフィルムコーティング錠（徐放錠）である。／直径7.6mm 厚さ3.9mm 重量168mg／識別表示 パルモディアXR 0.4"
+    }
+  ]
+}

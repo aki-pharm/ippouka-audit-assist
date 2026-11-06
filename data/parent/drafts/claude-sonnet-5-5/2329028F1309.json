@@ -1,0 +1,30 @@
+{
+  "id": "2329028F1309",
+  "source_file": "530100_2329028F1309_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2329028F1309_2_04",
+  "extracted_at": "2026-11-06T16:56:56.156Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34997,
+    "output": 756
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa錠10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文テキストには刻印・識別コードの記載がないため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の腸溶フィルムコーティング錠（腸溶錠） 直径 約6.7mm 厚さ 約3.9mm 重量 132mg"
+    }
+  ]
+}

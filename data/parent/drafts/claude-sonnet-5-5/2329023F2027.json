@@ -1,0 +1,30 @@
+{
+  "id": "2329023F2027",
+  "source_file": "400061_2329023F1020_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_2329023F1020_2_10",
+  "extracted_at": "2026-11-06T16:55:35.667Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30847,
+    "output": 929
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タケプロンOD錠30",
+      "strength": "30mg",
+      "imprint_front": "213",
+      "imprint_back": "30",
+      "imprint_note": "識別コードは社名マーク付きの「213」。裏面の「30」は製剤の性状欄の図で確認",
+      "color": "白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 11.5,
+      "size_short_mm": 11.5,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある。(腸溶性細粒を含む口腔内崩壊錠) 直径(mm) 11.5 厚さ(mm) 4.9 重量(mg) 570 識別コード 213"
+    }
+  ]
+}

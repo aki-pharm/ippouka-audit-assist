@@ -1,0 +1,30 @@
+{
+  "id": "2190039F3022",
+  "source_file": "180188_2190039F1020_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_2190039F1020_1_07",
+  "extracted_at": "2026-11-06T16:48:16.242Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26275,
+    "output": 840
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コララン錠7.5mg",
+      "strength": "7.5mg",
+      "imprint_front": "コララン 7.5",
+      "imprint_back": "コララン 7.5",
+      "imprint_note": "外形図の表面・裏面に印字されている表記を読み取り（本文に刻印の文言記載なし）",
+      "color": "薄い赤色",
+      "shape": null,
+      "size_long_mm": 8.6,
+      "size_short_mm": 4.6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 長径（mm） 約8.6 短径（mm） 約4.6 厚さ（mm） 約2.6 質量（mg） 約104 色調 薄い灰色 薄い黄色 薄い赤色"
+    }
+  ]
+}

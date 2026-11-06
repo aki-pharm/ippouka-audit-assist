@@ -1,0 +1,30 @@
+{
+  "id": "2329027F1029",
+  "source_file": "380077_2329027F1029_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380077_2329027F1029_1_09",
+  "extracted_at": "2026-11-06T16:56:05.065Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13514,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロマックD錠75",
+      "strength": "75mg",
+      "imprint_front": "ZP 32",
+      "imprint_back": "ZP 32",
+      "imprint_note": "識別コード：ZP32（表面・裏面とも2段表記 ZP/32）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／色調 白色～微黄白色／外形 表面 裏面 側面／大きさ 7.0mm／厚さ 3.6mm／質量 130mg／識別コード ZP32"
+    }
+  ]
+}

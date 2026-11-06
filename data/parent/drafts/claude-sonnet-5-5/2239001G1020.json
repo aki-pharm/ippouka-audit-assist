@@ -1,0 +1,30 @@
+{
+  "id": "2239001G1020",
+  "source_file": "380087_2239001G1020_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2239001G1020_2_05",
+  "extracted_at": "2026-11-06T16:51:13.784Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11691,
+    "output": 349
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩徐放OD錠45mg「ZE」",
+      "strength": "45mg",
+      "imprint_front": "ZE 17",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「ZE17」と記載。外形図では表面に「ZE/17」の2段表記。裏面の刻印は文章中に記載なし。",
+      "color": "白色（微黄白色～淡黄白色の斑点がある）",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色（微黄白色～淡黄白色の斑点がある）・素錠（速放性顆粒及び徐放性顆粒を含有する口腔内崩壊錠） 規格 直径：10.0mm 厚み：6.0mm 重量：460mg 識別コード ZE17"
+    }
+  ]
+}

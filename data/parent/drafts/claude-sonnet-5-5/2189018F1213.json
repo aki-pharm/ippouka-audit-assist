@@ -1,0 +1,30 @@
+{
+  "id": "2189018F1213",
+  "source_file": "171950_2189018F1213_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_2189018F1213_1_03",
+  "extracted_at": "2026-11-06T16:44:28.234Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24952,
+    "output": 902
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印・識別コードの文字記載なし（外形図のみで判読不能）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "エゼチミブ錠10mg「明治」 割線入り素錠 白色 長径：8.2 短径：4.1 厚さ（mm）2.6 重量（mg）100"
+    }
+  ]
+}

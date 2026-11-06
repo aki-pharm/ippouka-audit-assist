@@ -1,0 +1,30 @@
+{
+  "id": "2190034F1027",
+  "source_file": "630004_2190034F1027_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_2190034F1027_1_13",
+  "extracted_at": "2026-11-06T16:47:35.932Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29022,
+    "output": 894
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アデムパス錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは図（記号）で示されており、文章としては記載がないため転記できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 アデムパス錠0.5mg／剤形 フィルムコーティング錠／色調 白色／直径 6mm／厚さ 2.8mm／質量 87.5mg／識別コード（図のみ）"
+    }
+  ]
+}

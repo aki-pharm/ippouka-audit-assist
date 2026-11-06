@@ -1,0 +1,30 @@
+{
+  "id": "2189016F2040",
+  "source_file": "300166_2189016F1044_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2189016F1044_2_07",
+  "extracted_at": "2026-11-06T16:40:23.832Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27250,
+    "output": 282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠2mg「FFP」",
+      "strength": "2mg",
+      "imprint_front": "FF 272",
+      "imprint_back": "なし",
+      "imprint_note": "裏面には割線あり。識別コードはFF 271/272/273の表に記載（2mgは FF 272）",
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄赤色の割線入りフィルムコーティング錠 / サイズ 直径 約7.1mm 重量 125mg 厚さ 約3.0mm / 識別コード FF 272"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2190030F1029",
+  "source_file": "530263_2190030F1029_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2190030F1029_2_10",
+  "extracted_at": "2026-11-06T16:47:00.235Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29977,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アドシルカ錠20mg",
+      "strength": "20mg",
+      "imprint_front": "4467",
+      "imprint_back": "4467",
+      "imprint_note": "外形図の表面・裏面に「アドシルカ 20」の表示あり。識別コードは4467（表裏の区別は添付文書に明記なし）",
+      "color": "赤褐色",
+      "shape": "oval",
+      "size_long_mm": 12.3,
+      "size_short_mm": 7.6,
+      "thickness_mm": 5,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 赤褐色のフィルムコート錠 / 寸法・重量 長径：約12.3mm 短径：約7.6mm 厚さ：約5.0mm 重量：約0.36g / 識別コード 4467"
+    }
+  ]
+}

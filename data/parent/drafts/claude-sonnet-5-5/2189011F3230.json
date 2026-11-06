@@ -1,0 +1,30 @@
+{
+  "id": "2189011F3230",
+  "source_file": "730869_2189011F1300_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2189011F1300_1_07",
+  "extracted_at": "2026-11-06T16:39:10.027Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18325,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠20mg「VTRS」",
+      "strength": "20mg",
+      "imprint_front": "MH 601",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはMH601。上面に「MH」「601」の表示（画像上）。下面の刻印は表示なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "シンバスタチン錠20mg「VTRS」 MH601 白色 割線入り 素錠 直径10.0mm 厚さ3.9mm 重量400mg"
+    }
+  ]
+}

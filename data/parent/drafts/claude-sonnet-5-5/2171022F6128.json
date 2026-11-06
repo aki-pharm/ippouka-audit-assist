@@ -1,0 +1,46 @@
+{
+  "id": "2171022F6128",
+  "source_file": "300119_2171022F1282_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2171022F1282_1_22",
+  "extracted_at": "2026-11-06T16:36:08.514Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23966,
+    "output": 1137
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "アムロジピン 10 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書には「本体表示」として記載。表裏の区別は文章では記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠／性状 白色～微黄白色／直径（mm） 8.6／厚さ（mm） 4.2／本体表示 アムロジピン 10 サワイ"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "アムロジピン OD 10 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書には「本体表示」として記載。表裏の区別は文章では記載なし",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）／性状 淡橙色／直径（mm） 8.5／厚さ（mm） 4.1／本体表示 アムロジピン OD 10 サワイ"
+    }
+  ]
+}

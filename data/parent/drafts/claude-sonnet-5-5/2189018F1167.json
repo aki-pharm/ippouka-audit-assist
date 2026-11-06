@@ -1,0 +1,46 @@
+{
+  "id": "2189018F1167",
+  "source_file": "480235_2189018F1167_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2189018F1167_1_04",
+  "extracted_at": "2026-11-06T16:44:17.246Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28361,
+    "output": 1260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "10 エゼチ",
+      "imprint_back": "エゼチミブ 10 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の楕円形の割線入りの素錠 本体表示 表 10 エゼチ 裏 エゼチミブ 10 トーワ 直径(mm) 8.1／4.1（長径／短径） 厚さ(mm) 3.0"
+    },
+    {
+      "product_name": "エゼチミブOD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "エゼチ 10",
+      "imprint_back": "エゼチミブ 10 OD トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2025年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの口腔内崩壊錠 本体表示 表 エゼチ 10 裏 エゼチミブ 10 OD トーワ 直径(mm) 9.5 厚さ(mm) 4.3"
+    }
+  ]
+}

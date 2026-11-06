@@ -1,0 +1,30 @@
+{
+  "id": "2190022F1024",
+  "source_file": "400093_2190022F1024_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_2190022F1024_1_19",
+  "extracted_at": "2026-11-06T16:45:47.726Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11792,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リズミック錠10mg",
+      "strength": "10mg",
+      "imprint_front": "P915",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードP915。外形図には表面に「P 915」、裏面に「10」の表示と割線が描かれているが、本文には識別コードとしてP915のみ記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年2月改訂(第1版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠 / 大きさ 直径(mm)約6.5 厚さ(mm)約2.3 重さ(mg)約100 / 識別コード P915"
+    }
+  ]
+}

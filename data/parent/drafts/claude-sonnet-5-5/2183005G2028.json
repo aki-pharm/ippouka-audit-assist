@@ -1,0 +1,30 @@
+{
+  "id": "2183005G2028",
+  "source_file": "230034_2183005G1234_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_2183005G1234_1_14",
+  "extracted_at": "2026-11-06T16:37:14.441Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16951,
+    "output": 916
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベザトールSR錠100mg",
+      "strength": "100mg",
+      "imprint_front": "なし",
+      "imprint_back": "BT 100",
+      "imprint_note": "表面は社名マーク（Ⓚ）のみ。識別コード：ⓀBT100。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 直径 7.1mm 厚さ 約3.4mm 質量 約133mg 識別コード ⓀBT100"
+    }
+  ]
+}

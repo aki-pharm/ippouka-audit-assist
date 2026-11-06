@@ -1,0 +1,46 @@
+{
+  "id": "2171022F5172",
+  "source_file": "530372_2171022F1266_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2171022F1266_2_17",
+  "extracted_at": "2026-11-06T16:35:04.784Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25955,
+    "output": 1081
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "NPI 132",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：NPI　132（表裏の刻印の別は本文テキストに記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第 2 版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りのフィルムコーティング錠　直径 8.6mm　厚さ 3.7mm　識別コード NPI　132"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "アムロジピンOD 10 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：アムロジピンOD 10　ケミファ（表裏の刻印の別は本文テキストに記載なし）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第 2 版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の片面割線入りの素錠　直径 8.0mm　厚さ 3.2mm　識別コード アムロジピンOD 10　ケミファ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2189011F1289",
+  "source_file": "470007_2189011F1289_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2189011F1289_1_09",
+  "extracted_at": "2026-11-06T16:38:39.816Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17273,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠5mg「あすか」",
+      "strength": "5mg",
+      "imprint_front": "TZ169",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード TZ169（外形図では表面に「TZ/169」の表示）。裏面の刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色の片面割線入り素錠 / 直径6.5mm　厚さ2.3mm　質量100mg / 識別コード TZ169"
+    }
+  ]
+}

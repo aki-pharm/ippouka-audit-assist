@@ -1,0 +1,30 @@
+{
+  "id": "2190023F1037",
+  "source_file": "672212_2190023F1037_5_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2190023F1037_5_03",
+  "extracted_at": "2026-11-06T16:45:47.943Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12814,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミグシス錠5mg",
+      "strength": "5mg",
+      "imprint_front": "U055",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「U055」のみ記載。上面・下面・側面の表示位置の別は本文テキストからは判別できないため、裏面の刻印は未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "識別コード U055 色調等 白色 割線入り 素錠 直径 8.5mm 厚さ 3.1mm 重量 215mg"
+    }
+  ]
+}

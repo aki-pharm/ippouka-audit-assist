@@ -1,0 +1,30 @@
+{
+  "id": "2189016F2156",
+  "source_file": "300297_2189016F1150_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_2189016F1150_1_16",
+  "extracted_at": "2026-11-06T16:40:41.661Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23890,
+    "output": 750
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠2mg「三和」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「-」。外形図に印字らしき表示があるが、文字としては判読できないため未確認。",
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄赤色、円形の割線入りフィルムコーティング錠　直径 7.1mm　厚さ 2.9mm　識別コード -"
+    }
+  ]
+}

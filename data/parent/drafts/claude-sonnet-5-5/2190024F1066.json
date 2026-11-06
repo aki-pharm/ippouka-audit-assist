@@ -1,0 +1,30 @@
+{
+  "id": "2190024F1066",
+  "source_file": "581120_2190024F1066_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2190024F1066_1_03",
+  "extracted_at": "2026-11-06T16:45:57.927Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10386,
+    "output": 658
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "沈降炭酸カルシウム錠500mg「NIG」",
+      "strength": "500mg",
+      "imprint_front": "t 505",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）として記載。外形図の錠剤表面にも t 505 の表示あり。裏面の記載は確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠／直径 10.0mm／厚さ 4.8mm／質量 600mg／識別コード（PTP） t 505"
+    }
+  ]
+}

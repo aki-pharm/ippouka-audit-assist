@@ -1,0 +1,30 @@
+{
+  "id": "2319100F1080",
+  "source_file": "581120_2319100F1080_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2319100F1080_2_03",
+  "extracted_at": "2026-11-06T16:53:20.493Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9283,
+    "output": 305
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リーダイ配合錠",
+      "strength": "1錠中：ベルベリン塩化物水和物 37.5mg、ゲンノショウコエキス 100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）：t 811。錠剤本体の刻印は記載なし（外形図に社名マークらしき表示あり）",
+      "color": "黄褐色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄褐色のフィルムコーティング錠 外形 直径：8.2mm 厚さ：4.4mm 質量：220mg 識別コード（PTP） t 811"
+    }
+  ]
+}

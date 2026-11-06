@@ -1,0 +1,30 @@
+{
+  "id": "2189008F1376",
+  "source_file": "530258_2189008C1094_4_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2189008C1094_4_03",
+  "extracted_at": "2026-11-06T16:37:43.057Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12973,
+    "output": 271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンレスタール錠250mg",
+      "strength": "250mg",
+      "imprint_front": "NF315",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図には表面に「NF 315」の表示あり。識別コード欄にはNF315と記載。裏面の刻印の記載は確認できない。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 5.8,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "シンレスタール錠250mg 白色～微黄白色・フィルムコーティング錠 NF315 直径9.7mm 厚さ5.8mm 質量311mg"
+    }
+  ]
+}

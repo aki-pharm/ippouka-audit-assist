@@ -1,0 +1,30 @@
+{
+  "id": "2183006F3031",
+  "source_file": "671450_2183006F3031_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2183006F3031_3_02",
+  "extracted_at": "2026-11-06T16:37:19.990Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20057,
+    "output": 263
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トライコア錠53.3mg",
+      "strength": "53.3mg",
+      "imprint_front": "AK 414",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは上面に表示されている。下面の刻印は本文に記載がなく、画像上は無地に見えるが未確認とした。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "トライコア錠53.3mg AK 414 白色～微黄白色 素錠 直径7.5mm 厚さ3.4mm 重量173mg"
+    }
+  ]
+}

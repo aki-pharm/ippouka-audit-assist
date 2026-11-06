@@ -1,0 +1,30 @@
+{
+  "id": "2223001F2137",
+  "source_file": "530100_2223001F2137_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2223001F2137_1_07",
+  "extracted_at": "2026-11-06T16:50:29.446Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9332,
+    "output": 235
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デキストロメトルファン臭化水素酸塩錠15mg「NP」",
+      "strength": "15mg",
+      "imprint_front": "TP 135",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：TP-135（表面に TP/135 と表示。裏面は図上、刻印の記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 8.0 2.8 183 TP-135"
+    }
+  ]
+}

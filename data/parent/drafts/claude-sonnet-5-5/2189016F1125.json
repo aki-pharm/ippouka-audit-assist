@@ -1,0 +1,30 @@
+{
+  "id": "2189016F1125",
+  "source_file": "530213_2189016F1125_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2189016F1125_1_18",
+  "extracted_at": "2026-11-06T16:40:18.078Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25718,
+    "output": 342
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠1mg「ケミファ」",
+      "strength": "1mg",
+      "imprint_front": "ピタバスタチン 1 ケミファ",
+      "imprint_back": "ピタバスタチン 1 ケミファ",
+      "imprint_note": "識別コードは添付文書の「識別コード」欄の記載（ピタバスタチン　1　ケミファ）。表裏の刻印は外形の図に示されており、表裏とも同じ識別コードと判断",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 ／ 直径 6.1mm ／ 厚さ 2.7mm ／ 重量 80mg ／ 識別コード ピタバスタチン 1　ケミファ"
+    }
+  ]
+}

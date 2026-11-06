@@ -1,0 +1,30 @@
+{
+  "id": "2251001G2021",
+  "source_file": "530169_2251001G1025_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2251001G1025_1_22",
+  "extracted_at": "2026-11-06T16:52:03.327Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15788,
+    "output": 812
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユニコン錠400",
+      "strength": "400mg",
+      "imprint_front": "PF",
+      "imprint_back": "U400",
+      "imprint_note": "本体コード PF/U400。表裏の振り分けは外形の図に基づく（文章では「PF/U400」とのみ記載）。割線の記載は文章になし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤 形 徐放錠 色 調 白色 直径（mm）11.0 厚さ（mm）4.1 質量（mg）475 本体コード PF/U400 包装コード 831"
+    }
+  ]
+}

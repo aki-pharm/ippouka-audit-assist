@@ -1,0 +1,30 @@
+{
+  "id": "2189010F2361",
+  "source_file": "530372_2189010F1349_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2189010F1349_2_09",
+  "extracted_at": "2026-11-06T16:38:00.007Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21972,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "NPI P10",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは NPI / P10（2段表記）。表の外形図に割線あり。裏面の刻印についての記載は添付文書の外形図に印字なし。",
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 割線入り微紅色の素錠 ／ 直径 7.5mm ／ 厚さ 3.0mm ／ 重量 140mg ／ 識別コード NPI P10"
+    }
+  ]
+}

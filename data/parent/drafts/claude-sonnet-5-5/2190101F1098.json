@@ -1,0 +1,78 @@
+{
+  "id": "2190101F1098",
+  "source_file": "270428_2190101F1098_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2190101F1098_1_15",
+  "extracted_at": "2026-11-06T16:49:45.992Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 46747,
+    "output": 2291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマルエット配合錠1番「サンド」（アムロジピン2.5mg/アトルバスタチン5mg）",
+      "strength": "アムロジピン2.5mg/アトルバスタチン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印の文字記載なし（外形は図のみ）",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 うすい黄色／直径 6.6mm／厚さ 2.7mm／質量 103mg"
+    },
+    {
+      "product_name": "アマルエット配合錠2番「サンド」（アムロジピン2.5mg/アトルバスタチン10mg）",
+      "strength": "アムロジピン2.5mg/アトルバスタチン10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印の文字記載なし（外形は図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 白色／直径 6.6mm／厚さ 2.6mm／質量 98mg"
+    },
+    {
+      "product_name": "アマルエット配合錠3番「サンド」（アムロジピン5mg/アトルバスタチン5mg）",
+      "strength": "アムロジピン5mg/アトルバスタチン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印の文字記載なし（外形は図のみ）",
+      "color": "うすい黄色",
+      "shape": null,
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 うすい黄色／長径 8.1mm 短径 4.6mm／厚さ 2.8mm／質量 103mg"
+    },
+    {
+      "product_name": "アマルエット配合錠4番「サンド」（アムロジピン5mg/アトルバスタチン10mg）",
+      "strength": "アムロジピン5mg/アトルバスタチン10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印の文字記載なし（外形は図のみ）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 白色／長径 8.1mm 短径 4.6mm／厚さ 2.9mm／質量 103mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2189016F6054",
+  "source_file": "300119_2189016F4060_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2189016F4060_1_15",
+  "extracted_at": "2026-11-06T16:42:05.668Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25337,
+    "output": 359
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa・OD錠4mg「サワイ」",
+      "strength": "4mg",
+      "imprint_front": "SW PV4",
+      "imprint_back": "4",
+      "imprint_note": "外形図に表示された識別コード「SW PV4」と数字「4」を刻印として記載。表・裏の区別は外形図からの読み取りであり、添付文書本文には「識別コード SW PV4」とのみ記載。",
+      "color": "白色～帯黄白色で淡黄色～濃黄色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）／性状 白色～帯黄白色で淡黄色～濃黄色の斑点がある／直径（mm） 9.5／厚さ（mm） 4.7／識別コード SW PV4"
+    }
+  ]
+}

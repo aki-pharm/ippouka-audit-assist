@@ -1,0 +1,30 @@
+{
+  "id": "2329028F3026",
+  "source_file": "170033_2329028F1023_1_36.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2329028F1023_1_36",
+  "extracted_at": "2026-11-06T16:58:00.236Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29027,
+    "output": 878
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パリエット錠5mg",
+      "strength": "5mg",
+      "imprint_front": "εパリエット5",
+      "imprint_back": "εパリエット5",
+      "imprint_note": "識別コードは「εパリエット5」。表・裏とも外形図に同じ表示。側面の刻印は確認できず。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5.4,
+      "size_short_mm": 5.4,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "パリエット錠5mg｜剤形：フィルムコーティング錠（腸溶錠）｜識別コード：εパリエット5｜外形：直径(mm) 5.4、質量(mg) 67、厚さ(mm) 2.7｜色：淡黄色"
+    }
+  ]
+}

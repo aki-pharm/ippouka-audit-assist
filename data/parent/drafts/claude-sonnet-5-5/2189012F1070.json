@@ -1,0 +1,30 @@
+{
+  "id": "2189012F1070",
+  "source_file": "581120_2189012F1070_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2189012F1070_1_05",
+  "extracted_at": "2026-11-06T16:39:18.157Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20072,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルバスタチン錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "t 904",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに表示（PTP識別コード t 904）。錠剤本体の刻印の記載は文字情報として確認できない（外形図には表示あり）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色のフィルムコーティング錠 外形 直径 5.6mm 厚さ 2.7mm 質量 66mg 識別コード（PTP） t 904"
+    }
+  ]
+}

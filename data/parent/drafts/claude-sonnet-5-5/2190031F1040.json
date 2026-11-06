@@ -1,0 +1,30 @@
+{
+  "id": "2190031F1040",
+  "source_file": "300119_2190031F1040_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2190031F1040_1_02",
+  "extracted_at": "2026-11-06T16:47:20.568Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24629,
+    "output": 340
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブリセンタン錠2.5mg「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "アンブリセンタン 2.5 サワイ",
+      "imprint_back": "アンブリセンタン 2.5 サワイ",
+      "imprint_note": "本体表示として「アンブリセンタン 2.5 サワイ」と記載。外形図には表裏および側面の図があるが、表・裏それぞれの刻印の別は文章では記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色 直径（mm） 7.1 厚さ（mm） 3.7 重量（mg） 約147 本体表示 アンブリセンタン 2.5 サワイ"
+    }
+  ]
+}

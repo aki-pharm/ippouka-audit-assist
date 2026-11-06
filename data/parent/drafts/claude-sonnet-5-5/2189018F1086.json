@@ -1,0 +1,30 @@
+{
+  "id": "2189018F1086",
+  "source_file": "480008_2189018F1086_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_2189018F1086_1_06",
+  "extracted_at": "2026-11-06T16:43:51.803Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26855,
+    "output": 836
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「TE」",
+      "strength": "10mg",
+      "imprint_front": "エゼチミブ10TE",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「エゼチミブ10TE」と記載。表裏のどちらに表示されるかは文章では確認できない。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "エゼチミブ錠10mg「TE」 白色の素錠(割線入り) 長径8.1mm 短径4.1mm 厚さ2.7mm 質量100mg 本体表示 エゼチミブ10TE"
+    }
+  ]
+}

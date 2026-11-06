@@ -1,0 +1,30 @@
+{
+  "id": "2189018F1116",
+  "source_file": "480209_2189018F1116_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2189018F1116_1_04",
+  "extracted_at": "2026-11-06T16:44:00.366Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25084,
+    "output": 658
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "エゼチミブ 10 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の「本体表示」欄は1行のみで、表裏の別の記載なし。外形図には両面と側面が描かれているが、文章では確認できない。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形 割線入り素錠 色調 白色 本体表示 エゼチミブ 10 杏林 直径(mm) 長径：8.1 短径：4.1 厚さ(mm) 2.7"
+    }
+  ]
+}

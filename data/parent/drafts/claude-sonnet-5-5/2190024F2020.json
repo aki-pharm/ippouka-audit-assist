@@ -1,0 +1,30 @@
+{
+  "id": "2190024F2020",
+  "source_file": "671450_2190024F1023_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2190024F1023_3_02",
+  "extracted_at": "2026-11-06T16:45:59.259Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9849,
+    "output": 244
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルタン錠250",
+      "strength": "250mg",
+      "imprint_front": "M 506",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード M506。上面に「M」「506」と表示（図より）。下面の刻印は図上なし。側面に割線様の線あり（図）。",
+      "color": "白色素錠",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "カルタン錠250 M506 白色素錠 直径8.0mm 厚さ3.9mm 重量300mg"
+    }
+  ]
+}

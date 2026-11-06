@@ -1,0 +1,30 @@
+{
+  "id": "2189011F1246",
+  "source_file": "830001_2189011F1246_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2189011F1246_1_18",
+  "extracted_at": "2026-11-06T16:38:40.255Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20054,
+    "output": 841
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD 076",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は本文に記載がなく、3.2製剤の性状の外形図の表示（YD／076）から読み取った。裏面の表示は外形図で確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色の片面割線入り素錠　直径：約6mm　厚さ：約2.7mm　重量：100mg"
+    }
+  ]
+}

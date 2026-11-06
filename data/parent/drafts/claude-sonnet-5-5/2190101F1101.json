@@ -1,0 +1,78 @@
+{
+  "id": "2190101F1101",
+  "source_file": "480235_2190101F1101_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2190101F1101_1_15",
+  "extracted_at": "2026-11-06T16:49:44.634Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45198,
+    "output": 1803
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマルエット配合錠1番「トーワ」",
+      "strength": "アムロジピン2.5mg/アトルバスタチン5mg",
+      "imprint_front": "アマルエット 1番 トーワ",
+      "imprint_back": "2.5 アムロジ アトルバ 5",
+      "imprint_note": "本体表示（表・裏）の記載。割線の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠／本体表示 表 アマルエット 1番 トーワ、裏 2.5 アムロジ アトルバ 5／直径(mm) 6.1、厚さ(mm) 2.7、質量(mg) 94.2"
+    },
+    {
+      "product_name": "アマルエット配合錠2番「トーワ」",
+      "strength": "アムロジピン2.5mg/アトルバスタチン10mg",
+      "imprint_front": "アマルエット 2番 トーワ",
+      "imprint_back": "2.5 アムロジ アトルバ 10",
+      "imprint_note": "本体表示（表・裏）の記載。割線の記載なし",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡紅色のフィルムコーティング錠／本体表示 表 アマルエット 2番 トーワ、裏 2.5 アムロジ アトルバ 10／直径(mm) 7.1、厚さ(mm) 3.1、質量(mg) 141"
+    },
+    {
+      "product_name": "アマルエット配合錠3番「トーワ」",
+      "strength": "アムロジピン5mg/アトルバスタチン5mg",
+      "imprint_front": "アマルエット 3番 トーワ",
+      "imprint_back": "5 アムロジ アトルバ 5",
+      "imprint_note": "本体表示（表・裏）の記載。割線の記載なし",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微黄色のフィルムコーティング錠／本体表示 表 アマルエット 3番 トーワ、裏 5 アムロジ アトルバ 5／直径(mm) 7.1、厚さ(mm) 3.2、質量(mg) 141"
+    },
+    {
+      "product_name": "アマルエット配合錠4番「トーワ」",
+      "strength": "アムロジピン5mg/アトルバスタチン10mg",
+      "imprint_front": "アマルエット 4番 トーワ",
+      "imprint_back": "5 アムロジ アトルバ 10",
+      "imprint_note": "本体表示（表・裏）の記載。割線の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠／本体表示 表 アマルエット 4番 トーワ、裏 5 アムロジ アトルバ 10／直径(mm) 8.1、厚さ(mm) 3.2、質量(mg) 187"
+    }
+  ]
+}

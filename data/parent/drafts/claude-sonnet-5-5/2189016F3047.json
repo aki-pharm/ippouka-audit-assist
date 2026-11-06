@@ -1,0 +1,30 @@
+{
+  "id": "2189016F3047",
+  "source_file": "300166_2189016F1044_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2189016F1044_2_07",
+  "extracted_at": "2026-11-06T16:40:59.801Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27250,
+    "output": 853
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠4mg「FFP」",
+      "strength": "4mg",
+      "imprint_front": "FF 273",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「FF/273」と記載。裏面の刻印について文言に記載なし",
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：ごくうすい黄赤色の割線入りフィルムコーティング錠／サイズ：直径 約8.6mm、重量 248mg、厚さ 約3.9mm／識別コード：FF 273"
+    }
+  ]
+}

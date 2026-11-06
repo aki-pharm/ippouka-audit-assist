@@ -1,0 +1,30 @@
+{
+  "id": "2172002F1053",
+  "source_file": "530258_2172002F1053_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2172002F1053_2_02",
+  "extracted_at": "2026-11-06T16:37:03.770Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8733,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ズファジラン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "AFP 304",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：AFP 304。外形図では表面に刻印、側面は割線。裏面の刻印は記載なし（割線あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年12月作成（第2版）",
+      "source_page": 1,
+      "source_quote": "ズファジラン錠10mg 白色の割線入り素錠 AFP 304 直径9.0mm 厚さ2.8mm 質量235mg"
+    }
+  ]
+}

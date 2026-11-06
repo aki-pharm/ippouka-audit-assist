@@ -1,0 +1,30 @@
+{
+  "id": "2329020F3020",
+  "source_file": "530263_2329020F3020_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2329020F3020_1_07",
+  "extracted_at": "2026-11-06T16:54:53.816Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13847,
+    "output": 760
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガスロンN・OD錠2mg",
+      "strength": "2mg",
+      "imprint_front": "255",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の表記は「255」。外形図では社名マークが併記されているように見えるが、本文には記載なし。裏面の刻印について本文に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2021年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の色 白色／形状 円形の錠剤／識別コード 255／直径（mm） 8.1／厚さ（mm） 2.5"
+    }
+  ]
+}

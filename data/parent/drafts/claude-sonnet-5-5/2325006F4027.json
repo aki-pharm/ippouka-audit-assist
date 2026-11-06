@@ -1,0 +1,30 @@
+{
+  "id": "2325006F4027",
+  "source_file": "400107_2325006F3020_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_2325006F3020_1_05",
+  "extracted_at": "2026-11-06T16:54:22.146Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18850,
+    "output": 792
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロテカジンOD錠10",
+      "strength": "10mg",
+      "imprint_front": "TC24",
+      "imprint_back": "10",
+      "imprint_note": "識別コードはTC24。裏面の「10」は外形図の表示から読み取った",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の扁平球状の素錠である。 直径（mm）8.0 厚み（mm）3.7 質量（mg）180 識別コード TC24"
+    }
+  ]
+}

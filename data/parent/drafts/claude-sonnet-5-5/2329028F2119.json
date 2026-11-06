@@ -1,0 +1,30 @@
+{
+  "id": "2329028F2119",
+  "source_file": "480235_2329028F2119_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2329028F2119_1_18",
+  "extracted_at": "2026-11-06T16:57:24.142Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19060,
+    "output": 892
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "ラベプラゾール 20 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の文言は「本体表示」。表裏の別は文章では明記されておらず、外形図では表に表示あり、裏は無地に見える。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.3,
+      "size_short_mm": 7.3,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色のフィルムコーティング錠（腸溶錠） 本体表示 ラベプラゾール 20 トーワ 直径(mm) 7.3 厚さ(mm) 3.4"
+    }
+  ]
+}

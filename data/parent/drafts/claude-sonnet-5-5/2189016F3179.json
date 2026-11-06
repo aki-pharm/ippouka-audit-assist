@@ -1,0 +1,30 @@
+{
+  "id": "2189016F3179",
+  "source_file": "400278_2189016F1079_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2189016F1079_1_15",
+  "extracted_at": "2026-11-06T16:41:14.580Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28268,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠4mg「TCK」",
+      "strength": "4mg",
+      "imprint_front": "TU 173",
+      "imprint_back": "4",
+      "imprint_note": "識別コード TU 173（表面）。裏面は数字「4」の印字（図より）。割線入り。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ピタバスタチンCa錠4mg「TCK」 淡赤色 フィルムコーティング錠（割線入り） TU 173 直径8.6mm 厚さ3.9mm 重量251mg"
+    }
+  ]
+}

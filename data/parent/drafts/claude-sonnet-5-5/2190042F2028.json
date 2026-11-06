@@ -1,0 +1,30 @@
+{
+  "id": "2190042F2028",
+  "source_file": "630004_2190042F1021_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_2190042F1021_1_03",
+  "extracted_at": "2026-11-06T16:48:35.209Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20173,
+    "output": 267
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベリキューボ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "5",
+      "imprint_back": "VC",
+      "imprint_note": "識別コード：5 / VC。外形図に表裏の記載あり（表：5、裏：VC と読み取れるが、表裏の明記はなし）",
+      "color": "褐赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2022年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 色調 褐赤色 / 直径 7mm / 厚さ 3.0mm / 質量 124mg / 識別コード 5 VC"
+    }
+  ]
+}

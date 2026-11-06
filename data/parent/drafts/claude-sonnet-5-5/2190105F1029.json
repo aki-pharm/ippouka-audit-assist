@@ -1,0 +1,30 @@
+{
+  "id": "2190105F1029",
+  "source_file": "800155_2190105F1029_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_2190105F1029_1_03",
+  "extracted_at": "2026-11-06T16:50:33.370Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35030,
+    "output": 797
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユバンシ配合錠（マシテンタン10mg、タダラフィル40mg）",
+      "strength": "1錠中 マシテンタン10mg、タダラフィル40mg",
+      "imprint_front": "MT",
+      "imprint_back": "1040",
+      "imprint_note": "識別コード「MT 1040」。外形図では表面に「MT」、裏面に「1040」の印字",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15,
+      "size_short_mm": 7,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 大きさ 長径（mm）15 短径（mm）7 厚さ（mm）4.7 重量（g）0.4233 識別コード MT 1040"
+    }
+  ]
+}

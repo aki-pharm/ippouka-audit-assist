@@ -1,0 +1,78 @@
+{
+  "id": "2190101F1063",
+  "source_file": "400278_2190101F1063_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2190101F1063_1_16",
+  "extracted_at": "2026-11-06T16:49:24.022Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 49678,
+    "output": 1572
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマルエット配合錠1番「TCK」",
+      "strength": "アムロジピン2.5mg/アトルバスタチン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に外形の図があるが、刻印・識別コードは文字として記載がなく確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アマルエット配合錠1番「TCK」 白色 フィルムコーティング錠 直径6.1mm 厚さ2.6mm 重量94.2mg"
+    },
+    {
+      "product_name": "アマルエット配合錠2番「TCK」",
+      "strength": "アムロジピン2.5mg/アトルバスタチン10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に外形の図があるが、刻印・識別コードは文字として記載がなく確認できない",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アマルエット配合錠2番「TCK」 淡紅色 フィルムコーティング錠 直径7.1mm 厚さ3.0mm 重量141mg"
+    },
+    {
+      "product_name": "アマルエット配合錠3番「TCK」",
+      "strength": "アムロジピン5mg/アトルバスタチン5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に外形の図があるが、刻印・識別コードは文字として記載がなく確認できない",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アマルエット配合錠3番「TCK」 微黄色 フィルムコーティング錠 直径7.1mm 厚さ3.1mm 重量141mg"
+    },
+    {
+      "product_name": "アマルエット配合錠4番「TCK」",
+      "strength": "アムロジピン5mg/アトルバスタチン10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に外形の図があるが、刻印・識別コードは文字として記載がなく確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アマルエット配合錠4番「TCK」 白色 フィルムコーティング錠 直径8.1mm 厚さ3.1mm 重量187mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2189012F2034",
+  "source_file": "300119_2189012F1038_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2189012F1038_1_13",
+  "extracted_at": "2026-11-06T16:39:23.537Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19020,
+    "output": 321
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルバスタチン錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "SW 592",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：SW 592。裏面の刻印については記載なし。外形図は円形、直径6.7mm、厚さ3.3mm、重量約129mg。剤形はフィルムコーティング錠。割線の記載なし。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 性状 淡黄色 / 直径（mm） 6.7 / 厚さ（mm） 3.3 / 重量（mg） 約129 / 識別コード SW 592"
+    }
+  ]
+}

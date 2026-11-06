@@ -1,0 +1,78 @@
+{
+  "id": "2190103F1062",
+  "source_file": "400278_2190101F1063_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2190101F1063_1_16",
+  "extracted_at": "2026-11-06T16:50:11.620Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 49678,
+    "output": 1633
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマルエット配合錠1番「TCK」",
+      "strength": "アムロジピンとして2.5mg・アトルバスタチンとして5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アマルエット配合錠1番「TCK」 6.1 2.6 94.2 白色 フィルムコーティング錠"
+    },
+    {
+      "product_name": "アマルエット配合錠2番「TCK」",
+      "strength": "アムロジピンとして2.5mg・アトルバスタチンとして10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アマルエット配合錠2番「TCK」 7.1 3.0 141 淡紅色 フィルムコーティング錠"
+    },
+    {
+      "product_name": "アマルエット配合錠3番「TCK」",
+      "strength": "アムロジピンとして5mg・アトルバスタチンとして5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アマルエット配合錠3番「TCK」 7.1 3.1 141 微黄色 フィルムコーティング錠"
+    },
+    {
+      "product_name": "アマルエット配合錠4番「TCK」",
+      "strength": "アムロジピンとして5mg・アトルバスタチンとして10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アマルエット配合錠4番「TCK」 8.1 3.1 187 白色 フィルムコーティング錠"
+    }
+  ]
+}

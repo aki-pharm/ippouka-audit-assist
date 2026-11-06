@@ -1,0 +1,30 @@
+{
+  "id": "2190031F1023",
+  "source_file": "340278_2190031F1023_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_2190031F1023_1_12",
+  "extracted_at": "2026-11-06T16:47:15.937Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25564,
+    "output": 253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヴォリブリス錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "GS",
+      "imprint_back": "K11",
+      "imprint_note": "識別コード：GS K11（表に「GS」、裏に「K11」の刻印）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色のフィルムコーティング錠 識別コード GS K11 表（直径）7.1mm 裏 側面（厚さ）3.7mm 質量 147mg"
+    }
+  ]
+}

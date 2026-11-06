@@ -1,0 +1,30 @@
+{
+  "id": "2189015F2232",
+  "source_file": "171950_2189015F1236_4_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_2189015F1236_4_04",
+  "extracted_at": "2026-11-06T16:40:09.790Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28518,
+    "output": 867
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠10mg「Me」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表・裏）に刻印の図はあるが、本文に刻印の文字記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アトルバスタチン錠10mg「Me」 フィルムコーティング錠 白色 直径(mm) 6.1 厚さ(mm) 2.8 重量(mg) 88"
+    }
+  ]
+}

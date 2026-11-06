@@ -1,0 +1,30 @@
+{
+  "id": "2329029M2031",
+  "source_file": "430773_2329029M1035_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2329029M1035_1_06",
+  "extracted_at": "2026-11-06T16:59:22.821Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32932,
+    "output": 1052
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エソメプラゾールカプセル20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "DSEP エソメ 20",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「DSEP エソメ 20」。表裏の区別は記載なし。剤形は錠剤ではなく硬カプセル剤（5号）。質量は約127mg。",
+      "color": "キャップ：青色、ボディー：薄い黄赤色（内容物：ごく薄い黄色の腸溶性顆粒（褐色の腸溶性顆粒を認めることがある。））",
+      "shape": "oblong",
+      "size_long_mm": 11.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "エソメプラゾールカプセル20mg「DSEP」 硬カプセル剤（5号） ごく薄い黄色の腸溶性顆粒（褐色の腸溶性顆粒を認めることがある。） 青色 薄い黄赤色 DSEP エソメ 20 11.2 約127"
+    }
+  ]
+}

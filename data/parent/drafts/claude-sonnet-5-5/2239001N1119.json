@@ -1,0 +1,30 @@
+{
+  "id": "2239001N1119",
+  "source_file": "300119_2239001N1119_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2239001N1119_1_08",
+  "extracted_at": "2026-11-06T16:51:26.270Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9414,
+    "output": 438
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩Lカプセル45mg「サワイ」",
+      "strength": "45mg",
+      "imprint_front": "SW-475",
+      "imprint_back": "未確認",
+      "imprint_note": "製品は錠剤ではなくフィルムコーティング硬カプセル剤（徐放性）、2号。識別コード SW-475。全長15.4mm、重量約275mg。表裏の区別は記載なし。カプセルの直径・厚さの記載なし。",
+      "color": "頭部：淡黄色、胴部：淡黄色、内容物：白色～帯黄白色の速溶性顆粒及び徐放性顆粒からなる複合粒",
+      "shape": "oblong",
+      "size_long_mm": 15.4,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング硬カプセル剤(徐放性)／性状 頭部：淡黄色 胴部：淡黄色 内容物：白色～帯黄白色の速溶性顆粒及び徐放性顆粒からなる複合粒／全長(mm) 15.4／重量(mg) 約275／識別コード SW-475"
+    }
+  ]
+}

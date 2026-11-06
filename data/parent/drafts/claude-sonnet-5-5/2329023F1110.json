@@ -1,0 +1,30 @@
+{
+  "id": "2329023F1110",
+  "source_file": "340409_2329023F1110_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_2329023F1110_2_17",
+  "extracted_at": "2026-11-06T16:55:30.609Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32791,
+    "output": 929
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランソプラゾール OD 錠 15mg「ケミファ」",
+      "strength": "15mg",
+      "imprint_front": "LZ 15",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード LZ 15（表裏の別は本文に明記なし。外形図では表に表示）",
+      "color": "白色〜帯黄白色（淡褐色〜暗褐色の斑点がある）",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色〜帯黄白色の素錠で淡褐色〜暗褐色の斑点がある腸溶性の粒を含む口腔内崩壊錠 / 直径 9.0mm / 厚さ 4.7mm / 識別コード LZ 15"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2171022F5253",
+  "source_file": "430773_2171022F1401_2_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2171022F1401_2_18",
+  "extracted_at": "2026-11-06T16:35:33.428Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21161,
+    "output": 899
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状の表に外形図はあるが、刻印・識別コードを文字で記載した本文はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アムロジピン錠10mg「DSEP」 フィルムコーティング錠（割線入） 白色 直径8.6mm 厚さ4.1mm 質量260mg"
+    }
+  ]
+}

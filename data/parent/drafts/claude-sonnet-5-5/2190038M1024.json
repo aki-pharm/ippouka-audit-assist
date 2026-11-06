@@ -1,0 +1,30 @@
+{
+  "id": "2190038M1024",
+  "source_file": "180188_2190038M1024_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_2190038M1024_1_04",
+  "extracted_at": "2026-11-06T16:48:06.784Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18330,
+    "output": 375
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デムサーカプセル250mg",
+      "strength": "250mg",
+      "imprint_front": "ATON 305",
+      "imprint_back": "ATON DEMSER 305",
+      "imprint_note": "錠剤ではなく硬カプセル剤（0号）。識別コードはATON 305。外形図では「DEMSER」と「ATON 305」の表示。カプセル頭部・胴部で色調が異なる（頭部：青色不透明、胴部：淡青色不透明）。質量約357mg。",
+      "color": "頭部：青色不透明、胴部：淡青色不透明",
+      "shape": "oblong",
+      "size_long_mm": 21.1,
+      "size_short_mm": 7.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：硬カプセル剤／号数：0号／長径(mm)：約21.1／短径(mm)：約7.5／質量(mg)：約357／色調 頭部：青色不透明、胴部：淡青色不透明／識別コード：ATON 305"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2190006M1210",
+  "source_file": "480235_2190006M1210_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2190006M1210_2_04",
+  "extracted_at": "2026-11-06T16:45:29.909Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9439,
+    "output": 342
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トコフェロールニコチン酸エステルカプセル100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw.NE",
+      "imprint_back": "Tw.NE",
+      "imprint_note": "カプセル剤（硬カプセル、3号カプセル）。識別コードはカプセル本体に印字。外形図より全長約15.8mm、質量約240mg。",
+      "color": "頭部赤色、胴部黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "頭部赤色、胴部黄色の不透明な硬カプセル剤であり、内容物は白色～淡黄白色、無味、無臭の粉末状である。 識別コード Tw.NE 全長 約15.8mm 号数 3号カプセル 質量(mg) 約240"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2183006F4038",
+  "source_file": "671450_2183006F3031_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2183006F3031_3_02",
+  "extracted_at": "2026-11-06T16:37:27.413Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20055,
+    "output": 734
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トライコア錠80mg",
+      "strength": "80mg",
+      "imprint_front": "AK 424",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは外形図の上面に表示。下面の刻印は文言では記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "トライコア錠80mg AK 424 白色～微黄白色素錠 直径8.5mm 厚さ4.0mm 重量259mg"
+    }
+  ]
+}

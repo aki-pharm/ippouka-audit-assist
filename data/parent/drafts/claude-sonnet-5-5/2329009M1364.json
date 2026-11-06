@@ -1,0 +1,30 @@
+{
+  "id": "2329009M1364",
+  "source_file": "480235_2329009M1364_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2329009M1364_1_14",
+  "extracted_at": "2026-11-06T16:54:33.936Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14146,
+    "output": 836
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スルピリドカプセル50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "TwSPC",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル剤（4号カプセル）。識別コードはTwSPC。外形図には2か所の印字があるが、裏面に相当する印字は文字として読み取れない。",
+      "color": "本体白色、頭部白色の不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "本体白色、頭部白色の不透明な硬カプセル剤である。内容物は白色、無臭、わずかに苦味を有する粉末である。 識別コード TwSPC 全長 約14.2mm（4号カプセル）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2190031F1031",
+  "source_file": "300166_2190031F1031_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2190031F1031_2_02",
+  "extracted_at": "2026-11-06T16:47:20.693Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25429,
+    "output": 324
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブリセンタン錠2.5mg「KMP」",
+      "strength": "2.5mg",
+      "imprint_front": "アンブリセンタン 2.5 KMP",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「アンブリセンタン 2.5 KMP」と記載。外形の図では表面・裏面に印字があるが、表裏の区別は文章では未記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 性状 白色 / 直径(mm) 7.1 / 厚さ(mm) 3.7 / 重量(mg) 約147 / 本体表示 アンブリセンタン 2.5 KMP"
+    }
+  ]
+}

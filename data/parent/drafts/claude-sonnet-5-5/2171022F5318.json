@@ -1,0 +1,30 @@
+{
+  "id": "2171022F5318",
+  "source_file": "830001_2171022F1185_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2171022F1185_1_22",
+  "extracted_at": "2026-11-06T16:35:31.999Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21995,
+    "output": 649
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に刻印らしき表示があるが、本文に刻印・識別コードの記載がないため未確認とした。割線は片面のみ。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りのフィルムコーティング錠／直径 約8.6mm／厚さ 約4.3mm／重量 258mg"
+    }
+  ]
+}

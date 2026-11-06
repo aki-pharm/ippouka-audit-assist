@@ -1,0 +1,30 @@
+{
+  "id": "2171022F6209",
+  "source_file": "830001_2171022F3110_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2171022F3110_1_20",
+  "extracted_at": "2026-11-06T16:36:34.527Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25315,
+    "output": 811
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載なし。外形図には印字らしき表記（YD、OD10）が見えるが、文章での記載がないため未確認とした。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の片面割線入りの素錠／直径 約8mm／厚さ 約3.2mm／重量 190mg（アムロジピンOD錠10mg「YD」）"
+    }
+  ]
+}

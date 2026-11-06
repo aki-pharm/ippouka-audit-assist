@@ -1,0 +1,30 @@
+{
+  "id": "2329009F1110",
+  "source_file": "530169_2329009F1110_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2329009F1110_3_07",
+  "extracted_at": "2026-11-06T16:54:32.759Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15364,
+    "output": 1043
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドグマチール錠50mg",
+      "strength": "50mg",
+      "imprint_front": "ドグマチール 50",
+      "imprint_back": "ドグマチール 50",
+      "imprint_note": "本体表示として「ドグマチール 50」と記載。表面・裏面の別は文章では明記されておらず、外形図では両面に「50」の表示がある。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "販売名 ドグマチール錠50mg 剤形 フィルムコーティング錠 色調 白色～帯黄白色 直径（mm） 約6.1 厚さ（mm） 約2.7 質量（mg） 約82 本体表示 ドグマチール 50"
+    }
+  ]
+}

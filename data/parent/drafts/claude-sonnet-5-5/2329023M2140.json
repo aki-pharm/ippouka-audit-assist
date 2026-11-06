@@ -1,0 +1,30 @@
+{
+  "id": "2329023M2140",
+  "source_file": "300119_2329023M1143_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2329023M1143_1_15",
+  "extracted_at": "2026-11-06T16:55:51.790Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29648,
+    "output": 365
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランソプラゾールカプセル30mg「サワイ」",
+      "strength": "30mg",
+      "imprint_front": "SW-183",
+      "imprint_back": "未確認",
+      "imprint_note": "硬カプセル剤（1号）。識別コードはSW-183。表裏の区別は記載なし。内容物：白色～わずかに褐色を帯びた白色の腸溶性顆粒。全長19.4mm、重量約416mg。",
+      "color": "頭部：白色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 19.4,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／性状 頭部：白色不透明 胴部：白色不透明 内容物：白色～わずかに褐色を帯びた白色の腸溶性顆粒／全長（mm）19.4／重量（mg）約416／識別コード SW-183／外形 1号"
+    }
+  ]
+}

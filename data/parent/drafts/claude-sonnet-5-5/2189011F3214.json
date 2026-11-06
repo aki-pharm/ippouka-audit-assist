@@ -1,0 +1,30 @@
+{
+  "id": "2189011F3214",
+  "source_file": "470007_2189011F2242_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2189011F2242_1_08",
+  "extracted_at": "2026-11-06T16:39:08.715Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17251,
+    "output": 234
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠20mg「あすか」",
+      "strength": "20mg",
+      "imprint_front": "TZ209",
+      "imprint_back": "20",
+      "imprint_note": "識別コード TZ209。外形図の裏面には「20」の表示あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色の素錠 / 直径11.1mm 厚さ4.5mm 質量400mg / 識別コード TZ209"
+    }
+  ]
+}

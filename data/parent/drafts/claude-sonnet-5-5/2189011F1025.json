@@ -1,0 +1,30 @@
+{
+  "id": "2189011F1025",
+  "source_file": "181615_2189011F1025_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_2189011F1025_3_06",
+  "extracted_at": "2026-11-06T16:38:30.107Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17695,
+    "output": 861
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リポバス錠5",
+      "strength": "5mg",
+      "imprint_front": "726",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード726は社名マークと併記。裏面の割線は図からの読み取りで、本文には明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "リポバス錠5 剤形・色調：円形・裸錠・白色 直径：6.4mm 厚さ：2.4mm 識別コード 726"
+    }
+  ]
+}

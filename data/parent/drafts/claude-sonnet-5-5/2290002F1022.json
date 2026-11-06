@@ -1,0 +1,30 @@
+{
+  "id": "2290002F1022",
+  "source_file": "150949_2290002F1022_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/150949_2290002F1022_1_01",
+  "extracted_at": "2026-11-06T16:52:39.771Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16888,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブリヌスプリ錠25mg",
+      "strength": "25mg",
+      "imprint_front": "25",
+      "imprint_back": "BRE",
+      "imprint_note": "識別コード：BRE/25。外形図の表面に「25」、裏面に「BRE」の表示あり",
+      "color": "灰色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 灰色のフィルムコーティング錠 直径（mm） 約9.0 厚さ（mm） 約4.2 質量（mg） 約310 識別コード BRE/25"
+    }
+  ]
+}

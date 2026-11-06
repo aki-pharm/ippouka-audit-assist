@@ -1,0 +1,30 @@
+{
+  "id": "2329028F1201",
+  "source_file": "400073_2329028F1201_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2329028F1201_1_20",
+  "extracted_at": "2026-11-06T16:56:48.893Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32302,
+    "output": 964
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールナトリウム錠10mg「科研」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「KC80（包装表示）」とあり、錠剤本体の刻印としての記載は本文にない（外形図には表示があるが文字は本文で確認できない）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（腸溶錠） 色 淡黄色 直径 6.7mm 厚さ 3.3mm 質量 124mg 識別コード KC80（包装表示）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2316003F1025",
+  "source_file": "890016_2316003B1066_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/890016_2316003B1066_1_03",
+  "extracted_at": "2026-11-06T16:52:48.780Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7416,
+    "output": 1088
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベニンS配合錠",
+      "strength": "1錠中ラクトミン2mg及びビフィズス菌4mg",
+      "imprint_front": "W11",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の画像では「W11」と表示。テキスト上は「11」のみ。裏面の刻印は記載なし。",
+      "color": "白色～わずかに淡黄褐色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～わずかに淡黄褐色の素錠。においはないか又はわずかに特異なにおいがあり、味はわずかに甘い。／直径：8mm 厚さ：約4.1mm 質量：200mg／識別コード 11"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2319001M1213",
+  "source_file": "470006_2319001C2060_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470006_2319001C2060_2_01",
+  "extracted_at": "2026-11-06T16:53:22.722Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13630,
+    "output": 917
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロペミンカプセル1mg",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤。外形の図に印字らしきものがあるが、文字としては記載がなく判読不能。短径はキャップ5.3mm、ボディ5.1mm（size_short_mmにはキャップの値を記載）。質量0.22g",
+      "color": "白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 ロペミンカプセル1mg 色・剤形 白色不透明の4号硬カプセル剤 大きさ 長径14.2mm 短径 キャップ5.3mm ボディ5.1mm 質量0.22g"
+    }
+  ]
+}

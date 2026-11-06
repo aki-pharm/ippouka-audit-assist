@@ -1,0 +1,30 @@
+{
+  "id": "2171022F5296",
+  "source_file": "400278_2171022F1169_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2171022F1169_1_20",
+  "extracted_at": "2026-11-06T16:35:33.469Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22162,
+    "output": 746
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "TU 217",
+      "imprint_back": "10",
+      "imprint_note": "識別コードはTU 217。裏面の「10」は性状欄の外形図の表示で、本文には記載なし。割線入り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アムロジピン錠10mg「TCK」 白色フィルムコーティング錠（割線入り） 識別コード TU 217 直径8.6mm 厚さ4.1mm 重量258mg"
+    }
+  ]
+}

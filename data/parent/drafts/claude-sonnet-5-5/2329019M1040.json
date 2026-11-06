@@ -1,0 +1,30 @@
+{
+  "id": "2329019M1040",
+  "source_file": "672173_2329019M1040_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_2329019M1040_3_02",
+  "extracted_at": "2026-11-06T16:54:41.194Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14423,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウルグートカプセル200mg",
+      "strength": "200mg",
+      "imprint_front": "ウルグート",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「ウルグート」と記載（図中には社名マークらしき表示もあるが、文字情報では確認不可）。剤形は硬カプセル剤で、大きさは2号カプセル、重量約0.33g。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "キャップ、ボディともに白色の不透明な硬カプセル剤である。内容物は白色の粉末又は粒である。 大きさ 2号カプセル 重量 約0.33g 識別コード ウルグート"
+    }
+  ]
+}

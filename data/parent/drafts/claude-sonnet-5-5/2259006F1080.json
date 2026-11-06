@@ -1,0 +1,30 @@
+{
+  "id": "2259006F1080",
+  "source_file": "470310_2259006F1080_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_2259006F1080_1_02",
+  "extracted_at": "2026-11-06T16:52:34.756Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15609,
+    "output": 703
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スピロペント錠10μg",
+      "strength": "10μg",
+      "imprint_front": "TJN 283",
+      "imprint_back": "SPR",
+      "imprint_note": "外形図の表示に基づく（表面：TJN 283、裏面：SPR）。片面割線入り。大きさ・厚さも外形図の表示（6.0mm、2.2mm）。質量は約80mg。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "色調・性状 片面割線入りの白色の素錠／識別コード TJN 283"
+    }
+  ]
+}

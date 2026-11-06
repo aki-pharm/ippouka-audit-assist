@@ -1,0 +1,30 @@
+{
+  "id": "2325006F3020",
+  "source_file": "400107_2325006F3020_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_2325006F3020_1_05",
+  "extracted_at": "2026-11-06T16:54:21.609Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18850,
+    "output": 768
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロテカジンOD錠5",
+      "strength": "5mg",
+      "imprint_front": "TC23",
+      "imprint_back": "5",
+      "imprint_note": "識別コードはTC23。裏面の「5」は外形図からの読み取りで、本文の記載ではない。",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色の扁平球状の素錠である。／直径（mm）6.0 厚み（mm）3.1 質量（mg）90／識別コード TC23"
+    }
+  ]
+}

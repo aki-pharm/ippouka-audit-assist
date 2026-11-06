@@ -1,0 +1,46 @@
+{
+  "id": "2171022F5130",
+  "source_file": "470007_2171022F1193_2_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2171022F1193_2_16",
+  "extracted_at": "2026-11-06T16:34:53.019Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27818,
+    "output": 1361
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠10mg「あすか」",
+      "strength": "10mg",
+      "imprint_front": "AK561",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして AK561 の記載あり。表裏の別は本文に明記なし",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色のフィルムコーティング錠（割線入り） 直径約8.7mm 厚さ約4.3mm 質量約293mg 識別コード AK561"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「あすか」",
+      "strength": "10mg",
+      "imprint_front": "アムロジピン OD10 あすか",
+      "imprint_back": "OD10 あすか アムロジピン",
+      "imprint_note": "製剤表示として記載。片面割線入り",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の片面割線入り素錠 直径8.0mm 厚さ3.2mm 質量190mg 製剤表示 表：アムロジピン OD10 あすか 裏：OD10 あすか アムロジピン"
+    }
+  ]
+}

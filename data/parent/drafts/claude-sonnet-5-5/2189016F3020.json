@@ -1,0 +1,30 @@
+{
+  "id": "2189016F3020",
+  "source_file": "270072_2189016F1028_1_38.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_2189016F1028_1_38",
+  "extracted_at": "2026-11-06T16:40:51.666Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25817,
+    "output": 174
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リバロ錠4mg",
+      "strength": "4mg",
+      "imprint_front": "201",
+      "imprint_back": "",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色、円形の割線入りフィルムコーティング錠である。"
+    }
+  ]
+}

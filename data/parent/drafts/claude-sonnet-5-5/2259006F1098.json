@@ -1,0 +1,30 @@
+{
+  "id": "2259006F1098",
+  "source_file": "630111_2259006F1098_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630111_2259006F1098_2_04",
+  "extracted_at": "2026-11-06T16:52:34.322Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15897,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クレンブテロール錠10μg「HARASAWA」",
+      "strength": "10μg",
+      "imprint_front": "TI 101",
+      "imprint_back": "TNL",
+      "imprint_note": "識別コード TI 101。外形（裏面）の図には「TNL」の表示あり。表面の図は割線のみで文字の記載は確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2024年9月改訂(第2版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・割線入り素錠 直径(mm) 6.0 厚さ(mm) 2.2 重量(mg) 80 識別コード TI 101"
+    }
+  ]
+}

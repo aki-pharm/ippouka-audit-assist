@@ -1,0 +1,30 @@
+{
+  "id": "2329028F1112",
+  "source_file": "480235_2329028F1112_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2329028F1112_1_22",
+  "extracted_at": "2026-11-06T16:56:30.593Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31131,
+    "output": 892
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "ラベプラゾール 10 トーワ",
+      "imprint_back": "なし",
+      "imprint_note": "本体表示。外形図の裏面には表示が描かれていない。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "淡黄色のフィルムコーティング錠(腸溶錠)　本体表示 ラベプラゾール 10 トーワ　直径(mm) 6.8　厚さ(mm) 3.3　質量(mg) 134"
+    }
+  ]
+}

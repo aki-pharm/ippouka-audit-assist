@@ -1,0 +1,30 @@
+{
+  "id": "2190029F3070",
+  "source_file": "670082_2190029F3070_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670082_2190029F3070_1_04",
+  "extracted_at": "2026-11-06T16:46:42.370Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16834,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "炭酸ランタンOD錠250mg「FCI」",
+      "strength": "250mg",
+      "imprint_front": "ランタン OD 250 FCI",
+      "imprint_back": "ランタン OD 250 FCI",
+      "imprint_note": "識別コード欄に「ランタン OD 250 FCI」と記載。外形の上面・下面の両面に同じ印字（図より）。",
+      "color": "白色の素錠",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.05,
+      "score_line": null,
+      "source_revision": "2024年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "炭酸ランタン OD錠250mg「FCI」 ランタン OD 250 FCI 白色の素錠 直径 10mm 厚さ 4.05mm 重量 600mg"
+    }
+  ]
+}

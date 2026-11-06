@@ -1,0 +1,46 @@
+{
+  "id": "2189102F1032",
+  "source_file": "580591_2189102F1032_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2189102F1032_1_03",
+  "extracted_at": "2026-11-06T16:44:58.054Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41956,
+    "output": 1171
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼロス配合錠LD「JG」",
+      "strength": "エゼチミブ10.0mg・ロスバスタチンとして2.5mg（ロスバスタチンカルシウム2.6mg）",
+      "imprint_front": "エゼロス LD JG",
+      "imprint_back": "LD",
+      "imprint_note": "本体表示「エゼロス LD JG/LD」を表面・裏面に分けて記載",
+      "color": "うすい赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "エゼロス配合錠LD「JG」 うすい赤みの黄色の円形のフィルムコーティング錠 直径7.6mm 厚さ3.8mm 重量182mg 本体表示 エゼロス LD JG/LD"
+    },
+    {
+      "product_name": "エゼロス配合錠HD「JG」",
+      "strength": "エゼチミブ10.0mg・ロスバスタチンとして5mg（ロスバスタチンカルシウム5.2mg）",
+      "imprint_front": "エゼロス HD JG",
+      "imprint_back": "HD",
+      "imprint_note": "本体表示「エゼロス HD JG/HD」を表面・裏面に分けて記載",
+      "color": "うすい赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "エゼロス配合錠HD「JG」 うすい赤みの黄色の円形のフィルムコーティング錠 直径8.7mm 厚さ4.4mm 重量259mg 本体表示 エゼロス HD JG/HD"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2190027G1030",
+  "source_file": "200022_2190027G1030_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/200022_2190027G1030_1_10",
+  "extracted_at": "2026-11-06T16:46:17.290Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17651,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラサスLA錠60μg",
+      "strength": "60μg",
+      "imprint_front": "KC51",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード KC51。表のみ図示あり、裏は図に刻印の記載なし。側面は図示のみ。",
+      "color": "白色～黄みの白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（徐放錠） 色 白色～黄みの白色 直径 7.0mm 厚さ 2.9mm 質量 120mg 識別コード KC51"
+    }
+  ]
+}

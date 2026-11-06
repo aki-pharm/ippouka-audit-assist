@@ -1,0 +1,30 @@
+{
+  "id": "2189011F3095",
+  "source_file": "780075_2189011F1203_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_2189011F1203_1_17",
+  "extracted_at": "2026-11-06T16:39:05.879Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18147,
+    "output": 850
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠20mg「SW」",
+      "strength": "20mg",
+      "imprint_front": "SW 275",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15,
+      "size_short_mm": 6.8,
+      "thickness_mm": 4.6,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠／性状 白色／直径（mm）15.0×6.8／厚さ（mm）4.6／識別コード SW 275"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2329024F2021",
+  "source_file": "672212_2329024F1025_6_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2329024F1025_6_03",
+  "extracted_at": "2026-11-06T16:56:03.559Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14349,
+    "output": 893
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サイトテック錠100",
+      "strength": "100μg",
+      "imprint_front": "SEARLE",
+      "imprint_back": "110",
+      "imprint_note": "識別コード欄の記載は「SEARLE 110」。上面がSEARLE、下面が110という割り振りは外形図の並び順に基づく。割線の記載はない（割線入りの記載があるのは錠200のみ）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2021年6月改訂",
+      "source_page": 1,
+      "source_quote": "サイトテック錠100 SEARLE 110 白色 素錠 直径7.2mm 厚さ2.5mm 重量0.1g"
+    }
+  ]
+}

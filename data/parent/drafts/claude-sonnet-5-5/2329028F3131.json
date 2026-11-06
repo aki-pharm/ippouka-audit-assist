@@ -1,0 +1,30 @@
+{
+  "id": "2329028F3131",
+  "source_file": "780009_2329028F1155_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2329028F1155_1_21",
+  "extracted_at": "2026-11-06T16:58:19.431Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29736,
+    "output": 865
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa塩錠5mg「明治」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の表・裏に印字らしきものがあるが、本文テキストに刻印・識別コードの記載がなく判読できないため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5.9,
+      "size_short_mm": 5.9,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ラベプラゾールNa塩錠5mg「明治」 フィルムコーティング錠（腸溶錠） 淡黄色 直径（mm）5.9 厚さ（mm）2.6 重量（mg）69.5"
+    }
+  ]
+}

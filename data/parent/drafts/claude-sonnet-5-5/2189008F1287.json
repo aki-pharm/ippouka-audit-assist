@@ -1,0 +1,30 @@
+{
+  "id": "2189008F1287",
+  "source_file": "180078_2189008F1287_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_2189008F1287_1_04",
+  "extracted_at": "2026-11-06T16:37:41.426Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12726,
+    "output": 250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロレルコ錠250mg",
+      "strength": "250mg",
+      "imprint_front": "OG23",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：OG23。外形の図には表面に識別コードの表示あり。裏面の刻印は文章に記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 11.2,
+      "size_short_mm": 11.2,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2023年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ロレルコ錠250mg 白色～微黄白色のフィルムコーティング錠 11.2 4.6 約400 OG23"
+    }
+  ]
+}

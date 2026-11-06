@@ -1,0 +1,30 @@
+{
+  "id": "2329029M2058",
+  "source_file": "480209_2329029M1051_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2329029M1051_1_05",
+  "extracted_at": "2026-11-06T16:59:27.586Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33326,
+    "output": 738
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エソメプラゾールカプセル20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "エソメプラゾール 20 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示（カプセル本体の表示）。5号カプセル。質量117.5mg。内容物は白色～ごくうすい黄色の腸溶性顆粒。",
+      "color": "濃い青色（キャップ）、ごくうすい黄赤色（ボディ）",
+      "shape": "oblong",
+      "size_long_mm": 11.4,
+      "size_short_mm": 4.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "硬カプセル剤 色調 濃い青色（キャップ）ごくうすい黄赤色（ボディ） 外形 5号カプセル 本体表示 エソメプラゾール 20 杏林 直径(mm) 長径：11.40 短径：4.90 質量(mg) 117.5"
+    }
+  ]
+}

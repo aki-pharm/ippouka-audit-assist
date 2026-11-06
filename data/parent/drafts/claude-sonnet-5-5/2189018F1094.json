@@ -1,0 +1,30 @@
+{
+  "id": "2189018F1094",
+  "source_file": "830001_2189018F1094_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2189018F1094_1_03",
+  "extracted_at": "2026-11-06T16:43:54.454Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26536,
+    "output": 727
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表示はあるが、本文には刻印・識別コードの記載なし",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠である。 直径 （長径）約8.1mm （短径）約4.1mm 厚さ 約2.7mm"
+    }
+  ]
+}

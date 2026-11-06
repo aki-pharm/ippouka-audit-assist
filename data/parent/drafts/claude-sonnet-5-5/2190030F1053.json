@@ -1,0 +1,30 @@
+{
+  "id": "2190030F1053",
+  "source_file": "480209_2190030F1053_3_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2190030F1053_3_09",
+  "extracted_at": "2026-11-06T16:47:11.488Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32911,
+    "output": 989
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タダラフィル錠20mgAD「杏林」",
+      "strength": "20mg",
+      "imprint_front": "KRM240",
+      "imprint_back": "20",
+      "imprint_note": "表面の識別コードは「識別コード KRM240」の記載による。裏面の「20」は外形図の表示による（本文の文字記載なし）。",
+      "color": "赤褐色",
+      "shape": null,
+      "size_long_mm": 12.3,
+      "size_short_mm": 7.6,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 赤褐色 外形 直径(mm) 長径：12.3 短径：7.6 厚さ(mm) 5.0 質量(mg) 360 識別コード KRM240"
+    }
+  ]
+}

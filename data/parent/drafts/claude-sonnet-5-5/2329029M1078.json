@@ -1,0 +1,30 @@
+{
+  "id": "2329029M1078",
+  "source_file": "300119_2329029M1078_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2329029M1078_1_05",
+  "extracted_at": "2026-11-06T16:59:04.816Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30818,
+    "output": 647
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エソメプラゾールカプセル10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印・識別コードの記載なし（外形は5号の硬カプセル剤）",
+      "color": "頭部：灰紫色、胴部：うすい黄色、内容物：白色～ごくうすい黄色の腸溶性顆粒である。褐色の腸溶性顆粒を認めることがある。",
+      "shape": "oblong",
+      "size_long_mm": 11.3,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "外形 5号／剤形 硬カプセル剤／性状 頭部：灰紫色 胴部：うすい黄色 内容物：白色～ごくうすい黄色の腸溶性顆粒である。褐色の腸溶性顆粒を認めることがある。／全長（mm）11.3／重量（mg）約69"
+    }
+  ]
+}

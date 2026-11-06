@@ -1,0 +1,30 @@
+{
+  "id": "2329028F2321",
+  "source_file": "730869_2329028F2321_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2329028F2321_1_06",
+  "extracted_at": "2026-11-06T16:57:50.673Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18948,
+    "output": 302
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa錠20mg「VTRS」",
+      "strength": "20mg",
+      "imprint_front": "RZ 20",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは上面に表示（添付文書の外形図では上面に「RZ 20」、下面・側面に記載なし）。識別コード欄は「RZ 20」",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ラベプラゾールNa錠20mg「VTRS」 RZ 20 淡黄色 腸溶フィルムコーティング錠 直径 7.2mm 厚さ 3.8mm 重量 142mg"
+    }
+  ]
+}

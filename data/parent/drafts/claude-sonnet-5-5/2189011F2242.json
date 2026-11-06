@@ -1,0 +1,30 @@
+{
+  "id": "2189011F2242",
+  "source_file": "470007_2189011F2242_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2189011F2242_1_08",
+  "extracted_at": "2026-11-06T16:38:57.562Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17251,
+    "output": 245
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠10mg「あすか」",
+      "strength": "10mg",
+      "imprint_front": "TZ199",
+      "imprint_back": "10",
+      "imprint_note": "識別コード TZ199（表）。裏面には「10」の表示が図示されている（本文には記載なし）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色の素錠 / 直径8.0mm 厚さ3.1mm 質量200mg / 識別コード TZ199"
+    }
+  ]
+}

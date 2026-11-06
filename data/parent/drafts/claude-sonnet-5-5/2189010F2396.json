@@ -1,0 +1,30 @@
+{
+  "id": "2189010F2396",
+  "source_file": "180095_2189010F1373_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2189010F1373_1_11",
+  "extracted_at": "2026-11-06T16:38:06.546Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20401,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠10mg「オーハラ」",
+      "strength": "10mg",
+      "imprint_front": "プラバスタチン 10 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として「プラバスタチン 10 オーハラ」と記載。表面・裏面のどちらに刻印されているかは本文に明記なし。片面割線入り。",
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 微紅色・片面割線入り素錠 / 直径：7.5mm　厚さ：2.4mm / 質量 130mg / 識別表示 プラバスタチン 10 オーハラ"
+    }
+  ]
+}

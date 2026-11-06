@@ -1,0 +1,30 @@
+{
+  "id": "2189010F1039",
+  "source_file": "430574_2189010C1032_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_2189010C1032_2_15",
+  "extracted_at": "2026-11-06T16:37:50.330Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20193,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メバロチン錠5",
+      "strength": "5mg",
+      "imprint_front": "SANKYO 231",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「SANKYO 231」と表記。表の外形図には錠剤の表面に「SANKYO」「231」の印字があるが、裏面の刻印についての記載は確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.1,
+      "score_line": false,
+      "source_revision": "2023年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メバロチン錠5 素錠 白色 SANKYO 231 6.5 約2.1 約90"
+    }
+  ]
+}

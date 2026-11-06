@@ -1,0 +1,30 @@
+{
+  "id": "2190037F4020",
+  "source_file": "530263_2190037F1020_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2190037F1020_1_14",
+  "extracted_at": "2026-11-06T16:48:06.458Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28632,
+    "output": 747
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウプトラビ錠0.8mg",
+      "strength": "0.8mg",
+      "imprint_front": "263",
+      "imprint_back": "0.8",
+      "imprint_note": "識別コードの前に社名マークあり。裏面の「0.8」は外形の図から読み取った（本文の識別コード欄には263のみ記載）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "製剤の色 白色／形状 円形のフィルムコーティング錠／識別コード 263／直径（mm）7.1／厚さ（mm）3.4／質量（mg）140"
+    }
+  ]
+}

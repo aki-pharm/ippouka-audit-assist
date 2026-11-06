@@ -1,0 +1,30 @@
+{
+  "id": "2189011F2170",
+  "source_file": "780075_2189011F1203_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_2189011F1203_1_17",
+  "extracted_at": "2026-11-06T16:38:50.824Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18147,
+    "output": 986
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠10mg「SW」",
+      "strength": "10mg",
+      "imprint_front": "SW 550",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの文字表記はSW 550のみ。外形図の裏面には「10」の表示があるように見えるが、文章では確認できないため未確認とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／性状 白色／直径（mm）8.0／厚さ（mm）3.1／識別コード SW 550"
+    }
+  ]
+}

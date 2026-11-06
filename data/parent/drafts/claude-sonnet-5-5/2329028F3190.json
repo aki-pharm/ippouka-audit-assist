@@ -1,0 +1,30 @@
+{
+  "id": "2329028F3190",
+  "source_file": "530169_2329028F3190_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2329028F3190_1_09",
+  "extracted_at": "2026-11-06T16:58:41.070Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29460,
+    "output": 971
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールナトリウム錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "ラベプラゾール 5 日医工",
+      "imprint_back": "ラベプラゾール 5 日医工",
+      "imprint_note": "本体表示として「ラベプラゾール／5／日医工」、包装コード 307。表面・裏面とも図に表示あり（文字での表裏の区別記載なし）。剤形はフィルムコーティング錠（腸溶錠）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5.4,
+      "size_short_mm": 5.4,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（腸溶錠）／色調 淡黄色／直径（mm） 5.4／厚さ（mm） 2.7／質量（mg） 約68／本体表示 ラベプラゾール 5 日医工／包装コード 307"
+    }
+  ]
+}

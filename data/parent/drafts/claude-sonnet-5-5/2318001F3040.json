@@ -1,0 +1,30 @@
+{
+  "id": "2318001F3040",
+  "source_file": "710068_2318001F1241_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/710068_2318001F1241_1_02",
+  "extracted_at": "2026-11-06T16:53:13.260Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10449,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジメチコン錠80mg「ホリイ」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード HR208 は PTPシートに記載されており、錠剤本体の刻印の有無は文書上確認できない。外形図の表面・裏面は無地の円として描かれている。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 直径 10.0ｍｍ 厚さ 5.0ｍｍ 質量 450ｍg 識別コード HR208（PTPシート）"
+    }
+  ]
+}

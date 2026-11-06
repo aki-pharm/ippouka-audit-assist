@@ -1,0 +1,30 @@
+{
+  "id": "2329028F1104",
+  "source_file": "300119_2329028F1104_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2329028F1104_1_20",
+  "extracted_at": "2026-11-06T16:56:26.446Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29999,
+    "output": 785
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "サワイ ラベプラ 10",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の性状欄には「本体表示」として1つだけ記載。表裏の区別は文章では書かれていない。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.9,
+      "size_short_mm": 6.9,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 腸溶性フィルムコーティング錠 / 性状 淡黄色 / 直径（mm） 6．9 / 厚さ（mm） 3．6 / 重量（mg） 約143 / 本体表示 サワイ ラベプラ 10"
+    }
+  ]
+}

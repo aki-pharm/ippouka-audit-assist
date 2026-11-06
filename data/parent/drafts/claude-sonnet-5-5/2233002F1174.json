@@ -1,0 +1,30 @@
+{
+  "id": "2233002F1174",
+  "source_file": "231099_2233002F1174_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_2233002F1174_2_03",
+  "extracted_at": "2026-11-06T16:51:05.137Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10453,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ムコダイン錠250mg",
+      "strength": "250mg",
+      "imprint_front": "KP-256",
+      "imprint_back": "KP-256",
+      "imprint_note": "識別コードの表示はKP-256。外形図では表面に「KP 256」と印字されている",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 色調 白色 / 外形 直径：8.6mm 厚さ：4.5mm 質量：約280mg / 識別コード KP-256"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2171022F6080",
+  "source_file": "400278_2171022F3099_2_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2171022F3099_2_16",
+  "extracted_at": "2026-11-06T16:35:59.753Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22765,
+    "output": 929
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "TU 233",
+      "imprint_back": "10",
+      "imprint_note": "裏面の「10」は製剤の性状の表の図から読み取ったもので、文章での記載はない。識別コードは TU 233。",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アムロジピンOD錠10mg「TCK」 直径 8.5mm 厚さ 4.7mm 重量 250mg 淡橙色 素錠（割線入り） 識別コード TU 233"
+    }
+  ]
+}

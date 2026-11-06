@@ -1,0 +1,46 @@
+{
+  "id": "2189017F2037",
+  "source_file": "430773_2189017F1030_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2189017F1030_1_18",
+  "extracted_at": "2026-11-06T16:42:32.939Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32879,
+    "output": 1329
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "EP R 5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の記載。表裏の別は本文に明記なし。剤形：フィルムコーティング錠。質量 約154.5mg",
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ロスバスタチン錠5mg「DSEP」 フィルムコーティング錠 うすい赤みの黄色～くすんだ赤みの黄色 EP R 5 直径 約7mm 厚さ 約3.8mm 質量 約154.5mg"
+    },
+    {
+      "product_name": "ロスバスタチンOD錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "d5 EPR",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の記載。表裏の別は本文に明記なし。剤形：素錠（口腔内崩壊錠）。質量 約240mg",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ロスバスタチンOD錠5mg「DSEP」 素錠（口腔内崩壊錠） 淡黄色 d5 EPR 直径 約8mm 厚さ 約3.1mm 質量 約240mg"
+    }
+  ]
+}

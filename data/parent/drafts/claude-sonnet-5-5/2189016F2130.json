@@ -1,0 +1,30 @@
+{
+  "id": "2189016F2130",
+  "source_file": "300119_2189016F1133_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2189016F1133_1_16",
+  "extracted_at": "2026-11-06T16:40:36.696Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25308,
+    "output": 359
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW ピタバ 2",
+      "imprint_back": "SW ピタバ 2",
+      "imprint_note": "本体表示は「SW ピタバ 2」。割線入りフィルムコーティング錠。外形図には表裏の表示あり（裏面の刻印は表と同じ表示と読み取れるが、本文には表裏の区別の記載なし）。",
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 / 性状 ごくうすい赤色 / 直径（mm） 7.1 / 厚さ（mm） 2.9 / 重量（mg） 約126 / 本体表示 SW ピタバ 2"
+    }
+  ]
+}

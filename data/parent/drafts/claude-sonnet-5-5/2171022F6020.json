@@ -1,0 +1,46 @@
+{
+  "id": "2171022F6020",
+  "source_file": "400093_2171022F1045_3_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_2171022F1045_3_22",
+  "extracted_at": "2026-11-06T16:35:44.365Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23981,
+    "output": 1253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄は図のみで、刻印・識別コードの文言は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "アムロジン錠10mg 白色の割線入りフィルムコート錠 直径(mm) 約8.4 厚さ(mm) 約4.0 重さ(mg) 約258"
+    },
+    {
+      "product_name": "アムロジンOD錠10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄は図のみで、刻印・識別コードの文言は本文に記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "アムロジンOD錠10mg 淡黄色の割線入り素錠 直径(mm) 約8 厚さ(mm) 約3.5 重さ(mg) 約186"
+    }
+  ]
+}

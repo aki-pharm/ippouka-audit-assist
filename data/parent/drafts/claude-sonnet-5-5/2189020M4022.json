@@ -1,0 +1,30 @@
+{
+  "id": "2189020M4022",
+  "source_file": "870276_2189020M1023_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/870276_2189020M1023_2_11",
+  "extracted_at": "2026-11-06T16:44:39.594Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34243,
+    "output": 1051
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジャクスタピッドカプセル小児用2mg",
+      "strength": "2mg",
+      "imprint_front": "A733",
+      "imprint_back": "2 mg",
+      "imprint_note": "剤形は硬カプセル剤。「A733」及び「2 mg」の黒色印字。識別コードは「A733／2 mg」。添付文書にカプセルの表裏の区別の記載はなし。重量は約276mg。",
+      "color": "灰色（頭部）／灰色（胴部）",
+      "shape": "oblong",
+      "size_long_mm": 19.4,
+      "size_short_mm": 6.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "灰色（頭部）／灰色（胴部）の硬カプセル剤、「A733」及び「2 mg」の黒色印字　長径約19.4mm　短径約6.9mm／約276mg　識別コード A733／2 mg"
+    }
+  ]
+}

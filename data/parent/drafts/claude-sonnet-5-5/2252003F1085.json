@@ -1,0 +1,30 @@
+{
+  "id": "2252003F1085",
+  "source_file": "670227_2252003F1085_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_2252003F1085_1_05",
+  "extracted_at": "2026-11-06T16:52:23.278Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15498,
+    "output": 814
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブリカニール錠2mg",
+      "strength": "2mg",
+      "imprint_front": "211",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「▲211」と記載（▲はマーク）。裏面は図に割線のみ描かれ、刻印の文言は記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の裸錠（割線入） 大きさ 直径 約7.0mm 厚さ 約2.7mm 重量 約0.14g 識別コード ▲211"
+    }
+  ]
+}

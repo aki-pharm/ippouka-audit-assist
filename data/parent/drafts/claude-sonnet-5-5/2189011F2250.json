@@ -1,0 +1,30 @@
+{
+  "id": "2189011F2250",
+  "source_file": "400813_2189011F1297_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2189011F1297_1_12",
+  "extracted_at": "2026-11-06T16:38:59.190Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18091,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠10mg「武田テバ」",
+      "strength": "10mg",
+      "imprint_front": "t 440",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）は t 440。錠剤表面にも「t」「440」の表示が図示されているが、本文には錠剤本体の刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 / 形状 直径 8.0mm 厚さ 3.1mm 重量 200mg / 識別コード（PTP） t 440"
+    }
+  ]
+}

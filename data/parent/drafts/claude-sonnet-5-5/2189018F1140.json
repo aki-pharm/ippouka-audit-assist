@@ -1,0 +1,30 @@
+{
+  "id": "2189018F1140",
+  "source_file": "270428_2189018F1140_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2189018F1140_1_02",
+  "extracted_at": "2026-11-06T16:44:07.630Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26613,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「サンド」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表裏の印字らしきものが図示されているが、本文中に刻印・識別コードの文字記載はなし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.2,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2022年1月改訂",
+      "source_page": 1,
+      "source_quote": "片面に割線のある白色の素錠 大きさ（約） 長径：8.2mm　短径：4.2mm　厚さ：2.6mm　質量：100mg"
+    }
+  ]
+}

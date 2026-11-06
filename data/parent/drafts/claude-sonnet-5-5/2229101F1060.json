@@ -1,0 +1,30 @@
+{
+  "id": "2229101F1060",
+  "source_file": "730869_2229101F1060_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2229101F1060_2_10",
+  "extracted_at": "2026-11-06T16:50:59.444Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13020,
+    "output": 787
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フスコデ配合錠",
+      "strength": "1錠",
+      "imprint_front": "HC741",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはHC741。外形図の上面に「HC 741」の表示あり。下面は割線のみ図示されているが、刻印の有無は文言では確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フスコデ配合錠 HC741 白色 割線入り 素錠 直径 厚さ 重量 9.0mm 4.3mm 300mg"
+    }
+  ]
+}

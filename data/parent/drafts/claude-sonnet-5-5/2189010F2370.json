@@ -1,0 +1,30 @@
+{
+  "id": "2189010F2370",
+  "source_file": "480235_2189010F1357_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2189010F1357_1_14",
+  "extracted_at": "2026-11-06T16:38:07.675Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20315,
+    "output": 883
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "10 プラバスタチン トーワ",
+      "imprint_back": "プラバ 10",
+      "imprint_note": "本体表示（印字）。割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠／本体表示 表 10 プラバスタチン トーワ 裏 プラバ 10／直径(mm) 7.5／厚さ(mm) 2.6"
+    }
+  ]
+}

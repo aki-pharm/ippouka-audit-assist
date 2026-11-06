@@ -1,0 +1,30 @@
+{
+  "id": "2189016F3268",
+  "source_file": "460028_2189016F1176_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2189016F1176_1_17",
+  "extracted_at": "2026-11-06T16:41:30.519Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25598,
+    "output": 244
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠4mg「ツルハラ」",
+      "strength": "4mg",
+      "imprint_front": "TSU591",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠／色調 淡黄色／大きさ 直径 約8.6mm、厚さ 約4.1mm／識別コード 表面 TSU591 裏面 4"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2171022F6071",
+  "source_file": "530100_2171022F3072_4_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2171022F3072_4_12",
+  "extracted_at": "2026-11-06T16:35:56.713Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25035,
+    "output": 812
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "NP-133",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-133。表裏の別は文章では記載なし。性状欄は5mgと共通の結合セルで、割線入りと読み取った。",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アムロジピンOD錠10mg「NP」　淡橙色の割線入り素錠（口腔内崩壊錠）　直径8.5mm　厚さ4.7mm　重量250mg　識別コード NP-133"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2190026F1022",
+  "source_file": "800155_2190026F1022_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_2190026F1022_2_04",
+  "extracted_at": "2026-11-06T16:46:12.840Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30741,
+    "output": 282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラクリア錠62.5mg",
+      "strength": "62.5mg",
+      "imprint_front": "62.5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：62.5。外形の図では表面に「62.5」の表示あり。裏面の刻印は文書に記載なし。",
+      "color": "橙白色のフィルムコート",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 橙白色のフィルムコート／大きさ 直径（mm） 約6.1 厚さ（mm） 約3.1 重さ（mg） 約86.5／識別コード 62.5"
+    }
+  ]
+}

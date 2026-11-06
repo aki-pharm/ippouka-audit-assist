@@ -1,0 +1,30 @@
+{
+  "id": "2190029F4068",
+  "source_file": "670156_2190029F3061_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670156_2190029F3061_1_06",
+  "extracted_at": "2026-11-06T16:46:49.851Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18268,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "炭酸ランタンOD錠500mg「フソー」",
+      "strength": "500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に表面・裏面の印字（社名マークと思われる表示）があるが、本文に刻印・識別コードの文字記載がないため未確認",
+      "color": "白色～灰白色",
+      "shape": "round",
+      "size_long_mm": 13,
+      "size_short_mm": 13,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～灰白色の錠剤（口腔内崩壊錠） 大きさ 直径 10.5mm 13mm 厚さ 4.6mm 5.4mm 質量 630mg 1260mg"
+    }
+  ]
+}

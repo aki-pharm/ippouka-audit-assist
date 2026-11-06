@@ -1,0 +1,30 @@
+{
+  "id": "2189011F2196",
+  "source_file": "480235_2189011F1220_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2189011F1220_1_21",
+  "extracted_at": "2026-11-06T16:38:53.741Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18264,
+    "output": 993
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw143",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは Tw143。表裏の別は本文に明記されておらず、外形図では表に「Tw 143」の表示がある。裏の刻印は文書に記載がないため未確認とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の素錠 識別コード Tw143 直径(mm) 8.0 厚さ(mm) 3.0"
+    }
+  ]
+}

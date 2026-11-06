@@ -1,0 +1,30 @@
+{
+  "id": "2189016F6020",
+  "source_file": "270072_2189016F4027_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_2189016F4027_1_23",
+  "extracted_at": "2026-11-06T16:42:00.461Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25966,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リバロOD錠4mg",
+      "strength": "4mg",
+      "imprint_front": "113",
+      "imprint_back": "113",
+      "imprint_note": "識別コード113（社名マーク（Kowa）併記）。表裏の別は文書に明記なし。外形図には割線が描かれている。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色、円形の割線入り素錠で淡黄色～濃黄色の斑点がある。 直径9.5mm 厚さ5.2mm 重量320mg 識別コード 113"
+    }
+  ]
+}

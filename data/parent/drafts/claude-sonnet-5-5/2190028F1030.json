@@ -1,0 +1,30 @@
+{
+  "id": "2190028F1030",
+  "source_file": "580591_2190028F1030_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2190028F1030_1_05",
+  "extracted_at": "2026-11-06T16:46:22.448Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32246,
+    "output": 318
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シルデナフィル錠20mgRE「JG」",
+      "strength": "20mg",
+      "imprint_front": "シルデナ RE 20 JG",
+      "imprint_back": "シルデナ RE 20 JG",
+      "imprint_note": "本体表示は「シルデナ RE 20 JG」。表面・裏面の図に同様の表示あり（側面図は表示なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第5版、用法及び用量変更）",
+      "source_page": 1,
+      "source_quote": "シルデナフィル錠20mgRE「JG」 白色のフィルムコーティング錠 表面 裏面 側面 シルデナ RE 20 JG 直径 6.7mm 厚さ 3.2mm 重量 125mg"
+    }
+  ]
+}

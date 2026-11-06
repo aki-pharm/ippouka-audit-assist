@@ -1,0 +1,30 @@
+{
+  "id": "2189016F3144",
+  "source_file": "400073_2189016F1109_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2189016F1109_1_16",
+  "extracted_at": "2026-11-06T16:41:16.195Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26515,
+    "output": 830
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠4mg「科研」",
+      "strength": "4mg",
+      "imprint_front": "DK522",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはDK522。外形図では表に「DK/522」、裏は割線の図。裏面の刻印の有無は本文に明記なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠／色 白色／直径 8.7mm／厚さ 4.3mm／質量 252mg／識別コード DK522"
+    }
+  ]
+}

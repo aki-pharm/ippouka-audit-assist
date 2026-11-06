@@ -1,0 +1,30 @@
+{
+  "id": "2190006M2179",
+  "source_file": "170033_2190006M1156_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2190006M1156_1_02",
+  "extracted_at": "2026-11-06T16:45:29.704Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10361,
+    "output": 803
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユベラNソフトカプセル200mg",
+      "strength": "200mg",
+      "imprint_front": "ユベラN200",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「－※」で、※「ユベラN200」の印字あり",
+      "color": "橙色",
+      "shape": "oval",
+      "size_long_mm": 14.7,
+      "size_short_mm": 7.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形：軟カプセル　識別コード：－※　大きさ：長径（mm）：14.7 短径（mm）：7.2　質量（mg）：471　色：カプセル 橙色、内容物 帯黄白色の粘稠な懸濁液又は半固体　※「ユベラN200」の印字あり"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2329020F4026",
+  "source_file": "530263_2329020F3020_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2329020F3020_1_07",
+  "extracted_at": "2026-11-06T16:54:53.421Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13847,
+    "output": 796
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガスロンN・OD錠4mg",
+      "strength": "4mg",
+      "imprint_front": "256",
+      "imprint_back": "4",
+      "imprint_note": "識別コードは255/256の表記で、表に社名マークあり。片面に割線。裏の「4」は外形図の表示で、本文には記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2021年7月改訂",
+      "source_page": 1,
+      "source_quote": "製剤の色 白色／形状 片面に割線を施した円形の錠剤／識別コード 256／直径（mm） 8.1／厚さ（mm） 2.5"
+    }
+  ]
+}

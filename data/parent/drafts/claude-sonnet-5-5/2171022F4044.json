@@ -1,0 +1,46 @@
+{
+  "id": "2171022F4044",
+  "source_file": "671450_2171022F1029_4_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_2171022F1029_4_07",
+  "extracted_at": "2026-11-06T16:34:28.570Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22374,
+    "output": 1712
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノルバスク錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「―」。外形図にはノルバスクと「5」の表示が見えるが、文章では刻印として記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "販売名 ノルバスク錠5mg／外形（mm）上面8.0 下面8.0 側面3.7／重量 207mg／識別コード ―／色調等 白色 フィルムコーティング錠 割線入り"
+    },
+    {
+      "product_name": "ノルバスクOD錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「―」。外形図にはノルバスクODと「5」の表示が見えるが、文章では刻印として記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "販売名 ノルバスクOD錠5mg／外形（mm）上面7.0 下面7.0 側面3.0／重量 120mg／識別コード ―／色調等 淡黄色 素錠 割線入り"
+    }
+  ]
+}

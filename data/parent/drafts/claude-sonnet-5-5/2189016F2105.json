@@ -1,0 +1,30 @@
+{
+  "id": "2189016F2105",
+  "source_file": "400073_2189016F1109_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2189016F1109_1_16",
+  "extracted_at": "2026-11-06T16:40:32.885Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26515,
+    "output": 809
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠2mg「科研」",
+      "strength": "2mg",
+      "imprint_front": "DK521",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはDK521。外形図では表に表示。裏面の刻印は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠／色 白色／直径 7.1mm／厚さ 3.1mm／質量 126mg／識別コード DK521"
+    }
+  ]
+}

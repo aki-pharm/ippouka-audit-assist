@@ -1,0 +1,30 @@
+{
+  "id": "2189018F1175",
+  "source_file": "530169_2189018F1175_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2189018F1175_1_05",
+  "extracted_at": "2026-11-06T16:44:17.619Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23105,
+    "output": 926
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：エゼチミブ、10、日医工（表裏のどちらに入っているかの記載はなし）",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.2,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2022年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠／色調 白色／直径(mm) 8.2×4.2／厚さ(mm) 2.7／本体表示 エゼチミブ 10 日医工"
+    }
+  ]
+}

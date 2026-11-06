@@ -1,0 +1,30 @@
+{
+  "id": "2229004F1030",
+  "source_file": "530100_2229004F1030_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2229004F1030_3_02",
+  "extracted_at": "2026-11-06T16:50:48.690Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8108,
+    "output": 250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フスタゾール糖衣錠 10mg",
+      "strength": "10mg",
+      "imprint_front": "Y-HU10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：Y-HU10。表面の図に「Y」「HU10」と記載。裏面の刻印は記載なし",
+      "color": "紅色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "フスタゾール糖衣錠 10mg 紅色の糖衣錠 6.7 3.7 120 Y-HU10"
+    }
+  ]
+}

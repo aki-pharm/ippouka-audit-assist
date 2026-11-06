@@ -1,0 +1,30 @@
+{
+  "id": "2233001F1234",
+  "source_file": "530100_2233001F1234_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2233001F1234_3_01",
+  "extracted_at": "2026-11-06T16:50:59.742Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8695,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チスタニン糖衣錠 100mg",
+      "strength": "100mg",
+      "imprint_front": "Y CY",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：Y-CY。表面に「Y CY」の表示（図より）。裏面は図上で刻印の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "チスタニン糖衣錠 100mg 白色の腸溶性の糖衣錠 直径8.4mm 厚さ5.1mm 重量275mg 識別コード Y-CY"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2329028F3069",
+  "source_file": "480209_2329028F1082_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2329028F1082_1_23",
+  "extracted_at": "2026-11-06T16:58:03.573Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32075,
+    "output": 315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "ラベプラゾール 5",
+      "imprint_back": "杏林",
+      "imprint_note": "本体表示として「ラベプラゾール 5」「杏林」と記載。外形図に側面（割線の有無を示す図）あり。割線・形状の文章記載なし。",
+      "color": "淡黄色",
+      "shape": null,
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 腸溶性フィルムコーティング錠 色調 淡黄色 本体表示 ラベプラゾール 5 杏林 直径(mm) 5.7 厚さ(mm) 2.7 質量(mg) 67"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2190031F1058",
+  "source_file": "580591_2190031F1058_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2190031F1058_1_03",
+  "extracted_at": "2026-11-06T16:47:25.261Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25573,
+    "output": 328
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブリセンタン錠2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "アンブリセンタン",
+      "imprint_back": "2.5 JG",
+      "imprint_note": "本体表示：アンブリセンタン 2.5 JG（表面にアンブリセンタン、裏面に2.5 JG、と図から読み取り）",
+      "color": "白色のフィルムコーティング錠",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アンブリセンタン錠2.5mg「JG」 白色のフィルムコーティング錠 表面 裏面 側面 直径 7.1mm 厚さ 3.7mm 重量 147mg 本体表示 アンブリセンタン 2.5 JG"
+    }
+  ]
+}

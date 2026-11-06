@@ -1,0 +1,46 @@
+{
+  "id": "2189015F4022",
+  "source_file": "480235_2189015F1074_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2189015F1074_1_20",
+  "extracted_at": "2026-11-06T16:40:14.911Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31755,
+    "output": 1086
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "アトルバ 10",
+      "imprint_back": "アトルバ 10 スタチン トーワ",
+      "imprint_note": "本体表示。外形図では表面に割線あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 / 本体表示 表 アトルバ 10 裏 アトルバ 10 スタチン トーワ / 直径(mm) 7.1 厚さ(mm) 3.4"
+    },
+    {
+      "product_name": "アトルバスタチンOD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "アトルバ 10",
+      "imprint_back": "アトルバスタチン OD10トーワ",
+      "imprint_note": "本体表示。口腔内崩壊錠",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2025年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入りの口腔内崩壊錠 / 本体表示 表 アトルバ 10 裏 アトルバスタチン OD10トーワ / 直径(mm) 9.0 厚さ(mm) 4.1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2189010F2272",
+  "source_file": "450064_2189010F1241_3_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2189010F1241_3_11",
+  "extracted_at": "2026-11-06T16:37:53.713Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22223,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠10mg「チョーセイ」",
+      "strength": "10mg",
+      "imprint_front": "ch232",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：ch232（外形図には表面にch/232の表示あり）。裏面の刻印については記載なし。",
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 片面に割線の入った微紅色の素錠 / 大きさ 直径 7.5mm / 厚さ 2.5mm / 重量 140mg / 識別コード ch232"
+    }
+  ]
+}

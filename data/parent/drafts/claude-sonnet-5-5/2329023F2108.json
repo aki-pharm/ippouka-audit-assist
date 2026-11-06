@@ -1,0 +1,30 @@
+{
+  "id": "2329023F2108",
+  "source_file": "300119_2329023F1101_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2329023F1101_1_17",
+  "extracted_at": "2026-11-06T16:55:33.953Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29420,
+    "output": 395
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランソプラゾールOD錠30mg「サワイ」",
+      "strength": "30mg",
+      "imprint_front": "ランソ SW 30",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ランソ SW 30」と記載。裏面の表示は記載なし。剤形は素錠（腸溶性細粒を含む口腔内崩壊錠）、重量は約570mg。外形図では片面に表示、反対面に割線のような線が描かれているが、割線の記載は文章中にない。",
+      "color": "白色～帯黄白色で赤橙色～暗褐色のはん点がある",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 6.4,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性　状 白色～帯黄白色で赤橙色～暗褐色のはん点がある / 直径（mm） 8.5 11.0 / 厚さ（mm） 5.3 6.4 / 本体表示 ランソ SW 15 ランソ SW 30"
+    }
+  ]
+}

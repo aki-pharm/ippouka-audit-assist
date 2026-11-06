@@ -1,0 +1,30 @@
+{
+  "id": "2190006M2225",
+  "source_file": "300119_2190006M2225_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2190006M2225_1_03",
+  "extracted_at": "2026-11-06T16:45:35.630Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9894,
+    "output": 326
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トコフェロールニコチン酸エステルカプセル200mg「サワイ」",
+      "strength": "200mg",
+      "imprint_front": "SW-020（PTPに表示）",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに表示と記載。軟カプセル剤。内容物：淡黄色の粘稠な液体。重量約488mg",
+      "color": "だいだい色不透明",
+      "shape": "oval",
+      "size_long_mm": 12.7,
+      "size_short_mm": 8.1,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 軟カプセル剤 性状 だいだい色不透明 内容物：淡黄色の粘稠な液体 長径（mm） 12.7 短径（mm） 8.1 重量（mg） 約488 識別コード SW-020（PTPに表示）"
+    }
+  ]
+}

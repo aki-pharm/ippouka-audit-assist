@@ -1,0 +1,30 @@
+{
+  "id": "2329020F1027",
+  "source_file": "530263_2329020C1020_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_2329020C1020_1_12",
+  "extracted_at": "2026-11-06T16:54:45.387Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13221,
+    "output": 690
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガスロンN錠2mg",
+      "strength": "2mg",
+      "imprint_front": "232",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード232（社名マークを伴う表記）。表裏の別は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2021年7月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 ガスロンN錠2mg／製剤の色 白色／形状 円形の錠剤／識別コード 232"
+    }
+  ]
+}

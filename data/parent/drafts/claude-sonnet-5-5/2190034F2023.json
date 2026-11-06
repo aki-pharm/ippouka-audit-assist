@@ -1,0 +1,30 @@
+{
+  "id": "2190034F2023",
+  "source_file": "630004_2190034F1027_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_2190034F1027_1_13",
+  "extracted_at": "2026-11-06T16:47:40.376Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29020,
+    "output": 778
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アデムパス錠1.0mg",
+      "strength": "1.0mg",
+      "imprint_front": "R1",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは外形図の図示による（本文テキストには記載なし）。裏面はバイエルクロス（社名マーク）のみ",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 微黄色 直径 6mm 厚さ 2.8mm 質量 87.5mg（アデムパス錠1.0mg）"
+    }
+  ]
+}

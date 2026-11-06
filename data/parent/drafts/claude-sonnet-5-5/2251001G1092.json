@@ -1,0 +1,30 @@
+{
+  "id": "2251001G1092",
+  "source_file": "480235_2251001G1092_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2251001G1092_1_07",
+  "extracted_at": "2026-11-06T16:52:02.064Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19211,
+    "output": 782
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テオフィリン徐放U錠200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "Tw122",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード。外形図では表に「Tw/122」、裏は割線のみ図示されている",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の片面割線入りの素錠(徐放錠)／識別コード Tw122／直径(mm) 9.5／厚さ(mm) 2.7／質量(mg) 230"
+    }
+  ]
+}

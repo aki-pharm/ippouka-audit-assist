@@ -1,0 +1,30 @@
+{
+  "id": "2190045F1025",
+  "source_file": "230124_2190045F1025_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_2190045F1025_1_04",
+  "extracted_at": "2026-11-06T16:48:43.824Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19462,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フォゼベル錠5mg",
+      "strength": "5mg",
+      "imprint_front": "KH701",
+      "imprint_back": "KH701",
+      "imprint_note": "識別コードはPTPシートに表示（錠剤本体への刻印の記載なし）",
+      "color": "ごく薄い黄色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "長さ（mm）5.1（直径）／厚さ（mm）2.6／重量（mg）51.5／外形・色調・剤皮：ごく薄い黄色 フィルムコーティング錠／識別コード KH701（PTPシートに表示）"
+    }
+  ]
+}

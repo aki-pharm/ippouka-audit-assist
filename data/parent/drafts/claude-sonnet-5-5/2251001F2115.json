@@ -1,0 +1,30 @@
+{
+  "id": "2251001F2115",
+  "source_file": "400315_2251001F2115_2_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2251001F2115_2_16",
+  "extracted_at": "2026-11-06T16:51:48.362Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21462,
+    "output": 278
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テオドール錠100mg",
+      "strength": "100mg",
+      "imprint_front": "THEO-DUR100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄にTHEO-DUR100と記載。表裏の区別は記載なし。外形図には側面に割線が描かれている。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色・表面が不定形の斑点状を呈する割線入りの徐放性錠剤（規格：直径9.6mm、厚さ3.9mm、重量300mg、識別コード THEO-DUR100）"
+    }
+  ]
+}

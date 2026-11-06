@@ -1,0 +1,30 @@
+{
+  "id": "2329004M1175",
+  "source_file": "530258_2329004C1129_4_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2329004C1129_4_02",
+  "extracted_at": "2026-11-06T16:54:25.449Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10916,
+    "output": 998
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノイエルカプセル200mg",
+      "strength": "200mg",
+      "imprint_front": "NF407",
+      "imprint_back": "NF407",
+      "imprint_note": "剤形はカプセル（錠剤ではない）。外形図の2つのカプセル図に NF407 の表示があり、識別コード欄にも NF407 と記載。表裏の区別は文書に明記なし。",
+      "color": "キャップ：青色 不透明、ボディー：白色 不透明",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ノイエル カプセル 200mg キャップ：青色 不透明 ボディー：白色 不透明・カプセル（2号） 17.8 315 NF407"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2325004M2075",
+  "source_file": "300119_2325004M1095_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2325004M1095_1_06",
+  "extracted_at": "2026-11-06T16:54:04.535Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21696,
+    "output": 853
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキサチジン酢酸エステル塩酸塩徐放カプセル37.5mg「サワイ」",
+      "strength": "37.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表示らしきものがあるが、性状の文言には刻印・識別コードの記載なし。4号の硬カプセル剤",
+      "color": "頭部：白色不透明、胴部：白色不透明、内容物：白色の徐放性顆粒",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "外形 4号 剤形 硬カプセル剤 性状 頭部：白色不透明 胴部：白色不透明 内容物：白色の徐放性顆粒 全長（mm） 14.2"
+    }
+  ]
+}

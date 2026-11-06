@@ -1,0 +1,30 @@
+{
+  "id": "2189011F3192",
+  "source_file": "830001_2189011F1246_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2189011F1246_1_18",
+  "extracted_at": "2026-11-06T16:39:09.894Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20054,
+    "output": 799
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "YD 604",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図から読み取った（性状の本文に刻印の記載なし）。裏面の刻印は図に示されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.3,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠／直径 約11mm／厚さ 約4.3mm／重量 400mg"
+    }
+  ]
+}

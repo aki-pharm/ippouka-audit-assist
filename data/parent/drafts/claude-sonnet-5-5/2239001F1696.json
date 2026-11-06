@@ -1,0 +1,30 @@
+{
+  "id": "2239001F1696",
+  "source_file": "470310_2239001F1696_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_2239001F1696_1_03",
+  "extracted_at": "2026-11-06T16:51:12.650Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8987,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ムコソルバン錠15mg",
+      "strength": "15mg",
+      "imprint_front": "TJN 683",
+      "imprint_back": "MUC",
+      "imprint_note": "識別コード：TJN 683。表面に TJN/683、裏面に MUC の表示（外形図より）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色円板型割線入りの素錠で、においはない（外形：直径 約7.0mm、厚さ 約2.4mm、質量 約120mg、識別コード TJN 683）"
+    }
+  ]
+}

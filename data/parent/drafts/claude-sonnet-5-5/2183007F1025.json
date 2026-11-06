@@ -1,0 +1,30 @@
+{
+  "id": "2183007F1025",
+  "source_file": "270072_2183007F1025_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_2183007F1025_1_14",
+  "extracted_at": "2026-11-06T16:37:33.218Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29394,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パルモディア錠0.1mg",
+      "strength": "0.1mg",
+      "imprint_front": "パルモディア 0.1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として「パルモディア　0.1」と記載。表裏の区別は本文中に記載なし（外形図に表裏の刻印あり）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2024年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色、円形の割線入りフィルムコーティング錠である。 直径7.1mm、厚さ2.9mm、重量125mg 識別表示 パルモディア　0.1"
+    }
+  ]
+}

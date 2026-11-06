@@ -1,0 +1,30 @@
+{
+  "id": "2329028F2216",
+  "source_file": "530213_2329028F2216_2_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2329028F2216_2_14",
+  "extracted_at": "2026-11-06T16:57:47.467Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19229,
+    "output": 889
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールナトリウム錠20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "ラベプラゾール 20 ケミファ",
+      "imprint_back": "ラベプラゾール 20 ケミファ",
+      "imprint_note": "識別コードは1か所にのみ記載。外形図では表・裏の両面に印字されている。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄色のフィルムコーティング錠（腸溶錠） 直径 7.2mm 厚さ 3.4mm 重量 147.0mg 識別コード ラベプラゾール 20 ケミファ"
+    }
+  ]
+}

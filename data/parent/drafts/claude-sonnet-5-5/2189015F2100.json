@@ -1,0 +1,30 @@
+{
+  "id": "2189015F2100",
+  "source_file": "380087_2189015F1104_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2189015F1104_1_17",
+  "extracted_at": "2026-11-06T16:39:50.641Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30994,
+    "output": 705
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠10mg「ZE」",
+      "strength": "10mg",
+      "imprint_front": "ZE57",
+      "imprint_back": "10",
+      "imprint_note": "識別コード「ZE57、10」。外形図では表にZE57、裏に10。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 フィルムコーティング錠 錠径（mm） 6.1 厚み（mm） 3.1 重量（mg） 88 識別コード ZE57、10"
+    }
+  ]
+}

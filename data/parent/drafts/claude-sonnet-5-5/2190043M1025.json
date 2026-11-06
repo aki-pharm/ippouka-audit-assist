@@ -1,0 +1,30 @@
+{
+  "id": "2190043M1025",
+  "source_file": "672212_2190043M1025_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2190043M1025_1_05",
+  "extracted_at": "2026-11-06T16:48:36.950Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20998,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビンマックカプセル61mg",
+      "strength": "61mg",
+      "imprint_front": "VYN 61",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「VYN 61」。裏面の記載なし。剤形は軟カプセル（錠剤ではない）",
+      "color": "カプセル：赤褐色（内容物：白色～淡紅色の懸濁液）",
+      "shape": "oblong",
+      "size_long_mm": 21,
+      "size_short_mm": 8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "VYN 61 カプセル：赤褐色の軟カプセル 内容物：白色～淡紅色の懸濁液 長径：約21mm 短径：約8mm"
+    }
+  ]
+}

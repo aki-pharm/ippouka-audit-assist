@@ -1,0 +1,46 @@
+{
+  "id": "2171022F6250",
+  "source_file": "780009_2171022F1380_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2171022F1380_1_21",
+  "extracted_at": "2026-11-06T16:36:37.030Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24963,
+    "output": 1055
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図（表・裏・側面）に示されているが、本文に文字としての記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アムロジピン錠10mg「明治」 割線入りフィルムコーティング錠 白色 直径（mm）8.6 厚さ（mm）4.0 重量（mg）261.3"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図（表・裏・側面）に示されているが、本文に文字としての記載がないため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アムロジピンOD錠10mg「明治」 割線入り素錠 淡黄色 直径（mm）8.0 厚さ（mm）3.2 重量（mg）190"
+    }
+  ]
+}
