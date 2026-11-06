@@ -1,0 +1,30 @@
+{
+  "id": "1179037F2050",
+  "source_file": "672173_1179037F1053_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179037F1053_3_04",
+  "extracted_at": "2026-11-06T15:26:59.077Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21241,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラゾドン塩酸塩錠50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "KW013",
+      "imprint_back": "50",
+      "imprint_note": "識別コード：KW013/50。外形図には表面に「KW 013」、裏面に「50」の表示あり、側面図も記載",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2025年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "トラゾドン塩酸塩錠 50mg「アメル」 フィルムコーティング錠 KW013/50 白色～淡黄白色 直径：約 7.1mm 厚さ：約 3.1mm 質量：約 128.0mg"
+    }
+  ]
+}

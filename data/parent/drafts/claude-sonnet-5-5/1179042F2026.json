@@ -1,0 +1,30 @@
+{
+  "id": "1179042F2026",
+  "source_file": "171911_1179042C1023_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_1179042C1023_3_02",
+  "extracted_at": "2026-11-06T15:30:42.753Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26847,
+    "output": 241
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セロクエル100mg錠",
+      "strength": "100mg",
+      "imprint_front": "SEROQUEL 100",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "セロクエル100mg錠 フィルムコーティング錠 うすい黄色 表 裏 側面 SEROQUEL 100 直径 厚さ 質量 約8.5mm 約4.5mm 約256mg"
+    }
+  ]
+}

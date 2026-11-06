@@ -1,0 +1,30 @@
+{
+  "id": "1179041F1300",
+  "source_file": "780009_1179041F1300_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179041F1300_1_12",
+  "extracted_at": "2026-11-06T15:29:22.930Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30982,
+    "output": 670
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の表・裏は図で示されているが、刻印・識別コードの文字情報は本文中に記載がないため未確認",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠10mg「明治」 割線入りフィルムコーティング錠 帯紅白色 直径（mm）7.1 厚さ（mm）3.2 重量（mg）179"
+    }
+  ]
+}

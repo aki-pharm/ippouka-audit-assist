@@ -1,0 +1,30 @@
+{
+  "id": "1179045F5029",
+  "source_file": "180078_1179045F4022_1_24.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_1179045F4022_1_24",
+  "extracted_at": "2026-11-06T15:33:51.948Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40431,
+    "output": 898
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エビリファイOD錠6mg",
+      "strength": "6mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載なし。外形図の表面に「6」の表示があるが、文章では確認できないため未確認とした。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 12,
+      "size_short_mm": 12,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "エビリファイOD錠6mg　白色の素錠（口腔内崩壊錠）　直径 約12mm　厚さ 約4mm　重さ 約23mg"
+    }
+  ]
+}

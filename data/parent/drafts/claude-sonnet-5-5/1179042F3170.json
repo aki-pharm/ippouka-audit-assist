@@ -1,0 +1,30 @@
+{
+  "id": "1179042F3170",
+  "source_file": "530113_1179042F1178_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1179042F1178_2_02",
+  "extracted_at": "2026-11-06T15:31:33.643Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23503,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠200mg「日新」",
+      "strength": "200mg",
+      "imprint_front": "NS 176",
+      "imprint_back": "200",
+      "imprint_note": "識別コードはNS 176。外形の図では、片面に「NS 176」、もう片面に「200」の表示あり（図からの読み取り）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状：白色のフィルムコーティング錠／大きさ 錠径：10.1mm 錠厚：5.3mm 重量：408mg／識別コード NS 176"
+    }
+  ]
+}

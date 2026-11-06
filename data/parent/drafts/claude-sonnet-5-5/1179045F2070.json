@@ -1,0 +1,30 @@
+{
+  "id": "1179045F2070",
+  "source_file": "300119_1179045F1074_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179045F1074_1_13",
+  "extracted_at": "2026-11-06T15:33:33.353Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43793,
+    "output": 1175
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾール錠6mg「サワイ」",
+      "strength": "6mg",
+      "imprint_front": "SW アリピプラゾール 6",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として1組のみ記載。表裏の区別は文章では記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠／性状 白色／直径(mm) 7.0／厚さ(mm) 2.8／重量(mg) 約130／本体表示 SW アリピプラゾール 6"
+    }
+  ]
+}

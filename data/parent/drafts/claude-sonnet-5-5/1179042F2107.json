@@ -1,0 +1,30 @@
+{
+  "id": "1179042F2107",
+  "source_file": "672173_1179042C1040_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179042C1040_2_06",
+  "extracted_at": "2026-11-06T15:30:58.455Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33705,
+    "output": 871
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠 100mg「アメル」",
+      "strength": "100mg",
+      "imprint_front": "Que アメル 100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載「Que アメル 100」。表裏の区別は文章では記載なし。",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 2,
+      "source_quote": "クエチアピン錠 100mg「アメル」 フィルムコーティング錠 うすい黄色 直径：約 8.6mm 厚さ：約 4.4mm 質量：約 256.0mg 識別コード Que アメル 100"
+    }
+  ]
+}

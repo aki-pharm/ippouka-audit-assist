@@ -1,0 +1,30 @@
+{
+  "id": "1179036F1024",
+  "source_file": "171911_1179036F1024_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_1179036F1024_2_07",
+  "extracted_at": "2026-11-06T15:26:51.177Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12994,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エミレース錠3mg",
+      "strength": "3mg",
+      "imprint_front": "LT 011",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：LT 011（表面に印字）。裏面・側面の刻印の記載なし。剤形は糖衣錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 色調 白色 外形 表面 裏面 側面 大きさ 直径 6.7mm 厚さ 3.4mm 質量 0.14g 識別コード 011"
+    }
+  ]
+}

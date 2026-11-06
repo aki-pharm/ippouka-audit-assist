@@ -1,0 +1,30 @@
+{
+  "id": "1179038F8044",
+  "source_file": "480235_1179038F5061_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179038F5061_1_26",
+  "extracted_at": "2026-11-06T15:27:42.591Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29784,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドンOD錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "Tw352",
+      "imprint_back": "3",
+      "imprint_note": "識別コードは表にTw352、裏に「3」（規格表示）が表記されている（図中の表記）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの口腔内崩壊錠 / 識別コード Tw352 / 直径(mm) 7.5 / 厚さ(mm) 3.3 / 質量(mg) 160"
+    }
+  ]
+}

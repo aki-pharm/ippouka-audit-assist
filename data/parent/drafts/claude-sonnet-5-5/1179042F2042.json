@@ -1,0 +1,30 @@
+{
+  "id": "1179042F2042",
+  "source_file": "430773_1179042F1046_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1179042F1046_1_13",
+  "extracted_at": "2026-11-06T15:30:53.543Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27415,
+    "output": 737
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠100mg「DSEP」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状の表に刻印の文字記載がなく、外形図のみのため未確認",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "クエチアピン錠100mg「DSEP」 フィルムコーティング錠 うすい黄色 直径8.6mm 厚さ4.0mm 質量254mg"
+    }
+  ]
+}

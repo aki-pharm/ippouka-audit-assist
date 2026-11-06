@@ -1,0 +1,30 @@
+{
+  "id": "1179039F3160",
+  "source_file": "530169_1179039F1168_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179039F1168_1_16",
+  "extracted_at": "2026-11-06T15:28:20.832Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28717,
+    "output": 313
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠75mg「日医工」",
+      "strength": "75mg",
+      "imprint_front": "n 896",
+      "imprint_back": "なし",
+      "imprint_note": "本体コード n 896、包装コード ㊅896（PTPシート表示）。表面の図に「n 896」の表示あり。裏面は無地の図。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 黄色 直径（mm） 5.1 6.1 7.1 厚さ（mm） 2.3 3.0 3.3 質量（mg） 45 90 134 本体コード 894 895 896 包装コード 894 895 896"
+    }
+  ]
+}

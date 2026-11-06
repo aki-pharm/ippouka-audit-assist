@@ -1,0 +1,30 @@
+{
+  "id": "1179032F3029",
+  "source_file": "672173_1179032C1046_6_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179032C1046_6_04",
+  "extracted_at": "2026-11-06T15:26:25.551Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17100,
+    "output": 732
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルネチール錠200",
+      "strength": "200mg",
+      "imprint_front": "200",
+      "imprint_back": "200",
+      "imprint_note": "外形（識別コード）の図から確認。本文中に刻印の文字記載はなし。図には数字の上に小さな印字らしきものがあるが判読不能",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコート錠／直径（mm）9.1／厚さ（mm）4.1／重さ（g）0.274（バルネチール錠200）"
+    }
+  ]
+}

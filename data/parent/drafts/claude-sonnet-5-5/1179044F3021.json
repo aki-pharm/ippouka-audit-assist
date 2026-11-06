@@ -1,0 +1,30 @@
+{
+  "id": "1179044F3021",
+  "source_file": "450900_1179044F1029_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_1179044F1029_2_02",
+  "extracted_at": "2026-11-06T15:32:38.985Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36914,
+    "output": 861
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジプレキサ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "LILLY 4117",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に識別コード（LILLY 4117）。裏面の刻印は性状欄に文言の記載がなく、外形図のみのため未確認。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色のフィルムコート錠／大きさ 直径 10.2mm、厚さ 5.0mm／重量 約0.42g／識別コード LILLY 4117"
+    }
+  ]
+}

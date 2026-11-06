@@ -1,0 +1,30 @@
+{
+  "id": "1179042F3154",
+  "source_file": "480235_1179042C1082_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179042C1082_1_13",
+  "extracted_at": "2026-11-06T15:31:29.787Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28044,
+    "output": 270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "Tw707",
+      "imprint_back": "200",
+      "imprint_note": "識別コードはTw707。表に「Tw 707」、裏に「200」の印字が外形図に示されている（裏の「200」は外形図からの読み取り）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 識別コード Tw707 直径(mm) 11.1 厚さ(mm) 5.1 質量(mg) 511"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179037F2025",
+  "source_file": "181615_1179037F1029_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_1179037F1029_3_05",
+  "extracted_at": "2026-11-06T15:26:56.564Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18326,
+    "output": 252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レスリン錠50",
+      "strength": "50mg",
+      "imprint_front": "XD2",
+      "imprint_back": "なし",
+      "imprint_note": "表面に識別コード「XD2」（XDと2が上下2段に表示）。裏面は刻印の記載なし（外形図に表示なし）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2025年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠・白色　直径：7.1mm　厚さ：3.5mm　重さ 128.0mg　識別コード XD2"
+    }
+  ]
+}

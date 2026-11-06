@@ -1,0 +1,30 @@
+{
+  "id": "1179041F1386",
+  "source_file": "530100_1179041F1386_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179041F1386_2_01",
+  "extracted_at": "2026-11-06T15:29:30.116Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37834,
+    "output": 245
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "TG 212",
+      "imprint_back": "10",
+      "imprint_note": "識別コードはTG212。表面にTG/212、裏面に10の印字（図より）。側面は割線なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠10mg「ニプロ」 白色のフィルムコーティング錠 6.6 3.8 179 TG212"
+    }
+  ]
+}

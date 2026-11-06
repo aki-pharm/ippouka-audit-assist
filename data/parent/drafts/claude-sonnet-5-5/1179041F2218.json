@@ -1,0 +1,30 @@
+{
+  "id": "1179041F2218",
+  "source_file": "300119_1179041F1211_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179041F1211_1_15",
+  "extracted_at": "2026-11-06T15:29:51.011Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33467,
+    "output": 311
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "SW PX20",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：SW PX20。裏面の刻印は文書中に明記なし。割線の記載なし。",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 黄白色 帯紅白色 直径（mm） 6.6 6.6 8.1 厚さ（mm） 3.5 3.5 4.5 重量（mg） 約152 約152 約305 識別コード SW PX5 SW PX10 SW PX20"
+    }
+  ]
+}

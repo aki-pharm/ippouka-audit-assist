@@ -1,0 +1,30 @@
+{
+  "id": "1179033F2027",
+  "source_file": "181615_1179033F1020_4_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_1179033F1020_4_04",
+  "extracted_at": "2026-11-06T15:26:33.484Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15875,
+    "output": 985
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テトラミド錠30mg",
+      "strength": "30mg",
+      "imprint_front": "CT7",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードCT7（本文は識別コードのみ記載。表裏の区別は文書中に明記なし）。外形図から楕円形と判断。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12.3,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "片面に割線の入った白色のフィルムコーティング錠 識別コード CT7 重さ(mg) 300 直径(mm) 12.3×6.1 厚さ(mm) 3.5"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179042G1025",
+  "source_file": "672173_1179042G1025_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179042G1025_2_05",
+  "extracted_at": "2026-11-06T15:31:47.928Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30165,
+    "output": 310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビプレッソ徐放錠50mg",
+      "strength": "50mg",
+      "imprint_front": "XR50",
+      "imprint_back": "なし",
+      "imprint_note": "表に「XR 50」の表示あり。裏面・側面の識別コードの記載なし。画像中の識別コード欄は XR50。",
+      "color": "うすい黄みの赤色",
+      "shape": "oblong",
+      "size_long_mm": 16.3,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ビプレッソ徐放錠50mg フィルムコーティング錠（徐放錠） うすい黄みの赤色 表 裏 側面 XR50 直径 厚さ 重量 長径約16.3mm 短径約6.6mm 約5.1mm 約513mg"
+    }
+  ]
+}

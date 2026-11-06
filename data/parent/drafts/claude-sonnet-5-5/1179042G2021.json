@@ -1,0 +1,30 @@
+{
+  "id": "1179042G2021",
+  "source_file": "672173_1179042G1025_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179042G1025_2_05",
+  "extracted_at": "2026-11-06T15:31:54.362Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30165,
+    "output": 1100
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビプレッソ徐放錠150mg",
+      "strength": "150mg",
+      "imprint_front": "XR150",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはXR150（表）。裏の刻印についての文章記載はなし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 17.3,
+      "size_short_mm": 6.8,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年1月改訂",
+      "source_page": 1,
+      "source_quote": "ビプレッソ徐放錠150mg フィルムコーティング錠（徐放錠） 白色 XR150 長径約17.3mm 短径約6.8mm 厚さ約5.5mm 重量約589mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179034F1068",
+  "source_file": "300119_1179034F1068_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179034F1068_1_04",
+  "extracted_at": "2026-11-06T15:26:34.806Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14736,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セチプチリンマレイン酸塩錠1mg「サワイ」",
+      "strength": "1mg",
+      "imprint_front": "SW 711",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「SW 711」。外形図には表面に「SW 711」の表示、側面図あり（裏面の刻印の記載は添付文書本文になし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 6.0 厚さ（mm） 3.2 重量（mg） 約100 識別コード SW 711"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179041F2145",
+  "source_file": "400278_1179041F1149_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1179041F1149_1_12",
+  "extracted_at": "2026-11-06T15:29:43.949Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38911,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "TU 133",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：TU 133。製剤の性状表の外形図には裏面に「20」の表示があるが、本文には刻印としての記載がないため裏面は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 5,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠 20mg「TCK」 白色 フィルムコーティング錠 TU 133 8.1 5.0 358"
+    }
+  ]
+}

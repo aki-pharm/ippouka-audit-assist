@@ -1,0 +1,46 @@
+{
+  "id": "1179041F4024",
+  "source_file": "480235_1179041F1254_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179041F1254_1_15",
+  "extracted_at": "2026-11-06T15:30:24.061Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40480,
+    "output": 1292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw754",
+      "imprint_back": "10",
+      "imprint_note": "識別コードはTw754。裏面の「10」は外形図の表示に基づく（本文中に文字での記載なし）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "帯紅白色の割線入りのフィルムコーティング錠　識別コード Tw754　直径(mm) 7.1　厚さ(mm) 3.2　質量(mg) 150"
+    },
+    {
+      "product_name": "パロキセチンOD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw752",
+      "imprint_back": "10",
+      "imprint_note": "識別コードはTw752。裏面の「10」は外形図の表示に基づく（本文中に文字での記載なし）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 2,
+      "source_quote": "帯紅白色の割線入りの口腔内崩壊錠　識別コード Tw752　直径(mm) 7.0　厚さ(mm) 3.4　質量(mg) 135"
+    }
+  ]
+}

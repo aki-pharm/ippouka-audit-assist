@@ -1,0 +1,30 @@
+{
+  "id": "1179041F1203",
+  "source_file": "530213_1179041F1203_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1179041F1203_2_11",
+  "extracted_at": "2026-11-06T15:29:13.665Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35758,
+    "output": 714
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "NC PX",
+      "imprint_back": "10",
+      "imprint_note": "外形図の裏面に「10」の表示あり。識別コード欄は「NC PX」。割線の記載なし",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 帯紅白色のフィルムコーティング錠 直径 6.6mm 厚さ 3.6mm 重量 178mg 識別コード NC PX"
+    }
+  ]
+}

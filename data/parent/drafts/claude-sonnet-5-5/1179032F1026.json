@@ -1,0 +1,30 @@
+{
+  "id": "1179032F1026",
+  "source_file": "672173_1179032C1046_6_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179032C1046_6_04",
+  "extracted_at": "2026-11-06T15:26:22.927Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17100,
+    "output": 794
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルネチール錠50",
+      "strength": "50mg",
+      "imprint_front": "50",
+      "imprint_back": "50",
+      "imprint_note": "識別コードは文章ではなく外形図の表示から読み取り。外形図には側面図もあり、数字の上に小さな印字が見えるが内容は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "バルネチール錠50 色・剤形 白色のフィルムコート錠 直径(mm) 5.6 厚さ(mm) 2.8 重さ(g) 0.071"
+    }
+  ]
+}

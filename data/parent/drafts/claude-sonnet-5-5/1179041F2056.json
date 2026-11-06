@@ -1,0 +1,30 @@
+{
+  "id": "1179041F2056",
+  "source_file": "430773_1179041F1050_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1179041F1050_1_12",
+  "extracted_at": "2026-11-06T15:29:39.155Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35616,
+    "output": 696
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状の表に刻印・識別コードの文字記載なし（外形の図のみ）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠20mg「DSEP」 フィルムコーティング錠 帯紅白色 直径8.0mm 厚さ4.1mm 重さ253mg"
+    }
+  ]
+}

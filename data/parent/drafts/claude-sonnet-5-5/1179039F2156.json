@@ -1,0 +1,30 @@
+{
+  "id": "1179039F2156",
+  "source_file": "400186_1179039F1150_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179039F1150_1_19",
+  "extracted_at": "2026-11-06T15:28:07.444Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32091,
+    "output": 913
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠50mg「タカタ」",
+      "strength": "50mg",
+      "imprint_front": "TF 50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄にTTS-157の記載あり。裏面の図は刻印の記載なし（文章での明記はない）。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "フルボキサミンマレイン酸塩錠50mg「タカタ」 黄色のフィルムコーティング錠 T F 5 0 TTS-157 約 6.1mm 約 0.093g 約 3.1mm"
+    }
+  ]
+}

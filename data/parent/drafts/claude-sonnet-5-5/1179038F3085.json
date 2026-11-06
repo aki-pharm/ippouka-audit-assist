@@ -1,0 +1,30 @@
+{
+  "id": "1179038F3085",
+  "source_file": "300119_1179038C1094_1_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179038C1094_1_27",
+  "extracted_at": "2026-11-06T15:27:13.089Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29931,
+    "output": 304
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドン錠3mg「サワイ」",
+      "strength": "3mg",
+      "imprint_front": "SW RP 3",
+      "imprint_back": "SW RP 3",
+      "imprint_note": "外形図では表（上面）と側面に識別コード、裏面（下面）にも識別コードの表示があるが、割線の有無は添付文書の記載による。剤形欄の記載は「フィルムコーティング錠」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.3,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：フィルムコーティング錠　性状：白色　直径（mm）8.1　厚さ（mm）4.3　重量（mg）約188　識別コード SW RP 3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179045F4103",
+  "source_file": "530169_1179045F4103_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179045F4103_1_13",
+  "extracted_at": "2026-11-06T15:33:42.800Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36542,
+    "output": 359
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾールOD錠3mg「日医工」",
+      "strength": "3mg",
+      "imprint_front": "アリピプラゾール OD 日医工（本体表示：アリピプラゾール OD 3 日医工）",
+      "imprint_back": "3 日医工",
+      "imprint_note": "包装コード167。表面・裏面の刻印は図示されており、本体表示欄に「アリピプラゾール/OD/3/日医工」と記載。表裏の区別は図からの判読のため要確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 素錠（口腔内崩壊錠）／色 調 白色／直径(mm) 6.0／厚さ(mm) 2.7／質量(mg) 95／本体表示 アリピプラゾール OD 3 日医工／包装コード 167"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179041F2307",
+  "source_file": "780009_1179041F1300_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179041F1300_1_12",
+  "extracted_at": "2026-11-06T15:30:03.537Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30982,
+    "output": 1067
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠20mg「明治」",
+      "strength": "20mg",
+      "imprint_front": "パロキセチン 20 明治",
+      "imprint_back": "パロキセチン 20 明治",
+      "imprint_note": "刻印は3.2製剤の性状の外形図（表・裏）の表示から読み取った。本文には文字での記載なし。",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.8,
+      "score_line": false,
+      "source_revision": "2025年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠20mg「明治」 フィルムコーティング錠 帯紅白色 直径（mm）8.1 厚さ（mm）4.8 重量（mg）356"
+    }
+  ]
+}

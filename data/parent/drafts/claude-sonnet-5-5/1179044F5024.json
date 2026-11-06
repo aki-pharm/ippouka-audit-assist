@@ -1,0 +1,30 @@
+{
+  "id": "1179044F5024",
+  "source_file": "450900_1179044F4028_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_1179044F4028_2_02",
+  "extracted_at": "2026-11-06T15:33:03.228Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37592,
+    "output": 1217
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジプレキサ ザイディス錠10mg",
+      "strength": "10mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「―」。表面に同心円状の図があるが、文字や識別コードの記載はない",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：黄色の素錠（凍結乾燥製剤）／大きさ 直径 11mm、厚さ 2.7mm／識別コード ―"
+    }
+  ]
+}

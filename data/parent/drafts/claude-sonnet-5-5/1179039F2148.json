@@ -1,0 +1,30 @@
+{
+  "id": "1179039F2148",
+  "source_file": "300119_1179039F1141_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179039F1141_1_18",
+  "extracted_at": "2026-11-06T15:28:02.408Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27998,
+    "output": 309
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW FV2",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはSW FV2。表裏の別は本文に記載なし（外形図に表示あり）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 性　状 黄色 直径（mm） 5.1 6.1 7.1 厚さ（mm） 2.3 3.0 3.4 重量（mg） 約47 約94 約142 識別コード SW FV1 SW FV2 SW FV3"
+    }
+  ]
+}

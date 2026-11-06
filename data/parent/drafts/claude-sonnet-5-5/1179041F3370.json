@@ -1,0 +1,30 @@
+{
+  "id": "1179041F3370",
+  "source_file": "530100_1179041F1386_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179041F1386_2_01",
+  "extracted_at": "2026-11-06T15:30:18.741Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37834,
+    "output": 239
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「ニプロ」",
+      "strength": "5mg",
+      "imprint_front": "TG211",
+      "imprint_back": "5",
+      "imprint_note": "識別コード：TG211。錠剤の外形図には表面に「TG/211」、裏面に「5」の表示がある。側面図あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "割線入りの白色のフィルムコーティング錠 6.6 3.8 179 TG211"
+    }
+  ]
+}

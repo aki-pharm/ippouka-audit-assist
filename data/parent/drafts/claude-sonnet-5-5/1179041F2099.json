@@ -1,0 +1,30 @@
+{
+  "id": "1179041F2099",
+  "source_file": "580591_1179041F1092_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1179041F1092_1_13",
+  "extracted_at": "2026-11-06T15:29:46.381Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34709,
+    "output": 693
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "JG C20",
+      "imprint_back": "20",
+      "imprint_note": "表面の識別コードは「JG C20」。裏面は図中に「20」と表示。側面の記載あり。",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠20mg「JG」 帯紅白色円形のフィルムコーティング錠 直径8.1mm 厚さ4.4mm 重量227mg JG C20"
+    }
+  ]
+}

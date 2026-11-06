@@ -1,0 +1,30 @@
+{
+  "id": "1179043F1040",
+  "source_file": "672173_1179043F1040_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179043F1040_2_05",
+  "extracted_at": "2026-11-06T15:31:55.794Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23584,
+    "output": 251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペロスピロン塩酸塩錠4mg「アメル」",
+      "strength": "4mg",
+      "imprint_front": "Kw PEE",
+      "imprint_back": "4",
+      "imprint_note": "識別コード：Kw PEE /4",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 Kw PEE 白色～帯黄白色 /4 直径：約7.1mm 厚さ：約3.0mm 質量：約123.0mg"
+    }
+  ]
+}

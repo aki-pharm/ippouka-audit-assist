@@ -1,0 +1,30 @@
+{
+  "id": "1179042F3022",
+  "source_file": "171911_1179042C1023_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_1179042C1023_3_02",
+  "extracted_at": "2026-11-06T15:31:21.438Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26847,
+    "output": 855
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セロクエル200mg錠",
+      "strength": "200mg",
+      "imprint_front": "SEROQUEL 200",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「SEROQUEL 200」と記載。裏面の刻印については文章での記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "セロクエル200mg錠 フィルムコーティング錠 白色 表 裏 側面 SEROQUEL 200 直径 厚さ 質量 約11mm 約5.4mm 約514mg"
+    }
+  ]
+}

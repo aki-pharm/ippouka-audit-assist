@@ -1,0 +1,30 @@
+{
+  "id": "1179045F2020",
+  "source_file": "180078_1179045B1021_1_39.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_1179045B1021_1_39",
+  "extracted_at": "2026-11-06T15:33:21.355Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40078,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エビリファイ錠6mg",
+      "strength": "6mg",
+      "imprint_front": "OG71",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード OG71。外形図に表面の刻印（OG/71）が描かれている。裏面の刻印の記載は本文になし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2025年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "エビリファイ錠6mg 白色の素錠 7 2.7 約135 OG71（3.2 製剤の性状：販売名、性状、外形、直径(mm)、厚さ(mm)、重さ(mg)、識別コード）"
+    }
+  ]
+}

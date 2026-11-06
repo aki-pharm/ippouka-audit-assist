@@ -1,0 +1,30 @@
+{
+  "id": "1179042F3197",
+  "source_file": "780009_1179042F1194_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179042F1194_1_08",
+  "extracted_at": "2026-11-06T15:31:38.487Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28302,
+    "output": 824
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠200mg「明治」",
+      "strength": "200mg",
+      "imprint_front": "MS 042",
+      "imprint_back": "クエチアピン 200",
+      "imprint_note": "刻印は外形図の画像から読み取ったもので、本文中に文章としての記載はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.5,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "クエチアピン錠200mg「明治」 フィルムコーティング錠 白色 直径(mm) 11.1 厚さ(mm) 5.5 重量(mg) 514"
+    }
+  ]
+}

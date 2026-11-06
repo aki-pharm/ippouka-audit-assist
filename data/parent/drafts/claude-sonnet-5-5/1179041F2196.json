@@ -1,0 +1,30 @@
+{
+  "id": "1179041F2196",
+  "source_file": "400073_1179041F1190_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1179041F1190_1_13",
+  "extracted_at": "2026-11-06T15:29:50.238Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35643,
+    "output": 332
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠20mg｢科研｣",
+      "strength": "20mg",
+      "imprint_front": "DK512",
+      "imprint_back": "20",
+      "imprint_note": "裏面の「20」は図の表示から読み取った。識別コードとして文書に記載されているのはDK512。色は表の結合セルにより10mgと共通の「淡紅白色」と読み取った。",
+      "color": "淡紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 円形のフィルムコーティング錠 / 色 帯紅白色 淡紅白色 / 直径 5.1mm 6.6mm 8.1mm / 厚さ 2.4mm 2.9mm 3.8mm / 識別コード DK513 DK511 DK512"
+    }
+  ]
+}

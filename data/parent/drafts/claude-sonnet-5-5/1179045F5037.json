@@ -1,0 +1,30 @@
+{
+  "id": "1179045F5037",
+  "source_file": "580591_1179045F4030_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1179045F4030_1_13",
+  "extracted_at": "2026-11-06T15:33:48.087Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37974,
+    "output": 322
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾールOD錠6mg「JG」",
+      "strength": "6mg",
+      "imprint_front": "アリピプラゾール OD6 JG",
+      "imprint_back": "アリピプラゾール OD6 JG",
+      "imprint_note": "本体表示欄に「アリピプラゾール OD6 JG」と記載。表面・裏面の個別の刻印内容は本文テキストでは区別されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "アリピプラゾール OD 錠 6mg「JG」 白色の素錠 表面 裏面 側面 アリピプラゾール OD6 JG 直径 7.0mm 厚さ 3.3mm 重量 135mg"
+    }
+  ]
+}

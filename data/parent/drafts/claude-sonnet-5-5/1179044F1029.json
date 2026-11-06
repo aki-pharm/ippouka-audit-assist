@@ -1,0 +1,30 @@
+{
+  "id": "1179044F1029",
+  "source_file": "450900_1179044F1029_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_1179044F1029_2_02",
+  "extracted_at": "2026-11-06T15:32:17.606Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36916,
+    "output": 881
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジプレキサ錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "LILLY 4112",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に識別コードの印字あり。裏面は外形図に印字が見られないが、文言での記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状：白色のフィルムコート錠／大きさ：直径 7.1mm、厚さ 3.4mm／識別コード：LILLY 4112"
+    }
+  ]
+}

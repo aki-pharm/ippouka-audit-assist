@@ -1,0 +1,30 @@
+{
+  "id": "1179042F1020",
+  "source_file": "171911_1179042C1023_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_1179042C1023_3_02",
+  "extracted_at": "2026-11-06T15:30:42.628Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26847,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セロクエル25mg錠",
+      "strength": "25mg",
+      "imprint_front": "SEROQUEL 25",
+      "imprint_back": "なし",
+      "imprint_note": "側面の刻印については記載なし。表の識別コードは「SEROQUEL 25」。裏面の図には刻印の表示なし",
+      "color": "うすい黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "セロクエル25mg錠 フィルムコーティング錠 うすい黄みの赤色 表 裏 側面 SEROQUEL 25 直径 厚さ 質量 約6.0mm 約3.5mm 約103mg"
+    }
+  ]
+}

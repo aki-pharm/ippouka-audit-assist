@@ -1,0 +1,30 @@
+{
+  "id": "1179044F6020",
+  "source_file": "450900_1179044F4028_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_1179044F4028_2_02",
+  "extracted_at": "2026-11-06T15:33:04.752Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37594,
+    "output": 1068
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジプレキサ ザイディス錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "Z",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「Z」と記載。裏面の刻印は文章では記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：黄色の素錠（凍結乾燥製剤）／大きさ：直径 10mm、厚さ 2.4mm／重量 約0.013g／識別コード Z（2.5mg）"
+    }
+  ]
+}

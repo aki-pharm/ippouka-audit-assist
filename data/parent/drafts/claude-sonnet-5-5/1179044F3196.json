@@ -1,0 +1,46 @@
+{
+  "id": "1179044F3196",
+  "source_file": "780009_1179044F1193_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179044F1193_1_01",
+  "extracted_at": "2026-11-06T15:32:44.428Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 39927,
+    "output": 1238
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピン錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図内のみで、本文には文字として記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5.1,
+      "score_line": false,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "オランザピン錠10mg「明治」 フィルムコーティング錠 白色 直径(mm) 10.1 厚さ(mm) 5.1 重量(mg) 419"
+    },
+    {
+      "product_name": "オランザピンOD錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図内のみで、本文には文字として記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "オランザピンOD錠10mg「明治」 コーティング錠 黄色 直径(mm) 10.1 厚さ(mm) 4.7 重量(mg) 318"
+    }
+  ]
+}

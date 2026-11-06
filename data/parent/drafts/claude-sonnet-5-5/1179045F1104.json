@@ -1,0 +1,30 @@
+{
+  "id": "1179045F1104",
+  "source_file": "530169_1179045F1104_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179045F1104_1_13",
+  "extracted_at": "2026-11-06T15:33:25.428Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33779,
+    "output": 943
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾール錠3mg「日医工」",
+      "strength": "3mg",
+      "imprint_front": "アリピプラゾール",
+      "imprint_back": "3 日医工",
+      "imprint_note": "本体表示は「アリピプラゾール 3 日医工」。表面・裏面の割り当ては外形図による。包装コードは 163。",
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠／色調 青色／直径(mm) 6.0／厚さ(mm) 2.5／質量(mg) 95／本体表示 アリピプラゾール 3 日医工／包装コード 163"
+    }
+  ]
+}

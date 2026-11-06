@@ -1,0 +1,30 @@
+{
+  "id": "1179039F1028",
+  "source_file": "780009_1179039F1028_1_45.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179039F1028_1_45",
+  "extracted_at": "2026-11-06T15:27:47.276Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25079,
+    "output": 856
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デプロメール錠25",
+      "strength": "25mg",
+      "imprint_front": "MS 25",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の表面に「MS 25」の表示あり。裏面は図が空白で、刻印の有無は文章に記載がないため未確認。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2022年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "デプロメール錠25 フィルムコーティング錠 黄色 直径（mm）厚さ（mm）重量（mg） 5.1 2.3 47.2"
+    }
+  ]
+}

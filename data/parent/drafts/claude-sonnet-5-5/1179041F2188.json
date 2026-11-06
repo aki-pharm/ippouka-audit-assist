@@ -1,0 +1,30 @@
+{
+  "id": "1179041F2188",
+  "source_file": "180095_1179041F1181_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1179041F1181_2_17",
+  "extracted_at": "2026-11-06T15:29:43.808Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34324,
+    "output": 316
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠20mg「オーハラ」",
+      "strength": "20mg",
+      "imprint_front": "OH-59",
+      "imprint_back": "OH-59",
+      "imprint_note": "識別表示欄に「OH-59」と記載。表面・裏面それぞれの刻印の別は本文では明記されていない（図中に「OH59 20mg」の表示）。剤形はフィルムコーティング錠。質量338mg。",
+      "color": "帯紅白色",
+      "shape": null,
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 帯紅白色 大きさ 直径：8.1mm 厚さ：4.8mm 質量 338mg 識別表示 OH-59"
+    }
+  ]
+}

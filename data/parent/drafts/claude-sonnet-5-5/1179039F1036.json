@@ -1,0 +1,30 @@
+{
+  "id": "1179039F1036",
+  "source_file": "112130_1179039F1036_3_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_1179039F1036_3_17",
+  "extracted_at": "2026-11-06T15:27:53.258Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26573,
+    "output": 805
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルボックス錠25",
+      "strength": "25mg",
+      "imprint_front": "AL 25",
+      "imprint_back": "未確認",
+      "imprint_note": "表は「AL」「25」の2段表示、識別コードはAL25。裏の刻印は文言での記載なし（外形図は空白）。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ルボックス錠25 フィルムコーティング錠 黄色 AL 25 AL25 直径 約5.1mm 厚さ 約2.3mm 重量 約47mg"
+    }
+  ]
+}

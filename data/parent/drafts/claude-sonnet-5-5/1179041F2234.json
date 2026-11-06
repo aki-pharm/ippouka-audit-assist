@@ -1,0 +1,30 @@
+{
+  "id": "1179041F2234",
+  "source_file": "400186_1179041F1238_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179041F1238_1_10",
+  "extracted_at": "2026-11-06T15:30:00.907Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37877,
+    "output": 808
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠20mg「タカタ」",
+      "strength": "20mg",
+      "imprint_front": "TTS 772",
+      "imprint_back": "20",
+      "imprint_note": "識別コード：TTS-772。側面に刻印の記載なし。割線の記載なし。",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠20mg「タカタ」 帯紅白色のフィルムコーティング錠 表面：TTS 772、直径 約7.6mm／裏面：20、重さ 約0.268g／側面：厚さ 約4.2mm 識別コード TTS-772"
+    }
+  ]
+}

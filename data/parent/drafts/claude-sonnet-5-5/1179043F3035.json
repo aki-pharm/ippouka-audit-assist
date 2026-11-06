@@ -1,0 +1,30 @@
+{
+  "id": "1179043F3035",
+  "source_file": "672173_1179043F1040_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179043F1040_2_05",
+  "extracted_at": "2026-11-06T15:32:06.149Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23584,
+    "output": 315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペロスピロン塩酸塩錠 16mg「アメル」",
+      "strength": "16mg",
+      "imprint_front": "Kw PEE",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「Kw PEE」。割線入りフィルムコーティング錠。裏面の刻印は記載なし（外形図には割線のみ）",
+      "color": "白色～帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 13.2,
+      "size_short_mm": 5.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 Kw PEE 白色～帯黄白色 短径：約5.6mm 長径：約13.2mm 厚さ：約4.0mm 質量：約245.4mg 識別コード Kw PEE"
+    }
+  ]
+}

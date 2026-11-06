@@ -1,0 +1,46 @@
+{
+  "id": "1179044F1193",
+  "source_file": "780009_1179044F1193_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179044F1193_1_01",
+  "extracted_at": "2026-11-06T15:32:20.218Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 39929,
+    "output": 1140
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピン錠2.5mg「明治」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形の図に示されているのみで、本文の文字情報としては記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "オランザピン錠2.5mg「明治」 割線入りフィルムコーティング錠 白色 直径(mm)7.1 厚さ(mm)3.3 重量(mg)139"
+    },
+    {
+      "product_name": "オランザピンOD錠2.5mg「明治」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形の図に示されているのみで、本文の文字情報としては記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "オランザピンOD錠2.5mg「明治」 割線入りコーティング錠 黄色 直径(mm)6.4 厚さ(mm)2.6 重量(mg)80"
+    }
+  ]
+}

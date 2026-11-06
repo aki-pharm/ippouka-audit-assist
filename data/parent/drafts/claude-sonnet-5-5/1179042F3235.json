@@ -1,0 +1,30 @@
+{
+  "id": "1179042F3235",
+  "source_file": "530100_1179042F1232_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179042F1232_2_01",
+  "extracted_at": "2026-11-06T15:31:43.737Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30165,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠200mg「ニプロ」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に「クエチアピン 200 ニプロ」と思われる印字が見られるが、性状欄の本文には刻印・識別コードの記載がないため未確認とした",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "クエチアピン錠200mg「ニプロ」 白色のフィルムコーティング錠 11.1 5.5 507"
+    }
+  ]
+}

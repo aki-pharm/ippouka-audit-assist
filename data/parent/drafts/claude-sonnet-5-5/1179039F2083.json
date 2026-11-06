@@ -1,0 +1,30 @@
+{
+  "id": "1179039F2083",
+  "source_file": "530100_1179039F1087_3_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179039F1087_3_12",
+  "extracted_at": "2026-11-06T15:28:05.908Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34518,
+    "output": 793
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠50mg「NP」",
+      "strength": "50mg",
+      "imprint_front": "NP-50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして NP-50 と記載。表裏のどちらに刻印されているかは本文に明記なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フルボキサミンマレイン酸塩錠50mg「NP」 黄色のフィルムコーティング錠 直径6.2mm 厚さ3.0mm 重量96.9mg 識別コード NP-50"
+    }
+  ]
+}

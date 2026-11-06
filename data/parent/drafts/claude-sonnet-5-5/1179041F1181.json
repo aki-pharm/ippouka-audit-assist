@@ -1,0 +1,30 @@
+{
+  "id": "1179041F1181",
+  "source_file": "180095_1179041F1181_2_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1179041F1181_2_17",
+  "extracted_at": "2026-11-06T15:29:02.303Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34324,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠10mg「オーハラ」",
+      "strength": "10mg",
+      "imprint_front": "OH-58",
+      "imprint_back": "OH-58",
+      "imprint_note": "識別表示としてOH-58と記載。表面・裏面の個別の刻印内容は本文テキストでは確認できない（外形図に刻印の表示あり）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 帯紅白色 大きさ 直径：6.6mm 厚さ：3.6mm 質量 170mg 識別表示 OH-58"
+    }
+  ]
+}

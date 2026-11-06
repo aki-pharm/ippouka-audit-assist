@@ -1,0 +1,30 @@
+{
+  "id": "1179038F3069",
+  "source_file": "530100_1179038C1051_5_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179038C1051_5_16",
+  "extracted_at": "2026-11-06T15:27:17.610Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37473,
+    "output": 1053
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドン錠3mg「NP」",
+      "strength": "3mg",
+      "imprint_front": "NP-155",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-155。表裏の別は本文に明記なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "リスペリドン錠 3mg「NP」 白色のフィルムコーティング錠 直径8.1mm 厚さ4.0mm 重量200mg 識別コード NP-155"
+    }
+  ]
+}

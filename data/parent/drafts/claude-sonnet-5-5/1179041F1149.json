@@ -1,0 +1,30 @@
+{
+  "id": "1179041F1149",
+  "source_file": "400278_1179041F1149_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1179041F1149_1_12",
+  "extracted_at": "2026-11-06T15:29:02.088Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38911,
+    "output": 826
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "TU 132",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTU 132。裏面の刻印は文字情報として記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠10mg「TCK」 白色 フィルムコーティング錠 TU 132 6.6 3.8 179"
+    }
+  ]
+}

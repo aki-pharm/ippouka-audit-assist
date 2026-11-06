@@ -1,0 +1,30 @@
+{
+  "id": "1179038F3026",
+  "source_file": "800155_1179038C1027_1_41.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_1179038C1027_1_41",
+  "extracted_at": "2026-11-06T15:27:08.316Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30588,
+    "output": 285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスパダール錠3mg",
+      "strength": "3mg",
+      "imprint_front": "JK103",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄にJK103。表面にJK/103の印字（図）。裏面の刻印・割線の記載は文章では確認できない（図のみ）",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "リスパダール錠：白色のフィルムコーティング錠 ／ 3mg 8.1 4.3 0.20 JK103（直径8.1mm、厚さ4.3mm、重量0.20g、識別コードJK103）"
+    }
+  ]
+}

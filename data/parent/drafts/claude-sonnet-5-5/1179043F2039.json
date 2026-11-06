@@ -1,0 +1,30 @@
+{
+  "id": "1179043F2039",
+  "source_file": "400093_1179043F1032_2_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1179043F1032_2_27",
+  "extracted_at": "2026-11-06T15:32:04.778Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22693,
+    "output": 833
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルーラン錠8mg",
+      "strength": "8mg",
+      "imprint_front": "058",
+      "imprint_back": "未確認",
+      "imprint_note": "本文の識別コード欄は「058」。外形図では識別コードに社名マーク様の記号が併記されているが、本文には記載なし。裏面の刻印は記載なし。割線入り。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入りフィルムコート錠／直径 約7.1mm、厚さ 約3.0mm、重さ 約123mg／識別コード 058（ルーラン錠8mg）"
+    }
+  ]
+}

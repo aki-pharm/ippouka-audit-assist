@@ -1,0 +1,30 @@
+{
+  "id": "1179038F3115",
+  "source_file": "380087_1179038C1140_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1179038C1140_2_01",
+  "extracted_at": "2026-11-06T15:27:20.138Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32249,
+    "output": 816
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドン錠3mg「ヨシトミ」",
+      "strength": "3mg",
+      "imprint_front": "Y-R3",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図には「3」の表示もあるが、表裏の別は本文に記載がない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": false,
+      "source_revision": "2025年1月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色／剤形 フィルムコーティング錠／錠径（mm）8.1／厚み（mm）4.5／重量（mg）204／識別コード Y-R3"
+    }
+  ]
+}

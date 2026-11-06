@@ -1,0 +1,30 @@
+{
+  "id": "1179044F2149",
+  "source_file": "480235_1179044F1142_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179044F1142_1_13",
+  "extracted_at": "2026-11-06T15:32:27.315Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36785,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピン錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "オランザ 5",
+      "imprint_back": "オランザピン 5 トーワ",
+      "imprint_note": "本体表示。表：オランザ 5、裏：オランザピン 5 トーワ",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りのフィルムコーティング錠　本体表示 表 オランザ 5　裏 オランザピン 5 トーワ　直径(mm) 7.1　厚さ(mm) 3.2　質量(mg) 141"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179035F4029",
+  "source_file": "400315_1179035D1029_2_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1179035D1029_2_18",
+  "extracted_at": "2026-11-06T15:26:44.668Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16235,
+    "output": 760
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クレミン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "Y-CR50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 青色・フィルムコーティング錠　識別コード Y-CR50　サイズ 直径(mm)7.7 厚さ(mm)3.6 重量(mg)165"
+    }
+  ]
+}

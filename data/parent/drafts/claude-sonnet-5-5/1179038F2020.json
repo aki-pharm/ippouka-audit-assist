@@ -1,0 +1,30 @@
+{
+  "id": "1179038F2020",
+  "source_file": "800155_1179038C1027_1_41.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_1179038C1027_1_41",
+  "extracted_at": "2026-11-06T15:27:02.441Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30588,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスパダール錠2mg",
+      "strength": "2mg",
+      "imprint_front": "JK 102",
+      "imprint_back": "なし",
+      "imprint_note": "表面に識別コード JK/102 の2段表記。添付文書の識別コード欄は JK102。側面の刻印は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "リスパダール錠：白色のフィルムコーティング錠 ／ 2mg 直径7.1mm 厚さ3.8mm 重量0.13g 識別コード JK102"
+    }
+  ]
+}

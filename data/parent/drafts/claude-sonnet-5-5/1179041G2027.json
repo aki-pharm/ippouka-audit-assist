@@ -1,0 +1,30 @@
+{
+  "id": "1179041G2027",
+  "source_file": "340278_1179041G1020_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_1179041G1020_1_14",
+  "extracted_at": "2026-11-06T15:30:39.976Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30920,
+    "output": 812
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パキシルCR錠25mg",
+      "strength": "25mg",
+      "imprint_front": "GSK",
+      "imprint_back": "25",
+      "imprint_note": "識別コードは「GSK 25」。表裏の割り当ては製剤図の表示による（表：GSKマーク、裏：25）",
+      "color": "表：淡紅色、裏：白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 二層の腸溶性徐放錠／識別コード GSK 25／表（色、直径）淡紅色 7.2mm／裏（色）白色～帯黄白色／側面（厚さ）5.1mm"
+    }
+  ]
+}

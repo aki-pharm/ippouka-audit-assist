@@ -1,0 +1,30 @@
+{
+  "id": "1179041G1020",
+  "source_file": "340278_1179041G1020_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_1179041G1020_1_14",
+  "extracted_at": "2026-11-06T15:30:36.153Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30922,
+    "output": 877
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パキシルCR錠12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "GSK",
+      "imprint_back": "12.5",
+      "imprint_note": "識別コードは「GSK 12.5」。図では表にGSKの印字、裏に12.5の印字が示されている。剤形は二層の腸溶性徐放錠。",
+      "color": "表：淡黄色、裏：白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 二層の腸溶性徐放錠 識別コード GSK 12.5 表（色、直径）淡黄色 7.2mm 裏（色）白色～帯黄白色 側面（厚さ）4.8mm"
+    }
+  ]
+}

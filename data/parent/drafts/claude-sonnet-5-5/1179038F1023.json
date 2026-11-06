@@ -1,0 +1,30 @@
+{
+  "id": "1179038F1023",
+  "source_file": "800155_1179038C1027_1_41.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_1179038C1027_1_41",
+  "extracted_at": "2026-11-06T15:27:04.203Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30588,
+    "output": 247
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスパダール錠1mg",
+      "strength": "1mg",
+      "imprint_front": "JK101",
+      "imprint_back": "なし",
+      "imprint_note": "表面にJK 101の識別コードが記載（図）。裏面は割線の図あり。側面にも印字の図あり（内容は読み取り不可）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "リスパダール錠：白色のフィルムコーティング錠 1mg 6.6 3.1 0.10 JK101"
+    }
+  ]
+}

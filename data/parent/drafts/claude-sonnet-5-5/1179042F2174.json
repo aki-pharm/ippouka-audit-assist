@@ -1,0 +1,30 @@
+{
+  "id": "1179042F2174",
+  "source_file": "530113_1179042F1178_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1179042F1178_2_02",
+  "extracted_at": "2026-11-06T15:31:01.628Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23503,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠100mg「日新」",
+      "strength": "100mg",
+      "imprint_front": "NS 175",
+      "imprint_back": "100",
+      "imprint_note": "識別コード：NS 175。外形の図では表面に「NS 175」、裏面に「100」の表示が見られる（文章では識別コードはNS 175と記載）。",
+      "color": "薄い黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "薄い黄色のフィルムコーティング錠　錠径：8.1mm　錠厚：4.1mm　重量：205mg　識別コード NS 175"
+    }
+  ]
+}

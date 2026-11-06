@@ -1,0 +1,30 @@
+{
+  "id": "1179033F1020",
+  "source_file": "181615_1179033F1020_4_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_1179033F1020_4_04",
+  "extracted_at": "2026-11-06T15:26:28.874Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15875,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テトラミド錠10mg",
+      "strength": "10mg",
+      "imprint_front": "CT4",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：CT4（外形図では片面にCT/4の表示あり。裏面の刻印の記載は文章上なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2024年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "販売名 テトラミド®錠10mg／剤形・色調 白色のフィルムコーティング錠／識別コード CT4／外形等 重さ（mg）100 直径（mm）6.1 厚さ（mm）2.5"
+    }
+  ]
+}

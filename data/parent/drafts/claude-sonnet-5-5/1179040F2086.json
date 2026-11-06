@@ -1,0 +1,30 @@
+{
+  "id": "1179040F2086",
+  "source_file": "672173_1179040F1080_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179040F1080_2_04",
+  "extracted_at": "2026-11-06T15:28:32.979Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25496,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルナシプラン塩酸塩錠25mg「アメル」",
+      "strength": "25mg",
+      "imprint_front": "KW672",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード KW672。表裏の刻印の区別は本文に記載がない",
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ミルナシプラン塩酸塩錠25mg「アメル」 割線入りフィルムコーティング錠 KW672 白色〜帯黄白色 直径：約6.2mm 厚さ：約2.8mm 質量：約80.0mg"
+    }
+  ]
+}

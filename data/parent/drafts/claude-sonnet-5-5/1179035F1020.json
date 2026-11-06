@@ -1,0 +1,30 @@
+{
+  "id": "1179035F1020",
+  "source_file": "400315_1179035D1029_2_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1179035D1029_2_18",
+  "extracted_at": "2026-11-06T15:26:43.415Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16235,
+    "output": 775
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クレミン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "Y-CR10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の「識別コード」欄にY-CR10と記載。裏面の刻印は本文に記載なし。",
+      "color": "淡青色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡青色・フィルムコーティング錠　識別コード Y-CR10　サイズ 直径(mm) 6.2 厚さ(mm) 2.9 重量(mg) 87"
+    }
+  ]
+}

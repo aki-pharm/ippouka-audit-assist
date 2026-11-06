@@ -1,0 +1,30 @@
+{
+  "id": "1179040F3023",
+  "source_file": "100898_1179040F1136_3_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_1179040F1136_3_17",
+  "extracted_at": "2026-11-06T15:28:44.996Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26068,
+    "output": 984
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トレドミン錠12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "117",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マークと識別コード117（外形図より）。裏面は外形図で刻印なし。",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡紅色・フィルムコーティング錠／大きさ 直径6.1mm 厚み2.6mm／識別コード 117"
+    }
+  ]
+}

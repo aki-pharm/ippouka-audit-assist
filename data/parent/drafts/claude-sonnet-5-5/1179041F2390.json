@@ -1,0 +1,30 @@
+{
+  "id": "1179041F2390",
+  "source_file": "581120_1179041F1394_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1179041F1394_1_03",
+  "extracted_at": "2026-11-06T15:30:14.161Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34001,
+    "output": 934
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "t PX2",
+      "imprint_back": "20",
+      "imprint_note": "本文の記載は識別コード（PTP）t PX2。錠剤の表裏の刻印は外形図に基づく（表：t PX2、裏：20）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 帯紅白色のフィルムコーティング錠 直径 8.1mm 厚さ 4.7mm 識別コード（PTP） t PX2"
+    }
+  ]
+}

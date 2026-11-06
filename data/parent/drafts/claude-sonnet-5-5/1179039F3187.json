@@ -1,0 +1,30 @@
+{
+  "id": "1179039F3187",
+  "source_file": "480235_1179039F1184_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179039F1184_1_17",
+  "extracted_at": "2026-11-06T15:28:26.165Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28427,
+    "output": 907
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠75mg「トーワ」",
+      "strength": "75mg",
+      "imprint_front": "Tw373",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTw373。本文に表裏の別の記載はなく、外形図では表に表示。裏は図上で無印に見えるが、本文に「なし」の明記はない。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色のフィルムコーティング錠 / 識別コード Tw373 / 直径(mm) 7.1 / 厚さ(mm) 3.8 / 質量(mg) 154"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179043F3027",
+  "source_file": "400093_1179043F1032_2_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1179043F1032_2_27",
+  "extracted_at": "2026-11-06T15:32:07.664Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22693,
+    "output": 861
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルーラン錠16mg",
+      "strength": "16mg",
+      "imprint_front": "DS059",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": null,
+      "size_long_mm": 13.1,
+      "size_short_mm": 5.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色･剤形：白色～帯黄白色の割線入りフィルムコート錠／大きさ：長径約13.1mm 短径約5.6mm 厚さ約4.0mm 重さ約245mg／識別コード：DS059"
+    }
+  ]
+}

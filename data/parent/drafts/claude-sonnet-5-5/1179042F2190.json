@@ -1,0 +1,30 @@
+{
+  "id": "1179042F2190",
+  "source_file": "780009_1179042F1194_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179042F1194_1_08",
+  "extracted_at": "2026-11-06T15:31:12.129Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28302,
+    "output": 1057
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠100mg「明治」",
+      "strength": "100mg",
+      "imprint_front": "MS 041",
+      "imprint_back": "クエチアピン 100",
+      "imprint_note": "刻印は文章ではなく3.2製剤の性状の外形図（表・裏）で確認。文章での刻印記載はなし",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "クエチアピン錠100mg「明治」 フィルムコーティング錠 うすい黄色 直径（mm）8.6 厚さ（mm）4.4 重量（mg）257"
+    }
+  ]
+}

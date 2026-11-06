@@ -1,0 +1,30 @@
+{
+  "id": "1179034F1050",
+  "source_file": "790005_1179034F1050_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_1179034F1050_1_07",
+  "extracted_at": "2026-11-06T15:26:36.370Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13777,
+    "output": 781
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テシプール錠1mg",
+      "strength": "1mg",
+      "imprint_front": "MO130",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード MO130。外形図の表面には「MO/130」と2段で表示されている。裏面の刻印について文章での記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2022年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 外形（mm） 重量（mg） 90 識別コード MO130"
+    }
+  ]
+}

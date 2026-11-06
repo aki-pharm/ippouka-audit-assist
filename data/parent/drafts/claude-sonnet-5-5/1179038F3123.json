@@ -1,0 +1,30 @@
+{
+  "id": "1179038F3123",
+  "source_file": "480235_1179038C1116_1_28.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179038C1116_1_28",
+  "extracted_at": "2026-11-06T15:27:23.693Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29548,
+    "output": 905
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドン錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "Tw015",
+      "imprint_back": "3",
+      "imprint_note": "識別コードはTw015。表は「Tw/015」、裏は「3」の表示（外形図より）。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": false,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "リスペリドン錠3mg「トーワ」 性状・剤形：白色～微黄白色のフィルムコーティング錠 識別コード Tw015 直径(mm) 8.1 厚さ(mm) 4.2 質量(mg) 193"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179041F2382",
+  "source_file": "530100_1179041F1386_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179041F1386_2_01",
+  "extracted_at": "2026-11-06T15:30:09.550Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37834,
+    "output": 735
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠20mg「ニプロ」",
+      "strength": "20mg",
+      "imprint_front": "TG213",
+      "imprint_back": "20",
+      "imprint_note": "識別コード欄はTG213。裏面の「20」は外形図の表示から読み取った",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 5,
+      "score_line": false,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠20mg「ニプロ」 白色のフィルムコーティング錠 直径8.1mm 厚さ5.0mm 重量358mg 識別コード TG213"
+    }
+  ]
+}

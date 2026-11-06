@@ -1,0 +1,30 @@
+{
+  "id": "1179041F1211",
+  "source_file": "300119_1179041F1211_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179041F1211_1_15",
+  "extracted_at": "2026-11-06T15:29:10.055Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33467,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW PX10",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：SW PX10。外形図では表に識別コード、裏は無地（図の表示に基づく）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／性状 帯紅白色／直径（mm） 6.6／厚さ（mm） 3.5／重量（mg） 約152／識別コード SW PX10"
+    }
+  ]
+}

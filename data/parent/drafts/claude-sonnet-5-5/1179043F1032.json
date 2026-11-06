@@ -1,0 +1,30 @@
+{
+  "id": "1179043F1032",
+  "source_file": "400093_1179043F1032_2_27.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1179043F1032_2_27",
+  "extracted_at": "2026-11-06T15:31:56.464Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22693,
+    "output": 1006
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルーラン錠4mg",
+      "strength": "4mg",
+      "imprint_front": "057",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「057」。外形図では057の上に社名マークらしき図が見えるが、文章での説明はない。裏面の刻印は文章に記載なし。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ルーラン錠4mg 色･剤形：白色～帯黄白色のフィルムコート錠／大きさ：直径 約7.1mm、厚さ 約3.0mm、重さ 約123mg／識別コード 057"
+    }
+  ]
+}

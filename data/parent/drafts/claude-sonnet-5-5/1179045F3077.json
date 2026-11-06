@@ -1,0 +1,30 @@
+{
+  "id": "1179045F3077",
+  "source_file": "300119_1179045F1074_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179045F1074_1_13",
+  "extracted_at": "2026-11-06T15:33:40.759Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43793,
+    "output": 1901
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾール錠12mg「サワイ」",
+      "strength": "12mg",
+      "imprint_front": "SW アリピプラゾール 12",
+      "imprint_back": "SW アリピプラゾール 12",
+      "imprint_note": "本体表示として記載。外形図では両面に同じ表示。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 黄色 直径（mm）8.0 厚さ（mm）2.9 重量（mg）約175 本体表示 SW アリピプラゾール 12"
+    }
+  ]
+}
