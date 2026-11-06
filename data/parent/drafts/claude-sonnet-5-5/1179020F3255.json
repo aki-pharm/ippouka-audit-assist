@@ -1,0 +1,30 @@
+{
+  "id": "1179020F3255",
+  "source_file": "400093_1179020C1191_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1179020C1191_1_23",
+  "extracted_at": "2026-11-06T15:25:28.463Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20165,
+    "output": 799
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレネース錠1.5mg",
+      "strength": "1.5mg",
+      "imprint_front": "P313",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはP313。外形図には「1.5」の表示が見えるが、本文の記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年7月改訂(第5版)",
+      "source_page": 1,
+      "source_quote": "販売名 セレネース錠1.5mg／色・剤形 白色の割線入り素錠／大きさ 直径(mm)約8.0 厚さ(mm)約2.6 重さ(mg)約160／識別コード P313"
+    }
+  ]
+}

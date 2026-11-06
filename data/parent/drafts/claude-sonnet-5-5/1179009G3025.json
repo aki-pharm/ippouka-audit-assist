@@ -1,0 +1,30 @@
+{
+  "id": "1179009G3025",
+  "source_file": "800155_1179009G1022_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_1179009G1022_1_21",
+  "extracted_at": "2026-11-06T15:24:53.417Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24572,
+    "output": 685
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コンサータ錠36mg",
+      "strength": "36mg",
+      "imprint_front": "alza 36",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 15,
+      "size_short_mm": 6.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の錠剤（徐放錠）／外形 長さ：15mm 直径：6.8mm／識別コード alza 36"
+    }
+  ]
+}

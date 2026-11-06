@@ -1,0 +1,30 @@
+{
+  "id": "1179032F2022",
+  "source_file": "672173_1179032C1046_6_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179032C1046_6_04",
+  "extracted_at": "2026-11-06T15:26:20.755Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17100,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルネチール錠100",
+      "strength": "100mg",
+      "imprint_front": "100",
+      "imprint_back": "100",
+      "imprint_note": "外形（識別コード）の図に「100」の表示あり（表裏）。側面図も記載。本文中に刻印の文字記載はなく、図からの読み取り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコート錠 / 直径（mm）7.1 / 厚さ（mm）3.4 / 重さ（g）0.138"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179004F1024",
+  "source_file": "400093_1179004F1024_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1179004F1024_1_22",
+  "extracted_at": "2026-11-06T15:24:15.675Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17144,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノリトレン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "P502",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード P502（外形図では表面に「P 502」の表示あり）。裏面の刻印は記載なし。",
+      "color": "うすいだいだい色の糖衣錠",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2022年4月改訂(第1版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすいだいだい色の糖衣錠／大きさ 直径(mm)約6.4 厚さ(mm)約3.6 重さ(mg)約105／識別コード P502"
+    }
+  ]
+}

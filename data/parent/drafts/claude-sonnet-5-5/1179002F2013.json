@@ -1,0 +1,30 @@
+{
+  "id": "1179002F2013",
+  "source_file": "300119_1179002F1122_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179002F1122_1_09",
+  "extracted_at": "2026-11-06T15:24:14.857Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21433,
+    "output": 310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アミトリプチリン塩酸塩錠25mg「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "SW 028",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「SW 028」。外形図には表面に刻印が確認できるが、裏面・側面の刻印の有無は本文に記載なし",
+      "color": "黄緑色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 淡青色 黄緑色 直径（mm） 6.1 7.1 厚さ（mm） 3.7 3.9 重量（mg） 約100 約137 識別コード SW 027 SW 028"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179001M3022",
+  "source_file": "672212_1179001C1024_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1179001C1024_3_02",
+  "extracted_at": "2026-11-06T15:24:08.943Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15896,
+    "output": 682
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アモキサンカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "LL147",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく4号硬カプセル。識別コードは表の記載（LL147）。外形図の大きさ（長さ14.5mm、幅5.3mm）は図中の数値。",
+      "color": "キャップ：白色、ボディ：白色",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2021年11月改訂",
+      "source_page": 1,
+      "source_quote": "アモキサンカプセル50mg LL147 キャップ：白色 ボディ：白色 4号硬カプセル"
+    }
+  ]
+}

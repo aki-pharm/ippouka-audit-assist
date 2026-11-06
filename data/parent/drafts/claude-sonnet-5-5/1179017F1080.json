@@ -1,0 +1,30 @@
+{
+  "id": "1179017F1080",
+  "source_file": "370035_1179017F1080_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370035_1179017F1080_1_06",
+  "extracted_at": "2026-11-06T15:25:13.536Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19203,
+    "output": 298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "炭酸リチウム錠100mg「大正」",
+      "strength": "100mg",
+      "imprint_front": "T702",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードT702。上面に表示（外形図では「T/702」）。下面の刻印は文書に記載なし（外形図では下面に表示なし）",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "炭酸リチウム錠100mg「大正」 T702 白色～淡黄白色のフィルムコーティング錠 上面 下面 側面 直径（mm）厚さ（mm）重量（mg）約 8 約 3.3 約 206"
+    }
+  ]
+}

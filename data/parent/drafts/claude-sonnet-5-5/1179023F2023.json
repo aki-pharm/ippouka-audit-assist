@@ -1,0 +1,30 @@
+{
+  "id": "1179023F2023",
+  "source_file": "300297_1179023F1035_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_1179023F1035_2_09",
+  "extracted_at": "2026-11-06T15:25:31.858Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10108,
+    "output": 243
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタナミン錠25mg",
+      "strength": "25mg",
+      "imprint_front": "Sc104",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードSc104（表面に印字）。裏面の刻印は外形図上なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2020年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 片面に割線を有する白色の錠剤 直径 8.0mm 厚さ 3.0mm 重量 190mg 識別コード Sc104"
+    }
+  ]
+}

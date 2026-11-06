@@ -1,0 +1,30 @@
+{
+  "id": "1179023F1035",
+  "source_file": "300297_1179023F1035_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_1179023F1035_2_09",
+  "extracted_at": "2026-11-06T15:25:32.563Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10108,
+    "output": 250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタナミン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "Sc103",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは表面に印字。裏面の刻印の記載なし（外形図では無地）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2020年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 片面に割線を有する白色の錠剤 / 直径 7.0mm / 厚さ 2.7mm / 重量 135mg / 識別コード Sc103"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179015F1030",
+  "source_file": "530258_1179015F1030_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1179015F1030_3_03",
+  "extracted_at": "2026-11-06T15:24:59.014Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14914,
+    "output": 258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スピロピタン錠0.25mg",
+      "strength": "0.25mg",
+      "imprint_front": "117",
+      "imprint_back": "なし",
+      "imprint_note": "表に社名マーク（ε）と識別コード117。裏は無地、側面にも記載なし。",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 5.9,
+      "size_short_mm": 5.9,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "スピロピタン錠0.25mg 糖衣錠 淡黄赤色 直径（mm）・質量（mg）・厚さ（mm） 117 5.9 90 3.4"
+    }
+  ]
+}

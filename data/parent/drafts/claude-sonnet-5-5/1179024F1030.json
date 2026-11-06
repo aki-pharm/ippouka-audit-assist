@@ -1,0 +1,30 @@
+{
+  "id": "1179024F1030",
+  "source_file": "171911_1179024C1033_4_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_1179024C1033_4_09",
+  "extracted_at": "2026-11-06T15:25:45.019Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17437,
+    "output": 1032
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロドピン錠25mg",
+      "strength": "25mg",
+      "imprint_front": "LT 621",
+      "imprint_back": "なし",
+      "imprint_note": "表面に「LT 621」の表示。裏面・側面は図上で刻印の表示なし。識別コード：LT 621（糖衣錠）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ロドピン錠25mg 糖衣錠 白色 表面 裏面 側面 621 直径 厚さ 質量 約5.6mm 約3.1mm 約75mg 識別コード LT 621"
+    }
+  ]
+}

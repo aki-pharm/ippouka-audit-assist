@@ -1,0 +1,30 @@
+{
+  "id": "1179005F2025",
+  "source_file": "672212_1179005F1053_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1179005F1053_3_05",
+  "extracted_at": "2026-11-06T15:24:23.421Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15379,
+    "output": 675
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アタラックス錠25mg",
+      "strength": "25mg",
+      "imprint_front": "PT A12",
+      "imprint_back": "25",
+      "imprint_note": "識別コードは「PT A12」。裏面の「25」は外形図の表示から読み取った。糖衣錠。",
+      "color": "桃色",
+      "shape": "round",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アタラックス錠25mg PT A12 桃色 糖衣錠（外形：直径7.4mm、厚さ4.0mm）"
+    }
+  ]
+}

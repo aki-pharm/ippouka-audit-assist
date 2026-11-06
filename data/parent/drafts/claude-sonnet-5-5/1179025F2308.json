@@ -1,0 +1,30 @@
+{
+  "id": "1179025F2308",
+  "source_file": "270029_1179025F1344_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_1179025F1344_1_05",
+  "extracted_at": "2026-11-06T15:26:05.714Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16970,
+    "output": 303
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エチゾラム錠1mg「クニヒロ」",
+      "strength": "1mg",
+      "imprint_front": "KS213",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード KS213。外形の図には表面にKS 213、裏面に「1」、側面に割線の表示があるが、本文には裏面の刻印は明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "エチゾラム錠1mg「クニヒロ」 剤形 色調・性状：白色のフィルムコーティング錠 外形 直径 6.6mm 厚さ 3.8mm 重量 112mg 識別コード KS213"
+    }
+  ]
+}

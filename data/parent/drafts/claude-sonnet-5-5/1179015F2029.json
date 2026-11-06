@@ -1,0 +1,30 @@
+{
+  "id": "1179015F2029",
+  "source_file": "530258_1179015F1030_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1179015F1030_3_03",
+  "extracted_at": "2026-11-06T15:25:05.575Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14912,
+    "output": 1013
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スピロピタン錠1mg",
+      "strength": "1mg",
+      "imprint_front": "118",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード118。表面の図にはεマーク（社名マークと思われる）が併記されている。裏面の図は無地に見えるが、本文には刻印の有無が明記されていない。",
+      "color": "橙黄色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "スピロピタン錠 1 mg 糖衣錠 橙黄色 直径（mm）・質量（mg）・厚さ（mm） 118 8.4 250 4.6"
+    }
+  ]
+}

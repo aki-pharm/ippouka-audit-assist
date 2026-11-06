@@ -1,0 +1,30 @@
+{
+  "id": "1174002F2025",
+  "source_file": "530258_1174002F1029_3_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1174002F1029_3_19",
+  "extracted_at": "2026-11-06T15:23:57.150Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20142,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アナフラニール錠25mg",
+      "strength": "25mg",
+      "imprint_front": "NF 327",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「NF 327」と記載。外形の図では表面に刻印、裏面・側面の刻印の有無は文章では明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アナフラニール錠25mg 白色の糖衣錠 NF 327 直径（高さ）6.0mm 厚さ3.6mm 質量110mg"
+    }
+  ]
+}

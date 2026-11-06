@@ -1,0 +1,30 @@
+{
+  "id": "1179030F3020",
+  "source_file": "400315_1179030F1035_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1179030F1035_2_05",
+  "extracted_at": "2026-11-06T15:26:16.013Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13890,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロフェクトン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "Y-CF50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：Y-CF50。外形図では錠剤表面に「Y」マークと「CF50」の表示あり。裏面の刻印は文章では確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "クロフェクトン錠50mg：白色・フィルムコーティング錠、識別コード Y-CF50、サイズ 直径7.6mm、厚さ3.6mm、重量166mg"
+    }
+  ]
+}

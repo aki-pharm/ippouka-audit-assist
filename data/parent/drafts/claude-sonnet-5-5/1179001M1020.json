@@ -1,0 +1,30 @@
+{
+  "id": "1179001M1020",
+  "source_file": "672212_1179001C1024_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1179001C1024_3_02",
+  "extracted_at": "2026-11-06T15:24:07.097Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15896,
+    "output": 852
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アモキサンカプセル10mg",
+      "strength": "10mg",
+      "imprint_front": "LL145",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはLL145。外形図に印字の記載があるが、表裏の区別は文章では確認できない。4号硬カプセル（錠剤ではなくカプセル剤）。大きさは外形図の寸法表示による（全長14.5mm、幅5.3mm）。",
+      "color": "キャップ：淡赤褐色 ボディ：淡赤褐色",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2021年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "アモキサンカプセル10mg LL145 キャップ：淡赤褐色 ボディ：淡赤褐色 4号硬カプセル"
+    }
+  ]
+}

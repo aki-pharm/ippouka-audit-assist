@@ -1,0 +1,30 @@
+{
+  "id": "1172014F3070",
+  "source_file": "400315_1172014B1033_2_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1172014B1033_2_20",
+  "extracted_at": "2026-11-06T15:23:49.274Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16733,
+    "output": 284
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボトミン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "Y-LV50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード Y-LV50。外形図には「Y LV50」「50」の表示と側面図が描かれているが、表裏の刻印の別は本文に明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・フィルムコーティング錠（錠50mg：割線入り）／識別コード Y-LV50／直径（mm）8.1 厚さ（mm）3.5 重量（mg）180"
+    }
+  ]
+}

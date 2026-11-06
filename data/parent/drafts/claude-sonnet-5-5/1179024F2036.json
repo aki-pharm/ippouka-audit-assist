@@ -1,0 +1,30 @@
+{
+  "id": "1179024F2036",
+  "source_file": "171911_1179024C1033_4_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_1179024C1033_4_09",
+  "extracted_at": "2026-11-06T15:25:44.800Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17437,
+    "output": 740
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロドピン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "LT 651",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはLT 651。裏面の刻印について文章での記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ロドピン錠50mg 糖衣錠 白色 直径 約7.4mm 厚さ 約4.2mm 質量 約180mg 識別コード LT 651"
+    }
+  ]
+}

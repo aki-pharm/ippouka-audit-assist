@@ -1,0 +1,30 @@
+{
+  "id": "1179024F3024",
+  "source_file": "171911_1179024C1033_4_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_1179024C1033_4_09",
+  "extracted_at": "2026-11-06T15:25:53.495Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17437,
+    "output": 769
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロドピン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "LT 611",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード LT 611。裏面の刻印について文章での記載はなし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "ロドピン錠100mg 糖衣錠 白色 表面 裏面 側面 直径 厚さ 質量 約10.0mm 約5.2mm 約370mg 識別コード LT 611"
+    }
+  ]
+}

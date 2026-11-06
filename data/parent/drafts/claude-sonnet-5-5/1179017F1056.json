@@ -1,0 +1,30 @@
+{
+  "id": "1179017F1056",
+  "source_file": "400059_1179017F1056_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_1179017F1056_1_22",
+  "extracted_at": "2026-11-06T15:25:07.073Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19079,
+    "output": 240
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リーマス錠100",
+      "strength": "100mg",
+      "imprint_front": "T702",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード T702（上面に表示）。下面に刻印の記載なし",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "リーマス錠100 T702 白色～淡黄白色のフィルムコーティング錠 直径（mm）約8 厚さ（mm）約3.3 重量（mg）約206"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179020F5037",
+  "source_file": "400093_1179020C1191_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1179020C1191_1_23",
+  "extracted_at": "2026-11-06T15:25:35.612Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20163,
+    "output": 988
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレネース錠3mg",
+      "strength": "3mg",
+      "imprint_front": "P318",
+      "imprint_back": "3",
+      "imprint_note": "識別コードはP318。裏面の「3」は外形図の表示から読み取った",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2026年7月改訂(第5版)",
+      "source_page": 1,
+      "source_quote": "販売名 セレネース錠3mg／色・剤形 白色～帯黄白色のフィルムコーティング錠／大きさ 直径 約6.1mm 厚さ 約3.5mm 重さ 約98mg／識別コード P318"
+    }
+  ]
+}

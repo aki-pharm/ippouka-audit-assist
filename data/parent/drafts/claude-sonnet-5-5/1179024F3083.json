@@ -1,0 +1,30 @@
+{
+  "id": "1179024F3083",
+  "source_file": "400186_1179024C1106_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179024C1106_1_03",
+  "extracted_at": "2026-11-06T15:25:59.787Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18241,
+    "output": 1068
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾテピン錠100mg「タカタ」",
+      "strength": "100mg",
+      "imprint_front": "TTS-192",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載。外形図の表面には「S 100」の表示がある。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ゾテピン錠100mg「タカタ」 淡黄色のフィルムコーティング錠で、においはない。 表面直径 約8.7mm 重さ 約0.22g 側面厚さ 約3.5mm 識別コード TTS-192"
+    }
+  ]
+}

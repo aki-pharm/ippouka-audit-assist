@@ -1,0 +1,30 @@
+{
+  "id": "1179008F2029",
+  "source_file": "480866_1179008F1022_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_1179008F1022_3_07",
+  "extracted_at": "2026-11-06T15:24:42.622Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19870,
+    "output": 852
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ルジオミール錠25mg",
+      "strength": "25mg",
+      "imprint_front": "SJ",
+      "imprint_back": "204",
+      "imprint_note": "識別コードは「SJ 204」。外形図では片面にSJ、もう片面に204と表示されている。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄色のフィルムコート錠／識別コード SJ 204／大きさ（約） 直径：6.1mm 厚さ：3.1mm 質量：0.10g"
+    }
+  ]
+}

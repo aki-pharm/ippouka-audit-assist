@@ -1,0 +1,30 @@
+{
+  "id": "1172014F1043",
+  "source_file": "400315_1172014B1033_2_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1172014B1033_2_20",
+  "extracted_at": "2026-11-06T15:23:41.659Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16733,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボトミン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "Y-LV5",
+      "imprint_back": "5",
+      "imprint_note": "識別コード Y-LV5。外形図の表に「Y LV5」、裏面に「5」の表示があるが、本文の文言では識別コードのみ記載。側面は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・フィルムコーティング錠（錠50mg：割線入り）／識別コード Y-LV5／直径7.1mm 厚さ2.8mm 重量115mg"
+    }
+  ]
+}

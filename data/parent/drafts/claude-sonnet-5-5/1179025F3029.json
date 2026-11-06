@@ -1,0 +1,30 @@
+{
+  "id": "1179025F3029",
+  "source_file": "400315_1179025C1054_2_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1179025C1054_2_20",
+  "extracted_at": "2026-11-06T15:26:05.693Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17156,
+    "output": 288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デパス錠0.25mg",
+      "strength": "0.25mg",
+      "imprint_front": "Y-DP025",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード Y-DP025（外形図では表面に「Y DP」「025」の表示、側面にも表示あり）。表裏の区別は本文に明記なし",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微赤色・フィルムコーティング錠 ／ 識別コード Y-DP025 ／ サイズ 直径6.5mm 厚さ3.4mm 重量112.0mg"
+    }
+  ]
+}

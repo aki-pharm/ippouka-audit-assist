@@ -1,0 +1,30 @@
+{
+  "id": "1179001M2026",
+  "source_file": "672212_1179001C1024_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1179001C1024_3_02",
+  "extracted_at": "2026-11-06T15:24:07.293Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15896,
+    "output": 775
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アモキサンカプセル25mg",
+      "strength": "25mg",
+      "imprint_front": "LL146",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく4号硬カプセル。識別コードはLL146。外形図ではキャップとボディに印字があるが、表裏の区別は文章では確認できない。大きさは外形図の寸法（全長14.4mm、直径5.3mm）による。",
+      "color": "キャップ：淡赤褐色、ボディ：白色",
+      "shape": "oblong",
+      "size_long_mm": 14.4,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2021年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "アモキサンカプセル25mg LL146 キャップ：淡赤褐色 ボディ：白色 4号硬カプセル"
+    }
+  ]
+}

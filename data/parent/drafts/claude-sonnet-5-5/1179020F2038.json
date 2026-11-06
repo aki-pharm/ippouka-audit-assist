@@ -1,0 +1,30 @@
+{
+  "id": "1179020F2038",
+  "source_file": "400093_1179020C1191_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1179020C1191_1_23",
+  "extracted_at": "2026-11-06T15:25:25.946Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20163,
+    "output": 815
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレネース錠1mg",
+      "strength": "1mg",
+      "imprint_front": "P317",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはP317と記載。外形図には裏面らしき表示もあるが、本文には記載がないため裏面は未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年7月改訂(第5版)",
+      "source_page": 1,
+      "source_quote": "セレネース錠1mg 白色～帯黄白色のフィルムコーティング錠 直径約6.1mm 厚さ約3.5mm 重さ約98mg 識別コード P317"
+    }
+  ]
+}

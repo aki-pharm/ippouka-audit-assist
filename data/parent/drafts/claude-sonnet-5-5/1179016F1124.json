@@ -1,0 +1,30 @@
+{
+  "id": "1179016F1124",
+  "source_file": "530169_1179016F1124_4_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179016F1124_4_07",
+  "extracted_at": "2026-11-06T15:25:00.082Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14115,
+    "output": 290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドグマチール錠100mg",
+      "strength": "100mg",
+      "imprint_front": "ドグマチール 100",
+      "imprint_back": "ドグマチール 100",
+      "imprint_note": "本体表示：ドグマチール／100（表面・裏面の図に印字あり）。側面は印字の記載なし。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～帯黄白色 直径（mm） 約7.1 厚さ（mm） 約3.0 質量（mg） 約123 本体表示 ドグマチール 100"
+    }
+  ]
+}

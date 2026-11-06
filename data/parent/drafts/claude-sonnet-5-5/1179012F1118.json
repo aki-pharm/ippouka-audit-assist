@@ -1,0 +1,30 @@
+{
+  "id": "1179012F1118",
+  "source_file": "400315_1179012D1036_2_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1179012D1036_2_16",
+  "extracted_at": "2026-11-06T15:24:54.011Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13507,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リーゼ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "Y-RZ5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは錠剤表面に印字（外形図より）。裏面の刻印は記載なし。側面図あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・フィルムコーティング錠 ／ 識別コード Y-RZ5 ／ サイズ 直径(mm) 6.1 厚さ(mm) 2.9 重量(mg) 86"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179006F1031",
+  "source_file": "530258_1179006F1031_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1179006F1031_2_04",
+  "extracted_at": "2026-11-06T15:24:32.476Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14386,
+    "output": 781
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピタン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "ε112",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表に「ε112」と記載。裏の刻印は図に描かれていないが、「なし」の明記はない。割線の記載は確認できない。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "プロピタン錠50mg フィルムコート錠 黄色 直径（mm）・質量（mg）・厚さ（mm） 112 8.2 230 4.1（識別コード：ε112）"
+    }
+  ]
+}

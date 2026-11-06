@@ -1,0 +1,30 @@
+{
+  "id": "1179016F2090",
+  "source_file": "530169_1179016F1124_4_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179016F1124_4_07",
+  "extracted_at": "2026-11-06T15:25:06.696Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14115,
+    "output": 740
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドグマチール錠200mg",
+      "strength": "200mg",
+      "imprint_front": "ドグマチール 200",
+      "imprint_back": "ドグマチール 200",
+      "imprint_note": "本体表示として「ドグマチール」「200」と記載。表裏の刻印は外形の図より（文章での表裏の明記なし）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～帯黄白色 直径（mm） 約9.1 厚さ（mm） 約3.8 質量（mg） 約246 本体表示 ドグマチール 200"
+    }
+  ]
+}
