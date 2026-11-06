@@ -1,0 +1,30 @@
+{
+  "id": "1190012F6311",
+  "source_file": "530100_1190012F3347_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1190012F3347_2_01",
+  "extracted_at": "2026-11-06T15:47:55.644Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33086,
+    "output": 294
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "TG205",
+      "imprint_back": "10",
+      "imprint_note": "識別コードはTG205。表面に「TG 205」、裏面に「10」の印字が図示されている。割線の記載なし。",
+      "color": "淡赤色",
+      "shape": null,
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩OD錠10mg「ニプロ」 淡赤色の素錠（口腔内崩壊錠） 直径8.5mm 厚さ3.5mm 重量250mg 識別コード TG205"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179048F3100",
+  "source_file": "480235_1179048F1108_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179048F1108_1_13",
+  "extracted_at": "2026-11-06T15:35:49.194Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31154,
+    "output": 880
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロナンセリン錠8mg「トーワ」",
+      "strength": "8mg",
+      "imprint_front": "ブロナン 8",
+      "imprint_back": "ブロナンセリン 8 トーワ",
+      "imprint_note": "本体表示欄の記載。表の列配置から8mg列の表示を判読",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入り素錠／本体表示 表：ブロナン 8、裏：ブロナンセリン 8 トーワ／直径(mm) 約9／厚さ(mm) 約3.2"
+    }
+  ]
+}

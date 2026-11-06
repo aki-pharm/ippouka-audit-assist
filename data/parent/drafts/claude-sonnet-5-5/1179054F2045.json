@@ -1,0 +1,30 @@
+{
+  "id": "1179054F2045",
+  "source_file": "730869_1179054F1049_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_1179054F1049_1_05",
+  "extracted_at": "2026-11-06T15:42:26.223Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34728,
+    "output": 954
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラム錠20mg「VTRS」",
+      "strength": "20mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「-」。外形図の上面・下面には「エスシタロプラム 20 VTRS」の印字が描かれている（図からの読み取り）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12.9,
+      "size_short_mm": 5.9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "エスシタロプラム錠20mg ｢VTRS｣ - 白色 楕円形 割線入りフィルムコーティング錠 長径12.9mm 短径5.9mm 厚さ4.1mm 重量261mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179050F3060",
+  "source_file": "580591_1179050F1067_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1179050F1067_1_04",
+  "extracted_at": "2026-11-06T15:36:35.946Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37450,
+    "output": 311
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチン錠25mg「JG」",
+      "strength": "25mg",
+      "imprint_front": "アトモ キセチン 25 JG",
+      "imprint_back": "アトモ キセチン 25 JG",
+      "imprint_note": "本体表示欄の記載（表面・裏面・側面の外形図あり）。表裏とも同じ表示で、側面の表示は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アトモキセチン錠 25mg「JG」 白色のフィルムコーティング錠 表面 裏面 側面 アトモ 25 キセチン JG 直径 7.6mm 厚さ 3.1mm 重量 130mg"
+    }
+  ]
+}

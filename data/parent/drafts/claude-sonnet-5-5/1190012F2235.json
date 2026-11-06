@@ -1,0 +1,30 @@
+{
+  "id": "1190012F2235",
+  "source_file": "480235_1190012F1239_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1190012F1239_1_16",
+  "extracted_at": "2026-11-06T15:45:14.837Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28469,
+    "output": 865
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "ドネペジル 5 トーワ",
+      "imprint_back": "ドネペジル 5 トーワ",
+      "imprint_note": "本体表示は表・裏共通の欄に記載（ドネペジル 5 トーワ）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠／本体表示 ドネペジル 5 トーワ／直径(mm) 7.1／厚さ(mm) 3.2"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179052F3026",
+  "source_file": "530100_1179052F3026_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179052F3026_1_04",
+  "extracted_at": "2026-11-06T15:39:41.572Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 52619,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンOD錠20mg「ニプロ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの記載なし（外形の図には表示があるが、文字としては読み取れないため未確認）",
+      "color": "僅かな黄褐色～赤褐色の斑点を有する白色",
+      "shape": "round",
+      "size_long_mm": 9.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "僅かな黄褐色～赤褐色の斑点を有する白色の素錠（口腔内崩壊錠） 直径9.7mm 厚さ5.2mm 重量400mg"
+    }
+  ]
+}

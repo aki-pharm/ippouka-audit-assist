@@ -1,0 +1,30 @@
+{
+  "id": "1190012F1026",
+  "source_file": "170033_1190012C1020_1_32.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1190012C1020_1_32",
+  "extracted_at": "2026-11-06T15:44:21.235Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30796,
+    "output": 310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリセプト錠3mg",
+      "strength": "3mg",
+      "imprint_front": "アリセプト3",
+      "imprint_back": "アリセプト3",
+      "imprint_note": "識別コード欄に「ε アリセプト3」と記載（社名マーク ε を含む）。外形図の表・裏とも「ε アリセプト 3」の印字。表裏の別記載は外形図による。",
+      "color": "黄　色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 識別コード アリセプト3 外形 表・裏・側面 直径（mm） 7.1 質量（mg） 140 厚さ（mm） 3.5 色 黄　色"
+    }
+  ]
+}

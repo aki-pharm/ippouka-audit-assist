@@ -1,0 +1,46 @@
+{
+  "id": "1179046F4027",
+  "source_file": "671450_1179046F1028_4_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_1179046F1028_4_05",
+  "extracted_at": "2026-11-06T15:35:04.173Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33301,
+    "output": 1570
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジェイゾロフト錠25mg",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「―」。外形図には印字が描かれているが、文字としての記載はない",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.3,
+      "size_short_mm": 4,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "ジェイゾロフト錠25mg ― 白色 フィルムコート錠 長径8.3mm 短径4.0mm 厚さ2.5mm"
+    },
+    {
+      "product_name": "ジェイゾロフトOD錠25mg",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「―」。外形図には印字が描かれているが、文字としての記載はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "ジェイゾロフトOD錠25mg ― 白色素錠 直径8mm 厚さ3.6mm"
+    }
+  ]
+}

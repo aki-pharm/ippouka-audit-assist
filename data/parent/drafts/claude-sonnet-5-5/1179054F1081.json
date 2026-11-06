@@ -1,0 +1,30 @@
+{
+  "id": "1179054F1081",
+  "source_file": "530169_1179054F1081_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179054F1081_1_04",
+  "extracted_at": "2026-11-06T15:42:09.967Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33641,
+    "output": 969
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラム錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "エスシタロプラム 10 日医工",
+      "imprint_back": "エスシタロプラム 10 日医工",
+      "imprint_note": "本体表示として記載。表裏の別は文章では明記されておらず、外形図で両面に表示あり。表面に割線",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第3版、承認条件削除による改訂）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの楕円形のフィルムコーティング錠／色調 白色／直径（mm） 10.1×4.7／厚さ（mm） 3.3／本体表示 エスシタロプラム 10 日医工"
+    }
+  ]
+}

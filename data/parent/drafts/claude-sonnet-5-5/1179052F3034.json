@@ -1,0 +1,30 @@
+{
+  "id": "1179052F3034",
+  "source_file": "780009_1179052F3034_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179052F3034_1_03",
+  "extracted_at": "2026-11-06T15:39:44.064Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 48785,
+    "output": 330
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンOD錠20mg「明治」",
+      "strength": "20mg",
+      "imprint_front": "デュロキセチン OD 20 明治",
+      "imprint_back": "デュロキセチン OD 20 明治",
+      "imprint_note": "外形の図（表・裏・側面）に表示された刻印を転記。性状の文章欄には刻印の記載なし。割線の記載なし",
+      "color": "僅かな黄褐色～赤褐色の斑点を有する白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "デュロキセチンOD錠20mg「明治」 素錠 僅かな黄褐色～赤褐色の斑点を有する白色 直径(mm) 9.6 厚さ(mm) 5.2 重量(mg) 400"
+    }
+  ]
+}

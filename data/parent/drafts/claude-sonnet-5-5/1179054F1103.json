@@ -1,0 +1,30 @@
+{
+  "id": "1179054F1103",
+  "source_file": "780009_1179054F1103_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179054F1103_2_03",
+  "extracted_at": "2026-11-06T15:42:12.733Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35309,
+    "output": 624
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラム錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印・識別コードは外形図の図中のみで、本文テキストには記載がないため未確認",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "エスシタロプラム錠10mg「明治」 楕円形の割線入りフィルムコーティング錠 白色 長径：10.0 短径：4.6 厚さ（mm）3.3 重量（mg）128"
+    }
+  ]
+}

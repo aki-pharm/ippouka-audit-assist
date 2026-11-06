@@ -1,0 +1,30 @@
+{
+  "id": "1179051F3021",
+  "source_file": "340269_1179051F3021_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340269_1179051F3021_1_07",
+  "extracted_at": "2026-11-06T15:39:22.841Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28420,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピンOD錠15mg「DSEP」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表裏の外形は図で示されているが、本文テキストに刻印・識別コードの記載はなく文字として確認できない",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2024年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "黄色の口腔内崩壊錠（直径(mm) 8.0、厚さ(mm) 3.3、質量(mg) 170）"
+    }
+  ]
+}

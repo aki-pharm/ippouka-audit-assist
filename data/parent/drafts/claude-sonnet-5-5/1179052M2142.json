@@ -1,0 +1,30 @@
+{
+  "id": "1179052M2142",
+  "source_file": "400073_1179052M1146_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1179052M1146_1_06",
+  "extracted_at": "2026-11-06T15:41:25.926Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41441,
+    "output": 303
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル30mg「フェルゼン」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印・識別コードの文字情報の記載なし（外形図のみ）。本剤は錠剤ではなくカプセル剤。",
+      "color": "キャップが淡黄白色、ボディが微黄白色の不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年9月改訂",
+      "source_page": 1,
+      "source_quote": "キャップが淡黄白色、ボディが微黄白色の不透明な硬カプセル剤である。内容物は白色～微灰白色の顆粒である。（大きさ：3号カプセル、重量：232mg）"
+    }
+  ]
+}

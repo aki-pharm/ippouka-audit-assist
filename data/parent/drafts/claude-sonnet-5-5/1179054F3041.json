@@ -1,0 +1,30 @@
+{
+  "id": "1179054F3041",
+  "source_file": "480235_1179054F3041_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179054F3041_2_03",
+  "extracted_at": "2026-11-06T15:42:56.872Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35697,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラムOD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "10 エスシタ",
+      "imprint_back": "エスシタロプラム 10 OD トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の割線入りの口腔内崩壊錠 / 本体表示 表 10 エスシタ 裏 エスシタロプラム 10 OD トーワ / 直径(mm) 8.0 / 厚さ(mm) 3.6"
+    }
+  ]
+}

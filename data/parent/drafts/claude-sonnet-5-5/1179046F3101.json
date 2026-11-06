@@ -1,0 +1,30 @@
+{
+  "id": "1179046F3101",
+  "source_file": "400278_1179046F1052_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1179046F1052_1_10",
+  "extracted_at": "2026-11-06T15:34:54.775Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36021,
+    "output": 933
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セルトラリン錠100mg「TCK」",
+      "strength": "100mg",
+      "imprint_front": "TU177",
+      "imprint_back": "100",
+      "imprint_note": "識別コード TU 177。裏面の「100」は外形図の表記による",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12.2,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "セルトラリン錠100mg「TCK」 白色・楕円形 フィルムコーティング錠 TU 177 直径12.2×6.1mm 厚さ4.5mm 重量310mg"
+    }
+  ]
+}

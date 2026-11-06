@@ -1,0 +1,30 @@
+{
+  "id": "1179050M4065",
+  "source_file": "672173_1179050M1066_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179050M1066_2_02",
+  "extracted_at": "2026-11-06T15:37:44.247Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40511,
+    "output": 382
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチンカプセル40mg「アメル」",
+      "strength": "40mg",
+      "imprint_front": "アトモキセチン アメル 40mg",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は錠剤ではなく3号カプセル（硬カプセル剤）。識別コードはカプセルに記載された「アトモキセチン アメル 40mg」。表裏の区別は記載なし。大きさは長径・短径のみ記載（質量：約249.0mg）。",
+      "color": "白色の粉末を含むキャップ及びボディが青色の不透明硬カプセル剤",
+      "shape": "oblong",
+      "size_long_mm": 15.7,
+      "size_short_mm": 5.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の粉末を含むキャップ及びボディが青色の不透明硬カプセル剤 アトモキセチン アメル 40mg 長径：約 15.7mm 短径：約 5.9mm 質量：約 249.0mg"
+    }
+  ]
+}

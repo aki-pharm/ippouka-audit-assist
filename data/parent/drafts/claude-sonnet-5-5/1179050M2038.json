@@ -1,0 +1,30 @@
+{
+  "id": "1179050M2038",
+  "source_file": "300119_1179050M1031_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179050M1031_1_04",
+  "extracted_at": "2026-11-06T15:37:13.400Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36200,
+    "output": 354
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチンカプセル10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に印字らしきものがあるが、本文中に刻印・識別コードの文字記載なし",
+      "color": "頭部 白色不透明、胴部 橙色ではなく白色不透明（内容物：白色～微黄白色の粉末又は塊のある粉末）",
+      "shape": "oblong",
+      "size_long_mm": 11.1,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "外形 ５号 ／ 剤形 硬カプセル剤 ／ 性状 頭部 白色不透明、胴部 白色不透明、内容物 白色～微黄白色の粉末又は塊のある粉末 ／ 全長（mm） 11.1 ／ 重量（mg） 約103"
+    }
+  ]
+}

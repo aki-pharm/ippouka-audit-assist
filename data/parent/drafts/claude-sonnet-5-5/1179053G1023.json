@@ -1,0 +1,30 @@
+{
+  "id": "1179053G1023",
+  "source_file": "800155_1179053G1023_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_1179053G1023_1_17",
+  "extracted_at": "2026-11-06T15:41:34.588Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27902,
+    "output": 233
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "インヴェガ錠3mg",
+      "strength": "3mg",
+      "imprint_front": "PAL 3",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード PAL 3（外形図では錠剤の片面に表示）。裏面の刻印についての記載なし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 11,
+      "size_short_mm": 5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の錠剤 外形 長さ：11mm 直径：5mm 識別コード PAL 3"
+    }
+  ]
+}

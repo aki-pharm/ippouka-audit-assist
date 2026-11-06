@@ -1,0 +1,46 @@
+{
+  "id": "1190014F1041",
+  "source_file": "580591_1190014F1041_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1190014F1041_1_06",
+  "extracted_at": "2026-11-06T15:48:07.553Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14923,
+    "output": 995
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タルチレリン錠 5 mg「JG」",
+      "strength": "5 mg",
+      "imprint_front": "JG C37",
+      "imprint_back": "5",
+      "imprint_note": "識別コード欄は「JG C37」。表面・裏面の刻印は外形図から読み取った。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 直径 7.0mm 厚さ 3.0mm 重量 120mg 識別コード JG C37"
+    },
+    {
+      "product_name": "タルチレリンOD錠 5 mg「JG」",
+      "strength": "5 mg",
+      "imprint_front": "JG C51",
+      "imprint_back": "OD 5",
+      "imprint_note": "識別コード欄は「JG C51」。表面・裏面の刻印は外形図から読み取った。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 直径 7.0mm 厚さ 2.6mm 重量 110mg 識別コード JG C51"
+    }
+  ]
+}

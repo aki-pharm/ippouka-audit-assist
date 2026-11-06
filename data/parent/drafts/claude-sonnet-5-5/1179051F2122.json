@@ -1,0 +1,46 @@
+{
+  "id": "1179051F2122",
+  "source_file": "300119_1179051F1126_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179051F1126_1_06",
+  "extracted_at": "2026-11-06T15:38:59.634Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30757,
+    "output": 1099
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠30mg「サワイ」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザピン 30 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示（印字）。表裏の区別は本文に記載なし",
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 12.6,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／性状 黄赤色／直径（mm） 12.6×7.4／厚さ（mm） 4.6／重量（mg） 約285／本体表示 ミルタザピン 30 サワイ"
+    },
+    {
+      "product_name": "ミルタザピンOD錠30mg「サワイ」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザピン OD30 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示（印字）。表裏の区別は本文に記載なし",
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 12.6,
+      "size_short_mm": 7.3,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／性状 黄赤色／直径（mm） 12.6×7.3／厚さ（mm） 4.9／重量（mg） 約300／本体表示 ミルタザピン OD30 サワイ"
+    }
+  ]
+}

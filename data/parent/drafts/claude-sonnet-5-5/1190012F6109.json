@@ -1,0 +1,30 @@
+{
+  "id": "1190012F6109",
+  "source_file": "400278_1190012F3088_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1190012F3088_1_14",
+  "extracted_at": "2026-11-06T15:47:32.179Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32304,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "TU 126",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「TU 126」。外形図では表面に刻印の図示あり。裏面の刻印は記載なし。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩OD錠10mg「TCK」 淡赤色 口腔内崩壊錠 TU 126 直径9.5mm 厚さ3.3mm 重量280mg"
+    }
+  ]
+}

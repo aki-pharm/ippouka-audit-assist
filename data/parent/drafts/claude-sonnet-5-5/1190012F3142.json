@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3142",
+  "source_file": "530213_1190012F3142_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1190012F3142_2_12",
+  "extracted_at": "2026-11-06T15:45:47.777Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31570,
+    "output": 327
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「ケミファ」",
+      "strength": "3mg",
+      "imprint_front": "NC D3",
+      "imprint_back": "D3",
+      "imprint_note": "外形図では表に「NC D3」、裏に「D3」の表示。製剤の性状表の識別コードは「NC D3」。割線の記載なし。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 黄色の素錠 白色の素錠 淡赤色の素錠 ／ 直径 8.0mm 8.0mm 9.0mm ／ 厚さ 3.0mm 3.0mm 4.0mm ／ 識別コード NC　D3 NC　D5 NC　D10"
+    }
+  ]
+}

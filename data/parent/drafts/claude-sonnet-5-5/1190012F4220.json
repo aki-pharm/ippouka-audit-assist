@@ -1,0 +1,30 @@
+{
+  "id": "1190012F4220",
+  "source_file": "530113_1190012F3223_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1190012F3223_1_15",
+  "extracted_at": "2026-11-06T15:46:47.483Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30833,
+    "output": 912
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "NS 157",
+      "imprint_back": "5",
+      "imprint_note": "識別コードはNS 157。裏面の「5」は外形図に表示されたもので、本文には記載なし（表裏の区別も本文には記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性 状 白色の素錠 / 大きさ 錠径：8.0mm 錠厚：3.0mm 重量：170mg / 識別コード NS 157"
+    }
+  ]
+}

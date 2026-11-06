@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3185",
+  "source_file": "400186_1190012F3185_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1190012F3185_1_18",
+  "extracted_at": "2026-11-06T15:45:58.224Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35216,
+    "output": 761
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「タカタ」",
+      "strength": "3mg",
+      "imprint_front": "TTS 720",
+      "imprint_back": "3",
+      "imprint_note": "識別コード TTS-720。裏面の「3」は外形図による。割線あり。重さ約0.2g",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "割線を施した黄色の素錠　表面 直径 約8.1mm　裏面 重さ 約0.2g　側面 厚さ 約3.3mm　識別コード TTS-720"
+    }
+  ]
+}

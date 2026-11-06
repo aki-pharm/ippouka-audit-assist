@@ -1,0 +1,46 @@
+{
+  "id": "1190012F4246",
+  "source_file": "780009_1190012F1271_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1190012F1271_1_19",
+  "extracted_at": "2026-11-06T15:46:46.126Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32437,
+    "output": 958
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠5mg「明治」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の刻印は図のみで本文に記載がなく、読み取れないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩錠5mg「明治」 フィルムコーティング錠 白色 直径（mm）7.1 厚さ（mm）3.6 重量（mg）140"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「明治」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の刻印は図のみで本文に記載がなく、読み取れないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩OD錠5mg「明治」 素錠 白色 直径（mm）8.0 厚さ（mm）2.6 重量（mg）160"
+    }
+  ]
+}

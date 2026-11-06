@@ -1,0 +1,30 @@
+{
+  "id": "1190012F5200",
+  "source_file": "400186_1190012F1212_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1190012F1212_1_13",
+  "extracted_at": "2026-11-06T15:47:16.077Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31107,
+    "output": 815
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠10mg「タカタ」",
+      "strength": "10mg",
+      "imprint_front": "TTS 647",
+      "imprint_back": "10",
+      "imprint_note": "識別コード TTS-647。表面に TTS 647、裏面に 10 の表示。重さ約0.278g。",
+      "color": "赤だいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩錠10mg「タカタ」 赤だいだい色のフィルムコーティング錠 表面 TTS 647 裏面 10 直径 約8.6mm 重さ 約0.278g 側面 厚さ 約4.8mm 識別コード TTS-647"
+    }
+  ]
+}

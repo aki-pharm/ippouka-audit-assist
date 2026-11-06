@@ -1,0 +1,30 @@
+{
+  "id": "1179052M1065",
+  "source_file": "830001_1179052M1065_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1179052M1065_1_05",
+  "extracted_at": "2026-11-06T15:40:09.056Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45063,
+    "output": 312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印・識別コードの記載なし。外形図にはカプセルへの印字（製品名・20mg・YD）が描かれているが、本文では確認できない。",
+      "color": "キャップが淡赤白色、ボディが微黄白色の不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "キャップが淡赤白色、ボディが微黄白色の不透明な硬カプセル剤である。内容物は白色～微灰白色の顆粒である。（大きさ：4号カプセル、重量：162mg）"
+    }
+  ]
+}

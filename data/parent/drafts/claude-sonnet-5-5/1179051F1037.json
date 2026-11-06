@@ -1,0 +1,30 @@
+{
+  "id": "1179051F1037",
+  "source_file": "181615_1179051F1037_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_1179051F1037_2_02",
+  "extracted_at": "2026-11-06T15:37:57.941Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24907,
+    "output": 792
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レメロン錠15mg",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：MSD TZ 3（添付文書の文面では表裏の区別は不明）",
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": 10,
+      "size_short_mm": 6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2021年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "レメロン錠15mg 黄色のフィルムコート錠 MSD TZ 3 約6×10 約3.5 約154"
+    }
+  ]
+}

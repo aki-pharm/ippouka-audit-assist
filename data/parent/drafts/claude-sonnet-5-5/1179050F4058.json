@@ -1,0 +1,30 @@
+{
+  "id": "1179050F4058",
+  "source_file": "530100_1179050F1059_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179050F1059_1_06",
+  "extracted_at": "2026-11-06T15:36:48.318Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40384,
+    "output": 721
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチン錠40mg「ニプロ」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図はあるが、刻印・識別コードの文字での記載は確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 / アトモキセチン錠40mg「ニプロ」 直径(mm) 8.6 厚さ(mm) 3.7 重量(mg) 207"
+    }
+  ]
+}

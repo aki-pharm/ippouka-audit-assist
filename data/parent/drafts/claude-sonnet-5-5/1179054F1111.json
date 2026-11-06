@@ -1,0 +1,30 @@
+{
+  "id": "1179054F1111",
+  "source_file": "400278_1179054F1111_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1179054F1111_1_01",
+  "extracted_at": "2026-11-06T15:42:24.341Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36561,
+    "output": 817
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラム錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの記載なし（外形図中に印字らしきものはあるが判読不能のため未確認）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "エスシタロプラム錠 10mg「TCK」 白色 フィルムコーティング錠（割線入り） 10.0 × 4.7 3.3 128"
+    }
+  ]
+}

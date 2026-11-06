@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3169",
+  "source_file": "300119_1190012F3169_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1190012F3169_1_14",
+  "extracted_at": "2026-11-06T15:45:51.075Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28867,
+    "output": 319
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「サワイ」",
+      "strength": "3mg",
+      "imprint_front": "サワイ ドネペジル OD3",
+      "imprint_back": "OD3",
+      "imprint_note": "本体表示：サワイ ドネペジル OD3。外形図では表裏とも表示あり。裏面の表示内容は本文に明記なし。割線なし（素錠）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 性状 黄色 直径（mm） 8.0 厚さ（mm） 3.3 重量（mg） 約168 本体表示 サワイ ドネペジル OD3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179050F4040",
+  "source_file": "480235_1179050F1040_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179050F1040_1_05",
+  "extracted_at": "2026-11-06T15:36:39.516Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35866,
+    "output": 330
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチン錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "アトモ 40 キセチン トーワ",
+      "imprint_back": "アトモ 40 キセチン トーワ",
+      "imprint_note": "本体表示として「アトモ 40 キセチン トーワ」と記載。表・裏とも同じ表示（外形図より）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 本体表示 アトモ 25 キセチン トーワ アトモ 40 キセチン トーワ 直径(mm) 7.6 8.6 厚さ(mm) 3.1 3.7 質量(mg) 130 207"
+    }
+  ]
+}

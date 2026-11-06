@@ -1,0 +1,30 @@
+{
+  "id": "1179061F2029",
+  "source_file": "400093_1179061F1022_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1179061F1022_1_09",
+  "extracted_at": "2026-11-06T15:43:53.079Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33154,
+    "output": 642
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラツーダ錠40mg",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状の文章に刻印・識別コードの記載なし（外形図に印字らしきものが示されているが、文章では確認できない）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂(第11版)",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の円形の割線入りのフィルムコーティング錠（直径 約8.1mm、厚さ 約3.3mm、重さ 約163mg）"
+    }
+  ]
+}

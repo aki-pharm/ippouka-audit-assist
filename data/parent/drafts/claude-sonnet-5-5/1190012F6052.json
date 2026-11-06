@@ -1,0 +1,30 @@
+{
+  "id": "1190012F6052",
+  "source_file": "300166_1190012F3045_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1190012F3045_2_07",
+  "extracted_at": "2026-11-06T15:47:31.527Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32215,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「FFP」",
+      "strength": "10mg",
+      "imprint_front": "FF 166",
+      "imprint_back": "10",
+      "imprint_note": "裏面の「10」は図中の表示から読み取れる数字。テキスト上の識別コードは「FF 166」",
+      "color": "淡赤色の素錠",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡赤色の素錠 / サイズ 直径 約 9.0 mm 重量 280 mg 厚さ 約 4.0 mm / 識別コード FF 166"
+    }
+  ]
+}

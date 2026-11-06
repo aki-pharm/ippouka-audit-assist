@@ -1,0 +1,30 @@
+{
+  "id": "1190015M1118",
+  "source_file": "530100_1190015M1118_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1190015M1118_1_05",
+  "extracted_at": "2026-11-06T15:48:38.101Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28398,
+    "output": 292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルフラフィン塩酸塩カプセル2.5μg「ニプロ」",
+      "strength": "2.5μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図にカプセル上の印字（ナルフラフィン 2.5μg 等と思われる）があるが、本文に刻印・識別コードの記載はなく判読できないため未確認",
+      "color": "淡黄白色不透明",
+      "shape": "oval",
+      "size_long_mm": 9.9,
+      "size_short_mm": 6.7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色不透明の楕円形の軟カプセル剤（長径9.9mm、短径6.7mm、重量260mg）"
+    }
+  ]
+}

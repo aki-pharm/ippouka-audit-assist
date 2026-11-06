@@ -1,0 +1,30 @@
+{
+  "id": "1179060F1028",
+  "source_file": "400256_1179060F1028_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_1179060F1028_1_07",
+  "extracted_at": "2026-11-06T15:43:45.276Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22129,
+    "output": 774
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリンテリックス錠10mg",
+      "strength": "10mg",
+      "imprint_front": "114",
+      "imprint_back": "10",
+      "imprint_note": "識別コード欄は社名マーク入りの「114」。形状図では上面に社名マークと114、下面に10の表示あり（下面の10は図からの読み取り）。",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 両面割線入りのフィルムコーティング錠／錠剤の色 微黄色／識別コード 114／直径（mm） 約7.6／厚さ（mm） 約3.3／質量（mg） 約156"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179045F8028",
+  "source_file": "180078_1179045B1021_1_39.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_1179045B1021_1_39",
+  "extracted_at": "2026-11-06T15:34:07.877Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40078,
+    "output": 228
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エビリファイ錠1mg",
+      "strength": "1mg",
+      "imprint_front": "OG74",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードOG74。表裏の別は本文に記載なし（外形図では片面に「OG 74」の表示）",
+      "color": "微赤白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "エビリファイ錠1mg 微赤白色の素錠 6 2.5 約95 OG74"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179052M2045",
+  "source_file": "450064_1179052M1049_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_1179052M1049_1_06",
+  "extracted_at": "2026-11-06T15:41:00.316Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41450,
+    "output": 974
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル30mg「JG」",
+      "strength": "30mg",
+      "imprint_front": "デュロキセチン 30mg",
+      "imprint_back": "JG",
+      "imprint_note": "本体表示。表・裏の区別は記載なし（本体表示の記載順に転記）。剤形は硬カプセル剤（錠剤ではない）。大きさは3号カプセル、重量は約0.24g（mm表記なし）",
+      "color": "キャップが淡黄白色、ボディが微黄白色の不透明な硬カプセル剤で、内容物は白色～帯黄白色の腸溶コーティング顆粒",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "キャップが淡黄白色、ボディが微黄白色の不透明な硬カプセル剤で、内容物は白色～帯黄白色の腸溶コーティング顆粒である。 大きさ 3号カプセル 重量 約0.24g 本体表示 デュロキセチン　30mg JG"
+    }
+  ]
+}

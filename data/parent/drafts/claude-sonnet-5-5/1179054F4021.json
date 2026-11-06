@@ -1,0 +1,30 @@
+{
+  "id": "1179054F4021",
+  "source_file": "430773_1179054F3025_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1179054F3025_1_05",
+  "extracted_at": "2026-11-06T15:42:58.882Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37293,
+    "output": 317
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラムOD錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "エス シタロ 20 OD DSEP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載。表裏の区別は本文に明記されていない。剤形は素錠（口腔内崩壊錠）",
+      "color": "白色～微黄白色",
+      "shape": "other",
+      "size_long_mm": 13.1,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "エスシタロプラムOD錠20mg「DSEP」 素錠（口腔内崩壊錠）（割線入） 白色～微黄白色 エス シタロ 20 OD DSEP 13.1（長径）6.2（短径） 3.6 256"
+    }
+  ]
+}

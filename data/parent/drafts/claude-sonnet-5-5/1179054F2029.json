@@ -1,0 +1,30 @@
+{
+  "id": "1179054F2029",
+  "source_file": "790005_1179054F1022_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_1179054F1022_1_21",
+  "extracted_at": "2026-11-06T15:42:23.363Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 34040,
+    "output": 874
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レクサプロ錠20mg",
+      "strength": "20mg",
+      "imprint_front": "MO184",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：MO184。表裏の別は本文に記載がなく、外形図からの判別は不確実。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2025年4月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "白色でだ円形の割線のあるフィルムコーティング錠（識別コード MO184）"
+    }
+  ]
+}

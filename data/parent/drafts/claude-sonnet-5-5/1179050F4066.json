@@ -1,0 +1,30 @@
+{
+  "id": "1179050F4066",
+  "source_file": "580591_1179050F1067_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1179050F1067_1_04",
+  "extracted_at": "2026-11-06T15:36:49.519Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37450,
+    "output": 315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチン錠40mg「JG」",
+      "strength": "40mg",
+      "imprint_front": "アトモ40キセチンJG",
+      "imprint_back": "アトモ40キセチンJG",
+      "imprint_note": "本体表示欄に「アトモ 40 キセチン JG」と記載。表面・裏面の刻印の個別の内容は本文テキストでは区別されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アトモキセチン錠 40mg「JG」 白色のフィルムコーティング錠 表面 裏面 側面 アトモ 40 キセチン JG 直径 8.6mm 厚さ 3.7mm 重量 207mg"
+    }
+  ]
+}

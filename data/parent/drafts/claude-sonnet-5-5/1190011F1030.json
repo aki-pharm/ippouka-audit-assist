@@ -1,0 +1,30 @@
+{
+  "id": "1190011F1030",
+  "source_file": "400073_1190011F1030_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1190011F1030_1_07",
+  "extracted_at": "2026-11-06T15:44:17.163Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16915,
+    "output": 285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リルゾール錠50mg「AA」",
+      "strength": "50mg",
+      "imprint_front": "DK514",
+      "imprint_back": "50",
+      "imprint_note": "識別コード：DK514（外形図では表面に「DK514」、裏面に「50」の表示）",
+      "color": "淡黄白色～淡黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 淡黄白色～淡黄色のフィルムコーティング錠 外 形 表 側面 裏 長径約10.1mm　短径約5.1mm　厚さ約3.2mm　質量約185mg 識別コード DK514"
+    }
+  ]
+}

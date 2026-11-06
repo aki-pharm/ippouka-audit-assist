@@ -1,0 +1,30 @@
+{
+  "id": "1190012F4084",
+  "source_file": "400278_1190012F3088_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1190012F3088_1_14",
+  "extracted_at": "2026-11-06T15:46:24.173Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32304,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "TU 125",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「TU 125」。表裏の別は本文に記載がなく、外形の図に刻印が示されている。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩 OD 錠 5mg「TCK」 白色 口腔内崩壊錠 TU 125 8.0 2.7 168"
+    }
+  ]
+}

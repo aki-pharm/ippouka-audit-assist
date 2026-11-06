@@ -1,0 +1,30 @@
+{
+  "id": "1179057G1021",
+  "source_file": "400256_1179057G1021_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_1179057G1021_2_04",
+  "extracted_at": "2026-11-06T15:43:20.062Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24343,
+    "output": 547
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "インチュニブ錠1mg",
+      "strength": "1mg",
+      "imprint_front": "503",
+      "imprint_back": "1MG",
+      "imprint_note": "識別コード「503：1MG」。外形図では表面に503、裏面に1MGの表示",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色の円形の錠剤である。（徐放錠） 大きさ 直径 約7.1mm 厚さ 約4mm 識別コード 503：1MG"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179050F2055",
+  "source_file": "530100_1179050F1059_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179050F1059_1_06",
+  "extracted_at": "2026-11-06T15:36:20.958Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40384,
+    "output": 620
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチン錠10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印の記載がなく、外形の図のみ",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "アトモキセチン錠10mg「ニプロ」 白色のフィルムコーティング錠 直径6.6mm 厚さ3.3mm 重量115.5mg"
+    }
+  ]
+}

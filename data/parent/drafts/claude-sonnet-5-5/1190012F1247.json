@@ -1,0 +1,30 @@
+{
+  "id": "1190012F1247",
+  "source_file": "530169_1190012F1247_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190012F1247_1_17",
+  "extracted_at": "2026-11-06T15:44:48.486Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27337,
+    "output": 343
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「日医工」",
+      "strength": "3mg",
+      "imprint_front": "n 322",
+      "imprint_back": "3",
+      "imprint_note": "表面に社名マーク（n）と識別コード322、裏面に「3」。本体コードは「n 322 3」、包装コードは322。側面の図あり。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 黄色 白色 赤橙色 表面 裏面 側面 外形 直径（mm） 7.1 7.1 8.6 厚さ（mm） 3.3 3.3 4.4 質量（mg） 140 140 278 322 3 323 5 324 10 本体コード 包装コード 322 323 324"
+    }
+  ]
+}

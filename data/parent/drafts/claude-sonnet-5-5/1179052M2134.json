@@ -1,0 +1,30 @@
+{
+  "id": "1179052M2134",
+  "source_file": "530100_1179052M1138_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179052M1138_1_04",
+  "extracted_at": "2026-11-06T15:41:25.225Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45872,
+    "output": 360
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル30㎎「ニプロ」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文中に刻印・識別コードの文字記載なし（外形図に印字があるように見えるが本文で確認できない）。剤形は錠剤ではなく硬カプセル剤。",
+      "color": "キャップが淡黄白色、ボディが微黄白色の不透明な硬カプセル剤（内容物：白色～微灰白色の顆粒）",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 5.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "デュロキセチンカプセル30㎎「ニプロ」 白色～微灰白色の顆粒 キャップが淡黄白色、ボディが微黄白色の不透明な硬カプセル剤 15.5 5.6 183"
+    }
+  ]
+}

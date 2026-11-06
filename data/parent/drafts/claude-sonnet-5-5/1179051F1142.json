@@ -1,0 +1,46 @@
+{
+  "id": "1179051F1142",
+  "source_file": "480235_1179051F1142_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179051F1142_1_06",
+  "extracted_at": "2026-11-06T15:38:27.057Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31761,
+    "output": 1516
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠15mg「トーワ」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザピン 15 トーワ",
+      "imprint_back": "ミルタザピン 15 トーワ",
+      "imprint_note": "本体表示の表・裏は同一欄に記載されている",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "黄色のだ円形のフィルムコーティング錠／本体表示 表・裏 ミルタザピン 15 トーワ／直径(mm) 10.1／6.1（長径／短径）／厚さ(mm) 3.5"
+    },
+    {
+      "product_name": "ミルタザピンOD錠15mg「トーワ」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザ 15",
+      "imprint_back": "ミルタザピン 15 OD トーワ",
+      "imprint_note": "形状は文章で明記されていない",
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の口腔内崩壊錠／本体表示 表 ミルタザ 15／裏 ミルタザピン 15 OD トーワ／直径(mm) 8.0／厚さ(mm) 3.3"
+    }
+  ]
+}

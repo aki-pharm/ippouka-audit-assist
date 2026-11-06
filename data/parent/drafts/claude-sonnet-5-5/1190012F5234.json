@@ -1,0 +1,30 @@
+{
+  "id": "1190012F5234",
+  "source_file": "480235_1190012F1239_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1190012F1239_1_16",
+  "extracted_at": "2026-11-06T15:47:17.425Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28469,
+    "output": 680
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "ドネペ 10",
+      "imprint_back": "ドネペジル 10 トーワ",
+      "imprint_note": "割線入り。表の「ドネペ 10」は割線を挟んで表示されている可能性があるが、文面上は未確認",
+      "color": "赤橙色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "赤橙色の割線入りのフィルムコーティング錠／本体表示 表：ドネペ 10 裏：ドネペジル 10 トーワ／直径(mm) 8.5 厚さ(mm) 3.8 質量(mg) 236"
+    }
+  ]
+}

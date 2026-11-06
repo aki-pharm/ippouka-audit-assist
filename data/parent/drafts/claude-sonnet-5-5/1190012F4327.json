@@ -1,0 +1,30 @@
+{
+  "id": "1190012F4327",
+  "source_file": "400813_1190012F3320_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1190012F3320_1_11",
+  "extracted_at": "2026-11-06T15:46:53.293Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30903,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「テバ」",
+      "strength": "5mg",
+      "imprint_front": "t 155",
+      "imprint_back": "5",
+      "imprint_note": "表面に識別コード「t 155」、裏面に「5」と印字（PDF上の形状図による）。識別コード欄は「t 155」",
+      "color": "白色の口腔内崩壊錠",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の口腔内崩壊錠 / 直径（mm） 8.0 / 厚さ（mm） 3.4 / 重量（mg） 170 / 識別コード t 155"
+    }
+  ]
+}

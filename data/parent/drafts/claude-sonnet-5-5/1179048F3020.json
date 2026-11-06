@@ -1,0 +1,30 @@
+{
+  "id": "1179048F3020",
+  "source_file": "400093_1179048B1025_1_32.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1179048B1025_1_32",
+  "extracted_at": "2026-11-06T15:35:24.186Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31522,
+    "output": 317
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロナセン錠8mg",
+      "strength": "8mg",
+      "imprint_front": "ロナセン 8",
+      "imprint_back": "ロナセン 8",
+      "imprint_note": "外形図より。表裏ともに「ロナセン」「8」の印字。側面図あり。本文中に刻印の明示的な文言はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年8月改訂(第12版)",
+      "source_page": 1,
+      "source_quote": "販売名 ロナセン錠8mg ロナセン散2% 色・剤形 白色の割線入り素錠 白色の散剤 外形 ロナセン 8 ロナセン 8 ― 大きさ 直径(mm) 厚さ(mm) 重さ(mg) ― 約9 約3.2 約240"
+    }
+  ]
+}

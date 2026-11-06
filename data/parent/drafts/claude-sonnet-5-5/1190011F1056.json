@@ -1,0 +1,30 @@
+{
+  "id": "1190011F1056",
+  "source_file": "530100_1190011F1056_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1190011F1056_2_01",
+  "extracted_at": "2026-11-06T15:44:18.429Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17560,
+    "output": 289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リルゾール錠50mg「ニプロ」",
+      "strength": "50mg",
+      "imprint_front": "TS 95",
+      "imprint_back": "50",
+      "imprint_note": "側面は識別コードの記載なし（図では表に「TS 95」、裏に「50」、側面に錠剤の側面図）。識別コード欄には「TS 95」と記載",
+      "color": "淡黄白色〜淡黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色〜淡黄色のフィルムコーティング錠 （長径）約 10.1 （短径）約 5.1 約 3.2 185 TS 95"
+    }
+  ]
+}

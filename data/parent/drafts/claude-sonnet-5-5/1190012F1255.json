@@ -1,0 +1,30 @@
+{
+  "id": "1190012F1255",
+  "source_file": "530113_1190012F1255_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1190012F1255_1_15",
+  "extracted_at": "2026-11-06T15:44:47.390Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29552,
+    "output": 276
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「日新」",
+      "strength": "3mg",
+      "imprint_front": "NS 161",
+      "imprint_back": "3",
+      "imprint_note": "識別コード：NS 161。外形図には表面に「NS 161」、裏面に「3」の表示あり（外形図の表示から）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性 状 黄色のフィルムコート錠 / 外 形 大きさ 錠径：7.1mm 錠厚：3.2mm 重量：140mg / 識別コード NS 161"
+    }
+  ]
+}

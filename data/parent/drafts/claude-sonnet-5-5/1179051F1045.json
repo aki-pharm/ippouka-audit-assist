@@ -1,0 +1,30 @@
+{
+  "id": "1179051F1045",
+  "source_file": "530169_1179051F1045_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179051F1045_2_01",
+  "extracted_at": "2026-11-06T15:37:57.884Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26217,
+    "output": 330
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠15mg「EE」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザピン 15 EE",
+      "imprint_back": "ミルタザピン 15 EE",
+      "imprint_note": "本体表示として「ミルタザピン 15 EE」と記載。表面・裏面の個別の刻印内容は表の文字情報からは区別できず、図中に割線らしき線が見える。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 だ円形のフィルムコーティング錠 色調 黄色 直径（mm） 約10.1×6.1 厚さ（mm） 約3.5 質量（mg） 約155 本体表示 ミルタザピン 15 EE"
+    }
+  ]
+}

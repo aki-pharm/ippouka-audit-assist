@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3312",
+  "source_file": "270428_1190012F3312_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1190012F3312_1_13",
+  "extracted_at": "2026-11-06T15:46:19.473Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29280,
+    "output": 1078
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「サンド」",
+      "strength": "3mg",
+      "imprint_front": "DO 3",
+      "imprint_back": "なし",
+      "imprint_note": "外形図の表に「DO 3」の刻印。裏面の図には刻印の記載なし。PTPの識別コードはDO3。口腔内崩壊錠",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊錠／色調 淡黄色／外形 表 DO 3／大きさ 直径 7.6mm、厚さ 2.7mm／識別コード（PTP）DO3"
+    }
+  ]
+}

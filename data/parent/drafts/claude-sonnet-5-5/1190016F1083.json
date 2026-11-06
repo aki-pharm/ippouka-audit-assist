@@ -1,0 +1,30 @@
+{
+  "id": "1190016F1083",
+  "source_file": "530113_1190016F1083_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1190016F1083_1_04",
+  "extracted_at": "2026-11-06T15:48:57.563Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18687,
+    "output": 323
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラメルテオン錠8mg「日新」",
+      "strength": "8mg",
+      "imprint_front": "ラメルテオン 8 NS",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：ラメルテオン 8 NS。表裏の別は記載なし（外形図には円形の両面と側面が描かれている）",
+      "color": "うすいだいだいみの黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第2版 処方箋医薬品の指定解除等）",
+      "source_page": 1,
+      "source_quote": "性 状 うすいだいだいみの黄色のフィルムコーティング錠 / 大きさ 錠径：7.1mm、錠厚：3.5mm、重量：135mg / 本体表示 ラメルテオン 8 NS"
+    }
+  ]
+}

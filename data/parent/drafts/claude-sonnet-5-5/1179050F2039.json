@@ -1,0 +1,30 @@
+{
+  "id": "1179050F2039",
+  "source_file": "400186_1179050F1032_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179050F1032_1_03",
+  "extracted_at": "2026-11-06T15:36:15.697Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30212,
+    "output": 722
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチン錠10mg「タカタ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状の表に表面・裏面・側面の外形図はあるが、刻印・識別コードを説明する文言は本文にない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の円形のフィルムコーティング錠　直径：約7mm　重さ：約0.14g　厚さ：約3.6mm"
+    }
+  ]
+}

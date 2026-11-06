@@ -1,0 +1,30 @@
+{
+  "id": "1190012F6184",
+  "source_file": "530213_1190012F3142_2_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1190012F3142_2_12",
+  "extracted_at": "2026-11-06T15:47:40.997Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31570,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "NC D10",
+      "imprint_back": "D10",
+      "imprint_note": "表の識別コードは「NC D10」。裏面の刻印「D10」は外形図から読み取った内容であり、本文の識別コード欄には「NC　D10」とのみ記載。割線の記載なし。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 淡赤色の素錠 / 直径 9.0mm / 厚さ 4.0mm / 重量 280mg / 識別コード NC　D10"
+    }
+  ]
+}

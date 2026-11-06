@@ -1,0 +1,30 @@
+{
+  "id": "1179056F1021",
+  "source_file": "780009_1179056F1021_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179056F1021_1_10",
+  "extracted_at": "2026-11-06T15:43:21.996Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25611,
+    "output": 962
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シクレスト舌下錠5mg",
+      "strength": "5mg",
+      "imprint_front": "5",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表）に丸囲みの「5」の表示あり。本文中に刻印の文言記載はなし。裏面の刻印は本文に記載なし。",
+      "color": "白色～灰白色",
+      "shape": "round",
+      "size_long_mm": 12,
+      "size_short_mm": 12,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年6月改訂",
+      "source_page": 1,
+      "source_quote": "シクレスト舌下錠5mg 円形錠（凍結乾燥品） 白色～灰白色 直径（mm）約12 厚さ（mm）約3 重量（mg）約25"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179052F1023",
+  "source_file": "670082_1179052F1023_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670082_1179052F1023_1_02",
+  "extracted_at": "2026-11-06T15:39:32.096Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42770,
+    "output": 1077
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチン錠20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "デュロキセチン 20 ケミファ",
+      "imprint_back": "デュロキセチン 20 ケミファ",
+      "imprint_note": "識別コードは表の記載。上面・下面の別は外形図の表示による。側面の表示は未確認",
+      "color": "ごくうすい黄～ごくうすい緑みの黄の素錠で黄みの白～緑みを帯びた黄みの明るい灰色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2022年9月改訂",
+      "source_page": 1,
+      "source_quote": "デュロキセチン錠20mg「ケミファ」 識別コード：デュロキセチン 20 ケミファ／ごくうすい黄～ごくうすい緑みの黄の素錠で黄みの白～緑みを帯びた黄みの明るい灰色の斑点がある／直径 8.5mm 厚さ 5.4mm 重量 280mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179057G2028",
+  "source_file": "400256_1179057G1021_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_1179057G1021_2_04",
+  "extracted_at": "2026-11-06T15:43:24.735Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24343,
+    "output": 239
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "インチュニブ錠 3mg",
+      "strength": "3mg",
+      "imprint_front": "503",
+      "imprint_back": "3MG",
+      "imprint_note": "識別コード：503：3MG（表面に503、裏面に3MG）。徐放錠。",
+      "color": "淡緑白色",
+      "shape": "round",
+      "size_long_mm": 7.9,
+      "size_short_mm": 7.9,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "淡緑白色の円形の錠剤である。（徐放錠） 直径 約 7.9mm 厚さ 約 4mm 識別コード 503：3MG"
+    }
+  ]
+}

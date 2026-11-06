@@ -1,0 +1,30 @@
+{
+  "id": "1179048F3046",
+  "source_file": "370242_1179048B1033_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370242_1179048B1033_1_15",
+  "extracted_at": "2026-11-06T15:35:36.105Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31786,
+    "output": 730
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロナンセリン錠8mg「DSPB」",
+      "strength": "8mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図はあるが、刻印・識別コードを文章で記載した箇所がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年8月改訂(第13版)",
+      "source_page": 1,
+      "source_quote": "販売名 ブロナンセリン錠8mg「DSPB」 色・剤形 白色の割線入り素錠 大きさ 直径(mm) 約9 厚さ(mm) 約3.2 重さ(mg) 約240"
+    }
+  ]
+}

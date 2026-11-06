@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3215",
+  "source_file": "530169_1190012F3215_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190012F3215_1_17",
+  "extracted_at": "2026-11-06T15:45:58.068Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29889,
+    "output": 385
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「日医工」",
+      "strength": "3mg",
+      "imprint_front": "ｎ 370",
+      "imprint_back": "3",
+      "imprint_note": "表面は社名マーク（ｎ）と370の識別コード、裏面は「3」。本体コードは「ｎ370 3」、包装コードは370。剤形は素錠（口腔内崩壊錠）。質量150mg。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 色調 黄色 白色 淡赤色 ／ 直径（mm） 7.0 7.0 8.5 ／ 厚さ（mm） 3.0 3.0 3.5 ／ 質量（mg） 150 150 250 ／ 本体コード 370 3 371 5 372 10 ／ 包装コード 370 371 372"
+    }
+  ]
+}

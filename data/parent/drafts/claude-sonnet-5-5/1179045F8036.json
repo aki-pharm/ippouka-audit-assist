@@ -1,0 +1,30 @@
+{
+  "id": "1179045F8036",
+  "source_file": "300119_1179045F1074_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179045F1074_1_13",
+  "extracted_at": "2026-11-06T15:34:12.566Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43793,
+    "output": 911
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾール錠1mg「サワイ」",
+      "strength": "1mg",
+      "imprint_front": "アリピプラゾール 1 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本体表示欄には「アリピプラゾール 1 サワイ」の1つのみ記載があり、表裏の区別の記載はない",
+      "color": "微赤白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠／性状 微赤白色／直径（mm） 6.0／厚さ（mm） 2.6／重量（mg） 約90／本体表示 アリピプラゾール 1 サワイ"
+    }
+  ]
+}

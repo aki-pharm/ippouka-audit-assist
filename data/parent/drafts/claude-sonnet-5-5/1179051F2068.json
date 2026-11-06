@@ -1,0 +1,30 @@
+{
+  "id": "1179051F2068",
+  "source_file": "400278_1179051F1061_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1179051F1061_1_06",
+  "extracted_at": "2026-11-06T15:38:49.977Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28630,
+    "output": 265
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠30mg「TCK」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に印字（識別表示）が描かれているが、文章としての刻印・識別コードの記載はなく、表・裏の内容は文字情報から確認できない",
+      "color": "黄赤色",
+      "shape": null,
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ミルタザピン錠30mg「TCK」 黄赤色 フィルムコーティング錠 8.2 3.9 215"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190012F6176",
+  "source_file": "480209_1190012F3134_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1190012F3134_1_18",
+  "extracted_at": "2026-11-06T15:47:41.596Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33040,
+    "output": 282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "KRM136",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはKRM136。外形図には表面に「KRM 136」の表示がある。裏面の刻印は記載なし。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊錠／色調 淡赤色／直径(mm) 9.5／厚さ(mm) 3.3／質量(mg) 約280／識別コード KRM136"
+    }
+  ]
+}

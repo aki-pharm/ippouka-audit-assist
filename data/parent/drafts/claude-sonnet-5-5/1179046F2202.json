@@ -1,0 +1,30 @@
+{
+  "id": "1179046F2202",
+  "source_file": "780009_1179046F1206_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179046F1206_1_09",
+  "extracted_at": "2026-11-06T15:34:40.574Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33301,
+    "output": 788
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セルトラリン錠50mg「明治」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印・識別コードの文字情報は本文に記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "セルトラリン錠50mg「明治」 割線入りフィルムコーティング錠 白色 直径(mm) 7.1 厚さ(mm) 3.6 重量(mg) 155"
+    }
+  ]
+}

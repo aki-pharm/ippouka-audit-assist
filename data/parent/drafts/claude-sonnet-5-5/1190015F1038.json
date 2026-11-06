@@ -1,0 +1,30 @@
+{
+  "id": "1190015F1038",
+  "source_file": "300119_1190015F1038_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1190015F1038_1_04",
+  "extracted_at": "2026-11-06T15:48:24.725Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25580,
+    "output": 410
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルフラフィン塩酸塩OD錠2.5μg「サワイ」",
+      "strength": "2.5μg",
+      "imprint_front": "ナルフラフィン OD 2.5 サワイ",
+      "imprint_back": "ナルフラフィン OD 2.5 サワイ",
+      "imprint_note": "本体表示として「ナルフラフィン OD 2.5 サワイ」と記載。外形図では両面に表示、側面は割線なし（外形図より）。表裏の個別の記載は文章にはなし。",
+      "color": "やわらかい紫みの赤色～くすんだ赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤 形 フィルムコーティング錠（口腔内崩壊錠）／性 状 やわらかい紫みの赤色～くすんだ赤色／直径（mm） 7.1／厚さ（mm） 3.9／重量（mg） 約124／本体表示 ナルフラフィン OD 2.5 サワイ"
+    }
+  ]
+}

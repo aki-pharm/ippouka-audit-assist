@@ -1,0 +1,30 @@
+{
+  "id": "1190012F6265",
+  "source_file": "530113_1190012F3223_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1190012F3223_1_15",
+  "extracted_at": "2026-11-06T15:47:51.838Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30833,
+    "output": 285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "NS 158",
+      "imprint_back": "10",
+      "imprint_note": "外形の図には表面に「NS 158」、裏面に「10」の表示あり（図からの読み取り）。識別コードは NS 158。",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性 状 黄色の素錠 白色の素錠 淡赤色の素錠 / 錠径：9.0mm 錠厚：4.0mm 重量：280mg / 識別コード NS 158"
+    }
+  ]
+}

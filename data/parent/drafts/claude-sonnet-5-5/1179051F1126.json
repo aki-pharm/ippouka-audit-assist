@@ -1,0 +1,46 @@
+{
+  "id": "1179051F1126",
+  "source_file": "300119_1179051F1126_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179051F1126_1_06",
+  "extracted_at": "2026-11-06T15:38:19.948Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30757,
+    "output": 1289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠15mg「サワイ」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザピン 15 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の表記は「本体表示」。表裏の区別は文字情報では記載なし。剤形：フィルムコーティング錠。重量：約153mg",
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.9,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／性状 黄色／直径（mm）10.1×5.9／厚さ（mm）3.5／重量（mg）約153／本体表示 ミルタザピン 15 サワイ"
+    },
+    {
+      "product_name": "ミルタザピンOD錠15mg「サワイ」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザピン OD15 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の表記は「本体表示」。表裏の区別は文字情報では記載なし。剤形：素錠（口腔内崩壊錠）。重量：約150mg",
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.9,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／性状 黄色／直径（mm）10.1×5.9／厚さ（mm）3.6／重量（mg）約150／本体表示 ミルタザピン OD15 サワイ"
+    }
+  ]
+}

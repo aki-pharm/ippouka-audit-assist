@@ -1,0 +1,30 @@
+{
+  "id": "1190016F1040",
+  "source_file": "580591_1190016F1040_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1190016F1040_1_05",
+  "extracted_at": "2026-11-06T15:48:49.766Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25046,
+    "output": 932
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラメルテオン錠8mg「JG」",
+      "strength": "8mg",
+      "imprint_front": "ラメルテオン 8 JG",
+      "imprint_back": "ラメルテオン 8 JG",
+      "imprint_note": "本体表示欄には「ラメルテオン 8 JG」の1件のみ記載。図では表面・裏面とも同じ表示が示されている。",
+      "color": "微黄色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "微黄色～淡黄色のフィルムコーティング錠 直径7.1mm 厚さ3.3mm 重量135mg 本体表示 ラメルテオン 8 JG"
+    }
+  ]
+}

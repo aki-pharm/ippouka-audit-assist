@@ -1,0 +1,30 @@
+{
+  "id": "1190011F1021",
+  "source_file": "780069_1190011F1021_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_1190011F1021_1_17",
+  "extracted_at": "2026-11-06T15:44:13.618Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16943,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リルテック錠50",
+      "strength": "50mg",
+      "imprint_front": "RPR 202",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：RPR 202。外形図は表面・裏面・側面の3図が載っているが、表裏の刻印の別は本文に明記なし。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2022年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 / 大きさ(mm) 長径：約10.1、短径：約5.1 / 厚さ(mm) 約3.2 / 識別コード RPR 202"
+    }
+  ]
+}

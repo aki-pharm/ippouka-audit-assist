@@ -1,0 +1,46 @@
+{
+  "id": "1179054F1057",
+  "source_file": "300119_1179054F1057_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179054F1057_1_06",
+  "extracted_at": "2026-11-06T15:41:57.841Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36246,
+    "output": 1426
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラム錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "エスシタロプラム 10 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示。表裏の別は記載なし",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 10.1,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形：割線入りフィルムコーティング錠　性状：白色　直径（mm）：10.1×4.7　厚さ（mm）：3.3　重量（mg）：約128　本体表示：エスシタロプラム 10 サワイ"
+    },
+    {
+      "product_name": "エスシタロプラムOD錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "エスシタロプラム OD 10 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示。表裏の別は記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形：割線入り素錠（口腔内崩壊錠）　性状：白色～帯黄白色　直径（mm）：7.0　厚さ（mm）：2.7　重量（mg）：約125　本体表示：エスシタロプラム OD 10 サワイ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179052M1090",
+  "source_file": "300119_1179052M1090_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179052M1090_1_05",
+  "extracted_at": "2026-11-06T15:40:24.546Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41108,
+    "output": 828
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は硬カプセル剤（錠剤ではない）。性状欄の文章には刻印・識別コードの記載なし（外形図に印字があるが文字としては確認できない）。",
+      "color": "頭部：淡赤白色不透明、胴部：微黄白色不透明、内容物：白色～微灰白色の顆粒",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／性状 頭部：淡赤白色不透明 胴部：微黄白色不透明 内容物：白色～微灰白色の顆粒／全長（mm） 14.5（4号）"
+    }
+  ]
+}

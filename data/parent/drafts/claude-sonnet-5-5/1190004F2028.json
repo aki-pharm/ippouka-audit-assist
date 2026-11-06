@@ -1,0 +1,30 @@
+{
+  "id": "1190004F2028",
+  "source_file": "530169_1190004C1025_4_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190004C1025_4_07",
+  "extracted_at": "2026-11-06T15:44:11.558Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15974,
+    "output": 878
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グラマリール錠50mg",
+      "strength": "50mg",
+      "imprint_front": "457",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コード457、包装コード457。裏面の刻印は文言では記載なし（外形図のみ）",
+      "color": "白色～微帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "販売名 グラマリール錠50mg 剤 形 フィルムコーティング錠 色 調 白色～微帯黄白色 直径（mm） 約7.1 厚さ（mm） 約3.4 質量（mg） 約144 本体コード 457 包装コード 457"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "1179046F5040",
+  "source_file": "480235_1179046F1176_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179046F1176_1_17",
+  "extracted_at": "2026-11-06T15:35:10.784Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36935,
+    "output": 1305
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セルトラリン錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "セルトラリン 50 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「セルトラリン 50 トーワ」と記載。表裏の別は文字では記載されておらず、外形は図のみ。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠／本体表示 セルトラリン 50 トーワ／直径(mm) 7.1／厚さ(mm) 3.4"
+    },
+    {
+      "product_name": "セルトラリンOD錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "セルトラリン OD 50 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「セルトラリン OD 50 トーワ」と記載。表裏の別は文字では記載されておらず、外形は図のみ。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の口腔内崩壊錠／本体表示 セルトラリン OD 50 トーワ／直径(mm) 10.0／厚さ(mm) 4.6"
+    }
+  ]
+}

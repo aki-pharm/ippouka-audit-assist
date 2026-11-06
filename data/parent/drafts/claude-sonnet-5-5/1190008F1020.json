@@ -1,0 +1,30 @@
+{
+  "id": "1190008F1020",
+  "source_file": "400022_1190008F1020_4_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400022_1190008F1020_4_04",
+  "extracted_at": "2026-11-06T15:44:10.547Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14471,
+    "output": 251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サノレックス錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "LG",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：LG。外形図では表面に「LG」、裏面と側面には刻印の図示なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2024年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 / 識別コード LG / 大きさ（約） 直径：5.0mm　厚さ：2.0mm　質量：0.055g"
+    }
+  ]
+}

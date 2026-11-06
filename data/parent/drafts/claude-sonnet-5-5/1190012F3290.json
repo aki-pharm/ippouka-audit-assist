@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3290",
+  "source_file": "180095_1190012F3290_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1190012F3290_1_12",
+  "extracted_at": "2026-11-06T15:46:09.537Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31743,
+    "output": 329
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「オーハラ」",
+      "strength": "3mg",
+      "imprint_front": "ドネペジルOD3 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として「ドネペジルOD3 オーハラ」と記載。表裏の区別は本文テキストでは不明（外形図に表裏の印字あり）。割線の記載なし。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 黄色 素錠（口腔内崩壊錠）／大きさ・厚さ 直径：8.0mm 厚さ：3.3mm／重量 190mg／識別表示 ドネペジルOD3 オーハラ"
+    }
+  ]
+}

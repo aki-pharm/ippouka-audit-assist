@@ -1,0 +1,30 @@
+{
+  "id": "1179059M1024",
+  "source_file": "400256_1179059M1024_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_1179059M1024_2_04",
+  "extracted_at": "2026-11-06T15:43:39.171Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26449,
+    "output": 291
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビバンセカプセル20mg",
+      "strength": "20mg",
+      "imprint_front": "S489",
+      "imprint_back": "20mg",
+      "imprint_note": "識別コード：S489 20mg（外形図にも表示）。剤形は硬カプセル剤（錠剤ではない）。",
+      "color": "キャップ及びボディが淡黄白色の不透明",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "キャップ及びボディが淡黄白色の不透明な硬カプセル剤であり、内容物は白色～淡褐色の粉末である。 大きさ 3号カプセル 質量 約0.17g 識別コード S489 20mg"
+    }
+  ]
+}

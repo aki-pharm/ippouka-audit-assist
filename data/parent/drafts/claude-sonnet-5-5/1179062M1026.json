@@ -1,0 +1,30 @@
+{
+  "id": "1179062M1026",
+  "source_file": "340018_1179062M1026_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_1179062M1026_1_01",
+  "extracted_at": "2026-11-06T15:44:04.826Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23261,
+    "output": 961
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザズベイカプセル 30mg",
+      "strength": "30mg",
+      "imprint_front": "217 30",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「社名マーク 217 30」と記載。外形図ではカプセルに「30」と「社名マーク217」が印字されている。カプセルのため表裏の区別の記載はなく、社名マークを含む。大きさは「1号カプセル」でmm値の記載なし。質量は約0.33g。",
+      "color": "キャップが橙色、ボディが淡橙色（不透明）。内容物は白色の粉末又は塊",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "キャップが橙色、ボディが淡橙色の不透明な硬カプセル剤である。内容物は白色の粉末又は塊である。"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179051F2033",
+  "source_file": "181615_1179051F1037_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_1179051F1037_2_02",
+  "extracted_at": "2026-11-06T15:38:47.620Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24907,
+    "output": 852
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レメロン錠30mg",
+      "strength": "30mg",
+      "imprint_front": "MSD TZ 5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「MSD TZ 5」と表に記載。表・裏の別は本文からは確認できない。",
+      "color": "黄赤色",
+      "shape": null,
+      "size_long_mm": 13,
+      "size_short_mm": 7,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2021年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "レメロン錠30mg 黄赤色のフィルムコート錠 MSD TZ 5 約7×13 約4.6 約306"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179052M1103",
+  "source_file": "400186_1179052M1103_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179052M1103_1_04",
+  "extracted_at": "2026-11-06T15:40:30.215Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 44925,
+    "output": 758
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル20mg「タカタ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載なし",
+      "color": "白色～微灰白色の顆粒を含むキャップが淡赤白色、ボディが微黄白色の不透明な硬カプセル剤",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～微灰白色の顆粒を含むキャップが淡赤白色、ボディが微黄白色の不透明な硬カプセル剤 4号カプセル 長径：約14.2mm 短径：約5.3mm 質量：約143mg"
+    }
+  ]
+}

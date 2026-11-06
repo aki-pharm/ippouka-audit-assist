@@ -1,0 +1,46 @@
+{
+  "id": "1190012F5269",
+  "source_file": "780009_1190012F1271_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1190012F1271_1_19",
+  "extracted_at": "2026-11-06T15:47:28.260Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32437,
+    "output": 1157
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形の図でのみ示されており、文章での記載がないため判読できず未確認",
+      "color": "赤橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩錠10mg「明治」 フィルムコーティング錠 赤橙色 直径(mm) 8.6 厚さ(mm) 4.8 重量(mg) 279"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形の図でのみ示されており、文章での記載がないため判読できず未確認",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩OD錠10mg「明治」 素錠 淡赤色 直径(mm) 9.5 厚さ(mm) 3.8 重量(mg) 320"
+    }
+  ]
+}

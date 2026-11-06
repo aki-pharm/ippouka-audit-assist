@@ -1,0 +1,30 @@
+{
+  "id": "1190012F4130",
+  "source_file": "480209_1190012F3134_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1190012F3134_1_18",
+  "extracted_at": "2026-11-06T15:46:33.988Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33040,
+    "output": 347
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "KRM135",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：KRM135（製剤の性状の表に記載。表・裏の別は本文に記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊錠 色調 黄色 白色 淡赤色 直径(mm) 6.5 8.0 9.5 厚さ(mm) 2.4 2.7 3.3 質量(mg) 約101 約168 約280 識別コード KRM134 KRM135 KRM136（5mgは白色、直径8.0mm、厚さ2.7mm、識別コードKRM135）"
+    }
+  ]
+}

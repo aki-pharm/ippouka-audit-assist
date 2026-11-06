@@ -1,0 +1,30 @@
+{
+  "id": "1190012F4092",
+  "source_file": "830001_1190012F3096_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1190012F3096_1_15",
+  "extracted_at": "2026-11-06T15:46:27.662Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33137,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD 606",
+      "imprint_back": "なし",
+      "imprint_note": "刻印は外形図の表面に「YD 606」と表示。裏面の刻印は文章中に記載なし（外形図では裏面は無地）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の口腔内崩壊錠 / 外形 直径 約8mm 厚さ 約2.7mm 重量 168mg"
+    }
+  ]
+}

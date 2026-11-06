@@ -1,0 +1,30 @@
+{
+  "id": "1190016F1075",
+  "source_file": "480235_1190016F1075_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1190016F1075_1_03",
+  "extracted_at": "2026-11-06T15:48:57.058Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24529,
+    "output": 316
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラメルテオン錠8mg「トーワ」",
+      "strength": "8mg",
+      "imprint_front": "8 ラメルテオン トーワ",
+      "imprint_back": "8 ラメルテオン トーワ",
+      "imprint_note": "本体表示は「8 ラメルテオン トーワ」。外形図では表・裏の両面に表示あり。側面の表示は未確認",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2026年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 ごくうすい黄色のフィルムコーティング錠 本体表示 8 ラメルテオン トーワ 直径(mm) 7.2 厚さ(mm) 3.6 質量(mg) 139"
+    }
+  ]
+}

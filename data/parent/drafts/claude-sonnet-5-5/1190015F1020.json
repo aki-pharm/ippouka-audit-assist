@@ -1,0 +1,30 @@
+{
+  "id": "1190015F1020",
+  "source_file": "480220_1190015F1020_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480220_1190015F1020_1_11",
+  "extracted_at": "2026-11-06T15:48:23.689Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28298,
+    "output": 320
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レミッチOD錠2.5μg",
+      "strength": "2.5μg",
+      "imprint_front": "TR12",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード TR12（PTPシート及び錠剤に表示）。裏面の刻印は外形図上は表示なし",
+      "color": "やわらかい紫みの赤色～くすんだ赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 やわらかい紫みの赤色～くすんだ赤色のフィルムコーティング錠／大きさ（mm） 直径7.1／厚さ（mm） 約3.2／重量（mg） 約134／識別コード TR12（PTPシート及び錠剤に表示）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179054F1090",
+  "source_file": "530100_1179054F1090_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179054F1090_1_04",
+  "extracted_at": "2026-11-06T15:42:11.648Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40804,
+    "output": 625
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラム錠10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状の本文に刻印・識別コードの記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の楕円形割線入りのフィルムコーティング錠 （長径）10.1 （短径）4.7 厚さ 3.4 mm 重量 131 mg"
+    }
+  ]
+}

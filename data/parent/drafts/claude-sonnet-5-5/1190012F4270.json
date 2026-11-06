@@ -1,0 +1,30 @@
+{
+  "id": "1190012F4270",
+  "source_file": "430773_1190012F3274_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1190012F3274_1_13",
+  "extracted_at": "2026-11-06T15:46:53.180Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31433,
+    "output": 809
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄に刻印・識別コードの文字での記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩OD錠5mg「DSEP」 素錠（口腔内崩壊錠） 白色 直径8.0mm 厚さ3.3mm 重さ190mg"
+    }
+  ]
+}

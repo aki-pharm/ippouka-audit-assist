@@ -1,0 +1,30 @@
+{
+  "id": "1179054F1030",
+  "source_file": "580591_1179054F1030_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1179054F1030_1_04",
+  "extracted_at": "2026-11-06T15:41:43.395Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36233,
+    "output": 322
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラム錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "エスシタロプラム 10 JG",
+      "imprint_back": "エスシタロプラム 10 JG",
+      "imprint_note": "本体表示は「エスシタロプラム 10 JG」。表面・裏面・側面の図が掲載されているが、表裏それぞれの刻印の内訳は文面からは確認できない。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色でだ円形の割線のあるフィルムコーティング錠 長径10.1mm 短径4.7mm 厚さ3.1mm 重量130mg 本体表示 エスシタロプラム 10 JG"
+    }
+  ]
+}

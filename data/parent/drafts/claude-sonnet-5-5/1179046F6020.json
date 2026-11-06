@@ -1,0 +1,46 @@
+{
+  "id": "1179046F6020",
+  "source_file": "671450_1179046F1028_4_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_1179046F1028_4_05",
+  "extracted_at": "2026-11-06T15:35:13.282Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33301,
+    "output": 1108
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジェイゾロフト錠100mg",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「―」。文言での刻印の記載はない（外形図には印字様の表示あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.8,
+      "size_short_mm": 8.8,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ジェイゾロフト錠100mg ― 白色 割線入り フィルムコート錠 直径 8.8mm 厚さ 4.3mm"
+    },
+    {
+      "product_name": "ジェイゾロフトOD錠100mg",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「―」。文言での刻印の記載はない（外形図には印字様の表示あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 13,
+      "size_short_mm": 13,
+      "thickness_mm": 6,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ジェイゾロフトOD錠100mg ― 白色 割線入り 素錠 直径 13mm 厚さ 6.0mm"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179050F3051",
+  "source_file": "530100_1179050F1059_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179050F1059_1_06",
+  "extracted_at": "2026-11-06T15:36:33.300Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40384,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチン錠25mg「ニプロ」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に何らかの表示（「アトモキセチン25」等）が見られるが、本文テキストには刻印・識別コードの記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "アトモキセチン錠25mg「ニプロ」 白色のフィルムコーティング錠 7.6 3.1 130"
+    }
+  ]
+}

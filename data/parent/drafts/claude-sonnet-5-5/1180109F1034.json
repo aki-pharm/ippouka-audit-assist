@@ -1,0 +1,30 @@
+{
+  "id": "1180109F1034",
+  "source_file": "380087_1180109F1034_4_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1180109F1034_4_18",
+  "extracted_at": "2026-11-06T15:44:02.982Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23133,
+    "output": 317
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピーエイ配合錠",
+      "strength": "1錠中 サリチルアミド135mg・アセトアミノフェン75mg・カフェイン30mg・プロメタジンメチレンジサリチル酸塩6.75mg",
+      "imprint_front": "ZE22",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード：ZE22（外形図では表面に「ZE 22」の表示）。裏面の刻印は記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 5,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色・素錠 外形 規格 直径：9.0mm 厚み：5.0mm 重量：265mg 識別コード ZE22"
+    }
+  ]
+}

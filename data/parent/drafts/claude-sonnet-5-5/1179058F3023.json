@@ -1,0 +1,30 @@
+{
+  "id": "1179058F3023",
+  "source_file": "180078_1179058F3023_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_1179058F3023_1_05",
+  "extracted_at": "2026-11-06T15:43:35.082Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 49187,
+    "output": 646
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レキサルティOD錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの文字記載なし（外形図のみ）",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "レキサルティOD錠0.5mg 淡赤色の素錠 直径6mm 厚さ2.7mm 重さ約90mg"
+    }
+  ]
+}

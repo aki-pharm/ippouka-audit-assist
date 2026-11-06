@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3029",
+  "source_file": "170033_1190012F3029_1_29.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1190012F3029_1_29",
+  "extracted_at": "2026-11-06T15:45:28.907Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31035,
+    "output": 839
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリセプトD錠3mg",
+      "strength": "3mg",
+      "imprint_front": "247",
+      "imprint_back": "247",
+      "imprint_note": "識別コード247。外形図の表・裏とも同様の表示で、社名マークεと規格表示「3」が見える",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 アリセプトD錠3mg／剤形 口腔内崩壊錠／識別コード 247／直径（mm） 8.0／質量（mg） 168／厚さ（mm） 3.3／色 黄色"
+    }
+  ]
+}

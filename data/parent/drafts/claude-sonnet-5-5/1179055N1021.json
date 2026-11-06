@@ -1,0 +1,30 @@
+{
+  "id": "1179055N1021",
+  "source_file": "671450_1179055N1021_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_1179055N1021_3_06",
+  "extracted_at": "2026-11-06T15:43:12.125Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32641,
+    "output": 928
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イフェクサーSRカプセル37.5mg",
+      "strength": "37.5mg",
+      "imprint_front": "W 37.5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「W 37.5」と記載。表裏の区別は記載なし。本剤は錠剤ではなく3号硬カプセル（徐放カプセル）。",
+      "color": "キャップ：淡灰色、ボディ：淡紅色",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "イフェクサーSRカプセル37.5mg W 37.5 キャップ：淡灰色 ボディ：淡紅色 3号硬カプセル 徐放カプセル"
+    }
+  ]
+}

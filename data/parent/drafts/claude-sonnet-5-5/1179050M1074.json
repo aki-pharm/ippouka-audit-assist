@@ -1,0 +1,30 @@
+{
+  "id": "1179050M1074",
+  "source_file": "730869_1179050M1074_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_1179050M1074_1_04",
+  "extracted_at": "2026-11-06T15:37:06.931Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36280,
+    "output": 800
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチンカプセル5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「-」。外形図にはカプセルへの印字（「アトモキセチン」「5mg VTRS」）が描かれているが、識別コードとしての記載はない。なお本剤は錠剤ではなくカプセル剤。",
+      "color": "頭部：橙色 胴部：橙色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アトモキセチンカプセル5mg「VTRS」 5号硬カプセル - 頭部：橙色 胴部：橙色"
+    }
+  ]
+}

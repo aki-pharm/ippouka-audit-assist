@@ -1,0 +1,30 @@
+{
+  "id": "1179051F1053",
+  "source_file": "450064_1179051F1053_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_1179051F1053_1_07",
+  "extracted_at": "2026-11-06T15:38:01.193Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27525,
+    "output": 308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠15mg「JG」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザピン 15 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：ミルタザピン　15　JG。添付文書の外形図には片面に割線が見える。表裏の刻印の区別は文章では明記されていない。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.4,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 黄色のフィルムコーティング錠／大きさ 長径 10.4mm 短径 6.1mm 厚さ 3.4mm 重量 154mg／本体表示 ミルタザピン　15　JG"
+    }
+  ]
+}

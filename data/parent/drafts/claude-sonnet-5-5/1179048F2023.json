@@ -1,0 +1,30 @@
+{
+  "id": "1179048F2023",
+  "source_file": "400093_1179048B1025_1_32.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1179048B1025_1_32",
+  "extracted_at": "2026-11-06T15:35:23.510Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31522,
+    "output": 330
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロナセン錠4mg",
+      "strength": "4mg",
+      "imprint_front": "ロナセン 4",
+      "imprint_back": "ロナセン 4",
+      "imprint_note": "外形図に「ロナセン」「4」の表示あり（表裏とも同様の表示）。側面図に割線あり。刻印の詳細は外形図からの読み取り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂(第12版)",
+      "source_page": 1,
+      "source_quote": "販売名 ロナセン錠2mg ロナセン錠4mg／色・剤形 白色の素錠 白色の割線入り素錠／外形 ロナセン 4 ロナセン 4／大きさ 直径(mm) 約7.5 厚さ(mm) 約2.3 重さ(mg) 約120"
+    }
+  ]
+}

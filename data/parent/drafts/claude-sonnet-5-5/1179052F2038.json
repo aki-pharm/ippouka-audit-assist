@@ -1,0 +1,30 @@
+{
+  "id": "1179052F2038",
+  "source_file": "480235_1179052F1031_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179052F1031_1_03",
+  "extracted_at": "2026-11-06T15:39:44.282Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41288,
+    "output": 1182
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチン錠30mg「トーワ」",
+      "strength": "30mg",
+      "imprint_front": "デュロ 30 キセチン トーワ",
+      "imprint_back": "デュロ 30 キセチン トーワ",
+      "imprint_note": "本体表示は表・裏共通の欄に記載（デュロ 30 キセチン トーワ）。",
+      "color": "ごくうすい黄～ごくうすい緑みの素錠で黄みの白または緑みを帯びた黄みの明るい灰色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.9,
+      "score_line": null,
+      "source_revision": "2022年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄～ごくうすい緑みの素錠で黄みの白または緑みを帯びた黄みの明るい灰色の斑点がある／本体表示 デュロ 30 キセチン トーワ／直径(mm) 10.0／厚さ(mm) 5.9"
+    }
+  ]
+}

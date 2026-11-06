@@ -1,0 +1,30 @@
+{
+  "id": "1179052F2020",
+  "source_file": "670082_1179052F1023_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670082_1179052F1023_1_02",
+  "extracted_at": "2026-11-06T15:39:32.047Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42770,
+    "output": 420
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチン錠30mg「ケミファ」",
+      "strength": "30mg",
+      "imprint_front": "デュロキセチン 30",
+      "imprint_back": "ケミファ",
+      "imprint_note": "識別コード欄に「デュロキセチン 30 ケミファ」と記載。上面・下面の表記の対応は抽出テキストでは明確でなく、図では上面・下面に刻印が示されている。",
+      "color": "ごくうすい黄～ごくうすい緑みの黄の素錠で黄みの白～緑みを帯びた黄みの明るい灰色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.9,
+      "score_line": null,
+      "source_revision": "2022年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "デュロキセチン錠30mg「ケミファ」 デュロキセチン 30 直径 ケミファ 10.0mm 厚さ 5.9mm 重量 420mg（色調等：ごくうすい黄～ごくうすい緑みの黄の素錠で黄みの白～緑みを帯びた黄みの明るい灰色の斑点がある）"
+    }
+  ]
+}

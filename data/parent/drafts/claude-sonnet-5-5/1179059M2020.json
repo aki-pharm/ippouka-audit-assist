@@ -1,0 +1,30 @@
+{
+  "id": "1179059M2020",
+  "source_file": "400256_1179059M1024_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_1179059M1024_2_04",
+  "extracted_at": "2026-11-06T15:43:40.916Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26449,
+    "output": 320
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビバンセカプセル30mg",
+      "strength": "30mg",
+      "imprint_front": "S489 30mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：S489 30mg（表裏の区別は記載なし）。剤形は硬カプセル剤（錠剤ではない）、3号カプセル、質量約0.24g",
+      "color": "キャップが橙色、ボディが白色の不透明な硬カプセル",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "キャップが橙色、ボディが白色の不透明な硬カプセル剤であり、内容物は白色～淡褐色の粉末である。 大きさ 3 号カプセル 質量 約 0.24g 識別コード S489 30mg"
+    }
+  ]
+}

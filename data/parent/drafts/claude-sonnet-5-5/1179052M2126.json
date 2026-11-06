@@ -1,0 +1,30 @@
+{
+  "id": "1179052M2126",
+  "source_file": "530113_1179052M1120_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1179052M1120_1_03",
+  "extracted_at": "2026-11-06T15:41:22.224Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41279,
+    "output": 350
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル30mg「日新」",
+      "strength": "30mg",
+      "imprint_front": "デュロキセチン 30mg NS",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示：デュロキセチン 30mg NS（カプセル剤。表・裏の区別の記載なし）",
+      "color": "キャップが淡黄白色、ボディが微黄白色の不透明な硬カプセル剤（内容物は白色～微灰白色の顆粒）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "キャップが淡黄白色、ボディが微黄白色の不透明な硬カプセル剤である。内容物は白色～微灰白色の顆粒である。／大きさ 3号カプセル 重量：232mg／本体表示 デュロキセチン 30mg NS"
+    }
+  ]
+}

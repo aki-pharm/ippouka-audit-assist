@@ -1,0 +1,30 @@
+{
+  "id": "1190012F1212",
+  "source_file": "400186_1190012F1212_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1190012F1212_1_13",
+  "extracted_at": "2026-11-06T15:44:41.050Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31107,
+    "output": 324
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「タカタ」",
+      "strength": "3mg",
+      "imprint_front": "TTS 645",
+      "imprint_back": "3",
+      "imprint_note": "識別コード TTS-645。表面に「TTS 645」、裏面に「3」の表示あり。側面は厚さ約3.4mm、重さ約0.14g。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩錠3mg「タカタ」 黄色のフィルムコーティング錠 表面 TTS 645 裏面 3 側面 直径 約7.1mm 重さ 約0.14g 厚さ 約3.4mm 識別コード TTS-645"
+    }
+  ]
+}

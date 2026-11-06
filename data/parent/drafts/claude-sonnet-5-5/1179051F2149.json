@@ -1,0 +1,46 @@
+{
+  "id": "1179051F2149",
+  "source_file": "480235_1179051F1142_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179051F1142_1_06",
+  "extracted_at": "2026-11-06T15:39:06.878Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31761,
+    "output": 1175
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠30mg「トーワ」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザピン 30 トーワ",
+      "imprint_back": "ミルタザピン 30 トーワ",
+      "imprint_note": "本体表示は表・裏共通の欄に記載。割線の記載なし。質量308mg",
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "黄赤色のだ円形のフィルムコーティング錠／本体表示 ミルタザピン 30 トーワ／直径(mm) 13.1／7.1（長径／短径）／厚さ(mm) 4.4"
+    },
+    {
+      "product_name": "ミルタザピンOD錠30mg「トーワ」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザ 30",
+      "imprint_back": "ミルタザピン 30 OD トーワ",
+      "imprint_note": "形状の記載なし（直径のみ記載）。質量340mg",
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の割線入りの口腔内崩壊錠／本体表示 表 ミルタザ 30、裏 ミルタザピン 30 OD トーワ／直径(mm) 10.0／厚さ(mm) 4.3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179052M1138",
+  "source_file": "530100_1179052M1138_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179052M1138_1_04",
+  "extracted_at": "2026-11-06T15:40:40.667Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45872,
+    "output": 868
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル20㎎「ニプロ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文中に刻印・識別コードの記載がないため未確認",
+      "color": "キャップが淡赤白色、ボディが微黄白色の不透明な硬カプセル剤（内容物は白色～微灰白色の顆粒）",
+      "shape": "oblong",
+      "size_long_mm": 14.1,
+      "size_short_mm": 5.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "デュロキセチンカプセル20㎎「ニプロ」 白色～微灰白色の顆粒 キャップが淡赤白色、ボディが微黄白色の不透明な硬カプセル剤 長径14.1㎜ 短径5.2㎜ 内容重量122㎎"
+    }
+  ]
+}

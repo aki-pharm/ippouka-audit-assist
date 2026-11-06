@@ -1,0 +1,30 @@
+{
+  "id": "1179052M1022",
+  "source_file": "340018_1179052M1022_2_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_1179052M1022_2_25",
+  "extracted_at": "2026-11-06T15:39:57.511Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 39830,
+    "output": 879
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サインバルタカプセル 20mg",
+      "strength": "20mg",
+      "imprint_front": "031 20",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の本文テキストは空欄で、外形図と識別コード欄の画像から「社名マーク 031 20」と読み取った。表裏の区別は未確認。剤形は錠剤ではなく硬カプセル剤（4号カプセル、質量約0.15g）",
+      "color": "キャップが淡赤白色、ボディが微黄白色の不透明な硬カプセル剤（内容物は白色～微灰白色の顆粒）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "キャップが淡赤白色、ボディが微黄白色の不透明な硬カプセル剤である。内容物は白色～微灰白色の顆粒である。（大きさ：4号カプセル、質量：約0.15g）"
+    }
+  ]
+}

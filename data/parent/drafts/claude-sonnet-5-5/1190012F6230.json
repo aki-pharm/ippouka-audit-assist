@@ -1,0 +1,30 @@
+{
+  "id": "1190012F6230",
+  "source_file": "400813_1190012F3320_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1190012F3320_1_11",
+  "extracted_at": "2026-11-06T15:47:45.768Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30903,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「テバ」",
+      "strength": "10mg",
+      "imprint_front": "t 156",
+      "imprint_back": "10",
+      "imprint_note": "表面に識別コード「t 156」、裏面に「10」の印字（PDF中の外観図による）。割線の記載なし",
+      "color": "淡赤色の口腔内崩壊錠",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡赤色の口腔内崩壊錠／直径（mm）9.5／厚さ（mm）4.1／重量（mg）280／識別コード t 156"
+    }
+  ]
+}

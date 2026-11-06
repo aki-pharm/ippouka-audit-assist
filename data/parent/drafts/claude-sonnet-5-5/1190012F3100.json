@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3100",
+  "source_file": "380087_1190012F3100_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1190012F3100_1_14",
+  "extracted_at": "2026-11-06T15:45:37.435Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31249,
+    "output": 274
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「ZE」",
+      "strength": "3mg",
+      "imprint_front": "ZE43",
+      "imprint_back": "3",
+      "imprint_note": "識別コード「ZE43、3」。外形図では表面にZE/43、裏面に3が表示されている",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 黄色／剤形 素錠（口腔内崩壊錠）／錠径（mm） 7.0／厚み（mm） 3.0／重量（mg） 150／識別コード ZE43、3"
+    }
+  ]
+}

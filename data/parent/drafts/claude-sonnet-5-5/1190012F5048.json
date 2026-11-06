@@ -1,0 +1,30 @@
+{
+  "id": "1190012F5048",
+  "source_file": "430773_1190012F1042_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1190012F1042_1_13",
+  "extracted_at": "2026-11-06T15:47:03.056Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30193,
+    "output": 651
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄は外形の図のみで、刻印・識別コードの文字による記載は確認できない",
+      "color": "赤橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩錠10mg「DSEP」 フィルムコーティング錠 赤橙色 直径8.6mm 厚さ5.0mm 重さ280mg"
+    }
+  ]
+}

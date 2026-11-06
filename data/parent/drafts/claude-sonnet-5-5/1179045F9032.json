@@ -1,0 +1,30 @@
+{
+  "id": "1179045F9032",
+  "source_file": "672173_1179045B1030_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179045B1030_2_08",
+  "extracted_at": "2026-11-06T15:34:22.531Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 48951,
+    "output": 879
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾール錠24mg「アメル」",
+      "strength": "24mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「アメル」「アリピ 24」（添付文書の文言では表裏の区別の記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 2,
+      "source_quote": "アリピプラゾール錠24mg「アメル」 割線入り素錠 白色 直径：約 11.0mm 厚さ：約 3.9mm 質量：約 410.0mg 識別コード アメル アリピ 24"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "1179054F1073",
+  "source_file": "480235_1179054F1073_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179054F1073_1_03",
+  "extracted_at": "2026-11-06T15:42:03.163Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 38471,
+    "output": 1336
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラム錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "10 エスシタ",
+      "imprint_back": "エスシタロプラム 10 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の楕円形の割線入りのフィルムコーティング錠／表 10 エスシタ／裏 エスシタロプラム 10 トーワ／直径(mm) 10.1／4.7（長径／短径）／厚さ(mm) 3.3"
+    },
+    {
+      "product_name": "エスシタロプラムOD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "10 エスシタ",
+      "imprint_back": "エスシタロプラム 10 OD トーワ",
+      "imprint_note": "口腔内崩壊錠。形状は文章で明記されておらず、直径8.0mmの記載と外形図から円形とした",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の割線入りの口腔内崩壊錠／表 10 エスシタ／裏 エスシタロプラム 10 OD トーワ／直径(mm) 8.0／厚さ(mm) 3.6"
+    }
+  ]
+}

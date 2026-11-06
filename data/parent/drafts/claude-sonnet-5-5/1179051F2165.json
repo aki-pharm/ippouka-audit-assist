@@ -1,0 +1,30 @@
+{
+  "id": "1179051F2165",
+  "source_file": "530113_1179051F1169_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1179051F1169_1_07",
+  "extracted_at": "2026-11-06T15:39:03.832Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20286,
+    "output": 319
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠30mg「日新」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザピン 30 日新",
+      "imprint_back": "ミルタザピン 30 日新",
+      "imprint_note": "本体表示として「ミルタザピン 30 日新」と記載。表裏の区別は文章中に明記なし（外形図には両面の表示あり）",
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性 状 黄赤色のフィルムコーティング錠 / 大きさ 長径：13.1mm 短径： 7.1mm 錠厚： 4.2mm 重量： 306mg / 本体表示 ミルタザピン 30 日新"
+    }
+  ]
+}

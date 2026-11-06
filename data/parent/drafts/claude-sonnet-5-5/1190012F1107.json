@@ -1,0 +1,30 @@
+{
+  "id": "1190012F1107",
+  "source_file": "460028_1190012F1107_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1190012F1107_1_11",
+  "extracted_at": "2026-11-06T15:44:28.231Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29108,
+    "output": 319
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「TSU」",
+      "strength": "3mg",
+      "imprint_front": "D17",
+      "imprint_back": "3",
+      "imprint_note": "識別コード：表面D17、裏面3（フィルムコーティング錠）。質量約83mg。割線の記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 ドネペジル塩酸塩錠3mg「TSU」 剤形 フィルムコーティング錠 色調 黄色 大きさ 直径 約 6.1mm 厚さ 約 2.7mm 質量 約 83mg 識別コード 表面D17 裏面 3"
+    }
+  ]
+}

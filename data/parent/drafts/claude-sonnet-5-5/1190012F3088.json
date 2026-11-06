@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3088",
+  "source_file": "400278_1190012F3088_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1190012F3088_1_14",
+  "extracted_at": "2026-11-06T15:45:34.112Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32304,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「TCK」",
+      "strength": "3mg",
+      "imprint_front": "TU 124",
+      "imprint_back": "なし",
+      "imprint_note": "外形の図には表面に識別コードTU 124の印字あり。裏面の刻印・印字の記載は確認できず。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩 OD 錠 3mg「TCK」 黄色 口腔内崩壊錠 TU 124 6.5 2.4 101"
+    }
+  ]
+}

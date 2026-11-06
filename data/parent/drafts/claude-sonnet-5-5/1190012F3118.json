@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3118",
+  "source_file": "672173_1190012F3118_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1190012F3118_2_04",
+  "extracted_at": "2026-11-06T15:45:44.472Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33670,
+    "output": 733
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「アメル」",
+      "strength": "3mg",
+      "imprint_front": "AML DON",
+      "imprint_back": "OD3",
+      "imprint_note": "識別コードは「AML DON/OD3」と記載。表裏の区分は添付文書の外形図による。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩 OD 錠 3mg「アメル」 割線入り素錠 AML DON /OD3 黄色 直径：約 8.0mm 厚さ：約 3.3mm 質量：約 200.0mg"
+    }
+  ]
+}

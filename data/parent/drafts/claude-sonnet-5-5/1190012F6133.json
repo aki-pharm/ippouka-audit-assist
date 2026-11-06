@@ -1,0 +1,30 @@
+{
+  "id": "1190012F6133",
+  "source_file": "380087_1190012F3100_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1190012F3100_1_14",
+  "extracted_at": "2026-11-06T15:47:40.461Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31249,
+    "output": 895
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「ZE」",
+      "strength": "10mg",
+      "imprint_front": "ZE45",
+      "imprint_back": "10",
+      "imprint_note": "識別コードは「ZE45、10」。表裏の割り当ては外形図の並び順による（本文では表裏の明記なし）",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "販売名 ドネペジル塩酸塩OD錠10mg「ZE」 色調 淡赤色 剤形 素錠（口腔内崩壊錠） 錠径（mm） 8.5 厚み（mm） 3.5 重量（mg） 250 識別コード ZE45、10"
+    }
+  ]
+}

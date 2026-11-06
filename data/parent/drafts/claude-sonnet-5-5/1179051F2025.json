@@ -1,0 +1,30 @@
+{
+  "id": "1179051F2025",
+  "source_file": "780009_1179051F1029_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179051F1029_1_26",
+  "extracted_at": "2026-11-06T15:38:44.019Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25016,
+    "output": 750
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リフレックス錠30mg",
+      "strength": "30mg",
+      "imprint_front": "MS M29",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は表の外形図から読み取った。裏面の図に刻印はないが、「なし」との文章記載はない。",
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 7,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2021年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "リフレックス錠30mg フィルムコーティング錠 黄赤色 直径（mm）厚さ（mm）重量（mg） 長径：13 短径：7 4.6 306"
+    }
+  ]
+}

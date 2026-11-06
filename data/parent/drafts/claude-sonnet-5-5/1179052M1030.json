@@ -1,0 +1,30 @@
+{
+  "id": "1179052M1030",
+  "source_file": "430773_1179052M1030_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1179052M1030_1_05",
+  "extracted_at": "2026-11-06T15:40:00.484Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41012,
+    "output": 888
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図にカプセル表面の印字らしきものが示されているが、文字として判読できず、本文にも記載がないため未確認",
+      "color": "キャップ：淡赤白色、ボディー：微黄白色（内容物：白色～微灰白色の顆粒）",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "デュロキセチンカプセル20mg「DSEP」 硬カプセル剤（4号） 内容物：白色～微灰白色の顆粒 色：キャップ 淡赤白色、ボディー 微黄白色 外形：長径14.2mm、短径5.3mm、質量158mg"
+    }
+  ]
+}

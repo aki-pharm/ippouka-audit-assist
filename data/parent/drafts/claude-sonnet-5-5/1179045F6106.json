@@ -1,0 +1,30 @@
+{
+  "id": "1179045F6106",
+  "source_file": "530169_1179045F4103_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179045F4103_1_13",
+  "extracted_at": "2026-11-06T15:33:57.233Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36542,
+    "output": 344
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾールOD錠12mg「日医工」",
+      "strength": "12mg",
+      "imprint_front": "アリピプラゾール OD 12 日医工",
+      "imprint_back": "アリピプラゾール OD 12 日医工",
+      "imprint_note": "本体表示：アリピプラゾール/OD/12/日医工、包装コード169。表面・裏面の刻印の別は文字情報からは判別できないため、本体表示を両面に記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 素錠（口腔内崩壊錠） 色 調 白色 直径(mm) 8.0 厚さ(mm) 3.1 質量(mg) 180 本体表示 アリピプラゾール OD 12 日医工 包装コード 169"
+    }
+  ]
+}

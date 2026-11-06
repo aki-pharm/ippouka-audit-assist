@@ -1,0 +1,30 @@
+{
+  "id": "1190012F2065",
+  "source_file": "300166_1190012F1069_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1190012F1069_2_06",
+  "extracted_at": "2026-11-06T15:45:08.690Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31216,
+    "output": 757
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠5mg「FFP」",
+      "strength": "5mg",
+      "imprint_front": "FF 142",
+      "imprint_back": "5",
+      "imprint_note": "識別コードはFF 142。裏面の「5」は外形図の表記で、本文中には記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコート錠 / サイズ 直径 約7.1mm 重量 140mg 厚さ 約3.2mm / 識別コード FF 142"
+    }
+  ]
+}

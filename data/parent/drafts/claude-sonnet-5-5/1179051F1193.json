@@ -1,0 +1,30 @@
+{
+  "id": "1179051F1193",
+  "source_file": "671940_1179051F1193_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_1179051F1193_1_07",
+  "extracted_at": "2026-11-06T15:38:32.646Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28599,
+    "output": 851
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠15mg「フェルゼン」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図（表・裏）に錠剤への印字らしきものが見えるが、文章としては記載がなく、判読できないため未確認",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "黄色のだ円形のフィルムコーティング錠　大きさ等 長径：10.1mm 短径：6.1mm 厚さ：3.5mm 質量：155mg"
+    }
+  ]
+}

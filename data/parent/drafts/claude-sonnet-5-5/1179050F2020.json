@@ -1,0 +1,30 @@
+{
+  "id": "1179050F2020",
+  "source_file": "430773_1179050F1024_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1179050F1024_2_03",
+  "extracted_at": "2026-11-06T15:36:12.370Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37628,
+    "output": 615
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチン錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄は外形の図示のみで、刻印・識別コードの文字は本文に記載されていない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "アトモキセチン錠10mg「DSEP」 フィルムコーティング錠 白色 直径6.6mm 厚さ3.3mm 重さ115.5mg"
+    }
+  ]
+}

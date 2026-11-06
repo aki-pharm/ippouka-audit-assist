@@ -1,0 +1,46 @@
+{
+  "id": "1190014F2021",
+  "source_file": "400315_1190014F1033_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1190014F1033_1_07",
+  "extracted_at": "2026-11-06T15:48:14.890Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 13034,
+    "output": 1058
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレジスト錠5mg",
+      "strength": "5mg",
+      "imprint_front": "TA137",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TA137。裏面の刻印は文書に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "セレジスト錠5mg 素錠・白色（割線入） 識別コード TA137 直径(mm) 7.0 厚さ(mm) 3.0 重量(g) 0.12"
+    },
+    {
+      "product_name": "セレジストOD錠5mg",
+      "strength": "5mg",
+      "imprint_front": "TA142",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TA142。裏面の刻印は文書に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "セレジストOD錠5mg 素錠・白色（口腔内崩壊錠、割線入） 識別コード TA142 直径(mm) 7.0 厚さ(mm) 3.0 重量(g) 0.11"
+    }
+  ]
+}

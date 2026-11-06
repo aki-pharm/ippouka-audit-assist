@@ -1,0 +1,30 @@
+{
+  "id": "1190012F1239",
+  "source_file": "480235_1190012F1239_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1190012F1239_1_16",
+  "extracted_at": "2026-11-06T15:44:47.768Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28469,
+    "output": 854
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "ドネペジル 3 トーワ",
+      "imprint_back": "ドネペジル 3 トーワ",
+      "imprint_note": "本体表示。表・裏とも同一の表示（表裏の欄が共通）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠 本体表示 ドネペジル 3 トーワ 直径(mm) 6.1 厚さ(mm) 2.9"
+    }
+  ]
+}

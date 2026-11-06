@@ -1,0 +1,30 @@
+{
+  "id": "1179051F2076",
+  "source_file": "830001_1179051F1070_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1179051F1070_1_07",
+  "extracted_at": "2026-11-06T15:38:55.720Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29488,
+    "output": 664
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠30mg「YD」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載なし（外形図のみ）",
+      "color": "黄赤色",
+      "shape": null,
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "黄赤色の割線入りのフィルムコーティング錠 直径（長径）約13.1mm（短径）約7.1mm 厚さ約4.5mm 重量306mg"
+    }
+  ]
+}

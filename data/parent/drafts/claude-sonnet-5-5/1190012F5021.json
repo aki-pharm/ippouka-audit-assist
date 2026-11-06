@@ -1,0 +1,30 @@
+{
+  "id": "1190012F5021",
+  "source_file": "170033_1190012C1020_1_32.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1190012C1020_1_32",
+  "extracted_at": "2026-11-06T15:47:05.582Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30796,
+    "output": 843
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリセプト錠10mg",
+      "strength": "10mg",
+      "imprint_front": "アリセプト10",
+      "imprint_back": "アリセプト10",
+      "imprint_note": "識別コード欄の表記は「εアリセプト10」で、図では表裏とも同じ表示。割線の記載なし。フィルムコーティング錠",
+      "color": "赤橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状　アリセプト錠10mg：剤形 フィルムコーティング錠、識別コード アリセプト10、直径（mm）8.6、質量（mg）278、厚さ（mm）4.8、色 赤橙色"
+    }
+  ]
+}

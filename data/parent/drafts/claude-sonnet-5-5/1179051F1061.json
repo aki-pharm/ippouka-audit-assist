@@ -1,0 +1,30 @@
+{
+  "id": "1179051F1061",
+  "source_file": "400278_1179051F1061_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1179051F1061_1_06",
+  "extracted_at": "2026-11-06T15:38:04.387Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28630,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠15mg「TCK」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄に印字（識別コード）の図はあるが、本文テキストでは刻印内容が読み取れない。図には「15 TCK」と見えるが、確認できていないため未確認とした",
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ミルタザピン錠 15mg「TCK」 黄色 フィルムコーティング錠 6.6 3.1 108.4"
+    }
+  ]
+}

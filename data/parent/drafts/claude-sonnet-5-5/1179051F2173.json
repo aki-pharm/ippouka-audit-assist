@@ -1,0 +1,30 @@
+{
+  "id": "1179051F2173",
+  "source_file": "530100_1179051F1177_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179051F1177_1_08",
+  "extracted_at": "2026-11-06T15:39:07.797Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 32368,
+    "output": 516
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠30mg「ニプロ」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印・識別コードの記載なし（外形図のみで判読不可）",
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "黄赤色の楕円形のフィルムコーティング錠 （長径）13.1 （短径）7.0 厚さ4.6 重量306"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179051F1207",
+  "source_file": "180024_1179051F1207_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180024_1179051F1207_1_07",
+  "extracted_at": "2026-11-06T15:38:38.452Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26144,
+    "output": 861
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠15mg｢明治｣",
+      "strength": "15mg",
+      "imprint_front": "MS 112",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は性状欄の図から判読。裏面は図に刻印が見えないが、文章での「なし」の明記がないため未確認とした。割線かどうかは図からは確認できない。",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2021年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "ミルタザピン錠15mg｢明治｣ フィルムコーティング錠 黄色 直径（mm） 厚さ（mm） 重量（mg） 長径：10 短径：6 3.5 154"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179050M3069",
+  "source_file": "672173_1179050M1066_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179050M1066_2_02",
+  "extracted_at": "2026-11-06T15:37:28.023Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40511,
+    "output": 352
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチンカプセル25mg「アメル」",
+      "strength": "25mg",
+      "imprint_front": "アトモキセチン アメル 25mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「アトモキセチン アメル 25mg」と記載。カプセル剤（3号カプセル）であり錠剤ではない。表裏の区別は記載なし。",
+      "color": "白色の粉末を含むキャップが青色、ボディが白色の不透明硬カプセル剤",
+      "shape": "oblong",
+      "size_long_mm": 15.7,
+      "size_short_mm": 5.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の粉末を含むキャップが青色、ボディが白色の不透明硬カプセル剤 アトモキセチン アメル 25mg 長径：約 15.7mm 短径：約 5.9mm 質量：約 189.0mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179051F2211",
+  "source_file": "400073_1179051F1215_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1179051F1215_1_03",
+  "extracted_at": "2026-11-06T15:39:13.350Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26253,
+    "output": 374
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠30mg「VTRS」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザピン 30 VTRS",
+      "imprint_back": "ミルタザピン 30 VTRS",
+      "imprint_note": "識別コード欄は「－」。外形の上面・下面に「ミルタザピン」「３０」「VTRS」の印字が図示されている。側面の刻印は未確認",
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ミルタザピン錠30mg ｢VTRS｣ ミ ルタ ザ ピ ン ３０ V T R S ミ ルタ ザ ピ ン ３０ V T R S － 黄赤色のだ円形のフィルムコーティング錠 長径 13.1mm 短径 7.1mm 厚さ 4.4mm 質量 308mg"
+    }
+  ]
+}

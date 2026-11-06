@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3347",
+  "source_file": "530100_1190012F3347_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1190012F3347_2_01",
+  "extracted_at": "2026-11-06T15:46:18.595Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33086,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「ニプロ」",
+      "strength": "3mg",
+      "imprint_front": "TG203",
+      "imprint_back": "3",
+      "imprint_note": "識別コード：TG203。表に「TG 203」、裏に「3」の印字が図示されている（表の文言は識別コード欄のTG203のみ）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "黄色の素錠（口腔内崩壊錠） 直径7.0mm 厚さ3.0mm 重量150mg 識別コードTG203"
+    }
+  ]
+}

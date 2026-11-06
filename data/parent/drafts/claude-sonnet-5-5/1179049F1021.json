@@ -1,0 +1,30 @@
+{
+  "id": "1179049F1021",
+  "source_file": "300242_1179049F1021_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_1179049F1021_1_22",
+  "extracted_at": "2026-11-06T15:35:51.223Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 33803,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロザリル錠25mg",
+      "strength": "25mg",
+      "imprint_front": "CLOZ 25",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「CLOZ 25」と記載。表裏の区別は本文に明記なし。片面割線入り。",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 2.35,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 黄色の片面割線入りの素錠 / 識別コード CLOZ 25 / 大きさ（約）直径：6.3mm 厚さ：2.35mm 質量：0.095g"
+    }
+  ]
+}

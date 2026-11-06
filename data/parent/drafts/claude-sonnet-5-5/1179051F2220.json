@@ -1,0 +1,30 @@
+{
+  "id": "1179051F2220",
+  "source_file": "300166_1179051F1223_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1179051F1223_1_02",
+  "extracted_at": "2026-11-06T15:39:18.059Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28349,
+    "output": 335
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠30mg「KMP」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザピン 30 KMP",
+      "imprint_back": "ミルタザピン 30 KMP",
+      "imprint_note": "識別コードは「ミルタザピン 30 KMP」。表裏とも同じ識別コードかどうかは外形の図からは文字で確認できないため、識別コード欄の記載を両面に記入",
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "黄赤色の割線入りのフィルムコーティング錠　長径 約 13.1mm　短径 約 7.1mm　厚さ 約 4.5mm　重量 306mg　識別コード ミルタザピン 30 KMP"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190012F2022",
+  "source_file": "170033_1190012C1020_1_32.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1190012C1020_1_32",
+  "extracted_at": "2026-11-06T15:45:00.284Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30796,
+    "output": 966
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリセプト錠5mg",
+      "strength": "5mg",
+      "imprint_front": "アリセプト5",
+      "imprint_back": "アリセプト5",
+      "imprint_note": "識別コードの先頭にεマーク（社名マーク）を含む。外形図では表・裏とも同じ刻印",
+      "color": "白　色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／識別コード ϵアリセプト5／直径（mm）7.1／質量（mg）140／厚さ（mm）3.5／色 白　色"
+    }
+  ]
+}

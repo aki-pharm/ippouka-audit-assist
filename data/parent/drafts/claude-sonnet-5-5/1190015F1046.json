@@ -1,0 +1,30 @@
+{
+  "id": "1190015F1046",
+  "source_file": "670156_1190015F1046_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670156_1190015F1046_1_05",
+  "extracted_at": "2026-11-06T15:48:25.640Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26558,
+    "output": 382
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルフラフィン塩酸塩OD錠2.5μg「フソー」",
+      "strength": "2.5μg",
+      "imprint_front": "ナルフラフィン OD 2.5 フソー",
+      "imprint_back": "ナルフラフィン OD 2.5 フソー",
+      "imprint_note": "本体表示「ナルフラフィン OD 2.5 フソー」。外形図の表面・裏面に同様の表示あり。側面に割線の記載なし。",
+      "color": "やわらかい紫みの赤色～くすんだ赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（口腔内崩壊錠）／性状 やわらかい紫みの赤色～くすんだ赤色／直径 7.1mm／厚さ 3.9mm／質量 約124mg／本体表示 ナルフラフィン OD 2.5 フソー"
+    }
+  ]
+}

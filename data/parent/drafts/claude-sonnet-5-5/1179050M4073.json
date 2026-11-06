@@ -1,0 +1,30 @@
+{
+  "id": "1179050M4073",
+  "source_file": "730869_1179050M1074_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_1179050M1074_1_04",
+  "extracted_at": "2026-11-06T15:37:48.863Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36280,
+    "output": 855
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチンカプセル40mg「VTRS」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「-」。外形図には「アトモキセチン」「40mg VTRS」の印字が示されているが、識別コードとしての記載はない。剤形はカプセル剤（錠剤ではない）。",
+      "color": "頭部：青色 胴部：青色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "アトモキセチンカプセル40mg「VTRS」 3号硬カプセル - 頭部：青色 胴部：青色"
+    }
+  ]
+}

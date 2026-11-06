@@ -1,0 +1,30 @@
+{
+  "id": "1190012F1182",
+  "source_file": "300119_1190012C1046_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1190012C1046_1_13",
+  "extracted_at": "2026-11-06T15:44:37.798Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28929,
+    "output": 353
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「サワイ」",
+      "strength": "3mg",
+      "imprint_front": "SW ドネペジル 3",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。外形図には割線のない円形の表面・裏面と側面が描かれているが、裏面の刻印についての文章記載はなし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 性　状 黄色 白色 赤橙色 直径（mm） 7.1 7.1 8.6 厚さ（mm） 3.5 3.5 4.8 重量（mg） 約129 約129 約258 本体表示 SW ドネペジル 3 SW ドネペジル 5 SW ドネペジル 10"
+    }
+  ]
+}

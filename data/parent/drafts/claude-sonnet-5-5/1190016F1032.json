@@ -1,0 +1,30 @@
+{
+  "id": "1190016F1032",
+  "source_file": "400813_1190016F1032_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1190016F1032_1_05",
+  "extracted_at": "2026-11-06T15:48:41.408Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22709,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラメルテオン錠8mg「武田テバ」",
+      "strength": "8mg",
+      "imprint_front": "TTラメ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：TTラメ（表面に印字されている図が示されているが、裏面の刻印の記載は確認できない）",
+      "color": "うすいだいだいみの黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすいだいだいみの黄色のフィルムコーティング錠 形 状 直径 7.1mm 厚さ 3.6mm 重量 135mg 識別コード TTラメ"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190012F1069",
+  "source_file": "300166_1190012F1069_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1190012F1069_2_06",
+  "extracted_at": "2026-11-06T15:44:27.024Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31216,
+    "output": 294
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「FFP」",
+      "strength": "3mg",
+      "imprint_front": "FF 141",
+      "imprint_back": "3",
+      "imprint_note": "表面に識別コード「FF 141」、裏面に「3」の表示（外形図より）。割線の記載なし。形状は側面図より、添付文書に形の文言記載なし。",
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色のフィルムコート錠 / サイズ 直径 約7.1 mm 重量 140 mg 厚さ 約3.2 mm / 識別コード FF 141"
+    }
+  ]
+}

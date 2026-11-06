@@ -1,0 +1,30 @@
+{
+  "id": "1179054F3025",
+  "source_file": "430773_1179054F3025_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1179054F3025_1_05",
+  "extracted_at": "2026-11-06T15:42:54.606Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37293,
+    "output": 797
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラムOD錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "エス シタロ 10 OD DSEP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「エス シタロ 10 OD DSEP」が記載されている。文字情報のみでは表裏の区別は不明。",
+      "color": "白色～微黄白色",
+      "shape": null,
+      "size_long_mm": 10.4,
+      "size_short_mm": 4.9,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "エスシタロプラムOD錠10mg「DSEP」 素錠（口腔内崩壊錠）（割線入） 白色～微黄白色 識別コード エス シタロ 10 OD DSEP 大きさ 10.4（長径）4.9（短径）mm 厚さ 2.8mm 重さ 128mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190004F1021",
+  "source_file": "530169_1190004C1025_4_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190004C1025_4_07",
+  "extracted_at": "2026-11-06T15:44:03.523Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15974,
+    "output": 279
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グラマリール錠25mg",
+      "strength": "25mg",
+      "imprint_front": "456",
+      "imprint_back": "なし",
+      "imprint_note": "本体コード456、包装コード456。外形の図では表面に社名マークと思われる記号と「456」が示され、裏面は無地",
+      "color": "白色～微帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2025年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 フィルムコーティング錠 色 調 白色～微帯黄白色 直径（mm） 約6.1 厚さ（mm） 約3.0 質量（mg） 約93 本体コード 456 包装コード 456"
+    }
+  ]
+}

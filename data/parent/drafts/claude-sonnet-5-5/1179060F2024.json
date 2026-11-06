@@ -1,0 +1,30 @@
+{
+  "id": "1179060F2024",
+  "source_file": "400256_1179060F1028_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_1179060F1028_1_07",
+  "extracted_at": "2026-11-06T15:43:47.184Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22129,
+    "output": 812
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリンテリックス錠20mg",
+      "strength": "20mg",
+      "imprint_front": "115",
+      "imprint_back": "20",
+      "imprint_note": "識別コード115（上面、社名マーク併記）。下面の「20」は性状欄の図から確認。両面割線入り。",
+      "color": "微黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 両面割線入りのフィルムコーティング錠 / 錠剤の色 微黄赤色 / 識別コード 115 / 直径（mm）約7.6 / 厚さ（mm）約3.3 / 質量（mg）約156"
+    }
+  ]
+}

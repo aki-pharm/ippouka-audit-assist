@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3274",
+  "source_file": "430773_1190012F3274_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1190012F3274_1_13",
+  "extracted_at": "2026-11-06T15:46:11.477Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31433,
+    "output": 775
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「DSEP」",
+      "strength": "3mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状の表には刻印・識別コードの文字記載がなく、外形の図のみ。図中の印字は文字として書き写せないため未確認",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ドネペジル塩酸塩OD錠3mg「DSEP」 素錠（口腔内崩壊錠） 黄色 直径8.0mm 厚さ3.3mm 重さ190mg"
+    }
+  ]
+}

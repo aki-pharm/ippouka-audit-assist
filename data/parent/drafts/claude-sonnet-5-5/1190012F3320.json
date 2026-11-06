@@ -1,0 +1,30 @@
+{
+  "id": "1190012F3320",
+  "source_file": "400813_1190012F3320_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1190012F3320_1_11",
+  "extracted_at": "2026-11-06T15:46:17.289Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 30903,
+    "output": 262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「テバ」",
+      "strength": "3mg",
+      "imprint_front": "t 154",
+      "imprint_back": "3",
+      "imprint_note": "表は識別コード「t 154」、裏は「3」（図中の表示）。割線の記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色の口腔内崩壊錠／直径（mm） 8.0／厚さ（mm） 3.4／重量（mg） 170／識別コード t 154"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179052M1189",
+  "source_file": "480209_1179052M1189_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1179052M1189_1_06",
+  "extracted_at": "2026-11-06T15:40:50.609Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 44904,
+    "output": 408
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "デュロキセチン 20mg",
+      "imprint_back": "杏林",
+      "imprint_note": "本体表示：「デュロキセチン 20mg」「杏林」。剤形は硬カプセル剤（錠剤ではない）。大きさは4号カプセル（mm値の記載なし）、重量約0.16g。",
+      "color": "キャップが淡赤白色、ボディが微黄白色の不透明な硬カプセル剤で、内容物は白色～帯黄白色の腸溶コーティング顆粒",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "キャップが淡赤白色、ボディが微黄白色の不透明な硬カプセル剤で、内容物は白色～帯黄白色の腸溶コーティング顆粒である。（本体表示 デュロキセチン 20mg 杏林、大きさ 4号カプセル、重量 約0.16g）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190015M1070",
+  "source_file": "230034_1190015M1070_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230034_1190015M1070_1_03",
+  "extracted_at": "2026-11-06T15:48:34.582Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26286,
+    "output": 798
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルフラフィン塩酸塩カプセル2.5μg「キッセイ」",
+      "strength": "2.5μg",
+      "imprint_front": "ナルフラフィン キッセイ",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図中の印字（ナルフラフィン／キッセイ）を転記。裏面の記載は確認できない。剤形は錠剤ではなく軟カプセル剤。",
+      "color": "淡黄白色不透明",
+      "shape": "oval",
+      "size_long_mm": 9.7,
+      "size_short_mm": 6.4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 楕円球状の軟カプセル剤 色調 淡黄白色不透明 外形 ナルフラフィン キッセイ 大きさ 長径 約9.7mm 短径 約6.4mm 質量 約244mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179054F1065",
+  "source_file": "400186_1179054F1065_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179054F1065_1_04",
+  "extracted_at": "2026-11-06T15:41:59.086Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36746,
+    "output": 931
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラム錠10mg「タカタ」",
+      "strength": "10mg",
+      "imprint_front": "エスシタロプラム 10 タカタ",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印・印字は外形図の中にのみ示され、本文には記載なし。表面は図から読み取り、裏面は図が不鮮明で未確認。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 4.7,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色楕円形の割線入りのフィルムコーティング錠 長径約10.1mm 短径約4.7mm 約128mg 約3.1mm"
+    }
+  ]
+}

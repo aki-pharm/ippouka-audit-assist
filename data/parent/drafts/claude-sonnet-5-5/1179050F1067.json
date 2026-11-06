@@ -1,0 +1,30 @@
+{
+  "id": "1179050F1067",
+  "source_file": "580591_1179050F1067_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1179050F1067_1_04",
+  "extracted_at": "2026-11-06T15:36:10.762Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 37450,
+    "output": 304
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトモキセチン錠5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "アトモ キセチン JG 5",
+      "imprint_back": "アトモ キセチン JG 5",
+      "imprint_note": "本体表示は「アトモ5 キセチン JG」。表面・裏面・側面の外形図あり。割線の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "アトモキセチン錠5mg「JG」 白色のフィルムコーティング錠 表面 裏面 側面 直径5.1mm 厚さ2.8mm 重量59mg 本体表示 アトモ5 キセチン JG"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179050M1023",
+  "source_file": "530471_1179050M1023_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530471_1179050M1023_1_21",
+  "extracted_at": "2026-11-06T15:36:53.913Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 31995,
+    "output": 734
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ストラテラカプセル5mg",
+      "strength": "5mg",
+      "imprint_front": "3226",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル剤（3号）。識別コードは3226（添付文書の外形図には社名マークも併記されているが、文章での記載は識別コードのみ）。表裏の区別は記載なし。",
+      "color": "だいだい色",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": 5.85,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形: キャップ部及びボディ部がだいだい色の硬カプセル剤／外形: 3号／寸法・重量: 長径:約15.8mm 短径:約5.85mm 重量:約0.28g／識別コード 3226"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1179054F2037",
+  "source_file": "580591_1179054F1030_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1179054F1030_1_04",
+  "extracted_at": "2026-11-06T15:42:17.313Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 36233,
+    "output": 328
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスシタロプラム錠20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "エスシタロプラム 20 JG",
+      "imprint_back": "エスシタロプラム 20 JG",
+      "imprint_note": "本体表示は「エスシタロプラム 20 JG」。表面・裏面の個別の刻印内容は表の記載から分離できないため、本体表示欄の文字を両面に記載。",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色でだ円形の割線のあるフィルムコーティング錠 / 表面 裏面 側面 エスシタロプラム 20 JG 長径13.1mm 短径6.1mm 厚さ3.7mm 重量258mg"
+    }
+  ]
+}
