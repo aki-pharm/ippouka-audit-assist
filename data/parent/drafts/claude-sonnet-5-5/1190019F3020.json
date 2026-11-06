@@ -1,0 +1,46 @@
+{
+  "id": "1190019F3020",
+  "source_file": "431010_1190019F1028_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_1190019F1028_3_02",
+  "extracted_at": "2026-11-06T15:55:49.392Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26941,
+    "output": 1266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レミニール錠12mg",
+      "strength": "12mg",
+      "imprint_front": "JANSSEN G12",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「JANSSEN G12」と記載。表裏のどちらに印字されているかは本文では未確認。割線の記載なし。",
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：白色～淡黄色のフィルムコーティング錠／大きさ：直径（mm）8、厚さ（mm）3.6／識別コード：JANSSEN G12"
+    },
+    {
+      "product_name": "レミニールOD錠12mg",
+      "strength": "12mg",
+      "imprint_front": "JP112",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「JP112」と記載。表裏のどちらに印字されているかは本文では未確認。割線の記載なし。口腔内崩壊錠。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：白色の素錠（口腔内崩壊錠）／大きさ：直径（mm）8、厚さ（mm）3.4／識別コード：JP112"
+    }
+  ]
+}

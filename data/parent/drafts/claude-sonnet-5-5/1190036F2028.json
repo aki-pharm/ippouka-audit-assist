@@ -1,0 +1,30 @@
+{
+  "id": "1190036F2028",
+  "source_file": "112130_1190036F3024_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_1190036F3024_1_01",
+  "extracted_at": "2026-11-06T15:58:30.906Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21688,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アクイプタ錠30mg",
+      "strength": "30mg",
+      "imprint_front": "A30",
+      "imprint_back": "なし",
+      "imprint_note": "外形図の上面に「A30」の表示。下面は無表示。識別コード欄は「A30」",
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 14,
+      "size_short_mm": 7,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "アクイプタ錠30mg 白色～微黄白色の楕円形の素錠 A30 長径：約14mm、短径：約7mm、厚さ：約4mm、重量：約0.3g"
+    }
+  ]
+}

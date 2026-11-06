@@ -1,0 +1,30 @@
+{
+  "id": "2129011F2031",
+  "source_file": "181615_2129011F1035_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181615_2129011F1035_3_04",
+  "extracted_at": "2026-11-06T16:03:26.479Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20000,
+    "output": 281
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベプリコール錠100mg",
+      "strength": "100mg",
+      "imprint_front": "HK 1",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは錠剤表面に表示（図中の表側の刻印）。裏面の刻印の記載は確認できず、図上は無地",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 白色～微黄白色のフィルムコート錠 / 外形等 重さ(mg)160 直径(mm)8.1 厚さ(mm)3.5 / 識別コード HK 1"
+    }
+  ]
+}

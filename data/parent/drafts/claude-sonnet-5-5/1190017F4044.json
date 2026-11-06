@@ -1,0 +1,30 @@
+{
+  "id": "1190017F4044",
+  "source_file": "400813_1190017F1177_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1190017F1177_1_06",
+  "extracted_at": "2026-11-06T15:51:33.685Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41637,
+    "output": 787
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠50mg「武田テバ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は性状欄の図中にのみ表示されており、文字情報としては記載がないため確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の口腔内崩壊錠 / 直径（mm） 8.1 / 厚さ（mm） 3.8 / 重量（mg） 180（プレガバリンOD錠50mg「武田テバ」の列）"
+    }
+  ]
+}

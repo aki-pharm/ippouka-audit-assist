@@ -1,0 +1,30 @@
+{
+  "id": "1231009F1100",
+  "source_file": "460028_1231009F1100_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1231009F1100_1_07",
+  "extracted_at": "2026-11-06T15:59:00.056Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 7736,
+    "output": 247
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メペンゾラート臭化物錠 7.5mg「ツルハラ」",
+      "strength": "7.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄に刻印・識別コードの記載なし",
+      "color": "淡褐色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2022年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 色調 淡褐色 大きさ 直径 約 7.0mm 厚さ 約 4.3mm 質量 約 150mg"
+    }
+  ]
+}

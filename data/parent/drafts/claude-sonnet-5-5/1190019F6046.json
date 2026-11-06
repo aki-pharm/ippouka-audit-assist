@@ -1,0 +1,30 @@
+{
+  "id": "1190019F6046",
+  "source_file": "580591_1190019F4043_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1190019F4043_1_04",
+  "extracted_at": "2026-11-06T15:56:37.288Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27623,
+    "output": 325
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠12mg「JG」",
+      "strength": "12mg",
+      "imprint_front": "ガランタミンOD 12 JG",
+      "imprint_back": "ガランタミンOD 12 JG",
+      "imprint_note": "本体表示は「ガランタミンOD 12 JG」。表面・裏面・側面の図が記載されており、表面と裏面にそれぞれ印字の図があるが、文字は本体表示欄の記載による。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ガランタミンOD錠12mg「JG」 白色の素錠 直径 8.0mm 厚さ 4.0mm 重量 210mg 本体表示 ガランタミンOD 12 JG"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2119006F1020",
+  "source_file": "480008_2119006F1020_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_2119006F1020_2_05",
+  "extracted_at": "2026-11-06T16:01:04.532Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17781,
+    "output": 287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピモベンダン錠1.25mg「TE」",
+      "strength": "1.25mg",
+      "imprint_front": "TE C1",
+      "imprint_back": "TE C1",
+      "imprint_note": "識別コード：TEC1。表面・裏面とも「TE」「C1」の刻印（割線を挟んで表示）。",
+      "color": "黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ピモベンダン錠1.25mg「TE」 黄白色の円形のフィルムコーティング錠（割線入り） 直径7.1mm 厚さ2.9mm 質量116mg 識別コード TEC1"
+    }
+  ]
+}

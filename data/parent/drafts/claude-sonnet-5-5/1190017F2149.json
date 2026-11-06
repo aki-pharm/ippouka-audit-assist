@@ -1,0 +1,30 @@
+{
+  "id": "1190017F2149",
+  "source_file": "530213_1190017F1142_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1190017F1142_1_04",
+  "extracted_at": "2026-11-06T15:50:09.356Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43664,
+    "output": 314
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠75mg「ケミファ」",
+      "strength": "75mg",
+      "imprint_front": "プレガバリンOD 75ケミファ",
+      "imprint_back": "プレガバリンOD 75ケミファ",
+      "imprint_note": "識別コードは「プレガバリンOD 75ケミファ」と記載。外形図の表裏の刻印文字は小さく、表裏それぞれの内容の詳細は図からは判読できない。",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第 2 版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠　直径 8.0mm　厚さ 4.2mm　重量 190mg　識別コード プレガバリンOD 75ケミファ"
+    }
+  ]
+}

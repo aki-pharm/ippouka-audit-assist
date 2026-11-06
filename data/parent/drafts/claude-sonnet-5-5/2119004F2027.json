@@ -1,0 +1,30 @@
+{
+  "id": "2119004F2027",
+  "source_file": "400315_2119004C1032_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2119004C1032_1_08",
+  "extracted_at": "2026-11-06T16:00:58.713Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 11839,
+    "output": 876
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルグート錠10",
+      "strength": "10mg",
+      "imprint_front": "TA131",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTA131。裏面の刻印については本文に記載がない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "カルグート錠10 白色・素錠 識別コード TA131 サイズ 直径7.1mm 厚さ2.9mm 重量0.12g"
+    }
+  ]
+}

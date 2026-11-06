@@ -1,0 +1,30 @@
+{
+  "id": "1190027F2029",
+  "source_file": "170033_1190027F1022_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1190027F1022_1_08",
+  "extracted_at": "2026-11-06T15:57:47.849Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26259,
+    "output": 638
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デエビゴ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "LЄM",
+      "imprint_back": "5",
+      "imprint_note": "外形図の表に「LЄM」、裏に「5」の表示。識別コードは「LЄM 5」",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 デエビゴ錠5mg／剤形 フィルムコーティング錠／識別コード LЄM 5／直径(mm) 7.1／質量(mg) 127／厚さ(mm) 3.3／色 微黄色"
+    }
+  ]
+}

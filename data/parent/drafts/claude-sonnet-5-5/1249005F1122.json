@@ -1,0 +1,30 @@
+{
+  "id": "1249005F1122",
+  "source_file": "300119_1249005F1122_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1249005F1122_1_04",
+  "extracted_at": "2026-11-06T15:59:24.493Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9396,
+    "output": 623
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チメピジウム臭化物錠30mg「サワイ」",
+      "strength": "30mg",
+      "imprint_front": "SW 159",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード SW 159。表裏のどちらの面かは本文に記載なし",
+      "color": "橙色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 橙色 直径（mm） 6.1 厚さ（mm） 3.5 重量（mg） 約95 識別コード SW 159"
+    }
+  ]
+}

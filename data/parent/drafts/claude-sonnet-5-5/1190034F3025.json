@@ -1,0 +1,30 @@
+{
+  "id": "1190034F3025",
+  "source_file": "400059_1190034F1022_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_1190034F1022_1_02",
+  "extracted_at": "2026-11-06T15:58:25.582Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21908,
+    "output": 230
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボルズィ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "T3",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード T3（上面に表示）。下面の刻印の記載なし。",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2026年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ボルズィ錠10mg T3 微黄色素錠 直径（mm）約7 厚さ（mm）約3.3 重量（mg）約140"
+    }
+  ]
+}

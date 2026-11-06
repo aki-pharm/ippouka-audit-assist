@@ -1,0 +1,30 @@
+{
+  "id": "1242002F1381",
+  "source_file": "460028_1242002F1381_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1242002F1381_1_05",
+  "extracted_at": "2026-11-06T15:59:17.375Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9662,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブチルスコポラミン臭化物錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印・識別コードの記載なし（外形図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 色調 白色 外形 大きさ 直径 約6.5mm 厚さ 約4.5mm 質量 約150mg"
+    }
+  ]
+}

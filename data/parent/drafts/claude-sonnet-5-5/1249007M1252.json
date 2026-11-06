@@ -1,0 +1,30 @@
+{
+  "id": "1249007M1252",
+  "source_file": "170033_1249007F1032_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1249007F1032_1_09",
+  "extracted_at": "2026-11-06T15:59:35.882Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9382,
+    "output": 989
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コスパノン錠40mg",
+      "strength": "40mg",
+      "imprint_front": "ε 119",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表に印字。表の外形図ではεマークと119が示されている。裏は外形図で無地に見えるが、本文に「なし」の明記はない。形は外形図が円形で、本文に形状の記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 コスパノン錠40mg 剤形 糖衣錠 識別コード 119 全長（mm）又は直径（mm） 7.0 質量（mg） 140 号数又は厚さ（mm） 4.0 色 白色"
+    }
+  ]
+}

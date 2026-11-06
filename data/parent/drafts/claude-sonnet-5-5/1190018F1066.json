@@ -1,0 +1,46 @@
+{
+  "id": "1190018F1066",
+  "source_file": "672173_1190018F1066_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1190018F1066_2_04",
+  "extracted_at": "2026-11-06T15:52:31.280Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27278,
+    "output": 1289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩錠5mg「アメル」",
+      "strength": "5mg",
+      "imprint_front": "メマンチン 5 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「メマンチン 5 アメル」とあり、表裏の区別は文書に記載なし。フィルムコーティング錠。質量：約83.6mg",
+      "color": "淡赤色～帯黄淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "メマンチン塩酸塩錠5mg「アメル」 フィルムコーティング錠 淡赤色～帯黄淡赤色 直径：約6.1mm 厚さ：約2.9mm 質量：約83.6mg 識別コード：メマンチン 5 アメル"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「アメル」",
+      "strength": "5mg",
+      "imprint_front": "メマンチン OD5 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「メマンチン OD5 アメル」とあり、表裏の区別は文書に記載なし。素錠。質量：約90.0mg",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "メマンチン塩酸塩OD錠5mg「アメル」 素錠 淡赤白色 直径：約6.1mm 厚さ：約3.2mm 質量：約90.0mg 識別コード：メマンチン OD5 アメル"
+    }
+  ]
+}

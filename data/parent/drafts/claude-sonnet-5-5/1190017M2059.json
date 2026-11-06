@@ -1,0 +1,30 @@
+{
+  "id": "1190017M2059",
+  "source_file": "530169_1190017M1052_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190017M1052_2_02",
+  "extracted_at": "2026-11-06T15:52:06.442Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 41988,
+    "output": 943
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンカプセル75mg「日医工」",
+      "strength": "75mg",
+      "imprint_front": "プレガバリン 75mg 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル。「本体表示」としてプレガバリン／75mg／日医工と記載（表裏の区別は記載なし）。包装コード632。大きさは4号カプセルの記載のみでmm値の記載なし。",
+      "color": "キャップ：濃赤褐色 ボディ：白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル／色調 キャップ：濃赤褐色 ボディ：白色／大きさ 4号カプセル／本体表示 プレガバリン 75mg 日医工／包装コード 632"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "1190018F5029",
+  "source_file": "430574_1190018F1023_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_1190018F1023_1_19",
+  "extracted_at": "2026-11-06T15:54:34.281Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26458,
+    "output": 1102
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマリー錠10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表示はあるが、本文に刻印・識別コードの文字記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2020年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メマリー錠10mg フィルムコーティング錠 白色～帯黄白色 7.1（直径） 約3.1 約130"
+    },
+    {
+      "product_name": "メマリーOD錠10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表示はあるが、本文に刻印・識別コードの文字記載なし",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2020年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メマリーOD錠10mg 素錠（口腔内崩壊錠） 淡黄白色 7.6（直径） 約3.6 約140"
+    }
+  ]
+}

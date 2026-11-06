@@ -1,0 +1,30 @@
+{
+  "id": "1190023F1024",
+  "source_file": "170050_1190023F1024_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_1190023F1024_1_20",
+  "extracted_at": "2026-11-06T15:57:06.125Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20575,
+    "output": 843
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベルソムラ®錠15mg",
+      "strength": "15mg",
+      "imprint_front": "なし",
+      "imprint_back": "325",
+      "imprint_note": "表面は社名マークのみ。識別コードは社名マークと325（裏面に325）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.3,
+      "size_short_mm": 5.6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 楕円形・白色 長径：10.3mm、短径：5.6mm 厚さ：4.0mm 識別コード 325"
+    }
+  ]
+}

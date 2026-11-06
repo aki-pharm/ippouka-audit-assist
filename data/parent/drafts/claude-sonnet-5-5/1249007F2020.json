@@ -1,0 +1,30 @@
+{
+  "id": "1249007F2020",
+  "source_file": "170033_1249007F1032_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1249007F1032_1_09",
+  "extracted_at": "2026-11-06T15:59:35.490Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9382,
+    "output": 893
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コスパノン錠80mg",
+      "strength": "80mg",
+      "imprint_front": "ε120",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の外形図にεと120の表示あり。裏面は文章での記載なし。剤形は糖衣錠。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "販売名 コスパノン錠80mg／剤形 糖衣錠／識別コード 120／全長（mm）又は直径（mm） 8.6／質量（mg） 267／号数又は厚さ（mm） 4.9／色 白色"
+    }
+  ]
+}

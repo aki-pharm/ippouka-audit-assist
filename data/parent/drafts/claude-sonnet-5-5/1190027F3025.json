@@ -1,0 +1,30 @@
+{
+  "id": "1190027F3025",
+  "source_file": "170033_1190027F1022_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1190027F1022_1_08",
+  "extracted_at": "2026-11-06T15:57:49.060Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26259,
+    "output": 735
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デエビゴ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "LЄM",
+      "imprint_back": "10",
+      "imprint_note": "識別コード「LЄM 10」。外形図では表にLЄM、裏に10の表示",
+      "color": "橙色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 デエビゴ錠10mg：剤形 フィルムコーティング錠、識別コード LЄM 10、直径 7.1mm、質量 127mg、厚さ 3.3mm、色 橙色"
+    }
+  ]
+}

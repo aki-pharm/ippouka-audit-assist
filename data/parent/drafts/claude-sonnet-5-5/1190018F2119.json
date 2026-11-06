@@ -1,0 +1,46 @@
+{
+  "id": "1190018F2119",
+  "source_file": "780009_1190018F1112_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1190018F1112_1_04",
+  "extracted_at": "2026-11-06T15:53:05.527Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27382,
+    "output": 1080
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図に図示されているが、本文テキストでは読み取れない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メマンチン塩酸塩錠10mg「明治」 割線入りフィルムコーティング錠 淡黄色 直径（mm）7.1 厚さ（mm）3.1 重量（mg）130"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図に図示されているが、本文テキストでは読み取れない",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "メマンチン塩酸塩OD錠10mg「明治」 割線入り素錠 淡黄白色 直径（mm）7.6 厚さ（mm）3.6 重量（mg）140"
+    }
+  ]
+}

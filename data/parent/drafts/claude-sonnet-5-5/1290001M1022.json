@@ -1,0 +1,30 @@
+{
+  "id": "1290001M1022",
+  "source_file": "672212_1290001M1022_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1290001M1022_2_07",
+  "extracted_at": "2026-11-06T15:59:50.326Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23862,
+    "output": 284
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビンダケルカプセル20mg",
+      "strength": "20mg",
+      "imprint_front": "VYN 20",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく軟カプセル剤。外形図および識別コード欄に「VYN 20」と記載。裏面の刻印記載なし。",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 21,
+      "size_short_mm": 8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "外形（mm） 識別コード 色調等 VYN 20 カプセル：黄色の軟カプセル 内容物：白色～淡紅色の懸濁液 長径：約21mm 短径：約8mm"
+    }
+  ]
+}

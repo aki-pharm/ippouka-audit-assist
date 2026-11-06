@@ -1,0 +1,30 @@
+{
+  "id": "1190018F4200",
+  "source_file": "530169_1190018F4200_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190018F4200_2_01",
+  "extracted_at": "2026-11-06T15:54:14.228Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23515,
+    "output": 1114
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "メマンチン 5 日医工",
+      "imprint_back": "メマンチン 5 OD",
+      "imprint_note": "本体表示欄の記載順（メマンチン 5 日医工／メマンチン 5 OD）を表面・裏面として記載。表裏の対応は図で確認していない",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／色調 淡赤白色／直径（mm）約5.5／厚さ（mm）約2.9／質量（mg）約63／本体表示 メマンチン 5 日医工、メマンチン 5 OD"
+    }
+  ]
+}

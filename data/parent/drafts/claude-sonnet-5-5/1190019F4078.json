@@ -1,0 +1,30 @@
+{
+  "id": "1190019F4078",
+  "source_file": "300119_1190019F4078_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1190019F4078_1_03",
+  "extracted_at": "2026-11-06T15:56:07.852Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24567,
+    "output": 313
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠4mg「サワイ」",
+      "strength": "4mg",
+      "imprint_front": "ガランタミン OD 4 サワイ",
+      "imprint_back": "ガランタミン OD 4 サワイ",
+      "imprint_note": "本体表示として「ガランタミン OD 4 サワイ」と記載。外形図では表裏とも同様の表示。",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／性状 微黄色／直径（mm） 7.0／厚さ（mm） 2.9／重量（mg） 約140／本体表示 ガランタミン OD 4 サワイ"
+    }
+  ]
+}

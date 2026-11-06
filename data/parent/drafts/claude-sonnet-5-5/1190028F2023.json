@@ -1,0 +1,30 @@
+{
+  "id": "1190028F2023",
+  "source_file": "620095_1190028D1026_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620095_1190028D1026_1_09",
+  "extracted_at": "2026-11-06T15:58:00.503Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17628,
+    "output": 982
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メラトベル錠小児用2mg",
+      "strength": "2mg",
+      "imprint_front": "NPC82",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の「識別コード」欄にNPC82と記載。裏面は外形図上は刻印が見えないが、文章での明記はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "メラトベル錠小児用2mg 白色の割線入りの素錠 / 大きさ 直径 6.0mm 厚さ 2.6mm 重量 80mg / 識別コード NPC82"
+    }
+  ]
+}

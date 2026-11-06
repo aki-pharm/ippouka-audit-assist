@@ -1,0 +1,30 @@
+{
+  "id": "1190018F6173",
+  "source_file": "400186_1190018F4170_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1190018F4170_1_02",
+  "extracted_at": "2026-11-06T15:55:15.248Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26243,
+    "output": 790
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「タカタ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき図はあるが、刻印の文字は本文に記載がないため未確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "メマンチン塩酸塩OD錠20mg「タカタ」 白色～微黄白色の割線入りの裸錠 約9.1mm 約0.28g 約4.0mm"
+    }
+  ]
+}

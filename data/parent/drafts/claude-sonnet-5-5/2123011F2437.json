@@ -1,0 +1,30 @@
+{
+  "id": "2123011F2437",
+  "source_file": "431010_2123011F1155_4_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_2123011F1155_4_06",
+  "extracted_at": "2026-11-06T16:01:21.111Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18206,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テノーミン錠50",
+      "strength": "50mg",
+      "imprint_front": "ZNC 215",
+      "imprint_back": "50",
+      "imprint_note": "識別コードは「ZNC 215：50」。外形図では表面に ZNC 215、裏面に 50 と表示",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠／直径 約8.2mm／厚さ 約4.0mm／重量 約0.21g／識別コード ZNC 215：50"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1249010F1026",
+  "source_file": "480866_1249010D1025_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_1249010D1025_3_07",
+  "extracted_at": "2026-11-06T15:59:44.300Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16673,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルネリン錠1mg",
+      "strength": "1mg",
+      "imprint_front": "BH",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードBH。外形図では表面にB|Hの文字が確認でき、片面割線入り。裏面の刻印は文言に記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の片面割線入りの素錠 / 識別コード BH / 大きさ（約） 直径：7.1mm　厚さ：2.3mm　質量：0.11g"
+    }
+  ]
+}

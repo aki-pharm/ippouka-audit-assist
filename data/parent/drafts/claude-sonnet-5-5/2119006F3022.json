@@ -1,0 +1,30 @@
+{
+  "id": "2119006F3022",
+  "source_file": "480008_2119006F1020_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_2119006F1020_2_05",
+  "extracted_at": "2026-11-06T16:01:09.286Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17781,
+    "output": 301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピモベンダン錠0.625mg「TE」",
+      "strength": "0.625mg",
+      "imprint_front": "TE",
+      "imprint_back": "CO",
+      "imprint_note": "識別コード：TEC0。外形の表面に「TE」、裏面に「CO」の印字あり",
+      "color": "うすいだいだい色",
+      "shape": "oval",
+      "size_long_mm": 7.6,
+      "size_short_mm": 4.7,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ピモベンダン錠0.625mg「TE」 うすいだいだい色のだ円形のフィルムコーティング錠 表面 TE 裏面 CO 長径7.6mm 短径4.7mm 厚さ2.7mm 質量85mg 識別コード TEC0"
+    }
+  ]
+}

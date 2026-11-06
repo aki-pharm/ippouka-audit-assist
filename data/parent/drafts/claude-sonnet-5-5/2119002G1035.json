@@ -1,0 +1,30 @@
+{
+  "id": "2119002G1035",
+  "source_file": "270072_2119002G1035_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270072_2119002G1035_1_09",
+  "extracted_at": "2026-11-06T16:00:32.238Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10100,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロタノールS錠15mg",
+      "strength": "15mg",
+      "imprint_front": "プロタノールS 15",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示として「プロタノールS　15」と記載。外形図には表面に刻印様の表示があるが、裏面の刻印は文章では明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠（徐放錠）である。 直径7.2mm、厚さ4.2mm、重量130mg 識別表示 プロタノールS　15"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "1190018F6033",
+  "source_file": "430773_1190018F1031_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1190018F1031_1_02",
+  "extracted_at": "2026-11-06T15:55:05.042Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26684,
+    "output": 1128
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 12.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2020年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "メマンチン塩酸塩錠20mg「DSEP」 フィルムコーティング錠（楕円形・割線入） 白色～帯黄白色 12.1（長径）6.1（短径） 約4.4 約259"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2020年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "メマンチン塩酸塩OD錠20mg「DSEP」 素錠（口腔内崩壊錠・割線入） 白色～微黄白色 9.1（直径） 約4.9 約280"
+    }
+  ]
+}

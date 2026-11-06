@@ -1,0 +1,30 @@
+{
+  "id": "2123005F1141",
+  "source_file": "180078_2123005F1141_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180078_2123005F1141_1_15",
+  "extracted_at": "2026-11-06T16:01:14.576Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17107,
+    "output": 230
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミケラン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "OG",
+      "imprint_back": "15",
+      "imprint_note": "識別コード：OG15。外形図では表面に「OG」、裏面に「15」と読み取れるが、表裏の区別は本文に明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2023年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ミケラン錠5mg 白色の素錠 6 2.7 約105 OG15"
+    }
+  ]
+}

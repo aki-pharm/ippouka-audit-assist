@@ -1,0 +1,30 @@
+{
+  "id": "2113005F1056",
+  "source_file": "581120_2113005F1056_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2113005F1056_1_04",
+  "extracted_at": "2026-11-06T16:00:24.630Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23806,
+    "output": 611
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メチルジゴキシン錠0.1mg「NIG」",
+      "strength": "0.1mg",
+      "imprint_front": "t 520",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）として記載。錠剤の裏面の刻印は記載なし。片面1/2割線入り素錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠／直径 7.0mm／厚さ 2.4mm／質量 120mg／識別コード（PTP） t 520"
+    }
+  ]
+}

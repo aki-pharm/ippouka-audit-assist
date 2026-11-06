@@ -1,0 +1,46 @@
+{
+  "id": "1190018F1023",
+  "source_file": "430574_1190018F1023_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_1190018F1023_1_19",
+  "extracted_at": "2026-11-06T15:52:24.657Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26458,
+    "output": 1106
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマリー錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文テキストに刻印の記載なし（外形欄は図のみ）",
+      "color": "淡赤色～帯黄淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2020年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メマリー錠5mg フィルムコーティング錠 淡赤色～帯黄淡赤色 6.1（直径） 約2.7 約84"
+    },
+    {
+      "product_name": "メマリーOD錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文テキストに刻印の記載なし（外形欄は図のみ）",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2020年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メマリーOD錠5mg 素錠（口腔内崩壊錠）淡赤白色 6.1（直径） 約3.2 約85"
+    }
+  ]
+}

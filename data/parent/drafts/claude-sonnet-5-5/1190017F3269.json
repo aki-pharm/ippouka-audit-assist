@@ -1,0 +1,30 @@
+{
+  "id": "1190017F3269",
+  "source_file": "730869_1190017F1266_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_1190017F1266_1_03",
+  "extracted_at": "2026-11-06T15:51:24.459Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40410,
+    "output": 275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠150mg「VTRS」",
+      "strength": "150mg",
+      "imprint_front": "VT PR 150",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「VT PR 150」。表（上面）・裏（下面）の別は本文テキストに明記されておらず、図中の印字の配置は読み取れないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "プレガバリン OD錠150mg 「VTRS」 10.5 10.5 6.0 480mg VT PR 150 白色 素錠"
+    }
+  ]
+}

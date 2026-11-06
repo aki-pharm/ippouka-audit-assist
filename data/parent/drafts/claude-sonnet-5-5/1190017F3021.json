@@ -1,0 +1,30 @@
+{
+  "id": "1190017F3021",
+  "source_file": "671450_1190017F1029_3_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_1190017F1029_3_08",
+  "extracted_at": "2026-11-06T15:50:40.738Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40761,
+    "output": 912
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リリカOD錠150mg",
+      "strength": "150mg",
+      "imprint_front": "VT LY",
+      "imprint_back": "150",
+      "imprint_note": "識別コード VTLY150。表（上面）が VT/LY、裏（下面）が 150 という割り振りは、本文ではなく外形図の表示に基づく。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "リリカOD錠150mg 10.5 10.5 6.0 480mg VTLY150 白色 素錠"
+    }
+  ]
+}

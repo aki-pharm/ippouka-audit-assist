@@ -1,0 +1,30 @@
+{
+  "id": "2129008M1024",
+  "source_file": "430574_2129008M1024_3_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_2129008M1024_3_11",
+  "extracted_at": "2026-11-06T16:02:57.461Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17763,
+    "output": 870
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サンリズムカプセル25mg",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなくカプセル剤（4号）。性状の表には刻印・識別コードの文字記載がなく、本文からは確認できない。",
+      "color": "キャップ：淡青色不透明、ボディー：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2021年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "サンリズムカプセル25mg カプセル（4号） キャップ：淡青色 不透明 ボディー：白色 不透明 全長（mm）約14.3 重さ（mg）約225"
+    }
+  ]
+}

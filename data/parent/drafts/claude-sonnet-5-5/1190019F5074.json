@@ -1,0 +1,30 @@
+{
+  "id": "1190019F5074",
+  "source_file": "300119_1190019F4078_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1190019F4078_1_03",
+  "extracted_at": "2026-11-06T15:56:28.801Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24567,
+    "output": 381
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠8mg「サワイ」",
+      "strength": "8mg",
+      "imprint_front": "ガランタミン OD 8 サワイ",
+      "imprint_back": "ガランタミン OD 8 サワイ",
+      "imprint_note": "本体表示として「ガランタミン OD 8 サワイ」と記載。表裏の区別は文章中に明記なし（外形図は表裏とも同様の表示と思われる）。割線入り素錠（口腔内崩壊錠）。重量約140mg",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ガランタミンOD錠8mg「サワイ」 剤形：割線入り素錠（口腔内崩壊錠） 性状：微赤色 直径（mm）7.0 厚さ（mm）2.9 重量（mg）約140 本体表示：ガランタミン OD 8 サワイ"
+    }
+  ]
+}

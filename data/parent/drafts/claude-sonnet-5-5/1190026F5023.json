@@ -1,0 +1,46 @@
+{
+  "id": "1190026F5023",
+  "source_file": "430574_1190026F1028_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_1190026F1028_1_14",
+  "extracted_at": "2026-11-06T15:57:31.968Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29347,
+    "output": 859
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タリージェ錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの文字記載なし（外形は図のみ）",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "タリージェ錠2.5mg フィルムコーティング錠 淡赤白色 6.7（直径） 約3.4 約105"
+    },
+    {
+      "product_name": "タリージェOD錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の本文に刻印・識別コードの文字記載なし（外形は図のみ）",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "タリージェOD錠2.5mg 素錠（口腔内崩壊錠） 淡黄白色 6.6（直径） 約2.8 約90"
+    }
+  ]
+}

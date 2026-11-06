@@ -1,0 +1,30 @@
+{
+  "id": "2129009F1062",
+  "source_file": "730869_2129009F1062_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2129009F1062_1_05",
+  "extracted_at": "2026-11-06T16:03:12.849Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19517,
+    "output": 925
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フレカイニド酢酸塩錠50mg「VTRS」",
+      "strength": "50mg",
+      "imprint_front": "V T R S",
+      "imprint_back": "V T R S",
+      "imprint_note": "識別コード欄は「-」。外形（上面・下面）の図に「V T R S」の表示あり。図中に「50」らしき表示も見えるが、文字情報では確認できず未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フレカイニド酢酸塩錠50mg「VTRS」 V T R S V T R S - 白色 素錠 直径7.1mm 厚さ3.2mm 重量125mg"
+    }
+  ]
+}

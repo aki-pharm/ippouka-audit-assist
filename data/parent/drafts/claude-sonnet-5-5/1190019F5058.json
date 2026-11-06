@@ -1,0 +1,30 @@
+{
+  "id": "1190019F5058",
+  "source_file": "830001_1190019F4051_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1190019F4051_1_04",
+  "extracted_at": "2026-11-06T15:56:26.992Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28996,
+    "output": 828
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠8mg「YD」",
+      "strength": "8mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文に刻印・識別コードの記載がないため未確認",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微赤色の素錠／直径 約7.0mm／厚さ 約3.5mm／重量 140mg"
+    }
+  ]
+}

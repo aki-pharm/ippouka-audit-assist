@@ -1,0 +1,30 @@
+{
+  "id": "1190018F4081",
+  "source_file": "830001_1190018F4081_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1190018F4081_1_03",
+  "extracted_at": "2026-11-06T15:53:36.000Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27068,
+    "output": 767
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載なし（外形の図には印字らしきものがあるが、文字としての記載がないため未確認）",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤白色の素錠 / 直径 約6.0mm / 厚さ 約3.0mm / 重量 85mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2123008F1048",
+  "source_file": "431010_2123008F1048_4_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_2123008F1048_4_06",
+  "extracted_at": "2026-11-06T16:01:17.403Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23591,
+    "output": 248
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "インデラル錠10mg",
+      "strength": "10mg",
+      "imprint_front": "TYP219",
+      "imprint_back": "10",
+      "imprint_note": "識別コード：TYP219：10。外形の表面にTYP/219、裏面に10と表示。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線のある白色・円形の素錠 直径 約6.5mm 厚さ 2.3～2.7mm 質量 約0.11g 識別コード TYP219：10"
+    }
+  ]
+}

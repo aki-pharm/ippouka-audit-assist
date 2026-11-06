@@ -1,0 +1,30 @@
+{
+  "id": "2129003M2222",
+  "source_file": "480235_2129003M1200_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2129003M1200_1_04",
+  "extracted_at": "2026-11-06T16:02:21.882Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15161,
+    "output": 956
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メキシレチン塩酸塩カプセル100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw402",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル。識別コードは本体・包装共通の欄に記載。外形の全長は約17.9mm（2号カプセル）。質量は約223mg。",
+      "color": "頭部がうすい黄赤色、胴部が白色不透明（内容物は白色の粉末又は粒状）",
+      "shape": "oblong",
+      "size_long_mm": 17.9,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "頭部がうすい黄赤色、胴部が白色不透明な硬カプセルであり、内容物は白色の粉末又は粒状である。"
+    }
+  ]
+}

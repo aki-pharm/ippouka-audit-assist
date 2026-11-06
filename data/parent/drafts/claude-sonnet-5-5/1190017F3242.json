@@ -1,0 +1,30 @@
+{
+  "id": "1190017F3242",
+  "source_file": "530113_1190017F1240_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1190017F1240_2_06",
+  "extracted_at": "2026-11-06T15:51:21.362Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42169,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠150mg「明治」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリン 150 OD",
+      "imprint_back": "プレガバリン 150 明治",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状：白色の素錠　大きさ：錠径：10.0mm　錠厚：5.5mm　重量：380mg　本体表示：表面 プレガバリン 150 OD、裏面 プレガバリン 150 明治"
+    }
+  ]
+}

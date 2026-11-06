@@ -1,0 +1,30 @@
+{
+  "id": "1190017F3153",
+  "source_file": "300119_1190017F1150_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1190017F1150_1_05",
+  "extracted_at": "2026-11-06T15:51:03.420Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45007,
+    "output": 795
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠150mg「サワイ」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリン OD 150 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の「本体表示」欄に「プレガバリン OD 150 サワイ」とあるが、表裏の区別は文章では書かれていない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）／性状 白色／直径（mm）10.1（150mg）／厚さ（mm）4.9（150mg）／本体表示 プレガバリン OD 150 サワイ"
+    }
+  ]
+}

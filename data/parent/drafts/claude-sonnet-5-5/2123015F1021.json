@@ -1,0 +1,30 @@
+{
+  "id": "2123015F1021",
+  "source_file": "400093_2123015F1021_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_2123015F1021_1_16",
+  "extracted_at": "2026-11-06T16:01:39.099Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 16192,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナディック錠30mg",
+      "strength": "30mg",
+      "imprint_front": "P521",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはP521。外形図には「P 521」の表示と「30」の表示があるが、本文には刻印の位置（表裏）の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠 / 大きさ 直径(mm) 約7 厚さ(mm) 約3.0 重さ(mg) 約110 / 識別コード P521"
+    }
+  ]
+}

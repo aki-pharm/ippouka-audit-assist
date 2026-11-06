@@ -1,0 +1,30 @@
+{
+  "id": "1190017F1118",
+  "source_file": "180095_1190017F1118_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1190017F1118_2_06",
+  "extracted_at": "2026-11-06T15:49:12.836Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43396,
+    "output": 316
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「オーハラ」",
+      "strength": "25mg",
+      "imprint_front": "プレガバリン OD25 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「プレガバリン OD25 オーハラ」と記載。表面・裏面のどちらに印字されているかは本文中に明記されていない（外形の図のみ）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色 素錠（口腔内崩壊錠）／外形 直径：6.5mm 厚さ：3.4mm／質量 100mg／識別コード プレガバリン OD25 オーハラ"
+    }
+  ]
+}

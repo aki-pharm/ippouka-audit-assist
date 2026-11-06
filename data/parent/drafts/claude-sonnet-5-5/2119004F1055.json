@@ -1,0 +1,30 @@
+{
+  "id": "2119004F1055",
+  "source_file": "530169_2119004F1055_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2119004F1055_1_04",
+  "extracted_at": "2026-11-06T16:00:57.972Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10669,
+    "output": 773
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デノパミン錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "574",
+      "imprint_back": "5",
+      "imprint_note": "表面に社名マーク（n）と574。本体コード574、包装コード574。外形図では裏面に「5」の表示。割線は外形図上では確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 / 色調 白色 / 直径（mm）6.0 / 厚さ（mm）2.8 / 質量（mg）90 / 本体コード 574 / 包装コード 574"
+    }
+  ]
+}

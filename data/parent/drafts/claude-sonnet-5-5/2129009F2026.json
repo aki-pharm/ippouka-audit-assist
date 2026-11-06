@@ -1,0 +1,30 @@
+{
+  "id": "2129009F2026",
+  "source_file": "170033_2129009F1020_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2129009F1020_1_18",
+  "extracted_at": "2026-11-06T16:03:12.779Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23610,
+    "output": 1027
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タンボコール錠100mg",
+      "strength": "100mg",
+      "imprint_front": "ε238",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の表記は「238」。図の表面には社名マーク（ε）と238が印字されている。裏面は文章での記載がなく、図は無地に見える。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2021年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 素錠 細粒剤 識別コード 237 238 外形 表 裏 側面 直径（mm） 7.1 8.6 質量（mg） 132 264 厚さ（mm） 3.3 4.5 色 白　色 白　色 白　色"
+    }
+  ]
+}

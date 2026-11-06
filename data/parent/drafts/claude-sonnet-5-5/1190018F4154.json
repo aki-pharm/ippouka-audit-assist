@@ -1,0 +1,46 @@
+{
+  "id": "1190018F4154",
+  "source_file": "300119_1190018F1082_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1190018F1082_1_03",
+  "extracted_at": "2026-11-06T15:53:59.310Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25586,
+    "output": 1678
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "メマンチン 5 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「メマンチン 5 サワイ」と記載。外形図には同じ表示が2面分描かれているが、表裏の明記はない。",
+      "color": "淡赤色～帯黄淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠　性状 淡赤色～帯黄淡赤色　直径（mm） 6．1　厚さ（mm） 2．7　本体表示 メマンチン 5 サワイ"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "メマンチン OD 5 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「メマンチン OD 5 サワイ」と記載。外形図には同じ表示が2面分描かれているが、表裏の明記はない。口腔内崩壊錠。",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）　性状 淡赤白色　直径（mm） 6．0　厚さ（mm） 3．2　本体表示 メマンチン OD 5 サワイ"
+    }
+  ]
+}

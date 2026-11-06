@@ -1,0 +1,30 @@
+{
+  "id": "1190018F4090",
+  "source_file": "380087_1190018F4090_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1190018F4090_1_02",
+  "extracted_at": "2026-11-06T15:53:38.759Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25353,
+    "output": 953
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「ZE」",
+      "strength": "5mg",
+      "imprint_front": "メマンチン OD5 ZE",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は記載なし",
+      "color": "淡赤白色～帯黄淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤白色～帯黄淡赤白色の素錠で斑点がある／錠径（mm）6.1／厚み（mm）3.2／本体表示 メマンチン OD5 ZE"
+    }
+  ]
+}

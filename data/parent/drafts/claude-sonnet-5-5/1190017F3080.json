@@ -1,0 +1,30 @@
+{
+  "id": "1190017F3080",
+  "source_file": "830001_1190017F1088_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1190017F1088_1_06",
+  "extracted_at": "2026-11-06T15:50:54.749Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 46523,
+    "output": 773
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠150mg「YD」",
+      "strength": "150mg",
+      "imprint_front": "OD150 YD",
+      "imprint_back": "OD150 YD",
+      "imprint_note": "外形図中の表記（OD150／YD）。割線あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 5.9,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 外形 OD150 YD OD150 YD 直径 約10.5mm 厚さ 約5.9mm 重量 450mg"
+    }
+  ]
+}

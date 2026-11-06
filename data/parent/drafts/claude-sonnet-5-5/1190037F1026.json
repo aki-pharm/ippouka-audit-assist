@@ -1,0 +1,30 @@
+{
+  "id": "1190037F1026",
+  "source_file": "400256_1190037F1026_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_1190037F1026_1_01",
+  "extracted_at": "2026-11-06T15:58:41.758Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21787,
+    "output": 772
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オーゼイフル錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "0.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡橙色 識別コード 0.5 直径（mm） 約6.2 厚さ（mm） 約3.6 質量（mg） 約105"
+    }
+  ]
+}

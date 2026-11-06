@@ -1,0 +1,30 @@
+{
+  "id": "2113005F2028",
+  "source_file": "450045_2113005F2028_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450045_2113005F2028_1_02",
+  "extracted_at": "2026-11-06T16:00:31.898Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24405,
+    "output": 992
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラニラピッド錠0.05mg",
+      "strength": "0.05mg",
+      "imprint_front": "BM",
+      "imprint_back": "205",
+      "imprint_note": "識別コードBM205。表裏の刻印の振り分けは外形図の表示による",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8,
+      "size_short_mm": 4.5,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（割線入）／色調 白色／直径 長径8.0mm短径4.5mm／厚さ 2.2mm／質量 0.09g／識別コード BM205"
+    }
+  ]
+}

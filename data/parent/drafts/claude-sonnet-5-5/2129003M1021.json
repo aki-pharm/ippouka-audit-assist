@@ -1,0 +1,30 @@
+{
+  "id": "2129003M1021",
+  "source_file": "431010_2129003M1021_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_2129003M1021_2_06",
+  "extracted_at": "2026-11-06T16:02:08.742Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 19362,
+    "output": 755
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メキシチールカプセル50mg",
+      "strength": "50mg",
+      "imprint_front": "メキシチール50",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル剤（4号）。識別コード「メキシチール50」。表裏の区別は記載なし。長径は長さ約14mm、短径は直径約5mmとして記載。重さ約0.12g。",
+      "color": "胴部ごくうすい黄褐色不透明、頭部うすい黄赤色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14,
+      "size_short_mm": 5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形：胴部ごくうすい黄褐色不透明、頭部うすい黄赤色不透明の硬カプセル剤／外形：4号／直径：約5mm／長さ：約14mm／重さ：約0.12g／識別コード：メキシチール50"
+    }
+  ]
+}

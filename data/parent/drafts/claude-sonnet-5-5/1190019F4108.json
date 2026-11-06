@@ -1,0 +1,30 @@
+{
+  "id": "1190019F4108",
+  "source_file": "530169_1190019F4108_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190019F4108_2_02",
+  "extracted_at": "2026-11-06T15:56:11.514Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25552,
+    "output": 304
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠4mg「日医工」",
+      "strength": "4mg",
+      "imprint_front": "ガランタミンOD 4 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ガランタミンOD 4 日医工」と記載。表面・裏面の別は文字では記載されておらず、図のみで示されている。",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "素錠（口腔内崩壊錠） 色調 微黄色 直径（mm）約7.0 厚さ（mm）約3.0 質量（mg）約120 本体表示 ガランタミンOD 4 日医工"
+    }
+  ]
+}

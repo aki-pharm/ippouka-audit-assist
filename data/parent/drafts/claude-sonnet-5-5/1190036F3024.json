@@ -1,0 +1,30 @@
+{
+  "id": "1190036F3024",
+  "source_file": "112130_1190036F3024_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_1190036F3024_1_01",
+  "extracted_at": "2026-11-06T15:58:35.433Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21688,
+    "output": 255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アクイプタ錠60mg",
+      "strength": "60mg",
+      "imprint_front": "A60",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードA60が上面に表示。下面は無地の図示、側面は割線等の記載なし。",
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 16,
+      "size_short_mm": 9,
+      "thickness_mm": 6,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "アクイプタ錠60mg 白色～微黄白色の楕円形の素錠 A60 長径：約16mm、短径：約9mm、厚さ：約6mm、重量：約0.6g"
+    }
+  ]
+}

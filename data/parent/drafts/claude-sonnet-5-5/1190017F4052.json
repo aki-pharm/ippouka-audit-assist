@@ -1,0 +1,30 @@
+{
+  "id": "1190017F4052",
+  "source_file": "530169_1190017F1193_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190017F1193_1_08",
+  "extracted_at": "2026-11-06T15:51:36.283Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42116,
+    "output": 784
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "プレガバリン 50",
+      "imprint_back": "OD 日医工",
+      "imprint_note": "本体表示：プレガバリン、50、OD、日医工。表裏の割り振りは図から判断",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠／色調 白色／直径（mm）7.6／厚さ（mm）4.0／質量（mg）160／本体表示 プレガバリン 50 OD 日医工"
+    }
+  ]
+}

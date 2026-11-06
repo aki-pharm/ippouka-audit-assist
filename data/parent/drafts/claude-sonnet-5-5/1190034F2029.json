@@ -1,0 +1,30 @@
+{
+  "id": "1190034F2029",
+  "source_file": "400059_1190034F1022_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_1190034F1022_1_02",
+  "extracted_at": "2026-11-06T15:58:22.997Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21908,
+    "output": 250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボルズィ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "T2",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードT2。上面に割線入り（図では上面にT2の表示と割線）。下面の刻印は図でも確認できず。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ボルズィ錠5mg T2 白色 割線入 素錠 直径（mm）約7 厚さ（mm）約3.3 重量（mg）約140"
+    }
+  ]
+}

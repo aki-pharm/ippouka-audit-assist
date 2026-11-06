@@ -1,0 +1,30 @@
+{
+  "id": "1225001F1114",
+  "source_file": "400059_1225001F1114_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_1225001F1114_1_10",
+  "extracted_at": "2026-11-06T15:58:51.693Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12513,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リンラキサー錠125mg",
+      "strength": "125mg",
+      "imprint_front": "T735",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードT735が上面に印字（図中では上面に「T/735」）。下面の刻印は図に表示がなく、文書中に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2022年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "リンラキサー錠 125mg T735 白 色 素 錠 直径（mm）約 7 厚さ（mm）約 3.7 重量（mg）約 160"
+    }
+  ]
+}

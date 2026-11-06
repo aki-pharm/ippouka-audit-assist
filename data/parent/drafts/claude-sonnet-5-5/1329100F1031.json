@@ -1,0 +1,30 @@
+{
+  "id": "1329100F1031",
+  "source_file": "390092_1329100F1031_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/390092_1329100F1031_2_08",
+  "extracted_at": "2026-11-06T15:59:58.251Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8195,
+    "output": 295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ストミンA配合錠",
+      "strength": "1錠中 ニコチン酸アミド30mg・パパベリン塩酸塩6mg",
+      "imprint_front": "ZB01",
+      "imprint_back": "なし",
+      "imprint_note": "外形図では表面に「ZB 01」の識別コード、裏面は無地の円形。側面図あり。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ストミンA配合錠 色・剤形 白色・素錠 識別コード ZB01 直径(mm) 約7.0 厚さ(mm) 約2.6 質量(mg) 約130"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1231014F1054",
+  "source_file": "480306_1231014F1054_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480306_1231014F1054_1_12",
+  "extracted_at": "2026-11-06T15:59:09.791Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14602,
+    "output": 264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウブレチド錠5mg",
+      "strength": "5mg",
+      "imprint_front": "TO 067",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TO-067。外形図には「TO」「067」の表示と割線を示す図がある。裏面の刻印は文書に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色素錠（割線入り） 大きさ（mm） 直径 9.0 厚さ（mm） 3.0 重量（mg） 250 識別コード TO-067"
+    }
+  ]
+}

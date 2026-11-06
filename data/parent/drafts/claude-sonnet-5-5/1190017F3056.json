@@ -1,0 +1,30 @@
+{
+  "id": "1190017F3056",
+  "source_file": "300166_1190017F1053_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1190017F1053_2_04",
+  "extracted_at": "2026-11-06T15:50:48.199Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 46925,
+    "output": 929
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠150mg「KMP」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリン OD150 KMP",
+      "imprint_back": "プレガバリン OD150 KMP",
+      "imprint_note": "識別コードは「プレガバリン OD150 KMP」と記載。外形図では表面・裏面ともに印字あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "プレガバリンOD錠150mg「KMP」 直径：10.5mm 厚さ：5.7mm 重量：420mg 識別コード：プレガバリン OD150 KMP 白色 素錠（口腔内崩壊錠）"
+    }
+  ]
+}

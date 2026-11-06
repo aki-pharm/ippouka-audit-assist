@@ -1,0 +1,30 @@
+{
+  "id": "1290002F1028",
+  "source_file": "431095_1290002F1028_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431095_1290002F1028_1_02",
+  "extracted_at": "2026-11-06T15:59:51.202Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18444,
+    "output": 299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファダプス錠10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "211",
+      "imprint_note": "識別コード：211。表面・裏面の刻印は文章では記載されておらず、外形図のみ（表面は社名マークらしき図、裏面は「211」と「10」の図）。識別コード欄の記載は211。",
+      "color": "白色～類白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～類白色、円形の素錠（割線付き） 大きさ・質量 直径（mm） 10 厚さ（mm） 3.3 質量（mg） 250 識別コード 211"
+    }
+  ]
+}

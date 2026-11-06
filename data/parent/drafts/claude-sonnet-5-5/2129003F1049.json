@@ -1,0 +1,30 @@
+{
+  "id": "2129003F1049",
+  "source_file": "480209_2129003F1049_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2129003F1049_1_10",
+  "extracted_at": "2026-11-06T16:01:57.846Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21244,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メキシレチン塩酸塩錠50mg「杏林」",
+      "strength": "50mg",
+      "imprint_front": "PH275",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：PH275。外形の図では錠剤表面に「PH 275」の表示あり。裏面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 色調 白色 / 直径(mm) 6.8 / 厚さ(mm) 2.9 / 質量(mg) 85 / 識別コード PH275"
+    }
+  ]
+}

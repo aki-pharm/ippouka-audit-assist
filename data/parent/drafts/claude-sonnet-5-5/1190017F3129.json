@@ -1,0 +1,30 @@
+{
+  "id": "1190017F3129",
+  "source_file": "400073_1190017F1126_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1190017F1126_1_05",
+  "extracted_at": "2026-11-06T15:51:00.482Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45549,
+    "output": 826
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠150mg「科研」",
+      "strength": "150mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄に表裏の図はあるが、刻印の文字は本文に記載がなく読み取れない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色 白色 直径 6.1mm 8.4mm 10.6mm 厚さ 3.1mm 4.9mm 6.2mm 質量 80mg 240mg 480mg（150mgは直径10.6mm、厚さ6.2mm）"
+    }
+  ]
+}

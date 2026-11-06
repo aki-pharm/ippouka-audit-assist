@@ -1,0 +1,30 @@
+{
+  "id": "1190017F1096",
+  "source_file": "380087_1190017F1096_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1190017F1096_1_07",
+  "extracted_at": "2026-11-06T15:49:04.757Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 43976,
+    "output": 315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「ZE」",
+      "strength": "25mg",
+      "imprint_front": "プレガバリン OD25 ZE",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「プレガバリン OD25 ZE」と記載。表裏の区別は文書中に明記されていない（外形図には両面が示されている）。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色／剤形 素錠（口腔内崩壊錠）／錠径（mm） 6.5／厚み（mm） 3.2／重量（mg） 90／本体表示 プレガバリン OD25 ZE"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190019F6070",
+  "source_file": "300119_1190019F4078_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1190019F4078_1_03",
+  "extracted_at": "2026-11-06T15:56:45.582Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24567,
+    "output": 340
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠12mg「サワイ」",
+      "strength": "12mg",
+      "imprint_front": "ガランタミン OD 12 サワイ",
+      "imprint_back": "ガランタミン OD 12 サワイ",
+      "imprint_note": "本体表示として「ガランタミン OD 12 サワイ」と記載。表裏の区別は文書の文字情報からは確認できない（外形図では両面に表示あり）。割線なし（素錠）。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 素錠（口腔内崩壊錠）／性　状 白色／直径（mm） 8．0／厚さ（mm） 3．4／重量（mg） 約210／本体表示 ガランタミン OD 12 サワイ"
+    }
+  ]
+}

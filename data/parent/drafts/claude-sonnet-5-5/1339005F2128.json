@@ -1,0 +1,30 @@
+{
+  "id": "1339005F2128",
+  "source_file": "170033_1339005F1296_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1339005F1296_1_14",
+  "extracted_at": "2026-11-06T16:00:08.612Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8497,
+    "output": 764
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メリスロン錠12mg",
+      "strength": "12mg",
+      "imprint_front": "151",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は素錠（割線入り）。識別コードは151。裏面の刻印は文章では明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（割線入り） 識別コード 151 直径（mm） 7.1 質量（mg） 120 厚さ（mm） 2.7 色 白色"
+    }
+  ]
+}

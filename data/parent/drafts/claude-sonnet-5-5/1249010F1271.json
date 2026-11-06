@@ -1,0 +1,30 @@
+{
+  "id": "1249010F1271",
+  "source_file": "450064_1249010F1271_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_1249010F1271_1_06",
+  "extracted_at": "2026-11-06T15:59:50.536Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14091,
+    "output": 731
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チザニジン錠1mg「JG」",
+      "strength": "1mg",
+      "imprint_front": "JG C25",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード JG C25。割線入り素錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の割線入り素錠 / 大きさ 直径 7.0mm 厚さ 2.3mm / 重量 110mg / 識別コード JG C25"
+    }
+  ]
+}

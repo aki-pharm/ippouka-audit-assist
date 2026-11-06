@@ -1,0 +1,30 @@
+{
+  "id": "1190020F1020",
+  "source_file": "800126_1190020F1020_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_1190020F1020_1_11",
+  "extracted_at": "2026-11-06T15:56:53.269Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25256,
+    "output": 272
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レグナイト錠300mg",
+      "strength": "300mg",
+      "imprint_front": "731",
+      "imprint_back": "なし",
+      "imprint_note": "表面に社名マーク（アステラスのロゴ）と731。識別コード：731。裏面の刻印は記載なし（図は無地）。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.1,
+      "size_short_mm": 8,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2020年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "素錠（徐放錠） 白色 表 裏 側面 731 直径 厚さ 重量 長径：15.1mm 短径：8.0mm 5.7mm 0.655g 識別コード 731"
+    }
+  ]
+}

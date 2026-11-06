@@ -1,0 +1,30 @@
+{
+  "id": "1190036F1021",
+  "source_file": "112130_1190036F3024_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112130_1190036F3024_1_01",
+  "extracted_at": "2026-11-06T15:58:30.706Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21688,
+    "output": 260
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アクイプタ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "A10",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「A10」。外形図の上面に「A 10」の表示、下面は無地。裏面の刻印の有無について文言での記載はなし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の円形の素錠 上面 下面 側面 A10 直径：約6mm、厚さ：約4mm、重量：約0.1g"
+    }
+  ]
+}

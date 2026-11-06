@@ -1,0 +1,30 @@
+{
+  "id": "2129006F1026",
+  "source_file": "480008_2129006F1026_2_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_2129006F1026_2_14",
+  "extracted_at": "2026-11-06T16:02:43.475Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17572,
+    "output": 801
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロノン錠150mg",
+      "strength": "150mg",
+      "imprint_front": "547",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード547（表面）。図中に社名マークらしきものが表面にあるが、文章での記載はない。裏面の刻印は文章に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "プロノン錠150mg 白色のフィルムコーティング錠 直径 8.6mm 厚さ 4.0mm 質量 0.22g 識別コード 547"
+    }
+  ]
+}

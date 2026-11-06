@@ -1,0 +1,46 @@
+{
+  "id": "1190026F2024",
+  "source_file": "430574_1190026F1028_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_1190026F1028_1_14",
+  "extracted_at": "2026-11-06T15:57:26.849Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29345,
+    "output": 982
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タリージェ錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文テキストに刻印の記載なし（外形の図のみ）",
+      "color": "赤白色",
+      "shape": "oval",
+      "size_long_mm": 10.8,
+      "size_short_mm": 5.7,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "タリージェ錠5mg フィルムコーティング錠（楕円形・割線入） 赤白色 10.8（長径） 5.7（短径） 約3.8 約208"
+    },
+    {
+      "product_name": "タリージェOD錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文テキストに刻印の記載なし（外形の図のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "タリージェOD錠5mg 素錠（口腔内崩壊錠）（割線入） 白色 7.1（直径） 約2.8 約100"
+    }
+  ]
+}

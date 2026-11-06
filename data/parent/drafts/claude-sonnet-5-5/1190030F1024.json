@@ -1,0 +1,30 @@
+{
+  "id": "1190030F1024",
+  "source_file": "530471_1190030F1024_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530471_1190030F1024_1_03",
+  "extracted_at": "2026-11-06T15:58:08.797Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23412,
+    "output": 822
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レイボー錠50mg",
+      "strength": "50mg",
+      "imprint_front": "L-50",
+      "imprint_back": "4312",
+      "imprint_note": null,
+      "color": "明るい灰色",
+      "shape": null,
+      "size_long_mm": 8.9,
+      "size_short_mm": 4.9,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "レイボー錠50mg 明るい灰色、フィルムコーティング錠 長径:約8.90mm 短径:約4.90mm 厚さ:3.30mm 重量:0.12g 識別コード L-50 4312"
+    }
+  ]
+}

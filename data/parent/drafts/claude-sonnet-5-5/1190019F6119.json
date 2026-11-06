@@ -1,0 +1,30 @@
+{
+  "id": "1190019F6119",
+  "source_file": "530100_1190019F4116_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1190019F4116_1_05",
+  "extracted_at": "2026-11-06T15:56:53.693Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28768,
+    "output": 697
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠12mg「ニプロ」",
+      "strength": "12mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に印字らしき表示があるが、本文に刻印・識別コードの文字記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ガランタミンOD錠12mg「ニプロ」 白色～微黄白色の素錠（口腔内崩壊錠） 直径8.1mm 厚さ3.4mm 重量180mg"
+    }
+  ]
+}

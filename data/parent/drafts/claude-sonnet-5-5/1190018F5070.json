@@ -1,0 +1,30 @@
+{
+  "id": "1190018F5070",
+  "source_file": "400278_1190018F4073_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1190018F4073_1_04",
+  "extracted_at": "2026-11-06T15:54:43.546Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27650,
+    "output": 914
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章に刻印・識別コードの記載はなく、外形の図のみ。図の印字は文字として確認できないため未確認",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "メマンチン塩酸塩OD錠10mg「TCK」 淡黄白色 素錠 直径7.6mm 厚さ3.6mm 重量150.0mg（3.2 製剤の性状）"
+    }
+  ]
+}

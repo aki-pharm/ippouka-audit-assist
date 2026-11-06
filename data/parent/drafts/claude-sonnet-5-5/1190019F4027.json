@@ -1,0 +1,46 @@
+{
+  "id": "1190019F4027",
+  "source_file": "431010_1190019F1028_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_1190019F1028_3_02",
+  "extracted_at": "2026-11-06T15:55:56.520Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26941,
+    "output": 1465
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レミニール錠4mg",
+      "strength": "4mg",
+      "imprint_front": "JANSSEN",
+      "imprint_back": "G4",
+      "imprint_note": "識別コードは「JANSSEN G4」。表面にJANSSEN、裏面にG4の外形図あり。割線の記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "〈レミニール錠〉 色・剤形：淡黄色のフィルムコーティング錠 大きさ：直径 5mm、厚さ 2.8mm、重量 64.4mg 識別コード：JANSSEN G4"
+    },
+    {
+      "product_name": "レミニールOD錠4mg",
+      "strength": "4mg",
+      "imprint_front": "JP110",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「JP110」。表面にJP110の外形図あり。裏面は外形図上で無地に見えるが、文章での記載なし。割線の記載なし",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "〈レミニールOD錠〉 色・剤形：微黄色の素錠（口腔内崩壊錠） 大きさ：直径 7mm、厚さ 2.9mm、重量 140mg 識別コード：JP110"
+    }
+  ]
+}

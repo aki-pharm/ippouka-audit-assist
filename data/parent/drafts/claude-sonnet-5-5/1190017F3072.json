@@ -1,0 +1,30 @@
+{
+  "id": "1190017F3072",
+  "source_file": "530372_1190017F1070_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_1190017F1070_1_04",
+  "extracted_at": "2026-11-06T15:50:49.497Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42095,
+    "output": 300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠150mg「NPI」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリンOD 150 NPI",
+      "imprint_back": "プレガバリンOD 150 NPI",
+      "imprint_note": "識別コードは表裏とも印字（外形図に表・裏の記載あり）。識別コード欄の記載は「プレガバリンOD 150 NPI」。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 / 直径 10.0mm / 厚さ 5.5mm / 重量 380mg / 識別コード プレガバリンOD 150 NPI"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190018F4170",
+  "source_file": "400186_1190018F4170_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1190018F4170_1_02",
+  "extracted_at": "2026-11-06T15:54:03.074Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26243,
+    "output": 815
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「タカタ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に表示はあるが、本文に刻印の記載がなく読み取れないため未確認",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "メマンチン塩酸塩OD錠5mg「タカタ」 淡赤白色の裸錠 表面 直径 約5.5mm 裏面 重さ 約0.07g 側面 厚さ 約2.6mm"
+    }
+  ]
+}

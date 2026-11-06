@@ -1,0 +1,30 @@
+{
+  "id": "2129012M2027",
+  "source_file": "672212_2129012M1020_4_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2129012M1020_4_04",
+  "extracted_at": "2026-11-06T16:03:40.420Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18334,
+    "output": 1005
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピメノールカプセル100mg",
+      "strength": "100mg",
+      "imprint_front": "Pfizer 696",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は錠剤ではなく3号硬カプセル。外形図に「100mg」の表示と社名マークがある。外形図の数値は5.9、5.6、15.7（mm）。長さ15.7mm、径5.9mmと5.6mmと読めるが、短径は断定できないためnullとした。",
+      "color": "頭部：白色 胴部：白色",
+      "shape": "oblong",
+      "size_long_mm": 15.7,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "ピメノール カプセル100mg Pfizer 696 頭部：白色 胴部：白色 3号硬カプセル"
+    }
+  ]
+}

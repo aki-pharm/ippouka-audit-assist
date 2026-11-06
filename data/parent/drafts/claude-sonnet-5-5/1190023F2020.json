@@ -1,0 +1,30 @@
+{
+  "id": "1190023F2020",
+  "source_file": "170050_1190023F1024_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_1190023F1024_1_20",
+  "extracted_at": "2026-11-06T15:57:02.513Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20575,
+    "output": 238
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベルソムラ錠20mg",
+      "strength": "20mg",
+      "imprint_front": "335",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード335（社名マークを伴う）。表面に社名マークと335の表示あり、裏面は無地として図示。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.9,
+      "size_short_mm": 7.9,
+      "thickness_mm": 4.9,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 円形・白色 直径：7.9mm 厚さ：4.9mm 識別コード 335"
+    }
+  ]
+}

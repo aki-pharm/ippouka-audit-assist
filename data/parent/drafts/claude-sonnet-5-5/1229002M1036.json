@@ -1,0 +1,30 @@
+{
+  "id": "1229002M1036",
+  "source_file": "181251_1229002M1036_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/181251_1229002M1036_2_04",
+  "extracted_at": "2026-11-06T15:58:53.913Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 15825,
+    "output": 378
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダントリウムカプセル25mg",
+      "strength": "25mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「―」と記載。図中にはカプセルに印字（製品名・25mg等）の表示があるが、本文の識別コードとしての記載はなし。剤形は硬カプセル剤（錠剤ではない）、号数3号、総重量約290mg、内容物約235mg",
+      "color": "キャップ・ボディ：だいだい色・うすいかっ色　内容物：だいだい色の粉末",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／色 キャップ・ボディ：だいだい色・うすいかっ色 内容物：だいだい色の粉末／識別コード ―／外形・大きさ 号数：3号 総重量：約290mg、内容物：約235mg"
+    }
+  ]
+}

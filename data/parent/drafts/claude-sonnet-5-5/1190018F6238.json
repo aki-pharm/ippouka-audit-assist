@@ -1,0 +1,30 @@
+{
+  "id": "1190018F6238",
+  "source_file": "400073_1190018F4235_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1190018F4235_1_02",
+  "extracted_at": "2026-11-06T15:55:21.544Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25729,
+    "output": 820
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「フェルゼン」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図には表裏に印字らしきものがあるが、文章では刻印・識別コードの記載がないため未確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の割線入りの素錠 / 大きさ等：直径 9.1mm、厚さ 4.9mm、質量 280.0mg"
+    }
+  ]
+}

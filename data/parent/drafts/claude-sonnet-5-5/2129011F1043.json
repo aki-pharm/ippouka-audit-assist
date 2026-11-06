@@ -1,0 +1,30 @@
+{
+  "id": "2129011F1043",
+  "source_file": "480008_2129011F1043_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_2129011F1043_1_03",
+  "extracted_at": "2026-11-06T16:03:27.895Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21842,
+    "output": 233
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベプリジル塩酸塩錠50mg「TE」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の表面・裏面・側面は図で示されているが、刻印・識別コードの文字は本文に記載がなく読み取れない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の円形のフィルムコーティング錠（割線入り）"
+    }
+  ]
+}

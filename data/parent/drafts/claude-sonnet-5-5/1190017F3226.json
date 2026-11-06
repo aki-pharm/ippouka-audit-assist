@@ -1,0 +1,30 @@
+{
+  "id": "1190017F3226",
+  "source_file": "671940_1190017F1223_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_1190017F1223_1_06",
+  "extracted_at": "2026-11-06T15:51:16.461Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 44659,
+    "output": 293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠150mg「フェルゼン」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリンOD フェルゼン 150",
+      "imprint_back": "プレガバリンOD フェルゼン 150",
+      "imprint_note": "外形の表・裏の図に印字された文字（プレガバリンOD、フェルゼン、150）を図から読み取った。性状欄の文章には刻印・識別コードの記載はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 6.2,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の素錠 ／ 直径 10.6mm 厚さ 6.2mm 質量 480mg"
+    }
+  ]
+}

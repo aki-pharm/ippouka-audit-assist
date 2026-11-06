@@ -1,0 +1,30 @@
+{
+  "id": "1225001F2250",
+  "source_file": "400059_1225001F1114_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400059_1225001F1114_1_10",
+  "extracted_at": "2026-11-06T15:58:51.031Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12513,
+    "output": 248
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リンラキサー錠250mg",
+      "strength": "250mg",
+      "imprint_front": "T737",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはT737。上面に「T/737」と印字。下面は無地（図より）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2022年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "リンラキサー錠 250mg T737 白 色 素 錠 上面 下面 側面 直径（mm） 厚さ（mm） 重量（mg） 約 9 約 4.6 約 320"
+    }
+  ]
+}

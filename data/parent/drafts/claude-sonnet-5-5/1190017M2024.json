@@ -1,0 +1,30 @@
+{
+  "id": "1190017M2024",
+  "source_file": "671450_1190017F1029_3_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_1190017F1029_3_08",
+  "extracted_at": "2026-11-06T15:51:54.351Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40761,
+    "output": 912
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リリカOD錠75mg",
+      "strength": "75mg",
+      "imprint_front": "VT LY",
+      "imprint_back": "75",
+      "imprint_note": "識別コード VTLY75。表裏の表記は外形図による（上面：VT LY、下面：75）。素錠、重量240mg",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.3,
+      "size_short_mm": 8.3,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第9版）",
+      "source_page": 1,
+      "source_quote": "リリカOD錠75mg 上面8.3 下面8.3 側面4.8 重量240mg 識別コード VTLY75 色調等 白色 素錠"
+    }
+  ]
+}

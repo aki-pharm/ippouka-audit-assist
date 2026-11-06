@@ -1,0 +1,30 @@
+{
+  "id": "1190019F6097",
+  "source_file": "480235_1190019F4094_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1190019F4094_1_04",
+  "extracted_at": "2026-11-06T15:56:49.718Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25003,
+    "output": 938
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠12mg「トーワ」",
+      "strength": "12mg",
+      "imprint_front": "12 ガランタミン OD トーワ",
+      "imprint_back": "12 ガランタミン OD トーワ",
+      "imprint_note": "本体表示は表裏が結合した欄に記載されており、外形図でも表裏とも12の表示あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色の口腔内崩壊錠　本体表示：12 ガランタミン OD トーワ　直径(mm) 8.0　厚さ(mm) 3.5　質量(mg) 180"
+    }
+  ]
+}

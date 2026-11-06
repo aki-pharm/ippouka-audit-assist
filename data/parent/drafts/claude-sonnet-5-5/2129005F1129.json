@@ -1,0 +1,30 @@
+{
+  "id": "2129005F1129",
+  "source_file": "450900_2129005F1129_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_2129005F1129_3_01",
+  "extracted_at": "2026-11-06T16:02:34.978Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17476,
+    "output": 245
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスモダンR錠150mg",
+      "strength": "150mg",
+      "imprint_front": "RU",
+      "imprint_back": "013 J",
+      "imprint_note": "識別コード：RU 013 J",
+      "color": "白色～微黄の白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.15,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄の白色フィルムコート錠 外形 直径（mm） 10.1 厚さ（mm） 4.15 重量（mg） 282.1 識別コード RU 013 J"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190019F6062",
+  "source_file": "672173_1190019F4060_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1190019F4060_2_04",
+  "extracted_at": "2026-11-06T15:56:45.554Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24918,
+    "output": 685
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠12mg「アメル」",
+      "strength": "12mg",
+      "imprint_front": "ガランタミンOD 12 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの欄に1つだけ記載されており、表裏の区別は文章では記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ガランタミンOD錠12mg「アメル」 素錠 直径：約8.1mm 厚さ：約3.4mm 質量：約210.0mg 識別コード：ガランタミンOD 12 アメル 白色"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190017F3234",
+  "source_file": "750007_1190017F1231_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/750007_1190017F1231_1_05",
+  "extracted_at": "2026-11-06T15:51:19.768Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 42396,
+    "output": 904
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠150mg「三笠」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリン OD 三笠150",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは1つだけ記載されており、表裏のどちらに入っているかは文字では確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 5.9,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠／直径 約10.5mm／厚さ 約5.9mm／識別コード プレガバリン OD 三笠150（重量 450mg）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2129003M2192",
+  "source_file": "300119_2129003M1188_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2129003M1188_1_02",
+  "extracted_at": "2026-11-06T16:02:19.804Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20327,
+    "output": 808
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メキシレチン塩酸塩カプセル100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW-929",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして記載。カプセルのどの面に印字されているかは文書中に記載なし。",
+      "color": "頭部：淡黄赤色不透明、胴部：白色不透明、内容物：白色の粒を含む粉末",
+      "shape": "oblong",
+      "size_long_mm": 16,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤／性状 頭部：淡黄赤色不透明 胴部：白色不透明 内容物：白色の粒を含む粉末／全長（mm） 16.0／重量（mg） 約231／識別コード SW-929（外形：3号）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1249005M1083",
+  "source_file": "530100_1249005M1083_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1249005M1083_2_02",
+  "extracted_at": "2026-11-06T15:59:26.613Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9612,
+    "output": 727
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セスデンカプセル30mg",
+      "strength": "30mg",
+      "imprint_front": "TA301（PTPに記載）",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPに記載と記されている。カプセル本体への刻印の有無は本文に明記なし。硬カプセル剤（錠剤ではない）。内容物は白色の散剤、内容重量100mg。",
+      "color": "キャップがだいだい色、ボディが白色",
+      "shape": "oblong",
+      "size_long_mm": 11.3,
+      "size_short_mm": 4.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "セスデンカプセル30mg 白色の散剤 キャップがだいだい色、ボディが白色の硬カプセル剤 11.3 4.9 100 TA301（PTP に記載）"
+    }
+  ]
+}

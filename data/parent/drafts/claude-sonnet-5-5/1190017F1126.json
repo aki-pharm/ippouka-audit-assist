@@ -1,0 +1,30 @@
+{
+  "id": "1190017F1126",
+  "source_file": "400073_1190017F1126_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1190017F1126_1_05",
+  "extracted_at": "2026-11-06T15:49:18.425Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 45549,
+    "output": 886
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「科研」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図（表・裏・側面）のみで、刻印の文字情報は文章として記載がなく判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色 白色 外形 表・裏・側面 直径 6.1mm 厚さ 3.1mm 質量 80mg（プレガバリンOD錠25mg「科研」）"
+    }
+  ]
+}

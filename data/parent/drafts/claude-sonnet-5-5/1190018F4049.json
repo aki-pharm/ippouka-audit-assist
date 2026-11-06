@@ -1,0 +1,30 @@
+{
+  "id": "1190018F4049",
+  "source_file": "580591_1190018F4049_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1190018F4049_1_04",
+  "extracted_at": "2026-11-06T15:53:25.037Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25646,
+    "output": 315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "メマンチン OD 5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「メマンチン OD 5 JG」と記載。表面・裏面の個別の刻印内容は本文テキストからは区別できない。",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メマンチン塩酸塩OD錠 5 mg「JG」淡赤白色の素錠 表面 裏面 側面 メマンチン OD 5 JG 直径 6.0mm 厚さ 2.4mm 重量 70mg"
+    }
+  ]
+}

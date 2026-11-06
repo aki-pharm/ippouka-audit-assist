@@ -1,0 +1,30 @@
+{
+  "id": "2123016F1107",
+  "source_file": "400315_2123016F1107_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2123016F1107_1_21",
+  "extracted_at": "2026-11-06T16:01:40.909Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23754,
+    "output": 261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メインテート錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "TA 201",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードはTA201。外形図に割線あり。表裏の刻印の内訳は添付文書の文字情報からは確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・素錠（割線入）／識別コード TA201／直径（mm）7.0 厚さ（mm）2.7 重量（g）0.12"
+    }
+  ]
+}

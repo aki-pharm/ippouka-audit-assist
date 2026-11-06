@@ -1,0 +1,30 @@
+{
+  "id": "1190033F2024",
+  "source_file": "150923_1190033F1028_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/150923_1190033F1028_1_04",
+  "extracted_at": "2026-11-06T15:58:22.970Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25524,
+    "output": 732
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クービビック錠50mg",
+      "strength": "50mg",
+      "imprint_front": "50",
+      "imprint_back": "i",
+      "imprint_note": "外形は図のみで文章の記載なし。高さ7mm、厚さ4mm、質量0.155g（長径・短径の別は記載なし）",
+      "color": "淡橙～橙色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 フィルムコーティング錠 淡橙～橙色（クービビック錠50mg）／高さ：7mm／厚さ：4mm／質量 0.155g／識別コード 表面：50、裏面：i"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2133001F1522",
+  "source_file": "672212_2133001C1097_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_2133001C1097_3_05",
+  "extracted_at": "2026-11-06T16:03:58.434Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 14093,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルダクトンA錠25mg",
+      "strength": "25mg",
+      "imprint_front": "SEARLE 101",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄に「SEARLE 101」と記載。外形の上面にSEARLEのロゴと101の表示。下面の刻印の記載は読み取れず確認できない。",
+      "color": "白色素錠",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2025年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アルダクトンA錠25mg 25mg SEARLE 101 白色素錠 直径 7.0mm 厚さ 3.0mm 重量 100mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2113005F2044",
+  "source_file": "581120_2113005F1056_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2113005F1056_1_04",
+  "extracted_at": "2026-11-06T16:00:24.404Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23806,
+    "output": 277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メチルジゴキシン錠0.05mg「NIG」",
+      "strength": "0.05mg",
+      "imprint_front": "t 078",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）として t 078 と記載。錠剤表面の刻印については本文に明記なし。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色の片面1/2割線入り素錠 / 直径 6.0mm / 厚さ 2.3mm / 質量 85mg / 識別コード（PTP） t 078"
+    }
+  ]
+}

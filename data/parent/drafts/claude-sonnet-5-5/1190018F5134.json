@@ -1,0 +1,30 @@
+{
+  "id": "1190018F5134",
+  "source_file": "530372_1190018F4138_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_1190018F4138_1_04",
+  "extracted_at": "2026-11-06T15:54:40.529Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27249,
+    "output": 310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠10mg「クラシエ」",
+      "strength": "10mg",
+      "imprint_front": "クラシエ メマンチン OD 10",
+      "imprint_back": "クラシエ メマンチン OD 10",
+      "imprint_note": "識別コード欄の記載は「クラシエ メマンチン OD 10」。表裏の別は文書上明記されておらず、外形図では表裏とも同様の印字が確認できる。",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状 淡黄白色の素錠 / 直径 7.6mm / 厚さ 3.6mm / 識別コード クラシエ メマンチン OD 10"
+    }
+  ]
+}

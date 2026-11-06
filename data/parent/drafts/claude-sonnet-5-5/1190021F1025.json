@@ -1,0 +1,30 @@
+{
+  "id": "1190021F1025",
+  "source_file": "530258_1190021F1025_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1190021F1025_1_10",
+  "extracted_at": "2026-11-06T15:56:56.674Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25051,
+    "output": 254
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コレアジン錠12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "CL 12･5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「CL 12･5」。外形図では表面に「CL 12･5」の印字が示されている。裏面の刻印については記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2024年6月改訂（第2版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "コレアジン錠12.5mg 白色の素錠 CL 12･5 7.0 2.5 125"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1249008F1215",
+  "source_file": "530100_1249008F1215_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1249008F1215_3_01",
+  "extracted_at": "2026-11-06T15:59:40.917Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 8476,
+    "output": 238
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロフト錠20mg",
+      "strength": "20mg",
+      "imprint_front": "TA007",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TA007。外形図には表面に TA のマークと 007 の表示あり。裏面の刻印は記載なし。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.9,
+      "size_short_mm": 7.9,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "アロフト錠 20mg 白色の糖衣錠 7.9 4.2 205 TA007"
+    }
+  ]
+}

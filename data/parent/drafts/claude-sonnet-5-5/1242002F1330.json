@@ -1,0 +1,30 @@
+{
+  "id": "1242002F1330",
+  "source_file": "780069_1242002F1330_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_1242002F1330_2_03",
+  "extracted_at": "2026-11-06T15:59:15.650Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9567,
+    "output": 266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブスコパン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "sa",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード sa。外形図には表面（sa）、裏面（無地の円形）、側面が描かれているが、裏面の刻印についての文言記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の糖衣錠 外 形 直 径 7.0mm 厚 さ 3.8mm 重 量 0.15g 識別コード sa"
+    }
+  ]
+}

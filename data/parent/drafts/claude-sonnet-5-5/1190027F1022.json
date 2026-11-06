@@ -1,0 +1,30 @@
+{
+  "id": "1190027F1022",
+  "source_file": "170033_1190027F1022_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1190027F1022_1_08",
+  "extracted_at": "2026-11-06T15:57:49.924Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26261,
+    "output": 960
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デエビゴ錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "LЄM",
+      "imprint_back": "2.5",
+      "imprint_note": "識別コード：LЄM 2.5（外形図では表にLЄM、裏に2.5）。剤形はフィルムコーティング錠",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "デエビゴ錠2.5mg フィルムコーティング錠 識別コード LЄM 2.5 直径(mm) 7.1 質量(mg) 127 厚さ(mm) 3.3 色 淡赤色"
+    }
+  ]
+}

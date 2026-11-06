@@ -1,0 +1,30 @@
+{
+  "id": "1190028F1027",
+  "source_file": "620095_1190028D1026_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/620095_1190028D1026_1_09",
+  "extracted_at": "2026-11-06T15:57:57.551Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17628,
+    "output": 709
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メラトベル錠小児用1mg",
+      "strength": "1mg",
+      "imprint_front": "NPC81",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表面に記載（NPC81）。裏面は外形図で無地の円として示されているが、本文に刻印の有無の明記はない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "メラトベル錠小児用1mg 白色の割線入りの素錠／大きさ 直径 5.5mm 厚さ 2.3mm 重量 60mg／識別コード NPC81"
+    }
+  ]
+}

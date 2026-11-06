@@ -1,0 +1,30 @@
+{
+  "id": "1190018F6190",
+  "source_file": "480235_1190018F4197_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1190018F4197_1_02",
+  "extracted_at": "2026-11-06T15:55:14.698Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24811,
+    "output": 648
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "メマンチン 20",
+      "imprint_back": "20 メマンチン OD トーワ",
+      "imprint_note": "割線あり（外形図より）。表示は「本体表示」欄の記載。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの口腔内崩壊錠／本体表示 表：メマンチン 20、裏：20 メマンチン OD トーワ／直径(mm) 9.0、厚さ(mm) 4.9"
+    }
+  ]
+}

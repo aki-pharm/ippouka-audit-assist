@@ -1,0 +1,30 @@
+{
+  "id": "1190018F6041",
+  "source_file": "580591_1190018F4049_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1190018F4049_1_04",
+  "extracted_at": "2026-11-06T15:55:06.235Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25646,
+    "output": 377
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "メマンチン OD 20",
+      "imprint_back": "メマンチン OD JG",
+      "imprint_note": "本体表示は「メマンチン OD 20 メマンチン OD JG」。表面・裏面の具体的な配置は図からは判読が難しいため、表面を「メマンチン OD 20」、裏面を「メマンチン OD JG」と記載。片面割線入り。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "メマンチン塩酸塩OD錠20mg「JG」 白色～微黄白色の片面割線入りの素錠 表面 裏面 側面 メマンチン OD 20 メマンチン OD JG 直径 9.0mm 厚さ 4.2mm 重量 280mg"
+    }
+  ]
+}

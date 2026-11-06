@@ -1,0 +1,30 @@
+{
+  "id": "1190023F3027",
+  "source_file": "170050_1190023F1024_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_1190023F1024_1_20",
+  "extracted_at": "2026-11-06T15:57:04.348Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20575,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベルソムラ錠10mg",
+      "strength": "10mg",
+      "imprint_front": "33",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード「33」。表面に「33」の表示あり、裏面は無地（図）。社名マークの有無は本文からは未確認",
+      "color": "ごくうすい緑色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 円形・ごくうすい緑色 直径：6.4mm 厚さ：4.1mm 識別コード 33"
+    }
+  ]
+}

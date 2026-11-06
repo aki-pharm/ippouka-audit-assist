@@ -1,0 +1,30 @@
+{
+  "id": "1190024M1028",
+  "source_file": "630499_1190024M1028_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630499_1190024M1028_1_03",
+  "extracted_at": "2026-11-06T15:57:14.282Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21381,
+    "output": 700
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テクフィデラ®カプセル120mg",
+      "strength": "120mg",
+      "imprint_front": "BG-12 120mg",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル製剤（内容物は白色～灰白色のマイクロ錠）。識別コードは「BG-12 120mg」。表裏の区別は記載なし。",
+      "color": "キャップは淡緑色、ボディは白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 22,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2021年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：キャップは淡緑色、ボディは白色不透明の硬カプセル／内容物：白色～灰白色のマイクロ錠／大きさ：全長（mm）約22（0号）、直径（mm）約7、重量（mg）約450／識別コード：BG-12 120mg"
+    }
+  ]
+}

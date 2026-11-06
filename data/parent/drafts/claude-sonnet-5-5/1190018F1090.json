@@ -1,0 +1,46 @@
+{
+  "id": "1190018F1090",
+  "source_file": "480235_1190018F1090_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1190018F1090_1_03",
+  "extracted_at": "2026-11-06T15:52:39.904Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 28175,
+    "output": 1341
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "5 メマンチン トーワ",
+      "imprint_back": "5 メマンチン トーワ",
+      "imprint_note": "本体表示欄は表・裏共通の1欄で「5 メマンチン トーワ」と記載",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2025年4月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤色のフィルムコーティング錠／本体表示 5 メマンチン トーワ／直径(mm) 6.1／厚さ(mm) 2.7"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "5 メマンチン OD トーワ",
+      "imprint_back": "5 メマンチン OD トーワ",
+      "imprint_note": "本体表示欄は表・裏共通の1欄で「5 メマンチン OD トーワ」と記載",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2025年4月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤白色の口腔内崩壊錠／本体表示 5 メマンチン OD トーワ／直径(mm) 6.0／厚さ(mm) 3.2"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190037F2022",
+  "source_file": "400256_1190037F1026_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_1190037F1026_1_01",
+  "extracted_at": "2026-11-06T15:58:36.970Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21785,
+    "output": 259
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オーゼイフル錠1mg",
+      "strength": "1mg",
+      "imprint_front": "1",
+      "imprint_back": "なし",
+      "imprint_note": "識別コードは「1」（表面に表示。図中の裏面は無地）。裏面の刻印は表に記載なし",
+      "color": "橙色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠／色調 橙色／識別コード 1／直径（mm） 約6.2／厚さ（mm） 約3.6／質量（mg） 約105"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2129002M1060",
+  "source_file": "450900_2129002M1060_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_2129002M1060_3_02",
+  "extracted_at": "2026-11-06T16:01:54.600Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17578,
+    "output": 1258
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスモダンカプセル50 mg",
+      "strength": "50 mg",
+      "imprint_front": "RURH",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤はカプセル剤で錠剤ではない。識別コードはRURH。外形図ではRURHがキャップ側とボディ側に表示されているように見えるが、表裏の区別は記載がない。外形図の寸法は全長14.00 mm、直径5.33 mmと5.07 mm。キャップとボディのどちらの直径か不明なため短径は未記入。",
+      "color": "緑色キャップ、うす緑色ボディ",
+      "shape": "oblong",
+      "size_long_mm": 14,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 緑色キャップ うす緑色ボディの４号カプセル／重量（mg）169／識別コード RURH"
+    }
+  ]
+}

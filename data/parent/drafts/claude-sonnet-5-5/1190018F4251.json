@@ -1,0 +1,30 @@
+{
+  "id": "1190018F4251",
+  "source_file": "581120_1190018F4251_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1190018F4251_1_05",
+  "extracted_at": "2026-11-06T15:54:31.974Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 24996,
+    "output": 898
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の文字記載なし（外形図のみ）",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.95,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡赤白色の素錠（口腔内崩壊錠）／直径 6.0mm／厚さ 2.95mm／質量 85mg"
+    }
+  ]
+}

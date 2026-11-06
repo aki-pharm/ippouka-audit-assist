@@ -1,0 +1,30 @@
+{
+  "id": "2129002M2139",
+  "source_file": "450900_2129002M1060_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450900_2129002M1060_3_02",
+  "extracted_at": "2026-11-06T16:01:52.605Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17578,
+    "output": 947
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスモダンカプセル100 mg",
+      "strength": "100 mg",
+      "imprint_front": "RURY",
+      "imprint_back": "未確認",
+      "imprint_note": "本剤は錠剤ではなくカプセル剤。識別コードはRURY（外形図ではカプセル上に表示）。表裏の区別は記載なし。外形・大きさは図中の数値（18.05、5.79、5.54）を読み取ったもので、短径は最大径の5.79を採用。",
+      "color": "緑色キャップ、黄色ボディ",
+      "shape": "oblong",
+      "size_long_mm": 18.05,
+      "size_short_mm": 5.79,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "リスモダンカプセル100 mg 色・剤形：緑色キャップ 黄色ボディの３号カプセル／重量（mg）234／識別コード RURY"
+    }
+  ]
+}

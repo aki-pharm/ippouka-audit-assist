@@ -1,0 +1,30 @@
+{
+  "id": "1190018F7056",
+  "source_file": "270428_1190018F4162_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1190018F4162_1_03",
+  "extracted_at": "2026-11-06T15:55:35.421Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27715,
+    "output": 934
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠15mg「サンド」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄は図のみで、刻印・識別コードの文字情報は読み取れなかった",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.6,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の性状 メマンチン塩酸塩OD錠15mg「サンド」：剤形 素錠、色調 白色～微黄白色、直径 8.1mm、厚さ 4.6mm、質量 210mg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1249009F1090",
+  "source_file": "170033_1249009D1030_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_1249009D1030_1_17",
+  "extracted_at": "2026-11-06T15:59:42.220Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 12314,
+    "output": 263
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミオナール錠50mg",
+      "strength": "50mg",
+      "imprint_front": "127",
+      "imprint_back": "なし",
+      "imprint_note": "表に社名マーク（ε）と識別コード127の記載あり。裏の外形図には刻印の記載なし（「－」ではなく空円）。糖衣錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 識別コード 127 直径（mm） 7.5 質量（mg） 162 厚さ（mm） 4.2 色 白色"
+    }
+  ]
+}

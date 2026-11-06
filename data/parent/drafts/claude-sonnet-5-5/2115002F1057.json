@@ -1,0 +1,30 @@
+{
+  "id": "2115002F1057",
+  "source_file": "530258_2115002F1057_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2115002F1057_3_02",
+  "extracted_at": "2026-11-06T16:00:30.270Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17799,
+    "output": 280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ネオフィリン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "EISAI NE100",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄に「EISAI」「NE100」と記載。表裏の別は文書上の図のみで、テキストでは明示されていない。側面の刻印は未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "ネオフィリン錠100mg 素錠（割線あり） 白色 EISAI 直径（mm）・質量（mg）・厚さ（mm） NE100 8.1 200 3.0"
+    }
+  ]
+}

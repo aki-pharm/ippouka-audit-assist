@@ -1,0 +1,30 @@
+{
+  "id": "2123011F1155",
+  "source_file": "431010_2123011F1155_4_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_2123011F1155_4_06",
+  "extracted_at": "2026-11-06T16:01:22.551Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18206,
+    "output": 654
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テノーミン錠25",
+      "strength": "25mg",
+      "imprint_front": "ZNC 214",
+      "imprint_back": "25",
+      "imprint_note": "識別コード「ZNC 214：25」。外形図では表面にZNC 214、裏面に25",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠／直径 約6.6mm／厚さ 約3.1mm／識別コード ZNC 214：25"
+    }
+  ]
+}

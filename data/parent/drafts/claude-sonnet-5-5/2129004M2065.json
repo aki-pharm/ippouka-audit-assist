@@ -1,0 +1,30 @@
+{
+  "id": "2129004M2065",
+  "source_file": "530100_2129004M1050_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2129004M1050_2_05",
+  "extracted_at": "2026-11-06T16:02:28.777Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 20320,
+    "output": 332
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アプリンジン塩酸塩カプセル 20mg「NP」",
+      "strength": "20mg",
+      "imprint_front": "HD-029",
+      "imprint_back": "HD-029",
+      "imprint_note": "本剤は錠剤ではなく硬カプセル剤。識別コードはキャップ・ボディ両方に表示（HD 029）。内容物は白色～微黄白色の粒及び粉末、内容重量150mg。割線の記載なし。",
+      "color": "キャップ、ボディ：だいだい色",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": 5.1,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "アプリンジン塩酸塩カプセル 20mg「NP」 キャップ、ボディ：だいだい色の硬カプセル剤 14.2 5.1 150 HD-029"
+    }
+  ]
+}

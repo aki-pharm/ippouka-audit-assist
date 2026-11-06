@@ -1,0 +1,30 @@
+{
+  "id": "1231008F1032",
+  "source_file": "672212_1231008F1032_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1231008F1032_3_03",
+  "extracted_at": "2026-11-06T15:58:58.894Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9368,
+    "output": 232
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロ・バンサイン錠15mg",
+      "strength": "15mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「－」と記載",
+      "color": "黄味のある淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2022年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "識別コード「－」、色調等「黄味のある淡赤色の糖衣錠」、直径6.3mm、厚さ3.2mm、重量92mg"
+    }
+  ]
+}

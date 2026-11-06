@@ -1,0 +1,30 @@
+{
+  "id": "1190019F4094",
+  "source_file": "480235_1190019F4094_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1190019F4094_1_04",
+  "extracted_at": "2026-11-06T15:56:16.483Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25003,
+    "output": 1171
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠4mg「トーワ」",
+      "strength": "4mg",
+      "imprint_front": "4 ガランタミン OD トーワ",
+      "imprint_back": "4 ガランタミン OD トーワ",
+      "imprint_note": "本体表示。表・裏とも「4 ガランタミン OD トーワ」と表示（外形図より）",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "微黄色の口腔内崩壊錠／本体表示 4 ガランタミン OD トーワ／直径(mm) 6.0／厚さ(mm) 3.0／質量(mg) 90"
+    }
+  ]
+}

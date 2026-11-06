@@ -1,0 +1,30 @@
+{
+  "id": "2123014F1116",
+  "source_file": "300119_2123014F1116_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2123014F1116_1_04",
+  "extracted_at": "2026-11-06T16:01:31.328Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17516,
+    "output": 326
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロチノロール塩酸塩錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "サワイ アロチノロール 5",
+      "imprint_back": "サワイ アロチノロール 5",
+      "imprint_note": "識別表示は「サワイ アロチノロール 5」。外形図では表裏とも表示あり、側面にも表示あり（本文では表裏の区別の記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 / 性状 白色 / 直径（mm） 7.2 / 厚さ（mm） 3.2 / 重量（mg） 約138 / 識別表示 サワイ アロチノロール 5"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2123011F2623",
+  "source_file": "460028_2123011F1368_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2123011F1368_1_05",
+  "extracted_at": "2026-11-06T16:01:32.216Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18432,
+    "output": 890
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アテノロール錠50mg「ツルハラ」",
+      "strength": "50mg",
+      "imprint_front": "A35",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードA35。本文に裏面の刻印の記載はなく、外形図の裏面には表示が見当たらないが、明記はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 アテノロール錠50mg「ツルハラ」 剤形 フィルムコート錠 色調 白色 大きさ 直径 約7.6mm 厚さ 約3.5mm 質量 約155mg 識別コード A35"
+    }
+  ]
+}

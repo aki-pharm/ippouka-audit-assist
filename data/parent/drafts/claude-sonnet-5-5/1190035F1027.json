@@ -1,0 +1,30 @@
+{
+  "id": "1190035F1027",
+  "source_file": "672212_1190035F1027_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1190035F1027_1_02",
+  "extracted_at": "2026-11-06T15:58:30.830Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22919,
+    "output": 553
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルティークOD錠75mg",
+      "strength": "75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形・識別コード欄には図（記号）が示されているが、文字としての刻印・識別コードは本文から確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 13.7,
+      "size_short_mm": 13.7,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色で円形の口腔内崩壊錠 直径：13.7mm、厚さ：3.7mm"
+    }
+  ]
+}

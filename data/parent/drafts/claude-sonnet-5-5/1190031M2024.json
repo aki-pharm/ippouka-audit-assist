@@ -1,0 +1,30 @@
+{
+  "id": "1190031M2024",
+  "source_file": "400315_1190031M1028_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1190031M1028_1_09",
+  "extracted_at": "2026-11-06T15:58:12.726Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29642,
+    "output": 840
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジスバルカプセル20mg",
+      "strength": "20mg",
+      "imprint_front": "VBZ 20",
+      "imprint_back": "VBZ 20",
+      "imprint_note": "本剤は錠剤ではなくカプセル剤。刻印は外形の図に基づく（本文には刻印の文字記載なし）。図ではカプセルの両側に「VBZ 20」と表示されている。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性状 外観：白色の4号硬カプセル／内容物：白色の顆粒／大きさ(mm)：長径：約14.3、短径：約5.3／重量(mg)：約129.2"
+    }
+  ]
+}

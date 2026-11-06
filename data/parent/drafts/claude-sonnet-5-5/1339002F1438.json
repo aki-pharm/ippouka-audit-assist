@@ -1,0 +1,30 @@
+{
+  "id": "1339002F1438",
+  "source_file": "530263_1339002F1438_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_1339002F1438_1_01",
+  "extracted_at": "2026-11-06T15:59:59.573Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9180,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セファドール錠25mg",
+      "strength": "25mg",
+      "imprint_front": "108",
+      "imprint_back": "なし",
+      "imprint_note": "表に社名マークと識別コード108（外形図より）。裏面は刻印なし（外形図）。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2021年4月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の色 淡黄色 形状 円形のフィルムコーティング錠 識別コード 108 直径（mm） 7.1 厚さ（mm） 3.2 重量（mg） 134"
+    }
+  ]
+}

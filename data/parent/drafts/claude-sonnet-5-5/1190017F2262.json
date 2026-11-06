@@ -1,0 +1,30 @@
+{
+  "id": "1190017F2262",
+  "source_file": "730869_1190017F1266_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_1190017F1266_1_03",
+  "extracted_at": "2026-11-06T15:50:35.524Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 40410,
+    "output": 273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠75mg「VTRS」",
+      "strength": "75mg",
+      "imprint_front": "VT PR 75",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「VT PR 75」と記載。上面・下面のどちらにどの刻印が入るかは本文テキストに明記されていない（図中の表示のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.3,
+      "size_short_mm": 8.3,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "プレガバリンOD錠75mg「VTRS」 8.3 8.3 4.8 240mg VT PR 75 白色 素錠"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1190018F7048",
+  "source_file": "530213_1190018F4146_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1190018F4146_1_04",
+  "extracted_at": "2026-11-06T15:55:28.783Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27366,
+    "output": 328
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠15mg「ケミファ」",
+      "strength": "15mg",
+      "imprint_front": "メマンチンOD 15 ケミファ",
+      "imprint_back": "メマンチンOD 15 ケミファ",
+      "imprint_note": "識別コード欄の記載は「メマンチンOD 15 ケミファ」。外形図の表裏それぞれに印字あり（表裏別の刻印内容は文章での記載なし）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の素錠　直径 8.1mm　厚さ 4.5mm　重量 210.0mg　識別コード メマンチンOD 15 ケミファ"
+    }
+  ]
+}

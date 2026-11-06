@@ -1,0 +1,46 @@
+{
+  "id": "2119003F2332",
+  "source_file": "170033_2119003F1093_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2119003F1093_1_03",
+  "extracted_at": "2026-11-06T16:00:43.982Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 9940,
+    "output": 1435
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノイキノン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "EISAI NQ010",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載。表・裏の別は本文に明記されておらず、外形図に基づく。",
+      "color": "橙黄色〜黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "ノイキノン錠10mg　剤形：素錠　識別コード：EISAI NQ010　直径(mm)：6.1　質量(mg)：100　厚さ(mm)：3.4　色：橙黄色〜黄色"
+    },
+    {
+      "product_name": "ノイキノン糖衣錠10mg",
+      "strength": "10mg",
+      "imprint_front": "ε224",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載。表・裏の別は本文に明記されておらず、外形図に基づく。",
+      "color": "橙色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "ノイキノン糖衣錠10mg　剤形：糖衣錠　識別コード：ε224　直径(mm)：7.5　質量(mg)：170　厚さ(mm)：4.2　色：橙色"
+    }
+  ]
+}

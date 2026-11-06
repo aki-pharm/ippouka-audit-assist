@@ -1,0 +1,30 @@
+{
+  "id": "1231013M1040",
+  "source_file": "671450_1231013M1040_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671450_1231013M1040_2_03",
+  "extracted_at": "2026-11-06T15:59:02.744Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 10390,
+    "output": 257
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チアトンカプセル5mg",
+      "strength": "5mg",
+      "imprint_front": "HC902",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードHC902（カプセル。外形図には5号硬カプセルと記載）。錠剤ではなく硬カプセル剤。サイズの記載なし。",
+      "color": "頭部：白色、胴部：白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "チアトンカプセル 5mg 5号硬カプセル HC902 頭部：白色 胴部：白色"
+    }
+  ]
+}

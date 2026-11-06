@@ -1,0 +1,46 @@
+{
+  "id": "1190018F4227",
+  "source_file": "530100_1190018F1104_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1190018F1104_1_05",
+  "extracted_at": "2026-11-06T15:54:19.387Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 29755,
+    "output": 1152
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩錠5mg「ニプロ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印・識別コードの記載なし",
+      "color": "淡赤色～帯黄淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡赤色～帯黄淡赤色のフィルムコーティング錠（直径6.1mm、厚さ2.8mm、重量83mg）"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「ニプロ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "性状欄の文章には刻印・識別コードの記載なし。口腔内崩壊錠",
+      "color": "淡赤白色～帯黄淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡赤白色～帯黄淡赤白色の素錠で斑点がある（口腔内崩壊錠）（直径6.1mm、厚さ3.3mm、重量90mg）"
+    }
+  ]
+}

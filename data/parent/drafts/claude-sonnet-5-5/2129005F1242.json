@@ -1,0 +1,30 @@
+{
+  "id": "2129005F1242",
+  "source_file": "730869_2129005F1242_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2129005F1242_1_04",
+  "extracted_at": "2026-11-06T16:02:38.227Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 17073,
+    "output": 285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジソピラミド徐放錠150mg「VTRS」",
+      "strength": "150mg",
+      "imprint_front": "VLE 509",
+      "imprint_back": "CR",
+      "imprint_note": "上面「VLE 509」、下面「CR」。識別コード：VLE 509 CR。側面の刻印は図のみで文字の記載なし。",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ジソピラミド徐放錠150mg「VTRS」 VLE 509 CR 白色 フィルムコーティング錠 直径10.0mm 厚さ4.1mm 重量291mg"
+    }
+  ]
+}

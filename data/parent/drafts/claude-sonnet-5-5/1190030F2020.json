@@ -1,0 +1,30 @@
+{
+  "id": "1190030F2020",
+  "source_file": "530471_1190030F1024_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530471_1190030F1024_1_03",
+  "extracted_at": "2026-11-06T15:58:03.931Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23412,
+    "output": 268
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レイボー錠100mg",
+      "strength": "100mg",
+      "imprint_front": "L-100",
+      "imprint_back": "4491",
+      "imprint_note": "表面に L-100、裏面に 4491 と識別コードの記載あり。側面の図あり。",
+      "color": "薄い紫色",
+      "shape": "oval",
+      "size_long_mm": 11.2,
+      "size_short_mm": 6.15,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2023年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "レイボー錠100mg 薄い紫色、フィルムコーティング錠 長径:約11.20mm 短径:約6.15mm 厚さ:4.0mm 重量:0.24g 識別コード L-100 4491"
+    }
+  ]
+}
