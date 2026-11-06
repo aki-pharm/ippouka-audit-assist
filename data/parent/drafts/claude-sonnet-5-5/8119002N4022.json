@@ -1,0 +1,30 @@
+{
+  "id": "8119002N4022",
+  "source_file": "470006_8119002N1023_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470006_8119002N1023_1_07",
+  "extracted_at": "2026-11-06T18:35:07.990Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25038,
+    "output": 1090
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキシコドン徐放カプセル40mg「テルモ」",
+      "strength": "40mg",
+      "imprint_front": "TF14",
+      "imprint_back": "未確認",
+      "imprint_note": "カプセル剤（3号カプセル）。識別コードとしてTF14が記載されている。表裏の区別の記載はなし。",
+      "color": "ボディが白色、キャップが黄色（内容物は白色の顆粒）",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の顆粒を、ボディが白色、キャップが黄色のカプセルに充てんした硬カプセル剤である。／大きさ（mm）長径：15.8 短径：5.8／識別コード TF14／3号カプセル"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291039M1020",
+  "source_file": "170033_4291039M1020_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_4291039M1020_1_21",
+  "extracted_at": "2026-11-06T18:36:48.382Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35276,
+    "output": 836
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レンビマカプセル4mg",
+      "strength": "4mg",
+      "imprint_front": "LENV 4mg",
+      "imprint_back": "未確認",
+      "imprint_note": "剤形は硬カプセル（錠剤ではない）。識別コード欄の記載は「LENV 4mg」。外形図にはεマークも見えるが、文章での記載はない。表裏の区別は記載なし。",
+      "color": "カプセル 上半分：黄赤色不透明、下半分：黄赤色不透明、内容物：白色の顆粒",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル／識別コード LENV 4mg／全長（mm）14.3／質量（mg）137／号数 4／色 カプセル 上半分：黄赤色不透明 下半分：黄赤色不透明 内容物 白色の顆粒"
+    }
+  ]
+}

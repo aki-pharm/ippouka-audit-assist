@@ -1,0 +1,30 @@
+{
+  "id": "8119003F1023",
+  "source_file": "430574_8119003F1023_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119003F1023_2_02",
+  "extracted_at": "2026-11-06T18:35:04.163Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22670,
+    "output": 256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルラピド錠1mg",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形の図に「ナルラピド」と数字「1」の表示があるように見えるが、本文には刻印の記載がなく、文字としては確認できない",
+      "color": "うすい黄色",
+      "shape": "other",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "ナルラピド錠1mg　素錠（五角形）　うすい黄色　6.0　約3.2　約80"
+    }
+  ]
+}

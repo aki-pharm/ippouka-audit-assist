@@ -1,0 +1,30 @@
+{
+  "id": "8219001F3022",
+  "source_file": "230124_8219001F1020_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_8219001F1020_1_12",
+  "extracted_at": "2026-11-06T18:35:36.707Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 23676,
+    "output": 992
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アブストラル舌下錠400μg",
+      "strength": "400μg",
+      "imprint_front": "KH13",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは錠剤本体とSPシートに表示。裏面の図は無地の円で、文章での刻印の記載はない",
+      "color": "まだらをもつうすい帯黄赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "直径（mm）6 厚さ（mm）2 重量（g）0.07 色調 まだらをもつうすい帯黄赤色 剤皮 素錠 識別コード KH13（錠剤本体、SPシートに表示）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "8119003F3026",
+  "source_file": "430574_8119003F1023_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119003F1023_2_02",
+  "extracted_at": "2026-11-06T18:35:12.442Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22670,
+    "output": 832
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルラピド錠4mg",
+      "strength": "4mg",
+      "imprint_front": "ナル ラピド 4",
+      "imprint_back": "ナル ラピド 4",
+      "imprint_note": "刻印は本文テキストではなく外形図から読み取り。割線の記載なし。外形は素錠（五角形）で、大きさ9.0mmは1値のみ記載。",
+      "color": "白色～帯黄白色",
+      "shape": "other",
+      "size_long_mm": 9,
+      "size_short_mm": null,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "ナルラピド錠4mg 素錠（五角形） 白色～帯黄白色 大きさ9.0mm 厚さ約5.3mm 重さ約320mg"
+    }
+  ]
+}

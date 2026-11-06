@@ -1,0 +1,30 @@
+{
+  "id": "8119003G1029",
+  "source_file": "430574_8119003G1029_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119003G1029_2_02",
+  "extracted_at": "2026-11-06T18:35:18.387Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21982,
+    "output": 780
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルサス錠2mg",
+      "strength": "2mg",
+      "imprint_front": "ナルサス 2",
+      "imprint_back": "ナルサス 2",
+      "imprint_note": "刻印は文章ではなく「製剤の性状」表の外形図に記載されている。割線は図・文章ともに記載なし。",
+      "color": "うすい灰色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "ナルサス錠2mg 素錠（徐放錠） うすい灰色 直径7.1mm 厚さ約4.8mm 重さ約160mg"
+    }
+  ]
+}

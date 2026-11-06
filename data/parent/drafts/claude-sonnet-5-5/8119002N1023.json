@@ -1,0 +1,30 @@
+{
+  "id": "8119002N1023",
+  "source_file": "470006_8119002N1023_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470006_8119002N1023_1_07",
+  "extracted_at": "2026-11-06T18:34:58.328Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 25038,
+    "output": 898
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキシコドン徐放カプセル 5mg「テルモ」",
+      "strength": "5mg",
+      "imprint_front": "TF11",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード TF11（カプセルの識別コード欄の記載）。添付文書は剤形が硬カプセル剤であり、錠剤ではない。カプセルは4号カプセル。",
+      "color": "ボディが白色、キャップが橙色（内容物は白色の顆粒）",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": 5.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の顆粒を、ボディが白色、キャップが橙色のカプセルに充てんした硬カプセル剤である。（大きさ 長径：14.3 短径：5.3、識別コード TF11、4号カプセル）"
+    }
+  ]
+}

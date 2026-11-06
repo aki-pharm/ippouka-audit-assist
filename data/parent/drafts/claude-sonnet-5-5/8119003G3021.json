@@ -1,0 +1,30 @@
+{
+  "id": "8119003G3021",
+  "source_file": "430574_8119003G1029_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119003G1029_2_02",
+  "extracted_at": "2026-11-06T18:35:20.694Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21982,
+    "output": 788
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルサス錠12mg",
+      "strength": "12mg",
+      "imprint_front": "ナルサス 12",
+      "imprint_back": "ナルサス 12",
+      "imprint_note": "本文に刻印の文字記載はなく、製剤の性状欄の外形図の表示による。",
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "ナルサス錠12mg 素錠（徐放錠） ごくうすい赤色 直径 9.6mm 厚さ 約5.3mm 重さ 約300mg"
+    }
+  ]
+}

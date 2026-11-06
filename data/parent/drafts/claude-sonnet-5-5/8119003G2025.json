@@ -1,0 +1,30 @@
+{
+  "id": "8119003G2025",
+  "source_file": "430574_8119003G1029_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119003G1029_2_02",
+  "extracted_at": "2026-11-06T18:35:18.813Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21982,
+    "output": 760
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルサス錠6mg",
+      "strength": "6mg",
+      "imprint_front": "ナルサス 6",
+      "imprint_back": "ナルサス 6",
+      "imprint_note": "製剤の性状の外形図に表示された識別表示。本文中に刻印の文章記載はなし",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "ナルサス錠6mg 素錠（徐放錠） うすい黄色 直径8.1mm 厚さ約4.8mm 重さ約200mg"
+    }
+  ]
+}

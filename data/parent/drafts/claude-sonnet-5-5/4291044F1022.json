@@ -1,0 +1,30 @@
+{
+  "id": "4291044F1022",
+  "source_file": "300242_4291044F1022_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_4291044F1022_1_04",
+  "extracted_at": "2026-11-06T18:36:57.130Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 27995,
+    "output": 263
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジカディア錠150mg",
+      "strength": "150mg",
+      "imprint_front": "NVR",
+      "imprint_back": "ZY1",
+      "imprint_note": "識別コード：NVR ZY1（外形図では片面にNVR、もう片面にZY1の表示）",
+      "color": "薄い青色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 薄い青色のフィルムコーティング錠 識別コード NVR ZY1 大きさ（約） 直径：9.1mm　厚さ：3.9mm　質量：0.2588g"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "8219001T1023",
+  "source_file": "470006_8219001K5023_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470006_8219001K5023_1_11",
+  "extracted_at": "2026-11-06T18:35:53.832Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26468,
+    "output": 885
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イーフェンバッカル錠800μg",
+      "strength": "800μg",
+      "imprint_front": "8",
+      "imprint_back": "なし",
+      "imprint_note": "刻印は外形の図から読み取った。表は「8」、もう一方の面は社名マークのみ。表裏の別は文章では明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "発泡性を有するバッカル錠である。白色の円形平板錠である。（直径(mm) 8.0、質量(mg) 200）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "8219001K9029",
+  "source_file": "470006_8219001K5023_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470006_8219001K5023_1_11",
+  "extracted_at": "2026-11-06T18:35:46.897Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26468,
+    "output": 994
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イーフェンバッカル錠600μg",
+      "strength": "600μg",
+      "imprint_front": "6",
+      "imprint_back": "なし",
+      "imprint_note": "外形図より読み取り（本文に刻印の文字記載なし）。表面は数字「6」、裏面は社名マークのみ。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "発泡性を有するバッカル錠である。白色の円形平板錠である。（直径（mm）8.0、質量（mg）200）"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4291043M1027",
+  "source_file": "800155_4291043M1027_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_4291043M1027_1_20",
+  "extracted_at": "2026-11-06T18:36:57.616Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 35154,
+    "output": 626
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イムブルビカカプセル140mg",
+      "strength": "140mg",
+      "imprint_front": "ibr 140mg",
+      "imprint_back": "未確認",
+      "imprint_note": "錠剤ではなく硬カプセル。識別コードのみ記載（表裏の別は記載なし）。重量426mg",
+      "color": "白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 21.7,
+      "size_short_mm": 7.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第11版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色不透明の0号硬カプセル 外形・大きさ 長さ：21.7mm 直径：7.6mm 重量：426mg 識別コード ibr 140mg"
+    }
+  ]
+}

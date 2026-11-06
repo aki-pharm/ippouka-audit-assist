@@ -1,0 +1,30 @@
+{
+  "id": "8119003G4028",
+  "source_file": "430574_8119003G1029_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119003G1029_2_02",
+  "extracted_at": "2026-11-06T18:35:25.730Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 21982,
+    "output": 723
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルサス錠24mg",
+      "strength": "24mg",
+      "imprint_front": "ナルサス 24",
+      "imprint_back": "ナルサス 24",
+      "imprint_note": "刻印・印字は製剤の性状欄の外形図から確認（本文に文章での記載なし）。形状は「直径」の記載と外形図に基づく。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "ナルサス錠24mg 素錠（徐放錠） 白色～帯黄白色 直径9.6mm 厚さ約5.3mm 重さ約300mg"
+    }
+  ]
+}

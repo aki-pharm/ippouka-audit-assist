@@ -1,0 +1,30 @@
+{
+  "id": "8219001K6020",
+  "source_file": "470006_8219001K5023_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470006_8219001K5023_1_11",
+  "extracted_at": "2026-11-06T18:35:36.485Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26468,
+    "output": 863
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イーフェンバッカル錠100μg",
+      "strength": "100μg",
+      "imprint_front": "1",
+      "imprint_back": "なし",
+      "imprint_note": "刻印は文章ではなく外形図で確認。表面は「1」、裏面は社名マーク（Cephalonロゴ）のみ。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "発泡性を有するバッカル錠である。白色の円形平板錠である。 直径（mm） 6.4（100μg）、質量（mg） 100"
+    }
+  ]
+}

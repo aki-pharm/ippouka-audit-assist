@@ -1,0 +1,30 @@
+{
+  "id": "8219002F2020",
+  "source_file": "470006_8219002F1024_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470006_8219002F1024_2_05",
+  "extracted_at": "2026-11-06T18:35:55.352Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 26799,
+    "output": 706
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メサペイン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "57 71",
+      "imprint_back": "M",
+      "imprint_note": "識別コード：M-5771。長方形の錠剤で、表面に「57 71」、裏面に「M」。表裏の刻印は添付文書の外形図の表示による。",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 11.4,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "白色長方形の錠剤である。（大きさ 長径：11.4 短径：6.1 厚さ：4.1、質量 約0.250g、識別コード M-5771）"
+    }
+  ]
+}

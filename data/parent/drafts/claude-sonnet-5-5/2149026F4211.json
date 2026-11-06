@@ -1,0 +1,30 @@
+{
+  "id": "2149026F4211",
+  "source_file": "530113_2149026F1212_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2149026F1212_2_07",
+  "extracted_at": "2026-11-06T18:36:42.253Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 18267,
+    "output": 283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドキサゾシン錠4mg「NS」",
+      "strength": "4mg",
+      "imprint_front": "NS 509",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「NS 509」と記載。外形図には表裏の刻印位置の記載あり（表側に「NS 509」、もう一方の面に「4」と見えるが、文章では確認できない）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りの素錠 錠径：8.0mm 錠厚：3.1mm 重量：200mg 識別コード NS 509"
+    }
+  ]
+}

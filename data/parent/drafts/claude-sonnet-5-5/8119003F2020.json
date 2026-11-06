@@ -1,0 +1,30 @@
+{
+  "id": "8119003F2020",
+  "source_file": "430574_8119003F1023_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8119003F1023_2_02",
+  "extracted_at": "2026-11-06T18:35:09.050Z",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "input": 22670,
+    "output": 841
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルラピド錠2mg",
+      "strength": "2mg",
+      "imprint_front": "ナルラピド 2",
+      "imprint_back": "ナルラピド 2",
+      "imprint_note": "刻印は本文には書かれておらず、製剤の性状欄の外形図に「ナル/ラピド/2」の印字が表裏とも描かれている。",
+      "color": "ごくうすい赤色",
+      "shape": "other",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版、再審査結果）",
+      "source_page": 1,
+      "source_quote": "ナルラピド錠2mg 素錠（五角形） ごくうすい赤色 7.1 約4.2 約160"
+    }
+  ]
+}
