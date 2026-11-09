@@ -1,0 +1,50 @@
+{
+  "id": "530169_3962002F2094_1_11",
+  "source_file": "530169_3962002F2094_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3962002F2094_1_11",
+  "extracted_at": "2026-11-09T15:29:15.365Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30219,
+    "output": 2798
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトホルミン塩酸塩錠250mgMT「日医工」",
+      "strength": "250mg",
+      "imprint_front": "758",
+      "imprint_back": "メトホルミン 250",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線入りのフィルムコーティング錠；色調 白色；直径（mm） 9.1；厚さ（mm） 4.6；本体表示 n758 メトホルミン 250"
+    },
+    {
+      "product_name": "メトホルミン塩酸塩錠500mgMT「日医工」",
+      "strength": "500mg",
+      "imprint_front": "759",
+      "imprint_back": "メトホルミン 500",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 15.8,
+      "size_short_mm": 7.5,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線入りの楕円形のフィルムコーティング錠；色調 白色；外形 15.8×7.5；厚さ（mm） 5.6；本体表示 n759 メトホルミン 500"
+    }
+  ],
+  "expected_products": [
+    "メトホルミン塩酸塩錠250mgMT「日医工」",
+    "メトホルミン塩酸塩錠500mgMT「日医工」"
+  ]
+}

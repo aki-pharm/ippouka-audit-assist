@@ -1,0 +1,50 @@
+{
+  "id": "530169_3969004F1250_1_11",
+  "source_file": "530169_3969004F1250_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3969004F1250_1_11",
+  "extracted_at": "2026-11-09T15:30:02.509Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16389,
+    "output": 2021
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボグリボース錠0.2mg「日医工」",
+      "strength": "0.2mg",
+      "imprint_front": "803",
+      "imprint_back": "0.2",
+      "imprint_note": "表面の「n」マークは社名マークの可能性があり、判別できず未確認。本体コード欄は「n803」「0.2」と記載",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 白色～帯黄白色 直径(mm) 7.1 厚さ(mm) 2.6"
+    },
+    {
+      "product_name": "ボグリボース錠0.3mg「日医工」",
+      "strength": "0.3mg",
+      "imprint_front": "804",
+      "imprint_back": "0.3",
+      "imprint_note": "表面の「n」マークは社名マークの可能性があり、判別できず未確認。本体コード欄は「n804」「0.3」と記載",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 素錠 色調 白色～帯黄白色 直径(mm) 8.1 厚さ(mm) 3.1"
+    }
+  ],
+  "expected_products": [
+    "ボグリボース錠0.2mg「日医工」",
+    "ボグリボース錠0.3mg「日医工」"
+  ]
+}

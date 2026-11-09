@@ -1,0 +1,46 @@
+{
+  "id": "530372_3969007F3108_1_10",
+  "source_file": "530372_3969007F3108_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3969007F3108_1_10",
+  "extracted_at": "2026-11-09T15:30:26.786Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24906,
+    "output": 1729
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾンOD錠15mg「NPI」",
+      "strength": "15mg",
+      "imprint_front": "NPI 140",
+      "imprint_back": "15",
+      "imprint_note": "表は社名マーク（npi）と識別コード、裏の数字は外形図の表示による",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色の割線入りの素錠"
+    },
+    {
+      "product_name": "ピオグリタゾンOD錠30mg「NPI」",
+      "strength": "30mg",
+      "imprint_front": "NPI 141",
+      "imprint_back": "30",
+      "imprint_note": "表は社名マーク（npi）と識別コード、裏の数字は外形図の表示による",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色の割線入りの素錠"
+    }
+  ]
+}

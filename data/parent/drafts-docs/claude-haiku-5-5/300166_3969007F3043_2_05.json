@@ -1,0 +1,50 @@
+{
+  "id": "300166_3969007F3043_2_05",
+  "source_file": "300166_3969007F3043_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_3969007F3043_2_05",
+  "extracted_at": "2026-11-09T15:30:25.258Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26916,
+    "output": 1812
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン OD 錠 15mg「FFP」",
+      "strength": "15mg",
+      "imprint_front": "FF 124",
+      "imprint_back": "15",
+      "imprint_note": "裏面の「15」は図から読み取り",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りの素錠"
+    },
+    {
+      "product_name": "ピオグリタゾン OD 錠 30mg「FFP」",
+      "strength": "30mg",
+      "imprint_front": "FF 125",
+      "imprint_back": "30",
+      "imprint_note": "裏面の「30」は図から読み取り",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りの素錠"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾンOD錠15mg「FFP」",
+    "ピオグリタゾンOD錠30mg「FFP」"
+  ]
+}
