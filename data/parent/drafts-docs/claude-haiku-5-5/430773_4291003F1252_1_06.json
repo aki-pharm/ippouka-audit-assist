@@ -1,0 +1,50 @@
+{
+  "id": "430773_4291003F1252_1_06",
+  "source_file": "430773_4291003F1252_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_4291003F1252_1_06",
+  "extracted_at": "2026-11-09T15:35:30.658Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14396,
+    "output": 2179
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タモキシフェン錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "EP T10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはEP T10と記載。表裏それぞれの刻印の内訳は本文から確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "タモキシフェン錠10mg「DSEP」 フィルムコーティング錠 白色 EP T10 約8.1 約3.3 約184"
+    },
+    {
+      "product_name": "タモキシフェン錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "EP T20",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはEP T20と記載。表裏それぞれの刻印の内訳は本文から確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "タモキシフェン錠20mg「DSEP」 フィルムコーティング錠 白色 EP T20 約10.1 約4.4 約368.1"
+    }
+  ],
+  "expected_products": [
+    "タモキシフェン錠10mg「DSEP」",
+    "タモキシフェン錠20mg「DSEP」"
+  ]
+}
