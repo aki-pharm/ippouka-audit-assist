@@ -1,0 +1,50 @@
+{
+  "id": "380999_4490017F1053_1_07",
+  "source_file": "380999_4490017F1053_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380999_4490017F1053_1_07",
+  "extracted_at": "2026-11-09T15:39:09.274Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14979,
+    "output": 2040
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プランルカスト錠112.5mg「CEO」",
+      "strength": "112.5mg",
+      "imprint_front": "CEO131",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は添付文書の外形図上で確認できず、記載なし",
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "製剤の性状 剤形 白色～淡黄色の素錠 外形 直径(mm) 7.5 厚さ(mm) 2.7 識別コード CEO131"
+    },
+    {
+      "product_name": "プランルカスト錠225mg「CEO」",
+      "strength": "225mg",
+      "imprint_front": "CEO132",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は添付文書の外形図上で確認できず、記載なし",
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "製剤の性状 剤形 白色～淡黄色の素錠（割線入り） 外形 直径(mm) 9.5 厚さ(mm) 3.4 識別コード CEO132"
+    }
+  ],
+  "expected_products": [
+    "プランルカスト錠112.5mg「CEO」",
+    "プランルカスト錠225mg「CEO」"
+  ]
+}
