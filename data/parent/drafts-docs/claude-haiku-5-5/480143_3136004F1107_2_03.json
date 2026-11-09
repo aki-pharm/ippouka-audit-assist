@@ -1,0 +1,50 @@
+{
+  "id": "480143_3136004F1107_2_03",
+  "source_file": "480143_3136004F1107_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480143_3136004F1107_2_03",
+  "extracted_at": "2026-11-09T15:17:57.626Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 11749,
+    "output": 2169
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メコバラミン錠250μg「日医工」",
+      "strength": "250μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「TBP320」（一次包装シートに記載）。表裏のどちらに刻印されるかは文書から確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の糖衣錠 剤形・色 外形 大きさ 直径 6.5mm 厚さ 3.5mm 質量 約120mg 識別コード TBP320（一次包装シートに記載）"
+    },
+    {
+      "product_name": "メコバラミン錠500μg「日医工」",
+      "strength": "500μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「TBP321」（一次包装シートに記載）。表裏のどちらに刻印されるかは文書から確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の糖衣錠 剤形・色 外形 大きさ 直径 7.6mm 厚さ 4.1mm 質量 約170mg 識別コード TBP321（一次包装シートに記載）"
+    }
+  ],
+  "expected_products": [
+    "メコバラミン錠250μg「日医工」",
+    "メコバラミン錠500μg「日医工」"
+  ]
+}

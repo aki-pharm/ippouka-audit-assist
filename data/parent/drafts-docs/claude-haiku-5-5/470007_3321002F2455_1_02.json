@@ -1,0 +1,33 @@
+{
+  "id": "470007_3321002F2455_1_02",
+  "source_file": "470007_3321002F2455_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_3321002F2455_1_02",
+  "extracted_at": "2026-11-09T15:18:46.691Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8947,
+    "output": 1017
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルバゾクロムスルホン酸Na錠30mg「あすか」",
+      "strength": "30mg",
+      "imprint_front": "G 306",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に記載がなく、図からも確認できない",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤　　　形 だいだい色　素錠 外形 直径8.0mm　厚さ3.1mm　質量200mg 識別コード 306"
+    }
+  ],
+  "expected_products": [
+    "カルバゾクロムスルホン酸Na錠30mg「あすか」"
+  ]
+}

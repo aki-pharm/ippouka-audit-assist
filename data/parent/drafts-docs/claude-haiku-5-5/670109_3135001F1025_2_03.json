@@ -1,0 +1,33 @@
+{
+  "id": "670109_3135001F1025_2_03",
+  "source_file": "670109_3135001F1025_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_3135001F1025_2_03",
+  "extracted_at": "2026-11-09T15:17:46.136Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 7832,
+    "output": 1385
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フォリアミン錠",
+      "strength": "5mg",
+      "imprint_front": "NY333",
+      "imprint_back": "未確認",
+      "imprint_note": "上面に識別コードNY333の表示あり。下面の刻印は文書上の記載なし",
+      "color": "うすいだいだいみの黄色～うすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色 うすいだいだいみの黄色～うすい黄色 外形 直径 7.1mm 厚さ 3.1mm 識別コード NY333"
+    }
+  ],
+  "expected_products": [
+    "フォリアミン錠"
+  ]
+}

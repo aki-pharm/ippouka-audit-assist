@@ -1,0 +1,33 @@
+{
+  "id": "300119_3214001F1047_2_03",
+  "source_file": "300119_3214001F1047_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3214001F1047_2_03",
+  "extracted_at": "2026-11-09T15:18:25.642Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8638,
+    "output": 1038
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "L-アスパラギン酸Ca錠200mg「サワイ」",
+      "strength": "200mg",
+      "imprint_front": "SW ASC",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 9.0 厚さ（mm） 4.0 重量（mg） 約275 識別コード SW ASC"
+    }
+  ],
+  "expected_products": [
+    "L−アスパラギン酸Ca錠200mg「サワイ」"
+  ]
+}

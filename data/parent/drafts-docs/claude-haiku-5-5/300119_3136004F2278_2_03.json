@@ -1,0 +1,33 @@
+{
+  "id": "300119_3136004F2278_2_03",
+  "source_file": "300119_3136004F2278_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3136004F2278_2_03",
+  "extracted_at": "2026-11-09T15:18:05.524Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9903,
+    "output": 1124
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メコバラミン錠500μg「SW」",
+      "strength": "500μg",
+      "imprint_front": "SW 376",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 性状 淡黄色 直径（mm） 6.0 厚さ（mm） 3.6 重量（mg） 約100 識別コード SW 376"
+    }
+  ],
+  "expected_products": [
+    "メコバラミン錠500μg「SW」"
+  ]
+}

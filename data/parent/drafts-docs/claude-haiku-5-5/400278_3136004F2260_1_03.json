@@ -1,0 +1,33 @@
+{
+  "id": "400278_3136004F2260_1_03",
+  "source_file": "400278_3136004F2260_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3136004F2260_1_03",
+  "extracted_at": "2026-11-09T15:17:58.786Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 7417,
+    "output": 1920
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メコバラミン錠500μg「TCK」",
+      "strength": "500μg",
+      "imprint_front": "TU-CG 500",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "橙赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "製剤の性状 販売名 メコバラミン錠500μg「TCK」 直径(mm) 6.1 厚さ(mm) 2.5 重量(mg) 80 色調 橙赤色 フィルムコーティング錠 識別コード TU-CG 500"
+    }
+  ],
+  "expected_products": [
+    "メコバラミン錠500µg「TCK」"
+  ]
+}

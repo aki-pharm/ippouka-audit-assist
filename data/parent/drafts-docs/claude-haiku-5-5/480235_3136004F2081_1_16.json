@@ -1,0 +1,33 @@
+{
+  "id": "480235_3136004F2081_1_16",
+  "source_file": "480235_3136004F2081_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3136004F2081_1_16",
+  "extracted_at": "2026-11-09T15:18:14.241Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9987,
+    "output": 1187
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メコバラミン錠500「トーワ」",
+      "strength": "500μg",
+      "imprint_front": "Tw307",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は外形図に刻印の記載が見られないが、刻印なしとの明記がないため未確認とした",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の糖衣錠 識別コード Tw307 外形 直径(mm) 6.7 厚さ(mm) 3.9"
+    }
+  ],
+  "expected_products": [
+    "メコバラミン錠500「トーワ」"
+  ]
+}
