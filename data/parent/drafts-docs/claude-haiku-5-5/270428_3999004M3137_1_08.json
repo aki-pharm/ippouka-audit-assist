@@ -1,0 +1,67 @@
+{
+  "id": "270428_3999004M3137_1_08",
+  "source_file": "270428_3999004M3137_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_3999004M3137_1_08",
+  "extracted_at": "2026-11-09T15:32:52.354Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 43386,
+    "output": 2632
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シクロスポリンカプセル10mg「サンド」",
+      "strength": "10mg",
+      "imprint_front": "Csz10",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図にNVR 10の表示あり。識別コードはPTP欄のCsz10",
+      "color": "帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 8.9,
+      "size_short_mm": 6.7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "帯黄白色の光沢のある軟カプセルで特異なにおいがある。（大きさ（約）長径：8.9mm 短径：6.7mm 質量：0.2g）"
+    },
+    {
+      "product_name": "シクロスポリンカプセル25mg「サンド」",
+      "strength": "25mg",
+      "imprint_front": "Csz25",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図にNVR 25mgの表示あり。識別コードはPTP欄のCsz25",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 14,
+      "size_short_mm": 8.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の光沢のある軟カプセルで特異なにおいがある。（大きさ（約）長径：14mm 短径：8.2mm 質量：0.4g）"
+    },
+    {
+      "product_name": "シクロスポリンカプセル50mg「サンド」",
+      "strength": "50mg",
+      "imprint_front": "Csz50",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図にNVR 50mgの表示あり。識別コードはPTP欄のCsz50",
+      "color": "帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 21.9,
+      "size_short_mm": 8.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "帯黄白色の光沢のある軟カプセルで特異なにおいがある。（大きさ（約）長径：21.9mm 短径：8.5mm 質量：0.8g）"
+    }
+  ],
+  "expected_products": [
+    "シクロスポリンカプセル10mg「サンド」",
+    "シクロスポリンカプセル25mg「サンド」",
+    "シクロスポリンカプセル50mg「サンド」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "480235_3999004M3099_2_19",
+  "source_file": "480235_3999004M3099_2_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999004M3099_2_19",
+  "extracted_at": "2026-11-09T15:32:50.945Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 43870,
+    "output": 2759
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シクロスポリンカプセル10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "シクロス 10 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載のみ（表裏の別は記載なし）",
+      "color": "淡黄白色",
+      "shape": "oval",
+      "size_long_mm": 8,
+      "size_short_mm": 5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色不透明の楕円球状の軟カプセル剤。"
+    },
+    {
+      "product_name": "シクロスポリンカプセル25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "シクロスポリン 25 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載のみ（表裏の別は記載なし）",
+      "color": "黄白色",
+      "shape": "oval",
+      "size_long_mm": 12,
+      "size_short_mm": 6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "黄白色不透明の楕円球状の軟カプセル剤。"
+    },
+    {
+      "product_name": "シクロスポリンカプセル50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "シクロスポリン 50 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載のみ（表裏の別は記載なし）",
+      "color": "淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": 17,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色不透明の長楕円形の軟カプセル剤。"
+    }
+  ],
+  "expected_products": [
+    "シクロスポリンカプセル10mg「トーワ」",
+    "シクロスポリンカプセル25mg「トーワ」",
+    "シクロスポリンカプセル50mg「トーワ」"
+  ]
+}
