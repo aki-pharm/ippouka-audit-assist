@@ -1,0 +1,50 @@
+{
+  "id": "480008_3962002F2060_1_11",
+  "source_file": "480008_3962002F2060_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_3962002F2060_1_11",
+  "extracted_at": "2026-11-09T15:28:53.015Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33816,
+    "output": 1922
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトホルミン塩酸塩錠250mgMT「TE」",
+      "strength": "250mg",
+      "imprint_front": "TEF1",
+      "imprint_back": "250",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の円形のフィルムコーティング錠(割線入り) 直径9.2mm 厚さ4.2mm 質量285mg 識別コード TEF1"
+    },
+    {
+      "product_name": "メトホルミン塩酸塩錠500mgMT「TE」",
+      "strength": "500mg",
+      "imprint_front": "TEF2",
+      "imprint_back": "500",
+      "imprint_note": null,
+      "color": "微黄色",
+      "shape": "oval",
+      "size_long_mm": 13.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 6.1,
+      "score_line": true,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "微黄色の楕円形のフィルムコーティング錠(割線入り) 長径13.7mm 短径8.7mm 厚さ6.1mm 質量565mg 識別コード TEF2"
+    }
+  ],
+  "expected_products": [
+    "メトホルミン塩酸塩錠250mgMT「TE」",
+    "メトホルミン塩酸塩錠500mgMT「TE」"
+  ]
+}

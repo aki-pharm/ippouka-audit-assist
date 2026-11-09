@@ -1,0 +1,33 @@
+{
+  "id": "480235_3962002F2086_1_10",
+  "source_file": "480235_3962002F2086_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3962002F2086_1_10",
+  "extracted_at": "2026-11-09T15:28:58.683Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29343,
+    "output": 1540
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトホルミン塩酸塩錠250mgMT「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "TwM1",
+      "imprint_back": "250",
+      "imprint_note": "表面の識別コードは本体TwM1、包装Tw.M1。裏面は250の表示。社名マークの有無は画像から判断できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りのフィルムコーティング錠 ／ 直径(mm) 9.1 ／ 厚さ(mm) 4.6"
+    }
+  ],
+  "expected_products": [
+    "メトホルミン塩酸塩錠250mgMT「トーワ」"
+  ]
+}
