@@ -1,0 +1,66 @@
+{
+  "id": "400278_3949003F1066_1_06",
+  "source_file": "400278_3949003F1066_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3949003F1066_1_06",
+  "extracted_at": "2026-11-09T15:25:39.038Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30175,
+    "output": 3669
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "10 TCK",
+      "imprint_note": "一方の面に小さなロゴ状の表示があるが判読できない",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フェブキソスタット錠10mg「TCK」 白色～微黄色 フィルムコーティング錠 直径（mm）7.1 厚さ（mm）3.3 重量（mg）129"
+    },
+    {
+      "product_name": "フェブキソスタット錠20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "20 TCK",
+      "imprint_note": "一方の面に小さなロゴ状の表示があるが判読できない",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フェブキソスタット錠20mg「TCK」 白色～微黄色 フィルムコーティング錠 7.1 3.2 129 （割線入り）"
+    },
+    {
+      "product_name": "フェブキソスタット錠40mg「TCK」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "40 TCK",
+      "imprint_note": "一方の面に小さなロゴ状の表示があるが判読できない",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.9,
+      "size_short_mm": 8.9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フェブキソスタット錠40mg「TCK」 白色～微黄色 フィルムコーティング錠 8.9 4.1 256 （割線入り）"
+    }
+  ],
+  "expected_products": [
+    "フェブキソスタット錠10mg「TCK」",
+    "フェブキソスタット錠20mg「TCK」"
+  ]
+}
