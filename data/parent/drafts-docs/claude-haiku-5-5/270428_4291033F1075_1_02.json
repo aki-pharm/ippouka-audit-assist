@@ -1,0 +1,49 @@
+{
+  "id": "270428_4291033F1075_1_02",
+  "source_file": "270428_4291033F1075_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_4291033F1075_1_02",
+  "extracted_at": "2026-11-09T15:37:12.228Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27597,
+    "output": 2428
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アビラテロン酢酸エステル錠250mg「サンド」",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 9.5,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 大きさ 長径：約15.9mm 短径：約9.5mm 厚さ：約6.2mm 質量：約0.736g"
+    },
+    {
+      "product_name": "アビラテロン酢酸エステル錠500mg「サンド」",
+      "strength": "500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 20,
+      "size_short_mm": 10,
+      "thickness_mm": 7.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 黄色 外形 大きさ 長径：約20.0mm 短径：約10.0mm 厚さ：約7.2mm 質量：約1.1536g"
+    }
+  ],
+  "expected_products": [
+    "アビラテロン酢酸エステル錠500mg「サンド」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "460028_4413004F1235_1_08",
+  "source_file": "460028_4413004F1235_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_4413004F1235_1_08",
+  "extracted_at": "2026-11-09T15:37:47.740Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13733,
+    "output": 1145
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メキタジン錠3mg「ツルハラ」",
+      "strength": "3mg",
+      "imprint_front": "TSU752",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTSU752。外形図の表面にTSUマークと752の表示あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線を有する素錠、色調 白色、大きさ 直径 約 6.0mm、厚さ 約 2.5mm、識別コード TSU752"
+    }
+  ],
+  "expected_products": [
+    "メキタジン錠3mg「ツルハラ」"
+  ]
+}

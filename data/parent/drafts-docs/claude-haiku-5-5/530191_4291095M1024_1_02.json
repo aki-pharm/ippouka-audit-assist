@@ -1,0 +1,33 @@
+{
+  "id": "530191_4291095M1024_1_02",
+  "source_file": "530191_4291095M1024_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291095M1024_1_02",
+  "extracted_at": "2026-11-09T15:37:26.767Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23883,
+    "output": 1271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イブトロジーカプセル200mg",
+      "strength": "タレトレクチニブとして200mg",
+      "imprint_front": "TAL200",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ボディ：白色、キャップ：白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 ボディ：白色、キャップ：白色 外形 大きさ 0号カプセル 質量 約516mg 本体表示 TAL200"
+    }
+  ],
+  "expected_products": [
+    "イブトロジーカプセル200mgを服用される方へ"
+  ]
+}

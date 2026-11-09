@@ -1,0 +1,33 @@
+{
+  "id": "780009_4291015F1182_1_04",
+  "source_file": "780009_4291015F1182_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_4291015F1182_1_04",
+  "extracted_at": "2026-11-09T15:36:57.920Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21828,
+    "output": 1364
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レトロゾール錠2.5mg「明治」",
+      "strength": "2.5mg",
+      "imprint_front": "MS 074",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の円内の表示は画像から判読できず未確認",
+      "color": "帯赤黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 色 直径（mm） 厚さ（mm） 重量（mg） フィルムコーティング錠 帯赤黄色 6.1 3.1 100.0"
+    }
+  ],
+  "expected_products": [
+    "レトロゾール錠2.5mg「明治」"
+  ]
+}

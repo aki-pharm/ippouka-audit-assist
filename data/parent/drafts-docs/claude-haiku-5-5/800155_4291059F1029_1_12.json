@@ -1,0 +1,33 @@
+{
+  "id": "800155_4291059F1029_1_12",
+  "source_file": "800155_4291059F1029_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_4291059F1029_1_12",
+  "extracted_at": "2026-11-09T15:37:20.599Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26375,
+    "output": 1755
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アーリーダ錠60mg",
+      "strength": "60mg",
+      "imprint_front": "AR60",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄緑色～灰緑色",
+      "shape": "oval",
+      "size_long_mm": 16.8,
+      "size_short_mm": 8.7,
+      "thickness_mm": 6,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄緑色～灰緑色のフィルムコーティング錠 / 大きさ 長径（mm） 短径（mm） 厚さ（mm） 重量（g） 16.8 8.7 6.0 0.721 / 識別コード AR60"
+    }
+  ],
+  "expected_products": [
+    "アーリーダ錠60㎎適正使用に関するお願い-間質性肺疾患のリスクについて"
+  ]
+}

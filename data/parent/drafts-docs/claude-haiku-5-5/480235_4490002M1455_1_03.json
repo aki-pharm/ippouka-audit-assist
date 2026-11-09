@@ -1,0 +1,33 @@
+{
+  "id": "480235_4490002M1455_1_03",
+  "source_file": "480235_4490002M1455_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490002M1455_1_03",
+  "extracted_at": "2026-11-09T15:37:52.118Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14298,
+    "output": 1521
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラニラストカプセル100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw.BRC",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「Tw.BRC」と記載。どちらの面に刻印されるかは文書から確認できない。本製品はカプセルで錠剤ではない。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "頭部及び胴部が共に白色の不透明な硬カプセルで、内容物は淡黄色の粒状又は粉末で味及びにおいはない。 識別コード Tw.BRC 外形 全長 約15.8mm（3号カプセル）"
+    }
+  ],
+  "expected_products": [
+    "トラニラストカプセル100mg「トーワ」"
+  ]
+}
