@@ -1,0 +1,50 @@
+{
+  "id": "270029_4490025F1295_1_03",
+  "source_file": "270029_4490025F1295_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_4490025F1295_1_03",
+  "extracted_at": "2026-11-09T15:43:23.544Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20880,
+    "output": 1563
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「クニヒロ」",
+      "strength": "2.5mg",
+      "imprint_front": "KSK331",
+      "imprint_back": "2.5",
+      "imprint_note": "裏面の「2.5」は外形図の表示を読み取った（本文の記載なし）",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 色調・性状 淡黄赤色のフィルムコーティング錠 外形 直径 6.0mm 厚さ 2.6mm 識別コード KSK331"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「クニヒロ」",
+      "strength": "5mg",
+      "imprint_front": "KSK337",
+      "imprint_back": "5",
+      "imprint_note": "裏面の「5」は外形図の表示を読み取った（本文の記載なし）",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄赤色の割線入りのフィルムコーティング錠 外形 直径 7.0mm 厚さ 3.0mm 識別コード KSK337"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「クニヒロ」",
+    "オロパタジン塩酸塩錠5mg「クニヒロ」"
+  ]
+}
