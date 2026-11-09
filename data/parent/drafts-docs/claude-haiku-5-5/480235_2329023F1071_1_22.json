@@ -1,0 +1,50 @@
+{
+  "id": "480235_2329023F1071_1_22",
+  "source_file": "480235_2329023F1071_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2329023F1071_1_22",
+  "extracted_at": "2026-11-09T15:06:25.910Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30267,
+    "output": 2493
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランソプラゾールOD錠15mg「トーワ」",
+      "strength": "15mg",
+      "imprint_front": "ランソプラゾール OD 15 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "表裏の刻印の割り付けは本文に明記なし。刻印欄は本体表示の記載",
+      "color": "白色～帯黄白色（赤橙色～暗褐色の斑点あり）",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある。（腸溶性の粒を含む口腔内崩壊錠）／直径(mm) 9.0 12.0／厚さ(mm) 4.7 5.5"
+    },
+    {
+      "product_name": "ランソプラゾールOD錠30mg「トーワ」",
+      "strength": "30mg",
+      "imprint_front": "ランソプラゾール OD 30 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "表裏の刻印の割り付けは本文に明記なし。刻印欄は本体表示の記載",
+      "color": "白色～帯黄白色（赤橙色～暗褐色の斑点あり）",
+      "shape": "round",
+      "size_long_mm": 12,
+      "size_short_mm": 12,
+      "thickness_mm": 5.5,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある。（腸溶性の粒を含む口腔内崩壊錠）／直径(mm) 9.0 12.0／厚さ(mm) 4.7 5.5"
+    }
+  ],
+  "expected_products": [
+    "ランソプラゾールOD錠15mg「トーワ」",
+    "ランソプラゾールOD錠30mg「トーワ」"
+  ]
+}

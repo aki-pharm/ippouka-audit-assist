@@ -1,0 +1,33 @@
+{
+  "id": "400042_2329021F1110_1_04",
+  "source_file": "400042_2329021F1110_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_2329021F1110_1_04",
+  "extracted_at": "2026-11-09T15:04:47.488Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14339,
+    "output": 1711
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「DK」",
+      "strength": "100mg",
+      "imprint_front": "レバミピド100「DK」",
+      "imprint_back": "レバミピド100「DK」",
+      "imprint_note": "未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年4月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 レバミピド 100 「DK」 8.1 3.5 175"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「DK」"
+  ]
+}

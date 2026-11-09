@@ -1,0 +1,50 @@
+{
+  "id": "400813_2329023F1144_1_11",
+  "source_file": "400813_2329023F1144_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2329023F1144_1_11",
+  "extracted_at": "2026-11-09T15:06:33.228Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31135,
+    "output": 2021
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ランソプラゾールOD錠15mg「武田テバ」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図に社名マーク（ランソ）と数字「15」の表示が見えるが、刻印として本文に記載がないため未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある。（腸溶性細粒を含む口腔内崩壊錠）形状 直径（mm） 8.5 厚さ（mm） 4.6"
+    },
+    {
+      "product_name": "ランソプラゾールOD錠30mg「武田テバ」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図に社名マーク（ランソ）と数字「30」の表示が見えるが、刻印として本文に記載がないため未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 11.5,
+      "size_short_mm": 11.5,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の素錠で赤橙色～暗褐色の斑点がある。（腸溶性細粒を含む口腔内崩壊錠）形状 直径（mm） 11.5 厚さ（mm） 4.9"
+    }
+  ],
+  "expected_products": [
+    "ランソプラゾールOD錠15mg「武田テバ」",
+    "ランソプラゾールOD錠30mg「武田テバ」"
+  ]
+}

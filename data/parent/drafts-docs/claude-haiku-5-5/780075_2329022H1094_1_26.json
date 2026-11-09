@@ -1,0 +1,50 @@
+{
+  "id": "780075_2329022H1094_1_26",
+  "source_file": "780075_2329022H1094_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_2329022H1094_1_26",
+  "extracted_at": "2026-11-09T15:06:03.796Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28432,
+    "output": 2004
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オメプラゾール錠10「SW」",
+      "strength": "10mg",
+      "imprint_front": "SW オメプラ 10",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「SW オメプラ 10」と記載。表裏の区別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 腸溶性フィルムコーティング錠 性状 白色 直径（mm） 6.2 7.2 厚さ（mm） 3.5 3.6 重量（mg） 約97 約139 本体表示 SW オメプラ 10 オメプラ 20 SW"
+    },
+    {
+      "product_name": "オメプラゾール錠20「SW」",
+      "strength": "20mg",
+      "imprint_front": "オメプラ 20 SW",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「オメプラ 20 SW」と記載。表裏の区別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 腸溶性フィルムコーティング錠 性状 白色 直径（mm） 6.2 7.2 厚さ（mm） 3.5 3.6 重量（mg） 約97 約139 本体表示 SW オメプラ 10 オメプラ 20 SW"
+    }
+  ],
+  "expected_products": [
+    "オメプラゾール錠10「SW」",
+    "オメプラゾール錠20「SW」"
+  ]
+}

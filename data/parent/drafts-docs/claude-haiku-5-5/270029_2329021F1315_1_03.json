@@ -1,0 +1,33 @@
+{
+  "id": "270029_2329021F1315_1_03",
+  "source_file": "270029_2329021F1315_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_2329021F1315_1_03",
+  "extracted_at": "2026-11-09T15:05:31.901Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14590,
+    "output": 1075
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「クニヒロ」",
+      "strength": "100mg",
+      "imprint_front": "KSK115",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色のフィルムコーティング錠 外形 直径 8.1mm 厚さ 3.4mm 重量 175mg 識別コード KSK115"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「クニヒロ」"
+  ]
+}

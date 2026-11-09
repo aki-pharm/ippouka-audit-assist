@@ -1,0 +1,50 @@
+{
+  "id": "790250_2344009F1060_2_05",
+  "source_file": "790250_2344009F1060_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790250_2344009F1060_2_05",
+  "extracted_at": "2026-11-09T15:07:17.016Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12937,
+    "output": 1833
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "酸化マグネシウム錠250mg「モチダ」",
+      "strength": "250mg",
+      "imprint_front": "MO220",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図上に刻印らしき表示なし（本文に明記なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 外形（mm） 識別コード MO220"
+    },
+    {
+      "product_name": "酸化マグネシウム錠330mg「モチダ」",
+      "strength": "330mg",
+      "imprint_front": "MO221",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図上に刻印らしき表示なし（本文に明記なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 外形（mm） 識別コード MO221"
+    }
+  ],
+  "expected_products": [
+    "酸化マグネシウム錠250mg「モチダ」",
+    "酸化マグネシウム錠330mg「モチダ」"
+  ]
+}

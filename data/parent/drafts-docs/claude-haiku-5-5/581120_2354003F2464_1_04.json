@@ -1,0 +1,33 @@
+{
+  "id": "581120_2354003F2464_1_04",
+  "source_file": "581120_2354003F2464_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2354003F2464_1_04",
+  "extracted_at": "2026-11-09T15:07:28.174Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8489,
+    "output": 1526
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "センノシド錠12mg「NIG」",
+      "strength": "1錠中：センノシド 20mg（センノシドA・Bカルシウム塩として12mg）",
+      "imprint_front": "TYK 08",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の外形図に識別コード TYK 08 の記載あり。裏面の刻印は文書に明記なし",
+      "color": "薄い桃色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 薄い桃色の糖衣錠 外形 直径：6.5mm 厚さ：3.6mm 質量：約120mg 識別コード TYK 08"
+    }
+  ],
+  "expected_products": [
+    "センノシド錠12mg「NIG」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "530169_2329028F1236_1_22",
+  "source_file": "530169_2329028F1236_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2329028F1236_1_22",
+  "extracted_at": "2026-11-09T15:07:02.276Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29395,
+    "output": 1454
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールナトリウム錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "ラベプラゾール 10 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「ラベプラゾール 10 日医工」と記載。表裏の刻印は図のため文字として確認できず、裏面は未確認。",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（腸溶錠） 色調 淡黄色 ... 直径（mm） 6.8 厚さ（mm） 3.5 ... 本体表示 ラベプラゾール 10 日医工"
+    }
+  ],
+  "expected_products": [
+    "ラベプラゾールナトリウム錠10mg「日医工」"
+  ]
+}

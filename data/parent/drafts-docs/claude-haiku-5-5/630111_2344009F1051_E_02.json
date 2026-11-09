@@ -1,0 +1,50 @@
+{
+  "id": "630111_2344009F1051_E_02",
+  "source_file": "630111_2344009F1051_E_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630111_2344009F1051_E_02",
+  "extracted_at": "2026-11-09T15:07:04.874Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12218,
+    "output": 1516
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "酸化マグネシウム錠250mg「TX」",
+      "strength": "250mg",
+      "imprint_front": "TX 11",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・円形の素錠 ／ 直径(mm) 8 9 ／ 厚さ(mm) 3.8 4.3 ／ 識別コード TX 11 TX 12"
+    },
+    {
+      "product_name": "酸化マグネシウム錠330mg「TX」",
+      "strength": "330mg",
+      "imprint_front": "TX 12",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色・円形の素錠 ／ 直径(mm) 8 9 ／ 厚さ(mm) 3.8 4.3 ／ 識別コード TX 11 TX 12"
+    }
+  ],
+  "expected_products": [
+    "酸化マグネシウム錠250mg「TX」",
+    "酸化マグネシウム錠330mg「TX」"
+  ]
+}

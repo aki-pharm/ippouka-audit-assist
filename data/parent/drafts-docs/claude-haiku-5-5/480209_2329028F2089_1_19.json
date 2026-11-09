@@ -1,0 +1,33 @@
+{
+  "id": "480209_2329028F2089_1_19",
+  "source_file": "480209_2329028F2089_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2329028F2089_1_19",
+  "extracted_at": "2026-11-09T15:06:43.990Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19213,
+    "output": 1652
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa錠20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "ラベプラゾール 20 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載であり、表裏の区別は本文に明記されていない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 剤形 腸溶性フィルムコーティング錠 色調 淡黄色 外形 本体表示 ラベプラゾール 20 杏林 直径(mm) 7.2 厚さ(mm) 3.8 質量(mg) 142"
+    }
+  ],
+  "expected_products": [
+    "ラベプラゾールNa錠20mg「杏林」"
+  ]
+}

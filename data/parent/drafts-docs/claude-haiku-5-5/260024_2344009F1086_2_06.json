@@ -1,0 +1,67 @@
+{
+  "id": "260024_2344009F1086_2_06",
+  "source_file": "260024_2344009F1086_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/260024_2344009F1086_2_06",
+  "extracted_at": "2026-11-09T15:07:15.539Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13427,
+    "output": 2388
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "酸化マグネシウム錠250mg「ケンエー」",
+      "strength": "250mg",
+      "imprint_front": "カマ 250 KE01",
+      "imprint_back": "カマ 250 KE01",
+      "imprint_note": "文字色：緑",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状：白色円形の素錠で、わずかに特異な芳香がある。／直径8mm、厚さ4.1mm、識別コード カマ 250 KE01、文字色 緑"
+    },
+    {
+      "product_name": "酸化マグネシウム錠330mg「ケンエー」",
+      "strength": "330mg",
+      "imprint_front": "カマ 330 KE02",
+      "imprint_back": "カマ 330 KE02",
+      "imprint_note": "文字色：青",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状：白色円形の素錠で、わずかに特異な芳香がある。／直径9mm、厚さ4.4mm、識別コード カマ 330 KE02、文字色 青"
+    },
+    {
+      "product_name": "酸化マグネシウム錠500mg「ケンエー」",
+      "strength": "500mg",
+      "imprint_front": "カマ 500 KE03",
+      "imprint_back": "カマ 500 KE03",
+      "imprint_note": "文字色：ピンク",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2024年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状：白色円形の素錠で、わずかに特異な芳香がある。／直径10.5mm、厚さ4.9mm、識別コード カマ 500 KE03、文字色 ピンク"
+    }
+  ],
+  "expected_products": [
+    "酸化マグネシウム錠250mg「ケンエー」",
+    "酸化マグネシウム錠330mg「ケンエー」",
+    "酸化マグネシウム錠500mg「ケンエー」"
+  ]
+}

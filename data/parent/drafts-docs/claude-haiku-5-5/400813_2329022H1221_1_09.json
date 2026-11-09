@@ -1,0 +1,50 @@
+{
+  "id": "400813_2329022H1221_1_09",
+  "source_file": "400813_2329022H1221_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2329022H1221_1_09",
+  "extracted_at": "2026-11-09T15:06:00.213Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28829,
+    "output": 1827
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オメプラゾール腸溶錠10mg「武田テバ」",
+      "strength": "1錠中：オメプラゾール 10mg",
+      "imprint_front": "t 422",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の腸溶性フィルムコーティング錠 形状 直径 6.2mm 厚さ 3.1mm 重量 約96mg 識別コード t 422"
+    },
+    {
+      "product_name": "オメプラゾール腸溶錠20mg「武田テバ」",
+      "strength": "1錠中：オメプラゾール 20mg",
+      "imprint_front": "t 423",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の腸溶性フィルムコーティング錠 形状 直径 7.1mm 厚さ 3.2mm 重量 約137mg 識別コード t 423"
+    }
+  ],
+  "expected_products": [
+    "オメプラゾール腸溶錠10mg「武田テバ」",
+    "オメプラゾール腸溶錠20mg「武田テバ」"
+  ]
+}

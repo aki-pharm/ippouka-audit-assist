@@ -1,0 +1,33 @@
+{
+  "id": "530213_2329021F1196_1_07",
+  "source_file": "530213_2329021F1196_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2329021F1196_1_07",
+  "extracted_at": "2026-11-09T15:05:36.424Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14168,
+    "output": 1311
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「ケミファ」",
+      "strength": "100mg",
+      "imprint_front": "NCP 232D",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に記載なし（外形図では無地）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 外形 直径 8.2mm 厚さ 3.5mm 重量 175.0mg 識別コード NCP 232D"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「ケミファ」"
+  ]
+}
