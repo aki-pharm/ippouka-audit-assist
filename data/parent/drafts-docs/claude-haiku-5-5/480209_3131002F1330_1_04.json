@@ -1,0 +1,33 @@
+{
+  "id": "480209_3131002F1330_1_04",
+  "source_file": "480209_3131002F1330_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3131002F1330_1_04",
+  "extracted_at": "2026-11-09T15:17:22.859Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8027,
+    "output": 1491
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リボフラビン酪酸エステル錠20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPH303と記載あり（刻印の表裏の別は記載なし）",
+      "color": "だいだい黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠、色調 だいだい黄色、外形 直径(mm) 8.1、厚さ(mm) 3.0、質量(mg) 200、識別コード PH303"
+    }
+  ],
+  "expected_products": [
+    "リボフラビン酪酸エステル錠20mg「杏林」"
+  ]
+}

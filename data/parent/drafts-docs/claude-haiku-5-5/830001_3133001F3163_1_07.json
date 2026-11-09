@@ -1,0 +1,33 @@
+{
+  "id": "830001_3133001F3163_1_07",
+  "source_file": "830001_3133001F3163_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3133001F3163_1_07",
+  "extracted_at": "2026-11-09T15:17:29.244Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9619,
+    "output": 1041
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パンテチン錠100mg「YD」",
+      "strength": "100mg",
+      "imprint_front": "YD 063",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色のフィルムコーティング錠 外形 直径 約9.1mm 厚さ 約4mm 重量 225mg"
+    }
+  ],
+  "expected_products": [
+    "パンテチン錠100mg「YD」"
+  ]
+}

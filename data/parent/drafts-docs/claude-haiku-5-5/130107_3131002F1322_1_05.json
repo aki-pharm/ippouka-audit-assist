@@ -1,0 +1,33 @@
+{
+  "id": "130107_3131002F1322_1_05",
+  "source_file": "130107_3131002F1322_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130107_3131002F1322_1_05",
+  "extracted_at": "2026-11-09T15:17:23.271Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8122,
+    "output": 1548
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リボフラビン酪酸エステル錠20mg「イセイ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはIC－442と記載。刻印の表裏の別は文書上明記なし",
+      "color": "黄色～橙黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 黄色～橙黄色 直径 7.0mm 厚さ 3.4mm 識別コード IC－442"
+    }
+  ],
+  "expected_products": [
+    "リボフラビン酪酸エステル錠20mg「イセイ」"
+  ]
+}
