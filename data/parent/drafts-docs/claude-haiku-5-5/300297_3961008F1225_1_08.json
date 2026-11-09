@@ -1,0 +1,67 @@
+{
+  "id": "300297_3961008F1225_1_08",
+  "source_file": "300297_3961008F1225_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3961008F1225_1_08",
+  "extracted_at": "2026-11-09T15:28:12.194Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20806,
+    "output": 2108
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「三和」",
+      "strength": "0.5mg",
+      "imprint_front": "Sc321",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "濃紅色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 5,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 割線を有するだ円の濃紅色の錠剤 ／ 長径 10.0mm 短径 5.0mm 厚さ 3.6mm ／ 識別コード Sc321"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「三和」",
+      "strength": "1mg",
+      "imprint_front": "Sc322",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "微紅色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 5,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 割線を有するだ円の微紅色の錠剤 ／ 長径 10.0mm 短径 5.0mm 厚さ 3.9mm ／ 識別コード Sc322"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「三和」",
+      "strength": "3mg",
+      "imprint_front": "Sc323",
+      "imprint_back": "3",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 割線を有する微黄白色の錠剤 ／ 直径 8.0mm 厚さ 2.7mm ／ 識別コード Sc323"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「三和」",
+    "グリメピリド錠1mg「三和」",
+    "グリメピリド錠3mg「三和」"
+  ]
+}

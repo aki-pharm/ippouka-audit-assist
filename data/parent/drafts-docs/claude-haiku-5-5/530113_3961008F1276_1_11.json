@@ -1,0 +1,67 @@
+{
+  "id": "530113_3961008F1276_1_11",
+  "source_file": "530113_3961008F1276_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3961008F1276_1_11",
+  "extracted_at": "2026-11-09T15:28:15.844Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20457,
+    "output": 1804
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「日新」",
+      "strength": "0.5mg",
+      "imprint_front": "NS 358",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 1.9,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 ／ 外形 大きさ 錠径：5.0mm 錠厚：1.9mm 重量：50mg ／ 識別コード NS 358"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「日新」",
+      "strength": "1mg",
+      "imprint_front": "NS 356",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状 淡紅色の片面割線入り素錠 ／ 外形 大きさ 錠径：6.0mm 錠厚：2.6mm 重量：100mg ／ 識別コード NS 356"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「日新」",
+      "strength": "3mg",
+      "imprint_front": "NS 357",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状 微黄白色の片面割線入り素錠 ／ 外形 大きさ 錠径：7.0mm 錠厚：2.3mm 重量：120mg ／ 識別コード NS 357"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「日新」",
+    "グリメピリド錠1mg「日新」",
+    "グリメピリド錠3mg「日新」"
+  ]
+}
