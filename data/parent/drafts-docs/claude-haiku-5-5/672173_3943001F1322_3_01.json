@@ -1,0 +1,50 @@
+{
+  "id": "672173_3943001F1322_3_01",
+  "source_file": "672173_3943001F1322_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_3943001F1322_3_01",
+  "extracted_at": "2026-11-09T15:23:51.218Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16452,
+    "output": 1554
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "AP50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年5月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 6.1mm 厚さ 3.1mm 識別コード AP50"
+    },
+    {
+      "product_name": "アロプリノール錠100mg「アメル」",
+      "strength": "100mg",
+      "imprint_front": "AP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年5月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面 1/2 割線入りフィルムコーティング錠 外形 直径 8.1mm 厚さ 3.7mm 識別コード AP"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「アメル」",
+    "アロプリノール錠50mg「アメル」"
+  ]
+}

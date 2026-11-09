@@ -1,0 +1,33 @@
+{
+  "id": "581120_3929004F2137_1_06",
+  "source_file": "581120_3929004F2137_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3929004F2137_1_06",
+  "extracted_at": "2026-11-09T15:23:23.008Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20843,
+    "output": 2004
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ホリナート錠25mg「NIG」",
+      "strength": "ホリナートとして25.0mg（1錠中）",
+      "imprint_front": "TV FC1",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "淡黄白",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄白の素錠 外形 直径：8.0mm 厚さ：3.5mm 質量：180mg 識別コード（PTP） TV FC1"
+    }
+  ],
+  "expected_products": [
+    "ホリナート錠25mg「NIG」"
+  ]
+}

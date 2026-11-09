@@ -1,0 +1,33 @@
+{
+  "id": "200022_3942001F1040_1_09",
+  "source_file": "200022_3942001F1040_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/200022_3942001F1040_1_09",
+  "extracted_at": "2026-11-09T15:23:23.686Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 11746,
+    "output": 1333
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベネシッド錠250mg",
+      "strength": "1錠中日局プロベネシド250mg",
+      "imprint_front": "KC16",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5.8,
+      "score_line": null,
+      "source_revision": "2023年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色 白色～帯黄白色 直径 10.1mm 厚さ 5.8mm 質量 0.385g 識別コード KC16"
+    }
+  ],
+  "expected_products": [
+    "ベネシッド錠250mg"
+  ]
+}

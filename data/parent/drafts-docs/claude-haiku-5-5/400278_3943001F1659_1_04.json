@@ -1,0 +1,50 @@
+{
+  "id": "400278_3943001F1659_1_04",
+  "source_file": "400278_3943001F1659_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3943001F1659_1_04",
+  "extracted_at": "2026-11-09T15:23:38.218Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14391,
+    "output": 1497
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠50mg「TCK」",
+      "strength": "50mg",
+      "imprint_front": "AR 50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "アロプリノール錠 50mg「TCK」 外形 直径6.5mm 厚さ2.2mm 重量100mg 色調 白色～微黄白色 素錠 識別コード AR 50"
+    },
+    {
+      "product_name": "アロプリノール錠100mg「TCK」",
+      "strength": "100mg",
+      "imprint_front": "Tu-AR 100",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～類白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "アロプリノール錠 100mg「TCK」 外形 直径9.0mm 厚さ4.3mm 重量310mg 色調 白色～類白色 素錠 識別コード Tu-AR 100"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「TCK」",
+    "アロプリノール錠50mg「TCK」"
+  ]
+}

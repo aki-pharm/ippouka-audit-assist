@@ -1,0 +1,50 @@
+{
+  "id": "460028_3943001F1632_1_10",
+  "source_file": "460028_3943001F1632_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3943001F1632_1_10",
+  "extracted_at": "2026-11-09T15:24:20.502Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14363,
+    "output": 2359
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠50mg「ツルハラ」",
+      "strength": "1錠中アロプリノール50mg",
+      "imprint_front": "TSU012",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2023年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色～微黄白色 外形 大きさ 直径 約6.5mm 厚さ 約2.2mm 質量 約100mg 識別コード TSU012"
+    },
+    {
+      "product_name": "アロプリノール錠100mg「ツルハラ」",
+      "strength": "1錠中アロプリノール100mg",
+      "imprint_front": "TSU000",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2023年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線を有する素錠 色調 白色 外形 大きさ 直径 約9.0mm 厚さ 約3.3mm 質量 約280mg 識別コード TSU000"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「ツルハラ」",
+    "アロプリノール錠50mg「ツルハラ」"
+  ]
+}

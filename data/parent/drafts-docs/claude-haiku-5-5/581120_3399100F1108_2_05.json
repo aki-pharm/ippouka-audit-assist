@@ -1,0 +1,33 @@
+{
+  "id": "581120_3399100F1108_2_05",
+  "source_file": "581120_3399100F1108_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3399100F1108_2_05",
+  "extracted_at": "2026-11-09T15:23:05.501Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25338,
+    "output": 2146
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バッサミン配合錠A81",
+      "strength": "アスピリン81mg（1錠中）",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "図では表面に社名マークのみ確認。識別コードは「（PTP）t 345」と記載されているため、刻印とは別扱い",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡橙色の素錠 外形 直径：8.0mm 厚さ：3.6mm 質量：190mg 識別コード（PTP） t 345"
+    }
+  ],
+  "expected_products": [
+    "バッサミン配合錠A81"
+  ]
+}

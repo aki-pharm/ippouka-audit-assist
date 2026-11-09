@@ -1,0 +1,66 @@
+{
+  "id": "400278_3399008F1130_1_18",
+  "source_file": "400278_3399008F1130_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3399008F1130_1_18",
+  "extracted_at": "2026-11-09T15:22:35.092Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34585,
+    "output": 2601
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「TCK」",
+      "strength": "25mg",
+      "imprint_front": "25・TCK（外形図より）",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠25mg「TCK」 白色〜微黄白色 フィルムコーティング錠 6.6 3.3 112.0"
+    },
+    {
+      "product_name": "クロピドグレル錠50mg「TCK」",
+      "strength": "50mg",
+      "imprint_front": "50・TCK（外形図より）",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠50mg「TCK」 白色〜微黄白色 フィルムコーティング錠 8.1 4.2 220.6"
+    },
+    {
+      "product_name": "クロピドグレル錠75mg「TCK」",
+      "strength": "75mg",
+      "imprint_front": "75・TCK（外形図より）",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠75mg「TCK」 白色〜微黄白色 フィルムコーティング錠 8.6 4.5 262.0"
+    }
+  ],
+  "expected_products": [
+    "クロピドグレル錠25mg「TCK」（旧製品）",
+    "クロピドグレル錠75mg「TCK」（旧製品）"
+  ]
+}

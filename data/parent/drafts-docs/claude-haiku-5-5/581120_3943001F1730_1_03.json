@@ -1,0 +1,50 @@
+{
+  "id": "581120_3943001F1730_1_03",
+  "source_file": "581120_3943001F1730_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3943001F1730_1_03",
+  "extracted_at": "2026-11-09T15:23:39.189Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14760,
+    "output": 2058
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "AP50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 / 直径 6.1mm 厚さ 3.1mm / 識別コード（PTP） t AP50"
+    },
+    {
+      "product_name": "アロプリノール錠100mg「NIG」",
+      "strength": "100mg",
+      "imprint_front": "AP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り フィルムコーティング錠 / 直径 8.1mm 厚さ 3.7mm / 識別コード（PTP） t AP"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「NIG」",
+    "アロプリノール錠50mg「NIG」"
+  ]
+}
