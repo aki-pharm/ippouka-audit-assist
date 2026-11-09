@@ -1,0 +1,84 @@
+{
+  "id": "530100_2149044F5100_1_07",
+  "source_file": "530100_2149044F5100_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149044F5100_1_07",
+  "extracted_at": "2026-11-09T14:41:08.122Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29459,
+    "output": 2852
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタンOD錠5mg「ニプロ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像から刻印を判読できず",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色の素錠（口腔内崩壊錠） 直径6.6mm 厚さ3.0mm 重量95mg"
+    },
+    {
+      "product_name": "オルメサルタンOD錠10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像から刻印を判読できず",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の割線入り素錠（口腔内崩壊錠） 直径7.1mm 厚さ3.5mm 重量130mg"
+    },
+    {
+      "product_name": "オルメサルタンOD錠20mg「ニプロ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像から刻印を判読できず",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の割線入り素錠（口腔内崩壊錠） 直径8.1mm 厚さ3.7mm 重量180mg"
+    },
+    {
+      "product_name": "オルメサルタンOD錠40mg「ニプロ」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像から刻印を判読できず",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 5.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の割線入り素錠（口腔内崩壊錠） 直径9.6mm 厚さ5.3mm 重量360mg"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタンOD錠10mg「ニプロ」",
+    "オルメサルタンOD錠20mg「ニプロ」",
+    "オルメサルタンOD錠40mg「ニプロ」",
+    "オルメサルタンOD錠5mg「ニプロ」"
+  ]
+}

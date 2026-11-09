@@ -1,0 +1,66 @@
+{
+  "id": "171950_2171022F3200_2_01",
+  "source_file": "171950_2171022F3200_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_2171022F3200_2_01",
+  "extracted_at": "2026-11-09T14:48:22.389Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25869,
+    "output": 3489
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「タカタ」",
+      "strength": "2.5mg",
+      "imprint_front": "TTS 710",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2025年11月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 微黄白色～淡黄白色の裸錠 表面 TTS 710 直径 約6mm 裏面 2.5 重さ 約0.085g 側面 厚さ 約2.9mm"
+    },
+    {
+      "product_name": "アムロジピンOD錠5mg「タカタ」",
+      "strength": "5mg",
+      "imprint_front": "TTS 711",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年11月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "微黄白色～淡黄白色で、片面に二分割線のある裸錠 TTS 711 直径 約7mm 重さ 約0.120g 厚さ 約3.1mm"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「タカタ」",
+      "strength": "10mg",
+      "imprint_front": "TTS 712",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年11月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "微黄白色～淡黄白色で、片面に二分割線のある裸錠 TTS 712 10 直径 約8mm 重さ 約0.185g 厚さ 約3.7mm"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠2.5mg「タカタ」",
+    "アムロジピンOD錠5mg「タカタ」"
+  ]
+}

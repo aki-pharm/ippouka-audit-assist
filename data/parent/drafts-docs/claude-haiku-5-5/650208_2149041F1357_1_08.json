@@ -1,0 +1,84 @@
+{
+  "id": "650208_2149041F1357_1_08",
+  "source_file": "650208_2149041F1357_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_2149041F1357_1_08",
+  "extracted_at": "2026-11-09T14:37:08.999Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26076,
+    "output": 2964
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「BMD」",
+      "strength": "20mg",
+      "imprint_front": "BMD 20",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 6.1 7.1 8.6 長径：15.5 短径： 6.8 厚さ（mm） 2.4 3.4 4.4 5.6 ... 色調 淡黄色 白色 白色 白色 剤形 割線入り フィルムコーティング錠"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「BMD」",
+      "strength": "40mg",
+      "imprint_front": "BMD 40",
+      "imprint_back": "40",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 6.1 7.1 8.6 長径：15.5 短径： 6.8 厚さ（mm） 2.4 3.4 4.4 5.6 ... 色調 淡黄色 白色 白色 白色 剤形 割線入り フィルムコーティング錠"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「BMD」",
+      "strength": "80mg",
+      "imprint_front": "BMD 80",
+      "imprint_back": "80",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 6.1 7.1 8.6 長径：15.5 短径： 6.8 厚さ（mm） 2.4 3.4 4.4 5.6 ... 色調 淡黄色 白色 白色 白色 剤形 割線入り フィルムコーティング錠"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「BMD」",
+      "strength": "160mg",
+      "imprint_front": "バルサルタン BMD 160",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 6.8,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "長径：15.5 短径： 6.8 厚さ（mm） 2.4 3.4 4.4 5.6 ... 色調 淡黄色 白色 白色 白色 剤形 長楕円形をした割線入りのフィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠160mg「BMD」",
+    "バルサルタン錠20mg「BMD」",
+    "バルサルタン錠40mg「BMD」",
+    "バルサルタン錠80mg「BMD」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "580591_2144008F1056_1_15",
+  "source_file": "580591_2144008F1056_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2144008F1056_1_15",
+  "extracted_at": "2026-11-09T14:30:05.524Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23908,
+    "output": 2917
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダプリル塩酸塩錠 2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に「イミダプリル 2.5 JG」と記載があるが、表裏どちらの面の刻印かは本文から特定できない",
+      "color": "薄い桃色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "イミダプリル塩酸塩錠2.5mg「JG」 薄い桃色の素錠 表面 裏面 側面 直径 厚さ 重量 7.0mm 2.9mm 120mg（本体表示：イミダプリル 2.5 JG）"
+    },
+    {
+      "product_name": "イミダプリル塩酸塩錠 5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に「イミダプリル 5 JG」と記載があるが、表裏どちらの面の刻印かは本文から特定できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "イミダプリル塩酸塩錠5mg「JG」 白色の片面割線入り素錠 表面 裏面 側面 直径 厚さ 重量 7.0mm 2.9mm 120mg（本体表示：イミダプリル 5 JG）"
+    },
+    {
+      "product_name": "イミダプリル塩酸塩錠 10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に「イミダプリル 10 JG」と記載があるが、表裏どちらの面の刻印かは本文から特定できない",
+      "color": "薄いだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "イミダプリル塩酸塩錠10mg「JG」 薄いだいだい色の片面割線入り素錠 表面 裏面 側面 直径 厚さ 重量 7.0mm 2.9mm 120mg（本体表示：イミダプリル 10 JG）"
+    }
+  ],
+  "expected_products": [
+    "イミダプリル塩酸塩錠2.5mg「JG」",
+    "イミダプリル塩酸塩錠5mg「JG」"
+  ]
+}

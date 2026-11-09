@@ -1,0 +1,50 @@
+{
+  "id": "180095_2144008F1080_1_16",
+  "source_file": "180095_2144008F1080_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2144008F1080_1_16",
+  "extracted_at": "2026-11-09T14:30:21.650Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22614,
+    "output": 2292
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダプリル塩酸塩錠2.5mg「オーハラ」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「イミダプリル 2.5 オーハラ」と記載。表裏のどちら側に何が刻印されているかは文書から確認できず",
+      "color": "薄い桃色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 片面割線入り素錠 色調 薄い桃色 白色 外形 直径 7.0mm 7.0mm 厚さ 2.9mm 2.9mm 質量 120.0mg 120.0mg 識別コード イミダプリル 2.5 オーハラ イミダプリル 5 オーハラ"
+    },
+    {
+      "product_name": "イミダプリル塩酸塩錠5mg「オーハラ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「イミダプリル 5 オーハラ」と記載。表裏のどちら側に何が刻印されているかは文書から確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 片面割線入り素錠 色調 薄い桃色 白色 外形 直径 7.0mm 7.0mm 厚さ 2.9mm 2.9mm 質量 120.0mg 120.0mg 識別コード イミダプリル 2.5 オーハラ イミダプリル 5 オーハラ"
+    }
+  ],
+  "expected_products": [
+    "イミダプリル塩酸塩錠2.5mg「オーハラ」",
+    "イミダプリル塩酸塩錠5mg「オーハラ」"
+  ]
+}

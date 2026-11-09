@@ -1,0 +1,50 @@
+{
+  "id": "480235_2129007F1063_1_05",
+  "source_file": "480235_2129007F1063_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2129007F1063_1_05",
+  "extracted_at": "2026-11-09T14:25:31.304Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19626,
+    "output": 1560
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シベンゾリンコハク酸塩錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw012",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 ／ 識別コード Tw012 Tw011 ／ 直径(mm) 6.2 7.1 ／ 厚さ(mm) 3.1 3.7"
+    },
+    {
+      "product_name": "シベンゾリンコハク酸塩錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw011",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 ／ 識別コード Tw012 Tw011 ／ 直径(mm) 6.2 7.1 ／ 厚さ(mm) 3.1 3.7"
+    }
+  ],
+  "expected_products": [
+    "シベンゾリンコハク酸塩錠100mg「トーワ」",
+    "シベンゾリンコハク酸塩錠50mg「トーワ」"
+  ]
+}

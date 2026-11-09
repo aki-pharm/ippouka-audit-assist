@@ -1,0 +1,67 @@
+{
+  "id": "300119_2149027F1160_1_06",
+  "source_file": "300119_2149027F1160_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149027F1160_1_06",
+  "extracted_at": "2026-11-09T14:32:36.853Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14454,
+    "output": 2513
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マニジピン塩酸塩錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW MD",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 黄白色 淡黄色 うすいだいだい黄色 直径（mm） 7.0 7.5 8.0 厚さ（mm） 2.8 3.1 3.1 識別コード SW MD 5 SW MD 10 SW MD 20"
+    },
+    {
+      "product_name": "マニジピン塩酸塩錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW MD",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 黄白色 淡黄色 うすいだいだい黄色 直径（mm） 7.0 7.5 8.0 厚さ（mm） 2.8 3.1 3.1 識別コード SW MD 5 SW MD 10 SW MD 20"
+    },
+    {
+      "product_name": "マニジピン塩酸塩錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "SW MD",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "うすいだいだい黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 黄白色 淡黄色 うすいだいだい黄色 直径（mm） 7.0 7.5 8.0 厚さ（mm） 2.8 3.1 3.1 識別コード SW MD 5 SW MD 10 SW MD 20"
+    }
+  ],
+  "expected_products": [
+    "マニジピン塩酸塩錠10mg「サワイ」",
+    "マニジピン塩酸塩錠20mg「サワイ」",
+    "マニジピン塩酸塩錠5mg「サワイ」"
+  ]
+}

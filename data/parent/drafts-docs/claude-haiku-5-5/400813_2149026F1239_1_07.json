@@ -1,0 +1,83 @@
+{
+  "id": "400813_2149026F1239_1_07",
+  "source_file": "400813_2149026F1239_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2149026F1239_1_07",
+  "extracted_at": "2026-11-09T14:32:05.595Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17849,
+    "output": 2873
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドキサゾシン錠0.5mg「テバ」",
+      "strength": "0.5mg",
+      "imprint_front": "t043",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠、直径（mm） 6.0、厚さ（mm） 2.9、識別コード（PTP） t043"
+    },
+    {
+      "product_name": "ドキサゾシン錠1mg「テバ」",
+      "strength": "1mg",
+      "imprint_front": "t044",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠、直径（mm） 6.8、厚さ（mm） 2.7、識別コード（PTP） t044"
+    },
+    {
+      "product_name": "ドキサゾシン錠2mg「テバ」",
+      "strength": "2mg",
+      "imprint_front": "t045",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡いだいだい色の片面1/2割線入り素錠、直径（mm） 6.8、厚さ（mm） 2.7、識別コード（PTP） t045"
+    },
+    {
+      "product_name": "ドキサゾシン錠4mg「テバ」",
+      "strength": "4mg",
+      "imprint_front": "t046",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠、直径（mm） 8.0、厚さ（mm） 3.6、識別コード（PTP） t046"
+    }
+  ],
+  "expected_products": [
+    "ドキサゾシン錠0.5mg「テバ」",
+    "ドキサゾシン錠1mg「テバ」",
+    "ドキサゾシン錠2mg「テバ」"
+  ]
+}

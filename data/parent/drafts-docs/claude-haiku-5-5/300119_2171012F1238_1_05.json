@@ -1,0 +1,50 @@
+{
+  "id": "300119_2171012F1238_1_05",
+  "source_file": "300119_2171012F1238_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2171012F1238_1_05",
+  "extracted_at": "2026-11-09T14:45:01.206Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14039,
+    "output": 1418
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラピジル錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW 693",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色 直径（mm） 6.1 厚さ（mm） 3.7 識別コード SW 693"
+    },
+    {
+      "product_name": "トラピジル錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW 694",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色 直径（mm） 8.1 厚さ（mm） 4.3 識別コード SW 694"
+    }
+  ],
+  "expected_products": [
+    "トラピジル錠100mg「サワイ」",
+    "トラピジル錠50mg「サワイ」"
+  ]
+}

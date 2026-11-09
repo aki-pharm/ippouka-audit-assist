@@ -1,0 +1,66 @@
+{
+  "id": "450064_2171022F3277_2_19",
+  "source_file": "450064_2171022F3277_2_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2171022F3277_2_19",
+  "extracted_at": "2026-11-09T14:47:06.061Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26240,
+    "output": 2581
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠 2.5mg「CH」",
+      "strength": "2.5mg",
+      "imprint_front": "ch128",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年5月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 淡黄色の素錠 淡黄色の片面割線入りの素錠 外形 大きさ 直径 6.0mm 7.0mm 8.0mm 厚さ 2.8mm 2.7mm 3.2mm 識別コード ch128 ch129 ch130"
+    },
+    {
+      "product_name": "アムロジピンOD錠 5mg「CH」",
+      "strength": "5mg",
+      "imprint_front": "ch129",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 淡黄色の素錠 淡黄色の片面割線入りの素錠 外形 大きさ 直径 6.0mm 7.0mm 8.0mm 厚さ 2.8mm 2.7mm 3.2mm 識別コード ch128 ch129 ch130"
+    },
+    {
+      "product_name": "アムロジピンOD錠 10mg「CH」",
+      "strength": "10mg",
+      "imprint_front": "ch130",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 淡黄色の素錠 淡黄色の片面割線入りの素錠 外形 大きさ 直径 6.0mm 7.0mm 8.0mm 厚さ 2.8mm 2.7mm 3.2mm 識別コード ch128 ch129 ch130"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠2.5mg「CH」",
+    "アムロジピンOD錠5mg「CH」"
+  ]
+}

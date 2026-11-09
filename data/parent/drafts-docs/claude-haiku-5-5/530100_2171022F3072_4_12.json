@@ -1,0 +1,66 @@
+{
+  "id": "530100_2171022F3072_4_12",
+  "source_file": "530100_2171022F3072_4_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2171022F3072_4_12",
+  "extracted_at": "2026-11-09T14:47:22.487Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25034,
+    "output": 3790
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「NP」",
+      "strength": "2.5mg",
+      "imprint_front": "NP-331",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードNP-331。図中に規格表示「2.5」の刻印が別面にあるが、表裏の対応は本文に記載なし",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "淡橙色の素錠（口腔内崩壊錠） 7.0 2.2 100 NP-331"
+    },
+    {
+      "product_name": "アムロジピンOD錠5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "NP-332",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードNP-332。図中に規格表示「5」の刻印が別面にあるが、表裏の対応は本文に記載なし",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "淡橙色の割線入り素錠（口腔内崩壊錠） 8.0 3.4 200 NP-332"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "NP-133",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードNP-133。図中に規格表示「10」の刻印が別面にあるが、表裏の対応は本文に記載なし",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "淡橙色の割線入り素錠（口腔内崩壊錠） 8.5 4.7 250 NP-133"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠2.5mg「NP」",
+    "アムロジピンOD錠5mg「NP」"
+  ]
+}

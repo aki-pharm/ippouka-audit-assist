@@ -1,0 +1,67 @@
+{
+  "id": "672173_2149039F1244_2_07",
+  "source_file": "672173_2149039F1244_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_2149039F1244_2_07",
+  "extracted_at": "2026-11-09T14:35:11.370Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25686,
+    "output": 2199
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠25mg「アメル」",
+      "strength": "25mg",
+      "imprint_front": "ロサルタン 25 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 白色〜帯黄白色 直径：約 5.6mm 厚さ：約 3.0mm 質量：約 78.4mg"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "ロサルタン 50 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 白色〜帯黄白色 直径：約 7.6mm 厚さ：約 3.3mm 質量：約 155.8mg"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠100mg「アメル」",
+      "strength": "100mg",
+      "imprint_front": "ロサルタン 100 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 5.2,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色〜帯黄白色 直径：約 9.2mm 厚さ：約 5.2mm 質量：約 308.7mg"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンカリウム錠100mg「アメル」",
+    "ロサルタンカリウム錠25mg「アメル」",
+    "ロサルタンカリウム錠50mg「アメル」"
+  ]
+}

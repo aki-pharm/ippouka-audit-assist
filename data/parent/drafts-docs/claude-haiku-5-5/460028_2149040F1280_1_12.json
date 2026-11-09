@@ -1,0 +1,83 @@
+{
+  "id": "460028_2149040F1280_1_12",
+  "source_file": "460028_2149040F1280_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2149040F1280_1_12",
+  "extracted_at": "2026-11-09T14:36:23.031Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29359,
+    "output": 2806
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カンデサルタン錠2mg「ツルハラ」",
+      "strength": "2mg",
+      "imprint_front": "TSU155",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 大きさ 直径 約7.0mm 厚さ 約2.5mm 識別コード 表面TSU155 裏面 2"
+    },
+    {
+      "product_name": "カンデサルタン錠4mg「ツルハラ」",
+      "strength": "4mg",
+      "imprint_front": "TSU156",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色 大きさ 直径 約7.0mm 厚さ 約2.5mm 識別コード 表面 TSU156 裏面 4"
+    },
+    {
+      "product_name": "カンデサルタン錠8mg「ツルハラ」",
+      "strength": "8mg",
+      "imprint_front": "TSU157",
+      "imprint_back": "8",
+      "imprint_note": null,
+      "color": "ごくうすい橙色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 2,
+      "source_quote": "剤形 割線入り素錠 色調 ごくうすい橙色 大きさ 直径 約7.0mm 厚さ 約2.5mm 識別コード 表面 TSU157 裏面 8"
+    },
+    {
+      "product_name": "カンデサルタン錠12mg「ツルハラ」",
+      "strength": "12mg",
+      "imprint_front": "TSU158",
+      "imprint_back": "12",
+      "imprint_note": null,
+      "color": "うすい橙色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 2,
+      "source_quote": "剤形 割線入り素錠 色調 うすい橙色 大きさ 直径 約7.0mm 厚さ 約2.5mm 識別コード 表面 TSU158 裏面 12"
+    }
+  ],
+  "expected_products": [
+    "カンデサルタン錠12mg「ツルハラ」",
+    "カンデサルタン錠2mg「ツルハラ」",
+    "カンデサルタン錠8mg「ツルハラ」"
+  ]
+}

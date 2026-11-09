@@ -1,0 +1,67 @@
+{
+  "id": "581120_2149037F1113_1_04",
+  "source_file": "581120_2149037F1113_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149037F1113_1_04",
+  "extracted_at": "2026-11-09T14:33:53.154Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18849,
+    "output": 2420
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シルニジピン錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "t 075",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 7.2mm 厚さ 3.2mm 識別コード（PTP） t 075"
+    },
+    {
+      "product_name": "シルニジピン錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "t 080",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 9.2mm 厚さ 3.9mm 識別コード（PTP） t 080"
+    },
+    {
+      "product_name": "シルニジピン錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "TV C20",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 15.9,
+      "size_short_mm": 6.7,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の楕円形の片面1/2割線入りフィルムコーティング錠 外形 長径：15.9mm 短径： 6.7mm 厚さ 5.7mm 識別コード（PTP） TV C20"
+    }
+  ],
+  "expected_products": [
+    "シルニジピン錠10mg「NIG」",
+    "シルニジピン錠20mg「NIG」",
+    "シルニジピン錠5mg「NIG」"
+  ]
+}

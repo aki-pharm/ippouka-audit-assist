@@ -1,0 +1,66 @@
+{
+  "id": "460028_2171022F1339_1_26",
+  "source_file": "460028_2171022F1339_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2171022F1339_1_26",
+  "extracted_at": "2026-11-09T14:49:38.481Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19795,
+    "output": 1844
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠2.5mg「ツルハラ」",
+      "strength": "2.5mg",
+      "imprint_front": "A 2.5",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 大きさ 直径 約 6.1mm 厚さ 約 2.6mm 識別コード 表面 :A 2.5 裏面 :2.5"
+    },
+    {
+      "product_name": "アムロジピン錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "A 5",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコート錠 色調 白色 大きさ 直径 約 7.6mm 厚さ 約 3.3mm 識別コード 表面 :A 5 裏面 :5"
+    },
+    {
+      "product_name": "アムロジピン錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "A 10",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコート錠 色調 白色 大きさ 直径 約 8.1mm 厚さ 約 3.4mm 識別コード 表面: A 10 裏面: 10"
+    }
+  ],
+  "expected_products": [
+    "アムロジピン錠2.5mg「ツルハラ」",
+    "アムロジピン錠5mg「ツルハラ」"
+  ]
+}

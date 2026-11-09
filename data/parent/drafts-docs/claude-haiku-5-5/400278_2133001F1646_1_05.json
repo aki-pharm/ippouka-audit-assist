@@ -1,0 +1,33 @@
+{
+  "id": "400278_2133001F1646_1_05",
+  "source_file": "400278_2133001F1646_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2133001F1646_1_05",
+  "extracted_at": "2026-11-09T14:26:45.630Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13575,
+    "output": 1414
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スピロノラクトン錠25mg「TCK」",
+      "strength": "25mg",
+      "imprint_front": "Tu-LM 25",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとしてTu-LM 25が記載。裏面の刻印は文書に明記なし",
+      "color": "白色〜淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年3月改訂",
+      "source_page": 1,
+      "source_quote": "白色〜 淡黄白色 素錠 （割線入り） Tu-LM 25 7.0 3.2 130"
+    }
+  ],
+  "expected_products": [
+    "スピロノラクトン錠25mg「TCK」"
+  ]
+}

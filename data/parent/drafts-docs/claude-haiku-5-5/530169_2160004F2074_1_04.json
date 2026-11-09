@@ -1,0 +1,33 @@
+{
+  "id": "530169_2160004F2074_1_04",
+  "source_file": "530169_2160004F2074_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2160004F2074_1_04",
+  "extracted_at": "2026-11-09T14:43:53.764Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20009,
+    "output": 1207
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルミトリプタンOD錠2.5mg「日医工」",
+      "strength": "2.5mg",
+      "imprint_front": "221",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 白色（わずかにオレンジ様のにおい） 表面 ２２１ 裏面 ２．５ 直径(mm) 6.5 厚さ(mm) 2.4"
+    }
+  ],
+  "expected_products": [
+    "ゾルミトリプタンOD錠2.5mg「日医工」"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "830001_2149044F1067_1_06",
+  "source_file": "830001_2149044F1067_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2149044F1067_1_06",
+  "extracted_at": "2026-11-09T14:41:31.856Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26269,
+    "output": 2309
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 1.9,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄白色の素錠 外形 直径 約5mm 厚さ 約1.9mm 重量 50mg"
+    },
+    {
+      "product_name": "オルメサルタン錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 割線の入った白色の素錠 外形 直径 約6mm 厚さ 約2.7mm 重量 100mg"
+    },
+    {
+      "product_name": "オルメサルタン錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 割線の入った白色の素錠 外形 直径 約8mm 厚さ 約3.1mm 重量 200mg"
+    },
+    {
+      "product_name": "オルメサルタン錠40mg「YD」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 割線の入った白色の素錠 外形 直径 約10mm 厚さ 約4mm 重量 400mg"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタン錠10mg「YD」",
+    "オルメサルタン錠20mg「YD」",
+    "オルメサルタン錠40mg「YD」",
+    "オルメサルタン錠5mg「YD」"
+  ]
+}

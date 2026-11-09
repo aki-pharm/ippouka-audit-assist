@@ -1,0 +1,67 @@
+{
+  "id": "730869_2144002F1423_1_05",
+  "source_file": "730869_2144002F1423_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2144002F1423_1_05",
+  "extracted_at": "2026-11-09T14:28:41.946Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23179,
+    "output": 2572
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エナラプリルマレイン酸塩錠2.5mg「VTRS」",
+      "strength": "2.5mg",
+      "imprint_front": "MH22",
+      "imprint_back": "未確認",
+      "imprint_note": "上面に「2.5」の表示あり（図による）。識別コードはMH22",
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "MH22 うすい桃色 直径 素錠 5.1mm 厚さ 2.0mm 重量 50mg"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "MH23",
+      "imprint_back": "未確認",
+      "imprint_note": "上面に「5」の表示あり（図による）。識別コードはMH23",
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "MH23 うすい桃色 割線入り 直径 素錠 6.5mm 厚さ 2.4mm 重量 100mg"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠10mg「VTRS」",
+      "strength": "10mg",
+      "imprint_front": "MH24",
+      "imprint_back": "未確認",
+      "imprint_note": "上面に「10」の表示あり（図による）。識別コードはMH24",
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "MH24 うすい桃色 割線入り 直径 素錠 8.0mm 厚さ 3.1mm 重量 200mg"
+    }
+  ],
+  "expected_products": [
+    "エナラプリルマレイン酸塩錠10mg「VTRS」",
+    "エナラプリルマレイン酸塩錠2.5mg「VTRS」",
+    "エナラプリルマレイン酸塩錠5mg「VTRS」"
+  ]
+}

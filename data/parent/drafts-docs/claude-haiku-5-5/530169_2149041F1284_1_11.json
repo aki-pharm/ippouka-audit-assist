@@ -1,0 +1,82 @@
+{
+  "id": "530169_2149041F1284_1_11",
+  "source_file": "530169_2149041F1284_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149041F1284_1_11",
+  "extracted_at": "2026-11-09T14:38:16.182Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24941,
+    "output": 5023
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「日医工」",
+      "strength": "20mg",
+      "imprint_front": "バルサルタン 20 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は本体表示欄の記載に基づく。裏面は判読できず未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 淡黄色 直径（mm） 7.1 厚さ（mm） 2.6"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「日医工」",
+      "strength": "40mg",
+      "imprint_front": "バルサルタン 40 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は本体表示欄の記載に基づく。裏面は判読できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 淡黄色 白色 直径（mm） 7.1 7.1 厚さ（mm） 2.6 2.8"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「日医工」",
+      "strength": "80mg",
+      "imprint_front": "バルサルタン 80 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は本体表示欄の記載に基づく。裏面は判読できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色 直径（mm） 8.6 厚さ（mm） 3.8"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「日医工」",
+      "strength": "160mg",
+      "imprint_front": "353",
+      "imprint_back": "160",
+      "imprint_note": "表面・裏面の刻印は本体表示欄の記載（353、160）に基づく",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 14.6,
+      "size_short_mm": 5.8,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色 直径（mm） 8.6 14.6×5.8 厚さ（mm） 3.8 5.7"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「日医工」",
+    "バルサルタン錠40mg「日医工」"
+  ]
+}

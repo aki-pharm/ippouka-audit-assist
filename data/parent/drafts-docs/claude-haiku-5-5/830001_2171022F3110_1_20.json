@@ -1,0 +1,66 @@
+{
+  "id": "830001_2171022F3110_1_20",
+  "source_file": "830001_2171022F3110_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2171022F3110_1_20",
+  "extracted_at": "2026-11-09T14:47:35.675Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25314,
+    "output": 2559
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「YD」",
+      "strength": "2.5mg",
+      "imprint_front": "YD、OD2.5",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は製剤の図から読み取り。本文中の文言ではない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の素錠 / 外形 直径 約6mm 厚さ 約2.8mm"
+    },
+    {
+      "product_name": "アムロジピンOD錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD、OD5",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は製剤の図から読み取り。本文中の文言ではない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の片面割線入りの素錠 / 外形 直径 約7mm 厚さ 約2.7mm"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "YD、OD10",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は製剤の図から読み取り。本文中の文言ではない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の片面割線入りの素錠 / 外形 直径 約8mm 厚さ 約3.2mm"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠2.5mg「YD」",
+    "アムロジピンOD錠5mg「YD」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "530113_2149039F1112_1_16",
+  "source_file": "530113_2149039F1112_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2149039F1112_1_16",
+  "extracted_at": "2026-11-09T14:34:35.829Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18446,
+    "output": 5565
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンK錠25mg「日新」",
+      "strength": "25mg",
+      "imprint_front": "NS 57",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に『25』の表示があるが、表裏の区別は文書に記載がないため未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状：割線を有する白色～帯黄白色のフィルムコーティング錠 外形 大きさ 錠径：5.6mm 錠厚：3.0mm 重量：77.61mg 識別コード NS 57"
+    },
+    {
+      "product_name": "ロサルタンK錠50mg「日新」",
+      "strength": "50mg",
+      "imprint_front": "NS 58",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に『50』の表示があるが、表裏の区別は文書に記載がないため未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状：割線を有する白色～帯黄白色のフィルムコーティング錠 外形 大きさ 錠径：7.6mm 錠厚：3.4mm 重量：154.5mg 識別コード NS 58"
+    },
+    {
+      "product_name": "ロサルタンK錠100mg「日新」",
+      "strength": "100mg",
+      "imprint_front": "NS 59",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に『100』の表示があるが、表裏の区別は文書に記載がないため未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状：白色～帯黄白色のフィルムコーティング錠 外形 大きさ 錠径：8.1mm 錠厚：3.5mm 重量：185mg 識別コード NS 59"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンK錠100mg「日新」",
+    "ロサルタンK錠25mg「日新」",
+    "ロサルタンK錠50mg「日新」"
+  ]
+}

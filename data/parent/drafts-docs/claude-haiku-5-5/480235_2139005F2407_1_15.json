@@ -1,0 +1,33 @@
+{
+  "id": "480235_2139005F2407_1_15",
+  "source_file": "480235_2139005F2407_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2139005F2407_1_15",
+  "extracted_at": "2026-11-09T14:27:23.311Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17024,
+    "output": 1157
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フロセミド錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "TwFRT",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "割線のある白色の素錠"
+    }
+  ],
+  "expected_products": [
+    "フロセミド錠40mg「トーワ」"
+  ]
+}

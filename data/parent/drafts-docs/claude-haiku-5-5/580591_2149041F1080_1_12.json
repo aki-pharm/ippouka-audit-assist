@@ -1,0 +1,82 @@
+{
+  "id": "580591_2149041F1080_1_12",
+  "source_file": "580591_2149041F1080_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149041F1080_1_12",
+  "extracted_at": "2026-11-09T14:37:19.681Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24999,
+    "output": 2005
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "JG 72",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入りのフィルムコーティング錠 直径 6.1mm 厚さ 2.5mm 重量 62mg"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「JG」",
+      "strength": "40mg",
+      "imprint_front": "JG 73",
+      "imprint_back": "40",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 直径 7.1mm 厚さ 3.5mm 重量 121mg"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「JG」",
+      "strength": "80mg",
+      "imprint_front": "JG 74",
+      "imprint_back": "80",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 直径 8.6mm 厚さ 4.3mm 重量 240mg"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「JG」",
+      "strength": "160mg",
+      "imprint_front": "JG 75",
+      "imprint_back": "160",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 6.9,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の長楕円形をした割線入りのフィルムコーティング錠 長径 15.5mm 短径 6.9mm 厚さ 5.6mm 重量 476mg"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「JG」",
+    "バルサルタン錠40mg「JG」"
+  ]
+}

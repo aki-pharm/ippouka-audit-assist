@@ -1,0 +1,66 @@
+{
+  "id": "480209_2171022F3331_4_02",
+  "source_file": "480209_2171022F3331_4_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2171022F3331_4_02",
+  "extracted_at": "2026-11-09T14:48:33.067Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24013,
+    "output": 2099
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 割線入り素錠 色調 淡黄色 淡黄色 淡黄色 外形 直径(mm) 6.0 7.0 8.0 厚さ(mm) 2.8 2.7 3.2 質量(mg) 85 120 190"
+    },
+    {
+      "product_name": "アムロジピンOD錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 割線入り素錠 色調 淡黄色 淡黄色 淡黄色 外形 直径(mm) 6.0 7.0 8.0 厚さ(mm) 2.8 2.7 3.2 質量(mg) 85 120 190"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 割線入り素錠 色調 淡黄色 淡黄色 淡黄色 外形 直径(mm) 6.0 7.0 8.0 厚さ(mm) 2.8 2.7 3.2 質量(mg) 85 120 190"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠2.5mg「杏林」",
+    "アムロジピンOD錠5mg「杏林」"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "460028_2149041F1268_1_08",
+  "source_file": "460028_2149041F1268_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2149041F1268_1_08",
+  "extracted_at": "2026-11-09T14:38:00.632Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24345,
+    "output": 2371
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「ツルハラ」",
+      "strength": "20mg",
+      "imprint_front": "20",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色 大きさ 直径 約5.6mm 厚さ 約2.8mm 識別コード 20"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「ツルハラ」",
+      "strength": "40mg",
+      "imprint_front": "TSU 555",
+      "imprint_back": "40",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色 大きさ 直径 約7.1mm 厚さ 約3.1mm 識別コード 表面TSU 555、裏面40"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「ツルハラ」",
+      "strength": "80mg",
+      "imprint_front": "TSU 556",
+      "imprint_back": "80",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色 大きさ 直径 約8.6mm 厚さ 約4.2mm 識別コード 表面TSU 556、裏面80"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「ツルハラ」",
+      "strength": "160mg",
+      "imprint_front": "TSU 557",
+      "imprint_back": "160",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色 大きさ 直径 約11.1mm 厚さ 約4.9mm 識別コード 表面TSU 557、裏面160"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「ツルハラ」",
+    "バルサルタン錠40mg「ツルハラ」"
+  ]
+}

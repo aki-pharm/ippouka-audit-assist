@@ -1,0 +1,84 @@
+{
+  "id": "530169_2149044F5097_1_12",
+  "source_file": "530169_2149044F5097_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149044F5097_1_12",
+  "extracted_at": "2026-11-09T14:41:18.454Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22883,
+    "output": 4059
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタンOD錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "オルメサルタンOD",
+      "imprint_back": "5 日医工",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 色調 白色～微黄白色 直径（mm） 6 厚さ（mm） 2.7 質量（mg） 80 本体表示 オルメサルタンOD 5 日医工"
+    },
+    {
+      "product_name": "オルメサルタンOD錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "オルメサルタンOD",
+      "imprint_back": "10 日医工",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色～微黄白色 直径（mm） 6 厚さ（mm） 2.7 質量（mg） 80 本体表示 オルメサルタンOD 10 日医工"
+    },
+    {
+      "product_name": "オルメサルタンOD錠20mg「日医工」",
+      "strength": "20mg",
+      "imprint_front": "OD 20",
+      "imprint_back": "日医工",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色～微黄白色 直径（mm） 7.5 厚さ（mm） 3.5 質量（mg） 160 本体表示 オルメサルタン OD 20 日医工"
+    },
+    {
+      "product_name": "オルメサルタンOD錠40mg「日医工」",
+      "strength": "40mg",
+      "imprint_front": "OD 40",
+      "imprint_back": "日医工",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色～微黄白色 直径（mm） 9.5 厚さ（mm） 4.6 質量（mg） 320 本体表示 オルメサルタン OD 40 日医工"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタンOD錠10mg「日医工」",
+    "オルメサルタンOD錠20mg「日医工」",
+    "オルメサルタンOD錠40mg「日医工」",
+    "オルメサルタンOD錠5mg「日医工」"
+  ]
+}

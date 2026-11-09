@@ -1,0 +1,50 @@
+{
+  "id": "530100_2132003F1400_4_06",
+  "source_file": "530100_2132003F1400_4_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2132003F1400_4_06",
+  "extracted_at": "2026-11-09T14:26:20.681Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17016,
+    "output": 2225
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリクロルメチアジド錠 1mg「NP」",
+      "strength": "1mg",
+      "imprint_front": "NP-122",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に丸いNPマーク（社名マークと思われる）と①の図記号あり。識別コードはNP-122。刻印の表裏は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "トリクロルメチアジド錠 1mg「NP」 白色の素錠 直径（mm）6.5 厚さ（mm）2.3 重量（mg）100 識別コード NP-122"
+    },
+    {
+      "product_name": "トリクロルメチアジド錠 2mg「NP」",
+      "strength": "2mg",
+      "imprint_front": "NP-135",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に丸いNPマーク（社名マークと思われる）と②の図記号あり。識別コードはNP-135。刻印の表裏は未確認",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "トリクロルメチアジド錠 2mg「NP」 微赤色の割線入り素錠 直径（mm）8.0 厚さ（mm）3.3 重量（mg）200 識別コード NP-135"
+    }
+  ],
+  "expected_products": [
+    "トリクロルメチアジド錠1mg「NP」",
+    "トリクロルメチアジド錠2mg「NP」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "480235_2129010F1057_1_11",
+  "source_file": "480235_2129010F1057_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2129010F1057_1_11",
+  "extracted_at": "2026-11-09T14:26:10.039Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23190,
+    "output": 1052
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アミオダロン塩酸塩錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw524",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄色の割線入りの素錠 識別コード Tw524 直径(mm) 8.0 厚さ(mm) 3.5"
+    }
+  ],
+  "expected_products": [
+    "アミオダロン塩酸塩錠100mg「トーワ」"
+  ]
+}

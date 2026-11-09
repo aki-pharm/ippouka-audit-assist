@@ -1,0 +1,67 @@
+{
+  "id": "340409_2139005F1095_1_08",
+  "source_file": "340409_2139005F1095_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_2139005F1095_1_08",
+  "extracted_at": "2026-11-09T14:27:13.589Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18441,
+    "output": 2101
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フロセミド錠10mg「SN」",
+      "strength": "10mg",
+      "imprint_front": "SK11",
+      "imprint_back": "SK11",
+      "imprint_note": null,
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 微赤色の片面1/2割線入りのフィルムコーティング錠 規格 直径 6.1mm 厚さ 3.1mm 識別コード SK11"
+    },
+    {
+      "product_name": "フロセミド錠20mg「SN」",
+      "strength": "20mg",
+      "imprint_front": "SK12",
+      "imprint_back": "SK12",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入りのフィルムコーティング錠 規格 直径 6.1mm 厚さ 3.1mm 識別コード SK12"
+    },
+    {
+      "product_name": "フロセミド錠40mg「SN」",
+      "strength": "40mg",
+      "imprint_front": "SK13",
+      "imprint_back": "SK13",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入りのフィルムコーティング錠 規格 直径 7.6mm 厚さ 3.8mm 識別コード SK13"
+    }
+  ],
+  "expected_products": [
+    "フロセミド錠10mg「SN」",
+    "フロセミド錠20mg「SN」",
+    "フロセミド錠40mg「SN」"
+  ]
+}

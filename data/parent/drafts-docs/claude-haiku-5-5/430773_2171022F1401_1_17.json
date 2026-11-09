@@ -1,0 +1,66 @@
+{
+  "id": "430773_2171022F1401_1_17",
+  "source_file": "430773_2171022F1401_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2171022F1401_1_17",
+  "extracted_at": "2026-11-09T14:49:10.286Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21094,
+    "output": 2382
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠2.5mg「DSEP」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像に刻印らしき表示があるが判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アムロジピン錠2.5mg「DSEP」 フィルムコーティング錠 白色 6.1 2.8 94"
+    },
+    {
+      "product_name": "アムロジピン錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像に刻印らしき表示があるが判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アムロジピン錠5mg「DSEP」 フィルムコーティング錠（割線入） 白色 8.1 3.4 188"
+    },
+    {
+      "product_name": "アムロジピン錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像に刻印らしき表示があるが判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アムロジピン錠10mg「DSEP」 白色 8.6 4.1 260"
+    }
+  ],
+  "expected_products": [
+    "アムロジピン錠2.5mg「DSEP」",
+    "アムロジピン錠5mg「DSEP」"
+  ]
+}

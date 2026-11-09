@@ -1,0 +1,33 @@
+{
+  "id": "130107_2132003F1419_1_11",
+  "source_file": "130107_2132003F1419_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130107_2132003F1419_1_11",
+  "extracted_at": "2026-11-09T14:26:32.715Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14043,
+    "output": 1235
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリクロルメチアジド錠2mg「イセイ」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "IC-405",
+      "imprint_note": "表面は図形のみで刻印文字の記載がなく、社名マークの可能性がある。裏面の識別コードはIC-405",
+      "color": "淡赤色",
+      "shape": "other",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 桜型素錠（割線入り） 色調 淡赤色 外形 直径 8.2mm 厚さ 2.6mm 質量 160mg 識別コード IC-405"
+    }
+  ],
+  "expected_products": [
+    "トリクロルメチアジド錠2mg「イセイ」"
+  ]
+}

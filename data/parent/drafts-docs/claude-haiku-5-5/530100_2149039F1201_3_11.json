@@ -1,0 +1,67 @@
+{
+  "id": "530100_2149039F1201_3_11",
+  "source_file": "530100_2149039F1201_3_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149039F1201_3_11",
+  "extracted_at": "2026-11-09T14:34:58.217Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28270,
+    "output": 2757
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠 25mg「NP」",
+      "strength": "25mg",
+      "imprint_front": "NP-371",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 5.6 3.1 76.5 NP-371"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠 50mg「NP」",
+      "strength": "50mg",
+      "imprint_front": "NP-372",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 7.6 3.5 152.5 NP-372"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠 100mg「NP」",
+      "strength": "100mg",
+      "imprint_front": "NP-373",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 11.1,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色でティアドロップ形のフィルムコーティング錠 （長径）11.1 （短径）7.6 4.3 275 NP-373"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンカリウム錠100mg「NP」",
+    "ロサルタンカリウム錠25mg「NP」",
+    "ロサルタンカリウム錠50mg「NP」"
+  ]
+}

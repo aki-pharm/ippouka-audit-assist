@@ -1,0 +1,66 @@
+{
+  "id": "380087_2171022F3129_1_19",
+  "source_file": "380087_2171022F3129_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2171022F3129_1_19",
+  "extracted_at": "2026-11-09T14:47:48.249Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21510,
+    "output": 3336
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「ZE」",
+      "strength": "2.5mg",
+      "imprint_front": "ZE25、2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡橙色／剤形 素錠（口腔内崩壊錠）／性状 割線入り素錠（口腔内崩壊錠）／錠径（mm） 7.0／厚み（mm） 2.2／識別コード ZE25、2.5"
+    },
+    {
+      "product_name": "アムロジピンOD錠5mg「ZE」",
+      "strength": "5mg",
+      "imprint_front": "ZE26、5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡橙色／剤形 素錠（口腔内崩壊錠）／性状 割線入り素錠（口腔内崩壊錠）／錠径（mm） 8.0／厚み（mm） 3.4／識別コード ZE26、5"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「ZE」",
+      "strength": "10mg",
+      "imprint_front": "ZE24、10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "oval",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡橙色／剤形 素錠（口腔内崩壊錠）／性状 割線入り素錠（口腔内崩壊錠）／錠径（mm） 8.5／厚み（mm） 4.7／識別コード ZE24、10"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠2.5mg「ZE」",
+    "アムロジピンOD錠5mg「ZE」"
+  ]
+}

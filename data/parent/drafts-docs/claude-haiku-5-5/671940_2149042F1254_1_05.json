@@ -1,0 +1,67 @@
+{
+  "id": "671940_2149042F1254_1_05",
+  "source_file": "671940_2149042F1254_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_2149042F1254_1_05",
+  "extracted_at": "2026-11-09T14:39:43.654Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23389,
+    "output": 2495
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「フェルゼン」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の文言に刻印の記載なし。図からは判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径：6.1mm 厚さ：2.9mm 質量：87mg"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「フェルゼン」",
+      "strength": "40mg",
+      "imprint_front": "40",
+      "imprint_back": "40",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 直径：8.1mm 厚さ：3.5mm 質量：173.4mg"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「フェルゼン」",
+      "strength": "80mg",
+      "imprint_front": "80",
+      "imprint_back": "80",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 直径：10.2mm 厚さ：4.4mm 質量：345mg"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「フェルゼン」",
+    "テルミサルタン錠40mg「フェルゼン」",
+    "テルミサルタン錠80mg「フェルゼン」"
+  ]
+}

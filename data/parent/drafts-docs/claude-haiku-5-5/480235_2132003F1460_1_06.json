@@ -1,0 +1,50 @@
+{
+  "id": "480235_2132003F1460_1_06",
+  "source_file": "480235_2132003F1460_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2132003F1460_1_06",
+  "extracted_at": "2026-11-09T14:26:23.680Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15092,
+    "output": 2382
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリクロルメチアジド錠1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "Tw165",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠／識別コード Tw165／直径(mm) 5.5／厚さ(mm) 2.3"
+    },
+    {
+      "product_name": "トリクロルメチアジド錠2mg「トーワ」",
+      "strength": "2mg",
+      "imprint_front": "トリクロルメチアジド2 トーワ",
+      "imprint_back": "トリク 2",
+      "imprint_note": null,
+      "color": "淡桃色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡桃色の素錠／本体表示 表 トリクロルメチアジド2 トーワ 裏 トリク 2／直径(mm) 8.0／厚さ(mm) 2.4"
+    }
+  ],
+  "expected_products": [
+    "トリクロルメチアジド錠1mg「トーワ」",
+    "トリクロルメチアジド錠2mg「トーワ」"
+  ]
+}

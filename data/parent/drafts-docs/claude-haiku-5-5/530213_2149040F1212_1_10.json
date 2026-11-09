@@ -1,0 +1,82 @@
+{
+  "id": "530213_2149040F1212_1_10",
+  "source_file": "530213_2149040F1212_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149040F1212_1_10",
+  "extracted_at": "2026-11-09T14:36:58.118Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29382,
+    "output": 2590
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カンデサルタン錠2mg「ケミファ」",
+      "strength": "2mg",
+      "imprint_front": "カンデサルタン 2 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の区別なく記載されている",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色の素錠 直径 7.0mm 厚さ 2.6mm"
+    },
+    {
+      "product_name": "カンデサルタン錠4mg「ケミファ」",
+      "strength": "4mg",
+      "imprint_front": "カンデサルタン 4 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の区別なく記載されている",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色の割線入りの素錠 直径 7.1mm 厚さ 2.6mm"
+    },
+    {
+      "product_name": "カンデサルタン錠8mg「ケミファ」",
+      "strength": "8mg",
+      "imprint_front": "カンデサルタン 8 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の区別なく記載されている",
+      "color": "ごくうすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 ごくうすいだいだい色の割線入りの素錠 直径 7.1mm 厚さ 2.6mm"
+    },
+    {
+      "product_name": "カンデサルタン錠12mg「ケミファ」",
+      "strength": "12mg",
+      "imprint_front": "カンデサルタン 12 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の区別なく記載されている",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 うすいだいだい色の割線入りの素錠 直径 7.1mm 厚さ 2.6mm"
+    }
+  ],
+  "expected_products": [
+    "カンデサルタン錠2mg「ケミファ」",
+    "カンデサルタン錠4mg「ケミファ」"
+  ]
+}

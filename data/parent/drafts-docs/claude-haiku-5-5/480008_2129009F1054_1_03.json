@@ -1,0 +1,50 @@
+{
+  "id": "480008_2129009F1054_1_03",
+  "source_file": "480008_2129009F1054_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_2129009F1054_1_03",
+  "extracted_at": "2026-11-09T14:26:00.194Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21248,
+    "output": 1749
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フレカイニド酢酸塩錠50mg「TE」",
+      "strength": "1錠中 フレカイニド酢酸塩50mg",
+      "imprint_front": "TE フレカイニド 50",
+      "imprint_back": "TE フレカイニド 50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の円形の素錠 直径 7.0mm 厚さ 3.2mm 質量 132mg"
+    },
+    {
+      "product_name": "フレカイニド酢酸塩錠100mg「TE」",
+      "strength": "1錠中 フレカイニド酢酸塩100mg",
+      "imprint_front": "TE フレカイニド 100",
+      "imprint_back": "TE フレカイニド 100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の円形の素錠 直径 8.5mm 厚さ 4.3mm 質量 264mg"
+    }
+  ],
+  "expected_products": [
+    "フレカイニド酢酸塩錠100mg「TE」",
+    "フレカイニド酢酸塩錠50mg「TE」"
+  ]
+}

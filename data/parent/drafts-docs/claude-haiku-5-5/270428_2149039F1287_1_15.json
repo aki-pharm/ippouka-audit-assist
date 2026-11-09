@@ -1,0 +1,67 @@
+{
+  "id": "270428_2149039F1287_1_15",
+  "source_file": "270428_2149039F1287_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2149039F1287_1_15",
+  "extracted_at": "2026-11-09T14:35:23.297Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26116,
+    "output": 1972
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠25mg「サンド」",
+      "strength": "25mg",
+      "imprint_front": "LS25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状：白色円形の割線入りフィルムコーティング錠　識別コード LS25　大きさ（約）直径：5.8mm　厚さ：2.9mm　質量：73mg"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠50mg「サンド」",
+      "strength": "50mg",
+      "imprint_front": "LS50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状：白色円形の割線入りフィルムコーティング錠　識別コード LS50　大きさ（約）直径：7.7mm　厚さ：3.5mm　質量：146mg"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠100mg「サンド」",
+      "strength": "100mg",
+      "imprint_front": "LS100",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状：白色円形の割線入りフィルムコーティング錠　識別コード LS100　大きさ（約）直径：9.6mm　厚さ：4.6mm　質量：288mg"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンカリウム錠100mg「サンド」",
+    "ロサルタンカリウム錠25mg「サンド」",
+    "ロサルタンカリウム錠50mg「サンド」"
+  ]
+}

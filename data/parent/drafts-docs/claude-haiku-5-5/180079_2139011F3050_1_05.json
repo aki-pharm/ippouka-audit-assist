@@ -1,0 +1,65 @@
+{
+  "id": "180079_2139011F3050_1_05",
+  "source_file": "180079_2139011F3050_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180079_2139011F3050_1_05",
+  "extracted_at": "2026-11-09T14:27:49.977Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 39175,
+    "output": 2507
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠7.5mg「オーツカ」",
+      "strength": "7.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "未確認",
+      "shape": "other",
+      "size_long_mm": 7.7,
+      "size_short_mm": 4.4,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "青色の割線入りの変形長方形の素錠 外形 径（mm）7.7（長径）4.4（短径） 厚さ（mm）2.6 重さ（mg）約85"
+    },
+    {
+      "product_name": "トルバプタンOD錠15mg「オーツカ」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "未確認",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "青色の割線入りの素錠 径（mm）8（直径） 厚さ（mm）3.1 重さ（mg）約170"
+    },
+    {
+      "product_name": "トルバプタンOD錠30mg「オーツカ」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "未確認",
+      "shape": "other",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "青色の割線入りの四角形の素錠 径（mm）7.4（一辺） 厚さ（mm）3.1 重さ（mg）約160"
+    }
+  ],
+  "expected_products": [
+    "トルバプタンOD錠30mg「オーツカ」"
+  ]
+}

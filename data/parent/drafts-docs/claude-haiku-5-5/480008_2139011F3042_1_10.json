@@ -1,0 +1,81 @@
+{
+  "id": "480008_2139011F3042_1_10",
+  "source_file": "480008_2139011F3042_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_2139011F3042_1_10",
+  "extracted_at": "2026-11-09T14:27:47.128Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 59227,
+    "output": 2868
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠3.75mg「TE」",
+      "strength": "3.75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は製剤の性状欄の画像にのみ示され、文字としては確認できないため未確認",
+      "color": "薄い青色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "薄い青色の円形の素錠（口腔内崩壊錠） 直径 5.6mm 厚さ 2.3mm 質量 50mg"
+    },
+    {
+      "product_name": "トルバプタンOD錠7.5mg「TE」",
+      "strength": "7.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は製剤の性状欄の画像にのみ示され、文字としては確認できないため未確認",
+      "color": "薄い青色",
+      "shape": "other",
+      "size_long_mm": 7.8,
+      "size_short_mm": 4.4,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "薄い青色の両面割線入りの変形長方形の素錠（口腔内崩壊錠） 長径 7.8mm 短径 4.4mm 厚さ 3.1mm 質量 100mg"
+    },
+    {
+      "product_name": "トルバプタンOD錠15mg「TE」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は製剤の性状欄の画像にのみ示され、文字としては確認できないため未確認",
+      "color": "薄い青色",
+      "shape": null,
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "薄い青色の両面割線入りの素錠（口腔内崩壊錠） 直径 8.6mm 厚さ 3.7mm 質量 200mg"
+    },
+    {
+      "product_name": "トルバプタンOD錠30mg「TE」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は製剤の性状欄の画像にのみ示され、文字としては確認できないため未確認",
+      "color": "薄い青色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "薄い青色の円形の両面割線入りの素錠（口腔内崩壊錠） 直径 9.6mm 厚さ 4.4mm 質量 300mg"
+    }
+  ],
+  "expected_products": [
+    "トルバプタンOD錠30mg「TE」"
+  ]
+}

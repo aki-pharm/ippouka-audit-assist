@@ -1,0 +1,65 @@
+{
+  "id": "530213_2149042F1130_1_04",
+  "source_file": "530213_2149042F1130_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149042F1130_1_04",
+  "extracted_at": "2026-11-09T14:39:13.588Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20967,
+    "output": 2642
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "テルミサルタン ケミファ 20",
+      "imprint_back": "テルミサルタン ケミファ 20",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "製剤の性状 白色のフィルムコーティング錠 外形 直径 6.1mm 厚さ 2.8mm 重量 86.8mg 識別コード テルミサルタン 20 ケミファ"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「ケミファ」",
+      "strength": "40mg",
+      "imprint_front": "テルミサルタン ケミファ 40",
+      "imprint_back": "テルミサルタン ケミファ 40",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "製剤の性状 白色の割線入りのフィルムコーティング錠 外形 直径 8.1mm 厚さ 3.3mm 重量 173.2mg 識別コード テルミサルタン 40 ケミファ"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「ケミファ」",
+      "strength": "80mg",
+      "imprint_front": "テルミサルタン ケミファ 80",
+      "imprint_back": "テルミサルタン ケミファ 80",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "製剤の性状 白色の割線入りのフィルムコーティング錠 外形 直径 10.1mm 厚さ 4.4mm 重量 345.0mg 識別コード テルミサルタン 80 ケミファ"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「ケミファ」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "450064_2171010F3096_1_04",
+  "source_file": "450064_2171010F3096_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2171010F3096_1_04",
+  "extracted_at": "2026-11-09T14:44:30.020Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13140,
+    "output": 1200
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジピリダモール錠100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "ch013",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 淡赤色のフィルムコーティング錠 外形 大きさ 直径 7.1mm 厚さ 3.7mm 重量 125mg 識別コード ch013"
+    }
+  ],
+  "expected_products": [
+    "ジピリダモール錠100mg「JG」"
+  ]
+}

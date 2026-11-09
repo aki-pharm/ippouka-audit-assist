@@ -1,0 +1,83 @@
+{
+  "id": "730869_2149032F1196_1_06",
+  "source_file": "730869_2149032F1196_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2149032F1196_1_06",
+  "extracted_at": "2026-11-09T14:33:21.669Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34877,
+    "output": 3033
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルベジロール錠1.25mg「VTRS」",
+      "strength": "1.25mg",
+      "imprint_front": "VTRS",
+      "imprint_back": "C1.25",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "黄色 楕円形 割線入り フィルムコーティング錠 長径 短径 厚さ 重量 10.1mm 5.1mm 3.2mm 135mg"
+    },
+    {
+      "product_name": "カルベジロール錠2.5mg「VTRS」",
+      "strength": "2.5mg",
+      "imprint_front": "VTRS",
+      "imprint_back": "C2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色 楕円形 割線入り フィルムコーティング錠 長径 短径 厚さ 重量 10.1mm 5.1mm 3.2mm 135mg"
+    },
+    {
+      "product_name": "カルベジロール錠10mg「VTRS」",
+      "strength": "10mg",
+      "imprint_front": "10 CA",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "黄色 フィルムコーティング錠 直径 厚さ 重量 6.8mm 3.7mm 117mg"
+    },
+    {
+      "product_name": "カルベジロール錠20mg「VTRS」",
+      "strength": "20mg",
+      "imprint_front": "20 CA",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色 割線入り フィルムコーティング錠 直径 厚さ 重量 8.7mm 3.3mm 182mg"
+    }
+  ],
+  "expected_products": [
+    "カルベジロール錠1.25mg「VTRS」",
+    "カルベジロール錠10mg「VTRS」",
+    "カルベジロール錠2.5mg「VTRS」"
+  ]
+}

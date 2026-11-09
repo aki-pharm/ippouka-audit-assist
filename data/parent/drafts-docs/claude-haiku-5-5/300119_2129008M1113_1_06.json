@@ -1,0 +1,50 @@
+{
+  "id": "300119_2129008M1113_1_06",
+  "source_file": "300119_2129008M1113_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2129008M1113_1_06",
+  "extracted_at": "2026-11-09T14:25:47.615Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18323,
+    "output": 1820
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピルシカイニド塩酸塩カプセル25mg「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "SW-923",
+      "imprint_back": "未確認",
+      "imprint_note": "カプセル製剤。識別コードの印字部位（頭部・胴部のどちら側か）は文書上不明",
+      "color": "頭部：淡青色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "頭部：淡青色不透明 胴部：白色不透明 内容物：白色の粉末又は塊を含む粉末 全長（mm） 14.2 識別コード SW-923"
+    },
+    {
+      "product_name": "ピルシカイニド塩酸塩カプセル50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW-924",
+      "imprint_back": "未確認",
+      "imprint_note": "カプセル製剤。識別コードの印字部位（頭部・胴部のどちら側か）は文書上不明",
+      "color": "頭部：青色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "頭部：青色不透明 胴部：白色不透明 内容物：白色の粉末又は塊を含む粉末 全長（mm） 14.2 識別コード SW-924"
+    }
+  ],
+  "expected_products": [
+    "ピルシカイニド塩酸塩カプセル25mg「サワイ」",
+    "ピルシカイニド塩酸塩カプセル50mg「サワイ」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "480209_2149110F1198_1_17",
+  "source_file": "480209_2149110F1198_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149110F1198_1_17",
+  "extracted_at": "2026-11-09T14:43:03.810Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35264,
+    "output": 2513
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルヒド配合錠LD「杏林」",
+      "strength": "ロサルタンカリウム50mg及びヒドロクロロチアジド12.5mg（1錠中）",
+      "imprint_front": "ロサルヒド LD 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 本体表示 ロサルヒド LD 杏林 直径(mm) 9.1 厚さ(mm) 3.9 質量(mg) 260"
+    },
+    {
+      "product_name": "ロサルヒド配合錠HD「杏林」",
+      "strength": "ロサルタンカリウム100mg及びヒドロクロロチアジド12.5mg（1錠中）",
+      "imprint_front": "ロサルヒド HD 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.7,
+      "size_short_mm": 7.4,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形 フィルムコーティング錠 色調 白色 外形 本体表示 ロサルヒド HD 杏林 長径：13.7 短径：7.4 厚さ(mm) 5.3 質量(mg) 462"
+    }
+  ],
+  "expected_products": [
+    "ロサルヒド配合錠HD「杏林」"
+  ]
+}

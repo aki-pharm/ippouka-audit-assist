@@ -1,0 +1,67 @@
+{
+  "id": "400042_2171022F3153_1_16",
+  "source_file": "400042_2171022F3153_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_2171022F3153_1_16",
+  "extracted_at": "2026-11-09T14:47:06.045Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23112,
+    "output": 2609
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「科研」",
+      "strength": "アムロジピンとして2.5mg",
+      "imprint_front": "LC1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 片面1／2割線入りの素錠 色 白色～微黄白色 直径 6.0mm 8.0mm 10mm 厚さ 3.0mm 3.6mm 4.5mm 識別コード LC1 LC2 LC3"
+    },
+    {
+      "product_name": "アムロジピンOD錠5mg「科研」",
+      "strength": "アムロジピンとして5mg",
+      "imprint_front": "LC2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 片面1／2割線入りの素錠 色 白色～微黄白色 直径 6.0mm 8.0mm 10mm 厚さ 3.0mm 3.6mm 4.5mm 識別コード LC1 LC2 LC3"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「科研」",
+      "strength": "アムロジピンとして10mg",
+      "imprint_front": "LC3",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 片面1／2割線入りの素錠 色 白色～微黄白色 直径 6.0mm 8.0mm 10mm 厚さ 3.0mm 3.6mm 4.5mm 識別コード LC1 LC2 LC3"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠10mg「科研」",
+    "アムロジピンOD錠2.5mg「科研」",
+    "アムロジピンOD錠5mg「科研」"
+  ]
+}

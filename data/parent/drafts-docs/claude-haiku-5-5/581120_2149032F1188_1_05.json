@@ -1,0 +1,84 @@
+{
+  "id": "581120_2149032F1188_1_05",
+  "source_file": "581120_2149032F1188_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149032F1188_1_05",
+  "extracted_at": "2026-11-09T14:33:12.934Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35277,
+    "output": 3193
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルベジロール錠1.25mg「NIG」",
+      "strength": "1.25mg",
+      "imprint_front": "TV-CD 1.25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.2,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色の楕円形をした割線入りフィルムコーティング錠（長径10.2mm、短径5.1mm、厚さ3.2mm、質量135.0mg、識別コード（PTP）TV-CD 1.25）"
+    },
+    {
+      "product_name": "カルベジロール錠2.5mg「NIG」",
+      "strength": "2.5mg",
+      "imprint_front": "TV-CD 2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.2,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の楕円形をした割線入りフィルムコーティング錠（長径10.2mm、短径5.1mm、厚さ3.2mm、質量135.0mg、識別コード（PTP）TV-CD 2.5）"
+    },
+    {
+      "product_name": "カルベジロール錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "t 031",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.7,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄色のフィルムコーティング錠（直径6.6mm、厚さ3.7mm、質量115mg、識別コード（PTP）t 031）"
+    },
+    {
+      "product_name": "カルベジロール錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "t 032",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色の片面1/2割線入りのフィルムコーティング錠（直径8.6mm、厚さ3.1mm、質量170mg、識別コード（PTP）t 032）"
+    }
+  ],
+  "expected_products": [
+    "カルベジロール錠1.25mg「NIG」",
+    "カルベジロール錠10mg「NIG」",
+    "カルベジロール錠2.5mg「NIG」",
+    "カルベジロール錠20mg「NIG」"
+  ]
+}

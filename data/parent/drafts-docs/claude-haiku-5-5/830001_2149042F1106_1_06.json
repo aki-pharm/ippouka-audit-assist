@@ -1,0 +1,67 @@
+{
+  "id": "830001_2149042F1106_1_06",
+  "source_file": "830001_2149042F1106_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2149042F1106_1_06",
+  "extracted_at": "2026-11-09T14:39:11.066Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22669,
+    "output": 2300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載なし。図に「YD」と数字が見えるが文字として明記されていないため未確認",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄色の錠剤　外形 直径 約6mm 厚さ 約2.5mm 重量 85mg"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「YD」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載なし。図に「YD」と数字が見えるが文字として明記されていないため未確認",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄色の割線入り錠剤　外形 直径 約8mm 厚さ 約2.8mm 重量 170mg"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「YD」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載なし。図に「YD」と数字が見えるが文字として明記されていないため未確認",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄色の割線入り錠剤　外形 直径 約10mm 厚さ 約4.4mm 重量 340mg"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「YD」",
+    "テルミサルタン錠40mg「YD」",
+    "テルミサルタン錠80mg「YD」"
+  ]
+}

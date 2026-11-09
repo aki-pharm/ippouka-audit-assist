@@ -1,0 +1,66 @@
+{
+  "id": "530100_2149046F1139_1_09",
+  "source_file": "530100_2149046F1139_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149046F1139_1_09",
+  "extracted_at": "2026-11-09T14:42:08.358Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22034,
+    "output": 2004
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠50mg「ニプロ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載がなく、図中の刻印は判読できないため未確認",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.6,
+      "size_short_mm": 4.5,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りフィルムコーティング錠（長径）8.6（短径）4.5 厚さ3.2"
+    },
+    {
+      "product_name": "イルベサルタン錠100mg「ニプロ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載がなく、図中の刻印は判読できないため未確認",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11.1,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りフィルムコーティング錠（長径）11.1（短径）5.8 厚さ3.9"
+    },
+    {
+      "product_name": "イルベサルタン錠200mg「ニプロ」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載がなく、図中の刻印は判読できないため未確認",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りフィルムコーティング錠（長径）14.1（短径）7.4 厚さ4.5"
+    }
+  ],
+  "expected_products": [
+    "イルベサルタン錠100mg「ニプロ」",
+    "イルベサルタン錠50mg「ニプロ」"
+  ]
+}

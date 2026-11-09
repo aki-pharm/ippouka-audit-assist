@@ -1,0 +1,66 @@
+{
+  "id": "400813_2171022F3340_1_08",
+  "source_file": "400813_2171022F3340_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2171022F3340_1_08",
+  "extracted_at": "2026-11-09T14:48:45.559Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21379,
+    "output": 2547
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「武田テバ」",
+      "strength": "2.5mg",
+      "imprint_front": "t 001",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色の口腔内崩壊錠 形状 直径（mm） 6.0 厚さ（mm） 3.0 重量（mg） 90 識別コード（PTP） t 001"
+    },
+    {
+      "product_name": "アムロジピンOD錠5mg「武田テバ」",
+      "strength": "5mg",
+      "imprint_front": "t 002",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色の片面1/2割線入り口腔内崩壊錠 形状 直径（mm） 8.0 厚さ（mm） 3.6 重量（mg） 180 識別コード（PTP） t 002"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「武田テバ」",
+      "strength": "10mg",
+      "imprint_front": "TV10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色の片面1/2割線入り口腔内崩壊錠 形状 直径（mm） 10.0 厚さ（mm） 4.5 重量（mg） 360 識別コード（PTP） TV10"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠2.5mg「武田テバ」",
+    "アムロジピンOD錠5mg「武田テバ」"
+  ]
+}

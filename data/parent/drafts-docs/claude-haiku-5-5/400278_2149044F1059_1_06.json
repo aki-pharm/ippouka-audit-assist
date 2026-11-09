@@ -1,0 +1,84 @@
+{
+  "id": "400278_2149044F1059_1_06",
+  "source_file": "400278_2149044F1059_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2149044F1059_1_06",
+  "extracted_at": "2026-11-09T14:41:26.700Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27175,
+    "output": 3038
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "文字情報に刻印の記載なし。図では表面に数字と「TCK」の印字らしきものがみられるが判読できないため未確認",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "オルメサルタン錠 5mg「TCK」 淡黄白色 素錠 直径7.0 厚さ2.4 重量120mg"
+    },
+    {
+      "product_name": "オルメサルタン錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "文字情報に刻印の記載なし。図では表面に数字と「TCK」の印字らしきものがみられるが判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "オルメサルタン錠 10mg「TCK」 白色 素錠（割線入り） 直径7.0 厚さ2.4 重量120mg"
+    },
+    {
+      "product_name": "オルメサルタン錠20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "文字情報に刻印の記載なし。図では表面に数字と「TCK」の印字らしきものがみられるが判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "オルメサルタン錠 20mg「TCK」 白色 素錠（割線入り） 直径8.0 厚さ2.5 重量160mg"
+    },
+    {
+      "product_name": "オルメサルタン錠40mg「TCK」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "文字情報に刻印の記載なし。図では表面に数字と「TCK」の印字らしきものがみられるが判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "オルメサルタン錠 40mg「TCK」 白色 素錠（割線入り） 直径9.5 厚さ3.6 重量320mg"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタン錠10mg「TCK」",
+    "オルメサルタン錠20mg「TCK」",
+    "オルメサルタン錠40mg「TCK」",
+    "オルメサルタン錠5mg「TCK」"
+  ]
+}

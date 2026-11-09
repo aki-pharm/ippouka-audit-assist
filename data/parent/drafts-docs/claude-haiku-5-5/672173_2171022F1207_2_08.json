@@ -1,0 +1,66 @@
+{
+  "id": "672173_2171022F1207_2_08",
+  "source_file": "672173_2171022F1207_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_2171022F1207_2_08",
+  "extracted_at": "2026-11-09T14:49:21.985Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21577,
+    "output": 2126
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠 2.5mg「アメル」",
+      "strength": "2.5mg",
+      "imprint_front": "KW060",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2026年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 KW060 白色〜淡黄白色 直径：約 6.1mm 厚さ：約 2.5mm 質量：約 86.0mg"
+    },
+    {
+      "product_name": "アムロジピン錠 5mg「アメル」",
+      "strength": "5mg",
+      "imprint_front": "KW061",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "割線入り フィルムコーティング錠 KW061 白色〜淡黄白色 直径：約 8.2mm 厚さ：約 3.1mm 質量：約 170.0mg"
+    },
+    {
+      "product_name": "アムロジピン錠 10mg「アメル」",
+      "strength": "10mg",
+      "imprint_front": "KW062",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "割線入り フィルムコーティング錠 KW062 白色〜淡黄白色 直径：約 8.7mm 厚さ：約 4.3mm 質量：約 293.0mg"
+    }
+  ],
+  "expected_products": [
+    "アムロジピン錠2.5mg「アメル」",
+    "アムロジピン錠5mg「アメル」"
+  ]
+}

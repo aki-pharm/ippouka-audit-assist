@@ -1,0 +1,33 @@
+{
+  "id": "400042_2171008F1118_1_11",
+  "source_file": "400042_2171008F1118_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_2171008F1118_1_11",
+  "extracted_at": "2026-11-09T14:44:20.718Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16576,
+    "output": 1337
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラパミル塩酸塩錠40mg「JG」",
+      "strength": "40mg",
+      "imprint_front": "JG E25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の糖衣錠 表面 裏面 側面 JG E25 直径 厚さ 重量 7.4mm 4.4mm 185mg"
+    }
+  ],
+  "expected_products": [
+    "ベラパミル塩酸塩錠40mg「JG」"
+  ]
+}

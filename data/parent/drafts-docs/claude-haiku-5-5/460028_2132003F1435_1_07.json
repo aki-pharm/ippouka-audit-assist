@@ -1,0 +1,33 @@
+{
+  "id": "460028_2132003F1435_1_07",
+  "source_file": "460028_2132003F1435_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2132003F1435_1_07",
+  "extracted_at": "2026-11-09T14:26:35.395Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14233,
+    "output": 1407
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリクロルメチアジド錠2mg「ツルハラ」",
+      "strength": "2mg",
+      "imprint_front": "TSU182",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入錠剤 色調 淡赤色 外形 大きさ 直径 約6.0mm 厚さ 約2.3mm 質量 約 80mg 識別コード TSU182"
+    }
+  ],
+  "expected_products": [
+    "トリクロルメチアジド錠2mg「ツルハラ」"
+  ]
+}

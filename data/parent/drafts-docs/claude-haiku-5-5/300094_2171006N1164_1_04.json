@@ -1,0 +1,49 @@
+{
+  "id": "300094_2171006N1164_1_04",
+  "source_file": "300094_2171006N1164_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300094_2171006N1164_1_04",
+  "extracted_at": "2026-11-09T14:44:01.942Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20757,
+    "output": 1884
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジルチアゼム塩酸塩徐放カプセル100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "徐放 100トーワ ジルチアゼム",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 17.7,
+      "size_short_mm": 6.3,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 キャップ、ボディとも白色不透明の硬カプセル剤 ／ 2号カプセル 長径：約17.7mm 短径：約6.3mm 重量 約309mg"
+    },
+    {
+      "product_name": "ジルチアゼム塩酸塩徐放カプセル200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "徐放 200トーワ ジルチアゼム",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 21.8,
+      "size_short_mm": 7.6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 キャップ、ボディとも白色不透明の硬カプセル剤 ／ 0号カプセル 長径：約21.8mm 短径：約7.6mm 重量 約594mg"
+    }
+  ],
+  "expected_products": [
+    "ジルチアゼム塩酸塩徐放カプセル200mg「トーワ」"
+  ]
+}

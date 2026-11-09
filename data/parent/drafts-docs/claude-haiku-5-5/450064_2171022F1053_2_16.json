@@ -1,0 +1,66 @@
+{
+  "id": "450064_2171022F1053_2_16",
+  "source_file": "450064_2171022F1053_2_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2171022F1053_2_16",
+  "extracted_at": "2026-11-09T14:49:05.556Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22470,
+    "output": 2199
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠 2.5mg「CH」",
+      "strength": "2.5mg",
+      "imprint_front": "アムロジピン 2.5 ch",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載をそのまま記入。表裏の区別は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 ／ 大きさ 直径 6.1mm 厚さ 2.9mm ／ 本体表示 アムロジピン 2.5 ch"
+    },
+    {
+      "product_name": "アムロジピン錠 5mg「CH」",
+      "strength": "5mg",
+      "imprint_front": "アムロジピン 5 ch",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載をそのまま記入。表裏の区別は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の片面割線入りのフィルムコーティング錠 ／ 大きさ 直径 8.6mm 厚さ 3.3mm ／ 本体表示 アムロジピン 5 ch"
+    },
+    {
+      "product_name": "アムロジピン錠 10mg「CH」",
+      "strength": "10mg",
+      "imprint_front": "アムロジピン 10 ch",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載をそのまま記入。表裏の区別は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の割線入りのフィルムコーティング錠 ／ 大きさ 直径 8.6mm 厚さ 4.1mm ／ 本体表示 アムロジピン 10 ch"
+    }
+  ],
+  "expected_products": [
+    "アムロジピン錠2.5mg「CH」",
+    "アムロジピン錠5mg「CH」"
+  ]
+}

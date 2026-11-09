@@ -1,0 +1,65 @@
+{
+  "id": "480209_2149039F1252_1_20",
+  "source_file": "480209_2149039F1252_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149039F1252_1_20",
+  "extracted_at": "2026-11-09T14:35:27.553Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25232,
+    "output": 2707
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠25mg「杏林」",
+      "strength": "25mg",
+      "imprint_front": "KRM139",
+      "imprint_back": "未確認",
+      "imprint_note": "図に「25」の表示あり。表裏の別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形・割線入り フィルムコーティング錠 色調 白色 直径(mm) 約5.6 厚さ(mm) 約3.1 識別コード KRM139"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠50mg「杏林」",
+      "strength": "50mg",
+      "imprint_front": "KRM140",
+      "imprint_back": "未確認",
+      "imprint_note": "図に「50」の表示あり。表裏の別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形・割線入り フィルムコーティング錠 色調 白色 直径(mm) 約7.6 厚さ(mm) 約3.5 識別コード KRM140"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠100mg「杏林」",
+      "strength": "100mg",
+      "imprint_front": "KRM141",
+      "imprint_back": "未確認",
+      "imprint_note": "図に「100」の表示あり。表裏の別は本文に記載なし",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 11.1,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 ティアドロップ形・フィルムコーティング錠 色調 白色 長径：約11.1 短径：約7.6 厚さ(mm) 約4.5 識別コード KRM141"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンカリウム錠25mg「杏林」"
+  ]
+}

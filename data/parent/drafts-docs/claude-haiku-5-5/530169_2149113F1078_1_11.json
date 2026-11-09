@@ -1,0 +1,49 @@
+{
+  "id": "530169_2149113F1078_1_11",
+  "source_file": "530169_2149113F1078_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149113F1078_1_11",
+  "extracted_at": "2026-11-09T14:43:06.316Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34411,
+    "output": 2632
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルチア配合錠AP「日医工」",
+      "strength": "1錠中 テルミサルタン40mg ヒドロクロロチアジド12.5mg",
+      "imprint_front": "テルチア AP 日医工",
+      "imprint_back": "テルチア AP 日医工",
+      "imprint_note": "表裏の刻印は本体表示欄の記載を転記。図の刻印は円形のマーク（AP）で、判読は本体表示に依拠",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 ごくうすい黄色 外形 直径（mm） 8.6 厚さ（mm） 4.1 本体表示 テルチア AP 日医工"
+    },
+    {
+      "product_name": "テルチア配合錠BP「日医工」",
+      "strength": "1錠中 テルミサルタン80mg ヒドロクロロチアジド12.5mg",
+      "imprint_front": "テルチア BP 日医工",
+      "imprint_back": "テルチア BP 日医工",
+      "imprint_note": "表裏の刻印は本体表示欄の記載を転記。図の刻印は円形のマーク（BP）で、判読は本体表示に依拠",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 ごくうすい黄色 外形 直径（mm） 11.1 厚さ（mm） 5.1 本体表示 テルチア BP 日医工"
+    }
+  ],
+  "expected_products": [
+    "テルチア配合錠BP「日医工」"
+  ]
+}

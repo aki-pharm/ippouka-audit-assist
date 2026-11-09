@@ -1,0 +1,50 @@
+{
+  "id": "530100_2149043F1062_3_10",
+  "source_file": "530100_2149043F1062_3_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149043F1062_3_10",
+  "extracted_at": "2026-11-09T14:40:09.630Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25430,
+    "output": 2159
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アゼルニジピン錠 8mg「NP」",
+      "strength": "8mg",
+      "imprint_front": "NP-553",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-553と記載。図には社名マーク（NP）と丸囲みの8が描かれているが、刻印の面の対応は文字情報からは確認できない",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄白色の割線入り素錠 直径7.0mm 厚さ3.4mm 重量140mg 識別コード NP-553"
+    },
+    {
+      "product_name": "アゼルニジピン錠 16mg「NP」",
+      "strength": "16mg",
+      "imprint_front": "NP-555",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-555と記載。図には社名マーク（NP）と丸囲みの16が描かれているが、刻印の面の対応は文字情報からは確認できない",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄白色の割線入り素錠 直径9.0mm 厚さ4.2mm 重量280mg 識別コード NP-555"
+    }
+  ],
+  "expected_products": [
+    "アゼルニジピン錠16mg「NP」",
+    "アゼルニジピン錠8mg「NP」"
+  ]
+}

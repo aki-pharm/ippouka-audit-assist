@@ -1,0 +1,67 @@
+{
+  "id": "400073_2144002F1350_1_09",
+  "source_file": "400073_2144002F1350_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2144002F1350_1_09",
+  "extracted_at": "2026-11-09T14:29:02.502Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23879,
+    "output": 2719
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エナラプリルマレイン酸塩錠2.5mg「フソー」",
+      "strength": "2.5mg",
+      "imprint_front": "DK403",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 / 外形 大きさ 直径（mm） 6.5 厚さ（mm） 2.3 / 識別コード DK403"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠5mg「フソー」",
+      "strength": "5mg",
+      "imprint_front": "DK404",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすい桃色の素錠（割線入り） / 外形 大きさ 直径（mm） 6.5 厚さ（mm） 2.3 / 識別コード DK404"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠10mg「フソー」",
+      "strength": "10mg",
+      "imprint_front": "DK502",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすい桃色の素錠（割線入り） / 外形 大きさ 直径（mm） 8.0 厚さ（mm） 3.2 / 識別コード DK502"
+    }
+  ],
+  "expected_products": [
+    "エナラプリルマレイン酸塩錠10mg「フソー」",
+    "エナラプリルマレイン酸塩錠2.5mg「フソー」",
+    "エナラプリルマレイン酸塩錠5mg「フソー」"
+  ]
+}

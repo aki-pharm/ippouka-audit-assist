@@ -1,0 +1,67 @@
+{
+  "id": "672173_2171022F3145_1_02",
+  "source_file": "672173_2171022F3145_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_2171022F3145_1_02",
+  "extracted_at": "2026-11-09T14:46:53.615Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21746,
+    "output": 2112
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン OD 錠 2.5mg「アメル」",
+      "strength": "2.5mg",
+      "imprint_front": "KW AM",
+      "imprint_back": "OD",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年5月改訂",
+      "source_page": 1,
+      "source_quote": "素錠 黄色 直径：約 6.0mm 厚さ：約 2.8mm 質量：約 80.0mg"
+    },
+    {
+      "product_name": "アムロジピン OD 錠 5mg「アメル」",
+      "strength": "5mg",
+      "imprint_front": "KW AM5",
+      "imprint_back": "OD5",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年5月改訂",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 黄色 直径：約 7.0mm 厚さ：約 3.2mm 質量：約 120.0mg"
+    },
+    {
+      "product_name": "アムロジピン OD 錠 10mg「アメル」",
+      "strength": "10mg",
+      "imprint_front": "KW AM",
+      "imprint_back": "OD10",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2026年5月改訂",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 淡黄色 直径：約 8.0mm 厚さ：約 3.9mm 質量：約 190.0mg"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠10mg「アメル」（旧製品）",
+    "アムロジピンOD錠2.5mg「アメル」（旧製品）",
+    "アムロジピンOD錠5mg「アメル」（旧製品）"
+  ]
+}

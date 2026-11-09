@@ -1,0 +1,50 @@
+{
+  "id": "300119_2149022F1087_1_06",
+  "source_file": "300119_2149022F1087_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149022F1087_1_06",
+  "extracted_at": "2026-11-09T14:31:19.589Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12907,
+    "output": 1641
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニルバジピン錠2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW 537",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯褐黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 帯褐黄色 直径（mm） 6.1 厚さ（mm） 3.2 重量（mg） 約89 識別コード SW 537"
+    },
+    {
+      "product_name": "ニルバジピン錠4mg「サワイ」",
+      "strength": "4mg",
+      "imprint_front": "SW 535",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯褐黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 帯褐黄色 直径（mm） 8.1 厚さ（mm） 3.7 重量（mg） 約177 識別コード SW 535"
+    }
+  ],
+  "expected_products": [
+    "ニルバジピン錠2mg「サワイ」",
+    "ニルバジピン錠4mg「サワイ」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "430773_2149039F1040_1_16",
+  "source_file": "430773_2149039F1040_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149039F1040_1_16",
+  "extracted_at": "2026-11-09T14:34:01.369Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24667,
+    "output": 2049
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンK錠25mg｢DSEP｣",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は本文テキストに記載がなく、図からも確実に読み取れないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠（円形・割線入） 白色 直径5.6mm 厚さ2.9mm 質量73mg"
+    },
+    {
+      "product_name": "ロサルタンK錠50mg｢DSEP｣",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は本文テキストに記載がなく、図からも確実に読み取れないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠（円形・割線入） 白色 直径7.6mm 厚さ3.4mm 質量145mg"
+    },
+    {
+      "product_name": "ロサルタンK錠100mg｢DSEP｣",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は本文テキストに記載がなく、図からも確実に読み取れないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.8,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠（円形） 白色 直径9.1mm 厚さ4.8mm 質量288mg"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンK錠100mg「DSEP」",
+    "ロサルタンK錠25mg「DSEP」"
+  ]
+}

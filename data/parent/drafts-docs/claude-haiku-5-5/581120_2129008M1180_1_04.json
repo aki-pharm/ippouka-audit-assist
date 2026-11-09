@@ -1,0 +1,50 @@
+{
+  "id": "581120_2129008M1180_1_04",
+  "source_file": "581120_2129008M1180_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2129008M1180_1_04",
+  "extracted_at": "2026-11-09T14:25:43.529Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18891,
+    "output": 2004
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピルシカイニド塩酸塩カプセル25mg「NIG」",
+      "strength": "25mg",
+      "imprint_front": "t 502",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）欄の表記を刻印として記載。カプセルの裏表の別は本文に記載なし",
+      "color": "蓋部淡青色不透明、胴体部白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "蓋部淡青色不透明、胴体部白色不透明、内容物が白色の粒を含む粉末のカプセル剤"
+    },
+    {
+      "product_name": "ピルシカイニド塩酸塩カプセル50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "t 503",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）欄の表記を刻印として記載。カプセルの裏表の別は本文に記載なし",
+      "color": "蓋部青色不透明、胴体部白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "蓋部青色不透明、胴体部白色不透明、内容物が白色の粒を含む粉末のカプセル剤"
+    }
+  ],
+  "expected_products": [
+    "ピルシカイニド塩酸塩カプセル25mg「NIG」",
+    "ピルシカイニド塩酸塩カプセル50mg「NIG」"
+  ]
+}

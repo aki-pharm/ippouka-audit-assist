@@ -1,0 +1,67 @@
+{
+  "id": "300297_2171014G3120_1_03",
+  "source_file": "300297_2171014G3120_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_2171014G3120_1_03",
+  "extracted_at": "2026-11-09T14:45:11.072Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24017,
+    "output": 2110
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンCR錠10mg「三和」",
+      "strength": "10mg",
+      "imprint_front": "Sc10 NFCR",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯赤灰色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 帯赤灰色のフィルムコーティング錠 直径 7.2mm 厚さ 4.0mm 識別コード Sc10 NFCR"
+    },
+    {
+      "product_name": "ニフェジピンCR錠20mg「三和」",
+      "strength": "20mg",
+      "imprint_front": "Sc20 NFCR",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 7.8,
+      "size_short_mm": 7.8,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡赤色のフィルムコーティング錠 直径 7.8mm 厚さ 4.3mm 識別コード Sc20 NFCR"
+    },
+    {
+      "product_name": "ニフェジピンCR錠40mg「三和」",
+      "strength": "40mg",
+      "imprint_front": "Sc40 NFCR",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤褐色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡赤褐色のフィルムコーティング錠 直径 8.4mm 厚さ 4.5mm 識別コード Sc40 NFCR"
+    }
+  ],
+  "expected_products": [
+    "ニフェジピンCR錠10mg「三和」",
+    "ニフェジピンCR錠20mg「三和」",
+    "ニフェジピンCR錠40mg「三和」"
+  ]
+}

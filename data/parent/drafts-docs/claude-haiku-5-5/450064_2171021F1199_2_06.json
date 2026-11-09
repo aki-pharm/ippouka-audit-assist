@@ -1,0 +1,67 @@
+{
+  "id": "450064_2171021F1199_2_06",
+  "source_file": "450064_2171021F1199_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2171021F1199_2_06",
+  "extracted_at": "2026-11-09T14:46:05.763Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17314,
+    "output": 2529
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベニジピン塩酸塩錠2mg「CH」",
+      "strength": "2mg",
+      "imprint_front": "ch66",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 黄色のフィルムコーティング錠／大きさ 直径 6.1mm 厚さ 2.9mm／識別コード ch66"
+    },
+    {
+      "product_name": "ベニジピン塩酸塩錠4mg「CH」",
+      "strength": "4mg",
+      "imprint_front": "ch67",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 黄色の片面割線入りのフィルムコーティング錠／大きさ 直径 8.1mm 厚さ 2.8mm／識別コード ch67"
+    },
+    {
+      "product_name": "ベニジピン塩酸塩錠8mg「CH」",
+      "strength": "8mg",
+      "imprint_front": "ch68",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 黄色の割線入りフィルムコーティング錠／大きさ 直径 8.1mm 厚さ 3.6mm／識別コード ch68"
+    }
+  ],
+  "expected_products": [
+    "ベニジピン塩酸塩錠2mg「CH」",
+    "ベニジピン塩酸塩錠4mg「CH」",
+    "ベニジピン塩酸塩錠8mg「CH」"
+  ]
+}

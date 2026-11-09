@@ -1,0 +1,66 @@
+{
+  "id": "400186_2171022F1312_1_19",
+  "source_file": "400186_2171022F1312_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_2171022F1312_1_19",
+  "extracted_at": "2026-11-09T14:49:36.767Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22365,
+    "output": 2904
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠2.5mg「タカタ」",
+      "strength": "2.5mg",
+      "imprint_front": "TTS 372",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 TTS 372 直径 約6.1mm 重さ 約0.104g 厚さ 約2.9mm"
+    },
+    {
+      "product_name": "アムロジピン錠5mg「タカタ」",
+      "strength": "5mg",
+      "imprint_front": "TTS 373",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "片、白色で二分割線のあるフィルムコーティング錠 373TTS 直径 約8.1mm 重さ 約0.207g 厚さ 約3.5mm"
+    },
+    {
+      "product_name": "アムロジピン錠10mg「タカタ」",
+      "strength": "10mg",
+      "imprint_front": "TTS 374",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "片、白色で二分割線のあるフィルムコーティング錠 374TTS 直径 約8.6mm 重さ 約0.258g 厚さ 約3.7mm"
+    }
+  ],
+  "expected_products": [
+    "アムロジピン錠2.5mg「タカタ」",
+    "アムロジピン錠5mg「タカタ」"
+  ]
+}

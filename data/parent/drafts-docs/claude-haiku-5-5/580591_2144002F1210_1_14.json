@@ -1,0 +1,67 @@
+{
+  "id": "580591_2144002F1210_1_14",
+  "source_file": "580591_2144002F1210_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2144002F1210_1_14",
+  "extracted_at": "2026-11-09T14:28:28.287Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23741,
+    "output": 2363
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エナラプリルマレイン酸塩錠 2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "JG 33",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "うすい桃色の素錠 識別コード JG 33 直径 5.0mm 厚さ 2.0mm 重量 50mg"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠 5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "JG E34",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "片面 2 分割線入りのうすい桃色の素錠 識別コード JG E34 直径 6.5mm 厚さ 2.3mm 重量 100mg"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠 10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "JG E35",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "うすい桃色で円形の割線入裸錠 識別コード JG E35 直径 8.0mm 厚さ 3.2mm 重量 200mg"
+    }
+  ],
+  "expected_products": [
+    "エナラプリルマレイン酸塩錠10mg「JG」",
+    "エナラプリルマレイン酸塩錠2.5mg「JG」",
+    "エナラプリルマレイン酸塩錠5mg「JG」"
+  ]
+}

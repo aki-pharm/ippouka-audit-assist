@@ -1,0 +1,67 @@
+{
+  "id": "530100_2149042F1220_1_08",
+  "source_file": "530100_2149042F1220_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149042F1220_1_08",
+  "extracted_at": "2026-11-09T14:39:38.531Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25179,
+    "output": 1907
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「ニプロ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "文字情報に刻印の記載なし。図中の刻印は判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 6.1 2.9 89"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「ニプロ」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "文字情報に刻印の記載なし。図中の刻印は判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 8.1 3.4 177"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「ニプロ」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "文字情報に刻印の記載なし。図中の刻印は判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 10.1 4.4 351"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「ニプロ」",
+    "テルミサルタン錠40mg「ニプロ」",
+    "テルミサルタン錠80mg「ニプロ」"
+  ]
+}

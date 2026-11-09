@@ -1,0 +1,50 @@
+{
+  "id": "581120_2144008F1226_1_04",
+  "source_file": "581120_2144008F1226_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2144008F1226_1_04",
+  "extracted_at": "2026-11-09T14:30:06.386Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21220,
+    "output": 2290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダプリル塩酸塩錠2.5mg「NIG」",
+      "strength": "2.5mg",
+      "imprint_front": "t 008",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図に「2.5」の表示と下部に記号様の図形がある。裏面の記載は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 ・ 直径 5.5mm 厚さ 2.5mm 質量 65mg 識別コード（PTP） t 008"
+    },
+    {
+      "product_name": "イミダプリル塩酸塩錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "t 009",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図に「5」の表示と下部に記号様の図形がある。裏面の記載は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 ・ 直径 6.0mm 厚さ 2.8mm 質量 85mg 識別コード（PTP） t 009"
+    }
+  ],
+  "expected_products": [
+    "イミダプリル塩酸塩錠2.5mg「NIG」",
+    "イミダプリル塩酸塩錠5mg「NIG」"
+  ]
+}

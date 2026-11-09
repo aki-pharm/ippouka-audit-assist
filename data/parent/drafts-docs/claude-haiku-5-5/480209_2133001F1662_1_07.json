@@ -1,0 +1,33 @@
+{
+  "id": "480209_2133001F1662_1_07",
+  "source_file": "480209_2133001F1662_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2133001F1662_1_07",
+  "extracted_at": "2026-11-09T14:26:55.452Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13392,
+    "output": 1051
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スピロノラクトン錠25mg「杏林」",
+      "strength": "25mg",
+      "imprint_front": "PH217",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄褐色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 淡黄褐色 外形 直径(mm) 9.1 厚さ(mm) 3.2 質量(mg) 270 識別コード PH217"
+    }
+  ],
+  "expected_products": [
+    "スピロノラクトン錠25mg「杏林」"
+  ]
+}

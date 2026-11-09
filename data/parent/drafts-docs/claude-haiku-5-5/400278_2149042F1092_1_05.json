@@ -1,0 +1,67 @@
+{
+  "id": "400278_2149042F1092_1_05",
+  "source_file": "400278_2149042F1092_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2149042F1092_1_05",
+  "extracted_at": "2026-11-09T14:38:56.709Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23056,
+    "output": 2851
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "20・TCK",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の製剤の性状の図から判読。表裏の別は図から確定できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.15,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "テルミサルタン錠20mg「TCK」 白色 フィルムコーティング錠 6.1 3.15 92"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「TCK」",
+      "strength": "40mg",
+      "imprint_front": "40・TCK",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の製剤の性状の図から判読。表裏の別は図から確定できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.55,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "テルミサルタン錠40mg「TCK」 白色 フィルムコーティング錠 8.1 3.55 183 （割線入り）"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「TCK」",
+      "strength": "80mg",
+      "imprint_front": "80・TCK",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の製剤の性状の図から判読。表裏の別は図から確定できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "テルミサルタン錠80mg「TCK」 白色 フィルムコーティング錠 10.1 4.6 363.4 （割線入り）"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「TCK」",
+    "テルミサルタン錠40mg「TCK」",
+    "テルミサルタン錠80mg「TCK」"
+  ]
+}

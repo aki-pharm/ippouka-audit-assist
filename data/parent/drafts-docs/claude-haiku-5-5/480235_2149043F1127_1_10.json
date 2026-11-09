@@ -1,0 +1,50 @@
+{
+  "id": "480235_2149043F1127_1_10",
+  "source_file": "480235_2149043F1127_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149043F1127_1_10",
+  "extracted_at": "2026-11-09T14:40:22.165Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23186,
+    "output": 1759
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アゼルニジピン錠8mg「トーワ」",
+      "strength": "8mg",
+      "imprint_front": "Tw441",
+      "imprint_back": "8",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄白色の割線入りの素錠 識別コード Tw441 直径(mm) 7.1 厚さ(mm) 3.3"
+    },
+    {
+      "product_name": "アゼルニジピン錠16mg「トーワ」",
+      "strength": "16mg",
+      "imprint_front": "Tw442",
+      "imprint_back": "16",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄白色の割線入りの素錠 識別コード Tw442 直径(mm) 9.1 厚さ(mm) 4.1"
+    }
+  ],
+  "expected_products": [
+    "アゼルニジピン錠16mg「トーワ」",
+    "アゼルニジピン錠8mg「トーワ」"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "460028_2171014C1060_1_06",
+  "source_file": "460028_2171014C1060_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2171014C1060_1_06",
+  "extracted_at": "2026-11-09T14:45:36.087Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17281,
+    "output": 2955
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンカプセル5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "橙色",
+      "shape": "oblong",
+      "size_long_mm": 10.6,
+      "size_short_mm": 6.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 軟カプセル剤（内容物は黄色〜帯赤黄色の粘性液体） 色調 橙色 大きさ 長径 約10.6mm 短径 約6.8mm"
+    },
+    {
+      "product_name": "ニフェジピン錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡橙色 大きさ 直径 約7.1mm 厚さ 約3.5mm"
+    },
+    {
+      "product_name": "ニフェジピン細粒1%「ツルハラ」",
+      "strength": "1%",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 細粒剤 色調 黄色"
+    }
+  ],
+  "expected_products": [
+    "ニフェジピンカプセル5mg「ツルハラ」"
+  ]
+}

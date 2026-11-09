@@ -1,0 +1,50 @@
+{
+  "id": "480235_2129008M1130_1_07",
+  "source_file": "480235_2129008M1130_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2129008M1130_1_07",
+  "extracted_at": "2026-11-09T14:25:55.398Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13414,
+    "output": 2009
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピルシカイニド塩酸塩カプセル25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "Tw413",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2の識別コード欄の記載による。表裏の別は文書から判別できない",
+      "color": "頭部が青色、胴部が白色（いずれも不透明）",
+      "shape": "oblong",
+      "size_long_mm": 11.1,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "頭部が青色の不透明、胴部が白色の不透明な硬カプセル剤であり、内容物は白色の粉末又は粒状である。"
+    },
+    {
+      "product_name": "ピルシカイニド塩酸塩カプセル50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw410",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2の識別コード欄の記載による。表裏の別は文書から判別できない",
+      "color": "頭部が青色、胴部が白色（いずれも不透明）",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "頭部が青色の不透明、胴部が白色の不透明な硬カプセル剤であり、内容物は白色の粉末又は粒状である。"
+    }
+  ],
+  "expected_products": [
+    "ピルシカイニド塩酸塩カプセル25mg「トーワ」",
+    "ピルシカイニド塩酸塩カプセル50mg「トーワ」"
+  ]
+}

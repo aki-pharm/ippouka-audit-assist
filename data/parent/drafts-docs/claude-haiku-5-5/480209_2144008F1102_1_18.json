@@ -1,0 +1,50 @@
+{
+  "id": "480209_2144008F1102_1_18",
+  "source_file": "480209_2144008F1102_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2144008F1102_1_18",
+  "extracted_at": "2026-11-09T14:30:16.188Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24615,
+    "output": 2056
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダプリル塩酸塩錠2.5mg「PH」",
+      "strength": "2.5mg",
+      "imprint_front": "PH171",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 / 色調 白色 白色 / 直径(mm) 5.5 6.0 / 厚さ(mm) 2.5 2.6 / 識別コード PH171 PH172"
+    },
+    {
+      "product_name": "イミダプリル塩酸塩錠5mg「PH」",
+      "strength": "5mg",
+      "imprint_front": "PH172",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 / 色調 白色 白色 / 直径(mm) 5.5 6.0 / 厚さ(mm) 2.5 2.6 / 識別コード PH171 PH172"
+    }
+  ],
+  "expected_products": [
+    "イミダプリル塩酸塩錠2.5mg「PH」",
+    "イミダプリル塩酸塩錠5mg「PH」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "400278_2149043F1070_1_11",
+  "source_file": "400278_2149043F1070_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2149043F1070_1_11",
+  "extracted_at": "2026-11-09T14:40:33.706Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23982,
+    "output": 2202
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アゼルニジピン錠8mg「TCK」",
+      "strength": "8mg",
+      "imprint_front": "TU 244",
+      "imprint_back": "8",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "アゼルニジピン錠8mg「TCK」 淡黄白色 素錠（割線入り） TU 244 直径7.1mm 厚さ3.3mm 重量140mg"
+    },
+    {
+      "product_name": "アゼルニジピン錠16mg「TCK」",
+      "strength": "16mg",
+      "imprint_front": "TU 245",
+      "imprint_back": "16",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "アゼルニジピン錠16mg「TCK」 淡黄白色 素錠（割線入り） TU 245 直径9.1mm 厚さ4.1mm 重量280mg"
+    }
+  ],
+  "expected_products": [
+    "アゼルニジピン錠8mg「TCK」"
+  ]
+}

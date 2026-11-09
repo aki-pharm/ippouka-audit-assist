@@ -1,0 +1,67 @@
+{
+  "id": "400073_2149042F1262_1_05",
+  "source_file": "400073_2149042F1262_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2149042F1262_1_05",
+  "extracted_at": "2026-11-09T14:39:00.874Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22769,
+    "output": 2399
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「VTRS」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「－」。上面・下面の図に文字らしき表示があるが判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "テルミサルタン錠20mg「VTRS」 － 白色 フィルムコーティング錠 直径 厚さ 質量 6.1mm 2.9mm 87mg"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「VTRS」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「－」。上面・下面の図に文字らしき表示があるが判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "テルミサルタン錠40mg「VTRS」 － 白色 割線入りフィルムコーティング錠 直径 厚さ 質量 8.1mm 3.5mm 173.4mg"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「VTRS」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「－」。上面・下面の図に文字らしき表示があるが判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "テルミサルタン錠80mg「VTRS」 － 白色 割線入りフィルムコーティング錠 直径 厚さ 質量 10.2mm 4.4mm 345mg"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「VTRS」",
+    "テルミサルタン錠40mg「VTRS」",
+    "テルミサルタン錠80mg「VTRS」"
+  ]
+}

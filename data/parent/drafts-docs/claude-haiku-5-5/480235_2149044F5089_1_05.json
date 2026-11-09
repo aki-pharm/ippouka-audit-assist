@@ -1,0 +1,82 @@
+{
+  "id": "480235_2149044F5089_1_05",
+  "source_file": "480235_2149044F5089_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149044F5089_1_05",
+  "extracted_at": "2026-11-09T14:41:09.664Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26825,
+    "output": 4542
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタンOD錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "オルメサルタン 5 OD トーワ",
+      "imprint_note": "表面の刻印は図のみで文字として読み取れず未確認。本体表示欄の「オルメサルタン 5 OD トーワ」は表裏のどちらに対応するか判別できない",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形：淡黄白色の口腔内崩壊錠 / 直径(mm) 5.0 厚さ(mm) 2.6 / 質量(mg) 56"
+    },
+    {
+      "product_name": "オルメサルタンOD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "オルメ 10",
+      "imprint_back": "オルメサルタン 10 OD トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色の割線入りの口腔内崩壊錠 / 直径(mm) 6.5 厚さ(mm) 3.1 / 質量(mg) 112"
+    },
+    {
+      "product_name": "オルメサルタンOD錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "オルメ 20",
+      "imprint_back": "オルメサルタン 20 OD トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色の割線入りの口腔内崩壊錠 / 直径(mm) 8.0 厚さ(mm) 3.4 / 質量(mg) 180"
+    },
+    {
+      "product_name": "オルメサルタンOD錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "オルメ 40",
+      "imprint_back": "オルメサルタン 40 OD トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色の割線入りの口腔内崩壊錠 / 直径(mm) 10.0 厚さ(mm) 4.4 / 質量(mg) 360"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタンOD錠10mg「トーワ」",
+    "オルメサルタンOD錠5mg「トーワ」"
+  ]
+}

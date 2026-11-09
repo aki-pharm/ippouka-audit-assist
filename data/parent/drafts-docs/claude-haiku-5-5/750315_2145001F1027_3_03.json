@@ -1,0 +1,49 @@
+{
+  "id": "750315_2145001F1027_3_03",
+  "source_file": "750315_2145001F1027_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/750315_2145001F1027_3_03",
+  "extracted_at": "2026-11-09T14:30:57.328Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12394,
+    "output": 1665
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルドメット錠125",
+      "strength": "125mg",
+      "imprint_front": "031",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク（Ⓤ）と識別コード031が併記されている",
+      "color": "白色～帯灰白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2022年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・色調 フィルムコーティング錠・白色～帯灰白色 外形 表 直径 8.1mm 裏 側面 厚さ 3.9mm 識別コード 031"
+    },
+    {
+      "product_name": "アルドメット錠250",
+      "strength": "250mg",
+      "imprint_front": "032",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク（Ⓤ）と識別コード032が併記されている",
+      "color": "白色～帯灰白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2022年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・色調 フィルムコーティング錠・白色～帯灰白色 外形 表 直径 10.5mm 裏 側面 厚さ 4.5mm 識別コード 032"
+    }
+  ],
+  "expected_products": [
+    "アルドメット錠125"
+  ]
+}

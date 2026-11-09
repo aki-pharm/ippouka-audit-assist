@@ -1,0 +1,50 @@
+{
+  "id": "400278_2129008M1148_1_04",
+  "source_file": "400278_2129008M1148_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2129008M1148_1_04",
+  "extracted_at": "2026-11-09T14:25:47.421Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19255,
+    "output": 1936
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピルシカイニド塩酸塩カプセル25mg「TCK」",
+      "strength": "25mg",
+      "imprint_front": "TU TP・25",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「TU」「TP・25」と記載。刻印の表裏の区別は明記なし",
+      "color": "キャップ：淡青色不透明、ボディ：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "キャップ：淡青色不透明 ボディ：白色不透明 TU TP・25 4号硬カプセル"
+    },
+    {
+      "product_name": "ピルシカイニド塩酸塩カプセル50mg「TCK」",
+      "strength": "50mg",
+      "imprint_front": "TU TP・50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「TU」「TP・50」と記載。刻印の表裏の区別は明記なし",
+      "color": "キャップ：青色不透明、ボディ：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "キャップ：青色不透明 ボディ：白色不透明 TU TP・50 4号硬カプセル"
+    }
+  ],
+  "expected_products": [
+    "ピルシカイニド塩酸塩カプセル25mg「TCK」",
+    "ピルシカイニド塩酸塩カプセル50mg「TCK」"
+  ]
+}

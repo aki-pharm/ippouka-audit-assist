@@ -1,0 +1,49 @@
+{
+  "id": "480235_2149031F1094_1_03",
+  "source_file": "480235_2149031F1094_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149031F1094_1_03",
+  "extracted_at": "2026-11-09T14:32:49.364Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13737,
+    "output": 1673
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタキソロール塩酸塩錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "Tw246",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠（割線入り） 識別コード Tw246 直径(mm) 5.6 厚さ(mm) 2.5"
+    },
+    {
+      "product_name": "ベタキソロール塩酸塩錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw244",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠（割線入り） 識別コード Tw244 直径(mm) 7.1 厚さ(mm) 3.2"
+    }
+  ],
+  "expected_products": [
+    "ベタキソロール塩酸塩錠5mg「トーワ」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "180095_2149044F5127_1_08",
+  "source_file": "180095_2149044F5127_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2149044F5127_1_08",
+  "extracted_at": "2026-11-09T14:40:48.207Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24344,
+    "output": 2966
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタンOD錠10mg「オーハラ」",
+      "strength": "10mg",
+      "imprint_front": "オルメサルタン OD10オーハラ",
+      "imprint_back": "オルメサルタン OD10オーハラ",
+      "imprint_note": "表・裏の刻印は表の識別コード欄の記載による（表面・裏面の図からは個別の読み取りが困難）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 1.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色 外形 直径 6.5mm 厚さ 1.9mm 識別コード オルメサルタン OD10オーハラ"
+    },
+    {
+      "product_name": "オルメサルタンOD錠20mg「オーハラ」",
+      "strength": "20mg",
+      "imprint_front": "オルメサルタン OD20オーハラ",
+      "imprint_back": "オルメサルタン OD20オーハラ",
+      "imprint_note": "表・裏の刻印は表の識別コード欄の記載による（表面・裏面の図からは個別の読み取りが困難）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色 外形 直径 8.0mm 厚さ 2.5mm 識別コード オルメサルタン OD20オーハラ"
+    },
+    {
+      "product_name": "オルメサルタンOD錠40mg「オーハラ」",
+      "strength": "40mg",
+      "imprint_front": "オルメサルタン OD40オーハラ",
+      "imprint_back": "オルメサルタン OD40オーハラ",
+      "imprint_note": "表・裏の刻印は表の識別コード欄の記載による（表面・裏面の図からは個別の読み取りが困難）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色 外形 直径 9.5mm 厚さ 3.6mm 識別コード オルメサルタン OD40オーハラ"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタンOD錠10mg「オーハラ」",
+    "オルメサルタンOD錠40mg「オーハラ」"
+  ]
+}

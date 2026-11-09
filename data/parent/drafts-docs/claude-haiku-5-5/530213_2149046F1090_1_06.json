@@ -1,0 +1,65 @@
+{
+  "id": "530213_2149046F1090_1_06",
+  "source_file": "530213_2149046F1090_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149046F1090_1_06",
+  "extracted_at": "2026-11-09T14:42:31.722Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21814,
+    "output": 2252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠50mg「ケミファ」",
+      "strength": "50mg",
+      "imprint_front": "イルベサルタン 50 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載を表面の刻印として記載。裏面の刻印は画像から判読できず未確認",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.6,
+      "size_short_mm": 4.5,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りのフィルムコーティング錠"
+    },
+    {
+      "product_name": "イルベサルタン錠100mg「ケミファ」",
+      "strength": "100mg",
+      "imprint_front": "イルベサルタン 100 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載を表面の刻印として記載。裏面の刻印は画像から判読できず未確認",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11.1,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りのフィルムコーティング錠"
+    },
+    {
+      "product_name": "イルベサルタン錠200mg「ケミファ」",
+      "strength": "200mg",
+      "imprint_front": "イルベサルタン 200 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載を表面の刻印として記載。裏面の刻印は画像から判読できず未確認",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りのフィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "イルベサルタン錠50mg「ケミファ」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "780075_2171017F1052_1_05",
+  "source_file": "780075_2171017F1052_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_2171017F1052_1_05",
+  "extracted_at": "2026-11-09T14:45:41.314Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13143,
+    "output": 1872
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニコランジル錠2.5mg「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "SW 700",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは3.2製剤の性状表の記載。表裏の区別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2023年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 性状 白色 直径（mm） 5.0 5.0 厚さ（mm） 2.2 2.0 重量（mg） 約50 約50 識別コード SW 700 SW 722"
+    },
+    {
+      "product_name": "ニコランジル錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW 722",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは3.2製剤の性状表の記載。表裏の区別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2023年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 性状 白色 直径（mm） 5.0 5.0 厚さ（mm） 2.2 2.0 重量（mg） 約50 約50 識別コード SW 700 SW 722"
+    }
+  ],
+  "expected_products": [
+    "ニコランジル錠2.5mg「サワイ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "430773_2129008M1172_1_03",
+  "source_file": "430773_2129008M1172_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2129008M1172_1_03",
+  "extracted_at": "2026-11-09T14:25:34.681Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17847,
+    "output": 1466
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピルシカイニド塩酸塩カプセル25mg「DSEP」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印の記載なし。外形図の印字は文書から判読できないため未確認",
+      "color": "キャップ：淡青色、ボディー：白色（いずれも不透明）",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2021年9月改訂",
+      "source_page": 1,
+      "source_quote": "カプセル（4号） 淡青色 不透明 白色 不透明 約14.3 約225"
+    },
+    {
+      "product_name": "ピルシカイニド塩酸塩カプセル50mg「DSEP」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄に刻印の記載なし。外形図の印字は文書から判読できないため未確認",
+      "color": "キャップ：青色、ボディー：白色（いずれも不透明）",
+      "shape": "oblong",
+      "size_long_mm": 14.3,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2021年9月改訂",
+      "source_page": 1,
+      "source_quote": "青色 不透明 白色 不透明 約14.3 約220"
+    }
+  ],
+  "expected_products": [
+    "ピルシカイニド塩酸塩カプセル25mg「DSEP」",
+    "ピルシカイニド塩酸塩カプセル50mg「DSEP」"
+  ]
+}

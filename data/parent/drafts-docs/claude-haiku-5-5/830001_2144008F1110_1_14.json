@@ -1,0 +1,50 @@
+{
+  "id": "830001_2144008F1110_1_14",
+  "source_file": "830001_2144008F1110_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2144008F1110_1_14",
+  "extracted_at": "2026-11-09T14:30:21.584Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24162,
+    "output": 2230
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダプリル塩酸塩錠2.5mg「YD」",
+      "strength": "2.5mg",
+      "imprint_front": "536",
+      "imprint_back": "2.5",
+      "imprint_note": "表裏の刻印配置は外形図の表示による",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 白色の片面割線入りの素錠 外形 直径 約5mm 約6mm 厚さ 約2.3mm 約3.2mm"
+    },
+    {
+      "product_name": "イミダプリル塩酸塩錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD 537",
+      "imprint_back": "5",
+      "imprint_note": "片面割線入り。表裏の刻印配置は外形図による",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 白色の片面割線入りの素錠 外形 直径 約5mm 約6mm 厚さ 約2.3mm 約3.2mm"
+    }
+  ],
+  "expected_products": [
+    "イミダプリル塩酸塩錠2.5mg「YD」",
+    "イミダプリル塩酸塩錠5mg「YD」"
+  ]
+}

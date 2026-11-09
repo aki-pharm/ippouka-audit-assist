@@ -1,0 +1,33 @@
+{
+  "id": "460028_2171010F2596_1_07",
+  "source_file": "460028_2171010F2596_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2171010F2596_1_07",
+  "extracted_at": "2026-11-09T14:44:46.381Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13445,
+    "output": 1421
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジピリダモール錠25mg「ツルハラ」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "赤橙色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 色調 赤橙色 外形 大きさ 直径 約7.0mm 厚さ 約4.3mm 質量 約150mg"
+    }
+  ],
+  "expected_products": [
+    "ジピリダモール錠25mg「ツルハラ」"
+  ]
+}

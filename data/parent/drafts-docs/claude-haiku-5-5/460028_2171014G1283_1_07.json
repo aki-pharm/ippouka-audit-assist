@@ -1,0 +1,50 @@
+{
+  "id": "460028_2171014G1283_1_07",
+  "source_file": "460028_2171014G1283_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2171014G1283_1_07",
+  "extracted_at": "2026-11-09T14:45:20.406Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17009,
+    "output": 2161
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンＬ錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "033",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "識別コード 表面：033 裏面：10 、色・剤形 淡赤色のフィルムコーティング錠（徐放錠）、大きさ 直径 約5.6mm、厚さ 約3.5mm"
+    },
+    {
+      "product_name": "ニフェジピンＬ錠20mg「ツルハラ」",
+      "strength": "20mg",
+      "imprint_front": "030",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "識別コード 表面：030 、色・剤形 淡赤色のフィルムコーティング錠（徐放錠）、大きさ 直径 約6.1mm、厚さ 約2.9mm"
+    }
+  ],
+  "expected_products": [
+    "ニフェジピンL錠10mg「ツルハラ」",
+    "ニフェジピンL錠20mg「ツルハラ」"
+  ]
+}

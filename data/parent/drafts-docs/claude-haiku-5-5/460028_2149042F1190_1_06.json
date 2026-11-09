@@ -1,0 +1,67 @@
+{
+  "id": "460028_2149042F1190_1_06",
+  "source_file": "460028_2149042F1190_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2149042F1190_1_06",
+  "extracted_at": "2026-11-09T14:39:26.566Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21117,
+    "output": 2370
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「ツルハラ」",
+      "strength": "20mg",
+      "imprint_front": "TSU436",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 外形 大きさ 直径 約6.0mm 厚さ 約2.2mm 識別コード 表面 TSU436 裏面 20"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「ツルハラ」",
+      "strength": "40mg",
+      "imprint_front": "TSU437",
+      "imprint_back": "40",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色 外形 大きさ 直径 約7.5mm 厚さ 約3.0mm 識別コード 表面 TSU437 裏面 40"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「ツルハラ」",
+      "strength": "80mg",
+      "imprint_front": "TSU438",
+      "imprint_back": "80",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色 外形 大きさ 直径 約9.0mm 厚さ 約4.2mm 識別コード 表面 TSU438 裏面 80"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「ツルハラ」",
+    "テルミサルタン錠40mg「ツルハラ」",
+    "テルミサルタン錠80mg「ツルハラ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "450064_2139008F1064_1_07",
+  "source_file": "450064_2139008F1064_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2139008F1064_1_07",
+  "extracted_at": "2026-11-09T14:27:35.775Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16784,
+    "output": 2133
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アゾセミド錠30mg「JG」",
+      "strength": "30mg",
+      "imprint_front": "ch92",
+      "imprint_back": "アゾセミド　30　JG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色割線入り円形のフィルムコーティング錠 ／ 直径 6.1mm ／ 厚さ 3.0mm ／ 識別コード ch92 ／ 本体表示 アゾセミド　30　JG"
+    },
+    {
+      "product_name": "アゾセミド錠60mg「JG」",
+      "strength": "60mg",
+      "imprint_front": "ch39",
+      "imprint_back": "アゾセミド　60　JG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 11.8,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色割線入りだ円形のフィルムコーティング錠 ／ 長径 11.8mm ／ 短径 5.1mm ／ 厚さ 3.6mm ／ 識別コード ch39 ／ 本体表示 アゾセミド　60　JG"
+    }
+  ],
+  "expected_products": [
+    "アゾセミド錠30mg「JG」",
+    "アゾセミド錠60mg「JG」"
+  ]
+}

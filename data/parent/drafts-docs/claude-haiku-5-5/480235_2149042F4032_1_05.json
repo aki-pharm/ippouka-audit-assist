@@ -1,0 +1,49 @@
+{
+  "id": "480235_2149042F4032_1_05",
+  "source_file": "480235_2149042F4032_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149042F4032_1_05",
+  "extracted_at": "2026-11-09T14:38:29.115Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22810,
+    "output": 2446
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタンOD錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "テルミ 20 サルタン OD トーワ",
+      "imprint_back": "テルミ 20 サルタン OD トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.9,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の口腔内崩壊錠 ／ 直径(mm) 9.0 ／ 厚さ(mm) 3.9"
+    },
+    {
+      "product_name": "テルミサルタンOD錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "テルミ 40",
+      "imprint_back": "テルミ 40 サルタン OD トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入りの口腔内崩壊錠 ／ 直径(mm) 11.0 ／ 厚さ(mm) 4.8"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタンOD錠20mg「トーワ」"
+  ]
+}

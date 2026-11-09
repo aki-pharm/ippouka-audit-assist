@@ -1,0 +1,33 @@
+{
+  "id": "400278_2132003F1451_1_04",
+  "source_file": "400278_2132003F1451_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2132003F1451_1_04",
+  "extracted_at": "2026-11-09T14:26:31.345Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16082,
+    "output": 1434
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリクロルメチアジド錠2mg「TCK」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「Tu」「TM-002」の記載あり（どちらが表・裏かは文書上不明）",
+      "color": "淡桃色",
+      "shape": "other",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "淡桃色 花形素錠（割線入り） Tu TM-002 8.2 2.5 150"
+    }
+  ],
+  "expected_products": [
+    "トリクロルメチアジド錠2mg「TCK」"
+  ]
+}

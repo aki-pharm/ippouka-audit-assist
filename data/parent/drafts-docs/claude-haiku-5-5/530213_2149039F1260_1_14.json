@@ -1,0 +1,66 @@
+{
+  "id": "530213_2149039F1260_1_14",
+  "source_file": "530213_2149039F1260_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149039F1260_1_14",
+  "extracted_at": "2026-11-09T14:35:13.995Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25251,
+    "output": 2346
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠25mg「ケミファ」",
+      "strength": "25mg",
+      "imprint_front": "NC　L25",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は割線のみ図示され、刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 割線を有する白色のフィルムコーティング錠 外形 直径 5.6mm 厚さ 3.0mm 識別コード NC　L25"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠50mg「ケミファ」",
+      "strength": "50mg",
+      "imprint_front": "NC　L50",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は割線のみ図示され、刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 割線を有する白色のフィルムコーティング錠 外形 直径 7.6mm 厚さ 3.2mm 識別コード NC　L50"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠100mg「ケミファ」",
+      "strength": "100mg",
+      "imprint_front": "NCL100",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 11.1,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ティアドロップ形の白色のフィルムコーティング錠 外形 長径11.1mm 短径7.6mm 厚さ 4.5mm 識別コード NCL100"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンカリウム錠100mg「ケミファ」",
+    "ロサルタンカリウム錠25mg「ケミファ」"
+  ]
+}
