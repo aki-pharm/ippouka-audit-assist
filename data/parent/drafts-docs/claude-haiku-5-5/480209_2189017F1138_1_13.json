@@ -1,0 +1,50 @@
+{
+  "id": "480209_2189017F1138_1_13",
+  "source_file": "480209_2189017F1138_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2189017F1138_1_13",
+  "extracted_at": "2026-11-09T14:56:44.196Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32592,
+    "output": 2448
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠2.5mg「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "ロスバスタチン 2.5 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2製剤の性状の本体表示欄の記載。表裏の別は本文から確認できない",
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色調 うすい赤みの黄色～くすんだ赤みの黄色 / 本体表示 ロスバスタチン 2.5 杏林 / 直径(mm) 5.6 / 厚さ(mm) 3.1"
+    },
+    {
+      "product_name": "ロスバスタチン錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "ロスバスタチン 5 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2製剤の性状の本体表示欄の記載。表裏の別は本文から確認できない",
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色調 うすい赤みの黄色～くすんだ赤みの黄色 / 本体表示 ロスバスタチン 5 杏林 / 直径(mm) 7.1 / 厚さ(mm) 3.8"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチン錠2.5mg「杏林」",
+    "ロスバスタチン錠5mg「杏林」"
+  ]
+}

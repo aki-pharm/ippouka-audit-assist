@@ -1,0 +1,33 @@
+{
+  "id": "800155_2190026X1028_2_05",
+  "source_file": "800155_2190026X1028_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_2190026X1028_2_05",
+  "extracted_at": "2026-11-09T14:57:41.284Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25720,
+    "output": 1702
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラクリア小児用分散錠32mg",
+      "strength": "32mg",
+      "imprint_front": "32",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄色",
+      "shape": null,
+      "size_long_mm": 10,
+      "size_short_mm": null,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 表面に十字の割線を有する白色～淡黄色の素錠 外形 大きさ 長径（mm） 厚さ（mm） 質量（mg） 約10 約3.4 約290 識別コード 32"
+    }
+  ],
+  "expected_products": [
+    "トラクリア錠62.5mg（DU）医療従事者向け資材"
+  ]
+}

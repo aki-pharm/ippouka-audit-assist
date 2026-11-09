@@ -1,0 +1,33 @@
+{
+  "id": "340013_2242001F1039_1_12",
+  "source_file": "340013_2242001F1039_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340013_2242001F1039_1_12",
+  "extracted_at": "2026-11-09T15:00:09.541Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13111,
+    "output": 1277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コデインリン酸塩錠 5mg「シオエ」",
+      "strength": "5mg",
+      "imprint_front": "229",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク（図形）と識別コード229。裏面の刻印は文書に明記されていない",
+      "color": "白色～帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 15,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2025年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色の片面割線入り長円形の素錠 大きさ 長径：15mm、短径：6.5mm、厚さ：5.2mm、重量：500mg 識別コード 229"
+    }
+  ],
+  "expected_products": [
+    "コデインリン酸塩錠5mg「シオエ」"
+  ]
+}

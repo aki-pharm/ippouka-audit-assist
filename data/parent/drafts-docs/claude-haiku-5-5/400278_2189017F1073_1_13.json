@@ -1,0 +1,49 @@
+{
+  "id": "400278_2189017F1073_1_13",
+  "source_file": "400278_2189017F1073_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2189017F1073_1_13",
+  "extracted_at": "2026-11-09T14:56:22.139Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33190,
+    "output": 1848
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠2.5mg「TCK」",
+      "strength": "2.5mg",
+      "imprint_front": "2.5 TCK",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "ロスバスタチン錠2.5mg「TCK」 白色～帯黄白色 フィルムコーティング錠 直径 6.1 厚さ 2.5 重量 80.04"
+    },
+    {
+      "product_name": "ロスバスタチン錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "5 TCK",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "ロスバスタチン錠5mg「TCK」 白色～帯黄白色 フィルムコーティング錠 直径 7.1 厚さ 3.6 重量 158"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチン錠2.5mg「TCK」"
+  ]
+}

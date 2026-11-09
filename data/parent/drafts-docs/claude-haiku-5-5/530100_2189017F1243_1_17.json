@@ -1,0 +1,84 @@
+{
+  "id": "530100_2189017F1243_1_17",
+  "source_file": "530100_2189017F1243_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2189017F1243_1_17",
+  "extracted_at": "2026-11-09T14:55:50.396Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 40825,
+    "output": 2470
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠 2.5mg「ニプロ」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "うすい赤みの黄色～くすんだ赤みの黄色のフィルムコーティング錠 直径（mm）5.6 厚さ（mm）3.1 重量（mg）77"
+    },
+    {
+      "product_name": "ロスバスタチン錠 5mg「ニプロ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "うすい赤みの黄色～くすんだ赤みの黄色のフィルムコーティング錠 直径（mm）7.1 厚さ（mm）3.8 重量（mg）153"
+    },
+    {
+      "product_name": "ロスバスタチン OD 錠 2.5mg「ニプロ」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の素錠（口腔内崩壊錠） 直径（mm）5.5 厚さ（mm）3.1 重量（mg）80"
+    },
+    {
+      "product_name": "ロスバスタチン OD 錠 5mg「ニプロ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の素錠（口腔内崩壊錠） 直径（mm）7.0 厚さ（mm）3.8 重量（mg）160"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチンOD錠2.5mg「ニプロ」",
+    "ロスバスタチンOD錠5mg「ニプロ」",
+    "ロスバスタチン錠2.5mg「ニプロ」",
+    "ロスバスタチン錠5mg「ニプロ」"
+  ]
+}

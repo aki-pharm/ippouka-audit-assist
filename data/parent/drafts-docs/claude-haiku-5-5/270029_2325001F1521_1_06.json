@@ -1,0 +1,50 @@
+{
+  "id": "270029_2325001F1521_1_06",
+  "source_file": "270029_2325001F1521_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_2325001F1521_1_06",
+  "extracted_at": "2026-11-09T15:01:00.174Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18562,
+    "output": 2105
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シメチジン錠200mg「クニヒロ」",
+      "strength": "200mg",
+      "imprint_front": "101",
+      "imprint_back": "KSK",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "色調・性状 白色～微黄白色のフィルムコーティング錠 外形 直径 8.6mm 11.1mm 厚さ 4.3mm 5.2mm 識別コード KSK101 KSK117"
+    },
+    {
+      "product_name": "シメチジン錠400mg「クニヒロ」",
+      "strength": "400mg",
+      "imprint_front": "KSK 117",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図では裏面に刻印の記載が見当たらない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "色調・性状 白色～微黄白色のフィルムコーティング錠 外形 直径 8.6mm 11.1mm 厚さ 4.3mm 5.2mm 識別コード KSK101 KSK117"
+    }
+  ],
+  "expected_products": [
+    "シメチジン錠200mg「クニヒロ」",
+    "シメチジン錠400mg「クニヒロ」"
+  ]
+}

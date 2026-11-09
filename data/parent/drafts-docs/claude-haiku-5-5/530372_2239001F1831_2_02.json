@@ -1,0 +1,33 @@
+{
+  "id": "530372_2239001F1831_2_02",
+  "source_file": "530372_2239001F1831_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2239001F1831_2_02",
+  "extracted_at": "2026-11-09T14:59:22.335Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8971,
+    "output": 1221
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠15mg「NPI」",
+      "strength": "15mg",
+      "imprint_front": "NPI 223",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は社名マーク（NPI）と識別コード（223）の組み合わせ",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠でにおいはなく、わずかに特異な味がある。"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「NPI」"
+  ]
+}

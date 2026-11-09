@@ -1,0 +1,33 @@
+{
+  "id": "460028_2239001F1807_1_03",
+  "source_file": "460028_2239001F1807_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2239001F1807_1_03",
+  "extracted_at": "2026-11-09T14:59:53.120Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9037,
+    "output": 1141
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠15mg「ツルハラ」",
+      "strength": "15mg",
+      "imprint_front": "TSU730",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り錠剤 色調 白色 大きさ 直径 約 6.5mm 厚さ 約 2.3mm 質量 約 100mg 識別コード TSU730"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「ツルハラ」"
+  ]
+}

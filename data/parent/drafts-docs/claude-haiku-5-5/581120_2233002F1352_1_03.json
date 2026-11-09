@@ -1,0 +1,50 @@
+{
+  "id": "581120_2233002F1352_1_03",
+  "source_file": "581120_2233002F1352_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2233002F1352_1_03",
+  "extracted_at": "2026-11-09T14:58:49.282Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12610,
+    "output": 1953
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルボシステイン錠250mg「NIG」",
+      "strength": "250mg",
+      "imprint_front": "t 225",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.9,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 9.5mm 厚さ 4.9mm 質量 370mg"
+    },
+    {
+      "product_name": "カルボシステイン錠500mg「NIG」",
+      "strength": "500mg",
+      "imprint_front": "t 087",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 16,
+      "size_short_mm": 6.7,
+      "thickness_mm": 6.4,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入りフィルムコーティング錠 外形 長径 16.0mm 短径 6.7mm 厚さ 6.4mm 質量 597mg"
+    }
+  ],
+  "expected_products": [
+    "カルボシステイン錠250mg「NIG」",
+    "カルボシステイン錠500mg「NIG」"
+  ]
+}

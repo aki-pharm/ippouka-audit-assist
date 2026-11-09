@@ -1,0 +1,33 @@
+{
+  "id": "400813_2239001F1475_1_12",
+  "source_file": "400813_2239001F1475_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2239001F1475_1_12",
+  "extracted_at": "2026-11-09T14:59:45.188Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8804,
+    "output": 1066
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠15mg「タイヨー」",
+      "strength": "15mg",
+      "imprint_front": "t 291",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「タイヨー」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "450064_2239001F1777_1_04",
+  "source_file": "450064_2239001F1777_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2239001F1777_1_04",
+  "extracted_at": "2026-11-09T14:59:18.624Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8859,
+    "output": 1025
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠15mg「JG」",
+      "strength": "15mg",
+      "imprint_front": "ch80",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の片面1/2割線入り素錠 外形 大きさ 直径 6.5mm 厚さ 2.6mm 重量 120mg 識別コード ch80"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「JG」"
+  ]
+}

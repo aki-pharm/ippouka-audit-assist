@@ -1,0 +1,33 @@
+{
+  "id": "800155_2190035F1021_2_06",
+  "source_file": "800155_2190035F1021_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_2190035F1021_2_06",
+  "extracted_at": "2026-11-09T14:57:59.060Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26828,
+    "output": 1869
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オプスミット錠10mg",
+      "strength": "10mg",
+      "imprint_front": "10",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 大きさ 直径（mm） 約5.5 厚さ（mm） 約2.6 重さ（mg） 約72.8 識別コード 10"
+    }
+  ],
+  "expected_products": [
+    "オプスミット錠10 mg　患者向け資材"
+  ]
+}

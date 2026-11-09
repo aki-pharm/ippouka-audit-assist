@@ -1,0 +1,33 @@
+{
+  "id": "530169_2190022F1202_1_09",
+  "source_file": "530169_2190022F1202_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2190022F1202_1_09",
+  "extracted_at": "2026-11-09T14:57:36.627Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10197,
+    "output": 1102
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アメジニウムメチル硫酸塩錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "092",
+      "imprint_back": "なし",
+      "imprint_note": "表面上部に社名マーク様の記号があり判読困難。本体コード092（表面の下部に表示）。裏面は刻印なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 白色 外形 直径（mm） 6.0 厚さ（mm） 2.5 質量（mg） 90 本体コード 092 包装コード 092"
+    }
+  ],
+  "expected_products": [
+    "アメジニウムメチル硫酸塩錠10mg「日医工」"
+  ]
+}

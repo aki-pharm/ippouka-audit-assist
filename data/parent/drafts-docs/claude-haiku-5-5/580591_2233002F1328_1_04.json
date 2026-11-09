@@ -1,0 +1,50 @@
+{
+  "id": "580591_2233002F1328_1_04",
+  "source_file": "580591_2233002F1328_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2233002F1328_1_04",
+  "extracted_at": "2026-11-09T14:58:40.482Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12482,
+    "output": 1932
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルボシステイン錠250mg「JG」",
+      "strength": "250mg",
+      "imprint_front": "カルボシステイン 250 JG",
+      "imprint_back": "カルボシステイン 250 JG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.3,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色、円形のフィルムコーティング錠 直径 8.7mm 厚さ 4.3mm 重量 281mg"
+    },
+    {
+      "product_name": "カルボシステイン錠500mg「JG」",
+      "strength": "500mg",
+      "imprint_front": "カルボシステイン 500 JG",
+      "imprint_back": "カルボシステイン 500 JG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 15.9,
+      "size_short_mm": 7.5,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色、楕円形の割線入りフィルムコーティング錠 長径 15.9mm 短径 7.5mm 厚さ 5.2mm 重量 559mg"
+    }
+  ],
+  "expected_products": [
+    "カルボシステイン錠250mg「JG」",
+    "カルボシステイン錠500mg「JG」"
+  ]
+}

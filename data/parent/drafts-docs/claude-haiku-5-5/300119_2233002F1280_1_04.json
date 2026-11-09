@@ -1,0 +1,50 @@
+{
+  "id": "300119_2233002F1280_1_04",
+  "source_file": "300119_2233002F1280_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2233002F1280_1_04",
+  "extracted_at": "2026-11-09T14:58:51.725Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12680,
+    "output": 1490
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルボシステイン錠250mg「サワイ」",
+      "strength": "250mg",
+      "imprint_front": "SW 461",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 5.7,
+      "score_line": false,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 品名 カルボシステイン錠250mg「サワイ」 剤形 フィルムコーティング錠 性状 白色 直径（mm） 9.7 厚さ（mm） 5.7 識別コード SW 461"
+    },
+    {
+      "product_name": "カルボシステイン錠500mg「サワイ」",
+      "strength": "500mg",
+      "imprint_front": "SW 123",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.1,
+      "size_short_mm": 6.9,
+      "thickness_mm": 5.8,
+      "score_line": true,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 品名 カルボシステイン錠500mg「サワイ」 剤形 割線入りフィルムコーティング錠 性状 白色 直径（mm） 6.9×15.1 厚さ（mm） 5.8 識別コード SW 123"
+    }
+  ],
+  "expected_products": [
+    "カルボシステイン錠250mg「サワイ」",
+    "カルボシステイン錠500mg「サワイ」"
+  ]
+}

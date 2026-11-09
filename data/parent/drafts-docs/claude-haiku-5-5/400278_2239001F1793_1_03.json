@@ -1,0 +1,33 @@
+{
+  "id": "400278_2239001F1793_1_03",
+  "source_file": "400278_2239001F1793_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2239001F1793_1_03",
+  "extracted_at": "2026-11-09T14:59:28.974Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9071,
+    "output": 1178
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠 15mg「TCK」",
+      "strength": "15mg",
+      "imprint_front": "TU FZ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外形 直径（mm）6.1、厚さ（mm）2.6、重量（mg）100、色調 白色～微黄白色素錠（割線入り）、識別コード TU FZ"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「TCK」"
+  ]
+}

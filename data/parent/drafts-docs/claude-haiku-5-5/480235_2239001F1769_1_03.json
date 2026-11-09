@@ -1,0 +1,33 @@
+{
+  "id": "480235_2239001F1769_1_03",
+  "source_file": "480235_2239001F1769_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2239001F1769_1_03",
+  "extracted_at": "2026-11-09T14:59:56.968Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8843,
+    "output": 1410
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠15mg「トーワ」",
+      "strength": "15mg",
+      "imprint_front": "TwAT",
+      "imprint_back": "未確認",
+      "imprint_note": "包装の識別コードは「Tw.AT」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠 本体 TwAT 包装 Tw.AT 直径(mm) 7.0 厚さ(mm) 2.4 質量(mg) 120"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「トーワ」"
+  ]
+}

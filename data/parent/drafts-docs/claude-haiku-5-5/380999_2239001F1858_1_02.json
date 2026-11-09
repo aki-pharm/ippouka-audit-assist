@@ -1,0 +1,33 @@
+{
+  "id": "380999_2239001F1858_1_02",
+  "source_file": "380999_2239001F1858_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380999_2239001F1858_1_02",
+  "extracted_at": "2026-11-09T14:59:19.643Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8867,
+    "output": 1573
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠15mg「CEO」",
+      "strength": "15mg",
+      "imprint_front": "G228",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の識別コードはG228と記載。裏面は外形図のみで刻印の記載は確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色素錠（割線入り）、直径(mm) 7.0、厚さ(mm) 約2.4、重量(mg) 約120、識別コード G228"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「CEO」"
+  ]
+}

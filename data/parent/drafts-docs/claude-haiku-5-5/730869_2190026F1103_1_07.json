@@ -1,0 +1,33 @@
+{
+  "id": "730869_2190026F1103_1_07",
+  "source_file": "730869_2190026F1103_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2190026F1103_1_07",
+  "extracted_at": "2026-11-09T14:57:51.595Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31209,
+    "output": 1382
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボセンタン錠62.5mg「VTRS」",
+      "strength": "62.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2製剤の性状の識別コード欄は「-」。上面・下面の図形は判読できず、社名マークか刻印かは未確認",
+      "color": "白色～灰白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "白色～灰白色フィルムコーティング錠 直径 6.1mm 厚さ 3.2mm 重量 86mg"
+    }
+  ],
+  "expected_products": [
+    "ボセンタン錠62.5mg「VTRS」"
+  ]
+}

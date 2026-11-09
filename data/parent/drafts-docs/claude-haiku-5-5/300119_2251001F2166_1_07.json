@@ -1,0 +1,50 @@
+{
+  "id": "300119_2251001F2166_1_07",
+  "source_file": "300119_2251001F2166_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2251001F2166_1_07",
+  "extracted_at": "2026-11-09T15:00:26.639Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19800,
+    "output": 2656
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テオフィリン徐放錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはSW 128。刻印の表裏の別は文書から判別できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色 直径（mm） 8.0 厚さ（mm） 2.8 重量（mg） 約170 識別コード SW 128（剤形：割線入り徐放性素錠）"
+    },
+    {
+      "product_name": "テオフィリン徐放錠200mg「サワイ」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはSW 131。刻印の表裏の別は文書から判別できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.9,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色 直径（mm） 10.0 厚さ（mm） 4.9 重量（mg） 約340 識別コード SW 131（剤形：徐放性素錠）"
+    }
+  ],
+  "expected_products": [
+    "テオフィリン徐放錠100mg「サワイ」",
+    "テオフィリン徐放錠200mg「サワイ」"
+  ]
+}

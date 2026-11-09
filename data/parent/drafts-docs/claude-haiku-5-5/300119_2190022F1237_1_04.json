@@ -1,0 +1,33 @@
+{
+  "id": "300119_2190022F1237_1_04",
+  "source_file": "300119_2190022F1237_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2190022F1237_1_04",
+  "extracted_at": "2026-11-09T14:57:26.091Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8925,
+    "output": 1429
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アメジニウムメチル硫酸塩錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "SW 207",
+      "imprint_note": "識別コードSW 207は外形図の2番目の図に表示されているが、表裏の対応は文章に明記されていない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色 直径（mm） 6.0 厚さ（mm） 2.5 重量（mg） 約90 識別コード SW 207"
+    }
+  ],
+  "expected_products": [
+    "アメジニウムメチル硫酸塩錠10mg「サワイ」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "830001_2239001F1726_1_06",
+  "source_file": "830001_2239001F1726_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2239001F1726_1_06",
+  "extracted_at": "2026-11-09T14:59:30.714Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8801,
+    "output": 1036
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠15mg「YD」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「YD」の図形あり。刻印内容は判読できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の片面割線入り素錠 外形 直径 約7mm 厚さ 約2.3mm 重量 125mg"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「YD」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "170033_2251001F1038_1_02",
+  "source_file": "170033_2251001F1038_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2251001F1038_1_02",
+  "extracted_at": "2026-11-09T15:00:38.820Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18871,
+    "output": 2358
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テオロング錠50mg",
+      "strength": "50mg",
+      "imprint_front": "€TE",
+      "imprint_back": "50",
+      "imprint_note": "表は図形マーク（€TE）、裏は数字「50」。識別コードはTE50",
+      "color": "白色（徐放顆粒による斑点模様を有する）",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "識別コード TE50 / 外形 表 裏 側面 / 直径（mm） 7.1 / 質量（mg） 135 / 厚さ（mm） 3.3 / 色 白色 徐放顆粒による斑点模様を有する"
+    },
+    {
+      "product_name": "テオロング錠100mg",
+      "strength": "100mg",
+      "imprint_front": "€TE",
+      "imprint_back": "100",
+      "imprint_note": "表は図形マーク（€TE）、裏は数字「100」。識別コードはTE100",
+      "color": "白色（徐放顆粒による斑点模様を有する）",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "識別コード TE100 / 外形 表 裏 側面 / 直径（mm） 8.1 / 質量（mg） 235 / 厚さ（mm） 4.2 / 色 白色 徐放顆粒による斑点模様を有する"
+    },
+    {
+      "product_name": "テオロング錠200mg",
+      "strength": "200mg",
+      "imprint_front": "€TE",
+      "imprint_back": "200",
+      "imprint_note": "表は図形マーク（€TE）、裏は数字「200」。識別コードはTE200",
+      "color": "白色（徐放顆粒による斑点模様を有する）",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "識別コード TE200 / 外形 表 裏 側面 / 直径（mm） 10.1 / 質量（mg） 470 / 厚さ（mm） 5.5 / 色 白色 徐放顆粒による斑点模様を有する"
+    }
+  ],
+  "expected_products": [
+    "テオロング錠100mg",
+    "テオロング錠50mg"
+  ]
+}

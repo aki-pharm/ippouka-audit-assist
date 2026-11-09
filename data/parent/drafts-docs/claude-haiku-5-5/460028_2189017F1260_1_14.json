@@ -1,0 +1,50 @@
+{
+  "id": "460028_2189017F1260_1_14",
+  "source_file": "460028_2189017F1260_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2189017F1260_1_14",
+  "extracted_at": "2026-11-09T14:56:23.464Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30499,
+    "output": 1746
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠2.5mg「ツルハラ」",
+      "strength": "2.5mg",
+      "imprint_front": "925",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "うすい赤みの黄色からくすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 うすい赤みの黄色からくすんだ赤みの黄色 大きさ 直径 約5.6mm 厚さ 約3.2mm 質量 約77.5mg 識別コード 表面 925 裏面 2.5"
+    },
+    {
+      "product_name": "ロスバスタチン錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "TSU 926",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "うすい赤みの黄色からくすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 うすい赤みの黄色からくすんだ赤みの黄色 大きさ 直径 約7.1mm 厚さ 約3.6mm 質量 約154mg 識別コード 表面 TSU 926 裏面 5"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチン錠2.5mg「ツルハラ」",
+    "ロスバスタチン錠5mg「ツルハラ」"
+  ]
+}

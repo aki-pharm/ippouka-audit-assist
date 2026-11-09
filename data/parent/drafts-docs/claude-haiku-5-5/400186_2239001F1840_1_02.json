@@ -1,0 +1,33 @@
+{
+  "id": "400186_2239001F1840_1_02",
+  "source_file": "400186_2239001F1840_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_2239001F1840_1_02",
+  "extracted_at": "2026-11-09T14:59:52.200Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8621,
+    "output": 1465
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠15mg「タカタ」",
+      "strength": "15mg",
+      "imprint_front": "TTS-117",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状表の識別コードとして「TTS-117」の記載のみで、どちらの面に刻印されるかは文書上不明",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色、割線入りの素錠で、においはない。（直径 約6mm、重さ 約0.08g、厚さ 約2mm、識別コード TTS-117）"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「タカタ」"
+  ]
+}
