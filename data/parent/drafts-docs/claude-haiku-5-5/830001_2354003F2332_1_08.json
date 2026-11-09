@@ -1,0 +1,33 @@
+{
+  "id": "830001_2354003F2332_1_08",
+  "source_file": "830001_2354003F2332_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2354003F2332_1_08",
+  "extracted_at": "2026-11-09T15:07:39.141Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8438,
+    "output": 860
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "センノシド錠12mg「YD」",
+      "strength": "12mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 5.9,
+      "size_short_mm": 5.9,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤色の糖衣錠 外形 直径 約5.9mm 厚さ 約3.5mm 重量 100mg"
+    }
+  ],
+  "expected_products": [
+    "センノシド錠12mg「YD」"
+  ]
+}
