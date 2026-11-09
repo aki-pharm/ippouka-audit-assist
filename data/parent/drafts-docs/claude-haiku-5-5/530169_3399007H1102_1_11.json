@@ -1,0 +1,33 @@
+{
+  "id": "530169_3399007H1102_1_11",
+  "source_file": "530169_3399007H1102_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3399007H1102_1_11",
+  "extracted_at": "2026-11-09T15:22:23.255Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25170,
+    "output": 1441
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アスピリン腸溶錠100mg「日医工」",
+      "strength": "100mg",
+      "imprint_front": "514",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は社名マーク（図形）と514の組合せ。裏面は図示上刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（腸溶錠） 色調 白色 直径（mm） 7.2 厚さ（mm） 3.4 質量（mg） 138 本体コード 514 包装コード 514"
+    }
+  ],
+  "expected_products": [
+    "アスピリン腸溶錠100mg「日医工」"
+  ]
+}
