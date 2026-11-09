@@ -1,0 +1,33 @@
+{
+  "id": "530169_3999019F1115_1_15",
+  "source_file": "530169_3999019F1115_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999019F1115_1_15",
+  "extracted_at": "2026-11-09T15:34:40.045Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20528,
+    "output": 1700
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠2.5mg「日医工」",
+      "strength": "2.5mg",
+      "imprint_front": "822",
+      "imprint_back": "未確認",
+      "imprint_note": "表面上部に判読しにくい記号あり（社名マーク等かは未確認）。裏面は図上に刻印の記載なし。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～帯黄白色 表面 822 裏面 側面 外形 直径（mm） 6.6 厚さ（mm） 3.4"
+    }
+  ],
+  "expected_products": [
+    "リセドロン酸Na錠2.5mg「日医工」"
+  ]
+}

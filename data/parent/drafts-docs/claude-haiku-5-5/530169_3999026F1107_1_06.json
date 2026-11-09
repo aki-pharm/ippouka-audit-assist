@@ -1,0 +1,33 @@
+{
+  "id": "530169_3999026F1107_1_06",
+  "source_file": "530169_3999026F1107_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999026F1107_1_06",
+  "extracted_at": "2026-11-09T15:35:04.706Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17790,
+    "output": 1535
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠1mg「日医工」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「ミノドロン／1／日医工」と記載。表裏のどちら側に刻印されるかは図から判読できず。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 表面 裏面 側面 外形 直径（mm） 6.6 厚さ（mm） 2.8 質量（mg） 100 本体表示 ミノドロン 1 日医工"
+    }
+  ],
+  "expected_products": [
+    "ミノドロン酸錠1mg「日医工」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "300166_3999019F2065_2_06",
+  "source_file": "300166_3999019F2065_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_3999019F2065_2_06",
+  "extracted_at": "2026-11-09T15:34:23.248Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20526,
+    "output": 1338
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸 Na 錠 17.5mg｢FFP｣",
+      "strength": "17.5mg",
+      "imprint_front": "FF 132",
+      "imprint_back": "17.5",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "oblong",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 淡紅色のフィルムコーティング錠 外形 表面 裏面 側面 大きさ 長径約 8.1mm 短径約 4.6mm 114mg 約 3.2mm 識別コード FF 132"
+    }
+  ],
+  "expected_products": [
+    "リセドロン酸Na錠17.5mg「FFP」"
+  ]
+}

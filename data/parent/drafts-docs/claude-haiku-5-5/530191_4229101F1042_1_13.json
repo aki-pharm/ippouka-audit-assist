@@ -1,0 +1,46 @@
+{
+  "id": "530191_4229101F1042_1_13",
+  "source_file": "530191_4229101F1042_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4229101F1042_1_13",
+  "extracted_at": "2026-11-09T15:35:18.431Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 41367,
+    "output": 2464
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エヌケーエスワン配合OD錠T20",
+      "strength": "1錠中 テガフール20.0mg、ギメラシル5.8mg、オテラシルカリウム19.6mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に刻印らしき図示があるが文字は判読できず",
+      "color": "うすい青緑色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年1月改訂",
+      "source_page": 1,
+      "source_quote": "性状：うすい青緑色のフィルムコーティング錠（口腔内崩壊錠）、外形・大きさ 直径約7.1mm、厚さ約3.2mm、質量約139mg"
+    },
+    {
+      "product_name": "エヌケーエスワン配合OD錠T25",
+      "strength": "1錠中 テガフール25.0mg、ギメラシル7.25mg、オテラシルカリウム24.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に刻印らしき図示があるが文字は判読できず",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年1月改訂",
+      "source_page": 1,
+      "source_quote": "性状：うすいだいだい色のフィルムコーティング錠（口腔内崩壊錠）、外形・大きさ 直径約7.6mm、厚さ約3.5mm、質量約173mg"
+    }
+  ]
+}

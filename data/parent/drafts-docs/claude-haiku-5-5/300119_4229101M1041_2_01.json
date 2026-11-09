@@ -1,0 +1,49 @@
+{
+  "id": "300119_4229101M1041_2_01",
+  "source_file": "300119_4229101M1041_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4229101M1041_2_01",
+  "extracted_at": "2026-11-09T15:35:17.387Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34546,
+    "output": 2244
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスエーワン配合カプセルT20",
+      "strength": "1カプセル中 日局テガフール20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図中にはカプセル胴部に「T20」の表示があるが、表裏の区別は本文に記載なし",
+      "color": "頭部：白色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤　形 硬カプセル剤 性　状 頭　部：白色不透明 胴　部：白色不透明 内容物：白色の粒を含む粉末 全長（mm） 14.5 重量（mg） 約179"
+    },
+    {
+      "product_name": "エスエーワン配合カプセルT25",
+      "strength": "1カプセル中 日局テガフール25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図中にはカプセル胴部に「T25」の表示があるが、表裏の区別は本文に記載なし",
+      "color": "頭部：だいだい色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤　形 硬カプセル剤 性　状 頭　部：だいだい色不透明 胴　部：白色不透明 内容物：白色の粒を含む粉末 全長（mm） 14.5 重量（mg） 約214"
+    }
+  ],
+  "expected_products": [
+    "エスエーワン配合カプセルT25"
+  ]
+}
