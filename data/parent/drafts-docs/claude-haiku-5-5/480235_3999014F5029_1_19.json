@@ -1,0 +1,33 @@
+{
+  "id": "480235_3999014F5029_1_19",
+  "source_file": "480235_3999014F5029_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999014F5029_1_19",
+  "extracted_at": "2026-11-09T15:33:13.336Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 38279,
+    "output": 1329
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムス錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "タクロリムス 5 トーワ",
+      "imprint_back": "タクロリムス 5 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.8,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の楕円形のフィルムコーティング錠 本体表示 タクロリムス 5 トーワ 直径(mm) 長径：13.6 短径：6.8 厚さ(mm) 4.6"
+    }
+  ],
+  "expected_products": [
+    "タクロリムス錠5mg「トーワ」"
+  ]
+}

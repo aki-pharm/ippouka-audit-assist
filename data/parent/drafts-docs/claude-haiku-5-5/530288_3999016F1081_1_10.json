@@ -1,0 +1,49 @@
+{
+  "id": "530288_3999016F1081_1_10",
+  "source_file": "530288_3999016F1081_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530288_3999016F1081_1_10",
+  "extracted_at": "2026-11-09T15:33:39.291Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27614,
+    "output": 2167
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトトレキサート錠1mg「日本臓器」",
+      "strength": "1mg",
+      "imprint_front": "Z71",
+      "imprint_back": "1",
+      "imprint_note": "裏面の刻印は外形図の図示による",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形フィルムコーティング錠 色調 淡紅色 外形 重量 155mg 7.1mm 3.5mm 表 Z71 裏 1 側面 識別コード Z71"
+    },
+    {
+      "product_name": "メトトレキサート錠2mg「日本臓器」",
+      "strength": "2mg",
+      "imprint_front": "Z72",
+      "imprint_back": "2",
+      "imprint_note": "裏面の刻印は外形図の図示による",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形フィルムコーティング錠 色調 淡黄色 外形 重量 155mg 7.1mm 3.5mm 表 Z72 裏 2 側面 識別コード Z72"
+    }
+  ],
+  "expected_products": [
+    "メトトレキサート錠2mg「日本臓器」"
+  ]
+}

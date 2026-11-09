@@ -1,0 +1,30 @@
+{
+  "id": "400278_3999018F2125_1_09",
+  "source_file": "400278_3999018F2125_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3999018F2125_1_09",
+  "extracted_at": "2026-11-09T15:33:46.848Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23024,
+    "output": 1596
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠35mg「TCK」",
+      "strength": "35mg",
+      "imprint_front": "TU",
+      "imprint_back": "35",
+      "imprint_note": "識別コード欄は「TU」のみ。裏面の「35」は外形図より読み取り",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10.3,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 アレンドロン酸錠35mg「TCK」 外形 直径（mm）10.3 × 5.6、厚さ（mm）3.8、重量（mg）175 色調 白色 剤形 素錠 識別コード TU"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "580591_3999016F1090_1_06",
+  "source_file": "580591_3999016F1090_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3999016F1090_1_06",
+  "extracted_at": "2026-11-09T15:33:14.703Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25036,
+    "output": 1242
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトトレキサート錠 2mg「JG」",
+      "strength": "2mg",
+      "imprint_front": "JG F51",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "赤みの黄色の片面割線入りのフィルムコーティング錠 直径 8.1mm 厚さ 3.5mm 重量 188mg"
+    }
+  ],
+  "expected_products": [
+    "メトトレキサート錠2mg「JG」"
+  ]
+}

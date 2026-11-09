@@ -1,0 +1,33 @@
+{
+  "id": "300119_3999018F2141_1_08",
+  "source_file": "300119_3999018F2141_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3999018F2141_1_08",
+  "extracted_at": "2026-11-09T15:33:46.248Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20904,
+    "output": 1079
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠35mg「サワイ」",
+      "strength": "35mg",
+      "imprint_front": "SW ALD 35",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10.3,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.7,
+      "score_line": false,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性　状 白色 直径（mm） 10.3×5.6 厚さ（mm） 3.7 重量（mg） 約175 識別コード SW ALD 35"
+    }
+  ],
+  "expected_products": [
+    "アレンドロン酸錠35mg「サワイ」"
+  ]
+}

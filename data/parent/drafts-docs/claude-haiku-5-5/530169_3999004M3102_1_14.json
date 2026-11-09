@@ -1,0 +1,65 @@
+{
+  "id": "530169_3999004M3102_1_14",
+  "source_file": "530169_3999004M3102_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999004M3102_1_14",
+  "extracted_at": "2026-11-09T15:33:03.149Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 42039,
+    "output": 2197
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シクロスポリンカプセル10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の光沢のある軟カプセル剤で、特異なにおいがある。（質量147.5mg、包装コード109）"
+    },
+    {
+      "product_name": "シクロスポリンカプセル25mg「日医工」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の光沢のある軟カプセル剤で、特異なにおいがある。（質量301.4mg、包装コード448）"
+    },
+    {
+      "product_name": "シクロスポリンカプセル50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の光沢のある軟カプセル剤で、特異なにおいがある。（質量568mg、包装コード449）"
+    }
+  ],
+  "expected_products": [
+    "シクロスポリンカプセル50mg「日医工」"
+  ]
+}
