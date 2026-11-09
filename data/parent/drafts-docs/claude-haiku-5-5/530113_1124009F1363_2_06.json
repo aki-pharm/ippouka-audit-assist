@@ -1,0 +1,33 @@
+{
+  "id": "530113_1124009F1363_2_06",
+  "source_file": "530113_1124009F1363_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1124009F1363_2_06",
+  "extracted_at": "2026-11-09T13:55:17.080Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12326,
+    "output": 803
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロチゾラム錠0.25mg「日新」",
+      "strength": "0.25mg",
+      "imprint_front": "NS 116",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 白色の楕円形の割線入りの素錠"
+    }
+  ],
+  "expected_products": [
+    "ブロチゾラム錠0.25mg「日新」"
+  ]
+}

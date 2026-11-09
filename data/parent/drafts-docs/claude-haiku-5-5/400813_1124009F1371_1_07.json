@@ -1,0 +1,33 @@
+{
+  "id": "400813_1124009F1371_1_07",
+  "source_file": "400813_1124009F1371_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1124009F1371_1_07",
+  "extracted_at": "2026-11-09T13:55:10.188Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13377,
+    "output": 1244
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロチゾラム錠0.25mg「テバ」",
+      "strength": "0.25mg",
+      "imprint_front": "t BT",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）の表記。製剤の性状の図に「B T」の図示あり。割線は片面のみ（裏面の刻印は記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の片面1/2割線入り素錠 直径 8.0mm 厚さ 2.4mm 重量 160mg 識別コード（PTP） t BT"
+    }
+  ],
+  "expected_products": [
+    "ブロチゾラム錠0.25mg「テバ」"
+  ]
+}

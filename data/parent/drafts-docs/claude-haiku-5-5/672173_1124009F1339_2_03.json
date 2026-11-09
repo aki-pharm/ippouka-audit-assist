@@ -1,0 +1,33 @@
+{
+  "id": "672173_1124009F1339_2_03",
+  "source_file": "672173_1124009F1339_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1124009F1339_2_03",
+  "extracted_at": "2026-11-09T13:55:00.447Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13599,
+    "output": 1354
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロチゾラム錠 0.25mg「アメル」",
+      "strength": "0.25mg",
+      "imprint_front": "KW871",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKW871のみ記載。裏面の刻印は文書に記載なし。片面割線入り素錠",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "片面割線入り素錠 白色 直径：約 6.0mm 厚さ：約 2.1mm 質量：約 80.0mg"
+    }
+  ],
+  "expected_products": [
+    "ブロチゾラム錠0.25mg「アメル」"
+  ]
+}

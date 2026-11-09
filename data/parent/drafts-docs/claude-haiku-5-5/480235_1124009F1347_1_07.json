@@ -1,0 +1,33 @@
+{
+  "id": "480235_1124009F1347_1_07",
+  "source_file": "480235_1124009F1347_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1124009F1347_1_07",
+  "extracted_at": "2026-11-09T13:55:12.087Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14555,
+    "output": 1202
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロチゾラム錠0.25mg「トーワ」",
+      "strength": "0.25mg",
+      "imprint_front": "Tw118",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年7月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 片面割線入りの白色素錠 識別コード Tw118 直径(mm) 8.0 厚さ(mm) 2.4"
+    }
+  ],
+  "expected_products": [
+    "ブロチゾラム錠0.25mg「トーワ」"
+  ]
+}

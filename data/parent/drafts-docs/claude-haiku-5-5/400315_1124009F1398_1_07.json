@@ -1,0 +1,33 @@
+{
+  "id": "400315_1124009F1398_1_07",
+  "source_file": "400315_1124009F1398_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1124009F1398_1_07",
+  "extracted_at": "2026-11-09T13:55:15.570Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10083,
+    "output": 1759
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロチゾラム錠0.25mg「ヨシトミ」",
+      "strength": "0.25mg",
+      "imprint_front": "Y-GD",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「Y-GD」とのみ記載され、表裏のどちらに刻印されるかは文書から確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色・素錠(割線入り) 識別コード Y-GD サイズ 直径(mm) 8.0 厚さ(mm) 2.4"
+    }
+  ],
+  "expected_products": [
+    "ブロチゾラム錠0.25mg「ヨシトミ」"
+  ]
+}
