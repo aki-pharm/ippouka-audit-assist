@@ -1,0 +1,50 @@
+{
+  "id": "340409_2325003F3205_1_07",
+  "source_file": "340409_2325003F3205_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_2325003F3205_1_07",
+  "extracted_at": "2026-11-09T15:01:41.325Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18346,
+    "output": 1602
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン OD 錠 10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "F 11",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の素錠 外形 直径 7.5mm 8.5mm 厚さ 3.4mm 4.0mm 重量 150mg 230mg 識別コード F 11 F 22"
+    },
+    {
+      "product_name": "ファモチジン OD 錠 20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "F 22",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の素錠 外形 直径 7.5mm 8.5mm 厚さ 3.4mm 4.0mm 重量 150mg 230mg 識別コード F 11 F 22"
+    }
+  ],
+  "expected_products": [
+    "ファモチジンOD錠10mg「ケミファ」",
+    "ファモチジンOD錠20mg「ケミファ」"
+  ]
+}

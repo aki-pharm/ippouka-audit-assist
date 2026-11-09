@@ -1,0 +1,50 @@
+{
+  "id": "400813_2325003F3221_1_07",
+  "source_file": "400813_2325003F3221_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2325003F3221_1_07",
+  "extracted_at": "2026-11-09T15:01:44.624Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17491,
+    "output": 1840
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジンOD錠10mg「テバ」",
+      "strength": "10mg",
+      "imprint_front": "t 041",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色の口腔内崩壊錠 形状 直径 7.5mm 厚さ 3.4mm 重量 150mg 識別コード（PTP） t 041"
+    },
+    {
+      "product_name": "ファモチジンOD錠20mg「テバ」",
+      "strength": "20mg",
+      "imprint_front": "t 042",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色の口腔内崩壊錠 形状 直径 8.5mm 厚さ 4.0mm 重量 230mg 識別コード（PTP） t 042"
+    }
+  ],
+  "expected_products": [
+    "ファモチジンOD錠10mg「テバ」",
+    "ファモチジンOD錠20mg「テバ」"
+  ]
+}

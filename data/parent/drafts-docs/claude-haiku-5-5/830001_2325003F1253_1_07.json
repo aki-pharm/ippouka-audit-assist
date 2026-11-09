@@ -1,0 +1,84 @@
+{
+  "id": "830001_2325003F1253_1_07",
+  "source_file": "830001_2325003F1253_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2325003F1253_1_07",
+  "extracted_at": "2026-11-09T15:01:33.185Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20996,
+    "output": 2488
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "YD 640",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.7,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径 約7.6mm 厚さ 約3.7mm 重量 160mg"
+    },
+    {
+      "product_name": "ファモチジン錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "YD 641",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径 約8.1mm 厚さ 約3.8mm 重量 195mg"
+    },
+    {
+      "product_name": "ファモチジンOD錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "YD 575",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の素錠 直径 約6mm 厚さ 約2.9mm 重量 80mg"
+    },
+    {
+      "product_name": "ファモチジンOD錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "YD 524",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りの素錠 直径 約6mm 厚さ 約3.1mm 重量 90mg"
+    }
+  ],
+  "expected_products": [
+    "ファモチジンOD錠10mg「YD」",
+    "ファモチジンOD錠20mg「YD」",
+    "ファモチジン錠10mg「YD」",
+    "ファモチジン錠20mg「YD」"
+  ]
+}
