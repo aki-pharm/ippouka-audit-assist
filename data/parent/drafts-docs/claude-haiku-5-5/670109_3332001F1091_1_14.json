@@ -1,0 +1,33 @@
+{
+  "id": "670109_3332001F1091_1_14",
+  "source_file": "670109_3332001F1091_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_3332001F1091_1_14",
+  "extracted_at": "2026-11-09T15:19:25.559Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34217,
+    "output": 1295
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワルファリンK錠1mg「F」",
+      "strength": "1mg",
+      "imprint_front": "FJ01",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードFJ01のみ記載。表裏の別は明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（割線入り）、色調 白色、直径 7.0mm、厚さ 2.4mm、識別コード FJ01"
+    }
+  ],
+  "expected_products": [
+    "ワルファリンK錠1mg「F」"
+  ]
+}

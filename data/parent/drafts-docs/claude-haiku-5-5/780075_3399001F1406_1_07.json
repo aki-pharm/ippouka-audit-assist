@@ -1,0 +1,33 @@
+{
+  "id": "780075_3399001F1406_1_07",
+  "source_file": "780075_3399001F1406_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_3399001F1406_1_07",
+  "extracted_at": "2026-11-09T15:19:33.241Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14829,
+    "output": 1038
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チクロピジン塩酸塩錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW 362",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色～淡黄白色 直径（mm） 8.2 厚さ（mm） 4.3 重量（mg） 約191 識別コード SW 362"
+    }
+  ],
+  "expected_products": [
+    "チクロピジン塩酸塩錠100mg「サワイ」"
+  ]
+}
