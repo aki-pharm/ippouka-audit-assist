@@ -1,0 +1,50 @@
+{
+  "id": "400278_2399010F1125_1_05",
+  "source_file": "400278_2399010F1125_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2399010F1125_1_05",
+  "extracted_at": "2026-11-09T15:10:02.197Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14749,
+    "output": 2024
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠 2.5mg「TCK」",
+      "strength": "2.5mg",
+      "imprint_front": "TU 254",
+      "imprint_back": "2.5",
+      "imprint_note": "裏面の「2.5」は製剤の性状の図からの読み取り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "モサプリドクエン酸塩錠2.5mg「TCK」 白色 フィルムコーティング錠 TU 254 直径 6.1 mm 厚さ 2.8 mm 重量 80 mg"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠 5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "TU 255",
+      "imprint_back": "5",
+      "imprint_note": "裏面の「5」は製剤の性状の図からの読み取り",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "モサプリドクエン酸塩錠5mg「TCK」 白色 フィルムコーティング錠（割線入り） TU 255 10.1×5.1 3.3 140"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「TCK」",
+    "モサプリドクエン酸塩錠5mg「TCK」"
+  ]
+}

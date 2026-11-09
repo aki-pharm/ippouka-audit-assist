@@ -1,0 +1,50 @@
+{
+  "id": "830001_2399010F1141_1_07",
+  "source_file": "830001_2399010F1141_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2399010F1141_1_07",
+  "extracted_at": "2026-11-09T15:10:17.122Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15788,
+    "output": 2240
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「YD」",
+      "strength": "2.5mg",
+      "imprint_front": "YD 381",
+      "imprint_back": "2.5",
+      "imprint_note": "表面・裏面の刻印は添付文書の外形図から読み取った",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 外形 直径 約6.1mm 厚さ 約2.8mm 重量 80mg"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD 382",
+      "imprint_back": "5",
+      "imprint_note": "表面・裏面の刻印は添付文書の外形図から読み取った",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りフィルムコーティング錠 外形 （長径）約10.1mm （短径）約5.1mm 厚さ 約3.3mm 重量 140mg"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「YD」",
+    "モサプリドクエン酸塩錠5mg「YD」"
+  ]
+}

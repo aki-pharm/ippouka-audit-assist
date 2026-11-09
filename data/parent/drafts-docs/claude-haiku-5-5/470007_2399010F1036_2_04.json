@@ -1,0 +1,50 @@
+{
+  "id": "470007_2399010F1036_2_04",
+  "source_file": "470007_2399010F1036_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2399010F1036_2_04",
+  "extracted_at": "2026-11-09T15:09:39.806Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14006,
+    "output": 1740
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「AA」",
+      "strength": "2.5mg",
+      "imprint_front": "AA007",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径約6.2mm 厚さ約3.3mm 質量約82mg 識別コード AA007"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「AA」",
+      "strength": "5mg",
+      "imprint_front": "AA017",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.2,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠（割線入り） 短径約4.6mm 長径約9.2mm 厚さ約3.8mm 質量約140mg 識別コード AA017"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「AA」",
+    "モサプリドクエン酸塩錠5mg「AA」"
+  ]
+}

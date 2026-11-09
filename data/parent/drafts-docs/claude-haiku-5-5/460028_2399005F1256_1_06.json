@@ -1,0 +1,50 @@
+{
+  "id": "460028_2399005F1256_1_06",
+  "source_file": "460028_2399005F1256_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2399005F1256_1_06",
+  "extracted_at": "2026-11-09T15:09:07.887Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15384,
+    "output": 1463
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドンペリドン錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "F33",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 ／ 色調 白色 ／ 大きさ 直径 約6.1mm 厚さ 約3.2mm ／ 識別コード F33"
+    },
+    {
+      "product_name": "ドンペリドン錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "F27",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線を有するフィルムコーティング錠 ／ 色調 白色 ／ 大きさ 直径 約6.6mm 厚さ 約2.9mm ／ 識別コード F27"
+    }
+  ],
+  "expected_products": [
+    "ドンペリドン錠10mg「ツルハラ」",
+    "ドンペリドン錠5mg「ツルハラ」"
+  ]
+}

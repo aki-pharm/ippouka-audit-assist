@@ -1,0 +1,50 @@
+{
+  "id": "530113_2399010F1257_1_06",
+  "source_file": "530113_2399010F1257_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2399010F1257_1_06",
+  "extracted_at": "2026-11-09T15:11:00.234Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14074,
+    "output": 2280
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「日新」",
+      "strength": "2.5mg",
+      "imprint_front": "NS 270",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄はNS 270のみ記載。表裏の別は本文に明記なし（画像には「2.5」の図示あり）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 外形 錠径： 6.1mm 錠厚： 2.6mm 重量：82.5mg 識別コード NS 270"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "NS 276",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りフィルムコーティング錠 外形 大きさ 長径：9.1mm 短径：4.6mm 錠厚：3.2mm 重量：113mg 識別コード NS 276"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「日新」",
+    "モサプリドクエン酸塩錠5mg「日新」"
+  ]
+}

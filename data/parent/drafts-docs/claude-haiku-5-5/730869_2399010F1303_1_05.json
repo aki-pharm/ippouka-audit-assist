@@ -1,0 +1,50 @@
+{
+  "id": "730869_2399010F1303_1_05",
+  "source_file": "730869_2399010F1303_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2399010F1303_1_05",
+  "extracted_at": "2026-11-09T15:10:14.770Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13945,
+    "output": 1729
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「VTRS」",
+      "strength": "2.5mg",
+      "imprint_front": "2.5 MO",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色 フィルムコーティング錠 外形 直径 厚さ 重量 6.1mm 2.6mm 82.5mg 識別コード 2.5 MO VLE"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "VTRS",
+      "imprint_back": "5 MO",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色 割線入り フィルムコーティング錠 長径 短径 厚さ 重量 9.1mm 4.6mm 3.2mm 113mg 識別コード VTRS 5 MO"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「VTRS」",
+    "モサプリドクエン酸塩錠5mg「VTRS」"
+  ]
+}

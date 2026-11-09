@@ -1,0 +1,33 @@
+{
+  "id": "300119_2399006F1579_1_03",
+  "source_file": "300119_2399006F1579_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2399006F1579_1_03",
+  "extracted_at": "2026-11-09T15:09:27.189Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10890,
+    "output": 926
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリメブチンマレイン酸塩錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW 907",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性　状 白色～微黄白色 / 直径（mm） 8.2 / 厚さ（mm） 3.5 / 識別コード SW 907"
+    }
+  ],
+  "expected_products": [
+    "トリメブチンマレイン酸塩錠100mg「サワイ」"
+  ]
+}

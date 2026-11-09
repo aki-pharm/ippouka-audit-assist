@@ -1,0 +1,50 @@
+{
+  "id": "530169_2399005F1191_1_07",
+  "source_file": "530169_2399005F1191_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2399005F1191_1_07",
+  "extracted_at": "2026-11-09T15:09:19.520Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15249,
+    "output": 2468
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドンペリドン錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "122",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は122の記載あり。裏面の刻印記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 表面 122 直径（mm） 6.1 厚さ（mm） 3.2"
+    },
+    {
+      "product_name": "ドンペリドン錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "687",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は687の記載あり。裏面の刻印記載なし",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色～微黄色 表面 687 直径（mm） 7.1 厚さ（mm） 3.1"
+    }
+  ],
+  "expected_products": [
+    "ドンペリドン錠10mg「日医工」",
+    "ドンペリドン錠5mg「日医工」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "450064_2399005F1213_1_07",
+  "source_file": "450064_2399005F1213_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2399005F1213_1_07",
+  "extracted_at": "2026-11-09T15:08:54.401Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16770,
+    "output": 1529
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドンペリドン錠5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "ch26",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 外形 大きさ 直径 6.1mm 厚さ 3.2mm 識別コード ch26"
+    },
+    {
+      "product_name": "ドンペリドン錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "ch27",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 外形 大きさ 直径 7.1mm 厚さ 3.4mm 識別コード ch27"
+    }
+  ],
+  "expected_products": [
+    "ドンペリドン錠10mg「JG」",
+    "ドンペリドン錠5mg「JG」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "480209_2399005F1272_1_06",
+  "source_file": "480209_2399005F1272_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2399005F1272_1_06",
+  "extracted_at": "2026-11-09T15:09:29.789Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16962,
+    "output": 1992
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドンペリドン錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "KRM292",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「5」の表示あり",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色 白色～淡黄白色 外形 直径(mm) 6.1 6.1 厚さ(mm) 2.9 2.8 質量(mg) 79 87.5 識別コード KRM292 KRM293"
+    },
+    {
+      "product_name": "ドンペリドン錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "KRM293",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色 白色～淡黄白色 外形 直径(mm) 6.1 6.1 厚さ(mm) 2.9 2.8 質量(mg) 79 87.5 識別コード KRM292 KRM293"
+    }
+  ],
+  "expected_products": [
+    "ドンペリドン錠10mg「杏林」",
+    "ドンペリドン錠5mg「杏林」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "430773_2399010F1052_1_06",
+  "source_file": "430773_2399010F1052_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2399010F1052_1_06",
+  "extracted_at": "2026-11-09T15:09:48.128Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14075,
+    "output": 1982
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「DSEP」",
+      "strength": "2.5mg",
+      "imprint_front": "EP 230",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色 EP 230 6.1 2.6 82.5"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "EP 231",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠（割線入） 白色 EP231 9.1（長径） 4.6（短径） 3.2 113"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「DSEP」",
+    "モサプリドクエン酸塩錠5mg「DSEP」"
+  ]
+}
