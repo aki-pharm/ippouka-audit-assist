@@ -4,6 +4,7 @@
 カメラに錠剤を判定させません。判断するのは薬剤師。このツールの役割は「調べる手間を減らすこと」です。
 
 > Built with Claude: Japan 2026（2026-11-02 〜 11-08）の期間中に新規に制作しました。チーム「ちーむおひとりさま」（現役病院薬剤師 AKI ＋ Claude Code）。
+> **提出時点（11/5）のコードはタグ [`hackathon-submission`](https://github.com/aki-pharm/ippouka-audit-assist/tree/hackathon-submission) です。** それ以降のコミットは提出後の継続開発（全医薬品の親マスタづくりなど）で、提出した機能は変えていません。
 
 - デモ動画（3分）：https://youtu.be/eocBAMFk2Gk
 - 仕様書：[docs/design.md](docs/design.md)
