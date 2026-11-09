@@ -1,0 +1,50 @@
+{
+  "id": "300119_2329020F1132_1_03",
+  "source_file": "300119_2329020F1132_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2329020F1132_1_03",
+  "extracted_at": "2026-11-09T15:04:25.674Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13299,
+    "output": 1863
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルソグラジンマレイン酸塩錠2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW 107",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 6.0 厚さ（mm） 3.1 重量（mg） 約95 識別コード SW 107"
+    },
+    {
+      "product_name": "イルソグラジンマレイン酸塩錠4mg「サワイ」",
+      "strength": "4mg",
+      "imprint_front": "SW 103",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色 直径（mm） 7.0 厚さ（mm） 2.6 重量（mg） 約130 識別コード SW 103"
+    }
+  ],
+  "expected_products": [
+    "イルソグラジンマレイン酸塩錠2mg「サワイ」",
+    "イルソグラジンマレイン酸塩錠4mg「サワイ」"
+  ]
+}

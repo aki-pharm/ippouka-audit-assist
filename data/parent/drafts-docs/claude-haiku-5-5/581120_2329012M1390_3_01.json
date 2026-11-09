@@ -1,0 +1,33 @@
+{
+  "id": "581120_2329012M1390_3_01",
+  "source_file": "581120_2329012M1390_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2329012M1390_3_01",
+  "extracted_at": "2026-11-09T15:04:20.966Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10217,
+    "output": 1629
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テプレノンカプセル50mg「日医工P」",
+      "strength": "50mg",
+      "imprint_front": "TPR 237",
+      "imprint_back": "未確認",
+      "imprint_note": "本体コードTPR 237、包装コードt237。表裏の別は文書から判別できない",
+      "color": "キャップ：灰青緑色不透明／ボディ：淡だいだい色不透明（内容物：白色～帯黄白色の粒及び粉末）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "キャップ：灰青緑色不透明 ボディ：淡だいだい色不透明 内容物：白色～帯黄白色の粒及び粉末 外形 大きさ 4号カプセル 本体コード TPR 237 包装コード t237"
+    }
+  ],
+  "expected_products": [
+    "テプレノンカプセル50mg「日医工P」"
+  ]
+}
