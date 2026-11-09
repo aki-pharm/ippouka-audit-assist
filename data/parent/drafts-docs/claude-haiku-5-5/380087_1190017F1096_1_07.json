@@ -1,0 +1,65 @@
+{
+  "id": "380087_1190017F1096_1_07",
+  "source_file": "380087_1190017F1096_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1190017F1096_1_07",
+  "extracted_at": "2026-11-09T14:18:50.199Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 43975,
+    "output": 3465
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「ZE」",
+      "strength": "25mg",
+      "imprint_front": "プレガバリン OD25 ZE",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2製剤の性状の本体表示欄の記載を転記。裏面の刻印は確認できず",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色 剤形 素錠（口腔内崩壊錠） 外形 錠径（mm） 6.5 9.5 16.0/7.4 厚み（mm） 3.2 4.7 6.2"
+    },
+    {
+      "product_name": "プレガバリンOD錠75mg「ZE」",
+      "strength": "75mg",
+      "imprint_front": "プレガバリン OD75 ZE",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2製剤の性状の本体表示欄の記載を転記。裏面の刻印は確認できず",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色 剤形 素錠（口腔内崩壊錠） 外形 錠径（mm） 6.5 9.5 16.0/7.4 厚み（mm） 3.2 4.7 6.2"
+    },
+    {
+      "product_name": "プレガバリンOD錠150mg「ZE」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリン OD150 ZE",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2製剤の性状の本体表示欄の記載を転記。裏面の刻印は確認できず",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 16,
+      "size_short_mm": 7.4,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色 剤形 素錠（口腔内崩壊錠） 外形 錠径（mm） 6.5 9.5 16.0/7.4 厚み（mm） 3.2 4.7 6.2"
+    }
+  ],
+  "expected_products": [
+    "プレガバリンOD錠150mg「ZE」"
+  ]
+}

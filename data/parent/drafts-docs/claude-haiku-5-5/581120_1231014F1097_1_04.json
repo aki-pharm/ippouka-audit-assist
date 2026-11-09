@@ -1,0 +1,33 @@
+{
+  "id": "581120_1231014F1097_1_04",
+  "source_file": "581120_1231014F1097_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1231014F1097_1_04",
+  "extracted_at": "2026-11-09T14:21:30.680Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13761,
+    "output": 1413
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジスチグミン臭化物錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "TYK216",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）欄の記載を転記。表裏の区別は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠 外形 直径：7.0mm 厚さ：2.7mm 質量：約130mg 識別コード（PTP） TYK216"
+    }
+  ],
+  "expected_products": [
+    "ジスチグミン臭化物錠5mg「NIG」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "460028_1249010F1255_1_06",
+  "source_file": "460028_1249010F1255_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1249010F1255_1_06",
+  "extracted_at": "2026-11-09T14:22:17.805Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13261,
+    "output": 1091
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チザニジン錠1mg「ツルハラ」",
+      "strength": "1mg",
+      "imprint_front": "TSU431",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色～淡黄白色 外形 大きさ 直径 約6.5mm 厚さ 約2.4mm 質量 約110mg 識別コード TSU431"
+    }
+  ],
+  "expected_products": [
+    "チザニジン錠1mg「ツルハラ」"
+  ]
+}

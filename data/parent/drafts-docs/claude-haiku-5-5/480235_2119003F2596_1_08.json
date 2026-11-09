@@ -1,0 +1,33 @@
+{
+  "id": "480235_2119003F2596_1_08",
+  "source_file": "480235_2119003F2596_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2119003F2596_1_08",
+  "extracted_at": "2026-11-09T14:23:24.430Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8787,
+    "output": 1324
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユビデカレノン錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw308",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印について文書に記載なし",
+      "color": "橙色",
+      "shape": "round",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 橙色の糖衣錠 識別コード Tw308 直径(mm) 7.4 厚さ(mm) 4.5"
+    }
+  ],
+  "expected_products": [
+    "ユビデカレノン錠10mg「トーワ」"
+  ]
+}

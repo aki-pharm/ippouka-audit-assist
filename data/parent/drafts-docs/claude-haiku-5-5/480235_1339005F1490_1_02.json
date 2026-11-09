@@ -1,0 +1,50 @@
+{
+  "id": "480235_1339005F1490_1_02",
+  "source_file": "480235_1339005F1490_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1339005F1490_1_02",
+  "extracted_at": "2026-11-09T14:23:02.352Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9199,
+    "output": 1921
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠6mg「トーワ」",
+      "strength": "6mg",
+      "imprint_front": "Tw320",
+      "imprint_back": "6",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠 識別コード Tw320 直径(mm) 8.0 厚さ(mm) 2.8"
+    },
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠12mg「トーワ」",
+      "strength": "12mg",
+      "imprint_front": "Tw340",
+      "imprint_back": "12",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠 識別コード Tw340 直径(mm) 8.0 厚さ(mm) 3.0"
+    }
+  ],
+  "expected_products": [
+    "ベタヒスチンメシル酸塩錠12mg「トーワ」",
+    "ベタヒスチンメシル酸塩錠6mg「トーワ」"
+  ]
+}

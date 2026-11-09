@@ -1,0 +1,67 @@
+{
+  "id": "672173_1190017F1100_1_05",
+  "source_file": "672173_1190017F1100_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1190017F1100_1_05",
+  "extracted_at": "2026-11-09T14:18:59.178Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 46565,
+    "output": 2547
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリン OD 錠 25mg「アメル」",
+      "strength": "25mg",
+      "imprint_front": "プレガバリン OD 25 アメル",
+      "imprint_back": "プレガバリン OD 25 アメル",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "素錠 プレガバリン OD 25 アメル 白色 直径：約 6.1mm 厚さ：約 2.6mm 質量：約 70.0mg"
+    },
+    {
+      "product_name": "プレガバリン OD 錠 75mg「アメル」",
+      "strength": "75mg",
+      "imprint_front": "プレガバリン OD 75 アメル",
+      "imprint_back": "プレガバリン OD 75 アメル",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "素錠 プレガバリン OD 75 アメル 白色 直径：約 8.1mm 厚さ：約 4.1mm 質量：約 210.0mg"
+    },
+    {
+      "product_name": "プレガバリン OD 錠 150mg「アメル」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリン OD 150 アメル",
+      "imprint_back": "プレガバリン OD 150 アメル",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "素錠 プレガバリン OD 150 アメル 白色 直径：約 10.6mm 厚さ：約 5.0mm 質量：約 420.0mg"
+    }
+  ],
+  "expected_products": [
+    "プレガバリンOD錠150mg「アメル」",
+    "プレガバリンOD錠25mg「アメル」",
+    "プレガバリンOD錠75mg「アメル」"
+  ]
+}

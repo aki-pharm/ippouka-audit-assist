@@ -1,0 +1,33 @@
+{
+  "id": "581120_1249009F1511_1_04",
+  "source_file": "581120_1249009F1511_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1249009F1511_1_04",
+  "extracted_at": "2026-11-09T14:21:54.918Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10011,
+    "output": 1811
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エペリゾン塩酸塩錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "EPN",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTP欄の表記（t EPN）に基づく。裏面の刻印は文書に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径：6.1mm 厚さ：3.0mm 質量：74mg 識別コード（PTP） t EPN"
+    }
+  ],
+  "expected_products": [
+    "エペリゾン塩酸塩錠50mg「NIG」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "530169_1179048F1116_1_15",
+  "source_file": "530169_1179048F1116_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179048F1116_1_15",
+  "extracted_at": "2026-11-09T14:16:32.660Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33470,
+    "output": 2619
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロナンセリン錠2mg「日医工」",
+      "strength": "2mg",
+      "imprint_front": "ブロナンセリン 2 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 直径（mm） 5.8 厚さ（mm） 2.4 質量（mg） 60"
+    },
+    {
+      "product_name": "ブロナンセリン錠4mg「日医工」",
+      "strength": "4mg",
+      "imprint_front": "ブロナンセリン 4 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 白色 直径（mm） 7.5 厚さ（mm） 2.2 質量（mg） 120"
+    },
+    {
+      "product_name": "ブロナンセリン錠8mg「日医工」",
+      "strength": "8mg",
+      "imprint_front": "ブロナンセリン 8 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 白色 直径（mm） 9.0 厚さ（mm） 3.1 質量（mg） 240"
+    }
+  ],
+  "expected_products": [
+    "ブロナンセリン錠2mg「日医工」",
+    "ブロナンセリン錠4mg「日医工」",
+    "ブロナンセリン錠8mg「日医工」"
+  ]
+}

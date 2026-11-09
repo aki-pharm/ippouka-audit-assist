@@ -1,0 +1,67 @@
+{
+  "id": "480235_2123016F1123_1_11",
+  "source_file": "480235_2123016F1123_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2123016F1123_1_11",
+  "extracted_at": "2026-11-09T14:25:03.016Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24725,
+    "output": 2696
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビソプロロールフマル酸塩錠0.625mg「トーワ」",
+      "strength": "0.625mg",
+      "imprint_front": "Tw700",
+      "imprint_back": "0.625",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 7.1,
+      "size_short_mm": 4,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の楕円形の割線入りの素錠 識別コード Tw700 ／ 外形 直径(mm) 7.1／4.0 (長径／短径) 厚さ(mm) 2.4"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "Tw128",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 識別コード Tw128 ／ 外形 直径(mm) 6.0 厚さ(mm) 3.1"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "Tw129",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に明記なし（外観図上は刻印が見当たらない）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 識別コード Tw129 ／ 外形 直径(mm) 7.0 厚さ(mm) 2.6"
+    }
+  ],
+  "expected_products": [
+    "ビソプロロールフマル酸塩錠0.625mg「トーワ」",
+    "ビソプロロールフマル酸塩錠2.5mg「トーワ」",
+    "ビソプロロールフマル酸塩錠5mg「トーワ」"
+  ]
+}

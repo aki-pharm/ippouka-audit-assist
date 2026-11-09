@@ -1,0 +1,33 @@
+{
+  "id": "270139_1249009F1503_1_03",
+  "source_file": "270139_1249009F1503_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270139_1249009F1503_1_03",
+  "extracted_at": "2026-11-09T14:21:45.662Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12655,
+    "output": 1422
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エペリゾン塩酸塩錠 50 ㎎「KO」",
+      "strength": "50mg",
+      "imprint_front": "KTB21",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 フィルムコート錠 直径（㎜） 7.1 厚さ（㎜） 3.4 質量（㎎） 126 識別コード KTB21"
+    }
+  ],
+  "expected_products": [
+    "エペリゾン塩酸塩錠50mg「KO」"
+  ]
+}

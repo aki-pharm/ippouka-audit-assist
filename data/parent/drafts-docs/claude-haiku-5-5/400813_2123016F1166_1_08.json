@@ -1,0 +1,67 @@
+{
+  "id": "400813_2123016F1166_1_08",
+  "source_file": "400813_2123016F1166_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2123016F1166_1_08",
+  "extracted_at": "2026-11-09T14:25:00.665Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25606,
+    "output": 2471
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビソプロロールフマル酸塩錠0.625mg「テバ」",
+      "strength": "0.625mg",
+      "imprint_front": "TV BF1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色の片面1/2割線入り素錠 白色の素錠 白色の片面1/2割線入り素錠 形状 直径（mm） 6.5 5.0 6.5 厚さ（mm） 2.8 2.3 2.3 識別コード（PTP） TV BF1 t C7 t MF7"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠2.5mg「テバ」",
+      "strength": "2.5mg",
+      "imprint_front": "t C7",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色の片面1/2割線入り素錠 白色の素錠 白色の片面1/2割線入り素錠 形状 直径（mm） 6.5 5.0 6.5 厚さ（mm） 2.8 2.3 2.3 識別コード（PTP） TV BF1 t C7 t MF7"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠5mg「テバ」",
+      "strength": "5mg",
+      "imprint_front": "t MF7",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄色の片面1/2割線入り素錠 白色の素錠 白色の片面1/2割線入り素錠 形状 直径（mm） 6.5 5.0 6.5 厚さ（mm） 2.8 2.3 2.3 識別コード（PTP） TV BF1 t C7 t MF7"
+    }
+  ],
+  "expected_products": [
+    "ビソプロロールフマル酸塩錠0.625mg「テバ」",
+    "ビソプロロールフマル酸塩錠2.5mg「テバ」",
+    "ビソプロロールフマル酸塩錠5mg「テバ」"
+  ]
+}

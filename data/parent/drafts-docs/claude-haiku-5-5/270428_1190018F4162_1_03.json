@@ -1,0 +1,82 @@
+{
+  "id": "270428_1190018F4162_1_03",
+  "source_file": "270428_1190018F4162_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1190018F4162_1_03",
+  "extracted_at": "2026-11-09T14:20:21.225Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27714,
+    "output": 3167
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「サンド」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印は判読できないため未確認",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の性状 剤形：素錠、色調：淡赤白色、直径：6.1mm、厚さ：3.2mm、質量：77mg"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠10mg「サンド」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印は判読できないため未確認",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の性状 剤形：素錠、色調：淡黄白色、直径：7.6mm、厚さ：3.6mm、質量：150mg"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠15mg「サンド」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印は判読できないため未確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.6,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の性状 剤形：素錠、色調：白色～微黄白色、直径：8.1mm、厚さ：4.6mm、質量：210mg"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「サンド」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印は判読できないため未確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の性状 剤形：割線入りの素錠、色調：白色～微黄白色、直径：9.1mm、厚さ：4.9mm、質量：280mg"
+    }
+  ],
+  "expected_products": [
+    "メマンチン塩酸塩OD錠10mg「サンド」",
+    "メマンチン塩酸塩OD錠20mg「サンド」"
+  ]
+}

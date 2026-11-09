@@ -1,0 +1,49 @@
+{
+  "id": "630111_2123011F1040_1_12",
+  "source_file": "630111_2123011F1040_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630111_2123011F1040_1_12",
+  "extracted_at": "2026-11-09T14:24:16.265Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17701,
+    "output": 1666
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルセノール錠25",
+      "strength": "アテノロール25mg",
+      "imprint_front": "HPC002",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 白色・フィルムコーティング錠 直径(mm) 6.1 厚さ(mm) 3.2 識別コード HPC002"
+    },
+    {
+      "product_name": "アルセノール錠50",
+      "strength": "アテノロール50mg",
+      "imprint_front": "HPC003",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 白色・フィルムコーティング錠 直径(mm) 8.1 厚さ(mm) 3.9 識別コード HPC003"
+    }
+  ],
+  "expected_products": [
+    "アルセノール錠25"
+  ]
+}

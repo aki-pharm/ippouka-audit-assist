@@ -1,0 +1,50 @@
+{
+  "id": "480209_1179051F1100_1_07",
+  "source_file": "480209_1179051F1100_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1179051F1100_1_07",
+  "extracted_at": "2026-11-09T14:17:02.993Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28265,
+    "output": 1972
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠15mg「杏林」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザピン 15 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 黄色 外形 本体表示 ミルタザピン 15 杏林 直径(mm) 長径：10.1 短径：6.1 厚さ(mm) 3.5"
+    },
+    {
+      "product_name": "ミルタザピン錠30mg「杏林」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザピン 30 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 黄赤色 外形 本体表示 ミルタザピン 30 杏林 直径(mm) 長径：13.1 短径：7.1 厚さ(mm) 4.2"
+    }
+  ],
+  "expected_products": [
+    "ミルタザピン錠15mg「杏林」",
+    "ミルタザピン錠30mg「杏林」"
+  ]
+}

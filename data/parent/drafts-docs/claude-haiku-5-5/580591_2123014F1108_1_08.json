@@ -1,0 +1,50 @@
+{
+  "id": "580591_2123014F1108_1_08",
+  "source_file": "580591_2123014F1108_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2123014F1108_1_08",
+  "extracted_at": "2026-11-09T14:24:19.602Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17148,
+    "output": 1608
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロチノロール塩酸塩錠5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "JG 30",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径 7.2mm 厚さ 3.2mm 重量 138mg 識別コード JG 30"
+    },
+    {
+      "product_name": "アロチノロール塩酸塩錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "JG 31",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡橙色のフィルムコーティング錠 直径 6.1mm 厚さ 2.9mm 重量 94mg 識別コード JG 31"
+    }
+  ],
+  "expected_products": [
+    "アロチノロール塩酸塩錠10mg「JG」",
+    "アロチノロール塩酸塩錠5mg「JG」"
+  ]
+}

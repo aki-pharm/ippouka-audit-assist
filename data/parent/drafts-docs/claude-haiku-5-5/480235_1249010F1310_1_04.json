@@ -1,0 +1,33 @@
+{
+  "id": "480235_1249010F1310_1_04",
+  "source_file": "480235_1249010F1310_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1249010F1310_1_04",
+  "extracted_at": "2026-11-09T14:22:23.889Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13294,
+    "output": 1215
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チザニジン錠1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "Tw119",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図上は刻印がないように見えるが、本文に「なし」とは明記されていない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 片面割線入りの淡黄色の素錠 識別コード Tw119 直径(mm) 7.0 厚さ(mm) 2.2"
+    }
+  ],
+  "expected_products": [
+    "チザニジン錠1mg「トーワ」"
+  ]
+}

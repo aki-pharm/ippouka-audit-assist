@@ -1,0 +1,66 @@
+{
+  "id": "370242_1179048B1033_1_15",
+  "source_file": "370242_1179048B1033_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370242_1179048B1033_1_15",
+  "extracted_at": "2026-11-09T14:16:05.109Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31785,
+    "output": 2524
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロナンセリン錠2mg「DSPB」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2026年8月改訂(第13版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 大きさ 直径(mm) 約5.8 厚さ(mm) 約2.4 重さ(mg) 約60"
+    },
+    {
+      "product_name": "ブロナンセリン錠4mg「DSPB」",
+      "strength": "4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂(第13版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠 大きさ 直径(mm) 約7.5 厚さ(mm) 約2.3 重さ(mg) 約120"
+    },
+    {
+      "product_name": "ブロナンセリン錠8mg「DSPB」",
+      "strength": "8mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年8月改訂(第13版)",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠 大きさ 直径(mm) 約9 厚さ(mm) 約3.2 重さ(mg) 約240"
+    }
+  ],
+  "expected_products": [
+    "ブロナンセリン錠2mg「DSPB」",
+    "ブロナンセリン錠4mg「DSPB」"
+  ]
+}

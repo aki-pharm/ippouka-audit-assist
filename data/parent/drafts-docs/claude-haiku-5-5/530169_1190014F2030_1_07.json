@@ -1,0 +1,33 @@
+{
+  "id": "530169_1190014F2030_1_07",
+  "source_file": "530169_1190014F2030_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190014F2030_1_07",
+  "extracted_at": "2026-11-09T14:18:29.892Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 11870,
+    "output": 1364
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タルチレリンOD錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "n553",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は上段に社名マーク、下段に553。本体コード欄は「n553」。裏面の刻印は文書に記載がないため未確認。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色 外形 直径（mm） 7.0 厚さ（mm） 2.9 質量（mg） 110 本体コード 553 包装コード 553"
+    }
+  ],
+  "expected_products": [
+    "タルチレリンOD錠5mg「日医工」"
+  ]
+}

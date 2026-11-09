@@ -1,0 +1,67 @@
+{
+  "id": "530113_2123016F1158_1_07",
+  "source_file": "530113_2123016F1158_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2123016F1158_1_07",
+  "extracted_at": "2026-11-09T14:25:14.253Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19961,
+    "output": 2207
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビソプロロールフマル酸塩錠 0.625mg「日新」",
+      "strength": "0.625mg",
+      "imprint_front": "NS 211",
+      "imprint_back": "625",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りの素錠 外形 大きさ 錠径：6.0mm 錠厚：2.6mm 重量： 80mg 識別コード NS 211"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠 2.5mg「日新」",
+      "strength": "2.5mg",
+      "imprint_front": "NS 218",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 外形 大きさ 錠径：6.0mm 錠厚：2.9mm 重量： 90mg 識別コード NS 218"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠 5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "NS 215",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の片面割線入りの素錠 外形 大きさ 錠径：7.0mm 錠厚：3.0mm 重量：120mg 識別コード NS 215"
+    }
+  ],
+  "expected_products": [
+    "ビソプロロールフマル酸塩錠0.625mg「日新」",
+    "ビソプロロールフマル酸塩錠2.5mg「日新」",
+    "ビソプロロールフマル酸塩錠5mg「日新」"
+  ]
+}

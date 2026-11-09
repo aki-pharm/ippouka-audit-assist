@@ -1,0 +1,49 @@
+{
+  "id": "300119_1231013M1105_1_05",
+  "source_file": "300119_1231013M1105_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1231013M1105_1_05",
+  "extracted_at": "2026-11-09T14:21:27.869Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10547,
+    "output": 1484
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チキジウム臭化物カプセル5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文の記載に刻印の文字なし（外形図のみ）",
+      "color": "淡橙色不透明",
+      "shape": "oblong",
+      "size_long_mm": 11.1,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "頭　部：淡橙色不透明 胴　部：淡橙色不透明 内容物：白色の粉末又は粒状である。"
+    },
+    {
+      "product_name": "チキジウム臭化物カプセル10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文の記載に刻印の文字なし（外形図のみ）",
+      "color": "白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 11.1,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "頭　部：白色不透明 胴　部：白色不透明 内容物：白色の粉末である。"
+    }
+  ],
+  "expected_products": [
+    "チキジウム臭化物カプセル5mg「サワイ」"
+  ]
+}

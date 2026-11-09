@@ -1,0 +1,82 @@
+{
+  "id": "480235_1179051F1142_1_06",
+  "source_file": "480235_1179051F1142_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179051F1142_1_06",
+  "extracted_at": "2026-11-09T14:16:51.163Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31760,
+    "output": 4045
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠15mg「トーワ」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザピン 15 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "黄色のだ円形のフィルムコーティング錠／直径(mm) 10.1／6.1（長径／短径）／厚さ(mm) 3.5"
+    },
+    {
+      "product_name": "ミルタザピン錠30mg「トーワ」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザピン 30 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.4,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "黄赤色のだ円形のフィルムコーティング錠／直径(mm) 13.1／7.1（長径／短径）／厚さ(mm) 4.4"
+    },
+    {
+      "product_name": "ミルタザピンOD錠15mg「トーワ」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザ 15",
+      "imprint_back": "ミルタザピン 15 OD トーワ",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の口腔内崩壊錠／直径(mm) 8.0／厚さ(mm) 3.3"
+    },
+    {
+      "product_name": "ミルタザピンOD錠30mg「トーワ」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザ 30",
+      "imprint_back": "ミルタザピン 30 OD トーワ",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の割線入りの口腔内崩壊錠／直径(mm) 10.0／厚さ(mm) 4.3"
+    }
+  ],
+  "expected_products": [
+    "ミルタザピンOD錠15mg「トーワ」",
+    "ミルタザピンOD錠30mg「トーワ」"
+  ]
+}

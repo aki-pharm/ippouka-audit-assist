@@ -1,0 +1,66 @@
+{
+  "id": "530169_1190012F1247_1_17",
+  "source_file": "530169_1190012F1247_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190012F1247_1_17",
+  "extracted_at": "2026-11-09T14:18:18.154Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27336,
+    "output": 2652
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「日医工」",
+      "strength": "3mg",
+      "imprint_front": "n322",
+      "imprint_back": "3",
+      "imprint_note": "本体コード欄の表記による（表面：n322、裏面：3）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 黄色 ... 直径（mm） 7.1 ... 厚さ（mm） 3.3"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "n323",
+      "imprint_back": "5",
+      "imprint_note": "本体コード欄の表記による（表面：n323、裏面：5）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 ... 直径（mm） 7.1 ... 厚さ（mm） 3.3"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "n324",
+      "imprint_back": "10",
+      "imprint_note": "本体コード欄の表記による（表面：n324、裏面：10）",
+      "color": "赤橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 赤橙色 ... 直径（mm） 8.6 ... 厚さ（mm） 4.4"
+    }
+  ],
+  "expected_products": [
+    "ドネペジル塩酸塩錠10mg「日医工」",
+    "ドネペジル塩酸塩錠5mg「日医工」"
+  ]
+}

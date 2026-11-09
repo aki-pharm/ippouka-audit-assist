@@ -1,0 +1,50 @@
+{
+  "id": "530258_2113003F1090_1_15",
+  "source_file": "530258_2113003F1090_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2113003F1090_1_15",
+  "extracted_at": "2026-11-09T14:23:13.979Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18229,
+    "output": 2264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジゴキシン錠0.125mg「AFP」",
+      "strength": "0.125mg",
+      "imprint_front": "NF 151",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして記載。表裏の刻印位置は本文に記載なし",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色の割線入り素錠 NF 151 7.0 2.1 100"
+    },
+    {
+      "product_name": "ジゴキシン錠0.25mg「AFP」",
+      "strength": "0.25mg",
+      "imprint_front": "NF 133",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして記載。表裏の刻印位置は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 NF 133 7.0 2.1 100"
+    }
+  ],
+  "expected_products": [
+    "ジゴキシン錠0.125mg「AFP」",
+    "ジゴキシン錠0.25mg「AFP」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "340460_1190015M1096_1_02",
+  "source_file": "340460_1190015M1096_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340460_1190015M1096_1_02",
+  "extracted_at": "2026-11-09T14:18:33.015Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24488,
+    "output": 1025
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルフラフィン塩酸塩カプセル2.5μg「トーワ」",
+      "strength": "2.5μg",
+      "imprint_front": "ナルフラフィン 2.5 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色不透明",
+      "shape": "oval",
+      "size_long_mm": 9.9,
+      "size_short_mm": 6.7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年11月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡黄白色不透明の楕円形"
+    }
+  ],
+  "expected_products": [
+    "ナルフラフィン塩酸塩カプセル2.5μg「トーワ」"
+  ]
+}

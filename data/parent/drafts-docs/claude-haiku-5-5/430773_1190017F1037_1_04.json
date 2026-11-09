@@ -1,0 +1,65 @@
+{
+  "id": "430773_1190017F1037_1_04",
+  "source_file": "430773_1190017F1037_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1190017F1037_1_04",
+  "extracted_at": "2026-11-09T14:19:17.703Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 42319,
+    "output": 2613
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「DSEP」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図に刻印が描かれているが判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：素錠（口腔内崩壊錠） 色：白色 直径6.0mm 厚さ3.0mm 質量80mg"
+    },
+    {
+      "product_name": "プレガバリンOD錠75mg「DSEP」",
+      "strength": "75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図に刻印が描かれているが判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：素錠（口腔内崩壊錠） 色：白色 直径8.0mm 厚さ4.2mm 質量190mg"
+    },
+    {
+      "product_name": "プレガバリンOD錠150mg「DSEP」",
+      "strength": "150mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図に刻印が描かれているが判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：素錠（口腔内崩壊錠） 色：白色 直径10.0mm 厚さ5.5mm 質量380mg"
+    }
+  ],
+  "expected_products": [
+    "プレガバリンOD錠25mg「DSEP」"
+  ]
+}

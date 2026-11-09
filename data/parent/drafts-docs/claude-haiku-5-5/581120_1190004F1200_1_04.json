@@ -1,0 +1,50 @@
+{
+  "id": "581120_1190004F1200_1_04",
+  "source_file": "581120_1190004F1200_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1190004F1200_1_04",
+  "extracted_at": "2026-11-09T14:17:19.706Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14695,
+    "output": 1899
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チアプリド錠25mg「NIG」",
+      "strength": "25mg",
+      "imprint_front": "G25",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は外形図の表示より。裏面の記載は確認できない。PTP包装の識別コードは「t G25 25mg」。",
+      "color": "白色〜微帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色〜微帯黄白色のフィルムコーティング錠 外形 直径 6.1mm 7.1mm 厚さ 3.0mm 3.9mm"
+    },
+    {
+      "product_name": "チアプリド錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "G50",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は外形図の表示より。裏面の記載は確認できない。PTP包装の識別コードは「t G50 50mg」。",
+      "color": "白色〜微帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.9,
+      "score_line": false,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色〜微帯黄白色のフィルムコーティング錠 外形 直径 6.1mm 7.1mm 厚さ 3.0mm 3.9mm"
+    }
+  ],
+  "expected_products": [
+    "チアプリド錠25mg「NIG」",
+    "チアプリド錠50mg「NIG」"
+  ]
+}

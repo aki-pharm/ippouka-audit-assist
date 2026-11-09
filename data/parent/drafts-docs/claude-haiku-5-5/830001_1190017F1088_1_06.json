@@ -1,0 +1,82 @@
+{
+  "id": "830001_1190017F1088_1_06",
+  "source_file": "830001_1190017F1088_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1190017F1088_1_06",
+  "extracted_at": "2026-11-09T14:19:37.820Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 46522,
+    "output": 4021
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「YD」",
+      "strength": "25mg",
+      "imprint_front": "OD25 YD",
+      "imprint_back": "OD25 YD",
+      "imprint_note": "外形図（画像）より判読",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の素錠 外形 直径 約6.0mm 厚さ 約2.9mm 重量 75mg"
+    },
+    {
+      "product_name": "プレガバリンOD錠50mg「YD」",
+      "strength": "50mg",
+      "imprint_front": "OD50 YD",
+      "imprint_back": "OD50 YD",
+      "imprint_note": "外形図（画像）より判読",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の割線入り素錠 直径 約7.5mm 厚さ 約3.8mm 重量 150mg"
+    },
+    {
+      "product_name": "プレガバリンOD錠75mg「YD」",
+      "strength": "75mg",
+      "imprint_front": "OD75 YD",
+      "imprint_back": "OD75 YD",
+      "imprint_note": "外形図（画像）より判読",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.3,
+      "size_short_mm": 8.3,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の素錠 直径 約8.3mm 厚さ 約4.7mm 重量 225mg"
+    },
+    {
+      "product_name": "プレガバリンOD錠150mg「YD」",
+      "strength": "150mg",
+      "imprint_front": "OD150 YD",
+      "imprint_back": "OD150 YD",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 5.9,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の割線入り素錠 直径 約10.5mm 厚さ 約5.9mm 重量 450mg"
+    }
+  ],
+  "expected_products": [
+    "プレガバリンOD錠25mg「YD」",
+    "プレガバリンOD錠75mg「YD」"
+  ]
+}

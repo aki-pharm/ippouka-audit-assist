@@ -1,0 +1,33 @@
+{
+  "id": "830001_1331001F1044_1_05",
+  "source_file": "830001_1331001F1044_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1331001F1044_1_05",
+  "extracted_at": "2026-11-09T14:22:32.137Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8529,
+    "output": 944
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドラマミン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "YD 552",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線付き素錠 外形 直径 約8.7mm 厚さ 約3.2mm"
+    }
+  ],
+  "expected_products": [
+    "ドラマミン錠50mg"
+  ]
+}

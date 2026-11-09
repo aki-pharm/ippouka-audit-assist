@@ -1,0 +1,33 @@
+{
+  "id": "300119_1249010F1301_1_05",
+  "source_file": "300119_1249010F1301_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1249010F1301_1_05",
+  "extracted_at": "2026-11-09T14:22:18.615Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14378,
+    "output": 1554
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チザニジン錠1mg「サワイ」",
+      "strength": "チザニジンとして1mg",
+      "imprint_front": "SW 727",
+      "imprint_back": "未確認",
+      "imprint_note": "表裏の別は添付文書に明記がないため、識別コードとして記載",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤　形 割線入り素錠 性　状 白色～微黄白色 直径（mm） 6.0 厚さ（mm） 2.4 重量（mg） 約90 識別コード SW 727"
+    }
+  ],
+  "expected_products": [
+    "チザニジン錠1mg「サワイ」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "460028_1190012F1107_1_11",
+  "source_file": "460028_1190012F1107_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1190012F1107_1_11",
+  "extracted_at": "2026-11-09T14:18:04.256Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29107,
+    "output": 1969
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「TSU」",
+      "strength": "3mg",
+      "imprint_front": "D17",
+      "imprint_back": "3",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 黄色 白色 赤橙色 ／ 大きさ 直径 約 6.1mm 約 6.1mm 約 7.6mm 厚さ 約 2.7mm 約 2.7mm 約 3.6mm ／ 識別コード 表面D17 裏面 3 表面D21 裏面 5 表面 D22 裏面 10"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩錠5mg「TSU」",
+      "strength": "5mg",
+      "imprint_front": "D21",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 黄色 白色 赤橙色 ／ 大きさ 直径 約 6.1mm 約 6.1mm 約 7.6mm 厚さ 約 2.7mm 約 2.7mm 約 3.6mm ／ 識別コード 表面D17 裏面 3 表面D21 裏面 5 表面 D22 裏面 10"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩錠10mg「TSU」",
+      "strength": "10mg",
+      "imprint_front": "D22",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "赤橙色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 黄色 白色 赤橙色 ／ 大きさ 直径 約 6.1mm 約 6.1mm 約 7.6mm 厚さ 約 2.7mm 約 2.7mm 約 3.6mm ／ 識別コード 表面D17 裏面 3 表面D21 裏面 5 表面 D22 裏面 10"
+    }
+  ],
+  "expected_products": [
+    "ドネペジル塩酸塩錠10mg「TSU」",
+    "ドネペジル塩酸塩錠5mg「TSU」"
+  ]
+}

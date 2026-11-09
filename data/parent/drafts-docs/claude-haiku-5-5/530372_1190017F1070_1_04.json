@@ -1,0 +1,66 @@
+{
+  "id": "530372_1190017F1070_1_04",
+  "source_file": "530372_1190017F1070_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_1190017F1070_1_04",
+  "extracted_at": "2026-11-09T14:19:21.968Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 42094,
+    "output": 2889
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「NPI」",
+      "strength": "25mg",
+      "imprint_front": "プレガバリンOD 25 NPI",
+      "imprint_back": "プレガバリンOD 25 NPI",
+      "imprint_note": "表裏の刻印は製剤の性状欄の識別コードおよび外形図に基づく。社名マークの記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 直径 6.0mm 厚さ 3.0mm 識別コード プレガバリンOD 25 NPI"
+    },
+    {
+      "product_name": "プレガバリンOD錠75mg「NPI」",
+      "strength": "75mg",
+      "imprint_front": "プレガバリンOD 75 NPI",
+      "imprint_back": "プレガバリンOD 75 NPI",
+      "imprint_note": "表裏の刻印は製剤の性状欄の識別コードおよび外形図に基づく。社名マークの記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 直径 8.0mm 厚さ 4.2mm 識別コード プレガバリンOD 75 NPI"
+    },
+    {
+      "product_name": "プレガバリンOD錠150mg「NPI」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリンOD 150 NPI",
+      "imprint_back": "プレガバリンOD 150 NPI",
+      "imprint_note": "表裏の刻印は製剤の性状欄の識別コードおよび外形図に基づく。社名マークの記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 直径 10.0mm 厚さ 5.5mm 識別コード プレガバリンOD 150 NPI"
+    }
+  ],
+  "expected_products": [
+    "プレガバリンOD錠25mg「NPI」",
+    "プレガバリンOD錠75mg「NPI」"
+  ]
+}

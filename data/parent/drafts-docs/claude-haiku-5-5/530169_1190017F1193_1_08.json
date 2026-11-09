@@ -1,0 +1,83 @@
+{
+  "id": "530169_1190017F1193_1_08",
+  "source_file": "530169_1190017F1193_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190017F1193_1_08",
+  "extracted_at": "2026-11-09T14:19:05.972Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 42115,
+    "output": 3397
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「日医工」",
+      "strength": "25mg",
+      "imprint_front": "プレガバリン 25",
+      "imprint_back": "OD 日医工",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 直径（mm） 6.1 厚さ（mm） 2.8 質量（mg） 80"
+    },
+    {
+      "product_name": "プレガバリンOD錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "プレガバリン 50",
+      "imprint_back": "OD 日医工",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 白色 直径（mm） 7.6 厚さ（mm） 4.0 質量（mg） 160"
+    },
+    {
+      "product_name": "プレガバリンOD錠75mg「日医工」",
+      "strength": "75mg",
+      "imprint_front": "プレガバリン OD 75 日医工",
+      "imprint_back": "プレガバリン OD 75 日医工",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 直径（mm） 8.4 厚さ（mm） 4.7 質量（mg） 240"
+    },
+    {
+      "product_name": "プレガバリンOD錠150mg「日医工」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリン OD 150 日医工",
+      "imprint_back": "プレガバリン OD 150 日医工",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 6.1,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 白色 直径（mm） 10.6 厚さ（mm） 6.1 質量（mg） 480"
+    }
+  ],
+  "expected_products": [
+    "プレガバリンOD錠150mg「日医工」（旧製品）",
+    "プレガバリンOD錠25mg「日医工」（旧製品）",
+    "プレガバリンOD錠75mg「日医工」（旧製品）"
+  ]
+}

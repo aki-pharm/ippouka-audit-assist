@@ -1,0 +1,83 @@
+{
+  "id": "400813_1190017F1177_1_06",
+  "source_file": "400813_1190017F1177_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1190017F1177_1_06",
+  "extracted_at": "2026-11-09T14:19:16.643Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 41636,
+    "output": 2720
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「武田テバ」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図中の刻印は判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の口腔内崩壊錠 直径（mm） 6.6 8.1 9.1 12.1 厚さ（mm） 2.9 3.8 4.3 5.1"
+    },
+    {
+      "product_name": "プレガバリンOD錠50mg「武田テバ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図中の刻印は判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の口腔内崩壊錠 直径（mm） 6.6 8.1 9.1 12.1 厚さ（mm） 2.9 3.8 4.3 5.1"
+    },
+    {
+      "product_name": "プレガバリンOD錠75mg「武田テバ」",
+      "strength": "75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図中の刻印は判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の口腔内崩壊錠 直径（mm） 6.6 8.1 9.1 12.1 厚さ（mm） 2.9 3.8 4.3 5.1"
+    },
+    {
+      "product_name": "プレガバリンOD錠150mg「武田テバ」",
+      "strength": "150mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図中の刻印は判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 12.1,
+      "size_short_mm": 12.1,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の口腔内崩壊錠 直径（mm） 6.6 8.1 9.1 12.1 厚さ（mm） 2.9 3.8 4.3 5.1"
+    }
+  ],
+  "expected_products": [
+    "プレガバリンOD錠150mg「武田テバ」",
+    "プレガバリンOD錠25mg「武田テバ」",
+    "プレガバリンOD錠75mg「武田テバ」"
+  ]
+}

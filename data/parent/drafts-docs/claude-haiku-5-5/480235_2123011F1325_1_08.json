@@ -1,0 +1,50 @@
+{
+  "id": "480235_2123011F1325_1_08",
+  "source_file": "480235_2123011F1325_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2123011F1325_1_08",
+  "extracted_at": "2026-11-09T14:24:08.589Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18409,
+    "output": 1878
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アテノロール錠25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "Tw",
+      "imprint_back": "TM25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード TwTM25 TwTM50 直径(mm) 6.6 8.1 厚さ(mm) 3.2 4.0 質量(mg) 108 214"
+    },
+    {
+      "product_name": "アテノロール錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw",
+      "imprint_back": "TM50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード TwTM25 TwTM50 直径(mm) 6.6 8.1 厚さ(mm) 3.2 4.0 質量(mg) 108 214"
+    }
+  ],
+  "expected_products": [
+    "アテノロール錠25mg「トーワ」",
+    "アテノロール錠50mg「トーワ」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "581120_1190018F4251_1_05",
+  "source_file": "581120_1190018F4251_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1190018F4251_1_05",
+  "extracted_at": "2026-11-09T14:19:39.909Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24995,
+    "output": 3488
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "メマンチンOD",
+      "imprint_back": "5 NIG",
+      "imprint_note": "画像からの判読",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.95,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡赤白色の素錠（口腔内崩壊錠）、外形 直径 6.0mm、厚さ 2.95mm"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "メマンチン 10",
+      "imprint_back": "10 NIG",
+      "imprint_note": "画像からの判読",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄白色の素錠（口腔内崩壊錠）、外形 直径 7.5mm、厚さ 3.3mm"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像から刻印を判読できず",
+      "color": "白色〜微黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色〜微黄白色の片面 1 / 2割線入り素錠（口腔内崩壊錠）、外形 直径 9.0mm、厚さ 4.5mm"
+    }
+  ],
+  "expected_products": [
+    "メマンチン塩酸塩OD錠10mg「NIG」",
+    "メマンチン塩酸塩OD錠20mg「NIG」"
+  ]
+}

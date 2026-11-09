@@ -1,0 +1,67 @@
+{
+  "id": "300119_2123016F1115_1_05",
+  "source_file": "300119_2123016F1115_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2123016F1115_1_05",
+  "extracted_at": "2026-11-09T14:24:47.455Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24669,
+    "output": 1702
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビソプロロールフマル酸塩錠0.625mg「サワイ」",
+      "strength": "0.625mg",
+      "imprint_front": "SW BL",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 / 性状 白色 / 直径（mm） 6.0 / 厚さ（mm） 2.6 / 識別コード SW BL"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠2.5mg「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "SW BL2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 / 性状 白色 / 直径（mm） 6.0 / 厚さ（mm） 2.9 / 識別コード SW BL2.5"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW BL5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 / 性状 白色 / 直径（mm） 6.5 / 厚さ（mm） 3.0 / 識別コード SW BL5"
+    }
+  ],
+  "expected_products": [
+    "ビソプロロールフマル酸塩錠0.625mg「サワイ」",
+    "ビソプロロールフマル酸塩錠2.5mg「サワイ」",
+    "ビソプロロールフマル酸塩錠5mg「サワイ」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "800126_1231009F1088_3_05",
+  "source_file": "800126_1231009F1088_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_1231009F1088_3_05",
+  "extracted_at": "2026-11-09T14:21:19.142Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12462,
+    "output": 1818
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トランコロン錠7.5mg",
+      "strength": "7.5mg",
+      "imprint_front": "434",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク様の図形と434の表記あり（識別コード欄は「卍434」）。裏面の刻印は文書に記載なし",
+      "color": "淡紅・白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2022年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 色 外形・大きさ・重量 識別コード フィルムコーティング錠 淡紅 白色 表 裏 側面 直径 厚さ 重量 約6.1mm 約2.9mm 約93mg"
+    }
+  ],
+  "expected_products": [
+    "トランコロン錠7.5mg"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "460028_1339005F1440_1_08",
+  "source_file": "460028_1339005F1440_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1339005F1440_1_08",
+  "extracted_at": "2026-11-09T14:22:54.712Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9307,
+    "output": 1881
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠6mg「TSU」",
+      "strength": "6mg",
+      "imprint_front": "TSU562",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 外形 大きさ 直径 約7.1mm 厚さ 約4.1mm 質量 約145mg 識別コード TSU562"
+    },
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠12mg「TSU」",
+      "strength": "12mg",
+      "imprint_front": "TSU571",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入り素錠 色調 白色 外形 大きさ 直径 約8.0mm 厚さ 約3.0mm 質量 約200mg 識別コード TSU571"
+    }
+  ],
+  "expected_products": [
+    "ベタヒスチンメシル酸塩錠12mg「TSU」"
+  ]
+}

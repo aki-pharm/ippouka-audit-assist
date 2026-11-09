@@ -1,0 +1,67 @@
+{
+  "id": "270029_1190012F3339_1_07",
+  "source_file": "270029_1190012F3339_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_1190012F3339_1_07",
+  "extracted_at": "2026-11-09T14:17:46.836Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30914,
+    "output": 2186
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「クニヒロ」",
+      "strength": "3mg",
+      "imprint_front": "KS521",
+      "imprint_back": "3",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 色調・性状 黄色の円形の口腔内崩壊錠 外形 直径 7.0mm 厚さ 3.2mm 重量 140mg 識別コード KS521"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「クニヒロ」",
+      "strength": "5mg",
+      "imprint_front": "KS522",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 色調・性状 白色の円形の口腔内崩壊錠 外形 直径 7.0mm 厚さ 3.2mm 重量 140mg 識別コード KS522"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「クニヒロ」",
+      "strength": "10mg",
+      "imprint_front": "KS527",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9.4,
+      "size_short_mm": 9.4,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 色調・性状 淡赤色の円形の口腔内崩壊錠 外形 直径 9.4mm 厚さ 3.6mm 重量 280mg 識別コード KS527"
+    }
+  ],
+  "expected_products": [
+    "ドネペジル塩酸塩OD錠10mg「クニヒロ」",
+    "ドネペジル塩酸塩OD錠3mg「クニヒロ」",
+    "ドネペジル塩酸塩OD錠5mg「クニヒロ」"
+  ]
+}

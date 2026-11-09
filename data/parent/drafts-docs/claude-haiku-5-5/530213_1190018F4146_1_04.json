@@ -1,0 +1,82 @@
+{
+  "id": "530213_1190018F4146_1_04",
+  "source_file": "530213_1190018F4146_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1190018F4146_1_04",
+  "extracted_at": "2026-11-09T14:20:11.650Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27365,
+    "output": 3675
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「ケミファ」",
+      "strength": "5mg",
+      "imprint_front": "メマンチンOD /5 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載を刻印として記載。表裏の別は本文の表から判別不可",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 淡赤白色の素錠／直径 6.1mm／厚さ 3.2mm／識別コード メマンチンOD /5 ケミファ"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "メマンチンOD 10 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載を刻印として記載。表裏の別は本文の表から判別不可",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄白色の素錠／直径 7.6mm／厚さ 3.6mm／識別コード メマンチンOD 10 ケミファ"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠15mg「ケミファ」",
+      "strength": "15mg",
+      "imprint_front": "メマンチンOD 15 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載を刻印として記載。表裏の別は本文の表から判別不可",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の素錠／直径 8.1mm／厚さ 4.5mm／識別コード メマンチンOD 15 ケミファ"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "メマンチンOD 20 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載を刻印として記載。表裏の別は本文の表から判別不可",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の割線入りの素錠／直径 9.1mm／厚さ 4.9mm／識別コード メマンチンOD 20 ケミファ"
+    }
+  ],
+  "expected_products": [
+    "メマンチン塩酸塩OD錠10mg「ケミファ」",
+    "メマンチン塩酸塩OD錠20mg「ケミファ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "431010_2113003F1057_2_04",
+  "source_file": "431010_2113003F1057_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/431010_2113003F1057_2_04",
+  "extracted_at": "2026-11-09T14:23:14.846Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18232,
+    "output": 1400
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジゴシン錠0.125mg",
+      "strength": "0.125mg",
+      "imprint_front": "C-21K",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色素錠（割線入り） 直径 5.5mm 厚さ 2.3mm 識別コード C-21K"
+    },
+    {
+      "product_name": "ジゴシン錠0.25mg",
+      "strength": "0.25mg",
+      "imprint_front": "C-21A",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色素錠（割線入り） 直径 7.0mm 厚さ 2.4mm 識別コード C-21A"
+    }
+  ],
+  "expected_products": [
+    "ジゴシン錠0.125mg",
+    "ジゴシン錠0.25mg"
+  ]
+}

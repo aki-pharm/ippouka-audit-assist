@@ -1,0 +1,33 @@
+{
+  "id": "650208_1190015M1045_1_05",
+  "source_file": "650208_1190015M1045_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_1190015M1045_1_05",
+  "extracted_at": "2026-11-09T14:18:32.709Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26109,
+    "output": 1633
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナルフラフィン塩酸塩カプセル2.5μg「BMD」",
+      "strength": "2.5μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードBMD57はPTPシートに表示と記載されており、カプセル表面の刻印かは不明。図中には「ナルフラフィン BMD」の表示あり",
+      "color": "淡黄白色不透明",
+      "shape": "oval",
+      "size_long_mm": 9.7,
+      "size_short_mm": 6.4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄白色不透明の楕円球状の軟カプセル剤 外形 長径 約9.7mm 短径 約6.4mm 重量 約244mg 識別コード BMD57（PTPシートに表示）"
+    }
+  ],
+  "expected_products": [
+    "ナルフラフィン塩酸塩カプセル2.5μg「BMD」"
+  ]
+}

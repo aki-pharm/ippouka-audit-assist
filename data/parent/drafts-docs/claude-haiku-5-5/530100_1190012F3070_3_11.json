@@ -1,0 +1,66 @@
+{
+  "id": "530100_1190012F3070_3_11",
+  "source_file": "530100_1190012F3070_3_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1190012F3070_3_11",
+  "extracted_at": "2026-11-09T14:17:37.441Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33547,
+    "output": 2531
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「NP」",
+      "strength": "3mg",
+      "imprint_front": "NP-773",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク（NP）と「3」の表示あり。識別コードはNP-773。裏面の刻印は文書に記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の素錠（口腔内崩壊錠） 7.0 3.0 150 NP-773"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "NP-775",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク（NP）と「5」の表示あり。識別コードはNP-775。裏面の刻印は文書に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠（口腔内崩壊錠） 7.0 3.0 150 NP-775"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "NP-777",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク（NP）と「10」の表示あり。識別コードはNP-777。裏面の刻印は文書に記載なし",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤色の素錠（口腔内崩壊錠） 8.5 3.5 250 NP-777"
+    }
+  ],
+  "expected_products": [
+    "ドネペジル塩酸塩OD錠10mg「NP」",
+    "ドネペジル塩酸塩OD錠5mg「NP」"
+  ]
+}

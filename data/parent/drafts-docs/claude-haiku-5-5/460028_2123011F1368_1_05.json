@@ -1,0 +1,49 @@
+{
+  "id": "460028_2123011F1368_1_05",
+  "source_file": "460028_2123011F1368_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2123011F1368_1_05",
+  "extracted_at": "2026-11-09T14:24:03.786Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18431,
+    "output": 2309
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アテノロール錠25mg「ツルハラ」",
+      "strength": "25mg",
+      "imprint_front": "A54",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 アテノロール錠25mg「ツルハラ」 アテノロール錠50mg「ツルハラ」 剤形 フィルムコート錠 フィルムコート錠 色調 白色 白色 外形 大きさ 直径 約 6.6mm 約 7.6mm 厚さ 約 3.8mm 約 3.5mm 質量 約 130mg 約 155mg 識別コード A54 A35"
+    },
+    {
+      "product_name": "アテノロール錠50mg「ツルハラ」",
+      "strength": "50mg",
+      "imprint_front": "A35",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 アテノロール錠25mg「ツルハラ」 アテノロール錠50mg「ツルハラ」 剤形 フィルムコート錠 フィルムコート錠 色調 白色 白色 外形 大きさ 直径 約 6.6mm 約 7.6mm 厚さ 約 3.8mm 約 3.5mm 質量 約 130mg 約 155mg 識別コード A54 A35"
+    }
+  ],
+  "expected_products": [
+    "アテノロール錠25mg「ツルハラ」"
+  ]
+}

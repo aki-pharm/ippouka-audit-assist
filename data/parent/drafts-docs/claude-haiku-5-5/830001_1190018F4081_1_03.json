@@ -1,0 +1,66 @@
+{
+  "id": "830001_1190018F4081_1_03",
+  "source_file": "830001_1190018F4081_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1190018F4081_1_03",
+  "extracted_at": "2026-11-09T14:19:46.928Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27067,
+    "output": 2336
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤白色の素錠 直径 約6.0mm 厚さ約3.0mm 重量85mg"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄白色の素錠 直径 約7.5mm 厚さ約3.5mm 重量140mg"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.8,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色の割線入りの素錠 直径 約9.0mm 厚さ約4.8mm 重量280mg"
+    }
+  ],
+  "expected_products": [
+    "メマンチン塩酸塩OD錠10mg「YD」",
+    "メマンチン塩酸塩OD錠20mg「YD」"
+  ]
+}

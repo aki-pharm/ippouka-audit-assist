@@ -1,0 +1,50 @@
+{
+  "id": "530258_2121001F1025_3_02",
+  "source_file": "530258_2121001F1025_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2121001F1025_3_02",
+  "extracted_at": "2026-11-09T14:23:36.497Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16065,
+    "output": 2048
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アミサリン錠125mg",
+      "strength": "125mg",
+      "imprint_front": "NF 301",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2021年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "アミサリン錠125mg 白色～淡黄白色・フィルムコーティング錠 NF 301 直径8.2mm 厚さ4.7mm 質量206mg"
+    },
+    {
+      "product_name": "アミサリン錠250mg",
+      "strength": "250mg",
+      "imprint_front": "NF 302",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 5.9,
+      "score_line": null,
+      "source_revision": "2021年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "アミサリン錠250mg 白色～淡黄白色・フィルムコーティング錠 NF 302 直径10.2mm 厚さ5.9mm 質量406mg"
+    }
+  ],
+  "expected_products": [
+    "アミサリン錠125mg",
+    "アミサリン錠250mg"
+  ]
+}

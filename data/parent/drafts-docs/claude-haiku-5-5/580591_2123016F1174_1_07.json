@@ -1,0 +1,67 @@
+{
+  "id": "580591_2123016F1174_1_07",
+  "source_file": "580591_2123016F1174_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2123016F1174_1_07",
+  "extracted_at": "2026-11-09T14:24:37.601Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24677,
+    "output": 2097
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビソプロロールフマル酸塩錠0.625mg「JG」",
+      "strength": "0.625mg",
+      "imprint_front": "JG N56",
+      "imprint_back": "625",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りの素錠 表面 裏面 側面 JG N56 直径 6.0mm 厚さ 2.7mm 重量 80mg"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "JG N57",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りの素錠 表面 裏面 側面 JG N57 直径 7.0mm 厚さ 3.0mm 重量 120mg"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠 5 mg「JG」",
+      "strength": "5 mg",
+      "imprint_front": "JG N58",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りの素錠 表面 裏面 側面 JG N58 直径 7.5mm 厚さ 2.5mm 重量 140mg"
+    }
+  ],
+  "expected_products": [
+    "ビソプロロールフマル酸塩錠0.625mg「JG」",
+    "ビソプロロールフマル酸塩錠2.5mg「JG」",
+    "ビソプロロールフマル酸塩錠5mg「JG」"
+  ]
+}

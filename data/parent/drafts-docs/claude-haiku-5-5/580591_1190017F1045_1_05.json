@@ -1,0 +1,67 @@
+{
+  "id": "580591_1190017F1045_1_05",
+  "source_file": "580591_1190017F1045_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1190017F1045_1_05",
+  "extracted_at": "2026-11-09T14:18:44.087Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 44669,
+    "output": 2051
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「JG」",
+      "strength": "25mg",
+      "imprint_front": "プレガバ JG",
+      "imprint_back": "OD 25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠 直径 6.0mm 厚さ 3.0mm 重量 80mg 本体表示 プレガバ JG OD 25"
+    },
+    {
+      "product_name": "プレガバリンOD錠75mg「JG」",
+      "strength": "75mg",
+      "imprint_front": "プレガバ JG",
+      "imprint_back": "OD 75",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠 直径 8.5mm 厚さ 4.8mm 重量 240mg 本体表示 プレガバ JG OD 75"
+    },
+    {
+      "product_name": "プレガバリンOD錠150mg「JG」",
+      "strength": "150mg",
+      "imprint_front": "プレガバ JG",
+      "imprint_back": "OD 150",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.6,
+      "size_short_mm": 10.6,
+      "thickness_mm": 6.3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠 直径 10.6mm 厚さ 6.3mm 重量 480mg 本体表示 プレガバ JG OD 150"
+    }
+  ],
+  "expected_products": [
+    "プレガバリンOD錠150mg「JG」",
+    "プレガバリンOD錠25mg「JG」",
+    "プレガバリンOD錠75mg「JG」"
+  ]
+}

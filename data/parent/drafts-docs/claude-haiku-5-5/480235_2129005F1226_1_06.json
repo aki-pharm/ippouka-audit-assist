@@ -1,0 +1,33 @@
+{
+  "id": "480235_2129005F1226_1_06",
+  "source_file": "480235_2129005F1226_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2129005F1226_1_06",
+  "extracted_at": "2026-11-09T14:25:19.369Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17588,
+    "output": 1290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジソピラミドリン酸塩徐放錠150mg「トーワ」",
+      "strength": "150mg",
+      "imprint_front": "Tw",
+      "imprint_back": "252",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 本体 Tw／252（表／裏） 直径(mm) 10.1 厚さ(mm) 4.2"
+    }
+  ],
+  "expected_products": [
+    "ジソピラミドリン酸塩徐放錠150mg「トーワ」"
+  ]
+}

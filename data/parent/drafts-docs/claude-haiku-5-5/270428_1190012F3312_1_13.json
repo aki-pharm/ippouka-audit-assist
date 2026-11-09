@@ -1,0 +1,66 @@
+{
+  "id": "270428_1190012F3312_1_13",
+  "source_file": "270428_1190012F3312_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1190012F3312_1_13",
+  "extracted_at": "2026-11-09T14:17:53.472Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29279,
+    "output": 3271
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「サンド」",
+      "strength": "3mg",
+      "imprint_front": "DO3",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊錠 色調 淡黄色 外形 表 DO3 大きさ 直径 7.6mm 厚さ 2.7mm 質量 140mg 識別コード（PTP） DO3"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「サンド」",
+      "strength": "5mg",
+      "imprint_front": "DO5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊錠 色調 白色 外形 表 DO5 大きさ 直径 7.6mm 厚さ 2.7mm 質量 140mg 識別コード（PTP） DO5"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「サンド」",
+      "strength": "10mg",
+      "imprint_front": "DO10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 口腔内崩壊錠 色調 淡赤色 外形 表 DO10 大きさ 直径 9.5mm 厚さ 3.4mm 質量 280mg 識別コード（PTP） DO10"
+    }
+  ],
+  "expected_products": [
+    "ドネペジル塩酸塩OD錠10mg「サンド」",
+    "ドネペジル塩酸塩OD錠5mg「サンド」"
+  ]
+}

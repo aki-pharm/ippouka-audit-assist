@@ -1,0 +1,50 @@
+{
+  "id": "672173_1190014F1050_2_03",
+  "source_file": "672173_1190014F1050_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1190014F1050_2_03",
+  "extracted_at": "2026-11-09T14:18:25.117Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16363,
+    "output": 1720
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タルチレリン錠 5mg「アメル」",
+      "strength": "5mg",
+      "imprint_front": "Kw324",
+      "imprint_back": "TAL5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 Kw324/TAL5 白色 直径：約 7.0mm 厚さ：約 3.0mm 質量：約 120.0mg"
+    },
+    {
+      "product_name": "タルチレリン OD 錠 5mg「アメル」",
+      "strength": "5mg",
+      "imprint_front": "KW TAL",
+      "imprint_back": "OD5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 KW TAL/OD5 白色 直径：約 7.0mm 厚さ：約 2.6mm 質量：約 110.0mg"
+    }
+  ],
+  "expected_products": [
+    "タルチレリンOD錠5mg「アメル」",
+    "タルチレリン錠5mg「アメル」"
+  ]
+}

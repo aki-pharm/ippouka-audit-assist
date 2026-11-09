@@ -1,0 +1,33 @@
+{
+  "id": "530258_1179047F1022_1_19",
+  "source_file": "530258_1179047F1022_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1179047F1022_1_19",
+  "extracted_at": "2026-11-09T14:16:00.276Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23220,
+    "output": 1299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モディオダール錠100mg",
+      "strength": "100mg",
+      "imprint_front": "NF152",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄はNF152。図では割線を挟んでNFと152が表示されている",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 12.6,
+      "size_short_mm": 5.5,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のカプセル形の素錠（割線付き） NF152 12.6 5.5 3.7 0.25"
+    }
+  ],
+  "expected_products": [
+    "モディオダール錠適正使用 運用手順"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "460028_1231013D1083_1_04",
+  "source_file": "460028_1231013D1083_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1231013D1083_1_04",
+  "extracted_at": "2026-11-09T14:21:27.652Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13359,
+    "output": 3380
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チキジウム臭化物カプセル5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "TSU387",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（TSU387）のみ明記。刻印の面（頭部・胴部）の区別は未確認",
+      "color": "頭部：白色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 ４号硬カプセル剤 色調 頭部：白色不透明 胴部：白色不透明 外形 印刷色：青緑 質量 約 110mg 識別コード TSU387"
+    },
+    {
+      "product_name": "チキジウム臭化物カプセル10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "TSU388",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（TSU388）のみ明記。刻印の面（頭部・胴部）の区別は未確認",
+      "color": "頭部：白色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 ４号硬カプセル剤 色調 頭部：白色不透明 胴部：白色不透明 外形 印刷色：茶 質量 約 120mg 識別コード TSU388"
+    },
+    {
+      "product_name": "チキジウム臭化物顆粒2%「ツルハラ」",
+      "strength": "2%",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "顆粒剤のため外形・識別コードは「―」の記載のみ",
+      "color": "微黄白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 顆粒剤 色調 微黄白色 外形 ― 質量 ― 識別コード ―"
+    }
+  ],
+  "expected_products": [
+    "チキジウム臭化物カプセル10mg「ツルハラ」",
+    "チキジウム臭化物カプセル5mg「ツルハラ」"
+  ]
+}

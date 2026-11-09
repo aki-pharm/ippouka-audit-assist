@@ -1,0 +1,50 @@
+{
+  "id": "530100_1179051F3064_1_09",
+  "source_file": "530100_1179051F3064_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179051F3064_1_09",
+  "extracted_at": "2026-11-09T14:16:51.875Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32398,
+    "output": 1939
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン OD 錠 15mg「ニプロ」",
+      "strength": "1錠中ミルタザピン15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載はなく、図の刻印は判読できないため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の素錠で、わずかに斑点を含むことがある（口腔内崩壊錠） 8.0 3.4 170"
+    },
+    {
+      "product_name": "ミルタザピン OD 錠 30mg「ニプロ」",
+      "strength": "1錠中ミルタザピン30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載はなく、図の刻印は判読できないため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入り素錠で、わずかに斑点を含むことがある（口腔内崩壊錠） 10.0 4.6 340"
+    }
+  ],
+  "expected_products": [
+    "ミルタザピンOD錠15mg「ニプロ」",
+    "ミルタザピンOD錠30mg「ニプロ」"
+  ]
+}

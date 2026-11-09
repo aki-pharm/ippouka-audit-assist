@@ -1,0 +1,33 @@
+{
+  "id": "460028_1339005F1440_2_07",
+  "source_file": "460028_1339005F1440_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1339005F1440_2_07",
+  "extracted_at": "2026-11-09T14:23:02.997Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 6587,
+    "output": 1018
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠6mg「TSU」",
+      "strength": "6mg",
+      "imprint_front": "TSU562",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 外形 大きさ 直径 約7.1mm 厚さ 約4.1mm 質量 約145mg 識別コード TSU562"
+    }
+  ],
+  "expected_products": [
+    "ベタヒスチンメシル酸塩錠6mg「TSU」"
+  ]
+}

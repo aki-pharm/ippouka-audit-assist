@@ -1,0 +1,50 @@
+{
+  "id": "581120_1179052M1170_1_03",
+  "source_file": "581120_1179052M1170_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1179052M1170_1_03",
+  "extracted_at": "2026-11-09T14:17:05.423Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 41198,
+    "output": 2035
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル20mg「日医工G」",
+      "strength": "20mg",
+      "imprint_front": "デュロキセチン20mg",
+      "imprint_back": "なし",
+      "imprint_note": "裏面は社名マークのみ",
+      "color": "キャップ：淡赤白色、ボディ：微黄白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤（内容物は腸溶性の顆粒） 色調 キャップ：淡赤白色 ボディ：微黄白色 内容物：白色～僅かに褐色を帯びた白色 大きさ 4号カプセル"
+    },
+    {
+      "product_name": "デュロキセチンカプセル30mg「日医工G」",
+      "strength": "30mg",
+      "imprint_front": "デュロキセチン30mg",
+      "imprint_back": "なし",
+      "imprint_note": "裏面は社名マークのみ",
+      "color": "キャップ：淡黄白色、ボディ：微黄白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤（内容物は腸溶性の顆粒） 色調 キャップ：淡黄白色 ボディ：微黄白色 内容物：白色～僅かに褐色を帯びた白色 大きさ 3号カプセル"
+    }
+  ],
+  "expected_products": [
+    "デュロキセチンカプセル20mg「日医工G」",
+    "デュロキセチンカプセル30mg「日医工G」"
+  ]
+}

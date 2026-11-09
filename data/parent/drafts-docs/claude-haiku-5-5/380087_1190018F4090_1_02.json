@@ -1,0 +1,66 @@
+{
+  "id": "380087_1190018F4090_1_02",
+  "source_file": "380087_1190018F4090_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1190018F4090_1_02",
+  "extracted_at": "2026-11-09T14:19:54.408Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25352,
+    "output": 3070
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「ZE」",
+      "strength": "5mg",
+      "imprint_front": "メマンチン OD5 ZE",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤白色～帯黄",
+      "shape": null,
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤白色～帯黄 淡赤白色の素錠で斑点がある；錠径（mm） 6.1、厚み（mm） 3.2、本体表示 メマンチン OD5 ZE"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠10mg「ZE」",
+      "strength": "10mg",
+      "imprint_front": "メマンチン OD10 ZE",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色～黄白色",
+      "shape": null,
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄白色～黄白色の素錠で斑点がある；錠径（mm） 7.6、厚み（mm） 3.6、本体表示 メマンチン OD10 ZE"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「ZE」",
+      "strength": "20mg",
+      "imprint_front": "メマンチン OD20 ZE",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": null,
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の片面割線入り素錠で斑点がある；錠径（mm） 9.1、厚み（mm） 4.9、本体表示 メマンチン OD20 ZE"
+    }
+  ],
+  "expected_products": [
+    "メマンチン塩酸塩OD錠10mg「ZE」",
+    "メマンチン塩酸塩OD錠20mg「ZE」"
+  ]
+}

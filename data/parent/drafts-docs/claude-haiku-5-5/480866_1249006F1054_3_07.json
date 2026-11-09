@@ -1,0 +1,50 @@
+{
+  "id": "480866_1249006F1054_3_07",
+  "source_file": "480866_1249006F1054_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480866_1249006F1054_3_07",
+  "extracted_at": "2026-11-09T14:21:43.667Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17432,
+    "output": 1735
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リオレサール錠 5mg",
+      "strength": "5mg",
+      "imprint_front": "SJ 215",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の片面割線入りの素錠 外形 識別コード SJ 215 大きさ（約） 直径：6.0mm 厚さ：2.7mm 質量：0.10g"
+    },
+    {
+      "product_name": "リオレサール錠 10mg",
+      "strength": "10mg",
+      "imprint_front": "SJ 216",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の片面割線入りの素錠 外形 識別コード SJ 216 大きさ（約） 直径：7.0mm 厚さ：2.9mm 質量：0.14g"
+    }
+  ],
+  "expected_products": [
+    "リオレサール錠10mg",
+    "リオレサール錠5mg"
+  ]
+}

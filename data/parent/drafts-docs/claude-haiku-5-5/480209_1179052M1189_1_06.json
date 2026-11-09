@@ -1,0 +1,49 @@
+{
+  "id": "480209_1179052M1189_1_06",
+  "source_file": "480209_1179052M1189_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1179052M1189_1_06",
+  "extracted_at": "2026-11-09T14:17:07.830Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 44903,
+    "output": 1642
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュロキセチンカプセル20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "デュロキセチン 20mg 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "キャップ：淡赤白色、ボディ：微黄白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "キャップが淡赤白色、ボディが微黄白色の不透明な硬カプセル剤で、内容物は白色～帯黄白色の腸溶コーティング顆粒である。"
+    },
+    {
+      "product_name": "デュロキセチンカプセル30mg「杏林」",
+      "strength": "30mg",
+      "imprint_front": "デュロキセチン 30mg 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "キャップ：淡黄白色、ボディ：微黄白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "キャップが淡黄白色、ボディが微黄白色の不透明な硬カプセル剤で、内容物は白色～帯黄白色の腸溶コーティング顆粒である。"
+    }
+  ],
+  "expected_products": [
+    "デュロキセチンカプセル30mg「杏林」"
+  ]
+}

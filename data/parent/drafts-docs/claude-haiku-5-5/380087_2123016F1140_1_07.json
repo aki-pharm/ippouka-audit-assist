@@ -1,0 +1,67 @@
+{
+  "id": "380087_2123016F1140_1_07",
+  "source_file": "380087_2123016F1140_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2123016F1140_1_07",
+  "extracted_at": "2026-11-09T14:24:45.971Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26512,
+    "output": 3219
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビソプロロールフマル酸塩錠0.625mg「ZE」",
+      "strength": "0.625mg",
+      "imprint_front": "ZE62",
+      "imprint_back": ".625",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 素錠（割線入り） 素錠 素錠（割線入り） 錠径（mm） 6.0 6.0 6.5 厚み（mm） 2.6 2.9 3.0 重量（mg） 80 90 100 識別コード ZE62、.625 ZE64、2.5 ZE65"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠2.5mg「ZE」",
+      "strength": "2.5mg",
+      "imprint_front": "ZE64",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 素錠（割線入り） 素錠 素錠（割線入り） 錠径（mm） 6.0 6.0 6.5 厚み（mm） 2.6 2.9 3.0 重量（mg） 80 90 100 識別コード ZE62、.625 ZE64、2.5 ZE65"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠5mg「ZE」",
+      "strength": "5mg",
+      "imprint_front": "ZE65",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は文書上で明記なし（外形図では裏面に刻印は見当たらない）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 素錠（割線入り） 素錠 素錠（割線入り） 錠径（mm） 6.0 6.0 6.5 厚み（mm） 2.6 2.9 3.0 重量（mg） 80 90 100 識別コード ZE62、.625 ZE64、2.5 ZE65"
+    }
+  ],
+  "expected_products": [
+    "ビソプロロールフマル酸塩錠0.625mg「ZE」",
+    "ビソプロロールフマル酸塩錠2.5mg「ZE」",
+    "ビソプロロールフマル酸塩錠5mg「ZE」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "480235_1249009F1422_1_07",
+  "source_file": "480235_1249009F1422_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1249009F1422_1_07",
+  "extracted_at": "2026-11-09T14:22:07.509Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12319,
+    "output": 1764
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エペリゾン塩酸塩錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "エペリゾン 50 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "表示欄の裏は「－」と記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.3,
+      "size_short_mm": 7.3,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の糖衣錠／本体表示 表 エペリゾン 50 トーワ、裏 －／直径(mm) 7.3 厚さ(mm) 4.4"
+    }
+  ],
+  "expected_products": [
+    "エペリゾン塩酸塩錠50mg「トーワ」"
+  ]
+}

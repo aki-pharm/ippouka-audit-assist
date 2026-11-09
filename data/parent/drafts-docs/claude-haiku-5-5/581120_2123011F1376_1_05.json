@@ -1,0 +1,50 @@
+{
+  "id": "581120_2123011F1376_1_05",
+  "source_file": "581120_2123011F1376_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2123011F1376_1_05",
+  "extracted_at": "2026-11-09T14:23:56.549Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18468,
+    "output": 1782
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アテノロール錠25mg「NIG」",
+      "strength": "25mg",
+      "imprint_front": "t 251",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 6.6mm 厚さ 3.8mm 識別コード（PTP） t 251"
+    },
+    {
+      "product_name": "アテノロール錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "t 252",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 8.1mm 厚さ 4.1mm 識別コード（PTP） t 252"
+    }
+  ],
+  "expected_products": [
+    "アテノロール錠25mg「NIG」",
+    "アテノロール錠50mg「NIG」"
+  ]
+}

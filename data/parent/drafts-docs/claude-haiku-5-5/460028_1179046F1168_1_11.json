@@ -1,0 +1,67 @@
+{
+  "id": "460028_1179046F1168_1_11",
+  "source_file": "460028_1179046F1168_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1179046F1168_1_11",
+  "extracted_at": "2026-11-09T14:15:32.196Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32093,
+    "output": 1701
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セルトラリン錠25mg「ツルハラ」",
+      "strength": "25mg",
+      "imprint_front": "TSU315",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 大きさ 直径 約5.6mm 厚さ 約2.9mm 識別コード 表面 TSU315 裏面 25"
+    },
+    {
+      "product_name": "セルトラリン錠50mg「ツルハラ」",
+      "strength": "50mg",
+      "imprint_front": "TSU 316",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色 大きさ 直径 約7.1mm 厚さ 約3.1mm 識別コード 表面 TSU 316 裏面 50"
+    },
+    {
+      "product_name": "セルトラリン錠100mg「ツルハラ」",
+      "strength": "100mg",
+      "imprint_front": "TSU 317",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色 大きさ 直径 約8.6mm 厚さ 約4.1mm 識別コード 表面 TSU 317 裏面 100"
+    }
+  ],
+  "expected_products": [
+    "セルトラリン錠100mg「ツルハラ」",
+    "セルトラリン錠25mg「ツルハラ」",
+    "セルトラリン錠50mg「ツルハラ」"
+  ]
+}

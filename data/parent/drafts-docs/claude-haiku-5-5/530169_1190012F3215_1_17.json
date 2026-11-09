@@ -1,0 +1,66 @@
+{
+  "id": "530169_1190012F3215_1_17",
+  "source_file": "530169_1190012F3215_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190012F3215_1_17",
+  "extracted_at": "2026-11-09T14:17:55.417Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29888,
+    "output": 2214
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩OD錠3mg「日医工」",
+      "strength": "3mg",
+      "imprint_front": "370",
+      "imprint_back": "3",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 色調 黄色 白色 淡赤色 直径（mm） 7.0 7.0 8.5 厚さ（mm） 3.0 3.0 3.5"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩OD錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "371",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 色調 黄色 白色 淡赤色 直径（mm） 7.0 7.0 8.5 厚さ（mm） 3.0 3.0 3.5"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩OD錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "372",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 色調 黄色 白色 淡赤色 直径（mm） 7.0 7.0 8.5 厚さ（mm） 3.0 3.0 3.5"
+    }
+  ],
+  "expected_products": [
+    "ドネペジル塩酸塩OD錠10mg「日医工」",
+    "ドネペジル塩酸塩OD錠5mg「日医工」"
+  ]
+}

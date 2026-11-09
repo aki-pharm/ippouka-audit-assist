@@ -1,0 +1,33 @@
+{
+  "id": "672173_1249009F1490_2_04",
+  "source_file": "672173_1249009F1490_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1249009F1490_2_04",
+  "extracted_at": "2026-11-09T14:21:54.389Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 11813,
+    "output": 1211
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エペリゾン塩酸塩錠 50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "KW630",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "糖衣錠 KW630 白色 直径：約 7.4mm 厚さ：約 4.3mm 質量：約 175mg"
+    }
+  ],
+  "expected_products": [
+    "エペリゾン塩酸塩錠50mg「アメル」"
+  ]
+}

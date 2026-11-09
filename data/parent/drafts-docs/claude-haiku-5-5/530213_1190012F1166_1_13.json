@@ -1,0 +1,65 @@
+{
+  "id": "530213_1190012F1166_1_13",
+  "source_file": "530213_1190012F1166_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_1190012F1166_1_13",
+  "extracted_at": "2026-11-09T14:18:14.616Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29034,
+    "output": 1986
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「ケミファ」",
+      "strength": "3mg",
+      "imprint_front": "NC D",
+      "imprint_back": "③",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 黄色のフィルムコーティング錠 直径 6.1mm 厚さ 2.7mm 識別コード NC D"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩錠5mg「ケミファ」",
+      "strength": "5mg",
+      "imprint_front": "NC D11",
+      "imprint_back": "⑤",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 直径 7.1mm 厚さ 3.3mm 識別コード NC D11"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "NCD 119",
+      "imprint_back": "⑩",
+      "imprint_note": null,
+      "color": "赤橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 赤橙色のフィルムコーティング錠 直径 8.6mm 厚さ 4.7mm 識別コード NCD 119"
+    }
+  ],
+  "expected_products": [
+    "ドネペジル塩酸塩錠10mg「ケミファ」"
+  ]
+}

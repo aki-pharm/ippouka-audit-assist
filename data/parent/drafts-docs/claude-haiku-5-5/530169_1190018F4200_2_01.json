@@ -1,0 +1,66 @@
+{
+  "id": "530169_1190018F4200_2_01",
+  "source_file": "530169_1190018F4200_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1190018F4200_2_01",
+  "extracted_at": "2026-11-09T14:20:39.902Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23514,
+    "output": 3887
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「メマンチン 5 日医工」と「メマンチン 5 OD」の2行。表裏の別は本文から判別できない",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 色調 淡赤白色 直径（mm） 約5.5 厚さ（mm） 約2.9 質量（mg） 約63"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「メマンチン OD 10 日医工」。表裏の別は本文から判別できない",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 淡黄白色 直径（mm） 約7.0 厚さ（mm） 約3.0 質量（mg） 約105"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「日医工」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「メマンチン OD 20 日医工」。表裏の別は本文から判別できない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色～微黄白色 直径（mm） 約8.5 厚さ（mm） 約4.0 質量（mg） 約190"
+    }
+  ],
+  "expected_products": [
+    "メマンチン塩酸塩OD錠10mg「日医工」",
+    "メマンチン塩酸塩OD錠20mg「日医工」"
+  ]
+}

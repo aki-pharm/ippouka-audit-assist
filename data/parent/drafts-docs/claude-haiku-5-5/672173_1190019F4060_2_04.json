@@ -1,0 +1,65 @@
+{
+  "id": "672173_1190019F4060_2_04",
+  "source_file": "672173_1190019F4060_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1190019F4060_2_04",
+  "extracted_at": "2026-11-09T14:21:08.210Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24917,
+    "output": 2399
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ガランタミンOD錠4mg「アメル」",
+      "strength": "4mg",
+      "imprint_front": "ガランタミンOD 4 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載のみ。表裏の区別は本文に記載なし",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ガランタミンOD錠4mg「アメル」 素錠 直径：約7.1mm 厚さ：約2.9mm 質量：約140.0mg 微黄色 識別コード ガランタミンOD 4 アメル"
+    },
+    {
+      "product_name": "ガランタミンOD錠8mg「アメル」",
+      "strength": "8mg",
+      "imprint_front": "ガランタミンOD 8 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載のみ。表裏の区別は本文に記載なし",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ガランタミンOD錠8mg「アメル」 素錠 直径：約7.1mm 厚さ：約2.9mm 質量：約140.0mg 微赤色 識別コード ガランタミンOD 8 アメル"
+    },
+    {
+      "product_name": "ガランタミンOD錠12mg「アメル」",
+      "strength": "12mg",
+      "imprint_front": "ガランタミンOD 12 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の記載のみ。表裏の区別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ガランタミンOD錠12mg「アメル」 素錠 直径：約8.1mm 厚さ：約3.4mm 質量：約210.0mg 白色 識別コード ガランタミンOD 12 アメル"
+    }
+  ],
+  "expected_products": [
+    "ガランタミンOD錠8mg「アメル」"
+  ]
+}

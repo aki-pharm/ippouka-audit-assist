@@ -1,0 +1,50 @@
+{
+  "id": "530258_1249006F1020_3_03",
+  "source_file": "530258_1249006F1020_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1249006F1020_3_03",
+  "extracted_at": "2026-11-09T14:21:36.183Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14945,
+    "output": 978
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ギャバロン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "NF116",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色・素錠（割線入） NF116 7.0 2.6 130"
+    },
+    {
+      "product_name": "ギャバロン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "NF115",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "だいだい色・素錠（割線入） NF115 7.0 2.6 130"
+    }
+  ],
+  "expected_products": [
+    "ギャバロン錠10mg",
+    "ギャバロン錠5mg"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "581120_1339005F1482_3_01",
+  "source_file": "581120_1339005F1482_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1339005F1482_3_01",
+  "extracted_at": "2026-11-09T14:23:05.027Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9333,
+    "output": 1684
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠6mg「日医工P」",
+      "strength": "6mg",
+      "imprint_front": "54",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マークと本体コード54の表示あり。裏面は図上刻印の記載なし（「なし」の明記なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線を有する素錠 色調 白色 直径（mm） 6.5 8.0 厚さ（mm） 2.3 3.0 本体コード 54 55"
+    },
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠12mg「日医工P」",
+      "strength": "12mg",
+      "imprint_front": "55",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マークと本体コード55の表示あり。裏面は図上刻印の記載なし（「なし」の明記なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線を有する素錠 色調 白色 直径（mm） 6.5 8.0 厚さ（mm） 2.3 3.0 本体コード 54 55"
+    }
+  ],
+  "expected_products": [
+    "ベタヒスチンメシル酸塩錠12mg「日医工P」",
+    "ベタヒスチンメシル酸塩錠6mg「日医工P」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "530169_2123016F1131_1_07",
+  "source_file": "530169_2123016F1131_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2123016F1131_1_07",
+  "extracted_at": "2026-11-09T14:25:10.151Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24986,
+    "output": 2883
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビソプロロールフマル酸塩錠0.625mg「日医工」",
+      "strength": "0.625mg",
+      "imprint_front": "n 755",
+      "imprint_back": ".625",
+      "imprint_note": "表面の「n」は社名マークと思われるが、755と合わせて識別コードとして記載。本体コードは「n 755 / .625」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 / 色調 白色 / 直径（mm） 6.0 6.0 6.3 / 厚さ（mm） 2.6 2.9 3.0（0.625mg の列：割線入りの素錠、直径6.0mm、厚さ2.6mm）"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠2.5mg「日医工」",
+      "strength": "2.5mg",
+      "imprint_front": "n 753",
+      "imprint_back": "2.5",
+      "imprint_note": "表面の「n」は社名マークと思われるが、753と合わせて識別コードとして記載。本体コードは「n 753 / 2.5」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 / 素錠 / 色調 白色 / 直径（mm） 6.0 6.0 6.3 / 厚さ（mm） 2.6 2.9 3.0（2.5mg の列：素錠、直径6.0mm、厚さ2.9mm）"
+    },
+    {
+      "product_name": "ビソプロロールフマル酸塩錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "n 754",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の「n」は社名マークと思われるが、754と合わせて識別コードとして記載。裏面は刻印の記載が確認できず（本体コードは「n 754」のみ）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 / 素錠 / 色調 白色 / 直径（mm） 6.0 6.0 6.3 / 厚さ（mm） 2.6 2.9 3.0（5mg の列：素錠、直径6.3mm、厚さ3.0mm）"
+    }
+  ],
+  "expected_products": [
+    "ビソプロロールフマル酸塩錠0.625mg「日医工」",
+    "ビソプロロールフマル酸塩錠2.5mg「日医工」",
+    "ビソプロロールフマル酸塩錠5mg「日医工」"
+  ]
+}

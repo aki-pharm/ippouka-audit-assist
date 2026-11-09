@@ -1,0 +1,50 @@
+{
+  "id": "672173_1179051F3030_1_02",
+  "source_file": "672173_1179051F3030_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179051F3030_1_02",
+  "extracted_at": "2026-11-09T14:16:38.841Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30392,
+    "output": 1957
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン OD 錠 15mg「アメル」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザピン 15 OD アメル",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "素錠 淡黄色で、わずかに斑点を含むことがある 直径：約 8.1mm 厚さ：約 3.4mm 質量：約 170.0mg"
+    },
+    {
+      "product_name": "ミルタザピン OD 錠 30mg「アメル」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザピン 30 OD アメル",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 淡黄色で、わずかに斑点を含むことがある 直径：約 10.1mm 厚さ：約 4.6mm 質量：約 340.0mg"
+    }
+  ],
+  "expected_products": [
+    "ミルタザピンOD錠15mg「アメル」",
+    "ミルタザピンOD錠30mg「アメル」"
+  ]
+}

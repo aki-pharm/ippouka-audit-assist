@@ -1,0 +1,67 @@
+{
+  "id": "530100_1190017F1207_1_05",
+  "source_file": "530100_1190017F1207_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1190017F1207_1_05",
+  "extracted_at": "2026-11-09T14:19:02.715Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 47419,
+    "output": 2878
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「ニプロ」",
+      "strength": "25mg",
+      "imprint_front": "プレガバリン OD 25",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は図から読み取った内容で、本文には記載がないため要確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の素錠（口腔内崩壊錠） 直径6.5mm 厚さ3.2mm 重量90mg"
+    },
+    {
+      "product_name": "プレガバリンOD錠75mg「ニプロ」",
+      "strength": "75mg",
+      "imprint_front": "プレガバリン OD 75",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は図から読み取った内容で、本文には記載がないため要確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の素錠（口腔内崩壊錠） 直径9.5mm 厚さ4.7mm 重量270mg"
+    },
+    {
+      "product_name": "プレガバリンOD錠150mg「ニプロ」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリン OD 150",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は図から読み取った内容で、本文には記載がないため要確認",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 16,
+      "size_short_mm": 7.4,
+      "thickness_mm": 6.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の素錠（口腔内崩壊錠） （長径）16.0mm （短径）7.4mm 厚さ6.2mm 重量540mg"
+    }
+  ],
+  "expected_products": [
+    "プレガバリンOD錠150mg「ニプロ」",
+    "プレガバリンOD錠25mg「ニプロ」",
+    "プレガバリンOD錠75mg「ニプロ」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "460028_2123008F1277_1_10",
+  "source_file": "460028_2123008F1277_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2123008F1277_1_10",
+  "extracted_at": "2026-11-09T14:23:44.715Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20197,
+    "output": 1066
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロプラノロール塩酸塩錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "TSU001",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線を有する素錠 色調 白色 外形 大きさ 直径 約 6.0mm 厚さ 約 2.5mm 質量 約 90mg 識別コード TSU001"
+    }
+  ],
+  "expected_products": [
+    "プロプラノロール塩酸塩錠10mg「ツルハラ」"
+  ]
+}

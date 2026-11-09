@@ -1,0 +1,33 @@
+{
+  "id": "480209_1249010F1328_1_04",
+  "source_file": "480209_1249010F1328_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1249010F1328_1_04",
+  "extracted_at": "2026-11-09T14:22:27.238Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14346,
+    "output": 1063
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チザニジン錠1mg「杏林」",
+      "strength": "1mg",
+      "imprint_front": "PH109",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色～帯黄白色 外形 直径(mm) 7.1 厚さ(mm) 2.2 質量(mg) 110 識別コード PH109"
+    }
+  ],
+  "expected_products": [
+    "チザニジン錠1mg「杏林」"
+  ]
+}

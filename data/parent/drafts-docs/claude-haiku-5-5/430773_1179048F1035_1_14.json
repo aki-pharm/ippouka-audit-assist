@@ -1,0 +1,66 @@
+{
+  "id": "430773_1179048F1035_1_14",
+  "source_file": "430773_1179048F1035_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1179048F1035_1_14",
+  "extracted_at": "2026-11-09T14:16:03.969Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32963,
+    "output": 2250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロナンセリン錠2mg「DSEP」",
+      "strength": "1錠中ブロナンセリン2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状表の画像から刻印を判読できず。本文に刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ブロナンセリン錠2mg「DSEP」 素錠 白色 直径6mm 厚さ2.3mm 質量65mg"
+    },
+    {
+      "product_name": "ブロナンセリン錠4mg「DSEP」",
+      "strength": "1錠中ブロナンセリン4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状表の画像から刻印を判読できず。本文に刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ブロナンセリン錠4mg「DSEP」 素錠（割線入） 白色 直径7.5mm 厚さ2.3mm 質量130mg"
+    },
+    {
+      "product_name": "ブロナンセリン錠8mg「DSEP」",
+      "strength": "1錠中ブロナンセリン8mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状表の画像から刻印を判読できず。本文に刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ブロナンセリン錠8mg「DSEP」 素錠 白色 直径9mm 厚さ3.2mm 質量260mg"
+    }
+  ],
+  "expected_products": [
+    "ブロナンセリン錠2mg「DSEP」",
+    "ブロナンセリン錠4mg「DSEP」"
+  ]
+}

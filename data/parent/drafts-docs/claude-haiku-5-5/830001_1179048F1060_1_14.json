@@ -1,0 +1,65 @@
+{
+  "id": "830001_1179048F1060_1_14",
+  "source_file": "830001_1179048F1060_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1179048F1060_1_14",
+  "extracted_at": "2026-11-09T14:16:32.597Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35191,
+    "output": 1819
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロナンセリン錠2mg「YD」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 外形 直径 約6mm 厚さ 約2.3mm 重量 65mg"
+    },
+    {
+      "product_name": "ブロナンセリン錠4mg「YD」",
+      "strength": "4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入り素錠 外形 直径 約7.5mm 厚さ 約2.3mm 重量 130mg"
+    },
+    {
+      "product_name": "ブロナンセリン錠8mg「YD」",
+      "strength": "8mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入り素錠 外形 直径 約9mm 厚さ 約3.2mm 重量 260mg"
+    }
+  ],
+  "expected_products": [
+    "ブロナンセリン錠4mg「YD」"
+  ]
+}

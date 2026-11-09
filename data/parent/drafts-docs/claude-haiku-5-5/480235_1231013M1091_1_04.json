@@ -1,0 +1,50 @@
+{
+  "id": "480235_1231013M1091_1_04",
+  "source_file": "480235_1231013M1091_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1231013M1091_1_04",
+  "extracted_at": "2026-11-09T14:21:22.014Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9355,
+    "output": 1952
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チキジウム臭化物カプセル5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "Tw434",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の記載のみ。表裏の別は未確認",
+      "color": "淡橙色（頭部及び胴部、不透明）",
+      "shape": "oblong",
+      "size_long_mm": 11.1,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "頭部及び胴部が淡橙色不透明の硬カプセル剤であり、内容物は白色の粉末又は粒状。"
+    },
+    {
+      "product_name": "チキジウム臭化物カプセル10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw405",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の記載のみ。表裏の別は未確認",
+      "color": "白色（頭部及び胴部、不透明）",
+      "shape": "oblong",
+      "size_long_mm": 11.1,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "頭部及び胴部が白色不透明の硬カプセル剤であり、内容物は白色の粉末又は粒状。"
+    }
+  ],
+  "expected_products": [
+    "チキジウム臭化物カプセル10mg「トーワ」",
+    "チキジウム臭化物カプセル5mg「トーワ」"
+  ]
+}

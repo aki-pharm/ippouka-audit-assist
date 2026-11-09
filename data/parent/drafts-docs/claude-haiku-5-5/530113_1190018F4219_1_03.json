@@ -1,0 +1,81 @@
+{
+  "id": "530113_1190018F4219_1_03",
+  "source_file": "530113_1190018F4219_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1190018F4219_1_03",
+  "extracted_at": "2026-11-09T14:20:41.333Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15925,
+    "output": 3064
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メマンチン塩酸塩OD錠5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "メマンチン OD5",
+      "imprint_back": "メマンチン NS5",
+      "imprint_note": null,
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 淡赤白の素錠 外形 錠径：6.1mm 錠厚：3.2mm 重量： 77mg 表面 メマンチン OD5 裏面 メマンチン NS5"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "メマンチン OD10 NS",
+      "imprint_back": "メマンチン OD10 NS",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 淡黄白の素錠 外形 錠径：7.6mm 錠厚：3.6mm 重量：150mg 表面 メマンチン OD10 NS 裏面 メマンチン OD10 NS"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠15mg「日新」",
+      "strength": "15mg",
+      "imprint_front": "メマンチン OD15 NS",
+      "imprint_back": "メマンチン OD15 NS",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の素錠 外形 錠径：8.1mm 錠厚：4.5mm 重量：210mg 表面 メマンチン OD15 NS 裏面 メマンチン OD15 NS"
+    },
+    {
+      "product_name": "メマンチン塩酸塩OD錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "メマンチン OD20 NS",
+      "imprint_back": "メマンチン OD20 NS",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の割線入りの素錠 外形 錠径：9.1mm 錠厚：4.9mm 重量：280mg 表面 メマンチン OD20 NS 裏面 メマンチン OD20 NS"
+    }
+  ],
+  "expected_products": [
+    "メマンチン塩酸塩OD錠10mg「日新」"
+  ]
+}

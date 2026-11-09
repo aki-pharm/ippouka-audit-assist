@@ -1,0 +1,50 @@
+{
+  "id": "450064_1190004F1170_1_04",
+  "source_file": "450064_1190004F1170_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_1190004F1170_1_04",
+  "extracted_at": "2026-11-09T14:17:17.377Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18292,
+    "output": 1790
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チアプリド錠25mg「JG」",
+      "strength": "25mg",
+      "imprint_front": "チアプリド　25　JG",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2025年8月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～微帯黄白色のフィルムコーティング錠 外形 大きさ 直径 6.1mm 厚さ 3.1mm 本体表示 チアプリド　25　JG"
+    },
+    {
+      "product_name": "チアプリド錠50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "チアプリド　50　JG",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年8月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～微帯黄白色のフィルムコーティング錠 外形 大きさ 直径 7.1mm 厚さ 3.5mm 本体表示 チアプリド　50　JG"
+    }
+  ],
+  "expected_products": [
+    "チアプリド錠25mg「JG」",
+    "チアプリド錠50mg「JG」"
+  ]
+}

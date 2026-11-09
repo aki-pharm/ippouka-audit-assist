@@ -1,0 +1,67 @@
+{
+  "id": "530100_1190012F1085_3_11",
+  "source_file": "530100_1190012F1085_3_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1190012F1085_3_11",
+  "extracted_at": "2026-11-09T14:18:01.595Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32289,
+    "output": 2445
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドネペジル塩酸塩錠3mg「NP」",
+      "strength": "3mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図に円形の表示があるが文字は判読できず、社名マークのみとは確認できないため未確認",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠 7.1 3.3 140"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩錠5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図に円形の表示があるが文字は判読できず、社名マークのみとは確認できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 7.1 3.3 140"
+    },
+    {
+      "product_name": "ドネペジル塩酸塩錠10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図に円形の表示があるが文字は判読できず、社名マークのみとは確認できないため未確認",
+      "color": "赤橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "赤橙色のフィルムコーティング錠 8.6 4.4 278"
+    }
+  ],
+  "expected_products": [
+    "ドネペジル塩酸塩錠10mg「NP」",
+    "ドネペジル塩酸塩錠3mg「NP」",
+    "ドネペジル塩酸塩錠5mg「NP」"
+  ]
+}

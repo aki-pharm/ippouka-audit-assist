@@ -1,0 +1,33 @@
+{
+  "id": "460028_2119003D1173_1_04",
+  "source_file": "460028_2119003D1173_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2119003D1173_1_04",
+  "extracted_at": "2026-11-09T14:23:22.924Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9018,
+    "output": 1495
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ユビデカレノン錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": null,
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2023年2月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 剤形 糖衣錠 色調 黄色 大きさ 直径 約 7.0mm 厚さ 約 4.2mm"
+    }
+  ],
+  "expected_products": [
+    "ユビデカレノン錠10mg「ツルハラ」"
+  ]
+}

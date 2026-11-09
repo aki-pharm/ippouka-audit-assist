@@ -1,0 +1,33 @@
+{
+  "id": "460028_2123005F1273_1_07",
+  "source_file": "460028_2123005F1273_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2123005F1273_1_07",
+  "extracted_at": "2026-11-09T14:23:38.608Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15176,
+    "output": 1013
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルテオロール塩酸塩錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "TSU379",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 / 外形 / 大きさ 直径 約6.0mm 厚さ 約2.7mm / 質量 約100mg / 識別コード TSU379"
+    }
+  ],
+  "expected_products": [
+    "カルテオロール塩酸塩錠5mg「ツルハラ」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "530169_1249009F1406_1_05",
+  "source_file": "530169_1249009F1406_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1249009F1406_1_05",
+  "extracted_at": "2026-11-09T14:22:09.346Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10135,
+    "output": 1725
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エペリゾン塩酸塩錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「エペリゾン 50 日医工」と記載されている。表裏の区別は文書から確認できない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（糖衣錠） 色調 白色 直径（mm） 7.4 厚さ（mm） 4.2 質量（mg） 170 本体表示 エペリゾン 50 日医工"
+    }
+  ],
+  "expected_products": [
+    "エペリゾン塩酸塩錠50mg「日医工」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "380999_1339005F1431_1_03",
+  "source_file": "380999_1339005F1431_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380999_1339005F1431_1_03",
+  "extracted_at": "2026-11-09T14:22:53.594Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9373,
+    "output": 2026
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠6mg「CEO」",
+      "strength": "1錠中 6mg",
+      "imprint_front": "CEO701",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 / 直径（mm）6.5 / 厚さ（mm）2.3 / 識別コード CEO701"
+    },
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠12mg「CEO」",
+      "strength": "1錠中 12mg",
+      "imprint_front": "CEO702",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 / 直径（mm）8.0 / 厚さ（mm）3.0 / 識別コード CEO702"
+    }
+  ],
+  "expected_products": [
+    "ベタヒスチンメシル酸塩錠12mg「CEO」",
+    "ベタヒスチンメシル酸塩錠6mg「CEO」"
+  ]
+}

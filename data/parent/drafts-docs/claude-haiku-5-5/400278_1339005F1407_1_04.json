@@ -1,0 +1,50 @@
+{
+  "id": "400278_1339005F1407_1_04",
+  "source_file": "400278_1339005F1407_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1339005F1407_1_04",
+  "extracted_at": "2026-11-09T14:22:50.826Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9523,
+    "output": 1852
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠6mg「TCK」",
+      "strength": "6mg",
+      "imprint_front": "Tu-SZ 006",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ベタヒスチンメシル酸塩 6mg「TCK」 白色 素錠 (割線入り) Tu-SZ 006 6.5 2.2 100"
+    },
+    {
+      "product_name": "ベタヒスチンメシル酸塩錠12mg「TCK」",
+      "strength": "12mg",
+      "imprint_front": "Tu-SZ 012",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ベタヒスチンメシル酸塩 12mg「TCK」 白色 素錠 (割線入り) Tu-SZ 012 8.0 3.0 200"
+    }
+  ],
+  "expected_products": [
+    "ベタヒスチンメシル酸塩錠12mg「TCK」",
+    "ベタヒスチンメシル酸塩錠6mg「TCK」"
+  ]
+}

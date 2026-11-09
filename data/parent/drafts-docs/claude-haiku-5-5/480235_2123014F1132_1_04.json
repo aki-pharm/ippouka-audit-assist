@@ -1,0 +1,50 @@
+{
+  "id": "480235_2123014F1132_1_04",
+  "source_file": "480235_2123014F1132_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2123014F1132_1_04",
+  "extracted_at": "2026-11-09T14:24:28.685Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13969,
+    "output": 2040
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロチノロール塩酸塩錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "Tw288",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 識別コード 本体 Tw288 直径(mm) 7.2 厚さ(mm) 3.2"
+    },
+    {
+      "product_name": "アロチノロール塩酸塩錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "TwAC",
+      "imprint_back": "未確認",
+      "imprint_note": "包装の識別コードはTw.AC",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色の糖衣錠 識別コード 本体 TwAC 包装 Tw.AC 直径(mm) 7.5 厚さ(mm) 4.2"
+    }
+  ],
+  "expected_products": [
+    "アロチノロール塩酸塩錠10mg「トーワ」",
+    "アロチノロール塩酸塩錠5mg「トーワ」"
+  ]
+}

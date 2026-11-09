@@ -1,0 +1,50 @@
+{
+  "id": "300166_1179051F1096_1_08",
+  "source_file": "300166_1179051F1096_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1179051F1096_1_08",
+  "extracted_at": "2026-11-09T14:16:58.649Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27740,
+    "output": 1567
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルタザピン錠15mg「共創未来」",
+      "strength": "15mg",
+      "imprint_front": "ミルタザピン 15 KMP",
+      "imprint_back": "ミルタザピン 15 KMP",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状 黄色のフィルムコーティング錠 外形 長径 約10.1mm 短径 約6.1mm 厚さ 約3.5mm 識別コード ミルタザピン 15 KMP"
+    },
+    {
+      "product_name": "ミルタザピン錠30mg「共創未来」",
+      "strength": "30mg",
+      "imprint_front": "ミルタザピン 30 KMP",
+      "imprint_back": "ミルタザピン 30 KMP",
+      "imprint_note": null,
+      "color": "黄赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状 黄赤色の割線入りのフィルムコーティング錠 外形 長径 約13.1mm 短径 約7.1mm 厚さ 約4.5mm 識別コード ミルタザピン 30 KMP"
+    }
+  ],
+  "expected_products": [
+    "ミルタザピン錠15mg「共創未来」",
+    "ミルタザピン錠30mg「共創未来」"
+  ]
+}

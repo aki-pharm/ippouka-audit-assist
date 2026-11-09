@@ -1,0 +1,33 @@
+{
+  "id": "400278_1249009F1465_1_04",
+  "source_file": "400278_1249009F1465_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1249009F1465_1_04",
+  "extracted_at": "2026-11-09T14:21:56.057Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9189,
+    "output": 1793
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エペリゾン塩酸塩錠50mg「TCK」",
+      "strength": "50mg",
+      "imprint_front": "TU EO-050",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 糖衣錠 / 識別コード TU EO-050 / 直径 7.4 mm、厚さ 4.3 mm、重量 175 mg"
+    }
+  ],
+  "expected_products": [
+    "エペリゾン塩酸塩錠50mg「TCK」"
+  ]
+}
