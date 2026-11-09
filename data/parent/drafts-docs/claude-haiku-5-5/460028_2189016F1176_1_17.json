@@ -1,0 +1,65 @@
+{
+  "id": "460028_2189016F1176_1_17",
+  "source_file": "460028_2189016F1176_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2189016F1176_1_17",
+  "extracted_at": "2026-11-09T14:53:51.468Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25597,
+    "output": 2010
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠1mg「ツルハラ」",
+      "strength": "ピタバスタチンカルシウムとして1.0mg",
+      "imprint_front": "589",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 大きさ 直径 約6.1mm 厚さ約2.7mm 質量約83mg 識別コード 表面 589 裏面 1"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠2mg「ツルハラ」",
+      "strength": "ピタバスタチンカルシウムとして2.0mg",
+      "imprint_front": "TSU590",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 うすい赤色 外形 大きさ 直径 約7.1mm 厚さ約3.1mm 質量約124mg 識別コード 表面 TSU590 裏面 2"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠4mg「ツルハラ」",
+      "strength": "ピタバスタチンカルシウムとして4.0mg",
+      "imprint_front": "TSU591",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 淡黄色 外形 大きさ 直径 約8.6mm 厚さ約4.1mm 質量約247mg 識別コード 表面 TSU591 裏面 4"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa錠1mg「ツルハラ」"
+  ]
+}

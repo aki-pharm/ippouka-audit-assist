@@ -1,0 +1,67 @@
+{
+  "id": "530100_2189016F1060_1_16",
+  "source_file": "530100_2189016F1060_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2189016F1060_1_16",
+  "extracted_at": "2026-11-09T14:53:20.418Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29521,
+    "output": 2784
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチン Ca 錠 1mg「NP」",
+      "strength": "1mg",
+      "imprint_front": "NP-160",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして NP-160 と記載。刻印の表裏は文書から特定できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 6.1 2.7 86 NP-160"
+    },
+    {
+      "product_name": "ピタバスタチン Ca 錠 2mg「NP」",
+      "strength": "2mg",
+      "imprint_front": "NP-161",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして NP-161 と記載。刻印の表裏は文書から特定できず",
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄赤色の割線入りフィルムコーティング錠 7.1 3.0 125 NP-161"
+    },
+    {
+      "product_name": "ピタバスタチン Ca 錠 4mg「NP」",
+      "strength": "4mg",
+      "imprint_front": "NP-162",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして NP-162 と記載。刻印の表裏は文書から特定できず",
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄赤色の割線入りフィルムコーティング錠 8.6 3.9 248 NP-162"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa錠1mg「NP」",
+    "ピタバスタチンCa錠2mg「NP」",
+    "ピタバスタチンCa錠4mg「NP」"
+  ]
+}

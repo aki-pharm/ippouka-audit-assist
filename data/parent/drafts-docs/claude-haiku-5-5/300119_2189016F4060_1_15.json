@@ -1,0 +1,65 @@
+{
+  "id": "300119_2189016F4060_1_15",
+  "source_file": "300119_2189016F4060_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2189016F4060_1_15",
+  "extracted_at": "2026-11-09T14:52:48.259Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25336,
+    "output": 2071
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa・OD錠1mg「サワイ」",
+      "strength": "1mg",
+      "imprint_front": "SW PV1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色で淡黄色～濃黄色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）、性状 白色～帯黄白色で淡黄色～濃黄色の斑点がある、直径（mm） 7.0、厚さ（mm） 3.2、識別コード SW PV1"
+    },
+    {
+      "product_name": "ピタバスタチンCa・OD錠2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW PV2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色で淡黄色～濃黄色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）、性状 白色～帯黄白色で淡黄色～濃黄色の斑点がある、直径（mm） 8.0、厚さ（mm） 3.4、識別コード SW PV2"
+    },
+    {
+      "product_name": "ピタバスタチンCa・OD錠4mg「サワイ」",
+      "strength": "4mg",
+      "imprint_front": "SW PV4",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色で淡黄色～濃黄色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）、性状 白色～帯黄白色で淡黄色～濃黄色の斑点がある、直径（mm） 9.5、厚さ（mm） 4.7、識別コード SW PV4"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa・OD錠1mg「サワイ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "530169_2189015F1120_1_21",
+  "source_file": "530169_2189015F1120_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2189015F1120_1_21",
+  "extracted_at": "2026-11-09T14:51:59.606Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29093,
+    "output": 2359
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "アトルバスタチン 5 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本体表示欄の記載による。裏面の刻印は明記されていない",
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠、色調 ごくうすい紅色（5mg）、直径（mm）5.6、厚さ（mm）3.1、本体表示 アトルバスタチン 5 日医工"
+    },
+    {
+      "product_name": "アトルバスタチン錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "アトルバスタチン 10 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本体表示欄の記載による。裏面の刻印は明記されていない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠、色調 白色（10mg）、直径（mm）6.1、厚さ（mm）3.1、本体表示 アトルバスタチン 10 日医工"
+    }
+  ],
+  "expected_products": [
+    "アトルバスタチン錠10mg「日医工」（旧製品）",
+    "アトルバスタチン錠5mg「日医工」（旧製品）"
+  ]
+}

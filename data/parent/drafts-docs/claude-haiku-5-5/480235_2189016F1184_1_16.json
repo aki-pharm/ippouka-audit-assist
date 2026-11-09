@@ -1,0 +1,65 @@
+{
+  "id": "480235_2189016F1184_1_16",
+  "source_file": "480235_2189016F1184_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2189016F1184_1_16",
+  "extracted_at": "2026-11-09T14:53:59.203Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25204,
+    "output": 2134
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "Tw205",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 識別コード Tw205 直径(mm) 6.1 厚さ(mm) 2.9"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠2mg「トーワ」",
+      "strength": "2mg",
+      "imprint_front": "Tw207",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄赤色の割線入りのフィルムコーティング錠 識別コード Tw207 直径(mm) 7.1 厚さ(mm) 3.3"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠4mg「トーワ」",
+      "strength": "4mg",
+      "imprint_front": "Tw209",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄赤色の割線入りのフィルムコーティング錠 識別コード Tw209 直径(mm) 9.1 厚さ(mm) 4.1"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa錠1mg「トーワ」"
+  ]
+}

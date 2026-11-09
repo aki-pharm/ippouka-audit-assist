@@ -1,0 +1,65 @@
+{
+  "id": "400278_2189016F1079_1_15",
+  "source_file": "400278_2189016F1079_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2189016F1079_1_15",
+  "extracted_at": "2026-11-09T14:53:28.893Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28267,
+    "output": 2506
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠1mg「TCK」",
+      "strength": "1mg",
+      "imprint_front": "TU 171",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は図から判読できず、「なし」との記載もない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ピタバスタチンCa錠1mg「TCK」 白色 フィルムコーティング錠 TU 171 6.1 2.7 85"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠2mg「TCK」",
+      "strength": "2mg",
+      "imprint_front": "TU 172",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ピタバスタチンCa錠2mg「TCK」 ごくうすい黄赤色 フィルムコーティング錠（割線入り） TU 172 7.1 2.9 127"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠4mg「TCK」",
+      "strength": "4mg",
+      "imprint_front": "TU 173",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ピタバスタチンCa錠4mg「TCK」 淡赤色 フィルムコーティング錠（割線入り） TU 173 8.6 3.9 251"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa錠1mg「TCK」"
+  ]
+}

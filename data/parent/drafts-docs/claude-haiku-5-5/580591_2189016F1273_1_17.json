@@ -1,0 +1,66 @@
+{
+  "id": "580591_2189016F1273_1_17",
+  "source_file": "580591_2189016F1273_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2189016F1273_1_17",
+  "extracted_at": "2026-11-09T14:53:19.544Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27751,
+    "output": 2969
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠 1 mg「JG」",
+      "strength": "1 mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「－」。表面・裏面の刻印は判読できず未確認。本体表示は「ピタバスタチン 1 JG」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色、円形のフィルムコーティング錠 直径6.1mm 厚さ2.7mm 重量85mg"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠 2 mg「JG」",
+      "strength": "2 mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「－」。表面・裏面の刻印は判読できず未確認。本体表示は「ピタバスタチン 2 JG」",
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄赤色、円形の割線入りフィルムコーティング錠 直径7.1mm 厚さ2.8mm 重量127mg"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠 4 mg「JG」",
+      "strength": "4 mg",
+      "imprint_front": "JG N45",
+      "imprint_back": "4",
+      "imprint_note": "本体表示は「－」",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡赤色、円形の割線入りフィルムコーティング錠 直径8.6mm 厚さ3.8mm 重量251mg"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa錠1mg「JG」",
+    "ピタバスタチンCa錠2mg「JG」"
+  ]
+}

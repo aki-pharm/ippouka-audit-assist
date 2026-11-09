@@ -1,0 +1,66 @@
+{
+  "id": "530169_2189016F1257_1_18",
+  "source_file": "530169_2189016F1257_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2189016F1257_1_18",
+  "extracted_at": "2026-11-09T14:54:52.276Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25832,
+    "output": 5633
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンカルシウム錠1mg「日医工」",
+      "strength": "1mg",
+      "imprint_front": "ピタバスタチン 1 日医工",
+      "imprint_back": "ピタバスタチン 1 日医工",
+      "imprint_note": "表裏の刻印は本体表示欄の記載による",
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 ごくうすい黄赤色 淡黄色 直径（mm） 6.1 7.1 8.6 厚さ（mm） 2.7 3.0 4.0 本体表示 ピタバスタチン 1 日医工"
+    },
+    {
+      "product_name": "ピタバスタチンカルシウム錠2mg「日医工」",
+      "strength": "2mg",
+      "imprint_front": "ピタバスタチン 2 日医工",
+      "imprint_back": "ピタバスタチン 2 日医工",
+      "imprint_note": "表裏の刻印は本体表示欄の記載による",
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 ごくうすい黄赤色 淡黄色 直径（mm） 6.1 7.1 8.6 厚さ（mm） 2.7 3.0 4.0 本体表示 ピタバスタチン 2 日医工"
+    },
+    {
+      "product_name": "ピタバスタチンカルシウム錠4mg「日医工」",
+      "strength": "4mg",
+      "imprint_front": "ピタバスタチン 4 日医工",
+      "imprint_back": "ピタバスタチン 4 日医工",
+      "imprint_note": "表裏の刻印は本体表示欄の記載による",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 ごくうすい黄赤色 淡黄色 直径（mm） 6.1 7.1 8.6 厚さ（mm） 2.7 3.0 4.0 本体表示 ピタバスタチン 4 日医工"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンカルシウム錠1mg「日医工」",
+    "ピタバスタチンカルシウム錠2mg「日医工」"
+  ]
+}

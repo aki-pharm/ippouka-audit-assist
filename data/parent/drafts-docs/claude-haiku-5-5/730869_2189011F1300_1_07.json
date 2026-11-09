@@ -1,0 +1,65 @@
+{
+  "id": "730869_2189011F1300_1_07",
+  "source_file": "730869_2189011F1300_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2189011F1300_1_07",
+  "extracted_at": "2026-11-09T14:51:24.277Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18324,
+    "output": 1826
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "MH599",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "シンバスタチン錠5mg「VTRS」 MH599 白色 割線入り 直径 素錠 6.5mm 厚さ 2.3mm 重量 100mg"
+    },
+    {
+      "product_name": "シンバスタチン錠10mg「VTRS」",
+      "strength": "10mg",
+      "imprint_front": "MH600",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "シンバスタチン錠10mg「VTRS」 MH600 白色 割線入り 直径 素錠 8.0mm 厚さ 3.0mm 重量 200mg"
+    },
+    {
+      "product_name": "シンバスタチン錠20mg「VTRS」",
+      "strength": "20mg",
+      "imprint_front": "MH601",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "シンバスタチン錠20mg「VTRS」 MH601 白色 割線入り 素錠 直径 10.0mm 厚さ 3.9mm 重量 400mg"
+    }
+  ],
+  "expected_products": [
+    "シンバスタチン錠10mg「VTRS」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "530213_2189015F1210_1_16",
+  "source_file": "530213_2189015F1210_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2189015F1210_1_16",
+  "extracted_at": "2026-11-09T14:52:27.497Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28731,
+    "output": 1596
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠5mg「ケミファ」",
+      "strength": "5mg",
+      "imprint_front": "NCP A5",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 ごくうすい紅色のフィルムコーティング錠 外形 直径 6.1mm 厚さ 3.1mm 識別コード NCP A5"
+    },
+    {
+      "product_name": "アトルバスタチン錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "NCP A10",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の フィルムコーティング錠 外形 直径 7.1mm 厚さ 3.5mm 識別コード NCP A10"
+    }
+  ],
+  "expected_products": [
+    "アトルバスタチン錠5mg「ケミファ」"
+  ]
+}

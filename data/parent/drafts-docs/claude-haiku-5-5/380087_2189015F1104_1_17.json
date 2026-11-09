@@ -1,0 +1,49 @@
+{
+  "id": "380087_2189015F1104_1_17",
+  "source_file": "380087_2189015F1104_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2189015F1104_1_17",
+  "extracted_at": "2026-11-09T14:52:26.944Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30993,
+    "output": 1978
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠 5mg「ZE」",
+      "strength": "5mg",
+      "imprint_front": "ZE56",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 ごくうすい紅色 / 剤形 フィルムコーティング錠 / 錠径（mm） 5.6 / 厚み（mm） 3.1 / 識別コード ZE56、5"
+    },
+    {
+      "product_name": "アトルバスタチン錠 10mg「ZE」",
+      "strength": "10mg",
+      "imprint_front": "ZE57",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 / 剤形 フィルムコーティング錠 / 錠径（mm） 6.1 / 厚み（mm） 3.1 / 識別コード ZE57、10"
+    }
+  ],
+  "expected_products": [
+    "アトルバスタチン錠5mg「ZE」"
+  ]
+}

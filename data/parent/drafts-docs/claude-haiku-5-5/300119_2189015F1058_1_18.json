@@ -1,0 +1,49 @@
+{
+  "id": "300119_2189015F1058_1_18",
+  "source_file": "300119_2189015F1058_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2189015F1058_1_18",
+  "extracted_at": "2026-11-09T14:52:29.903Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29017,
+    "output": 2043
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW アトルバ 5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性　状 ごくうすい紅色 白色 直径（mm） 5.6 6.1 厚さ（mm） 2.7 2.9 本体表示 SW アトルバ 5 SW アトルバ 10"
+    },
+    {
+      "product_name": "アトルバスタチン錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW アトルバ 10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性　状 ごくうすい紅色 白色 直径（mm） 5.6 6.1 厚さ（mm） 2.7 2.9 本体表示 SW アトルバ 5 SW アトルバ 10"
+    }
+  ],
+  "expected_products": [
+    "アトルバスタチン錠5mg「サワイ」"
+  ]
+}

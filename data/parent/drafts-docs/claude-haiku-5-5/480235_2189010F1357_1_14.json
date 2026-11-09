@@ -1,0 +1,49 @@
+{
+  "id": "480235_2189010F1357_1_14",
+  "source_file": "480235_2189010F1357_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2189010F1357_1_14",
+  "extracted_at": "2026-11-09T14:51:14.164Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20314,
+    "output": 2070
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "5 プラバスタチン トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠"
+    },
+    {
+      "product_name": "プラバスタチンNa錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "10 プラバスタチン トーワ",
+      "imprint_back": "プラバ 10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠"
+    }
+  ],
+  "expected_products": [
+    "プラバスタチンNa錠5mg「トーワ」"
+  ]
+}

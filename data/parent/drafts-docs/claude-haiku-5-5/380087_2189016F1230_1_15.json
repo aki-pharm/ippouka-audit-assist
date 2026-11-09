@@ -1,0 +1,65 @@
+{
+  "id": "380087_2189016F1230_1_15",
+  "source_file": "380087_2189016F1230_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2189016F1230_1_15",
+  "extracted_at": "2026-11-09T14:54:36.969Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27807,
+    "output": 3419
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンカルシウム錠 1mg「ZE」",
+      "strength": "1mg",
+      "imprint_front": "ZE46",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 ごくうすい黄赤色 剤形 フィルムコーティング錠 フィルムコーティング錠（割線入り） 外形 錠径（mm） 6.1 7.1 8.6 厚み（mm） 2.7 3.0 3.9 重量（mg） 86 125 248 識別コード ZE46 ZE47 ZE48"
+    },
+    {
+      "product_name": "ピタバスタチンカルシウム錠 2mg「ZE」",
+      "strength": "2mg",
+      "imprint_front": "ZE47",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい黄赤色",
+      "shape": "oblong",
+      "size_long_mm": 7.1,
+      "size_short_mm": null,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 ごくうすい黄赤色 剤形 フィルムコーティング錠 フィルムコーティング錠（割線入り） 外形 錠径（mm） 6.1 7.1 8.6 厚み（mm） 2.7 3.0 3.9 重量（mg） 86 125 248 識別コード ZE46 ZE47 ZE48"
+    },
+    {
+      "product_name": "ピタバスタチンカルシウム錠 4mg「ZE」",
+      "strength": "4mg",
+      "imprint_front": "ZE48",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい黄赤色",
+      "shape": "oblong",
+      "size_long_mm": 8.6,
+      "size_short_mm": null,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 ごくうすい黄赤色 剤形 フィルムコーティング錠 フィルムコーティング錠（割線入り） 外形 錠径（mm） 6.1 7.1 8.6 厚み（mm） 2.7 3.0 3.9 重量（mg） 86 125 248 識別コード ZE46 ZE47 ZE48"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンカルシウム錠1mg「ZE」"
+  ]
+}

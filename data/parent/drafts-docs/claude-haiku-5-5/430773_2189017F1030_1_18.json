@@ -1,0 +1,82 @@
+{
+  "id": "430773_2189017F1030_1_18",
+  "source_file": "430773_2189017F1030_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2189017F1030_1_18",
+  "extracted_at": "2026-11-09T14:55:02.937Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32878,
+    "output": 4539
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠2.5mg「DSEP」",
+      "strength": "2.5mg",
+      "imprint_front": "EP R 2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ロスバスタチン錠2.5mg「DSEP」 フィルムコーティング錠 うすい赤みの黄色～くすんだ赤みの黄色 EP R 2.5 約5.5 約3.1 約77.3"
+    },
+    {
+      "product_name": "ロスバスタチン錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "EP R 5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ロスバスタチン錠5mg「DSEP」 フィルムコーティング錠 うすい赤みの黄色～くすんだ赤みの黄色 EP R 5 約7 約3.8 約154.5"
+    },
+    {
+      "product_name": "ロスバスタチンOD錠2.5mg「DSEP」",
+      "strength": "2.5mg",
+      "imprint_front": "d2.5 EPR",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ロスバスタチンOD錠2.5mg「DSEP」 素錠（口腔内崩壊錠） 淡黄色 d2.5 EPR 約6 約2.7 約120"
+    },
+    {
+      "product_name": "ロスバスタチンOD錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "d5 EPR",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "ロスバスタチンOD錠5mg「DSEP」 素錠（口腔内崩壊錠） 淡黄色 d5 EPR 約8 約3.1 約240"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチンOD錠2.5mg「DSEP」",
+    "ロスバスタチン錠2.5mg「DSEP」"
+  ]
+}

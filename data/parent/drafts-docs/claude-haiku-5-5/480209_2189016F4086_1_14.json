@@ -1,0 +1,65 @@
+{
+  "id": "480209_2189016F4086_1_14",
+  "source_file": "480209_2189016F4086_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2189016F4086_1_14",
+  "extracted_at": "2026-11-09T14:53:04.396Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26556,
+    "output": 2479
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa・OD錠1mg「杏林」",
+      "strength": "1mg",
+      "imprint_front": "ピタバスタチン OD 1 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色で淡黄色〜濃黄色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2025年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 / 色調 淡黄白色で淡黄色〜濃黄色の斑点がある / 本体表示 ピタバスタチン OD 1 杏林 / 直径(mm) 6.0 / 厚さ(mm) 2.8"
+    },
+    {
+      "product_name": "ピタバスタチンCa・OD錠2mg「杏林」",
+      "strength": "2mg",
+      "imprint_front": "ピタバスタチン OD 2 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色で淡黄色〜濃黄色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 / 色調 淡黄白色で淡黄色〜濃黄色の斑点がある / 本体表示 ピタバスタチン OD 2 杏林 / 直径(mm) 8.1 / 厚さ(mm) 3.3"
+    },
+    {
+      "product_name": "ピタバスタチンCa・OD錠4mg「杏林」",
+      "strength": "4mg",
+      "imprint_front": "ピタバスタチン OD 4 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色で淡黄色〜濃黄色の斑点がある",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2025年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 / 色調 淡黄白色で淡黄色〜濃黄色の斑点がある / 本体表示 ピタバスタチン OD 4 杏林 / 直径(mm) 9.6 / 厚さ(mm) 4.7"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa・OD錠1mg「杏林」"
+  ]
+}
