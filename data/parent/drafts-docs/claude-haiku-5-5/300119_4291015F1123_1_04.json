@@ -1,0 +1,33 @@
+{
+  "id": "300119_4291015F1123_1_04",
+  "source_file": "300119_4291015F1123_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4291015F1123_1_04",
+  "extracted_at": "2026-11-09T15:36:45.448Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22106,
+    "output": 1181
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レトロゾール錠2.5mg「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "SW レトロゾール 2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯赤黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 帯赤黄色 直径（mm） 6.1 厚さ（mm） 3.3 重量（mg） 約103 本体表示 SW レトロゾール 2.5"
+    }
+  ],
+  "expected_products": [
+    "レトロゾール錠2.5mg「サワイ」"
+  ]
+}

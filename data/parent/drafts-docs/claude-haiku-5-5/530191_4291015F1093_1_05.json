@@ -1,0 +1,33 @@
+{
+  "id": "530191_4291015F1093_1_05",
+  "source_file": "530191_4291015F1093_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291015F1093_1_05",
+  "extracted_at": "2026-11-09T15:36:46.450Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23774,
+    "output": 1385
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レトロゾール錠 2.5mg「NK」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表・裏の刻印図は判読できず。本体表示は「レトロゾール 2.5：レトロゾール NK」",
+      "color": "帯赤黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状：帯赤黄色のフィルムコーティング錠　外形　直径6.1mm　厚さ3.2mm　質量0.10g"
+    }
+  ],
+  "expected_products": [
+    "レトロゾール錠2.5mg「NK」"
+  ]
+}

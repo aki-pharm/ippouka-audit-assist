@@ -1,0 +1,33 @@
+{
+  "id": "400186_4291013F1094_1_08",
+  "source_file": "400186_4291013F1094_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4291013F1094_1_08",
+  "extracted_at": "2026-11-09T15:36:34.283Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30845,
+    "output": 1642
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゲフィチニブ錠250mg「ヤクルト」",
+      "strength": "250mg",
+      "imprint_front": "YA828",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図のみで刻印の文字記載なし",
+      "color": "褐色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "褐色のフィルムコーティング錠 識別コード YA828 大きさ 直径：9.6mm 厚さ：4.7mm 質量：0.308g"
+    }
+  ],
+  "expected_products": [
+    "ゲフィチニブ錠250mg「ヤクルト」"
+  ]
+}

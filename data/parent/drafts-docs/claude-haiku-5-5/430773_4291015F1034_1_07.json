@@ -1,0 +1,33 @@
+{
+  "id": "430773_4291015F1034_1_07",
+  "source_file": "430773_4291015F1034_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_4291015F1034_1_07",
+  "extracted_at": "2026-11-09T15:36:33.813Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23759,
+    "output": 1466
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レトロゾール錠2.5mg「DSEP」",
+      "strength": "2.5mg",
+      "imprint_front": "LTZ",
+      "imprint_back": "EP",
+      "imprint_note": null,
+      "color": "帯赤黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "製剤の性状 販売名 剤形 色 外形 識別コード：レトロゾール錠2.5mg「DSEP」、フィルムコーティング錠、帯赤黄色、識別コード LTZ EP、直径6.1mm、厚さ3.3mm、質量102mg"
+    }
+  ],
+  "expected_products": [
+    "レトロゾール錠2.5mg「DSEP」"
+  ]
+}
