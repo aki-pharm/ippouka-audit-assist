@@ -1,0 +1,100 @@
+{
+  "id": "300119_3949003F1104_1_05",
+  "source_file": "300119_3949003F1104_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3949003F1104_1_05",
+  "extracted_at": "2026-11-09T15:24:55.845Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30141,
+    "output": 3399
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "フェブキソ 10 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色～微黄色 直径（mm） 7.1 厚さ（mm） 3.2 重量（mg） 約129 本体表示 フェブキソ 10 サワイ"
+    },
+    {
+      "product_name": "フェブキソスタット錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "フェブキソ 20 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 性状 白色～微黄色 直径（mm） 7.1 厚さ（mm） 3.2 重量（mg） 約129 本体表示 フェブキソ 20 サワイ"
+    },
+    {
+      "product_name": "フェブキソスタット錠40mg「サワイ」",
+      "strength": "40mg",
+      "imprint_front": "フェブキソ 40 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 性状 白色～微黄色 直径（mm） 9.1 厚さ（mm） 3.8 重量（mg） 約257 本体表示 フェブキソ 40 サワイ"
+    },
+    {
+      "product_name": "フェブキソスタットOD錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "フェブキソ OD 10 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2024年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 性状 白色 直径（mm） 6.5 厚さ（mm） 3.1 重量（mg） 約100 本体表示 フェブキソ OD 10 サワイ"
+    },
+    {
+      "product_name": "フェブキソスタットOD錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "フェブキソ OD 20 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年12月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 白色 直径（mm） 8.5 厚さ（mm） 3.8 重量（mg） 約200 本体表示 フェブキソ OD 20 サワイ"
+    }
+  ],
+  "expected_products": [
+    "フェブキソスタットOD錠10mg「サワイ」",
+    "フェブキソスタットOD錠20mg「サワイ」",
+    "フェブキソスタット錠10mg「サワイ」",
+    "フェブキソスタット錠20mg「サワイ」"
+  ]
+}
