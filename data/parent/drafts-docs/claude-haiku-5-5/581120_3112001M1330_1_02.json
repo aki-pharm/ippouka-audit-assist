@@ -1,0 +1,67 @@
+{
+  "id": "581120_3112001M1330_1_02",
+  "source_file": "581120_3112001M1330_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3112001M1330_1_02",
+  "extracted_at": "2026-11-09T15:16:44.590Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13821,
+    "output": 2019
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルファカルシドールカプセル0.25μg「NIG」",
+      "strength": "0.25μg",
+      "imprint_front": "TYK149",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」の記載。カプセル本体への刻印の有無は本文に明記なし",
+      "color": "黄赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄赤色の球形軟カプセル 外形 直径 約7.0mm 識別コード（PTP） TYK149"
+    },
+    {
+      "product_name": "アルファカルシドールカプセル0.5μg「NIG」",
+      "strength": "0.5μg",
+      "imprint_front": "TYK150",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」の記載。カプセル本体への刻印の有無は本文に明記なし",
+      "color": "黄赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄赤色の球形軟カプセル 外形 直径 約7.0mm 識別コード（PTP） TYK150"
+    },
+    {
+      "product_name": "アルファカルシドールカプセル1μg「NIG」",
+      "strength": "1μg",
+      "imprint_front": "TYK151",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」の記載。カプセル本体への刻印の有無は本文に明記なし",
+      "color": "黄赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄赤色の球形軟カプセル 外形 直径 約7.0mm 識別コード（PTP） TYK151"
+    }
+  ],
+  "expected_products": [
+    "アルファカルシドールカプセル0.25μg「NIG」",
+    "アルファカルシドールカプセル0.5μg「NIG」",
+    "アルファカルシドールカプセル1μg「NIG」"
+  ]
+}

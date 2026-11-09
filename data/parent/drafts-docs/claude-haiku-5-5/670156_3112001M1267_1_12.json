@@ -1,0 +1,67 @@
+{
+  "id": "670156_3112001M1267_1_12",
+  "source_file": "670156_3112001M1267_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670156_3112001M1267_1_12",
+  "extracted_at": "2026-11-09T15:16:59.958Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16037,
+    "output": 2619
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルファカルシドールカプセル0.25μg「フソー」",
+      "strength": "0.25μg",
+      "imprint_front": "FS-E12",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは一次包装シートに記載とされている（カプセル本体の刻印としての記載はない）",
+      "color": "褐色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "褐色の透明な球形軟カプセル剤であり、内容物は無色～微黄色の澄明な粘性の液で、においはない。 大きさ 7.0mm 識別コード FS-E12（一次包装シートに記載）"
+    },
+    {
+      "product_name": "アルファカルシドールカプセル0.5μg「フソー」",
+      "strength": "0.5μg",
+      "imprint_front": "FS-E13",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは一次包装シートに記載とされている（カプセル本体の刻印としての記載はない）",
+      "color": "淡褐色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡褐色の透明な球形軟カプセル剤であり、内容物は無色～微黄色の澄明な粘性の液で、においはない。 大きさ 7.0mm 識別コード FS-E13（一次包装シートに記載）"
+    },
+    {
+      "product_name": "アルファカルシドールカプセル1.0μg「フソー」",
+      "strength": "1.0μg",
+      "imprint_front": "FS-E14",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは一次包装シートに記載とされている（カプセル本体の刻印としての記載はない）",
+      "color": "淡黄褐色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄褐色の透明な球形軟カプセル剤であり、内容物は無色～微黄色の澄明な粘性の液で、においはない。 大きさ 7.0mm 識別コード FS-E14（一次包装シートに記載）"
+    }
+  ],
+  "expected_products": [
+    "アルファカルシドールカプセル0.25μg「フソー」",
+    "アルファカルシドールカプセル0.5μg「フソー」",
+    "アルファカルシドールカプセル1.0μg「フソー」"
+  ]
+}

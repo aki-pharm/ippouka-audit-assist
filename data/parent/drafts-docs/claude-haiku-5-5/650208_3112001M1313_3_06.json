@@ -1,0 +1,67 @@
+{
+  "id": "650208_3112001M1313_3_06",
+  "source_file": "650208_3112001M1313_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_3112001M1313_3_06",
+  "extracted_at": "2026-11-09T15:16:46.203Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17232,
+    "output": 2469
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルファカルシドールカプセル0.25μg「BMD」",
+      "strength": "0.25μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：BMD21（PTP）。刻印の表裏の記載なし。質量約225mg",
+      "color": "淡黄色",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "本剤は不透明な球形の軟カプセル剤で、においはない。 色 調 淡黄色 識別コード BMD21（PTP） 質 量 約225mg"
+    },
+    {
+      "product_name": "アルファカルシドールカプセル0.5μg「BMD」",
+      "strength": "0.5μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：BMD22（PTP）。刻印の表裏の記載なし。質量約225mg",
+      "color": "淡緑色",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "本剤は不透明な球形の軟カプセル剤で、においはない。 色 調 淡緑色 識別コード BMD22（PTP） 質 量 約225mg"
+    },
+    {
+      "product_name": "アルファカルシドールカプセル1.0μg「BMD」",
+      "strength": "1.0μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード：BMD23（PTP）。刻印の表裏の記載なし。質量約225mg",
+      "color": "淡紅色",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "本剤は不透明な球形の軟カプセル剤で、においはない。 色 調 淡紅色 識別コード BMD23（PTP） 質 量 約225mg"
+    }
+  ],
+  "expected_products": [
+    "アルファカルシドールカプセル0.25μg「BMD」",
+    "アルファカルシドールカプセル0.5μg「BMD」",
+    "アルファカルシドールカプセル1.0μg「BMD」"
+  ]
+}

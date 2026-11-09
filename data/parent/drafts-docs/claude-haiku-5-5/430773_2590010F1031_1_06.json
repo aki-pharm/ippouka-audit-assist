@@ -1,0 +1,82 @@
+{
+  "id": "430773_2590010F1031_1_06",
+  "source_file": "430773_2590010F1031_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2590010F1031_1_06",
+  "extracted_at": "2026-11-09T15:15:37.728Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25588,
+    "output": 5514
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシン錠2mg「DSEP」",
+      "strength": "2mg",
+      "imprint_front": "SI 2",
+      "imprint_back": "SI EP",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "フィルムコート錠 白色～微黄白色 SI 2 EP 6.4（直径） 約3.2 約104"
+    },
+    {
+      "product_name": "シロドシン錠4mg「DSEP」",
+      "strength": "4mg",
+      "imprint_front": "SI 4",
+      "imprint_back": "EP",
+      "imprint_note": "割線で分けた片側ずつに刻印がある可能性あり（画像からの判読で表裏の配置は要確認）",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 11,
+      "size_short_mm": 6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "フィルムコート錠 （割線入） SI 4 11.0（長径） EP 6.0（短径） 約3.7 約208"
+    },
+    {
+      "product_name": "シロドシンOD錠2mg「DSEP」",
+      "strength": "2mg",
+      "imprint_front": "SI d2",
+      "imprint_back": "SI EP",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "素錠（口腔内崩壊錠） 淡黄赤色 SI d2 EP 6.4（直径） 約3.0 約100"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「DSEP」",
+      "strength": "4mg",
+      "imprint_front": "SI d4",
+      "imprint_back": "SI EP",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "素錠（口腔内崩壊錠）（割線入） SI d4 EP 8.0（直径） 約3.8 約200"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「DSEP」",
+    "シロドシン錠2mg「DSEP」"
+  ]
+}

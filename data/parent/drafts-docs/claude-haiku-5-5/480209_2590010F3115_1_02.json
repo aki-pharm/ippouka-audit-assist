@@ -1,0 +1,49 @@
+{
+  "id": "480209_2590010F3115_1_02",
+  "source_file": "480209_2590010F3115_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590010F3115_1_02",
+  "extracted_at": "2026-11-09T15:16:18.373Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23305,
+    "output": 1780
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシンOD錠2mg「杏林」",
+      "strength": "2mg",
+      "imprint_front": "シロドシン OD 2 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 色調 淡黄赤色 本体表示 シロドシン OD 2 杏林 シロドシン OD 4 杏林 直径(mm) 6.5 8.0 厚さ(mm) 3.0 3.9"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「杏林」",
+      "strength": "4mg",
+      "imprint_front": "シロドシン OD 4 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 色調 淡黄赤色 本体表示 シロドシン OD 2 杏林 シロドシン OD 4 杏林 直径(mm) 6.5 8.0 厚さ(mm) 3.0 3.9"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「杏林」"
+  ]
+}

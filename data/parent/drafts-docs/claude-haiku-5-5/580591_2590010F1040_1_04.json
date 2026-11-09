@@ -1,0 +1,82 @@
+{
+  "id": "580591_2590010F1040_1_04",
+  "source_file": "580591_2590010F1040_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2590010F1040_1_04",
+  "extracted_at": "2026-11-09T15:15:37.319Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27434,
+    "output": 3289
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシン錠2mg「JG」",
+      "strength": "2 mg",
+      "imprint_front": "シロドシン 2 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を刻印として記載。表裏の別は未確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色のフィルムコーティング錠 直径 6.6mm 厚さ 3.1mm 重量 107mg"
+    },
+    {
+      "product_name": "シロドシン錠4mg「JG」",
+      "strength": "4 mg",
+      "imprint_front": "シロドシン 4 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を刻印として記載。表裏の別は未確認",
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 11.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "割線入りの白色～微黄白色のフィルムコーティング錠 長径 11.2mm 短径 6.2mm 厚さ 3.9mm 重量 212mg"
+    },
+    {
+      "product_name": "シロドシンOD錠2mg「JG」",
+      "strength": "2 mg",
+      "imprint_front": "シロドシン OD2 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を刻印として記載。表裏の別は未確認",
+      "color": "淡黄赤色～黄赤色の斑点がある微黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄赤色～黄赤色の斑点がある微黄赤色の素錠 直径 6.5mm 厚さ 3.0mm 重量 100mg"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「JG」",
+      "strength": "4 mg",
+      "imprint_front": "シロドシン OD4 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を刻印として記載。表裏の別は未確認",
+      "color": "淡黄赤色～黄赤色の斑点がある微黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄赤色～黄赤色の斑点がある微黄赤色の素錠 直径 8.0mm 厚さ 3.8mm 重量 200mg"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「JG」",
+    "シロドシン錠2mg「JG」"
+  ]
+}

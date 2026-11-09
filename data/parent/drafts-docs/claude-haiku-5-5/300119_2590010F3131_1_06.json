@@ -1,0 +1,50 @@
+{
+  "id": "300119_2590010F3131_1_06",
+  "source_file": "300119_2590010F3131_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590010F3131_1_06",
+  "extracted_at": "2026-11-09T15:16:08.276Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21054,
+    "output": 2266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシンOD錠2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "サワイ シロドシン OD2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2023年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）、性状 淡黄赤色、直径（mm） 6.5、厚さ（mm） 3.0、本体表示 サワイ シロドシン OD2"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「サワイ」",
+      "strength": "4mg",
+      "imprint_front": "シロドシン サワイ OD4",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）、性状 淡黄赤色、直径（mm） 8.0、厚さ（mm） 3.8、本体表示 シロドシン サワイ OD4"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「サワイ」",
+    "シロドシンOD錠4mg「サワイ」"
+  ]
+}

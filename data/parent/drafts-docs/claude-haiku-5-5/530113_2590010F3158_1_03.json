@@ -1,0 +1,49 @@
+{
+  "id": "530113_2590010F3158_1_03",
+  "source_file": "530113_2590010F3158_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2590010F3158_1_03",
+  "extracted_at": "2026-11-09T15:16:18.288Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21457,
+    "output": 1930
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシンOD錠2mg「日新」",
+      "strength": "2mg",
+      "imprint_front": "シロドシン OD2 NS",
+      "imprint_back": "シロドシン OD2 NS",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状 淡黄赤色の素錠 錠径：6.0mm 錠厚：3.1mm 重量：100mg 本体表示 表面 シロドシン OD2 NS 裏面 シロドシン OD2 NS"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「日新」",
+      "strength": "4mg",
+      "imprint_front": "シロドシン OD4 NS",
+      "imprint_back": "シロドシOD4",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状 片面割線入りの淡黄赤色の素錠 錠径：8.0mm 錠厚：3.7mm 重量：200mg 本体表示 表面 シロドシン OD4 NS 裏面 シロドシOD4"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「日新」"
+  ]
+}

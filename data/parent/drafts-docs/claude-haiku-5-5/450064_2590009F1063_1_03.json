@@ -1,0 +1,67 @@
+{
+  "id": "450064_2590009F1063_1_03",
+  "source_file": "450064_2590009F1063_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2590009F1063_1_03",
+  "extracted_at": "2026-11-09T15:15:22.456Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13770,
+    "output": 3231
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジル錠25mg「JG」",
+      "strength": "25mg",
+      "imprint_front": "JG E80",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に数字「25」の表示あり。裏面の記載は確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 片面割線入りの白色素錠 大きさ 直径 8.1mm 厚さ 3.2mm 識別コード JG E80"
+    },
+    {
+      "product_name": "ナフトピジル錠50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "JG E81",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に数字「50」の表示あり。裏面の記載は確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 片面割線入りの白色素錠 大きさ 直径 9.6mm 厚さ 4.5mm 識別コード JG E81"
+    },
+    {
+      "product_name": "ナフトピジル錠75mg「JG」",
+      "strength": "75mg",
+      "imprint_front": "JG E82",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に数字「75」の表示あり。裏面の記載は確認できず",
+      "color": "黄白色〜淡黄色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 黄白色〜淡黄色の片面割線入りの素錠 大きさ 直径 9.6mm 厚さ 4.5mm 識別コード JG E82"
+    }
+  ],
+  "expected_products": [
+    "ナフトピジル錠25mg「JG」",
+    "ナフトピジル錠50mg「JG」",
+    "ナフトピジル錠75mg「JG」"
+  ]
+}
