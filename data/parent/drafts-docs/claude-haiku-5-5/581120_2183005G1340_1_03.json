@@ -1,0 +1,50 @@
+{
+  "id": "581120_2183005G1340_1_03",
+  "source_file": "581120_2183005G1340_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2183005G1340_1_03",
+  "extracted_at": "2026-11-09T14:50:33.459Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18475,
+    "output": 2072
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベザフィブラート徐放錠100mg「NIG」",
+      "strength": "100mg",
+      "imprint_front": "100",
+      "imprint_back": "100 NIG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 7.1mm 9.1mm 厚さ 4.0mm 5.2mm 質量 133mg 315mg"
+    },
+    {
+      "product_name": "ベザフィブラート徐放錠200mg「NIG」",
+      "strength": "200mg",
+      "imprint_front": "200",
+      "imprint_back": "200 NIG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 7.1mm 9.1mm 厚さ 4.0mm 5.2mm 質量 133mg 315mg"
+    }
+  ],
+  "expected_products": [
+    "ベザフィブラート徐放錠100mg「NIG」",
+    "ベザフィブラート徐放錠200mg「NIG」"
+  ]
+}

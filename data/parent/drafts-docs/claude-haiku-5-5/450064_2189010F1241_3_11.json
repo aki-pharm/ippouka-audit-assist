@@ -1,0 +1,49 @@
+{
+  "id": "450064_2189010F1241_3_11",
+  "source_file": "450064_2189010F1241_3_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2189010F1241_3_11",
+  "extracted_at": "2026-11-09T14:51:04.677Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22222,
+    "output": 1501
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠5mg「チョーセイ」",
+      "strength": "5mg",
+      "imprint_front": "ch231",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の素錠 外形 大きさ 直径 6.0mm 厚さ 2.5mm 重量 90mg 識別コード ch231"
+    },
+    {
+      "product_name": "プラバスタチンNa錠10mg「チョーセイ」",
+      "strength": "10mg",
+      "imprint_front": "ch232",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 片面に割線の入った微紅色の素錠 外形 大きさ 直径 7.5mm 厚さ 2.5mm 重量 140mg 識別コード ch232"
+    }
+  ],
+  "expected_products": [
+    "プラバスタチンNa錠5mg「チョーセイ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "450064_2183005G1293_1_06",
+  "source_file": "450064_2183005G1293_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2183005G1293_1_06",
+  "extracted_at": "2026-11-09T14:50:28.864Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18568,
+    "output": 1998
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベザフィブラート徐放錠100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "JG E69",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～帯黄白色のフィルムコーティング錠 直径 7.1mm 厚さ 3.8mm 識別コード JG E69"
+    },
+    {
+      "product_name": "ベザフィブラート徐放錠200mg「JG」",
+      "strength": "200mg",
+      "imprint_front": "JG E70",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 直径 9.1mm 厚さ 4.2mm 識別コード JG E70"
+    }
+  ],
+  "expected_products": [
+    "ベザフィブラート徐放錠100mg「JG」",
+    "ベザフィブラート徐放錠200mg「JG」"
+  ]
+}

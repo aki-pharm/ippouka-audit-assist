@@ -1,0 +1,33 @@
+{
+  "id": "170033_2189001F1200_1_06",
+  "source_file": "170033_2189001F1200_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2189001F1200_1_06",
+  "extracted_at": "2026-11-09T14:50:38.376Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8801,
+    "output": 1534
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エラスチーム錠1800",
+      "strength": "1錠中エラスターゼES 1,800エラスターゼ単位（EL.U.）",
+      "imprint_front": "ε エラスチーム",
+      "imprint_back": "ε エラスチーム",
+      "imprint_note": "識別コード欄の表記（エラスチーム）と図の記号に基づく。表・裏の刻印は図からの読み取りで、細部は判読しきれない可能性あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2022年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 腸溶錠 識別コード エラスチーム 外形 表 裏 側面 直径（mm） 6.8 質量（mg） 127 厚さ（mm） 3.9 色 白色"
+    }
+  ],
+  "expected_products": [
+    "エラスチーム錠1800"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "581120_2189010F1497_1_03",
+  "source_file": "581120_2189010F1497_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2189010F1497_1_03",
+  "extracted_at": "2026-11-09T14:50:44.521Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20317,
+    "output": 1794
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "t 033",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 ／ 直径 6.5mm ／ 厚さ 2.2mm ／ 識別コード（PTP） t 033"
+    },
+    {
+      "product_name": "プラバスタチンNa錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "t 034",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 微紅色の片面1/2割線入り素錠 ／ 直径 7.5mm ／ 厚さ 2.5mm ／ 識別コード（PTP） t 034"
+    }
+  ],
+  "expected_products": [
+    "プラバスタチンNa錠5mg「NIG」"
+  ]
+}
