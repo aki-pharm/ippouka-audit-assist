@@ -1,0 +1,67 @@
+{
+  "id": "300119_3399004M2057_2_10",
+  "source_file": "300119_3399004M2057_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3399004M2057_2_10",
+  "extracted_at": "2026-11-09T15:21:04.104Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15353,
+    "output": 1454
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル300mg「サワイ」",
+      "strength": "300mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書にカプセルの刻印の記載なし。内容物は無色～微黄色の澄明な液体",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 4,
+      "size_short_mm": 4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 微黄色透明の軟カプセル剤 内容物：無色～微黄色の澄明な液体 外形 直径約4mmの球形"
+    },
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル600mg「サワイ」",
+      "strength": "600mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書にカプセルの刻印の記載なし。内容物は無色～微黄色の澄明な液体",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 4,
+      "size_short_mm": 4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 微黄色透明の軟カプセル剤 内容物：無色～微黄色の澄明な液体 外形 直径約4mmの球形"
+    },
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル900mg「サワイ」",
+      "strength": "900mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書にカプセルの刻印の記載なし。内容物は無色～微黄色の澄明な液体",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 4,
+      "size_short_mm": 4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 微黄色透明の軟カプセル剤 内容物：無色～微黄色の澄明な液体 外形 直径約4mmの球形"
+    }
+  ],
+  "expected_products": [
+    "イコサペント酸エチル粒状カプセル300mg「サワイ」",
+    "イコサペント酸エチル粒状カプセル600mg「サワイ」",
+    "イコサペント酸エチル粒状カプセル900mg「サワイ」"
+  ]
+}
