@@ -1,0 +1,33 @@
+{
+  "id": "480235_2329002F2181_1_01",
+  "source_file": "480235_2329002F2181_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2329002F2181_1_01",
+  "extracted_at": "2026-11-09T15:03:37.738Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10208,
+    "output": 1017
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルジオキサ錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw ALT",
+      "imprint_back": "未確認",
+      "imprint_note": "包装の識別コードは Tw.ALT。裏面の図には割線のみが描かれ、文字は確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2023年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "片面割線入りの白色の素錠 本体 Tw ALT 包装 識別コード Tw.ALT 直径(mm) 8.0 厚さ(mm) 4.1"
+    }
+  ],
+  "expected_products": [
+    "アルジオキサ錠100mg「トーワ」"
+  ]
+}

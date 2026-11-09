@@ -1,0 +1,33 @@
+{
+  "id": "300119_2329005F1286_1_03",
+  "source_file": "300119_2329005F1286_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2329005F1286_1_03",
+  "extracted_at": "2026-11-09T15:03:47.184Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13047,
+    "output": 2236
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピレンゼピン塩酸塩錠25mg「サワイ」",
+      "strength": "1錠中 日局ピレンゼピン塩酸塩水和物26.1mg（無水物として25mg）",
+      "imprint_front": "SW 904",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードのみ記載。表裏の別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2022年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤　形 割線入り素錠 性　状 白色 直径（mm） 7.0 厚さ（mm） 2.4 重量（mg） 約120 識別コード SW 904"
+    }
+  ],
+  "expected_products": [
+    "ピレンゼピン塩酸塩錠25mg「サワイ」"
+  ]
+}

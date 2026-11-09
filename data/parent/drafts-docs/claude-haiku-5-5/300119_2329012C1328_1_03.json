@@ -1,0 +1,49 @@
+{
+  "id": "300119_2329012C1328_1_03",
+  "source_file": "300119_2329012C1328_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2329012C1328_1_03",
+  "extracted_at": "2026-11-09T15:04:10.646Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12899,
+    "output": 2630
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テプレノンカプセル50mg「サワイ」",
+      "strength": "4号（50mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード SW-505 の記載あり。頭部・胴部のどちらに刻印されるかは本文に記載なし",
+      "color": "頭部：灰青緑色不透明、胴部：淡橙色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "外　形 4号 剤　形 硬カプセル剤 性　状 頭　部：灰青緑色不透明 胴　部：淡橙色不透明 内容物：白色～帯黄白色の粒及び粉末 全長（mm） 14.2 重量（mg） 約160 識別コード SW-505"
+    },
+    {
+      "product_name": "テプレノン細粒10％「サワイ」",
+      "strength": "10％（1g中テプレノン100mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤　形 細粒剤 性　状 白色～帯黄白色"
+    }
+  ],
+  "expected_products": [
+    "テプレノンカプセル50mg「サワイ」"
+  ]
+}

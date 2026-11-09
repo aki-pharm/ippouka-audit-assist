@@ -1,0 +1,33 @@
+{
+  "id": "530169_2329005F1219_2_03",
+  "source_file": "530169_2329005F1219_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2329005F1219_2_03",
+  "extracted_at": "2026-11-09T15:03:49.191Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13058,
+    "output": 1592
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピレンゼピン塩酸塩錠25mg「日医工」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク様の図形と120の表示があるが刻印内容は判読困難。本体コード120、包装コード120の記載あり。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色～微黄白色 直径（mm） 7.1 厚さ（mm） 2.4 質量（mg） 120"
+    }
+  ],
+  "expected_products": [
+    "ピレンゼピン塩酸塩錠25mg「日医工」"
+  ]
+}

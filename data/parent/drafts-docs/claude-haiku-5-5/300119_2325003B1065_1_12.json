@@ -1,0 +1,50 @@
+{
+  "id": "300119_2325003B1065_1_12",
+  "source_file": "300119_2325003B1065_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2325003B1065_1_12",
+  "extracted_at": "2026-11-09T15:02:58.462Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18412,
+    "output": 1664
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン錠10「サワイ」",
+      "strength": "1錠中10mg",
+      "imprint_front": "SW 511",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色～微黄白色 直径（mm） 6.0 厚さ（mm） 2.4 識別コード SW 511"
+    },
+    {
+      "product_name": "ファモチジン錠20「サワイ」",
+      "strength": "1錠中20mg",
+      "imprint_front": "SW 512",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色～微黄白色 直径（mm） 7.0 厚さ（mm） 2.4 識別コード SW 512"
+    }
+  ],
+  "expected_products": [
+    "ファモチジン錠10「サワイ」",
+    "ファモチジン錠20「サワイ」"
+  ]
+}

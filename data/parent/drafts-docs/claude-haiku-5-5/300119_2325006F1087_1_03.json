@@ -1,0 +1,50 @@
+{
+  "id": "300119_2325006F1087_1_03",
+  "source_file": "300119_2325006F1087_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2325006F1087_1_03",
+  "extracted_at": "2026-11-09T15:03:21.339Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18943,
+    "output": 3285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラフチジン錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW LD5",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「5」の表示があるが、表裏の位置は文書上判別できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色 においはないか又はわずかに特異なにおいがある 直径（mm） 5.6 6.1 厚さ（mm） 2.6 2.7 重量（mg） 約65 約80 識別コード SW LD5 SW LD10"
+    },
+    {
+      "product_name": "ラフチジン錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW LD10",
+      "imprint_back": "未確認",
+      "imprint_note": "図の裏面側に刻印表示は確認できるが、文書に「なし」との明記はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色 においはないか又はわずかに特異なにおいがある 直径（mm） 5.6 6.1 厚さ（mm） 2.6 2.7 重量（mg） 約65 約80 識別コード SW LD5 SW LD10"
+    }
+  ],
+  "expected_products": [
+    "ラフチジン錠10mg「サワイ」",
+    "ラフチジン錠5mg「サワイ」"
+  ]
+}

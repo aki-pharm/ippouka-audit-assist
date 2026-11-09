@@ -1,0 +1,50 @@
+{
+  "id": "480235_2325003F1300_1_04",
+  "source_file": "480235_2325003F1300_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2325003F1300_1_04",
+  "extracted_at": "2026-11-09T15:02:37.281Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17199,
+    "output": 1620
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw316",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色の糖衣錠 識別コード Tw316 直径(mm) 7.2 厚さ(mm) 3.6 質量(mg) 150"
+    },
+    {
+      "product_name": "ファモチジン錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "Tw317",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色の糖衣錠 識別コード Tw317 直径(mm) 8.2 厚さ(mm) 3.8 質量(mg) 200"
+    }
+  ],
+  "expected_products": [
+    "ファモチジン錠10mg「トーワ」",
+    "ファモチジン錠20mg「トーワ」"
+  ]
+}

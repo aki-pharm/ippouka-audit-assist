@@ -1,0 +1,50 @@
+{
+  "id": "480143_2325003F1350_1_04",
+  "source_file": "480143_2325003F1350_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480143_2325003F1350_1_04",
+  "extracted_at": "2026-11-09T15:02:11.450Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17102,
+    "output": 2394
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン錠 10mg「TBP」",
+      "strength": "10mg",
+      "imprint_front": "TBP272",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：白色～微黄白色のフィルムコート錠、大きさ 直径6.6mm 厚さ3.0mm、質量 約93mg、識別コード TBP272"
+    },
+    {
+      "product_name": "ファモチジン錠 20mg「TBP」",
+      "strength": "20mg",
+      "imprint_front": "TBP273",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：白色～微黄白色のフィルムコート錠、大きさ 直径7.6mm 厚さ3.6mm、質量 約158mg、識別コード TBP273"
+    }
+  ],
+  "expected_products": [
+    "ファモチジン錠10mg「TBP」",
+    "ファモチジン錠20mg「TBP」"
+  ]
+}

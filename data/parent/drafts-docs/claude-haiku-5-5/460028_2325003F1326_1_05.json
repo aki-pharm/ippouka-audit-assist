@@ -1,0 +1,50 @@
+{
+  "id": "460028_2325003F1326_1_05",
+  "source_file": "460028_2325003F1326_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2325003F1326_1_05",
+  "extracted_at": "2026-11-09T15:02:26.962Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15323,
+    "output": 1919
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの欄は「―」と記載",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色 白色～微黄白色 大きさ 直径 約 6.1mm 約 7.6mm 厚さ 約 2.6mm 約 3.3mm"
+    },
+    {
+      "product_name": "ファモチジン錠20mg「ツルハラ」",
+      "strength": "20mg",
+      "imprint_front": "771",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色～微黄白色 白色～微黄白色 大きさ 直径 約 6.1mm 約 7.6mm 厚さ 約 2.6mm 約 3.3mm"
+    }
+  ],
+  "expected_products": [
+    "ファモチジン錠10mg「ツルハラ」",
+    "ファモチジン錠20mg「ツルハラ」"
+  ]
+}

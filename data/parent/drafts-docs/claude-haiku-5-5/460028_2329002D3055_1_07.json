@@ -1,0 +1,33 @@
+{
+  "id": "460028_2329002D3055_1_07",
+  "source_file": "460028_2329002D3055_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2329002D3055_1_07",
+  "extracted_at": "2026-11-09T15:03:36.321Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13655,
+    "output": 1800
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルジオキサ錠100mg「ツルハラ」",
+      "strength": "1錠中アルジオキサ100mg",
+      "imprint_front": "TSU023",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとしてTSU023の記載あり。裏面の刻印は文書に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2022年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り錠剤 色調 白色 大きさ 直径 約7.0mm 厚さ 約2.9mm 質量 約150mg 識別コード TSU023"
+    }
+  ],
+  "expected_products": [
+    "アルジオキサ錠100mg「ツルハラ」"
+  ]
+}

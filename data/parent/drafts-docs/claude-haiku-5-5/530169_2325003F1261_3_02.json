@@ -1,0 +1,50 @@
+{
+  "id": "530169_2325003F1261_3_02",
+  "source_file": "530169_2325003F1261_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2325003F1261_3_02",
+  "extracted_at": "2026-11-09T15:02:45.302Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14950,
+    "output": 2868
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "FMT 10",
+      "imprint_back": "未確認",
+      "imprint_note": "PTP包装の識別コードはtFMT 10mg。裏面の刻印は文書に明記されていない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコーティング錠 形状 直径 6.6mm 厚さ 3.1mm"
+    },
+    {
+      "product_name": "ファモチジン錠20mg「日医工」",
+      "strength": "20mg",
+      "imprint_front": "FMT 20",
+      "imprint_back": "未確認",
+      "imprint_note": "PTP包装の識別コードはtFMT 20mg。裏面の刻印は文書に明記されていない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色のフィルムコーティング錠 形状 直径 7.6mm 厚さ 3.8mm"
+    }
+  ],
+  "expected_products": [
+    "ファモチジン錠10mg「日医工」",
+    "ファモチジン錠20mg「日医工」"
+  ]
+}
