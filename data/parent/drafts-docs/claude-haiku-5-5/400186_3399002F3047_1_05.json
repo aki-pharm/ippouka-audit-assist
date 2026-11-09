@@ -1,0 +1,49 @@
+{
+  "id": "400186_3399002F3047_1_05",
+  "source_file": "400186_3399002F3047_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3399002F3047_1_05",
+  "extracted_at": "2026-11-09T15:20:20.663Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25894,
+    "output": 2209
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾールOD錠50mg「タカタ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表面・裏面の刻印は図のみで文字として確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の裸錠 表面直径 約7.0mm 裏面重さ 約0.125g 側面厚さ 約2.9mm"
+    },
+    {
+      "product_name": "シロスタゾールOD錠100mg「タカタ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表面・裏面の刻印は図のみで文字として確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの裸錠 表面直径 約9.1mm 裏面重さ 約0.250g 側面厚さ 約3.8mm"
+    }
+  ],
+  "expected_products": [
+    "シロスタゾールOD錠50mg「タカタ」"
+  ]
+}

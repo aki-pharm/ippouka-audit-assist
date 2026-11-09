@@ -1,0 +1,50 @@
+{
+  "id": "400073_3399002F3071_1_05",
+  "source_file": "400073_3399002F3071_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_3399002F3071_1_05",
+  "extracted_at": "2026-11-09T15:19:50.019Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22979,
+    "output": 2027
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾールOD錠50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "JG F20",
+      "imprint_back": "OD 50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の素錠 表面 裏面 側面 JG F20 直径 厚さ 重量 7.0mm 2.8mm 125mg"
+    },
+    {
+      "product_name": "シロスタゾールOD錠100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "JG F21",
+      "imprint_back": "OD 100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 表面 裏面 側面 JG F21 直径 厚さ 重量 9.0mm 3.5mm 250mg"
+    }
+  ],
+  "expected_products": [
+    "シロスタゾールOD錠100mg「JG」",
+    "シロスタゾールOD錠50mg「JG」"
+  ]
+}

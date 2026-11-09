@@ -1,0 +1,65 @@
+{
+  "id": "300119_3332001D1023_2_01",
+  "source_file": "300119_3332001D1023_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3332001D1023_2_01",
+  "extracted_at": "2026-11-09T15:19:38.648Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32137,
+    "output": 2804
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワーファリン錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "255",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（割線入り） 識別コード 255 直径（mm） 7.6 厚さ（mm） 2.8 色 淡黄色"
+    },
+    {
+      "product_name": "ワーファリン錠1mg",
+      "strength": "1mg",
+      "imprint_front": "256",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（割線入り） 識別コード 256 直径（mm） 8.1 厚さ（mm） 3.1 色 白色"
+    },
+    {
+      "product_name": "ワーファリン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "257",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "わずかに赤味をおびた橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（割線入り） 識別コード 257 直径（mm） 8.6 厚さ（mm） 3.0 色 わずかに赤味をおびた橙色"
+    }
+  ],
+  "expected_products": [
+    "ワーファリン錠5mg"
+  ]
+}

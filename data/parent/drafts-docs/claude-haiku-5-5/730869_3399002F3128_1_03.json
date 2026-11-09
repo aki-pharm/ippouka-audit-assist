@@ -1,0 +1,49 @@
+{
+  "id": "730869_3399002F3128_1_03",
+  "source_file": "730869_3399002F3128_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3399002F3128_1_03",
+  "extracted_at": "2026-11-09T15:20:07.676Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20834,
+    "output": 2047
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾールOD錠50mg「VTRS」",
+      "strength": "1錠中 シロスタゾール50.0mg",
+      "imprint_front": "D 50",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "シロスタゾールOD錠50mg「VTRS」 D 50 VLE 白色 素錠 直径 7.0mm 厚さ 2.7mm 重量 125mg"
+    },
+    {
+      "product_name": "シロスタゾールOD錠100mg「VTRS」",
+      "strength": "1錠中 シロスタゾール100.0mg",
+      "imprint_front": "D 100",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "シロスタゾールOD錠100mg「VTRS」 D 100 VLE 白色 割線入り 素錠 直径 9.0mm 厚さ 3.4mm 重量 250mg"
+    }
+  ],
+  "expected_products": [
+    "シロスタゾールOD錠50mg「VTRS」"
+  ]
+}

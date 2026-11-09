@@ -1,0 +1,49 @@
+{
+  "id": "530372_3399002F3063_1_02",
+  "source_file": "530372_3399002F3063_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3399002F3063_1_02",
+  "extracted_at": "2026-11-09T15:20:20.306Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24502,
+    "output": 2094
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾールOD錠50mg「ケミファ」",
+      "strength": "50mg",
+      "imprint_front": "NPI 134",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 白色の割線入りの素錠 外形 直径 7.1mm 9.1mm 厚さ 2.8mm 3.5mm 識別コード NPI 134 NPI 135"
+    },
+    {
+      "product_name": "シロスタゾールOD錠100mg「ケミファ」",
+      "strength": "100mg",
+      "imprint_front": "NPI 135",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 白色の割線入りの素錠 外形 直径 7.1mm 9.1mm 厚さ 2.8mm 3.5mm 識別コード NPI 134 NPI 135"
+    }
+  ],
+  "expected_products": [
+    "シロスタゾールOD錠50mg「ケミファ」"
+  ]
+}

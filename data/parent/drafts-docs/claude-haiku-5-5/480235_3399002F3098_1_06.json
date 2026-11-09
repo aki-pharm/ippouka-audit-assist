@@ -1,0 +1,50 @@
+{
+  "id": "480235_3399002F3098_1_06",
+  "source_file": "480235_3399002F3098_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399002F3098_1_06",
+  "extracted_at": "2026-11-09T15:20:06.745Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25212,
+    "output": 3135
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾールOD錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に「シロスタゾール OD 50 トーワ」の記載があるが、表裏の別は判読できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.45,
+      "score_line": false,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "白色の口腔内崩壊錠 直径(mm) 7.0 厚さ(mm) 3.45"
+    },
+    {
+      "product_name": "シロスタゾールOD錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "100 シロスタゾール",
+      "imprint_back": "シロスタゾール OD 100 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.25,
+      "score_line": true,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの口腔内崩壊錠 直径(mm) 9.0 厚さ(mm) 4.25"
+    }
+  ],
+  "expected_products": [
+    "シロスタゾールOD錠100mg「トーワ」",
+    "シロスタゾールOD錠50mg「トーワ」"
+  ]
+}
