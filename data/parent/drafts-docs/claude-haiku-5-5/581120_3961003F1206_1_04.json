@@ -1,0 +1,50 @@
+{
+  "id": "581120_3961003F1206_1_04",
+  "source_file": "581120_3961003F1206_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3961003F1206_1_04",
+  "extracted_at": "2026-11-09T15:26:09.216Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14514,
+    "output": 2453
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリベンクラミド錠1.25mg「NIG」",
+      "strength": "1.25mg",
+      "imprint_front": "PC 142",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）としてPC 142の記載あり。表裏の別は添付文書に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 1.9,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠 外形 直径 6.0mm 厚さ 1.9mm 識別コード（PTP） PC 142"
+    },
+    {
+      "product_name": "グリベンクラミド錠2.5mg「NIG」",
+      "strength": "2.5mg",
+      "imprint_front": "PC 143",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）としてPC 143の記載あり。表裏の別は添付文書に明記なし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の割線入り素錠 外形 長径 8.1mm 短径 4.1mm 厚さ 2.3mm 識別コード（PTP） PC 143"
+    }
+  ],
+  "expected_products": [
+    "グリベンクラミド錠1.25mg「NIG」",
+    "グリベンクラミド錠2.5mg「NIG」"
+  ]
+}

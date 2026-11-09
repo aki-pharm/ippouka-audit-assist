@@ -1,0 +1,50 @@
+{
+  "id": "300119_3961003F1168_1_05",
+  "source_file": "300119_3961003F1168_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3961003F1168_1_05",
+  "extracted_at": "2026-11-09T15:26:05.025Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16529,
+    "output": 1488
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリベンクラミド錠1.25mg「サワイ」",
+      "strength": "1錠中 1.25mg",
+      "imprint_front": "MED 115",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 1.9,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠、性状 白色、直径（mm） 6.0 7.0、厚さ（mm） 1.9 2.4、識別コード MED 115 MED 113"
+    },
+    {
+      "product_name": "グリベンクラミド錠2.5mg「サワイ」",
+      "strength": "1錠中 2.5mg",
+      "imprint_front": "MED 113",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠、性状 白色、直径（mm） 6.0 7.0、厚さ（mm） 1.9 2.4、識別コード MED 115 MED 113"
+    }
+  ],
+  "expected_products": [
+    "グリベンクラミド錠1.25mg「サワイ」",
+    "グリベンクラミド錠2.5mg「サワイ」"
+  ]
+}

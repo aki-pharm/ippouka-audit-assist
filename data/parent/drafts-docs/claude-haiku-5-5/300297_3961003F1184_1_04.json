@@ -1,0 +1,50 @@
+{
+  "id": "300297_3961003F1184_1_04",
+  "source_file": "300297_3961003F1184_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3961003F1184_1_04",
+  "extracted_at": "2026-11-09T15:26:18.532Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16721,
+    "output": 1657
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリベンクラミド錠1.25mg「三和」",
+      "strength": "1.25mg",
+      "imprint_front": "Sc315",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 1.9,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠で、においはない 直径 6.0mm 厚さ 1.9mm 識別コード Sc315"
+    },
+    {
+      "product_name": "グリベンクラミド錠2.5mg「三和」",
+      "strength": "2.5mg",
+      "imprint_front": "Sc317",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠で、においはない 長径 8.1mm 短径 4.1mm 厚さ 2.3mm 識別コード Sc317"
+    }
+  ],
+  "expected_products": [
+    "グリベンクラミド錠1.25mg「三和」",
+    "グリベンクラミド錠2.5mg「三和」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "530213_3949003F1090_1_05",
+  "source_file": "530213_3949003F1090_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3949003F1090_1_05",
+  "extracted_at": "2026-11-09T15:25:54.005Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29006,
+    "output": 3224
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "フェブキソ 10 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は判読できず未確認",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄色のフィルムコーティング錠 直径 6.1mm 厚さ 2.7mm"
+    },
+    {
+      "product_name": "フェブキソスタット錠20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "フェブキソ 20 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は判読できず未確認",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄色の割線入りのフィルムコーティング錠 直径 7.1mm 厚さ 3.0mm"
+    },
+    {
+      "product_name": "フェブキソスタット錠40mg「ケミファ」",
+      "strength": "40mg",
+      "imprint_front": "フェブキソ 40 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は判読できず未確認",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄色の割線入りのフィルムコーティング錠 直径 9.1mm 厚さ 3.7mm"
+    }
+  ],
+  "expected_products": [
+    "フェブキソスタット錠10mg「ケミファ」",
+    "フェブキソスタット錠20mg「ケミファ」"
+  ]
+}

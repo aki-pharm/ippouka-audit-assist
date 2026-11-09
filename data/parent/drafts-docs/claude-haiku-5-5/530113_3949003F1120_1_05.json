@@ -1,0 +1,66 @@
+{
+  "id": "530113_3949003F1120_1_05",
+  "source_file": "530113_3949003F1120_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3949003F1120_1_05",
+  "extracted_at": "2026-11-09T15:25:51.552Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27757,
+    "output": 2251
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "フェブキソスタット 10 NS",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄色、円形のフィルムコーティング錠 大きさ 錠径：7.1mm 錠厚：3.3mm 本体表示 フェブキソスタット 10 NS"
+    },
+    {
+      "product_name": "フェブキソスタット錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "フェブキソ 20 NS",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄色、円形の割線入りフィルムコーティング錠 大きさ 錠径：7.1mm 錠厚：3.2mm 本体表示 フェブキソ 20 NS"
+    },
+    {
+      "product_name": "フェブキソスタット錠40mg「日新」",
+      "strength": "40mg",
+      "imprint_front": "フェブキソ 40 NS",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.9,
+      "size_short_mm": 8.9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄色、円形の割線入りフィルムコーティング錠 大きさ 錠径：8.9mm 錠厚：4.1mm 本体表示 フェブキソ 40 NS"
+    }
+  ],
+  "expected_products": [
+    "フェブキソスタット錠10mg「日新」",
+    "フェブキソスタット錠20mg「日新」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "780075_3961007F1204_1_03",
+  "source_file": "780075_3961007F1204_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_3961007F1204_1_03",
+  "extracted_at": "2026-11-09T15:26:28.055Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16598,
+    "output": 2061
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリクラジド錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "SW 233",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「20」の表示があるが、表裏の別は本文に記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 淡黄色 直径（mm） 6.5 厚さ（mm） 2.0 重量（mg） 約80 識別コード SW 233"
+    },
+    {
+      "product_name": "グリクラジド錠40mg「サワイ」",
+      "strength": "40mg",
+      "imprint_front": "SW 236",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色 直径（mm） 6.0 厚さ（mm） 2.4 重量（mg） 約80 識別コード SW 236"
+    }
+  ],
+  "expected_products": [
+    "グリクラジド錠20mg「サワイ」",
+    "グリクラジド錠40mg「サワイ」"
+  ]
+}
