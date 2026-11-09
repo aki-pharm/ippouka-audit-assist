@@ -1,0 +1,67 @@
+{
+  "id": "470007_3961008F1039_1_14",
+  "source_file": "470007_3961008F1039_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_3961008F1039_1_14",
+  "extracted_at": "2026-11-09T15:26:51.984Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21503,
+    "output": 2034
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「AA」",
+      "strength": "0.5mg",
+      "imprint_front": "AK202",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.5,
+      "size_short_mm": 4.5,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：白色の素錠；外形：直径4.5mm 厚さ2.0mm 質量43mg；識別コード AK202"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「AA」",
+      "strength": "1mg",
+      "imprint_front": "AK222",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に記載なし",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：淡紅色の素錠（割線入り）；外形：直径6.0mm 厚さ2.2mm 質量85mg；識別コード AK222"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「AA」",
+      "strength": "3mg",
+      "imprint_front": "AK232",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に記載なし",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形：微黄白色の素錠（割線入り）；外形：直径7.0mm 厚さ2.4mm 質量120mg；識別コード AK232"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「AA」",
+    "グリメピリド錠1mg「AA」",
+    "グリメピリド錠3mg「AA」"
+  ]
+}
