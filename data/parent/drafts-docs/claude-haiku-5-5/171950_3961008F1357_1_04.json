@@ -1,0 +1,67 @@
+{
+  "id": "171950_3961008F1357_1_04",
+  "source_file": "171950_3961008F1357_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_3961008F1357_1_04",
+  "extracted_at": "2026-11-09T15:27:01.400Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21960,
+    "output": 2813
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「Me」",
+      "strength": "0.5mg",
+      "imprint_front": "MEP 01",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 1.8,
+      "score_line": false,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "グリメピリド錠0.5mg「Me」 裸錠 白色 直径（mm）5.0 厚さ（mm）1.8 重量（mg）42.5"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「Me」",
+      "strength": "1mg",
+      "imprint_front": "MEP 02",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "グリメピリド錠1mg「Me」 割線入り 裸錠 淡紅色 直径（mm）6.0 厚さ（mm）2.4 重量（mg）85"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「Me」",
+      "strength": "3mg",
+      "imprint_front": "MEP 03",
+      "imprint_back": "3",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "グリメピリド錠3mg「Me」 割線入り 裸錠 微黄白色 直径（mm）8.0 厚さ（mm）2.7 重量（mg）170"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「Me」",
+    "グリメピリド錠1mg「Me」",
+    "グリメピリド錠3mg「Me」"
+  ]
+}

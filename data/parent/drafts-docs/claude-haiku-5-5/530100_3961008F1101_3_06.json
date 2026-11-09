@@ -1,0 +1,67 @@
+{
+  "id": "530100_3961008F1101_3_06",
+  "source_file": "530100_3961008F1101_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3961008F1101_3_06",
+  "extracted_at": "2026-11-09T15:27:14.731Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24955,
+    "output": 2068
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「NP」",
+      "strength": "0.5mg",
+      "imprint_front": "NP-713",
+      "imprint_back": "0.5",
+      "imprint_note": "裏面の刻印は図より読み取り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 1.8,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "グリメピリド錠0.5mg「NP」 白色の割線入り素錠 6.0 1.8 65 NP-713"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「NP」",
+      "strength": "1mg",
+      "imprint_front": "NP-715",
+      "imprint_back": "1",
+      "imprint_note": "裏面の刻印は図より読み取り",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "グリメピリド錠1mg「NP」 淡紅色の割線入り素錠 6.0 2.4 85 NP-715"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「NP」",
+      "strength": "3mg",
+      "imprint_front": "NP-717",
+      "imprint_back": "3",
+      "imprint_note": "裏面の刻印は図より読み取り",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "グリメピリド錠3mg「NP」 微黄白色の割線入り素錠 8.0 2.8 170 NP-717"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「NP」",
+    "グリメピリド錠1mg「NP」",
+    "グリメピリド錠3mg「NP」"
+  ]
+}

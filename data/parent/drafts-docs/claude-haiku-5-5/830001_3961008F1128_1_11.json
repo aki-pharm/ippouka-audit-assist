@@ -1,0 +1,67 @@
+{
+  "id": "830001_3961008F1128_1_11",
+  "source_file": "830001_3961008F1128_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3961008F1128_1_11",
+  "extracted_at": "2026-11-09T15:27:30.349Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23940,
+    "output": 2308
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「YD」",
+      "strength": "0.5mg",
+      "imprint_front": "YD 874",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 1.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 外形 直径 約5mm 厚さ 約1.9mm"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「YD」",
+      "strength": "1mg",
+      "imprint_front": "YD 577",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡紅色の片面割線入り素錠 直径 約6mm 厚さ 約2.6mm"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「YD」",
+      "strength": "3mg",
+      "imprint_front": "YD 578",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微黄白色の片面割線入り素錠 直径 約7mm 厚さ 約2.3mm"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「YD」",
+    "グリメピリド錠1mg「YD」",
+    "グリメピリド錠3mg「YD」"
+  ]
+}

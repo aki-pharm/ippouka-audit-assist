@@ -1,0 +1,67 @@
+{
+  "id": "730869_3961008F1373_1_03",
+  "source_file": "730869_3961008F1373_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3961008F1373_1_03",
+  "extracted_at": "2026-11-09T15:27:26.797Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20552,
+    "output": 2054
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「VTRS」",
+      "strength": "0.5mg",
+      "imprint_front": "GM",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.5,
+      "size_short_mm": 4.5,
+      "thickness_mm": 2.1,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "グリメピリド錠0.5mg「VTRS」 GM 0.5 白色 素錠 直径 4.5mm 厚さ 2.1mm 重量 40mg"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「VTRS」",
+      "strength": "1mg",
+      "imprint_front": "GM 1",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "グリメピリド錠1mg「VTRS」 GM 1 VLE 淡紅色 割線入り 素錠 直径 6.0mm 厚さ 2.3mm 重量 80mg"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「VTRS」",
+      "strength": "3mg",
+      "imprint_front": "GM 3",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "グリメピリド錠3mg「VTRS」 GM 3 VLE 微黄白色 割線入り 素錠 直径 8.0mm 厚さ 2.8mm 重量 160mg"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「VTRS」",
+    "グリメピリド錠1mg「VTRS」",
+    "グリメピリド錠3mg「VTRS」"
+  ]
+}

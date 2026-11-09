@@ -1,0 +1,67 @@
+{
+  "id": "530213_3961008F3368_1_01",
+  "source_file": "530213_3961008F3368_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3961008F3368_1_01",
+  "extracted_at": "2026-11-09T15:27:05.058Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21274,
+    "output": 2150
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「NC」",
+      "strength": "0.5mg",
+      "imprint_front": "NC",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.5,
+      "size_short_mm": 4.5,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2025年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の錠剤 / 直径 4.5mm 厚さ 2.0mm 識別コード NC"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「NC」",
+      "strength": "1mg",
+      "imprint_front": "NC 1",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 淡紅色の割線入りの錠剤 / 直径 6.0mm 厚さ 2.2mm 識別コード NC 1"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「NC」",
+      "strength": "3mg",
+      "imprint_front": "NC 3",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 微黄白色の割線入りの錠剤 / 直径 8.0mm 厚さ 2.6mm 識別コード NC 3"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「NC」",
+    "グリメピリド錠1mg「NC」",
+    "グリメピリド錠3mg「NC」"
+  ]
+}
