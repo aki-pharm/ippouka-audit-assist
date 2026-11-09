@@ -26,5 +26,8 @@
       "source_page": 1,
       "source_quote": "販売名 アレンドロン酸錠35mg「TCK」 外形 直径（mm）10.3 × 5.6、厚さ（mm）3.8、重量（mg）175 色調 白色 剤形 素錠 識別コード TU"
     }
+  ],
+  "expected_products": [
+    "アレンドロン酸錠35mg「TCK」"
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "id": "400278_3999018F1129_1_09",
+  "source_file": "400278_3999018F1129_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3999018F1129_1_09",
+  "extracted_at": "2026-11-09T15:34:00.798Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23397,
+    "output": 1981
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠 5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "TU 313",
+      "imprint_back": "5",
+      "imprint_note": "識別コードの表記は TU 313。裏面の「5」は製剤の性状欄の図による記載で、本文の記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色 素錠 TU 313 6.5 2.3 100"
+    }
+  ],
+  "expected_products": [
+    "アレンドロン酸錠5mg「TCK」"
+  ]
+}
