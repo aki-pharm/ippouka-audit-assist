@@ -1,0 +1,50 @@
+{
+  "id": "830001_4490014F1238_1_07",
+  "source_file": "830001_4490014F1238_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_4490014F1238_1_07",
+  "extracted_at": "2026-11-09T15:38:46.376Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22477,
+    "output": 2197
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "YD 468",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表面の刻印「YD 468」が図示されている。裏面の刻印は図から確認できない",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄色のフィルムコーティング錠 外形 直径 約6mm 厚さ 約3.1mm 重量 100mg"
+    },
+    {
+      "product_name": "エピナスチン塩酸塩錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "YD 469",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に表面の刻印「YD 469」が図示されている。裏面の刻印は図から確認できない",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄色のフィルムコーティング錠 外形 直径 約8.1mm 厚さ 約3.4mm 重量 180mg"
+    }
+  ],
+  "expected_products": [
+    "エピナスチン塩酸塩錠10mg「YD」",
+    "エピナスチン塩酸塩錠20mg「YD」"
+  ]
+}

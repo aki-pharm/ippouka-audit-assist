@@ -1,0 +1,49 @@
+{
+  "id": "530169_4490017M1079_1_21",
+  "source_file": "530169_4490017M1079_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_4490017M1079_1_21",
+  "extracted_at": "2026-11-09T15:38:59.800Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15344,
+    "output": 2545
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プランルカストカプセル112.5mg「日医工」",
+      "strength": "112.5mg",
+      "imprint_front": "プランルカスト 112.5mg 568（本体表示）",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書は硬カプセル剤。本体表示の面の区別は記載なし。包装コードは568。",
+      "color": "キャップ：白色～帯黄白色、ボディ：白色～帯黄白色（内容物：白色～淡黄色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "キャップ：白色～帯黄白色 ボディ：白色～帯黄白色 内容物：白色～淡黄色の粉末 大きさ 4号カプセル 本体表示 プランルカスト 112.5mg 568"
+    },
+    {
+      "product_name": "プランルカストカプセル225mg「日医工」",
+      "strength": "225mg",
+      "imprint_front": "プランルカスト 225mg 581（本体表示）",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書は硬カプセル剤。本体表示の面の区別は記載なし。包装コードは581。",
+      "color": "キャップ：白色～帯黄白色、ボディ：白色～帯黄白色（内容物：白色～淡黄色の粉末）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "キャップ：白色～帯黄白色 ボディ：白色～帯黄白色 内容物：白色～淡黄色の粉末 大きさ 2号カプセル 本体表示 プランルカスト 225mg 581"
+    }
+  ],
+  "expected_products": [
+    "プランルカストカプセル112.5mg「日医工」"
+  ]
+}

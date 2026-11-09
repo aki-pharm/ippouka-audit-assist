@@ -1,0 +1,33 @@
+{
+  "id": "400042_4490017M1044_1_10",
+  "source_file": "400042_4490017M1044_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_4490017M1044_1_10",
+  "extracted_at": "2026-11-09T15:38:53.401Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14213,
+    "output": 1499
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プランルカストカプセル112.5mg「DK」",
+      "strength": "112.5mg",
+      "imprint_front": "PLH",
+      "imprint_back": "未確認",
+      "imprint_note": "胴体部の刻印は画像から判読できず未確認。識別コードはPLH（製剤の性状欄に記載）",
+      "color": "白色～帯黄白色（蓋部、胴体部共に不透明）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "蓋部、胴体部共に白色～帯黄白色不透明の硬カプセル剤で、内容物は白色～淡黄色の粉末を含む粒 外形 蓋部 胴体部 号数 3号カプセル 識別コード PLH"
+    }
+  ],
+  "expected_products": [
+    "プランルカストカプセル112.5mg「DK」"
+  ]
+}
