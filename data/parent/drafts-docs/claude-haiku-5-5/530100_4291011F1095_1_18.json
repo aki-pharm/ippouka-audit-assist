@@ -1,0 +1,49 @@
+{
+  "id": "530100_4291011F1095_1_18",
+  "source_file": "530100_4291011F1095_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_4291011F1095_1_18",
+  "extracted_at": "2026-11-09T15:36:11.022Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33590,
+    "output": 2243
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「ニプロ」",
+      "strength": "100mg",
+      "imprint_front": "NP-222",
+      "imprint_back": "100",
+      "imprint_note": "識別コードNP-222。裏面の「100」と社名マークは添付図からの読み取り",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "くすんだ黄赤色～濃い黄赤色の割線入りのフィルムコーティング錠 直径8.2mm 厚さ4.7mm 重量210mg 識別コードNP-222"
+    },
+    {
+      "product_name": "イマチニブ錠200mg「ニプロ」",
+      "strength": "200mg",
+      "imprint_front": "NP-224",
+      "imprint_back": "200",
+      "imprint_note": "識別コードNP-224。裏面の「200」と社名マークは添付図からの読み取り",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5.9,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "くすんだ黄赤色～濃い黄赤色の割線入りのフィルムコーティング錠 直径10.1mm 厚さ5.9mm 重量415mg 識別コードNP-224"
+    }
+  ],
+  "expected_products": [
+    "イマチニブ錠200mg「ニプロ」"
+  ]
+}

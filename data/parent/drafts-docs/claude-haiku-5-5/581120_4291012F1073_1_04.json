@@ -1,0 +1,33 @@
+{
+  "id": "581120_4291012F1073_1_04",
+  "source_file": "581120_4291012F1073_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_4291012F1073_1_04",
+  "extracted_at": "2026-11-09T15:36:11.122Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15270,
+    "output": 1731
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エキセメスタン錠25mg「NIG」",
+      "strength": "25mg",
+      "imprint_front": "t EX",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは（PTP）欄の表記。外形図には「25」の表示があるが、表裏の別は本文に記載なし",
+      "color": "白色〜微灰白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色〜微灰白色のフィルムコーティング錠 外形 直径：6.0mm 厚さ：4.2mm 質量：103mg 識別コード（PTP） t EX"
+    }
+  ],
+  "expected_products": [
+    "エキセメスタン錠25mg「NIG」"
+  ]
+}

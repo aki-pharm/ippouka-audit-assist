@@ -1,0 +1,49 @@
+{
+  "id": "780075_4291003F1201_1_09",
+  "source_file": "780075_4291003F1201_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_4291003F1201_1_09",
+  "extracted_at": "2026-11-09T15:35:44.916Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14484,
+    "output": 2326
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タモキシフェン錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "MS 009",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「10」の表示あり（識別コードMS 009とは別）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 7.0 厚さ（mm） 3.0 識別コード MS 009"
+    },
+    {
+      "product_name": "タモキシフェン錠20mg「明治」",
+      "strength": "20mg",
+      "imprint_front": "MS 010",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「20」の表示あり（識別コードMS 010とは別）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色 直径（mm） 10.1 厚さ（mm） 4.4 識別コード MS 010"
+    }
+  ],
+  "expected_products": [
+    "タモキシフェン錠20mg「明治」"
+  ]
+}

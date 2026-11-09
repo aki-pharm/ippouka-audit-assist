@@ -1,0 +1,33 @@
+{
+  "id": "180095_4291011F1117_1_16",
+  "source_file": "180095_4291011F1117_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_4291011F1117_1_16",
+  "extracted_at": "2026-11-09T15:35:58.606Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27806,
+    "output": 1419
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「オーハラ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "OH-31",
+      "imprint_note": null,
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状 くすんだ黄赤色～濃い黄赤色 片面割線入りのフィルムコーティング錠 ・・・ 直径：7.6mm　厚さ：3.3mm 重量 125mg 識別表示 OH-31"
+    }
+  ],
+  "expected_products": [
+    "イマチニブ錠100mg「オーハラ」"
+  ]
+}

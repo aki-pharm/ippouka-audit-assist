@@ -1,0 +1,33 @@
+{
+  "id": "730869_4291005F1081_3_01",
+  "source_file": "730869_4291005F1081_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_4291005F1081_3_01",
+  "extracted_at": "2026-11-09T15:35:45.368Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10453,
+    "output": 976
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルタミド錠125mg「VTRS」",
+      "strength": "125mg",
+      "imprint_front": "VT271",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 淡黄色の素錠 大きさ 直径 8.5mm 厚さ 約4.0mm 識別コード VT271"
+    }
+  ],
+  "expected_products": [
+    "フルタミド錠125mg「VTRS」（未発売）"
+  ]
+}
