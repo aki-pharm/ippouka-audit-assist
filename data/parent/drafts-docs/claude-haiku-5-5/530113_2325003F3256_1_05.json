@@ -1,0 +1,50 @@
+{
+  "id": "530113_2325003F3256_1_05",
+  "source_file": "530113_2325003F3256_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2325003F3256_1_05",
+  "extracted_at": "2026-11-09T15:01:52.677Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18825,
+    "output": 1356
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジンOD錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "NS 510",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 白色の素錠 / 外形 錠径：6.0mm 錠厚：2.9mm 重量：80mg / 識別コード NS 510"
+    },
+    {
+      "product_name": "ファモチジンOD錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "NS 511",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 白色の片面割線入りの素錠 / 外形 錠径：6.0mm 錠厚：3.1mm 重量：90mg / 識別コード NS 511"
+    }
+  ],
+  "expected_products": [
+    "ファモチジンOD錠10mg「日新」",
+    "ファモチジンOD錠20mg「日新」"
+  ]
+}
