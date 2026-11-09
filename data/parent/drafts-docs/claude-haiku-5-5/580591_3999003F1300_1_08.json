@@ -1,0 +1,33 @@
+{
+  "id": "580591_3999003F1300_1_08",
+  "source_file": "580591_3999003F1300_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3999003F1300_1_08",
+  "extracted_at": "2026-11-09T15:32:25.844Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13615,
+    "output": 1149
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カモスタットメシル酸塩錠100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "JG F11",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "類白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "類白色のフィルムコーティング錠 表面 裏面 側面 JG F11 直径 6.6mm 厚さ 3.9mm 重量 130mg"
+    }
+  ],
+  "expected_products": [
+    "カモスタットメシル酸塩錠100mg「JG」"
+  ]
+}

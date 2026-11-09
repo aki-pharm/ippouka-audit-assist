@@ -1,0 +1,66 @@
+{
+  "id": "300119_3969009F4030_1_05",
+  "source_file": "300119_3969009F4030_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3969009F4030_1_05",
+  "extracted_at": "2026-11-09T15:32:08.294Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24829,
+    "output": 2221
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミグリトールOD錠25mg「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "SW MG25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 白色 直径（mm） 6.5 8.0 9.0 厚さ（mm） 3.5 3.9 4.6 重量（mg） 約120 約200 約300 識別コード SW MG25 SW MG50 SW MG75"
+    },
+    {
+      "product_name": "ミグリトールOD錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW MG50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 白色 直径（mm） 6.5 8.0 9.0 厚さ（mm） 3.5 3.9 4.6 重量（mg） 約120 約200 約300 識別コード SW MG25 SW MG50 SW MG75"
+    },
+    {
+      "product_name": "ミグリトールOD錠75mg「サワイ」",
+      "strength": "75mg",
+      "imprint_front": "SW MG75",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 白色 直径（mm） 6.5 8.0 9.0 厚さ（mm） 3.5 3.9 4.6 重量（mg） 約120 約200 約300 識別コード SW MG25 SW MG50 SW MG75"
+    }
+  ],
+  "expected_products": [
+    "ミグリトールOD錠25mg「サワイ」",
+    "ミグリトールOD錠50mg「サワイ」"
+  ]
+}

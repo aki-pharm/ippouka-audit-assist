@@ -1,0 +1,66 @@
+{
+  "id": "480235_3969009F1031_1_04",
+  "source_file": "480235_3969009F1031_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3969009F1031_1_04",
+  "extracted_at": "2026-11-09T15:32:16.907Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25098,
+    "output": 1889
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミグリトール錠25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "25 ミグリ",
+      "imprint_back": "ミグリトール 25 トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 8.3,
+      "size_short_mm": 4,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2023年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の楕円形の割線入りの素錠"
+    },
+    {
+      "product_name": "ミグリトール錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "50 ミグリ",
+      "imprint_back": "ミグリトール 50 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10,
+      "size_short_mm": 4.5,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の楕円形の割線入りの素錠"
+    },
+    {
+      "product_name": "ミグリトール錠75mg「トーワ」",
+      "strength": "75mg",
+      "imprint_front": "ミグリ 75",
+      "imprint_back": "ミグリトール 75 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2023年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠"
+    }
+  ],
+  "expected_products": [
+    "ミグリトール錠25mg「トーワ」",
+    "ミグリトール錠50mg「トーワ」"
+  ]
+}

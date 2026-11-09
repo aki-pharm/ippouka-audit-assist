@@ -1,0 +1,50 @@
+{
+  "id": "300119_3999002F1039_2_02",
+  "source_file": "300119_3999002F1039_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3999002F1039_2_02",
+  "extracted_at": "2026-11-09T15:32:24.652Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17407,
+    "output": 1428
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミゾリビン錠25mg「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "SW 210",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 性状 白色 直径（mm） 6.0 8.0 厚さ（mm） 2.4 2.8 識別コード SW 210 SW 211"
+    },
+    {
+      "product_name": "ミゾリビン錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW 211",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 性状 白色 直径（mm） 6.0 8.0 厚さ（mm） 2.4 2.8 識別コード SW 210 SW 211"
+    }
+  ],
+  "expected_products": [
+    "ミゾリビン錠25mg「サワイ」",
+    "ミゾリビン錠50mg「サワイ」"
+  ]
+}
