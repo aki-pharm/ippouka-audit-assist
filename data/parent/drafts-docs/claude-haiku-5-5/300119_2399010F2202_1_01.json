@@ -1,0 +1,33 @@
+{
+  "id": "300119_2399010F2202_1_01",
+  "source_file": "300119_2399010F2202_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2399010F2202_1_01",
+  "extracted_at": "2026-11-09T15:11:23.978Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13615,
+    "output": 1523
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW M12",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に円形の「5」の表示がみえるが、本文の識別コード欄には記載なし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 / 性状 白色 / 直径（mm） 10.1×5.1 / 厚さ（mm） 3.7 / 重量（mg） 約155 / 識別コード SW M12"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠5mg「サワイ」（旧製品）"
+  ]
+}
