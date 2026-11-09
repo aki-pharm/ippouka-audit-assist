@@ -1,0 +1,33 @@
+{
+  "id": "581120_2399004F1286_1_04",
+  "source_file": "581120_2399004F1286_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2399004F1286_1_04",
+  "extracted_at": "2026-11-09T15:08:41.875Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12921,
+    "output": 1681
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトクロプラミド錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "229",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の外形図に「229」の表示あり。識別コード（PTP）は「t 229」と記載。裏面の刻印は文書に記載なし。割線の記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 6.1mm 厚さ 3.0mm 質量 85mg 識別コード（PTP） t 229"
+    }
+  ],
+  "expected_products": [
+    "メトクロプラミド錠5mg「NIG」（旧製品：使用期限2027年4月まで）"
+  ]
+}
