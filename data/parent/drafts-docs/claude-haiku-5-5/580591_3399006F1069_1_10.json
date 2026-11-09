@@ -1,0 +1,49 @@
+{
+  "id": "580591_3399006F1069_1_10",
+  "source_file": "580591_3399006F1069_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3399006F1069_1_10",
+  "extracted_at": "2026-11-09T15:21:46.374Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13726,
+    "output": 2330
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠 50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "50 JG",
+      "imprint_back": "50 JG",
+      "imprint_note": "本体表示欄は「サルポグレラート 50 JG」。刻印は図から読み取り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の円形のフィルムコーティング錠 直径 7.6mm 厚さ 3.6mm 重量 145mg"
+    },
+    {
+      "product_name": "サルポグレラート塩酸塩錠 100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "100 JG",
+      "imprint_back": "100 JG",
+      "imprint_note": "本体表示欄は「サルポグレラート 100 JG」。刻印は図から読み取り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの円形のフィルムコーティング錠 直径 8.6mm 厚さ 4.2mm 重量 227mg"
+    }
+  ],
+  "expected_products": [
+    "サルポグレラート塩酸塩錠50mg「JG」"
+  ]
+}

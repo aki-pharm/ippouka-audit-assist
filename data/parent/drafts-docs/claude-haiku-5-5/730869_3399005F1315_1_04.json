@@ -1,0 +1,33 @@
+{
+  "id": "730869_3399005F1315_1_04",
+  "source_file": "730869_3399005F1315_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3399005F1315_1_04",
+  "extracted_at": "2026-11-09T15:21:21.508Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15342,
+    "output": 1407
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラプロストNa錠20μg「VTRS」",
+      "strength": "20μg",
+      "imprint_front": "20BR",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "白色 フィルムコーティング錠 直径 6.0mm 厚さ 3.0mm 重量 100mg"
+    }
+  ],
+  "expected_products": [
+    "ベラプロストNa錠20μg「VTRS」"
+  ]
+}

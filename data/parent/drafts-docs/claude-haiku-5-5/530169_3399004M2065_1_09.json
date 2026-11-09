@@ -1,0 +1,67 @@
+{
+  "id": "530169_3399004M2065_1_09",
+  "source_file": "530169_3399004M2065_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3399004M2065_1_09",
+  "extracted_at": "2026-11-09T15:21:14.395Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15566,
+    "output": 1809
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル300mg「日医工」",
+      "strength": "300mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄色透明",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "色調・性状 微黄色透明の球形の軟カプセル（分包）内容物：無色～微黄色澄明の液"
+    },
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル600mg「日医工」",
+      "strength": "600mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄色透明",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "色調・性状 微黄色透明の球形の軟カプセル（分包）内容物：無色～微黄色澄明の液"
+    },
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル900mg「日医工」",
+      "strength": "900mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄色透明",
+      "shape": "other",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "色調・性状 微黄色透明の球形の軟カプセル（分包）内容物：無色～微黄色澄明の液"
+    }
+  ],
+  "expected_products": [
+    "イコサペント酸エチル粒状カプセル300mg「日医工」",
+    "イコサペント酸エチル粒状カプセル600mg「日医工」",
+    "イコサペント酸エチル粒状カプセル900mg「日医工」"
+  ]
+}

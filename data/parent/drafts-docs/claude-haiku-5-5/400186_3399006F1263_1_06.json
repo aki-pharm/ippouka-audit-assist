@@ -1,0 +1,50 @@
+{
+  "id": "400186_3399006F1263_1_06",
+  "source_file": "400186_3399006F1263_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3399006F1263_1_06",
+  "extracted_at": "2026-11-09T15:21:43.394Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9845,
+    "output": 1910
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠50mg「タカタ」",
+      "strength": "50mg",
+      "imprint_front": "TTS-502",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 TTS-502 約6.1mm 約0.0885g 約3.0mm"
+    },
+    {
+      "product_name": "サルポグレラート塩酸塩錠100mg「タカタ」",
+      "strength": "100mg",
+      "imprint_front": "TTS-503",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 TTS-503 約7.6mm 約0.1755g 約3.7mm"
+    }
+  ],
+  "expected_products": [
+    "サルポグレラート塩酸塩錠100mg「タカタ」",
+    "サルポグレラート塩酸塩錠50mg「タカタ」"
+  ]
+}

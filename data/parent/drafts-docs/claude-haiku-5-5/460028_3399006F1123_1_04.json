@@ -1,0 +1,50 @@
+{
+  "id": "460028_3399006F1123_1_04",
+  "source_file": "460028_3399006F1123_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3399006F1123_1_04",
+  "extracted_at": "2026-11-09T15:21:37.800Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 11282,
+    "output": 1610
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠50mg「TSU」",
+      "strength": "50mg",
+      "imprint_front": "50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 外形 大きさ 直径 約7.2mm 厚さ 約3.3mm 識別コード 50"
+    },
+    {
+      "product_name": "サルポグレラート塩酸塩錠100mg「TSU」",
+      "strength": "100mg",
+      "imprint_front": "100",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 外形 大きさ 直径 約8.7mm 厚さ 約4.3mm 識別コード 100"
+    }
+  ],
+  "expected_products": [
+    "サルポグレラート塩酸塩錠100mg「TSU」",
+    "サルポグレラート塩酸塩錠50mg「TSU」"
+  ]
+}

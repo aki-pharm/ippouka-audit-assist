@@ -1,0 +1,49 @@
+{
+  "id": "400278_3399006F1115_1_06",
+  "source_file": "400278_3399006F1115_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3399006F1115_1_06",
+  "extracted_at": "2026-11-09T15:21:54.295Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13199,
+    "output": 1530
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠50mg「TCK」",
+      "strength": "50mg",
+      "imprint_front": "TU 311",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "サルポグレラート塩酸塩錠50mg「TCK」 白色 フィルムコーティング錠 TU 311 6.6 3.2 99"
+    },
+    {
+      "product_name": "サルポグレラート塩酸塩錠100mg「TCK」",
+      "strength": "100mg",
+      "imprint_front": "TU 312",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "サルポグレラート塩酸塩錠100mg「TCK」 白色 フィルムコーティング錠 TU 312 8.1 4.2 198"
+    }
+  ],
+  "expected_products": [
+    "サルポグレラート塩酸塩錠50mg「TCK」"
+  ]
+}

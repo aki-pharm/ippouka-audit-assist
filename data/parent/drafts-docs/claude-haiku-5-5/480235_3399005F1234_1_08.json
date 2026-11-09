@@ -1,0 +1,49 @@
+{
+  "id": "480235_3399005F1234_1_08",
+  "source_file": "480235_3399005F1234_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399005F1234_1_08",
+  "extracted_at": "2026-11-09T15:21:31.891Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17952,
+    "output": 1873
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラプロストNa錠20μg「トーワ」",
+      "strength": "20μg",
+      "imprint_front": "Tw227",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色のフィルムコーティング錠 / 識別コード Tw227 / 直径(mm) 6.1 / 厚さ(mm) 2.7"
+    },
+    {
+      "product_name": "ベラプロストNa錠40μg「トーワ」",
+      "strength": "40μg",
+      "imprint_front": "Tw229",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "淡紅色のフィルムコーティング錠 / 識別コード Tw229 / 直径(mm) 6.2 / 厚さ(mm) 2.8"
+    }
+  ],
+  "expected_products": [
+    "ベラプロストNa錠20μg「トーワ」"
+  ]
+}

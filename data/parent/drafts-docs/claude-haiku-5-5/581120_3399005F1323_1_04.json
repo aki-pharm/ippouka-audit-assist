@@ -1,0 +1,49 @@
+{
+  "id": "581120_3399005F1323_1_04",
+  "source_file": "581120_3399005F1323_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3399005F1323_1_04",
+  "extracted_at": "2026-11-09T15:21:18.142Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17978,
+    "output": 2025
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラプロストNa錠20μg「NIG」",
+      "strength": "20μg",
+      "imprint_front": "BR 20",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図は「BR」と「20」の刻印。識別コードはPTP表記「t BR 20μg」。裏面の刻印は文書から判読できず。",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～淡黄白色のフィルムコーティング錠 外形 直径 6.1mm 厚さ 2.8mm 質量 85mg 識別コード（PTP） t BR 20μg"
+    },
+    {
+      "product_name": "ベラプロストNa錠40μg「NIG」",
+      "strength": "40μg",
+      "imprint_front": "BR 40",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図は「BR」と「40」の刻印。識別コードはPTP表記「t BR 40μg」。裏面の刻印は文書から判読できず。",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡橙色のフィルムコーティング錠 外形 直径 6.1mm 厚さ 2.8mm 質量 85mg 識別コード（PTP） t BR 40μg"
+    }
+  ],
+  "expected_products": [
+    "ベラプロストNa錠20μg「NIG」"
+  ]
+}
