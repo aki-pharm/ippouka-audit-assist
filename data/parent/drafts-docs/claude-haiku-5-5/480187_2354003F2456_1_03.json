@@ -1,0 +1,33 @@
+{
+  "id": "480187_2354003F2456_1_03",
+  "source_file": "480187_2354003F2456_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480187_2354003F2456_1_03",
+  "extracted_at": "2026-11-09T15:07:59.552Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8423,
+    "output": 1243
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "センノシド錠12mg「杏林」",
+      "strength": "12mg",
+      "imprint_front": "なし",
+      "imprint_back": "なし",
+      "imprint_note": "識別コード欄は「なし」と記載。表面の図案は社名マークと思われる",
+      "color": "暗赤褐色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 暗赤褐色の糖衣錠 外形 表面 裏面 側面 直径（mm） 7.6 厚さ（mm） 4.5 重量（mg） 200 識別コード なし"
+    }
+  ],
+  "expected_products": [
+    "センノシド錠12mg「杏林」"
+  ]
+}

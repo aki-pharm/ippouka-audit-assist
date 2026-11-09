@@ -1,0 +1,33 @@
+{
+  "id": "460028_2359005F1242_1_03",
+  "source_file": "460028_2359005F1242_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2359005F1242_1_03",
+  "extracted_at": "2026-11-09T15:08:14.067Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9471,
+    "output": 1288
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピコスルファートナトリウム錠2.5mg「ツルハラ」",
+      "strength": "2.5mg",
+      "imprint_front": "2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 外形 大きさ 直径 約5.1mm 厚さ 約3.1mm 質量 約53mg 識別コード 2.5"
+    }
+  ],
+  "expected_products": [
+    "ピコスルファートナトリウム錠2.5mg「ツルハラ」"
+  ]
+}
