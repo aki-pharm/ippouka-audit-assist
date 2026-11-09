@@ -1,0 +1,49 @@
+{
+  "id": "581120_2590007F1358_1_03",
+  "source_file": "581120_2590007F1358_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590007F1358_1_03",
+  "extracted_at": "2026-11-09T15:13:55.293Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17987,
+    "output": 2573
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピベリン塩酸塩錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "HYZ17",
+      "imprint_back": "10",
+      "imprint_note": "表裏の別は明記なし。外形図の表示に基づく（PTP識別コードHYZ17）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の扁平球状のフィルムコート錠 外形 直径 6.1mm 厚さ 3.1mm"
+    },
+    {
+      "product_name": "プロピベリン塩酸塩錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "HYZ18",
+      "imprint_back": "20",
+      "imprint_note": "表裏の別は明記なし。外形図の表示に基づく（PTP識別コードHYZ18）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の扁平球状のフィルムコート錠 外形 直径 7.2mm 厚さ 3.1mm"
+    }
+  ],
+  "expected_products": [
+    "プロピベリン塩酸塩錠10mg「NIG」"
+  ]
+}

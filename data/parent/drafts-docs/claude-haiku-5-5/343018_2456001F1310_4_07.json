@@ -1,0 +1,33 @@
+{
+  "id": "343018_2456001F1310_4_07",
+  "source_file": "343018_2456001F1310_4_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_2456001F1310_4_07",
+  "extracted_at": "2026-11-09T15:12:33.894Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23913,
+    "output": 1802
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレドニン錠 5mg",
+      "strength": "5mg",
+      "imprint_front": "341：5",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク（塩野義マーク）と識別コードが併記されている。裏面の刻印は添付文書から確認できない",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすいだいだい色の素錠である。 大きさ 直径 約 5.0mm 厚さ 約 2.3mm"
+    }
+  ],
+  "expected_products": [
+    "プレドニン錠5mg"
+  ]
+}

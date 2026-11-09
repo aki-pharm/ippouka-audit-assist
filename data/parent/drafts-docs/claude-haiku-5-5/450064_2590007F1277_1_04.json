@@ -1,0 +1,49 @@
+{
+  "id": "450064_2590007F1277_1_04",
+  "source_file": "450064_2590007F1277_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2590007F1277_1_04",
+  "extracted_at": "2026-11-09T15:13:53.561Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18668,
+    "output": 2130
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピベリン塩酸塩錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "ch73",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「10」の表示あり。表裏の別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 外形 大きさ 直径 7.1mm 厚さ 3.1mm 識別コード ch73"
+    },
+    {
+      "product_name": "プロピベリン塩酸塩錠20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "ch115",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「20」の表示あり。表裏の別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 外形 大きさ 直径 7.1mm 厚さ 3.1mm 識別コード ch115"
+    }
+  ],
+  "expected_products": [
+    "プロピベリン塩酸塩錠10mg「JG」"
+  ]
+}

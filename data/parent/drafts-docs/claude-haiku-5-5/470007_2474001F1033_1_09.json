@@ -1,0 +1,33 @@
+{
+  "id": "470007_2474001F1033_1_09",
+  "source_file": "470007_2474001F1033_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2474001F1033_1_09",
+  "extracted_at": "2026-11-09T15:12:29.527Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12557,
+    "output": 935
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロセキソール錠0.5mg",
+      "strength": "0.5mg",
+      "imprint_front": "TZ316",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2020年6月改訂",
+      "source_page": 1,
+      "source_quote": "直径約6.7mm　厚さ約2.8mm　質量約108mg"
+    }
+  ],
+  "expected_products": [
+    "プロセキソール錠0.5mg"
+  ]
+}

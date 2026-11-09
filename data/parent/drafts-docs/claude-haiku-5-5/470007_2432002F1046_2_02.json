@@ -1,0 +1,33 @@
+{
+  "id": "470007_2432002F1046_2_02",
+  "source_file": "470007_2432002F1046_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2432002F1046_2_02",
+  "extracted_at": "2026-11-09T15:11:59.605Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10929,
+    "output": 946
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロパジール錠50mg",
+      "strength": "50mg",
+      "imprint_front": "プロパジール",
+      "imprint_back": "プロパジール",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2021年5月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色フィルムコーティング錠（割線入り） 外 形 直径7.2mm 厚さ3.5mm 質量約148mg"
+    }
+  ],
+  "expected_products": [
+    "プロパジール錠50mg"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "470007_2499013F1027_2_06",
+  "source_file": "470007_2499013F1027_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2499013F1027_2_06",
+  "extracted_at": "2026-11-09T15:13:26.672Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18030,
+    "output": 1350
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レルミナ錠40mg",
+      "strength": "40mg",
+      "imprint_front": "レルミナ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2023年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 淡黄赤色のフィルムコーティング錠 / 外形 直径約8.1mm 厚さ約4.5mm 質量約228mg / 製剤表示 レルミナ"
+    }
+  ],
+  "expected_products": [
+    "レルミナ錠を処方いただくにあたって：うつ状態を含む更年期様症状について"
+  ]
+}

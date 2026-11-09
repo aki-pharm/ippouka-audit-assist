@@ -1,0 +1,49 @@
+{
+  "id": "470007_2432001F1033_2_06",
+  "source_file": "470007_2432001F1033_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2432001F1033_2_06",
+  "extracted_at": "2026-11-09T15:11:52.707Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13508,
+    "output": 1658
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メルカゾール錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "メルカゾール2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2025年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤 形 淡赤色のフィルムコーティング錠 外 形 直径約7.2mm　厚さ約3.2mm　質量約132mg 製剤表示 メルカゾール2.5"
+    },
+    {
+      "product_name": "メルカゾール錠5mg",
+      "strength": "5mg",
+      "imprint_front": "メルカゾール5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2025年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤 形 淡黄色のフィルムコーティング錠 外 形 直径約7.2mm　厚さ約3.2mm　質量約132mg 製剤表示 メルカゾール5"
+    }
+  ],
+  "expected_products": [
+    "メルカゾール錠5mg"
+  ]
+}

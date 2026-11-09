@@ -1,0 +1,33 @@
+{
+  "id": "830001_2590004F1362_1_05",
+  "source_file": "830001_2590004F1362_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2590004F1362_1_05",
+  "extracted_at": "2026-11-09T15:13:42.353Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12394,
+    "output": 1358
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リトドリン塩酸塩錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD 664",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は外形図の表示による（本文に刻印の記載なし）。裏面は外形図で確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 外形 直径 約7.1mm 厚さ 約3.5mm"
+    }
+  ],
+  "expected_products": [
+    "リトドリン塩酸塩錠5mg「YD」"
+  ]
+}

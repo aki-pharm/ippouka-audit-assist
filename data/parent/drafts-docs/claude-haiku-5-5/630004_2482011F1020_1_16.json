@@ -1,0 +1,49 @@
+{
+  "id": "630004_2482011F1020_1_16",
+  "source_file": "630004_2482011F1020_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/630004_2482011F1020_1_16",
+  "extracted_at": "2026-11-09T15:13:00.095Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28263,
+    "output": 1821
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヤーズ配合錠 実薬錠",
+      "strength": "1錠中ドロスピレノン3mg及びエチニルエストラジオールベータデクスとしてエチニルエストラジオール0.020mg含有",
+      "imprint_front": "DS",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡赤色 錠数 24錠 外形 直径 6mm 厚さ 2.90mm 質量 83.0mg"
+    },
+    {
+      "product_name": "ヤーズ配合錠 プラセボ錠",
+      "strength": "含有せず",
+      "imprint_front": "DP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.85,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 錠数 4錠 外形 直径 6mm 厚さ 2.85mm 質量 80.0mg"
+    }
+  ],
+  "expected_products": [
+    "ヤーズ配合錠"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "530113_2590004F1346_2_05",
+  "source_file": "530113_2590004F1346_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2590004F1346_2_05",
+  "extracted_at": "2026-11-09T15:13:45.696Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10973,
+    "output": 1151
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リトドリン塩酸塩錠5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "NS 286",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性 状 白色のフィルムコーティング錠 外 形 大きさ 錠径：7.1mm、錠厚：3.5mm、重量：125mg 識別コード NS 286"
+    }
+  ],
+  "expected_products": [
+    "リトドリン塩酸塩錠5mg「日新」"
+  ]
+}

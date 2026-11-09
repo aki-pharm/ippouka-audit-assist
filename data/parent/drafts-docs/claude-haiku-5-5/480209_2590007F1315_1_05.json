@@ -1,0 +1,49 @@
+{
+  "id": "480209_2590007F1315_1_05",
+  "source_file": "480209_2590007F1315_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2590007F1315_1_05",
+  "extracted_at": "2026-11-09T15:14:15.702Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18159,
+    "output": 2102
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピベリン塩酸塩錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "PH731",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の表記（PH731）を記載。裏面の刻印は文書上確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 直径(mm) 7.1 厚さ(mm) 3.2 質量(mg) 125 識別コード PH731"
+    },
+    {
+      "product_name": "プロピベリン塩酸塩錠20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "PH732",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の表記（PH732）を記載。裏面の刻印は文書上確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 直径(mm) 7.1 厚さ(mm) 3.3 質量(mg) 125 識別コード PH732"
+    }
+  ],
+  "expected_products": [
+    "プロピベリン塩酸塩錠10mg「杏林」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "480018_2499011M1035_1_02",
+  "source_file": "480018_2499011M1035_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480018_2499011M1035_1_02",
+  "extracted_at": "2026-11-09T15:13:12.775Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19025,
+    "output": 1578
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュタステリドカプセル0.5mgAV「AFP」",
+      "strength": "0.5mg",
+      "imprint_front": "デュタステリド 0.5 AV AFP",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図内の表示を刻印として記載。裏面は記載なし",
+      "color": "淡黄色不透明",
+      "shape": "oblong",
+      "size_long_mm": 10.9,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色不透明の楕円球形の軟カプセル剤 剤形・色 外形 長径：約10.9mm 短径：約7.0mm 質量：335.7mg"
+    }
+  ],
+  "expected_products": [
+    "デュタステリドカプセル0.5mgAV「AFP」"
+  ]
+}
