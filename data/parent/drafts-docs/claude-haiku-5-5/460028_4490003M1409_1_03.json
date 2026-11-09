@@ -1,0 +1,33 @@
+{
+  "id": "460028_4490003M1409_1_03",
+  "source_file": "460028_4490003M1409_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_4490003M1409_1_03",
+  "extracted_at": "2026-11-09T15:38:02.142Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10645,
+    "output": 1471
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ケトチフェンカプセル1mg「ツルハラ」",
+      "strength": "1mg",
+      "imprint_front": "TSU703",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとしてTSU703と記載。画像右側の表示は判読できず、表裏の別は本文に記載なし。",
+      "color": "白色不透明（カプセル本体）、内容物は白色～淡黄白色の粉末",
+      "shape": "oblong",
+      "size_long_mm": 14,
+      "size_short_mm": 5.4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "大きさ 長径 約14.0mm 短径 約 5.4mm 質量 約175mg 識別コード TSU703 性状 白色～淡黄白色の粉末の入った白色不透明の4号硬カプセル"
+    }
+  ],
+  "expected_products": [
+    "ケトチフェンカプセル1mg「ツルハラ」"
+  ]
+}

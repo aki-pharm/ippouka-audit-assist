@@ -1,0 +1,33 @@
+{
+  "id": "581120_4490003M1417_1_04",
+  "source_file": "581120_4490003M1417_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_4490003M1417_1_04",
+  "extracted_at": "2026-11-09T15:37:58.080Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10837,
+    "output": 1672
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ケトチフェンカプセル1mg「NIG」",
+      "strength": "1mg",
+      "imprint_front": "t KTF",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは製剤の性状欄（PTP）の表記。カプセル本体の刻印位置や内容は文書から確認できない",
+      "color": "蓋部・胴体部とも白色不透明（内容物は白色〜淡黄白色粉末）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 蓋部・胴体部とも白色不透明、内容物が白色〜淡黄白色粉末のカプセル剤 外形 4号カプセル"
+    }
+  ],
+  "expected_products": [
+    "ケトチフェンカプセル1mg「NIG」"
+  ]
+}
