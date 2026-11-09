@@ -1,0 +1,50 @@
+{
+  "id": "650208_4490025F1040_1_07",
+  "source_file": "650208_4490025F1040_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_4490025F1040_1_07",
+  "extracted_at": "2026-11-09T15:42:46.463Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22254,
+    "output": 1694
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「BMD」",
+      "strength": "2.5mg",
+      "imprint_front": "BMD38",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 約6.1 厚さ（mm） 約3.2 色調 淡黄赤色 フィルムコーティング錠 識別コード（PTP） BMD38"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「BMD」",
+      "strength": "5mg",
+      "imprint_front": "BMD39",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 約7.1 厚さ（mm） 約3.1 色調 淡黄赤色片面割線入り フィルムコーティング錠 識別コード（PTP） BMD39"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「BMD」",
+    "オロパタジン塩酸塩錠5mg「BMD」"
+  ]
+}

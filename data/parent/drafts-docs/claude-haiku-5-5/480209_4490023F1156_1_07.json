@@ -1,0 +1,50 @@
+{
+  "id": "480209_4490023F1156_1_07",
+  "source_file": "480209_4490023F1156_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_4490023F1156_1_07",
+  "extracted_at": "2026-11-09T15:41:48.577Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26484,
+    "output": 2113
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠30mg「杏林」",
+      "strength": "30mg",
+      "imprint_front": "KRM161、30",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は外形図の読み取り。裏面は文書に記載がない",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.65,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 うすいだいだい色 外形 直径(mm) 6.1 厚さ(mm) 3.65 識別コード KRM161"
+    },
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠60mg「杏林」",
+      "strength": "60mg",
+      "imprint_front": "KRM162、60",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は外形図の読み取り。裏面は文書に記載がない",
+      "color": "うすいだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 12.1,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.85,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 うすいだいだい色 外形 長径：12.1 短径：5.6 厚さ(mm) 3.85 識別コード KRM162"
+    }
+  ],
+  "expected_products": [
+    "フェキソフェナジン塩酸塩錠30mg「杏林」",
+    "フェキソフェナジン塩酸塩錠60mg「杏林」"
+  ]
+}

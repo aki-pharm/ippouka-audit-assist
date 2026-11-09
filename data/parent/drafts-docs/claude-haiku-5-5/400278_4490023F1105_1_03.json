@@ -1,0 +1,49 @@
+{
+  "id": "400278_4490023F1105_1_03",
+  "source_file": "400278_4490023F1105_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_4490023F1105_1_03",
+  "extracted_at": "2026-11-09T15:41:48.753Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27477,
+    "output": 2129
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠30mg「TCK」",
+      "strength": "30mg",
+      "imprint_front": "TU 531",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.65,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "フェキソフェナジン塩酸塩錠30mg「TCK」 うすいだいだい色 フィルムコーティング錠 識別コード TU 531 厚さ 3.65 mm 直径 6.1 mm"
+    },
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠60mg「TCK」",
+      "strength": "60mg",
+      "imprint_front": "TU 532",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 12.1,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.85,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "フェキソフェナジン塩酸塩錠60mg「TCK」 うすいだいだい色 フィルムコーティング錠 識別コード TU 532 厚さ 3.85 mm 直径 12.1 × 5.6 mm"
+    }
+  ],
+  "expected_products": [
+    "フェキソフェナジン塩酸塩錠60mg「TCK」"
+  ]
+}

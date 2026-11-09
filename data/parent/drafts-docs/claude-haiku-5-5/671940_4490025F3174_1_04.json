@@ -1,0 +1,50 @@
+{
+  "id": "671940_4490025F3174_1_04",
+  "source_file": "671940_4490025F3174_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_4490025F3174_1_04",
+  "extracted_at": "2026-11-09T15:42:34.550Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21332,
+    "output": 1757
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩OD錠 2.5mg「フェルゼン」",
+      "strength": "2.5mg",
+      "imprint_front": "F5",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状 ごくうすい黄色の円形の素錠 大きさ等 直径：6.5mm 厚さ：2.7mm 質量：100mg 識別コード F5"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩OD錠 5mg「フェルゼン」",
+      "strength": "5mg",
+      "imprint_front": "F6",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状 ごくうすい黄色の円形の割線入り素錠 大きさ等 直径：8.0mm 厚さ：3.6mm 質量：200mg 識別コード F6"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩OD錠2.5mg「フェルゼン」",
+    "オロパタジン塩酸塩OD錠5mg「フェルゼン」"
+  ]
+}

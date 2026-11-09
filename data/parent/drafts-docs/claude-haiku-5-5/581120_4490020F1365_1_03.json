@@ -1,0 +1,50 @@
+{
+  "id": "581120_4490020F1365_1_03",
+  "source_file": "581120_4490020F1365_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_4490020F1365_1_03",
+  "extracted_at": "2026-11-09T15:40:12.979Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21778,
+    "output": 1567
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セチリジン塩酸塩錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "TYK451",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 6.1mm 厚さ 2.9mm 識別コード TYK451"
+    },
+    {
+      "product_name": "セチリジン塩酸塩錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "TYK452",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 7.1mm 厚さ 3.3mm 識別コード TYK452"
+    }
+  ],
+  "expected_products": [
+    "セチリジン塩酸塩錠10mg「NIG」",
+    "セチリジン塩酸塩錠5mg「NIG」"
+  ]
+}

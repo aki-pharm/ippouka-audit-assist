@@ -1,0 +1,50 @@
+{
+  "id": "460028_4490020F1268_1_11",
+  "source_file": "460028_4490020F1268_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_4490020F1268_1_11",
+  "extracted_at": "2026-11-09T15:40:29.366Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21801,
+    "output": 1815
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セチリジン塩酸塩錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "E24",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2022年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 外形 大きさ 直径 約6.1mm 厚さ 約2.8mm 識別コード E24"
+    },
+    {
+      "product_name": "セチリジン塩酸塩錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "E23",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2022年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 外形 大きさ 直径 約7.1mm 厚さ 約3.0mm 識別コード E23"
+    }
+  ],
+  "expected_products": [
+    "セチリジン塩酸塩錠10mg「ツルハラ」",
+    "セチリジン塩酸塩錠5mg「ツルハラ」"
+  ]
+}

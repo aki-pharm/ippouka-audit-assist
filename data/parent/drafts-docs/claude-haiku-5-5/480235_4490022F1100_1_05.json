@@ -1,0 +1,84 @@
+{
+  "id": "480235_4490022F1100_1_05",
+  "source_file": "480235_4490022F1100_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490022F1100_1_05",
+  "extracted_at": "2026-11-09T15:40:59.212Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23269,
+    "output": 5433
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベポタスチンベシル酸塩錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表示欄に「ベポタスチン 5 トーワ」の記載があるが、表裏の対応は読み取れず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 / 直径(mm) 6.0 / 厚さ(mm) 2.9"
+    },
+    {
+      "product_name": "ベポタスチンベシル酸塩錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "ベポタス 10",
+      "imprint_back": "ベポタスチン 10 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 / 直径(mm) 7.1 / 厚さ(mm) 3.2"
+    },
+    {
+      "product_name": "ベポタスチンベシル酸塩OD錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表示欄に「ベポタスチン 5 ODトーワ」の記載があるが、表裏の対応は読み取れず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の口腔内崩壊錠 / 直径(mm) 7.0 / 厚さ(mm) 3.4"
+    },
+    {
+      "product_name": "ベポタスチンベシル酸塩OD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "ベポタス 10",
+      "imprint_back": "ベポタスチン 10 ODトーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの口腔内崩壊錠 / 直径(mm) 9.0 / 厚さ(mm) 4.2"
+    }
+  ],
+  "expected_products": [
+    "ベポタスチンベシル酸塩OD錠10mg「トーワ」",
+    "ベポタスチンベシル酸塩OD錠5mg「トーワ」",
+    "ベポタスチンベシル酸塩錠10mg「トーワ」",
+    "ベポタスチンベシル酸塩錠5mg「トーワ」"
+  ]
+}

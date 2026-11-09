@@ -1,0 +1,50 @@
+{
+  "id": "460028_4490025F1317_1_02",
+  "source_file": "460028_4490025F1317_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_4490025F1317_1_02",
+  "extracted_at": "2026-11-09T15:43:00.536Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20735,
+    "output": 1797
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「TSU」",
+      "strength": "2.5mg",
+      "imprint_front": "O26",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2022年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡黄赤色 大きさ 直径 約6.1mm 厚さ 約2.7mm 識別コード 表面 O26、裏面 2.5"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「TSU」",
+      "strength": "5mg",
+      "imprint_front": "O27",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2022年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入 フィルムコーティング錠 色調 淡黄赤色 大きさ 直径 約6.6mm 厚さ 約3.0mm 識別コード 表面 O27、裏面 5"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「TSU」",
+    "オロパタジン塩酸塩錠5mg「TSU」"
+  ]
+}

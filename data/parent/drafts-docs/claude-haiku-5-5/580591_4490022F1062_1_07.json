@@ -1,0 +1,50 @@
+{
+  "id": "580591_4490022F1062_1_07",
+  "source_file": "580591_4490022F1062_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_4490022F1062_1_07",
+  "extracted_at": "2026-11-09T15:41:01.497Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20574,
+    "output": 2145
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベポタスチンベシル酸塩錠5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "ベポタスチン 5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を転記。裏面の刻印は判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径 6.1mm 厚さ 2.7mm 重量 84mg（本体表示：ベポタスチン 5 JG）"
+    },
+    {
+      "product_name": "ベポタスチンベシル酸塩錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "ベポタスチン 10 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を転記。裏面の刻印は判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径 7.1mm 厚さ 3.0mm 重量 125mg（本体表示：ベポタスチン 10 JG）"
+    }
+  ],
+  "expected_products": [
+    "ベポタスチンベシル酸塩錠10mg「JG」",
+    "ベポタスチンベシル酸塩錠5mg「JG」"
+  ]
+}

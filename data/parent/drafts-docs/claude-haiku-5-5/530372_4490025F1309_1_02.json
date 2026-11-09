@@ -1,0 +1,50 @@
+{
+  "id": "530372_4490025F1309_1_02",
+  "source_file": "530372_4490025F1309_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_4490025F1309_1_02",
+  "extracted_at": "2026-11-09T15:43:02.837Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12042,
+    "output": 2954
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「NPI」",
+      "strength": "2.5mg",
+      "imprint_front": "NPI 157",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図は社名マーク様の図柄を含む可能性がある。裏面は図上刻印が確認できない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "性状 淡黄色のフィルムコーティング錠 外形 直径 6.1mm 厚さ 2.7mm 識別コード NPI 157"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「NPI」",
+      "strength": "5mg",
+      "imprint_front": "NPI 158",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "性状 淡黄赤色の片面割線入りフィルムコーティング錠 直径 7.1mm 厚さ 2.8mm 識別コード NPI 158"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「NPI」",
+    "オロパタジン塩酸塩錠5mg「NPI」"
+  ]
+}

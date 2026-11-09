@@ -1,0 +1,50 @@
+{
+  "id": "380087_4490025F1120_1_11",
+  "source_file": "380087_4490025F1120_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_4490025F1120_1_11",
+  "extracted_at": "2026-11-09T15:43:18.750Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22342,
+    "output": 2750
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「ZE」",
+      "strength": "2.5mg",
+      "imprint_front": "ZE94",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡黄赤色 剤形 フィルムコーティング錠 ... 錠径(mm) 6.1 厚み(mm) 3.2 重量(mg) 100 ... 識別コード ZE94、2.5"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「ZE」",
+      "strength": "5mg",
+      "imprint_front": "ZE95",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡黄赤色 剤形 フィルムコーティング錠（割線入り） ... 錠径(mm) 7.1 厚み(mm) 3.1 重量(mg) 125 ... 識別コード ZE95、5"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「ZE」",
+    "オロパタジン塩酸塩錠5mg「ZE」"
+  ]
+}

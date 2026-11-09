@@ -1,0 +1,50 @@
+{
+  "id": "300119_4490025F3158_1_05",
+  "source_file": "300119_4490025F3158_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4490025F3158_1_05",
+  "extracted_at": "2026-11-09T15:42:18.389Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20705,
+    "output": 1550
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩OD錠2.5mg「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "SW OL-D 2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）、性状 ごくうすい赤色、直径（mm） 7.0、厚さ（mm） 2.3、識別コード SW OL-D 2.5"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩OD錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW OL-D 5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）、性状 ごくうすい赤色、直径（mm） 8.5、厚さ（mm） 3.2、識別コード SW OL-D 5"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩OD錠2.5mg「サワイ」",
+    "オロパタジン塩酸塩OD錠5mg「サワイ」"
+  ]
+}

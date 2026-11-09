@@ -1,0 +1,50 @@
+{
+  "id": "380087_4490019F3071_1_10",
+  "source_file": "380087_4490019F3071_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_4490019F3071_1_10",
+  "extracted_at": "2026-11-09T15:39:27.475Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15704,
+    "output": 1579
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エバスチンOD錠5mg「ZE」",
+      "strength": "5mg",
+      "imprint_front": "ZE15",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡紅色 白色 剤形 素錠（口腔内崩壊錠） 錠径（mm） 6.5 8.0 厚み（mm） 2.3 3.1 識別コード ZE15、5 ZE16、10"
+    },
+    {
+      "product_name": "エバスチンOD錠10mg「ZE」",
+      "strength": "10mg",
+      "imprint_front": "ZE16",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡紅色 白色 剤形 素錠（口腔内崩壊錠） 錠径（mm） 6.5 8.0 厚み（mm） 2.3 3.1 識別コード ZE15、5 ZE16、10"
+    }
+  ],
+  "expected_products": [
+    "エバスチンOD錠10mg「ZE」",
+    "エバスチンOD錠5mg「ZE」"
+  ]
+}

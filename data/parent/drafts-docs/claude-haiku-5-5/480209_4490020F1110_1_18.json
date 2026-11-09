@@ -1,0 +1,50 @@
+{
+  "id": "480209_4490020F1110_1_18",
+  "source_file": "480209_4490020F1110_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_4490020F1110_1_18",
+  "extracted_at": "2026-11-09T15:40:17.539Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22978,
+    "output": 2211
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セチリジン塩酸塩錠5mg「PH」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPH771と記載。表裏どちらの刻印かは本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 直径(mm) 6.1 7.1 厚さ(mm) 2.9 3.0 質量(mg) 88 119 識別コード PH771 PH772"
+    },
+    {
+      "product_name": "セチリジン塩酸塩錠10mg「PH」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPH772と記載。表裏どちらの刻印かは本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 直径(mm) 6.1 7.1 厚さ(mm) 2.9 3.0 質量(mg) 88 119 識別コード PH771 PH772"
+    }
+  ],
+  "expected_products": [
+    "セチリジン塩酸塩錠10mg「PH」",
+    "セチリジン塩酸塩錠5mg「PH」"
+  ]
+}

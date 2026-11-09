@@ -1,0 +1,50 @@
+{
+  "id": "530113_4490023F1210_1_03",
+  "source_file": "530113_4490023F1210_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_4490023F1210_1_03",
+  "extracted_at": "2026-11-09T15:41:45.446Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13637,
+    "output": 2823
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠30mg「日新」",
+      "strength": "30mg",
+      "imprint_front": "NS 471",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「30」の表示があるが、表裏の別や刻印かどうかは本文に記載なし",
+      "color": "うすいだいだい色",
+      "shape": null,
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 うすいだいだい色のフィルムコーティング錠 外 形 大きさ 錠径：6.1mm 錠厚：3.7mm 重量：104mg 識 別 コード NS 471"
+    },
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠60mg「日新」",
+      "strength": "60mg",
+      "imprint_front": "NS 472",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「60」の表示があるが、表裏の別や刻印かどうかは本文に記載なし",
+      "color": "うすいだいだい色",
+      "shape": null,
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 うすいだいだい色のフィルムコーティング錠 外 形 大きさ 錠径：7.6mm 錠厚：3.7mm 重量：156mg 識 別 コード NS 472"
+    }
+  ],
+  "expected_products": [
+    "フェキソフェナジン塩酸塩錠30mg「日新」",
+    "フェキソフェナジン塩酸塩錠60mg「日新」"
+  ]
+}
