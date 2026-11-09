@@ -1,0 +1,49 @@
+{
+  "id": "530100_4490028F1183_1_02",
+  "source_file": "530100_4490028F1183_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_4490028F1183_1_02",
+  "extracted_at": "2026-11-09T15:46:35.844Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31568,
+    "output": 1899
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠 2.5mg「ニプロ」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載なし（図の刻印は判読できず）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 5.1 2.3 51.5"
+    },
+    {
+      "product_name": "レボセチリジン塩酸塩錠 5mg「ニプロ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載なし（図の刻印は判読できず）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の楕円形の割線入りフィルムコーティング錠（長径）8.1（短径）4.7 2.9 102"
+    }
+  ],
+  "expected_products": [
+    "レボセチリジン塩酸塩錠5mg「ニプロ」"
+  ]
+}

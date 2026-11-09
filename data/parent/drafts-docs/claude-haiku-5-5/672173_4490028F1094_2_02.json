@@ -1,0 +1,33 @@
+{
+  "id": "672173_4490028F1094_2_02",
+  "source_file": "672173_4490028F1094_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_4490028F1094_2_02",
+  "extracted_at": "2026-11-09T15:46:33.884Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27488,
+    "output": 1557
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠5mg「アメル」",
+      "strength": "5mg",
+      "imprint_front": "レボセチリジン 5 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして記載されているのみで、表裏の別は記載なし",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "楕円形の割線入りフィルムコーティング錠 長径：約8.1mm 短径：約4.8mm 厚さ：約3.1mm 質量：約100.0mg（色調：白色、識別コード：レボセチリジン 5 アメル）"
+    }
+  ],
+  "expected_products": [
+    "レボセチリジン塩酸塩錠5mg「アメル」"
+  ]
+}

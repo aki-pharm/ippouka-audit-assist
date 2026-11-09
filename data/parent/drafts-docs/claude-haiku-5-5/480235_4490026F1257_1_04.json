@@ -1,0 +1,33 @@
+{
+  "id": "480235_4490026F1257_1_04",
+  "source_file": "480235_4490026F1257_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490026F1257_1_04",
+  "extracted_at": "2026-11-09T15:44:39.917Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23324,
+    "output": 1300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカストチュアブル錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "5 モンテルカストチュアブル トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を表側の刻印として記載。裏面の刻印は画像で判読できないため未確認",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすい赤色の素錠 本体表示 5 モンテルカストチュアブル トーワ 直径(mm) 9.0 厚さ(mm) 4.1"
+    }
+  ],
+  "expected_products": [
+    "モンテルカストチュアブル錠5mg「トーワ」"
+  ]
+}

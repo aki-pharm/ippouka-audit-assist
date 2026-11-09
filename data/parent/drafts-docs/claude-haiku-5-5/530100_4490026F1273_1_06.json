@@ -1,0 +1,33 @@
+{
+  "id": "530100_4490026F1273_1_06",
+  "source_file": "530100_4490026F1273_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_4490026F1273_1_06",
+  "extracted_at": "2026-11-09T15:44:46.748Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26474,
+    "output": 1434
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカストチュアブル錠 5mg「ニプロ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の画像に刻印らしき表示があるが判読できないため未確認",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "うすい赤色の素錠（チュアブル錠）、直径9.5mm、厚さ4.7mm、重量300mg"
+    }
+  ],
+  "expected_products": [
+    "モンテルカストチュアブル錠5mg「ニプロ」"
+  ]
+}

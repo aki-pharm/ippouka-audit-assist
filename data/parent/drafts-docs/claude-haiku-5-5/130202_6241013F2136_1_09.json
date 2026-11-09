@@ -1,0 +1,49 @@
+{
+  "id": "130202_6241013F2136_1_09",
+  "source_file": "130202_6241013F2136_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130202_6241013F2136_1_09",
+  "extracted_at": "2026-11-09T15:48:16.946Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31676,
+    "output": 1928
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「イワキ」",
+      "strength": "250mg",
+      "imprint_front": "IW 09",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（錠剤）欄の記載はIW 09。表裏の別は表では未確認",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 13.7,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "割線を有する黄色だ円形のフィルムコーティング錠"
+    },
+    {
+      "product_name": "レボフロキサシン錠500mg「イワキ」",
+      "strength": "500mg",
+      "imprint_front": "IW 08",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（錠剤）欄の記載はIW 08。表裏の別は表では未確認",
+      "color": "うすいだいだい色",
+      "shape": "oval",
+      "size_long_mm": 18.4,
+      "size_short_mm": 8.3,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "割線を有するうすいだいだい色だ円形のフィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "レボフロキサシン錠500mg「イワキ」"
+  ]
+}

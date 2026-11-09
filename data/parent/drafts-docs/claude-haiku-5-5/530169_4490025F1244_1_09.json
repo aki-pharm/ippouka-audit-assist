@@ -1,0 +1,50 @@
+{
+  "id": "530169_4490025F1244_1_09",
+  "source_file": "530169_4490025F1244_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_4490025F1244_1_09",
+  "extracted_at": "2026-11-09T15:44:02.152Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20879,
+    "output": 2578
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「日医工」",
+      "strength": "2.5mg",
+      "imprint_front": "オロパタジン2.5日医工",
+      "imprint_back": "オロパタジン2.5日医工",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りのフィルムコーティング錠 色調 淡黄赤色 直径(mm) 6.1 7.1 厚さ(mm) 3.0 3.1 質量(mg) 83 124 本体表示 オロパタジン 2.5 日医工 包装コード 813 814"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "814",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「n814」と読めるが記号部分は判読が不確か。裏面の刻印は確認できず",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りのフィルムコーティング錠 色調 淡黄赤色 直径(mm) 6.1 7.1 厚さ(mm) 3.0 3.1 質量(mg) 83 124 本体表示 オロパタジン 2.5 日医工 包装コード 813 814"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「日医工」",
+    "オロパタジン塩酸塩錠5mg「日医工」"
+  ]
+}

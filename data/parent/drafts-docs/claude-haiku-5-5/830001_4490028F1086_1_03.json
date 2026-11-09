@@ -1,0 +1,49 @@
+{
+  "id": "830001_4490028F1086_1_03",
+  "source_file": "830001_4490028F1086_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_4490028F1086_1_03",
+  "extracted_at": "2026-11-09T15:46:33.139Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29653,
+    "output": 2041
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠 2.5mg「YD」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の文字情報に刻印の記載なし。外観図の刻印は判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の円形のフィルムコーティング錠 ／ 直径 約6.1mm ／ 厚さ約2.8mm"
+    },
+    {
+      "product_name": "レボセチリジン塩酸塩錠 5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の文字情報に刻印の記載なし。外観図の刻印は判読できないため未確認",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の楕円形のフィルムコーティング錠 ／ 外形 （長径）約8.1mm （短径）約4.6mm ／ 厚さ 約3.2mm"
+    }
+  ],
+  "expected_products": [
+    "レボセチリジン塩酸塩錠5mg「YD」"
+  ]
+}

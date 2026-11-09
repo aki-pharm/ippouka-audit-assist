@@ -1,0 +1,50 @@
+{
+  "id": "730869_4490027F1219_1_04",
+  "source_file": "730869_4490027F1219_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_4490027F1219_1_04",
+  "extracted_at": "2026-11-09T15:45:59.552Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25245,
+    "output": 1646
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロラタジン錠10mg「VTRS」",
+      "strength": "1錠中 ロラタジン 10.0mg",
+      "imprint_front": "LR10",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ロラタジン錠10mg「VTRS」 LR10 VLE 白色 円形 割線入り 素錠 直径 6.5mm 厚さ 2.3mm 重量 100mg"
+    },
+    {
+      "product_name": "ロラタジンOD錠10mg「VTRS」",
+      "strength": "1錠中 ロラタジン 10.0mg",
+      "imprint_front": "D10",
+      "imprint_back": "LR",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ロラタジンOD錠10mg「VTRS」 D10 LR 白色 円形 素錠 直径 7.0mm 厚さ 3.3mm 重量 150mg"
+    }
+  ],
+  "expected_products": [
+    "ロラタジンOD錠10mg「VTRS」",
+    "ロラタジン錠10mg「VTRS」"
+  ]
+}

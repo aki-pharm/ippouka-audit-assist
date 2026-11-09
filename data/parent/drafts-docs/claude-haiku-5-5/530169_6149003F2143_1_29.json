@@ -1,0 +1,33 @@
+{
+  "id": "530169_6149003F2143_1_29",
+  "source_file": "530169_6149003F2143_1_29.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_6149003F2143_1_29",
+  "extracted_at": "2026-11-09T15:47:14.884Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 36192,
+    "output": 1648
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠200mg「日医工」",
+      "strength": "200mg",
+      "imprint_front": "n 073",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は社名マーク（n）と073の組み合わせを図で確認。本体コードは073。裏面の刻印は文書に記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径（mm） 8.6 厚さ（mm） 5.7 質量（mg） 290 本体コード 073 包装コード 073"
+    }
+  ],
+  "expected_products": [
+    "クラリスロマイシン錠200mg「日医工」"
+  ]
+}

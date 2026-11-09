@@ -1,0 +1,83 @@
+{
+  "id": "400186_4490026F2245_1_07",
+  "source_file": "400186_4490026F2245_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4490026F2245_1_07",
+  "extracted_at": "2026-11-09T15:44:05.090Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27741,
+    "output": 2297
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「タカタ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の文言からは刻印を判読できず、図の表示も未確認",
+      "color": "明るい灰黄色",
+      "shape": "oval",
+      "size_long_mm": 7.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "明るい灰黄色楕円形のフィルムコーティング錠 長径約7.6mm 短径約5.6mm 厚さ約2.9mm"
+    },
+    {
+      "product_name": "モンテルカスト錠10mg「タカタ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の文言からは刻印を判読できず、図の表示も未確認",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "明るい灰黄色円形のフィルムコーティング錠 約8.1mm 約3.8mm"
+    },
+    {
+      "product_name": "モンテルカストOD錠5mg「タカタ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の文言からは刻印を判読できず、図の表示も未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄色円形の裸錠 約7mm 約3.5mm"
+    },
+    {
+      "product_name": "モンテルカストOD錠10mg「タカタ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の文言からは刻印を判読できず、図の表示も未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄色円形の裸錠 約9mm 約4.3mm"
+    }
+  ],
+  "expected_products": [
+    "モンテルカストOD錠10mg「タカタ」",
+    "モンテルカスト錠10mg「タカタ」",
+    "モンテルカスト錠5mg「タカタ」"
+  ]
+}

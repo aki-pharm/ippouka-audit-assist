@@ -1,0 +1,49 @@
+{
+  "id": "460028_4490026F2342_1_06",
+  "source_file": "460028_4490026F2342_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_4490026F2342_1_06",
+  "extracted_at": "2026-11-09T15:45:40.295Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21465,
+    "output": 1999
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "775",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 明るい灰黄色 外形 大きさ 直径 約 6.1mm 厚さ 約 3.1mm"
+    },
+    {
+      "product_name": "モンテルカスト錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "10",
+      "imprint_note": "表面の刻印は図で判読できないため未確認。裏面は図の右側の円内の「10」を記載。",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 明るい灰黄色 外形 大きさ 直径 約 8.1mm 厚さ 約 4.0mm"
+    }
+  ],
+  "expected_products": [
+    "モンテルカスト錠5mg「ツルハラ」"
+  ]
+}

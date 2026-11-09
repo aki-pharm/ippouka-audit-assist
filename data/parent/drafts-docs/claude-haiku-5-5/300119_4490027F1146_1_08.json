@@ -1,0 +1,50 @@
+{
+  "id": "300119_4490027F1146_1_08",
+  "source_file": "300119_4490027F1146_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4490027F1146_1_08",
+  "extracted_at": "2026-11-09T15:46:05.070Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25178,
+    "output": 2072
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロラタジン錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW L21",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色 直径（mm） 6.5 厚さ（mm） 2.6 重量（mg） 約100 識別コード SW L21"
+    },
+    {
+      "product_name": "ロラタジンOD錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW L11",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 白色 直径（mm） 8.0 厚さ（mm） 4.3 重量（mg） 約190 識別コード SW L11"
+    }
+  ],
+  "expected_products": [
+    "ロラタジンOD錠10mg「サワイ」",
+    "ロラタジン錠10mg「サワイ」"
+  ]
+}

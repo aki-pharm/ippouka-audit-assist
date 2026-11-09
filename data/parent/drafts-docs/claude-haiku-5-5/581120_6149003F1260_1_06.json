@@ -1,0 +1,33 @@
+{
+  "id": "581120_6149003F1260_1_06",
+  "source_file": "581120_6149003F1260_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_6149003F1260_1_06",
+  "extracted_at": "2026-11-09T15:47:20.369Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30788,
+    "output": 1806
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠50mg小児用「NIG」",
+      "strength": "1錠中 クラリスロマイシン50mg（力価）",
+      "imprint_front": "t 061",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は性状表の「識別コード（PTP）」欄の記載を転記。裏面の刻印は添付文書に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 6.1mm 厚さ 3.3mm 質量 84mg 識別コード（PTP） t 061"
+    }
+  ],
+  "expected_products": [
+    "クラリスロマイシン錠50mg小児用「NIG」"
+  ]
+}

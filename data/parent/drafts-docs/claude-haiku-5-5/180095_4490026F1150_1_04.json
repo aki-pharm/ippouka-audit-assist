@@ -1,0 +1,33 @@
+{
+  "id": "180095_4490026F1150_1_04",
+  "source_file": "180095_4490026F1150_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_4490026F1150_1_04",
+  "extracted_at": "2026-11-09T15:44:24.105Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21853,
+    "output": 1666
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカストチュアブル錠 5mg「オーハラ」",
+      "strength": "5mg",
+      "imprint_front": "モンテルカスト 5 オーハラ チュアブル",
+      "imprint_back": "モンテルカスト 5 オーハラ チュアブル",
+      "imprint_note": "3.2製剤の性状の識別表示欄の記載による。表裏の別は画像から判断できないため未確認",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤色・素錠 外形 表面 裏面 側面 大きさ 直径：9.7mm 厚さ：4.5mm 質量 300mg 識別表示 モンテルカスト 5 オーハラ チュアブル"
+    }
+  ],
+  "expected_products": [
+    "モンテルカストチュアブル錠5mg「オーハラ」"
+  ]
+}

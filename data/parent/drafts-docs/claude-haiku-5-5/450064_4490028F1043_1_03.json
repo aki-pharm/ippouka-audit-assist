@@ -1,0 +1,33 @@
+{
+  "id": "450064_4490028F1043_1_03",
+  "source_file": "450064_4490028F1043_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_4490028F1043_1_03",
+  "extracted_at": "2026-11-09T15:46:20.809Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27744,
+    "output": 1263
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "レボセチリジン 5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の両面に割線のある楕円形のフィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "レボセチリジン塩酸塩錠5mg「JG」"
+  ]
+}

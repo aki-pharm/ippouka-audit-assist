@@ -1,0 +1,50 @@
+{
+  "id": "790250_6241013F6026_2_08",
+  "source_file": "790250_6241013F6026_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790250_6241013F6026_2_08",
+  "extracted_at": "2026-11-09T15:48:10.271Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32397,
+    "output": 1641
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン粒状錠250mg「モチダ」",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードMO680は分包に表示とあり、錠剤への刻印の記載は確認できない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 3.2,
+      "size_short_mm": 3.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の小型フィルムコーティング錠 外形 直径約3.2mm×厚さ約3.2mm 識別コード MO680（分包に表示）"
+    },
+    {
+      "product_name": "レボフロキサシン粒状錠500mg「モチダ」",
+      "strength": "500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードMO681は分包に表示とあり、錠剤への刻印の記載は確認できない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 3.2,
+      "size_short_mm": 3.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の小型フィルムコーティング錠 外形 直径約3.2mm×厚さ約3.2mm 識別コード MO681（分包に表示）"
+    }
+  ],
+  "expected_products": [
+    "レボフロキサシン粒状錠250mg「モチダ」",
+    "レボフロキサシン粒状錠500mg「モチダ」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "830001_6290005F1121_1_19",
+  "source_file": "830001_6290005F1121_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_6290005F1121_1_19",
+  "extracted_at": "2026-11-09T15:49:11.018Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18148,
+    "output": 1726
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルビナフィン錠125mg「YD」",
+      "strength": "125mg",
+      "imprint_front": "YD 125",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は外形図からの読み取りで、本文に刻印の記載はない。裏面の刻印は図から確認できず未確認。",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～淡黄白色の錠剤 外形 直径 約9mm 厚さ 約3mm 重量 210mg"
+    }
+  ],
+  "expected_products": [
+    "テルビナフィン錠125mg「YD」"
+  ]
+}

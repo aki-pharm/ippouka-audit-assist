@@ -1,0 +1,50 @@
+{
+  "id": "270428_4490026F2210_1_04",
+  "source_file": "270428_4490026F2210_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_4490026F2210_1_04",
+  "extracted_at": "2026-11-09T15:45:09.666Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22991,
+    "output": 2204
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠 5mg「サンド」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に円形の刻印様の表示があるが、文字を確実に判読できないため未確認",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 明るい灰黄色 直径 6.1mm 厚さ 3.4mm 質量 103mg"
+    },
+    {
+      "product_name": "モンテルカスト錠 10mg「サンド」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に円形の刻印様の表示があるが、文字を確実に判読できないため未確認",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 明るい灰黄色 直径 8.1mm 厚さ 4.0mm 質量 205mg"
+    }
+  ],
+  "expected_products": [
+    "モンテルカスト錠10mg「サンド」",
+    "モンテルカスト錠5mg「サンド」"
+  ]
+}

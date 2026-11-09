@@ -1,0 +1,49 @@
+{
+  "id": "450064_6219001H1102_2_01",
+  "source_file": "450064_6219001H1102_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6219001H1102_2_01",
+  "extracted_at": "2026-11-09T15:47:47.186Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18376,
+    "output": 1951
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サラゾスルファピリジン腸溶錠250mg「CH」",
+      "strength": "250mg",
+      "imprint_front": "CHT",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色～黄褐色",
+      "shape": "round",
+      "size_long_mm": 9.7,
+      "size_short_mm": 9.7,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 黄色～黄褐色円形の腸溶性フィルムコーティング錠 外形 大きさ 直径 9.7mm ― 厚さ 5.0mm 5.2mm 識別コード CHT CHL"
+    },
+    {
+      "product_name": "サラゾスルファピリジン腸溶錠500mg「CH」",
+      "strength": "500mg",
+      "imprint_front": "CHL",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色～黄褐色",
+      "shape": "oval",
+      "size_long_mm": 18.3,
+      "size_short_mm": 9.8,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 黄色～黄褐色楕円形の腸溶性フィルムコーティング錠 外形 大きさ 長径 ― 18.3mm 短径 ― 9.8mm 厚さ 5.0mm 5.2mm 識別コード CHT CHL"
+    }
+  ],
+  "expected_products": [
+    "サラゾスルファピリジン腸溶錠250mg「CH」（旧製品：処方変更前、使用期限2026年11月まで）"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "830001_6241013F2330_1_05",
+  "source_file": "830001_6241013F2330_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_6241013F2330_1_05",
+  "extracted_at": "2026-11-09T15:48:26.742Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34690,
+    "output": 1357
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「陽進」",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 12.2,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の楕円形の割線入りフィルムコーティング錠 直径 （長径）約12.2mm （短径）約6.1mm 厚さ 約4.7mm"
+    },
+    {
+      "product_name": "レボフロキサシン錠500mg「陽進」",
+      "strength": "500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "oval",
+      "size_long_mm": 15.2,
+      "size_short_mm": 7.6,
+      "thickness_mm": 6,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色の楕円形の割線入りフィルムコーティング錠 直径 （長径）約15.2mm （短径）約7.6mm 厚さ 約6.0mm"
+    }
+  ],
+  "expected_products": [
+    "レボフロキサシン錠500mg「陽進」"
+  ]
+}

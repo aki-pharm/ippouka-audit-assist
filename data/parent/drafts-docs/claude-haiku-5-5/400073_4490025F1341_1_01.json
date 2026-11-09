@@ -1,0 +1,50 @@
+{
+  "id": "400073_4490025F1341_1_01",
+  "source_file": "400073_4490025F1341_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_4490025F1341_1_01",
+  "extracted_at": "2026-11-09T15:43:49.350Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21266,
+    "output": 2110
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「ダイト」",
+      "strength": "2.5mg",
+      "imprint_front": "DK509",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡黄赤色のフィルムコーティング錠 外形 直径 6.6mm 厚さ 3.2mm 質量 103mg 識別コード DK509"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「ダイト」",
+      "strength": "5mg",
+      "imprint_front": "DK510",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は割線のみで刻印の記載なし",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年6月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄赤色のフィルムコーティング錠（割線入り） 直径 7.1mm 厚さ 3.0mm 質量 124mg 識別コード DK510"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「ダイト」",
+    "オロパタジン塩酸塩錠5mg「ダイト」"
+  ]
+}

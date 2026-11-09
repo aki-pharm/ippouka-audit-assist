@@ -1,0 +1,33 @@
+{
+  "id": "300119_6132005M1270_1_03",
+  "source_file": "300119_6132005M1270_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6132005M1270_1_03",
+  "extracted_at": "2026-11-09T15:46:54.173Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13215,
+    "output": 1535
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セファクロルカプセル250mg「SW」",
+      "strength": "250mg（力価）",
+      "imprint_front": "セファクロル 250mg サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": "外形欄の表示をそのまま記載。どの面（頭部・胴部）に印字されるかは文書から確認できない",
+      "color": "頭部：青色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "外形 セファクロル 250mg サワイ 2号 剤形 硬カプセル剤 性状 頭部：青色不透明 胴部：白色不透明 内容物：白色～黄白色の粒を含む粉末 全長（mm） 17.8 重量（mg） 約358"
+    }
+  ],
+  "expected_products": [
+    "セファクロルカプセル250mg「SW」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "800155_6429005F1026_1_09",
+  "source_file": "800155_6429005F1026_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800155_6429005F1026_1_09",
+  "extracted_at": "2026-11-09T15:49:29.270Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9107,
+    "output": 1545
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メベンダゾール錠100",
+      "strength": "1錠中メベンダゾール100mg",
+      "imprint_front": "Me 100",
+      "imprint_back": "なし",
+      "imprint_note": "裏面は社名マーク（JANSSEN）のみ",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡橙色素錠 / 大きさ 直径（mm） 厚さ（mm） 重量（g） 10 3.2 0.3 / 識別コード Me 100（錠剤表面）"
+    }
+  ],
+  "expected_products": [
+    "メベンダゾール錠100"
+  ]
+}

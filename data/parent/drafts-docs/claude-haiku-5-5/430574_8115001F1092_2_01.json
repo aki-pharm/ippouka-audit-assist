@@ -1,0 +1,33 @@
+{
+  "id": "430574_8115001F1092_2_01",
+  "source_file": "430574_8115001F1092_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430574_8115001F1092_2_01",
+  "extracted_at": "2026-11-09T15:49:40.498Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12589,
+    "output": 2552
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コデインリン酸塩錠20mg「第一三共」",
+      "strength": "20mg",
+      "imprint_front": "SANKYO 815",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "コデインリン酸塩錠20mg「第一三共」 素錠 白色～帯黄白色 外形 直径(mm) 5.0 厚さ(mm) 約2.5 重さ(mg) 約60 識別コード SANKYO 815"
+    }
+  ],
+  "expected_products": [
+    "コデインリン酸塩錠20mg「第一三共」"
+  ]
+}

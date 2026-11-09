@@ -1,0 +1,50 @@
+{
+  "id": "300119_6132013F1038_1_11",
+  "source_file": "300119_6132013F1038_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6132013F1038_1_11",
+  "extracted_at": "2026-11-09T15:46:54.350Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15816,
+    "output": 1518
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフジニル錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "サワイ セフジニル 50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 淡赤色 直径（mm） 6.1 厚さ（mm） 3.5 本体表示 サワイ セフジニル 50"
+    },
+    {
+      "product_name": "セフジニル錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "サワイ セフジニル 100",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 淡赤色 直径（mm） 7.1 厚さ（mm） 3.6 本体表示 サワイ セフジニル 100"
+    }
+  ],
+  "expected_products": [
+    "セフジニル錠100mg「サワイ」",
+    "セフジニル錠50mg「サワイ」"
+  ]
+}

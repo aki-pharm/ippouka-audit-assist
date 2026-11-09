@@ -1,0 +1,33 @@
+{
+  "id": "300089_6290007M1022_1_08",
+  "source_file": "300089_6290007M1022_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300089_6290007M1022_1_08",
+  "extracted_at": "2026-11-09T15:49:19.950Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18369,
+    "output": 1299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ネイリンカプセル100mg",
+      "strength": "ラブコナゾールとして100mg",
+      "imprint_front": "SATO 18",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "キャップ部は赤色及びボディ部は黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.6,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 キャップ部は赤色及びボディ部は黄色の3号硬カプセル 外形・大きさ 長さ15.6mm 直径5.8mm 識別コード SATO 18（カプセル、PTPシートに表示）"
+    }
+  ],
+  "expected_products": [
+    "ネイリンカプセル100mgの注意を要する副作用とその対策－肝機能障害－"
+  ]
+}

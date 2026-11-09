@@ -1,0 +1,50 @@
+{
+  "id": "400186_4490025F1210_1_08",
+  "source_file": "400186_4490025F1210_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4490025F1210_1_08",
+  "extracted_at": "2026-11-09T15:43:40.261Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12785,
+    "output": 2059
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「タカタ」",
+      "strength": "2.5mg",
+      "imprint_front": "TTS 555",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄赤色のフィルムコーティング錠（表面 TTS 555、裏面 2.5、直径約6.1mm、重さ約0.079g、厚さ約2.7mm、識別コード TTS-555）"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「タカタ」",
+      "strength": "5mg",
+      "imprint_front": "TTS 556",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄赤色のフィルムコーティング錠（表面 TTS 556、裏面 5、直径約7.1mm、重さ約0.120g、厚さ約2.9mm、識別コード TTS-556）"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「タカタ」",
+    "オロパタジン塩酸塩錠5mg「タカタ」"
+  ]
+}

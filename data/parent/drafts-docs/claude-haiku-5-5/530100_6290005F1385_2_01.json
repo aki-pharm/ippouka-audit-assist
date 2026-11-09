@@ -1,0 +1,33 @@
+{
+  "id": "530100_6290005F1385_2_01",
+  "source_file": "530100_6290005F1385_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_6290005F1385_2_01",
+  "extracted_at": "2026-11-09T15:49:19.294Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20297,
+    "output": 1049
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルビナフィン錠 125mg「ニプロ」",
+      "strength": "125mg",
+      "imprint_front": "TG133",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色〜淡黄白色の割線入り素錠 直径（mm）9.1 厚さ（mm）3.7 重量（mg）210 識別コード TG133"
+    }
+  ],
+  "expected_products": [
+    "テルビナフィン錠125mg「ニプロ」"
+  ]
+}

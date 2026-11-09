@@ -1,0 +1,49 @@
+{
+  "id": "400022_6241010F1020_2_08",
+  "source_file": "400022_6241010F1020_2_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400022_6241010F1020_2_08",
+  "extracted_at": "2026-11-09T15:48:04.927Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20052,
+    "output": 2184
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オゼックス錠75",
+      "strength": "1錠中 75.0mg（トスフロキサシンとして51mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表の外形図の刻印は判読できない。識別コード（PTP）欄には図示のみ（OZX）で、刻印の文字としての記載はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 大きさ（mm） 直径：7.6、厚さ：3.8"
+    },
+    {
+      "product_name": "オゼックス錠150",
+      "strength": "1錠中 150.0mg（トスフロキサシンとして102mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表の外形図の刻印は判読できない。識別コード（PTP）欄は「―」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 大きさ（mm） 直径：8.6、厚さ：4.7"
+    }
+  ],
+  "expected_products": [
+    "オゼックス錠75"
+  ]
+}

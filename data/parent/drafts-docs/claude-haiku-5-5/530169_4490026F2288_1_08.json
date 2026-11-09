@@ -1,0 +1,50 @@
+{
+  "id": "530169_4490026F2288_1_08",
+  "source_file": "530169_4490026F2288_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_4490026F2288_1_08",
+  "extracted_at": "2026-11-09T15:45:17.766Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21412,
+    "output": 1910
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "モンテルカスト 5 日医工",
+      "imprint_back": "モンテルカスト 5 日医工",
+      "imprint_note": null,
+      "color": "明るい灰黄色",
+      "shape": "oval",
+      "size_long_mm": 7.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形：楕円形のフィルムコーティング錠／色調：明るい灰黄色／外形 直径（mm）7.6×5.6／厚さ（mm）2.8／本体表示：モンテルカスト 5 日医工"
+    },
+    {
+      "product_name": "モンテルカスト錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "モンテルカスト 10 日医工",
+      "imprint_back": "モンテルカスト 10 日医工",
+      "imprint_note": null,
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形：円形のフィルムコーティング錠／色調：明るい灰黄色／外形 直径（mm）8.0／厚さ（mm）4.1／本体表示：モンテルカスト 10 日医工"
+    }
+  ],
+  "expected_products": [
+    "モンテルカスト錠10mg「日医工」",
+    "モンテルカスト錠5mg「日医工」"
+  ]
+}

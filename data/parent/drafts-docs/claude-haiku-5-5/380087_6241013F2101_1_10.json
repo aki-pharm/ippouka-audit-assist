@@ -1,0 +1,49 @@
+{
+  "id": "380087_6241013F2101_1_10",
+  "source_file": "380087_6241013F2101_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_6241013F2101_1_10",
+  "extracted_at": "2026-11-09T15:48:18.634Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33816,
+    "output": 2625
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「ZE」",
+      "strength": "250mg",
+      "imprint_front": "レボフロキサシン ZE 250",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2の「本体表示」欄の記載。表裏の区別は未確認",
+      "color": "黄色",
+      "shape": "oblong",
+      "size_long_mm": 13.7,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "色調 黄色 剤形 フィルムコーティング錠（割線入り） 外形 錠径（mm） 13.7/6.6 厚み（mm） 4.1 本体表示 レボフロキサシン ZE 250"
+    },
+    {
+      "product_name": "レボフロキサシン錠500mg「ZE」",
+      "strength": "500mg",
+      "imprint_front": "レボフロキサシン ZE 500",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2の「本体表示」欄の記載。表裏の区別は未確認",
+      "color": "うすいだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 16.2,
+      "size_short_mm": 8,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "色調 うすいだいだい色 剤形 フィルムコーティング錠（割線入り） 外形 錠径（mm） 16.2/8.0 厚み（mm） 5.7 本体表示 レボフロキサシン ZE 500"
+    }
+  ],
+  "expected_products": [
+    "レボフロキサシン錠500mg「ZE」"
+  ]
+}

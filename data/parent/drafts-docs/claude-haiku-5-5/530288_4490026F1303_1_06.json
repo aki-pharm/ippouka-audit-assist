@@ -1,0 +1,33 @@
+{
+  "id": "530288_4490026F1303_1_06",
+  "source_file": "530288_4490026F1303_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530288_4490026F1303_1_06",
+  "extracted_at": "2026-11-09T15:44:49.876Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28134,
+    "output": 1248
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカストチュアブル錠5mg「日本臓器」",
+      "strength": "5mg",
+      "imprint_front": "Z132",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は外形図に刻印の記載がなく、明記もないため未確認",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調・性状 うすい赤色の円形の小型素錠（小型チュアブル錠） 識別コード Z132 9.0mm 3.7mm"
+    }
+  ],
+  "expected_products": [
+    "モンテルカストチュアブル錠5mg「日本臓器」"
+  ]
+}

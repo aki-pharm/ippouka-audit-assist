@@ -1,0 +1,49 @@
+{
+  "id": "480209_6241013F2160_1_13",
+  "source_file": "480209_6241013F2160_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_6241013F2160_1_13",
+  "extracted_at": "2026-11-09T15:48:30.456Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33071,
+    "output": 2340
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「杏林」",
+      "strength": "250mg",
+      "imprint_front": "レボフロキサシン 250 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 12.2,
+      "size_short_mm": 6.1,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り 楕円形 フィルムコーティング錠 色調 黄色 本体表示 レボフロキサシン 250 杏林 直径(mm) 長径：12.2 短径：6.1 厚さ(mm) 4.7"
+    },
+    {
+      "product_name": "レボフロキサシン錠500mg「杏林」",
+      "strength": "500mg",
+      "imprint_front": "レボフロキサシン 500 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "oval",
+      "size_long_mm": 15.2,
+      "size_short_mm": 7.6,
+      "thickness_mm": 6,
+      "score_line": true,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り 楕円形 フィルムコーティング錠 色調 うすいだいだい色 本体表示 レボフロキサシン 500 杏林 直径(mm) 長径：15.2 短径：7.6 厚さ(mm) 6.0"
+    }
+  ],
+  "expected_products": [
+    "レボフロキサシン錠500mg「杏林」"
+  ]
+}

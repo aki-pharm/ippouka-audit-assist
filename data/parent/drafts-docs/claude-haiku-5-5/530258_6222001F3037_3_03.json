@@ -1,0 +1,33 @@
+{
+  "id": "530258_6222001F3037_3_03",
+  "source_file": "530258_6222001F3037_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_6222001F3037_3_03",
+  "extracted_at": "2026-11-09T15:47:52.589Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13700,
+    "output": 1085
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イスコチン錠100mg",
+      "strength": "100mg",
+      "imprint_front": "NF702",
+      "imprint_back": "未確認",
+      "imprint_note": "割線あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.8,
+      "size_short_mm": 8.8,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "イスコチン錠100mg 白色・素錠（割線入） NF702 直径8.8 厚さ3.4 質量200"
+    }
+  ],
+  "expected_products": [
+    "イスコチン錠100mg"
+  ]
+}
