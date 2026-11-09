@@ -1,0 +1,50 @@
+{
+  "id": "370242_3962002F2124_1_06",
+  "source_file": "370242_3962002F2124_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370242_3962002F2124_1_06",
+  "extracted_at": "2026-11-09T15:28:39.802Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30799,
+    "output": 2509
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトホルミン塩酸塩錠250mg MT「DSPB」",
+      "strength": "250mg",
+      "imprint_front": "DS271",
+      "imprint_back": "250",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りのフィルムコート錠 / 外形 直径（mm）約9.1 厚さ（mm）約4.1 / 識別コード DS271"
+    },
+    {
+      "product_name": "メトホルミン塩酸塩錠500mg MT「DSPB」",
+      "strength": "500mg",
+      "imprint_front": "DS272",
+      "imprint_back": "500",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": 7.3,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りのフィルムコート錠 / 外形 長径（mm）約15.8 短径（mm）約7.3 厚さ（mm）約5.7 / 識別コード DS272"
+    }
+  ],
+  "expected_products": [
+    "メトホルミン塩酸塩錠250mgMT「DSPB」",
+    "メトホルミン塩酸塩錠500mgMT「DSPB」"
+  ]
+}

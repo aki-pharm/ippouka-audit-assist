@@ -1,0 +1,50 @@
+{
+  "id": "430773_3962002F2035_1_10",
+  "source_file": "430773_3962002F2035_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3962002F2035_1_10",
+  "extracted_at": "2026-11-09T15:28:32.000Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29280,
+    "output": 2661
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトホルミン塩酸塩錠250mgMT「DSEP」",
+      "strength": "1錠中 メトホルミン塩酸塩（日局）250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表中の図から刻印を判読できず、本文に刻印の記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（割線入） 色 白色～帯黄白色 外形 大きさ（mm） 9.1 厚さ（mm） 4.3 重さ（mg） 282"
+    },
+    {
+      "product_name": "メトホルミン塩酸塩錠500mgMT「DSEP」",
+      "strength": "1錠中 メトホルミン塩酸塩（日局）500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表中の図から刻印を判読できず、本文に刻印の記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 16.1,
+      "size_short_mm": 7.6,
+      "thickness_mm": 5.4,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠（割線入） 色 白色～帯黄白色 外形 大きさ（mm） 16.1（長径） 7.6（短径） 厚さ（mm） 5.4 重さ（mg） 561"
+    }
+  ],
+  "expected_products": [
+    "メトホルミン塩酸塩錠250mgMT「DSEP」",
+    "メトホルミン塩酸塩錠500mgMT「DSEP」"
+  ]
+}
