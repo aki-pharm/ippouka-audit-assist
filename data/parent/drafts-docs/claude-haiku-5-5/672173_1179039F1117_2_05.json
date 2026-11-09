@@ -1,0 +1,67 @@
+{
+  "id": "672173_1179039F1117_2_05",
+  "source_file": "672173_1179039F1117_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179039F1117_2_05",
+  "extracted_at": "2026-11-09T14:09:06.804Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33131,
+    "output": 2232
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠 25mg「アメル」",
+      "strength": "25mg",
+      "imprint_front": "KW F",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 黄色 直径：約 5.1mm 厚さ：約 2.4mm 質量：約 47.0mg 識別コード KW F"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠 50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "KW F50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 黄色 直径：約 6.1mm 厚さ：約 3.1mm 質量：約 92.9mg 識別コード KW F50"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠 75mg「アメル」",
+      "strength": "75mg",
+      "imprint_front": "KW F75",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 黄色 直径：約 7.1mm 厚さ：約 3.4mm 質量：約 138.0mg 識別コード KW F75"
+    }
+  ],
+  "expected_products": [
+    "フルボキサミンマレイン酸塩錠25mg「アメル」",
+    "フルボキサミンマレイン酸塩錠50mg「アメル」",
+    "フルボキサミンマレイン酸塩錠75mg「アメル」"
+  ]
+}

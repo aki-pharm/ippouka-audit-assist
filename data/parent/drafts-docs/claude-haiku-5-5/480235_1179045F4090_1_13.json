@@ -1,0 +1,84 @@
+{
+  "id": "480235_1179045F4090_1_13",
+  "source_file": "480235_1179045F4090_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179045F4090_1_13",
+  "extracted_at": "2026-11-09T14:13:53.976Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 44730,
+    "output": 2232
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾールOD錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "アリピ 3",
+      "imprint_back": "アリピプラゾール 3 OD トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの口腔内崩壊錠"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠6mg「トーワ」",
+      "strength": "6mg",
+      "imprint_front": "アリピ 6",
+      "imprint_back": "アリピプラゾール 6 OD トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの口腔内崩壊錠"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠12mg「トーワ」",
+      "strength": "12mg",
+      "imprint_front": "アリピ 12",
+      "imprint_back": "アリピプラゾール 12 OD トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの口腔内崩壊錠"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠24mg「トーワ」",
+      "strength": "24mg",
+      "imprint_front": "アリピ 24",
+      "imprint_back": "アリピプラゾール 24 OD トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの口腔内崩壊錠"
+    }
+  ],
+  "expected_products": [
+    "アリピプラゾールOD錠12mg「トーワ」",
+    "アリピプラゾールOD錠24mg「トーワ」",
+    "アリピプラゾールOD錠3mg「トーワ」",
+    "アリピプラゾールOD錠6mg「トーワ」"
+  ]
+}

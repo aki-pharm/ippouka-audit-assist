@@ -1,0 +1,65 @@
+{
+  "id": "730869_1179042F1216_1_09",
+  "source_file": "730869_1179042F1216_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_1179042F1216_1_09",
+  "extracted_at": "2026-11-09T14:11:36.451Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26020,
+    "output": 2224
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠25mg「VTRS」",
+      "strength": "25mg",
+      "imprint_front": "25 QU",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "薄い黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "販売名 クエチアピン錠25mg「VTRS」 外形 上面 25 QU、下面 VLE、直径 6.1mm 厚さ 3.2mm 識別コード 25 QU VLE 色調等 薄い黄みの赤色 フィルムコーティング錠"
+    },
+    {
+      "product_name": "クエチアピン錠100mg「VTRS」",
+      "strength": "100mg",
+      "imprint_front": "100 QU",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "薄い黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "販売名 クエチアピン錠100mg「VTRS」 外形 上面 100 QU、下面 VLE、直径 8.1mm 厚さ 4.1mm 識別コード 100 QU VLE 色調等 薄い黄色 フィルムコーティング錠"
+    },
+    {
+      "product_name": "クエチアピン錠200mg「VTRS」",
+      "strength": "200mg",
+      "imprint_front": "200 QU",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "販売名 クエチアピン錠200mg「VTRS」 外形 上面 200 QU、下面 VLE、直径 10.1mm 厚さ 5.3mm 識別コード 200 QU VLE 色調等 白色 フィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "クエチアピン錠25mg「VTRS」"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "530100_1179038C1051_5_16",
+  "source_file": "530100_1179038C1051_5_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179038C1051_5_16",
+  "extracted_at": "2026-11-09T14:08:26.169Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37472,
+    "output": 4789
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドン錠 0.5mg「NP」",
+      "strength": "0.5mg",
+      "imprint_front": "NP‐351",
+      "imprint_back": "0.5",
+      "imprint_note": "中央の刻印は図から判読（表裏の明記なし）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "リスペリドン錠 0.5mg「NP」 白色のフィルムコーティング錠 6.0 2.7 80 NP‐351"
+    },
+    {
+      "product_name": "リスペリドン錠 1mg「NP」",
+      "strength": "1mg",
+      "imprint_front": "NP‐352",
+      "imprint_back": "1",
+      "imprint_note": "中央の刻印は図から判読（表裏の明記なし）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "リスペリドン錠 1mg「NP」 白色の割線入りフィルムコーティング錠 6.5 3.0 100 NP‐352"
+    },
+    {
+      "product_name": "リスペリドン錠 2mg「NP」",
+      "strength": "2mg",
+      "imprint_front": "NP‐353",
+      "imprint_back": "2",
+      "imprint_note": "中央の刻印は図から判読（表裏の明記なし）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.7,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "リスペリドン錠 2mg「NP」 白色のフィルムコーティング錠 7.0 3.7 130 NP‐353"
+    },
+    {
+      "product_name": "リスペリドン錠 3mg「NP」",
+      "strength": "3mg",
+      "imprint_front": "NP‐155",
+      "imprint_back": "3",
+      "imprint_note": "中央の刻印は図から判読（表裏の明記なし）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "リスペリドン錠 3mg「NP」 白色のフィルムコーティング錠 8.1 4.0 200 NP‐155"
+    }
+  ],
+  "expected_products": [
+    "リスペリドン錠0.5mg「NP」",
+    "リスペリドン錠1mg「NP」",
+    "リスペリドン錠2mg「NP」"
+  ]
+}

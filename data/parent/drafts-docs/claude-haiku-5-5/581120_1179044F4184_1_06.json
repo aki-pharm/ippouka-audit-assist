@@ -1,0 +1,67 @@
+{
+  "id": "581120_1179044F4184_1_06",
+  "source_file": "581120_1179044F4184_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1179044F4184_1_06",
+  "extracted_at": "2026-11-09T14:12:16.417Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 38315,
+    "output": 3562
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピンOD錠2.5mg「NIG」",
+      "strength": "2.5mg",
+      "imprint_front": "TV O1",
+      "imprint_back": "2.5",
+      "imprint_note": "裏面の規格数字は外形図より判読。表裏の別は図の配置による",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の片面1/2割線入り口腔内崩壊錠 ／ 直径 6.5mm 厚さ 2.8mm ／ 識別コード TV O1"
+    },
+    {
+      "product_name": "オランザピンOD錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "TV O2",
+      "imprint_back": "5",
+      "imprint_note": "裏面の規格数字は外形図より判読。表裏の別は図の配置による",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の片面十字割線入り口腔内崩壊錠 ／ 直径 8.0mm 厚さ 3.6mm ／ 識別コード TV O2"
+    },
+    {
+      "product_name": "オランザピンOD錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "TV O3",
+      "imprint_back": "10",
+      "imprint_note": "裏面の規格数字は外形図より判読。表裏の別は図の配置による",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の片面1/2割線入り口腔内崩壊錠 ／ 直径 10.0mm 厚さ 4.5mm ／ 識別コード TV O3"
+    }
+  ],
+  "expected_products": [
+    "オランザピンOD錠10mg「NIG」",
+    "オランザピンOD錠2.5mg「NIG」",
+    "オランザピンOD錠5mg「NIG」"
+  ]
+}

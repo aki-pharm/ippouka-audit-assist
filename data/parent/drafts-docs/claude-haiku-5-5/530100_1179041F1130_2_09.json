@@ -1,0 +1,67 @@
+{
+  "id": "530100_1179041F1130_2_09",
+  "source_file": "530100_1179041F1130_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179041F1130_2_09",
+  "extracted_at": "2026-11-09T14:09:53.659Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37990,
+    "output": 3373
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-257。図示はNPマークと識別コード「257」、規格数字「5」で、表裏の別は文書から確認できない",
+      "color": "黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "黄白色のフィルムコーティング錠 6.6 3.5 152 NP-257"
+    },
+    {
+      "product_name": "パロキセチン錠10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-271。図示はNPマークと識別コード「271」、規格数字「10」で、表裏の別は文書から確認できない",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "帯紅白色のフィルムコーティング錠 6.6 3.5 152 NP-271"
+    },
+    {
+      "product_name": "パロキセチン錠20mg「NP」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-272。図示はNPマークと識別コード「272」、規格数字「20」で、表裏の別は文書から確認できない",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "帯紅白色のフィルムコーティング錠 8.1 4.1 253 NP-272"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠10mg「NP」",
+    "パロキセチン錠20mg「NP」",
+    "パロキセチン錠5mg「NP」"
+  ]
+}

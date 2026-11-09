@@ -1,0 +1,82 @@
+{
+  "id": "480235_1139009F1048_1_14",
+  "source_file": "480235_1139009F1048_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1139009F1048_1_14",
+  "extracted_at": "2026-11-09T14:00:27.877Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 55223,
+    "output": 2838
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラモトリギン錠小児用2mg「トーワ」",
+      "strength": "2mg",
+      "imprint_front": "ラモトリ 2",
+      "imprint_back": "ラモトリギン トーワ 2",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄白色の割線入りの素錠 / 直径(mm) 5.0 / 厚さ(mm) 2.0"
+    },
+    {
+      "product_name": "ラモトリギン錠小児用5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "ラモトリ 5",
+      "imprint_back": "ラモトリギン 5 トーワ",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "oval",
+      "size_long_mm": 8,
+      "size_short_mm": 4,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色の楕円形の割線入りの素錠 / 直径(mm) 8.0／4.0（長径／短径） / 厚さ(mm) 2.6"
+    },
+    {
+      "product_name": "ラモトリギン錠25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "ラモトリ 25",
+      "imprint_back": "ラモトリギン トーワ 25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 / 直径(mm) 6.0 / 厚さ(mm) 2.8"
+    },
+    {
+      "product_name": "ラモトリギン錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "ラモトリ 100",
+      "imprint_back": "ラモトリギン トーワ 100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 / 直径(mm) 8.5 / 厚さ(mm) 4.2"
+    }
+  ],
+  "expected_products": [
+    "ラモトリギン錠小児用2mg「トーワ」",
+    "ラモトリギン錠小児用5mg「トーワ」"
+  ]
+}

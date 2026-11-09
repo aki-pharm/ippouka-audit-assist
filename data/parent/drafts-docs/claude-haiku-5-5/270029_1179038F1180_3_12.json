@@ -1,0 +1,84 @@
+{
+  "id": "270029_1179038F1180_3_12",
+  "source_file": "270029_1179038F1180_3_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_1179038F1180_3_12",
+  "extracted_at": "2026-11-09T14:08:27.837Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29229,
+    "output": 3015
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドン錠0.5mg「クニヒロ」",
+      "strength": "0.5mg",
+      "imprint_front": "KS121",
+      "imprint_back": "05",
+      "imprint_note": "表面に社名マーク（KSK）を含む",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 外形 直径 6.0mm 厚さ 2.7mm 重量 80mg 識別コード KS121"
+    },
+    {
+      "product_name": "リスペリドン錠1mg「クニヒロ」",
+      "strength": "1mg",
+      "imprint_front": "KS122",
+      "imprint_back": "1",
+      "imprint_note": "表面に社名マーク（KSK）を含む",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 外形 直径 6.5mm 厚さ 2.9mm 重量 100mg 識別コード KS122"
+    },
+    {
+      "product_name": "リスペリドン錠2mg「クニヒロ」",
+      "strength": "2mg",
+      "imprint_front": "KS123",
+      "imprint_back": "2",
+      "imprint_note": "表面に社名マーク（KSK）を含む",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 外形 直径 7.0mm 厚さ 3.1mm 重量 130mg 識別コード KS123"
+    },
+    {
+      "product_name": "リスペリドン錠3mg「クニヒロ」",
+      "strength": "3mg",
+      "imprint_front": "KS125",
+      "imprint_back": "3",
+      "imprint_note": "表面に社名マーク（KSK）を含む",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": false,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 外形 直径 8.0mm 厚さ 3.9mm 重量 200mg 識別コード KS125"
+    }
+  ],
+  "expected_products": [
+    "リスペリドン錠0.5mg「クニヒロ」",
+    "リスペリドン錠1mg「クニヒロ」",
+    "リスペリドン錠2mg「クニヒロ」",
+    "リスペリドン錠3mg「クニヒロ」"
+  ]
+}

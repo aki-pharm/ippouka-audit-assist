@@ -1,0 +1,33 @@
+{
+  "id": "460028_1179020C1272_1_15",
+  "source_file": "460028_1179020C1272_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1179020C1272_1_15",
+  "extracted_at": "2026-11-09T14:06:28.793Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17522,
+    "output": 1214
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハロペリドール錠1.5mg「ツルハラ」",
+      "strength": "1.5mg",
+      "imprint_front": "TSU569",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入り裸錠 色調 白色 大きさ 直径 約7.0mm 厚さ 約3.1mm 識別コード TSU569"
+    }
+  ],
+  "expected_products": [
+    "ハロペリドール錠1.5mg「ツルハラ」"
+  ]
+}

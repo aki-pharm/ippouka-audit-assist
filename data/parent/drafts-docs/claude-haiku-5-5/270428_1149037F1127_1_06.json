@@ -1,0 +1,50 @@
+{
+  "id": "270428_1149037F1127_1_06",
+  "source_file": "270428_1149037F1127_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1149037F1127_1_06",
+  "extracted_at": "2026-11-09T14:03:21.945Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 38767,
+    "output": 2264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「サンド」",
+      "strength": "100mg",
+      "imprint_front": "100",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの円形の素錠 色調 白色 外形 直径 8.0mm 厚さ 2.8mm 質量 180mg"
+    },
+    {
+      "product_name": "セレコキシブ錠200mg「サンド」",
+      "strength": "200mg",
+      "imprint_front": "セレコキシブ 200",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.4,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの楕円形の素錠 色調 白色 外形 長径 13.1mm 短径 6.6mm 厚さ 5.4mm 質量 360mg"
+    }
+  ],
+  "expected_products": [
+    "セレコキシブ錠100mg「サンド」",
+    "セレコキシブ錠200mg「サンド」"
+  ]
+}

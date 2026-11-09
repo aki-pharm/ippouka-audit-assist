@@ -1,0 +1,50 @@
+{
+  "id": "430773_1149037F1038_1_07",
+  "source_file": "430773_1149037F1038_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1149037F1038_1_07",
+  "extracted_at": "2026-11-09T14:03:04.362Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37719,
+    "output": 2398
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「DSEP」",
+      "strength": "1錠中セレコキシブ100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に刻印らしき表示があるが、本文テキストとして判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "素錠（割線入）白色 8.1（直径） 2.7 180"
+    },
+    {
+      "product_name": "セレコキシブ錠200mg「DSEP」",
+      "strength": "1錠中セレコキシブ200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に刻印らしき表示があるが、本文テキストとして判読できないため未確認",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "素錠（割線入）白色 13.1（長径） 6.6（短径） 5.2 360"
+    }
+  ],
+  "expected_products": [
+    "セレコキシブ錠100mg「DSEP」",
+    "セレコキシブ錠200mg「DSEP」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "460028_1179041F1157_1_11",
+  "source_file": "460028_1179041F1157_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1179041F1157_1_11",
+  "extracted_at": "2026-11-09T14:09:54.518Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33851,
+    "output": 2108
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「TSU」",
+      "strength": "5mg",
+      "imprint_front": "20P",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "色調 帯紅白色 外形 大きさ 直径 約5.6mm 厚さ 約2.7mm 識別コード 20P"
+    },
+    {
+      "product_name": "パロキセチン錠10mg「TSU」",
+      "strength": "10mg",
+      "imprint_front": "21P",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "色調 帯紅白色 外形 大きさ 直径 約6.1mm 厚さ 約2.9mm 識別コード 21P"
+    },
+    {
+      "product_name": "パロキセチン錠20mg「TSU」",
+      "strength": "20mg",
+      "imprint_front": "22P",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "色調 帯紅白色 外形 大きさ 直径 約7.6mm 厚さ 約3.5mm 識別コード 22P"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠10mg「TSU」",
+    "パロキセチン錠20mg「TSU」",
+    "パロキセチン錠5mg「TSU」"
+  ]
+}

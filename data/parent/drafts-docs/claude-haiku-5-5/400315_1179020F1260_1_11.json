@@ -1,0 +1,84 @@
+{
+  "id": "400315_1179020F1260_1_11",
+  "source_file": "400315_1179020F1260_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1179020F1260_1_11",
+  "extracted_at": "2026-11-09T14:06:34.444Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16560,
+    "output": 3324
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハロペリドール錠0.75mg「ヨシトミ」",
+      "strength": "0.75mg",
+      "imprint_front": "Y-LT0.75",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の別が明記されていないため表欄に記載。裏面の刻印は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・素錠（割線入り） 外形 直径6.5mm 厚さ2.2mm 重量100mg 識別コード Y-LT0.75"
+    },
+    {
+      "product_name": "ハロペリドール錠1.5mg「ヨシトミ」",
+      "strength": "1.5mg",
+      "imprint_front": "Y-LT1.5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の別が明記されていないため表欄に記載。裏面の刻印は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・素錠（割線入り） 外形 直径8.1mm 厚さ2.4mm 重量160mg 識別コード Y-LT1.5"
+    },
+    {
+      "product_name": "ハロペリドール錠2mg「ヨシトミ」",
+      "strength": "2mg",
+      "imprint_front": "Y-LT2",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の別が明記されていないため表欄に記載。裏面の刻印は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・素錠（割線入り） 外形 直径8.1mm 厚さ2.4mm 重量160mg 識別コード Y-LT2"
+    },
+    {
+      "product_name": "ハロペリドール錠3mg「ヨシトミ」",
+      "strength": "3mg",
+      "imprint_front": "Y-LT3",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表裏の別が明記されていないため表欄に記載。裏面の刻印は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・素錠（割線入り） 外形 直径8.1mm 厚さ2.4mm 重量160mg 識別コード Y-LT3"
+    }
+  ],
+  "expected_products": [
+    "ハロペリドール錠0.75mg「ヨシトミ」",
+    "ハロペリドール錠1.5mg「ヨシトミ」",
+    "ハロペリドール錠2mg「ヨシトミ」",
+    "ハロペリドール錠3mg「ヨシトミ」"
+  ]
+}

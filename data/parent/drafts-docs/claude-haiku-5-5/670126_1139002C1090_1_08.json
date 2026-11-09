@@ -1,0 +1,66 @@
+{
+  "id": "670126_1139002C1090_1_08",
+  "source_file": "670126_1139002C1090_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670126_1139002C1090_1_08",
+  "extracted_at": "2026-11-09T13:59:31.378Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 38414,
+    "output": 2886
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルバマゼピン錠100mg「フジナガ」",
+      "strength": "100mg",
+      "imprint_front": "L100",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "カルバマゼピン錠100mg「フジナガ」 素錠 白色 L100 8.0 3.1 140"
+    },
+    {
+      "product_name": "カルバマゼピン錠200mg「フジナガ」",
+      "strength": "200mg",
+      "imprint_front": "L200",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "カルバマゼピン錠200mg「フジナガ」 素錠 白色 L200 9.0 4.0 280"
+    },
+    {
+      "product_name": "カルバマゼピン細粒50％「フジナガ」",
+      "strength": "50％（1g中カルバマゼピン500mg）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「－」の記載のみ",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "カルバマゼピン細粒50％「フジナガ」 細粒 白色 － － － －"
+    }
+  ],
+  "expected_products": [
+    "カルバマゼピン錠100mg「フジナガ」",
+    "カルバマゼピン錠200mg「フジナガ」"
+  ]
+}

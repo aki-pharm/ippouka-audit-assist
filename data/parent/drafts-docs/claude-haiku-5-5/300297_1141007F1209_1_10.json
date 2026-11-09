@@ -1,0 +1,33 @@
+{
+  "id": "300297_1141007F1209_1_10",
+  "source_file": "300297_1141007F1209_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_1141007F1209_1_10",
+  "extracted_at": "2026-11-09T14:00:55.557Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18076,
+    "output": 1598
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アセトアミノフェン錠200mg「三和」",
+      "strength": "1錠中「日局」アセトアミノフェン200mg",
+      "imprint_front": "Sc113",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色割線入り素錠 外形 直径 8.50mm 厚さ 3.40mm 識別コード Sc113"
+    }
+  ],
+  "expected_products": [
+    "アセトアミノフェン錠200mg「三和」"
+  ]
+}

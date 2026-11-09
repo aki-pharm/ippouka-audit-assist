@@ -1,0 +1,49 @@
+{
+  "id": "400278_1149001F1498_1_04",
+  "source_file": "400278_1149001F1498_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1149001F1498_1_04",
+  "extracted_at": "2026-11-09T14:01:16.613Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18411,
+    "output": 1687
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イブプロフェン錠100mg「TCK」",
+      "strength": "100mg",
+      "imprint_front": "TU 108",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～類白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2025年8月改訂",
+      "source_page": 1,
+      "source_quote": "イブプロフェン錠100mg「TCK」 白色～類白色 糖衣錠 TU 108 直径8.5mm 厚さ5.3mm 重量260mg"
+    },
+    {
+      "product_name": "イブプロフェン錠200mg「TCK」",
+      "strength": "200mg",
+      "imprint_front": "TU 109",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.3,
+      "size_short_mm": 10.3,
+      "thickness_mm": 5.8,
+      "score_line": null,
+      "source_revision": "2025年8月改訂",
+      "source_page": 1,
+      "source_quote": "イブプロフェン錠200mg「TCK」 白色 糖衣錠 TU 109 直径10.3mm 厚さ5.8mm 重量390mg"
+    }
+  ],
+  "expected_products": [
+    "イブプロフェン錠100mg「TCK」"
+  ]
+}

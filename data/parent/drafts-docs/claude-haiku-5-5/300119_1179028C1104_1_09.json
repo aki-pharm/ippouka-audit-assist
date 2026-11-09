@@ -1,0 +1,66 @@
+{
+  "id": "300119_1179028C1104_1_09",
+  "source_file": "300119_1179028C1104_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179028C1104_1_09",
+  "extracted_at": "2026-11-09T14:07:48.685Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18426,
+    "output": 2088
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロムペリドール錠1mg「サワイ」",
+      "strength": "1mg",
+      "imprint_front": "SW 960",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 6.0 6.0 7.0 厚さ（mm） 3.1 3.1 3.1 重量（mg） 約95 約95 約125 識別コード SW 960 SW 961 SW 962"
+    },
+    {
+      "product_name": "ブロムペリドール錠3mg「サワイ」",
+      "strength": "3mg",
+      "imprint_front": "SW 961",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 6.0 6.0 7.0 厚さ（mm） 3.1 3.1 3.1 重量（mg） 約95 約95 約125 識別コード SW 960 SW 961 SW 962"
+    },
+    {
+      "product_name": "ブロムペリドール錠6mg「サワイ」",
+      "strength": "6mg",
+      "imprint_front": "SW 962",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 6.0 6.0 7.0 厚さ（mm） 3.1 3.1 3.1 重量（mg） 約95 約95 約125 識別コード SW 960 SW 961 SW 962"
+    }
+  ],
+  "expected_products": [
+    "ブロムペリドール錠1mg「サワイ」",
+    "ブロムペリドール錠3mg「サワイ」"
+  ]
+}

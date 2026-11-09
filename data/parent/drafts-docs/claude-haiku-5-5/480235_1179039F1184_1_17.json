@@ -1,0 +1,65 @@
+{
+  "id": "480235_1179039F1184_1_17",
+  "source_file": "480235_1179039F1184_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179039F1184_1_17",
+  "extracted_at": "2026-11-09T14:09:15.247Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28426,
+    "output": 2483
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "Tw371",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図に刻印の記載なし（明記なし）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色のフィルムコーティング錠 識別コード Tw371 Tw372 Tw373 直径(mm) 5.1 6.1 7.1 厚さ(mm) 2.6 3.4 3.8"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw372",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図に刻印の記載なし（明記なし）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色のフィルムコーティング錠 識別コード Tw371 Tw372 Tw373 直径(mm) 5.1 6.1 7.1 厚さ(mm) 2.6 3.4 3.8"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠75mg「トーワ」",
+      "strength": "75mg",
+      "imprint_front": "Tw373",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図に刻印の記載なし（明記なし）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色のフィルムコーティング錠 識別コード Tw371 Tw372 Tw373 直径(mm) 5.1 6.1 7.1 厚さ(mm) 2.6 3.4 3.8"
+    }
+  ],
+  "expected_products": [
+    "フルボキサミンマレイン酸塩錠25mg「トーワ」"
+  ]
+}

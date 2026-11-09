@@ -1,0 +1,33 @@
+{
+  "id": "830001_1149029F1149_1_09",
+  "source_file": "830001_1149029F1149_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1149029F1149_1_09",
+  "extracted_at": "2026-11-09T14:02:36.564Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17728,
+    "output": 1537
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザルトプロフェン錠80mg「YD」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「YD」「80」の記号が図示されているが、文字での刻印記載はないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 / 外形 直径 約7mm 厚さ 約3.5mm"
+    }
+  ],
+  "expected_products": [
+    "ザルトプロフェン錠80mg「YD」"
+  ]
+}

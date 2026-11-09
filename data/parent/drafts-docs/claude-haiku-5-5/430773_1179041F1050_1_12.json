@@ -1,0 +1,65 @@
+{
+  "id": "430773_1179041F1050_1_12",
+  "source_file": "430773_1179041F1050_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1179041F1050_1_12",
+  "extracted_at": "2026-11-09T14:10:21.029Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35615,
+    "output": 2298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図中の刻印は小さく判読できないため未確認。",
+      "color": "黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠5mg「DSEP」 フィルムコーティング錠 黄白色 外形 直径6.5mm 厚さ3.6mm 重さ152mg"
+    },
+    {
+      "product_name": "パロキセチン錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図中の刻印は小さく判読できないため未確認。",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠10mg「DSEP」 フィルムコーティング錠 帯紅白色 外形 直径6.5mm 厚さ3.6mm 重さ152mg"
+    },
+    {
+      "product_name": "パロキセチン錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図中の刻印は小さく判読できないため未確認。",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2023年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠20mg「DSEP」 フィルムコーティング錠 帯紅白色 外形 直径8.0mm 厚さ4.1mm 重さ253mg"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠5mg「DSEP」"
+  ]
+}

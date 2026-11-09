@@ -1,0 +1,82 @@
+{
+  "id": "580591_1139009F1064_1_11",
+  "source_file": "580591_1139009F1064_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1139009F1064_1_11",
+  "extracted_at": "2026-11-09T14:00:11.023Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 60088,
+    "output": 3977
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラモトリギン錠小児用2mg「JG」",
+      "strength": "2mg",
+      "imprint_front": "JG S2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.8,
+      "size_short_mm": 4.8,
+      "thickness_mm": 1.6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ラモトリギン錠 小児用 2 mg「JG」 白色の素錠 表面 裏面 側面 JG S2 直径 4.8mm 厚さ 1.6mm 重量 45mg"
+    },
+    {
+      "product_name": "ラモトリギン錠小児用5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "JG S5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8,
+      "size_short_mm": 4,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ラモトリギン錠 小児用 5 mg「JG」 白色の素錠 表面 裏面 側面 JG S5 長径 8.0mm 短径 4.0mm 厚さ 2.6mm 重量 103mg"
+    },
+    {
+      "product_name": "ラモトリギン錠25mg「JG」",
+      "strength": "25mg",
+      "imprint_front": "ラモトリギン 25 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "表・裏の個別記載は確認できず、本体表示として「ラモトリギン 25 JG」と記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.3,
+      "size_short_mm": 5.3,
+      "thickness_mm": 2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ラモトリギン錠 25mg「JG」 白色の素錠 表面 裏面 側面 直径 5.3mm 厚さ 2.0mm 重量 63mg 本体表示 ラモトリギン 25 JG"
+    },
+    {
+      "product_name": "ラモトリギン錠100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "ラモトリギン 100 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "表・裏の個別記載は確認できず、本体表示として「ラモトリギン 100 JG」と記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "ラモトリギン錠 100mg「JG」 白色の素錠 表面 裏面 側面 直径 8.4mm 厚さ 3.2mm 重量 253mg 本体表示 ラモトリギン 100 JG"
+    }
+  ],
+  "expected_products": [
+    "ラモトリギン錠小児用2mg「JG」",
+    "ラモトリギン錠小児用5mg「JG」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "400813_1149037F1135_1_07",
+  "source_file": "400813_1149037F1135_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1149037F1135_1_07",
+  "extracted_at": "2026-11-09T14:03:36.089Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37833,
+    "output": 2121
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「武田テバ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の文言に刻印の記載なし（図の文字は判読できず）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：白色の片面1/2割線入り素錠、直径（mm）8.0、厚さ（mm）2.5"
+    },
+    {
+      "product_name": "セレコキシブ錠200mg「武田テバ」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の文言に刻印の記載なし（図の文字は判読できず）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：白色の楕円形の片面1/2割線入り素錠、長径13.5、短径6.5、厚さ（mm）4.2"
+    }
+  ],
+  "expected_products": [
+    "セレコキシブ錠100mg「武田テバ」"
+  ]
+}

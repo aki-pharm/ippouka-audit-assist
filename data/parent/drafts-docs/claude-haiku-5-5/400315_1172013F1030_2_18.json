@@ -1,0 +1,67 @@
+{
+  "id": "400315_1172013F1030_2_18",
+  "source_file": "400315_1172013F1030_2_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1172013F1030_2_18",
+  "extracted_at": "2026-11-09T14:05:29.279Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14587,
+    "output": 2364
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピーゼットシー糖衣錠2mg",
+      "strength": "2mg",
+      "imprint_front": "Y-PZ2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色・糖衣錠 識別コード Y-PZ2 サイズ 直径(mm) 7.4 厚さ(mm) 4.8 重量(mg) 220"
+    },
+    {
+      "product_name": "ピーゼットシー糖衣錠4mg",
+      "strength": "4mg",
+      "imprint_front": "Y-PZ4",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡青色",
+      "shape": "round",
+      "size_long_mm": 7.8,
+      "size_short_mm": 7.8,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 淡青色・糖衣錠 識別コード Y-PZ4 サイズ 直径(mm) 7.8 厚さ(mm) 4.5 重量(mg) 220"
+    },
+    {
+      "product_name": "ピーゼットシー糖衣錠8mg",
+      "strength": "8mg",
+      "imprint_front": "Y-PZ8",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 青色・糖衣錠 識別コード Y-PZ8 サイズ 直径(mm) 8.5 厚さ(mm) 5.0 重量(mg) 300"
+    }
+  ],
+  "expected_products": [
+    "ピーゼットシー糖衣錠2mg",
+    "ピーゼットシー糖衣錠4mg",
+    "ピーゼットシー糖衣錠8mg"
+  ]
+}

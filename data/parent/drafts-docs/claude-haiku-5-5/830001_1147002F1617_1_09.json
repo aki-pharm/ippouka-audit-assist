@@ -1,0 +1,33 @@
+{
+  "id": "830001_1147002F1617_1_09",
+  "source_file": "830001_1147002F1617_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1147002F1617_1_09",
+  "extracted_at": "2026-11-09T14:01:05.157Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21778,
+    "output": 1299
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジクロフェナクNa錠25mg「YD」",
+      "strength": "25mg",
+      "imprint_front": "YD 860",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は外形図の「YD 860」から読み取り。裏面の刻印は文書に記載なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色のフィルムコーティング錠 外形 直径 約7mm 厚さ 約3.3mm 重量 145mg"
+    }
+  ],
+  "expected_products": [
+    "ジクロフェナクNa錠25mg「YD」"
+  ]
+}

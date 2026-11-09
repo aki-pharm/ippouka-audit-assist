@@ -1,0 +1,33 @@
+{
+  "id": "400813_1169010F1040_1_21",
+  "source_file": "400813_1169010F1040_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1169010F1040_1_21",
+  "extracted_at": "2026-11-09T14:05:00.192Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23070,
+    "output": 1409
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレギリン塩酸塩錠2.5mg「タイヨー」",
+      "strength": "2.5mg",
+      "imprint_front": "t 063",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは（PTP）表記のもの。表裏の別は明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 形状 直径 6.5mm 厚さ 2.7mm 重量 120mg 識別コード（PTP） t 063"
+    }
+  ],
+  "expected_products": [
+    "セレギリン塩酸塩錠2.5mg「タイヨー」"
+  ]
+}

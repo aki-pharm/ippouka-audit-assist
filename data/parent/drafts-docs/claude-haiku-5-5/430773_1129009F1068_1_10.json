@@ -1,0 +1,50 @@
+{
+  "id": "430773_1129009F1068_1_10",
+  "source_file": "430773_1129009F1068_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1129009F1068_1_10",
+  "extracted_at": "2026-11-09T13:57:21.547Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23194,
+    "output": 2237
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "EP 110",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ゾルピデム酒石酸塩錠5mg「DSEP」 フィルムコーティング錠（割線入） 淡いだいだい色 EP110 直径6.6mm 厚さ2.7mm 重さ93mg"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "EP 111",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ゾルピデム酒石酸塩錠10mg「DSEP」 フィルムコーティング錠（割線入） 淡いだいだい色 EP111 直径8.6mm 厚さ3.3mm 重さ185mg"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠10mg「DSEP」",
+    "ゾルピデム酒石酸塩錠5mg「DSEP」"
+  ]
+}

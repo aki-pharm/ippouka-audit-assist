@@ -1,0 +1,50 @@
+{
+  "id": "530100_1129009F1149_3_11",
+  "source_file": "530100_1129009F1149_3_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1129009F1149_3_11",
+  "extracted_at": "2026-11-09T13:57:24.199Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26085,
+    "output": 2053
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠 5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "NP-321",
+      "imprint_back": "5",
+      "imprint_note": "識別コードはNP-321。裏面の刻印は添付文書の図（円内の5）による",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の割線入りフィルムコーティング錠 6.6 2.7 93 NP-321"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠 10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "NP-325",
+      "imprint_back": "10",
+      "imprint_note": "識別コードはNP-325。裏面の刻印は添付文書の図（円内の10）による",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の割線入りフィルムコーティング錠 8.6 3.4 185 NP-325"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠10mg「NP」",
+    "ゾルピデム酒石酸塩錠5mg「NP」"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "300119_1179038F5037_1_26",
+  "source_file": "300119_1179038F5037_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179038F5037_1_26",
+  "extracted_at": "2026-11-09T14:08:02.101Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29570,
+    "output": 2697
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドンOD錠0.5mg「サワイ」",
+      "strength": "0.5mg",
+      "imprint_front": "SW 73",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色 直径（mm） 5.0 厚さ（mm） 2.4 重量（mg） 約50 識別コード SW 73"
+    },
+    {
+      "product_name": "リスペリドンOD錠1mg「サワイ」",
+      "strength": "1mg",
+      "imprint_front": "SW RP5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 白色 直径（mm） 6.5 厚さ（mm） 2.3 重量（mg） 約100 識別コード SW RP5"
+    },
+    {
+      "product_name": "リスペリドンOD錠2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW RP6",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 性状 白色 直径（mm） 7.0 厚さ（mm） 2.6 重量（mg） 約130 識別コード SW RP6"
+    },
+    {
+      "product_name": "リスペリドンOD錠3mg「サワイ」",
+      "strength": "3mg",
+      "imprint_front": "SW RP7",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 性状 白色 直径（mm） 8.0 厚さ（mm） 3.1 重量（mg） 約200 識別コード SW RP7"
+    }
+  ],
+  "expected_products": [
+    "リスペリドンOD錠0.5mg「サワイ」",
+    "リスペリドンOD錠1mg「サワイ」",
+    "リスペリドンOD錠2mg「サワイ」"
+  ]
+}

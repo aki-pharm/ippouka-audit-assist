@@ -1,0 +1,33 @@
+{
+  "id": "581120_1149019F1480_4_01",
+  "source_file": "581120_1149019F1480_4_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1149019F1480_4_01",
+  "extracted_at": "2026-11-09T14:02:33.110Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23379,
+    "output": 1216
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキソプロフェン錠60mg「EMEC」",
+      "strength": "60mg",
+      "imprint_front": "EE 54",
+      "imprint_back": "なし",
+      "imprint_note": "本体コードはEE 54、包装コードはEE54。表面の刻印は本体コードの記載に基づく",
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 ごくうすい紅色 外形 直径（mm） 8.0 厚さ（mm） 2.8 質量（mg） 180 本体コード EE 54 包装コード EE54"
+    }
+  ],
+  "expected_products": [
+    "ロキソプロフェン錠60mg「EMEC」（旧製品）"
+  ]
+}

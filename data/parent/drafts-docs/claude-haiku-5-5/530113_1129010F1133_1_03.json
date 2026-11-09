@@ -1,0 +1,66 @@
+{
+  "id": "530113_1129010F1133_1_03",
+  "source_file": "530113_1129010F1133_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1129010F1133_1_03",
+  "extracted_at": "2026-11-09T13:59:11.107Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25460,
+    "output": 2963
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠1mg「日新」",
+      "strength": "1mg",
+      "imprint_front": "エスゾピクロン1 NS",
+      "imprint_back": "エスゾピクロン1 NS",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状：白色のフィルムコーティング錠 外形 錠径：6.1mm 錠厚：2.8mm 本体表示 表面 エスゾピクロン1 NS 裏面 エスゾピクロン1 NS"
+    },
+    {
+      "product_name": "エスゾピクロン錠2mg「日新」",
+      "strength": "2mg",
+      "imprint_front": "エスゾピクロン",
+      "imprint_back": "エスゾピクロン2 NS",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状：割線入りの淡黄色のフィルムコーティング錠 錠径：6.1mm 錠厚：2.8mm 表面 エスゾピクロン 裏面 エスゾピクロン2 NS"
+    },
+    {
+      "product_name": "エスゾピクロン錠3mg「日新」",
+      "strength": "3mg",
+      "imprint_front": "エスゾピクロン3 NS",
+      "imprint_back": "エスゾピクロン3 NS",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状：淡赤色のフィルムコーティング錠 錠径：6.1mm 錠厚：2.8mm 表面 エスゾピクロン3 NS 裏面 エスゾピクロン3 NS"
+    }
+  ],
+  "expected_products": [
+    "エスゾピクロン錠1mg「日新」",
+    "エスゾピクロン錠2mg「日新」"
+  ]
+}

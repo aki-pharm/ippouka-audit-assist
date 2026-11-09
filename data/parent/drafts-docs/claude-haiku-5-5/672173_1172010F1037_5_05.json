@@ -1,0 +1,33 @@
+{
+  "id": "672173_1172010F1037_5_05",
+  "source_file": "672173_1172010F1037_5_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1172010F1037_5_05",
+  "extracted_at": "2026-11-09T14:05:16.426Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14373,
+    "output": 1084
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ノバミン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "5",
+      "imprint_back": "KW NVM",
+      "imprint_note": null,
+      "color": "微帯黄白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微帯黄白色のフィルムコーティングを施した錠剤である。 外形 大きさ 直径 約5.0mm 厚さ 約2.3mm 識別コード 5/KW NVM"
+    }
+  ],
+  "expected_products": [
+    "ノバミン錠5mg"
+  ]
+}

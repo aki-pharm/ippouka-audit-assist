@@ -1,0 +1,67 @@
+{
+  "id": "672173_1179025F1247_2_04",
+  "source_file": "672173_1179025F1247_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179025F1247_2_04",
+  "extracted_at": "2026-11-09T14:07:14.480Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17419,
+    "output": 2836
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エチゾラム錠 0.25mg「アメル」",
+      "strength": "0.25mg",
+      "imprint_front": "KW017",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "エチゾラム錠 0.25mg「アメル」 フィルムコーティング錠 識別コード KW017 微赤色 直径：約 6.1mm 厚さ：約 2.8mm 質量：約 89mg"
+    },
+    {
+      "product_name": "エチゾラム錠 0.5mg「アメル」",
+      "strength": "0.5mg",
+      "imprint_front": "エチゾラム 0.5 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "エチゾラム錠 0.5mg「アメル」 フィルムコーティング錠 識別コード エチゾラム 0.5 アメル 白 色 ～ 淡 黄白色 直径：約 6.1mm 厚さ：約 2.8mm 質量：約 87mg"
+    },
+    {
+      "product_name": "エチゾラム錠 1mg「アメル」",
+      "strength": "1mg",
+      "imprint_front": "エチゾラム 1 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "エチゾラム錠 1mg「アメル」 フィルムコーティング錠 識別コード エチゾラム 1 アメル 白 色 ～ 淡 黄白色 直径：約 6.1mm 厚さ：約 2.8mm 質量：約 87mg"
+    }
+  ],
+  "expected_products": [
+    "エチゾラム錠0.25mg「アメル」",
+    "エチゾラム錠0.5mg「アメル」",
+    "エチゾラム錠1mg「アメル」"
+  ]
+}

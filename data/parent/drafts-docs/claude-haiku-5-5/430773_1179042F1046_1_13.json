@@ -1,0 +1,65 @@
+{
+  "id": "430773_1179042F1046_1_13",
+  "source_file": "430773_1179042F1046_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1179042F1046_1_13",
+  "extracted_at": "2026-11-09T14:11:35.700Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27414,
+    "output": 3995
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠25mg「DSEP」",
+      "strength": "25mg",
+      "imprint_front": "クエチアピン 25 DSEP",
+      "imprint_back": "クエチアピン 25",
+      "imprint_note": "刻印は添付文書の図からの判読。文字の正確な確認は要",
+      "color": "うすい黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "クエチアピン錠25mg「DSEP」 フィルムコーティング錠 うすい黄みの赤色 外形直径 6.1mm 厚さ 2.9mm 質量 93mg"
+    },
+    {
+      "product_name": "クエチアピン錠100mg「DSEP」",
+      "strength": "100mg",
+      "imprint_front": "クエチアピン 100 DSEP",
+      "imprint_back": "クエチアピン 100",
+      "imprint_note": "刻印は添付文書の図からの判読。文字の正確な確認は要",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "クエチアピン錠100mg「DSEP」 フィルムコーティング錠 うすい黄色 外形直径 8.6mm 厚さ 4.0mm 質量 254mg"
+    },
+    {
+      "product_name": "クエチアピン錠200mg「DSEP」",
+      "strength": "200mg",
+      "imprint_front": "クエチアピン 200 DSEP",
+      "imprint_back": "クエチアピン 200",
+      "imprint_note": "刻印は添付文書の図からの判読。文字の正確な確認は要",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "クエチアピン錠200mg「DSEP」 フィルムコーティング錠 白色 外形直径 11.1mm 厚さ 5.5mm 質量 507mg"
+    }
+  ],
+  "expected_products": [
+    "クエチアピン錠25mg「DSEP」"
+  ]
+}

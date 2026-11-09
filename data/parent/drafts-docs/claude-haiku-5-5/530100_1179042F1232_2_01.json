@@ -1,0 +1,65 @@
+{
+  "id": "530100_1179042F1232_2_01",
+  "source_file": "530100_1179042F1232_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179042F1232_2_01",
+  "extracted_at": "2026-11-09T14:11:50.810Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30164,
+    "output": 2314
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠 25mg「ニプロ」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図に刻印が図示されているが、本文に刻印の文字記載がないため未確認",
+      "color": "うすい黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "うすい黄みの赤色のフィルムコーティング錠 6.1 2.9 93"
+    },
+    {
+      "product_name": "クエチアピン錠 100mg「ニプロ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図に刻印が図示されているが、本文に刻印の文字記載がないため未確認",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "うすい黄色のフィルムコーティング錠 8.6 4.0 254"
+    },
+    {
+      "product_name": "クエチアピン錠 200mg「ニプロ」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図に刻印が図示されているが、本文に刻印の文字記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 11.1 5.5 507"
+    }
+  ],
+  "expected_products": [
+    "クエチアピン錠25mg「ニプロ」"
+  ]
+}

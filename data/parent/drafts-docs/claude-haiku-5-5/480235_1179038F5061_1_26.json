@@ -1,0 +1,83 @@
+{
+  "id": "480235_1179038F5061_1_26",
+  "source_file": "480235_1179038F5061_1_26.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179038F5061_1_26",
+  "extracted_at": "2026-11-09T14:08:11.558Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29783,
+    "output": 2617
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドンOD錠0.5mg「トーワ」",
+      "strength": "0.5mg",
+      "imprint_front": "Tw350",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の口腔内崩壊錠、識別コード Tw350、直径(mm) 5.0、厚さ(mm) 2.3、質量(mg) 50"
+    },
+    {
+      "product_name": "リスペリドンOD錠1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "Tw355",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの口腔内崩壊錠、識別コード Tw355、直径(mm) 6.5、厚さ(mm) 2.8、質量(mg) 100"
+    },
+    {
+      "product_name": "リスペリドンOD錠2mg「トーワ」",
+      "strength": "2mg",
+      "imprint_front": "Tw357",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの口腔内崩壊錠、識別コード Tw357、直径(mm) 7.0、厚さ(mm) 3.1、質量(mg) 130"
+    },
+    {
+      "product_name": "リスペリドンOD錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "Tw352",
+      "imprint_back": "3",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの口腔内崩壊錠、識別コード Tw352、直径(mm) 7.5、厚さ(mm) 3.3、質量(mg) 160"
+    }
+  ],
+  "expected_products": [
+    "リスペリドンOD錠0.5mg「トーワ」",
+    "リスペリドンOD錠1mg「トーワ」",
+    "リスペリドンOD錠2mg「トーワ」"
+  ]
+}

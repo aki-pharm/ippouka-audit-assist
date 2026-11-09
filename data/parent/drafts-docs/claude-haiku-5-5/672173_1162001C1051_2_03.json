@@ -1,0 +1,33 @@
+{
+  "id": "672173_1162001C1051_2_03",
+  "source_file": "672173_1162001C1051_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1162001C1051_2_03",
+  "extracted_at": "2026-11-09T14:04:19.330Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13225,
+    "output": 1009
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ビペリデン塩酸塩錠1mg「アメル」",
+      "strength": "1mg",
+      "imprint_front": "KW097",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2025年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ビペリデン塩酸塩錠1mg「アメル」 割線入り素錠 直径：約7.0mm 厚さ：約2.1mm 質量：約100.0mg KW097 白色"
+    }
+  ],
+  "expected_products": [
+    "ビペリデン塩酸塩錠1mg「アメル」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "672173_1149019F1668_2_06",
+  "source_file": "672173_1149019F1668_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1149019F1668_2_06",
+  "extracted_at": "2026-11-09T14:01:47.812Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25488,
+    "output": 1209
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキソプロフェン Na 錠 60mg「アメル」",
+      "strength": "60mg",
+      "imprint_front": "KW 828",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい紅色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "片面割線入り素錠、うすい紅色、直径：約 9.0mm、厚さ：約 3.9mm、質量：約 300mg"
+    }
+  ],
+  "expected_products": [
+    "ロキソプロフェンNa錠60mg「アメル」"
+  ]
+}

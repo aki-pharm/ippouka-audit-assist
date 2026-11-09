@@ -1,0 +1,67 @@
+{
+  "id": "730869_1179044F4168_2_02",
+  "source_file": "730869_1179044F4168_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_1179044F4168_2_02",
+  "extracted_at": "2026-11-09T14:12:29.489Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 38946,
+    "output": 3149
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピンOD錠2.5mg「VTRS」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表・裏の刻印は図示のみで文字の判読が確実でないため未確認",
+      "color": "黄色（素錠）",
+      "shape": "oblong",
+      "size_long_mm": 8.3,
+      "size_short_mm": 4,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "オランザピンOD錠2.5mg「VTRS」 － 黄色素錠 長径 8.3mm 短径 4.0mm 厚さ 2.7mm 重量 80mg"
+    },
+    {
+      "product_name": "オランザピンOD錠5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表・裏の刻印は図示のみで文字の判読が確実でないため未確認",
+      "color": "黄色（素錠）",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "オランザピンOD錠5mg「VTRS」 － 黄色素錠 直径 6.5mm 厚さ 2.4mm 重量 100mg"
+    },
+    {
+      "product_name": "オランザピンOD錠10mg「VTRS」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表・裏の刻印は図示のみで文字の判読が確実でないため未確認",
+      "color": "黄色（素錠）",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "オランザピンOD錠10mg「VTRS」 － 黄色素錠 直径 8.0mm 厚さ 3.7mm 重量 200mg"
+    }
+  ],
+  "expected_products": [
+    "オランザピンOD錠10mg「VTRS」",
+    "オランザピンOD錠2.5mg「VTRS」",
+    "オランザピンOD錠5mg「VTRS」"
+  ]
+}

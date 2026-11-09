@@ -1,0 +1,66 @@
+{
+  "id": "672173_1179028C1090_2_04",
+  "source_file": "672173_1179028C1090_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179028C1090_2_04",
+  "extracted_at": "2026-11-09T14:07:44.438Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19743,
+    "output": 2459
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロムペリドール錠 1mg「アメル」",
+      "strength": "1mg",
+      "imprint_front": "KW829/1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "素錠 白色 直径：約 7.0mm 厚さ：約 2.4mm 質量：約 120mg 識別コード KW829/1"
+    },
+    {
+      "product_name": "ブロムペリドール錠 3mg「アメル」",
+      "strength": "3mg",
+      "imprint_front": "KW830/3",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "素錠 白色 直径：約 6.0mm 厚さ：約 2.6mm 質量：約 80mg 識別コード KW830/3"
+    },
+    {
+      "product_name": "ブロムペリドール錠 6mg「アメル」",
+      "strength": "6mg",
+      "imprint_front": "KW831/6",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "素錠 白色 直径：約 6.0mm 厚さ：約 2.6mm 質量：約 80mg 識別コード KW831/6"
+    }
+  ],
+  "expected_products": [
+    "ブロムペリドール錠1mg「アメル」",
+    "ブロムペリドール錠3mg「アメル」"
+  ]
+}

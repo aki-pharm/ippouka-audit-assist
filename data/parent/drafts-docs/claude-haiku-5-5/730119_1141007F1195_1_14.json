@@ -1,0 +1,66 @@
+{
+  "id": "730119_1141007F1195_1_14",
+  "source_file": "730119_1141007F1195_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730119_1141007F1195_1_14",
+  "extracted_at": "2026-11-09T14:00:48.082Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17948,
+    "output": 2012
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アセトアミノフェン錠200mg「マルイシ」",
+      "strength": "200mg",
+      "imprint_front": "アセト 200 アミノフェン",
+      "imprint_back": "アセト アミノフェン 200 マルイシ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠で割線がある。 大きさ 直径8.2mm 厚さ 3.7mm"
+    },
+    {
+      "product_name": "アセトアミノフェン錠300mg「マルイシ」",
+      "strength": "300mg",
+      "imprint_front": "アセト 300 アミノフェン",
+      "imprint_back": "アセト アミノフェン 300 マルイシ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠で割線がある。 大きさ 直径9.0mm 厚さ 4.6mm"
+    },
+    {
+      "product_name": "アセトアミノフェン錠500mg「マルイシ」",
+      "strength": "500mg",
+      "imprint_front": "アセト 500 アミノフェン",
+      "imprint_back": "アセトアミノフェン 500 マルイシ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 8,
+      "thickness_mm": 5.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠で割線がある。 大きさ 長径15.5mm、短径8.0mm 厚さ 5.3mm"
+    }
+  ],
+  "expected_products": [
+    "アセトアミノフェン錠200mg「マルイシ」",
+    "アセトアミノフェン錠300mg「マルイシ」"
+  ]
+}

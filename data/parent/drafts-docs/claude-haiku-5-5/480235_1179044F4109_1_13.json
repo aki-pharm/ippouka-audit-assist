@@ -1,0 +1,66 @@
+{
+  "id": "480235_1179044F4109_1_13",
+  "source_file": "480235_1179044F4109_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179044F4109_1_13",
+  "extracted_at": "2026-11-09T14:12:41.272Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37618,
+    "output": 1740
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピンOD錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "オランザ 2.5",
+      "imprint_back": "オランザピン OD 2.5 トーワ",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄白色の割線入りの口腔内崩壊錠（直径(mm) 5.5、厚さ(mm) 2.7）"
+    },
+    {
+      "product_name": "オランザピンOD錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "オランザ 5",
+      "imprint_back": "オランザピン OD 5 トーワ",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄白色の割線入りの口腔内崩壊錠（直径(mm) 7.0、厚さ(mm) 3.4）"
+    },
+    {
+      "product_name": "オランザピンOD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "オランザ 10",
+      "imprint_back": "オランザピン OD 10 トーワ",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄白色の割線入りの口腔内崩壊錠（直径(mm) 9.0、厚さ(mm) 4.3）"
+    }
+  ],
+  "expected_products": [
+    "オランザピンOD錠10mg「トーワ」",
+    "オランザピンOD錠2.5mg「トーワ」"
+  ]
+}

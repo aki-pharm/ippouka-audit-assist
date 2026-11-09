@@ -1,0 +1,33 @@
+{
+  "id": "530113_1149019F1676_1_09",
+  "source_file": "530113_1149019F1676_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1149019F1676_1_09",
+  "extracted_at": "2026-11-09T14:02:10.528Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14917,
+    "output": 1252
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキソプロフェンNa錠60mg「日新」",
+      "strength": "60mg",
+      "imprint_front": "NS 117",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性 状 ごくうすい紅色の割線入り裸錠 / 外 形 大きさ 錠径：8.0mm、錠厚：3.1mm、重量：180mg / 識別コード NS 117"
+    }
+  ],
+  "expected_products": [
+    "ロキソプロフェンNa錠60mg「日新」"
+  ]
+}

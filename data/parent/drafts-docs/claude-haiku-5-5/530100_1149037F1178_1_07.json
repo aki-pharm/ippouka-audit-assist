@@ -1,0 +1,50 @@
+{
+  "id": "530100_1149037F1178_1_07",
+  "source_file": "530100_1149037F1178_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1149037F1178_1_07",
+  "extracted_at": "2026-11-09T14:03:27.438Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29235,
+    "output": 1772
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「ニプロ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は画像内の小さな文字のみで本文に記載がないため判読できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの円形の素錠 直径8.0mm 厚さ2.8mm"
+    },
+    {
+      "product_name": "セレコキシブ錠200mg「ニプロ」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は画像内の小さな文字のみで本文に記載がないため判読できず未確認",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.4,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの楕円形の素錠 （長径）13.1 （短径）6.6 厚さ5.4mm"
+    }
+  ],
+  "expected_products": [
+    "セレコキシブ錠100mg「ニプロ」",
+    "セレコキシブ錠200mg「ニプロ」"
+  ]
+}

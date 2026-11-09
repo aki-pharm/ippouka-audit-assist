@@ -1,0 +1,81 @@
+{
+  "id": "672173_1179040F1080_2_04",
+  "source_file": "672173_1179040F1080_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179040F1080_2_04",
+  "extracted_at": "2026-11-09T14:09:34.343Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25495,
+    "output": 3483
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルナシプラン塩酸塩錠12.5mg「アメル」",
+      "strength": "12.5mg",
+      "imprint_front": "KW673",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 KW673 白色〜帯黄白色 直径：約6.2mm 厚さ：約2.7mm 質量：約80.0mg"
+    },
+    {
+      "product_name": "ミルナシプラン塩酸塩錠15mg「アメル」",
+      "strength": "15mg",
+      "imprint_front": "KW671",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 KW671 淡黄色 直径：約6.2mm 厚さ：約2.7mm 質量：約80.0mg"
+    },
+    {
+      "product_name": "ミルナシプラン塩酸塩錠25mg「アメル」",
+      "strength": "25mg",
+      "imprint_front": "KW672",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 KW672 白色〜帯黄白色 直径：約6.2mm 厚さ：約2.8mm 質量：約80.0mg"
+    },
+    {
+      "product_name": "ミルナシプラン塩酸塩錠50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "KW675 /50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 KW675 /50 白色〜帯黄白色 直径：約7.7mm 厚さ：約3.5mm 質量：約158.0mg"
+    }
+  ],
+  "expected_products": [
+    "ミルナシプラン塩酸塩錠15mg「アメル」"
+  ]
+}

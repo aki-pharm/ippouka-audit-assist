@@ -1,0 +1,33 @@
+{
+  "id": "530113_1149117F1217_1_08",
+  "source_file": "530113_1149117F1217_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1149117F1217_1_08",
+  "extracted_at": "2026-11-09T14:03:57.681Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22858,
+    "output": 1494
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「日新」",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg・アセトアミノフェン325mg",
+      "imprint_front": "トアラセット 日新",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 14.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 淡黄色のフィルムコーティング錠 外形 大きさ 長径：14.8mm 短径： 6.8mm 錠厚： 5.4mm 重量： 410mg 本体表示 トアラセット 日新"
+    }
+  ],
+  "expected_products": [
+    "トアラセット配合錠「日新」"
+  ]
+}

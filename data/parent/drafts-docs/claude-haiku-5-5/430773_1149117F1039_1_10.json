@@ -1,0 +1,33 @@
+{
+  "id": "430773_1149117F1039_1_10",
+  "source_file": "430773_1149117F1039_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1149117F1039_1_10",
+  "extracted_at": "2026-11-09T14:03:40.157Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30430,
+    "output": 1839
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「DSEP」",
+      "strength": "トラマドール塩酸塩37.5mg・アセトアミノフェン325mg（1錠中）",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に刻印らしき文字の記載があるが判読できないため未確認",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.6,
+      "size_short_mm": 6.4,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "トアラセット配合錠「DSEP」 フィルムコーティング錠 淡黄色 15.6（長径） 6.4（短径） 5.1 441"
+    }
+  ],
+  "expected_products": [
+    "トアラセット配合錠「DSEP」"
+  ]
+}

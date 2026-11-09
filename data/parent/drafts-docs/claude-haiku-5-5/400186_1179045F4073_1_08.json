@@ -1,0 +1,84 @@
+{
+  "id": "400186_1179045F4073_1_08",
+  "source_file": "400186_1179045F4073_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179045F4073_1_08",
+  "extracted_at": "2026-11-09T14:14:00.071Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 36410,
+    "output": 3432
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾールOD錠3mg「タカタ」",
+      "strength": "3mg",
+      "imprint_front": "OD 3",
+      "imprint_back": "OD 3",
+      "imprint_note": "添付文書の図から判読（文字の記載はなし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "アリピプラゾールOD錠3mg「タカタ」 白色の裸錠 表面 直径 約6mm 裏面 重さ 約0.09g 側面 厚さ 約2.7mm"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠6mg「タカタ」",
+      "strength": "6mg",
+      "imprint_front": "OD 6",
+      "imprint_back": "OD 6",
+      "imprint_note": "添付文書の図から判読（文字の記載はなし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "アリピプラゾールOD錠6mg「タカタ」 白色の裸錠 表面 直径 約7mm 裏面 重さ 約0.12g 側面 厚さ 約2.7mm"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠12mg「タカタ」",
+      "strength": "12mg",
+      "imprint_front": "アリピプラゾール OD 12",
+      "imprint_back": "アリピプラゾール OD 12",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "アリピプラゾールOD錠12mg「タカタ」 白色の裸錠 表面 直径 約8mm 裏面 重さ 約0.18g 側面 厚さ 約3.2mm"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠24mg「タカタ」",
+      "strength": "24mg",
+      "imprint_front": "アリピプラゾール OD 24",
+      "imprint_back": "アリピプラゾール OD 24",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "アリピプラゾールOD錠24mg「タカタ」 白色の裸錠 表面 直径 約9mm 裏面 重さ 約0.3g 側面 厚さ 約4.3mm"
+    }
+  ],
+  "expected_products": [
+    "アリピプラゾールOD錠12mg「タカタ」",
+    "アリピプラゾールOD錠24mg「タカタ」",
+    "アリピプラゾールOD錠3mg「タカタ」",
+    "アリピプラゾールOD錠6mg「タカタ」"
+  ]
+}

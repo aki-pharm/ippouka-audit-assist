@@ -1,0 +1,67 @@
+{
+  "id": "112268_1179041F1360_1_04",
+  "source_file": "112268_1179041F1360_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112268_1179041F1360_1_04",
+  "extracted_at": "2026-11-09T14:09:52.208Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32334,
+    "output": 2756
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「SPKK」",
+      "strength": "5mg",
+      "imprint_front": "JA",
+      "imprint_back": "TEZ",
+      "imprint_note": "識別コード「JA TEZ」（表：JA、裏：TEZ）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状：帯紅白色のフィルムコーティング錠／識別コード JA TEZ／直径（表）5.6mm／厚さ（側面）2.4mm／質量90mg"
+    },
+    {
+      "product_name": "パロキセチン錠10mg「SPKK」",
+      "strength": "10mg",
+      "imprint_front": "JA",
+      "imprint_back": "FC1",
+      "imprint_note": "識別コード「JA FC1」（表：JA、裏：FC1）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状：帯紅白色のフィルムコーティング錠／識別コード JA FC1／直径（表）6.6mm／厚さ（側面）3.6mm／質量178mg"
+    },
+    {
+      "product_name": "パロキセチン錠20mg「SPKK」",
+      "strength": "20mg",
+      "imprint_front": "JA",
+      "imprint_back": "FE2",
+      "imprint_note": "識別コード「JA FE2」（表：JA、裏：FE2）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状：帯紅白色のフィルムコーティング錠／識別コード JA FE2／直径（表）8.1mm／厚さ（側面）4.8mm／質量357mg"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠10mg「SPKK」",
+    "パロキセチン錠20mg「SPKK」",
+    "パロキセチン錠5mg「SPKK」"
+  ]
+}

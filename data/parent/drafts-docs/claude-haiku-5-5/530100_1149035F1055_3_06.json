@@ -1,0 +1,49 @@
+{
+  "id": "530100_1149035F1055_3_06",
+  "source_file": "530100_1149035F1055_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1149035F1055_3_06",
+  "extracted_at": "2026-11-09T14:02:49.619Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28921,
+    "output": 2277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メロキシカム錠 5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "NP-253",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は記号の図のみで文字として確認できず。識別コードはNP-253",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2025年4月改訂",
+      "source_page": 1,
+      "source_quote": "メロキシカム錠 5mg「NP」 淡黄色の素錠 6.5 2.2 90 NP-253"
+    },
+    {
+      "product_name": "メロキシカム錠 10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "NP-258",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は記号の図のみで文字として確認できず。識別コードはNP-258",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年4月改訂",
+      "source_page": 1,
+      "source_quote": "メロキシカム錠 10mg「NP」 淡黄色の割線入り素錠 8.0 2.9 180 NP-258"
+    }
+  ],
+  "expected_products": [
+    "メロキシカム錠5mg「NP」"
+  ]
+}

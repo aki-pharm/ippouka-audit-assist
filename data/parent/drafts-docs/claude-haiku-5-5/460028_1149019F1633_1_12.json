@@ -1,0 +1,33 @@
+{
+  "id": "460028_1149019F1633_1_12",
+  "source_file": "460028_1149019F1633_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1149019F1633_1_12",
+  "extracted_at": "2026-11-09T14:01:54.442Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23498,
+    "output": 1611
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキソプロフェンNa錠60mg「ツルハラ」",
+      "strength": "60mg",
+      "imprint_front": "TSU415",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい紅色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 うすい紅色 外形 大きさ 直径 約8.0mm 厚さ 約3.0mm 質量 約170mg 識別コード TSU415"
+    }
+  ],
+  "expected_products": [
+    "ロキソプロフェンNa錠60mg「ツルハラ」"
+  ]
+}

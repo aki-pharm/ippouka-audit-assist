@@ -1,0 +1,82 @@
+{
+  "id": "480235_1129009F1289_1_09",
+  "source_file": "480235_1129009F1289_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1129009F1289_1_09",
+  "extracted_at": "2026-11-09T13:57:08.551Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26457,
+    "output": 2452
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "Tw324",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡いだいだい色の割線入りのフィルムコーティング錠 識別コード Tw324 直径(mm) 6.6 厚さ(mm) 2.6"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw325",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡いだいだい色の割線入りのフィルムコーティング錠 識別コード Tw325 直径(mm) 8.7 厚さ(mm) 3.3"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩OD錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "ゾルピ5",
+      "imprint_back": "ゾルピデムOD5 トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の割線入りの口腔内崩壊錠 表 ゾルピ5 裏 ゾルピデムOD5 トーワ 直径(mm) 7.0 厚さ(mm) 3.4"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩OD錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "ゾルピ10",
+      "imprint_back": "ゾルピデムOD10 トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の割線入りの口腔内崩壊錠 表 ゾルピ10 裏 ゾルピデムOD10 トーワ 直径(mm) 9.0 厚さ(mm) 4.2"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩OD錠5mg「トーワ」",
+    "ゾルピデム酒石酸塩錠5mg「トーワ」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "530113_1179041F1270_1_08",
+  "source_file": "530113_1179041F1270_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1179041F1270_1_08",
+  "extracted_at": "2026-11-09T14:10:08.469Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34077,
+    "output": 2098
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "NS 100",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図では錠剤に「5」の表示も見られる（識別コードはNS 100）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 帯紅白色のフィルムコーティング錠 外形 大きさ 錠径： 5.6mm 錠厚： 2.5mm 重量：89.5mg 識別コード NS 100"
+    },
+    {
+      "product_name": "パロキセチン錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "NS 104",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図では錠剤に「10」の表示も見られる（識別コードはNS 104）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 帯紅白色のフィルムコーティング錠 外形 大きさ 錠径：6.6mm 錠厚：3.6mm 重量：178mg 識別コード NS 104"
+    },
+    {
+      "product_name": "パロキセチン錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "NS 105",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図では錠剤に「20」の表示も見られる（識別コードはNS 105）",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 帯紅白色のフィルムコーティング錠 外形 大きさ 錠径：8.1mm 錠厚：4.8mm 重量：357mg 識別コード NS 105"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠10mg「日新」",
+    "パロキセチン錠20mg「日新」",
+    "パロキセチン錠5mg「日新」"
+  ]
+}

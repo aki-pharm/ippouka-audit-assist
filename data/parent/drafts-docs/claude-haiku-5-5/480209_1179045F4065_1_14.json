@@ -1,0 +1,84 @@
+{
+  "id": "480209_1179045F4065_1_14",
+  "source_file": "480209_1179045F4065_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1179045F4065_1_14",
+  "extracted_at": "2026-11-09T14:14:17.704Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37642,
+    "output": 3111
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾールOD錠3mg「杏林」",
+      "strength": "3mg",
+      "imprint_front": "アリピプラゾール OD 3 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を表側の刻印として記載。裏面の刻印は明記なし",
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 青色 本体表示 アリピプラゾール OD 3 杏林 直径(mm) 6.0 厚さ(mm) 3.0 質量(mg) 95"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠6mg「杏林」",
+      "strength": "6mg",
+      "imprint_front": "アリピプラゾール OD 6 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を表側の刻印として記載。裏面の刻印は明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 本体表示 アリピプラゾール OD 6 杏林 直径(mm) 7.0 厚さ(mm) 3.3 質量(mg) 135"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠12mg「杏林」",
+      "strength": "12mg",
+      "imprint_front": "アリピプラゾール OD 12 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を表側の刻印として記載。裏面の刻印は明記なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 黄色 本体表示 アリピプラゾール OD 12 杏林 直径(mm) 8.0 厚さ(mm) 3.5 質量(mg) 180"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠24mg「杏林」",
+      "strength": "24mg",
+      "imprint_front": "アリピプラゾール OD 24 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を表側の刻印として記載。裏面の刻印は明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 本体表示 アリピプラゾール OD 24 杏林 直径(mm) 10.0 厚さ(mm) 4.5 質量(mg) 360"
+    }
+  ],
+  "expected_products": [
+    "アリピプラゾールOD錠12mg「杏林」",
+    "アリピプラゾールOD錠24mg「杏林」",
+    "アリピプラゾールOD錠3mg「杏林」",
+    "アリピプラゾールOD錠6mg「杏林」"
+  ]
+}

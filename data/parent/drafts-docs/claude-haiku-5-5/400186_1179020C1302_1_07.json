@@ -1,0 +1,50 @@
+{
+  "id": "400186_1179020C1302_1_07",
+  "source_file": "400186_1179020C1302_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179020C1302_1_07",
+  "extracted_at": "2026-11-09T14:06:42.237Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17862,
+    "output": 2075
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハロペリドール錠1mg「タカタ」",
+      "strength": "1錠中1mg",
+      "imprint_front": "TTS-051",
+      "imprint_back": "①",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の錠剤、直径 約5.0mm、重さ 約0.05g、厚さ 約2.3mm、識別コード TTS-051"
+    },
+    {
+      "product_name": "ハロペリドール錠2mg「タカタ」",
+      "strength": "1錠中2mg",
+      "imprint_front": "TTS-052",
+      "imprint_back": "②",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の錠剤、直径 約5.0mm、重さ 約0.05g、厚さ 約2.3mm、識別コード TTS-052"
+    }
+  ],
+  "expected_products": [
+    "ハロペリドール錠1mg「タカタ」",
+    "ハロペリドール錠2mg「タカタ」"
+  ]
+}

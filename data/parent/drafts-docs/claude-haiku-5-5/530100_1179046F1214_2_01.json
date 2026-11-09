@@ -1,0 +1,67 @@
+{
+  "id": "530100_1179046F1214_2_01",
+  "source_file": "530100_1179046F1214_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179046F1214_2_01",
+  "extracted_at": "2026-11-09T14:15:21.572Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35332,
+    "output": 2836
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セルトラリン錠25mg「NP」",
+      "strength": "1錠中セルトラリンとして25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は図中で判読困難のため未確認（図に「セルトラリン」「25」「NP」の表記が見られる）",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8.4,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 （長径）8.4 （短径）4.1 2.7 78"
+    },
+    {
+      "product_name": "セルトラリン錠50mg「NP」",
+      "strength": "1錠中セルトラリンとして50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は図中で判読困難のため未確認（図に「セルトラリン」「50」「NP」の表記が見られる）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 7.1 3.7 155"
+    },
+    {
+      "product_name": "セルトラリン錠100mg「NP」",
+      "strength": "1錠中セルトラリンとして100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は図中で判読困難のため未確認（図に「セルトラリン」「100」「NP」の表記が見られる）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 8.6 4.1 257"
+    }
+  ],
+  "expected_products": [
+    "セルトラリン錠100mg「NP」",
+    "セルトラリン錠25mg「NP」",
+    "セルトラリン錠50mg「NP」"
+  ]
+}

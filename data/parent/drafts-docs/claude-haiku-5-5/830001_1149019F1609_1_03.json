@@ -1,0 +1,33 @@
+{
+  "id": "830001_1149019F1609_1_03",
+  "source_file": "830001_1149019F1609_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1149019F1609_1_03",
+  "extracted_at": "2026-11-09T14:01:38.549Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25046,
+    "output": 1337
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキソプロフェンNa錠60mg「YD」",
+      "strength": "60mg",
+      "imprint_front": "YD 039",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は外形図から読み取り。裏面の刻印は本文に記載がないため未確認",
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "片面に割線の入った、ごくうすい紅色の素錠"
+    }
+  ],
+  "expected_products": [
+    "ロキソプロフェンNa錠60mg「YD」"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "581120_1179041F1394_1_03",
+  "source_file": "581120_1179041F1394_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1179041F1394_1_03",
+  "extracted_at": "2026-11-09T14:10:27.107Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34000,
+    "output": 3567
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "t PX",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）の表記。表面の図に数字「5」あり",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 帯紅白色のフィルムコーティング錠 外形 直径 5.6mm 厚さ 2.5mm"
+    },
+    {
+      "product_name": "パロキセチン錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "t PX1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）の表記。表面の図に数字「10」あり",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 帯紅白色のフィルムコーティング錠 外形 直径 6.6mm 厚さ 3.7mm"
+    },
+    {
+      "product_name": "パロキセチン錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "t PX2",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）の表記。表面の図に数字「20」あり",
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 帯紅白色のフィルムコーティング錠 外形 直径 8.1mm 厚さ 4.7mm"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠5mg「NIG」"
+  ]
+}

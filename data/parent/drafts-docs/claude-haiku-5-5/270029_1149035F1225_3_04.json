@@ -1,0 +1,49 @@
+{
+  "id": "270029_1149035F1225_3_04",
+  "source_file": "270029_1149035F1225_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_1149035F1225_3_04",
+  "extracted_at": "2026-11-09T14:02:57.912Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25233,
+    "output": 2430
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メロキシカム錠5mg「クニヒロ」",
+      "strength": "5mg",
+      "imprint_front": "KSK112",
+      "imprint_back": "5",
+      "imprint_note": "裏面の「5」は外形図の表示からの読み取り",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2025年4月改訂",
+      "source_page": 1,
+      "source_quote": "色調・性状 淡黄色の素錠 / 直径 6.5mm 厚さ 2.2mm 識別コード KSK112"
+    },
+    {
+      "product_name": "メロキシカム錠10mg「クニヒロ」",
+      "strength": "10mg",
+      "imprint_front": "KSK113",
+      "imprint_back": "10",
+      "imprint_note": "裏面の「10」は外形図の表示からの読み取り",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年4月改訂",
+      "source_page": 1,
+      "source_quote": "色調・性状 淡黄色の割線入り素錠 / 直径 8.0mm 厚さ 2.8mm 識別コード KSK113"
+    }
+  ],
+  "expected_products": [
+    "メロキシカム錠5mg「クニヒロ」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "400278_1179025F1280_1_09",
+  "source_file": "400278_1179025F1280_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1179025F1280_1_09",
+  "extracted_at": "2026-11-09T14:07:11.548Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17405,
+    "output": 2989
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エチゾラム錠0.25mg「TCK」",
+      "strength": "0.25mg",
+      "imprint_front": "TU 117",
+      "imprint_back": "025",
+      "imprint_note": null,
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "エチゾラム錠0.25mg「TCK」 微赤色 フィルムコーティング錠 TU 117 5.6 2.5 63"
+    },
+    {
+      "product_name": "エチゾラム錠0.5mg「TCK」",
+      "strength": "0.5mg",
+      "imprint_front": "TU-MZ 050",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "エチゾラム錠0.5mg「TCK」 白色～微黄色 フィルムコーティング錠 TU-MZ 050 6.1 2.5 78"
+    },
+    {
+      "product_name": "エチゾラム錠1mg「TCK」",
+      "strength": "1mg",
+      "imprint_front": "TU-MZ 100",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "エチゾラム錠1mg「TCK」 白色 フィルムコーティング錠 TU-MZ 100 6.1 3.4 94"
+    }
+  ],
+  "expected_products": [
+    "エチゾラム錠0.25mg「TCK」",
+    "エチゾラム錠0.5mg「TCK」",
+    "エチゾラム錠1mg「TCK」"
+  ]
+}

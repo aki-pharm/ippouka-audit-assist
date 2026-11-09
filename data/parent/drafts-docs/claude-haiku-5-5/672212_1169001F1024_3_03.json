@@ -1,0 +1,33 @@
+{
+  "id": "672212_1169001F1024_3_03",
+  "source_file": "672212_1169001F1024_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672212_1169001F1024_3_03",
+  "extracted_at": "2026-11-09T14:04:30.459Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12640,
+    "output": 1614
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アーテン錠（2mg）",
+      "strength": "2mg",
+      "imprint_front": "LL 434",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード LL 434 は表に1つのみ記載されており、表裏の別は明記されていない。上面には社名マーク様の図あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2021年6月改訂",
+      "source_page": 1,
+      "source_quote": "アーテン錠（2mg） LL 434 白色 素錠 割線入り 直径 8.0mm 厚さ 2.5mm"
+    }
+  ],
+  "expected_products": [
+    "アーテン錠（2mg）"
+  ]
+}

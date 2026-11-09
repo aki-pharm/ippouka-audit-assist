@@ -1,0 +1,49 @@
+{
+  "id": "672173_1139004F1088_2_07",
+  "source_file": "672173_1139004F1088_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1139004F1088_2_07",
+  "extracted_at": "2026-11-09T13:59:43.009Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27692,
+    "output": 1795
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルプロ酸ナトリウム錠100mg「アメル」",
+      "strength": "100mg",
+      "imprint_front": "Kw 502",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 Kw 502 /100 黄色 直径：約 8.1mm 厚さ：約 3.6mm 質量：約 187mg"
+    },
+    {
+      "product_name": "バルプロ酸ナトリウム錠200mg「アメル」",
+      "strength": "200mg",
+      "imprint_front": "Kw 221",
+      "imprint_back": "200",
+      "imprint_note": null,
+      "color": "橙黄色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 Kw 221 /200 橙黄色 直径：約 10.1mm 厚さ：約 5.0mm 質量：約 380mg"
+    }
+  ],
+  "expected_products": [
+    "バルプロ酸ナトリウム錠100mg「アメル」"
+  ]
+}

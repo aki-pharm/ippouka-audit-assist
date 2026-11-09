@@ -1,0 +1,33 @@
+{
+  "id": "180095_1149117F1128_1_09",
+  "source_file": "180095_1149117F1128_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1149117F1128_1_09",
+  "extracted_at": "2026-11-09T14:03:50.072Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31609,
+    "output": 1497
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「オーハラ」",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg及びアセトアミノフェン325mg",
+      "imprint_front": "トアラセット配合錠オーハラ",
+      "imprint_back": "トアラセット配合錠オーハラ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.2,
+      "size_short_mm": 6.4,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂(第4版)",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡黄色 外形 長径 15.2mm 短径 6.4mm 厚さ 5.1mm 質量 431mg 識別コード トアラセット配合錠オーハラ"
+    }
+  ],
+  "expected_products": [
+    "トアラセット配合錠「オーハラ」"
+  ]
+}

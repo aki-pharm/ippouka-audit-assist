@@ -1,0 +1,49 @@
+{
+  "id": "580591_1149037F1046_1_08",
+  "source_file": "580591_1149037F1046_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1149037F1046_1_08",
+  "extracted_at": "2026-11-09T14:03:06.857Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 36490,
+    "output": 2477
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "セレコキシブ 100",
+      "imprint_back": "セレコキシブ JG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りの素錠 直径 8.0mm 厚さ 2.7mm 重量 180mg"
+    },
+    {
+      "product_name": "セレコキシブ錠200mg「JG」",
+      "strength": "200mg",
+      "imprint_front": "セレコキシブ 200 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に表裏の区別が示されていないため、裏面の刻印は未確認",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りの楕円形の素錠 長径 13.0mm 短径 6.5mm 厚さ 4.6mm 重量 360mg"
+    }
+  ],
+  "expected_products": [
+    "セレコキシブ錠100mg「JG」"
+  ]
+}

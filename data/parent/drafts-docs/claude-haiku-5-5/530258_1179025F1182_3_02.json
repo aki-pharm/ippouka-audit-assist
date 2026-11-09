@@ -1,0 +1,67 @@
+{
+  "id": "530258_1179025F1182_3_02",
+  "source_file": "530258_1179025F1182_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1179025F1182_3_02",
+  "extracted_at": "2026-11-09T14:06:43.743Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16584,
+    "output": 2256
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エチゾラム錠 0.25mg「EMEC」",
+      "strength": "0.25mg",
+      "imprint_front": "EE36",
+      "imprint_back": "0.25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠 EE36 8.0 3.3 168"
+    },
+    {
+      "product_name": "エチゾラム錠 0.5mg「EMEC」",
+      "strength": "0.5mg",
+      "imprint_front": "EE04",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠（割線入り） EE04 9.5 4.0 280"
+    },
+    {
+      "product_name": "エチゾラム錠 1mg「EMEC」",
+      "strength": "1mg",
+      "imprint_front": "EE28",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠（割線入り） EE28 9.5 4.0 280"
+    }
+  ],
+  "expected_products": [
+    "エチゾラム錠0.25mg「EMEC」",
+    "エチゾラム錠0.5mg「EMEC」",
+    "エチゾラム錠1mg「EMEC」"
+  ]
+}

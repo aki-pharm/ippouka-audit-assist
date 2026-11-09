@@ -1,0 +1,33 @@
+{
+  "id": "480235_1149019F1625_1_09",
+  "source_file": "480235_1149019F1625_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1149019F1625_1_09",
+  "extracted_at": "2026-11-09T14:01:58.936Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23353,
+    "output": 1283
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキソプロフェンNa錠60mg「トーワ」",
+      "strength": "60mg",
+      "imprint_front": "Tw109",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 片面に割線の入った、ごくうすい紅色の素錠 識別コード Tw109 直径(mm) 9.0 厚さ(mm) 3.2"
+    }
+  ],
+  "expected_products": [
+    "ロキソプロフェンNa錠60mg「トーワ」"
+  ]
+}

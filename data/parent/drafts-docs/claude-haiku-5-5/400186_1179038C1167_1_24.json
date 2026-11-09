@@ -1,0 +1,67 @@
+{
+  "id": "400186_1179038C1167_1_24",
+  "source_file": "400186_1179038C1167_1_24.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179038C1167_1_24",
+  "extracted_at": "2026-11-09T14:08:41.542Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29419,
+    "output": 2325
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドン錠1mg「タカタ」",
+      "strength": "1mg",
+      "imprint_front": "TTS 176",
+      "imprint_back": "①",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 約6.6mm 約2.9mm"
+    },
+    {
+      "product_name": "リスペリドン錠2mg「タカタ」",
+      "strength": "2mg",
+      "imprint_front": "TTS 177",
+      "imprint_back": "②",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 約7.1mm 約3.4mm"
+    },
+    {
+      "product_name": "リスペリドン錠3mg「タカタ」",
+      "strength": "3mg",
+      "imprint_front": "TTS 178",
+      "imprint_back": "③",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 約8.1mm 約3.5mm"
+    }
+  ],
+  "expected_products": [
+    "リスペリドン錠1mg「タカタ」",
+    "リスペリドン錠2mg「タカタ」",
+    "リスペリドン錠3mg「タカタ」"
+  ]
+}

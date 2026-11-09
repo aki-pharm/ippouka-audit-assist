@@ -1,0 +1,33 @@
+{
+  "id": "672173_1169010F1031_2_03",
+  "source_file": "672173_1169010F1031_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1169010F1031_2_03",
+  "extracted_at": "2026-11-09T14:04:57.189Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24740,
+    "output": 1156
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレギリン塩酸塩錠 2.5mg「アメル」",
+      "strength": "2.5mg",
+      "imprint_front": "SEL2.5",
+      "imprint_back": "Kw",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形・色 素錠 白色 直径：約 6.5mm 厚さ：約 2.4mm 質量：約 100.0mg 識別コード SEL2.5 /Kw"
+    }
+  ],
+  "expected_products": [
+    "セレギリン塩酸塩錠2.5mg「アメル」"
+  ]
+}

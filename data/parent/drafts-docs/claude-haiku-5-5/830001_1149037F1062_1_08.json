@@ -1,0 +1,50 @@
+{
+  "id": "830001_1149037F1062_1_08",
+  "source_file": "830001_1149037F1062_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1149037F1062_1_08",
+  "extracted_at": "2026-11-09T14:03:11.564Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 40240,
+    "output": 2108
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100 mg｢YD｣",
+      "strength": "1錠中 セレコキシブ 100.0mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載なし。外観図の表示は判読困難のため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの円形の素錠 直径 約8.0mm 厚さ 約2.7mm"
+    },
+    {
+      "product_name": "セレコキシブ錠200 mg｢YD｣",
+      "strength": "1錠中 セレコキシブ 200.0mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載なし。外観図の表示は判読困難のため未確認",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのだ円形の素錠 （長径）約13.0mm （短径）約6.5mm 厚さ 約5.1mm"
+    }
+  ],
+  "expected_products": [
+    "セレコキシブ錠100mg「YD」",
+    "セレコキシブ錠200mg「YD」"
+  ]
+}

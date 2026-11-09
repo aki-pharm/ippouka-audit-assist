@@ -1,0 +1,66 @@
+{
+  "id": "480235_1179038C1116_1_28",
+  "source_file": "480235_1179038C1116_1_28.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179038C1116_1_28",
+  "extracted_at": "2026-11-09T14:08:40.455Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29547,
+    "output": 2166
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドン錠1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "Tw013",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の割線入りのフィルムコーティング錠 識別コード Tw013 直径(mm) 6.6 厚さ(mm) 2.8"
+    },
+    {
+      "product_name": "リスペリドン錠2mg「トーワ」",
+      "strength": "2mg",
+      "imprint_front": "Tw014",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": false,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 識別コード Tw014 直径(mm) 7.1 厚さ(mm) 3.7"
+    },
+    {
+      "product_name": "リスペリドン錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "Tw015",
+      "imprint_back": "3",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": false,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色のフィルムコーティング錠 識別コード Tw015 直径(mm) 8.1 厚さ(mm) 4.2"
+    }
+  ],
+  "expected_products": [
+    "リスペリドン錠1mg「トーワ」",
+    "リスペリドン錠2mg「トーワ」"
+  ]
+}

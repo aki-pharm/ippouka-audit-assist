@@ -1,0 +1,99 @@
+{
+  "id": "780009_1179042F1194_1_08",
+  "source_file": "780009_1179042F1194_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1179042F1194_1_08",
+  "extracted_at": "2026-11-09T14:11:25.026Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28301,
+    "output": 4548
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠12.5mg「明治」",
+      "strength": "12.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像の刻印が判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 1.7,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色 直径（mm）5.1 厚さ（mm）1.7 重量（mg）42"
+    },
+    {
+      "product_name": "クエチアピン錠25mg「明治」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像の刻印が判読できないため未確認",
+      "color": "うすい黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 うすい黄みの赤色 直径（mm）6.1 厚さ（mm）2.5 重量（mg）73"
+    },
+    {
+      "product_name": "クエチアピン錠50mg「明治」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像の刻印が判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 白色 直径（mm）7.1 厚さ（mm）3.5 重量（mg）145"
+    },
+    {
+      "product_name": "クエチアピン錠100mg「明治」",
+      "strength": "100mg",
+      "imprint_front": "MS 041",
+      "imprint_back": "クエチアピン100",
+      "imprint_note": null,
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 うすい黄色 直径（mm）8.6 厚さ（mm）4.4 重量（mg）257"
+    },
+    {
+      "product_name": "クエチアピン錠200mg「明治」",
+      "strength": "200mg",
+      "imprint_front": "MS 042",
+      "imprint_back": "クエチアピン200",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.5,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色 直径（mm）11.1 厚さ（mm）5.5 重量（mg）514"
+    }
+  ],
+  "expected_products": [
+    "クエチアピン錠12.5mg「明治」",
+    "クエチアピン錠25mg「明治」",
+    "クエチアピン錠50mg「明治」"
+  ]
+}

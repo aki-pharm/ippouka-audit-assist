@@ -1,0 +1,50 @@
+{
+  "id": "830001_1129009F1173_1_11",
+  "source_file": "830001_1129009F1173_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1129009F1173_1_11",
+  "extracted_at": "2026-11-09T13:57:32.705Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23422,
+    "output": 1323
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の片面割線入りフィルムコーティング錠 直径 約6.6mm 厚さ 約2.7mm"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の片面割線入りフィルムコーティング錠 直径 約8.6mm 厚さ 約3.3mm"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠10mg「YD」",
+    "ゾルピデム酒石酸塩錠5mg「YD」"
+  ]
+}

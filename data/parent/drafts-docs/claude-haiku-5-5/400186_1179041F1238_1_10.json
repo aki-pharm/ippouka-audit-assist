@@ -1,0 +1,65 @@
+{
+  "id": "400186_1179041F1238_1_10",
+  "source_file": "400186_1179041F1238_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179041F1238_1_10",
+  "extracted_at": "2026-11-09T14:10:52.553Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37876,
+    "output": 2733
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠 5mg「タカタ」",
+      "strength": "5mg",
+      "imprint_front": "TTS-770",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "帯紅白色のフィルムコーティング錠 TTS-770 直径 約5.6mm 重さ 約0.068g 厚さ 約2.2mm"
+    },
+    {
+      "product_name": "パロキセチン錠 10mg「タカタ」",
+      "strength": "10mg",
+      "imprint_front": "TTS-771",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "帯紅白色のフィルムコーティング錠 TTS-771 直径 約6.6mm 重さ 約0.136g 厚さ 約2.8mm"
+    },
+    {
+      "product_name": "パロキセチン錠 20mg「タカタ」",
+      "strength": "20mg",
+      "imprint_front": "TTS-772",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "帯紅白色のフィルムコーティング錠 TTS-772 直径 約7.6mm 重さ 約0.268g 厚さ 約4.2mm"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠5mg「タカタ」"
+  ]
+}

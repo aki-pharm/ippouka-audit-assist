@@ -1,0 +1,84 @@
+{
+  "id": "300119_1179040F1098_1_18",
+  "source_file": "300119_1179040F1098_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179040F1098_1_18",
+  "extracted_at": "2026-11-09T14:09:30.119Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24333,
+    "output": 2575
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルナシプラン塩酸塩錠12.5mg「サワイ」",
+      "strength": "12.5mg",
+      "imprint_front": "SW 57",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい赤橙色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 うすい赤橙色 淡黄色 白色～微黄白色 淡紅色 直径（mm） 5.1 6.1 6.1 7.1 厚さ（mm） 2.3 2.5 2.7 3.1 識別コード SW 57 SW ML15 SW ML25 SW ML50"
+    },
+    {
+      "product_name": "ミルナシプラン塩酸塩錠15mg「サワイ」",
+      "strength": "15mg",
+      "imprint_front": "SW ML15",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 うすい赤橙色 淡黄色 白色～微黄白色 淡紅色 直径（mm） 5.1 6.1 6.1 7.1 厚さ（mm） 2.3 2.5 2.7 3.1 識別コード SW 57 SW ML15 SW ML25 SW ML50"
+    },
+    {
+      "product_name": "ミルナシプラン塩酸塩錠25mg「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "SW ML25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 うすい赤橙色 淡黄色 白色～微黄白色 淡紅色 直径（mm） 5.1 6.1 6.1 7.1 厚さ（mm） 2.3 2.5 2.7 3.1 識別コード SW 57 SW ML15 SW ML25 SW ML50"
+    },
+    {
+      "product_name": "ミルナシプラン塩酸塩錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW ML50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 フィルムコーティング錠 割線入りフィルムコーティング錠 性 状 うすい赤橙色 淡黄色 白色～微黄白色 淡紅色 直径（mm） 5.1 6.1 6.1 7.1 厚さ（mm） 2.3 2.5 2.7 3.1 識別コード SW 57 SW ML15 SW ML25 SW ML50"
+    }
+  ],
+  "expected_products": [
+    "ミルナシプラン塩酸塩錠12.5mg「サワイ」",
+    "ミルナシプラン塩酸塩錠15mg「サワイ」",
+    "ミルナシプラン塩酸塩錠25mg「サワイ」",
+    "ミルナシプラン塩酸塩錠50mg「サワイ」"
+  ]
+}

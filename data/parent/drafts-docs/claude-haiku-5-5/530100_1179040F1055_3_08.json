@@ -1,0 +1,83 @@
+{
+  "id": "530100_1179040F1055_3_08",
+  "source_file": "530100_1179040F1055_3_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179040F1055_3_08",
+  "extracted_at": "2026-11-09T14:09:20.720Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25615,
+    "output": 2673
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミルナシプラン塩酸塩錠12.5mg「NP」",
+      "strength": "12.5mg",
+      "imprint_front": "NP－022",
+      "imprint_back": "未確認",
+      "imprint_note": "表に社名マーク（NP）と識別コードNP－022の記載あり。裏面の刻印は文書に明記なし",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡紅色のフィルムコーティング錠 6.6 3.6 124 NP－022"
+    },
+    {
+      "product_name": "ミルナシプラン塩酸塩錠15mg「NP」",
+      "strength": "15mg",
+      "imprint_front": "NP－003",
+      "imprint_back": "未確認",
+      "imprint_note": "表に社名マーク（NP）と識別コードNP－003の記載あり。裏面の刻印は文書に明記なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄色のフィルムコーティング錠 NP 003 6.6 3.6 124 NP－003"
+    },
+    {
+      "product_name": "ミルナシプラン塩酸塩錠25mg「NP」",
+      "strength": "25mg",
+      "imprint_front": "NP－013",
+      "imprint_back": "未確認",
+      "imprint_note": "表に社名マーク（NP）と識別コードNP－013の記載あり。裏面の刻印は文書に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 NP 013 6.6 3.7 124 NP－013"
+    },
+    {
+      "product_name": "ミルナシプラン塩酸塩錠50mg「NP」",
+      "strength": "50mg",
+      "imprint_front": "NP－023",
+      "imprint_back": "未確認",
+      "imprint_note": "表に社名マーク（NP）と識別コードNP－023の記載あり。裏面の刻印は文書に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 NP 023 8.1 4.3 206 NP－023"
+    }
+  ],
+  "expected_products": [
+    "ミルナシプラン塩酸塩錠12.5mg「NP」",
+    "ミルナシプラン塩酸塩錠15mg「NP」",
+    "ミルナシプラン塩酸塩錠50mg「NP」"
+  ]
+}

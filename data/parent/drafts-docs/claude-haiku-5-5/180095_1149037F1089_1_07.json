@@ -1,0 +1,49 @@
+{
+  "id": "180095_1149037F1089_1_07",
+  "source_file": "180095_1149037F1089_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1149037F1089_1_07",
+  "extracted_at": "2026-11-09T14:03:15.205Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37846,
+    "output": 1957
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「オーハラ」",
+      "strength": "100mg",
+      "imprint_front": "セレコキシブ 100 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色・割線入り素錠 白色・割線入り素錠 大きさ（mm） 直径：8.0 長径：13.0　短径：6.5 厚さ（mm） 2.8 5.2 識別コード セレコキシブ 100 オーハラ セレコキシブ 200 オーハラ"
+    },
+    {
+      "product_name": "セレコキシブ錠200mg「オーハラ」",
+      "strength": "200mg",
+      "imprint_front": "セレコキシブ 200 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色・割線入り素錠 白色・割線入り素錠 大きさ（mm） 直径：8.0 長径：13.0　短径：6.5 厚さ（mm） 2.8 5.2 識別コード セレコキシブ 100 オーハラ セレコキシブ 200 オーハラ"
+    }
+  ],
+  "expected_products": [
+    "セレコキシブ錠100mg「オーハラ」"
+  ]
+}

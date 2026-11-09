@@ -1,0 +1,33 @@
+{
+  "id": "581120_1141007F1233_1_04",
+  "source_file": "581120_1141007F1233_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1141007F1233_1_04",
+  "extracted_at": "2026-11-09T14:00:36.698Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15285,
+    "output": 1118
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アセトアミノフェン錠200mg「NIG」",
+      "strength": "200mg",
+      "imprint_front": "t 309",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 外形 直径 9.0mm 厚さ 3.1mm 質量 230mg 識別コード（PTP） t 309"
+    }
+  ],
+  "expected_products": [
+    "アセトアミノフェン錠200mg「NIG」"
+  ]
+}

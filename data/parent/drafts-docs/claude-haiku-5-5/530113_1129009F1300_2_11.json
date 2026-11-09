@@ -1,0 +1,50 @@
+{
+  "id": "530113_1129009F1300_2_11",
+  "source_file": "530113_1129009F1300_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1129009F1300_2_11",
+  "extracted_at": "2026-11-09T13:58:00.674Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15732,
+    "output": 2248
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "NS 153",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に数字「5」の表示あり（本文の記載はなし）",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性 状 淡いだいだい色の片面割線入りの フィルムコーティング錠 外形 大きさ 錠径：6.6mm 錠厚：2.6mm 重量： 93mg 識別コード NS 153"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "NS 154",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に数字「10」の表示あり（本文の記載はなし）",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性 状 淡いだいだい色の片面割線入りの フィルムコーティング錠 外形 大きさ 錠径：8.6mm 錠厚：3.1mm 重量：186mg 識別コード NS 154"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠10mg「日新」",
+    "ゾルピデム酒石酸塩錠5mg「日新」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "670126_1179017F1072_1_11",
+  "source_file": "670126_1179017F1072_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670126_1179017F1072_1_11",
+  "extracted_at": "2026-11-09T14:06:17.628Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21963,
+    "output": 2047
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "炭酸リチウム錠100mg「フジナガ」",
+      "strength": "100mg",
+      "imprint_front": "L1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色 L1 7.0 3.2 154"
+    },
+    {
+      "product_name": "炭酸リチウム錠200mg「フジナガ」",
+      "strength": "200mg",
+      "imprint_front": "L2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色 L2 8.5 4.6 306"
+    }
+  ],
+  "expected_products": [
+    "炭酸リチウム錠100mg「フジナガ」",
+    "炭酸リチウム錠200mg「フジナガ」"
+  ]
+}

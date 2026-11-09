@@ -1,0 +1,50 @@
+{
+  "id": "530258_1174006F1078_3_12",
+  "source_file": "530258_1174006F1078_3_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1174006F1078_3_12",
+  "extracted_at": "2026-11-09T14:05:34.925Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22261,
+    "output": 2490
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トフラニール錠 10mg",
+      "strength": "10mg",
+      "imprint_front": "NF 332",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "灰赤色",
+      "shape": "other",
+      "size_long_mm": 6.1,
+      "size_short_mm": null,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "トフラニール 錠 10mg 灰赤色の糖衣錠 NF 332 6.1 3.5 110"
+    },
+    {
+      "product_name": "トフラニール錠 25mg",
+      "strength": "25mg",
+      "imprint_front": "NF 333",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "灰赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "トフラニール 錠 25mg 灰赤色の糖衣錠 NF 333 6.0 3.6 110"
+    }
+  ],
+  "expected_products": [
+    "トフラニール錠10mg",
+    "トフラニール錠25mg"
+  ]
+}

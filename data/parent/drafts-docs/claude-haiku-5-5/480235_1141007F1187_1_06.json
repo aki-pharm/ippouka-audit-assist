@@ -1,0 +1,33 @@
+{
+  "id": "480235_1141007F1187_1_06",
+  "source_file": "480235_1141007F1187_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1141007F1187_1_06",
+  "extracted_at": "2026-11-09T14:00:46.496Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15258,
+    "output": 1354
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アセトアミノフェン錠200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "Tw151",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図上に刻印の記載が見られない（「なし」とは明記されていない）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠で、わずかにメントールのにおいがあり、味は甘く、のちに苦い。"
+    }
+  ],
+  "expected_products": [
+    "アセトアミノフェン錠200mg「トーワ」"
+  ]
+}

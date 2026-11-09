@@ -1,0 +1,50 @@
+{
+  "id": "530169_1179002F1068_3_10",
+  "source_file": "530169_1179002F1068_3_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179002F1068_3_10",
+  "extracted_at": "2026-11-09T14:05:41.651Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20307,
+    "output": 1924
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリプタノール錠10",
+      "strength": "1錠中アミトリプチリン塩酸塩10mg",
+      "imprint_front": "n 542",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は社名マーク（n）と識別コード542。裏面は図上に刻印の表示なし",
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 青色 表面 n 542 裏面 直径（mm） 6.4 厚さ（mm） 3.3 本体コード n 542"
+    },
+    {
+      "product_name": "トリプタノール錠25",
+      "strength": "1錠中アミトリプチリン塩酸塩25mg",
+      "imprint_front": "n 543",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は社名マーク（n）と識別コード543。裏面は図上に刻印の表示なし",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.4,
+      "size_short_mm": 6.4,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 黄色 表面 n 543 裏面 直径（mm） 6.4 厚さ（mm） 3.3 本体コード n 543"
+    }
+  ],
+  "expected_products": [
+    "トリプタノール錠10",
+    "トリプタノール錠25"
+  ]
+}

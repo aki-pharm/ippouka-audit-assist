@@ -1,0 +1,50 @@
+{
+  "id": "480235_1179016F1183_1_09",
+  "source_file": "480235_1179016F1183_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179016F1183_1_09",
+  "extracted_at": "2026-11-09T14:06:14.828Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14139,
+    "output": 1940
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スルピリド錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw399",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は図に表示がなく、文言での明記もないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード Tw399 直径(mm) 7.1 厚さ(mm) 3.8"
+    },
+    {
+      "product_name": "スルピリド錠200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "Tw398",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は図に表示がなく、文言での明記もないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード Tw398 直径(mm) 9.2 厚さ(mm) 4.7"
+    }
+  ],
+  "expected_products": [
+    "スルピリド錠100mg「トーワ」",
+    "スルピリド錠200mg「トーワ」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "530169_1149029F1130_1_11",
+  "source_file": "530169_1149029F1130_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1149029F1130_1_11",
+  "extracted_at": "2026-11-09T14:02:44.709Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16182,
+    "output": 1692
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ザルトプロフェン錠80mg「日医工」",
+      "strength": "80mg",
+      "imprint_front": "774",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マークと774を併記（本体コード774、包装コード774）。裏面は図上に刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 フィルムコーティング錠 色 調 白色 直径(mm) 7.6 厚さ(mm) 3.2 質量(mg) 150 本体コード 774 包装コード 774"
+    }
+  ],
+  "expected_products": [
+    "ザルトプロフェン錠80mg「日医工」"
+  ]
+}

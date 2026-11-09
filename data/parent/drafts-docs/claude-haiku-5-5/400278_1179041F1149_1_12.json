@@ -1,0 +1,65 @@
+{
+  "id": "400278_1179041F1149_1_12",
+  "source_file": "400278_1179041F1149_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1179041F1149_1_12",
+  "extracted_at": "2026-11-09T14:10:31.499Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 38910,
+    "output": 2182
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "TU 131",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印のみ記載あり。裏面の記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠5mg「TCK」 白色 フィルムコーティング錠（割線入り） TU 131 6.6 3.8 179"
+    },
+    {
+      "product_name": "パロキセチン錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "TU 132",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印のみ記載あり。裏面の記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠10mg「TCK」 白色 フィルムコーティング錠 TU 132 6.6 3.8 179"
+    },
+    {
+      "product_name": "パロキセチン錠20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "TU 133",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印のみ記載あり。裏面の記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 5,
+      "score_line": false,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠20mg「TCK」 白色 フィルムコーティング錠 TU 133 8.1 5.0 358"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠5mg「TCK」"
+  ]
+}

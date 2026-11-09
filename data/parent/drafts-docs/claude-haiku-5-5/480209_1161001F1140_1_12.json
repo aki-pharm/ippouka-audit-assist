@@ -1,0 +1,50 @@
+{
+  "id": "480209_1161001F1140_1_12",
+  "source_file": "480209_1161001F1140_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1161001F1140_1_12",
+  "extracted_at": "2026-11-09T14:04:18.751Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22325,
+    "output": 1758
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマンタジン塩酸塩錠50mg「杏林」",
+      "strength": "50mg",
+      "imprint_front": "PH163",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして記載。表裏の区別は添付文書に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 直径(mm) 7.1 厚さ(mm) 3.8 質量(mg) 125 識別コード PH163"
+    },
+    {
+      "product_name": "アマンタジン塩酸塩錠100mg「杏林」",
+      "strength": "100mg",
+      "imprint_front": "PH164",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして記載。表裏の区別は添付文書に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 直径(mm) 8.2 厚さ(mm) 4.1 質量(mg) 170 識別コード PH164"
+    }
+  ],
+  "expected_products": [
+    "アマンタジン塩酸塩錠100mg「杏林」",
+    "アマンタジン塩酸塩錠50mg「杏林」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "400186_1179044F4087_1_14",
+  "source_file": "400186_1179044F4087_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179044F4087_1_14",
+  "extracted_at": "2026-11-09T14:12:33.035Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28750,
+    "output": 2361
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピンOD錠2.5mg「タカタ」",
+      "strength": "2.5mg",
+      "imprint_front": "OD2.5",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は画像で判読困難のため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の裸錠 直径 約7mm 重さ 約0.12g 厚さ 約2.7mm"
+    },
+    {
+      "product_name": "オランザピンOD錠5mg「タカタ」",
+      "strength": "5mg",
+      "imprint_front": "OD5",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は画像で判読困難のため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の裸錠 直径 約8mm 重さ 約0.2g 厚さ 約3.4mm"
+    },
+    {
+      "product_name": "オランザピンOD錠10mg「タカタ」",
+      "strength": "10mg",
+      "imprint_front": "OD10",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は画像で判読困難のため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の裸錠 直径 約9mm 重さ 約0.3g 厚さ 約4.0mm"
+    }
+  ],
+  "expected_products": [
+    "オランザピンOD錠10mg「タカタ」",
+    "オランザピンOD錠2.5mg「タカタ」"
+  ]
+}

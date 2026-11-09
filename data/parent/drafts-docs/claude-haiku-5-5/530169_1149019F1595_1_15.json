@@ -1,0 +1,33 @@
+{
+  "id": "530169_1149019F1595_1_15",
+  "source_file": "530169_1149019F1595_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1149019F1595_1_15",
+  "extracted_at": "2026-11-09T14:02:24.201Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21871,
+    "output": 1519
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキソプロフェンナトリウム錠60mg「日医工」",
+      "strength": "60mg",
+      "imprint_front": "n 777",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は外形図上に刻印が見当たらないが、文言での記載はなし。表面の「n」は社名マークと思われるが、文書上の明記はなし",
+      "color": "ごく薄い紅色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 片面に割線の入った素錠 色調 ごく薄い紅色 直径（mm） 8.0 厚さ（mm） 3.0 質量（mg） 190 本体コード 777 包装コード 777"
+    }
+  ],
+  "expected_products": [
+    "ロキソプロフェンナトリウム錠60mg「日医工」"
+  ]
+}

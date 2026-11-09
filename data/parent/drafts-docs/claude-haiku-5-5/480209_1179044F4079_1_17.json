@@ -1,0 +1,67 @@
+{
+  "id": "480209_1179044F4079_1_17",
+  "source_file": "480209_1179044F4079_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1179044F4079_1_17",
+  "extracted_at": "2026-11-09T14:13:02.914Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 41070,
+    "output": 1947
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピンOD錠2.5mg「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "オランザピン OD 2.5 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 微黄色～淡黄色 / 直径(mm) 6.1 8.1 10.1 厚さ(mm) 3.0 3.5 4.5"
+    },
+    {
+      "product_name": "オランザピンOD錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "オランザピン OD 5 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 微黄色～淡黄色 / 直径(mm) 6.1 8.1 10.1 厚さ(mm) 3.0 3.5 4.5"
+    },
+    {
+      "product_name": "オランザピンOD錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "オランザピン OD 10 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 微黄色～淡黄色 / 直径(mm) 6.1 8.1 10.1 厚さ(mm) 3.0 3.5 4.5"
+    }
+  ],
+  "expected_products": [
+    "オランザピンOD錠10mg「杏林」",
+    "オランザピンOD錠2.5mg「杏林」",
+    "オランザピンOD錠5mg「杏林」"
+  ]
+}

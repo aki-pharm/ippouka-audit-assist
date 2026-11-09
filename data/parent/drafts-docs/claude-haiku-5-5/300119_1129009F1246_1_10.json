@@ -1,0 +1,83 @@
+{
+  "id": "300119_1129009F1246_1_10",
+  "source_file": "300119_1129009F1246_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1129009F1246_1_10",
+  "extracted_at": "2026-11-09T13:57:06.920Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24616,
+    "output": 3465
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW Z1",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の下段に「5」の表示あり。表裏の区別は本文に記載なし",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 性状 淡いだいだい色 直径（mm）6.6 厚さ（mm）2.8 識別コード SW Z1"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW Z2",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の下段に「10」の表示あり。表裏の区別は本文に記載なし",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 性状 淡いだいだい色 直径（mm）8.6 厚さ（mm）3.3 識別コード SW Z2"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩OD錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW ZL1",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の下段に「5」の表示あり。表裏の区別は本文に記載なし",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 淡赤色 直径（mm）6.5 厚さ（mm）2.7 識別コード SW ZL1"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩OD錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW ZL2",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の下段に「10」の表示あり。表裏の区別は本文に記載なし",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 淡赤色 直径（mm）8.5 厚さ（mm）3.3 識別コード SW ZL2"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩OD錠5mg「サワイ」",
+    "ゾルピデム酒石酸塩錠10mg「サワイ」",
+    "ゾルピデム酒石酸塩錠5mg「サワイ」"
+  ]
+}

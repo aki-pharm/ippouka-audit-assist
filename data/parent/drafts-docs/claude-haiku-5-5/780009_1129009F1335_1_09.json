@@ -1,0 +1,50 @@
+{
+  "id": "780009_1129009F1335_1_09",
+  "source_file": "780009_1129009F1335_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_1129009F1335_1_09",
+  "extracted_at": "2026-11-09T13:58:01.481Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20630,
+    "output": 1966
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「明治」",
+      "strength": "5mg",
+      "imprint_front": "MS 032",
+      "imprint_back": "5",
+      "imprint_note": "表面は社名マーク「MS」と識別コードの組み合わせと判読（図からの読み取りのため要確認）。裏面は「5」",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "割線入り フィルムコーティング錠 淡いだいだい色 直径（mm） 6.6 厚さ（mm） 2.7 重量（mg） 93.6"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「明治」",
+      "strength": "10mg",
+      "imprint_front": "MS 033",
+      "imprint_back": "10",
+      "imprint_note": "表面は社名マーク「MS」と識別コードの組み合わせと判読（図からの読み取りのため要確認）。裏面は「10」",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "割線入り フィルムコーティング錠 淡いだいだい色 直径（mm） 8.6 厚さ（mm） 3.2 重量（mg） 186"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠10mg「明治」",
+    "ゾルピデム酒石酸塩錠5mg「明治」"
+  ]
+}

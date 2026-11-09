@@ -1,0 +1,83 @@
+{
+  "id": "672173_1179044F4060_2_05",
+  "source_file": "672173_1179044F4060_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179044F4060_2_05",
+  "extracted_at": "2026-11-09T14:12:35.341Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 41384,
+    "output": 3974
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピン OD 錠 1.25mg「アメル」",
+      "strength": "1.25mg",
+      "imprint_front": "KW OLZ OD1.25",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表記のみ記載。表裏の別は添付文書の表記から判別できず",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "素錠 KW OLZ OD1.25 黄色 直径：約 7.0mm 厚さ：約 3.2mm 質量：約 130.0mg"
+    },
+    {
+      "product_name": "オランザピン OD 錠 2.5mg「アメル」",
+      "strength": "2.5mg",
+      "imprint_front": "オランザピン 2.5 OD アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表記のみ記載。表裏の別は添付文書の表記から判別できず",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 オランザピン 2.5 OD アメル 黄色 直径：約 7.0mm 厚さ：約 3.2mm 質量：約 130.0mg"
+    },
+    {
+      "product_name": "オランザピン OD 錠 5mg「アメル」",
+      "strength": "5mg",
+      "imprint_front": "オランザピン 5 OD アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表記のみ記載。表裏の別は添付文書の表記から判別できず",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 オランザピン 5 OD アメル 黄色 直径：約 8.0mm 厚さ：約 3.7mm 質量：約 200.0mg"
+    },
+    {
+      "product_name": "オランザピン OD 錠 10mg「アメル」",
+      "strength": "10mg",
+      "imprint_front": "オランザピン 10 OD アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表記のみ記載。表裏の別は添付文書の表記から判別できず",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 2,
+      "source_quote": "割線入り素錠 オランザピン 10 OD アメル 黄色 直径：約 10.0mm 厚さ：約 4.9mm 質量：約 400.0mg"
+    }
+  ],
+  "expected_products": [
+    "オランザピンOD錠10mg「アメル」",
+    "オランザピンOD錠2.5mg「アメル」",
+    "オランザピンOD錠5mg「アメル」"
+  ]
+}

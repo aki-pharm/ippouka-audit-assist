@@ -1,0 +1,65 @@
+{
+  "id": "730869_1179041F1378_1_05",
+  "source_file": "730869_1179041F1378_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_1179041F1378_1_05",
+  "extracted_at": "2026-11-09T14:10:33.354Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33556,
+    "output": 2250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "PX 5",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠5mg＊「VTRS」 PX 5 VLE 白色 割線入り 直径 フィルムコーティング錠 6.6mm 厚さ 3.8mm 重量 179mg"
+    },
+    {
+      "product_name": "パロキセチン錠10mg「VTRS」",
+      "strength": "10mg",
+      "imprint_front": "PX 10",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠10mg「VTRS」 PX 10 VLE 白色 フィルムコーティング錠 直径 6.6mm 厚さ 3.8mm 重量 179mg"
+    },
+    {
+      "product_name": "パロキセチン錠20mg「VTRS」",
+      "strength": "20mg",
+      "imprint_front": "PX 20",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 5.1,
+      "score_line": false,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "パロキセチン錠20mg「VTRS」 PX 20 VLE 白色 フィルムコーティング錠 直径 8.1mm 厚さ 5.1mm 重量 358mg"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠5mg「VTRS」"
+  ]
+}

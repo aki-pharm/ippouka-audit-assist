@@ -1,0 +1,33 @@
+{
+  "id": "270139_1149019F1757_1_06",
+  "source_file": "270139_1149019F1757_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270139_1149019F1757_1_06",
+  "extracted_at": "2026-11-09T14:01:26.741Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27968,
+    "output": 1498
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキソプロフェン Na 錠 60 ㎎「KO」",
+      "strength": "60 ㎎",
+      "imprint_front": "KTB 44",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に識別コード KTB44 の刻印。裏面は外形図上で刻印は見当たらないが、「なし」とは明記されていないため未確認とした。",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2025年10月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 淡紅色 剤形 割線入り素錠 直径（㎜） 9.0 厚さ（㎜） 4.1 質量（㎎） 250 識別コード KTB44"
+    }
+  ],
+  "expected_products": [
+    "ロキソプロフェンNa錠60mg「KO」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "260024_1141007F1241_1_03",
+  "source_file": "260024_1141007F1241_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/260024_1141007F1241_1_03",
+  "extracted_at": "2026-11-09T14:00:44.539Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18344,
+    "output": 2642
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アセトアミノフェン錠200mg「ケンエー」",
+      "strength": "200mg",
+      "imprint_front": "アセトアミノフェン200ケンエー",
+      "imprint_back": "アセトアミノフェン200ケンエー",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "本品は白色の割線入り素錠である。"
+    },
+    {
+      "product_name": "アセトアミノフェン錠300mg「ケンエー」",
+      "strength": "300mg",
+      "imprint_front": "アセトアミノフェン300ケンエー",
+      "imprint_back": "アセトアミノフェン300ケンエー",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "本品は白色の割線入り素錠である。"
+    },
+    {
+      "product_name": "アセトアミノフェン錠500mg「ケンエー」",
+      "strength": "500mg",
+      "imprint_front": "アセトアミノフェン500ケンエー",
+      "imprint_back": "アセトアミノフェン500ケンエー",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 16.5,
+      "size_short_mm": 8,
+      "thickness_mm": 5.95,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "本品は白色の割線入り素錠である。"
+    }
+  ],
+  "expected_products": [
+    "アセトアミノフェン錠200mg「ケンエー」",
+    "アセトアミノフェン錠300mg「ケンエー」"
+  ]
+}

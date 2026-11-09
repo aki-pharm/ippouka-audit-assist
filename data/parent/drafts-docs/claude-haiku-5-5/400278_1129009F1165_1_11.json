@@ -1,0 +1,50 @@
+{
+  "id": "400278_1129009F1165_1_11",
+  "source_file": "400278_1129009F1165_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1129009F1165_1_11",
+  "extracted_at": "2026-11-09T13:57:33.553Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24361,
+    "output": 1720
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "TU 103",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色 フィルムコーティング錠（割線入り） TU 103 6.6 2.7 93"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "TU 105",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色 フィルムコーティング錠（割線入り） TU 105 8.6 3.3 185"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠10mg「TCK」",
+    "ゾルピデム酒石酸塩錠5mg「TCK」"
+  ]
+}

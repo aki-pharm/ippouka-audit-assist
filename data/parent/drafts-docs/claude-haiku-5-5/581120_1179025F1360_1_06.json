@@ -1,0 +1,67 @@
+{
+  "id": "581120_1179025F1360_1_06",
+  "source_file": "581120_1179025F1360_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1179025F1360_1_06",
+  "extracted_at": "2026-11-09T14:06:55.432Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15392,
+    "output": 2456
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エチゾラム錠0.25mg「NIG」",
+      "strength": "0.25mg",
+      "imprint_front": "DZ025",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」欄の表記（DZ025）。表・裏の刻印の位置は本文に明記なし",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 微赤色のフィルムコーティング錠／外形 直径 5.6mm 厚さ 2.5mm／識別コード（PTP） DZ025"
+    },
+    {
+      "product_name": "エチゾラム錠0.5mg「NIG」",
+      "strength": "0.5mg",
+      "imprint_front": "DZ0.5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」欄の表記（DZ0.5）。表・裏の刻印の位置は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠／外形 直径 6.1mm 厚さ 3.4mm／識別コード（PTP） DZ0.5"
+    },
+    {
+      "product_name": "エチゾラム錠1mg「NIG」",
+      "strength": "1mg",
+      "imprint_front": "DZ1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「識別コード（PTP）」欄の表記（DZ1）。表・裏の刻印の位置は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠／外形 直径 6.1mm 厚さ 3.4mm／識別コード（PTP） DZ1"
+    }
+  ],
+  "expected_products": [
+    "エチゾラム錠0.25mg「NIG」",
+    "エチゾラム錠0.5mg「NIG」",
+    "エチゾラム錠1mg「NIG」"
+  ]
+}

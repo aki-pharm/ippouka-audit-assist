@@ -1,0 +1,50 @@
+{
+  "id": "380087_1161001F1115_1_19",
+  "source_file": "380087_1161001F1115_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1161001F1115_1_19",
+  "extracted_at": "2026-11-09T14:04:03.015Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22587,
+    "output": 1988
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマンタジン塩酸塩錠50mg「ZE」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書本文に刻印の記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡黄色 剤形 フィルムコーティング錠 外形 錠径（mm） 7.1 7.6 厚み（mm） 3.7 4.4 重量（mg） 119 166"
+    },
+    {
+      "product_name": "アマンタジン塩酸塩錠100mg「ZE」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書本文に刻印の記載なし",
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 7.6,
+      "size_short_mm": null,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡黄色 剤形 フィルムコーティング錠 外形 錠径（mm） 7.1 7.6 厚み（mm） 3.7 4.4 重量（mg） 119 166"
+    }
+  ],
+  "expected_products": [
+    "アマンタジン塩酸塩錠100mg「ZE」",
+    "アマンタジン塩酸塩錠50mg「ZE」"
+  ]
+}

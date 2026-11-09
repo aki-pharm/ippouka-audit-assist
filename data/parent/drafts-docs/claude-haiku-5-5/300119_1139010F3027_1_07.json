@@ -1,0 +1,50 @@
+{
+  "id": "300119_1139010F3027_1_07",
+  "source_file": "300119_1139010F3027_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1139010F3027_1_07",
+  "extracted_at": "2026-11-09T14:00:31.753Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 36001,
+    "output": 1749
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム粒状錠250mg「サワイ」",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書に刻印の記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 2.1,
+      "size_short_mm": 2.1,
+      "thickness_mm": 2.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 小型フィルムコーティング錠 性状 白色～微黄白色 直径（mm） 2.1 厚さ（mm） 2.1"
+    },
+    {
+      "product_name": "レベチラセタム粒状錠500mg「サワイ」",
+      "strength": "500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書に刻印の記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 2.1,
+      "size_short_mm": 2.1,
+      "thickness_mm": 2.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 小型フィルムコーティング錠 性状 白色～微黄白色 直径（mm） 2.1 厚さ（mm） 2.1"
+    }
+  ],
+  "expected_products": [
+    "レベチラセタム粒状錠250mg「サワイ」",
+    "レベチラセタム粒状錠500mg「サワイ」"
+  ]
+}

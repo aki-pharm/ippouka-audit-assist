@@ -1,0 +1,49 @@
+{
+  "id": "400093_1139004F1126_1_08",
+  "source_file": "400093_1139004F1126_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400093_1139004F1126_1_08",
+  "extracted_at": "2026-11-09T13:59:41.536Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27046,
+    "output": 1568
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルプロ酸ナトリウム錠100mg「DSP」",
+      "strength": "100mg",
+      "imprint_front": "P721",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の糖衣錠 大きさ 直径(mm) 約8.1 厚さ(mm) 約4.3 重さ(mg) 約175 識別コード P721"
+    },
+    {
+      "product_name": "バルプロ酸ナトリウム錠200mg「DSP」",
+      "strength": "200mg",
+      "imprint_front": "P722",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の糖衣錠 大きさ 直径(mm) 約10.1 厚さ(mm) 約5.3 重さ(mg) 約330 識別コード P722"
+    }
+  ],
+  "expected_products": [
+    "バルプロ酸ナトリウム錠100mg「DSP」"
+  ]
+}

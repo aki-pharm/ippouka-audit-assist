@@ -1,0 +1,50 @@
+{
+  "id": "460028_1161001C1151_1_04",
+  "source_file": "460028_1161001C1151_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1161001C1151_1_04",
+  "extracted_at": "2026-11-09T14:04:11.407Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18350,
+    "output": 1863
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマンタジン塩酸塩錠50mg「ツルハラ」",
+      "strength": "50mg",
+      "imprint_front": "010",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白～微黄白色 外形 大きさ 直径 約 6.5mm 厚さ 約 3.9mm 識別コード 010"
+    },
+    {
+      "product_name": "アマンタジン塩酸塩錠100mg「ツルハラ」",
+      "strength": "100mg",
+      "imprint_front": "TSU011",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白～微黄白色 外形 大きさ 直径 約 8.2mm 厚さ 約 3.8mm 識別コード TSU011"
+    }
+  ],
+  "expected_products": [
+    "アマンタジン塩酸塩錠100mg「ツルハラ」",
+    "アマンタジン塩酸塩錠50mg「ツルハラ」"
+  ]
+}

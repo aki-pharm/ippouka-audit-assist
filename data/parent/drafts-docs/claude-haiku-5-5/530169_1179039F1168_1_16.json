@@ -1,0 +1,66 @@
+{
+  "id": "530169_1179039F1168_1_16",
+  "source_file": "530169_1179039F1168_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179039F1168_1_16",
+  "extracted_at": "2026-11-09T14:09:16.795Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28716,
+    "output": 1823
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠25mg「日医工」",
+      "strength": "25mg",
+      "imprint_front": "n894",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 黄色 外形 直径（mm） 5.1 6.1 7.1 厚さ（mm） 2.3 3.0 3.3 本体コード n 894 895 896"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "n895",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 黄色 外形 直径（mm） 5.1 6.1 7.1 厚さ（mm） 2.3 3.0 3.3 本体コード n 894 895 896"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠75mg「日医工」",
+      "strength": "75mg",
+      "imprint_front": "n896",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 黄色 外形 直径（mm） 5.1 6.1 7.1 厚さ（mm） 2.3 3.0 3.3 本体コード n 894 895 896"
+    }
+  ],
+  "expected_products": [
+    "フルボキサミンマレイン酸塩錠25mg「日医工」",
+    "フルボキサミンマレイン酸塩錠50mg「日医工」"
+  ]
+}

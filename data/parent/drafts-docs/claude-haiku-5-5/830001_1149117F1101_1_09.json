@@ -1,0 +1,33 @@
+{
+  "id": "830001_1149117F1101_1_09",
+  "source_file": "830001_1149117F1101_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1149117F1101_1_09",
+  "extracted_at": "2026-11-09T14:03:47.049Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33797,
+    "output": 1120
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「YD」",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg、アセトアミノフェン325mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 15.2,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の楕円形のフィルムコーティング錠 外形 直径 （長径）約15.2mm （短径）約6.6mm 厚さ 約5.2mm"
+    }
+  ],
+  "expected_products": [
+    "トアラセット配合錠「YD」"
+  ]
+}

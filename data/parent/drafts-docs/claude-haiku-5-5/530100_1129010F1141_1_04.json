@@ -1,0 +1,67 @@
+{
+  "id": "530100_1129010F1141_1_04",
+  "source_file": "530100_1129010F1141_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1129010F1141_1_04",
+  "extracted_at": "2026-11-09T13:58:56.516Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28989,
+    "output": 2010
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠1mg「ニプロ」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図中の刻印は判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "エスゾピクロン錠1mg「ニプロ」 白色のフィルムコーティング錠 6.6 3.2 104.5"
+    },
+    {
+      "product_name": "エスゾピクロン錠2mg「ニプロ」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図中の刻印は判読できず",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "エスゾピクロン錠2mg「ニプロ」 淡黄色の割線入りフィルムコーティング錠 6.6 3.2 104.5"
+    },
+    {
+      "product_name": "エスゾピクロン錠3mg「ニプロ」",
+      "strength": "3mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "図中の刻印は判読できず",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "エスゾピクロン錠3mg「ニプロ」 淡赤色のフィルムコーティング錠 6.6 3.2 104.5"
+    }
+  ],
+  "expected_products": [
+    "エスゾピクロン錠1mg「ニプロ」",
+    "エスゾピクロン錠2mg「ニプロ」",
+    "エスゾピクロン錠3mg「ニプロ」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "581120_1179044F1231_1_06",
+  "source_file": "581120_1179044F1231_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1179044F1231_1_06",
+  "extracted_at": "2026-11-09T14:13:44.651Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 36973,
+    "output": 12211
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピン錠2.5mg「NIG」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色のフィルムコーティング錠",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 色・剤形 淡黄色のフィルムコーティング錠 外形 直径 7.1mm 厚さ 3.4mm 質量 138mg"
+    },
+    {
+      "product_name": "オランザピン錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色のフィルムコーティング錠",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 色・剤形 白色のフィルムコーティング錠 外形 直径 8.1mm 厚さ 4.2mm 質量 210mg"
+    },
+    {
+      "product_name": "オランザピン錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色のフィルムコーティング錠",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 色・剤形 白色のフィルムコーティング錠 外形 直径 8.1mm 厚さ 4.2mm 質量 210mg"
+    }
+  ],
+  "expected_products": [
+    "オランザピン錠10mg「NIG」",
+    "オランザピン錠2.5mg「NIG」",
+    "オランザピン錠5mg「NIG」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "530169_1149037F1151_1_10",
+  "source_file": "530169_1149037F1151_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1149037F1151_1_10",
+  "extracted_at": "2026-11-09T14:03:36.982Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35500,
+    "output": 2656
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セレコキシブ錠100mg「日医工」",
+      "strength": "100mg",
+      "imprint_front": "セレコキシブ 100 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「セレコキシブ 100 日医工」。裏面の刻印は画像から判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの円形の素錠 割線入りの楕円形の素錠 色調 白色 ... 直径（mm） 8 13×6.5 厚さ（mm） 2.7 5.1"
+    },
+    {
+      "product_name": "セレコキシブ錠200mg「日医工」",
+      "strength": "200mg",
+      "imprint_front": "セレコキシブ 200 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「セレコキシブ 200 日医工」。裏面の刻印は画像から判読できないため未確認",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの円形の素錠 割線入りの楕円形の素錠 色調 白色 ... 直径（mm） 8 13×6.5 厚さ（mm） 2.7 5.1"
+    }
+  ],
+  "expected_products": [
+    "セレコキシブ錠100mg「日医工」",
+    "セレコキシブ錠200mg「日医工」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "530258_1129009F1041_1_13",
+  "source_file": "530258_1129009F1041_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1129009F1041_1_13",
+  "extracted_at": "2026-11-09T13:58:13.442Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22972,
+    "output": 2315
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「AFP」",
+      "strength": "5mg",
+      "imprint_front": "NF 222",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の片面割線入りフィルムコーティング錠 識別コード NF 222 直径（mm）6.5 厚さ（mm）2.6 質量（mg）約90"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「AFP」",
+      "strength": "10mg",
+      "imprint_front": "NF 223",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の片面割線入りフィルムコーティング錠 識別コード NF 223 直径（mm）8.5 厚さ（mm）3.0 質量（mg）約180"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠5mg「AFP」"
+  ]
+}

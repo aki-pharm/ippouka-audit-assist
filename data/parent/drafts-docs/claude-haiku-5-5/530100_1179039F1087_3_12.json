@@ -1,0 +1,66 @@
+{
+  "id": "530100_1179039F1087_3_12",
+  "source_file": "530100_1179039F1087_3_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179039F1087_3_12",
+  "extracted_at": "2026-11-09T14:08:52.926Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34517,
+    "output": 1964
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠25mg「NP」",
+      "strength": "25mg",
+      "imprint_front": "NP-25",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.2,
+      "size_short_mm": 5.2,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠 5.2 2.3 49.5 NP-25"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠50mg「NP」",
+      "strength": "50mg",
+      "imprint_front": "NP-50",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠 6.2 3.0 96.9 NP-50"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠75mg「NP」",
+      "strength": "75mg",
+      "imprint_front": "NP-75",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠 7.2 3.3 144.4 NP-75"
+    }
+  ],
+  "expected_products": [
+    "フルボキサミンマレイン酸塩錠25mg「NP」",
+    "フルボキサミンマレイン酸塩錠75mg「NP」"
+  ]
+}

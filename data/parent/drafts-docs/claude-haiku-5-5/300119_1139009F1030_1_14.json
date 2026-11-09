@@ -1,0 +1,82 @@
+{
+  "id": "300119_1139009F1030_1_14",
+  "source_file": "300119_1139009F1030_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1139009F1030_1_14",
+  "extracted_at": "2026-11-09T14:00:24.395Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 54764,
+    "output": 2828
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラモトリギン錠小児用2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW L2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.8,
+      "size_short_mm": 4.8,
+      "thickness_mm": 1.6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 4.8 厚さ（mm） 1.6 識別コード SW L2"
+    },
+    {
+      "product_name": "ラモトリギン錠小児用5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW L5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8,
+      "size_short_mm": 4,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 8.0×4.0 厚さ（mm） 2.6 識別コード SW L5"
+    },
+    {
+      "product_name": "ラモトリギン錠25mg「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "SW L 25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.2,
+      "size_short_mm": 5.2,
+      "thickness_mm": 2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 5.2×5.2 厚さ（mm） 2.0 識別コード SW L 25"
+    },
+    {
+      "product_name": "ラモトリギン錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW L 100",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 8.3,
+      "size_short_mm": 8.3,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 白色 直径（mm） 8.3×8.3 厚さ（mm） 3.2 識別コード SW L 100"
+    }
+  ],
+  "expected_products": [
+    "ラモトリギン錠小児用2mg「サワイ」",
+    "ラモトリギン錠小児用5mg「サワイ」"
+  ]
+}

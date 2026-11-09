@@ -1,0 +1,33 @@
+{
+  "id": "480235_1169005F1308_1_04",
+  "source_file": "480235_1169005F1308_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1169005F1308_1_04",
+  "extracted_at": "2026-11-09T14:04:54.504Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20340,
+    "output": 1164
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロモクリプチン錠2.5mg「トーワ」",
+      "strength": "ブロモクリプチンとして2.5mg（1錠中）",
+      "imprint_front": "TwDR",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微帯黄色又は微帯褐白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "片面に割線のある白色～微帯黄色又は微帯褐白色の素錠"
+    }
+  ],
+  "expected_products": [
+    "ブロモクリプチン錠2.5mg「トーワ」"
+  ]
+}

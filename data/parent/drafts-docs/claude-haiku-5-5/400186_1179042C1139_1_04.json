@@ -1,0 +1,82 @@
+{
+  "id": "400186_1179042C1139_1_04",
+  "source_file": "400186_1179042C1139_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179042C1139_1_04",
+  "extracted_at": "2026-11-09T14:11:48.084Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29461,
+    "output": 2966
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠25mg「タカタ」",
+      "strength": "25mg",
+      "imprint_front": "TTS 252",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "うすい黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 2,
+      "source_quote": "クエチアピン錠25mg「タカタ」 うすい黄みの赤色のフィルムコーティング錠 直径 約5.6mm 厚さ約3.0mm TTS-252"
+    },
+    {
+      "product_name": "クエチアピン錠50mg「タカタ」",
+      "strength": "50mg",
+      "imprint_front": "TTS 253",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 2,
+      "source_quote": "クエチアピン錠50mg「タカタ」 白色のフィルムコーティング錠 直径 約7.1mm 厚さ約3.4mm TTS-253"
+    },
+    {
+      "product_name": "クエチアピン錠100mg「タカタ」",
+      "strength": "100mg",
+      "imprint_front": "TTS 254",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 2,
+      "source_quote": "クエチアピン錠100mg「タカタ」 うすい黄色のフィルムコーティング錠 直径 約8.6mm 厚さ約4.3mm TTS-254"
+    },
+    {
+      "product_name": "クエチアピン錠200mg「タカタ」",
+      "strength": "200mg",
+      "imprint_front": "TTS 255",
+      "imprint_back": "200",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第3版）",
+      "source_page": 2,
+      "source_quote": "クエチアピン錠200mg「タカタ」 白色のフィルムコーティング錠 直径 約11.1mm 厚さ約5.1mm TTS-255"
+    }
+  ],
+  "expected_products": [
+    "クエチアピン錠25mg「タカタ」",
+    "クエチアピン錠50mg「タカタ」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "581120_1129009F1378_1_04",
+  "source_file": "581120_1129009F1378_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1129009F1378_1_04",
+  "extracted_at": "2026-11-09T13:58:15.342Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21580,
+    "output": 1732
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "KT ZP 5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡いだいだい色の片面割線入りのフィルムコーティング錠 ／ 直径 6.6mm 厚さ 2.7mm ／ 識別コード KT ZP 5"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "KT ZP 10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡いだいだい色の片面割線入りのフィルムコーティング錠 ／ 直径 8.6mm 厚さ 3.2mm ／ 識別コード KT ZP 10"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠5mg「NIG」"
+  ]
+}

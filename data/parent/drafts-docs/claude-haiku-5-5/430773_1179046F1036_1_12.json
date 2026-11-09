@@ -1,0 +1,67 @@
+{
+  "id": "430773_1179046F1036_1_12",
+  "source_file": "430773_1179046F1036_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_1179046F1036_1_12",
+  "extracted_at": "2026-11-09T14:15:17.054Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33290,
+    "output": 3002
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セルトラリン錠25mg「DSEP」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の図からは刻印の文字を判読できない",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.4,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "セルトラリン錠25mg「DSEP」 フィルムコーティング錠 白色 （長径）8.4 （短径）4.1 2.7 78"
+    },
+    {
+      "product_name": "セルトラリン錠50mg「DSEP」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の図からは刻印の文字を判読できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "セルトラリン錠50mg「DSEP」 フィルムコーティング錠（割線入）（直径）7.1 3.7 155"
+    },
+    {
+      "product_name": "セルトラリン錠100mg「DSEP」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の図からは刻印の文字を判読できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "セルトラリン錠100mg「DSEP」（直径）8.6 4.1 257"
+    }
+  ],
+  "expected_products": [
+    "セルトラリン錠100mg「DSEP」",
+    "セルトラリン錠25mg「DSEP」",
+    "セルトラリン錠50mg「DSEP」"
+  ]
+}

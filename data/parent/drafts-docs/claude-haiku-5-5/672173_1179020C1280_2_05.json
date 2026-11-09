@@ -1,0 +1,101 @@
+{
+  "id": "672173_1179020C1280_2_05",
+  "source_file": "672173_1179020C1280_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179020C1280_2_05",
+  "extracted_at": "2026-11-09T14:06:28.939Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20465,
+    "output": 2891
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ハロペリドール錠 0.75mg「アメル」",
+      "strength": "0.75mg",
+      "imprint_front": "HP0.75",
+      "imprint_back": "Kw",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2025年2月改訂",
+      "source_page": 1,
+      "source_quote": "素錠 HP0.75 /Kw 白色 直径：約 6.0mm 厚さ：約 2.2mm 質量：約 80mg"
+    },
+    {
+      "product_name": "ハロペリドール錠 1mg「アメル」",
+      "strength": "1mg",
+      "imprint_front": "HP1",
+      "imprint_back": "Kw HP1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2025年2月改訂",
+      "source_page": 2,
+      "source_quote": "フィルムコーティング錠 HP1 /Kw HP1 白色 直径：約 6.1mm 厚さ：約 2.8mm 質量：約 88mg"
+    },
+    {
+      "product_name": "ハロペリドール錠 1.5mg「アメル」",
+      "strength": "1.5mg",
+      "imprint_front": "HP1.5",
+      "imprint_back": "Kw",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2025年2月改訂",
+      "source_page": 2,
+      "source_quote": "割線入り素錠 HP1.5 /Kw 白色 直径：約 6.2mm 厚さ：約 2.1mm 質量：約 80mg"
+    },
+    {
+      "product_name": "ハロペリドール錠 2mg「アメル」",
+      "strength": "2mg",
+      "imprint_front": "HP2",
+      "imprint_back": "Kw HP2",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2025年2月改訂",
+      "source_page": 2,
+      "source_quote": "割線入り素錠 HP2 /Kw HP2 白色 直径：約 6.2mm 厚さ：約 2.0mm 質量：約 80mg"
+    },
+    {
+      "product_name": "ハロペリドール錠 3mg「アメル」",
+      "strength": "3mg",
+      "imprint_front": "HP3",
+      "imprint_back": "Kw HP3",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2025年2月改訂",
+      "source_page": 2,
+      "source_quote": "フィルムコーティング錠 HP3 /Kw HP3 白色～淡黄白色 直径：約 6.1mm 厚さ：約 3.3mm 質量：約 88mg"
+    }
+  ],
+  "expected_products": [
+    "ハロペリドール錠0.75mg「アメル」",
+    "ハロペリドール錠1.5mg「アメル」",
+    "ハロペリドール錠1mg「アメル」",
+    "ハロペリドール錠2mg「アメル」",
+    "ハロペリドール錠3mg「アメル」"
+  ]
+}

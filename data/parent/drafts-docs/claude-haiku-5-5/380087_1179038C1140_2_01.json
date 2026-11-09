@@ -1,0 +1,66 @@
+{
+  "id": "380087_1179038C1140_2_01",
+  "source_file": "380087_1179038C1140_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1179038C1140_2_01",
+  "extracted_at": "2026-11-09T14:08:54.277Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32248,
+    "output": 2597
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドン錠1mg「ヨシトミ」",
+      "strength": "1mg",
+      "imprint_front": "Y-R1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 割線入りフィルムコーティング錠 錠径（mm） 6.6 厚み（mm） 3.2 識別コード Y-R1"
+    },
+    {
+      "product_name": "リスペリドン錠2mg「ヨシトミ」",
+      "strength": "2mg",
+      "imprint_front": "Y-R2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 フィルムコーティング錠 錠径（mm） 7.1 厚み（mm） 3.8 識別コード Y-R2"
+    },
+    {
+      "product_name": "リスペリドン錠3mg「ヨシトミ」",
+      "strength": "3mg",
+      "imprint_front": "Y-R3",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 フィルムコーティング錠 錠径（mm） 8.1 厚み（mm） 4.5 識別コード Y-R3"
+    }
+  ],
+  "expected_products": [
+    "リスペリドン錠1mg「ヨシトミ」",
+    "リスペリドン錠2mg「ヨシトミ」"
+  ]
+}

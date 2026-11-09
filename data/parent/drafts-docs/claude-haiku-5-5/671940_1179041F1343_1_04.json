@@ -1,0 +1,67 @@
+{
+  "id": "671940_1179041F1343_1_04",
+  "source_file": "671940_1179041F1343_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_1179041F1343_1_04",
+  "extracted_at": "2026-11-09T14:10:08.939Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 36532,
+    "output": 2478
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「フェルゼン」",
+      "strength": "5mg",
+      "imprint_front": "F9",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状：帯紅白色の円形のフィルムコーティング錠　大きさ等：直径5.1mm 厚さ2.4mm　識別コード：F9"
+    },
+    {
+      "product_name": "パロキセチン錠10mg「フェルゼン」",
+      "strength": "10mg",
+      "imprint_front": "F10",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状：淡紅白色の円形のフィルムコーティング錠　大きさ等：直径6.6mm 厚さ2.9mm　識別コード：F10"
+    },
+    {
+      "product_name": "パロキセチン錠20mg「フェルゼン」",
+      "strength": "20mg",
+      "imprint_front": "F11",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "淡紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状：淡紅白色の円形のフィルムコーティング錠　大きさ等：直径8.1mm 厚さ3.8mm　識別コード：F11"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠10mg「フェルゼン」",
+    "パロキセチン錠20mg「フェルゼン」",
+    "パロキセチン錠5mg「フェルゼン」"
+  ]
+}

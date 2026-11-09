@@ -1,0 +1,101 @@
+{
+  "id": "672173_1179046F1079_2_05",
+  "source_file": "672173_1179046F1079_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179046F1079_2_05",
+  "extracted_at": "2026-11-09T14:15:05.068Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 39644,
+    "output": 4119
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セルトラリン錠 25mg「アメル」",
+      "strength": "25mg",
+      "imprint_front": "セルトラリン 25",
+      "imprint_back": "アメル",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 8.4,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色〜帯黄白色 長径：約 8.4mm 短径：約 4.1mm 厚さ：約 2.6mm 質量：約 78.5mg 識別コード セルトラリン 25 アメル"
+    },
+    {
+      "product_name": "セルトラリン錠 50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "セルトラリン 50",
+      "imprint_back": "アメル",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 白色〜帯黄白色 直径：約 7.1mm 厚さ：約 3.4mm 質量：約 154.5mg 識別コード セルトラリン 50 アメル"
+    },
+    {
+      "product_name": "セルトラリン錠 100mg「アメル」",
+      "strength": "100mg",
+      "imprint_front": "セルトラリン 100",
+      "imprint_back": "アメル",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "割線入りフィルムコーティング錠 白色〜帯黄白色 直径：約 9.1mm 厚さ：約 4.2mm 質量：約 308.0mg 識別コード セルトラリン 100 アメル"
+    },
+    {
+      "product_name": "セルトラリン OD 錠 25mg「アメル」",
+      "strength": "OD錠25mg",
+      "imprint_front": "KW STL",
+      "imprint_back": "OD 25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "素錠 白色 直径：約 7.5mm 厚さ：約 2.8mm 質量：約 150.0mg 識別コード KW STL /OD 25"
+    },
+    {
+      "product_name": "セルトラリン OD 錠 50mg「アメル」",
+      "strength": "OD錠50mg",
+      "imprint_front": "KW STL",
+      "imprint_back": "OD 50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年1月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "割線入り素錠 白色 直径：約 9.5mm 厚さ：約 3.5mm 質量：約 300.0mg 識別コード KW STL /OD 50"
+    }
+  ],
+  "expected_products": [
+    "セルトラリンOD錠25mg「アメル」",
+    "セルトラリンOD錠50mg「アメル」",
+    "セルトラリン錠100mg「アメル」",
+    "セルトラリン錠25mg「アメル」",
+    "セルトラリン錠50mg「アメル」"
+  ]
+}

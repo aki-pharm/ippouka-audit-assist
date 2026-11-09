@@ -1,0 +1,67 @@
+{
+  "id": "672173_1172006F1030_3_04",
+  "source_file": "672173_1172006F1030_3_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1172006F1030_3_04",
+  "extracted_at": "2026-11-09T14:05:17.076Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16015,
+    "output": 1874
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリラホン錠 2mg",
+      "strength": "2mg",
+      "imprint_front": "KW352",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "灰色",
+      "shape": "round",
+      "size_long_mm": 7.8,
+      "size_short_mm": 7.8,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "糖衣錠 灰色 直径：約 7.8mm 厚さ：約 5.1mm 質量：約 246mg 識別コード KW352"
+    },
+    {
+      "product_name": "トリラホン錠 4mg",
+      "strength": "4mg",
+      "imprint_front": "KW353",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "灰色",
+      "shape": "round",
+      "size_long_mm": 7.8,
+      "size_short_mm": 7.8,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "糖衣錠 灰色 直径：約 7.8mm 厚さ：約 5.1mm 質量：約 246mg 識別コード KW353"
+    },
+    {
+      "product_name": "トリラホン錠 8mg",
+      "strength": "8mg",
+      "imprint_front": "KW355",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "灰色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 5.9,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "糖衣錠 灰色 直径：約 9.5mm 厚さ：約 5.9mm 質量：約 426mg 識別コード KW355"
+    }
+  ],
+  "expected_products": [
+    "トリラホン錠2mg",
+    "トリラホン錠4mg",
+    "トリラホン錠8mg"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "580591_1129009F1114_1_16",
+  "source_file": "580591_1129009F1114_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1129009F1114_1_16",
+  "extracted_at": "2026-11-09T13:58:10.235Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24098,
+    "output": 1692
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠 5 mg「JG」",
+      "strength": "5 mg",
+      "imprint_front": "JG C15",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の片面割線入りフィルムコーティング錠 表面 JG C15 裏面 5 直径 6.6mm 厚さ 2.4mm 重量 93mg"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「JG」",
+      "strength": "10 mg",
+      "imprint_front": "JG C16",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の片面割線入りフィルムコーティング錠 表面 JG C16 裏面 10 直径 8.6mm 厚さ 3.0mm 重量 185mg"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠5mg「JG」"
+  ]
+}

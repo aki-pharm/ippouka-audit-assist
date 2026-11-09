@@ -1,0 +1,33 @@
+{
+  "id": "581120_1149019F1480_5_01",
+  "source_file": "581120_1149019F1480_5_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1149019F1480_5_01",
+  "extracted_at": "2026-11-09T14:02:27.926Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23496,
+    "output": 1507
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキソプロフェン錠60mg「EMEC」",
+      "strength": "60mg",
+      "imprint_front": "777",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に本体コード777の表示あり。表面上部のマークは判読困難のため未確認。裏面は外観図上に刻印の記載なし、文書に「なし」の明記はないため未確認。",
+      "color": "ごく薄い紅色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 片面に割線の入った素錠 色調 ごく薄い紅色 直径（mm） 8.0 厚さ（mm） 3.0 本体コード 777 包装コード 777"
+    }
+  ],
+  "expected_products": [
+    "ロキソプロフェン錠60mg「EMEC」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "270029_1129009F1343_1_08",
+  "source_file": "270029_1129009F1343_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_1129009F1343_1_08",
+  "extracted_at": "2026-11-09T13:57:48.163Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23295,
+    "output": 1463
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「クニヒロ」",
+      "strength": "5mg",
+      "imprint_front": "KSK311",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の割線入りのフィルムコーティング錠 直径 6.6mm 厚さ 2.6mm 識別コード KSK311"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「クニヒロ」",
+      "strength": "10mg",
+      "imprint_front": "KSK317",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の割線入りのフィルムコーティング錠 直径 8.6mm 厚さ 3.2mm 識別コード KSK317"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠10mg「クニヒロ」",
+    "ゾルピデム酒石酸塩錠5mg「クニヒロ」"
+  ]
+}

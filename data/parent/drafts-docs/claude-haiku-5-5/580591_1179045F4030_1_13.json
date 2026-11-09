@@ -1,0 +1,81 @@
+{
+  "id": "580591_1179045F4030_1_13",
+  "source_file": "580591_1179045F4030_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1179045F4030_1_13",
+  "extracted_at": "2026-11-09T14:14:19.725Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37973,
+    "output": 2722
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾールOD錠3mg「JG」",
+      "strength": "3mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に「アリピプラゾール OD3 JG」と記載（表裏の別は判読できず）",
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "青 色 の 素錠 直径 厚さ 重量 6.0mm 3.0mm 95mg 本体表示 アリピプラゾール OD3 JG"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠6mg「JG」",
+      "strength": "6mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に「アリピプラゾール OD6 JG」と記載（表裏の別は判読できず）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "白 色 の 素錠 直径 厚さ 重量 7.0mm 3.3mm 135mg 本体表示 アリピプラゾール OD6 JG"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠12mg「JG」",
+      "strength": "12mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に「アリピプラゾール OD12 JG」と記載（表裏の別は判読できず）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "黄 色 の 素錠 直径 厚さ 重量 8.0mm 3.4mm 180mg 本体表示 アリピプラゾール OD12 JG"
+    },
+    {
+      "product_name": "アリピプラゾールOD錠24mg「JG」",
+      "strength": "24mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に「アリピプラゾール OD24 JG」と記載（表裏の別は判読できず）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "白 色 の 素錠 直径 厚さ 重量 10.0mm 4.5mm 360mg 本体表示 アリピプラゾール OD24 JG"
+    }
+  ],
+  "expected_products": [
+    "アリピプラゾールOD錠24mg「JG」"
+  ]
+}

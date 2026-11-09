@@ -1,0 +1,49 @@
+{
+  "id": "530169_1129009F1297_1_11",
+  "source_file": "530169_1129009F1297_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1129009F1297_1_11",
+  "extracted_at": "2026-11-09T13:58:28.655Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21883,
+    "output": 2437
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "174",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は本体コード174の表示。裏面は図から刻印の有無を判別できない",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 淡いだいだい色 直径（mm） 6.6 厚さ（mm） 2.7 本体コード 174"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "175",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は本体コード175の表示。裏面は図から刻印の有無を判別できない",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 淡いだいだい色 直径（mm） 7.1 厚さ（mm） 3.2 本体コード 175"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠5mg「日医工」"
+  ]
+}

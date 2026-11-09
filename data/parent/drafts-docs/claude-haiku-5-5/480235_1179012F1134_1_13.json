@@ -1,0 +1,50 @@
+{
+  "id": "480235_1179012F1134_1_13",
+  "source_file": "480235_1179012F1134_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179012F1134_1_13",
+  "extracted_at": "2026-11-09T14:05:53.066Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13145,
+    "output": 1832
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロチアゼパム錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "TwLO",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図上で刻印の表示が見当たらないが、文言での明記はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の糖衣錠 識別コード TwLO 直径(mm) 6.5 厚さ(mm) 3.4"
+    },
+    {
+      "product_name": "クロチアゼパム錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw242",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 識別コード Tw242 直径(mm) 6.1 厚さ(mm) 2.8"
+    }
+  ],
+  "expected_products": [
+    "クロチアゼパム錠10mg「トーワ」",
+    "クロチアゼパム錠5mg「トーワ」"
+  ]
+}

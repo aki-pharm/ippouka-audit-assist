@@ -1,0 +1,33 @@
+{
+  "id": "300119_1147002F1650_1_07",
+  "source_file": "300119_1147002F1650_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1147002F1650_1_07",
+  "extracted_at": "2026-11-09T14:01:06.422Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20490,
+    "output": 1247
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジクロフェナクNa錠25mg「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "SW 444",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 淡黄赤色 直径（mm） 7.1 厚さ（mm） 3.7 重量（mg） 約147 識別コード SW 444"
+    }
+  ],
+  "expected_products": [
+    "ジクロフェナクNa錠25mg「サワイ」"
+  ]
+}

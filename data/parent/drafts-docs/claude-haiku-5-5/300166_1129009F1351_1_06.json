@@ -1,0 +1,50 @@
+{
+  "id": "300166_1129009F1351_1_06",
+  "source_file": "300166_1129009F1351_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_1129009F1351_1_06",
+  "extracted_at": "2026-11-09T13:57:23.783Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23705,
+    "output": 2203
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「KMP」",
+      "strength": "5mg",
+      "imprint_front": "ゾルピデム 5 / ゾルピデム 5KMP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「ゾルピデム 5」「ゾルピデム 5KMP」の記載があるが、表裏の対応は文書から判別できない",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の片面割線入りのフィルムコーティング錠"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「KMP」",
+      "strength": "10mg",
+      "imprint_front": "ゾルピデム 10 / ゾルピデム 10KMP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「ゾルピデム 10」「ゾルピデム 10KMP」の記載があるが、表裏の対応は文書から判別できない",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡いだいだい色の片面割線入りのフィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠10mg「KMP」",
+    "ゾルピデム酒石酸塩錠5mg「KMP」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "670109_1169005F1278_1_04",
+  "source_file": "670109_1169005F1278_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_1169005F1278_1_04",
+  "extracted_at": "2026-11-09T14:04:49.631Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19290,
+    "output": 1205
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロモクリプチン錠2.5mg「F」",
+      "strength": "2.5mg",
+      "imprint_front": "B 25",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の表面は「B」と「25」の刻印。PTPシートの識別コードは「FJ B25」。裏面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状 片面に割線のある白色円形素錠 ／ 直径 7mm 厚さ 2.8mm"
+    }
+  ],
+  "expected_products": [
+    "ブロモクリプチン錠2.5mg「F」"
+  ]
+}

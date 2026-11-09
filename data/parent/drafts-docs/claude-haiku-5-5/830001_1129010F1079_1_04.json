@@ -1,0 +1,65 @@
+{
+  "id": "830001_1129010F1079_1_04",
+  "source_file": "830001_1129010F1079_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1129010F1079_1_04",
+  "extracted_at": "2026-11-09T13:59:23.055Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27039,
+    "output": 2213
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠1mg「YD」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に社名マーク・YD・数字が図示されているが、刻印の文字記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白 色 の フ ィ ル ム コーティング錠 外形 直径 約6.1mm 厚さ 約2.8mm"
+    },
+    {
+      "product_name": "エスゾピクロン錠2mg「YD」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に社名マーク・YD・数字が図示されているが、刻印の文字記載がないため未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 割線入りの淡黄色の フ ィ ル ム コ ー ティング錠 外形 直径 約6.1mm 厚さ 約2.8mm"
+    },
+    {
+      "product_name": "エスゾピクロン錠3mg「YD」",
+      "strength": "3mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に社名マーク・YD・数字が図示されているが、刻印の文字記載がないため未確認",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤色のフィルムコーティング錠 外形 直径 約6.1mm 厚さ 約2.8mm"
+    }
+  ],
+  "expected_products": [
+    "エスゾピクロン錠2mg「YD」"
+  ]
+}

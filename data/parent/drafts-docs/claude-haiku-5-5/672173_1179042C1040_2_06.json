@@ -1,0 +1,99 @@
+{
+  "id": "672173_1179042C1040_2_06",
+  "source_file": "672173_1179042C1040_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1179042C1040_2_06",
+  "extracted_at": "2026-11-09T14:11:24.021Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33704,
+    "output": 4112
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠 12.5mg「アメル」",
+      "strength": "12.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「Que アメル 12.5」（表裏の別は文書に記載なし）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 2,
+      "source_quote": "フィルムコーティング錠 白色～帯黄白色 直径：約6.1mm 厚さ：約2.9mm 質量：約89.0mg（識別コード Que アメル 12.5）"
+    },
+    {
+      "product_name": "クエチアピン錠 25mg「アメル」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「Que アメル 25」（表裏の別は文書に記載なし）",
+      "color": "うすい黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 2,
+      "source_quote": "フィルムコーティング錠 うすい黄みの赤色 直径：約6.1mm 厚さ：約3.3mm 質量：約104.0mg（識別コード Que アメル 25）"
+    },
+    {
+      "product_name": "クエチアピン錠 50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「Que アメル 50」（表裏の別は文書に記載なし）",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 2,
+      "source_quote": "フィルムコーティング錠 微黄色 直径：約7.6mm 厚さ：約3.3mm 質量：約150.0mg（識別コード Que アメル 50）"
+    },
+    {
+      "product_name": "クエチアピン錠 100mg「アメル」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「Que アメル 100」（表裏の別は文書に記載なし）",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 2,
+      "source_quote": "フィルムコーティング錠 うすい黄色 直径：約8.6mm 厚さ：約4.4mm 質量：約256.0mg（識別コード Que アメル 100）"
+    },
+    {
+      "product_name": "クエチアピン錠 200mg「アメル」",
+      "strength": "200mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「Que アメル 200」（表裏の別は文書に記載なし）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 2,
+      "source_quote": "フィルムコーティング錠 白色～帯黄白色 直径：約11.1mm 厚さ：約5.5mm 質量：約509.8mg（識別コード Que アメル 200）"
+    }
+  ],
+  "expected_products": [
+    "クエチアピン錠12.5mg「アメル」",
+    "クエチアピン錠25mg「アメル」",
+    "クエチアピン錠50mg「アメル」"
+  ]
+}

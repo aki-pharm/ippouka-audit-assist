@@ -1,0 +1,67 @@
+{
+  "id": "670126_1179025F1336_1_10",
+  "source_file": "670126_1179025F1336_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670126_1179025F1336_1_10",
+  "extracted_at": "2026-11-09T14:07:29.342Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16518,
+    "output": 2208
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エチゾラム錠0.25mg「フジナガ」",
+      "strength": "0.25mg",
+      "imprint_front": "PG",
+      "imprint_back": "0.25",
+      "imprint_note": "識別コードはPG0.25。表裏の刻印は外形図から読み取り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "エチゾラム錠0.25mg「フジナガ」 素錠 白色 PG0.25 6.2 2.8 100"
+    },
+    {
+      "product_name": "エチゾラム錠0.5mg「フジナガ」",
+      "strength": "0.5mg",
+      "imprint_front": "PG",
+      "imprint_back": "0.5",
+      "imprint_note": "識別コードはPG0.5。表裏の刻印は外形図から読み取り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "エチゾラム錠0.5mg「フジナガ」 素錠 白色 PG0.5 6.2 2.8 100"
+    },
+    {
+      "product_name": "エチゾラム錠1mg「フジナガ」",
+      "strength": "1mg",
+      "imprint_front": "PG",
+      "imprint_back": "1",
+      "imprint_note": "識別コードはPG1。表裏の刻印は外形図から読み取り。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "エチゾラム錠1mg「フジナガ」 素錠 白色 PG1 6.2 2.8 100"
+    }
+  ],
+  "expected_products": [
+    "エチゾラム錠0.25mg「フジナガ」",
+    "エチゾラム錠0.5mg「フジナガ」",
+    "エチゾラム錠1mg「フジナガ」"
+  ]
+}

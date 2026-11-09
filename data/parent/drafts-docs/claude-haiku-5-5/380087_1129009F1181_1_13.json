@@ -1,0 +1,50 @@
+{
+  "id": "380087_1129009F1181_1_13",
+  "source_file": "380087_1129009F1181_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_1129009F1181_1_13",
+  "extracted_at": "2026-11-09T13:57:36.674Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23597,
+    "output": 1557
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「ZE」",
+      "strength": "5mg",
+      "imprint_front": "ZE54",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡いだいだい色 剤形 フィルムコーティング錠（割線入り） 外形 錠径（mm） 6.6 厚み（mm） 2.7 識別コード ZE54、5"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「ZE」",
+      "strength": "10mg",
+      "imprint_front": "ZE55",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡いだいだい色 剤形 フィルムコーティング錠（割線入り） 外形 錠径（mm） 8.6 厚み（mm） 3.4 識別コード ZE55、10"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠10mg「ZE」",
+    "ゾルピデム酒石酸塩錠5mg「ZE」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "672173_1139010F1059_1_07",
+  "source_file": "672173_1139010F1059_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1139010F1059_1_07",
+  "extracted_at": "2026-11-09T14:00:36.530Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37756,
+    "output": 1927
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レベチラセタム錠 250mg「アメル」",
+      "strength": "250mg",
+      "imprint_front": "レベチラセタム 250 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏の区別は添付文書上不明",
+      "color": "青色",
+      "shape": "oval",
+      "size_long_mm": 12.8,
+      "size_short_mm": 6,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "楕円形のフィルムコーティング錠 青色 長径：約 12.8mm 短径：約 6.0mm 厚さ：約 4.7mm 質量：約 277.0mg（識別コード：レベチラセタム 250 アメル）"
+    },
+    {
+      "product_name": "レベチラセタム錠 500mg「アメル」",
+      "strength": "500mg",
+      "imprint_front": "レベチラセタム 500 アメル",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏の区別は添付文書上不明",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 16.4,
+      "size_short_mm": 7.6,
+      "thickness_mm": 6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "割線入りの楕円形のフィルムコーティング錠 黄色 長径：約 16.4mm 短径：約 7.6mm 厚さ：約 6.0mm 質量：約 554.0mg（識別コード：レベチラセタム 500 アメル）"
+    }
+  ],
+  "expected_products": [
+    "レベチラセタム錠250mg「アメル」（旧製品）",
+    "レベチラセタム錠500mg「アメル」（旧製品）"
+  ]
+}

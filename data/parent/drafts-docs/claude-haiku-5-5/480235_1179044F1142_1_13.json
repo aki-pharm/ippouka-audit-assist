@@ -1,0 +1,66 @@
+{
+  "id": "480235_1179044F1142_1_13",
+  "source_file": "480235_1179044F1142_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179044F1142_1_13",
+  "extracted_at": "2026-11-09T14:13:28.181Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 36784,
+    "output": 2049
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピン錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "オランザ 2.5",
+      "imprint_back": "オランザピン 2.5 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りのフィルムコーティング錠 表 オランザ 2.5 裏 オランザピン 2.5 トーワ 直径(mm) 6.1 厚さ(mm) 2.9"
+    },
+    {
+      "product_name": "オランザピン錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "オランザ 5",
+      "imprint_back": "オランザピン 5 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りのフィルムコーティング錠 表 オランザ 5 裏 オランザピン 5 トーワ 直径(mm) 7.1 厚さ(mm) 3.2"
+    },
+    {
+      "product_name": "オランザピン錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "オランザ 10",
+      "imprint_back": "オランザピン 10 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りのフィルムコーティング錠 表 オランザ 10 裏 オランザピン 10 トーワ 直径(mm) 8.1 厚さ(mm) 3.4"
+    }
+  ],
+  "expected_products": [
+    "オランザピン錠10mg「トーワ」",
+    "オランザピン錠2.5mg「トーワ」"
+  ]
+}

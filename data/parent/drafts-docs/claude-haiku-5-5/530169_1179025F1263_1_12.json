@@ -1,0 +1,67 @@
+{
+  "id": "530169_1179025F1263_1_12",
+  "source_file": "530169_1179025F1263_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179025F1263_1_12",
+  "extracted_at": "2026-11-09T14:07:37.899Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17349,
+    "output": 2784
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エチゾラム錠0.25mg「日医工」",
+      "strength": "0.25mg",
+      "imprint_front": "707",
+      "imprint_back": "0.25",
+      "imprint_note": "表面上部に記号状のマークあり（社名マークかは未確認）",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "色調 微赤色 白色～淡黄白色 直径（mm） 6.6 約6.1 約6.1 厚さ（mm） 3.0 約2.8 約2.8"
+    },
+    {
+      "product_name": "エチゾラム錠0.5mg「日医工」",
+      "strength": "0.5mg",
+      "imprint_front": "O.S A0.5",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "色調 微赤色 白色～淡黄白色 直径（mm） 6.6 約6.1 約6.1 厚さ（mm） 3.0 約2.8 約2.8"
+    },
+    {
+      "product_name": "エチゾラム錠1mg「日医工」",
+      "strength": "1mg",
+      "imprint_front": "O.S A1.0",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "色調 微赤色 白色～淡黄白色 直径（mm） 6.6 約6.1 約6.1 厚さ（mm） 3.0 約2.8 約2.8"
+    }
+  ],
+  "expected_products": [
+    "エチゾラム錠0.25mg「日医工」",
+    "エチゾラム錠0.5mg「日医工」",
+    "エチゾラム錠1mg「日医工」"
+  ]
+}

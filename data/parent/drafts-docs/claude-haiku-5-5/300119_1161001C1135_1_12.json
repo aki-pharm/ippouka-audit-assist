@@ -1,0 +1,50 @@
+{
+  "id": "300119_1161001C1135_1_12",
+  "source_file": "300119_1161001C1135_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1161001C1135_1_12",
+  "extracted_at": "2026-11-09T14:04:07.656Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23581,
+    "output": 1497
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アマンタジン塩酸塩錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW 385",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色 直径（mm） 7.1 8.2 厚さ（mm） 3.8 4.2 重量（mg） 約115 約168 識別コード SW 385 SW 386"
+    },
+    {
+      "product_name": "アマンタジン塩酸塩錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW 386",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色 直径（mm） 7.1 8.2 厚さ（mm） 3.8 4.2 重量（mg） 約115 約168 識別コード SW 385 SW 386"
+    }
+  ],
+  "expected_products": [
+    "アマンタジン塩酸塩錠100mg「サワイ」",
+    "アマンタジン塩酸塩錠50mg「サワイ」"
+  ]
+}

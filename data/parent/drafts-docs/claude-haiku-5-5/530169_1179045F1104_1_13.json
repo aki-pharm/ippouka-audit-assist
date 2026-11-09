@@ -1,0 +1,66 @@
+{
+  "id": "530169_1179045F1104_1_13",
+  "source_file": "530169_1179045F1104_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1179045F1104_1_13",
+  "extracted_at": "2026-11-09T14:14:48.474Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33778,
+    "output": 3132
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾール錠3mg「日医工」",
+      "strength": "3mg",
+      "imprint_front": "アリピプラゾール",
+      "imprint_back": "3 日医工",
+      "imprint_note": null,
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 素錠 割線入りの素錠 色 調 青色 白色 黄色 直径(mm) 6.0 7.0 8.0 厚さ(mm) 2.5 2.7 2.8 本体表示 アリピプラゾール 3 日医工 包装ｺｰﾄﾞ 163 164 165"
+    },
+    {
+      "product_name": "アリピプラゾール錠6mg「日医工」",
+      "strength": "6mg",
+      "imprint_front": "アリピプラゾール",
+      "imprint_back": "6 日医工",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 素錠 割線入りの素錠 色 調 青色 白色 黄色 直径(mm) 6.0 7.0 8.0 厚さ(mm) 2.5 2.7 2.8 本体表示 アリピプラゾール 6 日医工 包装ｺｰﾄﾞ 163 164 165"
+    },
+    {
+      "product_name": "アリピプラゾール錠12mg「日医工」",
+      "strength": "12mg",
+      "imprint_front": "アリピプラゾール",
+      "imprint_back": "12 日医工",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 素錠 割線入りの素錠 色 調 青色 白色 黄色 直径(mm) 6.0 7.0 8.0 厚さ(mm) 2.5 2.7 2.8 本体表示 アリピプラゾール 12 日医工 包装ｺｰﾄﾞ 163 164 165"
+    }
+  ],
+  "expected_products": [
+    "アリピプラゾール錠12mg「日医工」",
+    "アリピプラゾール錠6mg「日医工」"
+  ]
+}

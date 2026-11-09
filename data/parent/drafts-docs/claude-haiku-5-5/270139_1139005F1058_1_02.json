@@ -1,0 +1,33 @@
+{
+  "id": "270139_1139005F1058_1_02",
+  "source_file": "270139_1139005F1058_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270139_1139005F1058_1_02",
+  "extracted_at": "2026-11-09T13:59:51.361Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17291,
+    "output": 1262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾニサミド錠 100 ㎎ EX「KO」",
+      "strength": "1錠中 日局ゾニサミド 100 ㎎",
+      "imprint_front": "KO78",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 フィルムコーティング錠 外形 表面 裏面 側面 直径（㎜） 約 8 厚さ（㎜） 約 3.6 質量（㎎） 約 183 識別コード KO78"
+    }
+  ],
+  "expected_products": [
+    "ゾニサミド錠100mgEX「KO」"
+  ]
+}

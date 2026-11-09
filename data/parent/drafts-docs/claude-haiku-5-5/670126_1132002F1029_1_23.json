@@ -1,0 +1,50 @@
+{
+  "id": "670126_1132002F1029_1_23",
+  "source_file": "670126_1132002F1029_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670126_1132002F1029_1_23",
+  "extracted_at": "2026-11-09T13:59:24.191Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25291,
+    "output": 1811
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヒダントール錠25mg",
+      "strength": "25mg",
+      "imprint_front": "H25",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの記載のみで、表裏の区別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "ヒダントール錠25mg 素錠 白色 H25 7.0 3.0 120"
+    },
+    {
+      "product_name": "ヒダントール錠100mg",
+      "strength": "100mg",
+      "imprint_front": "H100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの記載のみで、表裏の区別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "ヒダントール錠100mg 素錠 白色 H100 9.0 3.4 200"
+    }
+  ],
+  "expected_products": [
+    "ヒダントール錠100mg",
+    "ヒダントール錠25mg"
+  ]
+}

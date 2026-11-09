@@ -1,0 +1,33 @@
+{
+  "id": "180095_1149019F1714_2_09",
+  "source_file": "180095_1149019F1714_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1149019F1714_2_09",
+  "extracted_at": "2026-11-09T14:01:27.775Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23356,
+    "output": 1036
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロキソプロフェンNa錠60mg「OHA」",
+      "strength": "60mg",
+      "imprint_front": "ロキソプロフェン",
+      "imprint_back": "60OHA",
+      "imprint_note": null,
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 ごくうすい紅色・片面割線入り素錠／直径：8.0mm　厚さ：3.1mm"
+    }
+  ],
+  "expected_products": [
+    "ロキソプロフェンNa錠60mg「OHA」"
+  ]
+}

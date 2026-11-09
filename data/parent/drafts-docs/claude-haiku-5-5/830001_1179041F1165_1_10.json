@@ -1,0 +1,67 @@
+{
+  "id": "830001_1179041F1165_1_10",
+  "source_file": "830001_1179041F1165_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1179041F1165_1_10",
+  "extracted_at": "2026-11-09T14:10:07.307Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37406,
+    "output": 2603
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD 367 / 5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 帯紅白色のフィルムコーティング錠 外形 直径 約5.6mm 厚さ 約2.5mm 重量 89.5mg"
+    },
+    {
+      "product_name": "パロキセチン錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "YD 368 / 10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 帯紅白色のフィルムコーティング錠 外形 直径 約6.6mm 厚さ 約3.6mm 重量 178mg"
+    },
+    {
+      "product_name": "パロキセチン錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "YD 369 / 20",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 帯紅白色のフィルムコーティング錠 外形 直径 約8.1mm 厚さ 約4.8mm 重量 357mg"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠10mg「YD」",
+    "パロキセチン錠20mg「YD」",
+    "パロキセチン錠5mg「YD」"
+  ]
+}

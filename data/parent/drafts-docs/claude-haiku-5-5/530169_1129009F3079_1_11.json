@@ -1,0 +1,49 @@
+{
+  "id": "530169_1129009F3079_1_11",
+  "source_file": "530169_1129009F3079_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1129009F3079_1_11",
+  "extracted_at": "2026-11-09T13:57:09.354Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22029,
+    "output": 1637
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩OD錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "180",
+      "imprint_back": "5",
+      "imprint_note": "表面上部の記号は判読できず未確認。割線入り。",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 淡いだいだい色 直径（mm） 6.5 厚さ（mm） 2.5"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩OD錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "181",
+      "imprint_back": "10",
+      "imprint_note": "表面上部の記号は判読できず未確認。割線入り。",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 淡いだいだい色 直径（mm） 8.0 厚さ（mm） 3.3"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩OD錠5mg「日医工」"
+  ]
+}

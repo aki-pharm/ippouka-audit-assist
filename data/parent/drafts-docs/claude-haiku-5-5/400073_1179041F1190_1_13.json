@@ -1,0 +1,65 @@
+{
+  "id": "400073_1179041F1190_1_13",
+  "source_file": "400073_1179041F1190_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_1179041F1190_1_13",
+  "extracted_at": "2026-11-09T14:11:02.117Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35642,
+    "output": 1696
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パロキセチン錠5mg｢科研｣",
+      "strength": "5mg",
+      "imprint_front": "DK513",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形のフィルムコーティング錠 色 帯紅白色 直径 5.1mm 厚さ 2.4mm 識別コード DK513"
+    },
+    {
+      "product_name": "パロキセチン錠10mg｢科研｣",
+      "strength": "10mg",
+      "imprint_front": "DK511",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形のフィルムコーティング錠 色 淡紅白色 直径 6.6mm 厚さ 2.9mm 識別コード DK511"
+    },
+    {
+      "product_name": "パロキセチン錠20mg｢科研｣",
+      "strength": "20mg",
+      "imprint_front": "DK512",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "淡紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形のフィルムコーティング錠 色 淡紅白色 直径 8.1mm 厚さ 3.8mm 識別コード DK512"
+    }
+  ],
+  "expected_products": [
+    "パロキセチン錠5mg「科研」"
+  ]
+}

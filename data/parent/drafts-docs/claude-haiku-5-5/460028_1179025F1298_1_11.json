@@ -1,0 +1,67 @@
+{
+  "id": "460028_1179025F1298_1_11",
+  "source_file": "460028_1179025F1298_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1179025F1298_1_11",
+  "extracted_at": "2026-11-09T14:07:21.850Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15431,
+    "output": 1607
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エチゾラム錠0.25mg「ツルハラ」",
+      "strength": "0.25mg",
+      "imprint_front": "025",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 剤形 フィルムコート錠 色調 微赤色 大きさ 直径 約5.6mm 厚さ 約2.6mm 識別コード 025"
+    },
+    {
+      "product_name": "エチゾラム錠0.5mg「ツルハラ」",
+      "strength": "0.5mg",
+      "imprint_front": "D7",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 剤形 フィルムコート錠 色調 白色 大きさ 直径 約5.6mm 厚さ 約2.6mm 識別コード D7"
+    },
+    {
+      "product_name": "エチゾラム錠1mg「ツルハラ」",
+      "strength": "1mg",
+      "imprint_front": "D15",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 剤形 フィルムコート錠 色調 白色 大きさ 直径 約6.0mm 厚さ 約2.6mm 識別コード D15"
+    }
+  ],
+  "expected_products": [
+    "エチゾラム錠0.25mg「ツルハラ」",
+    "エチゾラム錠0.5mg「ツルハラ」",
+    "エチゾラム錠1mg「ツルハラ」"
+  ]
+}

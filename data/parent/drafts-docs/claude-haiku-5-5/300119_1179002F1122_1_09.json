@@ -1,0 +1,50 @@
+{
+  "id": "300119_1179002F1122_1_09",
+  "source_file": "300119_1179002F1122_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179002F1122_1_09",
+  "extracted_at": "2026-11-09T14:05:39.291Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21432,
+    "output": 1851
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アミトリプチリン塩酸塩錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW 027",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡青色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 性　状 淡青色 直径（mm） 6.1 厚さ（mm） 3.7 重量（mg） 約100 識別コード SW 027"
+    },
+    {
+      "product_name": "アミトリプチリン塩酸塩錠25mg「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "SW 028",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄緑色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 性　状 黄緑色 直径（mm） 7.1 厚さ（mm） 3.9 重量（mg） 約137 識別コード SW 028"
+    }
+  ],
+  "expected_products": [
+    "アミトリプチリン塩酸塩錠10mg「サワイ」",
+    "アミトリプチリン塩酸塩錠25mg「サワイ」"
+  ]
+}

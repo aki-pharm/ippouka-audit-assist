@@ -1,0 +1,67 @@
+{
+  "id": "450064_1179025F1328_1_02",
+  "source_file": "450064_1179025F1328_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_1179025F1328_1_02",
+  "extracted_at": "2026-11-09T14:06:50.208Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17687,
+    "output": 2822
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エチゾラム錠0.25mg「JG」",
+      "strength": "0.25mg",
+      "imprint_front": "JG C40",
+      "imprint_back": "0.25",
+      "imprint_note": null,
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 微赤色のフィルムコーティング錠 大きさ 直径 6.6mm 厚さ 3.4mm 識別コード JG C40"
+    },
+    {
+      "product_name": "エチゾラム錠0.5mg「JG」",
+      "strength": "0.5mg",
+      "imprint_front": "JG C44",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 大きさ 直径 6.6mm 厚さ 3.7mm 識別コード JG C44"
+    },
+    {
+      "product_name": "エチゾラム錠1mg「JG」",
+      "strength": "1mg",
+      "imprint_front": "JG C45",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 大きさ 直径 6.6mm 厚さ 3.9mm 識別コード JG C45"
+    }
+  ],
+  "expected_products": [
+    "エチゾラム錠0.25mg「JG」",
+    "エチゾラム錠0.5mg「JG」",
+    "エチゾラム錠1mg「JG」"
+  ]
+}

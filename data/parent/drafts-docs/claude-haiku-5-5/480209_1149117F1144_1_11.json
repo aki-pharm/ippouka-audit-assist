@@ -1,0 +1,33 @@
+{
+  "id": "480209_1149117F1144_1_11",
+  "source_file": "480209_1149117F1144_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1149117F1144_1_11",
+  "extracted_at": "2026-11-09T14:03:59.809Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32268,
+    "output": 1625
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トアラセット配合錠「杏林」",
+      "strength": "1錠中 トラマドール塩酸塩37.5mg・アセトアミノフェン325mg",
+      "imprint_front": "トアラセット 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として「トアラセット 杏林」の記載あり。表裏の別は記載なし",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 15.6,
+      "size_short_mm": 6.4,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡黄色 外形 本体表示 トアラセット 杏林 直径(mm) 長径：15.6 短径：6.4 厚さ(mm) 5.1 質量(mg) 441"
+    }
+  ],
+  "expected_products": [
+    "トアラセット配合錠「杏林」"
+  ]
+}

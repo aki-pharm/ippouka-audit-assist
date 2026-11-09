@@ -1,0 +1,65 @@
+{
+  "id": "300119_1179039F1141_1_18",
+  "source_file": "300119_1179039F1141_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1179039F1141_1_18",
+  "extracted_at": "2026-11-09T14:09:03.436Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27997,
+    "output": 1737
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠25mg「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "SW FV1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 黄色 直径（mm） 5.1 厚さ（mm） 2.3 識別コード SW FV1"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW FV2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 黄色 直径（mm） 6.1 厚さ（mm） 3.0 識別コード SW FV2"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠75mg「サワイ」",
+      "strength": "75mg",
+      "imprint_front": "SW FV3",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 黄色 直径（mm） 7.1 厚さ（mm） 3.4 識別コード SW FV3"
+    }
+  ],
+  "expected_products": [
+    "フルボキサミンマレイン酸塩錠25mg「サワイ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "180095_1129009F1211_2_14",
+  "source_file": "180095_1129009F1211_2_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_1129009F1211_2_14",
+  "extracted_at": "2026-11-09T13:57:48.484Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23540,
+    "output": 2263
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルピデム酒石酸塩錠5mg「オーハラ」",
+      "strength": "5mg",
+      "imprint_front": "ゾルピデム 5 オーハラ",
+      "imprint_back": "ゾルピデム 5 オーハラ",
+      "imprint_note": "添付文書の識別コード欄の記載を表裏に適用",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：淡いだいだい色 片面割線入りのフィルムコーティング錠 識別コード：ゾルピデム 5 オーハラ 直径（mm）6.6 厚さ（mm）2.7"
+    },
+    {
+      "product_name": "ゾルピデム酒石酸塩錠10mg「オーハラ」",
+      "strength": "10mg",
+      "imprint_front": "ゾルピデム 10 オーハラ",
+      "imprint_back": "ゾルピデム 10 オーハラ",
+      "imprint_note": "添付文書の識別コード欄の記載を表裏に適用",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：淡いだいだい色 片面割線入りのフィルムコーティング錠 識別コード：ゾルピデム 10 オーハラ 直径（mm）8.6 厚さ（mm）3.4"
+    }
+  ],
+  "expected_products": [
+    "ゾルピデム酒石酸塩錠10mg「オーハラ」",
+    "ゾルピデム酒石酸塩錠5mg「オーハラ」"
+  ]
+}

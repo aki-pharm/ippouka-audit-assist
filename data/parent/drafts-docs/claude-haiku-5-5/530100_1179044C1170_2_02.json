@@ -1,0 +1,101 @@
+{
+  "id": "530100_1179044C1170_2_02",
+  "source_file": "530100_1179044C1170_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179044C1170_2_02",
+  "extracted_at": "2026-11-09T14:12:19.958Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 47446,
+    "output": 2899
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピン錠2.5mg「NP」",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り フィルムコーティング錠 7.2 3.4 141"
+    },
+    {
+      "product_name": "オランザピン錠5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 8.2 4.0 215"
+    },
+    {
+      "product_name": "オランザピン錠10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.5,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 9.2 4.5 319"
+    },
+    {
+      "product_name": "オランザピンOD錠5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "淡黄色の素錠（口腔内崩壊錠） 8.0 4.0 200"
+    },
+    {
+      "product_name": "オランザピンOD錠10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "淡黄色の素錠（口腔内崩壊錠） 10.0 5.0 380"
+    }
+  ],
+  "expected_products": [
+    "オランザピンOD錠10mg「NP」",
+    "オランザピンOD錠5mg「NP」",
+    "オランザピン錠10mg「NP」",
+    "オランザピン錠2.5mg「NP」",
+    "オランザピン錠5mg「NP」"
+  ]
+}

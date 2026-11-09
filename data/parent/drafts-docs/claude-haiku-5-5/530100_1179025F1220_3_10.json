@@ -1,0 +1,67 @@
+{
+  "id": "530100_1179025F1220_3_10",
+  "source_file": "530100_1179025F1220_3_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_1179025F1220_3_10",
+  "extracted_at": "2026-11-09T14:06:59.523Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19207,
+    "output": 2793
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エチゾラム錠 0.25mg「NP」",
+      "strength": "0.25mg",
+      "imprint_front": "NP-547",
+      "imprint_back": "0.25",
+      "imprint_note": "表は社名マーク（NP）と識別コードNP-547。裏の「0.25」は添付文書の図からの読み取り",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "微赤色のフィルムコーティング錠 6.6 3.4 112 NP-547"
+    },
+    {
+      "product_name": "エチゾラム錠 0.5mg「NP」",
+      "strength": "0.5mg",
+      "imprint_front": "NP-557",
+      "imprint_back": "未確認",
+      "imprint_note": "表は社名マーク（NP）と識別コードNP-557。裏面の刻印は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 6.6 3.7 112.5 NP-557"
+    },
+    {
+      "product_name": "エチゾラム錠 1mg「NP」",
+      "strength": "1mg",
+      "imprint_front": "NP-577",
+      "imprint_back": "未確認",
+      "imprint_note": "表は社名マーク（NP）と識別コードNP-577。裏面の刻印は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 6.6 3.8 124 NP-577"
+    }
+  ],
+  "expected_products": [
+    "エチゾラム錠0.25mg「NP」",
+    "エチゾラム錠0.5mg「NP」",
+    "エチゾラム錠1mg「NP」"
+  ]
+}

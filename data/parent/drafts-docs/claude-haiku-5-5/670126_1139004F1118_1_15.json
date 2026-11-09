@@ -1,0 +1,49 @@
+{
+  "id": "670126_1139004F1118_1_15",
+  "source_file": "670126_1139004F1118_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670126_1139004F1118_1_15",
+  "extracted_at": "2026-11-09T13:59:32.457Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27738,
+    "output": 1719
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルプロ酸Na錠100mg「フジナガ」",
+      "strength": "100mg",
+      "imprint_front": "EP100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPシートに表示",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色 EP100（PTPシートに表示） 直径（mm）7.1 厚さ（mm）3.7 重さ（mg）131"
+    },
+    {
+      "product_name": "バルプロ酸Na錠200mg「フジナガ」",
+      "strength": "200mg",
+      "imprint_front": "EP200",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPシートに表示",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色 EP200（PTPシートに表示） 直径（mm）9.1 厚さ（mm）4.8 重さ（mg）260"
+    }
+  ],
+  "expected_products": [
+    "バルプロ酸Na錠100mg「フジナガ」"
+  ]
+}

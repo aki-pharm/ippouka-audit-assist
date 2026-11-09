@@ -1,0 +1,67 @@
+{
+  "id": "480209_1179044F1100_1_14",
+  "source_file": "480209_1179044F1100_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1179044F1100_1_14",
+  "extracted_at": "2026-11-09T14:13:39.687Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 40379,
+    "output": 1783
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オランザピン錠2.5mg「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "オランザピン 2.5 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 本体表示 オランザピン 2.5 杏林 直径(mm) 7.2 厚さ(mm) 3.5 質量(mg) 141"
+    },
+    {
+      "product_name": "オランザピン錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "オランザピン 5 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 本体表示 オランザピン 5 杏林 直径(mm) 8.2 厚さ(mm) 4.0 質量(mg) 214"
+    },
+    {
+      "product_name": "オランザピン錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "オランザピン 10 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.2,
+      "size_short_mm": 10.2,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 本体表示 オランザピン 10 杏林 直径(mm) 10.2 厚さ(mm) 5.2 質量(mg) 422"
+    }
+  ],
+  "expected_products": [
+    "オランザピン錠10mg「杏林」",
+    "オランザピン錠2.5mg「杏林」",
+    "オランザピン錠5mg「杏林」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "581120_1149001F1501_1_04",
+  "source_file": "581120_1149001F1501_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1149001F1501_1_04",
+  "extracted_at": "2026-11-09T14:01:17.107Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18699,
+    "output": 1946
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イブプロフェン錠100mg「NIG」",
+      "strength": "100mg",
+      "imprint_front": "t 261",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは（PTP）欄の記載による。表裏の区別は文書上不明",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 ／ 外形 直径 8.2mm 厚さ 4.5mm 質量 197mg ／ 識別コード（PTP） t 261"
+    },
+    {
+      "product_name": "イブプロフェン錠200mg「NIG」",
+      "strength": "200mg",
+      "imprint_front": "t 262",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは（PTP）欄の記載による。表裏の区別は文書上不明",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.3,
+      "size_short_mm": 10.3,
+      "thickness_mm": 5.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の糖衣錠 ／ 外形 直径 10.3mm 厚さ 5.8mm 質量 390mg ／ 識別コード（PTP） t 262"
+    }
+  ],
+  "expected_products": [
+    "イブプロフェン錠100mg「NIG」"
+  ]
+}

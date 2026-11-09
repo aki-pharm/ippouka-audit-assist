@@ -1,0 +1,66 @@
+{
+  "id": "400186_1179039F1150_1_19",
+  "source_file": "400186_1179039F1150_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179039F1150_1_19",
+  "extracted_at": "2026-11-09T14:09:07.343Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32090,
+    "output": 2469
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠25mg「タカタ」",
+      "strength": "25mg",
+      "imprint_front": "TF 25、TTS-156",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠 TF 25 TTS-156 約 5.1mm 約 0.047g 約 2.4mm"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠50mg「タカタ」",
+      "strength": "50mg",
+      "imprint_front": "TF 50、TTS-157",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠 TF 50 TTS-157 約 6.1mm 約 0.093g 約 3.1mm"
+    },
+    {
+      "product_name": "フルボキサミンマレイン酸塩錠75mg「タカタ」",
+      "strength": "75mg",
+      "imprint_front": "TF 75、TTS-158",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠 TF 75 TTS-158 約 7.1mm 約 0.138g 約 3.4mm"
+    }
+  ],
+  "expected_products": [
+    "フルボキサミンマレイン酸塩錠25mg「タカタ」",
+    "フルボキサミンマレイン酸塩錠75mg「タカタ」"
+  ]
+}

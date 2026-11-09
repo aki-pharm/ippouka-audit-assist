@@ -1,0 +1,84 @@
+{
+  "id": "400186_1179038F5053_1_23",
+  "source_file": "400186_1179038F5053_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_1179038F5053_1_23",
+  "extracted_at": "2026-11-09T14:08:07.457Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30355,
+    "output": 3237
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リスペリドンOD錠0.5mg「タカタ」",
+      "strength": "0.5mg",
+      "imprint_front": "TTS 523",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "白 色 の 裸錠 約 5.0mm 約 0.05g 約 2.0mm"
+    },
+    {
+      "product_name": "リスペリドンOD錠1mg「タカタ」",
+      "strength": "1mg",
+      "imprint_front": "TTS 520",
+      "imprint_back": "なし",
+      "imprint_note": "片側に二分割線あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色で、片側に二分割線のある裸錠 約 6.5mm 約 0.1g 約 2.2mm"
+    },
+    {
+      "product_name": "リスペリドンOD錠2mg「タカタ」",
+      "strength": "2mg",
+      "imprint_front": "TTS 521",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "白 色 の 裸錠 約 7.0mm 約 0.13g 約 2.4mm"
+    },
+    {
+      "product_name": "リスペリドンOD錠3mg「タカタ」",
+      "strength": "3mg",
+      "imprint_front": "TTS 522",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "白 色 の 裸錠 約 8.0mm 約 0.195g 約 2.8mm"
+    }
+  ],
+  "expected_products": [
+    "リスペリドンOD錠0.5mg「タカタ」",
+    "リスペリドンOD錠1mg「タカタ」",
+    "リスペリドンOD錠2mg「タカタ」",
+    "リスペリドンOD錠3mg「タカタ」"
+  ]
+}

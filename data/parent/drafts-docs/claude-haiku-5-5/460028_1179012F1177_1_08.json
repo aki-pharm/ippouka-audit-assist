@@ -1,0 +1,50 @@
+{
+  "id": "460028_1179012F1177_1_08",
+  "source_file": "460028_1179012F1177_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1179012F1177_1_08",
+  "extracted_at": "2026-11-09T14:05:50.002Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12901,
+    "output": 1537
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロチアゼパム錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "N3",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 外形 大きさ 直径 約5.1mm 厚さ 約2.9mm 識別コード N3"
+    },
+    {
+      "product_name": "クロチアゼパム錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "N7",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコート錠 色調 白色 外形 大きさ 直径 約6.1mm 厚さ 約2.6mm 識別コード N7"
+    }
+  ],
+  "expected_products": [
+    "クロチアゼパム錠10mg「ツルハラ」",
+    "クロチアゼパム錠5mg「ツルハラ」"
+  ]
+}

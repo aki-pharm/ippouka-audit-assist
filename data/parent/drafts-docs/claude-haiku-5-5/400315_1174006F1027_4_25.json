@@ -1,0 +1,50 @@
+{
+  "id": "400315_1174006F1027_4_25",
+  "source_file": "400315_1174006F1027_4_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_1174006F1027_4_25",
+  "extracted_at": "2026-11-09T14:05:29.039Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20326,
+    "output": 1612
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミドール糖衣錠（10）",
+      "strength": "10mg",
+      "imprint_front": "Y-IM10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・糖衣錠、直径（mm）6.2、厚さ（mm）3.5、重量（mg）110、識別コード Y-IM10"
+    },
+    {
+      "product_name": "イミドール糖衣錠（25）",
+      "strength": "25mg",
+      "imprint_front": "Y-IM25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微黄赤色・糖衣錠、直径（mm）6.2、厚さ（mm）3.5、重量（mg）110、識別コード Y-IM25"
+    }
+  ],
+  "expected_products": [
+    "イミドール糖衣錠（10）",
+    "イミドール糖衣錠（25）"
+  ]
+}

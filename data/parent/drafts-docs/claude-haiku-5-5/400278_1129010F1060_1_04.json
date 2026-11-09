@@ -1,0 +1,67 @@
+{
+  "id": "400278_1129010F1060_1_04",
+  "source_file": "400278_1129010F1060_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1129010F1060_1_04",
+  "extracted_at": "2026-11-09T13:58:42.331Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27432,
+    "output": 3270
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスゾピクロン錠1mg「TCK」",
+      "strength": "1mg",
+      "imprint_front": "1 TCK",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印を読み取り（本文に刻印の文字記載はなし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "エスゾピクロン錠 1mg「TCK」 外形 直径(mm) 6.6、厚さ(mm) 3.2、重量(mg) 105、色調 白色、剤形 フィルムコーティング錠"
+    },
+    {
+      "product_name": "エスゾピクロン錠2mg「TCK」",
+      "strength": "2mg",
+      "imprint_front": "2 TCK",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印を読み取り（本文に刻印の文字記載はなし）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "エスゾピクロン錠 2mg「TCK」 外形 直径(mm) 6.6、厚さ(mm) 3.2、重量(mg) 105、色調 淡黄色、剤形 フィルムコーティング錠(割線入り)"
+    },
+    {
+      "product_name": "エスゾピクロン錠3mg「TCK」",
+      "strength": "3mg",
+      "imprint_front": "3 TCK",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印を読み取り（本文に刻印の文字記載はなし）",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "エスゾピクロン錠 3mg「TCK」 外形 直径(mm) 6.6、厚さ(mm) 3.2、重量(mg) 105、色調 淡赤色、剤形 フィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "エスゾピクロン錠1mg「TCK」",
+    "エスゾピクロン錠2mg「TCK」",
+    "エスゾピクロン錠3mg「TCK」"
+  ]
+}

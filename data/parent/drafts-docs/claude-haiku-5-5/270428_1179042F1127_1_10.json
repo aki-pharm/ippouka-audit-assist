@@ -1,0 +1,67 @@
+{
+  "id": "270428_1179042F1127_1_10",
+  "source_file": "270428_1179042F1127_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1179042F1127_1_10",
+  "extracted_at": "2026-11-09T14:11:15.129Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27388,
+    "output": 2161
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クエチアピン錠25mg「サンド」",
+      "strength": "25mg",
+      "imprint_front": "SZ",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "やわらかい黄みの赤色",
+      "shape": "round",
+      "size_long_mm": 5.4,
+      "size_short_mm": 5.4,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "やわらかい黄みの赤色円形のフィルムコーティング錠 大きさ 直径 5.4mm 厚さ 2.9mm"
+    },
+    {
+      "product_name": "クエチアピン錠100mg「サンド」",
+      "strength": "100mg",
+      "imprint_front": "SZ100",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の裏面に刻印は見当たらないが、「なし」とは明記されていない",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "黄色円形のフィルムコーティング錠 大きさ 直径 8.5mm 厚さ 4.9mm"
+    },
+    {
+      "product_name": "クエチアピン錠200mg「サンド」",
+      "strength": "200mg",
+      "imprint_front": "SZ200",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の裏面に刻印は見当たらないが、「なし」とは明記されていない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.5,
+      "size_short_mm": 11.5,
+      "thickness_mm": 5.8,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色円形のフィルムコーティング錠 大きさ 直径 11.5mm 厚さ 5.8mm"
+    }
+  ],
+  "expected_products": [
+    "クエチアピン錠100mg「サンド」",
+    "クエチアピン錠200mg「サンド」",
+    "クエチアピン錠25mg「サンド」"
+  ]
+}

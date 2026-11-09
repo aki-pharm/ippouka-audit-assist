@@ -1,0 +1,67 @@
+{
+  "id": "340278_1179041F1025_2_42",
+  "source_file": "340278_1179041F1025_2_42.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_1179041F1025_2_42",
+  "extracted_at": "2026-11-09T14:09:34.841Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31710,
+    "output": 2318
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パキシル錠5mg",
+      "strength": "5mg",
+      "imprint_front": "GS",
+      "imprint_back": "TEZ",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 帯紅白色のフィルムコーティング錠 識別コード GS TEZ 表（直径）5.6mm 側面（厚さ）2.4mm"
+    },
+    {
+      "product_name": "パキシル錠10mg",
+      "strength": "10mg",
+      "imprint_front": "GS",
+      "imprint_back": "FC1",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 帯紅白色のフィルムコーティング錠 識別コード GS FC1 表（直径）6.6mm 側面（厚さ）3.6mm"
+    },
+    {
+      "product_name": "パキシル錠20mg",
+      "strength": "20mg",
+      "imprint_front": "GS",
+      "imprint_back": "FE2",
+      "imprint_note": null,
+      "color": "帯紅白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2025年12月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 帯紅白色のフィルムコーティング錠 識別コード GS FE2 表（直径）8.1mm 側面（厚さ）4.8mm"
+    }
+  ],
+  "expected_products": [
+    "パキシル錠10mg",
+    "パキシル錠20mg",
+    "パキシル錠5mg"
+  ]
+}

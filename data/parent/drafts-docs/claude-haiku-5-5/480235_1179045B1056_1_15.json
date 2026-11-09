@@ -1,0 +1,100 @@
+{
+  "id": "480235_1179045B1056_1_15",
+  "source_file": "480235_1179045B1056_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1179045B1056_1_15",
+  "extracted_at": "2026-11-09T14:14:43.961Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 45436,
+    "output": 5138
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アリピプラゾール錠1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "アリピプラゾール1 トーワ",
+      "imprint_back": "アリピプラゾール1 トーワ",
+      "imprint_note": "本体表示の欄が表・裏で1つに結合して記載されているため、表裏とも同じ表示として転記。判然としない場合は原本を確認",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤色の素錠 直径(mm) 6.0 厚さ(mm) 2.5 質量(mg) 95"
+    },
+    {
+      "product_name": "アリピプラゾール錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "アリピ3",
+      "imprint_back": "アリピプラゾール3 トーワ",
+      "imprint_note": null,
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "青色の割線入りの素錠 直径(mm) 6.0 厚さ(mm) 2.5 質量(mg) 95"
+    },
+    {
+      "product_name": "アリピプラゾール錠6mg「トーワ」",
+      "strength": "6mg",
+      "imprint_front": "アリピ6",
+      "imprint_back": "アリピプラゾール6 トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 直径(mm) 7.0 厚さ(mm) 2.7 質量(mg) 135"
+    },
+    {
+      "product_name": "アリピプラゾール錠12mg「トーワ」",
+      "strength": "12mg",
+      "imprint_front": "アリピ12",
+      "imprint_back": "アリピプラゾール12 トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 2,
+      "source_quote": "淡黄色の割線入りの素錠 直径(mm) 8.0 厚さ(mm) 2.8 質量(mg) 180"
+    },
+    {
+      "product_name": "アリピプラゾール錠24mg「トーワ」",
+      "strength": "24mg",
+      "imprint_front": "アリピ24",
+      "imprint_back": "アリピプラゾール24 トーワ",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 2,
+      "source_quote": "淡赤色の割線入りの素錠 直径(mm) 9.0 厚さ(mm) 3.7 質量(mg) 300"
+    }
+  ],
+  "expected_products": [
+    "アリピプラゾール錠12mg「トーワ」",
+    "アリピプラゾール錠24mg「トーワ」",
+    "アリピプラゾール錠3mg「トーワ」",
+    "アリピプラゾール錠6mg「トーワ」"
+  ]
+}
