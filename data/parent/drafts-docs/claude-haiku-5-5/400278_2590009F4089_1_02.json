@@ -1,0 +1,67 @@
+{
+  "id": "400278_2590009F4089_1_02",
+  "source_file": "400278_2590009F4089_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2590009F4089_1_02",
+  "extracted_at": "2026-11-09T15:14:39.033Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14119,
+    "output": 1947
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジル OD 錠 25mg「TCK」",
+      "strength": "25mg",
+      "imprint_front": "TU 141",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "ナフトピジル OD 錠 25mg「TCK」 白色 素錠（割線入り） TU 141 7.0 2.0 100"
+    },
+    {
+      "product_name": "ナフトピジル OD 錠 50mg「TCK」",
+      "strength": "50mg",
+      "imprint_front": "TU 142",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "ナフトピジル OD 錠 50mg「TCK」 白色 素錠（割線入り） TU 142 9.0 2.5 200"
+    },
+    {
+      "product_name": "ナフトピジル OD 錠 75mg「TCK」",
+      "strength": "75mg",
+      "imprint_front": "TU 143",
+      "imprint_back": "75",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "ナフトピジル OD 錠 75mg「TCK」 白色 素錠（割線入り） TU 143 10.0 3.2 300"
+    }
+  ],
+  "expected_products": [
+    "ナフトピジルOD錠25mg「TCK」",
+    "ナフトピジルOD錠50mg「TCK」",
+    "ナフトピジルOD錠75mg「TCK」"
+  ]
+}

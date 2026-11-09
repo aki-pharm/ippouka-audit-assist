@@ -1,0 +1,65 @@
+{
+  "id": "581120_2590009F4232_1_03",
+  "source_file": "581120_2590009F4232_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2590009F4232_1_03",
+  "extracted_at": "2026-11-09T15:14:42.591Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13919,
+    "output": 3314
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジルOD錠25mg「NIG」",
+      "strength": "25mg",
+      "imprint_front": "25",
+      "imprint_back": "TV NP1",
+      "imprint_note": "表面の数字と識別コード（PTP）TV NP1は外形図から読み取り。表裏の割当は図による",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り口腔内崩壊錠 外形 直径 7.0mm 厚さ 3.3mm"
+    },
+    {
+      "product_name": "ナフトピジルOD錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "50",
+      "imprint_back": "TV NP2",
+      "imprint_note": "表面の数字と識別コード（PTP）TV NP2は外形図から読み取り。表裏の割当は図による",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り口腔内崩壊錠 外形 直径 9.0mm 厚さ 4.1mm"
+    },
+    {
+      "product_name": "ナフトピジルOD錠75mg「NIG」",
+      "strength": "75mg",
+      "imprint_front": "75",
+      "imprint_back": "TV NP3",
+      "imprint_note": "表面の数字と識別コード（PTP）TV NP3は外形図から読み取り。表裏の割当は図による",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り口腔内崩壊錠 外形 直径 10.0mm 厚さ 4.9mm"
+    }
+  ],
+  "expected_products": [
+    "ナフトピジルOD錠25mg「NIG」"
+  ]
+}

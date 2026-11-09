@@ -1,0 +1,65 @@
+{
+  "id": "530372_2590009F4127_2_03",
+  "source_file": "530372_2590009F4127_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2590009F4127_2_03",
+  "extracted_at": "2026-11-09T15:14:48.223Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13967,
+    "output": 1982
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジルOD錠25mg「ケミファ」",
+      "strength": "25mg",
+      "imprint_front": "NPI 136",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りの素錠 外形 直径 7.0mm 9.0mm 10.0mm 厚さ 3.3mm 4.1mm 4.9mm 識別コード NPI 136 NPI 137 NPI 138"
+    },
+    {
+      "product_name": "ナフトピジルOD錠50mg「ケミファ」",
+      "strength": "50mg",
+      "imprint_front": "NPI 137",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りの素錠 外形 直径 7.0mm 9.0mm 10.0mm 厚さ 3.3mm 4.1mm 4.9mm 識別コード NPI 136 NPI 137 NPI 138"
+    },
+    {
+      "product_name": "ナフトピジルOD錠75mg「ケミファ」",
+      "strength": "75mg",
+      "imprint_front": "NPI 138",
+      "imprint_back": "75",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りの素錠 外形 直径 7.0mm 9.0mm 10.0mm 厚さ 3.3mm 4.1mm 4.9mm 識別コード NPI 136 NPI 137 NPI 138"
+    }
+  ],
+  "expected_products": [
+    "ナフトピジルOD錠25mg「ケミファ」"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "480235_2590009F4224_1_02",
+  "source_file": "480235_2590009F4224_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2590009F4224_1_02",
+  "extracted_at": "2026-11-09T15:14:57.159Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13745,
+    "output": 1760
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジルOD錠25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "ナフトピ 25",
+      "imprint_back": "ナフトピジル OD 25 トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の割線入りの口腔内崩壊錠 表 ナフトピ 25 裏 ナフトピジル OD 25 トーワ 直径(mm) 6.5 厚さ(mm) 3.4"
+    },
+    {
+      "product_name": "ナフトピジルOD錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "ナフトピ 50",
+      "imprint_back": "ナフトピジル OD 50 トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の割線入りの口腔内崩壊錠 表 ナフトピ 50 裏 ナフトピジル OD 50 トーワ 直径(mm) 8.0 厚さ(mm) 3.7"
+    },
+    {
+      "product_name": "ナフトピジルOD錠75mg「トーワ」",
+      "strength": "75mg",
+      "imprint_front": "ナフトピ 75",
+      "imprint_back": "ナフトピジル OD 75 トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄色の割線入りの口腔内崩壊錠 表 ナフトピ 75 裏 ナフトピジル OD 75 トーワ 直径(mm) 9.0 厚さ(mm) 4.4"
+    }
+  ],
+  "expected_products": [
+    "ナフトピジルOD錠25mg「トーワ」"
+  ]
+}
