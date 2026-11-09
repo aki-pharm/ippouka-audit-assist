@@ -1,0 +1,50 @@
+{
+  "id": "400107_1124017F2224_1_03",
+  "source_file": "400107_1124017F2224_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400107_1124017F2224_1_03",
+  "extracted_at": "2026-11-09T13:55:26.161Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13217,
+    "output": 1733
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジアゼパム錠2mg「タイホウ」",
+      "strength": "2mg",
+      "imprint_front": "TC2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り扁平状素錠である。"
+    },
+    {
+      "product_name": "ジアゼパム錠5mg「タイホウ」",
+      "strength": "5mg",
+      "imprint_front": "TC5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り扁平状素錠である。"
+    }
+  ],
+  "expected_products": [
+    "ジアゼパム錠2mg「タイホウ」",
+    "ジアゼパム錠5mg「タイホウ」"
+  ]
+}

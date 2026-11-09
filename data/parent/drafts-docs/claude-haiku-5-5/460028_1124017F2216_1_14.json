@@ -1,0 +1,66 @@
+{
+  "id": "460028_1124017F2216_1_14",
+  "source_file": "460028_1124017F2216_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1124017F2216_1_14",
+  "extracted_at": "2026-11-09T13:55:29.896Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13704,
+    "output": 2512
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジアゼパム錠2mg「ツルハラ」",
+      "strength": "2mg",
+      "imprint_front": "TSU301",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入りの素錠 色調 白色 外形 大きさ 直径 約6.0mm 厚さ 約2.5mm 識別コード TSU301"
+    },
+    {
+      "product_name": "ジアゼパム錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "TSU302",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入りの素錠 色調 黄色 外形 大きさ 直径 約7.5mm 厚さ 約3.5mm 識別コード TSU302"
+    },
+    {
+      "product_name": "ジアゼパム錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "TSU303",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入りの素錠 色調 青色 外形 大きさ 直径 約8.0mm 厚さ 約2.7mm 識別コード TSU303"
+    }
+  ],
+  "expected_products": [
+    "ジアゼパム錠2mg「ツルハラ」",
+    "ジアゼパム錠5mg「ツルハラ」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "300119_1124026F1332_1_05",
+  "source_file": "300119_1124026F1332_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1124026F1332_1_05",
+  "extracted_at": "2026-11-09T13:55:47.149Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10039,
+    "output": 1322
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トフィソパム錠50mg「サワイ」",
+      "strength": "1錠中トフィソパム50mg",
+      "imprint_front": "SW 352",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤　形 素錠 性　状 白色～微黄白色 直径（mm） 7.0 厚さ（mm） 2.4 重量（mg） 約115 識別コード SW 352"
+    }
+  ],
+  "expected_products": [
+    "トフィソパム錠50mg「サワイ」"
+  ]
+}

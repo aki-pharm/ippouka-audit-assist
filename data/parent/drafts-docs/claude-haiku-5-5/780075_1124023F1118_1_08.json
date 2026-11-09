@@ -1,0 +1,50 @@
+{
+  "id": "780075_1124023F1118_1_08",
+  "source_file": "780075_1124023F1118_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_1124023F1118_1_08",
+  "extracted_at": "2026-11-09T13:55:44.803Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13931,
+    "output": 2248
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルプラゾラム錠0.4mg「サワイ」",
+      "strength": "0.4mg",
+      "imprint_front": "SW 026",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は文言に記載がなく、外形図からも確認できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色 直径（mm） 6.0 厚さ（mm） 2.4 識別コード SW 026"
+    },
+    {
+      "product_name": "アルプラゾラム錠0.8mg「サワイ」",
+      "strength": "0.8mg",
+      "imprint_front": "SW 025",
+      "imprint_back": "0.8",
+      "imprint_note": "裏面の「0.8」は外形図から読み取った（識別コード欄には SW 025 のみ記載）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色 直径（mm） 7.1 厚さ（mm） 2.7 識別コード SW 025"
+    }
+  ],
+  "expected_products": [
+    "アルプラゾラム錠0.4mg「サワイ」",
+    "アルプラゾラム錠0.8mg「サワイ」"
+  ]
+}

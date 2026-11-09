@@ -1,0 +1,50 @@
+{
+  "id": "300119_1124029F1123_1_07",
+  "source_file": "300119_1124029F1123_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1124029F1123_1_07",
+  "extracted_at": "2026-11-09T13:56:10.201Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14780,
+    "output": 1382
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロフラゼプ酸エチル錠1mg「サワイ」",
+      "strength": "1mg",
+      "imprint_front": "SW 212",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 性状 白色 うすい黄赤色 直径（mm） 6.0 6.0 厚さ（mm） 2.4 2.4 識別コード SW 212 SW 213"
+    },
+    {
+      "product_name": "ロフラゼプ酸エチル錠2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW 213",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 性状 白色 うすい黄赤色 直径（mm） 6.0 6.0 厚さ（mm） 2.4 2.4 識別コード SW 212 SW 213"
+    }
+  ],
+  "expected_products": [
+    "ロフラゼプ酸エチル錠1mg「サワイ」",
+    "ロフラゼプ酸エチル錠2mg「サワイ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "530169_1124030F1070_1_11",
+  "source_file": "530169_1124030F1070_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1124030F1070_1_11",
+  "extracted_at": "2026-11-09T13:56:35.504Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13461,
+    "output": 1684
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クアゼパム錠15mg「日医工」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表示図では判読できず。本体コード035・包装コード035の記載あり。",
+      "color": "微黄赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 微黄赤色 淡黄赤色 ／ 直径（mm） 7.0 7.5 厚さ（mm） 2.4 2.8"
+    },
+    {
+      "product_name": "クアゼパム錠20mg「日医工」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表示図では判読できず。本体コード037・包装コード037の記載あり。",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 微黄赤色 淡黄赤色 ／ 直径（mm） 7.0 7.5 厚さ（mm） 2.4 2.8"
+    }
+  ],
+  "expected_products": [
+    "クアゼパム錠15mg「日医工」",
+    "クアゼパム錠20mg「日医工」"
+  ]
+}

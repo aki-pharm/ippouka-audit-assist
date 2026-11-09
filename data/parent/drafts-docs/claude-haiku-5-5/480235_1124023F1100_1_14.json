@@ -1,0 +1,50 @@
+{
+  "id": "480235_1124023F1100_1_14",
+  "source_file": "480235_1124023F1100_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1124023F1100_1_14",
+  "extracted_at": "2026-11-09T13:55:47.789Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13826,
+    "output": 1849
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルプラゾラム錠0.4mg「トーワ」",
+      "strength": "0.4mg",
+      "imprint_front": "Tw103",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図のみで刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 識別コード Tw103 直径(mm) 6.5 厚さ(mm) 2.5"
+    },
+    {
+      "product_name": "アルプラゾラム錠0.8mg「トーワ」",
+      "strength": "0.8mg",
+      "imprint_front": "Tw149",
+      "imprint_back": "0.8",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入り素錠 識別コード Tw149 直径(mm) 7.0 厚さ(mm) 2.7"
+    }
+  ],
+  "expected_products": [
+    "アルプラゾラム錠0.4mg「トーワ」",
+    "アルプラゾラム錠0.8mg「トーワ」"
+  ]
+}

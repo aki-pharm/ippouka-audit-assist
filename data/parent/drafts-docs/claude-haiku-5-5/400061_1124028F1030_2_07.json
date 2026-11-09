@@ -1,0 +1,50 @@
+{
+  "id": "400061_1124028F1030_2_07",
+  "source_file": "400061_1124028F1030_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_1124028F1030_2_07",
+  "extracted_at": "2026-11-09T13:56:00.952Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9840,
+    "output": 2294
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "5mgコントール錠",
+      "strength": "5mg",
+      "imprint_front": "107",
+      "imprint_back": "5",
+      "imprint_note": "表面に社名マーク（△）と識別コード107。裏面の「5」は図中の表示から読み取った。割線の記載なし。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の糖衣錠 形状 直径 5.7mm 厚さ 3.3mm 重量 80mg 識別コード 107"
+    },
+    {
+      "product_name": "10mgコントール錠",
+      "strength": "10mg",
+      "imprint_front": "108",
+      "imprint_back": "10",
+      "imprint_note": "表面に社名マーク（△）と識別コード108。裏面の「10」は図中の表示から読み取った。割線の記載なし。",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の糖衣錠 形状 直径 7.5mm 厚さ 4.1mm 重量 175mg 識別コード 108"
+    }
+  ],
+  "expected_products": [
+    "10mgコントール錠",
+    "5mgコントール錠"
+  ]
+}

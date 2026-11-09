@@ -1,0 +1,50 @@
+{
+  "id": "460028_1124028B1062_1_08",
+  "source_file": "460028_1124028B1062_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1124028B1062_1_08",
+  "extracted_at": "2026-11-09T13:55:58.162Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10489,
+    "output": 1816
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロルジアゼポキシド錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄緑色",
+      "shape": "round",
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 糖衣錠 散剤 / 色調 淡黄緑色 淡緑色 白色 / 大きさ 直径 約5.7mm 約7.0mm — / 厚さ 約3.5mm 約4.3mm —"
+    },
+    {
+      "product_name": "クロルジアゼポキシド錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡緑色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 糖衣錠 散剤 / 色調 淡黄緑色 淡緑色 白色 / 大きさ 直径 約5.7mm 約7.0mm — / 厚さ 約3.5mm 約4.3mm —"
+    }
+  ],
+  "expected_products": [
+    "クロルジアゼポキシド錠10mg「ツルハラ」",
+    "クロルジアゼポキシド錠5mg「ツルハラ」"
+  ]
+}

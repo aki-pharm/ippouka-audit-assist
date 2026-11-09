@@ -1,0 +1,50 @@
+{
+  "id": "730119_1124028F1048_2_07",
+  "source_file": "730119_1124028F1048_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730119_1124028F1048_2_07",
+  "extracted_at": "2026-11-09T13:56:05.194Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12363,
+    "output": 1525
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バランス錠5mg",
+      "strength": "5mg",
+      "imprint_front": "MI504",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "色 白色～帯黄白色 外形 表 裏 側面 大きさ 直径5.7mm 厚さ 3.2mm 識別コード MI504"
+    },
+    {
+      "product_name": "バランス錠10mg",
+      "strength": "10mg",
+      "imprint_front": "MI505",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.9,
+      "size_short_mm": 6.9,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "色 白色～帯黄白色 外形 表 裏 側面 大きさ 直径6.9mm 厚さ 4.3mm 識別コード MI505"
+    }
+  ],
+  "expected_products": [
+    "バランス錠10mg",
+    "バランス錠5mg"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "340409_1124029F1140_1_08",
+  "source_file": "340409_1124029F1140_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_1124029F1140_1_08",
+  "extracted_at": "2026-11-09T13:56:11.354Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14702,
+    "output": 2014
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロフラゼプ酸エチル錠1mg「SN」",
+      "strength": "1mg",
+      "imprint_front": "RL 1",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の識別コードのみ記載。裏面の刻印は文書に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 規格 直径 6.5mm 厚さ 2.3mm 重量 100mg 識別コード RL 1"
+    },
+    {
+      "product_name": "ロフラゼプ酸エチル錠2mg「SN」",
+      "strength": "2mg",
+      "imprint_front": "RL 2",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の識別コードのみ記載。裏面の刻印は文書に記載なし",
+      "color": "うすだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 うすだいだい色の素錠 規格 直径 6.5mm 厚さ 2.3mm 重量 100mg 識別コード RL 2"
+    }
+  ],
+  "expected_products": [
+    "ロフラゼプ酸エチル錠1mg「SN」",
+    "ロフラゼプ酸エチル錠2mg「SN」"
+  ]
+}

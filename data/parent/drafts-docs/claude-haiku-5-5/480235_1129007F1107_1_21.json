@@ -1,0 +1,50 @@
+{
+  "id": "480235_1129007F1107_1_21",
+  "source_file": "480235_1129007F1107_1_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1129007F1107_1_21",
+  "extracted_at": "2026-11-09T13:56:45.611Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17529,
+    "output": 2163
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾピクロン錠7.5mg｢トーワ」",
+      "strength": "7.5mg",
+      "imprint_front": "Tw240",
+      "imprint_back": "7.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10.2,
+      "size_short_mm": 5.2,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年1月改訂",
+      "source_page": 1,
+      "source_quote": "割線入りの白色のフィルムコーティング錠 識別コード Tw240 直径(mm) 10.2／5.2(長径／短径) 厚さ(mm) 3.8"
+    },
+    {
+      "product_name": "ゾピクロン錠10mg｢トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw327",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年1月改訂",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の割線入り フィルムコーティング錠 識別コード Tw327 直径(mm) 7.2 厚さ(mm) 3.4"
+    }
+  ],
+  "expected_products": [
+    "ゾピクロン錠10mg「トーワ」",
+    "ゾピクロン錠7.5mg「トーワ」"
+  ]
+}

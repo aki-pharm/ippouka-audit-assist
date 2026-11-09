@@ -1,0 +1,50 @@
+{
+  "id": "300119_1129007F1123_1_10",
+  "source_file": "300119_1129007F1123_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1129007F1123_1_10",
+  "extracted_at": "2026-11-09T13:56:43.017Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17527,
+    "output": 2266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾピクロン錠7.5mg「サワイ」",
+      "strength": "7.5mg",
+      "imprint_front": "SW 731",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 10.2,
+      "size_short_mm": 5.2,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 性状 白色～帯黄白色 直径（mm） 10.2×5.2 厚さ（mm） 3.7 識別コード SW 731"
+    },
+    {
+      "product_name": "ゾピクロン錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW 732",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 性状 白色～帯黄白色 直径（mm） 7.2 厚さ（mm） 3.4 識別コード SW 732"
+    }
+  ],
+  "expected_products": [
+    "ゾピクロン錠10mg「サワイ」",
+    "ゾピクロン錠7.5mg「サワイ」"
+  ]
+}

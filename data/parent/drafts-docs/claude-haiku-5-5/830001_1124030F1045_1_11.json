@@ -1,0 +1,50 @@
+{
+  "id": "830001_1124030F1045_1_11",
+  "source_file": "830001_1124030F1045_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1124030F1045_1_11",
+  "extracted_at": "2026-11-09T13:56:22.785Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15353,
+    "output": 1637
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クアゼパム錠15mg「YD」",
+      "strength": "15mg",
+      "imprint_front": "YD 550",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は外形図より読み取り。裏面の刻印は本文に記載なし",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡橙色の割線入りの素錠 外形 直径 約7mm 厚さ 約2.3mm"
+    },
+    {
+      "product_name": "クアゼパム錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "YD 551",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は外形図より読み取り。裏面の刻印は本文に記載なし",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡橙色の割線入りの素錠 外形 直径 約7.5mm 厚さ 約3.2mm"
+    }
+  ],
+  "expected_products": [
+    "クアゼパム錠15mg「YD」",
+    "クアゼパム錠20mg「YD」"
+  ]
+}

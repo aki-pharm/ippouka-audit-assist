@@ -1,0 +1,50 @@
+{
+  "id": "480235_1124030F1061_1_12",
+  "source_file": "480235_1124030F1061_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_1124030F1061_1_12",
+  "extracted_at": "2026-11-09T13:56:33.324Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13842,
+    "output": 1779
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クアゼパム錠15mg「トーワ」",
+      "strength": "15mg",
+      "imprint_front": "Tw147",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は図の識別コード。裏面は図に刻印の記載なし",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡橙色の割線入りの素錠 識別コード Tw147 直径(mm) 7.5 厚さ(mm) 2.6"
+    },
+    {
+      "product_name": "クアゼパム錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "Tw170",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は図の識別コード。裏面は図に刻印の記載なし",
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡橙色の割線入りの素錠 識別コード Tw170 直径(mm) 8.0 厚さ(mm) 3.0"
+    }
+  ],
+  "expected_products": [
+    "クアゼパム錠15mg「トーワ」",
+    "クアゼパム錠20mg「トーワ」"
+  ]
+}

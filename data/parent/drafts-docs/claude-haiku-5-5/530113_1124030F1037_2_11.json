@@ -1,0 +1,50 @@
+{
+  "id": "530113_1124030F1037_2_11",
+  "source_file": "530113_1124030F1037_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1124030F1037_2_11",
+  "extracted_at": "2026-11-09T13:56:19.640Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13994,
+    "output": 1327
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クアゼパム錠15mg「MNP」",
+      "strength": "15mg",
+      "imprint_front": "MN 113",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 淡橙色の割線入りの素錠 外形 大きさ 錠径：7.0mm 錠厚：2.3mm 重量：120mg 識別コード MN 113"
+    },
+    {
+      "product_name": "クアゼパム錠20mg「MNP」",
+      "strength": "20mg",
+      "imprint_front": "MN 114",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 淡橙色の割線入りの素錠 外形 大きさ 錠径：7.5mm 錠厚：3.2mm 重量：180mg 識別コード MN 114"
+    }
+  ],
+  "expected_products": [
+    "クアゼパム錠15mg「MNP」",
+    "クアゼパム錠20mg「MNP」"
+  ]
+}

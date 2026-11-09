@@ -1,0 +1,50 @@
+{
+  "id": "672173_1124030F1053_2_04",
+  "source_file": "672173_1124030F1053_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1124030F1053_2_04",
+  "extracted_at": "2026-11-09T13:56:23.272Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15476,
+    "output": 1513
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クアゼパム錠 15mg「アメル」",
+      "strength": "15mg",
+      "imprint_front": "KW168",
+      "imprint_back": "未確認",
+      "imprint_note": "表の識別コードとしてKW168の記載あり。表裏の別は明記されていない",
+      "color": "微黄赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 微黄赤色 直径：約 7.0mm 厚さ：約 2.4mm 質量：約 120.0mg（識別コード KW168）"
+    },
+    {
+      "product_name": "クアゼパム錠 20mg「アメル」",
+      "strength": "20mg",
+      "imprint_front": "KW169",
+      "imprint_back": "未確認",
+      "imprint_note": "表の識別コードとしてKW169の記載あり。表裏の別は明記されていない",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 淡黄赤色 直径：約 7.5mm 厚さ：約 2.8mm 質量：約 160.0mg（識別コード KW169）"
+    }
+  ],
+  "expected_products": [
+    "クアゼパム錠15mg「アメル」",
+    "クアゼパム錠20mg「アメル」"
+  ]
+}

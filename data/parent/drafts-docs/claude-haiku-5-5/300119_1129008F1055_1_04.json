@@ -1,0 +1,67 @@
+{
+  "id": "300119_1129008F1055_1_04",
+  "source_file": "300119_1129008F1055_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_1129008F1055_1_04",
+  "extracted_at": "2026-11-09T13:56:58.686Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15020,
+    "output": 3345
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タンドスピロンクエン酸塩錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW TDS 5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りフィルムコーティング錠 性状 淡黄色 白色 直径（mm） 6.1 6.1 8.1 厚さ（mm） 2.8 2.8 3.2 識別コード SW TDS 5 SW TDS 10 SW TDS 20"
+    },
+    {
+      "product_name": "タンドスピロンクエン酸塩錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW TDS 10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りフィルムコーティング錠 性状 淡黄色 白色 直径（mm） 6.1 6.1 8.1 厚さ（mm） 2.8 2.8 3.2 識別コード SW TDS 5 SW TDS 10 SW TDS 20"
+    },
+    {
+      "product_name": "タンドスピロンクエン酸塩錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "SW TDS 20",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りフィルムコーティング錠 性状 淡黄色 白色 直径（mm） 6.1 6.1 8.1 厚さ（mm） 2.8 2.8 3.2 識別コード SW TDS 5 SW TDS 10 SW TDS 20"
+    }
+  ],
+  "expected_products": [
+    "タンドスピロンクエン酸塩錠10mg「サワイ」",
+    "タンドスピロンクエン酸塩錠20mg「サワイ」",
+    "タンドスピロンクエン酸塩錠5mg「サワイ」"
+  ]
+}
