@@ -1,0 +1,50 @@
+{
+  "id": "530169_1124007F1135_1_12",
+  "source_file": "530169_1124007F1135_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_1124007F1135_1_12",
+  "extracted_at": "2026-11-09T13:53:23.936Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18472,
+    "output": 1916
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリアゾラム錠0.125mg「日医工」",
+      "strength": "0.125mg",
+      "imprint_front": "710",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微青紫色～薄紫色",
+      "shape": "oblong",
+      "size_long_mm": 7.9,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 微青紫色～薄紫色 外形 直径（mm） 7.9×4.1 厚さ（mm） 2.6"
+    },
+    {
+      "product_name": "トリアゾラム錠0.25mg「日医工」",
+      "strength": "0.25mg",
+      "imprint_front": "711",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "青色～淡青色",
+      "shape": "oblong",
+      "size_long_mm": 7.9,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 青色～淡青色 外形 直径（mm） 7.9×4.1 厚さ（mm） 2.6"
+    }
+  ],
+  "expected_products": [
+    "トリアゾラム錠0.125mg「日医工」",
+    "トリアゾラム錠0.25mg「日医工」"
+  ]
+}

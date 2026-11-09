@@ -1,0 +1,50 @@
+{
+  "id": "672173_1124008F1067_2_03",
+  "source_file": "672173_1124008F1067_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1124008F1067_2_03",
+  "extracted_at": "2026-11-09T13:53:39.835Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15943,
+    "output": 1584
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルニトラゼパム錠 1mg「アメル」",
+      "strength": "1mg",
+      "imprint_front": "KW565/1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKW565/1（錠剤表面の図示による）",
+      "color": "帯青白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 KW565/1 帯青白色 直径：約 7.1mm 厚さ：約 2.7mm 質量：約 104mg"
+    },
+    {
+      "product_name": "フルニトラゼパム錠 2mg「アメル」",
+      "strength": "2mg",
+      "imprint_front": "KW566/2",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKW566/2（錠剤表面の図示による）",
+      "color": "帯青白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2025年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 KW566/2 帯青白色 直径：約 8.1mm 厚さ：約 4.0mm 質量：約 206mg"
+    }
+  ],
+  "expected_products": [
+    "フルニトラゼパム錠1mg「アメル」",
+    "フルニトラゼパム錠2mg「アメル」"
+  ]
+}

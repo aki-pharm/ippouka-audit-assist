@@ -1,0 +1,33 @@
+{
+  "id": "400813_1124009F2092_1_06",
+  "source_file": "400813_1124009F2092_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_1124009F2092_1_06",
+  "extracted_at": "2026-11-09T13:53:49.921Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14018,
+    "output": 1217
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロチゾラムOD錠0.25mg「テバ」",
+      "strength": "0.25mg",
+      "imprint_front": "t 071",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは（PTP）欄の記載による",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り口腔内崩壊錠 形状 直径 8.0mm 厚さ 2.9mm 重量 180mg 識別コード（PTP） t 071"
+    }
+  ],
+  "expected_products": [
+    "ブロチゾラムOD錠0.25mg「テバ」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "581120_1124003F2311_1_06",
+  "source_file": "581120_1124003F2311_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_1124003F2311_1_06",
+  "extracted_at": "2026-11-09T13:53:00.952Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13650,
+    "output": 1360
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニトラゼパム錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2製剤の性状の「識別コード（PTP）」欄に t 162 の記載があるが、錠剤表面の刻印かPTP包装上の表記かは文書から判別できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 外形 直径：8.4mm 厚さ：3.6mm 質量：100mg"
+    }
+  ],
+  "expected_products": [
+    "ニトラゼパム錠5mg「NIG」"
+  ]
+}

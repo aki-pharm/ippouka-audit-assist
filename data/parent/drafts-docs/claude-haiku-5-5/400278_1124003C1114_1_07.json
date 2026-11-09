@@ -1,0 +1,50 @@
+{
+  "id": "400278_1124003C1114_1_07",
+  "source_file": "400278_1124003C1114_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1124003C1114_1_07",
+  "extracted_at": "2026-11-09T13:52:53.474Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14003,
+    "output": 1786
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニトラゼパム錠 5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "Tu 005",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～類白色",
+      "shape": "oval",
+      "size_long_mm": 9,
+      "size_short_mm": 5.4,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "ニトラゼパム錠 5mg「TCK」 白色～類白色 素錠（割線入り） Tu 005 9.0 × 5.4 3.4 150"
+    },
+    {
+      "product_name": "ニトラゼパム錠 10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "Tu 010",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 9,
+      "size_short_mm": 5.4,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "ニトラゼパム錠10mg「TCK」 淡黄色 素錠（割線入り） Tu 010 9.0 × 5.4 3.7 160"
+    }
+  ],
+  "expected_products": [
+    "ニトラゼパム錠10mg「TCK」",
+    "ニトラゼパム錠5mg「TCK」"
+  ]
+}

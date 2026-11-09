@@ -1,0 +1,50 @@
+{
+  "id": "400278_1124007F1097_1_14",
+  "source_file": "400278_1124007F1097_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1124007F1097_1_14",
+  "extracted_at": "2026-11-09T13:53:16.841Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20765,
+    "output": 2261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリアゾラム錠0.125mg「TCK」",
+      "strength": "0.125mg",
+      "imprint_front": "Tu-NS",
+      "imprint_back": "0125",
+      "imprint_note": null,
+      "color": "淡紫色",
+      "shape": "oblong",
+      "size_long_mm": 7.9,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.1,
+      "score_line": false,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "トリアゾラム錠0.125mg「TCK」 淡紫色 素錠 TU-NS 直径7.9×5.7 厚さ2.1 重量100mg"
+    },
+    {
+      "product_name": "トリアゾラム錠0.25mg「TCK」",
+      "strength": "0.25mg",
+      "imprint_front": "Tu-NS",
+      "imprint_back": "025",
+      "imprint_note": "裏面は割線で区切られた0と25の表示",
+      "color": "淡青色",
+      "shape": "oblong",
+      "size_long_mm": 7.9,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "トリアゾラム錠0.25mg「TCK」 淡青色 素錠（割線入り） TU-NS 直径7.9×5.7 厚さ2.2 重量100mg"
+    }
+  ],
+  "expected_products": [
+    "トリアゾラム錠0.125mg「TCK」",
+    "トリアゾラム錠0.25mg「TCK」"
+  ]
+}

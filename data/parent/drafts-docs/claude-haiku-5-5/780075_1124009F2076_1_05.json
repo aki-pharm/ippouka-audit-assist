@@ -1,0 +1,33 @@
+{
+  "id": "780075_1124009F2076_1_05",
+  "source_file": "780075_1124009F2076_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780075_1124009F2076_1_05",
+  "extracted_at": "2026-11-09T13:53:48.423Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15225,
+    "output": 1290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロチゾラムOD錠0.25mg「サワイ」",
+      "strength": "0.25mg",
+      "imprint_front": "SW LND",
+      "imprint_back": "0.25",
+      "imprint_note": "表面は外形図の「SW」「LND」、裏面は外形図の「0.25」を読み取り。識別コードはSW LND",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 白色 直径（mm） 8.0 厚さ（mm） 2.8 重量（mg） 約170 識別コード SW LND"
+    }
+  ],
+  "expected_products": [
+    "ブロチゾラムOD錠0.25mg「サワイ」"
+  ]
+}

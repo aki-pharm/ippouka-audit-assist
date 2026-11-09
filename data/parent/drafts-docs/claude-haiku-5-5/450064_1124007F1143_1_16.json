@@ -1,0 +1,50 @@
+{
+  "id": "450064_1124007F1143_1_16",
+  "source_file": "450064_1124007F1143_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_1124007F1143_1_16",
+  "extracted_at": "2026-11-09T13:53:13.211Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18652,
+    "output": 2032
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリアゾラム錠0.125mg「CH」",
+      "strength": "0.125mg",
+      "imprint_front": "ch421",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡紫色",
+      "shape": "oval",
+      "size_long_mm": 7.9,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.1,
+      "score_line": false,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 淡紫色の素錠 大きさ 長径 7.9mm 短径 5.6mm 厚さ 2.1mm 識別コード ch421"
+    },
+    {
+      "product_name": "トリアゾラム錠0.25mg「CH」",
+      "strength": "0.25mg",
+      "imprint_front": "ch422",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 7,
+      "size_short_mm": 5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の素錠（割線入り） 大きさ 長径 7.0mm 短径 5.0mm 厚さ 2.3mm 識別コード ch422"
+    }
+  ],
+  "expected_products": [
+    "トリアゾラム錠0.125mg「CH」",
+    "トリアゾラム錠0.25mg「CH」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "580591_1124008F1075_1_10",
+  "source_file": "580591_1124008F1075_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1124008F1075_1_10",
+  "extracted_at": "2026-11-09T13:53:29.182Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14350,
+    "output": 2234
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルニトラゼパム錠 1 mg「JG」",
+      "strength": "1 mg",
+      "imprint_front": "JG C32",
+      "imprint_back": "1",
+      "imprint_note": "表面の「JG」は社名マーク、「C32」と合わせて識別コードはJG C32。裏面の「1」は図中の表示",
+      "color": "帯青白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "帯青白色の割線入りフィルムコーティング錠 直径 7.1mm 厚さ 2.7mm 重量 104mg（識別コード JG C32）"
+    },
+    {
+      "product_name": "フルニトラゼパム錠 2 mg「JG」",
+      "strength": "2 mg",
+      "imprint_front": "JG C33",
+      "imprint_back": "2",
+      "imprint_note": "表面の「JG」は社名マーク、「C33」と合わせて識別コードはJG C33。裏面の「2」は図中の表示",
+      "color": "帯青白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "帯青白色の割線入りフィルムコーティング錠 直径 8.1mm 厚さ 4.0mm 重量 206mg（識別コード JG C33）"
+    }
+  ],
+  "expected_products": [
+    "フルニトラゼパム錠1mg「JG」",
+    "フルニトラゼパム錠2mg「JG」"
+  ]
+}

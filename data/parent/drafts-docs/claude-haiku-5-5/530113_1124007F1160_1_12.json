@@ -1,0 +1,50 @@
+{
+  "id": "530113_1124007F1160_1_12",
+  "source_file": "530113_1124007F1160_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_1124007F1160_1_12",
+  "extracted_at": "2026-11-09T13:53:30.288Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14423,
+    "output": 2719
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリアゾラム錠0.125mg「日新」",
+      "strength": "0.125mg",
+      "imprint_front": "NS 173",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「0125」の表示あり。表裏の別は本文に記載なし",
+      "color": "淡紫色",
+      "shape": "oval",
+      "size_long_mm": 7.9,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 淡紫色の素錠 外形 大きさ 長径：7.9mm 短径：5.7mm 錠厚：2.2mm 重量：100mg 識別コード NS 173"
+    },
+    {
+      "product_name": "トリアゾラム錠0.25mg「日新」",
+      "strength": "0.25mg",
+      "imprint_front": "NS 112",
+      "imprint_back": "未確認",
+      "imprint_note": "表裏の別は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2026年7月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入り裸錠 外形 大きさ 錠径：7.0mm 錠厚：2.0mm 重量：100mg 識別コード NS 112"
+    }
+  ],
+  "expected_products": [
+    "トリアゾラム錠0.125mg「日新」",
+    "トリアゾラム錠0.25mg「日新」"
+  ]
+}

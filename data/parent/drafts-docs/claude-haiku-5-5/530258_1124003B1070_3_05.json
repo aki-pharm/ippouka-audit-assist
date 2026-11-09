@@ -1,0 +1,50 @@
+{
+  "id": "530258_1124003B1070_3_05",
+  "source_file": "530258_1124003B1070_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1124003B1070_3_05",
+  "extracted_at": "2026-11-09T13:53:12.102Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14489,
+    "output": 2582
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ネルボン錠5mg",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNF111。図では一方の面に「NF」と「111」を割線で上下に分けた刻印、もう一方の面に円内の「5」。どちらが表かは本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "白色・素錠（割線入）／直径 11.1mm、厚さ 3.6mm、質量 450mg、識別コード NF111"
+    },
+    {
+      "product_name": "ネルボン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNF112。図では一方の面に「NF」と「112」を割線で上下に分けた刻印、もう一方の面に円内の「10」。どちらが表かは本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "白色・素錠（割線入）／直径 11.1mm、厚さ 3.6mm、質量 450mg、識別コード NF112"
+    }
+  ],
+  "expected_products": [
+    "ネルボン錠10mg",
+    "ネルボン錠5mg"
+  ]
+}

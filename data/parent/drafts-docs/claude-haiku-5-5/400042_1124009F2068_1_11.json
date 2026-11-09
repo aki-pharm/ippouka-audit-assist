@@ -1,0 +1,33 @@
+{
+  "id": "400042_1124009F2068_1_11",
+  "source_file": "400042_1124009F2068_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_1124009F2068_1_11",
+  "extracted_at": "2026-11-09T13:53:39.246Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14441,
+    "output": 1118
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロチゾラムOD錠0.25mg「JG」",
+      "strength": "0.25mg",
+      "imprint_front": "JG C24",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は文書に記載なし（図では無地に見える）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の片面1/2割線入り素錠 表面 裏面 側面 JG C24 直径 8.0mm 厚さ 2.9mm 重量 180mg"
+    }
+  ],
+  "expected_products": [
+    "ブロチゾラムOD錠0.25mg「JG」"
+  ]
+}

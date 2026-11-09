@@ -1,0 +1,33 @@
+{
+  "id": "530258_1124009F1401_1_03",
+  "source_file": "530258_1124009F1401_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1124009F1401_1_03",
+  "extracted_at": "2026-11-09T13:53:55.085Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13485,
+    "output": 1158
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロチゾラム錠0.25mg「AFP」",
+      "strength": "0.25mg",
+      "imprint_front": "NF 131",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図では裏面に刻印は見当たらないが、文言での明記はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠"
+    }
+  ],
+  "expected_products": [
+    "ブロチゾラム錠0.25mg「AFP」"
+  ]
+}

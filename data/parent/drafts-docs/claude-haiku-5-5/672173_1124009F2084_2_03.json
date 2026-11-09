@@ -1,0 +1,33 @@
+{
+  "id": "672173_1124009F2084_2_03",
+  "source_file": "672173_1124009F2084_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_1124009F2084_2_03",
+  "extracted_at": "2026-11-09T13:53:43.803Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14399,
+    "output": 1435
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ブロチゾラム OD 錠 0.25mg「アメル」",
+      "strength": "0.25mg",
+      "imprint_front": "KW555",
+      "imprint_back": "OD0.25",
+      "imprint_note": "識別コード「KW555 /OD0.25」の表裏の割り当ては、添付文書の図の配置から判断した",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線入り素錠 KW555 /OD0.25 白色 直径：約 7.0mm 厚さ：約 2.4mm 質量：約 120.0mg"
+    }
+  ],
+  "expected_products": [
+    "ブロチゾラムOD錠0.25mg「アメル」"
+  ]
+}

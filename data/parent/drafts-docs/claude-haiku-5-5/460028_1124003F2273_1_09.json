@@ -1,0 +1,50 @@
+{
+  "id": "460028_1124003F2273_1_09",
+  "source_file": "460028_1124003F2273_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_1124003F2273_1_09",
+  "extracted_at": "2026-11-09T13:52:50.403Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13860,
+    "output": 1250
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニトラゼパム錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "TSU367",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜微帯黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り錠剤 色調 白色〜微帯黄色 大きさ 直径 約 7.5mm 厚さ 約 3.7mm 識別コード TSU367"
+    },
+    {
+      "product_name": "ニトラゼパム錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "TSU368",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜微帯黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り錠剤 色調 白色〜微帯黄色 大きさ 直径 約 9.0mm 厚さ 約 3.7mm 識別コード TSU368"
+    }
+  ],
+  "expected_products": [
+    "ニトラゼパム錠10mg「ツルハラ」",
+    "ニトラゼパム錠5mg「ツルハラ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "580591_1124003F2265_1_10",
+  "source_file": "580591_1124003F2265_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_1124003F2265_1_10",
+  "extracted_at": "2026-11-09T13:52:53.597Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13956,
+    "output": 1994
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニトラゼパム錠5 mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "JG C30",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～類白色",
+      "shape": "oval",
+      "size_long_mm": 9,
+      "size_short_mm": 5.4,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色～類白色の割線入りの錠剤 表面 裏面 側面 JG C30 長径 短径 厚さ 重量 9.0mm 5.4mm 3.4mm 150mg"
+    },
+    {
+      "product_name": "ニトラゼパム錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "JG C31",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 9,
+      "size_short_mm": 5.4,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入りの錠剤 表面 裏面 側面 JG C31 長径 短径 厚さ 重量 9.0mm 5.4mm 3.7mm 160mg"
+    }
+  ],
+  "expected_products": [
+    "ニトラゼパム錠10mg「JG」",
+    "ニトラゼパム錠5mg「JG」"
+  ]
+}

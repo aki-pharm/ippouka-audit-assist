@@ -1,0 +1,50 @@
+{
+  "id": "400278_1124008F1091_1_07",
+  "source_file": "400278_1124008F1091_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_1124008F1091_1_07",
+  "extracted_at": "2026-11-09T13:53:34.073Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15955,
+    "output": 1513
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フルニトラゼパム錠1mg「TCK」",
+      "strength": "1mg",
+      "imprint_front": "TU 112",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯青白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フルニトラゼパム錠1mg「TCK」 帯青白色注） フィルムコーティング錠（割線入り） TU 112 直径 7.1 厚さ 2.7 重量 104"
+    },
+    {
+      "product_name": "フルニトラゼパム錠2mg「TCK」",
+      "strength": "2mg",
+      "imprint_front": "TU 113",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯青白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フルニトラゼパム錠2mg「TCK」 帯青白色注） フィルムコーティング錠（割線入り） TU 113 直径 8.1 厚さ 4.0 重量 206"
+    }
+  ],
+  "expected_products": [
+    "フルニトラゼパム錠1mg「TCK」",
+    "フルニトラゼパム錠2mg「TCK」"
+  ]
+}
