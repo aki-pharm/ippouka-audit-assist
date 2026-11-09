@@ -1,0 +1,50 @@
+{
+  "id": "480209_3969007F1270_1_12",
+  "source_file": "480209_3969007F1270_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3969007F1270_1_12",
+  "extracted_at": "2026-11-09T15:31:45.532Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26315,
+    "output": 1973
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠15mg「杏林」",
+      "strength": "15mg",
+      "imprint_front": "KRM127",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKRM127は3.2製剤の性状表より。図中に「15」の表示があるが表裏の別は未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色～帯黄白色 外形 直径(mm) 7.0 厚さ(mm) 2.40 識別コード KRM127"
+    },
+    {
+      "product_name": "ピオグリタゾン錠30mg「杏林」",
+      "strength": "30mg",
+      "imprint_front": "KRM128",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKRM128は3.2製剤の性状表より。図中に「30」の表示があるが表裏の別は未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.45,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色～帯黄白色 外形 直径(mm) 7.0 厚さ(mm) 2.45 識別コード KRM128"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾン錠15mg「杏林」",
+    "ピオグリタゾン錠30mg「杏林」"
+  ]
+}

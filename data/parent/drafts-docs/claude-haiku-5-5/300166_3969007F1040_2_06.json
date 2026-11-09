@@ -1,0 +1,50 @@
+{
+  "id": "300166_3969007F1040_2_06",
+  "source_file": "300166_3969007F1040_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_3969007F1040_2_06",
+  "extracted_at": "2026-11-09T15:31:02.579Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25122,
+    "output": 1880
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠15mg「FFP」",
+      "strength": "15mg",
+      "imprint_front": "FF 101",
+      "imprint_back": "15",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りの素錠 外形 サイズ 直径 7.0mm 重量 120mg 厚さ 2.5mm 識別コード FF 101"
+    },
+    {
+      "product_name": "ピオグリタゾン錠30mg「FFP」",
+      "strength": "30mg",
+      "imprint_front": "FF 102",
+      "imprint_back": "30",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りの素錠 外形 サイズ 直径 7.0mm 重量 120mg 厚さ 2.5mm 識別コード FF 102"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾン錠15mg「FFP」",
+    "ピオグリタゾン錠30mg「FFP」"
+  ]
+}

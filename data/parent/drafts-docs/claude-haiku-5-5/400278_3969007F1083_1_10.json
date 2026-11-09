@@ -1,0 +1,50 @@
+{
+  "id": "400278_3969007F1083_1_10",
+  "source_file": "400278_3969007F1083_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3969007F1083_1_10",
+  "extracted_at": "2026-11-09T15:31:22.342Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27209,
+    "output": 2475
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠 15mg「TCK」",
+      "strength": "15mg",
+      "imprint_front": "TU 321",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は割線の図のみで、刻印の文字記載はなし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "ピオグリタゾン錠 15mg「TCK」 白色～帯黄白色 素錠（割線入り） TU 321 直径7.0 厚さ2.4 重量120"
+    },
+    {
+      "product_name": "ピオグリタゾン錠 30mg「TCK」",
+      "strength": "30mg",
+      "imprint_front": "TU 322",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は割線の図のみで、刻印の文字記載はなし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "ピオグリタゾン錠 30mg「TCK」 白色～帯黄白色 素錠（割線入り） TU 322 直径7.0 厚さ2.5 重量120"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾン錠15mg「TCK」",
+    "ピオグリタゾン錠30mg「TCK」"
+  ]
+}

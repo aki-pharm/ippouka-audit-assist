@@ -1,0 +1,50 @@
+{
+  "id": "430773_3969007F1032_1_11",
+  "source_file": "430773_3969007F1032_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3969007F1032_1_11",
+  "extracted_at": "2026-11-09T15:30:54.857Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26228,
+    "output": 2752
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠15mg「DSEP」",
+      "strength": "15mg",
+      "imprint_front": "EP 401、15",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはEP 401。図中では中央に「15」の刻印も見られる。裏面は図示なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ピオグリタゾン錠15mg「DSEP」 素錠（割線入） 白色～帯黄白色 EP 401 7.0 2.5 120"
+    },
+    {
+      "product_name": "ピオグリタゾン錠30mg「DSEP」",
+      "strength": "30mg",
+      "imprint_front": "EP 402、30",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはEP 402。図中では中央に「30」の刻印も見られる。裏面は図示なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ピオグリタゾン錠30mg「DSEP」 素錠（割線入） 白色～帯黄白色 EP 402 7.0 2.5 120"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾン錠15mg「DSEP」",
+    "ピオグリタゾン錠30mg「DSEP」"
+  ]
+}
