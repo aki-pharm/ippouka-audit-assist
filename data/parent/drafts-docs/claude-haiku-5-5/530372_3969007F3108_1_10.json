@@ -42,5 +42,9 @@
       "source_page": 1,
       "source_quote": "性状 白色～帯黄白色の割線入りの素錠"
     }
+  ],
+  "expected_products": [
+    "ピオグリタゾンOD錠15mg「NPI」",
+    "ピオグリタゾンOD錠30mg「NPI」"
   ]
 }
