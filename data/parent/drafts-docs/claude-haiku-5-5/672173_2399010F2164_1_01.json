@@ -1,0 +1,33 @@
+{
+  "id": "672173_2399010F2164_1_01",
+  "source_file": "672173_2399010F2164_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_2399010F2164_1_01",
+  "extracted_at": "2026-11-09T15:11:09.180Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13691,
+    "output": 1176
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠 5mg「アメル」",
+      "strength": "5mg",
+      "imprint_front": "KW681",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線入り フィルムコーティング錠 KW681 白色 長径：約 9.1mm 短径：約 4.6mm 厚さ：約 3.6mm 質量：約 140mg"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠5mg「アメル」"
+  ]
+}

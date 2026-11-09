@@ -1,0 +1,50 @@
+{
+  "id": "480209_2399010F1184_1_09",
+  "source_file": "480209_2399010F1184_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2399010F1184_1_09",
+  "extracted_at": "2026-11-09T15:11:13.899Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15895,
+    "output": 3849
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "KRM171",
+      "imprint_back": "未確認",
+      "imprint_note": "表の識別コードをKRM171として記載。図中に「2.5」の表記あり。刻印の面の特定は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年8月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 外形 直径(mm) 6.1 厚さ(mm) 2.8 識別コード KRM171"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "KRM172",
+      "imprint_back": "未確認",
+      "imprint_note": "表の識別コードをKRM172として記載。図中に「5」の表記あり。刻印の面の特定は未確認",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年8月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 外形 長径：10.1 短径：5.1 厚さ(mm) 3.3 識別コード KRM172"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「杏林」",
+    "モサプリドクエン酸塩錠5mg「杏林」"
+  ]
+}
