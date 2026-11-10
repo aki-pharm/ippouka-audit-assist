@@ -5,8 +5,9 @@
  * 入力：data/parent/parent-master.json、data/parent/naifuku-tablets-*.csv（成分名）
  * 出力：data/parent/maker-index.json（画面の「変更」で出す候補。サーバ側の /api/makers が読む）
  *
- * 薬の鍵（drug_key）は「成分・剤形コード|規格|剤形」。scripts/ops/build-ops-master.py と同じ決め方
- * （剤形は販売名から：錠／OD錠／カプセル／チュアブル錠／ODフィルム を区別）。lib/makers.ts の drugKey() も同じ。
+ * 薬の鍵（drug_key）は「成分・剤形コード|規格|剤形」（YJ が徐放・腸溶を示し販売名に印が無いときは「|YJ徐放」などを足す）。
+ * 剤形は販売名の放出の印（CR・L・R・SR・TR・徐放・腸溶・OD など、data/parent/form-markers.json）ごとに分ける。迷ったら分ける。
+ * lib/makers.ts の drugKey()・scripts/ops/build-ops-master.py と同じ決め方。作るたびに lib/makers.ts と全製品の鍵が同じかを確かめる
  * 親マスタは全医薬品の公開データなので、索引も全部の薬を入れる。施設の採用品（data/private/）で絞らない
  * （絞って commit すると、どの施設が何を採用しているかが見えてしまうため）。
  */
@@ -14,17 +15,82 @@ const fs = require("fs");
 const path = require("path");
 
 const norm = (s) => (s || "").normalize("NFKC").replace(/[\s・･®（）()「」]/g, "").toLowerCase();
-const formOf = (name) => {
-  const n = (name || "").normalize("NFKC");
-  if (n.includes("ODフィルム")) return "ODフィルム";
-  if (n.includes("OD錠") || n.includes("口腔内崩壊")) return "OD錠";
-  if (n.includes("カプセル")) return "カプセル";
-  if (n.includes("チュアブル")) return "チュアブル錠";
-  if (n.includes("錠")) return "錠";
-  return "その他";
+// 剤形・放出の印は data/parent/form-markers.json に 1 つだけ置き、lib/makers.ts・scripts/ops/build-ops-master.py と共有する
+const MARKERS = JSON.parse(fs.readFileSync(path.join(__dirname, "../data/parent/form-markers.json"), "utf8"));
+const isLatin = (w) => /^[A-Za-z]+$/.test(w);
+/**
+ * 販売名から剤形（放出の印つき）を決める。lib/makers.ts の formOf と同じ手順（変えるときは 3 か所とも）
+ *  1. NFKC、「」の中（メーカー）を除く。（）の中は印を探す本体からは除く（ただし「徐放・持続・腸溶」はどこにあっても印にする）
+ *  2. 土台：ODフィルム ＞ 最初に出る「錠」か「カプセル」。どちらも無ければ「その他」
+ *  3. 土台の直前の印を後ろから読む（区切りの記号は飛ばす）。英字の印（CR・L・OD など）、日本語の印（徐放・口腔内崩壊など）。
+ *     数字の直後の英字（1mg錠 の mg）と塩（Na・K・Ca）は印にしない。一覧に無い英字は、土台のすぐ前のときだけ印にする（迷ったら分ける）
+ *  4. 口腔内崩壊の別名（OD・D・RM・RPD・ザイディス）は「OD」に、EN は「腸溶」にそろえる
+ *  5. 土台の直後の英字（徐放錠A の A、配合錠LD の LD）と、規格の直後の英字（0.375mgMI の MI）も剤形に足す
+ */
+function parseForm(name) {
+  const M = MARKERS;
+  const full = (name || "").normalize("NFKC").replace(/「[^」]*」/g, "");
+  const m = full.replace(/[（(][^）)]*[）)]/g, "");
+  let base, idx;
+  const film = m.indexOf("ODフィルム");
+  if (film >= 0) [idx, base] = [film, "ODフィルム"];
+  else {
+    const hits = [[m.indexOf("カプセル"), "カプセル"], [m.indexOf("錠"), "錠"]].filter(([i]) => i >= 0).sort((a, b) => a[0] - b[0]);
+    if (!hits.length) return { label: "その他", release: false };
+    [idx, base] = hits[0];
+  }
+  const all = [...M.od, ...M.release, ...M.other];
+  const latin = new Set(all.filter(isLatin));
+  const words = all.filter((w) => !isLatin(w)).sort((a, b) => b.length - a.length);
+  const tokens = [];
+  let pre = m.slice(0, idx);
+  if (base !== "ODフィルム") {
+    for (;;) {
+      while (pre && M.separators.includes(pre.at(-1))) pre = pre.slice(0, -1);
+      const lm = pre.match(/[A-Za-z]+$/);
+      if (lm) {
+        const w = lm[0], before = pre.slice(0, -w.length);
+        if (/\d$/.test(before) || M.salt.includes(w) || (!latin.has(w) && tokens.length)) break;
+        tokens.push(w);
+        pre = before;
+        continue;
+      }
+      const jw = words.find((w) => pre.endsWith(w));
+      if (!jw) break;
+      tokens.push(jw);
+      pre = pre.slice(0, -jw.length);
+    }
+  }
+  const label = tokens.reverse().map((t) => (M.od.includes(t) ? "OD" : M.rename[t] ?? t));
+  for (const w of [...M.anywhere].reverse()) if (full.includes(w) && !label.includes(w)) label.unshift(w);
+  const rest = m.slice(idx + base.length);
+  const s1 = rest.match(/^[A-Za-z]+/)?.[0] ?? "";
+  const s2 = (rest.match(/\d([A-Za-zμ]+)\s*$/)?.[1] ?? "").replace(/^(mg|μg|ug|mcg|g)/, "");
+  const release = label.some((t) => M.release.includes(t));
+  // 放出の印があるときは、印の前の名前（デパケン／セレニカ、アダラート／ニフェジピン）も剤形に入れる。
+  // 同じ「R錠」でも製品の系列が違えば放出の仕方が同じとは言えないため（迷ったら分ける）
+  const stem = release ? pre.replace(/[\s・･\-‐‑‒–—−]/g, "") : "";
+  return { label: label.join("") + base + s1 + (stem ? `〔${stem}〕` : "") + (s2 ? "/" + s2 : ""), release };
+}
+const formOf = (name) => parseForm(name).label;
+/**
+ * YJ コードの 8 桁目（剤形）を、もう 1 つの分ける手がかりにする。G・N（徐放）、H（腸溶）のときだけ。
+ * 販売名に放出の印が無いのに YJ が徐放・腸溶を示す製品（ユニコン錠、グラセプターカプセル、ナルサス錠など）を、
+ * 普通の製剤から分けるため。YJ が無い・上 7 桁が成分・剤形コードと違う製品は手がかりなし
+ */
+function yjSegment(group, name, yjCode) {
+  const y = yjCode || "";
+  if (y.length < 8 || y.slice(0, 7) !== (group || "").slice(0, 7) || !MARKERS.yj[y[7]]) return "";
+  return parseForm(name).release ? "" : `YJ${MARKERS.yj[y[7]]}`;
+}
+
+// 規格：単位 mg を落とし、小数の末尾の 0 をそろえる（1.0mg と 1mg を同じに）
+const strengthKey = (s) => norm(s).replace(/(\d+)\.(\d*?)0+(?!\d)/g, (_, a, b) => (b ? `${a}.${b}` : a)).replace("mg", "").replace("ug", "μg");
+/** 薬の鍵「成分・剤形コード|規格|剤形」。YJ が徐放・腸溶を示し販売名に印が無いときだけ「|YJ徐放」などを足す */
+const drugKey = (group, strength, brand, yjCode) => {
+  const seg = yjSegment(group, brand, yjCode);
+  return `${group}|${strengthKey(strength)}|${formOf(brand)}` + (seg ? `|${seg}` : "");
 };
-const strengthKey = (s) => norm(s).replace("mg", "").replace("ug", "μg");
-const drugKey = (group, strength, brand) => `${group}|${strengthKey(strength)}|${formOf(brand)}`;
 const stem = (name) => {
   let n = (name || "").normalize("NFKC").replace(/「.*?」|\(.*?\)|（.*?）/g, "");
   n = n.split(/OD錠|錠|カプセル|配合錠|チュアブル|ODフィルム/)[0];
@@ -50,6 +116,11 @@ const readCsv = (f) => {
   return b.filter((r) => r.length > 1).map((r) => Object.fromEntries(h.map((k, i) => [k, r[i] ?? ""])));
 };
 
+module.exports = { formOf, parseForm, strengthKey, drugKey, MARKERS };
+if (require.main === module) main();
+
+function main() {
+checkSameAsMakersTs();
 const pm = JSON.parse(fs.readFileSync("data/parent/parent-master.json", "utf8")).products;
 const genericByYj = {};
 for (const f of fs.readdirSync("data/parent").sort()) {
@@ -63,7 +134,7 @@ const drugs = {};
 let nProducts = 0;
 for (const p of pm) {
   if (p.status === "none") continue; // 外観の下書きがない製品（組み合わせ品など）は候補にしない
-  const key = drugKey(p.group, p.strength, p.brand_name);
+  const key = drugKey(p.group, p.strength, p.brand_name, p.yj_code);
   const d = (drugs[key] ??= { generic_name: "", strength: p.strength, form: formOf(p.brand_name), products: [] });
   if (!d.generic_name && genericByYj[p.yj_code]) d.generic_name = genericByYj[p.yj_code];
   // 空の欄（null・空文字・空配列）は書かない（索引を小さくするため）。読む側（lib/makers.ts）で null として扱う
@@ -116,14 +187,14 @@ if (process.argv.includes("--link-master")) {
     }
     if (p) linked++;
     else console.log(`  親マスタにつながらない：${t.id} ${t.brand_name}`);
-    // 既存の値はそのまま。maker の後ろに 3 つの欄を足す（すでにあれば上書きしない）
+    // 既存の値はそのまま。maker の後ろに 3 つの欄を足す（product_key・maker_state はすでにあれば上書きしない）
     const o = {};
     for (const [k, v] of Object.entries(t)) {
       if (k === "product_key" || k === "drug_key" || k === "maker_state") continue;
       o[k] = v;
       if (k === "maker") {
         o.product_key = t.product_key ?? p?.product_key ?? null;
-        o.drug_key = t.drug_key ?? (p ? drugKey(p.group, p.strength, p.brand_name) : null);
+        o.drug_key = p ? drugKey(p.group, p.strength, p.brand_name, p.yj_code) : (t.drug_key ?? null); // 鍵の決め方が変わっても作り直せるように、毎回親マスタから作る
         // デモ施設の 28 品目は、実物の写真で確認した製品をそのまま「今のメーカー」とする
         o.maker_state = t.maker_state ?? (t.status === "verified" ? "確認ずみ（現物）" : "未選択");
       }
@@ -132,4 +203,43 @@ if (process.argv.includes("--link-master")) {
   });
   fs.writeFileSync("data/master.json", JSON.stringify(next, null, 2) + "\n");
   console.log(`data/master.json：${linked}/${master.length} 品目を親マスタの製品につないだ`);
+}
+}
+
+/** lib/makers.ts の印の写しと鍵の作り方が、このスクリプトと同じかを確かめる（違えば止まる。3 か所がずれないように） */
+function checkSameAsMakersTs() {
+  const tsPath = path.join(__dirname, "../lib/makers.ts");
+  const src = fs.readFileSync(tsPath, "utf8");
+  const lit = src.match(/\/\*FORM_MARKERS_BEGIN\*\/([\s\S]*?)\/\*FORM_MARKERS_END\*\//)?.[1];
+  const { note, ...want } = MARKERS;
+  if (!lit || JSON.stringify(JSON.parse(lit)) !== JSON.stringify(want)) {
+    console.error("lib/makers.ts の MARKERS が data/parent/form-markers.json と違います。写しを直してください");
+    process.exit(1);
+  }
+  const pm = JSON.parse(fs.readFileSync("data/parent/parent-master.json", "utf8")).products;
+  const rows = pm.map((p) => [p.group, p.strength, p.brand_name, p.yj_code]);
+  const code = `import { drugKey } from ${JSON.stringify(require("url").pathToFileURL(tsPath).href)};
+    const rows = JSON.parse(require("fs").readFileSync(0, "utf8"));
+    process.stdout.write(JSON.stringify(rows.map((r) => drugKey(...r))));`.replace('require("fs")', "(await import('node:fs'))");
+  const out = require("child_process").execFileSync(process.execPath, ["--experimental-strip-types", "--disable-warning=ExperimentalWarning", "--disable-warning=MODULE_TYPELESS_PACKAGE_JSON", "--input-type=module", "-e", code], { input: JSON.stringify(rows), encoding: "utf8", maxBuffer: 1 << 26 });
+  const theirs = JSON.parse(out);
+  const diff = rows.filter((r, i) => drugKey(...r) !== theirs[i]);
+  if (diff.length) {
+    console.error(`lib/makers.ts と鍵が違う製品 ${diff.length}：` + diff.slice(0, 5).map((r) => r[2]).join("、"));
+    process.exit(1);
+  }
+  // scripts/ops/build-ops-master.py も同じ鍵か（python3 が無い環境では飛ばす）
+  let py = null;
+  try {
+    py = JSON.parse(require("child_process").execFileSync("python3", ["-I", path.join(__dirname, "ops/build-ops-master.py"), "--keys"], { input: JSON.stringify(rows), encoding: "utf8", maxBuffer: 1 << 26 }));
+  } catch (e) {
+    if (e.code !== "ENOENT") throw e;
+  }
+  if (py) {
+    const pyDiff = rows.filter((r, i) => drugKey(...r) !== py[i]);
+    if (pyDiff.length) {
+      console.error(`scripts/ops/build-ops-master.py と鍵が違う製品 ${pyDiff.length}：` + pyDiff.slice(0, 5).map((r) => r[2]).join("、"));
+      process.exit(1);
+    }
+  }
 }

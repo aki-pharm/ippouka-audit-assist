@@ -1,0 +1,11 @@
+{
+  "note": "剤形・放出の印（drug_key の剤形の部分を決める）。lib/makers.ts（MARKERS に同じ中身を写してある。scripts/build-maker-index.cjs が一致を確かめる）、scripts/build-maker-index.cjs、scripts/ops/build-ops-master.py が使う。迷ったら分ける：印が違えば別の薬。",
+  "od": ["OD", "D", "RM", "RPD", "ザイディス", "口腔内崩壊"],
+  "rename": { "EN": "腸溶" },
+  "release": ["CR", "L", "R", "SR", "TR", "LA", "XR", "ER", "XL", "U", "徐放", "持続", "腸溶", "速崩", "EN"],
+  "other": ["チュアブル", "舌下", "分散", "粒状", "発泡", "バッカル"],
+  "anywhere": ["徐放", "持続", "腸溶"],
+  "salt": ["Na", "K", "Ca", "CA", "Mg"],
+  "separators": "-‐‑‒–—−・･ ",
+  "yj": { "G": "徐放", "N": "徐放", "H": "腸溶" }
+}

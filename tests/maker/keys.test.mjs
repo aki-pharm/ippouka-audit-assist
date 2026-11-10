@@ -103,7 +103,7 @@ test("【不具合】3-g. 規格「1.0mg」と「1mg」、「1.0μg」と「1μg
   assert.equal(drugKey("1124022F", "1.0mg", "ワイパックス錠1.0"), drugKey("1124022F", "1mg", "ロラゼパム錠1mg「サワイ」"));
 });
 
-test("【不具合】3-h. 見本の処方 rx-a：ニフェジピンCR錠10mg／20mg「サワイ」の「変更」に、L 錠（1 日 2 回の製剤）と普通の錠が候補として出る", { todo: "3-f と同じ原因。デモの 28 品目では CR 錠の 2 品目が当たる" }, async (t) => {
+test("【不具合】3-h. 見本の処方 rx-a：ニフェジピンCR錠10mg／20mg「サワイ」の「変更」に、L 錠（1 日 2 回の製剤）と普通の錠が候補として出る", async (t) => {
   const { findCandidates } = await imp("lib/makers.ts");
   const master = readJson("data/master.json");
   const bad = [];

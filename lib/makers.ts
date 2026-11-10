@@ -60,25 +60,111 @@ function norm(s: string | null | undefined): string {
   return (s ?? "").normalize("NFKC").replace(/[\s・･®（）()「」]/g, "").toLowerCase();
 }
 
-/** 規格の比較用（「2.5mg」→「2.5」、「500μg」→「500μg」）。scripts/ops/build-ops-master.py の strength_key と同じ */
+/**
+ * 剤形・放出の印。data/parent/form-markers.json の写し（node で単体で読めるように JSON を import しない）。
+ * scripts/build-maker-index.cjs が、写しと JSON が同じかを毎回確かめる（違えば止まる）
+ */
+type Markers = {
+  od: string[]; rename: Record<string, string>; release: string[]; other: string[];
+  anywhere: string[]; salt: string[]; separators: string; yj: Record<string, string>;
+};
+const MARKERS: Markers = /*FORM_MARKERS_BEGIN*/ {"od": ["OD", "D", "RM", "RPD", "ザイディス", "口腔内崩壊"], "rename": {"EN": "腸溶"}, "release": ["CR", "L", "R", "SR", "TR", "LA", "XR", "ER", "XL", "U", "徐放", "持続", "腸溶", "速崩", "EN"], "other": ["チュアブル", "舌下", "分散", "粒状", "発泡", "バッカル"], "anywhere": ["徐放", "持続", "腸溶"], "salt": ["Na", "K", "Ca", "CA", "Mg"], "separators": "-‐‑‒–—−・･ ", "yj": {"G": "徐放", "N": "徐放", "H": "腸溶"}} /*FORM_MARKERS_END*/;
+
+/** 規格の比較用（「2.5mg」→「2.5」、「1.0mg」→「1」、「500μg」→「500μg」）。小数の末尾の 0 をそろえる */
 export function strengthKey(s: string | null | undefined): string {
-  return norm(s).replace("mg", "").replace("ug", "μg");
+  return norm(s)
+    .replace(/(\d+)\.(\d*?)0+(?!\d)/g, (_, a: string, b: string) => (b ? `${a}.${b}` : a))
+    .replace("mg", "")
+    .replace("ug", "μg");
 }
 
-/** 販売名から剤形（錠／OD錠／カプセル／チュアブル錠／ODフィルム／その他） */
+const isLatin = (w: string) => /^[A-Za-z]+$/.test(w);
+
+/**
+ * 販売名から剤形（放出の印つき）を決める。scripts/build-maker-index.cjs・scripts/ops/build-ops-master.py と同じ手順。迷ったら分ける
+ *  1. NFKC、「」の中（メーカー）を除く。（）の中は印を探す本体からは除く（ただし「徐放・持続・腸溶」はどこにあっても印にする）
+ *  2. 土台：ODフィルム ＞ 最初に出る「錠」か「カプセル」。どちらも無ければ「その他」
+ *  3. 土台の直前の印を後ろから読む（区切りの記号は飛ばす）。英字の印（CR・L・R・SR・TR・LA・XR・ER・XL・U・EN・OD・D・RM・RPD）、
+ *     日本語の印（徐放・持続・腸溶・速崩・口腔内崩壊・ザイディス・チュアブル・舌下・分散・粒状・発泡・バッカル）。
+ *     数字の直後の英字（1mg錠 の mg）と塩（Na・K・Ca・CA・Mg）は印にしない。一覧に無い英字は、土台のすぐ前のときだけ印にする
+ *  4. 口腔内崩壊の別名（OD・D・RM・RPD・ザイディス・口腔内崩壊）は「OD」に、EN は「腸溶」にそろえる
+ *  5. 土台の直後の英字（徐放錠A の A、配合錠LD の LD）と、規格の直後の英字（0.375mgMI の MI）も剤形に足す
+ * 例：「ニフェジピンCR錠」→ CR錠、「ニフェジピンL錠」→ L錠、「レンドルミンD錠」→ OD錠、「アザルフィジンEN錠」→ 腸溶錠、
+ *     「バルプロ酸ナトリウム徐放錠A」→ 徐放錠A、「LA錠0.375mgMI」→ LA錠/MI
+ */
+function parseForm(name: string | null | undefined): { label: string; release: boolean } {
+  const M = MARKERS;
+  const full = (name ?? "").normalize("NFKC").replace(/「[^」]*」/g, "");
+  const m = full.replace(/[（(][^）)]*[）)]/g, "");
+  let base: string;
+  let idx: number;
+  const film = m.indexOf("ODフィルム");
+  if (film >= 0) [idx, base] = [film, "ODフィルム"];
+  else {
+    const hits = ([[m.indexOf("カプセル"), "カプセル"], [m.indexOf("錠"), "錠"]] as [number, string][])
+      .filter(([i]) => i >= 0)
+      .sort((a, b) => a[0] - b[0]);
+    if (!hits.length) return { label: "その他", release: false };
+    [idx, base] = hits[0];
+  }
+  const all = [...M.od, ...M.release, ...M.other];
+  const latin = new Set(all.filter(isLatin));
+  const words = all.filter((w) => !isLatin(w)).sort((a, b) => b.length - a.length);
+  const tokens: string[] = [];
+  let pre = m.slice(0, idx);
+  if (base !== "ODフィルム") {
+    for (;;) {
+      while (pre && M.separators.includes(pre[pre.length - 1])) pre = pre.slice(0, -1);
+      const lm = pre.match(/[A-Za-z]+$/);
+      if (lm) {
+        const w = lm[0];
+        const before = pre.slice(0, -w.length);
+        if (/\d$/.test(before) || M.salt.includes(w) || (!latin.has(w) && tokens.length)) break;
+        tokens.push(w);
+        pre = before;
+        continue;
+      }
+      const jw = words.find((w) => pre.endsWith(w));
+      if (!jw) break;
+      tokens.push(jw);
+      pre = pre.slice(0, -jw.length);
+    }
+  }
+  const label = tokens.reverse().map((t) => (M.od.includes(t) ? "OD" : M.rename[t] ?? t));
+  for (const w of [...M.anywhere].reverse()) if (full.includes(w) && !label.includes(w)) label.unshift(w);
+  const rest = m.slice(idx + base.length);
+  const s1 = rest.match(/^[A-Za-z]+/)?.[0] ?? "";
+  const s2 = (rest.match(/\d([A-Za-zμ]+)\s*$/)?.[1] ?? "").replace(/^(mg|μg|ug|mcg|g)/, "");
+  const release = label.some((t) => M.release.includes(t));
+  // 放出の印があるときは、印の前の名前（デパケン／セレニカ、アダラート／ニフェジピン）も剤形に入れる。
+  // 同じ「R錠」でも製品の系列が違えば放出の仕方が同じとは言えないため（迷ったら分ける）
+  const stem = release ? pre.replace(/[\s・･\-‐‑‒–—−]/g, "") : "";
+  return { label: label.join("") + base + s1 + (stem ? `〔${stem}〕` : "") + (s2 ? "/" + s2 : ""), release };
+}
+
+/** 販売名から剤形（例：錠／OD錠／CR錠／L錠／R錠／腸溶錠／徐放カプセル／カプセル／チュアブル錠／ODフィルム／その他） */
 export function formOf(name: string | null | undefined): string {
-  const n = (name ?? "").normalize("NFKC");
-  if (n.includes("ODフィルム")) return "ODフィルム";
-  if (n.includes("OD錠") || n.includes("口腔内崩壊")) return "OD錠";
-  if (n.includes("カプセル")) return "カプセル";
-  if (n.includes("チュアブル")) return "チュアブル錠";
-  if (n.includes("錠")) return "錠";
-  return "その他";
+  return parseForm(name).label;
 }
 
-/** 薬の鍵「成分・剤形コード|規格|剤形」（例：2171022F|2.5|OD錠）。scripts/build-maker-index.cjs と同じ */
-export function drugKey(group: string, strength: string, brandName: string): string {
-  return `${group}|${strengthKey(strength)}|${formOf(brandName)}`;
+/**
+ * YJ コードの 8 桁目（G・N＝徐放、H＝腸溶）を分ける手がかりにする。販売名に放出の印が無いときだけ使う
+ * （ユニコン錠・グラセプターカプセル・ナルサス錠のように、名前では徐放と分からない製品を普通の製剤から分ける）。
+ * YJ が無い・上 7 桁が成分・剤形コードと違うときは手がかりなし（""）
+ */
+function yjSegment(group: string, name: string, yjCode: string | null | undefined): string {
+  const y = yjCode ?? "";
+  if (y.length < 8 || y.slice(0, 7) !== (group ?? "").slice(0, 7) || !MARKERS.yj[y[7]]) return "";
+  return parseForm(name).release ? "" : `YJ${MARKERS.yj[y[7]]}`;
+}
+
+/**
+ * 薬の鍵「成分・剤形コード|規格|剤形」（例：2171022F|2.5|OD錠、2171014F|20|CR錠）。scripts/build-maker-index.cjs と同じ。
+ * yjCode を渡し、YJ が徐放・腸溶を示すのに販売名に印が無いときだけ「|YJ徐放」「|YJ腸溶」を足す（例：2251001F|100|錠|YJ徐放）
+ */
+export function drugKey(group: string, strength: string, brandName: string, yjCode?: string | null): string {
+  const seg = yjSegment(group, brandName, yjCode);
+  return `${group}|${strengthKey(strength)}|${formOf(brandName)}` + (seg ? `|${seg}` : "");
 }
 
 /** 画面に出すメーカー名。販売名の「」内 → maker 欄 → 製造販売元 → （先発）の順 */

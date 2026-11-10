@@ -20,7 +20,7 @@
 #   check-sheet-1.csv/.html … 確認表 ①：今のメーカーを 1 つ選ぶ表（AKI が記憶で選んで返す）
 #   ops-counts.json      … 件数
 # 施設の品目名・カセット番号などは、このスクリプトには書かない。
-import csv, json, os, re, unicodedata, html as H
+import csv, json, os, re, sys, unicodedata, html as H
 from collections import defaultdict, Counter
 
 P = "data/private"
@@ -30,21 +30,81 @@ def load(p): return list(csv.DictReader(open(p, encoding="utf-8-sig"))) if os.pa
 def norm(s): return re.sub(r"[\s・･®（）()「」]", "", unicodedata.normalize("NFKC", s or "")).lower()
 def maker_of(label):
     m = re.search(r"「([^」]+)」", unicodedata.normalize("NFKC", label or "")); return m.group(1) if m else ""
-def form_of(name):
-    n = unicodedata.normalize("NFKC", name)
+# 剤形・放出の印は data/parent/form-markers.json に 1 つだけ置き、lib/makers.ts・scripts/build-maker-index.cjs と共有する。
+# 手順も 3 か所で同じ（変えるときは 3 か所とも）。迷ったら分ける：CR・L・R・SR・TR・徐放・腸溶・OD などの印が違えば別の薬
+MARKERS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../data/parent/form-markers.json"), encoding="utf-8"))
+def _is_latin(w): return re.fullmatch(r"[A-Za-z]+", w) is not None
+def parse_form(name):
+    """販売名 → (剤形, 放出の印があるか)。lib/makers.ts の parseForm と同じ"""
+    M = MARKERS
+    full = re.sub(r"「[^」]*」", "", unicodedata.normalize("NFKC", name or ""))
+    m = re.sub(r"[（(][^）)]*[）)]", "", full)
+    film = m.find("ODフィルム")
+    if film >= 0: idx, base = film, "ODフィルム"
+    else:
+        hits = sorted([(i, b) for i, b in [(m.find("カプセル"), "カプセル"), (m.find("錠"), "錠")] if i >= 0])
+        if not hits: return "その他", False
+        idx, base = hits[0]
+    allw = M["od"] + M["release"] + M["other"]
+    latin = {w for w in allw if _is_latin(w)}
+    words = sorted([w for w in allw if not _is_latin(w)], key=len, reverse=True)
+    tokens = []
+    pre = m[:idx]
+    if base != "ODフィルム":
+        while True:
+            while pre and pre[-1] in M["separators"]: pre = pre[:-1]
+            lm = re.search(r"[A-Za-z]+$", pre)
+            if lm:
+                w = lm.group(0); before = pre[: -len(w)]
+                if re.search(r"\d$", before, re.ASCII) or w in M["salt"] or (w not in latin and tokens): break
+                tokens.append(w); pre = before; continue
+            jw = next((w for w in words if pre.endswith(w)), None)
+            if not jw: break
+            tokens.append(jw); pre = pre[: -len(jw)]
+    label = ["OD" if t in M["od"] else M["rename"].get(t, t) for t in reversed(tokens)]
+    for w in reversed(M["anywhere"]):
+        if w in full and w not in label: label.insert(0, w)
+    rest = m[idx + len(base):]
+    s1 = (re.match(r"[A-Za-z]+", rest) or [""])[0]
+    m2 = re.search(r"\d([A-Za-zμ]+)\s*$", rest, re.ASCII)
+    s2 = re.sub(r"^(mg|μg|ug|mcg|g)", "", m2.group(1)) if m2 else ""
+    release = any(t in M["release"] for t in label)
+    # 放出の印があるときは、印の前の名前（デパケン／セレニカ）も剤形に入れる（lib/makers.ts と同じ。迷ったら分ける）
+    stem = re.sub(r"[\s・･\-‐‑‒–—−]", "", pre) if release else ""
+    return "".join(label) + base + s1 + (f"〔{stem}〕" if stem else "") + ("/" + s2 if s2 else ""), release
+def form_of(name): return parse_form(name)[0]
+def drug_form(group, name, yj):
+    """鍵に使う剤形。YJ の 8 桁目が徐放（G・N）・腸溶（H）で、販売名に放出の印が無いときだけ「|YJ徐放」などを足す（lib/makers.ts の drugKey と同じ）"""
+    f, release = parse_form(name); y = yj or ""
+    if len(y) >= 8 and y[:7] == (group or "")[:7] and y[7] in MARKERS["yj"] and not release: return f"{f}|YJ{MARKERS['yj'][y[7]]}"
+    return f
+# 規格：単位 mg を落とし、小数の末尾の 0 をそろえる（1.0mg と 1mg を同じに）。mg・ug は最初の 1 つだけ（lib/makers.ts と同じ）
+def strength_key(s):
+    k = re.sub(r"(\d+)\.(\d*?)0+(?!\d)", lambda x: f"{x.group(1)}.{x.group(2)}" if x.group(2) else x.group(1), norm(s), flags=re.ASCII)
+    return k.replace("mg", "", 1).replace("ug", "μg", 1)
+def legacy_form_of(name):
+    """剤形の分け方を変える前（11/10）の剤形。確認表①の前の答え（maker-answers.csv）を探すときだけ使う"""
+    n = unicodedata.normalize("NFKC", name or "")
     if "ODフィルム" in n: return "ODフィルム"
     if "OD錠" in n or "口腔内崩壊" in n: return "OD錠"
     if "カプセル" in n: return "カプセル"
     if "チュアブル" in n: return "チュアブル錠"
     if "錠" in n: return "錠"
     return "その他"
-def strength_key(s): return norm(s).replace("mg", "").replace("ug", "μg")
+def legacy_strength_key(s): return norm(s).replace("mg", "").replace("ug", "μg")
 def stem(name):
     """販売名から成分らしい部分（メーカー・規格・剤形を除く）"""
     n = unicodedata.normalize("NFKC", name)
     n = re.sub(r"「.*?」|\(.*?\)|（.*?）", "", n)
     n = re.split(r"OD錠|錠|カプセル|配合錠|チュアブル|ODフィルム", n)[0]
     return re.sub(r"\d+(\.\d+)?\s*(mg|μg|ug|g|単位)?$", "", n).strip()
+
+# --keys：鍵だけを出す（scripts/build-maker-index.cjs が lib/makers.ts と同じかを確かめる。施設のデータは読まない）
+#   標準入力 [[成分・剤形コード, 規格, 販売名, YJコード], ...] → 標準出力 ["成分・剤形コード|規格|剤形", ...]
+if "--keys" in sys.argv:
+    rows = json.load(sys.stdin)
+    json.dump(["|".join([g, strength_key(st), drug_form(g, n, y)]) for g, st, n, y in rows], sys.stdout, ensure_ascii=False)
+    sys.exit(0)
 
 # ---------- 親マスタ・成分名・運用マスタ（確認ずみ） ----------
 pm = json.load(open("data/parent/parent-master.json", encoding="utf-8"))["products"]
@@ -104,7 +164,7 @@ products = []
 for key, it in items.items():
     p = PM[key]; v, why, rules, marks = marks_of(p)
     products.append({
-        "product_key": key, "販売名": p["brand_name"], "メーカー": p["maker"], "YJコード": p["yj_code"], "成分・剤形コード": p["group"], "規格": p["strength"], "剤形": form_of(p["brand_name"]),
+        "product_key": key, "販売名": p["brand_name"], "メーカー": p["maker"], "YJコード": p["yj_code"], "成分・剤形コード": p["group"], "規格": p["strength"], "剤形": drug_form(p["group"], p["brand_name"], p["yj_code"]),
         "採用": "棚＋カセット" if it["shelf"] and it["cas"] else ("カセット" if it["cas"] else "棚"),
         "カセット番号": "／".join(it["cas_no"]), "棚の札": "／".join(it["shelf"]), "カセットの札": "／".join(it["cas"]), "AKI の答え（記憶）": "；".join(dict.fromkeys(it["aki"])),
         "現物確認": "確認ずみ（現物）" if norm(p["brand_name"]) in verified else "",
@@ -119,7 +179,7 @@ by_drug = defaultdict(list)
 for r in products: by_drug[(r["成分・剤形コード"], strength_key(r["規格"]), r["剤形"])].append(r)
 all_by_drug = defaultdict(list)
 for p in pm:
-    if p["status"] != "none": all_by_drug[(p["group"], strength_key(p["strength"]), form_of(p["brand_name"]))].append(p)
+    if p["status"] != "none": all_by_drug[(p["group"], strength_key(p["strength"]), drug_form(p["group"], p["brand_name"], p["yj_code"]))].append(p)
 
 def maker_label(r): return maker_of(r["販売名"]) or f"（先発）{stem(r['販売名'])}"
 # AKI の言い方（カタカナ）と、親マスタのメーカー名（漢字）や販売名の略号の対応。答えを製品に結びつけるときだけ使う
@@ -147,13 +207,14 @@ def pick_by_memory(answers, cands):
 
 # AKI が確認表①で答えた「今のメーカー」（data/private/maker-answers.csv：成分・規格・剤形 → 答え）。答えは
 #   「YD」のようなメーカー名／「（先発）プレドニン」のような先発名／「両方」（2 つとも使っている。1 つに決めない）
-answers_by_drug = {}
+answers_by_drug, answers_legacy = {}, {}
 for r in load(f"{P}/maker-answers.csv"):
     answers_by_drug[(norm(r["成分"]), strength_key(r["規格"]), r["剤形"])] = r
+    answers_legacy[(norm(r["成分"]), legacy_strength_key(r["規格"]), r["剤形"])] = r
 def product_as(p):
     """親マスタの製品を、製品ごとの行と同じ形にする（札からは採用されていないが、AKI の答えで指された製品のため）"""
     v, why, rules, marks = marks_of(p)
-    return {"product_key": p["product_key"], "販売名": p["brand_name"], "メーカー": p["maker"], "YJコード": p["yj_code"], "成分・剤形コード": p["group"], "規格": p["strength"], "剤形": form_of(p["brand_name"]),
+    return {"product_key": p["product_key"], "販売名": p["brand_name"], "メーカー": p["maker"], "YJコード": p["yj_code"], "成分・剤形コード": p["group"], "規格": p["strength"], "剤形": drug_form(p["group"], p["brand_name"], p["yj_code"]),
             "採用": "AKI の答え（札には無い）", "カセット番号": "", "棚の札": "", "カセットの札": "", "AKI の答え（記憶）": "", "現物確認": "",
             "刻印_表": p["imprint_front"], "刻印_裏": p["imprint_back"], "色": p["color"], "形": p["shape"], "長径mm": p["size_long_mm"], "短径mm": p["size_short_mm"], "大きさの出どころ": p["size_source"],
             "親マスタの状態": p["status"], "検査の下書き": p["draft_model"], "照合": v or "（検査なし）", "照合の理由": why, "品質": rules, "印": "・".join(p["flags"]), "検査の印": marks,
@@ -181,12 +242,19 @@ for dk, rs in by_drug.items():
     cur, state, basis = None, "", ""
     v = [r for r in rs if r["現物確認"]]
     ans = answers_by_drug.get((norm(generic), sk, form))
+    legacy_ans = False
+    if not ans:
+        # 11/10 の答えは、剤形の分け方を変える前（CR・L・D錠などを分けていなかった）の剤形で書かれている。
+        # 前の分け方の鍵で引けたら使うが、「要再確認」をつける（分けた後の薬に同じ答えが当たるため）
+        ans = answers_legacy.get((norm(generic), legacy_strength_key(strength), legacy_form_of(rs[0]["販売名"])))
+        legacy_ans = bool(ans)
     if v: cur, state, basis = v[0], "確認ずみ（現物）", "運用マスタ（実物の写真）"
     elif ans:
         c, _ = pick_by_answer(ans["今のメーカー（AKI の答え）"], rs, dk)
         if c == "両方": cur, state, basis = None, "記憶ベース（両方使用）", f"AKI の答え（確認表①）：両方。{ans['備考']}"
         elif c: cur, state, basis = c, "記憶ベース", f"AKI の答え（確認表①）：{ans['今のメーカー（AKI の答え）']}" + (f"。{ans['備考']}" if ans["備考"] else "")
         else: cur, state, basis = None, "未選択", f"AKI の答え「{ans['今のメーカー（AKI の答え）']}」に合う製品が親マスタに無い（PMDA の一覧に無い＝販売中止の可能性。正式名を確認）"
+        if legacy_ans: basis += "（剤形の分け方を変える前の答え。徐放・口腔内崩壊などの違いを要再確認）"
     else:
         c, a = pick_by_memory(answers, rs)
         if c: cur, state, basis = c, "記憶ベース", f"AKI の答え：{a}"
