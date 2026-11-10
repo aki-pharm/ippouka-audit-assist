@@ -1,11 +1,13 @@
 "use client";
 import { useMemo, useRef, useState } from "react";
-import { loadMaster, findTablet, normalize, stripMaker, stripPrefix } from "@/lib/master";
+import { loadMaster, findTablet } from "@/lib/master";
+import { buildChangeRecord, mismatchLabel, productToDraw, type ChangeRecord, type DrawnTablet, type MakerCandidate } from "@/lib/makers";
 import { BAG_ORDER_LABEL, buildBags, checkRow, recomputeDefault, toRows, type BagOrder } from "@/lib/packing";
 import { fileToResizedBase64 } from "@/lib/image";
 import { TIMINGS, TIMING_LABEL, type RxReadResult, type RxRow, type Tablet } from "@/lib/types";
 import { BagView } from "./BagView";
 import { InfoCard } from "./InfoCard";
+import { ChangeLog, MakerPicker, type MakerOverride, type MakerScope } from "./MakerPicker";
 
 type Step = "capture" | "review" | "select" | "bags" | "compare";
 type Img = { base64: string; mediaType: "image/jpeg"; url: string };
@@ -23,7 +25,7 @@ export function Flow() {
   const [error, setError] = useState<string | null>(null);
   const [rx, setRx] = useState<RxReadResult | null>(null);
   const [rows, setRows] = useState<RxRow[]>([]);
-  const [info, setInfo] = useState<{ tablet: Tablet | undefined; name: string } | null>(null);
+  const [info, setInfo] = useState<{ tablet: DrawnTablet | undefined; name: string } | null>(null);
   const [packPhoto, setPackPhoto] = useState<string | null>(null);
   const [sampleExpected, setSampleExpected] = useState<string | null>(null);
   const [noApiKey, setNoApiKey] = useState(false);
@@ -31,7 +33,16 @@ export function Flow() {
   const fileRef = useRef<HTMLInputElement>(null);
   const packRef = useRef<HTMLInputElement>(null);
   const master = useMemo(() => loadMaster(), []);
-  const bags = useMemo(() => buildBags(rows), [rows]);
+  // メーカー選択：薬（drug_key）ごとに、この処方で描く製品。画面のメモリだけに持つ（保存しない）
+  const [overrides, setOverrides] = useState<Record<string, MakerOverride>>({});
+  const [changes, setChanges] = useState<ChangeRecord[]>([]);
+  const [changedBy, setChangedBy] = useState("");
+  /** 行 → 図に描く製品（1 つの薬に 1 製品。メーカー未確定なら描かない） */
+  const resolve = (r: RxRow) => {
+    const f = findTablet(r.tablet_id);
+    return productToDraw(f, f?.drug_key ? overrides[f.drug_key]?.candidate : null);
+  };
+  const bags = buildBags(rows, resolve);
 
   async function addFiles(files: FileList | null) {
     if (!files) return;
@@ -96,10 +107,42 @@ export function Flow() {
     setError(null);
     setRx(result);
     setRows(toRows(result));
+    setOverrides({});
     setStep("review");
   }
 
+  /** メーカーを選ぶ（null で元に戻す）。「これから」は変更の記録も作る（保存はしない） */
+  function chooseMaker(facility: Tablet, c: MakerCandidate | null, scope: MakerScope) {
+    const key = facility.drug_key;
+    if (!key) return;
+    setOverrides((prev) => {
+      const next = { ...prev };
+      if (c) next[key] = { candidate: c, scope };
+      else delete next[key];
+      return next;
+    });
+    if (c && scope === "これから") {
+      try {
+        const rec = buildChangeRecord({ drug_key: key, from: facility, to: c, changed_by: changedBy });
+        setChanges((prev) => [...prev, rec]);
+      } catch (e) {
+        setError(e instanceof Error ? e.message : String(e));
+      }
+    }
+  }
+
   function updateRow(key: string, patch: Partial<RxRow>, recompute = false) {
+    // マスタの対応品を変えたら、前後の薬で選んでいたメーカーは外す（別の薬の選択が残らないように）
+    if (patch.tablet_id !== undefined) {
+      const before = findTablet(rows.find((r) => r.key === key)?.tablet_id)?.drug_key;
+      const after = findTablet(patch.tablet_id)?.drug_key;
+      setOverrides((prev) => {
+        const next = { ...prev };
+        if (before) delete next[before];
+        if (after) delete next[after];
+        return next;
+      });
+    }
     setRows((prev) =>
       prev.map((r) => {
         if (r.key !== key) return r;
@@ -183,8 +226,10 @@ export function Flow() {
           <ul className="space-y-2">
             {rows.map((r) => {
               const flags = checkRow(r);
-              const warn = flags.some((f) => f.level === "warn");
               const t = findTablet(r.tablet_id);
+              const drawn = resolve(r);
+              const warn = flags.some((f) => f.level === "warn") || drawn.pending;
+              const mismatch = mismatchLabel(r.name_as_written, drawn.tablet);
               return (
                 <li key={r.key} className={`rounded-xl border p-3 ${warn ? "border-amber-400 bg-amber-50" : "border-slate-200 bg-white"}`}>
                   <div className="flex items-start justify-between gap-2">
@@ -228,9 +273,16 @@ export function Flow() {
                       ))}
                     </select>
                   </label>
-                  {t && stripPrefix(normalize(stripMaker(t.brand_name))) !== stripPrefix(normalize(stripMaker(r.name_as_written))) && (
-                    <div className="mt-1 text-xs text-blue-800">処方箋：{r.name_as_written} → 採用品：{t.brand_name}</div>
-                  )}
+                  <MakerPicker
+                    key={t?.id ?? "none"}
+                    facility={t}
+                    override={t?.drug_key ? overrides[t.drug_key] ?? null : null}
+                    onChoose={(c, scope) => t && chooseMaker(t, c, scope)}
+                    changedBy={changedBy}
+                    setChangedBy={setChangedBy}
+                  />
+                  {mismatch && <div className="mt-1 text-xs text-blue-800">{mismatch}</div>}
+                  {drawn.pending && <div className="mt-1 text-xs text-amber-900">・メーカー未確定：今のメーカーを選ぶまで、図にはこの薬を描きません</div>}
                   {flags.map((f, i) => (
                     <div key={i} className={`mt-1 text-xs ${f.level === "warn" ? "text-amber-900" : "text-slate-500"}`}>・{f.message}</div>
                   ))}
@@ -238,6 +290,7 @@ export function Flow() {
               );
             })}
           </ul>
+          <ChangeLog records={changes} onRemove={(i) => setChanges((prev) => prev.filter((_, j) => j !== i))} />
           <div className="flex gap-2">
             <button type="button" onClick={() => setStep("capture")} className="rounded-xl border border-slate-300 px-4 py-3">戻る</button>
             <button type="button" onClick={() => setStep("select")} className="flex-1 rounded-xl bg-emerald-700 px-4 py-3 text-lg font-bold text-white">この内容で進む</button>
@@ -255,7 +308,7 @@ export function Flow() {
               return (
                 <li key={r.key} className={`flex items-center justify-between gap-3 rounded-xl border p-3 ${changed ? "border-violet-500 bg-violet-50" : "border-slate-200 bg-white"}`}>
                   <div className="min-w-0">
-                    <div className="truncate font-semibold">{findTablet(r.tablet_id)?.brand_name ?? r.name_as_written}</div>
+                    <div className="truncate font-semibold">{resolve(r).tablet?.brand_name ?? r.name_as_written}</div>
                     <div className="text-xs text-slate-500">{r.include_reason}{changed && <span className="ml-1 rounded bg-violet-600 px-1 text-white">変更</span>}</div>
                   </div>
                   <button
@@ -303,7 +356,7 @@ export function Flow() {
             <div className="rounded-xl border border-slate-300 bg-slate-50 p-3 text-sm">
               <div className="font-semibold">別包・対象外（袋には入りません）</div>
               <ul className="mt-1 list-disc pl-5 text-slate-700">
-                {excluded.map((r) => <li key={r.key}>{findTablet(r.tablet_id)?.brand_name ?? r.name_as_written}（{r.include_reason}）</li>)}
+                {excluded.map((r) => <li key={r.key}>{resolve(r).tablet?.brand_name ?? r.name_as_written}（{r.include_reason}）</li>)}
               </ul>
             </div>
           )}

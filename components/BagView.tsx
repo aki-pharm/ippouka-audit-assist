@@ -1,8 +1,9 @@
 "use client";
 import { sortEntries, type Bag, type BagOrder } from "@/lib/packing";
-import { TIMING_LABEL, type Tablet } from "@/lib/types";
+import { TIMING_LABEL } from "@/lib/types";
 import { TabletSvg, imprintLayout, sizeText } from "./Tablet";
 import { sourceLink } from "@/lib/master";
+import { isUnconfirmed, makerLabel, type DrawnTablet } from "@/lib/makers";
 
 export function BagView({
   bag,
@@ -10,7 +11,7 @@ export function BagView({
   order = "rx",
 }: {
   bag: Bag;
-  onTap: (t: Tablet | undefined, name: string) => void;
+  onTap: (t: DrawnTablet | undefined, name: string) => void;
   order?: BagOrder;
 }) {
   const entries = sortEntries(bag.entries, order);
@@ -34,7 +35,19 @@ export function BagView({
       <ul className="grid grid-cols-2 gap-3 p-3 sm:grid-cols-3 md:grid-cols-4">
         {entries.length === 0 && <li className="col-span-full py-6 text-center text-slate-400">この袋には入りません</li>}
         {entries.map((e) => {
+          if (e.pending) {
+            // 今のメーカーが決まっていない薬は描かない（複数のメーカーを描かない）。表に戻って選ぶ
+            return (
+              <li key={e.row.key} className="flex flex-col items-center justify-center rounded-xl border-2 border-dashed border-amber-400 bg-amber-50 p-2 text-center text-xs text-amber-900">
+                <span className="self-end text-base font-bold text-slate-700">×{e.count}</span>
+                <span className="rounded bg-amber-500 px-1 font-bold text-white">メーカー未確定</span>
+                <span className="mt-1 line-clamp-2 font-semibold text-slate-800">{shortName(e.row.name_as_written)}</span>
+                <span className="mt-1">「確認」の表で今のメーカーを選ぶと描きます</span>
+              </li>
+            );
+          }
           const link = sourceLink(e.tablet);
+          const unconfirmed = isUnconfirmed(e.tablet);
           const shown = Math.min(e.count, 3);
           const lay = imprintLayout(e.tablet);
           return (
@@ -50,6 +63,7 @@ export function BagView({
                       <GroupBadge label={e.group} />
                     </span>
                   )}
+                  {unconfirmed && <span className="absolute left-7 top-0 rounded bg-amber-500 px-1 text-xs font-bold text-white">未確認</span>}
                   <span className="absolute right-0 top-0 text-base font-bold text-slate-700">×{e.count}</span>
                   {/* 同じ錠剤を横に並べる（3個まで）。刻印は錠剤に収まるときだけ中に描き、収まらなければ下に1回だけ出す */}
                   <div className="flex flex-wrap items-center justify-center gap-1">
@@ -81,6 +95,7 @@ export function BagView({
                 </div>
                 <div className="flex min-h-[3rem] w-full flex-col justify-start text-center text-xs leading-tight">
                   <div className="line-clamp-2 font-semibold text-slate-800">{shortName(e.tablet?.brand_name ?? e.row.name_as_written)}</div>
+                  {e.tablet && <div className="text-slate-500">{makerLabel(e.tablet)}</div>}
                   <div className="text-slate-500">{sizeText(e.tablet)}</div>
                 </div>
               </button>
@@ -88,9 +103,9 @@ export function BagView({
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-1 block rounded-lg border border-blue-200 bg-white py-1 text-center text-xs text-blue-800"
+                className={`mt-1 block rounded-lg py-1 text-center text-xs ${unconfirmed ? "bg-blue-700 font-bold text-white" : "border border-blue-200 bg-white text-blue-800"}`}
               >
-                {link.direct ? "📄 添付文書" : "🔍 PMDAで検索"}
+                {link.direct ? (unconfirmed ? "📄 添付文書で確かめる" : "📄 添付文書") : "🔍 PMDAで検索"}
               </a>
             </li>
           );

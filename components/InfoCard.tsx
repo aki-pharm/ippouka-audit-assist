@@ -1,11 +1,12 @@
 "use client";
 import type { Tablet } from "@/lib/types";
+import { APPEARANCE_STATUS_LABEL, type DrawnTablet } from "@/lib/makers";
 import { TabletSvg, sizeText } from "./Tablet";
 import { sourceLink } from "@/lib/master";
 
 const FILL_LABEL = { cassette: "カセット（分包機）", manual: "手巻き" } as const;
 
-export function InfoCard({ tablet, name, onClose }: { tablet: Tablet | undefined; name: string; onClose: () => void }) {
+export function InfoCard({ tablet, name, onClose }: { tablet: DrawnTablet | undefined; name: string; onClose: () => void }) {
   const link = sourceLink(tablet);
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/40 p-2 sm:items-center" onClick={onClose}>
@@ -28,10 +29,19 @@ export function InfoCard({ tablet, name, onClose }: { tablet: Tablet | undefined
                 <div>裏</div>
               </div>
             </div>
-            {tablet.status === "draft" && (
-              <p className="mt-2 rounded bg-amber-50 px-2 py-1 text-xs text-amber-800">
-                このマスタ行は確認前（draft）です。表示は仮の値を含みます。
+            {tablet.appearance_status ? (
+              // メーカー選択で親マスタの候補から選んだ製品
+              <p className={`mt-2 rounded px-2 py-1 text-xs ${tablet.status === "verified" ? "bg-slate-50 text-slate-600" : "bg-amber-50 text-amber-800"}`}>
+                {tablet.status !== "verified" && <span className="mr-1 rounded bg-amber-500 px-1 font-bold text-white">未確認</span>}
+                この処方で選んだメーカーの製品です（親マスタ：{APPEARANCE_STATUS_LABEL[tablet.appearance_status]}）。
+                {tablet.status !== "verified" && "実物では確認していません。刻印は添付文書で確かめてください。"}
               </p>
+            ) : (
+              tablet.status === "draft" && (
+                <p className="mt-2 rounded bg-amber-50 px-2 py-1 text-xs text-amber-800">
+                  このマスタ行は確認前（draft）です。表示は仮の値を含みます。
+                </p>
+              )
             )}
             <dl className="mt-3 grid grid-cols-[6.5em_1fr] gap-y-1 text-sm">
               <dt className="text-slate-500">一般名</dt><dd>{tablet.generic_name}</dd>
@@ -51,7 +61,7 @@ export function InfoCard({ tablet, name, onClose }: { tablet: Tablet | undefined
               {tablet.source_quote ? (
                 <blockquote className="mt-1 border-l-4 border-slate-300 pl-2 text-slate-800">{tablet.source_quote}</blockquote>
               ) : (
-                <p className="mt-1 text-slate-500">未登録（添付文書からの抽出前）</p>
+                <p className="mt-1 text-slate-500">{tablet.appearance_status ? "抜粋なし（親マスタの値です。添付文書を開いて確かめてください）" : "未登録（添付文書からの抽出前）"}</p>
               )}
               <div className="mt-2 text-xs text-slate-500">
                 {tablet.source_revision ? `改訂：${tablet.source_revision}` : "改訂年月：未確認"}
