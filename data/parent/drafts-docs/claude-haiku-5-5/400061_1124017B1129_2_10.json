@@ -1,0 +1,67 @@
+{
+  "id": "400061_1124017B1129_2_10",
+  "source_file": "400061_1124017B1129_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400061_1124017B1129_2_10",
+  "extracted_at": "2026-11-10T13:19:17.152Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13402,
+    "output": 3065
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "2mgセルシン錠",
+      "strength": "1錠中ジアゼパム2mg",
+      "imprint_front": "110",
+      "imprint_back": "未確認",
+      "imprint_note": "図示では割線の下側に「2」の表示あり",
+      "color": "白色～黄みの白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：白色～黄みの白色の片面割線入りの素錠 ／ 直径(mm) 6.1 ／ 厚さ(mm) 2.4 ／ 識別コード 110"
+    },
+    {
+      "product_name": "5mgセルシン錠",
+      "strength": "1錠中ジアゼパム5mg",
+      "imprint_front": "111",
+      "imprint_back": "未確認",
+      "imprint_note": "図示では割線の下側に「5」の表示あり",
+      "color": "淡黄色～淡だいだい黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：淡黄色～淡だいだい黄色の片面割線入りの素錠 ／ 直径(mm) 7.1 ／ 厚さ(mm) 2.3 ／ 識別コード 111"
+    },
+    {
+      "product_name": "10mgセルシン錠",
+      "strength": "1錠中ジアゼパム10mg",
+      "imprint_front": "112",
+      "imprint_back": "未確認",
+      "imprint_note": "図示では割線の下側に「10」の表示あり",
+      "color": "白色～黄みの白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年11月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形：白色～黄みの白色の片面割線入りの素錠 ／ 直径(mm) 8.1 ／ 厚さ(mm) 2.6 ／ 識別コード 112"
+    }
+  ],
+  "expected_products": [
+    "2mgセルシン錠",
+    "5mgセルシン錠",
+    "10mgセルシン錠"
+  ]
+}

@@ -2,11 +2,11 @@
   "id": "460028_3134003F1400_2_04",
   "source_file": "460028_3134003F1400_2_04.pdf",
   "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3134003F1400_2_04",
-  "extracted_at": "2026-11-09T15:17:36.942Z",
+  "extracted_at": "2026-11-10T13:19:08.064Z",
   "model": "claude-haiku-5-5",
   "usage": {
     "input": 8832,
-    "output": 1399
+    "output": 1218
   },
   "status": "draft",
   "products": [
@@ -44,6 +44,7 @@
     }
   ],
   "expected_products": [
-    "ピリドキサール錠10mg「ツルハラ」"
+    "ピリドキサール錠10mg「ツルハラ」",
+    "ピリドキサール錠20mg「ツルハラ」"
   ]
 }
