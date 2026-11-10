@@ -24,10 +24,17 @@ const path = require("path");
 const { norm, readJsonDir, parseCsv, csvCell, mdTable } = require("./lib.cjs");
 
 const ROOT = path.resolve(__dirname, "../..");
-const DRAFTS_DIR = path.join(ROOT, "data/parent/drafts/claude-sonnet-5-5");
+// --model で下書きを選ぶ。品目単位（drafts/<model>/<yj>.json）が無ければ文書単位（drafts-docs/<model>/<doc_id>.json）を読み、
+// 文書の products を 1 つずつ品目として検査する。Sonnet 以外の報告は reports/check-parent-<model>.* に書く（今までの結果を変えない）
+const argIdx = process.argv.indexOf("--model");
+const MODEL = argIdx >= 0 ? process.argv[argIdx + 1] : "claude-sonnet-5-5";
+const DRAFTS_DIR = fs.existsSync(path.join(ROOT, "data/parent/drafts", MODEL)) ? path.join(ROOT, "data/parent/drafts", MODEL) : path.join(ROOT, "data/parent/drafts-docs", MODEL);
+const DOC_MODE = DRAFTS_DIR.includes("drafts-docs");
 const NAIFUKU = path.join(ROOT, "data/parent/naifuku-tablets-20261101.csv");
-const REPORT_MD = path.join(ROOT, "reports/check-parent.md");
-const REPORT_CSV = path.join(ROOT, "reports/check-parent.csv");
+const PRODUCTS = path.join(ROOT, "data/parent/products.csv");
+const SUFFIX = MODEL === "claude-sonnet-5-5" ? "" : `-${MODEL}`;
+const REPORT_MD = path.join(ROOT, `reports/check-parent${SUFFIX}.md`);
+const REPORT_CSV = path.join(ROOT, `reports/check-parent${SUFFIX}.csv`);
 
 const SIZE_MIN = 3;
 const SIZE_MAX = 25;
@@ -117,9 +124,31 @@ function pickPrimary(products, info) {
   return { p: products[0], how: "first" };
 }
 
+/** 文書単位の下書きを、product ごとの擬似ファイル（1 品目 1 ファイル）に広げる。品目の名前・メーカーは products.csv から補い、naifuku の表に足す */
+function expandDocs(files, naifuku) {
+  const rows = parseCsv(fs.readFileSync(PRODUCTS, "utf8"));
+  const h = rows[0]; const idx = Object.fromEntries(h.map((c, i) => [c, i]));
+  const byName = new Map();
+  for (const r of rows.slice(1)) if (r[idx.brand_name]) byName.set(norm(r[idx.brand_name]), { yj: r[idx.yj_code] || "", maker: (r[idx.maker] || "").replace(/^製造販売元[^／]*／/, "") });
+  const out = []; const used = new Set();
+  for (const { file, data: d } of files) {
+    const docId = file.replace(/\.json$/, "");
+    (d.products || []).forEach((p, i) => {
+      const info = byName.get(norm(p.product_name)) || { yj: "", maker: "" };
+      const key = info.yj && !used.has(info.yj) ? info.yj : `${docId}#${i + 1}`;
+      used.add(key);
+      naifuku.set(key, { brand_name: p.product_name, maker: info.maker, strength: p.strength || "", dosage_form: "" });
+      out.push({ file: `${key}.json`, data: { ...d, products: [p] } });
+    });
+    if (!(d.products || []).length) out.push({ file: `${docId}#0.json`, data: d });
+  }
+  return out;
+}
+
 function checkParent() {
   const naifuku = loadNaifuku();
-  const files = readJsonDir(DRAFTS_DIR);
+  let files = readJsonDir(DRAFTS_DIR);
+  if (DOC_MODE) files = expandDocs(files, naifuku);
 
   // ルール2 の下ごしらえ：source_file ごとに products を集める
   const byDoc = new Map(); // source_file -> [{yj, product}]
@@ -231,7 +260,7 @@ function writeReports(r) {
   md.push("");
   md.push(`- 検査した品目：${r.fileCount}（添付文書 ${r.docCount} 文書）`);
   md.push(`- 1つ以上のルールに該当：${flagged} 品目（${((flagged / r.fileCount) * 100).toFixed(1)}%）`);
-  md.push(`- 一覧（CSV）：reports/check-parent.csv（怪しい順）`);
+  md.push(`- 一覧（CSV）：${path.relative(ROOT, REPORT_CSV)}（怪しい順）`);
   md.push("");
   md.push("検査の単位は品目（ファイル＝YJコード）。各ファイルの products のうち、厚労省リストの販売名に一致する product を見る（無ければ規格一致、それも無ければ先頭）。ルール2だけは、同じ添付文書（source_file）を持つ全ファイルの全 products を集めて比べる。");
   md.push("");

@@ -29,10 +29,12 @@ const { execFileSync } = require("child_process");
 const arg = (n, d) => { const i = process.argv.indexOf(n); return i >= 0 ? process.argv[i + 1] : d; };
 const MODEL = arg("--model", "claude-sonnet-5-5");
 const SELFTEST = process.argv.includes("--selftest");
-const DRAFTS = path.join("data/parent/drafts", MODEL);
+// 下書きの置き場：品目単位（data/parent/drafts/<model>/<yj>.json）が無ければ、文書単位（data/parent/drafts-docs/<model>/<doc_id>.json）を読む
+const DRAFTS = fs.existsSync(path.join("data/parent/drafts", MODEL)) ? path.join("data/parent/drafts", MODEL) : path.join("data/parent/drafts-docs", MODEL);
+const DOC_MODE = DRAFTS.startsWith("data/parent/drafts-docs");
 const PDF_DIR = "pdfs/parent";
 const TXT_DIR = "pdfs/parent-txt-mupdf"; // PyMuPDF で取り出した本文の置き場（pdftotext 時代の pdfs/parent-txt とは分ける）
-const OUT = "data/parent/verify";
+const OUT = MODEL === "claude-sonnet-5-5" ? "data/parent/verify" : path.join("data/parent/verify", MODEL); // Sonnet 以外は別フォルダに書く（今までの結果を変えない）
 fs.mkdirSync(TXT_DIR, { recursive: true });
 
 /** 比べる前にそろえる：全角半角（NFKC）、波線・ハイフンの表記ゆれ */
@@ -147,13 +149,19 @@ function main() {
   const files = fs.readdirSync(DRAFTS).filter((f) => f.endsWith(".json")).sort();
   const cache = new Map();
   const getPages = (docId) => { if (!cache.has(docId)) cache.set(docId, pagesOf(docId)); return cache.get(docId); };
+  // 文書単位の下書きには YJ コードが無いので、products.csv の販売名から引く（無ければ空）
+  const yjByName = new Map();
+  if (DOC_MODE) for (const l of fs.readFileSync("data/parent/products.csv", "utf8").split("\n").slice(1)) {
+    const v = []; let cur = "", q = false; for (const ch of l) { if (ch === '"') q = !q; else if (ch === "," && !q) { v.push(cur); cur = ""; } else cur += ch; } v.push(cur);
+    if (v[1]) yjByName.set(norm(v[1]), v[7] ?? "");
+  }
 
   const rows = [];
   let emptyDrafts = 0;
   for (const f of files) {
     const d = JSON.parse(fs.readFileSync(path.join(DRAFTS, f), "utf8"));
-    const yj = d.id;
-    const docId = links[yj]?.doc_id ?? String(d.source_file ?? "").replace(/\.pdf$/, "");
+    const yj = DOC_MODE ? "" : d.id;
+    const docId = DOC_MODE ? d.id : links[yj]?.doc_id ?? String(d.source_file ?? "").replace(/\.pdf$/, "");
     const products = d.products ?? [];
     if (products.length === 0) {
       emptyDrafts++;
@@ -162,7 +170,7 @@ function main() {
     }
     const pages = getPages(docId);
     for (const p of products) {
-      const base = { yj, product_name: p.product_name, strength: p.strength, doc_id: docId, source_page: p.source_page ?? "", url: d.source_url,
+      const base = { yj: DOC_MODE ? (yjByName.get(norm(p.product_name)) ?? "") : yj, product_name: p.product_name, strength: p.strength, doc_id: docId, source_page: p.source_page ?? "", url: d.source_url,
         imprint_front: p.imprint_front, imprint_back: p.imprint_back, color: p.color, size_long_mm: p.size_long_mm, size_short_mm: p.size_short_mm, thickness_mm: p.thickness_mm, source_quote: p.source_quote };
       if (!pages) { rows.push({ ...base, found_page: "", quote: "照合不能", reason: "PDFが無い", ratio: "", missing: "" }); continue; }
       const page = Number(p.source_page) || 1;
