@@ -13,6 +13,7 @@
     "fetch-pdfs": "tsx scripts/fetch-pdfs.ts",
     "eval": "node scripts/eval/score-drafts.cjs && node scripts/eval/check-parent.cjs",
     "test": "node --test \"tests/**/*.test.cjs\"",
+    "test:maker": "node --experimental-strip-types --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --disable-warning=ExperimentalWarning --test \"tests/maker/*.test.mjs\"",
     "verify-quotes": "node scripts/verify-quotes.cjs"
   },
   "dependencies": {
