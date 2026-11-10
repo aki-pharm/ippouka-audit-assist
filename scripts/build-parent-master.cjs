@@ -40,6 +40,8 @@ const review = readCsv("data/parent/review-imprint-front.csv");
 const master = JSON.parse(fs.readFileSync("data/master.json", "utf8"));
 
 const SONNET = "data/parent/drafts/claude-sonnet-5-5", HAIKU = "data/parent/drafts-docs/claude-haiku-5-5";
+// 硬カプセルの号数ごとの標準寸法 [全長 mm, 外径 mm]（閉じた状態のおおよその値。メーカーでわずかに違う）
+const CAPSULE_MM = { "000": [26.1, 9.9], "00": [23.3, 8.5], "0": [21.7, 7.6], "1": [19.4, 6.9], "2": [18.0, 6.4], "3": [15.9, 5.8], "4": [14.3, 5.3], "5": [11.1, 4.9] };
 const readJson = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")) : null);
 
 // 下書きの products から、販売名（正規化）→ 規格 → 1 件だけ、の順で選ぶ
@@ -93,9 +95,17 @@ for (const p of products) {
     product_key: p.product_key, brand_name: p.brand_name, maker: p.maker.replace(/^製造販売元[^／]*／/, ""), yj_code: p.yj_code, group: p.group, strength: p.strength || draft?.strength || "",
     doc_id: p.doc_id, pdf_date: p.pdf_date, source_url: `https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/${p.doc_id}`,
     color: draft?.color ?? "", color_hex: "", shape: draft?.shape ?? "", size_long_mm: draft?.size_long_mm ?? "", size_short_mm: draft?.size_short_mm ?? "", thickness_mm: draft?.thickness_mm ?? "",
+    size_source: "",
     score_line: draft?.score_line ?? "", imprint_front: draft?.imprint_front ?? "", imprint_back: draft?.imprint_back ?? "", imprint_note: draft?.imprint_note ?? "",
     source_revision: draft?.source_revision ?? "", draft_model: model ?? "", status: draft ? "draft" : "none", verified_by: "", verified_at: "", flags: [], notes: "",
   };
+  // 大きさの出どころ。カプセルで添付文書に寸法が無く号数だけ書かれているときは、号数の標準寸法（全長・外径 mm）で埋め、「号数から推定」と印を付ける
+  if (row.size_long_mm !== "" && row.size_long_mm != null) row.size_source = "添付文書";
+  else if (/カプセル/.test(p.brand_name) && draft) {
+    const txt = [draft.source_quote, draft.imprint_note, draft.color].filter(Boolean).join(" ").normalize("NFKC");
+    const m = txt.match(/(000|00|[0-5])\s*号/);
+    if (m && CAPSULE_MM[m[1]]) { [row.size_long_mm, row.size_short_mm] = CAPSULE_MM[m[1]]; row.size_source = `号数から推定（${m[1]}号）`; if (!row.shape) row.shape = "oblong"; }
+  }
 
   // 人の確認（添付文書の外形図を見て刻印を埋めたもの）
   const rv = p.yj_code ? reviewByYj.get(p.yj_code) : null;
