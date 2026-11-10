@@ -35,7 +35,7 @@ if (cmd === "export") {
       if (["size_long_mm", "size_short_mm", "thickness_mm", "source_page"].includes(c)) o[c] = v === "" ? null : Number(v);
       else if (["score_line", "adopted"].includes(c)) o[c] = v === "" ? (c === "adopted" ? true : null) : /^(true|1|yes|はい)$/i.test(v);
       else if (c === "aliases") o[c] = v ? v.split("|").map((s) => s.trim()).filter(Boolean) : [];
-      else if (["maker", "imprint_note", "color_hex", "shape", "pack_rule_reason", "fill_method", "source_url", "source_revision", "source_quote", "verified_by", "verified_at"].includes(c)) o[c] = v === "" ? null : v;
+      else if (["maker", "product_key", "drug_key", "maker_state", "imprint_note", "color_hex", "shape", "pack_rule_reason", "fill_method", "source_url", "source_revision", "source_quote", "verified_by", "verified_at"].includes(c)) o[c] = v === "" ? null : v;
       else o[c] = v;
     }
     return TabletSchema.parse(o);

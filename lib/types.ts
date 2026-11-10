@@ -22,6 +22,11 @@ export const TabletSchema = z.object({
   generic_name: z.string(),
   strength: z.string(),
   maker: z.string().nullable(),
+  // 親マスタ（data/parent/parent-master.json）の製品と、同じ薬（成分・規格・剤形）の鍵。lib/makers.ts の drugKey() と同じ形
+  product_key: z.string().nullable().default(null),
+  drug_key: z.string().nullable().default(null),
+  // 今のメーカーの状態（確認ずみ（現物）／記憶ベース／記憶ベース（両方使用）／札の読み取り（未確認）／未選択）。null は従来どおり確定扱い
+  maker_state: z.string().nullable().default(null),
   dosage_form: z.enum(["tablet", "capsule", "other"]),
   imprint_front: z.string(), // 文字列 / "なし" / "未確認"
   imprint_back: z.string(),
