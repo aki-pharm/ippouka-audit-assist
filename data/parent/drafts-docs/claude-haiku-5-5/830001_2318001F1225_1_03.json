@@ -1,0 +1,33 @@
+{
+  "id": "830001_2318001F1225_1_03",
+  "source_file": "830001_2318001F1225_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2318001F1225_1_03",
+  "extracted_at": "2026-11-09T15:00:36.117Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9423,
+    "output": 1301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジメチコン錠40mg「YD」",
+      "strength": "40mg",
+      "imprint_front": "YD 027",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は外形図（画像）から判読。裏面の刻印は文書に明記がなく未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入り素錠 外形 直径 約8.5mm 厚さ 約3.7mm"
+    }
+  ],
+  "expected_products": [
+    "ジメチコン錠40mg「YD」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "780009_2189010F1462_1_07",
+  "source_file": "780009_2189010F1462_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2189010F1462_1_07",
+  "extracted_at": "2026-11-09T14:50:44.446Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19809,
+    "output": 2014
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンNa錠5mg「Me」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "5",
+      "imprint_note": "表面に円形の図柄あり（社名マーク等と推定、判読不可）。裏面は「5」",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 1.9,
+      "score_line": false,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "プラバスタチンNa錠5mg「Me」 素錠 白色 直径（mm）6.0 厚さ（mm）1.9 重量（mg）70"
+    },
+    {
+      "product_name": "プラバスタチンNa錠10mg「Me」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "10",
+      "imprint_note": "表面に円形の図柄あり（社名マーク等と推定、判読不可）。裏面は「10」",
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "プラバスタチンNa錠10mg「Me」 割線入り素錠 微紅色 直径（mm）7.0 厚さ（mm）2.4 重量（mg）120"
+    }
+  ],
+  "expected_products": [
+    "プラバスタチンNa錠5mg「Me」"
+  ]
+}

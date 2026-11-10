@@ -1,0 +1,50 @@
+{
+  "id": "270428_2399010F1214_1_07",
+  "source_file": "270428_2399010F1214_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2399010F1214_1_07",
+  "extracted_at": "2026-11-09T15:10:52.436Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13902,
+    "output": 2741
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「サンド」",
+      "strength": "2.5mg",
+      "imprint_front": "SZ017",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形（又は性状）：白色のフィルムコーティング錠　識別コード（PTP）SZ017　大きさ（約）直径：6.2mm　厚さ：3.3mm　質量：82mg"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「サンド」",
+      "strength": "5mg",
+      "imprint_front": "なし",
+      "imprint_back": "SZ018",
+      "imprint_note": "社名マークのみ",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.2,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形（又は性状）：白色の割線入りフィルムコーティング錠　識別コード（PTP）SZ018　大きさ（約）長径：9.2mm　短径：4.6mm　厚さ：3.7mm　質量：140mg"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「サンド」",
+    "モサプリドクエン酸塩錠5mg「サンド」"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "580591_2149044F5143_1_08",
+  "source_file": "580591_2149044F5143_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149044F5143_1_08",
+  "extracted_at": "2026-11-09T14:40:38.572Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25264,
+    "output": 3006
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン OD 錠 10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「OD10 JG」と記載。表裏いずれの刻印かは画像から判別できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 1.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠。直径6.5mm 厚さ1.9mm 重量75mg（本体表示 OD10 JG）"
+    },
+    {
+      "product_name": "オルメサルタン OD 錠 20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「OD20 JG」と記載。表裏いずれの刻印かは画像から判別できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠。直径8.0mm 厚さ2.5mm 重量150mg（本体表示 OD20 JG）"
+    },
+    {
+      "product_name": "オルメサルタン OD 錠 40mg「JG」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「OD40 JG」と記載。表裏いずれの刻印かは画像から判別できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠。直径9.5mm 厚さ3.6mm 重量300mg（本体表示 OD40 JG）"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタンOD錠10mg「JG」"
+  ]
+}

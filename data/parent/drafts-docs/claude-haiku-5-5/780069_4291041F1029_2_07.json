@@ -1,0 +1,33 @@
+{
+  "id": "780069_4291041F1029_2_07",
+  "source_file": "780069_4291041F1029_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_4291041F1029_2_07",
+  "extracted_at": "2026-11-09T15:37:08.817Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24245,
+    "output": 1375
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カプレルサ錠100mg",
+      "strength": "100mg",
+      "imprint_front": "Z100",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 直径（mm） 約8.5 厚さ（mm） 約3.9 質量（g） 約0.26 識別コード Z100"
+    }
+  ],
+  "expected_products": [
+    "カプレルサ錠100mg　適正使用ガイド"
+  ]
+}

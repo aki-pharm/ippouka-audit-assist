@@ -1,0 +1,30 @@
+{
+  "id": "170050_6250051M1028_1_11",
+  "source_file": "170050_6250051M1028_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_6250051M1028_1_11",
+  "extracted_at": "2026-11-09T22:25:09.304Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18384,
+    "output": 1783
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラゲブリオ®錠400mg",
+      "strength": "モルヌピラビルとして400mg",
+      "imprint_front": "771",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の図形について文書上の記載なし",
+      "color": "赤茶色",
+      "shape": "oval",
+      "size_long_mm": 13.4,
+      "size_short_mm": 8.2,
+      "thickness_mm": 5.9,
+      "score_line": null,
+      "source_revision": "2025年10月改訂（第13版）",
+      "source_page": 1,
+      "source_quote": "剤形・色調 フィルムコーティング錠、楕円形、赤茶色 識別コード 771 大きさ 長径：13.4mm 短径：8.2mm 厚さ：5.9mm"
+    }
+  ]
+}

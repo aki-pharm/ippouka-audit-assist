@@ -1,0 +1,82 @@
+{
+  "id": "400278_2149041F1128_1_08",
+  "source_file": "400278_2149041F1128_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2149041F1128_1_08",
+  "extracted_at": "2026-11-09T14:37:34.149Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26770,
+    "output": 2665
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "TU 151",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "外形 直径5.6mm 厚さ2.4mm 色調 白色フィルムコーティング錠（割線入り） 識別コード TU 151"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「TCK」",
+      "strength": "40mg",
+      "imprint_front": "TU 152",
+      "imprint_back": "40",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "外形 直径7.1mm 厚さ2.7mm 色調 白色フィルムコーティング錠（割線入り） 識別コード TU 152"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「TCK」",
+      "strength": "80mg",
+      "imprint_front": "TU 153",
+      "imprint_back": "80",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "外形 直径8.6mm 厚さ3.7mm 色調 白色フィルムコーティング錠（割線入り） 識別コード TU 153"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「TCK」",
+      "strength": "160mg",
+      "imprint_front": "TU 154",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 14.6,
+      "size_short_mm": 5.8,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "外形 14.6×5.8mm 厚さ5.6mm 色調 白色・長楕円形フィルムコーティング錠（割線入り） 識別コード TU 154"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「TCK」",
+    "バルサルタン錠40mg「TCK」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "400278_2189010F1403_1_11",
+  "source_file": "400278_2189010F1403_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2189010F1403_1_11",
+  "extracted_at": "2026-11-09T14:50:55.357Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22660,
+    "output": 1882
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチン Na 錠 5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "Tu-TP 05",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.1,
+      "score_line": false,
+      "source_revision": "2025年8月改訂",
+      "source_page": 1,
+      "source_quote": "白色 素錠 Tu-TP 05 直径6.5mm 厚さ2.1mm 重量90mg"
+    },
+    {
+      "product_name": "プラバスタチン Na 錠 10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "Tu-TP 10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年8月改訂",
+      "source_page": 1,
+      "source_quote": "微紅色 素錠（割線入り） Tu-TP 10 直径7.5mm 厚さ2.5mm 重量140mg"
+    }
+  ],
+  "expected_products": [
+    "プラバスタチンNa錠5mg「TCK」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "450064_2171010B1067_1_05",
+  "source_file": "450064_2171010B1067_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2171010B1067_1_05",
+  "extracted_at": "2026-11-09T14:44:36.602Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10323,
+    "output": 1780
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジピリダモール錠12.5mg「JG」",
+      "strength": "1錠中 ジピリダモール 12.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードch011（シート等に記載）。刻印の表裏の位置は明記なし",
+      "color": "赤橙色",
+      "shape": "round",
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 赤橙色の糖衣錠 外形 ― 大きさ 直径 5.7mm 厚さ 2.8mm 重量 70mg 識別コード ch011（シート等に記載）"
+    }
+  ],
+  "expected_products": [
+    "ジピリダモール錠12.5mg「JG」"
+  ]
+}

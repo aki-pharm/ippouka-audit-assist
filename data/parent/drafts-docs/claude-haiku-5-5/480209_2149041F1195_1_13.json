@@ -1,0 +1,82 @@
+{
+  "id": "480209_2149041F1195_1_13",
+  "source_file": "480209_2149041F1195_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149041F1195_1_13",
+  "extracted_at": "2026-11-09T14:38:20.601Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25915,
+    "output": 2807
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "バルサルタン 20 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 淡黄色 白色 本体表示 バルサルタン 20 杏林 バルサルタン 40 杏林 直径(mm) 6.1 7.1 厚さ(mm) 2.4 3.4"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「杏林」",
+      "strength": "40mg",
+      "imprint_front": "バルサルタン 40 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 淡黄色 白色 本体表示 バルサルタン 20 杏林 バルサルタン 40 杏林 直径(mm) 6.1 7.1 厚さ(mm) 2.4 3.4"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「杏林」",
+      "strength": "80mg",
+      "imprint_front": "バルサルタン 80 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り フィルムコーティング錠 長楕円形・割線入り フィルムコーティング錠 色調 白色 本体表示 バルサルタン 80 杏林 バルサルタン 160 杏林 直径(mm) 8.6 長径：15.5 短径：6.8 厚さ(mm) 4.4 5.6"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「杏林」",
+      "strength": "160mg",
+      "imprint_front": "バルサルタン 160 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.5,
+      "size_short_mm": 6.8,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り フィルムコーティング錠 長楕円形・割線入り フィルムコーティング錠 色調 白色 本体表示 バルサルタン 80 杏林 バルサルタン 160 杏林 長径：15.5 短径：6.8 厚さ(mm) 4.4 5.6"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「杏林」",
+    "バルサルタン錠40mg「杏林」"
+  ]
+}

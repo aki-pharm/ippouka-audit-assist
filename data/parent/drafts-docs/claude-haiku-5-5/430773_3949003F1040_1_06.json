@@ -1,0 +1,66 @@
+{
+  "id": "430773_3949003F1040_1_06",
+  "source_file": "430773_3949003F1040_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3949003F1040_1_06",
+  "extracted_at": "2026-11-09T15:25:20.448Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27908,
+    "output": 3206
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "10",
+      "imprint_back": "10",
+      "imprint_note": "図からの判読のため要確認（表面の記号様の表示が社名マークか判別困難）",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フェブキソスタット錠10mg「DSEP」 フィルムコーティング錠 白色～微黄色 直径（mm）約7 厚さ（mm）約3 重さ（mg）約132"
+    },
+    {
+      "product_name": "フェブキソスタット錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "20",
+      "imprint_back": "20",
+      "imprint_note": "図からの判読のため要確認（表面の記号様の表示が社名マークか判別困難）",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フェブキソスタット錠20mg「DSEP」 フィルムコーティング錠（割線入） 白色～微黄色 直径（mm）約7 厚さ（mm）約3 重さ（mg）約132"
+    },
+    {
+      "product_name": "フェブキソスタット錠40mg「DSEP」",
+      "strength": "40mg",
+      "imprint_front": "40",
+      "imprint_back": "40",
+      "imprint_note": "図からの判読のため要確認（表面の記号様の表示が社名マークか判別困難）",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フェブキソスタット錠40mg「DSEP」 フィルムコーティング錠（割線入） 白色～微黄色 直径（mm）約9 厚さ（mm）約4 重さ（mg）約261"
+    }
+  ],
+  "expected_products": [
+    "フェブキソスタット錠10mg「DSEP」",
+    "フェブキソスタット錠20mg「DSEP」"
+  ]
+}

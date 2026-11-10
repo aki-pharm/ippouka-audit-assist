@@ -1,0 +1,33 @@
+{
+  "id": "460028_2329021F1269_1_05",
+  "source_file": "460028_2329021F1269_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2329021F1269_1_05",
+  "extracted_at": "2026-11-09T15:05:16.893Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14147,
+    "output": 1111
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「TSU」",
+      "strength": "100mg",
+      "imprint_front": "911",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 大きさ 直径 約 7.6mm 厚さ 約 3.5mm 質量 約 160mg 識別コード 911"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「TSU」"
+  ]
+}

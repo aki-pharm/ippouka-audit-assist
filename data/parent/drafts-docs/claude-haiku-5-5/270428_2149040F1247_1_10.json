@@ -1,0 +1,84 @@
+{
+  "id": "270428_2149040F1247_1_10",
+  "source_file": "270428_2149040F1247_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2149040F1247_1_10",
+  "extracted_at": "2026-11-09T14:36:24.945Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31577,
+    "output": 5104
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カンデサルタン錠2mg「サンド」",
+      "strength": "2mg",
+      "imprint_front": "SZ111",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは製剤の性状表の識別コード欄による。裏面の刻印は判読できず未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形の素錠 色調 白色～帯黄白色 外形 直径7.0mm 厚さ2.5mm 質量130mg 識別コード SZ111"
+    },
+    {
+      "product_name": "カンデサルタン錠4mg「サンド」",
+      "strength": "4mg",
+      "imprint_front": "SZ112",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは製剤の性状表の識別コード欄による。裏面の刻印は判読できず未確認",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "両面割線を有する円形の素錠 色調 白色～帯黄白色 外形 直径7.0mm 厚さ2.5mm 質量130mg 識別コード SZ112"
+    },
+    {
+      "product_name": "カンデサルタン錠8mg「サンド」",
+      "strength": "8mg",
+      "imprint_front": "SZ113",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは製剤の性状表の識別コード欄による。裏面の刻印は判読できず未確認",
+      "color": "ごくうすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "両面割線を有する円形の素錠 色調 ごくうすいだいだい色 外形 直径7.0mm 厚さ2.5mm 質量130mg 識別コード SZ113"
+    },
+    {
+      "product_name": "カンデサルタン錠12mg「サンド」",
+      "strength": "12mg",
+      "imprint_front": "SZ114",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは製剤の性状表の識別コード欄による。裏面の刻印は判読できず未確認",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "両面割線を有する円形の素錠 色調 うすいだいだい色 外形 直径7.0mm 厚さ2.6mm 質量130mg 識別コード SZ114"
+    }
+  ],
+  "expected_products": [
+    "カンデサルタン錠12mg「サンド」",
+    "カンデサルタン錠2mg「サンド」",
+    "カンデサルタン錠4mg「サンド」",
+    "カンデサルタン錠8mg「サンド」"
+  ]
+}

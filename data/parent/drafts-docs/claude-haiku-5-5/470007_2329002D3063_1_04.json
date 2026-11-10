@@ -1,0 +1,33 @@
+{
+  "id": "470007_2329002D3063_1_04",
+  "source_file": "470007_2329002D3063_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2329002D3063_1_04",
+  "extracted_at": "2026-11-09T15:03:34.028Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10605,
+    "output": 2002
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルジオキサ錠100mg「あすか」",
+      "strength": "100mg",
+      "imprint_front": "210",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に「G」マーク（社名マークの可能性）と識別コード210の記載あり。裏面は外形図上に刻印の記載は見当たらない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 白色の素錠 外 形 直径8.0mm　厚さ約2.8mm　質量200mg 識別コード 210"
+    }
+  ],
+  "expected_products": [
+    "アルジオキサ錠100mg「あすか」"
+  ]
+}

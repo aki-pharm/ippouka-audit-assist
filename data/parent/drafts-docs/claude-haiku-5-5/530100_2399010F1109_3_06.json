@@ -1,0 +1,50 @@
+{
+  "id": "530100_2399010F1109_3_06",
+  "source_file": "530100_2399010F1109_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2399010F1109_3_06",
+  "extracted_at": "2026-11-09T15:10:03.480Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16446,
+    "output": 2506
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠 2.5mg「NP」",
+      "strength": "2.5mg",
+      "imprint_front": "NP-225",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 6.2 3.3 82 NP-225"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠 5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "NP-227",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.2,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 （長径）9.2 （短径）4.6 3.8 140 NP-227"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「NP」",
+    "モサプリドクエン酸塩錠5mg「NP」"
+  ]
+}

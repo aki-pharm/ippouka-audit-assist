@@ -1,0 +1,66 @@
+{
+  "id": "780009_2149039F1139_1_17",
+  "source_file": "780009_2149039F1139_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2149039F1139_1_17",
+  "extracted_at": "2026-11-09T14:34:23.873Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23497,
+    "output": 2396
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンK錠25mg｢明治｣",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "25",
+      "imprint_note": "表の刻印（社名マーク「MS」と小さな識別コード）は判読困難",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "直径（mm）5.7 厚さ（mm）2.9 重量（mg）77 ロサルタンK錠25mg｢明治｣ 割線入り フィルムコーティング錠 白色"
+    },
+    {
+      "product_name": "ロサルタンK錠50mg｢明治｣",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "50",
+      "imprint_note": "表の刻印（社名マーク「MS」と小さな識別コード）は判読困難",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "直径（mm）7.6 厚さ（mm）3.3 重量（mg）153 ロサルタンK錠50mg｢明治｣ 割線入り フィルムコーティング錠 白色"
+    },
+    {
+      "product_name": "ロサルタンK錠100mg｢明治｣",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "100",
+      "imprint_note": "表の刻印（社名マーク「MS」と小さな識別コード）は判読困難",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.3,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "直径（mm）9.1 厚さ（mm）4.3 重量（mg）300 ロサルタンK錠100mg｢明治｣ フィルムコーティング錠 白色"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンK錠100mg「明治」",
+    "ロサルタンK錠25mg「明治」"
+  ]
+}

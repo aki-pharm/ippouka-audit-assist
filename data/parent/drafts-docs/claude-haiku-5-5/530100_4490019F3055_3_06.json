@@ -1,0 +1,50 @@
+{
+  "id": "530100_4490019F3055_3_06",
+  "source_file": "530100_4490019F3055_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_4490019F3055_3_06",
+  "extracted_at": "2026-11-09T15:39:13.568Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17139,
+    "output": 2389
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エバスチン OD 錠 5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "NP-323",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図に社名マーク及び「5」の記号あり。図に割線の表示あり（図からの読み取り）",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "淡紅色の素錠（口腔内崩壊錠） 直径（mm）6.5 厚さ（mm）2.3 重量（mg）100 識別コード NP-323"
+    },
+    {
+      "product_name": "エバスチン OD 錠 10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "NP-327",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図に社名マーク及び「10」の記号あり。図に割線の表示あり（図からの読み取り）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠（口腔内崩壊錠） 直径（mm）8.0 厚さ（mm）3.1 重量（mg）200 識別コード NP-327"
+    }
+  ],
+  "expected_products": [
+    "エバスチンOD錠10mg「NP」",
+    "エバスチンOD錠5mg「NP」"
+  ]
+}

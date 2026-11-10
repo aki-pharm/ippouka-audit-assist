@@ -1,0 +1,50 @@
+{
+  "id": "400186_3943001F1560_1_08",
+  "source_file": "400186_3943001F1560_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_3943001F1560_1_08",
+  "extracted_at": "2026-11-09T15:24:18.552Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14634,
+    "output": 2264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠50mg「タカタ」",
+      "strength": "50mg",
+      "imprint_front": "TTS-300",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の素錠 表面直径 約6.5mm 側面厚さ 約2.2mm 識別コード TTS-300"
+    },
+    {
+      "product_name": "アロプリノール錠100mg「タカタ」",
+      "strength": "100mg",
+      "imprint_front": "TTS-301",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微帯黄白色で、片面に二分割線のある裸錠 表面直径 約8mm 側面厚さ 約3mm 識別コード TTS-301"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「タカタ」",
+    "アロプリノール錠50mg「タカタ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "480235_2144012F1095_1_09",
+  "source_file": "480235_2144012F1095_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2144012F1095_1_09",
+  "extracted_at": "2026-11-09T14:30:54.370Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24240,
+    "output": 1370
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペリンドプリルエルブミン錠2mg「トーワ」",
+      "strength": "2mg",
+      "imprint_front": "Tw006",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入り素錠 識別コード Tw006 直径(mm) 7.0 厚さ(mm) 2.2 質量(mg) 110"
+    },
+    {
+      "product_name": "ペリンドプリルエルブミン錠4mg「トーワ」",
+      "strength": "4mg",
+      "imprint_front": "Tw007",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の割線入り素錠 識別コード Tw007 直径(mm) 7.5 厚さ(mm) 2.6 質量(mg) 150"
+    }
+  ],
+  "expected_products": [
+    "ペリンドプリルエルブミン錠2mg「トーワ」",
+    "ペリンドプリルエルブミン錠4mg「トーワ」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "580591_2149110F1104_1_17",
+  "source_file": "580591_2149110F1104_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149110F1104_1_17",
+  "extracted_at": "2026-11-09T14:42:42.903Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34290,
+    "output": 2134
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルヒド配合錠LD「JG」",
+      "strength": "ロサルタンカリウム50mg／ヒドロクロロチアジド12.5mg（1錠中）",
+      "imprint_front": "JG E59",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色円形のフィルムコーティング錠 ／ 直径 9.1mm 厚さ 3.8mm 重量 260mg（識別コード/本体表示：JG E59）"
+    },
+    {
+      "product_name": "ロサルヒド配合錠HD「JG」",
+      "strength": "ロサルタンカリウム100mg／ヒドロクロロチアジド12.5mg（1錠中）",
+      "imprint_front": "ロサルヒド HD JG",
+      "imprint_back": "ロサルヒド HD JG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 13.7,
+      "size_short_mm": 6.9,
+      "thickness_mm": 5.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の楕円形のフィルムコーティング錠 ／ 長径 13.7mm 短径 6.9mm 厚さ 5.2mm 重量 462mg（識別コード/本体表示：ロサルヒド HD JG）"
+    }
+  ],
+  "expected_products": [
+    "ロサルヒド配合錠HD「JG」"
+  ]
+}

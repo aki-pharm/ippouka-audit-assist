@@ -1,0 +1,50 @@
+{
+  "id": "400278_2171022F3099_3_03",
+  "source_file": "400278_2171022F3099_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2171022F3099_3_03",
+  "extracted_at": "2026-11-09T14:47:20.580Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22091,
+    "output": 2206
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「TCK」",
+      "strength": "アムロジピンとして2.5mg",
+      "imprint_front": "TU 231",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.15,
+      "score_line": false,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡橙色 素錠 TU 231 直径7.0mm 厚さ2.15mm 重量100mg"
+    },
+    {
+      "product_name": "アムロジピンOD錠5mg「TCK」",
+      "strength": "アムロジピンとして5mg",
+      "imprint_front": "TU 232",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.35,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡橙色 素錠（割線入り） TU 232 直径8.0mm 厚さ3.35mm 重量200mg"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠2.5mg「TCK」",
+    "アムロジピンOD錠5mg「TCK」"
+  ]
+}

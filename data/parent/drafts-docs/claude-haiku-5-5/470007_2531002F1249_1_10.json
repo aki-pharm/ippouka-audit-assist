@@ -1,0 +1,33 @@
+{
+  "id": "470007_2531002F1249_1_10",
+  "source_file": "470007_2531002F1249_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2531002F1249_1_10",
+  "extracted_at": "2026-11-09T15:13:36.871Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9960,
+    "output": 1306
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メチルエルゴメトリン錠0.125mg「あすか」",
+      "strength": "0.125mg",
+      "imprint_front": "TZ157",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠 外形 直径約6.6mm　厚さ約2.9mm　質量約102mg 識別コード TZ157"
+    }
+  ],
+  "expected_products": [
+    "メチルエルゴメトリン錠0.125mg「あすか」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "340460_6132016F1074_1_08",
+  "source_file": "340460_6132016F1074_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340460_6132016F1074_1_08",
+  "extracted_at": "2026-11-09T15:47:04.758Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18318,
+    "output": 1528
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフカペンピボキシル塩酸塩錠75mg「トーワ」",
+      "strength": "75mg（力価）",
+      "imprint_front": "Tw743",
+      "imprint_back": "75",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の円形の フィルムコーティング錠 識別コード Tw743 直径（mm） 7.7 厚さ（mm） 3.6"
+    },
+    {
+      "product_name": "セフカペンピボキシル塩酸塩錠100mg「トーワ」",
+      "strength": "100mg（力価）",
+      "imprint_front": "Tw744",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすい赤色の円形の フィルムコーティング錠 識別コード Tw744 直径（mm） 8.7 厚さ（mm） 3.9"
+    }
+  ],
+  "expected_products": [
+    "セフカペンピボキシル塩酸塩錠100mg「トーワ」",
+    "セフカペンピボキシル塩酸塩錠75mg「トーワ」"
+  ]
+}

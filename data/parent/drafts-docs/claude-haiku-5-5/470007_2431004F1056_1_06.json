@@ -1,0 +1,99 @@
+{
+  "id": "470007_2431004F1056_1_06",
+  "source_file": "470007_2431004F1056_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2431004F1056_1_06",
+  "extracted_at": "2026-11-09T15:11:48.421Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15130,
+    "output": 2937
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チラーヂンS錠12.5μg",
+      "strength": "12.5μg",
+      "imprint_front": "TZ244",
+      "imprint_back": "12.5",
+      "imprint_note": null,
+      "color": "赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "赤色素錠 TZ244 直径6.5mm 厚さ2.4mm 質量100mg"
+    },
+    {
+      "product_name": "チラーヂンS錠25μg",
+      "strength": "25μg",
+      "imprint_front": "TZ214",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤色素錠（割線入り） TZ214 直径6.5mm 厚さ2.4mm 質量100mg"
+    },
+    {
+      "product_name": "チラーヂンS錠50μg",
+      "strength": "50μg",
+      "imprint_front": "TZ224",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色素錠（割線入り） TZ224 直径6.5mm 厚さ2.4mm 質量100mg"
+    },
+    {
+      "product_name": "チラーヂンS錠75μg",
+      "strength": "75μg",
+      "imprint_front": "TZ254",
+      "imprint_back": "75",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色素錠 TZ254 直径6.5mm 厚さ2.4mm 質量100mg"
+    },
+    {
+      "product_name": "チラーヂンS錠100μg",
+      "strength": "100μg",
+      "imprint_front": "TZ234",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "黄色素錠 TZ234 直径6.5mm 厚さ2.4mm 質量100mg"
+    }
+  ],
+  "expected_products": [
+    "チラーヂンS錠100μg",
+    "チラーヂンS錠12.5μg",
+    "チラーヂンS錠75μg"
+  ]
+}

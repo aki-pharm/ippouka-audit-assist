@@ -1,0 +1,49 @@
+{
+  "id": "300119_4229101F1034_1_12",
+  "source_file": "300119_4229101F1034_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4229101F1034_1_12",
+  "extracted_at": "2026-11-09T15:35:12.873Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37055,
+    "output": 1883
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エスエーワン配合OD錠T20",
+      "strength": "1錠中 日局テガフール 20mg",
+      "imprint_front": "SW エスエーワン T20",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載のみ（表裏の別は明記なし）",
+      "color": "うすい青緑色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 うすい青緑色、直径（mm） 7.1、厚さ（mm） 3.2、重量（mg） 約139、本体表示 SW エスエーワン T20"
+    },
+    {
+      "product_name": "エスエーワン配合OD錠T25",
+      "strength": "1錠中 日局テガフール 25mg",
+      "imprint_front": "SW エスエーワン T25",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載のみ（表裏の別は明記なし）",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 うすいだいだい色、直径（mm） 7.6、厚さ（mm） 3.5、重量（mg） 約173、本体表示 SW エスエーワン T25"
+    }
+  ],
+  "expected_products": [
+    "エスエーワン配合OD錠T25"
+  ]
+}

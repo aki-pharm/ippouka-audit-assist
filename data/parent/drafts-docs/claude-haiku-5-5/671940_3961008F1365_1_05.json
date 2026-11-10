@@ -1,0 +1,67 @@
+{
+  "id": "671940_3961008F1365_1_05",
+  "source_file": "671940_3961008F1365_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_3961008F1365_1_05",
+  "extracted_at": "2026-11-09T15:28:14.841Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27117,
+    "output": 2969
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「フェルゼン」",
+      "strength": "0.5mg",
+      "imprint_front": "F1",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.5,
+      "size_short_mm": 4.5,
+      "thickness_mm": 2.1,
+      "score_line": false,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の素錠 直径 4.5mm 厚さ 2.1mm 質量 40mg 識別コード F1"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「フェルゼン」",
+      "strength": "1mg",
+      "imprint_front": "F2",
+      "imprint_back": "①",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡紅色の割線入りの素錠 直径 6.0mm 厚さ 2.3mm 質量 80mg 識別コード F2"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「フェルゼン」",
+      "strength": "3mg",
+      "imprint_front": "F3",
+      "imprint_back": "③",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "微黄白色の割線入りの素錠 直径 8.0mm 厚さ 2.8mm 質量 160mg 識別コード F3"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「フェルゼン」",
+    "グリメピリド錠1mg「フェルゼン」",
+    "グリメピリド錠3mg「フェルゼン」"
+  ]
+}

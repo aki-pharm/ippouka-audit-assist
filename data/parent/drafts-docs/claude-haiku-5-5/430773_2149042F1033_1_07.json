@@ -1,0 +1,65 @@
+{
+  "id": "430773_2149042F1033_1_07",
+  "source_file": "430773_2149042F1033_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149042F1033_1_07",
+  "extracted_at": "2026-11-09T14:38:35.564Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22444,
+    "output": 2937
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "テルミ20 DSEP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "テルミサルタン錠20mg「DSEP」 錠剤 白色～微黄色 テルミ 20 DSEP 約6 約2.5 約85"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「DSEP」",
+      "strength": "40mg",
+      "imprint_front": "テルミ40 DSEP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "テルミサルタン錠40mg「DSEP」 錠剤（割線入） 白色～微黄色 テルミ 40 DSEP 約8 約2.8 約170"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「DSEP」",
+      "strength": "80mg",
+      "imprint_front": "テルミ80 DSEP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "テルミサルタン錠80mg「DSEP」 フィルムコート錠（割線入） 白色 テルミ 80 DSEP 約10 約4.4 約345"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「DSEP」"
+  ]
+}

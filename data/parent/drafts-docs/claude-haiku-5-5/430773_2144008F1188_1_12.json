@@ -1,0 +1,66 @@
+{
+  "id": "430773_2144008F1188_1_12",
+  "source_file": "430773_2144008F1188_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2144008F1188_1_12",
+  "extracted_at": "2026-11-09T14:30:03.398Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22934,
+    "output": 2285
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イミダプリル塩酸塩錠2.5mg「DSEP」",
+      "strength": "2.5mg",
+      "imprint_front": "2.5",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "薄い桃色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "イミダプリル塩酸塩錠2.5mg「DSEP」 素錠 薄い桃色 7.0 2.9 120.0"
+    },
+    {
+      "product_name": "イミダプリル塩酸塩錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "5",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "イミダプリル塩酸塩錠5mg「DSEP」 素錠（割線入） 白色 7.0 2.9 120.0"
+    },
+    {
+      "product_name": "イミダプリル塩酸塩錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "10",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "薄いだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "イミダプリル塩酸塩錠10mg「DSEP」 素錠（割線入） 薄いだいだい色 7.0 2.9 120.0"
+    }
+  ],
+  "expected_products": [
+    "イミダプリル塩酸塩錠2.5mg「DSEP」",
+    "イミダプリル塩酸塩錠5mg「DSEP」"
+  ]
+}

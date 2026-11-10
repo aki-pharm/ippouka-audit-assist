@@ -1,0 +1,82 @@
+{
+  "id": "180095_2149041F1179_1_07",
+  "source_file": "180095_2149041F1179_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2149041F1179_1_07",
+  "extracted_at": "2026-11-09T14:37:38.790Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24542,
+    "output": 2826
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「オーハラ」",
+      "strength": "20mg",
+      "imprint_front": "バルサルタン 20 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第２版）",
+      "source_page": 1,
+      "source_quote": "淡黄色 割線入りのフィルムコーティング錠 外形 直径：7.1mm 厚さ：2.6mm 質量 95mg 識別表示 バルサルタン 20 オーハラ"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「オーハラ」",
+      "strength": "40mg",
+      "imprint_front": "バルサルタン 40 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第２版）",
+      "source_page": 1,
+      "source_quote": "白色 割線入りのフィルムコーティング錠 外形 直径：7.1mm 厚さ：2.8mm 質量 95mg 識別表示 バルサルタン 40 オーハラ"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「オーハラ」",
+      "strength": "80mg",
+      "imprint_front": "バルサルタン 80 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第２版）",
+      "source_page": 1,
+      "source_quote": "白色 割線入りのフィルムコーティング錠 外形 直径：8.6mm 厚さ：3.7mm 質量 190mg 識別表示 バルサルタン 80 オーハラ"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「オーハラ」",
+      "strength": "160mg",
+      "imprint_front": "バルサルタン 160 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 14.6,
+      "size_short_mm": 5.8,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第２版）",
+      "source_page": 1,
+      "source_quote": "白色 長楕円形の割線入りのフィルムコーティング錠 外形 長径：14.6mm 短径：5.8mm 厚さ：5.7mm 質量 375mg 識別表示 バルサルタン 160 オーハラ"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「オーハラ」",
+    "バルサルタン錠40mg「オーハラ」"
+  ]
+}

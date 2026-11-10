@@ -1,0 +1,50 @@
+{
+  "id": "270428_2431004F1048_1_07",
+  "source_file": "270428_2431004F1048_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2431004F1048_1_07",
+  "extracted_at": "2026-11-09T15:11:51.971Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13909,
+    "output": 1675
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボチロキシンNa錠25μg「サンド」",
+      "strength": "25μg",
+      "imprint_front": "LV25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "割線入りの素錠、淡赤色、直径6.5mm、厚さ2.3mm、質量100mg、識別コードLV25"
+    },
+    {
+      "product_name": "レボチロキシンNa錠50μg「サンド」",
+      "strength": "50μg",
+      "imprint_front": "LV50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "割線入りの素錠、白色、直径6.5mm、厚さ2.3mm、質量100mg、識別コードLV50"
+    }
+  ],
+  "expected_products": [
+    "レボチロキシンNa錠25μg「サンド」",
+    "レボチロキシンNa錠50μg「サンド」"
+  ]
+}

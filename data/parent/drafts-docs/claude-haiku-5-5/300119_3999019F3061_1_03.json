@@ -1,0 +1,33 @@
+{
+  "id": "300119_3999019F3061_1_03",
+  "source_file": "300119_3999019F3061_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3999019F3061_1_03",
+  "extracted_at": "2026-11-09T15:34:44.850Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18456,
+    "output": 1253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "日本薬局方 リセドロン酸Na錠75mg「サワイ」",
+      "strength": "75mg",
+      "imprint_front": "リセドロン 75 サワイ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄色",
+      "shape": "oblong",
+      "size_long_mm": 10.2,
+      "size_short_mm": 5.2,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 性　状 微黄色 直径（mm） 10.2×5.2 厚さ（mm） 4.2 重量（mg） 約208 本体表示 リセドロン 75 サワイ"
+    }
+  ],
+  "expected_products": [
+    "リセドロン酸Na錠75mg「サワイ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "480235_2149010F1173_1_07",
+  "source_file": "480235_2149010F1173_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149010F1173_1_07",
+  "extracted_at": "2026-11-09T14:31:13.414Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19353,
+    "output": 1940
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトプロロール酒石酸塩錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "Tw",
+      "imprint_back": "SP20",
+      "imprint_note": "識別コードTwSP20（表：Tw、裏：SP20）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード TwSP20 TwSP40 直径(mm) 6.1 8.1 厚さ(mm) 3.0 3.5"
+    },
+    {
+      "product_name": "メトプロロール酒石酸塩錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "Tw",
+      "imprint_back": "SP40",
+      "imprint_note": "識別コードTwSP40（表：Tw、裏：SP40）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード TwSP20 TwSP40 直径(mm) 6.1 8.1 厚さ(mm) 3.0 3.5"
+    }
+  ],
+  "expected_products": [
+    "メトプロロール酒石酸塩錠20mg「トーワ」",
+    "メトプロロール酒石酸塩錠40mg「トーワ」"
+  ]
+}

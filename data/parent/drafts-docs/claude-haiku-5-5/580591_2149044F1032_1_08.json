@@ -1,0 +1,82 @@
+{
+  "id": "580591_2149044F1032_1_08",
+  "source_file": "580591_2149044F1032_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149044F1032_1_08",
+  "extracted_at": "2026-11-09T14:41:23.788Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25138,
+    "output": 3311
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン錠 5 mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載は「オルメサルタン 5 JG」のみ。表裏の別は判読できず",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "オルメサルタン錠 5 mg「JG」 淡黄白色の素錠 直径 7.0mm 厚さ 2.4mm 重量 120mg"
+    },
+    {
+      "product_name": "オルメサルタン錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "オルメJG 10",
+      "imprint_back": "オルメサルタン 10 JG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "オルメサルタン錠10mg「JG」 白色の片面割線入りの素錠 直径 7.0mm 厚さ 2.4mm 重量 120mg"
+    },
+    {
+      "product_name": "オルメサルタン錠20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "オルメJG 20",
+      "imprint_back": "オルメサルタン 20 JG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "オルメサルタン錠20mg「JG」 白色の片面割線入りの素錠 直径 8.0mm 厚さ 2.5mm 重量 160mg"
+    },
+    {
+      "product_name": "オルメサルタン錠40mg「JG」",
+      "strength": "40mg",
+      "imprint_front": "オルメJG 40",
+      "imprint_back": "オルメサルタン 40 JG",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "オルメサルタン錠40mg「JG」 白色の片面割線入りの素錠 直径 9.5mm 厚さ 3.6mm 重量 320mg"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタン錠10mg「JG」",
+    "オルメサルタン錠5mg「JG」"
+  ]
+}

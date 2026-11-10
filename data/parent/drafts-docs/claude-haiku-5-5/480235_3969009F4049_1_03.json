@@ -1,0 +1,66 @@
+{
+  "id": "480235_3969009F4049_1_03",
+  "source_file": "480235_3969009F4049_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3969009F4049_1_03",
+  "extracted_at": "2026-11-09T15:32:07.795Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24908,
+    "output": 1586
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミグリトールOD錠25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "ミグリ 25",
+      "imprint_back": "25 ミグリトール OD トーワ",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微黄白色の割線入りの口腔内崩壊錠（直径(mm) 6.5、厚さ(mm) 2.5）"
+    },
+    {
+      "product_name": "ミグリトールOD錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "ミグリ 50",
+      "imprint_back": "50 ミグリトール OD トーワ",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微黄白色の割線入りの口腔内崩壊錠（直径(mm) 8.5、厚さ(mm) 3.0）"
+    },
+    {
+      "product_name": "ミグリトールOD錠75mg「トーワ」",
+      "strength": "75mg",
+      "imprint_front": "ミグリ 75",
+      "imprint_back": "75 ミグリトール OD トーワ",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微黄白色の割線入りの口腔内崩壊錠（直径(mm) 10.0、厚さ(mm) 3.4）"
+    }
+  ],
+  "expected_products": [
+    "ミグリトールOD錠25mg「トーワ」",
+    "ミグリトールOD錠50mg「トーワ」"
+  ]
+}

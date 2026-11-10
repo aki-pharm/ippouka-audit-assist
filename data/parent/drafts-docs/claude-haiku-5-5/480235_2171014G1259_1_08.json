@@ -1,0 +1,50 @@
+{
+  "id": "480235_2171014G1259_1_08",
+  "source_file": "480235_2171014G1259_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2171014G1259_1_08",
+  "extracted_at": "2026-11-09T14:45:21.287Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19545,
+    "output": 1612
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンL錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤色のフィルムコーティング錠 本体 Tw/10（表/裏） 直径(mm) 5.6 厚さ(mm) 3.1"
+    },
+    {
+      "product_name": "ニフェジピンL錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "Tw",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤色のフィルムコーティング錠 本体 Tw/20（表/裏） 直径(mm) 6.1 厚さ(mm) 2.8"
+    }
+  ],
+  "expected_products": [
+    "ニフェジピンL錠10mg「トーワ」",
+    "ニフェジピンL錠20mg「トーワ」"
+  ]
+}

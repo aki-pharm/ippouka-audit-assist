@@ -1,0 +1,33 @@
+{
+  "id": "581120_2319001M1388_1_04",
+  "source_file": "581120_2319001M1388_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2319001M1388_1_04",
+  "extracted_at": "2026-11-09T15:00:51.181Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12946,
+    "output": 1942
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロペラミド塩酸塩カプセル1mg「NIG」",
+      "strength": "1mg",
+      "imprint_front": "LPR215",
+      "imprint_back": "LPR215",
+      "imprint_note": "識別コードは3.2の（PTP）欄に記載。外形図にもLPR 215の表示あり",
+      "color": "白色不透明",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 蓋部・胴体部とも白色不透明、内容物が白色の粒を含む粉末のカプセル剤 外形 4号カプセル 質量 160mg 識別コード（PTP） LPR215"
+    }
+  ],
+  "expected_products": [
+    "ロペラミド塩酸塩カプセル1mg「NIG」"
+  ]
+}

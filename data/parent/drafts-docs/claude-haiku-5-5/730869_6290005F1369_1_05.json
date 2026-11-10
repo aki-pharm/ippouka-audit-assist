@@ -1,0 +1,33 @@
+{
+  "id": "730869_6290005F1369_1_05",
+  "source_file": "730869_6290005F1369_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_6290005F1369_1_05",
+  "extracted_at": "2026-11-09T15:49:01.084Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16415,
+    "output": 1085
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルビナフィン錠125mg「VTRS」",
+      "strength": "125mg",
+      "imprint_front": "TB 125",
+      "imprint_back": "VT",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "テルビナフィン錠125mg「VTRS」 識別コード TB 125 VT 色調等 白色～淡黄白色 割線入り 素錠 直径 9.1mm 厚さ 3.7mm 重量 210mg"
+    }
+  ],
+  "expected_products": [
+    "テルビナフィン錠125mg「VTRS」"
+  ]
+}

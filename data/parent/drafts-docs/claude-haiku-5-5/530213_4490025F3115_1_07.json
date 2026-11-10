@@ -1,0 +1,50 @@
+{
+  "id": "530213_4490025F3115_1_07",
+  "source_file": "530213_4490025F3115_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_4490025F3115_1_07",
+  "extracted_at": "2026-11-09T15:42:15.773Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20935,
+    "output": 1590
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩OD錠2.5mg「ケミファ」",
+      "strength": "2.5mg",
+      "imprint_front": "NC O",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 性状 ごくうすい黄色の円形の素錠 直径 6.5mm 厚さ 2.7mm 識別コード NC O"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩OD錠5mg「ケミファ」",
+      "strength": "5mg",
+      "imprint_front": "NCP OL",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 性状 ごくうすい黄色の円形の割線入り素錠 直径 8.0mm 厚さ 3.6mm 識別コード NCP OL"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩OD錠2.5mg「ケミファ」",
+    "オロパタジン塩酸塩OD錠5mg「ケミファ」"
+  ]
+}

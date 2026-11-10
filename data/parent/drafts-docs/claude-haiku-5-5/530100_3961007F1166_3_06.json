@@ -1,0 +1,50 @@
+{
+  "id": "530100_3961007F1166_3_06",
+  "source_file": "530100_3961007F1166_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3961007F1166_3_06",
+  "extracted_at": "2026-11-09T15:26:22.309Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18696,
+    "output": 2019
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリクラジド錠 20mg「NP」",
+      "strength": "20mg",
+      "imprint_front": "NP-121",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-121。画像に「20」の表示あり（表裏の別は本文に記載なし）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入り素錠 6.5 2.0 80 NP-121"
+    },
+    {
+      "product_name": "グリクラジド錠 40mg「NP」",
+      "strength": "40mg",
+      "imprint_front": "NP-152",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはNP-152。画像に「40」の表示あり（表裏の別は本文に記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 1.9,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 6.6 1.9 80 NP-152"
+    }
+  ],
+  "expected_products": [
+    "グリクラジド錠20mg「NP」",
+    "グリクラジド錠40mg「NP」"
+  ]
+}

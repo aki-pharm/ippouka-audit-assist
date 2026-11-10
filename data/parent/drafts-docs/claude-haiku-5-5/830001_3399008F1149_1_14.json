@@ -1,0 +1,49 @@
+{
+  "id": "830001_3399008F1149_1_14",
+  "source_file": "830001_3399008F1149_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3399008F1149_1_14",
+  "extracted_at": "2026-11-09T15:22:37.642Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35166,
+    "output": 2483
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「YD」",
+      "strength": "1錠中クロピドグレルとして25mg",
+      "imprint_front": "YD 25",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載はなく、添付文書の外形図から読み取った",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色のフィルムコーティング錠 外形 直径 約6.1mm 厚さ 約2.9mm 重量 90mg"
+    },
+    {
+      "product_name": "クロピドグレル錠75mg「YD」",
+      "strength": "1錠中クロピドグレルとして75mg",
+      "imprint_front": "YD 75",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載はなく、添付文書の外形図から読み取った",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色のフィルムコーティング錠 外形 直径 約8.6mm 厚さ 約4.1mm 重量 270mg"
+    }
+  ],
+  "expected_products": [
+    "クロピドグレル錠25mg「YD」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "530100_3399006F1093_3_03",
+  "source_file": "530100_3399006F1093_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3399006F1093_3_03",
+  "extracted_at": "2026-11-09T15:21:53.774Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13043,
+    "output": 1947
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠 50mg「NP」",
+      "strength": "50mg",
+      "imprint_front": "NP-525",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の記載のまま。図の刻印の面・配置は判別できず",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径（mm）6.6 厚さ（mm）2.8 重量（mg）79.9 識別コード NP-525"
+    },
+    {
+      "product_name": "サルポグレラート塩酸塩錠 100mg「NP」",
+      "strength": "100mg",
+      "imprint_front": "NP-527",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表の記載のまま。図の刻印の面・配置は判別できず",
+      "color": "白色",
+      "shape": null,
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径（mm）7.6 厚さ（mm）4.0 重量（mg）157.0 識別コード NP-527"
+    }
+  ],
+  "expected_products": [
+    "サルポグレラート塩酸塩錠50mg「NP」"
+  ]
+}

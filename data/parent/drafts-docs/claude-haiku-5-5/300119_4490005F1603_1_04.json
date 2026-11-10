@@ -1,0 +1,33 @@
+{
+  "id": "300119_4490005F1603_1_04",
+  "source_file": "300119_4490005F1603_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4490005F1603_1_04",
+  "extracted_at": "2026-11-09T15:38:24.323Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13832,
+    "output": 1401
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキサトミド錠30mg「サワイ」",
+      "strength": "30mg",
+      "imprint_front": "なし",
+      "imprint_back": "SW 717",
+      "imprint_note": "表は社名マークのみ（外形図より）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色～微黄白色 直径（mm） 6.0 厚さ（mm） 2.5 重量（mg） 約85 識別コード SW 717"
+    }
+  ],
+  "expected_products": [
+    "オキサトミド錠30mg「サワイ」"
+  ]
+}

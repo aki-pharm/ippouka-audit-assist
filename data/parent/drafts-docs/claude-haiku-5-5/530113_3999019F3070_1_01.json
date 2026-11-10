@@ -1,0 +1,33 @@
+{
+  "id": "530113_3999019F3070_1_01",
+  "source_file": "530113_3999019F3070_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3999019F3070_1_01",
+  "extracted_at": "2026-11-09T15:34:55.891Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17058,
+    "output": 1249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠75mg「日新」",
+      "strength": "75mg",
+      "imprint_front": "リセドロンNa 75 NS",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄色",
+      "shape": "oval",
+      "size_long_mm": 10.2,
+      "size_short_mm": 5.2,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2026年2月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性 状 微黄色の楕円形のフィルムコーティング錠 外形 大きさ 長径：10.2mm 短径： 5.2mm 錠厚： 4.2mm 重量： 208mg 本体表示 リセドロンNa 75 NS"
+    }
+  ],
+  "expected_products": [
+    "リセドロン酸Na錠75mg「日新」"
+  ]
+}

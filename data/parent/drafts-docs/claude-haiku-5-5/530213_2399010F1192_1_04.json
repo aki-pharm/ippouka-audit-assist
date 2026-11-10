@@ -1,0 +1,50 @@
+{
+  "id": "530213_2399010F1192_1_04",
+  "source_file": "530213_2399010F1192_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2399010F1192_1_04",
+  "extracted_at": "2026-11-09T15:10:36.590Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15679,
+    "output": 1815
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「ケミファ」",
+      "strength": "2.5mg",
+      "imprint_front": "NCP 2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2020年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 直径 5.6mm 厚さ 2.9mm 識別コード NCP 2.5"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「ケミファ」",
+      "strength": "5mg",
+      "imprint_front": "NC P5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2020年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りフィルムコーティング錠 長径 9.1mm 短径 4.6mm 厚さ 3.6mm 識別コード NC P5"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「ケミファ」",
+    "モサプリドクエン酸塩錠5mg「ケミファ」"
+  ]
+}

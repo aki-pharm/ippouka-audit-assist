@@ -1,0 +1,33 @@
+{
+  "id": "581120_3999018F2192_1_04",
+  "source_file": "581120_3999018F2192_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3999018F2192_1_04",
+  "extracted_at": "2026-11-09T15:33:37.237Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20893,
+    "output": 1457
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠35mg「NIG」",
+      "strength": "35mg",
+      "imprint_front": "t H1",
+      "imprint_back": "35",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 12,
+      "size_short_mm": 6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の楕円形の素錠 外形 長径：12.0mm 短径： 6.0mm 厚さ： 3.9mm 質量： 220mg 識別コード（PTP） t H1"
+    }
+  ],
+  "expected_products": [
+    "アレンドロン酸錠35mg「NIG」"
+  ]
+}

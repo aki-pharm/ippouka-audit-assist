@@ -1,0 +1,33 @@
+{
+  "id": "400278_2329021F1161_1_03",
+  "source_file": "400278_2329021F1161_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2329021F1161_1_03",
+  "extracted_at": "2026-11-09T15:05:13.553Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16126,
+    "output": 1443
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「TCK」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "文章中に刻印の記載なし。表の図では表裏ともに「100」「TCK」を囲む図案が見えるが、刻印か社名マークかは文書から確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年4月改訂",
+      "source_page": 1,
+      "source_quote": "製剤の性状 販売名 レバミピド錠100mg「TCK」 直径(mm) 8.1 厚さ(mm) 3.5 重量(mg) 175 色調 白色 剤形 フィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「TCK」"
+  ]
+}

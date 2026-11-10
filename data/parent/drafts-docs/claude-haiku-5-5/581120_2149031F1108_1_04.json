@@ -1,0 +1,50 @@
+{
+  "id": "581120_2149031F1108_1_04",
+  "source_file": "581120_2149031F1108_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149031F1108_1_04",
+  "extracted_at": "2026-11-09T14:32:40.689Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18162,
+    "output": 1802
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベタキソロール塩酸塩錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "t BX 5mg",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 外形 直径 6.5mm 厚さ 2.4mm"
+    },
+    {
+      "product_name": "ベタキソロール塩酸塩錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "t BX 10mg",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 外形 直径 7.0mm 厚さ 2.6mm"
+    }
+  ],
+  "expected_products": [
+    "ベタキソロール塩酸塩錠10mg「NIG」",
+    "ベタキソロール塩酸塩錠5mg「NIG」"
+  ]
+}

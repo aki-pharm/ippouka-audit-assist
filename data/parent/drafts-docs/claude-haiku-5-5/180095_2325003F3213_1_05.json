@@ -1,0 +1,50 @@
+{
+  "id": "180095_2325003F3213_1_05",
+  "source_file": "180095_2325003F3213_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2325003F3213_1_05",
+  "extracted_at": "2026-11-09T15:01:42.010Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17447,
+    "output": 2355
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジンOD錠10mg「オーハラ」",
+      "strength": "10mg",
+      "imprint_front": "ファモチジンOD 10 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄に『ファモチジンOD 10 オーハラ』と表裏の区別なく記載されている。表裏の内訳は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・口腔内崩壊錠 大きさ・厚さ 直径：7.6mm　厚さ：2.9mm 識別表示 ファモチジンOD 10 オーハラ"
+    },
+    {
+      "product_name": "ファモチジンOD錠20mg「オーハラ」",
+      "strength": "20mg",
+      "imprint_front": "ファモチジンOD 20 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄に『ファモチジンOD 20 オーハラ』と表裏の区別なく記載されている。表裏の内訳は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・口腔内崩壊錠 大きさ・厚さ 直径：8.6mm　厚さ：3.6mm 識別表示 ファモチジンOD 20 オーハラ"
+    }
+  ],
+  "expected_products": [
+    "ファモチジンOD錠10mg「オーハラ」",
+    "ファモチジンOD錠20mg「オーハラ」"
+  ]
+}

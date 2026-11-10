@@ -1,0 +1,67 @@
+{
+  "id": "581120_2149039F1384_1_04",
+  "source_file": "581120_2149039F1384_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149039F1384_1_04",
+  "extracted_at": "2026-11-09T14:34:51.389Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23557,
+    "output": 2454
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠25mg「NIG」",
+      "strength": "25mg",
+      "imprint_front": "t L1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 外形 直径 5.6mm 厚さ 3.0mm 質量 78mg 識別コード（PTP） t L1"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "t L2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面1/2割線入りフィルムコーティング錠 外形 直径 7.1mm 厚さ 3.3mm 質量 135mg 識別コード（PTP） t L2"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠100mg「NIG」",
+      "strength": "100mg",
+      "imprint_front": "t L3",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 外形 長径 13.1mm 短径 6.6mm 厚さ 4.0mm 質量 266mg 識別コード（PTP） t L3"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンカリウム錠100mg「NIG」",
+    "ロサルタンカリウム錠25mg「NIG」",
+    "ロサルタンカリウム錠50mg「NIG」"
+  ]
+}

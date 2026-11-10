@@ -1,0 +1,33 @@
+{
+  "id": "460028_2251001F1097_1_09",
+  "source_file": "460028_2251001F1097_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2251001F1097_1_09",
+  "extracted_at": "2026-11-09T15:00:31.163Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17341,
+    "output": 1027
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テオフィリン徐放錠50mg「ツルハラ」",
+      "strength": "50mg",
+      "imprint_front": "CY 50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 徐放性素錠 色調 白色 外形 大きさ 直径 約6.0mm 厚さ 約3.7mm 質量 約113mg 識別コード CY 50"
+    }
+  ],
+  "expected_products": [
+    "テオフィリン徐放錠50mg「ツルハラ」"
+  ]
+}

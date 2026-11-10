@@ -1,0 +1,65 @@
+{
+  "id": "530169_2590009F1144_1_05",
+  "source_file": "530169_2590009F1144_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590009F1144_1_05",
+  "extracted_at": "2026-11-09T15:15:21.678Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13547,
+    "output": 2875
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジル錠25mg「日医工」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の欄に「ナフトピジル 25 日医工」と記載あり（表裏のどちらに刻印されるかは文書から判別できず）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 白色 黄白色～淡黄色 直径（mm） 6.6 8.6 9.6 厚さ（mm） 3.2 4.0 4.8"
+    },
+    {
+      "product_name": "ナフトピジル錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の欄に「ナフトピジル 50 日医工」と記載あり（表裏のどちらに刻印されるかは文書から判別できず）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 白色 黄白色～淡黄色 直径（mm） 6.6 8.6 9.6 厚さ（mm） 3.2 4.0 4.8"
+    },
+    {
+      "product_name": "ナフトピジル錠75mg「日医工」",
+      "strength": "75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の欄に「ナフトピジル 75 日医工」と記載あり（表裏のどちらに刻印されるかは文書から判別できず）",
+      "color": "黄白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.8,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 白色 黄白色～淡黄色 直径（mm） 6.6 8.6 9.6 厚さ（mm） 3.2 4.0 4.8"
+    }
+  ],
+  "expected_products": [
+    "ナフトピジル錠50mg「日医工」"
+  ]
+}

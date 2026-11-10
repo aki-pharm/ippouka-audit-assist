@@ -1,0 +1,50 @@
+{
+  "id": "430773_4490026F2105_1_08",
+  "source_file": "430773_4490026F2105_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_4490026F2105_1_08",
+  "extracted_at": "2026-11-09T15:45:05.586Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23162,
+    "output": 2168
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「DSEP」",
+      "strength": "モンテルカストとして5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に刻印様の表示があるが本文に記載がないため未確認",
+      "color": "明るい灰黄色",
+      "shape": "oval",
+      "size_long_mm": 7.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 明るい灰黄色 7.6（長径） 5.6（短径） 2.9 106"
+    },
+    {
+      "product_name": "モンテルカスト錠10mg「DSEP」",
+      "strength": "モンテルカストとして10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に刻印様の表示があるが本文に記載がないため未確認",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 明るい灰黄色 8.1（直径） 4.1 210"
+    }
+  ],
+  "expected_products": [
+    "モンテルカスト錠10mg「DSEP」",
+    "モンテルカスト錠5mg「DSEP」"
+  ]
+}

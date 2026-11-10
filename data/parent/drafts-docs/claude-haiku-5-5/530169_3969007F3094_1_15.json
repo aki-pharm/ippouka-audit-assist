@@ -1,0 +1,50 @@
+{
+  "id": "530169_3969007F3094_1_15",
+  "source_file": "530169_3969007F3094_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3969007F3094_1_15",
+  "extracted_at": "2026-11-09T15:30:49.155Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25148,
+    "output": 2219
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾンOD錠15mg「日医工」",
+      "strength": "15mg",
+      "imprint_front": "123",
+      "imprint_back": "15",
+      "imprint_note": "表面上部は社名マーク様の記号、本体コードは「n 123」と記載",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色～帯黄白色 直径（mm） 7.0 厚さ（mm） 2.6"
+    },
+    {
+      "product_name": "ピオグリタゾンOD錠30mg「日医工」",
+      "strength": "30mg",
+      "imprint_front": "124",
+      "imprint_back": "30",
+      "imprint_note": "表面上部は社名マーク様の記号、本体コードは「n 124」と記載",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色～帯黄白色 直径（mm） 7.0 厚さ（mm） 2.7"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾンOD錠15mg「日医工」",
+    "ピオグリタゾンOD錠30mg「日医工」"
+  ]
+}

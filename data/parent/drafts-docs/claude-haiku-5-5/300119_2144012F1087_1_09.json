@@ -1,0 +1,50 @@
+{
+  "id": "300119_2144012F1087_1_09",
+  "source_file": "300119_2144012F1087_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2144012F1087_1_09",
+  "extracted_at": "2026-11-09T14:30:55.205Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23971,
+    "output": 1700
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ペリンドプリルエルブミン錠2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW CW2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 淡黄色 白色～微黄白色 直径（mm） 7.0 7.5 厚さ（mm） 2.2 2.6 重量（mg） 約110 約150 識別コード SW CW2 SW CW4"
+    },
+    {
+      "product_name": "ペリンドプリルエルブミン錠4mg「サワイ」",
+      "strength": "4mg",
+      "imprint_front": "SW CW4",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 淡黄色 白色～微黄白色 直径（mm） 7.0 7.5 厚さ（mm） 2.2 2.6 重量（mg） 約110 約150 識別コード SW CW2 SW CW4"
+    }
+  ],
+  "expected_products": [
+    "ペリンドプリルエルブミン錠2mg「サワイ」",
+    "ペリンドプリルエルブミン錠4mg「サワイ」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "580591_3969008F3048_1_07",
+  "source_file": "580591_3969008F3048_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3969008F3048_1_07",
+  "extracted_at": "2026-11-09T15:31:54.433Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27820,
+    "output": 1636
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミチグリニドCa・OD錠5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "JG F71",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠 表面 裏面 側面 JG F71 直径 6.0mm 厚さ 2.4mm 重量 75mg"
+    },
+    {
+      "product_name": "ミチグリニドCa・OD錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "JG F72",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠 表面 裏面 側面 JG F72 直径 8.1mm 厚さ 3.0mm 重量 150mg"
+    }
+  ],
+  "expected_products": [
+    "ミチグリニドCa・OD錠5mg「JG」"
+  ]
+}

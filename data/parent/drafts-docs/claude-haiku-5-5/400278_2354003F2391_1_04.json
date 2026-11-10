@@ -1,0 +1,33 @@
+{
+  "id": "400278_2354003F2391_1_04",
+  "source_file": "400278_2354003F2391_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2354003F2391_1_04",
+  "extracted_at": "2026-11-09T15:07:33.688Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8457,
+    "output": 1454
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "センノシド錠12mg「TCK」",
+      "strength": "12mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の図は判読困難。表面に図形と「TCK」様の文字が見えるが、刻印として確定できないため未確認とした",
+      "color": "暗赤褐色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "センノシド錠「TCK」mg12 暗赤褐色 糖衣錠 200 4.5 7.6"
+    }
+  ],
+  "expected_products": [
+    "センノシド錠12mg「TCK」"
+  ]
+}

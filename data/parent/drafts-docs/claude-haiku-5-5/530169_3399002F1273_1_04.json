@@ -1,0 +1,84 @@
+{
+  "id": "530169_3399002F1273_1_04",
+  "source_file": "530169_3399002F1273_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3399002F1273_1_04",
+  "extracted_at": "2026-11-09T15:20:08.139Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26026,
+    "output": 3104
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾール錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "373",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク（ⓝ）と373（本体コード373）。裏面の刻印は明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 直径（mm） 7.0 厚さ（mm） 2.4 質量（mg） 115 本体コード 373"
+    },
+    {
+      "product_name": "シロスタゾール錠100mg「日医工」",
+      "strength": "100mg",
+      "imprint_front": "374",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク（ⓝ）と374（本体コード374）。裏面の刻印は明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 直径（mm） 8.0 厚さ（mm） 3.1 質量（mg） 180 本体コード 374"
+    },
+    {
+      "product_name": "シロスタゾールOD錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "シロスタゾール OD 50 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 色調 白色 直径（mm） 7.1 厚さ（mm） 2.8 質量（mg） 125 本体表示 シロスタゾール OD 50 日医工"
+    },
+    {
+      "product_name": "シロスタゾールOD錠100mg「日医工」",
+      "strength": "100mg",
+      "imprint_front": "シロスタゾール OD 100 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の区別は明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色 直径（mm） 9.1 厚さ（mm） 3.5 質量（mg） 250 本体表示 シロスタゾール OD 100 日医工"
+    }
+  ],
+  "expected_products": [
+    "シロスタゾールOD錠100mg「日医工」",
+    "シロスタゾールOD錠50mg「日医工」",
+    "シロスタゾール錠100mg「日医工」",
+    "シロスタゾール錠50mg「日医工」"
+  ]
+}

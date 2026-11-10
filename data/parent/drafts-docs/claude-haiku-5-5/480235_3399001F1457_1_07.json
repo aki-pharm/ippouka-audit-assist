@@ -1,0 +1,33 @@
+{
+  "id": "480235_3399001F1457_1_07",
+  "source_file": "480235_3399001F1457_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399001F1457_1_07",
+  "extracted_at": "2026-11-09T15:19:42.376Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13396,
+    "output": 1349
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チクロピジン塩酸塩錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw",
+      "imprint_back": "PT",
+      "imprint_note": "包装の識別コードはTw.PT",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄色のフィルムコーティング錠 本体 Tw／PT（表／裏） 直径(mm) 8.2 厚さ(mm) 3.7"
+    }
+  ],
+  "expected_products": [
+    "チクロピジン塩酸塩錠100mg「トーワ」"
+  ]
+}

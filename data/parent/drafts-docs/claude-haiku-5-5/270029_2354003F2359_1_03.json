@@ -1,0 +1,33 @@
+{
+  "id": "270029_2354003F2359_1_03",
+  "source_file": "270029_2354003F2359_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_2354003F2359_1_03",
+  "extracted_at": "2026-11-09T15:07:42.483Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8278,
+    "output": 1341
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "センノシド錠12mg「クニヒロ」",
+      "strength": "12mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKSK220のみ記載（刻印の表裏の別は明記なし）",
+      "color": "帯黄暗赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 色調・性状 帯黄暗赤色の糖衣錠 外形 直径 6.0mm 厚さ 4.2mm 重量 120mg 識別コード KSK220"
+    }
+  ],
+  "expected_products": [
+    "センノシド錠12mg「クニヒロ」"
+  ]
+}

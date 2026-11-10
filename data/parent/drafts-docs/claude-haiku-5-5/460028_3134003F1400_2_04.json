@@ -1,0 +1,49 @@
+{
+  "id": "460028_3134003F1400_2_04",
+  "source_file": "460028_3134003F1400_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3134003F1400_2_04",
+  "extracted_at": "2026-11-09T15:17:36.942Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8832,
+    "output": 1399
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピリドキサール錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 / 大きさ 直径 約 8.7mm 厚さ 約 5.0mm（剤形：腸溶性糖衣錠）"
+    },
+    {
+      "product_name": "ピリドキサール錠20mg「ツルハラ」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 黄色 / 大きさ 直径 約 8.7mm 厚さ 約 5.0mm（剤形：腸溶性糖衣錠）"
+    }
+  ],
+  "expected_products": [
+    "ピリドキサール錠10mg「ツルハラ」"
+  ]
+}

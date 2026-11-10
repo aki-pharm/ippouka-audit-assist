@@ -1,0 +1,50 @@
+{
+  "id": "400186_4490025F3050_1_08",
+  "source_file": "400186_4490025F3050_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_4490025F3050_1_08",
+  "extracted_at": "2026-11-09T15:42:22.423Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13450,
+    "output": 2101
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩OD錠2.5mg「タカタ」",
+      "strength": "2.5mg",
+      "imprint_front": "TTS 375",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の裸錠 TTS-375 約6.1mm 約0.100g 約2.6mm"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩OD錠5mg「タカタ」",
+      "strength": "5mg",
+      "imprint_front": "TTS 376",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の裸錠 TTS-376 約8.1mm 約0.200g 約3.1mm"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩OD錠2.5mg「タカタ」",
+    "オロパタジン塩酸塩OD錠5mg「タカタ」"
+  ]
+}

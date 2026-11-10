@@ -1,0 +1,33 @@
+{
+  "id": "400042_3160002M2109_1_03",
+  "source_file": "400042_3160002M2109_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_3160002M2109_1_03",
+  "extracted_at": "2026-11-09T15:18:25.689Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13677,
+    "output": 1357
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メナテトレノンカプセル15mg「科研」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）：MT15。表裏の別は記載なし",
+      "color": "だいだい色",
+      "shape": "oval",
+      "size_long_mm": 8.9,
+      "size_short_mm": 6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "カプセル だいだい色の楕円球形 形状 長径 8.9mm 短径 6.0mm"
+    }
+  ],
+  "expected_products": [
+    "メナテトレノンカプセル15mg「科研」"
+  ]
+}

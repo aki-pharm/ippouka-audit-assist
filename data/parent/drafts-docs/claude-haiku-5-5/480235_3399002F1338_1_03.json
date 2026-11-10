@@ -1,0 +1,50 @@
+{
+  "id": "480235_3399002F1338_1_03",
+  "source_file": "480235_3399002F1338_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399002F1338_1_03",
+  "extracted_at": "2026-11-09T15:20:32.498Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24317,
+    "output": 1565
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾール錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw125",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 識別コード Tw125 外形 直径(mm) 7.0 厚さ(mm) 2.4"
+    },
+    {
+      "product_name": "シロスタゾール錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw126",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 識別コード Tw126 外形 直径(mm) 8.0 厚さ(mm) 2.9"
+    }
+  ],
+  "expected_products": [
+    "シロスタゾール錠100mg「トーワ」",
+    "シロスタゾール錠50mg「トーワ」"
+  ]
+}

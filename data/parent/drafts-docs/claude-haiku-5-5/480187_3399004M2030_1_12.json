@@ -1,0 +1,67 @@
+{
+  "id": "480187_3399004M2030_1_12",
+  "source_file": "480187_3399004M2030_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480187_3399004M2030_1_12",
+  "extracted_at": "2026-11-09T15:21:04.403Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15456,
+    "output": 1926
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル300mg「TC」",
+      "strength": "300mg",
+      "imprint_front": "37",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは分包に表示。カプセル本体への刻印の記載は確認できない",
+      "color": "微黄色透明",
+      "shape": "round",
+      "size_long_mm": 4,
+      "size_short_mm": 4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 微黄色透明・軟カプセル剤 外形 直径約4mmの球形 識別コード（分包に表示） 37"
+    },
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル600mg「TC」",
+      "strength": "600mg",
+      "imprint_front": "38",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは分包に表示。カプセル本体への刻印の記載は確認できない",
+      "color": "微黄色透明",
+      "shape": "round",
+      "size_long_mm": 4,
+      "size_short_mm": 4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 微黄色透明・軟カプセル剤 外形 直径約4mmの球形 識別コード（分包に表示） 38"
+    },
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル900mg「TC」",
+      "strength": "900mg",
+      "imprint_front": "39",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは分包に表示。カプセル本体への刻印の記載は確認できない",
+      "color": "微黄色透明",
+      "shape": "round",
+      "size_long_mm": 4,
+      "size_short_mm": 4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 微黄色透明・軟カプセル剤 外形 直径約4mmの球形 識別コード（分包に表示） 39"
+    }
+  ],
+  "expected_products": [
+    "イコサペント酸エチル粒状カプセル300mg「TC」",
+    "イコサペント酸エチル粒状カプセル600mg「TC」",
+    "イコサペント酸エチル粒状カプセル900mg「TC」"
+  ]
+}

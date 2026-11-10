@@ -1,0 +1,33 @@
+{
+  "id": "730869_2160004F2104_1_04",
+  "source_file": "730869_2160004F2104_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2160004F2104_1_04",
+  "extracted_at": "2026-11-09T14:43:39.282Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19945,
+    "output": 1170
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾルミトリプタンOD錠2.5mg「VTRS」",
+      "strength": "2.5mg",
+      "imprint_front": "KJ 25",
+      "imprint_back": "VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "識別コード KJ 25 VLE 色調等 白色 素錠 直径 6.5mm 厚さ 2.4mm 重量 100mg"
+    }
+  ],
+  "expected_products": [
+    "ゾルミトリプタンOD錠2.5mg「VTRS」"
+  ]
+}

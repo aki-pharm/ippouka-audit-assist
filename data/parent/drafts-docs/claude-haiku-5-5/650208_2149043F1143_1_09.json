@@ -1,0 +1,49 @@
+{
+  "id": "650208_2149043F1143_1_09",
+  "source_file": "650208_2149043F1143_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_2149043F1143_1_09",
+  "extracted_at": "2026-11-09T14:40:24.639Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23384,
+    "output": 1704
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アゼルニジピン錠8mg「BMD」",
+      "strength": "8mg",
+      "imprint_front": "BMD49",
+      "imprint_back": "8",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 7.1 9.1 厚さ（mm） 3.3 4.1 ... 色 調 淡黄白色 淡黄白色 剤 形 割線入りの素錠 割線入りの素錠 識別コード（PTP） BMD49 BMD50"
+    },
+    {
+      "product_name": "アゼルニジピン錠16mg「BMD」",
+      "strength": "16mg",
+      "imprint_front": "BMD50",
+      "imprint_back": "16",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 7.1 9.1 厚さ（mm） 3.3 4.1 ... 色 調 淡黄白色 淡黄白色 剤 形 割線入りの素錠 割線入りの素錠 識別コード（PTP） BMD49 BMD50"
+    }
+  ],
+  "expected_products": [
+    "アゼルニジピン錠8mg「BMD」"
+  ]
+}

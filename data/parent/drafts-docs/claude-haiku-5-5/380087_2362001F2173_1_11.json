@@ -1,0 +1,33 @@
+{
+  "id": "380087_2362001F2173_1_11",
+  "source_file": "380087_2362001F2173_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2362001F2173_1_11",
+  "extracted_at": "2026-11-09T15:08:22.988Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18082,
+    "output": 1548
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ウルソデオキシコール酸錠100mg「ZE」",
+      "strength": "100mg",
+      "imprint_front": "ZE11（表裏の別は記載なし）",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードZE11のみ記載。表裏の別・刻印位置は本文に記載なし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色・素錠（割線入り） 外形 規格 直径:8.1mm 厚み:2.7mm 重量:150mg 識別コード ZE11"
+    }
+  ],
+  "expected_products": [
+    "ウルソデオキシコール酸錠100mg「ZE」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "530113_3943001F1748_1_01",
+  "source_file": "530113_3943001F1748_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3943001F1748_1_01",
+  "extracted_at": "2026-11-09T15:23:39.412Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14958,
+    "output": 2613
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠50mg「NS」",
+      "strength": "50mg",
+      "imprint_front": "NS 343",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「50」の表示も見られるが、刻印の表裏の位置は未確認",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "性　状 白色～微黄白色の素錠 外形 大きさ 錠径： 6.5mm 錠厚： 3.0mm 識別コード NS 343"
+    },
+    {
+      "product_name": "アロプリノール錠100mg「NS」",
+      "strength": "100mg",
+      "imprint_front": "NS 349",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.2,
+      "score_line": null,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "性　状 白色の素錠 外形 大きさ 錠径： 9.0mm 錠厚： 4.2mm 識別コード NS 349"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「NS」",
+    "アロプリノール錠50mg「NS」"
+  ]
+}

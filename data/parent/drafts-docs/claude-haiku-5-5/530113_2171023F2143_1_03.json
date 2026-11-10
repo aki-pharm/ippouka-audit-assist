@@ -1,0 +1,33 @@
+{
+  "id": "530113_2171023F2143_1_03",
+  "source_file": "530113_2171023F2143_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2171023F2143_1_03",
+  "extracted_at": "2026-11-09T14:50:09.723Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14442,
+    "output": 1269
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "一硝酸イソソルビド錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "NS 264",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示のみ記載。表裏の別は本文に明記なし（外形図の表側に表示）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 白色の片面割線入りの素錠 外 形 大きさ 錠径：7.0mm、錠厚：2.3mm、重量：120mg 本体表示 NS 264"
+    }
+  ],
+  "expected_products": [
+    "一硝酸イソソルビド錠20mg「日新」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "100898_2456001F1345_2_30",
+  "source_file": "100898_2456001F1345_2_30.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/100898_2456001F1345_2_30",
+  "extracted_at": "2026-11-09T15:12:09.106Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23936,
+    "output": 1650
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレドニゾロン錠1mg（旭化成）",
+      "strength": "1mg",
+      "imprint_front": "265",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（識別コード 265）。裏面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の円形片面割線入りの素錠 大きさ 直径6.5mm、厚さ2.7mm 質量 90mg 識別コード 265"
+    },
+    {
+      "product_name": "プレドニゾロン錠5mg（旭化成）",
+      "strength": "5mg",
+      "imprint_front": "261",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（識別コード 261）。裏面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.7,
+      "size_short_mm": 7.7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の円形片面割線入りの素錠 大きさ 直径7.7mm、厚さ2.5mm 質量 150mg 識別コード 261"
+    }
+  ],
+  "expected_products": [
+    "プレドニゾロン錠1mg（旭化成）"
+  ]
+}

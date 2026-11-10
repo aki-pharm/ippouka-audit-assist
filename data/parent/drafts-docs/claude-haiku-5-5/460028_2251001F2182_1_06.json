@@ -1,0 +1,50 @@
+{
+  "id": "460028_2251001F2182_1_06",
+  "source_file": "460028_2251001F2182_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2251001F2182_1_06",
+  "extracted_at": "2026-11-09T15:00:22.986Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18531,
+    "output": 1980
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テオフィリン徐放錠100mg「ツルハラ」",
+      "strength": "100mg",
+      "imprint_front": "TSU 383",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印の面（表裏）の明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入り徐放錠 色調 白色（表面が不定形の斑点状を呈する） 大きさ 直径 約8.5mm 厚さ 約4.2mm 識別コード TSU 383"
+    },
+    {
+      "product_name": "テオフィリン徐放錠200mg「ツルハラ」",
+      "strength": "200mg",
+      "imprint_front": "CY 200",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印の面（表裏）の明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線入り徐放錠 色調 白色 大きさ 直径 約9.2mm 厚さ 約3.9mm 識別コード CY 200"
+    }
+  ],
+  "expected_products": [
+    "テオフィリン徐放錠100mg「ツルハラ」",
+    "テオフィリン徐放錠200mg「ツルハラ」"
+  ]
+}

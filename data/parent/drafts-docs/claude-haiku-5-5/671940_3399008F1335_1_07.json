@@ -1,0 +1,49 @@
+{
+  "id": "671940_3399008F1335_1_07",
+  "source_file": "671940_3399008F1335_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_3399008F1335_1_07",
+  "extracted_at": "2026-11-09T15:22:51.913Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32252,
+    "output": 2454
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「フェルゼン」",
+      "strength": "25mg",
+      "imprint_front": "クロピドグレル",
+      "imprint_back": "25 フェルゼン",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色のフィルムコーティング錠 ／ 直径 6.7mm 厚さ 3.7mm 質量 120mg ／ 識別コード クロピドグレル 25 フェルゼン"
+    },
+    {
+      "product_name": "クロピドグレル錠75mg「フェルゼン」",
+      "strength": "75mg",
+      "imprint_front": "クロピドグレル",
+      "imprint_back": "75 フェルゼン",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色のフィルムコーティング錠 ／ 直径 8.7mm 厚さ 4.9mm 質量 269mg ／ 識別コード クロピドグレル 75 フェルゼン"
+    }
+  ],
+  "expected_products": [
+    "クロピドグレル錠25mg「フェルゼン」"
+  ]
+}

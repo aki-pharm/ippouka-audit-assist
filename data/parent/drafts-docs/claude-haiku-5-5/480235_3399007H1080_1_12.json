@@ -1,0 +1,33 @@
+{
+  "id": "480235_3399007H1080_1_12",
+  "source_file": "480235_3399007H1080_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399007H1080_1_12",
+  "extracted_at": "2026-11-09T15:22:19.618Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25030,
+    "output": 1225
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アスピリン腸溶錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw206",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表に「Tw 206」と表示。裏面の刻印は文書に記載がない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.3,
+      "size_short_mm": 7.3,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード Tw206 外形 直径(mm) 7.3 厚さ(mm) 3.2 質量(mg) 139"
+    }
+  ],
+  "expected_products": [
+    "アスピリン腸溶錠100mg「トーワ」"
+  ]
+}

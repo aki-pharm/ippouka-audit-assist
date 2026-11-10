@@ -1,0 +1,33 @@
+{
+  "id": "300119_4490026F1184_1_03",
+  "source_file": "300119_4490026F1184_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_4490026F1184_1_03",
+  "extracted_at": "2026-11-09T15:44:30.160Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21667,
+    "output": 1649
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカストチュアブル錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW MTC",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「5」の表示があるが、表裏の別は文書に明記されていない",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 性状 うすい赤色 直径（mm） 9.5 厚さ（mm） 4.4 重量（mg） 約300 識別コード SW MTC"
+    }
+  ],
+  "expected_products": [
+    "モンテルカストチュアブル錠5mg「サワイ」"
+  ]
+}

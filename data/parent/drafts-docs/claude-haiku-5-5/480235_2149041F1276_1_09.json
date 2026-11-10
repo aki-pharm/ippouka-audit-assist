@@ -1,0 +1,82 @@
+{
+  "id": "480235_2149041F1276_1_09",
+  "source_file": "480235_2149041F1276_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149041F1276_1_09",
+  "extracted_at": "2026-11-09T14:38:06.115Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23381,
+    "output": 3103
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "TwV11",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入りのフィルムコーティング錠 識別コード TwV11 直径(mm) 5.6 厚さ(mm) 2.7"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "TwV13",
+      "imprint_back": "40",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 識別コード TwV13 直径(mm) 7.1 厚さ(mm) 2.9"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「トーワ」",
+      "strength": "80mg",
+      "imprint_front": "TwV15",
+      "imprint_back": "80",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 識別コード TwV15 直径(mm) 8.7 厚さ(mm) 3.8"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「トーワ」",
+      "strength": "160mg",
+      "imprint_front": "TwV17",
+      "imprint_back": "160",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 16,
+      "size_short_mm": 7.3,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の長楕円形をした割線入りのフィルムコーティング錠 識別コード TwV17 長径／短径(mm) 16.0／7.3 厚さ(mm) 4.4"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「トーワ」",
+    "バルサルタン錠40mg「トーワ」"
+  ]
+}

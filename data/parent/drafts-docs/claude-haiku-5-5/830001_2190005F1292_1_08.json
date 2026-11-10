@@ -1,0 +1,50 @@
+{
+  "id": "830001_2190005F1292_1_08",
+  "source_file": "830001_2190005F1292_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2190005F1292_1_08",
+  "extracted_at": "2026-11-09T14:56:50.915Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12651,
+    "output": 1978
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イフェンプロジル酒石酸塩錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "YD 161",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 / 直径 約7mm 厚さ 約3.2mm"
+    },
+    {
+      "product_name": "イフェンプロジル酒石酸塩錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "YD 846",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色のフィルムコーティング錠 / 直径 約8.1mm 厚さ 約4.3mm"
+    }
+  ],
+  "expected_products": [
+    "イフェンプロジル酒石酸塩錠10mg「YD」",
+    "イフェンプロジル酒石酸塩錠20mg「YD」"
+  ]
+}

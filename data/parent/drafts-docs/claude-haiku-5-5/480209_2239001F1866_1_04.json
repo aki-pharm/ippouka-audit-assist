@@ -1,0 +1,33 @@
+{
+  "id": "480209_2239001F1866_1_04",
+  "source_file": "480209_2239001F1866_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2239001F1866_1_04",
+  "extracted_at": "2026-11-09T15:00:05.398Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8650,
+    "output": 1094
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠15mg「杏林」",
+      "strength": "15mg",
+      "imprint_front": "PH214",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年6月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色 外形 直径(mm) 7.1 厚さ(mm) 2.2 質量(mg) 120 識別コード PH214"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「杏林」"
+  ]
+}

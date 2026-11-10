@@ -1,0 +1,33 @@
+{
+  "id": "480235_3321002F2447_1_03",
+  "source_file": "480235_3321002F2447_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3321002F2447_1_03",
+  "extracted_at": "2026-11-09T15:18:54.790Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8822,
+    "output": 1184
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルバゾクロムスルホン酸Na錠30mg「トーワ」",
+      "strength": "30mg",
+      "imprint_front": "TwON",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "橙黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年1月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 橙黄色の素錠 識別コード TwON 外形 表 裏 側面 直径(mm) 8.0 厚さ(mm) 3.1"
+    }
+  ],
+  "expected_products": [
+    "カルバゾクロムスルホン酸Na錠30mg「トーワ」"
+  ]
+}

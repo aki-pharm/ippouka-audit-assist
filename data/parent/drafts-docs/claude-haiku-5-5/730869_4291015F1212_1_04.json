@@ -1,0 +1,33 @@
+{
+  "id": "730869_4291015F1212_1_04",
+  "source_file": "730869_4291015F1212_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_4291015F1212_1_04",
+  "extracted_at": "2026-11-09T15:36:44.563Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22060,
+    "output": 1239
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レトロゾール錠2.5mg「VTRS」",
+      "strength": "2.5mg",
+      "imprint_front": "LT",
+      "imprint_back": "942",
+      "imprint_note": null,
+      "color": "暗黄色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "レトロゾール錠2.5mg「VTRS」 LT 942 暗黄色 フィルムコーティング錠 直径 6.2mm 厚さ 3.3mm 重量 104mg"
+    }
+  ],
+  "expected_products": [
+    "レトロゾール錠2.5mg「VTRS」"
+  ]
+}

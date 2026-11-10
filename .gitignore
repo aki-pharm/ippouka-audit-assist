@@ -30,3 +30,6 @@ npm-debug.log*
 
 # 親マスタ用の PMDA 一覧ページのキャッシュ（コミットしない）
 /captures/pmda-gl/
+
+# 施設の採用品リストなど、公開しないデータ
+/data/private/

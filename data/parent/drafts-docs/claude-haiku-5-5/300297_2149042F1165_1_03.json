@@ -1,0 +1,67 @@
+{
+  "id": "300297_2149042F1165_1_03",
+  "source_file": "300297_2149042F1165_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_2149042F1165_1_03",
+  "extracted_at": "2026-11-09T14:39:45.756Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21517,
+    "output": 2502
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「三和」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄色の素錠　直径 約6.0mm　厚さ 約2.5mm"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「三和」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄色の割線入り素錠　直径 約8.1mm　厚さ 約3.0mm"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「三和」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 5,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠　直径 約10.1mm　厚さ 約5.0mm"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「三和」",
+    "テルミサルタン錠40mg「三和」",
+    "テルミサルタン錠80mg「三和」"
+  ]
+}

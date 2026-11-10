@@ -1,0 +1,33 @@
+{
+  "id": "480235_3999018F2087_1_11",
+  "source_file": "480235_3999018F2087_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999018F2087_1_11",
+  "extracted_at": "2026-11-09T15:33:47.371Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20589,
+    "output": 998
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠35mg「トーワ」",
+      "strength": "35mg（アレンドロン酸として）",
+      "imprint_front": "Tw162",
+      "imprint_back": "35",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.3,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の楕円形の素錠"
+    }
+  ],
+  "expected_products": [
+    "アレンドロン酸錠35mg「トーワ」"
+  ]
+}

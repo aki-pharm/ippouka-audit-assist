@@ -1,0 +1,49 @@
+{
+  "id": "270029_3399008F1343_1_15",
+  "source_file": "270029_3399008F1343_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_3399008F1343_1_15",
+  "extracted_at": "2026-11-09T15:22:44.890Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32065,
+    "output": 1766
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「クニヒロ」",
+      "strength": "25mg",
+      "imprint_front": "クロピドグレル25 クニヒロ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 色調・性状 白色～微黄白色のフィルムコーティング錠 外形 直径 6.7mm 厚さ 3.7mm 識別表示 クロピドグレル25 クニヒロ"
+    },
+    {
+      "product_name": "クロピドグレル錠75mg「クニヒロ」",
+      "strength": "75mg",
+      "imprint_front": "クロピドグレル75 クニヒロ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 色調・性状 白色～微黄白色のフィルムコーティング錠 外形 直径 8.7mm 厚さ 4.9mm 識別表示 クロピドグレル75 クニヒロ"
+    }
+  ],
+  "expected_products": [
+    "クロピドグレル錠25mg「クニヒロ」"
+  ]
+}

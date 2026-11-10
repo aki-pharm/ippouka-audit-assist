@@ -1,0 +1,33 @@
+{
+  "id": "530169_3999026F2103_1_06",
+  "source_file": "530169_3999026F2103_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999026F2103_1_06",
+  "extracted_at": "2026-11-09T15:35:01.793Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19477,
+    "output": 1221
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミノドロン酸錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "ミノドロン 50 日医工",
+      "imprint_back": "ミノドロン 50 日医工",
+      "imprint_note": null,
+      "color": "ごくうすい赤色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形のフィルムコーティング錠 色調 ごくうすい赤色 直径（mm） 13.1×7 厚さ（mm） 4 本体表示 ミノドロン 50 日医工"
+    }
+  ],
+  "expected_products": [
+    "ミノドロン酸錠50mg「日医工」"
+  ]
+}

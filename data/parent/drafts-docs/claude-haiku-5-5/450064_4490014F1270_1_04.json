@@ -1,0 +1,50 @@
+{
+  "id": "450064_4490014F1270_1_04",
+  "source_file": "450064_4490014F1270_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_4490014F1270_1_04",
+  "extracted_at": "2026-11-09T15:38:33.374Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22397,
+    "output": 2051
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "ch63",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～微黄白色のフィルムコーティング錠 外形 大きさ 直径 6.0mm 8.0mm 厚さ 2.8mm 3.5mm 識別コード ch63 ch64"
+    },
+    {
+      "product_name": "エピナスチン塩酸塩錠20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "ch64",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～微黄白色のフィルムコーティング錠 外形 大きさ 直径 6.0mm 8.0mm 厚さ 2.8mm 3.5mm 識別コード ch63 ch64"
+    }
+  ],
+  "expected_products": [
+    "エピナスチン塩酸塩錠10mg「JG」",
+    "エピナスチン塩酸塩錠20mg「JG」"
+  ]
+}

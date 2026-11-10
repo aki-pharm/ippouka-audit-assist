@@ -1,0 +1,50 @@
+{
+  "id": "530100_3332001F1113_1_14",
+  "source_file": "530100_3332001F1113_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3332001F1113_1_14",
+  "extracted_at": "2026-11-09T15:19:23.850Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37096,
+    "output": 2284
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワルファリンK錠0.5mg「NP」",
+      "strength": "0.5mg",
+      "imprint_front": "HD-371",
+      "imprint_back": "未確認",
+      "imprint_note": "図に「0.5」の刻印が見えるが、表裏の対応は本文に記載なし",
+      "color": "桃色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "桃色の割線入り素錠 直径8.0mm 厚さ3.3mm 重量200mg 識別コード HD-371"
+    },
+    {
+      "product_name": "ワルファリンK錠1mg「NP」",
+      "strength": "1mg",
+      "imprint_front": "HD-372",
+      "imprint_back": "未確認",
+      "imprint_note": "図に「1」の刻印が見えるが、表裏の対応は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 直径8.0mm 厚さ3.3mm 重量200mg 識別コード HD-372"
+    }
+  ],
+  "expected_products": [
+    "ワルファリンK錠0.5mg「NP」",
+    "ワルファリンK錠1mg「NP」"
+  ]
+}

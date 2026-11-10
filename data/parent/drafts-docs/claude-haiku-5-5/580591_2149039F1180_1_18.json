@@ -1,0 +1,66 @@
+{
+  "id": "580591_2149039F1180_1_18",
+  "source_file": "580591_2149039F1180_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149039F1180_1_18",
+  "extracted_at": "2026-11-09T14:34:39.591Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24726,
+    "output": 1989
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠25mg「JG」",
+      "strength": "25mg",
+      "imprint_front": "JG E47",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りフィルムコーティング錠 JG E47 直径 5.6mm 厚さ 3.1mm 重量 78mg"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠50mg「JG」",
+      "strength": "50mg",
+      "imprint_front": "JG E48",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りフィルムコーティング錠 JG E48 直径 7.6mm 厚さ 3.5mm 重量 156mg"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠100mg「JG」",
+      "strength": "100mg",
+      "imprint_front": "JG E49",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 11.1,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "ティアドロップ形の白色のフィルムコーティング錠 JG E49 長径 11.1mm 短径 7.6mm 厚さ 4.5mm 重量 312mg"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンカリウム錠100mg「JG」",
+    "ロサルタンカリウム錠25mg「JG」"
+  ]
+}

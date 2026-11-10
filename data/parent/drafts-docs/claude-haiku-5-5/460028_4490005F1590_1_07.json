@@ -1,0 +1,33 @@
+{
+  "id": "460028_4490005F1590_1_07",
+  "source_file": "460028_4490005F1590_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_4490005F1590_1_07",
+  "extracted_at": "2026-11-09T15:38:24.712Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13925,
+    "output": 978
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキサトミド錠30mg「ツルハラ」",
+      "strength": "30mg",
+      "imprint_front": "KI4491",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 / 外形（図） / 大きさ 直径 約6.5mm 厚さ 約2.6mm / 識別コード KI4491"
+    }
+  ],
+  "expected_products": [
+    "オキサトミド錠30mg「ツルハラ」"
+  ]
+}

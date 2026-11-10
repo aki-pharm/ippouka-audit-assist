@@ -1,0 +1,50 @@
+{
+  "id": "460028_2171006F1380_1_03",
+  "source_file": "460028_2171006F1380_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2171006F1380_1_03",
+  "extracted_at": "2026-11-09T14:44:13.811Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20178,
+    "output": 1586
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジルチアゼム塩酸塩錠30mg「ツルハラ」",
+      "strength": "30mg",
+      "imprint_front": "TSU641",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 外形 大きさ 直径 約8.0mm 厚さ 約3.3mm 識別コード TSU641"
+    },
+    {
+      "product_name": "ジルチアゼム塩酸塩錠60mg「ツルハラ」",
+      "strength": "60mg",
+      "imprint_front": "TSU642",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 外形 大きさ 直径 約8.0mm 厚さ 約3.6mm 識別コード TSU642"
+    }
+  ],
+  "expected_products": [
+    "ジルチアゼム塩酸塩錠30mg「ツルハラ」",
+    "ジルチアゼム塩酸塩錠60mg「ツルハラ」"
+  ]
+}

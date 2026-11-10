@@ -1,0 +1,50 @@
+{
+  "id": "730869_4490019F3195_1_01",
+  "source_file": "730869_4490019F3195_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_4490019F3195_1_01",
+  "extracted_at": "2026-11-09T15:39:20.069Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14381,
+    "output": 1590
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エバスチンOD錠5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "EB5",
+      "imprint_back": "D VLE",
+      "imprint_note": null,
+      "color": "薄い紅色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "エバスチンOD錠5mg「VTRS」 EB5 D VLE 薄い紅色 直径 厚さ 重量 素錠 6.5mm 2.6mm 100mg"
+    },
+    {
+      "product_name": "エバスチンOD錠10mg「VTRS」",
+      "strength": "10mg",
+      "imprint_front": "EB10",
+      "imprint_back": "D VLE",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "エバスチンOD錠10mg「VTRS」 EB10 D VLE 白色 割線入り 直径 厚さ 重量 素錠 8.0mm 3.6mm 200mg"
+    }
+  ],
+  "expected_products": [
+    "エバスチンOD錠10mg「VTRS」",
+    "エバスチンOD錠5mg「VTRS」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "530169_2325003F1261_2_06",
+  "source_file": "530169_2325003F1261_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2325003F1261_2_06",
+  "extracted_at": "2026-11-09T15:02:46.141Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15422,
+    "output": 2293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "n 468",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は社名マーク（n）と本体コード468の組み合わせ。裏面は図の範囲で刻印なしに見えるが明記はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径（mm） 7.6 厚さ（mm） 3.7 本体コード 468"
+    },
+    {
+      "product_name": "ファモチジン錠20mg「日医工」",
+      "strength": "20mg",
+      "imprint_front": "n 469",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は社名マーク（n）と本体コード469の組み合わせ。裏面は図の範囲で刻印なしに見えるが明記はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径（mm） 8.1 厚さ（mm） 3.8 本体コード 469"
+    }
+  ],
+  "expected_products": [
+    "ファモチジン錠10mg「日医工」（旧製品）",
+    "ファモチジン錠20mg「日医工」（旧製品）"
+  ]
+}

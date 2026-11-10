@@ -1,0 +1,67 @@
+{
+  "id": "530169_2149042F1211_1_07",
+  "source_file": "530169_2149042F1211_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149042F1211_1_07",
+  "extracted_at": "2026-11-09T14:39:51.477Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21605,
+    "output": 2301
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「日医工」",
+      "strength": "20mg",
+      "imprint_front": "テルミサルタン 20 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色～微黄色 直径（mm） 6.1 厚さ（mm） 2.9"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「日医工」",
+      "strength": "40mg",
+      "imprint_front": "テルミサルタン 40 日医工",
+      "imprint_back": "テルミサルタン 40",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色～微黄色 直径（mm） 8.1 厚さ（mm） 3.4"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「日医工」",
+      "strength": "80mg",
+      "imprint_front": "テルミサルタン 80 日医工",
+      "imprint_back": "テルミサルタン 80",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 白色～微黄色 直径（mm） 10.1 厚さ（mm） 4.4"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「日医工」",
+    "テルミサルタン錠40mg「日医工」",
+    "テルミサルタン錠80mg「日医工」"
+  ]
+}

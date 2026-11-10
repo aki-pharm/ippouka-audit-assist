@@ -1,0 +1,49 @@
+{
+  "id": "710068_2318001F1241_1_02",
+  "source_file": "710068_2318001F1241_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/710068_2318001F1241_1_02",
+  "extracted_at": "2026-11-09T15:00:47.343Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10448,
+    "output": 2302
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジメチコン錠40mg「ホリイ」",
+      "strength": "40mg",
+      "imprint_front": "HR",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図には「HR」の表示。識別コードHR204はPTPシートの表記",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 白色 外形 表面 裏面 側面 直径 8.0ｍｍ 10.0ｍｍ 厚さ 3.9ｍｍ 5.0ｍｍ 質量 260ｍg 450ｍg 識別コード HR204（PTPシート） HR208（PTPシート）"
+    },
+    {
+      "product_name": "ジメチコン錠80mg「ホリイ」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表面・裏面の図に刻印の表示はなし。識別コードHR208はPTPシートの表記",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 白色 外形 表面 裏面 側面 直径 8.0ｍｍ 10.0ｍｍ 厚さ 3.9ｍｍ 5.0ｍｍ 質量 260ｍg 450ｍg 識別コード HR204（PTPシート） HR208（PTPシート）"
+    }
+  ],
+  "expected_products": [
+    "ジメチコン錠40mg「ホリイ」"
+  ]
+}

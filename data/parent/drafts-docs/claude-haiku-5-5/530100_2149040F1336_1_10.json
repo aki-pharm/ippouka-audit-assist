@@ -1,0 +1,84 @@
+{
+  "id": "530100_2149040F1336_1_10",
+  "source_file": "530100_2149040F1336_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2149040F1336_1_10",
+  "extracted_at": "2026-11-09T14:36:30.064Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33934,
+    "output": 3298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カンデサルタン錠 2mg「ニプロ」",
+      "strength": "2mg",
+      "imprint_front": "NP-341",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色〜帯黄白色の素錠 7.0 2.7 130 NP-341"
+    },
+    {
+      "product_name": "カンデサルタン錠 4mg「ニプロ」",
+      "strength": "4mg",
+      "imprint_front": "NP-342",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色〜帯黄白色の割線入り素錠 7.0 2.7 130 NP-342"
+    },
+    {
+      "product_name": "カンデサルタン錠 8mg「ニプロ」",
+      "strength": "8mg",
+      "imprint_front": "NP-343",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ごくうすいだいだい色の割線入り素錠 7.0 2.7 130 NP-343"
+    },
+    {
+      "product_name": "カンデサルタン錠 12mg「ニプロ」",
+      "strength": "12mg",
+      "imprint_front": "NP-345",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "うすいだいだい色の割線入り素錠 7.0 2.7 130 NP-345"
+    }
+  ],
+  "expected_products": [
+    "カンデサルタン錠12mg「ニプロ」",
+    "カンデサルタン錠2mg「ニプロ」",
+    "カンデサルタン錠4mg「ニプロ」",
+    "カンデサルタン錠8mg「ニプロ」"
+  ]
+}

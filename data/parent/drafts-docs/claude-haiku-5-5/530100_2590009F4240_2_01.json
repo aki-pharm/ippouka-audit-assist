@@ -1,0 +1,67 @@
+{
+  "id": "530100_2590009F4240_2_01",
+  "source_file": "530100_2590009F4240_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2590009F4240_2_01",
+  "extracted_at": "2026-11-09T15:15:05.149Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16098,
+    "output": 1697
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジル OD 錠 25mg「ニプロ」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載なし。図の刻印は判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠（口腔内崩壊錠） 7.0 2.0 100"
+    },
+    {
+      "product_name": "ナフトピジル OD 錠 50mg「ニプロ」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載なし。図の刻印は判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠（口腔内崩壊錠） 9.0 2.5 200"
+    },
+    {
+      "product_name": "ナフトピジル OD 錠 75mg「ニプロ」",
+      "strength": "75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載なし。図の刻印は判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠（口腔内崩壊錠） 10.0 3.2 300"
+    }
+  ],
+  "expected_products": [
+    "ナフトピジルOD錠25mg「ニプロ」",
+    "ナフトピジルOD錠50mg「ニプロ」",
+    "ナフトピジルOD錠75mg「ニプロ」"
+  ]
+}

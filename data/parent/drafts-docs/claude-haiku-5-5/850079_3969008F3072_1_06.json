@@ -1,0 +1,49 @@
+{
+  "id": "850079_3969008F3072_1_06",
+  "source_file": "850079_3969008F3072_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/850079_3969008F3072_1_06",
+  "extracted_at": "2026-11-09T15:31:59.560Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28772,
+    "output": 2623
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ミチグリニド Ca・OD 錠 5mg「フソー」",
+      "strength": "5mg",
+      "imprint_front": "Mt5",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に記載なし（図では無刻印に見える）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠 外形 規格 直径 厚さ 重量 6.0mm 2.4mm 75mg 識別コード Mt5"
+    },
+    {
+      "product_name": "ミチグリニド Ca・OD 錠 10mg「フソー」",
+      "strength": "10mg",
+      "imprint_front": "Mt10",
+      "imprint_back": "未確認",
+      "imprint_note": "片面に1/2割線入り（どちら面かは本文に記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面 1／2 割線入りの素錠 外形 規格 直径 厚さ 重量 8.1mm 3.0mm 150mg 識別コード Mt10"
+    }
+  ],
+  "expected_products": [
+    "ミチグリニドCa・OD錠5mg「フソー」"
+  ]
+}

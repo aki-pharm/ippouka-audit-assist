@@ -1,0 +1,50 @@
+{
+  "id": "530258_2325003F3175_3_02",
+  "source_file": "530258_2325003F3175_3_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2325003F3175_3_02",
+  "extracted_at": "2026-11-09T15:01:14.323Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20012,
+    "output": 2199
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジンD錠10mg「EMEC」",
+      "strength": "10mg",
+      "imprint_front": "EE24",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は識別コードEE24（3.2の識別コード欄）。裏面の刻印は画像から判読できないため未確認",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の割線入りの口腔内崩壊錠 直径8.0mm 厚さ3.2mm 識別コード EE24"
+    },
+    {
+      "product_name": "ファモチジンD錠20mg「EMEC」",
+      "strength": "20mg",
+      "imprint_front": "EE25",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は識別コードEE25（3.2の識別コード欄）。裏面の刻印は画像から判読できないため未確認",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の割線入りの口腔内崩壊錠 直径8.5mm 厚さ3.5mm 識別コード EE25"
+    }
+  ],
+  "expected_products": [
+    "ファモチジンD錠10mg「EMEC」",
+    "ファモチジンD錠20mg「EMEC」"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "830001_2189017F1081_1_09",
+  "source_file": "830001_2189017F1081_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2189017F1081_1_09",
+  "extracted_at": "2026-11-09T14:55:22.058Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37745,
+    "output": 4030
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠2.5mg「YD」",
+      "strength": "2.5mg",
+      "imprint_front": "YD 2.5",
+      "imprint_back": "YD 2.5",
+      "imprint_note": "外形図の表示から読み取り。判読は要確認",
+      "color": "うすい赤みの黄色からくすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすい赤みの黄色からくすんだ赤みの黄色のフィルムコーティング錠 外形 直径 約6.1mm 厚さ 約2.7mm 重量 84mg"
+    },
+    {
+      "product_name": "ロスバスタチン錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD 5",
+      "imprint_back": "YD 5",
+      "imprint_note": "外形図の表示から読み取り。判読は要確認",
+      "color": "うすい赤みの黄色からくすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすい赤みの黄色からくすんだ赤みの黄色のフィルムコーティング錠 外形 直径 約7.1mm 厚さ 約3.9mm 重量 166mg"
+    },
+    {
+      "product_name": "ロスバスタチンOD錠2.5mg「YD」",
+      "strength": "2.5mg",
+      "imprint_front": "YD OD2.5",
+      "imprint_back": "YD OD2.5",
+      "imprint_note": "外形図の表示から読み取り。判読は要確認",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすい黄色のフィルムコーティング錠 外形 直径 約5.6mm 厚さ 約3.1mm 重量 78mg"
+    },
+    {
+      "product_name": "ロスバスタチンOD錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD OD5",
+      "imprint_back": "YD OD5",
+      "imprint_note": "外形図の表示から読み取り。判読は要確認",
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすい黄色のフィルムコーティング錠 外形 直径 約7.2mm 厚さ 約3.6mm 重量 154mg"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチンOD錠2.5mg「YD」",
+    "ロスバスタチン錠2.5mg「YD」",
+    "ロスバスタチン錠5mg「YD」"
+  ]
+}

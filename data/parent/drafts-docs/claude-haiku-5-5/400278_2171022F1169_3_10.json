@@ -1,0 +1,50 @@
+{
+  "id": "400278_2171022F1169_3_10",
+  "source_file": "400278_2171022F1169_3_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2171022F1169_3_10",
+  "extracted_at": "2026-11-09T14:49:15.852Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19079,
+    "output": 2680
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠2.5mg「TCK」",
+      "strength": "2.5mg",
+      "imprint_front": "TU 211",
+      "imprint_back": "2.5",
+      "imprint_note": "裏面の「2.5」は外形図の表示から読み取り（表面の識別コードはTU 211）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色フィルム コーティング錠 TU 211 6.1 3.0 104"
+    },
+    {
+      "product_name": "アムロジピン錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "TU 212",
+      "imprint_back": "5",
+      "imprint_note": "裏面の「5」は外形図の表示から読み取り（表面の識別コードはTU 212）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色フィルム コーティング錠（割線入り） TU 212 8.1 3.6 207"
+    }
+  ],
+  "expected_products": [
+    "アムロジピン錠2.5mg「TCK」",
+    "アムロジピン錠5mg「TCK」"
+  ]
+}

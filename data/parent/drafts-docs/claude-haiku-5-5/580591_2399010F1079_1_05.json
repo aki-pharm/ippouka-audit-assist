@@ -1,0 +1,50 @@
+{
+  "id": "580591_2399010F1079_1_05",
+  "source_file": "580591_2399010F1079_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2399010F1079_1_05",
+  "extracted_at": "2026-11-09T15:09:49.187Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14248,
+    "output": 1623
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "JG E37",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 表面 裏面 側面 JG E37 直径 6.1mm 厚さ 2.6mm 重量 78mg"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠 5 mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "JG E38",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 表面 裏面 側面 JG E38 長径 9.1mm 短径 4.6mm 厚さ 3.6mm 重量 155mg"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「JG」",
+    "モサプリドクエン酸塩錠5mg「JG」"
+  ]
+}

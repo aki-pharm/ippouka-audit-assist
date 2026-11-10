@@ -1,0 +1,50 @@
+{
+  "id": "480235_4490025F3140_1_05",
+  "source_file": "480235_4490025F3140_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490025F3140_1_05",
+  "extracted_at": "2026-11-09T15:42:33.790Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21052,
+    "output": 2492
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩OD錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "オロパタジン OD 2.5 トーワ",
+      "imprint_back": "オロパタジン OD 2.5 トーワ",
+      "imprint_note": "本体表示欄で2.5mgは表・裏が区別されず一欄に記載されている",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄色の口腔内崩壊錠 / 外形 直径(mm) 6.0 厚さ(mm) 3.0"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩OD錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "オロパタ 5",
+      "imprint_back": "オロパタジン OD 5 トーワ",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "ごくうすい黄色の割線入りの口腔内崩壊錠 / 外形 直径(mm) 8.0 厚さ(mm) 3.5"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩OD錠2.5mg「トーワ」",
+    "オロパタジン塩酸塩OD錠5mg「トーワ」"
+  ]
+}

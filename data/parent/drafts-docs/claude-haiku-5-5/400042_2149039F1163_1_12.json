@@ -1,0 +1,66 @@
+{
+  "id": "400042_2149039F1163_1_12",
+  "source_file": "400042_2149039F1163_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400042_2149039F1163_1_12",
+  "extracted_at": "2026-11-09T14:34:42.302Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23798,
+    "output": 3599
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠25mg「DK」",
+      "strength": "25mg",
+      "imprint_front": "LN L",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・色：白色の片面1/2割線入りのフィルムコーティング錠／外形 直径 5.6mm、厚さ 3.0mm、識別コード LN L"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠50mg「DK」",
+      "strength": "50mg",
+      "imprint_front": "LN M",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・色：白色のフィルムコーティング錠／外形 直径 7.1mm、厚さ 3.3mm、識別コード LN M"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠100mg「DK」",
+      "strength": "100mg",
+      "imprint_front": "LN H",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13.1,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形・色：白色のフィルムコーティング錠／外形 長径 13.1mm、短径 6.6mm、厚さ 4.0mm、識別コード LN H"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンカリウム錠100mg「DK」",
+    "ロサルタンカリウム錠25mg「DK」"
+  ]
+}

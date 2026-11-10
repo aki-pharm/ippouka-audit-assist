@@ -1,0 +1,65 @@
+{
+  "id": "830001_2189011F1246_1_18",
+  "source_file": "830001_2189011F1246_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2189011F1246_1_18",
+  "extracted_at": "2026-11-09T14:51:24.338Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20053,
+    "output": 1758
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD 076",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の片面割線入り素錠 外形 直径 約6mm 厚さ 約2.7mm"
+    },
+    {
+      "product_name": "シンバスタチン錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "YD 603",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 外形 直径 約8mm 厚さ 約3.1mm"
+    },
+    {
+      "product_name": "シンバスタチン錠20mg「YD」",
+      "strength": "20mg",
+      "imprint_front": "YD 604",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 4.3,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 外形 直径 約11mm 厚さ 約4.3mm"
+    }
+  ],
+  "expected_products": [
+    "シンバスタチン錠10mg「YD」"
+  ]
+}

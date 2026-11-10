@@ -1,0 +1,33 @@
+{
+  "id": "530169_3999019F3053_1_08",
+  "source_file": "530169_3999019F3053_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3999019F3053_1_08",
+  "extracted_at": "2026-11-09T15:34:53.337Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17488,
+    "output": 1282
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠75mg「日医工」",
+      "strength": "75mg",
+      "imprint_front": "リセドロン 日医工75",
+      "imprint_back": "リセドロン 日医工75",
+      "imprint_note": "本体表示：リセドロン75 日医工",
+      "color": "微黄色",
+      "shape": "oval",
+      "size_long_mm": 10.2,
+      "size_short_mm": 5.2,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形のフィルムコーティング錠 色調 微黄色 表面 リセドロン 日医工75 裏面 リセドロン 日医工75 直径（mm） 10.2×5.2 厚さ（mm） 3.7"
+    }
+  ],
+  "expected_products": [
+    "リセドロン酸Na錠75mg「日医工」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "130202_4490020F2183_1_18",
+  "source_file": "130202_4490020F2183_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130202_4490020F2183_1_18",
+  "extracted_at": "2026-11-09T15:40:24.859Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18002,
+    "output": 1570
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セチリジン塩酸塩錠10mg「イワキ」",
+      "strength": "10mg",
+      "imprint_front": "IW 03",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 白色のフィルムコーティング錠 外形 識別コード（PTP） CT10 識別コード（錠剤） IW 03"
+    }
+  ],
+  "expected_products": [
+    "セチリジン塩酸塩錠10mg「イワキ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "480209_4490025F1155_1_11",
+  "source_file": "480209_4490025F1155_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_4490025F1155_1_11",
+  "extracted_at": "2026-11-09T15:44:04.437Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20690,
+    "output": 2453
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "KRM146",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は添付文書に記載がなく、図では判別できないため未確認",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入り 色調 淡黄赤色 直径(mm) 6.1 厚さ(mm) 2.7 識別コード KRM146"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "KRM147",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡黄赤色 直径(mm) 7.1 厚さ(mm) 2.8 識別コード KRM147"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「杏林」",
+    "オロパタジン塩酸塩錠5mg「杏林」"
+  ]
+}

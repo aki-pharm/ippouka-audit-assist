@@ -1,0 +1,33 @@
+{
+  "id": "480235_3399004M1409_1_07",
+  "source_file": "480235_3399004M1409_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399004M1409_1_07",
+  "extracted_at": "2026-11-09T15:20:55.247Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14930,
+    "output": 1463
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イコサペント酸エチルカプセル300mg「トーワ」",
+      "strength": "300mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 12.8,
+      "size_short_mm": 8.1,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の透明なオーバル形の軟カプセル剤で、内容物は無色～微黄色澄明の液で、わずかに特異なにおいがある。"
+    }
+  ],
+  "expected_products": [
+    "イコサペント酸エチルカプセル300mg「トーワ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "430773_2139008F1072_1_03",
+  "source_file": "430773_2139008F1072_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2139008F1072_1_03",
+  "extracted_at": "2026-11-09T14:27:24.942Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15947,
+    "output": 1404
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アゾセミド錠30mg「DSEP」",
+      "strength": "30mg",
+      "imprint_front": "30 EP",
+      "imprint_back": "アゾセミ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.2,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠（だ円・割線入）白色 30 EP 10.2（長径）アゾセミ 4.6（短径）3.0 130"
+    },
+    {
+      "product_name": "アゾセミド錠60mg「DSEP」",
+      "strength": "60mg",
+      "imprint_front": "60 EP",
+      "imprint_back": "アゾセミ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "oval",
+      "size_long_mm": 11.8,
+      "size_short_mm": 5.3,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2022年12月改訂",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠（だ円・割線入）淡黄色 60 EP 11.8（長径）アゾセミ 5.3（短径）3.5 190"
+    }
+  ],
+  "expected_products": [
+    "アゾセミド錠30mg「DSEP」",
+    "アゾセミド錠60mg「DSEP」"
+  ]
+}

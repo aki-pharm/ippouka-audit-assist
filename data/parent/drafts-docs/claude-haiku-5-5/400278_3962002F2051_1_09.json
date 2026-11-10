@@ -1,0 +1,50 @@
+{
+  "id": "400278_3962002F2051_1_09",
+  "source_file": "400278_3962002F2051_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_3962002F2051_1_09",
+  "extracted_at": "2026-11-09T15:28:49.489Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32279,
+    "output": 2970
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトホルミン塩酸塩錠250mgMT「TCK」",
+      "strength": "250mg",
+      "imprint_front": "TU 334",
+      "imprint_back": "250",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "販売名 メトホルミン塩酸塩錠250mgMT「TCK」 色調 白色 剤形 フィルムコーティング錠(割線入り) 識別コード TU 334 直径9.1mm 厚さ4.3mm 重量272mg"
+    },
+    {
+      "product_name": "メトホルミン塩酸塩錠500mgMT「TCK」",
+      "strength": "500mg",
+      "imprint_front": "TU 335",
+      "imprint_back": "500",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.6,
+      "size_short_mm": 7.1,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "販売名 メトホルミン塩酸塩錠500mgMT「TCK」 色調 白色 剤形 フィルムコーティング錠(割線入り) 識別コード TU 335 長径15.6mm 短径7.1mm 厚さ5.7mm 重量541mg"
+    }
+  ],
+  "expected_products": [
+    "メトホルミン塩酸塩錠250mgMT「TCK」",
+    "メトホルミン塩酸塩錠500mgMT「TCK」"
+  ]
+}

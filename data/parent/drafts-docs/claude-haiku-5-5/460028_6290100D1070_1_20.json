@@ -1,0 +1,33 @@
+{
+  "id": "460028_6290100D1070_1_20",
+  "source_file": "460028_6290100D1070_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_6290100D1070_1_20",
+  "extracted_at": "2026-11-09T15:49:23.359Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19673,
+    "output": 1467
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ダイフェン配合錠（1錠中 スルファメトキサゾール400mg・トリメトプリム80mg）",
+      "strength": "1錠中 スルファメトキサゾール400mg・トリメトプリム80mg",
+      "imprint_front": "TSU 341",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11,
+      "size_short_mm": 11,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2026年6月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 白色の割線を有する素錠 ／ 大きさ 直径 約11.0、厚さ 約5.1 ／ 識別コード TSU 341"
+    }
+  ],
+  "expected_products": [
+    "ダイフェン配合錠"
+  ]
+}

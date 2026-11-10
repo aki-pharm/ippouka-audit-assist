@@ -1,0 +1,50 @@
+{
+  "id": "530191_4229101M1050_1_16",
+  "source_file": "530191_4229101M1050_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4229101M1050_1_16",
+  "extracted_at": "2026-11-09T15:35:36.757Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 38754,
+    "output": 4591
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エヌケーエスワン配合カプセルT20",
+      "strength": "20mg",
+      "imprint_front": "NKS-1 20mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏の別は文書に明記なし",
+      "color": "胴部白色、頭部白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 5.2,
+      "size_short_mm": 5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "胴部白色、頭部白色不透明の硬カプセル剤であり、内容物は白色の粒を含む粉末。大きさ：全長14.5mm、長径5.2mm、短径5.0mm、質量約179mg、識別コード NKS-1 20mg"
+    },
+    {
+      "product_name": "エヌケーエスワン配合カプセルT25",
+      "strength": "25mg",
+      "imprint_front": "NKS-1 25mg",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏の別は文書に明記なし",
+      "color": "胴部白色、頭部だいだい色不透明",
+      "shape": "oblong",
+      "size_long_mm": 5.2,
+      "size_short_mm": 5,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年4月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "頭部だいだい色不透明、胴部白色不透明の硬カプセル剤であり、内容物は白色の粒を含む粉末。大きさ：全長14.5mm、長径5.2mm、短径5.0mm、質量約214mg、識別コード NKS-1 25mg"
+    }
+  ],
+  "expected_products": [
+    "エヌケーエスワン配合カプセルT20",
+    "エヌケーエスワン配合カプセルT25"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "650208_3112004M1210_2_06",
+  "source_file": "650208_3112004M1210_2_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_3112004M1210_2_06",
+  "extracted_at": "2026-11-09T15:17:01.110Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16177,
+    "output": 1641
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルシトリオールカプセル0.25μg「BMD」",
+      "strength": "0.25μg",
+      "imprint_front": "BMD1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）欄の表記を刻印として記載。カプセル表面の刻印の記載は確認できず",
+      "color": "淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": 10,
+      "size_short_mm": 6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "長径（mm） 約10 短径（mm） 約 6 重量（mg） 約190 色・剤形 淡黄白色の軟カプセル 識別コード（PTP） BMD1"
+    },
+    {
+      "product_name": "カルシトリオールカプセル0.5μg「BMD」",
+      "strength": "0.5μg",
+      "imprint_front": "BMD2",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）欄の表記を刻印として記載。カプセル表面の刻印の記載は確認できず",
+      "color": "淡紅色",
+      "shape": "oblong",
+      "size_long_mm": 10,
+      "size_short_mm": 6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "長径（mm） 約10 短径（mm） 約 6 重量（mg） 約190 色・剤形 淡紅色の軟カプセル 識別コード（PTP） BMD2"
+    }
+  ],
+  "expected_products": [
+    "カルシトリオールカプセル0.25μg「BMD」",
+    "カルシトリオールカプセル0.5μg「BMD」"
+  ]
+}

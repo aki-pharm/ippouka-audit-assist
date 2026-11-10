@@ -1,0 +1,84 @@
+{
+  "id": "480209_4490019F1184_1_04",
+  "source_file": "480209_4490019F1184_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_4490019F1184_1_04",
+  "extracted_at": "2026-11-09T15:39:59.434Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18578,
+    "output": 4352
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エバスチン錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "KRM283",
+      "imprint_back": "未確認",
+      "imprint_note": "図に「5」の表示あり（表裏の別は未確認）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2025年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径(mm) 6.6 厚さ(mm) 3.2 質量(mg) 108 識別コード KRM283"
+    },
+    {
+      "product_name": "エバスチン錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "KRM284",
+      "imprint_back": "未確認",
+      "imprint_note": "図に「10」の表示あり（表裏の別は未確認）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 楕円形 割線入り フィルムコーティング錠 色調 白色 長径：10.1 短径：5.1 厚さ(mm) 3.2 質量(mg) 144 識別コード KRM284"
+    },
+    {
+      "product_name": "エバスチンOD錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "KRM285",
+      "imprint_back": "未確認",
+      "imprint_note": "図に「OD5」の表示あり（表裏の別は未確認）",
+      "color": "薄い紅色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2025年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 薄い紅色 直径(mm) 6.5 厚さ(mm) 2.6 質量(mg) 100 識別コード KRM285"
+    },
+    {
+      "product_name": "エバスチンOD錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "KRM286",
+      "imprint_back": "未確認",
+      "imprint_note": "図に別の刻印があるが判読困難（表裏未確認）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色 直径(mm) 8.0 厚さ(mm) 3.6 質量(mg) 200 識別コード KRM286"
+    }
+  ],
+  "expected_products": [
+    "エバスチンOD錠10mg「杏林」",
+    "エバスチンOD錠5mg「杏林」",
+    "エバスチン錠10mg「杏林」",
+    "エバスチン錠5mg「杏林」"
+  ]
+}

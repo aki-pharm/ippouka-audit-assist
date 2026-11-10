@@ -1,0 +1,50 @@
+{
+  "id": "780009_4291011F1109_1_14",
+  "source_file": "780009_4291011F1109_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_4291011F1109_1_14",
+  "extracted_at": "2026-11-09T15:36:09.414Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30173,
+    "output": 2293
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イマチニブ錠100mg「明治」",
+      "strength": "100mg",
+      "imprint_front": "MS 060",
+      "imprint_back": "100",
+      "imprint_note": "表裏とも図からの読み取り。裏面の図形部分（社名マーク様の可能性）は読み取り不確実",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 剤形 色 外形 イマチニブ錠100mg「明治」 割線入りフィルムコーティング錠 くすんだ黄赤色～濃い黄赤色 直径（mm）8.2 厚さ（mm）4.7 重量（mg）210"
+    },
+    {
+      "product_name": "イマチニブ錠200mg「明治」",
+      "strength": "200mg",
+      "imprint_front": "MS 061",
+      "imprint_back": "200",
+      "imprint_note": "表裏とも図からの読み取り",
+      "color": "くすんだ黄赤色～濃い黄赤色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 6,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 剤形 色 外形 イマチニブ錠200mg「明治」 割線入りフィルムコーティング錠 くすんだ黄赤色～濃い黄赤色 直径（mm）10.1 厚さ（mm）6.0 重量（mg）415"
+    }
+  ],
+  "expected_products": [
+    "イマチニブ錠100mg「明治」",
+    "イマチニブ錠200mg「明治」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "480209_1190017F1134_1_09",
+  "source_file": "480209_1190017F1134_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_1190017F1134_1_09",
+  "extracted_at": "2026-11-09T15:51:16.358Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 43639,
+    "output": 2041
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレガバリンOD錠25mg「杏林」",
+      "strength": "25mg",
+      "imprint_front": "プレガバリン OD 25 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 本体表示 プレガバリン OD 25 杏林 直径(mm) 6.5 厚さ(mm) 3.4 質量(mg) 100"
+    },
+    {
+      "product_name": "プレガバリンOD錠75mg「杏林」",
+      "strength": "75mg",
+      "imprint_front": "プレガバリン OD 75 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 本体表示 プレガバリン OD 75 杏林 直径(mm) 8.0 厚さ(mm) 4.6 質量(mg) 210"
+    },
+    {
+      "product_name": "プレガバリンOD錠150mg「杏林」",
+      "strength": "150mg",
+      "imprint_front": "プレガバリン OD 150 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2026年11月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 本体表示 プレガバリン OD 150 杏林 直径(mm) 10.5 厚さ(mm) 5.7 質量(mg) 420"
+    }
+  ],
+  "expected_products": [
+    "プレガバリンOD錠150mg「杏林」",
+    "プレガバリンOD錠25mg「杏林」",
+    "プレガバリンOD錠75mg「杏林」"
+  ]
+}

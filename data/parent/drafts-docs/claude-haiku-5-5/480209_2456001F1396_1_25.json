@@ -1,0 +1,33 @@
+{
+  "id": "480209_2456001F1396_1_25",
+  "source_file": "480209_2456001F1396_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2456001F1396_1_25",
+  "extracted_at": "2026-11-09T15:12:20.584Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23657,
+    "output": 1224
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレドニゾロン錠5mg「ミタ」",
+      "strength": "5mg",
+      "imprint_front": "PH209",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は添付文書に明記なし。表面の識別コードはPH209",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色 外形 直径(mm) 7.1 厚さ(mm) 3.4 質量(mg) 150 識別コード PH209"
+    }
+  ],
+  "expected_products": [
+    "プレドニゾロン錠5mg「ミタ」"
+  ]
+}

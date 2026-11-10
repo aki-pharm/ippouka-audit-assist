@@ -1,0 +1,67 @@
+{
+  "id": "180095_3961008F1160_1_13",
+  "source_file": "180095_3961008F1160_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_3961008F1160_1_13",
+  "extracted_at": "2026-11-09T15:27:41.083Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22258,
+    "output": 2512
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「オーハラ」",
+      "strength": "0.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄の記載は「グリメピリド0.5　オーハラ」。刻印面（表・裏）の明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.5,
+      "size_short_mm": 4.5,
+      "thickness_mm": 1.8,
+      "score_line": false,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色・素錠 大きさ 直径：4.5mm 厚さ：1.8mm 識別表示 グリメピリド 0.5 オーハラ"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「オーハラ」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄の記載は「グリメピリド1　オーハラ」。刻印面（表・裏）の明記なし",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡紅色 割線入りの素錠 大きさ 直径：6.0mm 厚さ：2.1mm 識別表示 グリメピリド 1 オーハラ"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「オーハラ」",
+      "strength": "3mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄の記載は「グリメピリド3　オーハラ」。刻印面（表・裏）の明記なし",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 微黄白色 割線入りの素錠 大きさ 直径：8.0mm 厚さ：2.4mm 識別表示 グリメピリド 3 オーハラ"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「オーハラ」",
+    "グリメピリド錠1mg「オーハラ」",
+    "グリメピリド錠3mg「オーハラ」"
+  ]
+}

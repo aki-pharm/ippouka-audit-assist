@@ -1,0 +1,33 @@
+{
+  "id": "450064_2133001F1620_1_09",
+  "source_file": "450064_2133001F1620_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2133001F1620_1_09",
+  "extracted_at": "2026-11-09T14:26:40.507Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13498,
+    "output": 1310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スピロノラクトン錠25mg「CH」",
+      "strength": "25mg",
+      "imprint_front": "ch122",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコート錠 外形 大きさ 直径 6.1mm 厚さ 3.2mm 識別コード ch122"
+    }
+  ],
+  "expected_products": [
+    "スピロノラクトン錠25mg「CH」"
+  ]
+}

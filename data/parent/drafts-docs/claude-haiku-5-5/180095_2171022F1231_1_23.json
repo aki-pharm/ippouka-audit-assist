@@ -1,0 +1,67 @@
+{
+  "id": "180095_2171022F1231_1_23",
+  "source_file": "180095_2171022F1231_1_23.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2171022F1231_1_23",
+  "extracted_at": "2026-11-09T14:48:54.464Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19816,
+    "output": 2500
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠2.5mg「オーハラ」",
+      "strength": "2.5mg",
+      "imprint_front": "アムロジピン2.5 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄の記載を表面の刻印として記入。裏面の刻印は本文から確認できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色 フィルムコーティング錠／大きさ 直径：6.1mm、厚さ：2.8mm／識別表示 アムロジピン2.5 オーハラ"
+    },
+    {
+      "product_name": "アムロジピン錠5mg「オーハラ」",
+      "strength": "5mg",
+      "imprint_front": "アムロジピン5 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄の記載を表面の刻印として記入。裏面の刻印は本文から確認できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色 割線入りフィルムコーティング錠／大きさ 直径：8.1mm 厚さ：3.4mm／識別表示 アムロジピン5 オーハラ"
+    },
+    {
+      "product_name": "アムロジピン錠10mg「オーハラ」",
+      "strength": "10mg",
+      "imprint_front": "アムロジピン10 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄の記載を表面の刻印として記入。裏面の刻印は本文から確認できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色 割線入りフィルムコーティング錠／大きさ 直径：8.6mm 厚さ：4.1mm／識別表示 アムロジピン10 オーハラ"
+    }
+  ],
+  "expected_products": [
+    "アムロジピン錠10mg「オーハラ」",
+    "アムロジピン錠2.5mg「オーハラ」",
+    "アムロジピン錠5mg「オーハラ」"
+  ]
+}

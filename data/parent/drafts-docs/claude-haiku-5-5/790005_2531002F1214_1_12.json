@@ -1,0 +1,33 @@
+{
+  "id": "790005_2531002F1214_1_12",
+  "source_file": "790005_2531002F1214_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_2531002F1214_1_12",
+  "extracted_at": "2026-11-09T15:13:32.124Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 11685,
+    "output": 1662
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パルタンM錠0.125mg",
+      "strength": "0.125mg",
+      "imprint_front": "MO25A",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "青色",
+      "shape": "round",
+      "size_long_mm": 6.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状 青色の糖衣錠 外形（mm） 重量（mg） 100 識別コード MO25A"
+    }
+  ],
+  "expected_products": [
+    "パルタンM錠0.125mg"
+  ]
+}

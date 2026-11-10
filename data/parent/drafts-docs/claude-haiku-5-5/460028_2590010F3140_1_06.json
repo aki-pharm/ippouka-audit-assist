@@ -1,0 +1,50 @@
+{
+  "id": "460028_2590010F3140_1_06",
+  "source_file": "460028_2590010F3140_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2590010F3140_1_06",
+  "extracted_at": "2026-11-09T15:16:06.715Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21849,
+    "output": 1390
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシンOD錠2mg「ツルハラ」",
+      "strength": "2mg",
+      "imprint_front": "287",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 / 色調 淡黄赤色 / 直径 約6.5mm 厚さ 約3.0mm / 識別コード 表面：287 裏面：2"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「ツルハラ」",
+      "strength": "4mg",
+      "imprint_front": "TSU288",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り / 色調 淡黄赤色 / 直径 約8.0mm 厚さ 約3.8mm / 識別コード 表面：TSU288 裏面：4"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「ツルハラ」",
+    "シロドシンOD錠4mg「ツルハラ」"
+  ]
+}

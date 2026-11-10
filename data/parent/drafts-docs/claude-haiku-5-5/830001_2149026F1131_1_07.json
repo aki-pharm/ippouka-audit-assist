@@ -1,0 +1,83 @@
+{
+  "id": "830001_2149026F1131_1_07",
+  "source_file": "830001_2149026F1131_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2149026F1131_1_07",
+  "extracted_at": "2026-11-09T14:31:52.660Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18242,
+    "output": 2912
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドキサゾシン錠0.5mg「YD」",
+      "strength": "0.5mg",
+      "imprint_front": "YD 613 / 0.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 直径 約6.1mm 厚さ 約2.7mm"
+    },
+    {
+      "product_name": "ドキサゾシン錠1mg「YD」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像から刻印を判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の片面割線入り素錠 直径 約7mm 厚さ 約2.5mm"
+    },
+    {
+      "product_name": "ドキサゾシン錠2mg「YD」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像から刻印を判読できず",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡いだいだい色の片面割線入り素錠 直径 約7mm 厚さ 約2.5mm"
+    },
+    {
+      "product_name": "ドキサゾシン錠4mg「YD」",
+      "strength": "4mg",
+      "imprint_front": "YD 614 / 4",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入り素錠 直径 約8.1mm 厚さ 約3.1mm"
+    }
+  ],
+  "expected_products": [
+    "ドキサゾシン錠0.5mg「YD」",
+    "ドキサゾシン錠1mg「YD」",
+    "ドキサゾシン錠2mg「YD」"
+  ]
+}

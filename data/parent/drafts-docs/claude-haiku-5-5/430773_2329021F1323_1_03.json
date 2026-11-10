@@ -1,0 +1,33 @@
+{
+  "id": "430773_2329021F1323_1_03",
+  "source_file": "430773_2329021F1323_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2329021F1323_1_03",
+  "extracted_at": "2026-11-09T15:04:49.055Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14267,
+    "output": 1804
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「DSEP」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図は社名マーク（DSEP表記）の可能性があるが画像が粗く判読困難。裏面の図に刻印は見えないが、「なし」とは明記されていない。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "レバミピド錠100mg「DSEP」 フィルムコーティング錠 白色 8.1 3.4 175"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「DSEP」"
+  ]
+}

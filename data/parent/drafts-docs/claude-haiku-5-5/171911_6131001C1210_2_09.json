@@ -1,0 +1,30 @@
+{
+  "id": "171911_6131001C1210_2_09",
+  "source_file": "171911_6131001C1210_2_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171911_6131001C1210_2_09",
+  "extracted_at": "2026-11-09T22:25:09.613Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29150,
+    "output": 1780
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サワシリン錠250",
+      "strength": "250mg（力価）（1錠中）",
+      "imprint_front": "250 SAW",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は「250」「SAW」の刻印。裏面の刻印は本文に記載なし",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2025年8月改訂",
+      "source_page": 1,
+      "source_quote": "サワシリン錠250 素錠 うすいだいだい色 表 裏 側面 250 SAW 直径 厚さ 質量 約10.0mm 約4.7mm 約380mg"
+    }
+  ]
+}

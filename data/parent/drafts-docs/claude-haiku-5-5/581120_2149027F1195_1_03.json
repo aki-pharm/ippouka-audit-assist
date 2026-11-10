@@ -1,0 +1,67 @@
+{
+  "id": "581120_2149027F1195_1_03",
+  "source_file": "581120_2149027F1195_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149027F1195_1_03",
+  "extracted_at": "2026-11-09T14:32:28.737Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16463,
+    "output": 2399
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マニジピン塩酸塩錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "t 923",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 黄白色の1/2割線入り素錠 外形 直径 7.0mm 厚さ 2.8mm"
+    },
+    {
+      "product_name": "マニジピン塩酸塩錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "t 424",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の裏面に刻印の記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の1/2割線入り素錠 直径 7.5mm 厚さ 3.0mm"
+    },
+    {
+      "product_name": "マニジピン塩酸塩錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "t 425",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の裏面に刻印の記載なし",
+      "color": "うすいだいだい黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "うすいだいだい黄色の1/2割線入り素錠 直径 8.0mm 厚さ 3.2mm"
+    }
+  ],
+  "expected_products": [
+    "マニジピン塩酸塩錠10mg「NIG」",
+    "マニジピン塩酸塩錠20mg「NIG」",
+    "マニジピン塩酸塩錠5mg「NIG」"
+  ]
+}

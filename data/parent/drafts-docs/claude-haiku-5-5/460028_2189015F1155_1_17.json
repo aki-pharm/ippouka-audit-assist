@@ -1,0 +1,49 @@
+{
+  "id": "460028_2189015F1155_1_17",
+  "source_file": "460028_2189015F1155_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2189015F1155_1_17",
+  "extracted_at": "2026-11-09T14:52:16.164Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27060,
+    "output": 1412
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠5mg「TSU」",
+      "strength": "5mg",
+      "imprint_front": "A58",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 ごくうすい紅色 外形 大きさ 直径 約 5.6mm 厚さ 約 2.7mm 識別コード 表面 A58、裏面 5"
+    },
+    {
+      "product_name": "アトルバスタチン錠10mg「TSU」",
+      "strength": "10mg",
+      "imprint_front": "A59",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 大きさ 直径 約 6.1mm 厚さ 約 2.8mm 識別コード 表面 A59、裏面 10"
+    }
+  ],
+  "expected_products": [
+    "アトルバスタチン錠5mg「TSU」"
+  ]
+}

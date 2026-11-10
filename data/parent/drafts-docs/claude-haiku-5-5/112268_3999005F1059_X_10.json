@@ -1,0 +1,33 @@
+{
+  "id": "112268_3999005F1059_X_10",
+  "source_file": "112268_3999005F1059_X_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/112268_3999005F1059_X_10",
+  "extracted_at": "2026-11-09T15:33:02.010Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25993,
+    "output": 1398
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イムラン錠50mg",
+      "strength": "50mg",
+      "imprint_front": "GX CH1",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「GX CH1」と記載のみ。表裏の別は添付文書に記載なし",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.4,
+      "size_short_mm": 7.4,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線つきのフィルムコート錠 色調 淡黄白色 外形 直径 7.4mm 厚さ 3.0mm 質量 157.5mg 識別コード GX CH1"
+    }
+  ],
+  "expected_products": [
+    "イムラン錠50mg"
+  ]
+}

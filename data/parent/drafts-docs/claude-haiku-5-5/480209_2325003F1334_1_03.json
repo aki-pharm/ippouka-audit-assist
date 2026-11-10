@@ -1,0 +1,50 @@
+{
+  "id": "480209_2325003F1334_1_03",
+  "source_file": "480209_2325003F1334_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2325003F1334_1_03",
+  "extracted_at": "2026-11-09T15:02:55.158Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16874,
+    "output": 1544
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "PH298",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2025年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 色調 白色～微黄白色 外形 直径(mm) 6.8 厚さ(mm) 3.2 質量(mg) 110 識別コード PH298"
+    },
+    {
+      "product_name": "ファモチジン錠20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "PH299",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2025年1月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 糖衣錠 色調 白色～微黄白色 外形 直径(mm) 8.2 厚さ(mm) 4.3 質量(mg) 200 識別コード PH299"
+    }
+  ],
+  "expected_products": [
+    "ファモチジン錠10mg「杏林」",
+    "ファモチジン錠20mg「杏林」"
+  ]
+}

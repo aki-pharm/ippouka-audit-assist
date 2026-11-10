@@ -1,0 +1,50 @@
+{
+  "id": "530113_2399005F1205_1_07",
+  "source_file": "530113_2399005F1205_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2399005F1205_1_07",
+  "extracted_at": "2026-11-09T15:09:19.648Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13790,
+    "output": 1909
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドンペリドン錠5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "NS 237",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「NS 237」のみ記載。裏面の刻印は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状：白色のフィルムコーティング錠　外形 大きさ 錠径：6.1mm 錠厚：3.1mm 重量：80mg　識別コード NS 237"
+    },
+    {
+      "product_name": "ドンペリドン錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "NS 236",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「NS 236」のみ記載。裏面の刻印は本文に記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状：白色～微黄白色の片面割線入りのフィルムコーティング錠　外形 大きさ 錠径：7.1mm 錠厚：2.5mm 重量：97mg　識別コード NS 236"
+    }
+  ],
+  "expected_products": [
+    "ドンペリドン錠10mg「日新」",
+    "ドンペリドン錠5mg「日新」"
+  ]
+}

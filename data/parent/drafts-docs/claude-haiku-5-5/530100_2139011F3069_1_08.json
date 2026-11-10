@@ -1,0 +1,81 @@
+{
+  "id": "530100_2139011F3069_1_08",
+  "source_file": "530100_2139011F3069_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2139011F3069_1_08",
+  "extracted_at": "2026-11-09T14:28:09.036Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 62049,
+    "output": 3608
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠3.75mg「ニプロ」",
+      "strength": "3.75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の刻印は画像のみで文字情報がなく判読できない",
+      "color": "薄い青色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "薄い青色の円形の素錠（口腔内崩壊錠） 直径5.6mm 厚さ2.3mm 重量50mg"
+    },
+    {
+      "product_name": "トルバプタンOD錠7.5mg「ニプロ」",
+      "strength": "7.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の刻印は画像のみで文字情報がなく判読できない",
+      "color": "薄い青色",
+      "shape": "other",
+      "size_long_mm": 7.8,
+      "size_short_mm": 4.4,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "薄い青色の割線入りの変形長方形の素錠（口腔内崩壊錠）（長径）7.8（短径）4.4 厚さ3.1 重量100"
+    },
+    {
+      "product_name": "トルバプタンOD錠15mg「ニプロ」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の刻印は画像のみで文字情報がなく判読できない。形状の明記なし",
+      "color": "薄い青色",
+      "shape": null,
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 2,
+      "source_quote": "薄い青色の割線入りの素錠（口腔内崩壊錠） 直径8.6mm 厚さ3.7mm 重量200mg"
+    },
+    {
+      "product_name": "トルバプタンOD錠30mg「ニプロ」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の刻印は画像のみで文字情報がなく判読できない。形状の明記なし",
+      "color": "薄い青色",
+      "shape": null,
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第8版）",
+      "source_page": 2,
+      "source_quote": "薄い青色の割線入りの素錠（口腔内崩壊錠） 直径9.6mm 厚さ4.4mm 重量300mg"
+    }
+  ],
+  "expected_products": [
+    "トルバプタンOD錠30mg「ニプロ」"
+  ]
+}

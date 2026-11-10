@@ -1,0 +1,33 @@
+{
+  "id": "730869_2160003F1170_1_04",
+  "source_file": "730869_2160003F1170_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2160003F1170_1_04",
+  "extracted_at": "2026-11-09T14:43:28.195Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20161,
+    "output": 1732
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スマトリプタン錠50mg「VTRS」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードM313はPTPに表示と記載。錠剤本体への刻印は本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "スマトリプタン錠50mg「VTRS」 M313（PTPに表示） 白色 フィルムコーティング錠 直径8.1mm 厚さ4.5mm 重量228mg"
+    }
+  ],
+  "expected_products": [
+    "スマトリプタン錠50mg「VTRS」"
+  ]
+}

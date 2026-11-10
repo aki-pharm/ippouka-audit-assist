@@ -1,0 +1,84 @@
+{
+  "id": "400278_2149040F1131_1_09",
+  "source_file": "400278_2149040F1131_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2149040F1131_1_09",
+  "extracted_at": "2026-11-09T14:36:00.301Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31990,
+    "output": 2772
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カンデサルタン錠2mg「TCK」",
+      "strength": "2mg",
+      "imprint_front": "TU 271",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "カンデサルタン錠2mg「TCK」 白色～帯黄白色 素錠 TU 271 5.5 2.2 65"
+    },
+    {
+      "product_name": "カンデサルタン錠4mg「TCK」",
+      "strength": "4mg",
+      "imprint_front": "TU 272",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "カンデサルタン錠4mg「TCK」 白色～帯黄白色 素錠（割線入り） TU 272 7.0 2.6 130"
+    },
+    {
+      "product_name": "カンデサルタン錠8mg「TCK」",
+      "strength": "8mg",
+      "imprint_front": "TU 273",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "カンデサルタン錠8mg「TCK」 ごくうすいだいだい色 素錠（割線入り） TU 273 7.0 2.6 130"
+    },
+    {
+      "product_name": "カンデサルタン錠12mg「TCK」",
+      "strength": "12mg",
+      "imprint_front": "TU 274",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "カンデサルタン錠12mg「TCK」 うすいだいだい色 素錠（割線入り） TU 274 7.0 2.6 130"
+    }
+  ],
+  "expected_products": [
+    "カンデサルタン錠12mg「TCK」",
+    "カンデサルタン錠2mg「TCK」",
+    "カンデサルタン錠4mg「TCK」",
+    "カンデサルタン錠8mg「TCK」"
+  ]
+}

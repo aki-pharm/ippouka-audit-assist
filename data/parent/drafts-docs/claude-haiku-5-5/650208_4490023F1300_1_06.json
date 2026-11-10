@@ -1,0 +1,50 @@
+{
+  "id": "650208_4490023F1300_1_06",
+  "source_file": "650208_4490023F1300_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650208_4490023F1300_1_06",
+  "extracted_at": "2026-11-09T15:41:14.171Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26847,
+    "output": 2115
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠30mg「BMD」",
+      "strength": "30mg",
+      "imprint_front": "BMD51",
+      "imprint_back": "30",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.65,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 6.1 長径：12.1 短径： 5.6 厚さ（mm） 3.65 3.85 色調 剤形 うすいだいだい色・フィルムコーティング錠 識別コード（PTP） BMD51 BMD52"
+    },
+    {
+      "product_name": "フェキソフェナジン塩酸塩錠60mg「BMD」",
+      "strength": "60mg",
+      "imprint_front": "BMD52",
+      "imprint_back": "60",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "oblong",
+      "size_long_mm": 12.1,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.85,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 6.1 長径：12.1 短径： 5.6 厚さ（mm） 3.65 3.85 色調 剤形 うすいだいだい色・フィルムコーティング錠 識別コード（PTP） BMD51 BMD52"
+    }
+  ],
+  "expected_products": [
+    "フェキソフェナジン塩酸塩錠30mg「BMD」",
+    "フェキソフェナジン塩酸塩錠60mg「BMD」"
+  ]
+}

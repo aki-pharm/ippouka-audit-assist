@@ -1,0 +1,49 @@
+{
+  "id": "530372_3399008F1220_1_12",
+  "source_file": "530372_3399008F1220_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3399008F1220_1_12",
+  "extracted_at": "2026-11-09T15:22:48.437Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31807,
+    "output": 1892
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「三和」",
+      "strength": "25mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表裏の刻印は画像から判読できないため未確認。社名マークの有無も未確認。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色のフィルムコーティング錠 / 外形 直径 6.6mm 厚さ 3.4mm"
+    },
+    {
+      "product_name": "クロピドグレル錠75mg「三和」",
+      "strength": "75mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "表裏の刻印は画像から判読できないため未確認。社名マークの有無も未確認。",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色のフィルムコーティング錠 / 外形 直径 8.6mm 厚さ 4.9mm"
+    }
+  ],
+  "expected_products": [
+    "クロピドグレル錠25mg「三和」"
+  ]
+}

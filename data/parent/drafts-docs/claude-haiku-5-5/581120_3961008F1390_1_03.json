@@ -1,0 +1,67 @@
+{
+  "id": "581120_3961008F1390_1_03",
+  "source_file": "581120_3961008F1390_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3961008F1390_1_03",
+  "extracted_at": "2026-11-09T15:27:14.144Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20336,
+    "output": 3874
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「NIG」",
+      "strength": "0.5mg",
+      "imprint_front": "KT GM",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.5,
+      "size_short_mm": 4.5,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の裸錠 外形 直径 4.5mm 厚さ 2.0mm 識別コード（PTP）KT GM 0.5"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「NIG」",
+      "strength": "1mg",
+      "imprint_front": "KT800",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 淡紅色の割線入り裸錠 外形 直径 6.0mm 厚さ 2.2mm 識別コード（PTP）KT800"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「NIG」",
+      "strength": "3mg",
+      "imprint_front": "KT801",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 微黄白色の割線入り裸錠 外形 直径 7.0mm 厚さ 2.4mm 識別コード（PTP）KT801"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「NIG」",
+    "グリメピリド錠1mg「NIG」",
+    "グリメピリド錠3mg「NIG」"
+  ]
+}

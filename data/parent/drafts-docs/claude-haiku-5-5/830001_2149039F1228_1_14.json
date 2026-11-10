@@ -1,0 +1,67 @@
+{
+  "id": "830001_2149039F1228_1_14",
+  "source_file": "830001_2149039F1228_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2149039F1228_1_14",
+  "extracted_at": "2026-11-09T14:34:58.576Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25832,
+    "output": 2640
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンカリウム錠25mg「YD」",
+      "strength": "25mg",
+      "imprint_front": "YD 847、25（外形図より判読）",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は添付文書の外形図からの判読",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りフィルムコーティング錠 直径 約5.6mm 厚さ 約3.1mm"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠50mg「YD」",
+      "strength": "50mg",
+      "imprint_front": "YD 848、50（外形図より判読）",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は添付文書の外形図からの判読",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りフィルムコーティング錠 直径 約7.6mm 厚さ 約3.5mm"
+    },
+    {
+      "product_name": "ロサルタンカリウム錠100mg「YD」",
+      "strength": "100mg",
+      "imprint_front": "YD 849（外形図より判読）",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は添付文書の外形図からの判読。ティアドロップ形",
+      "color": "白色",
+      "shape": "other",
+      "size_long_mm": 11.1,
+      "size_short_mm": 7.6,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ティアドロップ形の白色のフィルムコーティング錠 (長径)約11.1mm (短径)約7.6mm 厚さ 約4.5mm"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンカリウム錠100mg「YD」",
+    "ロサルタンカリウム錠25mg「YD」",
+    "ロサルタンカリウム錠50mg「YD」"
+  ]
+}

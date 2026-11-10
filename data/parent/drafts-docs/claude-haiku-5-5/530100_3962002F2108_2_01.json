@@ -1,0 +1,50 @@
+{
+  "id": "530100_3962002F2108_2_01",
+  "source_file": "530100_3962002F2108_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3962002F2108_2_01",
+  "extracted_at": "2026-11-09T15:29:02.583Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33857,
+    "output": 2215
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトホルミン塩酸塩錠 250mgMT「ニプロ」",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2026年3月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄 白色の割線入りのフィルムコーティング錠 9.2 4.3 281.5"
+    },
+    {
+      "product_name": "メトホルミン塩酸塩錠 500mgMT「ニプロ」",
+      "strength": "500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄",
+      "shape": "oval",
+      "size_long_mm": 16.1,
+      "size_short_mm": 7.7,
+      "thickness_mm": 5.3,
+      "score_line": true,
+      "source_revision": "2026年3月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄 白色の楕円形をした割線入りのフィルムコーティング錠 （長径）16.1 （短径） 7.7 5.3 561"
+    }
+  ],
+  "expected_products": [
+    "メトホルミン塩酸塩錠250mgMT「ニプロ」",
+    "メトホルミン塩酸塩錠500mgMT「ニプロ」"
+  ]
+}

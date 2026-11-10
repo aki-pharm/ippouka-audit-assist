@@ -1,0 +1,50 @@
+{
+  "id": "530169_2149043F1135_1_10",
+  "source_file": "530169_2149043F1135_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149043F1135_1_10",
+  "extracted_at": "2026-11-09T14:40:24.485Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23420,
+    "output": 1546
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アゼルニジピン錠8mg「日医工」",
+      "strength": "8mg",
+      "imprint_front": "432",
+      "imprint_back": "8",
+      "imprint_note": "表面に社名マーク（n）と432を併記（本体コード「n 432」）",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 淡黄白色 直径（mm） 7.1 厚さ（mm） 3.3"
+    },
+    {
+      "product_name": "アゼルニジピン錠16mg「日医工」",
+      "strength": "16mg",
+      "imprint_front": "433",
+      "imprint_back": "16",
+      "imprint_note": "表面に社名マーク（n）と433を併記（本体コード「n 433」）",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠 色調 淡黄白色 直径（mm） 9.1 厚さ（mm） 4.1"
+    }
+  ],
+  "expected_products": [
+    "アゼルニジピン錠16mg「日医工」",
+    "アゼルニジピン錠8mg「日医工」"
+  ]
+}

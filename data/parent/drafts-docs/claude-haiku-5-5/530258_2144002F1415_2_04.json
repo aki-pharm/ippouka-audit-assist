@@ -1,0 +1,67 @@
+{
+  "id": "530258_2144002F1415_2_04",
+  "source_file": "530258_2144002F1415_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2144002F1415_2_04",
+  "extracted_at": "2026-11-09T14:28:26.148Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24815,
+    "output": 2926
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エナラプリルマレイン酸塩錠2.5mg「EMEC」",
+      "strength": "2.5mg",
+      "imprint_front": "EE30",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡桃色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 エナラプリルマレイン酸塩錠2.5mg「EMEC」 色・剤形 淡桃色の素錠 識別コード EE30 直径8.0mm 厚さ3.2mm 質量165mg"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠5mg「EMEC」",
+      "strength": "5mg",
+      "imprint_front": "EE09",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡桃色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 エナラプリルマレイン酸塩錠5mg「EMEC」 色・剤形 淡桃色の割線入りの素錠 識別コード EE09 直径8.0mm 厚さ3.2mm 質量165mg"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠10mg「EMEC」",
+      "strength": "10mg",
+      "imprint_front": "EE31",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡桃色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "販売名 エナラプリルマレイン酸塩錠10mg「EMEC」 色・剤形 淡桃色の割線入りの素錠 識別コード EE31 直径8.5mm 厚さ3.4mm 質量200mg"
+    }
+  ],
+  "expected_products": [
+    "エナラプリルマレイン酸塩錠10mg「EMEC」",
+    "エナラプリルマレイン酸塩錠2.5mg「EMEC」",
+    "エナラプリルマレイン酸塩錠5mg「EMEC」"
+  ]
+}

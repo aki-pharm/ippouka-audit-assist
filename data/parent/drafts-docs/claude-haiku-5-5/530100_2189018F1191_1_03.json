@@ -1,0 +1,33 @@
+{
+  "id": "530100_2189018F1191_1_03",
+  "source_file": "530100_2189018F1191_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2189018F1191_1_03",
+  "extracted_at": "2026-11-09T14:56:47.547Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27310,
+    "output": 1233
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エゼチミブ錠10mg「ニプロ」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に刻印様の表示があるが判読できないため未確認",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の楕円形の割線入りの素錠（長径）8.1（短径）4.1 2.6 100"
+    }
+  ],
+  "expected_products": [
+    "エゼチミブ錠10mg「ニプロ」"
+  ]
+}

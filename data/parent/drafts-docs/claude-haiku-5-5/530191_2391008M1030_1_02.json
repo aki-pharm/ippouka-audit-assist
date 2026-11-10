@@ -1,0 +1,49 @@
+{
+  "id": "530191_2391008M1030_1_02",
+  "source_file": "530191_2391008M1030_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_2391008M1030_1_02",
+  "extracted_at": "2026-11-09T15:08:30.702Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31800,
+    "output": 2652
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アプレピタントカプセル80mg「NK」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「NK」「80mg」の印字が図示されているが、本文に刻印の明記はない",
+      "color": "頭部：白色不透明、胴部：白色不透明、内容物：白色～灰白色の顆粒又は粉末",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "外形 3号 硬カプセル剤 性状 頭部：白色不透明 胴部：白色不透明 内容物：白色～灰白色の顆粒又は粉末 全長(mm) 15.8 質量(mg) 約225"
+    },
+    {
+      "product_name": "アプレピタントカプセル125mg「NK」",
+      "strength": "125mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に「NK」「125mg」の印字が図示されているが、本文に刻印の明記はない",
+      "color": "頭部：淡赤色不透明、胴部：白色不透明、内容物：白色～灰白色の顆粒又は粉末",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "外形 2号 硬カプセル剤 性状 頭部：淡赤色不透明 胴部：白色不透明 内容物：白色～灰白色の顆粒又は粉末 全長(mm) 17.8 質量(mg) 約338"
+    }
+  ],
+  "expected_products": [
+    "アプレピタントカプセルセット「NK」"
+  ]
+}

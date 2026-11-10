@@ -1,0 +1,82 @@
+{
+  "id": "530213_2149044F1091_1_05",
+  "source_file": "530213_2149044F1091_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149044F1091_1_05",
+  "extracted_at": "2026-11-09T14:41:43.418Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24437,
+    "output": 3071
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン錠5mg「ケミファ」",
+      "strength": "5mg",
+      "imprint_front": "オルメサルタン 5 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は識別コード欄の記載による。裏面の刻印は画像から確認できず未確認",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状注） 淡黄白色の素錠 直径 7.1mm 厚さ 2.4mm"
+    },
+    {
+      "product_name": "オルメサルタン錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "オルメサルタン 10 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は識別コード欄の記載による。裏面の刻印は画像から確認できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 直径 7.1mm 厚さ 2.4mm"
+    },
+    {
+      "product_name": "オルメサルタン錠20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "オルメサルタン 20 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は識別コード欄の記載による。裏面の刻印は画像から確認できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 直径 8.0mm 厚さ 2.5mm"
+    },
+    {
+      "product_name": "オルメサルタン錠40mg「ケミファ」",
+      "strength": "40mg",
+      "imprint_front": "オルメサルタン 40 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は識別コード欄の記載による。裏面の刻印は画像から確認できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 直径 9.6mm 厚さ 3.6mm"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタン錠10mg「ケミファ」",
+    "オルメサルタン錠5mg「ケミファ」"
+  ]
+}

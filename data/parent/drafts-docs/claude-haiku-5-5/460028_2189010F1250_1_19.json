@@ -1,0 +1,49 @@
+{
+  "id": "460028_2189010F1250_1_19",
+  "source_file": "460028_2189010F1250_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2189010F1250_1_19",
+  "extracted_at": "2026-11-09T14:51:14.750Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20166,
+    "output": 1736
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プラバスタチンナトリウム錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "TSU756",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は文書に記載がないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 大きさ 直径 約 6.0mm 厚さ 約 2.5mm 質量 約90mg 識別コード TSU756"
+    },
+    {
+      "product_name": "プラバスタチンナトリウム錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "TSU757",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は文書に記載がないため未確認",
+      "color": "微紅色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入素錠 色調 微紅色 大きさ 直径 約 7.5mm 厚さ 約 2.4mm 質量 約140mg 識別コード TSU757"
+    }
+  ],
+  "expected_products": [
+    "プラバスタチンナトリウム錠5mg「ツルハラ」"
+  ]
+}

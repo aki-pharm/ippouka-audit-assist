@@ -1,0 +1,50 @@
+{
+  "id": "730869_4490025F3190_1_03",
+  "source_file": "730869_4490025F3190_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_4490025F3190_1_03",
+  "extracted_at": "2026-11-09T15:42:09.491Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20966,
+    "output": 1351
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩OD錠2.5mg「VTRS」",
+      "strength": "2.5mg",
+      "imprint_front": "D2.5",
+      "imprint_back": "OL",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.65,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "D2.5 OL ごくうすい黄色 円形 直径 素錠 6.5mm 厚さ 2.65mm 重量 100mg"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩OD錠5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "D5",
+      "imprint_back": "OL",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "D5 OL ごくうすい黄色 円形 割線入り 直径 素錠 8.0mm 厚さ 3.5mm 重量 200mg"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩OD錠2.5mg「VTRS」",
+    "オロパタジン塩酸塩OD錠5mg「VTRS」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "480209_2171022F3331_1_10",
+  "source_file": "480209_2171022F3331_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2171022F3331_1_10",
+  "extracted_at": "2026-11-09T14:47:02.719Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22199,
+    "output": 2757
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "KRM104",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「2.5」の表示あり（刻印面の位置は未確認）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色～帯黄白色 直径(mm) 7.1 厚さ(mm) 3.2 質量(mg) 120 識別コード KRM104"
+    },
+    {
+      "product_name": "アムロジピンOD錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "KRM105",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「5」の表示あり（刻印面の位置は未確認）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色～帯黄白色 直径(mm) 7.5 厚さ(mm) 4.0 質量(mg) 168 識別コード KRM105"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "KRM148",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「10」の表示あり（刻印面の位置は未確認）",
+      "color": "微黄白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 微黄白色～淡黄白色 直径(mm) 8.0 厚さ(mm) 3.7 質量(mg) 185 識別コード KRM148"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠10mg「杏林」（旧製品）",
+    "アムロジピンOD錠2.5mg「杏林」（旧製品）",
+    "アムロジピンOD錠5mg「杏林」（旧製品）"
+  ]
+}

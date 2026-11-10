@@ -1,0 +1,33 @@
+{
+  "id": "480235_3327002M1281_1_07",
+  "source_file": "480235_3327002M1281_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3327002M1281_1_07",
+  "extracted_at": "2026-11-09T15:19:05.430Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10310,
+    "output": 1822
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラネキサム酸カプセル250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "TwTCC",
+      "imprint_back": "Tw.TCC",
+      "imprint_note": "識別コード表の「本体」欄がTwTCC、「包装」欄がTw.TCC。図中の刻印は一部判読困難のため未確認",
+      "color": "頭部橙色、胴部淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 17.9,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "頭部橙色、胴部淡黄色の不透明な硬カプセルで、内容物は白色の苦みを有する粉末。 性状・剤形 本体 TwTCC 包装 Tw.TCC 識別コード 外形 全長 号数 質量(mg) 約335"
+    }
+  ],
+  "expected_products": [
+    "トラネキサム酸カプセル250mg「トーワ」"
+  ]
+}

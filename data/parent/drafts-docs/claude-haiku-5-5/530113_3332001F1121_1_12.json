@@ -1,0 +1,33 @@
+{
+  "id": "530113_3332001F1121_1_12",
+  "source_file": "530113_3332001F1121_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3332001F1121_1_12",
+  "extracted_at": "2026-11-09T15:19:31.438Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32234,
+    "output": 1779
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ワルファリンK錠1mg「日新」",
+      "strength": "1mg",
+      "imprint_front": "NS 336",
+      "imprint_back": "未確認",
+      "imprint_note": "3.2製剤の性状の識別コード欄に「NS 336」と記載。表裏の区別は明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性　状 白色の素錠 外形 錠径： 7.0mm 錠厚： 2.3mm 重量：120mg 識別コード NS 336"
+    }
+  ],
+  "expected_products": [
+    "ワルファリンK錠1mg「日新」"
+  ]
+}

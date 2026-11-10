@@ -1,0 +1,65 @@
+{
+  "id": "370242_2149046F1040_1_10",
+  "source_file": "370242_2149046F1040_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370242_2149046F1040_1_10",
+  "extracted_at": "2026-11-09T14:42:16.346Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18674,
+    "output": 2273
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠50mg「DSPB」",
+      "strength": "50mg",
+      "imprint_front": "DS551",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.6,
+      "size_short_mm": 4.5,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）、2025年2月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のだ円形の割線入りフィルムコーティング錠"
+    },
+    {
+      "product_name": "イルベサルタン錠100mg「DSPB」",
+      "strength": "100mg",
+      "imprint_front": "DS552",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11.1,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）、2025年2月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のだ円形の割線入りフィルムコーティング錠"
+    },
+    {
+      "product_name": "イルベサルタン錠200mg「DSPB」",
+      "strength": "200mg",
+      "imprint_front": "DS553",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 7.4,
+      "thickness_mm": 5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第6版）、2025年2月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色のだ円形の割線入りフィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "イルベサルタン錠50mg「DSPB」"
+  ]
+}

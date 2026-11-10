@@ -1,0 +1,82 @@
+{
+  "id": "670227_2189017F1022_1_33",
+  "source_file": "670227_2189017F1022_1_33.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670227_2189017F1022_1_33",
+  "extracted_at": "2026-11-09T14:54:55.161Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34189,
+    "output": 3659
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クレストール錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "ZD4522",
+      "imprint_back": "2½",
+      "imprint_note": "識別コードは「ZD4522：2 ½」と記載",
+      "color": "うすい赤みの黄色からくすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 うすい赤みの黄色から くすんだ赤みの黄色の フィルムコーティング錠 直径 約5.5mm 厚さ 約3.1mm 識別コード ZD4522：2 ½"
+    },
+    {
+      "product_name": "クレストール錠5mg",
+      "strength": "5mg",
+      "imprint_front": "ZD4522 5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「ZD4522 5」と記載。裏面の刻印記載は確認できず",
+      "color": "うすい赤みの黄色からくすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 うすい赤みの黄色から くすんだ赤みの黄色の フィルムコーティング錠 直径 約7mm 厚さ 約3.8mm 識別コード ZD4522 5"
+    },
+    {
+      "product_name": "クレストールOD錠2.5mg",
+      "strength": "2.5mg",
+      "imprint_front": "AZ 153",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「AZ 153」と記載。裏面の刻印記載は確認できず",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 淡黄色の円形の素錠 直径 約6mm 厚さ 約2.7mm 識別コード AZ 153"
+    },
+    {
+      "product_name": "クレストールOD錠5mg",
+      "strength": "5mg",
+      "imprint_front": "AZ 154",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「AZ 154」と記載。裏面の刻印記載は確認できず",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 淡黄色の円形の素錠 直径 約8mm 厚さ 約3.1mm 識別コード AZ 154"
+    }
+  ],
+  "expected_products": [
+    "クレストールOD錠2.5mg",
+    "クレストールOD錠5mg"
+  ]
+}

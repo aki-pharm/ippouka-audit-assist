@@ -1,0 +1,49 @@
+{
+  "id": "340018_6250052F1023_1_17",
+  "source_file": "340018_6250052F1023_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340018_6250052F1023_1_17",
+  "extracted_at": "2026-11-09T15:48:51.346Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 44580,
+    "output": 1767
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゾコーバ錠 25mg",
+      "strength": "25mg",
+      "imprint_front": "717",
+      "imprint_back": "25",
+      "imprint_note": "識別コード「717：25」。表面の刻印は社名マークを含む可能性があるが、図からの確認は不確実",
+      "color": "白色～淡黄白色",
+      "shape": "other",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の六角形の素錠である。"
+    },
+    {
+      "product_name": "ゾコーバ錠 125mg",
+      "strength": "125mg",
+      "imprint_front": "711",
+      "imprint_back": "125",
+      "imprint_note": "識別コード「711：125」",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の円形の素錠である。"
+    }
+  ],
+  "expected_products": [
+    "ゾコーバ錠125mg（旧製品：凸錠）"
+  ]
+}

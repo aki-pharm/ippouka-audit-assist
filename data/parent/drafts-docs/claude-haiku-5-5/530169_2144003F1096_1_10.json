@@ -1,0 +1,67 @@
+{
+  "id": "530169_2144003F1096_1_10",
+  "source_file": "530169_2144003F1096_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2144003F1096_1_10",
+  "extracted_at": "2026-11-09T14:29:34.200Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20209,
+    "output": 3262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アラセプリル錠12.5mg「日医工」",
+      "strength": "12.5mg",
+      "imprint_front": "094",
+      "imprint_back": "なし",
+      "imprint_note": "表面は社名マーク（n）と本体コード094の数字",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 割線入りの素錠 色 調 白色 外形 直径(mm) 6.0 厚さ(mm) 2.2 本体コード 094"
+    },
+    {
+      "product_name": "アラセプリル錠25mg「日医工」",
+      "strength": "25mg",
+      "imprint_front": "093",
+      "imprint_back": "なし",
+      "imprint_note": "表面は社名マーク（n）と本体コード093の数字",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 割線入りの素錠 色 調 白色 外形 直径(mm) 7.0 厚さ(mm) 2.1 本体コード 093"
+    },
+    {
+      "product_name": "アラセプリル錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "095",
+      "imprint_back": "なし",
+      "imprint_note": "表面は社名マーク（n）と本体コード095の数字",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 割線入りの素錠 色 調 白色 外形 直径(mm) 8.0 厚さ(mm) 4.0 本体コード 095"
+    }
+  ],
+  "expected_products": [
+    "アラセプリル錠12.5mg「日医工」",
+    "アラセプリル錠25mg「日医工」",
+    "アラセプリル錠50mg「日医工」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "180095_3399005F1226_1_08",
+  "source_file": "180095_3399005F1226_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_3399005F1226_1_08",
+  "extracted_at": "2026-11-09T15:21:27.452Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15629,
+    "output": 1341
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラプロストNa錠20μg「オーハラ」",
+      "strength": "20μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示の記載は「ベラプロスト 20 オーハラ」のみで、表裏の別は明記されていない",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～淡黄白色 フィルムコーティング錠 外形 大きさ 直径：6.1mm 厚さ：2.7mm 質量 83mg 識別表示 ベラプロスト 20 オーハラ"
+    }
+  ],
+  "expected_products": [
+    "ベラプロストNa錠20μg「オーハラ」"
+  ]
+}

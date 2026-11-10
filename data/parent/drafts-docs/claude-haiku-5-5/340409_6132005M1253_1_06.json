@@ -1,0 +1,33 @@
+{
+  "id": "340409_6132005M1253_1_06",
+  "source_file": "340409_6132005M1253_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_6132005M1253_1_06",
+  "extracted_at": "2026-11-09T15:46:53.523Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13319,
+    "output": 2121
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セファクロルカプセル250mg「SN」",
+      "strength": "250mg（力価）",
+      "imprint_front": "SLT 250",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「SLT 250」の刻印位置（蓋部・胴体部の別）は記載なし。断面の径は蓋部6.3mm、胴体部6.1mm。",
+      "color": "蓋部：青色不透明、胴体部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 17.9,
+      "size_short_mm": 6.3,
+      "thickness_mm": null,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "蓋部青色不透明、胴体部白色不透明の硬カプセル剤で、内容物は白色～黄白色の粒を含む粉末で、わずかに特異なにおいを有し、味はわずかに苦い。"
+    }
+  ],
+  "expected_products": [
+    "セファクロルカプセル250mg「SN」"
+  ]
+}

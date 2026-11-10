@@ -1,0 +1,49 @@
+{
+  "id": "780009_2590008F1093_1_07",
+  "source_file": "780009_2590008F1093_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2590008F1093_1_07",
+  "extracted_at": "2026-11-09T15:14:18.931Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16284,
+    "output": 2160
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タムスロシン塩酸塩OD錠0.1mg「明治」",
+      "strength": "0.1mg",
+      "imprint_front": "MS 011",
+      "imprint_back": "0.1",
+      "imprint_note": "表面はMSマークと011の表示（画像より読み取り）。裏面は0.1の表示",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": false,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 厚さ（mm） 重量（mg） 7.0 3.4 120 タムスロシン 塩酸塩 O D錠 0.1mg「明治」 素錠 白色"
+    },
+    {
+      "product_name": "タムスロシン塩酸塩OD錠0.2mg「明治」",
+      "strength": "0.2mg",
+      "imprint_front": "MS 012",
+      "imprint_back": "0.2",
+      "imprint_note": "表面はMSマークと012の表示（画像より読み取り）。裏面は0.2の表示",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "直径（mm） 厚さ（mm） 重量（mg） 7.5 3.6 160 タムスロシン 塩酸塩 O D錠 0.2mg「明治」 素錠 白色"
+    }
+  ],
+  "expected_products": [
+    "タムスロシン塩酸塩OD錠0.2mg「明治」"
+  ]
+}

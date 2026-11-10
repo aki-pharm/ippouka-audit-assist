@@ -1,0 +1,50 @@
+{
+  "id": "300119_3969004F3066_1_12",
+  "source_file": "300119_3969004F3066_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3969004F3066_1_12",
+  "extracted_at": "2026-11-09T15:29:26.115Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19211,
+    "output": 2037
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボグリボースOD錠0.2mg「サワイ」",
+      "strength": "0.2mg",
+      "imprint_front": "SW V2",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「0.2」の表示あり（画像より判読）。裏面は未確認",
+      "color": "帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠） 性状 帯黄白色 直径（mm） 7.5 厚さ（mm） 3.8 識別コード SW V2"
+    },
+    {
+      "product_name": "ボグリボースOD錠0.3mg「サワイ」",
+      "strength": "0.3mg",
+      "imprint_front": "SW V3",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「0.3」の表示あり（画像より判読）。裏面は未確認",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4.4,
+      "score_line": false,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠） 性状 微黄色 直径（mm） 8.5 厚さ（mm） 4.4 識別コード SW V3"
+    }
+  ],
+  "expected_products": [
+    "ボグリボースOD錠0.2mg「サワイ」",
+    "ボグリボースOD錠0.3mg「サワイ」"
+  ]
+}

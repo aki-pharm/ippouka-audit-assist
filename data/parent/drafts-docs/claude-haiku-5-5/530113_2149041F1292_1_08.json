@@ -1,0 +1,82 @@
+{
+  "id": "530113_2149041F1292_1_08",
+  "source_file": "530113_2149041F1292_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2149041F1292_1_08",
+  "extracted_at": "2026-11-09T14:38:14.695Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19224,
+    "output": 3070
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "NS 230",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の識別コード欄はNS 230のみ記載。図には数字表示も見られるが本文に記載なし",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の片面割線入りのフィルムコーティング錠 錠径： 6.1mm 錠厚： 2.8mm 重量：77.5mg"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「日新」",
+      "strength": "40mg",
+      "imprint_front": "NS 231",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の識別コード欄はNS 231のみ記載。図には数字表示も見られるが本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りのフィルムコーティング錠 錠径： 7.1mm 錠厚： 3.1mm 重量：114.3mg"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「日新」",
+      "strength": "80mg",
+      "imprint_front": "NS 232",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の識別コード欄はNS 232のみ記載。図には数字表示も見られるが本文に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りのフィルムコーティング錠 錠径： 8.6mm 錠厚： 4.0mm 重量：228.6mg"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「日新」",
+      "strength": "160mg",
+      "imprint_front": "NS 233",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の識別コード欄はNS 233のみ記載。図には数字表示も見られるが本文に記載なし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 16.7,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の長楕円形をした割線入りのフィルムコーティング錠 長径： 16.7mm 短径： 6.6mm 錠厚： 5.5mm 重量：457.2mg"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「日新」",
+    "バルサルタン錠40mg「日新」"
+  ]
+}

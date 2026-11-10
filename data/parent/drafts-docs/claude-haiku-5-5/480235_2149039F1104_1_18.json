@@ -1,0 +1,66 @@
+{
+  "id": "480235_2149039F1104_1_18",
+  "source_file": "480235_2149039F1104_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149039F1104_1_18",
+  "extracted_at": "2026-11-09T14:34:11.018Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23684,
+    "output": 1840
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンK錠25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "Tw375",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠（識別コード Tw375、外形 直径(mm) 5.6、厚さ(mm) 2.9）"
+    },
+    {
+      "product_name": "ロサルタンK錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw376",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠（識別コード Tw376、外形 直径(mm) 7.6、厚さ(mm) 3.5）"
+    },
+    {
+      "product_name": "ロサルタンK錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw377",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13,
+      "size_short_mm": 6.5,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠（識別コード Tw377、外形 13/6.5(長径/短径)、厚さ(mm) 4.7）"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンK錠100mg「トーワ」",
+    "ロサルタンK錠25mg「トーワ」"
+  ]
+}

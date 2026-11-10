@@ -1,0 +1,33 @@
+{
+  "id": "460028_2133001F1638_1_08",
+  "source_file": "460028_2133001F1638_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2133001F1638_1_08",
+  "extracted_at": "2026-11-09T14:26:47.753Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13454,
+    "output": 976
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スピロノラクトン錠25mg「ツルハラ」",
+      "strength": "25mg",
+      "imprint_front": "R9",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2025年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 片面割線を有する錠剤 色調 淡橙色 外形 大きさ 直径 約8.0mm 厚さ 約3.4mm 質量 約170㎎ 識別コード R9"
+    }
+  ],
+  "expected_products": [
+    "スピロノラクトン錠25mg「ツルハラ」"
+  ]
+}

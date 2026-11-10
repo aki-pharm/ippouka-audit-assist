@@ -1,0 +1,33 @@
+{
+  "id": "530100_3999003F1378_1_06",
+  "source_file": "530100_3999003F1378_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3999003F1378_1_06",
+  "extracted_at": "2026-11-09T15:32:33.371Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14492,
+    "output": 2088
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カモスタットメシル酸塩錠 100mg「NP」",
+      "strength": "100mg",
+      "imprint_front": "カモスタッ トメシル 100 NP",
+      "imprint_back": "カモスタッ トメシル 100 NP",
+      "imprint_note": "外形図中の表示を判読したもの（判読に不確実性あり）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色のフィルムコーティング錠（直径6.5mm、厚さ3.8mm、重量124mg）"
+    }
+  ],
+  "expected_products": [
+    "カモスタットメシル酸塩錠100mg「NP」"
+  ]
+}

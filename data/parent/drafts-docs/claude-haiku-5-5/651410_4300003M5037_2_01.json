@@ -1,0 +1,101 @@
+{
+  "id": "651410_4300003M5037_2_01",
+  "source_file": "651410_4300003M5037_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/651410_4300003M5037_2_01",
+  "extracted_at": "2026-11-09T15:37:39.727Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10272,
+    "output": 2470
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ヨウ化ナトリウムカプセル-1号",
+      "strength": "37MBq",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "青色/白色（頭部/胴部）",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外観 カプセルの色（頭部/胴部） 青色/白色 緑色/白色 淡橙赤色/白色 だいだい色/淡橙色 淡橙色/淡橙色"
+    },
+    {
+      "product_name": "ヨウ化ナトリウムカプセル-3号",
+      "strength": "111MBq",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "緑色/白色（頭部/胴部）",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外観 カプセルの色（頭部/胴部） 青色/白色 緑色/白色 淡橙赤色/白色 だいだい色/淡橙色 淡橙色/淡橙色"
+    },
+    {
+      "product_name": "ヨウ化ナトリウムカプセル-5号",
+      "strength": "185MBq",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙赤色/白色（頭部/胴部）",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外観 カプセルの色（頭部/胴部） 青色/白色 緑色/白色 淡橙赤色/白色 だいだい色/淡橙色 淡橙色/淡橙色"
+    },
+    {
+      "product_name": "ヨウ化ナトリウムカプセル-30号",
+      "strength": "1.11GBq",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "だいだい色/淡橙色（頭部/胴部）",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外観 カプセルの色（頭部/胴部） 青色/白色 緑色/白色 淡橙赤色/白色 だいだい色/淡橙色 淡橙色/淡橙色"
+    },
+    {
+      "product_name": "ヨウ化ナトリウムカプセル-50号",
+      "strength": "1.85GBq",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡橙色/淡橙色（頭部/胴部）",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2022年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外観 カプセルの色（頭部/胴部） 青色/白色 緑色/白色 淡橙赤色/白色 だいだい色/淡橙色 淡橙色/淡橙色"
+    }
+  ],
+  "expected_products": [
+    "ヨウ化ナトリウムカプセル−1号",
+    "ヨウ化ナトリウムカプセル−30号",
+    "ヨウ化ナトリウムカプセル−3号",
+    "ヨウ化ナトリウムカプセル−50号",
+    "ヨウ化ナトリウムカプセル−5号"
+  ]
+}

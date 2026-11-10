@@ -1,0 +1,67 @@
+{
+  "id": "530169_2149027F1136_1_06",
+  "source_file": "530169_2149027F1136_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149027F1136_1_06",
+  "extracted_at": "2026-11-09T14:32:40.354Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14954,
+    "output": 2479
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "マニジピン塩酸塩錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "730",
+      "imprint_back": "5",
+      "imprint_note": "表面は記号マークと本体コード730の組み合わせ。記号マークの詳細は未確認",
+      "color": "黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 割線入りの素錠 色 調 黄白色 淡黄色 薄いだいだい黄色 直径(mm) 7.0 7.5 8.0 厚さ(mm) 2.8 3.0 3.2"
+    },
+    {
+      "product_name": "マニジピン塩酸塩錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "731",
+      "imprint_back": "10",
+      "imprint_note": "表面は記号マークと本体コード731の組み合わせ。記号マークの詳細は未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 割線入りの素錠 色 調 黄白色 淡黄色 薄いだいだい黄色 直径(mm) 7.0 7.5 8.0 厚さ(mm) 2.8 3.0 3.2"
+    },
+    {
+      "product_name": "マニジピン塩酸塩錠20mg「日医工」",
+      "strength": "20mg",
+      "imprint_front": "732",
+      "imprint_back": "20",
+      "imprint_note": "表面は記号マークと本体コード732の組み合わせ。記号マークの詳細は未確認",
+      "color": "薄いだいだい黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 割線入りの素錠 色 調 黄白色 淡黄色 薄いだいだい黄色 直径(mm) 7.0 7.5 8.0 厚さ(mm) 2.8 3.0 3.2"
+    }
+  ],
+  "expected_products": [
+    "マニジピン塩酸塩錠10mg「日医工」",
+    "マニジピン塩酸塩錠20mg「日医工」",
+    "マニジピン塩酸塩錠5mg「日医工」"
+  ]
+}

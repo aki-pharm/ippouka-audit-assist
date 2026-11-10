@@ -1,0 +1,33 @@
+{
+  "id": "300119_2359005F1234_2_03",
+  "source_file": "300119_2359005F1234_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2359005F1234_2_03",
+  "extracted_at": "2026-11-09T15:08:04.344Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8657,
+    "output": 1489
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピコスルファートNa錠2.5㎎「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "SW 905",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードSW 905。表裏の別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色 におい及び味はない 直径（mm） 6.0 厚さ（mm） 2.4 重量（mg） 約85 識別コード SW 905"
+    }
+  ],
+  "expected_products": [
+    "ピコスルファートNa錠2.5mg「サワイ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "380087_3969007F1091_1_14",
+  "source_file": "380087_3969007F1091_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_3969007F1091_1_14",
+  "extracted_at": "2026-11-09T15:31:18.535Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24814,
+    "output": 1668
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠15mg「ZE」",
+      "strength": "15mg",
+      "imprint_front": "ZE41",
+      "imprint_back": "15",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～帯黄白色 剤形 素錠（割線入り） 外形 錠径（mm） 7.1 7.1 厚み（mm） 2.4 2.5 識別コード ZE41、15 ZE42、30"
+    },
+    {
+      "product_name": "ピオグリタゾン錠30mg「ZE」",
+      "strength": "30mg",
+      "imprint_front": "ZE42",
+      "imprint_back": "30",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～帯黄白色 剤形 素錠（割線入り） 外形 錠径（mm） 7.1 7.1 厚み（mm） 2.4 2.5 識別コード ZE41、15 ZE42、30"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾン錠15mg「ZE」",
+    "ピオグリタゾン錠30mg「ZE」"
+  ]
+}

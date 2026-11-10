@@ -1,0 +1,50 @@
+{
+  "id": "171950_2590010F3077_1_04",
+  "source_file": "171950_2590010F3077_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/171950_2590010F3077_1_04",
+  "extracted_at": "2026-11-09T15:15:52.525Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20907,
+    "output": 2489
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシンOD錠2mg｢Me｣",
+      "strength": "2mg",
+      "imprint_front": "OD2 Me",
+      "imprint_back": "OD2",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2022年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "シロドシンOD錠 2mg｢Me｣ 素錠 淡黄 赤色 直径（mm） 厚さ（mm） 重量（mg） 6.0 3.1 100"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg｢Me｣",
+      "strength": "4mg",
+      "imprint_front": "OD4 Me",
+      "imprint_back": "OD4",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2022年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "シロドシンOD錠 4mg｢Me｣ 割線入り素錠 淡黄 赤色 直径（mm） 厚さ（mm） 重量（mg） 8.0 3.7 200"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「Me」",
+    "シロドシンOD錠4mg「Me」"
+  ]
+}

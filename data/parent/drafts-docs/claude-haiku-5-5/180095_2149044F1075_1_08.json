@@ -1,0 +1,84 @@
+{
+  "id": "180095_2149044F1075_1_08",
+  "source_file": "180095_2149044F1075_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2149044F1075_1_08",
+  "extracted_at": "2026-11-09T14:41:40.724Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26384,
+    "output": 3319
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン錠5mg「オーハラ」",
+      "strength": "5mg",
+      "imprint_front": "オルメサルタン 5オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りのフィルムコーティング錠 色調 淡黄白色 白色 / 直径 7.0mm 7.0mm 8.0mm 9.6mm 厚さ 2.5mm 2.5mm 2.6mm 3.6mm / 識別コード オルメサルタン 5オーハラ"
+    },
+    {
+      "product_name": "オルメサルタン錠10mg「オーハラ」",
+      "strength": "10mg",
+      "imprint_front": "オルメサルタン 10オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りのフィルムコーティング錠 色調 淡黄白色 白色 / 直径 7.0mm 7.0mm 8.0mm 9.6mm 厚さ 2.5mm 2.5mm 2.6mm 3.6mm / 識別コード オルメサルタン 10オーハラ"
+    },
+    {
+      "product_name": "オルメサルタン錠20mg「オーハラ」",
+      "strength": "20mg",
+      "imprint_front": "オルメサルタン 20オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りのフィルムコーティング錠 色調 淡黄白色 白色 / 直径 7.0mm 7.0mm 8.0mm 9.6mm 厚さ 2.5mm 2.5mm 2.6mm 3.6mm / 識別コード オルメサルタン 20オーハラ"
+    },
+    {
+      "product_name": "オルメサルタン錠40mg「オーハラ」",
+      "strength": "40mg",
+      "imprint_front": "オルメサルタン 40オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りのフィルムコーティング錠 色調 淡黄白色 白色 / 直径 7.0mm 7.0mm 8.0mm 9.6mm 厚さ 2.5mm 2.5mm 2.6mm 3.6mm / 識別コード オルメサルタン 40オーハラ"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタン錠10mg「オーハラ」",
+    "オルメサルタン錠20mg「オーハラ」",
+    "オルメサルタン錠40mg「オーハラ」",
+    "オルメサルタン錠5mg「オーハラ」"
+  ]
+}

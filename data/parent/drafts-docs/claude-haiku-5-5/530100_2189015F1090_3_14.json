@@ -1,0 +1,50 @@
+{
+  "id": "530100_2189015F1090_3_14",
+  "source_file": "530100_2189015F1090_3_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2189015F1090_3_14",
+  "extracted_at": "2026-11-09T14:51:38.458Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33104,
+    "output": 2201
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠 5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図に刻印様の表示がみられるが判読できないため未確認",
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "ごくうすい紅色のフィルムコーティング錠 直径（mm）5.6 厚さ（mm）3.1 重量（mg）72"
+    },
+    {
+      "product_name": "アトルバスタチン錠 10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図に刻印様の表示がみられるが判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径（mm）6.1 厚さ（mm）3.1 重量（mg）88"
+    }
+  ],
+  "expected_products": [
+    "アトルバスタチン錠10mg「NP」",
+    "アトルバスタチン錠5mg「NP」"
+  ]
+}

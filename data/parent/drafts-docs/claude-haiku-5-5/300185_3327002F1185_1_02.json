@@ -1,0 +1,33 @@
+{
+  "id": "300185_3327002F1185_1_02",
+  "source_file": "300185_3327002F1185_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300185_3327002F1185_1_02",
+  "extracted_at": "2026-11-09T15:19:16.252Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10112,
+    "output": 1537
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トラネキサム酸錠250mg「三恵」",
+      "strength": "250mg",
+      "imprint_front": "YD051",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードSYT014はPTPの識別コードで、錠剤本体の刻印ではない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色 白色、大きさ 直径10.0mm　厚さ5.1mm、識別コード YD051（本体）、SYT014（PTP）"
+    }
+  ],
+  "expected_products": [
+    "トラネキサム酸錠250mg「三恵」"
+  ]
+}

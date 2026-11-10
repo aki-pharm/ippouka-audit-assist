@@ -1,0 +1,33 @@
+{
+  "id": "450064_2329009F1187_2_11",
+  "source_file": "450064_2329009F1187_2_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2329009F1187_2_11",
+  "extracted_at": "2026-11-09T15:03:48.338Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13889,
+    "output": 1239
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スルピリド錠50mg「CH」",
+      "strength": "50mg",
+      "imprint_front": "スルピリド　50　ch",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年5月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 外形 大きさ 直径 6.7mm 厚さ 4.0mm 本体表示 スルピリド 50 ch"
+    }
+  ],
+  "expected_products": [
+    "スルピリド錠50mg「CH」"
+  ]
+}

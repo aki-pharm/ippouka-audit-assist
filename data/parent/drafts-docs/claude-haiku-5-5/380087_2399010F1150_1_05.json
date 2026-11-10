@@ -1,0 +1,50 @@
+{
+  "id": "380087_2399010F1150_1_05",
+  "source_file": "380087_2399010F1150_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2399010F1150_1_05",
+  "extracted_at": "2026-11-09T15:10:23.732Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14253,
+    "output": 2290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠 2.5mg「ZE」",
+      "strength": "2.5mg",
+      "imprint_front": "ZE36",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 フィルムコーティング錠 外形 錠径（mm） 6.2 厚み（mm） 3.3 重量（mg） 82 識別コード ZE36、2.5"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠 5mg「ZE」",
+      "strength": "5mg",
+      "imprint_front": "ZE37",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.2,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色 剤形 フィルムコーティング錠（割線入り） 外形 錠径（mm） 9.2/4.6 厚み（mm） 3.7 重量（mg） 140 識別コード ZE37、5"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「ZE」",
+    "モサプリドクエン酸塩錠5mg「ZE」"
+  ]
+}

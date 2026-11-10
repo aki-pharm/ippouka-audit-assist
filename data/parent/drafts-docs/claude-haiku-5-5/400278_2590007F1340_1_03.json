@@ -1,0 +1,49 @@
+{
+  "id": "400278_2590007F1340_1_03",
+  "source_file": "400278_2590007F1340_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2590007F1340_1_03",
+  "extracted_at": "2026-11-09T15:14:06.214Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20497,
+    "output": 2200
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プロピベリン塩酸塩錠 10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "Tu 201",
+      "imprint_back": "10",
+      "imprint_note": "裏面の刻印は外形図の表示から読み取り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 外形 色調 剤形 識別コード 直径（mm） 厚さ（mm） 重量（mg） プロピベリン塩酸塩錠 10mg「TCK」 白色 フィルムコーティング錠 Tu 201 7.1 3.0 125"
+    },
+    {
+      "product_name": "プロピベリン塩酸塩錠 20mg「TCK」",
+      "strength": "20mg",
+      "imprint_front": "Tu 202",
+      "imprint_back": "20",
+      "imprint_note": "裏面の刻印は外形図の表示から読み取り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年2月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "販売名 外形 色調 剤形 識別コード 直径（mm） 厚さ（mm） 重量（mg） プロピベリン塩酸塩錠 20mg「TCK」 白色 フィルムコーティング錠 Tu 202 7.1 3.1 125"
+    }
+  ],
+  "expected_products": [
+    "プロピベリン塩酸塩錠10mg「TCK」"
+  ]
+}

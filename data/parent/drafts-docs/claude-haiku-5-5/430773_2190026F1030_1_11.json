@@ -1,0 +1,33 @@
+{
+  "id": "430773_2190026F1030_1_11",
+  "source_file": "430773_2190026F1030_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2190026F1030_1_11",
+  "extracted_at": "2026-11-09T14:57:44.848Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33155,
+    "output": 2021
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボセンタン錠62.5mg「DSEP」",
+      "strength": "62.5mg",
+      "imprint_front": "62.5（図より判読）",
+      "imprint_back": "62.5（図より判読）",
+      "imprint_note": "表裏とも社名マークと62.5の表示を図から判読。文章中に刻印の記載はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形：素錠（割線入）、色：白色、外形 直径8.0mm、厚さ3.5mm、質量180mg"
+    }
+  ],
+  "expected_products": [
+    "ボセンタン錠62.5mg「DSEP」"
+  ]
+}

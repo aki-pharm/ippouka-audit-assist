@@ -1,0 +1,67 @@
+{
+  "id": "300119_2590009F4135_1_03",
+  "source_file": "300119_2590009F4135_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2590009F4135_1_03",
+  "extracted_at": "2026-11-09T15:14:53.312Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13482,
+    "output": 1827
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジルOD錠25mg「サワイ」",
+      "strength": "25mg",
+      "imprint_front": "SW ナフト 25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）／性状 黄白色～淡黄色／直径（mm） 6.5／厚さ（mm） 2.9／本体表示 SW ナフト 25"
+    },
+    {
+      "product_name": "ナフトピジルOD錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW ナフト 50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）／性状 黄白色～淡黄色／直径（mm） 8.5／厚さ（mm） 3.5／本体表示 SW ナフト 50"
+    },
+    {
+      "product_name": "ナフトピジルOD錠75mg「サワイ」",
+      "strength": "75mg",
+      "imprint_front": "SW ナフト 75",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠（口腔内崩壊錠）／性状 黄白色～淡黄色／直径（mm） 9.5／厚さ（mm） 4.3／本体表示 SW ナフト 75"
+    }
+  ],
+  "expected_products": [
+    "ナフトピジルOD錠25mg「サワイ」",
+    "ナフトピジルOD錠50mg「サワイ」",
+    "ナフトピジルOD錠75mg「サワイ」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "270029_2171022F1452_1_10",
+  "source_file": "270029_2171022F1452_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_2171022F1452_1_10",
+  "extracted_at": "2026-11-09T14:49:00.356Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22321,
+    "output": 3034
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠2.5mg「クニヒロ」",
+      "strength": "2.5mg",
+      "imprint_front": "KSK 321",
+      "imprint_back": "2.5",
+      "imprint_note": "外形図の刻印表示による（表裏の記載は文書になし）。社名マークの記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径 6.0mm 厚さ 3.0mm 重量 103mg 識別コード KSK 321"
+    },
+    {
+      "product_name": "アムロジピン錠5mg「クニヒロ」",
+      "strength": "5mg",
+      "imprint_front": "KSK 322",
+      "imprint_back": "5",
+      "imprint_note": "外形図の刻印表示による（表裏の記載は文書になし）。社名マークの記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 直径 8.0mm 厚さ 3.3mm 重量 206mg 識別コード KSK 322"
+    },
+    {
+      "product_name": "アムロジピン錠10mg「クニヒロ」",
+      "strength": "10mg",
+      "imprint_front": "KSK 327",
+      "imprint_back": "10",
+      "imprint_note": "外形図の刻印表示による（表裏の記載は文書になし）。社名マークの記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.4,
+      "size_short_mm": 8.4,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りフィルムコーティング錠 直径 8.4mm 厚さ 3.8mm 重量 257mg 識別コード KSK 327"
+    }
+  ],
+  "expected_products": [
+    "アムロジピン錠10mg「クニヒロ」",
+    "アムロジピン錠2.5mg「クニヒロ」",
+    "アムロジピン錠5mg「クニヒロ」"
+  ]
+}

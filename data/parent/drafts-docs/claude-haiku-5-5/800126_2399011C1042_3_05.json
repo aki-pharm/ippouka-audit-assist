@@ -1,0 +1,33 @@
+{
+  "id": "800126_2399011C1042_3_05",
+  "source_file": "800126_2399011C1042_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2399011C1042_3_05",
+  "extracted_at": "2026-11-09T15:11:30.119Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13991,
+    "output": 1708
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コロネル錠500mg",
+      "strength": "500mg",
+      "imprint_front": "254",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク様の記号と254の併記あり。裏面の刻印は文書に記載なし。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": 7.6,
+      "thickness_mm": 5.9,
+      "score_line": false,
+      "source_revision": "2023年7月改訂",
+      "source_page": 1,
+      "source_quote": "コロネル錠500mg フィルムコーティング錠 白色 表 254 直径 厚さ 重量 長径 約17.8mm 短径 約7.6mm 約5.9mm 約785mg"
+    }
+  ],
+  "expected_products": [
+    "コロネル錠500mg"
+  ]
+}

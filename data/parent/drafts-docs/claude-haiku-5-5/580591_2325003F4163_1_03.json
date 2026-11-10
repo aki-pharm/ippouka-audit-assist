@@ -1,0 +1,33 @@
+{
+  "id": "580591_2325003F4163_1_03",
+  "source_file": "580591_2325003F4163_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2325003F4163_1_03",
+  "extracted_at": "2026-11-09T15:01:56.048Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17330,
+    "output": 1148
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン OD 錠 20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "JG N20",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に社名マーク（JG）と識別コードN20の表示。裏面は図示のみで刻印の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りの素錠 表面 裏面 側面 JG N20 直径 6.0mm 厚さ 3.1mm 重量 90mg"
+    }
+  ],
+  "expected_products": [
+    "ファモチジンOD錠20mg「JG」"
+  ]
+}

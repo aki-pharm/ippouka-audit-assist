@@ -1,0 +1,84 @@
+{
+  "id": "400278_2149026F1220_1_04",
+  "source_file": "400278_2149026F1220_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2149026F1220_1_04",
+  "extracted_at": "2026-11-09T14:31:50.373Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18778,
+    "output": 3661
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドキサゾシン錠0.5mg「TCK」",
+      "strength": "0.5mg",
+      "imprint_front": "Tu-TZ 005",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年4月改訂",
+      "source_page": 1,
+      "source_quote": "ドキサゾシン錠0.5mg「TCK」 白色 素錠 Tu-TZ 005 直径6.1mm 厚さ2.7mm 重量90mg"
+    },
+    {
+      "product_name": "ドキサゾシン錠1mg「TCK」",
+      "strength": "1mg",
+      "imprint_front": "Tu-TZ 01",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年4月改訂",
+      "source_page": 1,
+      "source_quote": "ドキサゾシン錠1mg「TCK」 白色～微黄色素錠(割線入り) Tu-TZ 01 直径6.5mm 厚さ2.7mm 重量120mg"
+    },
+    {
+      "product_name": "ドキサゾシン錠2mg「TCK」",
+      "strength": "2mg",
+      "imprint_front": "Tu-TZ 02",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2024年4月改訂",
+      "source_page": 1,
+      "source_quote": "ドキサゾシン錠2mg「TCK」 淡いだいだい色素錠(割線入り) Tu-TZ 02 直径6.5mm 厚さ2.7mm 重量120mg"
+    },
+    {
+      "product_name": "ドキサゾシン錠4mg「TCK」",
+      "strength": "4mg",
+      "imprint_front": "Tu-TZ 04",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年4月改訂",
+      "source_page": 1,
+      "source_quote": "ドキサゾシン錠4mg「TCK」 白色素錠(割線入り) Tu-TZ 04 直径8.1mm 厚さ3.1mm 重量200mg"
+    }
+  ],
+  "expected_products": [
+    "ドキサゾシン錠0.5mg「TCK」",
+    "ドキサゾシン錠1mg「TCK」",
+    "ドキサゾシン錠2mg「TCK」",
+    "ドキサゾシン錠4mg「TCK」"
+  ]
+}

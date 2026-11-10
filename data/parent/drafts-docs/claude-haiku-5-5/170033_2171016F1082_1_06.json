@@ -1,0 +1,33 @@
+{
+  "id": "170033_2171016F1082_1_06",
+  "source_file": "170033_2171016F1082_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170033_2171016F1082_1_06",
+  "extracted_at": "2026-11-09T14:45:39.751Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14412,
+    "output": 1587
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニトロール錠5mg",
+      "strength": "5mg",
+      "imprint_front": "NR 5",
+      "imprint_back": "未確認",
+      "imprint_note": "表面上部のε図形は社名マークと思われる（添付文書の識別コードはNR 5）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2022年9月改訂",
+      "source_page": 1,
+      "source_quote": "識別コード NR 5 ／ 直径（mm） 6.1 ／ 厚さ（mm） 2.6 ／ 色 白色"
+    }
+  ],
+  "expected_products": [
+    "ニトロール錠5mg"
+  ]
+}

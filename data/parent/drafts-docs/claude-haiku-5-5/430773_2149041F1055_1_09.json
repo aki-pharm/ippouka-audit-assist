@@ -1,0 +1,82 @@
+{
+  "id": "430773_2149041F1055_1_09",
+  "source_file": "430773_2149041F1055_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149041F1055_1_09",
+  "extracted_at": "2026-11-09T14:37:20.027Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25109,
+    "output": 4307
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印は画像のみで文字として判読できず未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "バルサルタン錠20mg「DSEP」 フィルムコーティング錠（割線入） 淡黄色 7.1（直径） 2.6 95"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「DSEP」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印は画像のみで文字として判読できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "バルサルタン錠40mg「DSEP」 フィルムコーティング錠（割線入） 白色 7.1（直径） 2.8 95"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「DSEP」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印は画像のみで文字として判読できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "バルサルタン錠80mg「DSEP」 フィルムコーティング錠（割線入） 白色 8.6（直径） 3.7 190"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「DSEP」",
+      "strength": "160mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の刻印は画像のみで文字として判読できず未確認",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 14.6,
+      "size_short_mm": 5.8,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "バルサルタン錠160mg「DSEP」 フィルムコーティング錠（割線入） 白色 14.6（長径） 5.8（短径） 5.7 375"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「DSEP」",
+    "バルサルタン錠40mg「DSEP」"
+  ]
+}

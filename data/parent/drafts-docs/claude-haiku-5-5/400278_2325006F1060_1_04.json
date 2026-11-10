@@ -1,0 +1,50 @@
+{
+  "id": "400278_2325006F1060_1_04",
+  "source_file": "400278_2325006F1060_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2325006F1060_1_04",
+  "extracted_at": "2026-11-09T15:03:10.156Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21266,
+    "output": 2548
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラフチジン錠5mg「TCK」",
+      "strength": "5mg",
+      "imprint_front": "TU 241",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に記載なし。図中の円囲み数字は判読のみのため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ラフチジン錠5mg「TCK」 白色 フィルムコーティング錠 TU 241 直径5.6mm 厚さ2.7mm 重量68mg"
+    },
+    {
+      "product_name": "ラフチジン錠10mg「TCK」",
+      "strength": "10mg",
+      "imprint_front": "TU 242",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は本文に記載なし。図中の円囲み数字は判読のみのため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ラフチジン錠10mg「TCK」 白色 フィルムコーティング錠 TU 242 直径6.1mm 厚さ2.8mm 重量86mg"
+    }
+  ],
+  "expected_products": [
+    "ラフチジン錠10mg「TCK」",
+    "ラフチジン錠5mg「TCK」"
+  ]
+}

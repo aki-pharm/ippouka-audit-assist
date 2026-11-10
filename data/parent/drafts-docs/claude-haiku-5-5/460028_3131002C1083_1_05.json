@@ -1,0 +1,33 @@
+{
+  "id": "460028_3131002C1083_1_05",
+  "source_file": "460028_3131002C1083_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3131002C1083_1_05",
+  "extracted_at": "2026-11-09T15:17:21.514Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8601,
+    "output": 1421
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リボフラビン酪酸エステル錠20mg「ツルハラ」",
+      "strength": "20mg",
+      "imprint_front": "TSU861",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "橙黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り錠剤 色調 橙黄色 外形 大きさ 直径 約 8.0mm 厚さ 約 3.5mm 識別コード TSU861"
+    }
+  ],
+  "expected_products": [
+    "リボフラビン酪酸エステル錠20mg「ツルハラ」"
+  ]
+}

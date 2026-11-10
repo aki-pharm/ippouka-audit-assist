@@ -1,0 +1,49 @@
+{
+  "id": "830001_2149118F1070_1_08",
+  "source_file": "830001_2149118F1070_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2149118F1070_1_08",
+  "extracted_at": "2026-11-09T14:43:15.531Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31328,
+    "output": 1987
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルアミクス配合錠LD「YD」",
+      "strength": "イルベサルタン100mg/アムロジピン5mg",
+      "imprint_front": "YD LD",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図中の表示から読み取り。裏面の表示は本文に記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～帯黄白色のフィルムコーティング錠 外形 直径 約8.1mm 厚さ 約3.9mm 重量 180mg"
+    },
+    {
+      "product_name": "イルアミクス配合錠HD「YD」",
+      "strength": "イルベサルタン100mg/アムロジピン10mg",
+      "imprint_front": "YD HD",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図中の表示から読み取り。裏面の表示は本文に記載なし",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 うすいだいだい色のフィルムコーティング錠 外形 直径 約8.1mm 厚さ 約3.9mm 重量 180mg"
+    }
+  ],
+  "expected_products": [
+    "イルアミクス配合錠LD「YD」"
+  ]
+}

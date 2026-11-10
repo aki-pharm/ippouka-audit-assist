@@ -1,0 +1,66 @@
+{
+  "id": "581120_2144006F1146_1_05",
+  "source_file": "581120_2144006F1146_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2144006F1146_1_05",
+  "extracted_at": "2026-11-09T14:29:48.189Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25123,
+    "output": 2664
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リシノプリル錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "LI 5",
+      "imprint_back": "未確認",
+      "imprint_note": "PTP識別コード：t LI 5 5mg",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 外形 直径 6.5mm 厚さ 2.1mm 質量 112.5mg 識別コード（PTP） t LI 5 5mg"
+    },
+    {
+      "product_name": "リシノプリル錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "LI",
+      "imprint_back": "未確認",
+      "imprint_note": "PTP識別コード：t LI 10mg",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 外形 直径 8.0mm 厚さ 2.7mm 質量 225mg 識別コード（PTP） t LI 10mg"
+    },
+    {
+      "product_name": "リシノプリル錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "LI 20",
+      "imprint_back": "未確認",
+      "imprint_note": "PTP識別コード：t LI 20 20mg",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 外形 直径 9.0mm 厚さ 4.9mm 質量 450mg 識別コード（PTP） t LI 20 20mg"
+    }
+  ],
+  "expected_products": [
+    "リシノプリル錠10mg「NIG」",
+    "リシノプリル錠5mg「NIG」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "400186_2399004F1260_1_03",
+  "source_file": "400186_2399004F1260_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_2399004F1260_1_03",
+  "extracted_at": "2026-11-09T15:08:45.346Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10082,
+    "output": 1961
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトクロプラミド錠5mg「タカタ」",
+      "strength": "5mg",
+      "imprint_front": "TTS 200",
+      "imprint_back": "5",
+      "imprint_note": "表面の刻印は「TTS」と「200」の2段表記。識別コードはTTS-200と記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 識別コード TTS-200 直径 約6.1mm 重さ 約0.094g 厚さ 約3.0mm"
+    }
+  ],
+  "expected_products": [
+    "メトクロプラミド錠5mg「タカタ」"
+  ]
+}

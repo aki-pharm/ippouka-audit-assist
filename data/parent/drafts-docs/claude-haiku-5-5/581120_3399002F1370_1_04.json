@@ -1,0 +1,50 @@
+{
+  "id": "581120_3399002F1370_1_04",
+  "source_file": "581120_3399002F1370_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3399002F1370_1_04",
+  "extracted_at": "2026-11-09T15:20:23.227Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24060,
+    "output": 2387
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾール錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "CZ 50",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は外形図の表記による。PTP包装の識別コードは t CZ 50mg。裏面の刻印は文書中に記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色の素錠 外形 直径 7.0mm 厚さ 2.3mm 質量 100mg 識別コード（PTP） t CZ 50mg"
+    },
+    {
+      "product_name": "シロスタゾール錠100mg「NIG」",
+      "strength": "100mg",
+      "imprint_front": "CZ 100",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は外形図の表記による。PTP包装の識別コードは t CZ 100mg。裏面の刻印は文書中に記載なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄白色の素錠 外形 直径 8.0mm 厚さ 3.6mm 質量 200mg 識別コード（PTP） t CZ 100mg"
+    }
+  ],
+  "expected_products": [
+    "シロスタゾール錠100mg「NIG」",
+    "シロスタゾール錠50mg「NIG」"
+  ]
+}

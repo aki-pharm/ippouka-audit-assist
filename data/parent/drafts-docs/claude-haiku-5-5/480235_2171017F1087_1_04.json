@@ -1,0 +1,50 @@
+{
+  "id": "480235_2171017F1087_1_04",
+  "source_file": "480235_2171017F1087_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2171017F1087_1_04",
+  "extracted_at": "2026-11-09T14:45:46.856Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13042,
+    "output": 1870
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニコランジル錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "Tw158",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2023年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の素錠 直径(mm) 5.0 厚さ(mm) 2.2"
+    },
+    {
+      "product_name": "ニコランジル錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "Tw",
+      "imprint_back": "117",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2023年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入りの素錠 本体 Tw／117（表／裏） 直径(mm) 5.0 厚さ(mm) 2.1"
+    }
+  ],
+  "expected_products": [
+    "ニコランジル錠2.5mg「トーワ」",
+    "ニコランジル錠5mg「トーワ」"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "300166_2189016F1044_2_07",
+  "source_file": "300166_2189016F1044_2_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2189016F1044_2_07",
+  "extracted_at": "2026-11-09T14:53:14.996Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27249,
+    "output": 4235
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチン Ca 錠 1mg「FFP」",
+      "strength": "1mg",
+      "imprint_front": "FF 271",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の図は判読しにくい部分があるため、表の識別コード欄の記載に基づく。裏面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 ／ サイズ 直径 約6.1mm 厚さ 約2.7mm ／ 識別コード FF 271"
+    },
+    {
+      "product_name": "ピタバスタチン Ca 錠 2mg「FFP」",
+      "strength": "2mg",
+      "imprint_front": "FF 272",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ごくうすい黄赤色の割線入りフィルムコーティング錠 ／ サイズ 直径 約7.1mm 厚さ 約3.0mm ／ 識別コード FF 272"
+    },
+    {
+      "product_name": "ピタバスタチン Ca 錠 4mg「FFP」",
+      "strength": "4mg",
+      "imprint_front": "FF 273",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2024年7月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ごくうすい黄赤色の割線入りフィルムコーティング錠 ／ サイズ 直径 約8.6mm 厚さ 約3.9mm ／ 識別コード FF 273"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa錠1mg「FFP」"
+  ]
+}

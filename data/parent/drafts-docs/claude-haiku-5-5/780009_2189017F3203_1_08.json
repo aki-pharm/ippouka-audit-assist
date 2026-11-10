@@ -1,0 +1,50 @@
+{
+  "id": "780009_2189017F3203_1_08",
+  "source_file": "780009_2189017F3203_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2189017F3203_1_08",
+  "extracted_at": "2026-11-09T14:56:11.451Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29611,
+    "output": 2405
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチンOD錠2.5mg「明治」",
+      "strength": "2.5mg",
+      "imprint_front": "なし",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は社名マーク「明治」のみと画像から判読。裏面の刻印は判読できず",
+      "color": "黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ロスバスタチンOD錠2.5mg「明治」 割線入り 素錠 黄赤色 直径（mm）6.1 厚さ（mm）2.3 重量（mg）80"
+    },
+    {
+      "product_name": "ロスバスタチンOD錠5mg「明治」",
+      "strength": "5mg",
+      "imprint_front": "なし",
+      "imprint_back": "5",
+      "imprint_note": "表の刻印は社名マーク「明治」のみと画像から判読。裏面は画像から「5」と判読",
+      "color": "黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "ロスバスタチンOD錠5mg「明治」 割線入り 素錠 黄赤色 直径（mm）7.6 厚さ（mm）3.0 重量（mg）160"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチンOD錠2.5mg「明治」",
+    "ロスバスタチンOD錠5mg「明治」"
+  ]
+}

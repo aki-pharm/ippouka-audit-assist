@@ -1,0 +1,50 @@
+{
+  "id": "460028_3969007F1253_1_09",
+  "source_file": "460028_3969007F1253_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3969007F1253_1_09",
+  "extracted_at": "2026-11-09T15:31:17.641Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22529,
+    "output": 1710
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠15mg「TSU」",
+      "strength": "15mg",
+      "imprint_front": "TSU 587",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色～帯黄白色 大きさ 直径 約6.0mm 厚さ 約2.4mm 識別コード TSU 587"
+    },
+    {
+      "product_name": "ピオグリタゾン錠30mg「TSU」",
+      "strength": "30mg",
+      "imprint_front": "TSU 588",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 白色～帯黄白色 大きさ 直径 約7.0mm 厚さ 約2.5mm 識別コード TSU 588"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾン錠15mg「TSU」",
+    "ピオグリタゾン錠30mg「TSU」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "400073_4490026F2199_1_06",
+  "source_file": "400073_4490026F2199_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_4490026F2199_1_06",
+  "extracted_at": "2026-11-09T15:45:24.082Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22904,
+    "output": 2164
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg｢科研｣",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "科研",
+      "imprint_note": "識別コードDK551は包装表示とされている。錠剤表面の刻印は図から判読できず未確認。裏面の「科研」は図中の文字。",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色 明るい灰黄色 直径 6.1mm 厚さ 3.4mm 質量 103mg 識別コード DK551（包装表示）"
+    },
+    {
+      "product_name": "モンテルカスト錠10mg｢科研｣",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "科研",
+      "imprint_note": "識別コードDK552は包装表示とされている。錠剤表面の刻印は図から判読できず未確認。裏面の「科研」は図中の文字。",
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色 明るい灰黄色 直径 8.1mm 厚さ 4.0mm 質量 205mg 識別コード DK552（包装表示）"
+    }
+  ],
+  "expected_products": [
+    "モンテルカスト錠10mg「科研」",
+    "モンテルカスト錠5mg「科研」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "300119_2144002F1300_1_07",
+  "source_file": "300119_2144002F1300_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2144002F1300_1_07",
+  "extracted_at": "2026-11-09T14:29:28.700Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23167,
+    "output": 4413
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エナラプリルマレイン酸塩錠2.5mg「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "SW 720",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい黄赤色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 性状 うすい黄赤色 うすい桃色 直径（mm） 5.0 6.0 8.0 厚さ（mm） 2.0 2.4 3.0 重量（mg） 約50 約90 約200 識別コード SW 720 SW 721 SW 735"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW 721",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 性状 うすい黄赤色 うすい桃色 直径（mm） 5.0 6.0 8.0 厚さ（mm） 2.0 2.4 3.0 重量（mg） 約50 約90 約200 識別コード SW 720 SW 721 SW 735"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠10㎎「サワイ」",
+      "strength": "10㎎",
+      "imprint_front": "SW 735",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 性状 うすい黄赤色 うすい桃色 直径（mm） 5.0 6.0 8.0 厚さ（mm） 2.0 2.4 3.0 重量（mg） 約50 約90 約200 識別コード SW 720 SW 721 SW 735"
+    }
+  ],
+  "expected_products": [
+    "エナラプリルマレイン酸塩錠10㎎「サワイ」",
+    "エナラプリルマレイン酸塩錠2.5mg「サワイ」",
+    "エナラプリルマレイン酸塩錠5mg「サワイ」"
+  ]
+}

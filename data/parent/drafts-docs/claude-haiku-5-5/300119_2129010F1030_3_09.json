@@ -1,0 +1,33 @@
+{
+  "id": "300119_2129010F1030_3_09",
+  "source_file": "300119_2129010F1030_3_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2129010F1030_3_09",
+  "extracted_at": "2026-11-09T14:26:06.773Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23295,
+    "output": 1269
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アミオダロン塩酸塩錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW ADN",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 性状 白色～微黄色 直径（mm） 8.0 厚さ（mm） 3.4 重量（mg） 約187 識別コード SW ADN"
+    }
+  ],
+  "expected_products": [
+    "アミオダロン塩酸塩錠100mg「サワイ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "380087_2171014G1305_1_08",
+  "source_file": "380087_2171014G1305_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2171014G1305_1_08",
+  "extracted_at": "2026-11-09T14:45:15.463Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20999,
+    "output": 2572
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニフェジピンL錠10mg「ZE」",
+      "strength": "10mg",
+      "imprint_front": "ZE01",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": null,
+      "size_long_mm": 5.6,
+      "size_short_mm": null,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡赤色 剤形 フィルムコーティング錠（徐放錠） 外形 錠径（mm） 5.6 6.2 厚み（mm） 3.5 3.2 重量（mg） 83 83 識別コード ZE01、10 ZE02、20"
+    },
+    {
+      "product_name": "ニフェジピンL錠20mg「ZE」",
+      "strength": "20mg",
+      "imprint_front": "ZE02",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": null,
+      "size_long_mm": 6.2,
+      "size_short_mm": null,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "色調 淡赤色 剤形 フィルムコーティング錠（徐放錠） 外形 錠径（mm） 5.6 6.2 厚み（mm） 3.5 3.2 重量（mg） 83 83 識別コード ZE01、10 ZE02、20"
+    }
+  ],
+  "expected_products": [
+    "ニフェジピンL錠10mg「ZE」",
+    "ニフェジピンL錠20mg「ZE」"
+  ]
+}

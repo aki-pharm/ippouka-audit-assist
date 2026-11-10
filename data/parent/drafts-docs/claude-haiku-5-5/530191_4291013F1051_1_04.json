@@ -1,0 +1,33 @@
+{
+  "id": "530191_4291013F1051_1_04",
+  "source_file": "530191_4291013F1051_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530191_4291013F1051_1_04",
+  "extracted_at": "2026-11-09T15:36:22.783Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28893,
+    "output": 1290
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ゲフィチニブ錠250mg「NK」",
+      "strength": "250mg",
+      "imprint_front": "ゲフィチニブNK250",
+      "imprint_back": "ゲフィチニブNK250",
+      "imprint_note": null,
+      "color": "褐色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 褐色のフィルムコーティング錠 外形（表・裏） 直径 約9.1mm 厚さ 約5.5mm 質量 約0.34g 本体表示 ゲフィチニブNK250"
+    }
+  ],
+  "expected_products": [
+    "ゲフィチニブ錠250mg「NK」"
+  ]
+}

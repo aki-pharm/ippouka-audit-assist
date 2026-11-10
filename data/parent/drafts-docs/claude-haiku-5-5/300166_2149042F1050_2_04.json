@@ -1,0 +1,67 @@
+{
+  "id": "300166_2149042F1050_2_04",
+  "source_file": "300166_2149042F1050_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2149042F1050_2_04",
+  "extracted_at": "2026-11-09T14:38:41.014Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22983,
+    "output": 2080
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「FFP」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像から刻印を判読できず",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄色の素錠；サイズ 直径 約6.0mm 重量 約85mg 厚さ 約2.4mm"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「FFP」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像から刻印を判読できず",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～微黄色の割線入り素錠；サイズ 直径 約8.0mm 重量 約170mg 厚さ 約2.9mm"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「FFP」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像から刻印を判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.95,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠；サイズ 直径 約10.0mm 重量 約345mg 厚さ 約4.95mm"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「FFP」",
+    "テルミサルタン錠40mg「FFP」",
+    "テルミサルタン錠80mg「FFP」"
+  ]
+}

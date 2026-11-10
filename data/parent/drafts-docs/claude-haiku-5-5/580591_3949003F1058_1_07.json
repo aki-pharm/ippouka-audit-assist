@@ -1,0 +1,66 @@
+{
+  "id": "580591_3949003F1058_1_07",
+  "source_file": "580591_3949003F1058_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3949003F1058_1_07",
+  "extracted_at": "2026-11-09T15:25:33.228Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29447,
+    "output": 5672
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠 10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載：フェブキソスタット 10 JG（表裏の別は未確認）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2025年7月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の円形のフィルムコーティング錠 直径 6.1mm 厚さ 2.3mm 重量 66mg"
+    },
+    {
+      "product_name": "フェブキソスタット錠 20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載：フェブキソ JG 20／フェブキソスタット 20 JG（表裏の別は未確認）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年7月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の円形の片面割線入りフィルムコーティング錠 直径 7.1mm 厚さ 3.1mm 重量 129mg"
+    },
+    {
+      "product_name": "フェブキソスタット錠 40mg「JG」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載：フェブキソ JG 40／フェブキソスタット 40 JG（表裏の別は未確認）",
+      "color": "未確認",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2025年7月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "面割線入りフィルムコーティング錠 直径 8.6mm 厚さ 4.3mm 重量 258mg"
+    }
+  ],
+  "expected_products": [
+    "フェブキソスタット錠10mg「JG」",
+    "フェブキソスタット錠20mg「JG」"
+  ]
+}

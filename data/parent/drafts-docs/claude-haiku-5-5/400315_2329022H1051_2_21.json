@@ -1,0 +1,50 @@
+{
+  "id": "400315_2329022H1051_2_21",
+  "source_file": "400315_2329022H1051_2_21.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400315_2329022H1051_2_21",
+  "extracted_at": "2026-11-09T15:05:56.589Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30476,
+    "output": 2329
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オメプラゾン錠10mg",
+      "strength": "10mg",
+      "imprint_front": "Y-OM10",
+      "imprint_back": "未確認",
+      "imprint_note": "表の識別コードはY-OM10のみ記載。裏面の刻印は記載なし。割線の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状：白色・フィルムコーティング錠（腸溶錠）／識別コード：Y-OM10／サイズ：直径6.2mm、厚さ2.8mm、重量96.5mg"
+    },
+    {
+      "product_name": "オメプラゾン錠20mg",
+      "strength": "20mg",
+      "imprint_front": "Y-OM20",
+      "imprint_back": "未確認",
+      "imprint_note": "表の識別コードはY-OM20のみ記載。裏面の刻印は記載なし。割線の記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状：白色・フィルムコーティング錠（腸溶錠）／識別コード：Y-OM20／サイズ：直径7.2mm、厚さ3.2mm、重量143mg"
+    }
+  ],
+  "expected_products": [
+    "オメプラゾン錠10mg",
+    "オメプラゾン錠20mg"
+  ]
+}

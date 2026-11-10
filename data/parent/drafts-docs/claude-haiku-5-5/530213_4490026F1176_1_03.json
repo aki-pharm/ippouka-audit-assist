@@ -1,0 +1,33 @@
+{
+  "id": "530213_4490026F1176_1_03",
+  "source_file": "530213_4490026F1176_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_4490026F1176_1_03",
+  "extracted_at": "2026-11-09T15:44:24.752Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23390,
+    "output": 1404
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカストチュアブル錠5mg「ケミファ」",
+      "strength": "5mg",
+      "imprint_front": "モンテルカスト チュアブル 5 ケミファ",
+      "imprint_back": "モンテルカスト チュアブル 5 ケミファ",
+      "imprint_note": null,
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 うすい赤色のチェリーのようなにおいのする素錠 外形 直径 9.6mm 厚さ 4.3mm 重量 300.0mg 識別コード モンテルカスト チュアブル 5 ケミファ"
+    }
+  ],
+  "expected_products": [
+    "モンテルカストチュアブル錠5mg「ケミファ」"
+  ]
+}

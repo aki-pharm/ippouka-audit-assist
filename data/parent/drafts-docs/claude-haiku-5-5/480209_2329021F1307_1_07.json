@@ -1,0 +1,33 @@
+{
+  "id": "480209_2329021F1307_1_07",
+  "source_file": "480209_2329021F1307_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2329021F1307_1_07",
+  "extracted_at": "2026-11-09T15:05:47.693Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14166,
+    "output": 1439
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「杏林」",
+      "strength": "100mg",
+      "imprint_front": "KRM110",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKRM110のみ記載。図の裏面に刻印は確認できないが、文書に「なし」の明記はない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 直径(mm) 8.1 厚さ(mm) 3.5 質量(mg) 175 識別コード KRM110"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「杏林」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "530100_2432002F1054_3_01",
+  "source_file": "530100_2432002F1054_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2432002F1054_3_01",
+  "extracted_at": "2026-11-09T15:11:57.234Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12136,
+    "output": 1284
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "チウラジール錠 50mg",
+      "strength": "50mg",
+      "imprint_front": "TT",
+      "imprint_back": "252",
+      "imprint_note": "識別コードはTT252。表裏の刻印は添付文書の図から判読",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径7.2mm 厚さ約3.5mm 重量115mg 識別コード TT252"
+    }
+  ],
+  "expected_products": [
+    "チウラジール錠50mg"
+  ]
+}

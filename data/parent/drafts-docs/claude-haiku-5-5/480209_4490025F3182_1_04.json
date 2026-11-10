@@ -1,0 +1,50 @@
+{
+  "id": "480209_4490025F3182_1_04",
+  "source_file": "480209_4490025F3182_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_4490025F3182_1_04",
+  "extracted_at": "2026-11-09T15:42:46.311Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22621,
+    "output": 2214
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩OD錠2.5mg「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "KRM287",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に「OD 2.5」の表示あり（外形図より）",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 色調 ごくうすい黄色 外形 直径(mm) 6.5 8.0 厚さ(mm) 2.7 3.6 質量(mg) 100 200 識別コード KRM287 KRM288"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩OD錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "KRM288",
+      "imprint_back": "未確認",
+      "imprint_note": "表面に「OD 5」の表示あり（外形図より）",
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入り素錠 色調 ごくうすい黄色 外形 直径(mm) 6.5 8.0 厚さ(mm) 2.7 3.6 質量(mg) 100 200 識別コード KRM287 KRM288"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩OD錠2.5mg「杏林」",
+    "オロパタジン塩酸塩OD錠5mg「杏林」"
+  ]
+}

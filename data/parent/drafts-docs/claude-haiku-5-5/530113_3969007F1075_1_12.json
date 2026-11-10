@@ -1,0 +1,50 @@
+{
+  "id": "530113_3969007F1075_1_12",
+  "source_file": "530113_3969007F1075_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_3969007F1075_1_12",
+  "extracted_at": "2026-11-09T15:31:05.873Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18814,
+    "output": 1779
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠15mg「NS」",
+      "strength": "15mg",
+      "imprint_front": "NS 311",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": null,
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色の割線入りの素錠 外形 大きさ 錠径：7.0mm 錠厚：2.5mm 重量：120mg 識別コード NS 311"
+    },
+    {
+      "product_name": "ピオグリタゾン錠30mg「NS」",
+      "strength": "30mg",
+      "imprint_front": "NS 312",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": null,
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色の割線入りの素錠 外形 大きさ 錠径：7.0mm 錠厚：2.5mm 重量：120mg 識別コード NS 312"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾン錠15mg「NS」",
+    "ピオグリタゾン錠30mg「NS」"
+  ]
+}

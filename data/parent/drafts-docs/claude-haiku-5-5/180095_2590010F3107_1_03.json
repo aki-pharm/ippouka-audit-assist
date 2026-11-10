@@ -1,0 +1,82 @@
+{
+  "id": "180095_2590010F3107_1_03",
+  "source_file": "180095_2590010F3107_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2590010F3107_1_03",
+  "extracted_at": "2026-11-09T15:15:57.278Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24117,
+    "output": 2998
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシン錠2mg「オーハラ」",
+      "strength": "2mg",
+      "imprint_front": "シロドシン 2 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状 フィルムコーティング錠 白色～微黄白色 外形 直径：6.7mm 厚さ：3.2mm 質量 105mg 識別表示 シロドシン 2 オーハラ"
+    },
+    {
+      "product_name": "シロドシン錠4mg「オーハラ」",
+      "strength": "4mg",
+      "imprint_front": "シロドシン 4 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 11.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状 割線入りフィルムコーティング錠 白色～微黄白色 外形 長径：11.2mm 短径：6.2mm 厚さ：3.6mm 質量 208mg 識別表示 シロドシン 4 オーハラ"
+    },
+    {
+      "product_name": "シロドシンOD錠2mg「オーハラ」",
+      "strength": "2mg",
+      "imprint_front": "シロドシン OD2 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状 素錠（口腔内崩壊錠） 淡黄赤色 外形 直径：6.5mm 厚さ：3.0mm 質量 105mg 識別表示 シロドシン OD2 オーハラ"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「オーハラ」",
+      "strength": "4mg",
+      "imprint_front": "シロドシン OD4 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状 割線入り素錠（口腔内崩壊錠） 淡黄赤色 外形 直径：8.0mm 厚さ：3.9mm 質量 210mg 識別表示 シロドシン OD4 オーハラ"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「オーハラ」",
+    "シロドシン錠2mg「オーハラ」"
+  ]
+}

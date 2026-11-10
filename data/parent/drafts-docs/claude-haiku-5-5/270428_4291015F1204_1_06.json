@@ -1,0 +1,33 @@
+{
+  "id": "270428_4291015F1204_1_06",
+  "source_file": "270428_4291015F1204_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_4291015F1204_1_06",
+  "extracted_at": "2026-11-09T15:36:58.834Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23286,
+    "output": 1772
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レトロゾール錠2.5mg「サンド」",
+      "strength": "1錠中レトロゾールとして2.5mg",
+      "imprint_front": "LTZ Sz",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTP欄に記載のものを刻印として記載。表裏の刻印は本文に明記なし",
+      "color": "帯赤黄色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年12月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 帯赤黄色のフィルムコーティング錠 ／ 識別コード（PTP） LTZ Sz ／ 大きさ（約） 直径：6.2mm　厚さ：3.2mm　質量：0.10g"
+    }
+  ],
+  "expected_products": [
+    "レトロゾール錠2.5mg「サンド」"
+  ]
+}

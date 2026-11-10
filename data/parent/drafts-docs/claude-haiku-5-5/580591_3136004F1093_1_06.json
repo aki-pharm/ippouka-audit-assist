@@ -1,0 +1,50 @@
+{
+  "id": "580591_3136004F1093_1_06",
+  "source_file": "580591_3136004F1093_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3136004F1093_1_06",
+  "extracted_at": "2026-11-09T15:17:55.393Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12358,
+    "output": 2135
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メコバラミン錠250μg「JG」",
+      "strength": "250μg",
+      "imprint_front": "メコバラミン 250 JG",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい赤色のフィルムコーティング錠 直径 7.1mm 厚さ 4.0mm 重量 152mg"
+    },
+    {
+      "product_name": "メコバラミン錠500μg「JG」",
+      "strength": "500μg",
+      "imprint_front": "メコバラミン 500 JG",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 直径 7.2mm 厚さ 4.0mm 重量 151mg"
+    }
+  ],
+  "expected_products": [
+    "メコバラミン錠250μg「JG」",
+    "メコバラミン錠500μg「JG」"
+  ]
+}

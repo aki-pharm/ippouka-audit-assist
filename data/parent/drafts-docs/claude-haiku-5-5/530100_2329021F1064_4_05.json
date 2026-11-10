@@ -1,0 +1,33 @@
+{
+  "id": "530100_2329021F1064_4_05",
+  "source_file": "530100_2329021F1064_4_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2329021F1064_4_05",
+  "extracted_at": "2026-11-09T15:05:08.799Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16717,
+    "output": 1277
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「NP」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図では表面・裏面の刻印を文字として判読できないため未確認とした",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年10月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 8.1 3.4 175（直径8.1mm、厚さ3.4mm、重量175mg）"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「NP」"
+  ]
+}

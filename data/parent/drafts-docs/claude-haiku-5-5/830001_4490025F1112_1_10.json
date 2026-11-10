@@ -1,0 +1,50 @@
+{
+  "id": "830001_4490025F1112_1_10",
+  "source_file": "830001_4490025F1112_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_4490025F1112_1_10",
+  "extracted_at": "2026-11-09T15:43:16.285Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22232,
+    "output": 2406
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「YD」",
+      "strength": "2.5mg",
+      "imprint_front": "YD 222",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄赤色のフィルムコーティング錠 外形 直径 約6.1mm 厚さ 約3.2mm"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "YD 223",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡黄赤色の片面割線入り フィルムコーティング錠 外形 直径 約7.1mm 厚さ 約3.1mm"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「YD」",
+    "オロパタジン塩酸塩錠5mg「YD」"
+  ]
+}

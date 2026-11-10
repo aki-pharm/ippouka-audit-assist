@@ -1,0 +1,33 @@
+{
+  "id": "670156_2499011M1140_1_03",
+  "source_file": "670156_2499011M1140_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670156_2499011M1140_1_03",
+  "extracted_at": "2026-11-09T15:13:18.164Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21175,
+    "output": 1300
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュタステリドカプセル0.5mgAV「フソー」",
+      "strength": "0.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードFS-D13はPTPシートに表示とあり、カプセル本体の刻印の記載はない",
+      "color": "無色～淡黄褐色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 無色～淡黄褐色の透明又はわずかに半透明の球形の軟カプセル剤 外形 ○（球形） 直径 7.0mm"
+    }
+  ],
+  "expected_products": [
+    "デュタステリドカプセル0.5mgAV「フソー」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "530169_2189017F1227_1_14",
+  "source_file": "530169_2189017F1227_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2189017F1227_1_14",
+  "extracted_at": "2026-11-09T14:56:37.761Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29559,
+    "output": 2858
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠2.5mg「日医工」",
+      "strength": "2.5mg",
+      "imprint_front": "ロスバスタチン 2.5 日医工",
+      "imprint_back": "2.5 日医工",
+      "imprint_note": null,
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 うすい赤みの黄色～くすんだ赤みの黄色 直径（mm） 5.6 厚さ（mm） 3.0 質量（mg） 80 本体表示 ロスバスタチン 2.5 日医工"
+    },
+    {
+      "product_name": "ロスバスタチン錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "ロスバスタチン 5 日医工",
+      "imprint_back": "5 日医工",
+      "imprint_note": null,
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 うすい赤みの黄色～くすんだ赤みの黄色 直径（mm） 7.1 厚さ（mm） 3.6 質量（mg） 150 本体表示 ロスバスタチン 5 日医工"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチン錠2.5mg「日医工」",
+    "ロスバスタチン錠5mg「日医工」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "180079_2329021F1331_1_02",
+  "source_file": "180079_2329021F1331_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180079_2329021F1331_1_02",
+  "extracted_at": "2026-11-09T15:05:29.630Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13878,
+    "output": 1506
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「オーツカ」",
+      "strength": "100mg",
+      "imprint_front": "レバミピド／オーツカの表記（外形図の画像から判読、文字情報としての記載なし）",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の外形図（画像）に円形の表記が2つ描かれているが、本文に刻印の記載はなく判読は不確実。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2021年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコート錠 外形 直径（mm） 8.1 厚さ（mm） 3.4 重さ（mg） 約175"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「オーツカ」"
+  ]
+}

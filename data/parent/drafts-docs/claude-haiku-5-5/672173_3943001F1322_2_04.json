@@ -1,0 +1,50 @@
+{
+  "id": "672173_3943001F1322_2_04",
+  "source_file": "672173_3943001F1322_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_3943001F1322_2_04",
+  "extracted_at": "2026-11-09T15:24:05.016Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16077,
+    "output": 2199
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠 50mg「アメル」",
+      "strength": "50mg",
+      "imprint_front": "Kw023/50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "アロプリノール錠 50mg「アメル」 素錠 Kw023/50 白色～微黄白色 直径：約 6.5mm 厚さ：約 2.2mm 質量：約 100.0mg"
+    },
+    {
+      "product_name": "アロプリノール錠 100mg「アメル」",
+      "strength": "100mg",
+      "imprint_front": "KW028",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年6月改訂",
+      "source_page": 1,
+      "source_quote": "アロプリノール錠 100mg「アメル」 素錠 KW028 白色 直径：約 9.6mm 厚さ：約 3.9mm 質量：約 300.0mg"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「アメル」（旧製品）",
+    "アロプリノール錠50mg「アメル」（旧製品）"
+  ]
+}

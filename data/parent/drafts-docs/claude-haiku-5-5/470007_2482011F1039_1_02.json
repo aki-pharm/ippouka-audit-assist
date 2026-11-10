@@ -1,0 +1,49 @@
+{
+  "id": "470007_2482011F1039_1_02",
+  "source_file": "470007_2482011F1039_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2482011F1039_1_02",
+  "extracted_at": "2026-11-09T15:12:51.112Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27932,
+    "output": 2653
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドロエチ配合錠「あすか」（実薬錠）",
+      "strength": "ドロスピレノン3mg・エチニルエストラジオール0.02mg",
+      "imprint_front": "AK364",
+      "imprint_back": "未確認",
+      "imprint_note": "表の図に「AK」の表示あり。識別コードAK364の刻印面は明記なし",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 淡赤色フィルムコーティング錠 ... 直径約6mm　厚さ約2.6mm　質量約83mg 識別コード AK364"
+    },
+    {
+      "product_name": "ドロエチ配合錠「あすか」（プラセボ錠）",
+      "strength": "プラセボ（有効成分なし）",
+      "imprint_front": "AK364",
+      "imprint_back": "未確認",
+      "imprint_note": "表の図に「AK」の表示あり。識別コードAK364の刻印面は明記なし。識別コードは実薬錠と同じ行に記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 白色フィルムコーティング錠 ... 直径約6mm　厚さ約2.6mm　質量約83mg 識別コード AK364"
+    }
+  ],
+  "expected_products": [
+    "ドロエチ配合錠「あすか」"
+  ]
+}

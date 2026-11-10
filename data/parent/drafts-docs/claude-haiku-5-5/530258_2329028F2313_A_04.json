@@ -1,0 +1,33 @@
+{
+  "id": "530258_2329028F2313_A_04",
+  "source_file": "530258_2329028F2313_A_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2329028F2313_A_04",
+  "extracted_at": "2026-11-09T15:06:39.331Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19404,
+    "output": 2307
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラベプラゾールNa錠20mg「AFP」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄に「ラベプラゾール 20 AFP」と記載されているが、表裏のどちらに刻印されるかは本文から確認できない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年7月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色・腸溶フィルムコーティング錠 外形 直径(mm) 約7.2 厚さ(mm) 約3.8 識別コード ラベプラゾール 20 AFP 質量(mg) 142"
+    }
+  ],
+  "expected_products": [
+    "ラベプラゾールNa錠20mg「AFP」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "480235_3969004F1152_1_17",
+  "source_file": "480235_3969004F1152_1_17.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3969004F1152_1_17",
+  "extracted_at": "2026-11-09T15:29:56.315Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21243,
+    "output": 1891
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボグリボース錠0.2mg「トーワ」",
+      "strength": "0.2mg",
+      "imprint_front": "Tw152",
+      "imprint_back": "0.2",
+      "imprint_note": "割線あり（裏面に割線の記載あり）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の割線入りの素錠 ... 識別コード Tw152 ... 直径(mm) 7.0 厚さ(mm) 2.6 質量(mg) 130"
+    },
+    {
+      "product_name": "ボグリボース錠0.3mg「トーワ」",
+      "strength": "0.3mg",
+      "imprint_front": "Tw153",
+      "imprint_back": "0.3",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の素錠 ... 識別コード Tw153 ... 直径(mm) 8.0 厚さ(mm) 3.0 質量(mg) 195"
+    }
+  ],
+  "expected_products": [
+    "ボグリボース錠0.2mg「トーワ」",
+    "ボグリボース錠0.3mg「トーワ」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "480008_2129010F1065_2_10",
+  "source_file": "480008_2129010F1065_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480008_2129010F1065_2_10",
+  "extracted_at": "2026-11-09T14:25:59.214Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25707,
+    "output": 1740
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アミオダロン塩酸塩速崩錠50mg「TE」",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "TED1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の円形の素錠（割線入り）／直径 6.8mm 厚さ 3.0mm 質量 130mg（識別コード TED1）"
+    },
+    {
+      "product_name": "アミオダロン塩酸塩速崩錠100mg「TE」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "TED2",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の円形の素錠（割線入り）／直径 9.0mm 厚さ 3.8mm 質量 260mg（識別コード TED2）"
+    }
+  ],
+  "expected_products": [
+    "アミオダロン塩酸塩速崩錠100mg「TE」"
+  ]
+}

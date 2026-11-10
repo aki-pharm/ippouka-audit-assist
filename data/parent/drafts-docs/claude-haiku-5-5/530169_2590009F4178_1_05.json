@@ -1,0 +1,67 @@
+{
+  "id": "530169_2590009F4178_1_05",
+  "source_file": "530169_2590009F4178_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2590009F4178_1_05",
+  "extracted_at": "2026-11-09T15:15:08.091Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13971,
+    "output": 2045
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジルOD錠25mg「日医工」",
+      "strength": "25mg",
+      "imprint_front": "ナフトピジル OD 25 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を刻印として記載。表裏の別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色 直径（mm） 7.1 厚さ（mm） 3.2"
+    },
+    {
+      "product_name": "ナフトピジルOD錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "ナフトピジル OD 50 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を刻印として記載。表裏の別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色 直径（mm） 9.1 厚さ（mm） 4.1"
+    },
+    {
+      "product_name": "ナフトピジルOD錠75mg「日医工」",
+      "strength": "75mg",
+      "imprint_front": "ナフトピジル OD 75 日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄の記載を刻印として記載。表裏の別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠） 色調 白色 直径（mm） 10.1 厚さ（mm） 4.9"
+    }
+  ],
+  "expected_products": [
+    "ナフトピジルOD錠25mg「日医工」",
+    "ナフトピジルOD錠50mg「日医工」",
+    "ナフトピジルOD錠75mg「日医工」"
+  ]
+}

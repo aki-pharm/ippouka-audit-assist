@@ -1,0 +1,33 @@
+{
+  "id": "670137_2359005F1277_1_02",
+  "source_file": "670137_2359005F1277_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670137_2359005F1277_1_02",
+  "extracted_at": "2026-11-09T15:08:06.862Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8876,
+    "output": 1322
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピコスルファートナトリウム錠2.5mg「FSK」",
+      "strength": "2.5mg",
+      "imprint_front": "FT2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 外形（図：直径6.1mm、厚さ3.0mm）識別コード FT2.5"
+    }
+  ],
+  "expected_products": [
+    "ピコスルファートナトリウム錠2.5mg「FSK」"
+  ]
+}

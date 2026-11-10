@@ -1,0 +1,50 @@
+{
+  "id": "470007_2190005F1330_1_02",
+  "source_file": "470007_2190005F1330_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2190005F1330_1_02",
+  "extracted_at": "2026-11-09T14:56:57.011Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12339,
+    "output": 1856
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イフェンプロジル酒石酸塩錠10mg「あすか」",
+      "strength": "10mg",
+      "imprint_front": "G223",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "直径6.0mm 厚さ2.5mm 質量90mg"
+    },
+    {
+      "product_name": "イフェンプロジル酒石酸塩錠20mg「あすか」",
+      "strength": "20mg",
+      "imprint_front": "G224",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "直径7.0mm 厚さ2.4mm 質量121mg"
+    }
+  ],
+  "expected_products": [
+    "イフェンプロジル酒石酸塩錠10mg「あすか」",
+    "イフェンプロジル酒石酸塩錠20mg「あすか」"
+  ]
+}

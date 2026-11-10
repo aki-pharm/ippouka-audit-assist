@@ -1,0 +1,33 @@
+{
+  "id": "530100_2239001F1750_1_04",
+  "source_file": "530100_2239001F1750_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2239001F1750_1_04",
+  "extracted_at": "2026-11-09T14:59:27.528Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9491,
+    "output": 1261
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠 15mg「NP」",
+      "strength": "15mg",
+      "imprint_front": "TP-107",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.9,
+      "size_short_mm": 6.9,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色割線入り素錠 6.9 2.4 115"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「NP」"
+  ]
+}

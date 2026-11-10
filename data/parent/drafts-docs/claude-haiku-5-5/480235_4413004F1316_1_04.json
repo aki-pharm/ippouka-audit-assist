@@ -1,0 +1,33 @@
+{
+  "id": "480235_4413004F1316_1_04",
+  "source_file": "480235_4413004F1316_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4413004F1316_1_04",
+  "extracted_at": "2026-11-09T15:37:49.411Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13618,
+    "output": 1477
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メキタジン錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "TwHP",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は「Tw」「HP」の2行表記。裏面の刻印は添付文書に明記なし。割線あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色の割線入り素錠 識別コード TwHP 外形 直径(mm) 8.0 厚さ(mm) 2.6 質量(mg) 170"
+    }
+  ],
+  "expected_products": [
+    "メキタジン錠3mg「トーワ」"
+  ]
+}

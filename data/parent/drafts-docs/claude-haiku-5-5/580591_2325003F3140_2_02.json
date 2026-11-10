@@ -1,0 +1,49 @@
+{
+  "id": "580591_2325003F3140_2_02",
+  "source_file": "580591_2325003F3140_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2325003F3140_2_02",
+  "extracted_at": "2026-11-09T15:02:04.844Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18634,
+    "output": 1714
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジン OD 錠 10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "1 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図上に刻印の記載が見当たらないが、文書に「なし」とは明記されていない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の素錠 表面 裏面 側面 1 JG 直径 7.5mm 厚さ 3.4mm 重量 150mg"
+    },
+    {
+      "product_name": "ファモチジン OD 錠 20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "2 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図上に刻印の記載が見当たらないが、文書に「なし」とは明記されていない",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2026年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の素錠 表面 裏面 側面 2 JG 直径 8.5mm 厚さ 4.0mm 重量 230mg"
+    }
+  ],
+  "expected_products": [
+    "ファモチジンOD錠20mg「JG」（旧製品）"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "300166_2149046F1155_1_03",
+  "source_file": "300166_2149046F1155_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2149046F1155_1_03",
+  "extracted_at": "2026-11-09T14:42:28.872Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19740,
+    "output": 2342
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠50mg「KMP」",
+      "strength": "50mg",
+      "imprint_front": "イルベサルタン 50 KMP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の表記を記載。表裏の刻印位置は画像から確認できず",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.6,
+      "size_short_mm": 4.5,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～帯黄白色 楕円形の割線入りのフィルムコーティング錠"
+    },
+    {
+      "product_name": "イルベサルタン錠100mg「KMP」",
+      "strength": "100mg",
+      "imprint_front": "イルベサルタン 100 KMP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の表記を記載。表裏の刻印位置は画像から確認できず",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11.1,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～帯黄白色 楕円形の割線入りのフィルムコーティング錠"
+    },
+    {
+      "product_name": "イルベサルタン錠200mg「KMP」",
+      "strength": "200mg",
+      "imprint_front": "イルベサルタン 200 KMP",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄の表記を記載。表裏の刻印位置は画像から確認できず",
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色～帯黄白色 楕円形の割線入りのフィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "イルベサルタン錠50mg「KMP」"
+  ]
+}

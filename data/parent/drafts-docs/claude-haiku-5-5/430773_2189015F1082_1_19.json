@@ -1,0 +1,49 @@
+{
+  "id": "430773_2189015F1082_1_19",
+  "source_file": "430773_2189015F1082_1_19.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2189015F1082_1_19",
+  "extracted_at": "2026-11-09T14:52:00.435Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28390,
+    "output": 1680
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図では刻印を判読できず。丸形の図柄の中に「5」らしき表示あり",
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "アトルバスタチン錠5mg「DSEP」 フィルムコーティング錠 ごくうすい紅色 5.6 3.1 72"
+    },
+    {
+      "product_name": "アトルバスタチン錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の図では刻印を判読できず。丸形の図柄の中に「10」らしき表示あり",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "アトルバスタチン錠10mg「DSEP」 白色 6.1 3.1 88"
+    }
+  ],
+  "expected_products": [
+    "アトルバスタチン錠5mg「DSEP」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "400186_2329021D1071_1_05",
+  "source_file": "400186_2329021D1071_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_2329021D1071_1_05",
+  "extracted_at": "2026-11-09T15:05:42.642Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15629,
+    "output": 1637
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「タカタ」",
+      "strength": "1錠中 レバミピド100mg",
+      "imprint_front": "TTS-325",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 直径 約7.6mm 重さ 約0.14g 厚さ 約3.3mm 識別コード TTS-325"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「タカタ」"
+  ]
+}

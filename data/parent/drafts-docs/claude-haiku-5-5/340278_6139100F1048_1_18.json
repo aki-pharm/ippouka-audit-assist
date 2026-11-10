@@ -1,0 +1,46 @@
+{
+  "id": "340278_6139100F1048_1_18",
+  "source_file": "340278_6139100F1048_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340278_6139100F1048_1_18",
+  "extracted_at": "2026-11-09T22:25:10.385Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19975,
+    "output": 2161
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オーグメンチン配合錠125SS",
+      "strength": "1錠中 日局クラブラン酸カリウム62.5mg（力価）、日局アモキシシリン水和物125mg（力価）",
+      "imprint_front": "GS610",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 13.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 5.1,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色のフィルムコーティング錠 識別コード GS610 表（長径×短径）13.1mm×7.1mm 裏 側面（厚さ）5.1mm 質量387mg"
+    },
+    {
+      "product_name": "オーグメンチン配合錠250RS",
+      "strength": "1錠中 日局クラブラン酸カリウム125mg（力価）、日局アモキシシリン水和物250mg（力価）",
+      "imprint_front": "GS609",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 16.1,
+      "size_short_mm": 7.6,
+      "thickness_mm": 6.6,
+      "score_line": null,
+      "source_revision": "2026年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "剤形・性状 白色のフィルムコーティング錠 識別コード GS609 表（長径×短径）16.1mm×7.6mm 裏 側面（厚さ）6.6mm 質量672mg"
+    }
+  ]
+}

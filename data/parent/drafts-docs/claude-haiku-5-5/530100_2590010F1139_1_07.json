@@ -1,0 +1,84 @@
+{
+  "id": "530100_2590010F1139_1_07",
+  "source_file": "530100_2590010F1139_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2590010F1139_1_07",
+  "extracted_at": "2026-11-09T15:16:22.932Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28062,
+    "output": 2753
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシン錠2mg「ニプロ」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像のみで刻印を判読できず",
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡赤白色のフィルムコーティング錠 直径6.7mm 厚さ3.1mm 重量110mg"
+    },
+    {
+      "product_name": "シロドシン錠4mg「ニプロ」",
+      "strength": "4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像のみで刻印を判読できず",
+      "color": "淡赤白色",
+      "shape": "oblong",
+      "size_long_mm": 11.3,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡赤白色の割線入りフィルムコーティング錠 （長径）11.3mm （短径）6.2mm 厚さ3.7mm 重量217mg"
+    },
+    {
+      "product_name": "シロドシンOD錠2mg「ニプロ」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像のみで刻印を判読できず",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.35,
+      "size_short_mm": 6.35,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄赤色の素錠（口腔内崩壊錠） 直径6.35mm 厚さ3.0mm 重量100mg"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「ニプロ」",
+      "strength": "4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "画像のみで刻印を判読できず",
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "淡黄赤色の割線入り素錠（口腔内崩壊錠） 直径8.0mm 厚さ3.9mm 重量200mg"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「ニプロ」",
+    "シロドシンOD錠4mg「ニプロ」",
+    "シロドシン錠2mg「ニプロ」",
+    "シロドシン錠4mg「ニプロ」"
+  ]
+}

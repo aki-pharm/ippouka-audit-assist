@@ -1,0 +1,82 @@
+{
+  "id": "530113_4490019F1060_1_10",
+  "source_file": "530113_4490019F1060_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_4490019F1060_1_10",
+  "extracted_at": "2026-11-09T15:40:01.249Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15969,
+    "output": 2921
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エバスチン錠5mg「NS」",
+      "strength": "5mg",
+      "imprint_front": "NS 416",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 白色のフィルムコーティング錠 外形 大きさ 錠径：6.1mm 錠厚：3.1mm 重量： 90mg 識別コード NS 416"
+    },
+    {
+      "product_name": "エバスチン錠10mg「NS」",
+      "strength": "10mg",
+      "imprint_front": "NS 417",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10.2,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "片面割線入りのキャプレット型の白色のフィルムコーティング錠 外形 大きさ 長径：10.2mm 短径： 5.1mm 錠厚： 3.7mm 重量： 180mg 識別コード NS 417"
+    },
+    {
+      "product_name": "エバスチンOD錠5mg「NS」",
+      "strength": "5mg",
+      "imprint_front": "NS 414",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 淡赤色の素錠 外形 大きさ 錠径：6.0mm 錠厚：2.2mm 重量： 85mg 識別コード NS 414"
+    },
+    {
+      "product_name": "エバスチンOD錠10mg「NS」",
+      "strength": "10mg",
+      "imprint_front": "NS 415",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性 状 白色の素錠 外形 大きさ 錠径：7.5mm 錠厚：3.2mm 重量：170mg 識別コード NS 415"
+    }
+  ],
+  "expected_products": [
+    "エバスチン錠10mg「NS」",
+    "エバスチン錠5mg「NS」"
+  ]
+}

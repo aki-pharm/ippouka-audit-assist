@@ -1,0 +1,33 @@
+{
+  "id": "460028_2399006C1190_1_05",
+  "source_file": "460028_2399006C1190_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2399006C1190_1_05",
+  "extracted_at": "2026-11-09T15:09:29.311Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13859,
+    "output": 1221
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トリメブチンマレイン酸塩錠100mg「ツルハラ」",
+      "strength": "100mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の製剤の性状欄に刻印の記載なし",
+      "color": "白色〜微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2022年7月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色〜微黄白色 大きさ 直径 約7.1mm 厚さ 約3.7mm 質量 約125mg"
+    }
+  ],
+  "expected_products": [
+    "トリメブチンマレイン酸塩錠100mg「ツルハラ」"
+  ]
+}

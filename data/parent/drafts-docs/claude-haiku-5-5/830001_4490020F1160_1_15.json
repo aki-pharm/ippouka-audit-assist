@@ -1,0 +1,50 @@
+{
+  "id": "830001_4490020F1160_1_15",
+  "source_file": "830001_4490020F1160_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_4490020F1160_1_15",
+  "extracted_at": "2026-11-09T15:40:22.313Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24830,
+    "output": 1558
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セチリジン塩酸塩錠5mg「YD」",
+      "strength": "5mg",
+      "imprint_front": "366",
+      "imprint_back": "未確認",
+      "imprint_note": "表側の数字は3.2製剤の性状欄の外形図より。裏面の刻印は図に示されていない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 外形 直径 約6.1mm 厚さ約2.9mm 重量 85mg"
+    },
+    {
+      "product_name": "セチリジン塩酸塩錠10mg「YD」",
+      "strength": "10mg",
+      "imprint_front": "367",
+      "imprint_back": "未確認",
+      "imprint_note": "表側の数字は3.2製剤の性状欄の外形図より。裏面の刻印は図に示されていない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 外形 直径 約7.1mm 厚さ約3.1mm 重量 125mg"
+    }
+  ],
+  "expected_products": [
+    "セチリジン塩酸塩錠10mg「YD」",
+    "セチリジン塩酸塩錠5mg「YD」"
+  ]
+}

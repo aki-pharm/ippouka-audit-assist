@@ -1,0 +1,50 @@
+{
+  "id": "480235_3961007F1212_1_05",
+  "source_file": "480235_3961007F1212_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3961007F1212_1_05",
+  "extracted_at": "2026-11-09T15:26:31.451Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16478,
+    "output": 1852
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリクラジド錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "Tw335",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入り素錠 識別コード Tw335 直径(mm) 6.5 厚さ(mm) 2.0"
+    },
+    {
+      "product_name": "グリクラジド錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "TwDG",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は割線のみ図示されており、文字刻印の記載は確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠で、におい及び味はない。 識別コード TwDG 直径(mm) 6.0 厚さ(mm) 2.3"
+    }
+  ],
+  "expected_products": [
+    "グリクラジド錠20mg「トーワ」",
+    "グリクラジド錠40mg「トーワ」"
+  ]
+}

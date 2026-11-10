@@ -1,0 +1,50 @@
+{
+  "id": "780009_3962002F2132_1_04",
+  "source_file": "780009_3962002F2132_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_3962002F2132_1_04",
+  "extracted_at": "2026-11-09T15:29:14.007Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29200,
+    "output": 1845
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトホルミン塩酸塩錠250mgMT「明治」",
+      "strength": "250mg",
+      "imprint_front": "MeP10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 白色～帯黄白色 直径（mm）9.2 厚さ（mm）4.2 重量（mg）286.95"
+    },
+    {
+      "product_name": "メトホルミン塩酸塩錠500mgMT「明治」",
+      "strength": "500mg",
+      "imprint_front": "MeP11",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oblong",
+      "size_long_mm": 15.9,
+      "size_short_mm": 7.4,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "割線入りフィルムコーティング錠 白色～帯黄白色 長径：15.9 短径：7.4 厚さ（mm）5.6 重量（mg）567.3"
+    }
+  ],
+  "expected_products": [
+    "メトホルミン塩酸塩錠250mgMT「明治」",
+    "メトホルミン塩酸塩錠500mgMT「明治」"
+  ]
+}

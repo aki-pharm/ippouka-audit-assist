@@ -1,0 +1,83 @@
+{
+  "id": "530258_2149026F1123_3_03",
+  "source_file": "530258_2149026F1123_3_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2149026F1123_3_03",
+  "extracted_at": "2026-11-09T14:31:30.935Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20215,
+    "output": 3555
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドキサゾシン錠0.5mg「EMEC」",
+      "strength": "0.5mg",
+      "imprint_front": "EE215",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「0.5」の刻印あり。表裏の対応は図からは確定できないため裏面は未確認とした",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ドキサゾシン錠0.5mg「EMEC」 白色の素錠 EE215 6.1 2.7 90"
+    },
+    {
+      "product_name": "ドキサゾシン錠1mg「EMEC」",
+      "strength": "1mg",
+      "imprint_front": "EE21",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「1」の刻印あり。表裏の対応は図からは確定できないため裏面は未確認とした",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ドキサゾシン錠1mg「EMEC」 白色の割線入りの素錠 EE21 8.0 3.3 170"
+    },
+    {
+      "product_name": "ドキサゾシン錠2mg「EMEC」",
+      "strength": "2mg",
+      "imprint_front": "EE22",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「2」の刻印あり。表裏の対応は図からは確定できないため裏面は未確認とした",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ドキサゾシン錠2mg「EMEC」 淡いだいだい色の割線入りの素錠 EE22 8.0 3.3 170"
+    },
+    {
+      "product_name": "ドキサゾシン錠4mg「EMEC」",
+      "strength": "4mg",
+      "imprint_front": "EE23",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「4」の刻印あり。表裏の対応は図からは確定できないため裏面は未確認とした",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2026年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "ドキサゾシン錠4mg「EMEC」 白色の割線入りの素錠 EE23 8.5 3.5 200"
+    }
+  ],
+  "expected_products": [
+    "ドキサゾシン錠0.5mg「EMEC」",
+    "ドキサゾシン錠1mg「EMEC」",
+    "ドキサゾシン錠2mg「EMEC」"
+  ]
+}

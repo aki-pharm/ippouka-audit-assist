@@ -1,0 +1,33 @@
+{
+  "id": "450064_6132015F1045_2_10",
+  "source_file": "450064_6132015F1045_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_6132015F1045_2_10",
+  "extracted_at": "2026-11-09T15:47:02.013Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17853,
+    "output": 1077
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "セフジトレンピボキシル錠100mg「CH」",
+      "strength": "100mg",
+      "imprint_front": "ch57",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 12.4,
+      "size_short_mm": 5.8,
+      "thickness_mm": 4.5,
+      "score_line": null,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色のフィルムコーティング錠 外形 大きさ 長径 12.4mm 短径 5.8mm 厚さ 4.5mm 重量 290mg 識別コード ch57"
+    }
+  ],
+  "expected_products": [
+    "セフジトレンピボキシル錠100mg「CH」"
+  ]
+}

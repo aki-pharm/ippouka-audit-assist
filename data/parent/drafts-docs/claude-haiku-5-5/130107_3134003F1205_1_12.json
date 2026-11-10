@@ -1,0 +1,49 @@
+{
+  "id": "130107_3134003F1205_1_12",
+  "source_file": "130107_3134003F1205_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130107_3134003F1205_1_12",
+  "extracted_at": "2026-11-09T15:17:44.252Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8681,
+    "output": 2036
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピリドキサール錠10mg「イセイ」",
+      "strength": "10mg",
+      "imprint_front": "IC-471",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏どちらに刻印されるかは添付文書に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 腸溶性糖衣錠 色調 白色 外形 直径 8.1mm 厚さ 約4.6mm 質量 240mg 識別コード IC-471"
+    },
+    {
+      "product_name": "ピリドキサール錠30mg「イセイ」",
+      "strength": "30mg",
+      "imprint_front": "PRD-30",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏どちらに刻印されるかは添付文書に明記なし",
+      "color": "だいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.6,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 腸溶性糖衣錠 色調 だいだい色 外形 直径 8.1mm 厚さ 約4.6mm 質量 240mg 識別コード PRD-30"
+    }
+  ],
+  "expected_products": [
+    "ピリドキサール錠30mg「イセイ」"
+  ]
+}

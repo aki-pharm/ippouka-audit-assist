@@ -1,0 +1,49 @@
+{
+  "id": "580591_2189015F1147_1_20",
+  "source_file": "580591_2189015F1147_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2189015F1147_1_20",
+  "extracted_at": "2026-11-09T14:52:08.339Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29478,
+    "output": 2369
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠 5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「5 アトルバスタチン JG」（表裏の別は本文から判読できず）",
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 5.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "アトルバスタチン錠 5mg「JG」 ごくうすい紅色のフィルムコーティング錠 直径 5.7mm 厚さ 3.0mm 重量 70mg 本体表示 5 アトルバスタチン JG"
+    },
+    {
+      "product_name": "アトルバスタチン錠 10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「10 アトルバスタチン JG」（表裏の別は本文から判読できず）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "アトルバスタチン錠 10mg「JG」 白色のフィルムコーティング錠 直径 6.2mm 厚さ 3.2mm 重量 87mg 本体表示 10 アトルバスタチン JG"
+    }
+  ],
+  "expected_products": [
+    "アトルバスタチン錠5mg「JG」"
+  ]
+}

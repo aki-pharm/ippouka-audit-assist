@@ -1,0 +1,33 @@
+{
+  "id": "300119_6149003F1090_1_22",
+  "source_file": "300119_6149003F1090_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_6149003F1090_1_22",
+  "extracted_at": "2026-11-09T15:47:24.829Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30432,
+    "output": 1230
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠50mg小児用「サワイ」",
+      "strength": "1錠中 日局クラリスロマイシン 50mg（力価）",
+      "imprint_front": "SW CM50",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性　状 白色 直径（mm） 6.1 厚さ（mm） 3.5 識別コード SW CM50"
+    }
+  ],
+  "expected_products": [
+    "クラリスロマイシン錠50mg小児用「サワイ」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "530258_3992001F1360_1_02",
+  "source_file": "530258_3992001F1360_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3992001F1360_1_02",
+  "extracted_at": "2026-11-09T15:32:20.489Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8173,
+    "output": 1851
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ATP腸溶錠20mg「AFP」",
+      "strength": "20mg",
+      "imprint_front": "NF609",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2021年1月改訂",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色・フィルムコーティング錠（腸溶錠）、識別コード NF609、直径7.0mm、厚さ3.7mm、重さ124mg"
+    }
+  ],
+  "expected_products": [
+    "ATP腸溶錠20mg「AFP」"
+  ]
+}

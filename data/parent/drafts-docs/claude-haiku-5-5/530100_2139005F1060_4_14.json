@@ -1,0 +1,67 @@
+{
+  "id": "530100_2139005F1060_4_14",
+  "source_file": "530100_2139005F1060_4_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2139005F1060_4_14",
+  "extracted_at": "2026-11-09T14:27:12.692Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20227,
+    "output": 2716
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フロセミド錠10mg「NP」",
+      "strength": "10mg",
+      "imprint_front": "NP-217",
+      "imprint_back": "10",
+      "imprint_note": "図中の社名マーク（NP）と数字を判読。割線入り",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "微赤色の割線入り素錠 7.0 3.0 150 NP-217"
+    },
+    {
+      "product_name": "フロセミド錠20mg「NP」",
+      "strength": "20mg",
+      "imprint_front": "NP-212",
+      "imprint_back": "20",
+      "imprint_note": "図中の社名マーク（NP）と数字を判読。割線入り",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "微黄色の割線入り素錠 7.1 3.0 150 NP-212"
+    },
+    {
+      "product_name": "フロセミド錠40mg「NP」",
+      "strength": "40mg",
+      "imprint_front": "NP-213",
+      "imprint_back": "40",
+      "imprint_note": "図中の社名マーク（NP）と数字を判読。割線入り",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 8.0 2.2 150 NP-213"
+    }
+  ],
+  "expected_products": [
+    "フロセミド錠10mg「NP」",
+    "フロセミド錠20mg「NP」",
+    "フロセミド錠40mg「NP」"
+  ]
+}

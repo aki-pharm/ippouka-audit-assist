@@ -1,0 +1,65 @@
+{
+  "id": "340409_3961008F4054_1_13",
+  "source_file": "340409_3961008F4054_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_3961008F4054_1_13",
+  "extracted_at": "2026-11-09T15:26:33.664Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25025,
+    "output": 2287
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリドOD錠0.5mg「ケミファ」",
+      "strength": "0.5mg",
+      "imprint_front": "GL0.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "薄い橙色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 2.1,
+      "score_line": false,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 薄い橙色の素錠 外形 直径 5.0 mm 厚さ 2.1 mm 重量 42.5 mg 識別コード GL0.5"
+    },
+    {
+      "product_name": "グリメピリドOD錠1mg「ケミファ」",
+      "strength": "1mg",
+      "imprint_front": "GL1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の片面1/2割線入りの素錠 外形 直径 6.0 mm 厚さ 3.0 mm 重量 85 mg 識別コード GL1"
+    },
+    {
+      "product_name": "グリメピリドOD錠3mg「ケミファ」",
+      "strength": "3mg",
+      "imprint_front": "GL3",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "薄い橙色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 薄い橙色の片面1/2割線入りの素錠 外形 直径 8.0 mm 厚さ 3.6 mm 重量 175 mg 識別コード GL3"
+    }
+  ],
+  "expected_products": [
+    "グリメピリドOD錠0.5mg「ケミファ」"
+  ]
+}

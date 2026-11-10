@@ -1,0 +1,33 @@
+{
+  "id": "340409_4490017M1052_1_14",
+  "source_file": "340409_4490017M1052_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340409_4490017M1052_1_14",
+  "extracted_at": "2026-11-09T15:39:03.121Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14250,
+    "output": 1326
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プランルカストカプセル112.5mg「科研」",
+      "strength": "112.5mg",
+      "imprint_front": "PLK",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして「PLK」の記載のみ。表裏の別は文書から確認できず。サイズは3号カプセルと記載（mm数値の記載なし）",
+      "color": "カプセル：白色～帯黄白色不透明（内容物は白色～淡黄色の粉末を含む粒）",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 硬カプセル剤 色 カプセル 白色～帯黄白色不透明 内容物 白色～淡黄色の粉末を含む粒 形状 サイズ 3号カプセル 識別コード PLK"
+    }
+  ],
+  "expected_products": [
+    "プランルカストカプセル112.5mg「科研」"
+  ]
+}

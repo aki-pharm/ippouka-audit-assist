@@ -1,0 +1,33 @@
+{
+  "id": "730869_3399007H1145_1_04",
+  "source_file": "730869_3399007H1145_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3399007H1145_1_04",
+  "extracted_at": "2026-11-09T15:22:12.620Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21040,
+    "output": 1275
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アスピリン腸溶錠100mg「VTRS」",
+      "strength": "100mg",
+      "imprint_front": "MH 448",
+      "imprint_back": "未確認",
+      "imprint_note": "上面に「MH 448」の刻印（識別コード MH 448）。下面の刻印は添付文書に記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色 フィルムコーティング錠 直径 7.2mm 厚さ 3.4mm 重量 138mg"
+    }
+  ],
+  "expected_products": [
+    "アスピリン腸溶錠100mg「VTRS」"
+  ]
+}

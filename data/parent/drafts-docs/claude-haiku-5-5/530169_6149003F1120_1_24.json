@@ -1,0 +1,33 @@
+{
+  "id": "530169_6149003F1120_1_24",
+  "source_file": "530169_6149003F1120_1_24.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_6149003F1120_1_24",
+  "extracted_at": "2026-11-09T15:47:27.787Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27916,
+    "output": 1578
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠50mg小児用「日医工」",
+      "strength": "50mg",
+      "imprint_front": "074",
+      "imprint_back": "なし",
+      "imprint_note": "表面には社名マーク（n）と識別コード074が並んで表示。社名マークは刻印として扱わず、コード074を刻印とした",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 外形 直径（mm） 6.1 厚さ（mm） 3.1 質量（mg） 85 本体コード 074 包装コード 074"
+    }
+  ],
+  "expected_products": [
+    "クラリスロマイシン錠50mg小児用「日医工」"
+  ]
+}

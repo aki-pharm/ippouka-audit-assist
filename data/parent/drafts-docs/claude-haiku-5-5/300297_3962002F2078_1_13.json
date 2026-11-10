@@ -1,0 +1,50 @@
+{
+  "id": "300297_3962002F2078_1_13",
+  "source_file": "300297_3962002F2078_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300297_3962002F2078_1_13",
+  "extracted_at": "2026-11-09T15:29:03.502Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29757,
+    "output": 1386
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトホルミン塩酸塩錠250mgMT「三和」",
+      "strength": "250mg",
+      "imprint_front": "Sc31",
+      "imprint_back": "250",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線を有する白色～帯黄白色の円形のフィルムコーティング錠 直径 9.2mm 厚さ 4.2mm 識別コード Sc31"
+    },
+    {
+      "product_name": "メトホルミン塩酸塩錠500mgMT「三和」",
+      "strength": "500mg",
+      "imprint_front": "Sc32",
+      "imprint_back": "500",
+      "imprint_note": null,
+      "color": "微黄色",
+      "shape": "oval",
+      "size_long_mm": 13.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 6.1,
+      "score_line": true,
+      "source_revision": "2023年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "割線を有する微黄色の楕円形のフィルムコーティング錠 長径 13.7mm 短径 8.7mm 厚さ 6.1mm 識別コード Sc32"
+    }
+  ],
+  "expected_products": [
+    "メトホルミン塩酸塩錠250mgMT「三和」",
+    "メトホルミン塩酸塩錠500mgMT「三和」"
+  ]
+}

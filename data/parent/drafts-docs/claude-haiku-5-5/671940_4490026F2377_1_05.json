@@ -1,0 +1,49 @@
+{
+  "id": "671940_4490026F2377_1_05",
+  "source_file": "671940_4490026F2377_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_4490026F2377_1_05",
+  "extracted_at": "2026-11-09T15:45:48.174Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21798,
+    "output": 2703
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「フェルゼン」",
+      "strength": "5mg",
+      "imprint_front": "モンテルカスト 5 フェルゼン",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年1月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "明るい灰黄色のフィルムコーティング錠である。直径：6.1mm 厚さ：3.4mm 質量：103mg"
+    },
+    {
+      "product_name": "モンテルカスト錠10mg「フェルゼン」",
+      "strength": "10mg",
+      "imprint_front": "モンテルカスト 10 フェルゼン",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年1月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "明るい灰黄色のフィルムコーティング錠である。直径：8.1mm 厚さ：4.0mm 質量：205mg"
+    }
+  ],
+  "expected_products": [
+    "モンテルカスト錠5mg「フェルゼン」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "730869_2149039F1376_1_06",
+  "source_file": "730869_2149039F1376_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2149039F1376_1_06",
+  "extracted_at": "2026-11-09T14:34:07.629Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23080,
+    "output": 2255
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロサルタンK錠25mg「VTRS」",
+      "strength": "25mg",
+      "imprint_front": "LO 25",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはLO 25（上面に表示）。下面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ロサルタンK錠25mg「VTRS」 LO 25 白色 フィルムコーティング錠 直径 6.1mm 厚さ 2.7mm 重量 79mg"
+    },
+    {
+      "product_name": "ロサルタンK錠50mg「VTRS」",
+      "strength": "50mg",
+      "imprint_front": "LO 50",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはLO 50（上面に表示）。下面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.65,
+      "size_short_mm": 7.65,
+      "thickness_mm": 3.65,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ロサルタンK錠50mg「VTRS」 LO 50 白色 フィルムコーティング錠 直径 7.65mm 厚さ 3.65mm 重量 156mg"
+    },
+    {
+      "product_name": "ロサルタンK錠100mg「VTRS」",
+      "strength": "100mg",
+      "imprint_front": "LO 100",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはLO 100（上面に表示）。下面の刻印は記載なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "ロサルタンK錠100mg「VTRS」 LO 100 白色 フィルムコーティング錠 直径 9.1mm 厚さ 4.3mm 重量 300mg"
+    }
+  ],
+  "expected_products": [
+    "ロサルタンK錠100mg「VTRS」",
+    "ロサルタンK錠25mg「VTRS」"
+  ]
+}

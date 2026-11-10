@@ -1,0 +1,49 @@
+{
+  "id": "270029_6241013F2349_1_04",
+  "source_file": "270029_6241013F2349_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_6241013F2349_1_04",
+  "extracted_at": "2026-11-09T15:48:19.147Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33487,
+    "output": 1586
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボフロキサシン錠250mg「クニヒロ」",
+      "strength": "250mg",
+      "imprint_front": "KS572",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKS572のみ記載（刻印面の表裏は明記なし）",
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 13.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の楕円形の割線入りフィルムコーティング錠 外形 長径×短径 13.6mm×6.6mm 厚さ 4.1mm"
+    },
+    {
+      "product_name": "レボフロキサシン錠500mg「クニヒロ」",
+      "strength": "500mg",
+      "imprint_front": "KS573",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKS573のみ記載（刻印面の表裏は明記なし）",
+      "color": "うすだいだい色",
+      "shape": "oval",
+      "size_long_mm": 16.2,
+      "size_short_mm": 7.9,
+      "thickness_mm": 5.6,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "うすだいだい色の楕円形の割線入りフィルムコーティング錠 外形 長径×短径 16.2mm×7.9mm 厚さ 5.6mm"
+    }
+  ],
+  "expected_products": [
+    "レボフロキサシン錠500mg「クニヒロ」"
+  ]
+}

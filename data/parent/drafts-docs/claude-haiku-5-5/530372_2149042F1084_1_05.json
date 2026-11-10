@@ -1,0 +1,65 @@
+{
+  "id": "530372_2149042F1084_1_05",
+  "source_file": "530372_2149042F1084_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_2149042F1084_1_05",
+  "extracted_at": "2026-11-09T14:38:58.311Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21107,
+    "output": 3413
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「NPI」",
+      "strength": "20mg",
+      "imprint_front": "テルミサルタン 20 NPI",
+      "imprint_back": "テルミサルタン 20 NPI",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコーティング錠 直径 6.1mm 厚さ 2.8mm 識別コード テルミサルタン 20 NPI"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「NPI」",
+      "strength": "40mg",
+      "imprint_front": "テルミサルタン 40 NPI",
+      "imprint_back": "テルミサルタン 40 NPI",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りのフィルムコーティング錠 直径 8.1mm 厚さ 3.3mm 識別コード テルミサルタン 40 NPI"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「NPI」",
+      "strength": "80mg",
+      "imprint_front": "テルミサルタン 80 NPI",
+      "imprint_back": "テルミサルタン 80 NPI",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りのフィルムコーティング錠 直径 10.1mm 厚さ 4.4mm 識別コード テルミサルタン 80 NPI"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「NPI」"
+  ]
+}

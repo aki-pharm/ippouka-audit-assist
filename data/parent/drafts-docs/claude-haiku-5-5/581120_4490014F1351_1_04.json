@@ -1,0 +1,50 @@
+{
+  "id": "581120_4490014F1351_1_04",
+  "source_file": "581120_4490014F1351_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_4490014F1351_1_04",
+  "extracted_at": "2026-11-09T15:38:35.067Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21068,
+    "output": 1666
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "EP 10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色〜微黄白色のフィルムコーティング錠 外形 直径 6.0mm 厚さ 2.8mm 質量 90mg 識別コード（PTP） EP 10"
+    },
+    {
+      "product_name": "エピナスチン塩酸塩錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "EP 20",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜微黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色〜微黄色のフィルムコーティング錠 外形 直径 8.1mm 厚さ 3.9mm 質量 200mg 識別コード（PTP） EP 20"
+    }
+  ],
+  "expected_products": [
+    "エピナスチン塩酸塩錠10mg「NIG」",
+    "エピナスチン塩酸塩錠20mg「NIG」"
+  ]
+}

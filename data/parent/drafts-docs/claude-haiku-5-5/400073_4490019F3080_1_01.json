@@ -1,0 +1,50 @@
+{
+  "id": "400073_4490019F3080_1_01",
+  "source_file": "400073_4490019F3080_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_4490019F3080_1_01",
+  "extracted_at": "2026-11-09T15:39:54.559Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16548,
+    "output": 1698
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エバスチンOD錠5mg｢科研｣",
+      "strength": "5mg",
+      "imprint_front": "KC77",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は文書に明記なし（図では裏面に刻印なしに見える）",
+      "color": "薄い紅色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2026年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色 薄い紅色 外形 直径 6.5mm 厚さ 2.6mm 識別コード KC77"
+    },
+    {
+      "product_name": "エバスチンOD錠10mg｢科研｣",
+      "strength": "10mg",
+      "imprint_front": "KC78",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は文書に明記なし（図では裏面に刻印なしに見える）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年11月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（割線入り） 色 白色 外形 直径 8.0mm 厚さ 3.6mm 識別コード KC78"
+    }
+  ],
+  "expected_products": [
+    "エバスチンOD錠10mg「科研」",
+    "エバスチンOD錠5mg「科研」"
+  ]
+}

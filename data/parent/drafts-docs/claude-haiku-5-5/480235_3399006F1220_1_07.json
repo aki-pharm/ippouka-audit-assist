@@ -1,0 +1,49 @@
+{
+  "id": "480235_3399006F1220_1_07",
+  "source_file": "480235_3399006F1220_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3399006F1220_1_07",
+  "extracted_at": "2026-11-09T15:22:01.452Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12626,
+    "output": 1409
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw741",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 / 識別コード Tw741 / 直径(mm) 6.6 / 厚さ(mm) 3.2"
+    },
+    {
+      "product_name": "サルポグレラート塩酸塩錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw742",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 / 識別コード Tw742 / 直径(mm) 8.1 / 厚さ(mm) 4.2"
+    }
+  ],
+  "expected_products": [
+    "サルポグレラート塩酸塩錠50mg「トーワ」"
+  ]
+}

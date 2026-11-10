@@ -1,0 +1,66 @@
+{
+  "id": "530258_3949003F1031_1_05",
+  "source_file": "530258_3949003F1031_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_3949003F1031_1_05",
+  "extracted_at": "2026-11-09T15:25:26.685Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29044,
+    "output": 6514
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠10mg「AFP」",
+      "strength": "10mg",
+      "imprint_front": "フェブキソ10 AFP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2025年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄色、円形のフィルムコーティング錠 フェブキソ10 約7.1 約3.3 AFP 129"
+    },
+    {
+      "product_name": "フェブキソスタット錠20mg「AFP」",
+      "strength": "20mg",
+      "imprint_front": "フェブキソ20 AFP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄色、円形の割線入りフィルムコーティング錠 フェブキソ20 約7.1 約3.2 AFP 129"
+    },
+    {
+      "product_name": "フェブキソスタット錠40mg「AFP」",
+      "strength": "40mg",
+      "imprint_front": "フェブキソ40 AFP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "未確認",
+      "shape": null,
+      "size_long_mm": 8.9,
+      "size_short_mm": null,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2025年6月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "フェブキソ40 約8.9 約4.1 AFP 256"
+    }
+  ],
+  "expected_products": [
+    "フェブキソスタット錠10mg「AFP」",
+    "フェブキソスタット錠20mg「AFP」"
+  ]
+}

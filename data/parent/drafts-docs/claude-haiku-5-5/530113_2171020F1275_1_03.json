@@ -1,0 +1,50 @@
+{
+  "id": "530113_2171020F1275_1_03",
+  "source_file": "530113_2171020F1275_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2171020F1275_1_03",
+  "extracted_at": "2026-11-09T14:45:57.083Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12798,
+    "output": 1685
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニトレンジピン錠5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "NS 531",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄白色のフィルムコーティング錠 錠径： 6.1mm 錠厚： 2.8mm 本体表示 NS 531"
+    },
+    {
+      "product_name": "ニトレンジピン錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "NS",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄白色で片面割線入りのフィルムコーティング錠 錠径：7.2mm 錠厚：2.8mm 本体表示 N S"
+    }
+  ],
+  "expected_products": [
+    "ニトレンジピン錠10mg「日新」",
+    "ニトレンジピン錠5mg「日新」"
+  ]
+}

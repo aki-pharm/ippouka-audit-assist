@@ -1,0 +1,33 @@
+{
+  "id": "400073_3999016F1057_2_05",
+  "source_file": "400073_3999016F1057_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_3999016F1057_2_05",
+  "extracted_at": "2026-11-09T15:33:22.891Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23579,
+    "output": 1266
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトトレキサート錠2mg｢ダイト｣",
+      "strength": "2mg",
+      "imprint_front": "DK553",
+      "imprint_back": "未確認",
+      "imprint_note": "表面は割線をはさんで「DK」「553」の識別コード。裏面の刻印は文書に記載なし",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": 12.1,
+      "size_short_mm": 5.6,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "片面に割線のある淡黄色の長円形の素錠 長径 12.1mm 短径 5.6mm 厚さ 4.0mm 質量 250mg 識別コード DK553"
+    }
+  ],
+  "expected_products": [
+    "メトトレキサート錠2mg「ダイト」"
+  ]
+}

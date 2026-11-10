@@ -1,0 +1,33 @@
+{
+  "id": "300119_2171011G1182_1_04",
+  "source_file": "300119_2171011G1182_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2171011G1182_1_04",
+  "extracted_at": "2026-11-09T14:44:51.306Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12688,
+    "output": 1172
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "硝酸イソソルビド徐放錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "SW 920",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表面（SW 920）。裏面の刻印は文書に明記なし（外形図上は刻印表示なしに見える）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤　形 素錠（徐放性） 性　状 白色 直径（mm） 8.0 厚さ（mm） 3.5 重量（mg） 約190 識別コード SW 920"
+    }
+  ],
+  "expected_products": [
+    "硝酸イソソルビド徐放錠20mg「サワイ」"
+  ]
+}

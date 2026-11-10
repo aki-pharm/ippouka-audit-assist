@@ -1,0 +1,49 @@
+{
+  "id": "480209_2149118F1097_1_08",
+  "source_file": "480209_2149118F1097_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149118F1097_1_08",
+  "extracted_at": "2026-11-09T14:43:18.972Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30995,
+    "output": 2429
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルアミクス配合錠LD「杏林」",
+      "strength": "イルベサルタン100mg及びアムロジピンとして5mg（1錠中）",
+      "imprint_front": "イルアミクス LD 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載による（表裏の別は明記なし）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～帯黄白色 うすいだいだい色 外形 本体表示 イルアミクス LD 杏林 イルアミクス HD 杏林 直径(mm) 8.1 8.1 厚さ(mm) 3.9 3.9"
+    },
+    {
+      "product_name": "イルアミクス配合錠HD「杏林」",
+      "strength": "イルベサルタン100mg及びアムロジピンとして10mg（1錠中）",
+      "imprint_front": "イルアミクス HD 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載による（表裏の別は明記なし）",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年1月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "色調 白色～帯黄白色 うすいだいだい色 外形 本体表示 イルアミクス LD 杏林 イルアミクス HD 杏林 直径(mm) 8.1 8.1 厚さ(mm) 3.9 3.9"
+    }
+  ],
+  "expected_products": [
+    "イルアミクス配合錠LD「杏林」"
+  ]
+}

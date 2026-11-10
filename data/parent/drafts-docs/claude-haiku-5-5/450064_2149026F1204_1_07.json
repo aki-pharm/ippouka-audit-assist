@@ -1,0 +1,83 @@
+{
+  "id": "450064_2149026F1204_1_07",
+  "source_file": "450064_2149026F1204_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2149026F1204_1_07",
+  "extracted_at": "2026-11-09T14:31:37.710Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18562,
+    "output": 3732
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドキサゾシン錠0.5mg「JG」",
+      "strength": "0.5mg",
+      "imprint_front": "ch126",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の素錠 / 大きさ 直径 6.1mm 厚さ 2.7mm / 識別コード ch126"
+    },
+    {
+      "product_name": "ドキサゾシン錠1mg「JG」",
+      "strength": "1mg",
+      "imprint_front": "ch75",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図のみで刻印の記載を判読できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 片面割線入りの白色の素錠 / 大きさ 直径 7.0mm 厚さ 2.5mm / 識別コード ch75"
+    },
+    {
+      "product_name": "ドキサゾシン錠2mg「JG」",
+      "strength": "2mg",
+      "imprint_front": "ch76",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図のみで刻印の記載を判読できず",
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 片面割線入りの淡いだいだい色の素錠 / 大きさ 直径 7.0mm 厚さ 2.5mm / 識別コード ch76"
+    },
+    {
+      "product_name": "ドキサゾシン錠4mg「JG」",
+      "strength": "4mg",
+      "imprint_front": "ch127",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色調・剤形 白色の割線入り素錠 / 大きさ 直径 8.1mm 厚さ 3.1mm / 識別コード ch127"
+    }
+  ],
+  "expected_products": [
+    "ドキサゾシン錠0.5mg「JG」",
+    "ドキサゾシン錠1mg「JG」",
+    "ドキサゾシン錠2mg「JG」"
+  ]
+}

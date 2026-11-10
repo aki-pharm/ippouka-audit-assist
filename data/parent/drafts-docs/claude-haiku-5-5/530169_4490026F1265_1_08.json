@@ -1,0 +1,33 @@
+{
+  "id": "530169_4490026F1265_1_08",
+  "source_file": "530169_4490026F1265_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_4490026F1265_1_08",
+  "extracted_at": "2026-11-09T15:44:50.796Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21792,
+    "output": 1830
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカストチュアブル錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は「モンテルカスト／5／チュアブル／日医工」と記載。表裏の内訳は画像から判別できず",
+      "color": "うすい赤色",
+      "shape": "round",
+      "size_long_mm": 9.5,
+      "size_short_mm": 9.5,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 円形の素錠 色調 うすい赤色 直径(mm) 9.5 厚さ(mm) 4.7 質量(mg) 300"
+    }
+  ],
+  "expected_products": [
+    "モンテルカストチュアブル錠5mg「日医工」"
+  ]
+}

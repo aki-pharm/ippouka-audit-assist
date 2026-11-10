@@ -1,0 +1,50 @@
+{
+  "id": "581120_4490004F1137_1_04",
+  "source_file": "581120_4490004F1137_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_4490004F1137_1_04",
+  "extracted_at": "2026-11-09T15:38:14.532Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12814,
+    "output": 2386
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アゼラスチン塩酸塩錠0.5mg「NIG」",
+      "strength": "0.5mg",
+      "imprint_front": "AZE0.5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）の表記は t AZE0.5",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の糖衣錠 外形 直径 6.7mm 厚さ 3.5mm 識別コード（PTP） t AZE0.5"
+    },
+    {
+      "product_name": "アゼラスチン塩酸塩錠1mg「NIG」",
+      "strength": "1mg",
+      "imprint_front": "AZE",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）の表記は t AZE",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 6.6mm 厚さ 3.2mm 識別コード（PTP） t AZE"
+    }
+  ],
+  "expected_products": [
+    "アゼラスチン塩酸塩錠0.5mg「NIG」",
+    "アゼラスチン塩酸塩錠1mg「NIG」"
+  ]
+}

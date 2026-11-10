@@ -1,0 +1,84 @@
+{
+  "id": "430773_2149032F1170_1_06",
+  "source_file": "430773_2149032F1170_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149032F1170_1_06",
+  "extracted_at": "2026-11-09T14:32:54.604Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35089,
+    "output": 2546
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルベジロール錠1.25mg「DSEP」",
+      "strength": "1.25mg",
+      "imprint_front": "cvl",
+      "imprint_back": "ep",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠（楕円形・割線入） 黄色 cvl ep 10.1（長径） 5.1（短径） 約3.1"
+    },
+    {
+      "product_name": "カルベジロール錠2.5mg「DSEP」",
+      "strength": "2.5mg",
+      "imprint_front": "cvl",
+      "imprint_back": "EP",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠（楕円形・割線入） 白色～微黄白色 cvl EP 10.1（長径） 5.1（短径） 約3.1"
+    },
+    {
+      "product_name": "カルベジロール錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "CVL",
+      "imprint_back": "ep",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠（割線入） 黄色 CVL ep 8.1（直径） 約3.3"
+    },
+    {
+      "product_name": "カルベジロール錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "CVL",
+      "imprint_back": "EP",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠（割線入） 白色～微黄白色 CVL EP 8.6（直径） 約3.3"
+    }
+  ],
+  "expected_products": [
+    "カルベジロール錠1.25mg「DSEP」",
+    "カルベジロール錠10mg「DSEP」",
+    "カルベジロール錠2.5mg「DSEP」",
+    "カルベジロール錠20mg「DSEP」"
+  ]
+}

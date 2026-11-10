@@ -1,0 +1,82 @@
+{
+  "id": "300166_2590010F1058_1_03",
+  "source_file": "300166_2590010F1058_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300166_2590010F1058_1_03",
+  "extracted_at": "2026-11-09T15:15:42.895Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24772,
+    "output": 4209
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシン錠 2mg「KMP」",
+      "strength": "2mg",
+      "imprint_front": "シロドシン 2 KMP",
+      "imprint_back": "シロドシン 2 KMP",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色・フィルムコーティング錠 直径：6.7mm　厚さ：3.2mm　重量：105mg 識別コード：シロドシン 2 KMP"
+    },
+    {
+      "product_name": "シロドシン錠 4mg「KMP」",
+      "strength": "4mg",
+      "imprint_front": "シロドシン 4 KMP",
+      "imprint_back": "シロドシン 4 KMP",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "oblong",
+      "size_long_mm": 11.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色・割線入りフィルムコーティング錠 長径：11.2mm　短径：6.2mm　厚さ：3.6mm　重量：208mg 識別コード：シロドシン 4 KMP"
+    },
+    {
+      "product_name": "シロドシンOD錠 2mg「KMP」",
+      "strength": "2mg",
+      "imprint_front": "シロドシン OD2 KMP",
+      "imprint_back": "シロドシン OD2 KMP",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄赤色・素錠（口腔内崩壊錠） 直径：6.5mm　厚さ：3.0mm　重量：105mg 識別コード：シロドシン OD2 KMP"
+    },
+    {
+      "product_name": "シロドシンOD錠 4mg「KMP」",
+      "strength": "4mg",
+      "imprint_front": "シロドシン OD4 KMP",
+      "imprint_back": "シロドシン OD4 KMP",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "淡黄赤色・割線入り素錠（口腔内崩壊錠） 直径：8.0mm　厚さ：3.9mm　重量：210mg 識別コード：シロドシン OD4 KMP"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「KMP」",
+    "シロドシン錠2mg「KMP」"
+  ]
+}

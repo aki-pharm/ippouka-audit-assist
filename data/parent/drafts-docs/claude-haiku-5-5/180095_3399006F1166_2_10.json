@@ -1,0 +1,49 @@
+{
+  "id": "180095_3399006F1166_2_10",
+  "source_file": "180095_3399006F1166_2_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_3399006F1166_2_10",
+  "extracted_at": "2026-11-09T15:22:00.004Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13267,
+    "output": 1533
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "サルポグレラート塩酸塩錠50mg「オーハラ」",
+      "strength": "50mg",
+      "imprint_front": "サルポグレラート 50 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色 円形のフィルムコーティング錠 外形 直径：7.6mm 厚さ：3.6mm 識別コード サルポグレラート 50 オーハラ"
+    },
+    {
+      "product_name": "サルポグレラート塩酸塩錠100mg「オーハラ」",
+      "strength": "100mg",
+      "imprint_front": "サルポグレラート 100 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色 割線入りの円形の フィルムコーティング錠 外形 直径：8.6mm 厚さ：4.2mm 識別コード サルポグレラート 100 オーハラ"
+    }
+  ],
+  "expected_products": [
+    "サルポグレラート塩酸塩錠50mg「オーハラ」"
+  ]
+}

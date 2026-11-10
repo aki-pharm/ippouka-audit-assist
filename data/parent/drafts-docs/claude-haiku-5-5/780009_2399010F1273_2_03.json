@@ -1,0 +1,50 @@
+{
+  "id": "780009_2399010F1273_2_03",
+  "source_file": "780009_2399010F1273_2_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2399010F1273_2_03",
+  "extracted_at": "2026-11-09T15:11:07.249Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13723,
+    "output": 2766
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「明治」",
+      "strength": "2.5mg",
+      "imprint_front": "MS 038",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 厚さ（mm） 重量（mg） 6.1 2.6 82.5 モサプリドクエン酸塩錠2.5mg「明治」 フィルムコーティング錠 白色"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「明治」",
+      "strength": "5mg",
+      "imprint_front": "MS039",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は割線入りで、刻印は画像から読み取れず",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "長径：9.1 短径：4.6 3.2 113 モサプリドクエン酸塩錠5mg「明治」 割線入り フィルムコーティング錠 白色"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「明治」",
+    "モサプリドクエン酸塩錠5mg「明治」"
+  ]
+}

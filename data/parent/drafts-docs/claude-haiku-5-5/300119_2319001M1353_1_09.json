@@ -1,0 +1,33 @@
+{
+  "id": "300119_2319001M1353_1_09",
+  "source_file": "300119_2319001M1353_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2319001M1353_1_09",
+  "extracted_at": "2026-11-09T15:00:50.753Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13455,
+    "output": 1298
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロペラミド塩酸塩カプセル1mg「サワイ」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図に小さな文字が見られるが判読できない。本文に刻印の記載なし",
+      "color": "頭部：白色不透明　胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 14.5,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年12月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "頭　部：白色不透明　胴　部：白色不透明　全長（mm） 14.5（剤形：硬カプセル剤、外形：4号）"
+    }
+  ],
+  "expected_products": [
+    "ロペラミド塩酸塩カプセル1mg「サワイ」"
+  ]
+}

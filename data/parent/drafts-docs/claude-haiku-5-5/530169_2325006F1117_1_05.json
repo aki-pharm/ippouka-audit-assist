@@ -1,0 +1,50 @@
+{
+  "id": "530169_2325006F1117_1_05",
+  "source_file": "530169_2325006F1117_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2325006F1117_1_05",
+  "extracted_at": "2026-11-09T15:03:28.181Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18079,
+    "output": 1564
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ラフチジン錠5mg「日医工」",
+      "strength": "5mg",
+      "imprint_front": "878",
+      "imprint_back": "5",
+      "imprint_note": "表面に社名マーク（n）と878が併記されている",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.7,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径(mm) 5.6 厚さ(mm) 2.7 質量(mg) 68"
+    },
+    {
+      "product_name": "ラフチジン錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "879",
+      "imprint_back": "10",
+      "imprint_note": "表面に社名マーク（n）と879が併記されている",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 直径(mm) 6.1 厚さ(mm) 2.8 質量(mg) 86"
+    }
+  ],
+  "expected_products": [
+    "ラフチジン錠10mg「日医工」",
+    "ラフチジン錠5mg「日医工」"
+  ]
+}

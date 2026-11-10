@@ -1,0 +1,33 @@
+{
+  "id": "300119_2239001F1467_2_02",
+  "source_file": "300119_2239001F1467_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2239001F1467_2_02",
+  "extracted_at": "2026-11-09T14:59:45.469Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8863,
+    "output": 1574
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アンブロキソール塩酸塩錠15mg「サワイ」",
+      "strength": "15mg",
+      "imprint_front": "SW 470",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードのみ記載。表裏の区別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤　形 割線入り素錠 性　状 白色 においはなく、わずかに特異な味がある 直径（mm） 7.0 厚さ（mm） 2.5 重量（mg） 約120 識別コード SW 470"
+    }
+  ],
+  "expected_products": [
+    "アンブロキソール塩酸塩錠15mg「サワイ」"
+  ]
+}

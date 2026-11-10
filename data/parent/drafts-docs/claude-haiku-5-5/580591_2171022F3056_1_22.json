@@ -1,0 +1,67 @@
+{
+  "id": "580591_2171022F3056_1_22",
+  "source_file": "580591_2171022F3056_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2171022F3056_1_22",
+  "extracted_at": "2026-11-09T14:46:48.932Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24272,
+    "output": 2039
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠 2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "JG 7",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年5月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の素錠（口腔内崩壊錠）、直径6.0mm、厚さ3.0mm、重量90mg"
+    },
+    {
+      "product_name": "アムロジピンOD錠 5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "JG 11",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2026年5月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の片面1/2割線入りの素錠（口腔内崩壊錠）、直径8.0mm、厚さ3.6mm、重量180mg"
+    },
+    {
+      "product_name": "アムロジピンOD錠 10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "JG 13",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.5,
+      "score_line": true,
+      "source_revision": "2026年5月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の片面1/2割線入りの素錠（口腔内崩壊錠）、直径10.0mm、厚さ4.5mm、重量360mg"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠10mg「JG」",
+    "アムロジピンOD錠2.5mg「JG」",
+    "アムロジピンOD錠5mg「JG」"
+  ]
+}

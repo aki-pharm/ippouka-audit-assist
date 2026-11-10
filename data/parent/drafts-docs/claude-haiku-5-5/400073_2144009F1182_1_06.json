@@ -1,0 +1,67 @@
+{
+  "id": "400073_2144009F1182_1_06",
+  "source_file": "400073_2144009F1182_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2144009F1182_1_06",
+  "extracted_at": "2026-11-09T14:30:43.844Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23103,
+    "output": 1887
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テモカプリル塩酸塩錠1mg「フェルゼン」",
+      "strength": "1mg",
+      "imprint_front": "FEL-017",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "片面に二分割線のある白色の裸錠 直径 6.5mm 厚さ 2.3mm 質量 0.1g 識別コード FEL-017"
+    },
+    {
+      "product_name": "テモカプリル塩酸塩錠2mg「フェルゼン」",
+      "strength": "2mg",
+      "imprint_front": "FEL-018",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "片面に二分割線のある白色の裸錠 直径 7.0mm 厚さ 2.4mm 質量 0.12g 識別コード FEL-018"
+    },
+    {
+      "product_name": "テモカプリル塩酸塩錠4mg「フェルゼン」",
+      "strength": "4mg",
+      "imprint_front": "FEL-019",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "片面に二分割線のある白色の裸錠 直径 7.5mm 厚さ 2.6mm 質量 0.15g 識別コード FEL-019"
+    }
+  ],
+  "expected_products": [
+    "テモカプリル塩酸塩錠1mg「フェルゼン」",
+    "テモカプリル塩酸塩錠2mg「フェルゼン」",
+    "テモカプリル塩酸塩錠4mg「フェルゼン」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "581120_2149022F1117_1_03",
+  "source_file": "581120_2149022F1117_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149022F1117_1_03",
+  "extracted_at": "2026-11-09T14:31:18.742Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13038,
+    "output": 1801
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニルバジピン錠2mg「NIG」",
+      "strength": "2mg",
+      "imprint_front": "2mg t 372",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯褐黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 帯褐黄色のフィルムコーティング錠 ／ 直径 6.1mm 厚さ 3.2mm ／ 識別コード（PTP） 2mg t 372"
+    },
+    {
+      "product_name": "ニルバジピン錠4mg「NIG」",
+      "strength": "4mg",
+      "imprint_front": "4mg t 374",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "帯褐黄色",
+      "shape": "round",
+      "size_long_mm": 8.2,
+      "size_short_mm": 8.2,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 帯褐黄色のフィルムコーティング錠 ／ 直径 8.2mm 厚さ 3.9mm ／ 識別コード（PTP） 4mg t 374"
+    }
+  ],
+  "expected_products": [
+    "ニルバジピン錠2mg「NIG」",
+    "ニルバジピン錠4mg「NIG」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "581120_6290005F1377_1_04",
+  "source_file": "581120_6290005F1377_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_6290005F1377_1_04",
+  "extracted_at": "2026-11-09T15:49:00.655Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16513,
+    "output": 1253
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルビナフィン錠125mg「NIG」",
+      "strength": "125mg",
+      "imprint_front": "t 603",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の片面1/2割線入り素錠 外形 直径：9.0mm 厚さ：3.7mm 質量：210mg 識別コード（PTP） t 603"
+    }
+  ],
+  "expected_products": [
+    "テルビナフィン錠125mg「NIG」"
+  ]
+}

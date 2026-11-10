@@ -1,0 +1,33 @@
+{
+  "id": "400186_2160003F1111_1_08",
+  "source_file": "400186_2160003F1111_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_2160003F1111_1_08",
+  "extracted_at": "2026-11-09T14:43:32.153Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18524,
+    "output": 1230
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スマトリプタン錠50mg「タカタ」",
+      "strength": "50mg",
+      "imprint_front": "TTS 257",
+      "imprint_back": "50",
+      "imprint_note": "識別コードはTTS-257",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 表面 直径 約7.6mm 裏面 重さ 約0.153g 側面 厚さ 約3.4mm 識別コード TTS-257"
+    }
+  ],
+  "expected_products": [
+    "スマトリプタン錠50mg「タカタ」"
+  ]
+}

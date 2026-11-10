@@ -1,0 +1,50 @@
+{
+  "id": "480235_3949002F1142_1_05",
+  "source_file": "480235_3949002F1142_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3949002F1142_1_05",
+  "extracted_at": "2026-11-09T15:24:40.503Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13523,
+    "output": 1677
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベンズブロマロン錠25mg「トーワ」",
+      "strength": "25mg",
+      "imprint_front": "Tw146",
+      "imprint_back": "25",
+      "imprint_note": null,
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 1.9,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色～淡黄色の割線入りの錠剤"
+    },
+    {
+      "product_name": "ベンズブロマロン錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw101",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は割線のみで、外形図に刻印の記載は見当たらない",
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色～淡黄色の割線入りの錠剤"
+    }
+  ],
+  "expected_products": [
+    "ベンズブロマロン錠25mg「トーワ」",
+    "ベンズブロマロン錠50mg「トーワ」"
+  ]
+}

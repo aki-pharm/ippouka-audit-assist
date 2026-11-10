@@ -1,0 +1,33 @@
+{
+  "id": "580591_3399004M1344_1_09",
+  "source_file": "580591_3399004M1344_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3399004M1344_1_09",
+  "extracted_at": "2026-11-09T15:20:51.799Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15175,
+    "output": 1489
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イコサペント酸エチルカプセル300mg「JG」",
+      "strength": "300mg",
+      "imprint_front": "JG F03",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）としての記載。刻印の表裏の別は明記なし",
+      "color": "淡黄色透明",
+      "shape": "oblong",
+      "size_long_mm": 18,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "淡黄色透明の軟カプセル剤 JG F03 長径 約 18mm 短径 約 7mm 重量 549mg"
+    }
+  ],
+  "expected_products": [
+    "イコサペント酸エチルカプセル300mg「JG」"
+  ]
+}

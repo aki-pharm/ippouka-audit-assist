@@ -1,0 +1,50 @@
+{
+  "id": "480235_2399005F1264_1_05",
+  "source_file": "480235_2399005F1264_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2399005F1264_1_05",
+  "extracted_at": "2026-11-09T15:09:17.311Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15109,
+    "output": 2768
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドンペリドン錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "Tw751",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはTw751（表）。裏面は図上刻印が見当たるが「なし」との明記はないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "白色の フィルムコーティング錠 識別コード Tw751 直径(mm) 6.1 厚さ(mm) 3.1 質量(mg) 80"
+    },
+    {
+      "product_name": "ドンペリドン錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw",
+      "imprint_back": "239",
+      "imprint_note": "識別コードはTw239。図では表面に「Tw」、裏面に「239」の刻印",
+      "color": "白色～淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年8月改訂",
+      "source_page": 1,
+      "source_quote": "白色～淡黄白色の フィルムコーティング錠 識別コード Tw239 直径(mm) 7.1 厚さ(mm) 3.1 質量(mg) 110"
+    }
+  ],
+  "expected_products": [
+    "ドンペリドン錠10mg「トーワ」",
+    "ドンペリドン錠5mg「トーワ」"
+  ]
+}

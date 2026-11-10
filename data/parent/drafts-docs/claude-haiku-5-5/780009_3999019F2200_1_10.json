@@ -1,0 +1,33 @@
+{
+  "id": "780009_3999019F2200_1_10",
+  "source_file": "780009_3999019F2200_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_3999019F2200_1_10",
+  "extracted_at": "2026-11-09T15:34:25.147Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20064,
+    "output": 1080
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠17.5mg「明治」",
+      "strength": "17.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "製剤の性状欄の刻印は図示のみで文字の記載がないため未確認",
+      "color": "淡紅色",
+      "shape": "oval",
+      "size_long_mm": 8.2,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "長径：8.2 短径：4.6 3.4 115 楕円形の フィルム コーティング錠 淡紅色"
+    }
+  ],
+  "expected_products": [
+    "リセドロン酸Na錠17.5mg「明治」"
+  ]
+}

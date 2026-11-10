@@ -1,0 +1,50 @@
+{
+  "id": "430773_3969007F3035_1_13",
+  "source_file": "430773_3969007F3035_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_3969007F3035_1_13",
+  "extracted_at": "2026-11-09T15:30:24.912Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26659,
+    "output": 2469
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾンOD錠15mg「DSEP」",
+      "strength": "15mg",
+      "imprint_front": "EP 403・15",
+      "imprint_back": "未確認",
+      "imprint_note": "表の識別コードはEP 403。図に「15」の刻印あり（表裏の別は未確認）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "素錠（口腔内崩壊錠）（割線入）、白色～帯黄白色、直径7.0mm、厚さ2.6mm、質量120mg、識別コード EP 403"
+    },
+    {
+      "product_name": "ピオグリタゾンOD錠30mg「DSEP」",
+      "strength": "30mg",
+      "imprint_front": "EP 404・30",
+      "imprint_back": "未確認",
+      "imprint_note": "表の識別コードはEP 404。図に「30」の刻印あり（表裏の別は未確認）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "素錠（口腔内崩壊錠）（割線入）、白色～帯黄白色、直径7.0mm、厚さ2.7mm、質量120mg、識別コード EP 404"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾンOD錠15mg「DSEP」",
+    "ピオグリタゾンOD錠30mg「DSEP」"
+  ]
+}

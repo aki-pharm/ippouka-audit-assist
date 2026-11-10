@@ -1,0 +1,84 @@
+{
+  "id": "580591_2149032F1137_1_14",
+  "source_file": "580591_2149032F1137_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149032F1137_1_14",
+  "extracted_at": "2026-11-09T14:32:57.606Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35769,
+    "output": 2296
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルベジロール錠1.25mg「JG」",
+      "strength": "1.25mg",
+      "imprint_front": "JG N48",
+      "imprint_back": "1.25",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の楕円形をした割線入りフィルムコーティング錠 長径 10.1mm 短径 5.1mm 厚さ 3.2mm 重量 135mg 識別コード JG N48"
+    },
+    {
+      "product_name": "カルベジロール錠2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "JG N49",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の楕円形をした割線入りフィルムコーティング錠 長径 10.1mm 短径 5.1mm 厚さ 3.2mm 重量 135mg 識別コード JG N49"
+    },
+    {
+      "product_name": "カルベジロール錠10mg「JG」",
+      "strength": "10mg",
+      "imprint_front": "JG N46",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "黄色のフィルムコーティング錠 直径 6.8mm 厚さ 3.6mm 重量 117mg 識別コード JG N46"
+    },
+    {
+      "product_name": "カルベジロール錠20mg「JG」",
+      "strength": "20mg",
+      "imprint_front": "JG N47",
+      "imprint_back": "20",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色のフィルムコーティング錠（割線入り） 直径 8.7mm 厚さ 3.3mm 重量 182mg 識別コード JG N47"
+    }
+  ],
+  "expected_products": [
+    "カルベジロール錠1.25mg「JG」",
+    "カルベジロール錠10mg「JG」",
+    "カルベジロール錠2.5mg「JG」",
+    "カルベジロール錠20mg「JG」"
+  ]
+}

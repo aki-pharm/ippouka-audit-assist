@@ -1,0 +1,50 @@
+{
+  "id": "480235_4490019F1133_1_07",
+  "source_file": "480235_4490019F1133_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_4490019F1133_1_07",
+  "extracted_at": "2026-11-09T15:40:04.677Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 11563,
+    "output": 1588
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エバスチン錠5mg｢トーワ｣",
+      "strength": "5mg",
+      "imprint_front": "Tw733",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 ... 直径(mm) 6.1 ... 厚さ(mm) 2.8"
+    },
+    {
+      "product_name": "エバスチン錠10mg｢トーワ｣",
+      "strength": "10mg",
+      "imprint_front": "Tw734",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 ... 10.1／5.1 (長径／短径) ... 厚さ(mm) 3.2"
+    }
+  ],
+  "expected_products": [
+    "エバスチン錠10mg「トーワ」",
+    "エバスチン錠5mg「トーワ」"
+  ]
+}

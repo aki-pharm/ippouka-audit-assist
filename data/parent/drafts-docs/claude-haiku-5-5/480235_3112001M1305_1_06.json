@@ -1,0 +1,67 @@
+{
+  "id": "480235_3112001M1305_1_06",
+  "source_file": "480235_3112001M1305_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3112001M1305_1_06",
+  "extracted_at": "2026-11-09T15:16:58.366Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14654,
+    "output": 2625
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アルファカルシドールカプセル0.25μg「トーワ」",
+      "strength": "0.25μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄色～淡黄色",
+      "shape": "oval",
+      "size_long_mm": 9,
+      "size_short_mm": 5.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "微黄色～淡黄色の軟カプセル剤で、内容物は無色～微黄色の澄明な液であり、わずかに特異なにおいがある。（外形：側面 約9.0mm、断面 約5.9mm、質量 約185mg）"
+    },
+    {
+      "product_name": "アルファカルシドールカプセル0.5μg「トーワ」",
+      "strength": "0.5μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 9,
+      "size_short_mm": 5.9,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の軟カプセル剤で、内容物は無色～微黄色の澄明な液であり、わずかに特異なにおいがある。（外形：側面 約9.0mm、断面 約5.9mm、質量 約185mg）"
+    },
+    {
+      "product_name": "アルファカルシドールカプセル1μg「トーワ」",
+      "strength": "1μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微赤色～淡赤色",
+      "shape": "oval",
+      "size_long_mm": 9.1,
+      "size_short_mm": 6.2,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "微赤色～淡赤色の軟カプセル剤で、内容物は無色～微黄色の澄明な液であり、わずかに特異なにおいがある。（外形：側面 約9.1mm、断面 約6.2mm、質量 約205mg）"
+    }
+  ],
+  "expected_products": [
+    "アルファカルシドールカプセル0.25μg「トーワ」",
+    "アルファカルシドールカプセル0.5μg「トーワ」",
+    "アルファカルシドールカプセル1μg「トーワ」"
+  ]
+}

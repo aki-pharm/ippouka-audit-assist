@@ -1,0 +1,49 @@
+{
+  "id": "480209_2189015F1171_1_22",
+  "source_file": "480209_2189015F1171_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2189015F1171_1_22",
+  "extracted_at": "2026-11-09T14:52:38.509Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30741,
+    "output": 1907
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "アトルバ 5 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載のみ。表裏の別は本文に明記なし",
+      "color": "紅色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 フィルムコーティング錠 色調 紅色 白色 外形 本体表示 アトルバ 5 杏林 アトルバ 10 杏林 直径(mm) 5.6 6.1 厚さ(mm) 2.9 2.9 重量(mg) 70 87"
+    },
+    {
+      "product_name": "アトルバスタチン錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "アトルバ 10 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示の記載のみ。表裏の別は本文に明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年5月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 フィルムコーティング錠 色調 紅色 白色 外形 本体表示 アトルバ 5 杏林 アトルバ 10 杏林 直径(mm) 5.6 6.1 厚さ(mm) 2.9 2.9 重量(mg) 70 87"
+    }
+  ],
+  "expected_products": [
+    "アトルバスタチン錠5mg「杏林」"
+  ]
+}

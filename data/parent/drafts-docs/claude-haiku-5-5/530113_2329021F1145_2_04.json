@@ -1,0 +1,33 @@
+{
+  "id": "530113_2329021F1145_2_04",
+  "source_file": "530113_2329021F1145_2_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2329021F1145_2_04",
+  "extracted_at": "2026-11-09T15:05:08.635Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13999,
+    "output": 1069
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「NS」",
+      "strength": "100mg",
+      "imprint_front": "NS 290",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性　状 白色のフィルムコート錠 外形 大きさ 錠径：7.6mm、錠厚：3.6mm、重量：155mg 識別コード NS 290"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「NS」"
+  ]
+}

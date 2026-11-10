@@ -1,0 +1,33 @@
+{
+  "id": "670109_3999018F1080_1_10",
+  "source_file": "670109_3999018F1080_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_3999018F1080_1_10",
+  "extracted_at": "2026-11-09T15:33:59.845Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22881,
+    "output": 1957
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アレンドロン酸錠 5mg「F」",
+      "strength": "5mg",
+      "imprint_front": "FJ58",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはFJ58と記載。表裏の区別は本文に明記なし。外形図には円で囲んだ「5」の表示あり。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2023年8月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の素錠／外形／大きさ 直径7.0mm 厚さ3.9mm 質量150mg／識別コード FJ58"
+    }
+  ],
+  "expected_products": [
+    "アレンドロン酸錠5mg「F」"
+  ]
+}

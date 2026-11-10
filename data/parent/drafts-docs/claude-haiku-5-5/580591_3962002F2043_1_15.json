@@ -1,0 +1,50 @@
+{
+  "id": "580591_3962002F2043_1_15",
+  "source_file": "580591_3962002F2043_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3962002F2043_1_15",
+  "extracted_at": "2026-11-09T15:28:47.871Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30217,
+    "output": 3449
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトホルミン塩酸塩錠250mgMT「JG」",
+      "strength": "250mg",
+      "imprint_front": "JG F26",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「JG F26」。本体表示欄に「メトホルミン MT 250 JG」の記載あり。表裏どちらに刻まれているかは図から判別できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "割線を施した白色の円形のフィルムコーティング錠 直径 9.1mm 厚さ 4.3mm 重量 272mg"
+    },
+    {
+      "product_name": "メトホルミン塩酸塩錠500mgMT「JG」",
+      "strength": "500mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「－」。本体表示欄に「メトホルミン MT 500 JG」の記載あり。刻印の有無・表裏の別は図から判別できず",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 15.6,
+      "size_short_mm": 7.1,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2024年9月改訂",
+      "source_page": 1,
+      "source_quote": "割線を施した白色の楕円形のフィルムコーティング錠 長径 15.6mm 短径 7.1mm 厚さ 5.7mm 重量 541mg"
+    }
+  ],
+  "expected_products": [
+    "メトホルミン塩酸塩錠250mgMT「JG」",
+    "メトホルミン塩酸塩錠500mgMT「JG」"
+  ]
+}

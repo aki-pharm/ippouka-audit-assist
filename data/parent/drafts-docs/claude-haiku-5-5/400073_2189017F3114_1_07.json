@@ -1,0 +1,49 @@
+{
+  "id": "400073_2189017F3114_1_07",
+  "source_file": "400073_2189017F3114_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2189017F3114_1_07",
+  "extracted_at": "2026-11-09T14:56:10.587Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34840,
+    "output": 1438
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチンOD錠2.5mg｢科研｣",
+      "strength": "2.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色 うすい黄色 外形 直径 5.6mm 厚さ 3.1mm 質量 77.5mg"
+    },
+    {
+      "product_name": "ロスバスタチンOD錠5mg｢科研｣",
+      "strength": "5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色 うすい黄色 外形 直径 7.2mm 厚さ 3.6mm 質量 154mg"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチンOD錠2.5mg「科研」"
+  ]
+}

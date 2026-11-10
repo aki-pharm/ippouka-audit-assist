@@ -1,0 +1,67 @@
+{
+  "id": "380087_3961008F1136_1_13",
+  "source_file": "380087_3961008F1136_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_3961008F1136_1_13",
+  "extracted_at": "2026-11-09T15:27:44.798Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29143,
+    "output": 2710
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠 0.5mg「ZE」",
+      "strength": "0.5mg",
+      "imprint_front": "ZE30、0.5",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書では識別コードが「ZE30、0.5」と併記されており、表裏の区別は本文から判別できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 1.8,
+      "score_line": false,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 白色 / 剤形 素錠 / 錠径（mm） 6.0 / 厚み（mm） 1.8 / 識別コード ZE30、0.5"
+    },
+    {
+      "product_name": "グリメピリド錠 1mg「ZE」",
+      "strength": "1mg",
+      "imprint_front": "ZE34、1",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書では識別コードが「ZE34、1」と併記されており、表裏の区別は本文から判別できない",
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 淡紅色 / 剤形 素錠（割線入り） / 錠径（mm） 6.0 / 厚み（mm） 2.4 / 識別コード ZE34、1"
+    },
+    {
+      "product_name": "グリメピリド錠 3mg「ZE」",
+      "strength": "3mg",
+      "imprint_front": "ZE35、3",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書では識別コードが「ZE35、3」と併記されており、表裏の区別は本文から判別できない",
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "色調 微黄白色 / 剤形 素錠 / 錠径（mm） 8.0 / 厚み（mm） 2.8 / 識別コード ZE35、3"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「ZE」",
+    "グリメピリド錠1mg「ZE」",
+    "グリメピリド錠3mg「ZE」"
+  ]
+}

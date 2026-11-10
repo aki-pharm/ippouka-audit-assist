@@ -1,0 +1,33 @@
+{
+  "id": "340013_3133001F3171_1_03",
+  "source_file": "340013_3133001F3171_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/340013_3133001F3171_1_03",
+  "extracted_at": "2026-11-09T15:17:32.372Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 7359,
+    "output": 1207
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "パンテチン錠 100mg「シオエ」",
+      "strength": "100mg",
+      "imprint_front": "301",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの欄に「301」と記載。表裏のどちらに刻印されるかの記載はない",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2025年6月改訂",
+      "source_page": 1,
+      "source_quote": "性状 黄色のフィルムコーティング錠である。 大きさ 直径：9.1mm、厚さ：4.0mm、重量：225mg 識別コード 301"
+    }
+  ],
+  "expected_products": [
+    "パンテチン錠100mg「シオエ」"
+  ]
+}

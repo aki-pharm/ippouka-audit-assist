@@ -1,0 +1,49 @@
+{
+  "id": "480235_2329012C1271_1_11",
+  "source_file": "480235_2329012C1271_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2329012C1271_1_11",
+  "extracted_at": "2026-11-09T15:04:15.591Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12901,
+    "output": 1887
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テプレノンカプセル50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "Tw403",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとして記載（表裏の別は文書上不明）",
+      "color": "頭部が灰青緑色、胴部が淡橙色",
+      "shape": "oblong",
+      "size_long_mm": 14.2,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "頭部が灰青緑色、胴部が淡橙色不透明な硬カプセル剤。内容物は白色～帯黄白色の粉末又は粒状。 識別コード Tw403"
+    },
+    {
+      "product_name": "テプレノン細粒10%「トーワ」",
+      "strength": "10%",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": null,
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の細粒で、においはほとんどなく、味はやや甘い。1包0.5gの分包品もある。"
+    }
+  ],
+  "expected_products": [
+    "テプレノンカプセル50mg「トーワ」"
+  ]
+}

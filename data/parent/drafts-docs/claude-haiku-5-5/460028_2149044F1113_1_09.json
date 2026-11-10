@@ -1,0 +1,83 @@
+{
+  "id": "460028_2149044F1113_1_09",
+  "source_file": "460028_2149044F1113_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2149044F1113_1_09",
+  "extracted_at": "2026-11-09T14:41:47.356Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24084,
+    "output": 2908
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン錠5mg「ツルハラ」",
+      "strength": "5mg",
+      "imprint_front": "70、5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏の別は文書上明記なし",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠、色調 淡黄白色、大きさ 直径 約6.0mm、厚さ 約2.3mm、識別コード 70、5"
+    },
+    {
+      "product_name": "オルメサルタン錠10mg「ツルハラ」",
+      "strength": "10mg",
+      "imprint_front": "TSU71、10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏の別は文書上明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠、色調 白色、大きさ 直径 約6.5mm、厚さ 約2.4mm、識別コード TSU71、10"
+    },
+    {
+      "product_name": "オルメサルタン錠20mg「ツルハラ」",
+      "strength": "20mg",
+      "imprint_front": "TSU72、20",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏の別は文書上明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠、色調 白色、大きさ 直径 約7.5mm、厚さ 約2.5mm、識別コード TSU72、20"
+    },
+    {
+      "product_name": "オルメサルタン錠40mg「ツルハラ」",
+      "strength": "40mg",
+      "imprint_front": "TSU73、40",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードの表裏の別は文書上明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠、色調 白色、大きさ 直径 約9.0mm、厚さ 約4.0mm、識別コード TSU73、40"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタン錠10mg「ツルハラ」",
+    "オルメサルタン錠40mg「ツルハラ」",
+    "オルメサルタン錠5mg「ツルハラ」"
+  ]
+}

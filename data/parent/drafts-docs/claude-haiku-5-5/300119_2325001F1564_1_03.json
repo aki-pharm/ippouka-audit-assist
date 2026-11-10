@@ -1,0 +1,50 @@
+{
+  "id": "300119_2325001F1564_1_03",
+  "source_file": "300119_2325001F1564_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2325001F1564_1_03",
+  "extracted_at": "2026-11-09T15:01:02.139Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18684,
+    "output": 1573
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シメチジン錠200mg「サワイ」",
+      "strength": "200mg",
+      "imprint_front": "SW 901",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色～微黄白色 直径（mm） 9.1 厚さ（mm） 4.8 重量（mg） 約267 識別コード SW 901"
+    },
+    {
+      "product_name": "シメチジン錠400mg「サワイ」",
+      "strength": "400mg",
+      "imprint_front": "SW 902",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.1,
+      "size_short_mm": 11.1,
+      "thickness_mm": 5,
+      "score_line": null,
+      "source_revision": "2024年3月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 性状 白色 直径（mm） 11.1 厚さ（mm） 5.0 重量（mg） 約450 識別コード SW 902"
+    }
+  ],
+  "expected_products": [
+    "シメチジン錠200mg「サワイ」",
+    "シメチジン錠400mg「サワイ」"
+  ]
+}

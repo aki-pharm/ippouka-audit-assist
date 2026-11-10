@@ -1,0 +1,82 @@
+{
+  "id": "530213_2149041F1209_1_09",
+  "source_file": "530213_2149041F1209_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2149041F1209_1_09",
+  "extracted_at": "2026-11-09T14:37:48.372Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23900,
+    "output": 2716
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「ケミファ」",
+      "strength": "20mg",
+      "imprint_front": "バルサルタン 20 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は識別コード欄の記載による。裏面は判読できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りのフィルムコーティング錠 直径 5.1mm 厚さ 3.0mm"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「ケミファ」",
+      "strength": "40mg",
+      "imprint_front": "バルサルタン 40 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は識別コード欄の記載による。裏面は判読できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りのフィルムコーティング錠 直径 7.1mm 厚さ 3.2mm"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「ケミファ」",
+      "strength": "80mg",
+      "imprint_front": "バルサルタン 80 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は識別コード欄の記載による。裏面は判読できず未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りのフィルムコーティング錠 直径 8.6mm 厚さ 4.2mm"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「ケミファ」",
+      "strength": "160mg",
+      "imprint_front": "バルサルタン 160 ケミファ",
+      "imprint_back": "未確認",
+      "imprint_note": "表面の刻印は識別コード欄の記載による。裏面は判読できず未確認",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 16.3,
+      "size_short_mm": 6.6,
+      "thickness_mm": 5,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の割線入りのフィルムコーティング錠 外形 （長径）16.3mm （短径）6.6mm 厚さ 5.0mm"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「ケミファ」",
+    "バルサルタン錠40mg「ケミファ」"
+  ]
+}

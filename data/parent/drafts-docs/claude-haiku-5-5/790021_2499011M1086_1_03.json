@@ -1,0 +1,33 @@
+{
+  "id": "790021_2499011M1086_1_03",
+  "source_file": "790021_2499011M1086_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790021_2499011M1086_1_03",
+  "extracted_at": "2026-11-09T15:13:22.759Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19227,
+    "output": 1170
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュタステリドカプセル0.5mg AV「杏林」",
+      "strength": "0.5mg",
+      "imprint_front": "KRM278",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはPTPシートに表示（「識別コード KRM278（PTPシートに表示）」）。カプセル本体のどちら側に刻印があるかは記載なし",
+      "color": "無色～淡黄褐色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2024年6月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 無色～淡黄褐色の透明又はわずかに半透明の球形の軟カプセル剤 外形 ○（球形） サイズ 直径：約7.0mm、質量:約215mg 識別コード KRM278（PTPシートに表示）"
+    }
+  ],
+  "expected_products": [
+    "デュタステリドカプセル0.5mgAV「杏林」"
+  ]
+}

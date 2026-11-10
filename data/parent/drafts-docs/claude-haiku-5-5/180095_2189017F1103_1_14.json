@@ -1,0 +1,84 @@
+{
+  "id": "180095_2189017F1103_1_14",
+  "source_file": "180095_2189017F1103_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2189017F1103_1_14",
+  "extracted_at": "2026-11-09T14:55:32.905Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 34345,
+    "output": 3885
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠2.5mg「オーハラ」",
+      "strength": "2.5mg",
+      "imprint_front": "ロスバスタチン 2．5 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄の記載を転記。表裏の刻印位置は画像から確認できず",
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 うすい赤みの黄色～くすんだ赤みの黄色 フィルムコーティング錠 外形 直径：5．5mm　厚さ：3．1mm 質量 74mg 識別表示 ロスバスタチン 2．5 オーハラ"
+    },
+    {
+      "product_name": "ロスバスタチン錠5mg「オーハラ」",
+      "strength": "5mg",
+      "imprint_front": "ロスバスタチン 5 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄の記載を転記。表裏の刻印位置は画像から確認できず",
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 うすい赤みの黄色～くすんだ赤みの黄色 フィルムコーティング錠 外形 直径：7．0mm　厚さ：3．9mm 質量 146mg 識別表示 ロスバスタチン 5 オーハラ"
+    },
+    {
+      "product_name": "ロスバスタチンOD錠2.5mg「オーハラ」",
+      "strength": "2.5mg",
+      "imprint_front": "ロスバスタチンOD 2．5 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄の記載を転記。表裏の刻印位置は画像から確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色 素錠（口腔内崩壊錠） 外形 直径：5．5mm　厚さ：3．0mm 質量 72mg 識別表示 ロスバスタチンOD 2．5 オーハラ"
+    },
+    {
+      "product_name": "ロスバスタチンOD錠5mg「オーハラ」",
+      "strength": "5mg",
+      "imprint_front": "ロスバスタチンOD 5 オーハラ",
+      "imprint_back": "未確認",
+      "imprint_note": "識別表示欄の記載を転記。表裏の刻印位置は画像から確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "性状 白色 素錠（口腔内崩壊錠） 外形 直径：7．0mm　厚さ：3．9mm 質量 144mg 識別表示 ロスバスタチンOD 5 オーハラ"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチンOD錠2.5mg「オーハラ」",
+    "ロスバスタチンOD錠5mg「オーハラ」",
+    "ロスバスタチン錠2.5mg「オーハラ」",
+    "ロスバスタチン錠5mg「オーハラ」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "581120_4490025F3204_1_03",
+  "source_file": "581120_4490025F3204_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_4490025F3204_1_03",
+  "extracted_at": "2026-11-09T15:42:07.384Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21020,
+    "output": 1890
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩OD錠2.5mg「NIG」",
+      "strength": "2.5mg",
+      "imprint_front": "KT OPD・2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ごくうすい黄色の口腔内崩壊錠 外形 直径 6.5mm 厚さ 2.3mm 質量 約100mg 識別コード KT OPD・2.5"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩OD錠5mg「NIG」",
+      "strength": "5mg",
+      "imprint_front": "KT OPD・5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 ごくうすい黄色の割線入り口腔内崩壊錠 外形 直径 8.0mm 厚さ 3.1mm 質量 約200mg 識別コード KT OPD・5"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩OD錠2.5mg「NIG」",
+    "オロパタジン塩酸塩OD錠5mg「NIG」"
+  ]
+}

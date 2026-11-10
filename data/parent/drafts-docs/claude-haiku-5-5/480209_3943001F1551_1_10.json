@@ -1,0 +1,50 @@
+{
+  "id": "480209_3943001F1551_1_10",
+  "source_file": "480209_3943001F1551_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3943001F1551_1_10",
+  "extracted_at": "2026-11-09T15:24:29.748Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16123,
+    "output": 1553
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠50mg「杏林」",
+      "strength": "50mg",
+      "imprint_front": "KRM126",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 素錠 色調 白色～微黄白色 白色 外形 直径(mm) 6.5 9.6 厚さ(mm) 2.2 3.9 質量(mg) 100 300 識別コード KRM126 PH113"
+    },
+    {
+      "product_name": "アロプリノール錠100mg「杏林」",
+      "strength": "100mg",
+      "imprint_front": "PH113",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 素錠 色調 白色～微黄白色 白色 外形 直径(mm) 6.5 9.6 厚さ(mm) 2.2 3.9 質量(mg) 100 300 識別コード KRM126 PH113"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「杏林」",
+    "アロプリノール錠50mg「杏林」"
+  ]
+}

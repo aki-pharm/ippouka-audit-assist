@@ -1,0 +1,83 @@
+{
+  "id": "430773_2149040F1069_1_11",
+  "source_file": "430773_2149040F1069_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149040F1069_1_11",
+  "extracted_at": "2026-11-09T14:37:09.874Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30633,
+    "output": 7517
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カンデサルタン錠2mg「DSEP」",
+      "strength": "1錠中カンデサルタン シレキセチル2mg",
+      "imprint_front": "2 DSEP",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は図から判読（要確認）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "カンデサルタン錠2mg「DSEP」 素錠 白色～帯黄白色 外形 直径7.1mm 厚さ2.6mm 質量125mg"
+    },
+    {
+      "product_name": "カンデサルタン錠4mg「DSEP」",
+      "strength": "1錠中カンデサルタン シレキセチル4mg",
+      "imprint_front": "4 DSEP",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は図から判読（要確認）",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "カンデサルタン錠4mg「DSEP」 素錠（割線入） 外形 直径7.1mm 厚さ2.6mm 質量125mg"
+    },
+    {
+      "product_name": "カンデサルタン錠8mg「DSEP」",
+      "strength": "1錠中カンデサルタン シレキセチル8mg",
+      "imprint_front": "8 DSEP",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は図から判読（要確認）",
+      "color": "ごくうすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "カンデサルタン錠8mg「DSEP」 素錠（割線入） ごくうすいだいだい色 外形 直径7.1mm 厚さ2.6mm 質量125mg"
+    },
+    {
+      "product_name": "カンデサルタン錠12mg「DSEP」",
+      "strength": "1錠中カンデサルタン シレキセチル12mg",
+      "imprint_front": "12 DSEP",
+      "imprint_back": "未確認",
+      "imprint_note": "表の刻印は図から判読（要確認）",
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "カンデサルタン錠12mg「DSEP」 素錠（割線入） うすいだいだい色 外形 直径7.1mm 厚さ2.6mm 質量125mg"
+    }
+  ],
+  "expected_products": [
+    "カンデサルタン錠2mg「DSEP」",
+    "カンデサルタン錠4mg「DSEP」",
+    "カンデサルタン錠8mg「DSEP」"
+  ]
+}

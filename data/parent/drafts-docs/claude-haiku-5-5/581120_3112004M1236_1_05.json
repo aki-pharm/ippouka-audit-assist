@@ -1,0 +1,50 @@
+{
+  "id": "581120_3112004M1236_1_05",
+  "source_file": "581120_3112004M1236_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3112004M1236_1_05",
+  "extracted_at": "2026-11-09T15:17:10.492Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14113,
+    "output": 2044
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルシトリオールカプセル0.25μg「NIG」",
+      "strength": "1カプセル中 カルシトリオール 0.25μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）としてTYK 220の記載あり。表裏の別は記載なし。",
+      "color": "白色〜淡黄白色",
+      "shape": "oblong",
+      "size_long_mm": 9,
+      "size_short_mm": 6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "白色〜淡黄白色のオバール形の軟カプセル剤で、内容物は無色〜淡黄色の粘性の液 ／ 長径 9.0mm 短径 6.0mm"
+    },
+    {
+      "product_name": "カルシトリオールカプセル0.5μg「NIG」",
+      "strength": "1カプセル中 カルシトリオール 0.5μg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTP）としてTYK 221の記載あり。表裏の別は記載なし。",
+      "color": "淡赤色",
+      "shape": "oblong",
+      "size_long_mm": 9,
+      "size_short_mm": 6,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "淡赤色のオバール形の軟カプセル剤で、内容物は無色〜淡黄色の粘性の液 ／ 長径 9.0mm 短径 6.0mm"
+    }
+  ],
+  "expected_products": [
+    "カルシトリオールカプセル0.25μg「NIG」",
+    "カルシトリオールカプセル0.5μg「NIG」"
+  ]
+}

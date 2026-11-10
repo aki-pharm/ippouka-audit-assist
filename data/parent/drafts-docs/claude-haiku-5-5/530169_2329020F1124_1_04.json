@@ -1,0 +1,50 @@
+{
+  "id": "530169_2329020F1124_1_04",
+  "source_file": "530169_2329020F1124_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2329020F1124_1_04",
+  "extracted_at": "2026-11-09T15:04:33.952Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 11799,
+    "output": 2232
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルソグラジンマレイン酸塩錠2mg「日医工」",
+      "strength": "2mg",
+      "imprint_front": "142",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.35,
+      "score_line": false,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 剤形 素錠 色調 白色 外形 直径（mm） 6.0 7.0 厚さ（mm） 2.35 2.6 本体コード 142 143 包装コード 142 143"
+    },
+    {
+      "product_name": "イルソグラジンマレイン酸塩錠4mg「日医工」",
+      "strength": "4mg",
+      "imprint_front": "143",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 剤形 素錠 色調 白色 外形 直径（mm） 6.0 7.0 厚さ（mm） 2.35 2.6 本体コード 142 143 包装コード 142 143"
+    }
+  ],
+  "expected_products": [
+    "イルソグラジンマレイン酸塩錠2mg「日医工」",
+    "イルソグラジンマレイン酸塩錠4mg「日医工」"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "400073_2189016F4078_1_13",
+  "source_file": "400073_2189016F4078_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400073_2189016F4078_1_13",
+  "extracted_at": "2026-11-09T14:52:55.386Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23128,
+    "output": 5869
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa・OD錠1mg「JG」",
+      "strength": "1mg",
+      "imprint_front": "ピタバスタチン OD1 JG",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示欄に「ピタバスタチン OD1 JG」の1行のみ記載。表裏の区別は明記なし",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色の円形の素錠で淡黄色～濃黄色の斑点がある。 直径 6.0mm 厚さ 2.8mm 重量 80mg"
+    },
+    {
+      "product_name": "ピタバスタチンCa・OD錠2mg「JG」",
+      "strength": "2mg",
+      "imprint_front": "ピタバ JG OD2",
+      "imprint_back": "ピタバスタチン OD2 JG",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色の円形の割線入り素錠で淡黄色～濃黄色の斑点がある。 直径 8.1mm 厚さ 3.3mm 重量 160mg"
+    },
+    {
+      "product_name": "ピタバスタチンCa・OD錠4mg「JG」",
+      "strength": "4mg",
+      "imprint_front": "ピタバ JG OD4",
+      "imprint_back": "ピタバスタチン OD4 JG",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡黄白色の円形の素錠で淡黄色～濃黄色の斑点がある。 直径 9.6mm 厚さ 4.7mm 重量 320mg"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa・OD錠1mg「JG」"
+  ]
+}

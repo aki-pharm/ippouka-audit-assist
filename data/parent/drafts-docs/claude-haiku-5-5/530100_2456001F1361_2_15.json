@@ -1,0 +1,50 @@
+{
+  "id": "530100_2456001F1361_2_15",
+  "source_file": "530100_2456001F1361_2_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2456001F1361_2_15",
+  "extracted_at": "2026-11-09T15:12:16.902Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26123,
+    "output": 2129
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレドニゾロン錠 2.5mg「NP」",
+      "strength": "2.5mg",
+      "imprint_front": "NP-235",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「2.5」の表示があるが表裏は判別できない",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の割線入り素錠 6.5 2.3 100 NP-235"
+    },
+    {
+      "product_name": "プレドニゾロン錠 5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "NP-277",
+      "imprint_back": "未確認",
+      "imprint_note": "図中に「5」の表示があるが表裏は判別できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年4月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 7.0 3.4 150 NP-277"
+    }
+  ],
+  "expected_products": [
+    "プレドニゾロン錠2.5mg「NP」",
+    "プレドニゾロン錠5mg「NP」"
+  ]
+}

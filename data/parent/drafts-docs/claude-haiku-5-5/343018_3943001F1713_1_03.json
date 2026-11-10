@@ -1,0 +1,50 @@
+{
+  "id": "343018_3943001F1713_1_03",
+  "source_file": "343018_3943001F1713_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/343018_3943001F1713_1_03",
+  "extracted_at": "2026-11-09T15:23:51.610Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14309,
+    "output": 1897
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠50mg「VTRS」",
+      "strength": "50mg",
+      "imprint_front": "TKS 50",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図に刻印の記載が見当たるが、文言での明記なし",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～微黄白色の素錠である。 直径 約 6.5mm 厚さ 約 2.2mm 識別コード TKS 50"
+    },
+    {
+      "product_name": "アロプリノール錠100mg「VTRS」",
+      "strength": "100mg",
+      "imprint_front": "TKS 100",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図に刻印の記載が見当たるが、文言での明記なし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 4,
+      "score_line": null,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠である。 直径 約 8.5mm 厚さ 約 4.0mm 識別コード TKS 100"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「VTRS」",
+    "アロプリノール錠50mg「VTRS」"
+  ]
+}

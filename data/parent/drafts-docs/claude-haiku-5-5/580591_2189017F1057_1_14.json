@@ -1,0 +1,82 @@
+{
+  "id": "580591_2189017F1057_1_14",
+  "source_file": "580591_2189017F1057_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2189017F1057_1_14",
+  "extracted_at": "2026-11-09T14:55:09.656Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 35806,
+    "output": 3612
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ロスバスタチン錠 2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "ロスバ 2.5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "うすい赤みの黄色～くすんだ赤みの黄色のフィルムコーティング錠 本体表示 ロスバ 2.5 JG 直径 厚さ 重量 5.6mm 3.1mm 78mg"
+    },
+    {
+      "product_name": "ロスバスタチン錠 5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "ロスバ 5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい赤みの黄色～くすんだ赤みの黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "うすい赤みの黄色～くすんだ赤みの黄色のフィルムコーティング錠 本体表示 ロスバ 5 JG 直径 厚さ 重量 7.1mm 3.8mm 155mg"
+    },
+    {
+      "product_name": "ロスバスタチン OD 錠 2.5mg「JG」",
+      "strength": "2.5mg",
+      "imprint_front": "ロスバ OD 2.5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "うすい黄色のフィルムコーティング錠 本体表示 ロスバ OD 2.5 JG 直径 厚さ 重量 5.6mm 3.1mm 78mg"
+    },
+    {
+      "product_name": "ロスバスタチン OD 錠 5mg「JG」",
+      "strength": "5mg",
+      "imprint_front": "ロスバ OD 5 JG",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい黄色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "うすい黄色のフィルムコーティング錠 本体表示 ロスバ OD 5 JG 直径 厚さ 重量 7.2mm 3.6mm 154mg"
+    }
+  ],
+  "expected_products": [
+    "ロスバスタチンOD錠2.5mg「JG」",
+    "ロスバスタチン錠2.5mg「JG」"
+  ]
+}

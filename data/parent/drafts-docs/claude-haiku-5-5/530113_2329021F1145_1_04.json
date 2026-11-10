@@ -1,0 +1,49 @@
+{
+  "id": "530113_2329021F1145_1_04",
+  "source_file": "530113_2329021F1145_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2329021F1145_1_04",
+  "extracted_at": "2026-11-09T15:04:35.645Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14815,
+    "output": 1446
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「NS」",
+      "strength": "100mg",
+      "imprint_front": "NS 290",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色のフィルムコート錠 / 大きさ 錠径：7.6mm 錠厚：3.6mm 重量：155mg / 識別コード NS 290"
+    },
+    {
+      "product_name": "レバミピドOD錠100mg「NS」",
+      "strength": "100mg",
+      "imprint_front": "NS 27",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄白色の素錠 / 大きさ 錠径：8.0mm 錠厚：4.1mm 重量：180mg / 識別コード NS 27"
+    }
+  ],
+  "expected_products": [
+    "レバミピドOD錠100mg「NS」"
+  ]
+}

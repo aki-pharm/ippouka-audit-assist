@@ -1,0 +1,65 @@
+{
+  "id": "430773_2139011F3034_1_08",
+  "source_file": "430773_2139011F3034_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2139011F3034_1_08",
+  "extracted_at": "2026-11-09T14:27:44.035Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 50175,
+    "output": 3480
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トルバプタンOD錠7.5mg「DSEP」",
+      "strength": "7.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "薄い青色",
+      "shape": "oblong",
+      "size_long_mm": 7.8,
+      "size_short_mm": 4.4,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "トルバプタンOD錠7.5mg「DSEP」 素錠（口腔内崩壊錠）（両面割線入） 薄い青色 7.8（長径） 4.4（短径） 3.1 100"
+    },
+    {
+      "product_name": "トルバプタンOD錠15mg「DSEP」",
+      "strength": "15mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "薄い青色",
+      "shape": null,
+      "size_long_mm": 8.6,
+      "size_short_mm": null,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "トルバプタンOD錠15mg「DSEP」 素錠（口腔内崩壊錠）（両面割線入） 薄い青色 8.6 3.7 200"
+    },
+    {
+      "product_name": "トルバプタンOD錠30mg「DSEP」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "薄い青色",
+      "shape": null,
+      "size_long_mm": 9.6,
+      "size_short_mm": null,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2026年8月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "トルバプタンOD錠30mg「DSEP」 素錠（口腔内崩壊錠）（両面割線入） 薄い青色 9.6 4.4 300"
+    }
+  ],
+  "expected_products": [
+    "トルバプタンOD錠30mg「DSEP」"
+  ]
+}

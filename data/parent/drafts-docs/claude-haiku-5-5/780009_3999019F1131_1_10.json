@@ -1,0 +1,33 @@
+{
+  "id": "780009_3999019F1131_1_10",
+  "source_file": "780009_3999019F1131_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_3999019F1131_1_10",
+  "extracted_at": "2026-11-09T15:34:45.250Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19762,
+    "output": 1264
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠2.5mg「明治」",
+      "strength": "2.5mg",
+      "imprint_front": "MS 019",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年1月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "フィルムコーティング錠 白色～帯黄白色 直径（mm）6.6 厚さ（mm）3.4 重量（mg）115.0"
+    }
+  ],
+  "expected_products": [
+    "リセドロン酸Na錠2.5mg「明治」"
+  ]
+}

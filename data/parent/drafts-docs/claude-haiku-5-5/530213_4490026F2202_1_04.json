@@ -1,0 +1,49 @@
+{
+  "id": "530213_4490026F2202_1_04",
+  "source_file": "530213_4490026F2202_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_4490026F2202_1_04",
+  "extracted_at": "2026-11-09T15:45:32.716Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23168,
+    "output": 2234
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モンテルカスト錠5mg「ケミファ」",
+      "strength": "5mg",
+      "imprint_front": "モンテルカスト5 ケミファ",
+      "imprint_back": "モンテルカスト5 ケミファ",
+      "imprint_note": null,
+      "color": "明るい灰黄色",
+      "shape": "oval",
+      "size_long_mm": 7.7,
+      "size_short_mm": 5.7,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状 明るい灰黄色のフィルムコーティング錠 直径 長径 7.7mm 短径 5.7mm 厚さ 2.9mm 識別コード モンテルカスト5 ケミファ"
+    },
+    {
+      "product_name": "モンテルカスト錠10mg「ケミファ」",
+      "strength": "10mg",
+      "imprint_front": "モンテルカスト10 ケミファ",
+      "imprint_back": "モンテルカスト10 ケミファ",
+      "imprint_note": null,
+      "color": "明るい灰黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "性状 明るい灰黄色のフィルムコーティング錠 直径 8.1mm 厚さ 3.9mm 識別コード モンテルカスト10 ケミファ"
+    }
+  ],
+  "expected_products": [
+    "モンテルカスト錠5mg「ケミファ」"
+  ]
+}

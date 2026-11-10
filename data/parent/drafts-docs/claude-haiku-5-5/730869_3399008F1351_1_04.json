@@ -1,0 +1,49 @@
+{
+  "id": "730869_3399008F1351_1_04",
+  "source_file": "730869_3399008F1351_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_3399008F1351_1_04",
+  "extracted_at": "2026-11-09T15:22:36.323Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31259,
+    "output": 2320
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロピドグレル錠25mg「VTRS」",
+      "strength": "25mg",
+      "imprint_front": "クロピドグレル",
+      "imprint_back": "25",
+      "imprint_note": "識別コード欄は「－」。上面・下面の表示は外観図から読み取った",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠25mg「VTRS」 － 白色～微黄白色フィルムコーティング錠 直径 6.7mm 厚さ 3.7mm 重量 120mg"
+    },
+    {
+      "product_name": "クロピドグレル錠75mg「VTRS」",
+      "strength": "75mg",
+      "imprint_front": "クロピドグレル",
+      "imprint_back": "75",
+      "imprint_note": "識別コード欄は「－」。上面・下面の表示は外観図から読み取った",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.9,
+      "score_line": null,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "クロピドグレル錠75mg「VTRS」 － 白色～微黄白色フィルムコーティング錠 直径 8.7mm 厚さ 4.9mm 重量 269mg"
+    }
+  ],
+  "expected_products": [
+    "クロピドグレル錠25mg「VTRS」"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "270428_2171022F3188_1_18",
+  "source_file": "270428_2171022F3188_1_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2171022F3188_1_18",
+  "extracted_at": "2026-11-09T14:48:18.845Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21742,
+    "output": 2755
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピンOD錠2.5mg「サンド」",
+      "strength": "2.5mg",
+      "imprint_front": "SAO2.5",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形（又は性状） 淡橙色の素錠 大きさ 直径 7.0mm 厚さ 2.2mm 識別コード（PTP） SAO2.5"
+    },
+    {
+      "product_name": "アムロジピンOD錠5mg「サンド」",
+      "strength": "5mg",
+      "imprint_front": "SAO5",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形（又は性状） 淡橙色の割線入り素錠 大きさ 直径 8.0mm 厚さ 3.4mm 識別コード（PTP） SAO5"
+    },
+    {
+      "product_name": "アムロジピンOD錠10mg「サンド」",
+      "strength": "10mg",
+      "imprint_front": "SAO10",
+      "imprint_back": "10",
+      "imprint_note": null,
+      "color": "淡橙色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.8,
+      "score_line": true,
+      "source_revision": "2024年10月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形（又は性状） 淡橙色の割線入り素錠 大きさ 直径 8.6mm 厚さ 4.8mm 識別コード（PTP） SAO10"
+    }
+  ],
+  "expected_products": [
+    "アムロジピンOD錠2.5mg「サンド」",
+    "アムロジピンOD錠5mg「サンド」"
+  ]
+}

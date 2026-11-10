@@ -1,0 +1,67 @@
+{
+  "id": "300119_2149037F1059_1_07",
+  "source_file": "300119_2149037F1059_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2149037F1059_1_07",
+  "extracted_at": "2026-11-09T14:33:59.317Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18445,
+    "output": 1860
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シルニジピン錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW 541",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色 直径（mm） 7.2 厚さ（mm） 3.2 識別コード SW 541"
+    },
+    {
+      "product_name": "シルニジピン錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW 542",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 4,
+      "score_line": false,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色 直径（mm） 9.2 厚さ（mm） 4.0 識別コード SW 542"
+    },
+    {
+      "product_name": "シルニジピン錠20mg「サワイ」",
+      "strength": "20mg",
+      "imprint_front": "SW 543",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 16.3,
+      "size_short_mm": 7.2,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 性状 白色 直径（mm） 16.3×7.2 厚さ（mm） 5.2 識別コード SW 543"
+    }
+  ],
+  "expected_products": [
+    "シルニジピン錠10mg「サワイ」",
+    "シルニジピン錠20mg「サワイ」",
+    "シルニジピン錠5mg「サワイ」"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "671940_2189016F1311_1_05",
+  "source_file": "671940_2189016F1311_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/671940_2189016F1311_1_05",
+  "extracted_at": "2026-11-09T14:54:41.510Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25038,
+    "output": 3610
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンカルシウム錠1mg「フェルゼン」",
+      "strength": "1mg",
+      "imprint_front": "014",
+      "imprint_back": "FEL",
+      "imprint_note": "識別コードはFEL014",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2023年12月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状：白色のフィルムコーティング錠 大きさ等：直径：6.1mm 厚さ：2.7mm 質量：84mg 識別コード FEL014"
+    },
+    {
+      "product_name": "ピタバスタチンカルシウム錠2mg「フェルゼン」",
+      "strength": "2mg",
+      "imprint_front": "FEL015",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は割線入りで、刻印の記載は本文になし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年12月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状：白色の割線入りフィルムコーティング錠 大きさ等：直径：7.1mm 厚さ：3.1mm 質量：126mg 識別コード FEL015"
+    },
+    {
+      "product_name": "ピタバスタチンカルシウム錠4mg「フェルゼン」",
+      "strength": "4mg",
+      "imprint_front": "FEL016",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は割線入りで、刻印の記載は本文になし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.3,
+      "score_line": true,
+      "source_revision": "2023年12月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状：白色の割線入りフィルムコーティング錠 大きさ等：直径：8.7mm 厚さ：4.3mm 質量：252mg 識別コード FEL016"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンカルシウム錠1mg「フェルゼン」"
+  ]
+}

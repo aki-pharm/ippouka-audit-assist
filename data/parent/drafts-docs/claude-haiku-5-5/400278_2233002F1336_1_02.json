@@ -1,0 +1,50 @@
+{
+  "id": "400278_2233002F1336_1_02",
+  "source_file": "400278_2233002F1336_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2233002F1336_1_02",
+  "extracted_at": "2026-11-09T14:58:54.286Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12917,
+    "output": 2403
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルボシステイン錠250mg「TCK」",
+      "strength": "250mg",
+      "imprint_front": "TU-KR 250",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 5.4,
+      "score_line": false,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "カルボシステイン錠250mg「TCK」 白色 フィルムコーティング錠 TU-KR 250 直径8.7mm 厚さ5.4mm 重量335mg"
+    },
+    {
+      "product_name": "カルボシステイン錠500mg「TCK」",
+      "strength": "500mg",
+      "imprint_front": "TU KR",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15,
+      "size_short_mm": 6.5,
+      "thickness_mm": 6,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "カルボシステイン錠500mg「TCK」 白色 フィルムコーティング錠(割線入り) TU KR 直径15.0×6.5mm 厚さ6.0mm 重量560mg"
+    }
+  ],
+  "expected_products": [
+    "カルボシステイン錠250mg「TCK」",
+    "カルボシステイン錠500mg「TCK」"
+  ]
+}

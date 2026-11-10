@@ -1,0 +1,33 @@
+{
+  "id": "460028_2183002M1374_1_06",
+  "source_file": "460028_2183002M1374_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2183002M1374_1_06",
+  "extracted_at": "2026-11-09T14:50:10.130Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9489,
+    "output": 1221
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クロフィブラートカプセル250mg「ツルハラ」",
+      "strength": "250mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "赤色透明",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年3月改訂",
+      "source_page": 1,
+      "source_quote": "色調 赤色透明の球形 大きさ 直径 約8mm"
+    }
+  ],
+  "expected_products": [
+    "クロフィブラートカプセル250mg「ツルハラ」"
+  ]
+}

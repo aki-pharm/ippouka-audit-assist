@@ -1,0 +1,66 @@
+{
+  "id": "400278_2171021F1296_1_03",
+  "source_file": "400278_2171021F1296_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_2171021F1296_1_03",
+  "extracted_at": "2026-11-09T14:46:24.379Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17321,
+    "output": 2738
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベニジピン塩酸塩錠 2mg「TCK」",
+      "strength": "2mg",
+      "imprint_front": "TU 203",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "黄色フィルムコーティング錠 TU 203 6.1 2.9 80"
+    },
+    {
+      "product_name": "ベニジピン塩酸塩錠 4mg「TCK」",
+      "strength": "4mg",
+      "imprint_front": "TU 205",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.45,
+      "score_line": true,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "黄色フィルムコーティング錠（割線入り） TU 205 7.1 3.45 140"
+    },
+    {
+      "product_name": "ベニジピン塩酸塩錠 8mg「TCK」",
+      "strength": "8mg",
+      "imprint_front": "TU 206",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": true,
+      "source_revision": "2025年12月改訂",
+      "source_page": 1,
+      "source_quote": "黄色フィルムコーティング錠（割線入り） TU 206 8.1 3.6 200"
+    }
+  ],
+  "expected_products": [
+    "ベニジピン塩酸塩錠2mg「TCK」",
+    "ベニジピン塩酸塩錠4mg「TCK」"
+  ]
+}

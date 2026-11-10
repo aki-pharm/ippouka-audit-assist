@@ -1,0 +1,66 @@
+{
+  "id": "530169_2149046F1120_1_06",
+  "source_file": "530169_2149046F1120_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149046F1120_1_06",
+  "extracted_at": "2026-11-09T14:42:14.204Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20096,
+    "output": 3636
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠50mg「日医工」",
+      "strength": "50mg",
+      "imprint_front": "イルベサルタン 50 日医工",
+      "imprint_back": "イルベサルタン",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.5,
+      "size_short_mm": 4.4,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 だ円形の割線入りのフィルムコーティング錠 色 調 白色～帯黄白色 直径(mm) 8.5×4.4 厚さ(mm) 2.9"
+    },
+    {
+      "product_name": "イルベサルタン錠100mg「日医工」",
+      "strength": "100mg",
+      "imprint_front": "イルベサルタン 100 日医工",
+      "imprint_back": "イルベサルタン 100 日医工",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 だ円形の割線入りのフィルムコーティング錠 色 調 白色～帯黄白色 直径(mm) 11×5.8 厚さ(mm) 3.7"
+    },
+    {
+      "product_name": "イルベサルタン錠200mg「日医工」",
+      "strength": "200mg",
+      "imprint_front": "イルベサルタン 200 日医工",
+      "imprint_back": "イルベサルタン 200 日医工",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 14.2,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤 形 だ円形の割線入りのフィルムコーティング錠 色 調 白色～帯黄白色 直径(mm) 14.2×7.4 厚さ(mm) 4.7"
+    }
+  ],
+  "expected_products": [
+    "イルベサルタン錠100mg「日医工」",
+    "イルベサルタン錠200mg「日医工」"
+  ]
+}

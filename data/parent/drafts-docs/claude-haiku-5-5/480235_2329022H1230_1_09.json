@@ -1,0 +1,49 @@
+{
+  "id": "480235_2329022H1230_1_09",
+  "source_file": "480235_2329022H1230_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2329022H1230_1_09",
+  "extracted_at": "2026-11-09T15:06:10.163Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29021,
+    "output": 1843
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オメプラゾール錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "Tw275",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～灰白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～灰白色の腸溶性のフィルムコーティング錠 識別コード Tw275 直径(mm) 6.2 厚さ(mm) 2.9"
+    },
+    {
+      "product_name": "オメプラゾール錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "Tw276",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～灰白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2026年7月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～灰白色の腸溶性のフィルムコーティング錠 識別コード Tw276 直径(mm) 7.2 厚さ(mm) 3.3"
+    }
+  ],
+  "expected_products": [
+    "オメプラゾール錠20mg「トーワ」"
+  ]
+}

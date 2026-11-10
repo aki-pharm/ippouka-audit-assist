@@ -1,0 +1,50 @@
+{
+  "id": "581120_3949002F1185_1_06",
+  "source_file": "581120_3949002F1185_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_3949002F1185_1_06",
+  "extracted_at": "2026-11-09T15:24:37.098Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13939,
+    "output": 2434
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベンズブロマロン錠25mg「NIG」",
+      "strength": "25mg",
+      "imprint_front": "BZ25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入り素錠 ／ 直径 6.5mm 厚さ 2.2mm（識別コード（PTP） BZ25）"
+    },
+    {
+      "product_name": "ベンズブロマロン錠50mg「NIG」",
+      "strength": "50mg",
+      "imprint_front": "BZ",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～淡黄色の片面1/2割線入り素錠 ／ 直径 7.5mm 厚さ 2.4mm（識別コード（PTP） BZ）"
+    }
+  ],
+  "expected_products": [
+    "ベンズブロマロン錠25mg「NIG」",
+    "ベンズブロマロン錠50mg「NIG」"
+  ]
+}

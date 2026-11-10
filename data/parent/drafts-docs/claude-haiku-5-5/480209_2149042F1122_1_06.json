@@ -1,0 +1,67 @@
+{
+  "id": "480209_2149042F1122_1_06",
+  "source_file": "480209_2149042F1122_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2149042F1122_1_06",
+  "extracted_at": "2026-11-09T14:40:00.507Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23168,
+    "output": 2386
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "テルミサルタン 20 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 ／ 色調 白色～微黄色 ／ 本体表示 テルミサルタン 20 杏林 ／ 直径(mm) 6.0 ／ 厚さ(mm) 2.4 ／ 質量(mg) 85"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「杏林」",
+      "strength": "40mg",
+      "imprint_front": "テルミサルタン 40 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 ／ 色調 白色～微黄色 ／ 本体表示 テルミサルタン 40 杏林 ／ 直径(mm) 8.0 ／ 厚さ(mm) 2.9 ／ 質量(mg) 170"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「杏林」",
+      "strength": "80mg",
+      "imprint_front": "テルミサルタン 80 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.95,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 ／ 色調 白色 ／ 本体表示 テルミサルタン 80 杏林 ／ 直径(mm) 10.0 ／ 厚さ(mm) 4.95 ／ 質量(mg) 345"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「杏林」",
+    "テルミサルタン錠40mg「杏林」",
+    "テルミサルタン錠80mg「杏林」"
+  ]
+}

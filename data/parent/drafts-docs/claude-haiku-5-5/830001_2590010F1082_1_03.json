@@ -1,0 +1,84 @@
+{
+  "id": "830001_2590010F1082_1_03",
+  "source_file": "830001_2590010F1082_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2590010F1082_1_03",
+  "extracted_at": "2026-11-09T15:15:52.663Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26493,
+    "output": 2393
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロドシン錠2mg「YD」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤白色",
+      "shape": "round",
+      "size_long_mm": 6.7,
+      "size_short_mm": 6.7,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤白色のフィルムコーティング錠 外形 直径 約6.7mm 厚さ 約3.1mm 重量 110mg"
+    },
+    {
+      "product_name": "シロドシン錠4mg「YD」",
+      "strength": "4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤白色",
+      "shape": "oblong",
+      "size_long_mm": 11.3,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤白色の割線入りフィルムコーティング錠 外形 （長径）約11.3mm （短径）約6.2mm 厚さ 約3.7mm 重量 217mg"
+    },
+    {
+      "product_name": "シロドシンOD錠2mg「YD」",
+      "strength": "2mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 淡赤色の素錠 外形 直径 約6mm 厚さ 約3.1mm 重量 100mg"
+    },
+    {
+      "product_name": "シロドシンOD錠4mg「YD」",
+      "strength": "4mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 片面割線入りの淡黄赤色の素錠 外形 直径 約8mm 厚さ 約3.7mm 重量 200mg"
+    }
+  ],
+  "expected_products": [
+    "シロドシンOD錠2mg「YD」",
+    "シロドシンOD錠4mg「YD」",
+    "シロドシン錠2mg「YD」",
+    "シロドシン錠4mg「YD」"
+  ]
+}

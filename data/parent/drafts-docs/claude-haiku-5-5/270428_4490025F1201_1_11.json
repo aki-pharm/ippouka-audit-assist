@@ -1,0 +1,50 @@
+{
+  "id": "270428_4490025F1201_1_11",
+  "source_file": "270428_4490025F1201_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_4490025F1201_1_11",
+  "extracted_at": "2026-11-09T15:43:37.061Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22975,
+    "output": 2312
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オロパタジン塩酸塩錠2.5mg「サンド」",
+      "strength": "2.5mg",
+      "imprint_front": "OS2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄赤色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡黄赤色 直径 6.6mm 厚さ 3.2mm 質量 103.0mg 識別コード OS2.5"
+    },
+    {
+      "product_name": "オロパタジン塩酸塩錠5mg「サンド」",
+      "strength": "5mg",
+      "imprint_front": "OS5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年1月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りのフィルムコーティング錠 色調 淡黄色 直径 7.1mm 厚さ 3.0mm 質量 124.0mg 識別コード OS5"
+    }
+  ],
+  "expected_products": [
+    "オロパタジン塩酸塩錠2.5mg「サンド」",
+    "オロパタジン塩酸塩錠5mg「サンド」"
+  ]
+}

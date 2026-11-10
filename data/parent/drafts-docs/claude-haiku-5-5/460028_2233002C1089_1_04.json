@@ -1,0 +1,50 @@
+{
+  "id": "460028_2233002C1089_1_04",
+  "source_file": "460028_2233002C1089_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_2233002C1089_1_04",
+  "extracted_at": "2026-11-09T14:59:00.109Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13613,
+    "output": 1783
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルボシステイン錠250mg「ツルハラ」",
+      "strength": "250mg",
+      "imprint_front": "250",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.3,
+      "score_line": false,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色 大きさ 直径 約9.1mm 厚さ 約4.3mm 識別コード 250"
+    },
+    {
+      "product_name": "カルボシステイン錠500mg「ツルハラ」",
+      "strength": "500mg",
+      "imprint_front": "TSU273",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 11.2,
+      "size_short_mm": 11.2,
+      "thickness_mm": 5.2,
+      "score_line": true,
+      "source_revision": "2023年8月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 白色 大きさ 直径 約11.2mm 厚さ 約5.2mm 質量 約584mg 識別コード TSU273"
+    }
+  ],
+  "expected_products": [
+    "カルボシステイン錠250mg「ツルハラ」",
+    "カルボシステイン錠500mg「ツルハラ」"
+  ]
+}

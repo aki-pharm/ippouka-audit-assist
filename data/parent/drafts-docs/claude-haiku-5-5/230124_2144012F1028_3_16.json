@@ -1,0 +1,50 @@
+{
+  "id": "230124_2144012F1028_3_16",
+  "source_file": "230124_2144012F1028_3_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/230124_2144012F1028_3_16",
+  "extracted_at": "2026-11-09T14:30:48.721Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25185,
+    "output": 2352
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "コバシル錠2mg",
+      "strength": "2mg",
+      "imprint_front": "KH220",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは錠剤本体に表示（PTPシートにも表示）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 7.0 厚さ（mm） 2.2 重量（g） 約0.105 色調 剤皮 淡黄色 素錠 識別コード KH220（錠剤本体、PTPシートに表示）"
+    },
+    {
+      "product_name": "コバシル錠4mg",
+      "strength": "4mg",
+      "imprint_front": "KH221",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは錠剤本体に表示（PTPシートにも表示）",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "直径（mm） 7.5 厚さ（mm） 2.7 重量（g） 約0.147 色調 剤皮 白色～微黄白色 素錠 識別コード KH221（錠剤本体、PTPシートに表示）"
+    }
+  ],
+  "expected_products": [
+    "コバシル錠2mg",
+    "コバシル錠4mg"
+  ]
+}

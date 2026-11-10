@@ -1,0 +1,33 @@
+{
+  "id": "470007_2329021F1080_1_04",
+  "source_file": "470007_2329021F1080_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470007_2329021F1080_1_04",
+  "extracted_at": "2026-11-09T15:05:27.471Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14248,
+    "output": 1476
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「あすか」",
+      "strength": "100mg",
+      "imprint_front": "AK211",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはAK211。裏面の刻印の記載はなし",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 3.7,
+      "score_line": null,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "剤 形 白色フィルムコーティング錠 外形 直径約7.5mm　厚さ約3.7mm　質量約165.0mg 識別コード AK211"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「あすか」"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "270428_2149041F1233_1_11",
+  "source_file": "270428_2149041F1233_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2149041F1233_1_11",
+  "extracted_at": "2026-11-09T14:37:53.776Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22018,
+    "output": 3145
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "バルサルタン錠20mg「サンド」",
+      "strength": "20mg",
+      "imprint_front": "VL",
+      "imprint_back": "20",
+      "imprint_note": "識別コードはVL20（表面VL、裏面20）",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の片面割線入りのフィルムコーティング錠 外形 識別コード VL20 大きさ（約）直径：7.1mm 厚さ：2.6mm 質量：0.10g"
+    },
+    {
+      "product_name": "バルサルタン錠40mg「サンド」",
+      "strength": "40mg",
+      "imprint_front": "VL",
+      "imprint_back": "40",
+      "imprint_note": "識別コードはVL40（表面VL、裏面40）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りのフィルムコーティング錠 外形 識別コード VL40 大きさ（約）直径：7.1mm 厚さ：2.8mm 質量：0.10g"
+    },
+    {
+      "product_name": "バルサルタン錠80mg「サンド」",
+      "strength": "80mg",
+      "imprint_front": "VL",
+      "imprint_back": "80",
+      "imprint_note": "識別コードはVL80（表面VL、裏面80）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りのフィルムコーティング錠 外形 識別コード VL80 大きさ（約）直径：8.6mm 厚さ：3.7mm 質量：0.21g"
+    },
+    {
+      "product_name": "バルサルタン錠160mg「サンド」",
+      "strength": "160mg",
+      "imprint_front": "VL160",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードはVL160（表面に刻印。裏面の刻印は画像上確認できず）",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 14.6,
+      "size_short_mm": 5.8,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の長楕円形をした割線入りのフィルムコーティング錠 外形 識別コード VL160 大きさ（約）長径：14.6mm 短径：5.8mm 厚さ：5.7mm 質量：0.41g"
+    }
+  ],
+  "expected_products": [
+    "バルサルタン錠20mg「サンド」",
+    "バルサルタン錠40mg「サンド」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "530113_4490014F1297_1_02",
+  "source_file": "530113_4490014F1297_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_4490014F1297_1_02",
+  "extracted_at": "2026-11-09T15:38:43.618Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 10180,
+    "output": 1529
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エピナスチン塩酸塩錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "NS 410",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状：白色～微黄色のフィルムコーティング錠　錠径：6.1mm　錠厚：3.0mm　重量：100mg　識別コード：NS 410"
+    },
+    {
+      "product_name": "エピナスチン塩酸塩錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "NS 411",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状：白色～微黄色の片面割線入りのフィルムコート錠　錠径：8.1mm　錠厚：3.4mm　重量：175mg　識別コード：NS 411"
+    }
+  ],
+  "expected_products": [
+    "エピナスチン塩酸塩錠10mg「日新」"
+  ]
+}

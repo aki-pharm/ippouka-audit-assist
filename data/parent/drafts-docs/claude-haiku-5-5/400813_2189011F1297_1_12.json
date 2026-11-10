@@ -1,0 +1,49 @@
+{
+  "id": "400813_2189011F1297_1_12",
+  "source_file": "400813_2189011F1297_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_2189011F1297_1_12",
+  "extracted_at": "2026-11-09T14:51:32.794Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18090,
+    "output": 1617
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シンバスタチン錠5mg「武田テバ」",
+      "strength": "5mg",
+      "imprint_front": "t 039",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の片面1/2割線入り素錠 形状 直径 6.5mm 厚さ 2.5mm 重量 100mg 識別コード（PTP） t 039"
+    },
+    {
+      "product_name": "シンバスタチン錠10mg「武田テバ」",
+      "strength": "10mg",
+      "imprint_front": "t 440",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年9月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "白色の素錠 形状 直径 8.0mm 厚さ 3.1mm 重量 200mg 識別コード（PTP） t 440"
+    }
+  ],
+  "expected_products": [
+    "シンバスタチン錠5mg「武田テバ」"
+  ]
+}

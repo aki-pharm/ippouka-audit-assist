@@ -1,0 +1,66 @@
+{
+  "id": "430773_2590009F4038_1_05",
+  "source_file": "430773_2590009F4038_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2590009F4038_1_05",
+  "extracted_at": "2026-11-09T15:14:26.210Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13661,
+    "output": 2348
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ナフトピジルOD錠25mg「DSEP」",
+      "strength": "25mg",
+      "imprint_front": "NFP EP",
+      "imprint_back": "NFP 25",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2021年4月改訂",
+      "source_page": 1,
+      "source_quote": "素錠（割線入）白色 NFP EP 25 直径7.0mm 厚さ3.3mm 重さ125mg"
+    },
+    {
+      "product_name": "ナフトピジルOD錠50mg「DSEP」",
+      "strength": "50mg",
+      "imprint_front": "NFP EP",
+      "imprint_back": "NFP 50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2021年4月改訂",
+      "source_page": 1,
+      "source_quote": "素錠（割線入）白色 NFP EP 50 直径9.0mm 厚さ4.1mm 重さ250mg"
+    },
+    {
+      "product_name": "ナフトピジルOD錠75mg「DSEP」",
+      "strength": "75mg",
+      "imprint_front": "NFP EP",
+      "imprint_back": "NFP 75",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10,
+      "size_short_mm": 10,
+      "thickness_mm": 4.9,
+      "score_line": true,
+      "source_revision": "2021年4月改訂",
+      "source_page": 1,
+      "source_quote": "素錠（割線入）白色 NFP EP 75 直径10.0mm 厚さ4.9mm 重さ375mg"
+    }
+  ],
+  "expected_products": [
+    "ナフトピジルOD錠25mg「DSEP」",
+    "ナフトピジルOD錠75mg「DSEP」"
+  ]
+}

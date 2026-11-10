@@ -1,0 +1,65 @@
+{
+  "id": "480235_2149046F1112_1_06",
+  "source_file": "480235_2149046F1112_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149046F1112_1_06",
+  "extracted_at": "2026-11-09T14:42:38.680Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19817,
+    "output": 1653
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルベサルタン錠50mg「トーワ」",
+      "strength": "50mg",
+      "imprint_front": "50 イルベ",
+      "imprint_back": "イルベサルタン 50 トーワ",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 8.6,
+      "size_short_mm": 4.5,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りのフィルムコーティング錠"
+    },
+    {
+      "product_name": "イルベサルタン錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "100 イルベ",
+      "imprint_back": "イルベサルタン 100 トーワ",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 11.1,
+      "size_short_mm": 5.8,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りのフィルムコーティング錠"
+    },
+    {
+      "product_name": "イルベサルタン錠200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "200 イルベ",
+      "imprint_back": "イルベサルタン 200 トーワ",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "oval",
+      "size_long_mm": 14.1,
+      "size_short_mm": 7.4,
+      "thickness_mm": 4.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の楕円形の割線入りのフィルムコーティング錠"
+    }
+  ],
+  "expected_products": [
+    "イルベサルタン錠50mg「トーワ」"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "300119_2391008M1048_1_03",
+  "source_file": "300119_2391008M1048_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2391008M1048_1_03",
+  "extracted_at": "2026-11-09T15:08:30.450Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27725,
+    "output": 2239
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アプレピタントカプセル125mg「サワイ」",
+      "strength": "125mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載なし（外形図のみ）",
+      "color": "頭部：淡赤色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 17.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外　形 2号 3号 剤　形 硬カプセル剤 性　状 頭　部：淡赤色不透明 胴　部：白色不透明 内容物：白色～灰白色の顆粒又は粉末 頭　部：白色不透明 胴　部：白色不透明 内容物：白色～灰白色の顆粒又は粉末 全長（mm） 17．8 15．8"
+    },
+    {
+      "product_name": "アプレピタントカプセル80mg「サワイ」",
+      "strength": "80mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "本文に刻印の記載なし（外形図のみ）",
+      "color": "頭部：白色不透明、胴部：白色不透明",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "外　形 2号 3号 剤　形 硬カプセル剤 性　状 頭　部：淡赤色不透明 胴　部：白色不透明 内容物：白色～灰白色の顆粒又は粉末 頭　部：白色不透明 胴　部：白色不透明 内容物：白色～灰白色の顆粒又は粉末 全長（mm） 17．8 15．8"
+    }
+  ],
+  "expected_products": [
+    "アプレピタントカプセルセット「サワイ」"
+  ]
+}

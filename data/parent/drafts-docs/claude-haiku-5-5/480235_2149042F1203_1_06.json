@@ -1,0 +1,65 @@
+{
+  "id": "480235_2149042F1203_1_06",
+  "source_file": "480235_2149042F1203_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149042F1203_1_06",
+  "extracted_at": "2026-11-09T14:39:31.181Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22936,
+    "output": 3182
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テルミサルタン錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "テルミ 20 サルタン トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "表示欄では20mgの裏面表示が判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色のフィルムコーティング錠 直径(mm) 6.1 厚さ(mm) 2.9 質量(mg) 86.12"
+    },
+    {
+      "product_name": "テルミサルタン錠40mg「トーワ」",
+      "strength": "40mg",
+      "imprint_front": "テルミ 40",
+      "imprint_back": "テルミ 40 サルタン トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色の割線入りのフィルムコーティング錠 直径(mm) 8.1 厚さ(mm) 3.4 質量(mg) 171"
+    },
+    {
+      "product_name": "テルミサルタン錠80mg「トーワ」",
+      "strength": "80mg",
+      "imprint_front": "テルミ 80",
+      "imprint_back": "テルミ 80 サルタン トーワ",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 10.1,
+      "size_short_mm": 10.1,
+      "thickness_mm": 4.4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色の割線入りのフィルムコーティング錠 直径(mm) 10.1 厚さ(mm) 4.4 質量(mg) 340"
+    }
+  ],
+  "expected_products": [
+    "テルミサルタン錠20mg「トーワ」"
+  ]
+}

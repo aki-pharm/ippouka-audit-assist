@@ -1,0 +1,49 @@
+{
+  "id": "670605_2454002F2023_2_05",
+  "source_file": "670605_2454002F2023_2_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670605_2454002F2023_2_05",
+  "extracted_at": "2026-11-09T15:12:03.541Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 21337,
+    "output": 1721
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レナデックス錠2mg",
+      "strength": "2mg",
+      "imprint_front": "EM32",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表面の表記（EM32）。裏面の刻印は記載なし。",
+      "color": "白色～灰白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色 白色～灰白色 剤形 片面割線入りの素錠 大きさ 直径 7.1mm 厚さ 2.0mm 重量 110mg 識別コード EM32"
+    },
+    {
+      "product_name": "レナデックス錠4mg",
+      "strength": "4mg",
+      "imprint_front": "EM28",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは表面の表記（EM28）。裏面の刻印は記載なし。",
+      "color": "白色～灰白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "色 白色～灰白色 剤形 片面割線入りの素錠 大きさ 直径 9.1mm 厚さ 2.5mm 重量 200mg 識別コード EM28"
+    }
+  ],
+  "expected_products": [
+    "レナデックス錠2mg"
+  ]
+}

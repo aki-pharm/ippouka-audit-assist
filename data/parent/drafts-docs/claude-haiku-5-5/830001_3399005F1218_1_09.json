@@ -1,0 +1,49 @@
+{
+  "id": "830001_3399005F1218_1_09",
+  "source_file": "830001_3399005F1218_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_3399005F1218_1_09",
+  "extracted_at": "2026-11-09T15:21:26.063Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17501,
+    "output": 2067
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベラプロストNa錠20μg「YD」",
+      "strength": "20μg",
+      "imprint_front": "YD 460",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面（図中の円形部分）に刻印の記載は確認できず、明記もないため未確認とした",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 ／ 外形 直径 約6mm 厚さ 約3mm 重量 100mg"
+    },
+    {
+      "product_name": "ベラプロストNa錠40μg「YD」",
+      "strength": "40μg",
+      "imprint_front": "YD 663",
+      "imprint_back": "40",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年4月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 ／ 外形 直径 約8.1mm 厚さ 約3.6mm 重量 198mg"
+    }
+  ],
+  "expected_products": [
+    "ベラプロストNa錠20μg「YD」"
+  ]
+}

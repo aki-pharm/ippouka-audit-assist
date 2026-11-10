@@ -1,0 +1,67 @@
+{
+  "id": "581120_2139005F1117_1_04",
+  "source_file": "581120_2139005F1117_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2139005F1117_1_04",
+  "extracted_at": "2026-11-09T14:27:12.299Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18311,
+    "output": 3563
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フロセミド錠10mg「NIG」",
+      "strength": "10mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載がなく、画像からも判読できないため未確認",
+      "color": "微赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 微赤色の片面 1 / 2 割線入りフィルムコーティング錠 外形 直径 6.1mm 厚さ 3.1mm 質量 95mg"
+    },
+    {
+      "product_name": "フロセミド錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載がなく、画像からも判読できないため未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入りフィルムコーティング錠 外形 直径 6.1mm 厚さ 3.1mm 質量 97mg"
+    },
+    {
+      "product_name": "フロセミド錠40mg「NIG」",
+      "strength": "40mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "添付文書の本文に刻印の記載がなく、画像からも判読できないため未確認。色は表の結合セルの記載から判断",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2026年2月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色の片面1/2割線入りフィルムコーティング錠 外形 直径 7.6mm 厚さ 3.8mm 質量 191mg"
+    }
+  ],
+  "expected_products": [
+    "フロセミド錠10mg「NIG」",
+    "フロセミド錠20mg「NIG」",
+    "フロセミド錠40mg「NIG」"
+  ]
+}

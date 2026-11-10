@@ -1,0 +1,50 @@
+{
+  "id": "480235_2171006F1364_1_09",
+  "source_file": "480235_2171006F1364_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2171006F1364_1_09",
+  "extracted_at": "2026-11-09T14:44:16.159Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22165,
+    "output": 1575
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジルチアゼム塩酸塩錠30mg「トーワ」",
+      "strength": "30mg",
+      "imprint_front": "TwSN",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図に刻印の文字表示なし（「なし」とは明記されていない）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 4.3,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠（徐放性）　識別コード TwSN　直径(mm) 8.0　厚さ(mm) 4.3"
+    },
+    {
+      "product_name": "ジルチアゼム塩酸塩錠60mg「トーワ」",
+      "strength": "60mg",
+      "imprint_front": "Tw291",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図に刻印の文字表示なし（「なし」とは明記されていない）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の素錠（徐放性）　識別コード Tw291　直径(mm) 8.0　厚さ(mm) 3.6"
+    }
+  ],
+  "expected_products": [
+    "ジルチアゼム塩酸塩錠30mg「トーワ」",
+    "ジルチアゼム塩酸塩錠60mg「トーワ」"
+  ]
+}

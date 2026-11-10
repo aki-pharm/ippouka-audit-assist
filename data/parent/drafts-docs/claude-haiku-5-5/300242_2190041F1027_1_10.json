@@ -1,0 +1,98 @@
+{
+  "id": "300242_2190041F1027_1_10",
+  "source_file": "300242_2190041F1027_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300242_2190041F1027_1_10",
+  "extracted_at": "2026-11-09T14:58:12.243Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 48014,
+    "output": 4481
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エンレスト錠50mg",
+      "strength": "50mg",
+      "imprint_front": "NVR",
+      "imprint_back": "LZ",
+      "imprint_note": null,
+      "color": "青紫白色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 5.2,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "性状 青紫白色の楕円形のフィルムコーティング錠 識別コード NVR LZ 大きさ（約） 長径：13.1mm 短径：5.2mm 厚さ：3.6mm"
+    },
+    {
+      "product_name": "エンレスト錠100mg",
+      "strength": "100mg",
+      "imprint_front": "なし",
+      "imprint_back": "L",
+      "imprint_note": "表面は社名マーク（ノバルティスのロゴ）のみ。裏面は識別コードL",
+      "color": "微黄色",
+      "shape": "oval",
+      "size_long_mm": 13.1,
+      "size_short_mm": 5.2,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "性状 微黄色の楕円形の割線入りのフィルムコーティング錠 識別コード ᵮL 大きさ（約） 長径：13.1mm 短径：5.2mm 厚さ：3.7mm"
+    },
+    {
+      "product_name": "エンレスト錠200mg",
+      "strength": "200mg",
+      "imprint_front": "NVR",
+      "imprint_back": "L11",
+      "imprint_note": null,
+      "color": "うすい赤白色",
+      "shape": "oval",
+      "size_long_mm": 15.1,
+      "size_short_mm": 6,
+      "thickness_mm": 5.4,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "性状 うすい赤白色の楕円形のフィルムコーティング錠 識別コード NVR L11 大きさ（約） 長径：15.1mm 短径：6.0mm 厚さ：5.4mm"
+    },
+    {
+      "product_name": "エンレスト粒状錠小児用12.5mg",
+      "strength": "12.5mg",
+      "imprint_front": "04",
+      "imprint_back": "NVR",
+      "imprint_note": "識別コードはカプセル型容器のキャップ部（04）とボディ部（NVR）に表示されるもの。錠剤表面の刻印は明記なし",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 2,
+      "size_short_mm": 2,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄色の円形の小型フィルムコーティング錠 識別コード 04（カプセル型容器の白色キャップ部に表示）NVR（カプセル型容器の無色透明ボディ部に表示） 外形 直径：2.0mm 厚さ：2.2mm"
+    },
+    {
+      "product_name": "エンレスト粒状錠小児用31.25mg",
+      "strength": "31.25mg",
+      "imprint_front": "10",
+      "imprint_back": "NVR",
+      "imprint_note": "識別コードはカプセル型容器のキャップ部（10）とボディ部（NVR）に表示されるもの。錠剤表面の刻印は明記なし",
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 2,
+      "size_short_mm": 2,
+      "thickness_mm": 2.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第10版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～微黄色の円形の小型フィルムコーティング錠 識別コード 10（カプセル型容器の黄色キャップ部に表示）NVR（カプセル型容器の無色透明ボディ部に表示） 外形 直径：2.0mm 厚さ：2.2mm"
+    }
+  ],
+  "expected_products": [
+    "エンレスト粒状錠小児用12.5mg",
+    "エンレスト粒状錠小児用31.25mg"
+  ]
+}

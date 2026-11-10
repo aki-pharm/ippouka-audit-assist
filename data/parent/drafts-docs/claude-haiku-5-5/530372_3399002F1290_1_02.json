@@ -1,0 +1,49 @@
+{
+  "id": "530372_3399002F1290_1_02",
+  "source_file": "530372_3399002F1290_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3399002F1290_1_02",
+  "extracted_at": "2026-11-09T15:20:41.991Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24216,
+    "output": 1896
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾール錠50mg「ケミファ」",
+      "strength": "50mg",
+      "imprint_front": "NPI 339A",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は添付文書の記載から確認できず。表の識別コードのみ記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 外形 表 裏 側面 直径 7.0mm 8.0mm 厚さ 2.5mm 3.0mm 識別コード NPI 339A NPI 339B"
+    },
+    {
+      "product_name": "シロスタゾール錠100mg「ケミファ」",
+      "strength": "100mg",
+      "imprint_front": "NPI 339B",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は添付文書の記載から確認できず。表の識別コードのみ記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 外形 表 裏 側面 直径 7.0mm 8.0mm 厚さ 2.5mm 3.0mm 識別コード NPI 339A NPI 339B"
+    }
+  ],
+  "expected_products": [
+    "シロスタゾール錠50mg「ケミファ」"
+  ]
+}

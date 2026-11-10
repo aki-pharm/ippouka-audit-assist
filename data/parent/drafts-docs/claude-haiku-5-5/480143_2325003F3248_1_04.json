@@ -1,0 +1,50 @@
+{
+  "id": "480143_2325003F3248_1_04",
+  "source_file": "480143_2325003F3248_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480143_2325003F3248_1_04",
+  "extracted_at": "2026-11-09T15:01:29.494Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17707,
+    "output": 2000
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジンOD錠10mg「TBP」",
+      "strength": "10mg",
+      "imprint_front": "TBP262",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の口腔内崩壊錠 大きさ 直径 7.0mm 厚さ 3.2mm 質量 約120mg 識別コード TBP262"
+    },
+    {
+      "product_name": "ファモチジンOD錠20mg「TBP」",
+      "strength": "20mg",
+      "imprint_front": "TBP263",
+      "imprint_back": "なし",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2026年10月改訂",
+      "source_page": 1,
+      "source_quote": "白色の口腔内崩壊錠 大きさ 直径 8.0mm 厚さ 3.1mm 質量 約150mg 識別コード TBP263"
+    }
+  ],
+  "expected_products": [
+    "ファモチジンOD錠10mg「TBP」",
+    "ファモチジンOD錠20mg「TBP」"
+  ]
+}

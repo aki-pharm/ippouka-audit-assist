@@ -1,0 +1,83 @@
+{
+  "id": "480235_2149032F1129_1_22",
+  "source_file": "480235_2149032F1129_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2149032F1129_1_22",
+  "extracted_at": "2026-11-09T14:33:38.691Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 37170,
+    "output": 3968
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルベジロール錠1.25mg「トーワ」",
+      "strength": "1.25mg",
+      "imprint_front": "カルベジロール 1.25 トーワ",
+      "imprint_back": "カルベジロール 1.25 トーワ",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の楕円形のフィルムコーティング錠（直径(mm) 10.1／5.1（長径／短径）、厚さ(mm) 3.1）"
+    },
+    {
+      "product_name": "カルベジロール錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "2.5 カルベジ",
+      "imprint_back": "カルベジロール 2.5 トーワ",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の楕円形の割線入りのフィルムコーティング錠（直径(mm) 10.1／5.1（長径／短径）、厚さ(mm) 3.1）"
+    },
+    {
+      "product_name": "カルベジロール錠10mg「トーワ」",
+      "strength": "10mg",
+      "imprint_front": "カルベジ 10",
+      "imprint_back": "カルベジロール 10 トーワ",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "黄色の割線入りのフィルムコーティング錠（直径(mm) 8.1、厚さ(mm) 3.2）"
+    },
+    {
+      "product_name": "カルベジロール錠20mg「トーワ」",
+      "strength": "20mg",
+      "imprint_front": "カルベジ 20",
+      "imprint_back": "カルベジロール 20 トーワ",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2024年7月改訂",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色のフィルムコーティング錠（割線入）（直径(mm) 8.6、厚さ(mm) 3.1）"
+    }
+  ],
+  "expected_products": [
+    "カルベジロール錠1.25mg「トーワ」",
+    "カルベジロール錠10mg「トーワ」",
+    "カルベジロール錠2.5mg「トーワ」"
+  ]
+}

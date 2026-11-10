@@ -1,0 +1,33 @@
+{
+  "id": "400278_6149003F1236_1_08",
+  "source_file": "400278_6149003F1236_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6149003F1236_1_08",
+  "extracted_at": "2026-11-09T15:47:35.195Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 29782,
+    "output": 1454
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠小児用 50mg「TCK」",
+      "strength": "50mg（力価）",
+      "imprint_front": "TU 605",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3.7,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "3.2 製剤の性状 販売名 外形 色調 剤形 識別コード 直径（mm） 厚さ（mm） 重量（mg） クラリスロマイシン錠小児用50mg「TCK」 白色 フィルムコート錠 TU 605 6.2 3.7 84"
+    }
+  ],
+  "expected_products": [
+    "クラリスロマイシン錠小児用50mg「TCK」"
+  ]
+}

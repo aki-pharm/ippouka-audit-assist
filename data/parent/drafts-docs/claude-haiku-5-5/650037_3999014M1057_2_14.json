@@ -1,0 +1,50 @@
+{
+  "id": "650037_3999014M1057_2_14",
+  "source_file": "650037_3999014M1057_2_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/650037_3999014M1057_2_14",
+  "extracted_at": "2026-11-09T15:33:05.236Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 52597,
+    "output": 1862
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムスカプセル 0.5mg「サンド」",
+      "strength": "0.5mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「タクロリムス 0.5 サンド」と記載。表裏の別は記載なし",
+      "color": "淡黄色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "淡黄色の硬カプセル剤であり、内容物は白色の粉末"
+    },
+    {
+      "product_name": "タクロリムスカプセル 1mg「サンド」",
+      "strength": "1mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードは「タクロリムス 1 サンド」と記載。表裏の別は記載なし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": null,
+      "size_short_mm": null,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色の硬カプセル剤であり、内容物は白色の粉末"
+    }
+  ],
+  "expected_products": [
+    "タクロリムスカプセル0.5mg「サンド」",
+    "タクロリムスカプセル1mg「サンド」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "300119_2129005F1200_1_05",
+  "source_file": "300119_2129005F1200_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2129005F1200_1_05",
+  "extracted_at": "2026-11-09T14:25:24.408Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17652,
+    "output": 1346
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ジソピラミド徐放錠150mg「SW」",
+      "strength": "150mg",
+      "imprint_front": "SW 503",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 5.7,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 徐放性フィルムコーティング錠 性状 白色～微黄白色 直径（mm） 9.6 厚さ（mm） 5.7 重量（mg） 約350 識別コード SW 503"
+    }
+  ],
+  "expected_products": [
+    "ジソピラミド徐放錠150mg「SW」"
+  ]
+}

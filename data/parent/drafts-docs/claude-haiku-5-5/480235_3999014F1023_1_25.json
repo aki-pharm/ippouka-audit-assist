@@ -1,0 +1,101 @@
+{
+  "id": "480235_3999014F1023_1_25",
+  "source_file": "480235_3999014F1023_1_25.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999014F1023_1_25",
+  "extracted_at": "2026-11-09T15:33:26.566Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 52723,
+    "output": 4962
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "タクロリムス錠0.5mg「トーワ」",
+      "strength": "0.5mg",
+      "imprint_front": "タクロリムス 0.5 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は表裏を区別せず1項目で記載されているため、裏面の刻印は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠／直径(mm) 5.6／厚さ(mm) 2.8"
+    },
+    {
+      "product_name": "タクロリムス錠1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "タクロリムス 1 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は表裏を区別せず1項目で記載されているため、裏面の刻印は未確認",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠／直径(mm) 6.1／厚さ(mm) 3.0"
+    },
+    {
+      "product_name": "タクロリムス錠1.5mg「トーワ」",
+      "strength": "1.5mg",
+      "imprint_front": "タクロリムス 1.5 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は表裏を区別せず1項目で記載されているため、裏面の刻印は未確認",
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 2,
+      "source_quote": "淡黄色のフィルムコーティング錠／直径(mm) 6.6／厚さ(mm) 3.0"
+    },
+    {
+      "product_name": "タクロリムス錠2mg「トーワ」",
+      "strength": "2mg",
+      "imprint_front": "タクロリムス 2 トーワ",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示は表裏を区別せず1項目で記載されているため、裏面の刻印は未確認",
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 2,
+      "source_quote": "ごくうすい赤色のフィルムコーティング錠／直径(mm) 8.1／厚さ(mm) 3.6"
+    },
+    {
+      "product_name": "タクロリムス錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "タクロ 3",
+      "imprint_back": "タクロリムス 3 トーワ",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第6版）",
+      "source_page": 2,
+      "source_quote": "淡黄色の割線入りのフィルムコーティング錠／直径(mm) 8.1／厚さ(mm) 3.4"
+    }
+  ],
+  "expected_products": [
+    "タクロリムス錠0.5mg「トーワ」",
+    "タクロリムス錠1.5mg「トーワ」",
+    "タクロリムス錠1mg「トーワ」",
+    "タクロリムス錠2mg「トーワ」",
+    "タクロリムス錠3mg「トーワ」"
+  ]
+}

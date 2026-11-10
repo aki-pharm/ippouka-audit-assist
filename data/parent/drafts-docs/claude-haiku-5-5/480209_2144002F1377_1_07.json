@@ -1,0 +1,65 @@
+{
+  "id": "480209_2144002F1377_1_07",
+  "source_file": "480209_2144002F1377_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_2144002F1377_1_07",
+  "extracted_at": "2026-11-09T14:29:16.242Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24587,
+    "output": 2082
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エナラプリルマレイン酸塩錠2.5mg「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "PH251",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 1.9,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 / 色調 うすい桃色 / 直径(mm) 5.1 / 厚さ(mm) 1.9 / 質量(mg) 50 / 識別コード PH251"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "PH252",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 / 色調 うすい桃色 / 直径(mm) 6.6 / 厚さ(mm) 2.3 / 質量(mg) 100 / 識別コード PH252"
+    },
+    {
+      "product_name": "エナラプリルマレイン酸塩錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "KRM112",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "うすい桃色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 / 色調 うすい桃色 / 直径(mm) 8.0 / 厚さ(mm) 3.0 / 質量(mg) 200 / 識別コード KRM112"
+    }
+  ],
+  "expected_products": [
+    "エナラプリルマレイン酸塩錠10mg「杏林」"
+  ]
+}

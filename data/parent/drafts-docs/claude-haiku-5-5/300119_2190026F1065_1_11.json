@@ -1,0 +1,33 @@
+{
+  "id": "300119_2190026F1065_1_11",
+  "source_file": "300119_2190026F1065_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2190026F1065_1_11",
+  "extracted_at": "2026-11-09T14:57:55.165Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 31726,
+    "output": 1460
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボセンタン錠62.5mg「サワイ」",
+      "strength": "62.5mg",
+      "imprint_front": "SW ボセンタン 62.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "橙白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.1,
+      "score_line": false,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "剤　形 フィルムコーティング錠 性　状 橙白色 直径（mm） 6.1 厚さ（mm） 3.1 重量（mg） 約87 本体表示 SW ボセンタン 62.5"
+    }
+  ],
+  "expected_products": [
+    "ボセンタン錠62.5mg「サワイ」"
+  ]
+}

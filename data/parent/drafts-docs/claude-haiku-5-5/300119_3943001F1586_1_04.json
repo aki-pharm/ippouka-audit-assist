@@ -1,0 +1,50 @@
+{
+  "id": "300119_3943001F1586_1_04",
+  "source_file": "300119_3943001F1586_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3943001F1586_1_04",
+  "extracted_at": "2026-11-09T15:24:05.080Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14777,
+    "output": 1600
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠50mg「サワイ」",
+      "strength": "50mg",
+      "imprint_front": "SW 240",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "性　状 白色～微黄白色 白色 / 直径（mm） 6.5 8.0 / 厚さ（mm） 3.0 2.8 / 識別コード SW 240 SW 248"
+    },
+    {
+      "product_name": "アロプリノール錠100mg「サワイ」",
+      "strength": "100mg",
+      "imprint_front": "SW 248",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "性　状 白色～微黄白色 白色 / 直径（mm） 6.5 8.0 / 厚さ（mm） 3.0 2.8 / 識別コード SW 240 SW 248"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「サワイ」",
+    "アロプリノール錠50mg「サワイ」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "480209_3961008F1187_1_15",
+  "source_file": "480209_3961008F1187_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3961008F1187_1_15",
+  "extracted_at": "2026-11-09T15:28:24.913Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22354,
+    "output": 2094
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「杏林」",
+      "strength": "0.5mg",
+      "imprint_front": "KRM142",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 4.5,
+      "size_short_mm": 4.5,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 色調 白色 外形 直径(mm) 4.5 厚さ(mm) 2.0 質量(mg) 43 識別コード KRM142"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「杏林」",
+      "strength": "1mg",
+      "imprint_front": "KRM122",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.2,
+      "score_line": true,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 淡紅色 外形 直径(mm) 6.0 厚さ(mm) 2.2 質量(mg) 85 識別コード KRM122"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「杏林」",
+      "strength": "3mg",
+      "imprint_front": "KRM123",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入り素錠 色調 微黄白色 外形 直径(mm) 7.0 厚さ(mm) 2.4 質量(mg) 120 識別コード KRM123"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「杏林」",
+    "グリメピリド錠1mg「杏林」",
+    "グリメピリド錠3mg「杏林」"
+  ]
+}

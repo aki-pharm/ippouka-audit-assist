@@ -1,0 +1,50 @@
+{
+  "id": "480209_4490028F1108_1_04",
+  "source_file": "480209_4490028F1108_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_4490028F1108_1_04",
+  "extracted_at": "2026-11-09T15:46:21.066Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28228,
+    "output": 2092
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レボセチリジン塩酸塩錠2.5mg「杏林」",
+      "strength": "2.5mg",
+      "imprint_front": "レボセチリジン 2.5 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "色調 白色、本体表示 レボセチリジン 2.5 杏林、直径(mm) 6.1、厚さ(mm) 2.8"
+    },
+    {
+      "product_name": "レボセチリジン塩酸塩錠5mg「杏林」",
+      "strength": "5mg",
+      "imprint_front": "レボセチリジン 5 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.1,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年5月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 楕円形、色調 白色、本体表示 レボセチリジン 5 杏林、長径：8.1 短径：4.6、厚さ(mm) 3.2"
+    }
+  ],
+  "expected_products": [
+    "レボセチリジン塩酸塩錠2.5mg「杏林」",
+    "レボセチリジン塩酸塩錠5mg「杏林」"
+  ]
+}

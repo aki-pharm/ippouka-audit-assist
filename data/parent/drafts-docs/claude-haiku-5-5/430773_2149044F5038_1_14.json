@@ -1,0 +1,82 @@
+{
+  "id": "430773_2149044F5038_1_14",
+  "source_file": "430773_2149044F5038_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_2149044F5038_1_14",
+  "extracted_at": "2026-11-09T14:40:52.234Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23341,
+    "output": 6040
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタンOD錠5mg「DSEP」",
+      "strength": "5mg",
+      "imprint_front": "オルメEP OD5",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「オルメ EP OD5」。表裏の内訳は画像から判別できず",
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2025年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "オルメサルタンOD錠5mg「DSEP」 素錠（口腔内崩壊錠） 淡黄白色 オルメEP OD5 6.1 約3.0 約80"
+    },
+    {
+      "product_name": "オルメサルタンOD錠10mg「DSEP」",
+      "strength": "10mg",
+      "imprint_front": "オルメEP OD10",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「オルメ EP OD10」。表裏の内訳は画像から判別できず",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "オルメサルタンOD錠10mg「DSEP」 素錠（口腔内崩壊錠）（割線入） 白色～微黄白色 オルメEP OD10 6.1 約3.0 約80"
+    },
+    {
+      "product_name": "オルメサルタンOD錠20mg「DSEP」",
+      "strength": "20mg",
+      "imprint_front": "オルメEP OD20",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「オルメ EP OD20」。表裏の内訳は画像から判別できず。剤形欄は10mg行と同じ（割線入）の記載に含まれる",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "オルメサルタンOD錠20mg「DSEP」 素錠（口腔内崩壊錠）（割線入） 白色～微黄白色 オルメEP OD20 7.6 約3.8 約160"
+    },
+    {
+      "product_name": "オルメサルタンOD錠40mg「DSEP」",
+      "strength": "40mg",
+      "imprint_front": "オルメEP OD40",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード欄は「オルメ EP OD40」。表裏の内訳は画像から判別できず。剤形欄は10mg行と同じ（割線入）の記載に含まれる",
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.7,
+      "score_line": true,
+      "source_revision": "2025年9月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "オルメサルタンOD錠40mg「DSEP」 素錠（口腔内崩壊錠）（割線入） 白色～微黄白色 オルメEP OD40 9.6 約4.7 約320"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタンOD錠10mg「DSEP」",
+    "オルメサルタンOD錠5mg「DSEP」"
+  ]
+}

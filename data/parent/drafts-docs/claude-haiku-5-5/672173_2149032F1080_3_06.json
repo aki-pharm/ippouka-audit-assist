@@ -1,0 +1,84 @@
+{
+  "id": "672173_2149032F1080_3_06",
+  "source_file": "672173_2149032F1080_3_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_2149032F1080_3_06",
+  "extracted_at": "2026-11-09T14:33:31.502Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26778,
+    "output": 3249
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルベジロール錠 1.25mg「アメル」",
+      "strength": "1.25mg",
+      "imprint_front": "KW CAR /1.25",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "楕円形をした割線入りフィルムコーティング錠 KW CAR /1.25 黄色 長径：約 10.1mm 短径：約 5.1mm 厚さ：約 3.2mm"
+    },
+    {
+      "product_name": "カルベジロール錠 2.5mg「アメル」",
+      "strength": "2.5mg",
+      "imprint_front": "KW CAR /2.5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 10.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "楕円形をした割線入りフィルムコーティング錠 KW CAR /2.5 白色 長径：約 10.1mm 短径：約 5.1mm 厚さ：約 3.2mm"
+    },
+    {
+      "product_name": "カルベジロール錠 10mg「アメル」",
+      "strength": "10mg",
+      "imprint_front": "Kw CAR /10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.8,
+      "size_short_mm": 6.8,
+      "thickness_mm": 3.6,
+      "score_line": false,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "フィルムコーティング錠 Kw CAR /10 黄色 直径：約 6.8mm 厚さ：約 3.6mm"
+    },
+    {
+      "product_name": "カルベジロール錠 20mg「アメル」",
+      "strength": "20mg",
+      "imprint_front": "Kw CAR /20",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年4月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "割線入りフィルムコーティング錠 Kw CAR 白色～微黄白色 /20 直径：約 8.6mm 厚さ：約 3.2mm"
+    }
+  ],
+  "expected_products": [
+    "カルベジロール錠1.25mg「アメル」",
+    "カルベジロール錠10mg「アメル」",
+    "カルベジロール錠2.5mg「アメル」",
+    "カルベジロール錠20mg「アメル」"
+  ]
+}

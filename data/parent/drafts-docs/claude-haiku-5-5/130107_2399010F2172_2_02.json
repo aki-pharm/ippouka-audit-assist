@@ -1,0 +1,33 @@
+{
+  "id": "130107_2399010F2172_2_02",
+  "source_file": "130107_2399010F2172_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/130107_2399010F2172_2_02",
+  "extracted_at": "2026-11-09T15:11:17.287Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13432,
+    "output": 1554
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「イセイ」",
+      "strength": "5mg",
+      "imprint_front": "IC-3",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 9.3,
+      "size_short_mm": 4.6,
+      "thickness_mm": 3.7,
+      "score_line": true,
+      "source_revision": "2023年10月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 白色 長径 9.3mm 短径 4.6mm 厚さ 3.7mm 質量 140mg 識別コード IC-3"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠5mg「イセイ」"
+  ]
+}

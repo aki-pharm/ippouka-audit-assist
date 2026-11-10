@@ -1,0 +1,50 @@
+{
+  "id": "400813_3969007F1326_1_04",
+  "source_file": "400813_3969007F1326_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400813_3969007F1326_1_04",
+  "extracted_at": "2026-11-09T15:31:54.006Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23476,
+    "output": 1614
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠15mg「武田テバ」",
+      "strength": "15mg",
+      "imprint_front": "PG1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りの素錠 形状 直径7.0mm 厚さ2.4mm 重量120mg 識別コード PG1"
+    },
+    {
+      "product_name": "ピオグリタゾン錠30mg「武田テバ」",
+      "strength": "30mg",
+      "imprint_front": "PG2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色～帯黄白色の割線入りの素錠 形状 直径7.0mm 厚さ2.5mm 重量120mg 識別コード PG2"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾン錠15mg「武田テバ」",
+    "ピオグリタゾン錠30mg「武田テバ」"
+  ]
+}

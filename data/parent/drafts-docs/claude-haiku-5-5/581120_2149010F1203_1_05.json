@@ -1,0 +1,50 @@
+{
+  "id": "581120_2149010F1203_1_05",
+  "source_file": "581120_2149010F1203_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/581120_2149010F1203_1_05",
+  "extracted_at": "2026-11-09T14:31:07.479Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18518,
+    "output": 1922
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メトプロロール酒石酸塩錠20mg「NIG」",
+      "strength": "20mg",
+      "imprint_front": "227",
+      "imprint_back": "未確認",
+      "imprint_note": "PTP包装の識別コードは t 227 と記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.3,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 6.1mm 7.6mm 厚さ 3.3mm 3.5mm 識別コード（PTP） t 227 t 211"
+    },
+    {
+      "product_name": "メトプロロール酒石酸塩錠40mg「NIG」",
+      "strength": "40mg",
+      "imprint_front": "211",
+      "imprint_back": "未確認",
+      "imprint_note": "PTP包装の識別コードは t 211 と記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年2月改訂",
+      "source_page": 1,
+      "source_quote": "色・剤形 白色のフィルムコーティング錠 外形 直径 6.1mm 7.6mm 厚さ 3.3mm 3.5mm 識別コード（PTP） t 227 t 211"
+    }
+  ],
+  "expected_products": [
+    "メトプロロール酒石酸塩錠20mg「NIG」",
+    "メトプロロール酒石酸塩錠40mg「NIG」"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "580591_2149037F1083_1_09",
+  "source_file": "580591_2149037F1083_1_09.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_2149037F1083_1_09",
+  "extracted_at": "2026-11-09T14:33:48.217Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19284,
+    "output": 2584
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シルニジピン錠5 mg「JG」",
+      "strength": "5 mg",
+      "imprint_front": "JG E21",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.2,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 表面 裏面 側面 JG E21 直径 7.2mm 厚さ 3.2mm 重量 135mg"
+    },
+    {
+      "product_name": "シルニジピン錠10mg「JG」",
+      "strength": "10 mg",
+      "imprint_front": "JG E22",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.2,
+      "size_short_mm": 9.2,
+      "thickness_mm": 3.9,
+      "score_line": false,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 表面 裏面 側面 JG E22 直径 9.2mm 厚さ 3.9mm 重量 266mg"
+    },
+    {
+      "product_name": "シルニジピン錠20mg「JG」",
+      "strength": "20 mg",
+      "imprint_front": "JG N54",
+      "imprint_back": "未確認",
+      "imprint_note": "片面に1/2割線入り",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 15.9,
+      "size_short_mm": 6.7,
+      "thickness_mm": 5.7,
+      "score_line": true,
+      "source_revision": "2024年9月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の楕円形の片面1/2割線入りのフィルムコーティング錠 JG N54 長径15.9mm 短径6.7mm 厚さ5.7mm 重量525mg"
+    }
+  ],
+  "expected_products": [
+    "シルニジピン錠10mg「JG」",
+    "シルニジピン錠20mg「JG」",
+    "シルニジピン錠5mg「JG」"
+  ]
+}

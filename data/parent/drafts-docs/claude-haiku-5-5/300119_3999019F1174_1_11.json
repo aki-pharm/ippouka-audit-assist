@@ -1,0 +1,33 @@
+{
+  "id": "300119_3999019F1174_1_11",
+  "source_file": "300119_3999019F1174_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_3999019F1174_1_11",
+  "extracted_at": "2026-11-09T15:34:36.154Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19613,
+    "output": 1942
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠2.5mg「サワイ」",
+      "strength": "2.5mg",
+      "imprint_front": "SW RDN",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードとしてSW RDNの記載あり（面の区別は記載なし）。外形図に「2.5」の表示あり",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2023年9月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "性　状 白色～帯黄白色 直径（mm） 6.6 厚さ（mm） 3.5 重量（mg） 約114 識別コード SW RDN"
+    }
+  ],
+  "expected_products": [
+    "リセドロン酸Na錠2.5mg「サワイ」"
+  ]
+}

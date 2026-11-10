@@ -1,0 +1,49 @@
+{
+  "id": "430773_4291033F1032_1_02",
+  "source_file": "430773_4291033F1032_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/430773_4291033F1032_1_02",
+  "extracted_at": "2026-11-09T15:37:10.061Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27227,
+    "output": 2217
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アビラテロン酢酸エステル錠250mg「DSEP」",
+      "strength": "250mg",
+      "imprint_front": "A250EP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ピンク色",
+      "shape": "oval",
+      "size_long_mm": 16,
+      "size_short_mm": 9.6,
+      "thickness_mm": 6.3,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アビラテロン酢酸エステル錠250mg「DSEP」 フィルムコーティング錠 ピンク色 A250EP 16.0（長径） 9.6（短径） 6.3 736"
+    },
+    {
+      "product_name": "アビラテロン酢酸エステル錠500mg「DSEP」",
+      "strength": "500mg",
+      "imprint_front": "A500",
+      "imprint_back": "EP",
+      "imprint_note": null,
+      "color": "紫色",
+      "shape": "oblong",
+      "size_long_mm": 20,
+      "size_short_mm": 10,
+      "thickness_mm": 6.9,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "アビラテロン酢酸エステル錠500mg「DSEP」 フィルムコーティング錠 紫色 A500 EP 20.0（長径） 10.0（短径） 6.9 1150"
+    }
+  ],
+  "expected_products": [
+    "アビラテロン酢酸エステル錠500mg「DSEP」"
+  ]
+}

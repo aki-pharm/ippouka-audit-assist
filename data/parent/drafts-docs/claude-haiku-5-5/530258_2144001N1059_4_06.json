@@ -1,0 +1,33 @@
+{
+  "id": "530258_2144001N1059_4_06",
+  "source_file": "530258_2144001N1059_4_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_2144001N1059_4_06",
+  "extracted_at": "2026-11-09T14:28:14.210Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23644,
+    "output": 1567
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カプトリル-R カプセル 18.75mg",
+      "strength": "18.75mg",
+      "imprint_front": "NF 271",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード「NF 271」として記載。表裏の区別は添付文書に記載なし。",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.8,
+      "size_short_mm": 5.8,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第5版）",
+      "source_page": 1,
+      "source_quote": "白色（赤褐色帯状のシール 有）の硬カプセル剤（3号） NF 271 15.8 5.8 332"
+    }
+  ],
+  "expected_products": [
+    "カプトリル−Rカプセル18.75mg"
+  ]
+}

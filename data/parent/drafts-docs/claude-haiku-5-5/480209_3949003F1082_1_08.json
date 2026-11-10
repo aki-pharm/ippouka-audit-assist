@@ -1,0 +1,66 @@
+{
+  "id": "480209_3949003F1082_1_08",
+  "source_file": "480209_3949003F1082_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480209_3949003F1082_1_08",
+  "extracted_at": "2026-11-09T15:26:04.762Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30681,
+    "output": 2752
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "フェブキソスタット錠10mg「杏林」",
+      "strength": "10mg",
+      "imprint_front": "フェブキソ 10 杏林",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.3,
+      "score_line": false,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～微黄色 本体表示 フェブキソ 10 杏林 直径(mm) 約7.1 厚さ(mm) 約3.3"
+    },
+    {
+      "product_name": "フェブキソスタット錠20mg「杏林」",
+      "strength": "20mg",
+      "imprint_front": "フェブキソ 杏林 20",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.2,
+      "score_line": true,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 白色～微黄色 本体表示 フェブキソ 杏林 20 直径(mm) 約7.1 厚さ(mm) 約3.2"
+    },
+    {
+      "product_name": "フェブキソスタット錠40mg「杏林」",
+      "strength": "40mg",
+      "imprint_front": "フェブキソ 杏林 40",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄色",
+      "shape": "round",
+      "size_long_mm": 8.9,
+      "size_short_mm": 8.9,
+      "thickness_mm": 4.1,
+      "score_line": true,
+      "source_revision": "2024年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りフィルムコーティング錠 色調 白色～微黄色 本体表示 フェブキソ 杏林 40 直径(mm) 約8.9 厚さ(mm) 約4.1"
+    }
+  ],
+  "expected_products": [
+    "フェブキソスタット錠10mg「杏林」",
+    "フェブキソスタット錠20mg「杏林」"
+  ]
+}

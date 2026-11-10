@@ -1,0 +1,33 @@
+{
+  "id": "530169_2499011M1124_1_04",
+  "source_file": "530169_2499011M1124_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2499011M1124_1_04",
+  "extracted_at": "2026-11-09T15:13:21.698Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19264,
+    "output": 1748
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "デュタステリドカプセル0.5mgAV「日医工」",
+      "strength": "0.5mg",
+      "imprint_front": "デュタステリド 0.5 AV日医工",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の別は明記なし",
+      "color": "淡黄色不透明",
+      "shape": "oval",
+      "size_long_mm": 10.9,
+      "size_short_mm": 7,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 楕円球形の軟カプセル剤 色調・性状 淡黄色不透明 大きさ（mm） 約10.9×7.0 本体表示 デュタステリド 0.5 AV日医工"
+    }
+  ],
+  "expected_products": [
+    "デュタステリドカプセル0.5mgAV「日医工」"
+  ]
+}

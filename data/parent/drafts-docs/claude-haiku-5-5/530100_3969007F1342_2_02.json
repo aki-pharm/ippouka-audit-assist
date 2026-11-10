@@ -1,0 +1,50 @@
+{
+  "id": "530100_3969007F1342_2_02",
+  "source_file": "530100_3969007F1342_2_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3969007F1342_2_02",
+  "extracted_at": "2026-11-09T15:31:42.671Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30057,
+    "output": 2310
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠 15mg「ニプロ」",
+      "strength": "15mg",
+      "imprint_front": "TG60",
+      "imprint_back": "15",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の割線入りの素錠 直径（mm）7.0 厚さ（mm）2.4 重量（mg）120 識別コード TG60"
+    },
+    {
+      "product_name": "ピオグリタゾン錠 30mg「ニプロ」",
+      "strength": "30mg",
+      "imprint_front": "TG61",
+      "imprint_back": "30",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の割線入りの素錠 直径（mm）7.0 厚さ（mm）2.5 重量（mg）120 識別コード TG61"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾン錠15mg「ニプロ」",
+    "ピオグリタゾン錠30mg「ニプロ」"
+  ]
+}

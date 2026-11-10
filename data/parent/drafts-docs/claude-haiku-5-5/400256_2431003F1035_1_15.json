@@ -1,0 +1,50 @@
+{
+  "id": "400256_2431003F1035_1_15",
+  "source_file": "400256_2431003F1035_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400256_2431003F1035_1_15",
+  "extracted_at": "2026-11-09T15:11:39.695Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12497,
+    "output": 2123
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "5mcgチロナミン錠",
+      "strength": "5μg",
+      "imprint_front": "228",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 2.5,
+      "score_line": false,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "錠剤の色 白色 識別コード 228 形状 上面 下面 側面 直径（mm） 6.6 厚さ（mm） 2.5 剤形 素錠"
+    },
+    {
+      "product_name": "25mcgチロナミン錠",
+      "strength": "25μg",
+      "imprint_front": "229",
+      "imprint_back": "未確認",
+      "imprint_note": "上面図に小さく「25」の表記が見える（識別コードは229）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "錠剤の色 白色 識別コード 229 形状 上面 下面 側面 直径（mm） 8.1 厚さ（mm） 2.8 剤形 割線入りの素錠"
+    }
+  ],
+  "expected_products": [
+    "25mcgチロナミン錠",
+    "5mcgチロナミン錠"
+  ]
+}

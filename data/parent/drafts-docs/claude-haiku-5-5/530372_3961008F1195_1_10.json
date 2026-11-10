@@ -1,0 +1,67 @@
+{
+  "id": "530372_3961008F1195_1_10",
+  "source_file": "530372_3961008F1195_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530372_3961008F1195_1_10",
+  "extracted_at": "2026-11-09T15:27:42.451Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 20430,
+    "output": 1991
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリド錠0.5mg「ケミファ」",
+      "strength": "0.5mg",
+      "imprint_front": "NPI 05",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5,
+      "size_short_mm": 5,
+      "thickness_mm": 1.9,
+      "score_line": false,
+      "source_revision": "2024年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 / 直径 5.0mm 厚さ 1.9mm / 識別コード NPI 05"
+    },
+    {
+      "product_name": "グリメピリド錠1mg「ケミファ」",
+      "strength": "1mg",
+      "imprint_front": "NPI 121",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2024年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状 淡紅色の片面割線入り素錠 / 直径 6.0mm 厚さ 2.6mm / 識別コード NPI 121"
+    },
+    {
+      "product_name": "グリメピリド錠3mg「ケミファ」",
+      "strength": "3mg",
+      "imprint_front": "NPI 122",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2024年8月改訂",
+      "source_page": 1,
+      "source_quote": "性状 微黄白色の片面割線入り素錠 / 直径 7.0mm 厚さ 2.3mm / 識別コード NPI 122"
+    }
+  ],
+  "expected_products": [
+    "グリメピリド錠0.5mg「ケミファ」",
+    "グリメピリド錠1mg「ケミファ」",
+    "グリメピリド錠3mg「ケミファ」"
+  ]
+}

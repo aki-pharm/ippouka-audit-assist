@@ -1,0 +1,50 @@
+{
+  "id": "530100_3943001F1721_2_01",
+  "source_file": "530100_3943001F1721_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_3943001F1721_2_01",
+  "extracted_at": "2026-11-09T15:24:29.722Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16577,
+    "output": 1837
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アロプリノール錠 50mg「ニプロ」",
+      "strength": "50mg",
+      "imprint_front": "TG107",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色～微黄白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.2,
+      "score_line": false,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色～微黄白色の素錠 6.5 2.2 100 TG107"
+    },
+    {
+      "product_name": "アロプリノール錠 100mg「ニプロ」",
+      "strength": "100mg",
+      "imprint_front": "TA108",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年4月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "白色の割線入りの素錠 8.0 3.5 210 TA108"
+    }
+  ],
+  "expected_products": [
+    "アロプリノール錠100mg「ニプロ」",
+    "アロプリノール錠50mg「ニプロ」"
+  ]
+}

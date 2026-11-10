@@ -1,0 +1,33 @@
+{
+  "id": "450064_2190026F1049_1_10",
+  "source_file": "450064_2190026F1049_1_10.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/450064_2190026F1049_1_10",
+  "extracted_at": "2026-11-09T14:57:45.956Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 33329,
+    "output": 1175
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボセンタン錠62.5mg「JG」",
+      "strength": "ボセンタンとして62.5mg",
+      "imprint_front": "JG E77",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "橙白色",
+      "shape": "round",
+      "size_long_mm": 6.2,
+      "size_short_mm": 6.2,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "色調・剤形 橙白色のフィルムコーティング錠 外形 大きさ 直径 6.2mm 厚さ 3.0mm 重量 86mg 識別コード JG E77"
+    }
+  ],
+  "expected_products": [
+    "ボセンタン錠62.5mg「JG」"
+  ]
+}

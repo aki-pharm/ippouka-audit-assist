@@ -1,0 +1,50 @@
+{
+  "id": "270428_6225001F1044_2_18",
+  "source_file": "270428_6225001F1044_2_18.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_6225001F1044_2_18",
+  "extracted_at": "2026-11-09T15:47:58.770Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13880,
+    "output": 1460
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "エサンブトール錠125mg",
+      "strength": "125mg",
+      "imprint_front": "E125",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.7,
+      "size_short_mm": 8.7,
+      "thickness_mm": 4.1,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状 黄色のフィルムコーティング錠 識別コード E125 大きさ（約） 直径：8.7mm 厚さ：4.1mm 質量：209mg"
+    },
+    {
+      "product_name": "エサンブトール錠250mg",
+      "strength": "250mg",
+      "imprint_front": "E250",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 10.5,
+      "size_short_mm": 10.5,
+      "thickness_mm": 5.5,
+      "score_line": null,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "性状 黄色のフィルムコーティング錠 識別コード E250 大きさ（約） 直径：10.5mm 厚さ：5.5mm 質量：418mg"
+    }
+  ],
+  "expected_products": [
+    "エサンブトール錠125mg",
+    "エサンブトール錠250mg"
+  ]
+}

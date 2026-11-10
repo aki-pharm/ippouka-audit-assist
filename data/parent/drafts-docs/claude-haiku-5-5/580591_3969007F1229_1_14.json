@@ -1,0 +1,50 @@
+{
+  "id": "580591_3969007F1229_1_14",
+  "source_file": "580591_3969007F1229_1_14.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/580591_3969007F1229_1_14",
+  "extracted_at": "2026-11-09T15:31:06.292Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25665,
+    "output": 2478
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾン錠 15mg「JG」",
+      "strength": "15mg",
+      "imprint_front": "JG F31",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図示のみで文字の記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の割線入りの素錠 直径 7.0mm 厚さ 2.4mm 重量 120mg"
+    },
+    {
+      "product_name": "ピオグリタゾン錠 30mg「JG」",
+      "strength": "30mg",
+      "imprint_front": "JG F32",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面は図示のみで文字の記載なし",
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "白色～帯黄白色の割線入りの素錠 直径 7.0mm 厚さ 2.5mm 重量 120mg"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾン錠15mg「JG」",
+    "ピオグリタゾン錠30mg「JG」"
+  ]
+}

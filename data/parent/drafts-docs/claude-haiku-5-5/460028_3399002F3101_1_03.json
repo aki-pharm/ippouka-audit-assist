@@ -1,0 +1,50 @@
+{
+  "id": "460028_3399002F3101_1_03",
+  "source_file": "460028_3399002F3101_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/460028_3399002F3101_1_03",
+  "extracted_at": "2026-11-09T15:19:51.690Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22910,
+    "output": 1443
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "シロスタゾールＯＤ錠50mg「ツルハラ」",
+      "strength": "50mg",
+      "imprint_front": "TSU255",
+      "imprint_back": "50",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入りの素錠 色調 白色 白色 外形 大きさ 直径 約7.0mm 約9.0mm 厚さ 約3.0mm 約3.8mm 識別コード 表面TSU255 裏面50 表面TSU256 裏面100"
+    },
+    {
+      "product_name": "シロスタゾールＯＤ錠100mg「ツルハラ」",
+      "strength": "100mg",
+      "imprint_front": "TSU256",
+      "imprint_back": "100",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9,
+      "size_short_mm": 9,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 素錠 割線入りの素錠 色調 白色 白色 外形 大きさ 直径 約7.0mm 約9.0mm 厚さ 約3.0mm 約3.8mm 識別コード 表面TSU255 裏面50 表面TSU256 裏面100"
+    }
+  ],
+  "expected_products": [
+    "シロスタゾールOD錠100mg「ツルハラ」",
+    "シロスタゾールOD錠50mg「ツルハラ」"
+  ]
+}

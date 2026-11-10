@@ -1,0 +1,50 @@
+{
+  "id": "530213_3969007F3140_1_11",
+  "source_file": "530213_3969007F3140_1_11.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_3969007F3140_1_11",
+  "extracted_at": "2026-11-09T15:30:36.031Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 26925,
+    "output": 1321
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピオグリタゾンOD錠15mg「ケミファ」",
+      "strength": "15mg",
+      "imprint_front": "NC　OS",
+      "imprint_back": "15",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色の割線入りの素錠 直径 7.0mm 厚さ 2.6mm 識別コード NC　OS"
+    },
+    {
+      "product_name": "ピオグリタゾンOD錠30mg「ケミファ」",
+      "strength": "30mg",
+      "imprint_front": "NC　OL",
+      "imprint_back": "30",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色～帯黄白色の割線入りの素錠 直径 7.0mm 厚さ 2.4mm 識別コード NC　OL"
+    }
+  ],
+  "expected_products": [
+    "ピオグリタゾンOD錠15mg「ケミファ」",
+    "ピオグリタゾンOD錠30mg「ケミファ」"
+  ]
+}

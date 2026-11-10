@@ -1,0 +1,50 @@
+{
+  "id": "400278_6241010F1055_1_15",
+  "source_file": "400278_6241010F1055_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400278_6241010F1055_1_15",
+  "extracted_at": "2026-11-09T15:48:05.915Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18839,
+    "output": 1774
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "トスフロキサシントシル酸塩錠 75mg「TCK」",
+      "strength": "75mg",
+      "imprint_front": "TU 703",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "トスフロキサシントシル酸塩錠 75mg「TCK」 白色 フィルムコーティング錠 TU 703 7.1 3.4 150"
+    },
+    {
+      "product_name": "トスフロキサシントシル酸塩錠 150mg「TCK」",
+      "strength": "150mg",
+      "imprint_front": "TU 704",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.7,
+      "score_line": null,
+      "source_revision": "2025年11月改訂（第3版）",
+      "source_page": 1,
+      "source_quote": "トスフロキサシントシル酸塩錠 150mg「TCK」 白色 フィルムコーティング錠 TU 704 8.6 4.7 300"
+    }
+  ],
+  "expected_products": [
+    "トスフロキサシントシル酸塩錠150mg「TCK」",
+    "トスフロキサシントシル酸塩錠75mg「TCK」"
+  ]
+}

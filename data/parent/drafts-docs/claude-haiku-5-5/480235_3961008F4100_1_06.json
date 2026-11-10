@@ -1,0 +1,67 @@
+{
+  "id": "480235_3961008F4100_1_06",
+  "source_file": "480235_3961008F4100_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3961008F4100_1_06",
+  "extracted_at": "2026-11-09T15:26:41.447Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 22473,
+    "output": 2074
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリドOD錠0.5mg「トーワ」",
+      "strength": "0.5mg",
+      "imprint_front": "Tw070",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：白色の口腔内崩壊錠、識別コード：Tw070、直径(mm)：5.5、厚さ(mm)：2.3"
+    },
+    {
+      "product_name": "グリメピリドOD錠1mg「トーワ」",
+      "strength": "1mg",
+      "imprint_front": "Tw071",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：淡紅色の割線入りの口腔内崩壊錠、識別コード：Tw071、直径(mm)：6.0、厚さ(mm)：2.8"
+    },
+    {
+      "product_name": "グリメピリドOD錠3mg「トーワ」",
+      "strength": "3mg",
+      "imprint_front": "Tw072",
+      "imprint_back": "3",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.3,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形：微黄白色の割線入りの口腔内崩壊錠、識別コード：Tw072、直径(mm)：8.0、厚さ(mm)：3.3"
+    }
+  ],
+  "expected_products": [
+    "グリメピリドOD錠0.5mg「トーワ」",
+    "グリメピリドOD錠1mg「トーワ」",
+    "グリメピリドOD錠3mg「トーワ」"
+  ]
+}

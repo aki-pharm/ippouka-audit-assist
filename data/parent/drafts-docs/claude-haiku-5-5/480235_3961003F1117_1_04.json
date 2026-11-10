@@ -1,0 +1,50 @@
+{
+  "id": "480235_3961003F1117_1_04",
+  "source_file": "480235_3961003F1117_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3961003F1117_1_04",
+  "extracted_at": "2026-11-09T15:26:15.680Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16119,
+    "output": 1729
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリベンクラミド錠1.25mg「トーワ」",
+      "strength": "1.25mg",
+      "imprint_front": "Tw534",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 1.9,
+      "score_line": true,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠で、においはない。"
+    },
+    {
+      "product_name": "グリベンクラミド錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "Tw102",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 8,
+      "size_short_mm": 4,
+      "thickness_mm": 2.1,
+      "score_line": true,
+      "source_revision": "2023年6月改訂",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入りの素錠"
+    }
+  ],
+  "expected_products": [
+    "グリベンクラミド錠1.25mg「トーワ」",
+    "グリベンクラミド錠2.5mg「トーワ」"
+  ]
+}

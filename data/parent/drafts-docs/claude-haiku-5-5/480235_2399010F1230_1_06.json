@@ -1,0 +1,50 @@
+{
+  "id": "480235_2399010F1230_1_06",
+  "source_file": "480235_2399010F1230_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2399010F1230_1_06",
+  "extracted_at": "2026-11-09T15:10:47.119Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 13879,
+    "output": 1403
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "モサプリドクエン酸塩錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "Tw571",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3,
+      "score_line": false,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～帯黄白色の素錠 識別コード Tw571 直径(mm) 6.0 厚さ(mm) 3.0"
+    },
+    {
+      "product_name": "モサプリドクエン酸塩錠5mg「トーワ」",
+      "strength": "5mg",
+      "imprint_front": "Tw572",
+      "imprint_back": "5",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.5,
+      "score_line": true,
+      "source_revision": "2025年5月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～帯黄白色の割線入りの素錠 識別コード Tw572 直径(mm) 8.0 厚さ(mm) 3.5"
+    }
+  ],
+  "expected_products": [
+    "モサプリドクエン酸塩錠2.5mg「トーワ」",
+    "モサプリドクエン酸塩錠5mg「トーワ」"
+  ]
+}

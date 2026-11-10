@@ -1,0 +1,33 @@
+{
+  "id": "670109_2531002F1222_1_12",
+  "source_file": "670109_2531002F1222_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670109_2531002F1222_1_12",
+  "extracted_at": "2026-11-09T15:13:30.892Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 9991,
+    "output": 1262
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "メチルエルゴメトリンマレイン酸塩錠0.125mg「F」",
+      "strength": "0.125mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コード（PTPシート）はFJTJと記載されているが、錠剤表面の刻印の記載はない",
+      "color": "茶色",
+      "shape": "round",
+      "size_long_mm": 5.1,
+      "size_short_mm": 5.1,
+      "thickness_mm": 2.3,
+      "score_line": null,
+      "source_revision": "2026年3月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "色・剤形 茶色の円形のフィルムコーティング錠 直径 5.1mm 厚さ 2.3mm"
+    }
+  ],
+  "expected_products": [
+    "メチルエルゴメトリンマレイン酸塩錠0.125mg「F」"
+  ]
+}

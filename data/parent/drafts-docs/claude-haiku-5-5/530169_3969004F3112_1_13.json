@@ -1,0 +1,50 @@
+{
+  "id": "530169_3969004F3112_1_13",
+  "source_file": "530169_3969004F3112_1_13.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3969004F3112_1_13",
+  "extracted_at": "2026-11-09T15:29:29.917Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16588,
+    "output": 2241
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ボグリボースOD錠0.2mg「日医工」",
+      "strength": "1錠中ボグリボース0.2mg",
+      "imprint_front": "820",
+      "imprint_back": "0.2",
+      "imprint_note": "表面の記号部分（π様のマーク）は図からは判読できず未確認。本体コードは820（表）、0.2（裏）と読める。",
+      "color": "帯黄白色",
+      "shape": "round",
+      "size_long_mm": 7.6,
+      "size_short_mm": 7.6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 割線入りの素錠（口腔内崩壊錠）、色調 帯黄白色、直径(mm) 7.6、厚さ(mm) 2.4、本体コード 820 0.2"
+    },
+    {
+      "product_name": "ボグリボースOD錠0.3mg「日医工」",
+      "strength": "1錠中ボグリボース0.3mg",
+      "imprint_front": "821",
+      "imprint_back": "0.3",
+      "imprint_note": "表面の記号部分（π様のマーク）は図からは判読できず未確認。本体コードは821（表）、0.3（裏）と読める。",
+      "color": "微黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年12月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "剤形 素錠（口腔内崩壊錠）、色調 微黄色、直径(mm) 8.6、厚さ(mm) 2.8、本体コード 821 0.3"
+    }
+  ],
+  "expected_products": [
+    "ボグリボースOD錠0.2mg「日医工」",
+    "ボグリボースOD錠0.3mg「日医工」"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "530113_2149026F1212_1_06",
+  "source_file": "530113_2149026F1212_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2149026F1212_1_06",
+  "extracted_at": "2026-11-09T14:31:34.101Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18339,
+    "output": 2436
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドキサゾシン錠0.5mg「NS」",
+      "strength": "0.5mg",
+      "imprint_front": "NS 500",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.7,
+      "score_line": false,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の素錠 外形 大きさ 錠径：6.0mm 錠厚：2.7mm 重量： 90mg 識別コード NS 500"
+    },
+    {
+      "product_name": "ドキサゾシン錠1mg「NS」",
+      "strength": "1mg",
+      "imprint_front": "NS 507",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の片面割線入りの素錠 外形 大きさ 錠径：7.0mm 錠厚：2.7mm 重量：120mg 識別コード NS 507"
+    },
+    {
+      "product_name": "ドキサゾシン錠2mg「NS」",
+      "strength": "2mg",
+      "imprint_front": "NS 508",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡いだいだい色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 淡いだいだい色の片面割線入りの素錠 外形 大きさ 錠径：7.0mm 錠厚：2.7mm 重量：120mg 識別コード NS 508"
+    },
+    {
+      "product_name": "ドキサゾシン錠4mg「NS」",
+      "strength": "4mg",
+      "imprint_front": "NS 509",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "性状 白色の片面割線入りの素錠 外形 大きさ 錠径：8.0mm 錠厚：3.1mm 重量：200mg 識別コード NS 509"
+    }
+  ],
+  "expected_products": [
+    "ドキサゾシン錠0.5mg「NS」",
+    "ドキサゾシン錠1mg「NS」",
+    "ドキサゾシン錠2mg「NS」"
+  ]
+}

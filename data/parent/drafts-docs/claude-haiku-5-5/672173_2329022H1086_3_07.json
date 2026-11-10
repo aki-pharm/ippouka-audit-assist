@@ -1,0 +1,49 @@
+{
+  "id": "672173_2329022H1086_3_07",
+  "source_file": "672173_2329022H1086_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_2329022H1086_3_07",
+  "extracted_at": "2026-11-09T15:06:11.711Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 32311,
+    "output": 2663
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オメプラゾール錠 10mg「アメル」",
+      "strength": "10mg",
+      "imprint_front": "KW OM10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜微褐白色",
+      "shape": "round",
+      "size_long_mm": 6.3,
+      "size_short_mm": 6.3,
+      "thickness_mm": 3.6,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "腸溶性フィルムコーティング錠 KW OM10 白色〜微褐白色 直径：約 6.3mm 厚さ：約 3.6mm 質量：約 98.0mg"
+    },
+    {
+      "product_name": "オメプラゾール錠 20mg「アメル」",
+      "strength": "20mg",
+      "imprint_front": "KW OM20",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色〜微褐白色",
+      "shape": "round",
+      "size_long_mm": 7.2,
+      "size_short_mm": 7.2,
+      "thickness_mm": 3.9,
+      "score_line": null,
+      "source_revision": "2026年7月改訂",
+      "source_page": 1,
+      "source_quote": "腸溶性フィルムコーティング錠 KW OM20 白色〜微褐白色 直径：約 7.2mm 厚さ：約 3.9mm 質量：約 139.0mg"
+    }
+  ],
+  "expected_products": [
+    "オメプラゾール錠20mg「アメル」"
+  ]
+}

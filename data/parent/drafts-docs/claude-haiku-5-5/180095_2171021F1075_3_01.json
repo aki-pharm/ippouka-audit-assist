@@ -1,0 +1,66 @@
+{
+  "id": "180095_2171021F1075_3_01",
+  "source_file": "180095_2171021F1075_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/180095_2171021F1075_3_01",
+  "extracted_at": "2026-11-09T14:46:22.678Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15031,
+    "output": 2548
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベニジピン塩酸塩錠2mg「OME」",
+      "strength": "2mg",
+      "imprint_front": "OH-272",
+      "imprint_back": "2",
+      "imprint_note": "裏面の数字は外観図から読み取り（本文に記載なし）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2024年3月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色 フィルムコーティング錠 ／ 大きさ 直径：6.1mm 厚さ：2.8mm ／ 識別コード OH-272"
+    },
+    {
+      "product_name": "ベニジピン塩酸塩錠4mg「OME」",
+      "strength": "4mg",
+      "imprint_front": "OH-273",
+      "imprint_back": "4",
+      "imprint_note": "裏面の数字は外観図から読み取り（本文に記載なし）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3,
+      "score_line": true,
+      "source_revision": "2024年3月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色 割線入りフィルムコーティング錠 ／ 大きさ 直径：7.1mm 厚さ：3.0mm ／ 識別コード OH-273"
+    },
+    {
+      "product_name": "ベニジピン塩酸塩錠8mg「OME」",
+      "strength": "8mg",
+      "imprint_front": "OH-274",
+      "imprint_back": "8",
+      "imprint_note": "裏面の数字は外観図から読み取り（本文に記載なし）",
+      "color": "黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2024年3月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状・剤形 黄色 割線入りフィルムコーティング錠 ／ 大きさ 直径：8.6mm 厚さ：3.9mm ／ 識別コード OH-274"
+    }
+  ],
+  "expected_products": [
+    "ベニジピン塩酸塩錠2mg「OME」",
+    "ベニジピン塩酸塩錠4mg「OME」"
+  ]
+}

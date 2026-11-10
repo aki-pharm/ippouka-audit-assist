@@ -1,0 +1,49 @@
+{
+  "id": "530169_3321002F1114_1_05",
+  "source_file": "530169_3321002F1114_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3321002F1114_1_05",
+  "extracted_at": "2026-11-09T15:18:55.664Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 8993,
+    "output": 1554
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルバゾクロムスルホン酸ナトリウム錠10mg「日医工」",
+      "strength": "10mg",
+      "imprint_front": "33A",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "橙黄色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.8,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色調 橙黄色 橙黄色 外形 直径（mm） 7.1 8.1 厚さ（mm） 2.8 3.0 本体コード 33A 33B"
+    },
+    {
+      "product_name": "カルバゾクロムスルホン酸ナトリウム錠30mg「日医工」",
+      "strength": "30mg",
+      "imprint_front": "33B",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "橙黄色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "色調 橙黄色 橙黄色 外形 直径（mm） 7.1 8.1 厚さ（mm） 2.8 3.0 本体コード 33A 33B"
+    }
+  ],
+  "expected_products": [
+    "カルバゾクロムスルホン酸ナトリウム錠30mg「日医工」"
+  ]
+}

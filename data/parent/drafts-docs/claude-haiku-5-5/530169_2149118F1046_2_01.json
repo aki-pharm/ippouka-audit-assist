@@ -1,0 +1,50 @@
+{
+  "id": "530169_2149118F1046_2_01",
+  "source_file": "530169_2149118F1046_2_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_2149118F1046_2_01",
+  "extracted_at": "2026-11-09T14:43:06.525Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 27554,
+    "output": 1937
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イルアミクス配合錠LD「EE」",
+      "strength": "1錠中 イルベサルタン100.0mg、アムロジピンとして5mg",
+      "imprint_front": "EE イルアミクス LD",
+      "imprint_back": "100 イルベサルタン アムロジピン 5",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 白色～帯黄白色 直径（mm） 約8.1 厚さ（mm） 約3.8 質量（mg） 約175 本体表示 EE イルアミクス LD 100 イルベサルタン アムロジピン 5"
+    },
+    {
+      "product_name": "イルアミクス配合錠HD「EE」",
+      "strength": "1錠中 イルベサルタン100.0mg、アムロジピンとして10mg",
+      "imprint_front": "EE イルアミクス HD",
+      "imprint_back": "100 イルベサルタン アムロジピン 10",
+      "imprint_note": null,
+      "color": "うすいだいだい色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.8,
+      "score_line": null,
+      "source_revision": "2025年9月改訂（第4版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 うすいだいだい色 直径（mm） 約8.1 厚さ（mm） 約3.8 質量（mg） 約175 本体表示 EE イルアミクス HD 100 イルベサルタン アムロジピン 10"
+    }
+  ],
+  "expected_products": [
+    "イルアミクス配合錠HD「EE」",
+    "イルアミクス配合錠LD「EE」"
+  ]
+}

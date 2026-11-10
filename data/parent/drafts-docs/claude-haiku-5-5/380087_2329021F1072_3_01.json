@@ -1,0 +1,33 @@
+{
+  "id": "380087_2329021F1072_3_01",
+  "source_file": "380087_2329021F1072_3_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/380087_2329021F1072_3_01",
+  "extracted_at": "2026-11-09T15:05:22.812Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14111,
+    "output": 1193
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "レバミピド錠100mg「ZE」",
+      "strength": "100mg",
+      "imprint_front": "レバミピド ZE100",
+      "imprint_back": "未確認",
+      "imprint_note": "本体表示として記載。表裏の別は文書上不明",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.1,
+      "size_short_mm": 8.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2026年10月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 白色・フィルムコーティング錠 外形 規格 直径：8.1mm 厚み：3.4mm 重量：175mg 本体表示 レバミピド ZE100"
+    }
+  ],
+  "expected_products": [
+    "レバミピド錠100mg「ZE」"
+  ]
+}

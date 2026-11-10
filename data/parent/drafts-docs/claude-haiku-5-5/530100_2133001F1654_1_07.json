@@ -1,0 +1,33 @@
+{
+  "id": "530100_2133001F1654_1_07",
+  "source_file": "530100_2133001F1654_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2133001F1654_1_07",
+  "extracted_at": "2026-11-09T14:26:41.598Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 15122,
+    "output": 1120
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "スピロノラクトン錠25mg「NP」",
+      "strength": "25mg",
+      "imprint_front": "HD-304",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 3.8,
+      "score_line": true,
+      "source_revision": "2025年3月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 8.0 3.8 200 HD-304"
+    }
+  ],
+  "expected_products": [
+    "スピロノラクトン錠25mg「NP」"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "780009_2325003F3272_1_02",
+  "source_file": "780009_2325003F3272_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780009_2325003F3272_1_02",
+  "extracted_at": "2026-11-09T15:01:28.905Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18512,
+    "output": 2188
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ファモチジンOD錠10mg「Me」",
+      "strength": "10mg",
+      "imprint_front": "Me 04",
+      "imprint_back": "10",
+      "imprint_note": "表は社名マーク「Me」と「04」、裏は「10」（画像より読み取り。テキスト層には刻印の記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": false,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ファモチジンOD錠10mg「Me」 素錠 白色 直径（mm） 厚さ（mm） 重量（mg） 6.0 2.9 80"
+    },
+    {
+      "product_name": "ファモチジンOD錠20mg「Me」",
+      "strength": "20mg",
+      "imprint_front": "Me 05",
+      "imprint_back": "20",
+      "imprint_note": "表は社名マーク「Me」と「05」、裏は「20」（画像より読み取り。テキスト層には刻印の記載なし）",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.1,
+      "score_line": true,
+      "source_revision": "2023年6月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ファモチジンOD錠20mg「Me」 割線入り素錠 白色 直径（mm） 厚さ（mm） 重量（mg） 6.0 3.1 90"
+    }
+  ],
+  "expected_products": [
+    "ファモチジンOD錠10mg「Me」",
+    "ファモチジンOD錠20mg「Me」"
+  ]
+}

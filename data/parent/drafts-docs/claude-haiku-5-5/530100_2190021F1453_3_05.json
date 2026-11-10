@@ -1,0 +1,33 @@
+{
+  "id": "530100_2190021F1453_3_05",
+  "source_file": "530100_2190021F1453_3_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2190021F1453_3_05",
+  "extracted_at": "2026-11-09T14:57:14.809Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12131,
+    "output": 1979
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニセルゴリン錠 5mg「NP」",
+      "strength": "5mg",
+      "imprint_front": "110",
+      "imprint_back": "HD",
+      "imprint_note": "識別コードはHD-110。刻印は添付文書の図から読み取り、表を110、裏をHDとして記載",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "ニセルゴリン錠 5mg「NP」 白色のフィルムコーティング錠 直径 5.6mm 厚さ 3.4mm 重量 81mg 識別コード HD-110"
+    }
+  ],
+  "expected_products": [
+    "ニセルゴリン錠5mg「NP」"
+  ]
+}

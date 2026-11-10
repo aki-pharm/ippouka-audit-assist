@@ -1,0 +1,50 @@
+{
+  "id": "300119_2171020F1267_1_03",
+  "source_file": "300119_2171020F1267_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2171020F1267_1_03",
+  "extracted_at": "2026-11-09T14:45:50.854Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14051,
+    "output": 1332
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ニトレンジピン錠5mg「サワイ」",
+      "strength": "5mg",
+      "imprint_front": "SW 200",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状 淡黄白色 淡黄色 / 直径（mm） 6.1 6.1 / 厚さ（mm） 3.2 3.2 / 識別コード SW 200 SW 201"
+    },
+    {
+      "product_name": "ニトレンジピン錠10mg「サワイ」",
+      "strength": "10mg",
+      "imprint_front": "SW 201",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 3.2,
+      "score_line": null,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "性状 淡黄白色 淡黄色 / 直径（mm） 6.1 6.1 / 厚さ（mm） 3.2 3.2 / 識別コード SW 200 SW 201"
+    }
+  ],
+  "expected_products": [
+    "ニトレンジピン錠10mg「サワイ」",
+    "ニトレンジピン錠5mg「サワイ」"
+  ]
+}

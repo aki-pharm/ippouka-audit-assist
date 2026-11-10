@@ -1,0 +1,50 @@
+{
+  "id": "480235_2233002F1298_1_03",
+  "source_file": "480235_2233002F1298_1_03.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2233002F1298_1_03",
+  "extracted_at": "2026-11-09T14:59:01.356Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 12073,
+    "output": 1507
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "カルボシステイン錠250mg「トーワ」",
+      "strength": "250mg",
+      "imprint_front": "Tw710",
+      "imprint_back": "250",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.6,
+      "size_short_mm": 9.6,
+      "thickness_mm": 4.7,
+      "score_line": false,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "白色のフィルムコーティング錠 識別コード Tw710 直径(mm) 9.6 厚さ(mm) 4.7"
+    },
+    {
+      "product_name": "カルボシステイン錠500mg「トーワ」",
+      "strength": "500mg",
+      "imprint_front": "Tw715",
+      "imprint_back": "未確認",
+      "imprint_note": "裏面の刻印は図上で確認できず、文言の記載なし",
+      "color": "白色",
+      "shape": "oblong",
+      "size_long_mm": 15.7,
+      "size_short_mm": 7.4,
+      "thickness_mm": 5.1,
+      "score_line": true,
+      "source_revision": "2023年5月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入りのフィルムコーティング錠 識別コード Tw715 直径(mm) 15.7／7.4（長径／短径） 厚さ(mm) 5.1"
+    }
+  ],
+  "expected_products": [
+    "カルボシステイン錠250mg「トーワ」",
+    "カルボシステイン錠500mg「トーワ」"
+  ]
+}

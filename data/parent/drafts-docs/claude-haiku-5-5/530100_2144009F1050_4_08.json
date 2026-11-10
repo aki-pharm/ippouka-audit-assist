@@ -1,0 +1,67 @@
+{
+  "id": "530100_2144009F1050_4_08",
+  "source_file": "530100_2144009F1050_4_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530100_2144009F1050_4_08",
+  "extracted_at": "2026-11-09T14:30:34.135Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24856,
+    "output": 1937
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "テモカプリル塩酸塩錠 1mg「NP」",
+      "strength": "1mg",
+      "imprint_front": "NP-333",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 6.5 2.3 100 NP-333"
+    },
+    {
+      "product_name": "テモカプリル塩酸塩錠 2mg「NP」",
+      "strength": "2mg",
+      "imprint_front": "NP-335",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 7.0 2.4 120 NP-335"
+    },
+    {
+      "product_name": "テモカプリル塩酸塩錠 4mg「NP」",
+      "strength": "4mg",
+      "imprint_front": "NP-337",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.5,
+      "size_short_mm": 7.5,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "白色の割線入り素錠 7.5 2.6 150 NP-337"
+    }
+  ],
+  "expected_products": [
+    "テモカプリル塩酸塩錠1mg「NP」",
+    "テモカプリル塩酸塩錠2mg「NP」",
+    "テモカプリル塩酸塩錠4mg「NP」"
+  ]
+}

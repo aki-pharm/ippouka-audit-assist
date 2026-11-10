@@ -1,0 +1,50 @@
+{
+  "id": "480235_2183005G1307_1_07",
+  "source_file": "480235_2183005G1307_1_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_2183005G1307_1_07",
+  "extracted_at": "2026-11-09T14:50:34.944Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 17682,
+    "output": 1464
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベザフィブラート徐放錠100mg「トーワ」",
+      "strength": "100mg",
+      "imprint_front": "Tw271",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 3.4,
+      "score_line": null,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード Tw271 直径(mm) 7.1 厚さ(mm) 3.4"
+    },
+    {
+      "product_name": "ベザフィブラート徐放錠200mg「トーワ」",
+      "strength": "200mg",
+      "imprint_front": "Tw272",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 9.1,
+      "size_short_mm": 9.1,
+      "thickness_mm": 4.8,
+      "score_line": null,
+      "source_revision": "2023年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色のフィルムコーティング錠 識別コード Tw272 直径(mm) 9.1 厚さ(mm) 4.8"
+    }
+  ],
+  "expected_products": [
+    "ベザフィブラート徐放錠100mg「トーワ」",
+    "ベザフィブラート徐放錠200mg「トーワ」"
+  ]
+}

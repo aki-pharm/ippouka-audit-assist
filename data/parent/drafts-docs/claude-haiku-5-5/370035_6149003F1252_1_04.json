@@ -1,0 +1,33 @@
+{
+  "id": "370035_6149003F1252_1_04",
+  "source_file": "370035_6149003F1252_1_04.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/370035_6149003F1252_1_04",
+  "extracted_at": "2026-11-09T15:47:31.234Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 30902,
+    "output": 1552
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "クラリスロマイシン錠 50mg 小児用「大正」",
+      "strength": "50mg",
+      "imprint_front": "T17",
+      "imprint_back": "未確認",
+      "imprint_note": "下面は外形図のみで刻印の文字表記はなし。",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年3月改訂",
+      "source_page": 1,
+      "source_quote": "クラリスロマイシン錠 50mg 小児用「大正」 T17 白色 フィルムコーティング錠 上面 下面 側面 直径（mm） 厚さ（mm） 重量（mg） 約 6 約 3.5 約 84"
+    }
+  ],
+  "expected_products": [
+    "クラリスロマイシン錠50㎎小児用「大正」"
+  ]
+}

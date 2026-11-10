@@ -1,0 +1,66 @@
+{
+  "id": "400186_2189016F1168_1_15",
+  "source_file": "400186_2189016F1168_1_15.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/400186_2189016F1168_1_15",
+  "extracted_at": "2026-11-09T14:53:56.884Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28075,
+    "output": 3373
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠1mg「タカタ」",
+      "strength": "1mg",
+      "imprint_front": "TTS 471",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい赤色のフィルムコーティング錠 直径 約6.1mm 厚さ 約2.8mm"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠2mg「タカタ」",
+      "strength": "2mg",
+      "imprint_front": "TTS 472",
+      "imprint_back": "2",
+      "imprint_note": null,
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい赤色の割線入りのフィルムコーティング錠 直径 約7.1mm 厚さ 約2.9mm"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠4mg「タカタ」",
+      "strength": "4mg",
+      "imprint_front": "TTS 473",
+      "imprint_back": "4",
+      "imprint_note": null,
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 3.9,
+      "score_line": true,
+      "source_revision": "2023年7月改訂（第1版）",
+      "source_page": 1,
+      "source_quote": "ごくうすい赤色の割線入りのフィルムコーティング錠 直径 約8.6mm 厚さ 約3.9mm"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa錠1mg「タカタ」",
+    "ピタバスタチンCa錠2mg「タカタ」"
+  ]
+}

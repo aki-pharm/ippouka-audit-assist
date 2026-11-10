@@ -1,0 +1,49 @@
+{
+  "id": "641522_2482011F1047_1_02",
+  "source_file": "641522_2482011F1047_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/641522_2482011F1047_1_02",
+  "extracted_at": "2026-11-09T15:12:58.302Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28423,
+    "output": 2201
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ドロエチ配合錠「バイエル」 実薬錠",
+      "strength": "1錠中ドロスピレノン3mg及びエチニルエストラジオールベータデクスとしてエチニルエストラジオール0.020mg含有",
+      "imprint_front": "Y",
+      "imprint_back": "未確認",
+      "imprint_note": "表の識別コードは製剤の性状の外形図・識別コード欄の記号より読み取り",
+      "color": "淡赤色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.9,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "色調 淡赤色 白色 錠数 24錠 4錠 外形 直径 6mm 6mm 厚さ 2.90mm 2.85mm 識別コード"
+    },
+    {
+      "product_name": "ドロエチ配合錠「バイエル」 プラセボ錠",
+      "strength": "含有せず",
+      "imprint_front": "DP",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.85,
+      "score_line": null,
+      "source_revision": "2026年8月改訂（第2版）",
+      "source_page": 2,
+      "source_quote": "色調 淡赤色 白色 錠数 24錠 4錠 外形 直径 6mm 6mm 厚さ 2.90mm 2.85mm 識別コード"
+    }
+  ],
+  "expected_products": [
+    "ドロエチ配合錠「バイエル」"
+  ]
+}

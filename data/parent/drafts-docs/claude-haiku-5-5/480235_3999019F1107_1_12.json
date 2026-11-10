@@ -1,0 +1,33 @@
+{
+  "id": "480235_3999019F1107_1_12",
+  "source_file": "480235_3999019F1107_1_12.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/480235_3999019F1107_1_12",
+  "extracted_at": "2026-11-09T15:34:34.430Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 19951,
+    "output": 1338
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "リセドロン酸Na錠2.5mg「トーワ」",
+      "strength": "2.5mg",
+      "imprint_front": "Tw322",
+      "imprint_back": "2.5",
+      "imprint_note": null,
+      "color": "白色～帯黄白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3,
+      "score_line": null,
+      "source_revision": "2024年1月改訂",
+      "source_page": 1,
+      "source_quote": "性状・剤形 白色～帯黄白色のフィルムコーティング錠 識別コード Tw322 外形 直径(mm) 6.6 厚さ(mm) 3.0"
+    }
+  ],
+  "expected_products": [
+    "リセドロン酸Na錠2.5mg「トーワ」"
+  ]
+}

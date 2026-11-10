@@ -1,0 +1,50 @@
+{
+  "id": "270428_2171022F1290_1_22",
+  "source_file": "270428_2171022F1290_1_22.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2171022F1290_1_22",
+  "extracted_at": "2026-11-09T14:49:31.626Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18628,
+    "output": 2143
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アムロジピン錠2.5mg「サンド」",
+      "strength": "2.5mg",
+      "imprint_front": "SAM 2.5",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は識別コード（PTP）欄の記載。表裏の別は本文に明記なし",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 6.9,
+      "size_short_mm": 4.8,
+      "thickness_mm": 2,
+      "score_line": false,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形（又は性状）：白色の素錠　大きさ 短径 4.8mm 長径 6.9mm 厚さ 2.0mm　識別コード（PTP） SAM 2.5"
+    },
+    {
+      "product_name": "アムロジピン錠5mg「サンド」",
+      "strength": "5mg",
+      "imprint_front": "SAM 5",
+      "imprint_back": "未確認",
+      "imprint_note": "刻印は識別コード（PTP）欄の記載。表裏の別は本文に明記なし",
+      "color": "白色",
+      "shape": "oval",
+      "size_long_mm": 8.7,
+      "size_short_mm": 5.9,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2024年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "色・剤形（又は性状）：白色の割線入りの素錠　大きさ 短径 5.9mm 長径 8.7mm 厚さ 2.6mm　識別コード（PTP） SAM 5"
+    }
+  ],
+  "expected_products": [
+    "アムロジピン錠2.5mg「サンド」",
+    "アムロジピン錠5mg「サンド」"
+  ]
+}

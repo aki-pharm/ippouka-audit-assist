@@ -1,0 +1,33 @@
+{
+  "id": "270029_4490005F1530_1_02",
+  "source_file": "270029_4490005F1530_1_02.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270029_4490005F1530_1_02",
+  "extracted_at": "2026-11-09T15:38:20.827Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 14382,
+    "output": 1387
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オキサトミド錠30mg「クニヒロ」",
+      "strength": "30mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードKSK105と記載あり。刻印の表裏の別は本文から確認できず",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.5,
+      "score_line": true,
+      "source_revision": "2024年3月改訂",
+      "source_page": 1,
+      "source_quote": "色調・性状 片面割線入りの白色の素錠 直径 7.0mm 厚さ 2.5mm 識別コード KSK105"
+    }
+  ],
+  "expected_products": [
+    "オキサトミド錠30mg「クニヒロ」"
+  ]
+}

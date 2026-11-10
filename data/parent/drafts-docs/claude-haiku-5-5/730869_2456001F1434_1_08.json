@@ -1,0 +1,50 @@
+{
+  "id": "730869_2456001F1434_1_08",
+  "source_file": "730869_2456001F1434_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/730869_2456001F1434_1_08",
+  "extracted_at": "2026-11-09T15:12:09.508Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23952,
+    "output": 1883
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "プレドニゾロン錠 1mg「VTRS」",
+      "strength": "1mg",
+      "imprint_front": "MH273",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 5.5,
+      "size_short_mm": 5.5,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "識別コード MH273、色調等 白色 割線入り 素錠、直径 5.5mm 厚さ 2.3mm 重量 75mg"
+    },
+    {
+      "product_name": "プレドニゾロン錠 5mg「VTRS」",
+      "strength": "5mg",
+      "imprint_front": "h-255",
+      "imprint_back": "未確認",
+      "imprint_note": "下面の刻印は図からは確認できない",
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2026年3月改訂（第8版）",
+      "source_page": 1,
+      "source_quote": "識別コード h-255、色調等 白色 割線入り 素錠、直径 6.0mm 厚さ 2.3mm 重量 85mg"
+    }
+  ],
+  "expected_products": [
+    "プレドニゾロン錠1mg「VTRS」",
+    "プレドニゾロン錠5mg「VTRS」"
+  ]
+}

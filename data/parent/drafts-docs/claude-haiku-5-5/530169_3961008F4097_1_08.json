@@ -1,0 +1,67 @@
+{
+  "id": "530169_3961008F4097_1_08",
+  "source_file": "530169_3961008F4097_1_08.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530169_3961008F4097_1_08",
+  "extracted_at": "2026-11-09T15:26:45.071Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 23184,
+    "output": 1643
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "グリメピリドOD錠0.5mg「日医工」",
+      "strength": "0.5mg",
+      "imprint_front": "844",
+      "imprint_back": "0.5",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6,
+      "size_short_mm": 6,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 割線入りの素錠（口腔内崩壊錠） 色 調 白色 淡紅色 微黄白色"
+    },
+    {
+      "product_name": "グリメピリドOD錠1mg「日医工」",
+      "strength": "1mg",
+      "imprint_front": "845",
+      "imprint_back": "1",
+      "imprint_note": null,
+      "color": "淡紅色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.6,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 割線入りの素錠（口腔内崩壊錠） 色 調 白色 淡紅色 微黄白色"
+    },
+    {
+      "product_name": "グリメピリドOD錠3mg「日医工」",
+      "strength": "3mg",
+      "imprint_front": "846",
+      "imprint_back": "3",
+      "imprint_note": null,
+      "color": "微黄白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.7,
+      "score_line": true,
+      "source_revision": "2023年11月改訂",
+      "source_page": 1,
+      "source_quote": "剤 形 割線入りの素錠（口腔内崩壊錠） 色 調 白色 淡紅色 微黄白色"
+    }
+  ],
+  "expected_products": [
+    "グリメピリドOD錠0.5mg「日医工」",
+    "グリメピリドOD錠1mg「日医工」",
+    "グリメピリドOD錠3mg「日医工」"
+  ]
+}

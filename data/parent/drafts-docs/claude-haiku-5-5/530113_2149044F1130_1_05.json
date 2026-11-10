@@ -1,0 +1,84 @@
+{
+  "id": "530113_2149044F1130_1_05",
+  "source_file": "530113_2149044F1130_1_05.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_2149044F1130_1_05",
+  "extracted_at": "2026-11-09T14:42:02.746Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 24735,
+    "output": 3119
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "オルメサルタン錠5mg「日新」",
+      "strength": "5mg",
+      "imprint_front": "オルメサルタン 5 日新",
+      "imprint_back": "オルメサルタン 5 日新",
+      "imprint_note": null,
+      "color": "淡黄白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": false,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 淡黄白色の素錠※ 外形 大きさ 錠径：7.0mm 錠厚：2.3mm 重量：120mg 本体表示 表面 オルメサルタン 5 日新 裏面 オルメサルタン 5 日新"
+    },
+    {
+      "product_name": "オルメサルタン錠10mg「日新」",
+      "strength": "10mg",
+      "imprint_front": "オルメ10",
+      "imprint_back": "オルメサルタン 10 日新",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 7,
+      "size_short_mm": 7,
+      "thickness_mm": 2.3,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の片面割線入り素錠※ 外形 大きさ 錠径：7.0mm 錠厚：2.3mm 重量：120mg 本体表示 表面 オルメ10 裏面 オルメサルタン 10 日新"
+    },
+    {
+      "product_name": "オルメサルタン錠20mg「日新」",
+      "strength": "20mg",
+      "imprint_front": "オルメ20",
+      "imprint_back": "オルメサルタン 20 日新",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8,
+      "size_short_mm": 8,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の片面割線入り素錠※ 外形 大きさ 錠径：8.0mm 錠厚：2.4mm 重量：160mg 本体表示 表面 オルメ20 裏面 オルメサルタン 20 日新"
+    },
+    {
+      "product_name": "オルメサルタン錠40mg「日新」",
+      "strength": "40mg",
+      "imprint_front": "オルメ40",
+      "imprint_back": "オルメサルタン 40 日新",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 8.5,
+      "size_short_mm": 8.5,
+      "thickness_mm": 2.8,
+      "score_line": true,
+      "source_revision": "2025年9月改訂",
+      "source_page": 1,
+      "source_quote": "性状 白色の片面割線入り素錠※ 外形 大きさ 錠径：8.5mm 錠厚：2.8mm 重量：200mg 本体表示 表面 オルメ40 裏面 オルメサルタン 40 日新"
+    }
+  ],
+  "expected_products": [
+    "オルメサルタン錠10mg「日新」",
+    "オルメサルタン錠20mg「日新」",
+    "オルメサルタン錠40mg「日新」",
+    "オルメサルタン錠5mg「日新」"
+  ]
+}

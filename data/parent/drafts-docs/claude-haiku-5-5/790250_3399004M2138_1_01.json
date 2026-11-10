@@ -1,0 +1,67 @@
+{
+  "id": "790250_3399004M2138_1_01",
+  "source_file": "790250_3399004M2138_1_01.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790250_3399004M2138_1_01",
+  "extracted_at": "2026-11-09T15:21:11.494Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 18096,
+    "output": 2649
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル300mg「モチダ」",
+      "strength": "300mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードMO20K（分包に表示）。表裏の別・カプセル本体の刻印は記載なし",
+      "color": "微黄色透明",
+      "shape": "round",
+      "size_long_mm": 4,
+      "size_short_mm": 4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年8月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 微黄色透明（軟カプセル剤） 外形 直径約4mmの球形 識別コード MO20K（分包に表示）"
+    },
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル600mg「モチダ」",
+      "strength": "600mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードMO20L（分包に表示）。表裏の別・カプセル本体の刻印は記載なし",
+      "color": "微黄色透明",
+      "shape": "round",
+      "size_long_mm": 4,
+      "size_short_mm": 4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年8月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 微黄色透明（軟カプセル剤） 外形 直径約4mmの球形 識別コード MO20L（分包に表示）"
+    },
+    {
+      "product_name": "イコサペント酸エチル粒状カプセル900mg「モチダ」",
+      "strength": "900mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "識別コードMO20M（分包に表示）。表裏の別・カプセル本体の刻印は記載なし",
+      "color": "微黄色透明",
+      "shape": "round",
+      "size_long_mm": 4,
+      "size_short_mm": 4,
+      "thickness_mm": null,
+      "score_line": null,
+      "source_revision": "2025年8月作成（第1版）",
+      "source_page": 1,
+      "source_quote": "性状 微黄色透明（軟カプセル剤） 外形 直径約4mmの球形 識別コード MO20M（分包に表示）"
+    }
+  ],
+  "expected_products": [
+    "イコサペント酸エチル粒状カプセル300mg「モチダ」",
+    "イコサペント酸エチル粒状カプセル600mg「モチダ」",
+    "イコサペント酸エチル粒状カプセル900mg「モチダ」"
+  ]
+}

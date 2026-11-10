@@ -1,0 +1,65 @@
+{
+  "id": "300119_2189016F1133_1_16",
+  "source_file": "300119_2189016F1133_1_16.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/300119_2189016F1133_1_16",
+  "extracted_at": "2026-11-09T14:53:48.444Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 25307,
+    "output": 2954
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ピタバスタチンCa錠1mg「サワイ」",
+      "strength": "1mg",
+      "imprint_front": "SW ピタバ 1",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.1,
+      "size_short_mm": 6.1,
+      "thickness_mm": 2.8,
+      "score_line": false,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りフィルムコーティング錠 性状 白色 ごくうすい赤色 淡黄色 直径（mm） 6.1 7.1 8.6 厚さ（mm） 2.8 2.9 4.2 本体表示 SW ピタバ 1 SW ピタバ 2 SW ピタバ 4"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠2mg「サワイ」",
+      "strength": "2mg",
+      "imprint_front": "SW ピタバ 2",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい赤色",
+      "shape": "round",
+      "size_long_mm": 7.1,
+      "size_short_mm": 7.1,
+      "thickness_mm": 2.9,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りフィルムコーティング錠 性状 白色 ごくうすい赤色 淡黄色 直径（mm） 6.1 7.1 8.6 厚さ（mm） 2.8 2.9 4.2 本体表示 SW ピタバ 1 SW ピタバ 2 SW ピタバ 4"
+    },
+    {
+      "product_name": "ピタバスタチンCa錠4mg「サワイ」",
+      "strength": "4mg",
+      "imprint_front": "SW ピタバ 4",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "淡黄色",
+      "shape": "round",
+      "size_long_mm": 8.6,
+      "size_short_mm": 8.6,
+      "thickness_mm": 4.2,
+      "score_line": true,
+      "source_revision": "2023年12月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 割線入りフィルムコーティング錠 性状 白色 ごくうすい赤色 淡黄色 直径（mm） 6.1 7.1 8.6 厚さ（mm） 2.8 2.9 4.2 本体表示 SW ピタバ 1 SW ピタバ 2 SW ピタバ 4"
+    }
+  ],
+  "expected_products": [
+    "ピタバスタチンCa錠1mg「サワイ」"
+  ]
+}

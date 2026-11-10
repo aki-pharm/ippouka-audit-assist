@@ -1,0 +1,50 @@
+{
+  "id": "270428_2189015F1066_1_20",
+  "source_file": "270428_2189015F1066_1_20.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_2189015F1066_1_20",
+  "extracted_at": "2026-11-09T14:51:49.954Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 28691,
+    "output": 1444
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アトルバスタチン錠5mg「サンド」",
+      "strength": "5mg",
+      "imprint_front": "SA5",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "ごくうすい紅色",
+      "shape": "round",
+      "size_long_mm": 5.6,
+      "size_short_mm": 5.6,
+      "thickness_mm": 2.6,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 円形のフィルムコーティング錠 色調 ごくうすい紅色 外形 直径 5.6mm 厚さ 2.6mm 識別コード SA5"
+    },
+    {
+      "product_name": "アトルバスタチン錠10mg「サンド」",
+      "strength": "10mg",
+      "imprint_front": "SA10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.6,
+      "size_short_mm": 6.6,
+      "thickness_mm": 3.1,
+      "score_line": null,
+      "source_revision": "2024年2月改訂",
+      "source_page": 1,
+      "source_quote": "剤形 円形のフィルムコーティング錠 色調 白色 外形 直径 6.6mm 厚さ 3.1mm 識別コード SA10"
+    }
+  ],
+  "expected_products": [
+    "アトルバスタチン錠10mg「サンド」",
+    "アトルバスタチン錠5mg「サンド」"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "670156_2190022F1199_1_06",
+  "source_file": "670156_2190022F1199_1_06.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/670156_2190022F1199_1_06",
+  "extracted_at": "2026-11-09T14:57:30.452Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 11759,
+    "output": 1042
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "アメジニウムメチル硫酸塩錠10mg「フソー」",
+      "strength": "10mg",
+      "imprint_front": "FS/D10",
+      "imprint_back": "未確認",
+      "imprint_note": null,
+      "color": "白色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 2.4,
+      "score_line": true,
+      "source_revision": "2026年10月改訂（第2版）",
+      "source_page": 1,
+      "source_quote": "白色の片面割線入り素錠"
+    }
+  ],
+  "expected_products": [
+    "アメジニウムメチル硫酸塩錠10mg「フソー」"
+  ]
+}
