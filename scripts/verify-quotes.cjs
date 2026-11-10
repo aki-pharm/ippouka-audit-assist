@@ -14,6 +14,7 @@
  *   2. 抽出した値そのもの（刻印の表・裏、長径、短径、厚さ、色）が、本文にあるか
  *
  * 入力：data/parent/drafts/<model>/*.json、data/parent/pmda-links.json、pdfs/parent/<doc_id>.pdf（コミットしない）
+ * 文字の取り出し：PyMuPDF（scripts/pdf-text.py）。先に python3 -I scripts/pdf-text.py --all pdfs/parent pdfs/parent-txt-mupdf でまとめて取り出しておくと速い
  * 出力：data/parent/verify/quote-check.csv（全品目）、needs-review.csv（目で見るもの。優先度つき）、unable.csv（照合不能）、summary.json
  *
  * 限界：分かるのは「その文字・数字が、そのページにある」ことまで。
@@ -30,7 +31,7 @@ const MODEL = arg("--model", "claude-sonnet-5-5");
 const SELFTEST = process.argv.includes("--selftest");
 const DRAFTS = path.join("data/parent/drafts", MODEL);
 const PDF_DIR = "pdfs/parent";
-const TXT_DIR = "pdfs/parent-txt";
+const TXT_DIR = "pdfs/parent-txt-mupdf"; // PyMuPDF で取り出した本文の置き場（pdftotext 時代の pdfs/parent-txt とは分ける）
 const OUT = "data/parent/verify";
 fs.mkdirSync(TXT_DIR, { recursive: true });
 
@@ -55,7 +56,8 @@ function pagesOf(docId) {
     let txt;
     if (fs.existsSync(cache)) txt = fs.readFileSync(cache, "utf8");
     else {
-      try { txt = execFileSync("pdftotext", [mode, pdf, "-"], { stdio: ["ignore", "pipe", "ignore"], maxBuffer: 256 * 1024 * 1024 }).toString("utf8"); }
+      // PyMuPDF で取り出す（pdftotext は日本語フォントの辞書が無い環境で日本語を出せず、「文字が取り出せない」になっていた）
+      try { txt = execFileSync("python3", ["-I", "scripts/pdf-text.py", pdf, mode], { stdio: ["ignore", "pipe", "ignore"], maxBuffer: 256 * 1024 * 1024 }).toString("utf8"); }
       catch { txt = ""; }
       if (txt.trim()) fs.writeFileSync(cache, txt); // 空の結果は残さない（取得途中のPDFを空として覚えないため）
     }
