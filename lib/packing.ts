@@ -1,5 +1,6 @@
 import { TIMINGS, type Timing, type RxItem, type RxRow, type RxReadResult, type Tablet } from "./types";
 import { findTablet, matchTablet } from "./master";
+import type { DrawnTablet } from "./makers";
 
 /** 入れる／入れないの初期値。優先：行の別包指示 > 緑字の「含めて一包化」 > 施設ルール > 剤形 */
 export function defaultInclude(
@@ -72,7 +73,10 @@ export function checkRow(row: RxRow): CheckFlag[] {
   return flags;
 }
 
-export type BagEntry = { row: RxRow; tablet: Tablet | undefined; count: number; group: string | null };
+/** pending：今のメーカーが決まっていない（未選択・両方使用）ので描かない。図には「メーカー未確定」の札を出す */
+export type BagEntry = { row: RxRow; tablet: DrawnTablet | undefined; count: number; group: string | null; pending: boolean };
+/** 行 → 図に描く製品（1 つの薬に 1 製品）。既定はマスタの対応品そのまま */
+export type DrawResolver = (row: RxRow) => { tablet: DrawnTablet | undefined; pending: boolean };
 export type Bag = { timing: Timing; entries: BagEntry[]; total: number; groups: SimilarGroup[] };
 export type SimilarGroup = { label: string; tablet_ids: string[]; note: string };
 /** イメージ図の並び順：処方箋の記載順（既定）／大きさ順（長径の大きい順。大きさ未確認は最後） */
@@ -98,12 +102,15 @@ export function sortEntries(entries: BagEntry[], order: BagOrder): BagEntry[] {
     .map((x) => x.e);
 }
 
-/** 袋ごとの中身を組み立てる（処方箋の記載順） */
-export function buildBags(rows: RxRow[]): Bag[] {
+/** 袋ごとの中身を組み立てる（処方箋の記載順）。resolve でメーカー選択の結果を反映する（lib/makers.ts の productToDraw） */
+export function buildBags(
+  rows: RxRow[],
+  resolve: DrawResolver = (r) => ({ tablet: findTablet(r.tablet_id), pending: false }),
+): Bag[] {
   return TIMINGS.map((timing) => {
     const entries: BagEntry[] = rows
       .filter((r) => r.include && r.per_timing[timing] > 0)
-      .map((r) => ({ row: r, tablet: findTablet(r.tablet_id), count: r.per_timing[timing], group: null }));
+      .map((r) => ({ row: r, ...resolve(r), count: r.per_timing[timing], group: null }));
     const groups = findSimilar(entries);
     for (const e of entries) {
       const g = groups.find((g) => e.tablet && g.tablet_ids.includes(e.tablet.id));
