@@ -1,6 +1,6 @@
 // scripts/eval/score-rx.cjs（読み取りの自動採点）を、わざと崩した読み取り結果で試す。
 //   node --test tests/rx/
-// 【不具合】の付いたテストは todo（今は失敗する。直したら todo を外す）
+// 【直った不具合】＝品質が見つけて a518848 で直ったもの（戻らないことを見る）。【不具合】の付いたテストは todo（今は失敗する。直したら todo を外す）
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
@@ -169,28 +169,28 @@ test("【般】を落とすと薬品名は誤り、基幹名は正しい", () =>
   assert.equal(rowOf(rows, "01").name_core, "1");
 });
 
-test("【不具合】( ) の中の取り違えが見えない：「アムロジピン(OD)錠2.5mg「サワイ」」をふつうの錠の正解に対して正しいと数える", () => {
+test("【直った不具合】( ) の中の取り違えが見えない：「アムロジピン(OD)錠2.5mg「サワイ」」をふつうの錠の正解に対して正しいと数える", () => {
   const e = exp("rx06"); // Rp04 アムロジピン錠2.5mg「サワイ」（ふつうの錠）
   e.items[idx(e.items, "04")].name_as_written = "アムロジピン(OD)錠2.5mg「サワイ」";
   const { rows } = score({ "rx06__QA__x__x.json": e });
   assert.equal(rowOf(rows, "04").name, "0");
 });
 
-test("【不具合】括弧の補足に入った別の品名が見えない：「ワーファリン錠1mg（0.5mg）」を 1mg の正解に対して正しいと数える", () => {
+test("【直った不具合】括弧の補足に入った別の品名が見えない：「ワーファリン錠1mg（0.5mg）」を 1mg の正解に対して正しいと数える", () => {
   const e = exp("rx18");
   e.items[0].name_as_written = "ワーファリン錠1mg（0.5mg）";
   const { rows } = score({ "rx18__QA__x__x.json": e });
   assert.equal(rowOf(rows, "01").name, "0");
 });
 
-test("【不具合】接頭辞の取り違え (K)→(Na) を正しいと数える（狙い「接頭辞」の項目が薬品名なのに、接頭辞は比べていない）", () => {
+test("【直った不具合】接頭辞の取り違え (K)→(Na) を正しいと数える（狙い「接頭辞」の項目が薬品名なのに、接頭辞は比べていない）", () => {
   const e = exp("rx03");
   e.items[0].name_as_written = "(Na)アスパラカリウム錠300mg";
   const { rows } = score({ "rx03__QA__x__x.json": e });
   assert.equal(rowOf(rows, "01").name, "0");
 });
 
-test("【不具合】【般】ニフェジピン徐放錠の 12時間／24時間 の取り違え（CR と L の別）が「行が全部正しい」に効かない", () => {
+test("【直った不具合】【般】ニフェジピン徐放錠の 12時間／24時間 の取り違え（CR と L の別）が「行が全部正しい」に効かない", () => {
   const e = exp("rx15"); // Rp03 【般】ニフェジピン徐放錠10mg（12時間持続）→ L 錠
   const it = e.items[idx(e.items, "03")];
   it.name_as_written = "【般】ニフェジピン徐放錠10mg（24時間持続）";
@@ -202,15 +202,26 @@ test("【不具合】【般】ニフェジピン徐放錠の 12時間／24時間
 });
 
 // ---------- 規格 ----------
-test("規格：配合錠（正解 null）で読み取りが null・HD なら正しい、10mg なら誤り", () => {
+test("規格：配合錠は印字の記号（AKI 11/11）。ユニシア配合錠HD：HD・hd・ＨＤ は正しい、null・LD・10mg は誤り", () => {
   const e = exp("rx16").items[0]; // ユニシア配合錠HD
-  assert.equal(judgeRow(e, { ...e, strength: null }, 14).strength, true);
-  assert.equal(judgeRow(e, { ...e, strength: "HD" }, 14).strength, true);
-  assert.equal(judgeRow(e, { ...e, strength: "LD" }, 14).strength, false);
-  assert.equal(judgeRow(e, { ...e, strength: "10mg" }, 14).strength, false);
+  assert.equal(e.strength, "HD");
+  for (const ok of ["HD", "hd", "ＨＤ", " HD "]) assert.equal(judgeRow(e, { ...e, strength: ok }, 14).strength, true, ok);
+  for (const ng of [null, "", "LD", "10mg", "HD錠", "配合錠HD"]) assert.equal(judgeRow(e, { ...e, strength: ng }, 14).strength, false, String(ng));
 });
 
-test("【不具合】規格：配合錠で「錠」「配合」のような名前の一部を規格として読んでも正しい扱い", () => {
+test("規格：バファリン配合錠A81 は A81。81mg・81 は誤り。記号の無いノイロビタンは null・空だけ正しい", () => {
+  const items = exp("rx16").items;
+  const baf = items.find((x) => x.name_as_written === "バファリン配合錠A81");
+  assert.equal(baf.strength, "A81");
+  assert.equal(judgeRow(baf, { ...baf, strength: "a81" }, 14).strength, true);
+  for (const ng of ["81mg", "81", "A", null]) assert.equal(judgeRow(baf, { ...baf, strength: ng }, 14).strength, false, String(ng));
+  const neu = items.find((x) => x.name_as_written === "ノイロビタン配合錠");
+  assert.equal(neu.strength, null);
+  for (const ok of [null, "", "　"]) assert.equal(judgeRow(neu, { ...neu, strength: ok }, 42).strength, true, JSON.stringify(ok));
+  for (const ng of ["錠", "配合", "配合錠", "25mg"]) assert.equal(judgeRow(neu, { ...neu, strength: ng }, 42).strength, false, ng);
+});
+
+test("【直った不具合】規格：配合錠で「錠」「配合」のような名前の一部を規格として読んでも正しい扱い", () => {
   const e = exp("rx16").items[0];
   assert.equal(judgeRow(e, { ...e, strength: "錠" }, 14).strength, false);
   assert.equal(judgeRow(e, { ...e, strength: "配合" }, 14).strength, false);
@@ -260,12 +271,12 @@ test("数を文字列で返しても数として比べる（\"2\" は 2）", () 
   assert.equal(judgeRow(e, { ...e, days: "14", per_timing: { morning: "2", noon: "0", evening: "2" } }, 56).row_ok, true);
 });
 
-test("【不具合】true を 1 錠と数える（数でない値は誤りにすべき）", () => {
+test("【直った不具合】true を 1 錠と数える（数でない値は誤りにすべき）", () => {
   const e = exp("rx01").items[0]; // 朝 1
   assert.equal(judgeRow(e, { ...e, per_timing: { morning: true, noon: 0, evening: 0 } }, 28).morning, false);
 });
 
-test("【不具合】就寝前だけの薬：1日量を 0 と読んでも（就寝前を落としても）「行が全部正しい」", () => {
+test("【直った不具合】就寝前だけの薬：1日量を 0 と読んでも（就寝前を落としても）「行が全部正しい」", () => {
   const e = exp("rx09"); // Rp06 センノシド錠12mg 1回2錠 就寝前
   Object.assign(e.items[idx(e.items, "06")], { dose_per_time: null, times_per_day: 0, dose_per_day: 0, raw_usage_text: "" });
   const { rows } = score({ "rx09__QA__x__x.json": e });
@@ -337,19 +348,19 @@ test("結果のフォルダが空なら終了コード 1", () => {
   assert.equal(status, 1);
 });
 
-test("【不具合】壊れた JSON が 1 つあると採点全体が落ちる（読み取り失敗として数え、ほかは採点すべき）", () => {
+test("【直った不具合】壊れた JSON が 1 つあると採点全体が落ちる（読み取り失敗として数え、ほかは採点すべき）", () => {
   const { status, all, stderr } = score({ "rx01__QA__x__x.json": "{\"items\": [", "rx02__QA__x__x.json": exp("rx02") });
   assert.equal(status, 0, stderr.slice(0, 300));
   assert.equal(Number(all.images), 2);
   assert.equal(Number(all.failed), 1);
 });
 
-test("【不具合】空のファイル（0 バイト）で採点全体が落ちる", () => {
+test("【直った不具合】空のファイル（0 バイト）で採点全体が落ちる", () => {
   const { status } = score({ "rx01__QA__x__x.json": "", "rx02__QA__x__x.json": exp("rx02") });
   assert.equal(status, 0);
 });
 
-test("【不具合】items の中に null の行があると採点全体が落ちる", () => {
+test("【直った不具合】items の中に null の行があると採点全体が落ちる", () => {
   const e = exp("rx01");
   e.items.splice(2, 0, null);
   const { status, all } = score({ "rx01__QA__x__x.json": e });
@@ -357,7 +368,7 @@ test("【不具合】items の中に null の行があると採点全体が落�
   assert.equal(Number(all.missing), 0);
 });
 
-test("【不具合】ページごとに保存した結果（rx05-1__…、rx05-2__…）を、どちらも処方全体（10 行）と比べて抜けを二重に数える", () => {
+test("【直った不具合】ページごとに保存した結果（rx05-1__…、rx05-2__…）を、どちらも処方全体（10 行）と比べて抜けを二重に数える", () => {
   const e = exp("rx05");
   const p1 = { ...e, items: e.items.slice(0, 6) };
   const p2 = { ...e, items: e.items.slice(6) };
@@ -382,4 +393,144 @@ test("align：17 行以上は貪欲法に切り替わるが、正解そのもの
 
 test("採点側の正規化の写しが lib/master.ts と同じ（checkDrift が null）", () => {
   assert.equal(require(SCORER).checkDrift(), null);
+});
+
+// ---------- 再検査（a518848 の直しに、前回と違う入力を当てる） ----------
+const one = (id, mutate) => {
+  const e = exp(id);
+  mutate(e);
+  return score({ [`${id}__QA__re__x.json`]: e });
+};
+
+test("再：括弧の中で薬が変わる別の書き方（(L)・（CR）・全角括弧・後ろの括弧）はすべて薬品名の誤り", () => {
+  const cases = [
+    ["rx06", "01", "ニフェジピン(L)錠20mg「サワイ」"], // 正解 CR
+    ["rx06", "01", "ニフェジピンCR錠20mg「サワイ」（L）"],
+    ["rx06", "04", "アムロジピン錠2.5mg「サワイ」（ＯＤ）"],
+    ["rx18", "02", "ワーファリン錠0.5mg（1mg）"],
+  ];
+  for (const [id, rp, name] of cases) {
+    const { rows } = one(id, (e) => (e.items[idx(e.items, rp)].name_as_written = name));
+    assert.equal(rowOf(rows, rp).name, "0", name);
+    assert.equal(rowOf(rows, rp).row_ok, "0", name);
+  }
+});
+
+test("再：全角・半角・空白の違いだけなら正しい（厳しくしすぎていない）", () => {
+  const { rows } = one("rx06", (e) => {
+    e.items[idx(e.items, "01")].name_as_written = "ニフェジピンＣＲ錠２０ｍｇ　「サワイ」";
+    e.items[idx(e.items, "03")].name_as_written = "アムロジピンOD錠10mg 「武田テバ」";
+  });
+  assert.equal(rowOf(rows, "01").row_ok, "1");
+  assert.equal(rowOf(rows, "03").row_ok, "1");
+});
+
+test("再：接頭辞 — (Ca)→(K)、正解に無い接頭辞を足す、全角（Ｋ）は同じ扱い", () => {
+  let r = one("rx03", (e) => (e.items[idx(e.items, "03")].name_as_written = "(K)アスパラ-CA錠200mg")).rows; // 正解 (Ca)
+  assert.equal(rowOf(r, "03").name, "0");
+  r = one("rx19", (e) => (e.items[idx(e.items, "05")].name_as_written = "(K)グルコンサンK錠5mEq")).rows; // 正解に接頭辞なし
+  assert.equal(rowOf(r, "05").name, "0");
+  r = one("rx03", (e) => (e.items[0].name_as_written = "（Ｋ）アスパラカリウム錠300mg")).rows;
+  assert.equal(rowOf(r, "01").name, "1");
+  r = one("rx03", (e) => (e.items[0].name_as_written = "(k)アスパラカリウム錠300mg")).rows;
+  assert.equal(rowOf(r, "01").name, "1");
+});
+
+test("再：補足 — 補足を名前の括弧に入れたら薬品名の誤り、name_note の 12/24 の取り違えは行の誤り、空白違いは正しい", () => {
+  let r = one("rx15", (e) => {
+    const it = e.items[idx(e.items, "02")]; // 【般】ニフェジピン徐放錠20mg（24時間持続）
+    it.name_note = "12時間持続";
+  }).rows;
+  assert.equal(rowOf(r, "02").name, "1");
+  assert.equal(rowOf(r, "02").name_note, "0");
+  assert.equal(rowOf(r, "02").row_ok, "0");
+  r = one("rx15", (e) => (e.items[idx(e.items, "02")].name_note = "24 時間持続")).rows;
+  assert.equal(rowOf(r, "02").row_ok, "1");
+  r = one("rx10", (e) => {
+    const it = e.items[0]; // ダーブロック錠4mg（通院HD患者は院内処方）
+    it.name_as_written = "ダーブロック錠4mg（通院HD患者は院内処方）";
+  }).rows;
+  assert.equal(rowOf(r, "01").name, "0");
+  // 補足が無い行に補足を足すのも誤り
+  r = one("rx01", (e) => (e.items[0].name_note = "粉砕不可")).rows;
+  assert.equal(rowOf(r, "01").row_ok, "0");
+});
+
+test("再：数 — \"2.0\"・\" 2 \"・\"２\" は 2、\"2錠\"・NaN・Infinity・[2]・{}・false は誤り。正解 null の 1回量に 0 は誤り", () => {
+  const e = exp("rx02").items[0]; // 朝 2、日数 14
+  for (const ok of [2, "2.0", " 2 ", "２"]) assert.equal(judgeRow(e, { ...e, per_timing: { ...e.per_timing, morning: ok } }, 56).morning, true, JSON.stringify(ok));
+  for (const ng of ["2錠", NaN, Infinity, [2], {}, false, null, ""]) assert.equal(judgeRow(e, { ...e, per_timing: { ...e.per_timing, morning: ng } }, 56).morning, false, String(ng));
+  const p = exp("rx04").items[0]; // 1-0-2-0-0-0：1回量 null
+  assert.equal(p.dose_per_time, null);
+  assert.equal(judgeRow(p, { ...p, dose_per_time: 0 }, 84).dose_per_time, false);
+  assert.equal(judgeRow(p, { ...p, dose_per_time: "" }, 84).dose_per_time, true);
+  assert.equal(judgeRow(p, { ...p, dose_per_time: 1 }, 84).dose_per_time, false);
+});
+
+test("再：眠前 — rx17 の 1-0-1-1 で眠前を落とす（1日量 2）・眠前を夕に寄せる（1-0-2）は行の誤り、正しく 3 なら正しい", () => {
+  let r = one("rx17", (e) => (e.items[idx(e.items, "05")].dose_per_day = 2)).rows;
+  assert.equal(rowOf(r, "05").bedtime, "0");
+  assert.equal(rowOf(r, "05").row_ok, "0");
+  r = one("rx17", (e) => (e.items[idx(e.items, "05")].per_timing = { morning: 1, noon: 0, evening: 2 })).rows;
+  assert.equal(rowOf(r, "05").row_ok, "0");
+  r = one("rx17", () => {}).rows;
+  assert.equal(rowOf(r, "05").row_ok, "1");
+  assert.equal(rowOf(r, "05").bedtime, "1");
+  // 眠前の無い薬に眠前を足す（朝 1 なのに 1日量 2）も誤り
+  r = one("rx01", (e) => (e.items[0].dose_per_day = 2)).rows;
+  assert.equal(rowOf(r, "01").row_ok, "0");
+});
+
+test("再：壊れた入力 — 一番上が配列、items に文字列・数・配列、BOM 付きの JSON、usage が文字列 でも止まらない", () => {
+  const good = exp("rx08");
+  const mixed = exp("rx02");
+  mixed.items.splice(1, 0, "x", 3, [], true);
+  const { status, all, stderr } = score({
+    "rx01__QA__a__x.json": "[]",
+    "rx02__QA__b__x.json": mixed,
+    "rx03__QA__c__x.json": "\uFEFF" + JSON.stringify(exp("rx03")),
+    "rx04__QA__d__x.json": { result: exp("rx04"), usage: "lots" },
+    "rx05__QA__e__x.json": "{\"result\": {\"items\": [}}",
+    "rx06__QA__f__x.json": { result: { items: "abc" } },
+    "rx07__QA__g__x.json": { items: [{}] },
+    "rx08__QA__h__x.json": good,
+  });
+  assert.equal(status, 0, stderr.slice(0, 300));
+  assert.equal(Number(all.images), 8);
+  // 失敗：[]、壊れた JSON、items が文字列（BOM 付きは下の todo）
+  const failed = Number(all.failed);
+  assert.ok(failed >= 3 && failed <= 4, `failed=${failed}`); // BOM 付き（rx03）が今は失敗に入る。下の todo
+  // 混ざったゴミの行は捨てて採点（rx02）、usage が文字列でも採点（rx04）、正しいもの（rx08）：3 つとも全部正しい
+  assert.equal(Number(all.images_perfect), 3);
+  assert.equal(Number(all.extra), 1); // rx07 の {} の行（名前なし）だけが余分
+});
+
+test("【不具合】BOM 付きの JSON（メモ帳などで保存）を「読み取り失敗」に数える", { todo: "loadResult が BOM を取らずに JSON.parse する" }, () => {
+  const { all } = score({ "rx03__QA__c__x.json": "\uFEFF" + JSON.stringify(exp("rx03")) });
+  assert.equal(Number(all.failed), 0);
+  assert.equal(acc(all, "row_ok"), 1);
+});
+
+test("再：ページごと — 片方のページが壊れていれば読み取り失敗に数え、読めたページの行は採点する。ページが逆順の名前でも同じ", () => {
+  const e = exp("rx10"); // 5 行 + 4 行
+  const p2 = { ...e, items: e.items.slice(5) };
+  const { all, rows } = score({ "rx10-1__QA__x__x.json": "{", "rx10-2__QA__x__x.json": p2 });
+  assert.equal(Number(all.images), 1);
+  assert.equal(Number(all.failed), 1);
+  assert.equal(Number(all.missing), 5);
+  assert.equal(rowOf(rows, "06").row_ok, "1");
+  const p1 = { ...e, items: e.items.slice(0, 5), all_one_dose: false };
+  const r2 = score({ "rx10-2__QA__y__x.json": p2, "rx10-1__QA__y__x.json": p1 });
+  assert.equal(Number(r2.all.missing), 0);
+  assert.equal(Number(r2.all.images_perfect), 1, "1 ページ目は「次ページあり」で All One Dose が無いのが正しい。2 ページ目の true を採る");
+});
+
+test("【不具合】ページごとのファイルと、まとめたファイルが同じ撮影名で両方あると、1 つにまとめて行を二重に数える（余分 10）", { todo: "まとめたファイル（ページ番号なし）があればページごとのファイルは無視するか、警告する" }, () => {
+  const e = exp("rx05");
+  const { all } = score({
+    "rx05__QA__x__x.json": e,
+    "rx05-1__QA__x__x.json": { ...e, items: e.items.slice(0, 6) },
+    "rx05-2__QA__x__x.json": { ...e, items: e.items.slice(6) },
+  });
+  assert.equal(Number(all.extra), 0);
 });

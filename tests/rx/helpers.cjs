@@ -60,10 +60,18 @@ function usage(u) {
 }
 
 const PREFIX = /^\((K|Ca|Na)\)/;
-/** 規格：名前の中の「数字＋mg/μg/mEq/g」。無ければ null */
+/**
+ * 規格：名前の中の「数字＋mg/μg/mEq/g」。
+ * 単位つきの数が無い配合錠は、「配合錠」の直後に印字された英数字の記号（HD・A81 など。11/11 AKI の判断）。それも無ければ null
+ */
 const strengthIn = (name) => {
-  const m = /(\d+(?:\.\d+)?)(mg|μg|mEq|g)/.exec(name.normalize("NFKC").replace(/µ/g, "μ"));
-  return m ? m[1] + m[2] : null;
+  const n = name.normalize("NFKC").replace(/µ/g, "μ");
+  const m = /(\d+(?:\.\d+)?)(mg|μg|mEq|g)/.exec(n);
+  if (m) return m[1] + m[2];
+  const i = n.indexOf("配合錠");
+  if (i < 0) return null;
+  const code = /^[0-9A-Za-z]+/.exec(n.slice(i + 3));
+  return code ? code[0] : null;
 };
 
 /** prescriptions.json の 1 処方 → 期待する expected.json と rows.csv の行（独立に計算） */

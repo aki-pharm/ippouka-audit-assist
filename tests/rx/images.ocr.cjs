@@ -85,8 +85,9 @@ test("画像の文字（OCR）が定義と一致する：Rp・薬品名・分量
         const sim = dice(norm(o.name), nameWant);
         if (sim < 0.7) bad.push(`${w}: 薬品名 「${o.name}」≠「${e.name_as_written}」(${sim.toFixed(2)})`);
         if (e.strength) {
-          const num = e.strength.match(/[\d.]+/)[0];
-          if (!norm(o.name).includes(num)) bad.push(`${w}: 規格の数字 ${num} が読めない「${o.name}」`);
+          // 規格の数字（5mg の 5）。配合錠の記号（HD・A81）はそのまま名前の中に読めること
+          const key = e.name_as_written.includes("配合錠") ? e.strength : (e.strength.match(/[\d.]+/) ?? [e.strength])[0];
+          if (!norm(o.name).includes(key)) bad.push(`${w}: 規格 ${key} が読めない「${o.name}」`);
         }
         if (/OD/.test(e.name_as_written) !== /OD/.test(norm(o.name))) bad.push(`${w}: OD の有無`);
         if (lead(o.amount) !== e.dose_per_day) bad.push(`${w}: 分量 「${o.amount}」≠ ${e.dose_per_day}`);

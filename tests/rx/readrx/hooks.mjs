@@ -14,8 +14,15 @@ const z = mk();
 export { z }; export default z;`),
 };
 
+// register(..., { data: { fakeReadRx: "<file URL>" } }) のとき、lib/readRx を偽物に差し替える（ランナーの費用の上限を試す用）
+let fakeReadRx = null;
+export async function initialize(data) {
+  fakeReadRx = data?.fakeReadRx ?? null;
+}
+
 export async function resolve(specifier, context, next) {
   if (STUBS[specifier]) return { url: STUBS[specifier], shortCircuit: true };
+  if (fakeReadRx && /(^|\/)lib\/readRx(\.ts)?$/.test(specifier)) return { url: fakeReadRx, shortCircuit: true };
   if (/^\.\.?\//.test(specifier) && !/\.[cm]?[jt]s$/.test(specifier) && context.parentURL?.startsWith("file:")) {
     const u = new URL(specifier + ".ts", context.parentURL);
     if (fs.existsSync(fileURLToPath(u))) return { url: u.href, shortCircuit: true };

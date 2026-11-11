@@ -98,6 +98,19 @@ test("就寝前の行：朝昼夕は眠前を含めない（プロンプトの�
   }
 });
 
+test("配合錠の規格は印字された記号（AKI 11/11）：ユニシア HD、バファリン A81、ノイロビタン・ウラリットは記号なしで null", () => {
+  const e = expectedOf("rx16").items;
+  const got = Object.fromEntries(e.filter((x) => x.name_as_written.includes("配合錠")).map((x) => [x.name_as_written, x.strength]));
+  assert.deepEqual(got, { "ユニシア配合錠HD": "HD", "ノイロビタン配合錠": null, "ウラリット配合錠": null, "バファリン配合錠A81": "A81" });
+  // 記号の無い 2 つは、マスタの製品名にも記号が無い（ほかの記号の製品が無い）
+  const names = [...productNames()];
+  for (const base of ["ノイロビタン配合錠", "ウラリット配合錠"]) {
+    assert.deepEqual(names.filter((n) => n.startsWith(base)), [base], base);
+  }
+  // ユニシアは LD もあるので、HD の記号が区別に効く
+  assert.ok(names.includes("ユニシア配合錠LD"));
+});
+
 test("製品名がすべて data/master.json か data/parent/parent-master.json に実在する（145 行）", () => {
   const names = productNames();
   const missing = CSV.filter((r) => !names.has(r.product)).map((r) => `${r.rx} Rp${r.rp} ${r.product}`);
