@@ -29,13 +29,16 @@ function runScorer(args, { cwd = ROOT } = {}) {
 }
 const tmp = () => fs.mkdtempSync(path.join(os.tmpdir(), "adopted-"));
 
-// ---------- アプリを書き換えていない ----------
-test("lib/master.ts・lib/types.ts は main と同じ（採点のためにアプリの照合を書き換えていない）", () => {
-  const ref = ["origin/main", "main"].find((r) => spawnSync("git", ["rev-parse", "--verify", "-q", r], { cwd: ROOT }).status === 0);
-  if (!ref) return;
-  for (const f of ["lib/master.ts", "lib/types.ts", "data/master.json"]) {
-    assert.equal(spawnSync("git", ["diff", "--quiet", ref, "--", f], { cwd: ROOT }).status, 0, f);
-  }
+// ---------- アプリの照合の呼び方（feature/matching-rules で中身は変わった。呼び方と返す形は前と同じ） ----------
+test("matchTablet は前と同じ呼び方（名前, 規格）で動き、best・candidates・substituted を返す。3 つ目の options は任意", { skip }, () => {
+  const src = fs.readFileSync(path.join(ROOT, "lib/master.ts"), "utf8");
+  assert.match(src, /export function matchTablet\(nameAsWritten: string, strength\?: string \| null, options: MatchOptions = \{\}\)/);
+  const [r] = match([["ノルバスク錠5mg", "5mg"]]);
+  assert.equal(r.best, "アムロジピン錠5mg「サワイ」");
+  assert.deepEqual(r.candidates, ["アムロジピン錠5mg「サワイ」"]);
+  assert.equal(typeof r.substituted, "boolean");
+  // アプリ（lib/packing.ts）は補足（name_note）を渡している
+  assert.match(fs.readFileSync(path.join(ROOT, "lib/packing.ts"), "utf8"), /matchTablet\(item\.name_as_written, item\.strength, \{ nameNote: item\.name_note \}\)/);
   // 採点の差し替えは master.json と ./types の 2 つだけ（lib/master.ts から読まれたときだけ）
   const hooks = fs.readFileSync(path.join(ROOT, "scripts/eval/adopted-hooks.mjs"), "utf8");
   assert.match(hooks, /fromMaster && specifier === "@\/data\/master\.json"/);
@@ -44,7 +47,7 @@ test("lib/master.ts・lib/types.ts は main と同じ（採点のためにアプ
 });
 
 // ---------- 採点 ----------
-test("採点（正解の読み取り）：品質の差し替えで動かした matchTablet と、行ごとに同じ製品・候補になる", { skip }, () => {
+test("採点（正解の読み取り）：品質の差し替えで動かした matchTablet（補足 name_note も渡す）と、行ごとに同じ製品・候補になる。145/145", { skip }, () => {
   const out = path.join(tmp(), "s");
   const r = runScorer(["--out", out]);
   assert.equal(r.status, 0, r.stderr);
@@ -54,32 +57,36 @@ test("採点（正解の読み取り）：品質の差し替えで動かした m
   const mine = match(recs.map((x) => [x.name_used, null]));
   // 規格は正解の読み取りの strength を渡すので、品質側も同じものを渡し直す
   const exp = (rx) => JSON.parse(fs.readFileSync(path.join(DATA, "expected", `${rx}.expected.json`), "utf8"));
-  const mine2 = match(recs.map((x) => [x.name_used, exp(x.rx).items.find((i) => i.rp === x.rp).strength]));
+  const item = (x) => exp(x.rx).items.find((i) => i.rp === x.rp);
+  const mine2 = match(recs.map((x) => [x.name_used, item(x).strength, { nameNote: item(x).name_note }]));
   const bad = [];
   recs.forEach((x, i) => {
     if ((mine2[i].best ?? "") !== x.selected || mine2[i].candidates.length !== Number(x.candidates)) bad.push(`${x.rx} Rp${x.rp}: 採点 ${x.selected}/${x.candidates} 品質 ${mine2[i].best}/${mine2[i].candidates.length}`);
   });
   assert.deepEqual(bad, []);
   assert.ok(mine.length === 145);
-  assert.match(r.stdout, /正しい 135\/145/);
+  assert.match(r.stdout, /正しい 145\/145/);
 });
 
-test("採点：読み取りの誤りと選択の誤りを分ける（ノルバスクを 2.5mg と読む＝読み取りの誤り、リピトールを正しく読む＝選択の誤り）", { skip }, () => {
+test("採点：読み取りの誤りと選択の誤りを分ける（ノルバスクを 2.5mg と読む、rx15 の補足 12時間持続 を読み落とす＝読み取りの誤り 2、選択の誤り 0）", { skip }, () => {
   const d = tmp();
   const res = path.join(d, "res");
   fs.mkdirSync(res);
-  const e = JSON.parse(fs.readFileSync(path.join(DATA, "expected/rx08.expected.json"), "utf8"));
-  e.items[0].name_as_written = "ノルバスク錠2.5mg"; // 正解の読み取りなら アムロジピン錠5mg「サワイ」 を選べる
-  e.items[0].strength = "2.5mg";
-  fs.writeFileSync(path.join(res, "rx08__QA__t__x.json"), JSON.stringify({ result: e }));
+  const e8 = JSON.parse(fs.readFileSync(path.join(DATA, "expected/rx08.expected.json"), "utf8"));
+  e8.items[0].name_as_written = "ノルバスク錠2.5mg"; // 正解の読み取りなら アムロジピン錠5mg「サワイ」 を選べる
+  e8.items[0].strength = "2.5mg";
+  fs.writeFileSync(path.join(res, "rx08__QA__t__x.json"), JSON.stringify({ result: e8 }));
+  const e15 = JSON.parse(fs.readFileSync(path.join(DATA, "expected/rx15.expected.json"), "utf8"));
+  e15.items.find((x) => x.rp === "03").name_note = null; // 12時間持続 を読み落とすと CR と L の候補 2 つで決まらない
+  fs.writeFileSync(path.join(res, "rx15__QA__t__x.json"), JSON.stringify({ result: e15 }));
   const out = path.join(d, "s");
   const r = runScorer(["--results", res, "--out", out]);
   assert.equal(r.status, 0, r.stderr);
   const md = fs.readFileSync(`${out}.md`, "utf8");
-  // rx08 は 6 行：正解の読み取りでは Rp02・04・05・06 の 4 行が選べない（別名の無い先発名）
-  assert.match(md, /読み取りの誤り（正解の読み取りなら正しく選べる行） \| 1 \|/);
-  assert.match(md, /選択の誤り（正解の読み取りでも選べない行） \| 4 \|/);
+  assert.match(md, /読み取りの誤り（正解の読み取りなら正しく選べる行） \| 2 \|/);
+  assert.match(md, /選択の誤り（正解の読み取りでも選べない行） \| 0 \|/);
   assert.match(md, /rx08__QA__t__x \| 01 \| ノルバスク錠2\.5mg/);
+  assert.match(md, /rx15__QA__t__x \| 03 \| 【般】ニフェジピン徐放錠10mg/);
 });
 
 test("--private：画面には数だけ。薬品名・製品の id を出さず、ファイルを書かない（--out を渡しても、--results があっても）", { skip }, () => {
@@ -92,7 +99,7 @@ test("--private：画面には数だけ。薬品名・製品の id を出さず�
   const r = runScorer(["--private", "--results", res, "--out", out]);
   assert.equal(r.status, 0, r.stderr);
   const text = r.stdout + r.stderr;
-  assert.match(text, /正しい 135\/145/);
+  assert.match(text, /正しい 145\/145/);
   const names = new Set();
   for (const p of facility) for (const n of [p.brand_name, p.generic_name, p.id, ...(p.aliases ?? [])]) if (n) names.add(n);
   for (const t of parseCsv(fs.readFileSync(path.join(DATA, "expected-adopted.csv"), "utf8")).slice(1)) if (t[2]) names.add(t[2]);
@@ -135,8 +142,8 @@ test("【不具合】--private：正解の CSV が無いと、止まらずに例
   assert.doesNotMatch(r.stderr, /\n\s+at /);
 });
 
-// ---------- アプリの照合（うまくいくもの） ----------
-test("アプリ：別名つきの先発名（ノルバスク）→ 採用の後発品、メーカー違い → 採用のメーカー、OD は OD のまま", { skip }, () => {
+// ---------- アプリの照合（feature/matching-rules。前の【アプリの不具合】8 件の行き先） ----------
+test("アプリ：別名つきの先発名（ノルバスク）→ 採用の後発品、メーカー違い → 採用のメーカー、OD は OD のまま、L は L のまま", { skip }, () => {
   const r = match([
     ["ノルバスク錠5mg", "5mg"],
     ["アムロジピン錠5mg「トーワ」", "5mg"],
@@ -144,50 +151,83 @@ test("アプリ：別名つきの先発名（ノルバスク）→ 採用の後�
     ["ニフェジピンL錠10mg「サワイ」", "10mg"],
   ]);
   assert.deepEqual(r.map((x) => x.best), ["アムロジピン錠5mg「サワイ」", "アムロジピン錠5mg「サワイ」", "アムロジピンOD錠5mg「サワイ」", "ニフェジピンL錠10mg「トーワ」"]);
+  assert.ok(r.every((x) => x.status === "採用品"));
 });
 
-// ---------- 【アプリの不具合】（作業の報告を品質が再現。アプリは直さない） ----------
-test("【アプリの不具合】L 錠の処方で、L が採用されていない規格だと CR 錠を選ぶ（ニフェジピンL錠20mg → ニフェジピンCR錠20mg）", { skip, todo: "一般名＋規格の照合が放出（CR・L）を見ない" }, () => {
+test("直った：L 錠の処方で L が採用されていない規格なら CR を選ばない（ニフェジピンL錠20mg → 採用外（市販品あり））", { skip }, () => {
   const r = one("ニフェジピンL錠20mg「サワイ」", "20mg");
-  assert.notEqual(r.best, "ニフェジピンCR錠20mg「サワイ」");
+  assert.equal(r.best, null);
+  assert.deepEqual(r.candidates, []);
+  assert.equal(r.status, "採用外（市販品あり）");
 });
 
-test("【アプリの不具合】【般】ニフェジピン徐放錠20mg（12時間持続＝L）でも CR 錠を選ぶ。補足（12/24 時間）を照合に渡せない", { skip, todo: "matchTablet は名前と規格しか受け取らず、name_note を見ない" }, () => {
-  // 正解の読み取りどおり name_note は分けて渡す（アプリも同じ）。名前だけでは 12 時間か 24 時間か分からない
-  const r = one("【般】ニフェジピン徐放錠20mg", "20mg");
-  assert.equal(r.best, null, "12/24 時間が分からないなら選ばずに確認を求めるべき");
+test("直った：【般】ニフェジピン徐放錠 — 補足が無ければ候補を出すだけで選ばない。12時間持続 → L、24時間持続 → CR、12時間持続で L が無ければ CR を出さない", { skip }, () => {
+  const r = match([
+    ["【般】ニフェジピン徐放錠10mg", "10mg"],
+    ["【般】ニフェジピン徐放錠10mg", "10mg", { nameNote: "12時間持続" }],
+    ["【般】ニフェジピン徐放錠10mg", "10mg", { nameNote: "24時間持続" }],
+    ["【般】ニフェジピン徐放錠20mg", "20mg"],
+    ["【般】ニフェジピン徐放錠20mg", "20mg", { nameNote: "12時間持続" }],
+    ["【般】ニフェジピン徐放錠20mg", "20mg", { nameNote: "24時間持続" }],
+  ]);
+  assert.equal(r[0].best, null);
+  assert.deepEqual(r[0].candidates.sort(), ["ニフェジピンCR錠10mg「サワイ」", "ニフェジピンL錠10mg「トーワ」"]);
+  assert.match(r[0].note, /12時間／24時間/);
+  assert.equal(r[1].best, "ニフェジピンL錠10mg「トーワ」");
+  assert.equal(r[2].best, "ニフェジピンCR錠10mg「サワイ」");
+  assert.equal(r[3].best, null, "補足なし・CR だけ採用でも推し量って選ばない");
+  assert.deepEqual(r[3].candidates, ["ニフェジピンCR錠20mg「サワイ」"]);
+  assert.equal(r[4].best, null);
+  assert.deepEqual(r[4].candidates, []);
+  assert.equal(r[5].best, "ニフェジピンCR錠20mg「サワイ」");
 });
 
-test("【アプリの不具合】【般】ニフェジピン徐放錠10mg：CR と L が両方採用だと候補 2 つで決まらない（12/24 時間の区別が無い）", { skip, todo: "name_note（24時間持続／12時間持続）で CR と L を分ける" }, () => {
-  const r = one("【般】ニフェジピン徐放錠10mg", "10mg");
-  assert.deepEqual(r.candidates.sort(), ["ニフェジピンCR錠10mg「サワイ」", "ニフェジピンL錠10mg「トーワ」"]);
-  assert.equal(r.best, "ニフェジピンL錠10mg「トーワ」"); // rx15 Rp03 は 12 時間持続
+test("直った：採用中止 — 販売終了（リオナ）は出さない、メーカー切替（ロキソプロフェン「サワイ」）は「以前の採用」だけで選ばない", { skip }, () => {
+  const [a, b] = match([["リオナ錠250mg", "250mg"], ["ロキソプロフェンNa錠60mg「サワイ」", "60mg"]]);
+  assert.equal(a.best, null);
+  assert.deepEqual(a.candidates, []);
+  assert.deepEqual(a.previous, []);
+  assert.equal(b.best, null);
+  assert.deepEqual(b.candidates, []);
+  assert.deepEqual(b.previous, ["ロキソプロフェンNa錠60mg「サワイ」"]);
+  assert.match(b.note, /メーカー切替/);
+  for (const x of [a, b]) assert.equal(x.status, "採用外（市販品あり）");
 });
 
-test("【アプリの不具合】採用中止（adopted:false）の製品を、名前が完全に同じだと選ぶ（リオナ錠250mg、ロキソプロフェンNa錠60mg「サワイ」）", { skip, todo: "完全一致でも採用中止なら選ばない（採用なしとして知らせる）" }, () => {
-  const r = match([["リオナ錠250mg", "250mg"], ["ロキソプロフェンNa錠60mg「サワイ」", "60mg"]]);
-  for (const x of r) {
-    assert.equal(x.bestAdopted === false, false, `${x.name} → 採用中止の ${x.best}`);
-  }
-});
-
-test("【アプリの不具合】別名の無い先発名は後発品にたどり着かず「該当なし」（リピトール・ムコスタ・マグミット・ガスモチン・アーチスト・アルダクトンA）", { skip, todo: "先発名→一般名の対応（YJ コードの先頭 9 桁など）が無い。いまは施設が別名を手で入れたものだけ" }, () => {
+test("直った：別名の無い先発名も同じ鍵の採用後発品に（リピトール・ムコスタ・マグミット・ガスモチン・アーチスト・アルダクトンA）。置き換えの一言つき", { skip }, () => {
   const r = match([["リピトール錠10mg", "10mg"], ["ムコスタ錠100mg", "100mg"], ["マグミット錠330mg", "330mg"], ["ガスモチン錠5mg", "5mg"], ["アーチスト錠10mg", "10mg"], ["アルダクトンA錠25mg", "25mg"]]);
   assert.deepEqual(r.map((x) => x.best), ["アトルバスタチン錠10mg「サワイ」", "レバミピド錠100mg「サワイ」", "酸化マグネシウム錠330mg「ヨシダ」", "モサプリドクエン酸塩錠5mg「AA」", "カルベジロール錠10mg「トーワ」", "スピロノラクトン錠25mg「トーワ」"]);
+  // マグミットは厚労省の一覧で先発ではない（酸化マグネシウムは先発・後発の区別が無い）ので「先発→後発」の一言は出ない。置き換えの印は出る
+  for (const x of r) { assert.equal(x.substituted, true, x.name); if (x.name !== "マグミット錠330mg") assert.match(x.note ?? "", /先発品の処方を後発品に/, x.name); }
 });
 
-test("【アプリの不具合】【般】アムロジピン口腔内崩壊錠5mg が「該当なし」（採用の アムロジピンOD錠5mg「サワイ」 にたどり着かない）", { skip, todo: "一般名処方の剤形「口腔内崩壊錠」を OD 錠と結びつけていない（baseName が「アムロジピン口腔内崩壊」になる）" }, () => {
+test("直った：【般】アムロジピン口腔内崩壊錠5mg → アムロジピンOD錠5mg「サワイ」（ふつうの錠は選ばない）", { skip }, () => {
   const r = one("【般】アムロジピン口腔内崩壊錠5mg", "5mg");
   assert.equal(r.best, "アムロジピンOD錠5mg「サワイ」");
+  assert.deepEqual(r.candidates, ["アムロジピンOD錠5mg「サワイ」"]);
 });
 
-// 品質が見つけた、同じ根（一般名＋規格の照合が剤形を見ない）の別の形
-test("【アプリの不具合】ふつうの錠の処方で OD 錠を選ぶ（ランソプラゾール錠15mg → ランソプラゾールOD錠15mg）", { skip, todo: "一般名＋規格の照合が OD とふつうの錠を区別しない" }, () => {
-  const r = one("ランソプラゾール錠15mg「トーワ」", "15mg");
-  assert.notEqual(r.best, "ランソプラゾールOD錠15mg「武田テバ」");
+test("直った：カプセル（徐放）の処方で OD 錠を選ばない（タムスロシン塩酸塩カプセル → 候補なし。ルール外表示のときだけ理由つきで出る）", { skip }, () => {
+  const [a, b] = match([["タムスロシン塩酸塩カプセル0.2mg「サワイ」", "0.2mg"], ["タムスロシン塩酸塩カプセル0.2mg「サワイ」", "0.2mg", { includeRuleOut: true }]]);
+  assert.equal(a.best, null);
+  assert.deepEqual(a.candidates, []);
+  assert.deepEqual(a.ruleOut, []);
+  assert.deepEqual(b.ruleOut.map((x) => x[0]), ["タムスロシン塩酸塩OD錠0.2mg「サワイ」"]);
+  assert.equal(b.best, null, "ルール外を表示しても自動では選ばない");
 });
 
-test("【アプリの不具合】カプセルの処方で OD 錠を選ぶ（タムスロシン塩酸塩カプセル0.2mg → タムスロシン塩酸塩OD錠0.2mg）", { skip, todo: "一般名＋規格の照合が剤形（カプセル／錠）を見ない" }, () => {
-  const r = one("タムスロシン塩酸塩カプセル0.2mg「サワイ」", "0.2mg");
-  assert.notEqual(r.best, "タムスロシン塩酸塩OD錠0.2mg「サワイ」");
+test("院内の決まり：ふつうの錠の処方 → 同じ成分・規格の OD 錠は選ぶ（置き換えの一言）。OD → ふつうの錠は選ばない（ルール外のときだけ理由つき）", { skip }, () => {
+  const d = tmp();
+  const only = (name) => { const f = path.join(d, `${name}.json`); fs.writeFileSync(f, JSON.stringify({ products: facility.filter((p) => p.brand_name === name) })); return f; };
+  const od = only("アムロジピンOD錠5mg「サワイ」");
+  let [r] = match([["アムロジピン錠5mg「トーワ」", "5mg"]], od);
+  assert.equal(r.best, "アムロジピンOD錠5mg「サワイ」");
+  assert.equal(r.substituted, true);
+  assert.match(r.note ?? "", /普通の錠の処方を OD 錠に/);
+  const plain = only("アムロジピン錠5mg「サワイ」");
+  [r] = match([["アムロジピンOD錠5mg「トーワ」", "5mg"]], plain);
+  assert.equal(r.best, null);
+  assert.deepEqual(r.candidates, []);
+  [r] = match([["アムロジピンOD錠5mg「トーワ」", "5mg", { includeRuleOut: true }]], plain);
+  assert.deepEqual(r.ruleOut, [["アムロジピン錠5mg「サワイ」", "OD 錠の処方を普通の錠に"]]);
 });

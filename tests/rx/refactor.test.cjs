@@ -41,10 +41,22 @@ test("readRx を偽の client で呼ぶと、main の route.ts と同じ引数�
   assert.equal(o.newCall.messages[0].content.length, 2 * 2 + 1);
 });
 
-test("プロンプト・スキーマ・既定モデルのファイルは main から変わっていない", { skip: !mainRef && "main が無い" }, () => {
-  for (const f of ["lib/prompts.ts", "lib/types.ts", "lib/claude.ts", "lib/master.ts", "lib/image.ts"]) {
+test("プロンプト・既定モデル・画像の縮小は main と同じ。lib/types.ts は読み取りのスキーマ（PerTiming・RxItem・RxReadResult）の部分だけ main と同じ", { skip: !mainRef && "main が無い" }, () => {
+  // feature/matching-rules で lib/types.ts（マスタの欄・表の行の欄）と lib/master.ts（照合）は変わってよい。読み取りに効く所だけ見る
+  for (const f of ["lib/prompts.ts", "lib/claude.ts", "lib/image.ts"]) {
     const d = git("diff", "--quiet", mainRef, "--", f);
     assert.equal(d.status, 0, `${f} が main と違う`);
+  }
+  const block = (src, from, to) => {
+    const a = src.indexOf(from);
+    const b = src.indexOf(to, a);
+    assert.ok(a >= 0 && b > a, `${from} が見つからない`);
+    return src.slice(a, b);
+  };
+  const now = fs.readFileSync(path.join(ROOT, "lib/types.ts"), "utf8");
+  const old = mainFile("lib/types.ts").stdout;
+  for (const [from, to] of [["export const PerTimingSchema", "export type"], ["export const RxItemSchema", "export type RxItem "], ["export const RxReadResultSchema", "export type RxReadResult "]]) {
+    assert.equal(block(now, from, to), block(old, from, to), from);
   }
 });
 

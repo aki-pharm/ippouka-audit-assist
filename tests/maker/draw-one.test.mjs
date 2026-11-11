@@ -147,19 +147,28 @@ test("5-c. buildBags：メーカー未確定の薬は pending で描かない（
 });
 
 // ---------- resolve を渡さないときの動き：origin/main と同じか ----------
-const NEW_FIELDS = ["product_key", "drug_key", "maker_state"];
+// マスタの新しい欄：maker-select の 3 つ＋ matching-rules の採用中止の理由（discontinued_reason）
+const NEW_FIELDS = ["product_key", "drug_key", "maker_state", "discontinued_reason"];
 const strip = (t) => t && Object.fromEntries(Object.entries(t).filter(([k]) => !NEW_FIELDS.includes(k)));
 const shape = (bags) => bags.map((b) => ({
   timing: b.timing, total: b.total, groups: b.groups,
   entries: b.entries.map((e) => ({ key: e.row.key, tablet: strip(e.tablet), count: e.count, group: e.group})),
 }));
 
-test("互換. resolve を渡さない buildBags・toRows の結果が origin/main の lib/packing.ts と同じ（新しい 3 欄を除く）", { skip: !MAIN_ROOT && "origin/main を取り出せない" }, async (t) => {
+test("互換. resolve を渡さない buildBags・toRows の結果が origin/main の lib/packing.ts と同じ（新しい 3 欄を除く。照合の札 match_status・match_note は足してよい）", { skip: !MAIN_ROOT && "origin/main を取り出せない" }, async (t) => {
   const old = await impMain("lib/packing.ts");
   let n = 0;
   for (const { name, rx } of SAMPLES) {
     const rowsNew = toRows(rx), rowsOld = old.toRows(rx);
-    assert.deepEqual(rowsNew, rowsOld, `${name} toRows`);
+    // feature/matching-rules で足した欄：照合の札（採用品／採用外（市販品あり）／該当なし）と一言。中身だけ確かめて、比べるときは除く
+    for (const r of rowsNew) {
+      assert.ok(["採用品", "採用外（市販品あり）", "該当なし"].includes(r.match_status), `${name} ${r.name_as_written}: match_status ${r.match_status}`);
+      assert.ok(r.match_note === null || typeof r.match_note === "string");
+      assert.equal(r.match_status === "採用品", !!r.tablet_id || r.candidates.length > 0, `${name} ${r.name_as_written}: 札と選んだ薬が合わない`);
+    }
+    const withoutMatch = (rows) => rows.map(({ match_status, match_note, ...r }) => r);
+    // 選んだ薬（tablet_id）・候補・一包化に入れるか（include・初期値・根拠）を含め、ほかの欄はすべて main と同じ
+    assert.deepEqual(withoutMatch(rowsNew), rowsOld, `${name} toRows`);
     const a = buildBags(rowsNew), b = old.buildBags(rowsOld);
     assert.deepEqual(shape(a), shape(b), `${name} buildBags`);
     for (const bag of a) for (const e of bag.entries) { assert.equal(e.pending, false); n++; }

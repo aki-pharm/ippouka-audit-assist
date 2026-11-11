@@ -143,10 +143,10 @@ function wrongKind(e, s) {
   return kinds.join("・");
 }
 
-/** 1 行の判定。name・strength はアプリに渡す読み取りの値 */
-function judge(e, name, strength) {
+/** 1 行の判定。name・strength・nameNote はアプリに渡す読み取りの値（nameNote＝括弧の補足。徐放錠の一般名処方で 12時間／24時間 を決める） */
+function judge(e, name, strength, nameNote = null) {
   if (name == null) return { category: "missing", kind: "", selected: "", candidates: 0 };
-  const m = app.matchTablet(String(name), strength ?? null);
+  const m = app.matchTablet(String(name), strength ?? null, { nameNote: nameNote ?? null });
   const best = m.best ? byId.get(m.best.id) : null;
   const cands = m.candidates.map((c) => c.id);
   const out = { selected: best?.id ?? "", candidates: cands.length, kind: "", substituted: !!m.substituted };
@@ -181,7 +181,7 @@ function judge(e, name, strength) {
 // 正解の読み取りで
 const truth = expRows.map((e) => {
   const it = expReads.get(e.rx).items.find((x) => x.rp === e.rp);
-  return { e, name: it.name_as_written, ...judge(e, it.name_as_written, it.strength) };
+  return { e, name: it.name_as_written, ...judge(e, it.name_as_written, it.strength, it.name_note) };
 });
 
 // 読み取り結果で（任意）
@@ -208,7 +208,7 @@ if (resultsDir) {
     for (const e of expRows.filter((x) => x.rx === info.rx)) {
       const i = exp.items.findIndex((x) => x.rp === e.rp);
       const p = map[i] >= 0 ? pred[map[i]] : null;
-      readRuns.push({ key, info, e, name: p?.name_as_written ?? null, ...judge(e, p?.name_as_written ?? null, p?.strength ?? null) });
+      readRuns.push({ key, info, e, name: p?.name_as_written ?? null, ...judge(e, p?.name_as_written ?? null, p?.strength ?? null, p?.name_note ?? null) });
     }
   }
 }
