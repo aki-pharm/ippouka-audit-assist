@@ -1,0 +1,33 @@
+{
+  "id": "231099_2590017F1025_3_07",
+  "source_file": "231099_2590017F1025_3_07.pdf",
+  "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/231099_2590017F1025_3_07",
+  "extracted_at": "2026-11-11T00:38:07.012Z",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input": 16685,
+    "output": 1294
+  },
+  "status": "draft",
+  "products": [
+    {
+      "product_name": "ベオーバ錠50mg",
+      "strength": "50mg",
+      "imprint_front": "未確認",
+      "imprint_back": "未確認",
+      "imprint_note": "外形図の表面に小さな図案（ベオーバ等の表示らしきもの）が見えるが判読不能のため未確認。社名マークのみかどうかも判断できない。",
+      "color": "淡緑色",
+      "shape": "round",
+      "size_long_mm": 6.5,
+      "size_short_mm": 6.5,
+      "thickness_mm": 3.5,
+      "score_line": null,
+      "source_revision": "2026年10月改訂（第7版）",
+      "source_page": 1,
+      "source_quote": "剤形 フィルムコーティング錠 色調 淡緑色 外形 直径：約6.5mm 厚さ：約3.5mm 質量：約105mg"
+    }
+  ],
+  "expected_products": [
+    "ベオーバ錠50mg"
+  ]
+}
