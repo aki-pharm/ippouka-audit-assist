@@ -31,7 +31,11 @@ export type MatchProfile = {
   brand_to_generic: boolean;
   generic_to_brand: boolean;
   general_to_any: boolean;
+  /** 先発→別の先発（併売品：ジャヌビア↔グラクティブ など）を自動で選ぶか。AKI が決めるまで false（候補にとどめる） */
+  allow_brand_to_brand?: boolean;
 };
+/** 自動では入れ替えない組（data/match-exceptions.json。効能・用法が違う） */
+export type MatchException = { a: string; b: string; reason: string };
 /** lib/match-data.ts（自動生成）の形 */
 export type MatchData = {
   keys: string[];
@@ -40,6 +44,7 @@ export type MatchData = {
   profiles: Record<string, MatchProfile>;
   default_profile: string;
   general_release_notes: Record<string, string[]>;
+  exceptions?: MatchException[];
 };
 
 /** 施設のマスタの 1 行（照合に使う欄だけ。data/master.json・data/rx-testset/facility.json） */
@@ -275,14 +280,24 @@ export function facilityYj9(p: FacilityProduct & { yj_code?: string | null }, da
   const fk = facilityKey(p, data);
   if (!fk) return "";
   const g = fk.split("|")[0];
-  if (p.yj_code && p.yj_code.length >= 9 && p.yj_code.slice(0, 7) === g.slice(0, 7)) return p.yj_code.slice(0, 9);
+  // 親マスタの同じ名前の製品（統一名の取り違えを直した YJ）を先に使い、無ければ施設の行の yj_code
   const idx = indexOf(data);
   for (const n of [p.product_key, p.brand_name]) {
     const hits = n ? (idx.byName.get(nameKey(n)) ?? []).filter((x) => x.key === fk) : [];
     const s = new Set(hits.map((x) => x.yj9));
-    if (s.size === 1) return [...s][0];
+    if (hits.length) return s.size === 1 ? [...s][0] : "";
   }
+  if (p.yj_code && p.yj_code.length >= 9 && p.yj_code.slice(0, 7) === g.slice(0, 7)) return p.yj_code.slice(0, 9);
   return "";
+}
+/** data/match-exceptions.json の組に当たるか（販売名からメーカーを除いた頭で、両方向） */
+export function exceptionOf(prescribed: string, product: string, data: MatchData): MatchException | null {
+  const a = makerlessKey(stripPrefix(prescribed.normalize("NFKC").trim())), b = makerlessKey(product);
+  for (const e of data.exceptions ?? []) {
+    const x = nameKey(e.a), y = nameKey(e.b);
+    if ((a.startsWith(x) && b.startsWith(y)) || (a.startsWith(y) && b.startsWith(x))) return e;
+  }
+  return null;
 }
 /** 規格が数量でない（「1錠」など）か、漢方製剤（YJ 52）。メーカーが違えば中身が違うので、同じ鍵でも同じ薬とみなさない */
 const notInterchangeable = (key: string) => {
@@ -353,6 +368,20 @@ export function matchRx<T extends FacilityProduct>(
       else if (rx.origin === "その他" && fo === "その他") candOnly = "先発・後発の区別なし：要確認";
       else candOnly = `先発・後発が分からない（処方 ${rx.origin}・採用品 ${fo}）：要確認`;
       if (!rule && !candOnly && notInterchangeable(fk)) candOnly = "漢方製剤・規格が数量でない製剤は、メーカーが違えば同じ薬とみなさない：要確認";
+      // 自動では入れ替えない組（data/match-exceptions.json）。理由をいちばん先に出す
+      if (!rule && !rx.general) {
+        const ex = exceptionOf(nameAsWritten, p.brand_name, data);
+        if (ex) candOnly = `自動では入れ替えない組：${ex.reason}`;
+      }
+      // 別の製品を自動で選ぶのは、YJ の上 9 桁（成分・剤形・規格）が同じときだけ（普通錠→OD 錠の置き換えと一般名処方を除く）。
+      // 鍵が同じでも YJ が違えば効能・用法の違う製剤のことがある（ワントラム↔ツートラム、メトグルコ→グリコランの後発）
+      if (!rule && !candOnly && !rx.general && rel !== "plain_to_od") {
+        const fy = facilityYj9(p, data);
+        if (!rx.yj9 || !fy) candOnly = "YJ コードが分からない：効能・用法が同じか要確認";
+        else if (rx.yj9 !== fy) candOnly = "YJ の上 9 桁が違う：効能・用法が違う製剤の可能性。要確認";
+      }
+      if (!rule && !candOnly && !rx.general && rx.origin === "先発" && fo === "先発" && !prof.allow_brand_to_brand) candOnly = "先発品から別の先発品（併売品など）：要確認";
+
     } else if (rel === "od_to_plain") rule = prof.od_to_plain ? null : rel;
     else if (rel === "capsule_tablet") rule = prof.capsule_tablet ? null : rel;
     else rule = rel; // 放出・規格の違いは選ばない

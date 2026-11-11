@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-11T00:38:12.605Z",
+ "built_at": "2026-11-11T03:45:41.508Z",
  "count": 7150,
  "products": [
   {
@@ -112011,7 +112011,7 @@
    "maker": "日本ケミファ株式会社",
    "yj_code": "2190104F1075",
    "group": "2190101F",
-   "strength": "1番（アムロジピン2.5mg/アトルバスタチン5mg）",
+   "strength": "4番",
    "doc_id": "530213_2190101F1071_1_14",
    "pdf_date": "2026-04-14",
    "source_url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530213_2190101F1071_1_14",
@@ -112032,7 +112032,7 @@
    "verified_by": "",
    "verified_at": "",
    "flags": [],
-   "notes": ""
+   "notes": "規格は販売名の番号から（元の規格「1番…」は誤り）"
   },
   {
    "product_key": "アマルエット配合錠4番「サワイ」",

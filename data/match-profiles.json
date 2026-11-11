@@ -1,5 +1,5 @@
 {
-  "note": "採用品の選び方の決まり（施設ごとに変えられる）。lib/matching.ts が使う（scripts/build-maker-index.cjs が lib/match-data.ts に入れる）。放出の違い（CR と L、R と普通、腸溶と普通など）はどの決まりでも選ばない",
+  "note": "採用品の選び方の決まり（施設ごとに変えられる）。lib/matching.ts が使う（scripts/build-maker-index.cjs が lib/match-data.ts に入れる）。放出の違い（CR と L、R と普通、腸溶と普通など）はどの決まりでも選ばない。別の製品を自動で選ぶのは、YJ の上 9 桁（成分・剤形・規格）が同じときだけ（普通錠→OD 錠の置き換えを除く）。allow_brand_to_brand：先発→別の先発（併売品）を自動で選ぶか（AKI が決めるまで false）",
   "default": "院内",
   "profiles": {
     "院内": {
@@ -9,11 +9,16 @@
       "capsule_tablet": false,
       "brand_to_generic": true,
       "generic_to_brand": false,
-      "general_to_any": true
+      "general_to_any": true,
+      "allow_brand_to_brand": false
     }
   },
   "general_release_notes": {
-    "12時間": ["L"],
-    "24時間": ["CR"]
+    "12時間": [
+      "L"
+    ],
+    "24時間": [
+      "CR"
+    ]
   }
 }

@@ -68,7 +68,7 @@ type Markers = {
   od: string[]; rename: Record<string, string>; release: string[]; other: string[];
   anywhere: string[]; salt: string[]; separators: string; yj: Record<string, string>;
 };
-const MARKERS: Markers = /*FORM_MARKERS_BEGIN*/ {"od": ["OD", "D", "RM", "RPD", "ザイディス", "口腔内崩壊"], "rename": {"EN": "腸溶"}, "release": ["CR", "L", "R", "SR", "TR", "LA", "XR", "ER", "XL", "U", "徐放", "持続", "腸溶", "速崩", "EN"], "other": ["チュアブル", "舌下", "分散", "粒状", "発泡", "バッカル"], "anywhere": ["徐放", "持続", "腸溶"], "salt": ["Na", "K", "Ca", "CA", "Mg"], "separators": "-‐‑‒–—−・･ ", "yj": {"G": "徐放", "N": "徐放", "H": "腸溶"}} /*FORM_MARKERS_END*/;
+const MARKERS: Markers = /*FORM_MARKERS_BEGIN*/ {"od": ["OD", "D", "RM", "RPD", "ザイディス", "レディタブ", "口腔内崩壊"], "rename": {"EN": "腸溶"}, "release": ["CR", "L", "R", "SR", "TR", "LA", "XR", "ER", "XL", "U", "徐放", "持続", "腸溶", "速崩", "EN"], "other": ["チュアブル", "舌下", "分散", "粒状", "発泡", "バッカル"], "anywhere": ["徐放", "持続", "腸溶"], "salt": ["Na", "K", "Ca", "CA", "Mg"], "separators": "-‐‑‒–—−・･ ", "yj": {"G": "徐放", "N": "徐放", "H": "腸溶"}} /*FORM_MARKERS_END*/;
 
 /** 規格の比較用（「2.5mg」→「2.5」、「1.0mg」→「1」、「500μg」→「500μg」）。小数の末尾の 0 をそろえる */
 export function strengthKey(s: string | null | undefined): string {
@@ -87,7 +87,7 @@ const isLatin = (w: string) => /^[A-Za-z]+$/.test(w);
  *  3. 土台の直前の印を後ろから読む（区切りの記号は飛ばす）。英字の印（CR・L・R・SR・TR・LA・XR・ER・XL・U・EN・OD・D・RM・RPD）、
  *     日本語の印（徐放・持続・腸溶・速崩・口腔内崩壊・ザイディス・チュアブル・舌下・分散・粒状・発泡・バッカル）。
  *     数字の直後の英字（1mg錠 の mg）と塩（Na・K・Ca・CA・Mg）は印にしない。一覧に無い英字は、土台のすぐ前のときだけ印にする
- *  4. 口腔内崩壊の別名（OD・D・RM・RPD・ザイディス・口腔内崩壊）は「OD」に、EN は「腸溶」にそろえる
+ *  4. 口腔内崩壊の別名（OD・D・RM・RPD・ザイディス・レディタブ・口腔内崩壊）は「OD」に、EN は「腸溶」にそろえる
  *  5. 土台の直後の英字（徐放錠A の A、配合錠LD の LD）と、規格の直後の英字（0.375mgMI の MI）も剤形に足す
  * 例：「ニフェジピンCR錠」→ CR錠、「ニフェジピンL錠」→ L錠、「レンドルミンD錠」→ OD錠、「アザルフィジンEN錠」→ 腸溶錠、
  *     「バルプロ酸ナトリウム徐放錠A」→ 徐放錠A、「LA錠0.375mgMI」→ LA錠/MI

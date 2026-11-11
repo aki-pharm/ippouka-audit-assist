@@ -130,10 +130,14 @@ for (const f of fs.readdirSync("data/parent").sort()) {
 
 const compact = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v != null && v !== "" && !(Array.isArray(v) && v.length === 0)));
 const STATUS_ORDER = { verified: 0, confirmed: 1, draft: 2 };
+// 親マスタにある、製品でない行（PMDA の一覧に載る患者向け・医療従事者向けの資材）。索引にも照合にも入れない
+const NOT_PRODUCT = /患者さん|患者向け|ご家族|医療従事者向け|資材|にあたって|による治療を受け|を服用される/;
+const notProduct = [];
 const drugs = {};
 let nProducts = 0;
 for (const p of pm) {
   if (p.status === "none") continue; // 外観の下書きがない製品（組み合わせ品など）は候補にしない
+  if (NOT_PRODUCT.test(p.brand_name.normalize("NFKC"))) { notProduct.push(p.brand_name); continue; } // 患者向け資材など、製品でない行
   const key = drugKey(p.group, p.strength, p.brand_name, p.yj_code);
   const d = (drugs[key] ??= { generic_name: "", strength: p.strength, form: formOf(p.brand_name), products: [] });
   if (!d.generic_name && genericByYj[p.yj_code]) d.generic_name = genericByYj[p.yj_code];
@@ -169,6 +173,7 @@ const sorted = Object.fromEntries(Object.keys(drugs).sort().map((k) => [k, drugs
 const out = { built_at: new Date().toISOString(), source: "data/parent/parent-master.json", drug_count: Object.keys(sorted).length, product_count: nProducts, drugs: sorted };
 fs.writeFileSync("data/parent/maker-index.json", JSON.stringify(out) + "\n");
 const multi = Object.values(sorted).filter((d) => d.products.length > 1).length;
+if (notProduct.length) console.log(`製品でない行を除いた ${notProduct.length}：${notProduct.join("、")}`);
 console.log(`maker-index.json：薬 ${out.drug_count}（うち候補が 2 つ以上 ${multi}）、製品 ${nProducts}、${(fs.statSync("data/parent/maker-index.json").size / 1e6).toFixed(2)} MB`);
 
 // ---------- 処方箋の名前 → 薬の鍵（lib/match-data.ts。照合 lib/matching.ts が画面の中で使う） ----------
@@ -193,7 +198,16 @@ console.log(`maker-index.json：薬 ${out.drug_count}（うち候補が 2 つ以
     if (r.is_original === "True" && r.maker) originalMakers.set(r.yj_code.slice(0, 7), [...(originalMakers.get(r.yj_code.slice(0, 7)) ?? []), r.maker]);
   }
   const makerKey = (s) => nk(s).replace(/^製造販売元[／/]?/, "").replace(/株式会社|合同会社|有限会社|\(株\)|㈱/g, "");
-  const cover = { "一覧の同じ販売名": 0, "販売名の「」（後発）": 0, "先発品と同じ製造販売元（先発）": 0, "不明": 0 };
+  const familyOf = (name) => (name || "").normalize("NFKC").replace(/「[^」]*」/g, "").split(/配合|OD錠|錠|カプセル|\d/)[0];
+  // 一覧の販売名の行を、親マスタのメーカー名＋系列でまとめる（親マスタの製品のメーカー名で引くため）
+  const siblings = new Map();
+  for (const q of pm) {
+    const r = byName.get(nk(q.brand_name));
+    if (!r || /「[^」]+」/.test(q.brand_name.normalize("NFKC"))) continue;
+    const k = `${makerKey(q.maker)}|${familyOf(q.brand_name)}`;
+    siblings.set(k, [...(siblings.get(k) ?? []), r]);
+  }
+  const cover = { "一覧の同じ販売名": 0, "販売名の「」（後発）": 0, "同じメーカーの同じ系列の販売名": 0, "先発品と同じ製造販売元（先発）": 0, "不明": 0 };
   const originOf = (p) => {
     const flag = (r) => (r.is_original === "True" ? 1 : r.is_generic === "True" ? 2 : 3);
     const quoted = /「[^」]+」/.test((p.brand_name || "").normalize("NFKC"));
@@ -201,26 +215,67 @@ console.log(`maker-index.json：薬 ${out.drug_count}（うち候補が 2 つ以
     // 一覧に同じ販売名の行があればその印（アロチノロール塩酸塩錠「DSP」のような「」つきの先発品も）。両方 False で「」つきなら後発
     if (r && !(quoted && flag(r) === 3)) { cover["一覧の同じ販売名"]++; return flag(r); }
     if (quoted) { cover["販売名の「」（後発）"]++; return 2; }
+    // 同じメーカーの同じ系列の販売名（エヌケーエスワン配合OD錠T25 → T20）が一覧にあり、印がそろっていればその印
+    const fam = familyOf(p.brand_name);
+    const sib = fam.length >= 3 ? (siblings.get(`${makerKey(p.maker)}|${fam}`) ?? []) : [];
+    if (sib.length && new Set(sib.map(flag)).size === 1 && makerKey(p.maker).length >= 2) { cover["同じメーカーの同じ系列の販売名"]++; return flag(sib[0]); }
     const mk = makerKey(p.maker);
     const om = p.yj_code ? originalMakers.get(p.yj_code.slice(0, 7)) ?? [] : [];
     if (mk.length >= 2 && om.some((m) => { const k = makerKey(m); return k.length >= 2 && (mk.includes(k) || k.includes(mk)); })) { cover["先発品と同じ製造販売元（先発）"]++; return 1; }
     cover["不明"]++;
     return 0;
   };
+  // 親マスタの YJ が統一名の行（メーカーの無い行）を指すとき、その行の剤形・規格が製品と合わないことがある
+  // （ブロチゾラム錠0.25mg「サワイ」が「ブロチゾラム0.25mg口腔内崩壊錠」の YJ を持つ）。同じ成分の統一名の行から、
+  // 剤形（放出の印と土台）と規格が製品と同じ行を 1 つに決められればその YJ を使う。決められなければ YJ は使わない（""）
+  const unified = Object.values(naifuku).filter((r) => !r.maker);
+  // 統一名の行の名前（「…徐放錠」「…腸溶錠」「…口腔内崩壊錠」）と製品の名前（SR・CR・EN・D など）は印の書き方が違うので、粗く比べる
+  const relType = (name) => {
+    const { label, release } = parseForm(name);
+    const base = label.includes("カプセル") ? "カプセル" : label.includes("錠") ? "錠" : label;
+    const other = ["チュアブル", "舌下", "分散", "粒状", "発泡", "バッカル"].find((w) => label.includes(w)) ?? "";
+    return (/^[^〔]*OD/.test(label) ? "OD" : "") + (/腸溶/.test(label) ? "腸溶" : release ? "徐放" : "") + other + base;
+  };
+  const yjFix = { "製品の行": 0, "統一名の行が合う": 0, "統一名の行を選び直した": 0, "決められない": 0 };
+  const yj9Of = (p) => {
+    if (!p.yj_code || p.yj_code.length < 9 || p.yj_code.slice(0, 7) !== p.group.slice(0, 7)) return "";
+    const own = naifuku[p.yj_code];
+    if (!own || own.maker) { yjFix["製品の行"]++; return p.yj_code.slice(0, 9); }
+    const ok = (r) => relType(r.brand_name) === relType(p.brand_name) && strengthKey(r.strength.replace(/1(錠|カプセル)$/, "")) === strengthKey(p.strength);
+    if (ok(own)) { yjFix["統一名の行が合う"]++; return p.yj_code.slice(0, 9); }
+    const alt = unified.filter((r) => r.yj_code.slice(0, 7) === p.yj_code.slice(0, 7) && ok(r));
+    if (new Set(alt.map((r) => r.yj_code.slice(0, 9))).size === 1) { yjFix["統一名の行を選び直した"]++; return alt[0].yj_code.slice(0, 9); }
+    yjFix["決められない"]++;
+    return "";
+  };
   const products = [];
   const generics = {};
   for (const p of pm) {
-    if (p.status === "none") continue;
+    if (p.status === "none" || NOT_PRODUCT.test(p.brand_name.normalize("NFKC"))) continue;
     const yj = p.yj_code && p.yj_code.length >= 8 && p.yj_code.slice(0, 7) === p.group.slice(0, 7) ? p.yj_code[7] : "";
-    // YJ の上 9 桁（成分・剤形・規格）。先発→後発で、販売名の系列が違っても同じ薬とみなす手がかり（lib/matching.ts）
-    const yj9 = yj && p.yj_code.length >= 9 ? p.yj_code.slice(0, 9) : "";
+    // YJ の上 9 桁（成分・剤形・規格）。別の製品を自動で選ぶときの必要条件（lib/matching.ts）。統一名の行の取り違えを直したもの
+    const yj9 = yj9Of(p);
     products.push([p.brand_name, keyIdx.get(drugKey(p.group, p.strength, p.brand_name, p.yj_code)), originOf(p), yj, yj9]);
     if (!generics[p.group] && naifuku[p.yj_code]?.generic_name && naifuku[p.yj_code].yj_code.slice(0, 7) === p.group.slice(0, 7)) generics[p.group] = naifuku[p.yj_code].generic_name;
   }
   for (const k of keys) { const g = k.split("|")[0]; if (!generics[g]) generics[g] = sorted[k].generic_name; }
+  // YJ の無い製品（厚労省の一覧に無い後発品など）：メーカーを除いた販売名と鍵が同じ製品の YJ の上 9 桁が 1 つにそろっていれば、それを使う
+  // （ニフェジピンL錠10mg「トーワ」← 「サワイ」「日医工」の 2171014G1）。そろわなければ YJ なしのまま（照合では候補にとどめる）
+  {
+    const mless = (n) => nk(n.normalize("NFKC").replace(/「[^」]*」/g, "").replace(/[（(][^）)]*[）)]/g, ""));
+    const fam = new Map();
+    for (const x of products) if (x[4]) { const k = `${mless(x[0])}|${x[1]}`; fam.set(k, new Set([...(fam.get(k) ?? []), x[4]])); }
+    for (const x of products) {
+      if (x[4]) continue;
+      const s9 = fam.get(`${mless(x[0])}|${x[1]}`);
+      if (s9 && s9.size === 1) { x[4] = [...s9][0]; yjFix["同じ名前の製品から"] = (yjFix["同じ名前の製品から"] ?? 0) + 1; }
+      else yjFix["YJ なし"] = (yjFix["YJ なし"] ?? 0) + 1;
+    }
+  }
   const prof = JSON.parse(fs.readFileSync(path.join(__dirname, "../data/match-profiles.json"), "utf8"));
-  const data = { keys, products, generics: Object.fromEntries(Object.keys(generics).sort().map((g) => [g, generics[g]])), profiles: prof.profiles, default_profile: prof.default, general_release_notes: prof.general_release_notes };
-  const ts = `// 自動生成（node scripts/build-maker-index.cjs）。手で直さない。元：data/parent/parent-master.json、data/parent/naifuku-tablets-*.csv、data/match-profiles.json
+  const exceptions = JSON.parse(fs.readFileSync(path.join(__dirname, "../data/match-exceptions.json"), "utf8")).pairs;
+  const data = { keys, products, generics: Object.fromEntries(Object.keys(generics).sort().map((g) => [g, generics[g]])), profiles: prof.profiles, default_profile: prof.default, general_release_notes: prof.general_release_notes, exceptions };
+  const ts = `// 自動生成（node scripts/build-maker-index.cjs）。手で直さない。元：data/parent/parent-master.json、data/parent/naifuku-tablets-*.csv、data/match-profiles.json、data/match-exceptions.json
 // products は [販売名, keys の番号, 先発・後発（1 先発／2 後発／3 どちらでもない／0 不明）, YJ の 8 桁目, YJ の上 9 桁（どちらも上 7 桁が成分・剤形コードと同じときだけ）]
 import type { MatchData } from "./matching.ts";
 
@@ -229,6 +284,7 @@ export const MATCH_DATA: MatchData = ${JSON.stringify(data)};
   fs.mkdirSync("lib", { recursive: true });
   fs.writeFileSync("lib/match-data.ts", ts);
   const dist = [0, 1, 2, 3].map((o) => products.filter((x) => x[2] === o).length);
+  console.log("YJ の上 9 桁の出どころ：" + Object.entries(yjFix).map(([k, v]) => `${k} ${v}`).join("、"));
   console.log(`先発・後発の分布：先発 ${dist[1]}／後発 ${dist[2]}／どちらでもない ${dist[3]}／不明 ${dist[0]}`);
   console.log(`lib/match-data.ts：販売名 ${products.length}、一般名 ${Object.keys(data.generics).length}、${(Buffer.byteLength(ts) / 1e6).toFixed(2)} MB。先発・後発の出どころ：` + Object.entries(cover).map(([k, v]) => `${k} ${v}`).join("、"));
 }

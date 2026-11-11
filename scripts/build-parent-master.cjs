@@ -83,6 +83,7 @@ const flagsOf = (note) => {
   return f;
 };
 
+const comboFixed = []; // 配合錠の番号を販売名から直した製品（確かめの印）
 const out = [], stat = { verified: 0, confirmed: 0, draft: 0, none: 0, sonnet: 0, haiku: 0 };
 for (const p of products) {
   let src = null, model = null, draft = null;
@@ -116,6 +117,15 @@ for (const p of products) {
     }
     row.notes = rv.備考 || ""; row.flags = flagsOf(rv.備考 || "");
   }
+  // 配合錠の番号（アマルエット配合錠4番 など）：販売名の番号と規格の番号が違えば、販売名の番号を規格にする（下書き・一覧の規格の誤り）。
+  // YJ の 7 桁目までが番号ごとに違う（2190101＝1番、2190104＝4番）ので、販売名の番号が正しい
+  const comboNo = p.brand_name.normalize("NFKC").match(/配合.*?(\d+)番/)?.[1];
+  const strengthNo = String(row.strength).normalize("NFKC").match(/(\d+)番/)?.[1];
+  if (comboNo && strengthNo && comboNo !== strengthNo) {
+    comboFixed.push(`${p.brand_name}：${row.strength} → ${comboNo}番`);
+    row.strength = `${comboNo}番`;
+    row.notes = [row.notes, `規格は販売名の番号から（元の規格「${strengthNo}番…」は誤り）`].filter(Boolean).join("／");
+  }
   // 運用マスタ（実物の写真で確認ずみ）
   const m = findMaster(p.brand_name, row.strength);
   if (m) {
@@ -126,6 +136,7 @@ for (const p of products) {
   out.push(row);
 }
 
+if (comboFixed.length) console.log(`配合錠の番号を販売名から直した ${comboFixed.length}：\n  ` + comboFixed.join("\n  "));
 const cols = Object.keys(out[0]);
 fs.writeFileSync("data/parent/parent-master.csv", "﻿" + [cols.join(","), ...out.map((r) => cols.map((c) => csvCell(Array.isArray(r[c]) ? r[c].join("|") : r[c])).join(","))].join("\n") + "\n");
 fs.writeFileSync("data/parent/parent-master.json", JSON.stringify({ built_at: new Date().toISOString(), count: out.length, products: out }, null, 1));
