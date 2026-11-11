@@ -45,7 +45,7 @@ python3 scripts/make-rx-variants.py
 
 # 3. 読み取る（API を使う。費用の上限 --max-usd、既定 $2。呼ぶ前に 1 回の最悪の費用を取っておくので上限は超えない）
 npx tsx scripts/read-rx-batch.ts --only "__clean$" --dry-run                        # 対象と見積もりだけ
-npx tsx scripts/read-rx-batch.ts --only "__clean$"                                  # 既定モデル（lib/claude.ts の MODEL）
+npx tsx scripts/read-rx-batch.ts --only "__clean$"                                  # 既定モデル（lib/claude.ts の MODEL＝claude-sonnet-5-5）
 npx tsx scripts/read-rx-batch.ts --model claude-haiku-5-5 --only "__clean$"         # モデルを比べる
 npx tsx scripts/read-rx-batch.ts --images captures/rx-photos --out captures/rx-runs/photos-opus --max-usd 5
 

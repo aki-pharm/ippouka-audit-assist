@@ -318,7 +318,7 @@
 | フレームワーク | Next.js（App Router）+ TypeScript | 画面とサーバ側API（キーを隠す場所）を1つのリポジトリで作れる。Claude Codeとの相性がよい |
 | UI | Tailwind CSS | スマホ向けのレイアウトを速く作れる |
 | 錠剤イラスト | 自前のSVGコンポーネント | 形・色・大きさ・刻印をデータから描ける。画像ファイル不要 |
-| Claude API | `@anthropic-ai/sdk`、PDF入力と画像入力、JSON出力 | 抽出と読み取りの両方に使う。モデルは実装時に `claude-api` スキルで最新を確認して選ぶ |
+| Claude API | `@anthropic-ai/sdk`、PDF入力と画像入力、JSON出力 | 抽出と読み取りの両方に使う。処方箋読み取りの既定は `claude-sonnet-5-5`（`lib/claude.ts` の MODEL。11/11 の読み取り試験で Sonnet 19/20・Opus 18/20・Haiku 15/20、1 処方 約 $0.028。AKI が決めた） |
 | データ | `data/master.json`（DBなし） | 20〜30件なら十分。公開リポジトリで中身が見える＝透明性にもなる |
 | ホスティング | Vercel（無料枠） | HTTPSが自動（スマホカメラに必要）。環境変数でAPIキーを隠せる。GitHub連携で自動デプロイ |
 | 認証 | Next.js middleware による共通パスコード＋Cookie | 目的はクレジット保護。最小の実装で足りる |

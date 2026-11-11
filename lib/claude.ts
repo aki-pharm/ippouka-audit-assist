@@ -1,6 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 
-export const MODEL = "claude-opus-5-5";
+// 処方箋読み取りの既定モデル。11/11 の読み取り試験（加工なし 20 処方）で Sonnet 19/20・Opus 18/20・Haiku 15/20、1 処方 約 $0.028。AKI が決めた
+export const MODEL = "claude-sonnet-5-5";
 
 /**
  * APIキー。ANTHROPIC_API_KEY を優先し、無ければ CLAUDE_API_KEY を読む。
