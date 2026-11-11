@@ -53,6 +53,20 @@
 
 ## 報告（新しいものを上に）
 
+### 2026-11-11 作業：照合を薬の鍵＋施設ごとの決まりに（ブランチ `feature/matching-rules`。feature/maker-select に origin/feature/rx-testset を取り込んだ上に作った。main には入れていない）
+- 照合：`lib/matching.ts`。処方箋の名前 → 薬の鍵（成分・規格・剤形＝放出の型を含む。form-markers.json と YJ）→ 施設の採用品。銘柄名は親マスタの製品から、【般】は一般名・剤形・規格から（口腔内崩壊錠＝OD、腸溶性口腔内崩壊錠＝OD、徐放錠は補足 12時間＝L／24時間＝CR）。決まらなければ候補だけで自動では選ばない。`lib/master.ts` の matchTablet は同じ呼び方（3 つ目に options：nameNote・profile・includeRuleOut）
+- 決まり：`data/match-profiles.json`、既定＝院内（AKI の決定どおり）。決まりで外した製品は候補に出さず、`includeRuleOut` のときだけ理由つきで返す。選ぶときの記録 `buildRuleOverrideRecord`（理由・変更者が必須、保存はまだ。画面のボタンはまだ作っていない）
+- 先発・後発：厚労省の一覧の印から。親マスタ 7,148 製品のうち 一覧の販売名と一致 4,239／統一名 2,673／販売名の「」で後発とみなした 154／不明 82
+- 採点（正解の読み取り、`score-adopted.mjs` はそのまま）：**135/145 → 143/145**。狙い別：brand_to_generic_noalias 0→6/6、discontinued 0→2/2、od_plain 3→4/4、general_name 10→10/12、release 2→1/3、ほかは変わらず。残りの 2 行は rx15 Rp02・Rp03（【般】ニフェジピン徐放錠）で、採点が name_note（24時間持続／12時間持続）を照合に渡さないため候補止まり。補足を渡せば CR20「サワイ」・L10「トーワ」を選ぶことを確かめた（前の 135 では Rp02 は当て推量で正しかった）
+- 架空施設 `data/rx-testset/facility.json` の変更（品質へ）：`discontinued_reason` を 2 行に足した。リオナ錠250mg＝販売終了、ロキソプロフェンNa錠60mg「サワイ」＝メーカー切替。`expected-adopted.csv` は変えていない（どちらも採用なしのまま。メーカー切替の方は「以前の採用」として別に返す）
+- 品質の【アプリの不具合】todo で通るようになったもの（todo は外していない）：L→CR、【般】徐放錠20mg（補足なしは選ばない）、採用中止、別名の無い先発名 6 件、【般】アムロジピン口腔内崩壊錠、普通錠→OD（ランソプラゾール錠15mg「トーワ」は親マスタに無い名前なので該当なし）、カプセル→OD 錠。通らないまま：【般】ニフェジピン徐放錠10mg で補足なしに L を選ぶ期待（補足が無ければ当て推量しない決まりなので、補足を渡す形に直してほしい）
+- 落ちるようになった品質のテスト（照合を変えたため。期待は変えていない）：「lib/master.ts・lib/types.ts は main と同じ」「プロンプト・スキーマ…は main から変わっていない」（types.ts に discontinued_reason と RxRow の match_status・match_note を足した）、採点の 135/145・選択の誤り 4・--private の数を前提にした 3 件、test:maker の「互換」（toRows に match_status・match_note が増えた。tablet_id・候補・入れる／入れないは見本の処方 3 件で前と同じことを確かめた）
+- テスト：`npm run test:maker` 53 件 通過 52・失敗 1、`npm run test:rx` 110 件 通過 95・失敗 5・todo 10、`npm test` 115 件 通過 100・失敗 5・todo 10。型は zod 3 と仮の型で変えたファイルだけ tsc を通した（エラー 0）。next build は未実行
+- 画面への影響：`lib/match-data.ts`（0.50MB）が画面に読み込まれる（照合を画面の中で行うため）。tsconfig に `allowImportingTsExtensions` を足した（lib/master.ts が ./matching.ts を拡張子つきで読むため。Next で動くかは未確認）
+- 仕様書 §5.6 に、院内の決まりと保険薬局の決まり（変更調剤）の設計・足りないデータを書いた
+- AKI に見てほしい：一覧に無い英字の剤形（アルダクトンA など）は YJ が普通の製剤なら普通の錠と同じに照合するようにした（前の報告の「分けたが…」のうちブランドの英字のもの）。規格の後ろの英字（MT・TRE・AD・ZA）は効能違いの印なので分けたまま
+
+
 ### 2026-11-11 作業：メーカー選択の剤形の鍵を直した（品質の不具合 3 つ。ブランチ `feature/maker-select`）
 - 決め方：販売名の放出・剤形の印ごとに分ける（迷ったら分ける）。印は `data/parent/form-markers.json` に 1 つだけ置き、`lib/makers.ts`・`scripts/build-maker-index.cjs`・`scripts/ops/build-ops-master.py` が同じ手順で使う。索引を作るたびに 3 か所の鍵が全 7,149 製品で同じかを確かめ、違えば止まる（わざとずらして止まることを確かめた）
 - 放出の印がある製品は、印の前の名前も剤形に入れる（デパケンR とセレニカR を分ける）。YJ の 8 桁目が G・N（徐放）・H（腸溶）なのに販売名に印が無いときは「|YJ徐放」などを鍵に足す
