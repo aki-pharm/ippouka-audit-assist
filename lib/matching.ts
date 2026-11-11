@@ -124,6 +124,7 @@ type Index = {
   generics: [string, string][]; // [正規化した一般名, 成分・剤形コード]
   yj9ByKey: Map<string, Set<string>>; // 薬の鍵 → その鍵の製品の YJ の上 9 桁（YJ のあるものだけ）
   namesByKey: Map<string, string[]>; // 薬の鍵 → その鍵の製品の販売名（メーカーを除いた形）
+  canonByKey: Map<string, Set<string>>; // 薬の鍵 → その鍵の製品の照合に使う鍵（ブランドの英字を普通にそろえたもの）
 };
 const cache = new WeakMap<MatchData, Index>();
 function indexOf(data: MatchData): Index {
@@ -138,10 +139,12 @@ function indexOf(data: MatchData): Index {
   };
   const yj9ByKey = new Map<string, Set<string>>();
   const namesByKey = new Map<string, string[]>();
+  const canonByKey = new Map<string, Set<string>>();
   for (const [name, ki, o, yj, yj9] of data.products) {
     const v = { key: data.keys[ki], canon: canonicalKey(data.keys[ki], yj), origin: ORIGIN[o] ?? "不明", yj9: yj9 ?? "" };
     if (yj9) yj9ByKey.set(v.key, new Set([...(yj9ByKey.get(v.key) ?? []), yj9]));
     namesByKey.set(v.key, [...(namesByKey.get(v.key) ?? []), makerlessKey(name)]);
+    canonByKey.set(v.key, new Set([...(canonByKey.get(v.key) ?? []), v.canon]));
     add(byName, nameKey(name), v);
     add(byMakerless, makerlessKey(name), v);
   }
@@ -151,7 +154,7 @@ function indexOf(data: MatchData): Index {
     keysByGroupStrength.set(`${g}|${sk}`, [...(keysByGroupStrength.get(`${g}|${sk}`) ?? []), k]);
   }
   const generics = Object.entries(data.generics).map(([g, n]) => [genericKey(n), g] as [string, string]);
-  const idx = { byName, byMakerless, keysByGroupStrength, generics, yj9ByKey, namesByKey };
+  const idx = { byName, byMakerless, keysByGroupStrength, generics, yj9ByKey, namesByKey, canonByKey };
   cache.set(data, idx);
   return idx;
 }
@@ -215,10 +218,12 @@ function generalName(name: string, strength: string | null | undefined, nameNote
   const idx = indexOf(data);
   const n = stripPrefix(name.normalize("NFKC").trim());
   const sk = strengthKey(strength ?? n.match(/(\d+(?:\.\d+)?)\s*(mg|μg|µg|ug|g)/i)?.[0] ?? "");
-  const m = n.match(/^(.*?)(腸溶性口腔内崩壊錠|口腔内崩壊錠|徐放錠|腸溶錠|OD錠|チュアブル錠|錠|徐放カプセル|腸溶カプセル|カプセル)/);
+  const m = n.match(/^(.*?)(腸溶性口腔内崩壊錠|口腔内崩壊錠|徐放錠|腸溶錠|OD錠|チュアブル錠|舌下錠|速崩錠|分散錠|粒状錠|バッカル錠|錠|徐放カプセル|腸溶カプセル|カプセル)/);
   if (!m || !sk) return { keys: [], decided: false, kind: m?.[2] };
   const stem = genericKey(m[1]);
   const kind = m[2];
+  // 規格の後ろの英字（MT・ZA・AV・RE・AD・EX・TRE など、効能・用法の違う系列の印）。「250mgMT」「5mg（ZA）」の形
+  const suffix = n.slice(m[0].length).match(/\d\s*(?:mg|μg|µg|g)?\s*[（(]?([A-Z]{2,4})[）)]?\s*$/)?.[1] ?? "";
   if (stem.length < 2) return { keys: [], decided: false, kind };
   // 一般名（親マスタの成分名）がこの名前で始まるもの（アムロジピン → アムロジピンベシル酸塩）。完全に同じものがあればそれだけ
   const exact = idx.generics.filter(([g]) => g === stem);
@@ -228,7 +233,8 @@ function generalName(name: string, strength: string | null | undefined, nameNote
   let decided = false;
   const capsule = kind.includes("カプセル");
   keys = keys.filter((k) => isCapsule(f(k).form) === capsule);
-  if (kind === "口腔内崩壊錠" || kind === "腸溶性口腔内崩壊錠" || kind === "OD錠") keys = keys.filter((k) => f(k).form.startsWith("OD錠") && !f(k).yj);
+  // 英字の無い口腔内崩壊錠の一般名は、英字（TRE・ZA など）の無い OD 錠だけ（英字つきは下で）
+  if (kind === "口腔内崩壊錠" || kind === "腸溶性口腔内崩壊錠" || kind === "OD錠") keys = keys.filter((k) => f(k).form === "OD錠" && !f(k).yj);
   // 腸溶・徐放の一般名は、放出の印（form-markers.json の release）か YJ の腸溶・徐放のある製品だけ。
   // 規格の後ろの英字（MT・NX など）・粒状・分散・速崩・バッカル・チュアブル・OD は放出の印ではないので当てない
   else if (kind === "腸溶錠" || kind === "腸溶カプセル") keys = keys.filter((k) => releaseClass(f(k).form) === "腸溶" || f(k).yj === "YJ腸溶");
@@ -241,8 +247,20 @@ function generalName(name: string, strength: string | null | undefined, nameNote
       keys = keys.filter((k) => markers.some((mk) => new RegExp(`^${mk}(錠|カプセル)〔`).test(f(k).form)));
       decided = keys.length > 0 && new Set(keys.map((k) => f(k).form.replace(/〔[^〕]*〕/, ""))).size === 1;
     }
-  } else if (kind === "チュアブル錠") keys = keys.filter((k) => f(k).form.startsWith("チュアブル"));
-  else keys = keys.filter((k) => f(k).form === (capsule ? "カプセル" : "錠") && !f(k).yj);
+  } else if (["チュアブル錠", "舌下錠", "速崩錠", "分散錠", "粒状錠", "バッカル錠"].includes(kind)) {
+    // 剤形の名前がそのまま印になっているもの（舌下錠/JAU のような規格の後ろの英字つきは、英字があるときだけ）
+    const re = new RegExp(`^${kind}(〔[^〕]*〕)?${suffix ? `/${suffix}` : ""}$`);
+    keys = keys.filter((k) => re.test(f(k).form) && !f(k).yj);
+  } else {
+    // 普通の錠・カプセル。ブランドの英字（チラーヂンS錠、エルカルチンFF錠）は YJ が普通の製剤なら普通と同じ（canonicalKey）
+    const base = capsule ? "カプセル" : "錠";
+    const plain = (k: string) => !f(k).yj && (f(k).form === base || [...(idx.canonByKey.get(k) ?? [])].every((c) => splitKey(c).form === base));
+    keys = keys.filter((k) => (suffix ? f(k).form === `${base}/${suffix}` : plain(k)));
+  }
+  // 口腔内崩壊錠の一般名に英字（TRE・ZA など）があれば、その英字の鍵だけ
+  if (suffix && (kind === "口腔内崩壊錠" || kind === "OD錠")) {
+    keys = [...groups].flatMap((g) => idx.keysByGroupStrength.get(`${g}|${sk}`) ?? []).filter((k) => f(k).form === `OD錠/${suffix}`);
+  }
   return { keys: [...new Set(keys)].sort(), decided, kind };
 }
 
@@ -251,7 +269,10 @@ export function prescribedKeys(name: string, strength: string | null | undefined
   const idx = indexOf(data);
   if (isGeneral(name)) {
     const { keys, decided, kind } = generalName(name, strength, nameNote, data);
-    return { keys, canon: keys, origin: "不明" as Origin, general: true, found: keys.length > 0, decided, yj9: "", kind: kind ?? "" };
+    // 照合に使う鍵：ブランドの英字の鍵（チラーヂンS錠）は、YJ が普通の製剤なら普通の錠の鍵にそろえる
+    const cmap = indexOf(data).canonByKey;
+    const canon = [...new Set(keys.map((k) => { const c = cmap.get(k); return c && c.size === 1 ? [...c][0] : k; }))];
+    return { keys, canon, origin: "不明" as Origin, general: true, found: keys.length > 0, decided, yj9: "", kind: kind ?? "" };
   }
   const n = stripPrefix(name.normalize("NFKC").trim());
   const tries = [nameKey(n), nameKey(n + (strength ?? ""))];

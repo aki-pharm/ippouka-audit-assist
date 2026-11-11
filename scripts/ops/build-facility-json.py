@@ -14,14 +14,24 @@ import csv, json, re, unicodedata
 P = "data/private"
 def load(p): return list(csv.DictReader(open(p, encoding="utf-8-sig")))
 pm = {p["product_key"]: p for p in json.load(open("data/parent/parent-master.json", encoding="utf-8"))["products"]}
-by_brand = {p["brand_name"]: p for p in pm.values()}
+def nk(s): return re.sub(r"[\s　®]", "", unicodedata.normalize("NFKC", s or "")).lower()
+# 販売名の書き方の違い（全角半角・空白）で採用品を落とさないよう、正規化した名前でも引く。引けなかった名前は最後に数を出す
+by_brand_exact = {p["brand_name"]: p for p in pm.values()}
+by_brand_norm = {nk(p["brand_name"]): p for p in pm.values()}
+missing = []
+class ByBrand(dict):
+    def __contains__(self, k): return k in by_brand_exact or nk(k) in by_brand_norm
+    def __getitem__(self, k): return by_brand_exact.get(k) or by_brand_norm[nk(k)]
+by_brand = ByBrand()
+# 薬の鍵（照合が名前から引けなくても使えるように、施設の行に drug_key を入れる）
+key_of = {x["product_key"]: k for k, d in json.load(open("data/parent/maker-index.json", encoding="utf-8"))["drugs"].items() for x in d["products"]}
 master = load(f"{P}/ops-master.csv"); products = load(f"{P}/ops-products.csv")
 answers = {(r["成分"], r["規格"], r["剤形"]): r for r in load(f"{P}/maker-answers.csv")}
 
 def entry(p, generic, adopted, maker_state=None, reason=None):
     e = {"id": p["product_key"], "product_key": p["product_key"], "yj_code": p["yj_code"] or None, "brand_name": p["brand_name"], "generic_name": generic,
          "strength": p["strength"], "maker": p["maker"], "dosage_form": "capsule" if "カプセル" in p["brand_name"] else "tablet",
-         "adopted": adopted, "maker_state": maker_state, "aliases": []}
+         "adopted": adopted, "maker_state": maker_state, "aliases": [], "drug_key": key_of.get(p["product_key"])}
     if reason: e["discontinued_reason"] = reason
     return e
 
@@ -55,6 +65,7 @@ for r in master:
             if x["販売名"] not in chosen and x["販売名"] in by_brand: put(entry(by_brand[x["販売名"]], generic, False, None, "メーカー切替"))
         continue
     cur = r["今の製品（販売名）"]
+    if cur and cur not in by_brand: missing.append(cur)
     if cur and cur in by_brand:
         put(entry(by_brand[cur], generic, True, state))
         for x in rs:
@@ -75,3 +86,7 @@ doc = {"_説明": ["実在施設の採用品マスタ（非公開。commit し�
 json.dump(doc, open(f"{P}/facility-real.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 from collections import Counter
 print(f"施設マスタ {len(items)} 件：採用 {sum(e['adopted'] for e in items)}、メーカー切替で採用中止 {sum(not e['adopted'] for e in items)}、メーカー未確定 {sum(1 for e in items if e['adopted'] and e['maker_state'] in ('未選択', '記憶ベース（両方使用）'))}")
+# 照合で自動選択を止めるもとになる欄の確かめ（件数だけ。名前は出さない）
+print(f"今の製品が親マスタの販売名に無い（「未選択」として札の製品を入れた）{len(missing)}")
+print(f"drug_key が無い {sum(1 for e in items if not e.get('drug_key'))}、yj_code が無い {sum(1 for e in items if not e.get('yj_code'))}、"
+      f"同じ drug_key に採用（adopted:true）が 2 件以上ある薬 {sum(1 for k, n in Counter(e['drug_key'] for e in items if e['adopted'] and e.get('drug_key')).items() if n > 1)}")

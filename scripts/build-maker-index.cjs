@@ -85,7 +85,9 @@ function yjSegment(group, name, yjCode) {
 }
 
 // 規格：単位 mg を落とし、小数の末尾の 0 をそろえる（1.0mg と 1mg を同じに）
-const strengthKey = (s) => norm(s).replace(/(\d+)\.(\d*?)0+(?!\d)/g, (_, a, b) => (b ? `${a}.${b}` : a)).replace("mg", "").replace("ug", "μg");
+// 「1錠中アミトリプチリン塩酸塩10mg」のような、成分 1 つの書き方は量だけにそろえる
+const oneIngredient = (n) => n.replace(/^1(錠|カプセル)中に?[^\d]*?(\d+(?:\.\d+)?)(mg|μg|g)(として)?$/, (_, _f, v, u) => v + u);
+const strengthKey = (s) => oneIngredient(norm(s)).replace(/(\d+)\.(\d*?)0+(?!\d)/g, (_, a, b) => (b ? `${a}.${b}` : a)).replace("mg", "").replace("ug", "μg");
 /** 薬の鍵「成分・剤形コード|規格|剤形」。YJ が徐放・腸溶を示し販売名に印が無いときだけ「|YJ徐放」などを足す */
 const drugKey = (group, strength, brand, yjCode) => {
   const seg = yjSegment(group, brand, yjCode);

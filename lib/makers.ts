@@ -72,7 +72,9 @@ const MARKERS: Markers = /*FORM_MARKERS_BEGIN*/ {"od": ["OD", "D", "RM", "RPD", 
 
 /** 規格の比較用（「2.5mg」→「2.5」、「1.0mg」→「1」、「500μg」→「500μg」）。小数の末尾の 0 をそろえる */
 export function strengthKey(s: string | null | undefined): string {
+  // 「1錠中アミトリプチリン塩酸塩10mg」のような、成分 1 つの書き方は量だけにそろえる（「10mg」と同じ）
   return norm(s)
+    .replace(/^1(錠|カプセル)中に?[^\d]*?(\d+(?:\.\d+)?)(mg|μg|g)(として)?$/, (_, _f: string, v: string, u: string) => v + u)
     .replace(/(\d+)\.(\d*?)0+(?!\d)/g, (_, a: string, b: string) => (b ? `${a}.${b}` : a))
     .replace("mg", "")
     .replace("ug", "μg");

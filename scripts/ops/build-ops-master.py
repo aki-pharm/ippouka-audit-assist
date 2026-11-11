@@ -81,7 +81,9 @@ def drug_form(group, name, yj):
     return f
 # 規格：単位 mg を落とし、小数の末尾の 0 をそろえる（1.0mg と 1mg を同じに）。mg・ug は最初の 1 つだけ（lib/makers.ts と同じ）
 def strength_key(s):
-    k = re.sub(r"(\d+)\.(\d*?)0+(?!\d)", lambda x: f"{x.group(1)}.{x.group(2)}" if x.group(2) else x.group(1), norm(s), flags=re.ASCII)
+    # 「1錠中アミトリプチリン塩酸塩10mg」のような、成分 1 つの書き方は量だけにそろえる（lib/makers.ts と同じ）
+    n = re.sub(r"^1(錠|カプセル)中に?[^\d]*?(\d+(?:\.\d+)?)(mg|μg|g)(として)?$", lambda x: x.group(2) + x.group(3), norm(s), flags=re.ASCII)
+    k = re.sub(r"(\d+)\.(\d*?)0+(?!\d)", lambda x: f"{x.group(1)}.{x.group(2)}" if x.group(2) else x.group(1), n, flags=re.ASCII)
     return k.replace("mg", "", 1).replace("ug", "μg", 1)
 def legacy_form_of(name):
     """剤形の分け方を変える前（11/10）の剤形。確認表①の前の答え（maker-answers.csv）を探すときだけ使う"""
