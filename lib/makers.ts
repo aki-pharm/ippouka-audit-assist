@@ -159,6 +159,27 @@ function yjSegment(group: string, name: string, yjCode: string | null | undefine
 }
 
 /**
+ * 剤形の頭の印から、放出の型を返す：徐放（CR・L・R・SR・TR・LA・XR・ER・XL・U・徐放・持続）／腸溶（腸溶・EN）／null（普通）。
+ * 規格の後ろの英字（MT・NX など）、一覧に無い英字、粒状・分散・速崩・バッカル・チュアブル・OD は放出の印ではない（null）
+ */
+export function releaseClass(form: string): "徐放" | "腸溶" | null {
+  let rest = form;
+  let cls: "徐放" | "腸溶" | null = null;
+  const words = [...MARKERS.od, ...MARKERS.release, ...MARKERS.other].sort((a, b) => b.length - a.length);
+  for (;;) {
+    const w = words.find((x) => rest.startsWith(x));
+    if (!w) break;
+    if (MARKERS.release.includes(w) && w !== "速崩") {
+      const t = MARKERS.rename[w] ?? w;
+      if (t === "腸溶") cls = "腸溶";
+      else if (cls !== "腸溶") cls = "徐放";
+    }
+    rest = rest.slice(w.length);
+  }
+  return /^(錠|カプセル)/.test(rest) ? cls : null;
+}
+
+/**
  * 剤形が「一覧に無い英字＋土台」（アルダクトンA錠 の A錠、チラーヂンS錠 の S錠）なら土台（錠／OD錠／カプセル）を返す。それ以外は null。
  * 放出の印・塩の英字は対象外。照合（lib/matching.ts）で、YJ が普通の製剤（F・M）と示す製品だけを普通の錠と同じに扱うのに使う
  */

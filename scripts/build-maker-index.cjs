@@ -131,7 +131,7 @@ for (const f of fs.readdirSync("data/parent").sort()) {
 const compact = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v != null && v !== "" && !(Array.isArray(v) && v.length === 0)));
 const STATUS_ORDER = { verified: 0, confirmed: 1, draft: 2 };
 // 親マスタにある、製品でない行（PMDA の一覧に載る患者向け・医療従事者向けの資材）。索引にも照合にも入れない
-const NOT_PRODUCT = /患者さん|患者向け|患者様|ご家族|医療従事者向け|資材|にあたって|による治療を受け|を服用される|携帯カード|適正使用|ガイド|注意いただきたい|お願い|との併用について/;
+const NOT_PRODUCT = /患者さん|患者向け|患者様|ご家族|医療従事者向け|資材|にあたって|による治療を受け|を服用される|携帯カード|適正使用|適正にご使用|ガイド|注意いただきたい|お願い|との併用について/;
 const notProduct = [];
 const drugs = {};
 let nProducts = 0;

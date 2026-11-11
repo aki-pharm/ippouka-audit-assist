@@ -20,7 +20,7 @@
  *  3. 結果：採用品／採用外（市販品あり：親マスタにはある）／該当なし
  */
 import type { Tablet } from "./types";
-import { brandLetterBase, strengthKey } from "./makers.ts";
+import { brandLetterBase, releaseClass, strengthKey } from "./makers.ts";
 
 /** 施設ごとの決まり（data/match-profiles.json） */
 export type MatchProfile = {
@@ -196,15 +196,15 @@ export function generalNameKeys(name: string, strength: string | null | undefine
   return generalName(name, strength, nameNote, data).keys;
 }
 /** decided：補足（12時間／24時間）で放出の型が 1 つに決まった（L 錠・CR 錠の系列が違っても同じ型として扱う） */
-function generalName(name: string, strength: string | null | undefined, nameNote: string | null | undefined, data: MatchData): { keys: string[]; decided: boolean } {
+function generalName(name: string, strength: string | null | undefined, nameNote: string | null | undefined, data: MatchData): { keys: string[]; decided: boolean; kind?: string } {
   const idx = indexOf(data);
   const n = stripPrefix(name.normalize("NFKC").trim());
   const sk = strengthKey(strength ?? n.match(/(\d+(?:\.\d+)?)\s*(mg|μg|µg|ug|g)/i)?.[0] ?? "");
   const m = n.match(/^(.*?)(腸溶性口腔内崩壊錠|口腔内崩壊錠|徐放錠|腸溶錠|OD錠|チュアブル錠|錠|徐放カプセル|腸溶カプセル|カプセル)/);
-  if (!m || !sk) return { keys: [], decided: false };
+  if (!m || !sk) return { keys: [], decided: false, kind: m?.[2] };
   const stem = genericKey(m[1]);
   const kind = m[2];
-  if (stem.length < 2) return { keys: [], decided: false };
+  if (stem.length < 2) return { keys: [], decided: false, kind };
   // 一般名（親マスタの成分名）がこの名前で始まるもの（アムロジピン → アムロジピンベシル酸塩）。完全に同じものがあればそれだけ
   const exact = idx.generics.filter(([g]) => g === stem);
   const groups = new Set((exact.length ? exact : idx.generics.filter(([g]) => g.startsWith(stem) && !/配合/.test(g))).map(([, grp]) => grp));
@@ -214,10 +214,13 @@ function generalName(name: string, strength: string | null | undefined, nameNote
   const capsule = kind.includes("カプセル");
   keys = keys.filter((k) => isCapsule(f(k).form) === capsule);
   if (kind === "口腔内崩壊錠" || kind === "腸溶性口腔内崩壊錠" || kind === "OD錠") keys = keys.filter((k) => f(k).form.startsWith("OD錠") && !f(k).yj);
-  else if (kind === "腸溶錠" || kind === "腸溶カプセル") keys = keys.filter((k) => /腸溶/.test(f(k).form) || f(k).yj === "YJ腸溶");
+  // 腸溶・徐放の一般名は、放出の印（form-markers.json の release）か YJ の腸溶・徐放のある製品だけ。
+  // 規格の後ろの英字（MT・NX など）・粒状・分散・速崩・バッカル・チュアブル・OD は放出の印ではないので当てない
+  else if (kind === "腸溶錠" || kind === "腸溶カプセル") keys = keys.filter((k) => releaseClass(f(k).form) === "腸溶" || f(k).yj === "YJ腸溶");
   else if (kind === "徐放錠" || kind === "徐放カプセル") {
-    keys = keys.filter((k) => (f(k).yj === "YJ徐放" || (!PLAIN.has(f(k).form) && !/腸溶|OD|チュアブル|舌下/.test(f(k).form))));
-    const note = (nameNote ?? "").normalize("NFKC") + n.slice(m[0].length);
+    keys = keys.filter((k) => (releaseClass(f(k).form) === "徐放" || f(k).yj === "YJ徐放") && !/OD/.test(f(k).form.replace(/〔[^〕]*〕/, "")));
+    // 「12～24時間持続」（テオフィリンなど）は放出の型を決めない補足として扱う（12時間・24時間の決まりに当てない）
+    const note = ((nameNote ?? "").normalize("NFKC") + n.slice(m[0].length)).replace(/\d+\s*[～〜~\-ー]\s*\d+\s*時間/g, "");
     for (const [word, markers] of Object.entries(data.general_release_notes)) {
       if (!note.includes(word)) continue;
       keys = keys.filter((k) => markers.some((mk) => new RegExp(`^${mk}(錠|カプセル)〔`).test(f(k).form)));
@@ -225,15 +228,15 @@ function generalName(name: string, strength: string | null | undefined, nameNote
     }
   } else if (kind === "チュアブル錠") keys = keys.filter((k) => f(k).form.startsWith("チュアブル"));
   else keys = keys.filter((k) => f(k).form === (capsule ? "カプセル" : "錠") && !f(k).yj);
-  return { keys: [...new Set(keys)].sort(), decided };
+  return { keys: [...new Set(keys)].sort(), decided, kind };
 }
 
 /** 処方箋の名前から、処方された薬の鍵と先発・後発。general：一般名処方。found：親マスタに名前があった */
 export function prescribedKeys(name: string, strength: string | null | undefined, nameNote: string | null | undefined, data: MatchData) {
   const idx = indexOf(data);
   if (isGeneral(name)) {
-    const { keys, decided } = generalName(name, strength, nameNote, data);
-    return { keys, canon: keys, origin: "不明" as Origin, general: true, found: keys.length > 0, decided, yj9: "" };
+    const { keys, decided, kind } = generalName(name, strength, nameNote, data);
+    return { keys, canon: keys, origin: "不明" as Origin, general: true, found: keys.length > 0, decided, yj9: "", kind: kind ?? "" };
   }
   const n = stripPrefix(name.normalize("NFKC").trim());
   const tries = [nameKey(n), nameKey(n + (strength ?? ""))];
@@ -247,11 +250,11 @@ export function prescribedKeys(name: string, strength: string | null | undefined
   }
   // 親マスタに無い名前：一般名と同じ読み方で鍵を推し量る（自動では選ばない）
   const guess = generalNameKeys(n.replace(/「[^」]*」/g, ""), strength, nameNote, data);
-  return { keys: guess, canon: guess, origin: "不明" as Origin, general: false, found: false, decided: false, yj9: "" };
+  return { keys: guess, canon: guess, origin: "不明" as Origin, general: false, found: false, decided: false, yj9: "", kind: "" };
 }
 const fromHits = (hit: Hit[]) => {
   const yj9 = [...new Set(hit.map((x) => x.yj9))];
-  return { keys: [...new Set(hit.map((x) => x.key))], canon: [...new Set(hit.map((x) => x.canon))], origin: oneOrigin(hit), general: false, found: true, decided: false, yj9: yj9.length === 1 ? yj9[0] : "" };
+  return { keys: [...new Set(hit.map((x) => x.key))], canon: [...new Set(hit.map((x) => x.canon))], origin: oneOrigin(hit), general: false, found: true, decided: false, yj9: yj9.length === 1 ? yj9[0] : "", kind: "" };
 };
 const oneOrigin = (list: { origin: Origin }[]): Origin => {
   const s = new Set(list.map((x) => x.origin));
@@ -417,6 +420,11 @@ export function matchRx<T extends FacilityProduct>(
   }
 
   const ambiguousSpec = rx.canon.length > 1 && !rx.decided;
+  const ambiguousNote = /徐放/.test(rx.kind)
+    ? "徐放製剤の型（1 日の回数など）が名前だけでは決まりません（補足の 12時間／24時間 などを確かめてください）"
+    : /腸溶/.test(rx.kind)
+      ? "腸溶製剤が名前だけでは 1 つに決まりません。製品を確かめてください"
+      : "処方の剤形・放出が名前だけでは決まりません。製品を確かめてください";
   const pickFrom = (list: { p: T; candOnly: string | null }[]) => {
     const auto = list.filter((x) => !x.candOnly);
     return auto.length === 1 && rx.found && !ambiguousSpec ? auto[0].p : null;
@@ -446,9 +454,9 @@ export function matchRx<T extends FacilityProduct>(
     else out.substituted = true;
   }
   if (out.note && !out.best) { /* 候補にとどめた理由（先発・後発・漢方など）を優先する */ }
-  else if (!out.best && out.candidates.length > 1) out.note = ambiguousSpec ? "処方の剤形・放出が名前だけでは決まりません（補足の 12時間／24時間 などを確かめてください）" : "採用品の候補が複数あります。選んでください";
+  else if (!out.best && out.candidates.length > 1) out.note = ambiguousSpec ? ambiguousNote : "採用品の候補が複数あります。選んでください";
   else if (!out.best && out.candidates.length === 1 && !rx.found) out.note = "処方箋の名前が親マスタにありません。候補を確かめて選んでください";
-  else if (!out.best && out.candidates.length === 1 && ambiguousSpec) out.note = "処方の剤形・放出が名前だけでは決まりません（補足の 12時間／24時間 などを確かめてください）";
+  else if (!out.best && out.candidates.length === 1 && ambiguousSpec) out.note = ambiguousNote;
   out.status = out.best || out.candidates.length ? "採用品" : rx.keys.length || out.previous.length ? "採用外（市販品あり）" : "該当なし";
   if (out.status === "採用外（市販品あり）" && !out.note) out.note = out.previous.length ? "以前の採用品があります（メーカー切替）。今は採用していません" : "親マスタには製品がありますが、施設では採用していません";
   return out;
