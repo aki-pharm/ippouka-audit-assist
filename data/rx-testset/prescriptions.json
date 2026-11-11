@@ -1,0 +1,260 @@
+{
+  "_説明": [
+    "処方箋読み取りの採点用、架空の処方箋 20 件（実在の患者・施設とは関係ない）。node scripts/make-rx-testset.cjs で画像・正解 JSON・印刷用 PDF を作る。",
+    "1 行の書き方：name＝処方箋に印字する薬品名（(K) などの接頭辞・【般】を含む。括弧の補足は note に分ける）。product＝実在の製品名（data/master.json か data/parent/parent-master.json にある名前）。【般】の行だけ必須、それ以外は name から自動で決める。",
+    "u＝用法。『1 ME』＝1回1錠・朝夕食後。時点の記号：M 朝食後／N 昼食後／E 夕食後／HS 就寝前（MNE＝毎食後、ME＝朝夕、MN＝朝昼、NE＝昼夕、ME+HS＝朝夕食後・就寝前）。『p:1-0-2-0-0-0』＝『1-0-2-0-0-0 で投与』（左から 朝-昼-夕-眠前-…）。",
+    "mark＝行頭の □コ（手巻き）。sep＝『別包（ヒート包装）』の行コメント。tricks＝自動で決まらない狙い（lookalike 似た名前、multi_strength 同じ薬の別規格、brand_generic_stock 先発名で印字、combo 配合錠で規格なし、unit_meq 単位 mEq）。自動で足す狙い：manual_mark／separate_pack／nonuniform_dosing／general_name／prefix／two_per_dose／odd_days／page2／name_note／capsule／bedtime。",
+    "footer：aod＝『All One Dose　以下余白』、plain＝『以下余白』のみ（all_one_dose=false）。include_all_note があればフッターに緑字で書く。"
+  ],
+  "prescriptions": [
+    {
+      "id": "rx01", "days": 28, "footer": "aod", "theme": "基本（ならし）",
+      "pages": [[
+        { "name": "アムロジピン錠5mg「サワイ」", "u": "1 M" },
+        { "name": "カンデサルタン錠8mg「サワイ」", "u": "1 M" },
+        { "name": "ロスバスタチン錠5mg「DSEP」", "u": "1 E" },
+        { "name": "ランソプラゾールOD錠15mg「武田テバ」", "u": "1 M" },
+        { "name": "酸化マグネシウム錠330mg「ヨシダ」", "u": "1 MNE" },
+        { "name": "フォリアミン錠5mg", "u": "1 M", "mark": true }
+      ]]
+    },
+    {
+      "id": "rx02", "days": 14, "footer": "aod", "theme": "□コ が多い、1回2錠・3錠、同じ成分の別規格・別メーカー",
+      "pages": [[
+        { "name": "シベンゾリンコハク酸塩錠50mg「サワイ」", "u": "2 ME", "mark": true },
+        { "name": "エリキュース錠2.5mg", "u": "1 ME", "mark": true },
+        { "name": "カルベジロール錠2.5mg「サワイ」", "u": "2 M", "tricks": ["multi_strength"] },
+        { "name": "カルベジロール錠10mg「トーワ」", "u": "1 E", "tricks": ["multi_strength"] },
+        { "name": "ドキサゾシン錠1mg「トーワ」", "u": "1 E", "mark": true },
+        { "name": "ピタバスタチンCa錠2mg「日医工」", "u": "1 E" },
+        { "name": "オルケディア錠4mg", "u": "3 E", "mark": true }
+      ]]
+    },
+    {
+      "id": "rx03", "days": 28, "footer": "aod", "theme": "別包（ヒート包装）が多い、(K)(Ca)",
+      "pages": [[
+        { "name": "(K)アスパラカリウム錠300mg", "u": "1 MNE", "sep": true },
+        { "name": "エルデカルシトールカプセル0.75μg「サワイ」", "u": "1 M", "sep": true },
+        { "name": "(Ca)アスパラ-CA錠200mg", "u": "2 ME", "sep": true },
+        { "name": "メチコバール錠500μg", "u": "1 MNE" },
+        { "name": "モサプリドクエン酸塩錠5mg「AA」", "u": "1 MNE" },
+        { "name": "クエン酸第一鉄Na錠50mg「NIG」", "u": "1 ME" },
+        { "name": "ワーファリン錠1mg", "u": "2 M" }
+      ]]
+    },
+    {
+      "id": "rx04", "days": 28, "footer": "aod", "theme": "1-0-2-0-0-0 で投与、ワーファリン 1mg と 0.5mg",
+      "pages": [[
+        { "name": "(K)アスパラカリウム錠300mg", "u": "p:1-0-2-0-0-0" },
+        { "name": "フロセミド錠20mg「NP」", "u": "p:2-1-0-0-0-0" },
+        { "name": "スピロノラクトン錠25mg「トーワ」", "u": "1 M" },
+        { "name": "ワーファリン錠1mg", "u": "3 E", "tricks": ["multi_strength"] },
+        { "name": "ワーファリン錠0.5mg", "u": "1 E", "tricks": ["multi_strength"] },
+        { "name": "アゾセミド錠30mg「JG」", "u": "1 M" },
+        { "name": "プレドニゾロン錠5mg「NP」", "u": "p:2-1-0-0-0-0" }
+      ]]
+    },
+    {
+      "id": "rx05", "days": 28, "footer": "aod", "theme": "2ページ、【般】が多い",
+      "pages": [[
+        { "name": "【般】アムロジピン錠5mg", "product": "アムロジピン錠5mg「サワイ」", "u": "1 M" },
+        { "name": "【般】カンデサルタン錠8mg", "product": "カンデサルタン錠8mg「サワイ」", "u": "1 M" },
+        { "name": "【般】ランソプラゾール腸溶性口腔内崩壊錠15mg", "product": "ランソプラゾールOD錠15mg「武田テバ」", "u": "1 M" },
+        { "name": "【般】ロスバスタチン錠5mg", "product": "ロスバスタチン錠5mg「DSEP」", "u": "1 E" },
+        { "name": "【般】酸化マグネシウム錠330mg", "product": "酸化マグネシウム錠330mg「ヨシダ」", "u": "1 MNE" },
+        { "name": "【般】エチゾラム錠0.5mg", "product": "エチゾラム錠0.5mg「トーワ」", "u": "1 ME" }
+      ], [
+        { "name": "フォリアミン錠5mg", "u": "1 M", "mark": true },
+        { "name": "【般】メコバラミン錠500μg", "product": "メチコバール錠500μg", "u": "1 MNE" },
+        { "name": "【般】アロプリノール錠100mg", "product": "アロプリノール錠100mg「サワイ」", "u": "1 ME" },
+        { "name": "クロピドグレル錠75mg「トーワ」", "u": "1 M" }
+      ]]
+    },
+    {
+      "id": "rx06", "days": 28, "footer": "aod", "theme": "似た名前（CR と L、OD とふつうの錠）",
+      "pages": [[
+        { "name": "ニフェジピンCR錠20mg「サワイ」", "u": "1 M", "tricks": ["lookalike"] },
+        { "name": "ニフェジピンL錠10mg「サワイ」", "u": "1 ME", "tricks": ["lookalike"] },
+        { "name": "アムロジピンOD錠10mg「武田テバ」", "u": "1 M", "tricks": ["lookalike"] },
+        { "name": "アムロジピン錠2.5mg「サワイ」", "u": "1 E", "tricks": ["lookalike"] },
+        { "name": "タケキャブ錠10mg", "u": "1 M" },
+        { "name": "リクシアナOD錠30mg", "u": "1 M", "tricks": ["lookalike"] },
+        { "name": "ドネペジル塩酸塩OD錠5mg「サワイ」", "u": "1 M" }
+      ]]
+    },
+    {
+      "id": "rx07", "days": 21, "footer": "aod", "theme": "同じ薬の別規格が同じ処方に",
+      "pages": [[
+        { "name": "アムロジピンOD錠10mg「武田テバ」", "u": "1 M", "tricks": ["multi_strength"] },
+        { "name": "アムロジピンOD錠2.5mg「武田テバ」", "u": "1 M", "tricks": ["multi_strength"] },
+        { "name": "ニフェジピンCR錠20mg「サワイ」", "u": "1 M", "tricks": ["multi_strength"] },
+        { "name": "ニフェジピンCR錠10mg「サワイ」", "u": "1 E", "tricks": ["multi_strength"] },
+        { "name": "カルベジロール錠10mg「トーワ」", "u": "1 M", "tricks": ["multi_strength"] },
+        { "name": "カルベジロール錠2.5mg「サワイ」", "u": "1 E", "tricks": ["multi_strength"] },
+        { "name": "プレガバリンOD錠75mg「JG」", "u": "1 ME", "mark": true }
+      ]]
+    },
+    {
+      "id": "rx08", "days": 17, "footer": "aod", "theme": "先発名で印字（採用は後発）、半端な日数",
+      "pages": [[
+        { "name": "ノルバスク錠5mg", "u": "1 M", "tricks": ["brand_generic_stock"] },
+        { "name": "リピトール錠10mg", "u": "1 E", "tricks": ["brand_generic_stock"] },
+        { "name": "パリエット錠10mg", "u": "1 M", "tricks": ["brand_generic_stock"] },
+        { "name": "ムコスタ錠100mg", "u": "1 MNE", "tricks": ["brand_generic_stock"] },
+        { "name": "マグミット錠330mg", "u": "2 ME", "tricks": ["brand_generic_stock"] },
+        { "name": "ガスモチン錠5mg", "u": "1 MNE", "tricks": ["brand_generic_stock"] }
+      ]]
+    },
+    {
+      "id": "rx09", "days": 9, "footer": "aod", "theme": "1回2〜3錠、カプセル、就寝前だけの薬",
+      "pages": [[
+        { "name": "メトホルミン塩酸塩錠250mgMT「トーワ」", "u": "2 ME" },
+        { "name": "ウルソデオキシコール酸錠100mg「トーワ」", "u": "2 MNE" },
+        { "name": "酸化マグネシウム錠250mg「ケンエー」", "u": "2 MNE" },
+        { "name": "イコサペント酸エチルカプセル300mg「サワイ」", "u": "3 ME" },
+        { "name": "グリメピリド錠1mg「サワイ」", "u": "1 M" },
+        { "name": "センノシド錠12mg「サワイ」", "u": "2 HS" }
+      ]]
+    },
+    {
+      "id": "rx10", "days": 14, "footer": "aod", "theme": "2ページ、透析の薬、(Na)、括弧の補足",
+      "pages": [[
+        { "name": "ダーブロック錠4mg", "note": "通院HD患者は院内処方", "u": "2 E", "mark": true },
+        { "name": "炭酸ランタンOD錠250mg「トーワ」", "u": "1 MNE" },
+        { "name": "沈降炭酸カルシウム錠500mg「三和」", "u": "2 MNE" },
+        { "name": "(Na)炭酸水素ナトリウム錠500mg「VTRS」", "u": "1 MNE" },
+        { "name": "フェブキソスタット錠10mg「サワイ」", "u": "1 M" }
+      ], [
+        { "name": "オルケディア錠4mg", "u": "2 E", "mark": true },
+        { "name": "アルファカルシドールカプセル0.5μg「サワイ」", "u": "1 M", "sep": true },
+        { "name": "カルベジロール錠2.5mg「サワイ」", "u": "1 ME" },
+        { "name": "リオナ錠250mg", "u": "2 MNE" }
+      ]]
+    },
+    {
+      "id": "rx11", "days": 30, "footer": "plain", "theme": "一包化の指示なし（All One Dose が無い）",
+      "pages": [[
+        { "name": "テルミサルタン錠40mg「サワイ」", "u": "1 M" },
+        { "name": "アトルバスタチン錠10mg「サワイ」", "u": "1 E" },
+        { "name": "ビソプロロールフマル酸塩錠2.5mg「サワイ」", "u": "1 M" },
+        { "name": "バイアスピリン錠100mg", "u": "1 M" },
+        { "name": "ファモチジン錠20mg「トーワ」", "u": "1 ME" },
+        { "name": "エゼチミブ錠10mg「サワイ」", "u": "1 M" }
+      ]]
+    },
+    {
+      "id": "rx12", "days": 28, "footer": "aod", "include_all_note": "アミティーザ・リリカも含めて一包化", "theme": "「○○も含めて一包化」、カプセル、就寝前",
+      "pages": [[
+        { "name": "アミティーザカプセル12μg", "u": "1 ME" },
+        { "name": "リリカカプセル75mg", "u": "1 ME" },
+        { "name": "ベタニス錠50mg", "u": "1 M" },
+        { "name": "タムスロシン塩酸塩OD錠0.2mg「サワイ」", "u": "1 E" },
+        { "name": "(K)アスパラカリウム錠300mg", "u": "2 ME" },
+        { "name": "エチゾラム錠0.5mg「トーワ」", "u": "1 HS" }
+      ]]
+    },
+    {
+      "id": "rx13", "days": 11, "footer": "aod", "theme": "括弧の補足、似た名前（ロサルタン／ロスバスタチン）",
+      "pages": [[
+        { "name": "ロサルタンカリウム錠50mg「サワイ」", "u": "1 M", "tricks": ["lookalike"] },
+        { "name": "ロスバスタチン錠2.5mg「サワイ」", "u": "1 E", "tricks": ["lookalike"] },
+        { "name": "ジャヌビア錠50mg", "u": "1 M" },
+        { "name": "ジャディアンス錠10mg", "note": "持参薬がなくなり次第開始", "u": "1 M" },
+        { "name": "メトグルコ錠500mg", "u": "1 ME" },
+        { "name": "ラベプラゾールNa錠10mg「オーハラ」", "note": "粉砕不可", "u": "1 E" },
+        { "name": "フォリアミン錠5mg", "u": "1 M", "mark": true }
+      ]]
+    },
+    {
+      "id": "rx14", "days": 35, "footer": "aod", "theme": "□コ と別包と 2-0-1 が同じ行、利尿薬",
+      "pages": [[
+        { "name": "(K)アスパラカリウム錠300mg", "u": "p:2-0-1-0-0-0", "mark": true, "sep": true },
+        { "name": "エリキュース錠5mg", "u": "1 ME", "mark": true },
+        { "name": "シベンゾリンコハク酸塩錠100mg「トーワ」", "u": "1 ME", "mark": true },
+        { "name": "ジゴシン錠0.125mg", "u": "1 M" },
+        { "name": "アゾセミド錠60mg「JG」", "u": "1 M" },
+        { "name": "トラセミド錠4mg「KO」", "u": "1 M" },
+        { "name": "アルダクトンA錠25mg", "u": "1 M" }
+      ]]
+    },
+    {
+      "id": "rx15", "days": 42, "footer": "aod", "theme": "2ページ、【般】の徐放錠（12時間／24時間持続）、就寝前の 0-0-0-2",
+      "pages": [[
+        { "name": "【般】アムロジピン口腔内崩壊錠5mg", "product": "アムロジピンOD錠5mg「サワイ」", "u": "1 M", "tricks": ["lookalike"] },
+        { "name": "【般】ニフェジピン徐放錠20mg", "note": "24時間持続", "product": "ニフェジピンCR錠20mg「サワイ」", "u": "1 M", "tricks": ["lookalike"] },
+        { "name": "【般】ニフェジピン徐放錠10mg", "note": "12時間持続", "product": "ニフェジピンL錠10mg「サワイ」", "u": "1 ME", "tricks": ["lookalike"] },
+        { "name": "アジルサルタン錠20mg「ニプロ」", "u": "1 M" },
+        { "name": "ドンペリドン錠10mg「サワイ」", "u": "1 MNE" },
+        { "name": "レバミピド錠100mg「サワイ」", "u": "1 MNE" }
+      ], [
+        { "name": "ゾルピデム酒石酸塩錠5mg「サワイ」", "u": "1 HS" },
+        { "name": "リボトリール錠0.5mg", "u": "2 E", "mark": true },
+        { "name": "クエン酸第一鉄Na錠50mg「NIG」", "u": "1 E", "sep": true },
+        { "name": "センノシド錠12mg「サワイ」", "u": "p:0-0-0-2-0-0" }
+      ]]
+    },
+    {
+      "id": "rx16", "days": 14, "footer": "aod", "theme": "配合錠（規格の数字が無い）",
+      "pages": [[
+        { "name": "ユニシア配合錠HD", "u": "1 M", "tricks": ["combo"] },
+        { "name": "ノイロビタン配合錠", "u": "1 MNE", "tricks": ["combo"] },
+        { "name": "ウラリット配合錠", "u": "2 MNE", "tricks": ["combo"] },
+        { "name": "バファリン配合錠A81", "u": "1 M", "tricks": ["combo"] },
+        { "name": "ロキソプロフェンNa錠60mg「サワイ」", "u": "1 MNE" },
+        { "name": "ドキサゾシン錠1mg「トーワ」", "u": "1 E", "mark": true }
+      ]]
+    },
+    {
+      "id": "rx17", "days": 19, "footer": "aod", "theme": "昼食後だけ・昼夕・朝昼、就寝前を含む 1-0-1-1",
+      "pages": [[
+        { "name": "ラベプラゾールNa錠10mg「オーハラ」", "u": "1 N" },
+        { "name": "モサプリドクエン酸塩錠5mg「AA」", "u": "1 MNE" },
+        { "name": "メチコバール錠500μg", "u": "1 NE" },
+        { "name": "ピタバスタチンCa錠2mg「日医工」", "u": "1 E" },
+        { "name": "プレガバリンOD錠75mg「JG」", "u": "p:1-0-1-1-0-0", "mark": true },
+        { "name": "アロプリノール錠100mg「サワイ」", "u": "1 MN" }
+      ]]
+    },
+    {
+      "id": "rx18", "days": 28, "footer": "aod", "theme": "先発名、ワーファリン 2 規格、心不全の薬",
+      "pages": [[
+        { "name": "ワーファリン錠1mg", "u": "2 M", "tricks": ["multi_strength"] },
+        { "name": "ワーファリン錠0.5mg", "u": "1 M", "tricks": ["multi_strength"] },
+        { "name": "エンレスト錠200mg", "u": "1 ME" },
+        { "name": "アーチスト錠10mg", "u": "1 ME", "tricks": ["brand_generic_stock"] },
+        { "name": "ラシックス錠20mg", "u": "2 M", "tricks": ["brand_generic_stock"] },
+        { "name": "ジャディアンス錠10mg", "u": "1 M" },
+        { "name": "ダーブロック錠4mg", "u": "1 E", "mark": true }
+      ]]
+    },
+    {
+      "id": "rx19", "days": 5, "footer": "aod", "theme": "カプセルと別包が多い、単位 mEq、3-2-0",
+      "pages": [[
+        { "name": "エソメプラゾールカプセル20mg「サワイ」", "u": "1 E" },
+        { "name": "イコサペント酸エチルカプセル300mg「サワイ」", "u": "2 MNE", "sep": true },
+        { "name": "アルファカルシドールカプセル1μg「サワイ」", "u": "1 M" },
+        { "name": "エディロールカプセル0.75μg", "u": "1 M", "sep": true },
+        { "name": "グルコンサンK錠5mEq", "u": "2 ME", "sep": true, "tricks": ["unit_meq"] },
+        { "name": "プレドニゾロン錠5mg「NP」", "u": "p:3-2-0-0-0-0" },
+        { "name": "ファモチジン錠20mg「トーワ」", "u": "1 ME" }
+      ]]
+    },
+    {
+      "id": "rx20", "days": 13, "footer": "aod", "theme": "2ページ、全部まぜ（□コ＋(K)、【般】と別規格、2-1-2）",
+      "pages": [[
+        { "name": "(K)アスパラカリウム錠300mg", "u": "1 MNE", "mark": true },
+        { "name": "【般】カルベジロール錠2.5mg", "product": "カルベジロール錠2.5mg「サワイ」", "u": "2 ME", "tricks": ["multi_strength"] },
+        { "name": "カルベジロール錠10mg「トーワ」", "u": "1 M", "tricks": ["multi_strength"] },
+        { "name": "アムロジピンOD錠2.5mg「武田テバ」", "u": "1 E" },
+        { "name": "ニフェジピンCR錠40mg「サワイ」", "u": "1 M" },
+        { "name": "エナラプリルマレイン酸塩錠5mg「トーワ」", "u": "1 M" }
+      ], [
+        { "name": "(Ca)アスパラ-CA錠200mg", "u": "3 MNE", "sep": true },
+        { "name": "エリキュース錠2.5mg", "u": "1 ME", "mark": true },
+        { "name": "メチコバール錠250μg", "u": "1 MNE", "tricks": ["lookalike"] },
+        { "name": "ブロチゾラムOD錠0.25mg「サワイ」", "u": "1 HS" },
+        { "name": "ウルソデオキシコール酸錠100mg「トーワ」", "u": "p:2-1-2-0-0-0" }
+      ]]
+    }
+  ]
+}

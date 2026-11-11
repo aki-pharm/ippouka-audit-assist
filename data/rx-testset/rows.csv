@@ -1,0 +1,146 @@
+rx,rp,page,name_as_written,product,total,tricks
+rx01,01,1,アムロジピン錠5mg「サワイ」,アムロジピン錠5mg「サワイ」,28,
+rx01,02,1,カンデサルタン錠8mg「サワイ」,カンデサルタン錠8mg「サワイ」,28,
+rx01,03,1,ロスバスタチン錠5mg「DSEP」,ロスバスタチン錠5mg「DSEP」,28,
+rx01,04,1,ランソプラゾールOD錠15mg「武田テバ」,ランソプラゾールOD錠15mg「武田テバ」,28,
+rx01,05,1,酸化マグネシウム錠330mg「ヨシダ」,酸化マグネシウム錠330mg「ヨシダ」,84,
+rx01,06,1,フォリアミン錠5mg,フォリアミン錠5mg,28,manual_mark
+rx02,01,1,シベンゾリンコハク酸塩錠50mg「サワイ」,シベンゾリンコハク酸塩錠50mg「サワイ」,56,manual_mark two_per_dose
+rx02,02,1,エリキュース錠2.5mg,エリキュース錠2.5mg,28,manual_mark
+rx02,03,1,カルベジロール錠2.5mg「サワイ」,カルベジロール錠2.5mg「サワイ」,28,multi_strength two_per_dose
+rx02,04,1,カルベジロール錠10mg「トーワ」,カルベジロール錠10mg「トーワ」,14,multi_strength
+rx02,05,1,ドキサゾシン錠1mg「トーワ」,ドキサゾシン錠1mg「トーワ」,14,manual_mark
+rx02,06,1,ピタバスタチンCa錠2mg「日医工」,ピタバスタチンCa錠2mg「日医工」,14,
+rx02,07,1,オルケディア錠4mg,オルケディア錠4mg,42,manual_mark two_per_dose
+rx03,01,1,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,84,prefix separate_pack
+rx03,02,1,エルデカルシトールカプセル0.75μg「サワイ」,エルデカルシトールカプセル0.75μg「サワイ」,28,capsule separate_pack
+rx03,03,1,(Ca)アスパラ-CA錠200mg,アスパラ-CA錠200mg,112,prefix separate_pack two_per_dose
+rx03,04,1,メチコバール錠500μg,メチコバール錠500μg,84,
+rx03,05,1,モサプリドクエン酸塩錠5mg「AA」,モサプリドクエン酸塩錠5mg「AA」,84,
+rx03,06,1,クエン酸第一鉄Na錠50mg「NIG」,クエン酸第一鉄Na錠50mg「NIG」,56,
+rx03,07,1,ワーファリン錠1mg,ワーファリン錠1mg,56,two_per_dose
+rx04,01,1,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,84,nonuniform_dosing prefix two_per_dose
+rx04,02,1,フロセミド錠20mg「NP」,フロセミド錠20mg「NP」,84,nonuniform_dosing two_per_dose
+rx04,03,1,スピロノラクトン錠25mg「トーワ」,スピロノラクトン錠25mg「トーワ」,28,
+rx04,04,1,ワーファリン錠1mg,ワーファリン錠1mg,84,multi_strength two_per_dose
+rx04,05,1,ワーファリン錠0.5mg,ワーファリン錠0.5mg,28,multi_strength
+rx04,06,1,アゾセミド錠30mg「JG」,アゾセミド錠30mg「JG」,28,
+rx04,07,1,プレドニゾロン錠5mg「NP」,プレドニゾロン錠5mg「NP」,84,nonuniform_dosing two_per_dose
+rx05,01,1,【般】アムロジピン錠5mg,アムロジピン錠5mg「サワイ」,28,general_name
+rx05,02,1,【般】カンデサルタン錠8mg,カンデサルタン錠8mg「サワイ」,28,general_name
+rx05,03,1,【般】ランソプラゾール腸溶性口腔内崩壊錠15mg,ランソプラゾールOD錠15mg「武田テバ」,28,general_name
+rx05,04,1,【般】ロスバスタチン錠5mg,ロスバスタチン錠5mg「DSEP」,28,general_name
+rx05,05,1,【般】酸化マグネシウム錠330mg,酸化マグネシウム錠330mg「ヨシダ」,84,general_name
+rx05,06,1,【般】エチゾラム錠0.5mg,エチゾラム錠0.5mg「トーワ」,56,general_name
+rx05,07,2,フォリアミン錠5mg,フォリアミン錠5mg,28,manual_mark page2
+rx05,08,2,【般】メコバラミン錠500μg,メチコバール錠500μg,84,general_name page2
+rx05,09,2,【般】アロプリノール錠100mg,アロプリノール錠100mg「サワイ」,56,general_name page2
+rx05,10,2,クロピドグレル錠75mg「トーワ」,クロピドグレル錠75mg「トーワ」,28,page2
+rx06,01,1,ニフェジピンCR錠20mg「サワイ」,ニフェジピンCR錠20mg「サワイ」,28,lookalike
+rx06,02,1,ニフェジピンL錠10mg「サワイ」,ニフェジピンL錠10mg「サワイ」,56,lookalike
+rx06,03,1,アムロジピンOD錠10mg「武田テバ」,アムロジピンOD錠10mg「武田テバ」,28,lookalike
+rx06,04,1,アムロジピン錠2.5mg「サワイ」,アムロジピン錠2.5mg「サワイ」,28,lookalike
+rx06,05,1,タケキャブ錠10mg,タケキャブ錠10mg,28,
+rx06,06,1,リクシアナOD錠30mg,リクシアナOD錠30mg,28,lookalike
+rx06,07,1,ドネペジル塩酸塩OD錠5mg「サワイ」,ドネペジル塩酸塩OD錠5mg「サワイ」,28,
+rx07,01,1,アムロジピンOD錠10mg「武田テバ」,アムロジピンOD錠10mg「武田テバ」,21,multi_strength
+rx07,02,1,アムロジピンOD錠2.5mg「武田テバ」,アムロジピンOD錠2.5mg「武田テバ」,21,multi_strength
+rx07,03,1,ニフェジピンCR錠20mg「サワイ」,ニフェジピンCR錠20mg「サワイ」,21,multi_strength
+rx07,04,1,ニフェジピンCR錠10mg「サワイ」,ニフェジピンCR錠10mg「サワイ」,21,multi_strength
+rx07,05,1,カルベジロール錠10mg「トーワ」,カルベジロール錠10mg「トーワ」,21,multi_strength
+rx07,06,1,カルベジロール錠2.5mg「サワイ」,カルベジロール錠2.5mg「サワイ」,21,multi_strength
+rx07,07,1,プレガバリンOD錠75mg「JG」,プレガバリンOD錠75mg「JG」,42,manual_mark
+rx08,01,1,ノルバスク錠5mg,ノルバスク錠5mg,17,brand_generic_stock odd_days
+rx08,02,1,リピトール錠10mg,リピトール錠10mg,17,brand_generic_stock odd_days
+rx08,03,1,パリエット錠10mg,パリエット錠10mg,17,brand_generic_stock odd_days
+rx08,04,1,ムコスタ錠100mg,ムコスタ錠100mg,51,brand_generic_stock odd_days
+rx08,05,1,マグミット錠330mg,マグミット錠330mg,68,brand_generic_stock odd_days two_per_dose
+rx08,06,1,ガスモチン錠5mg,ガスモチン錠5mg,51,brand_generic_stock odd_days
+rx09,01,1,メトホルミン塩酸塩錠250mgMT「トーワ」,メトホルミン塩酸塩錠250mgMT「トーワ」,36,odd_days two_per_dose
+rx09,02,1,ウルソデオキシコール酸錠100mg「トーワ」,ウルソデオキシコール酸錠100mg「トーワ」,54,odd_days two_per_dose
+rx09,03,1,酸化マグネシウム錠250mg「ケンエー」,酸化マグネシウム錠250mg「ケンエー」,54,odd_days two_per_dose
+rx09,04,1,イコサペント酸エチルカプセル300mg「サワイ」,イコサペント酸エチルカプセル300mg「サワイ」,54,capsule odd_days two_per_dose
+rx09,05,1,グリメピリド錠1mg「サワイ」,グリメピリド錠1mg「サワイ」,9,odd_days
+rx09,06,1,センノシド錠12mg「サワイ」,センノシド錠12mg「サワイ」,18,bedtime odd_days two_per_dose
+rx10,01,1,ダーブロック錠4mg,ダーブロック錠4mg,28,manual_mark name_note two_per_dose
+rx10,02,1,炭酸ランタンOD錠250mg「トーワ」,炭酸ランタンOD錠250mg「トーワ」,42,
+rx10,03,1,沈降炭酸カルシウム錠500mg「三和」,沈降炭酸カルシウム錠500mg「三和」,84,two_per_dose
+rx10,04,1,(Na)炭酸水素ナトリウム錠500mg「VTRS」,炭酸水素ナトリウム錠500mg「VTRS」,42,prefix
+rx10,05,1,フェブキソスタット錠10mg「サワイ」,フェブキソスタット錠10mg「サワイ」,14,
+rx10,06,2,オルケディア錠4mg,オルケディア錠4mg,28,manual_mark page2 two_per_dose
+rx10,07,2,アルファカルシドールカプセル0.5μg「サワイ」,アルファカルシドールカプセル0.5μg「サワイ」,14,capsule page2 separate_pack
+rx10,08,2,カルベジロール錠2.5mg「サワイ」,カルベジロール錠2.5mg「サワイ」,28,page2
+rx10,09,2,リオナ錠250mg,リオナ錠250mg,84,page2 two_per_dose
+rx11,01,1,テルミサルタン錠40mg「サワイ」,テルミサルタン錠40mg「サワイ」,30,
+rx11,02,1,アトルバスタチン錠10mg「サワイ」,アトルバスタチン錠10mg「サワイ」,30,
+rx11,03,1,ビソプロロールフマル酸塩錠2.5mg「サワイ」,ビソプロロールフマル酸塩錠2.5mg「サワイ」,30,
+rx11,04,1,バイアスピリン錠100mg,バイアスピリン錠100mg,30,
+rx11,05,1,ファモチジン錠20mg「トーワ」,ファモチジン錠20mg「トーワ」,60,
+rx11,06,1,エゼチミブ錠10mg「サワイ」,エゼチミブ錠10mg「サワイ」,30,
+rx12,01,1,アミティーザカプセル12μg,アミティーザカプセル12μg,56,capsule
+rx12,02,1,リリカカプセル75mg,リリカカプセル75mg,56,capsule
+rx12,03,1,ベタニス錠50mg,ベタニス錠50mg,28,
+rx12,04,1,タムスロシン塩酸塩OD錠0.2mg「サワイ」,タムスロシン塩酸塩OD錠0.2mg「サワイ」,28,
+rx12,05,1,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,112,prefix two_per_dose
+rx12,06,1,エチゾラム錠0.5mg「トーワ」,エチゾラム錠0.5mg「トーワ」,28,bedtime
+rx13,01,1,ロサルタンカリウム錠50mg「サワイ」,ロサルタンカリウム錠50mg「サワイ」,11,lookalike odd_days
+rx13,02,1,ロスバスタチン錠2.5mg「サワイ」,ロスバスタチン錠2.5mg「サワイ」,11,lookalike odd_days
+rx13,03,1,ジャヌビア錠50mg,ジャヌビア錠50mg,11,odd_days
+rx13,04,1,ジャディアンス錠10mg,ジャディアンス錠10mg,11,name_note odd_days
+rx13,05,1,メトグルコ錠500mg,メトグルコ錠500mg,22,odd_days
+rx13,06,1,ラベプラゾールNa錠10mg「オーハラ」,ラベプラゾールNa錠10mg「オーハラ」,11,name_note odd_days
+rx13,07,1,フォリアミン錠5mg,フォリアミン錠5mg,11,manual_mark odd_days
+rx14,01,1,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,105,manual_mark nonuniform_dosing prefix separate_pack two_per_dose
+rx14,02,1,エリキュース錠5mg,エリキュース錠5mg,70,manual_mark
+rx14,03,1,シベンゾリンコハク酸塩錠100mg「トーワ」,シベンゾリンコハク酸塩錠100mg「トーワ」,70,manual_mark
+rx14,04,1,ジゴシン錠0.125mg,ジゴシン錠0.125mg,35,
+rx14,05,1,アゾセミド錠60mg「JG」,アゾセミド錠60mg「JG」,35,
+rx14,06,1,トラセミド錠4mg「KO」,トラセミド錠4mg「KO」,35,
+rx14,07,1,アルダクトンA錠25mg,アルダクトンA錠25mg,35,
+rx15,01,1,【般】アムロジピン口腔内崩壊錠5mg,アムロジピンOD錠5mg「サワイ」,42,general_name lookalike
+rx15,02,1,【般】ニフェジピン徐放錠20mg,ニフェジピンCR錠20mg「サワイ」,42,general_name lookalike name_note
+rx15,03,1,【般】ニフェジピン徐放錠10mg,ニフェジピンL錠10mg「サワイ」,84,general_name lookalike name_note
+rx15,04,1,アジルサルタン錠20mg「ニプロ」,アジルサルタン錠20mg「ニプロ」,42,
+rx15,05,1,ドンペリドン錠10mg「サワイ」,ドンペリドン錠10mg「サワイ」,126,
+rx15,06,1,レバミピド錠100mg「サワイ」,レバミピド錠100mg「サワイ」,126,
+rx15,07,2,ゾルピデム酒石酸塩錠5mg「サワイ」,ゾルピデム酒石酸塩錠5mg「サワイ」,42,bedtime page2
+rx15,08,2,リボトリール錠0.5mg,リボトリール錠0.5mg,84,manual_mark page2 two_per_dose
+rx15,09,2,クエン酸第一鉄Na錠50mg「NIG」,クエン酸第一鉄Na錠50mg「NIG」,42,page2 separate_pack
+rx15,10,2,センノシド錠12mg「サワイ」,センノシド錠12mg「サワイ」,84,bedtime nonuniform_dosing page2 two_per_dose
+rx16,01,1,ユニシア配合錠HD,ユニシア配合錠HD,14,combo
+rx16,02,1,ノイロビタン配合錠,ノイロビタン配合錠,42,combo
+rx16,03,1,ウラリット配合錠,ウラリット配合錠,84,combo two_per_dose
+rx16,04,1,バファリン配合錠A81,バファリン配合錠A81,14,combo
+rx16,05,1,ロキソプロフェンNa錠60mg「サワイ」,ロキソプロフェンNa錠60mg「サワイ」,42,
+rx16,06,1,ドキサゾシン錠1mg「トーワ」,ドキサゾシン錠1mg「トーワ」,14,manual_mark
+rx17,01,1,ラベプラゾールNa錠10mg「オーハラ」,ラベプラゾールNa錠10mg「オーハラ」,19,odd_days
+rx17,02,1,モサプリドクエン酸塩錠5mg「AA」,モサプリドクエン酸塩錠5mg「AA」,57,odd_days
+rx17,03,1,メチコバール錠500μg,メチコバール錠500μg,38,odd_days
+rx17,04,1,ピタバスタチンCa錠2mg「日医工」,ピタバスタチンCa錠2mg「日医工」,19,odd_days
+rx17,05,1,プレガバリンOD錠75mg「JG」,プレガバリンOD錠75mg「JG」,57,bedtime manual_mark nonuniform_dosing odd_days
+rx17,06,1,アロプリノール錠100mg「サワイ」,アロプリノール錠100mg「サワイ」,38,odd_days
+rx18,01,1,ワーファリン錠1mg,ワーファリン錠1mg,56,multi_strength two_per_dose
+rx18,02,1,ワーファリン錠0.5mg,ワーファリン錠0.5mg,28,multi_strength
+rx18,03,1,エンレスト錠200mg,エンレスト錠200mg,56,
+rx18,04,1,アーチスト錠10mg,アーチスト錠10mg,56,brand_generic_stock
+rx18,05,1,ラシックス錠20mg,ラシックス錠20mg,56,brand_generic_stock two_per_dose
+rx18,06,1,ジャディアンス錠10mg,ジャディアンス錠10mg,28,
+rx18,07,1,ダーブロック錠4mg,ダーブロック錠4mg,28,manual_mark
+rx19,01,1,エソメプラゾールカプセル20mg「サワイ」,エソメプラゾールカプセル20mg「サワイ」,5,capsule odd_days
+rx19,02,1,イコサペント酸エチルカプセル300mg「サワイ」,イコサペント酸エチルカプセル300mg「サワイ」,30,capsule odd_days separate_pack two_per_dose
+rx19,03,1,アルファカルシドールカプセル1μg「サワイ」,アルファカルシドールカプセル1μg「サワイ」,5,capsule odd_days
+rx19,04,1,エディロールカプセル0.75μg,エディロールカプセル0.75μg,5,capsule odd_days separate_pack
+rx19,05,1,グルコンサンK錠5mEq,グルコンサンK錠5mEq,20,odd_days separate_pack two_per_dose unit_meq
+rx19,06,1,プレドニゾロン錠5mg「NP」,プレドニゾロン錠5mg「NP」,25,nonuniform_dosing odd_days two_per_dose
+rx19,07,1,ファモチジン錠20mg「トーワ」,ファモチジン錠20mg「トーワ」,10,odd_days
+rx20,01,1,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,39,manual_mark odd_days prefix
+rx20,02,1,【般】カルベジロール錠2.5mg,カルベジロール錠2.5mg「サワイ」,52,general_name multi_strength odd_days two_per_dose
+rx20,03,1,カルベジロール錠10mg「トーワ」,カルベジロール錠10mg「トーワ」,13,multi_strength odd_days
+rx20,04,1,アムロジピンOD錠2.5mg「武田テバ」,アムロジピンOD錠2.5mg「武田テバ」,13,odd_days
+rx20,05,1,ニフェジピンCR錠40mg「サワイ」,ニフェジピンCR錠40mg「サワイ」,13,odd_days
+rx20,06,1,エナラプリルマレイン酸塩錠5mg「トーワ」,エナラプリルマレイン酸塩錠5mg「トーワ」,13,odd_days
+rx20,07,2,(Ca)アスパラ-CA錠200mg,アスパラ-CA錠200mg,117,odd_days page2 prefix separate_pack two_per_dose
+rx20,08,2,エリキュース錠2.5mg,エリキュース錠2.5mg,26,manual_mark odd_days page2
+rx20,09,2,メチコバール錠250μg,メチコバール錠250μg,39,lookalike odd_days page2
+rx20,10,2,ブロチゾラムOD錠0.25mg「サワイ」,ブロチゾラムOD錠0.25mg「サワイ」,13,bedtime odd_days page2
+rx20,11,2,ウルソデオキシコール酸錠100mg「トーワ」,ウルソデオキシコール酸錠100mg「トーワ」,65,nonuniform_dosing odd_days page2 two_per_dose

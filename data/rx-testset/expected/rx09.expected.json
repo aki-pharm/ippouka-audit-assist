@@ -1,0 +1,127 @@
+{
+ "items": [
+  {
+   "rp": "01",
+   "name_as_written": "メトホルミン塩酸塩錠250mgMT「トーワ」",
+   "name_note": null,
+   "strength": "250mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 2,
+   "times_per_day": 2,
+   "dose_per_day": 4,
+   "per_timing": {
+    "morning": 2,
+    "noon": 0,
+    "evening": 2
+   },
+   "days": 9,
+   "raw_usage_text": "1回2錠（1日4錠） 1日2回 朝夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "02",
+   "name_as_written": "ウルソデオキシコール酸錠100mg「トーワ」",
+   "name_note": null,
+   "strength": "100mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 2,
+   "times_per_day": 3,
+   "dose_per_day": 6,
+   "per_timing": {
+    "morning": 2,
+    "noon": 2,
+    "evening": 2
+   },
+   "days": 9,
+   "raw_usage_text": "1回2錠（1日6錠） 1日3回 毎食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "03",
+   "name_as_written": "酸化マグネシウム錠250mg「ケンエー」",
+   "name_note": null,
+   "strength": "250mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 2,
+   "times_per_day": 3,
+   "dose_per_day": 6,
+   "per_timing": {
+    "morning": 2,
+    "noon": 2,
+    "evening": 2
+   },
+   "days": 9,
+   "raw_usage_text": "1回2錠（1日6錠） 1日3回 毎食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "04",
+   "name_as_written": "イコサペント酸エチルカプセル300mg「サワイ」",
+   "name_note": null,
+   "strength": "300mg",
+   "dosage_form": "capsule",
+   "dose_per_time": 3,
+   "times_per_day": 2,
+   "dose_per_day": 6,
+   "per_timing": {
+    "morning": 3,
+    "noon": 0,
+    "evening": 3
+   },
+   "days": 9,
+   "raw_usage_text": "1回3Cap（1日6Cap） 1日2回 朝夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "05",
+   "name_as_written": "グリメピリド錠1mg「サワイ」",
+   "name_note": null,
+   "strength": "1mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 9,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "06",
+   "name_as_written": "センノシド錠12mg「サワイ」",
+   "name_note": null,
+   "strength": "12mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 2,
+   "times_per_day": 1,
+   "dose_per_day": 2,
+   "per_timing": {
+    "morning": 0,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 9,
+   "raw_usage_text": "1回2錠（1日2錠） 1日1回 就寝前",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  }
+ ],
+ "all_one_dose": true,
+ "include_all_note": null,
+ "notes": null
+}

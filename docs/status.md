@@ -53,6 +53,20 @@
 
 ## 報告（新しいものを上に）
 
+### 2026-11-11 作業：処方箋読み取りのテストセットと自動採点（ブランチ `feature/rx-testset`、main には入れていない）
+1. 架空処方箋 **20 件・145 行・24 ページ**（2 ページの処方 4 件）。定義は `data/rx-testset/prescriptions.json`、`node scripts/make-rx-testset.cjs` で正解 JSON（/api/read-rx の result と同じ形）・`rows.csv`（行ごとの狙い）・PNG 24 枚・印刷用 PDF（A4 24 ページ）を作る。全 145 行の製品名が master.json か親マスタに実在することを生成時に確かめる（【般】12 行は対応する製品名で確かめた）
+2. 狙いの行数：□コ 19／別包 10／1-0-2 形式 8／【般】12／2 ページ目 17／似た名前 11／同じ薬の別規格 14／1回2錠以上 32／半端な日数 43／接頭辞 8／先発名 8／括弧の補足 5／カプセル 9／就寝前 6／配合錠 4／mEq 1。All One Dose なし 1 件、「○○も含めて一包化」1 件
+3. この環境で描けた：node_modules は無いが、グローバルの playwright（@playwright/mcp に同梱）と /usr/bin/google-chrome、OS の Noto Sans CJK JP で **PNG 24 枚と PDF を実際に作った**（全ページ A4 1 枚に収まることを確かめた。rx13 の 2 行は括弧の補足で薬品名が折り返す）。npm install 済みなら make-samples.cjs と同じく playwright＋@fontsource で動く
+4. 崩れた画像：`python3 scripts/make-rx-variants.py`（Pillow）。10 種（clean・±8°回転・台形・暗い・ぼけ・JPEG15・はみ出し・反射・スマホ風）× 24 枚 = **240 枚**を `captures/rx-testset/variants/` に作った（git に入らない）
+5. 採点：`scripts/eval/score-rx.cjs`（品質の持ち場だが今回は依頼で作業が作った。**品質の担当の検査待ち**）。行は順番に頼らず対応づけ（名前の近さ＋規格・Rp・朝昼夕で合計点最大）、抜け・余分を数える。項目別・狙い別・条件別・撮影者別・機器別・処方別、□コ・別包は取りこぼし／付けすぎ。正規化は lib/master.ts の写しで、本体が変わると警告する。こちらで確かめたのは：正解どうし 145/145、わざと崩した 6 ファイル（順番を逆、行を抜く、余分な行、□コ・別包・朝昼夕の誤り、OD→ふつうの錠、読み取り失敗）で期待どおりの数
+6. ランナー：`npx tsx scripts/read-rx-batch.ts`（--model、--max-usd 既定 $2、--only、--dry-run、続きから）。アプリと同じ呼び方にするため、route.ts の Claude 呼び出しを `lib/readRx.ts` に移し、route.ts とランナーの両方から使う（route.ts の変更はこの移動だけ）。`next build`／`tsc` は node_modules が無く未実行。SDK を仮の型にして readRx.ts とランナーだけ tsc を通した
+7. **スモークテストは未実行**：この環境に ANTHROPIC_API_KEY も CLAUDE_API_KEY も無い。API は 1 回も呼んでいない。見積もり（clean 20 処方・24 枚、出力 3,000 トークン／回と仮定）：Opus 5.5 約 $1.6（1 処方 約 $0.08）、Sonnet 5.5 約 $0.8、Haiku 5.5 約 $0.04
+8. 説明は `docs/rx-testset.md`（写真のファイル名の決まり `rx07-1__AKI__iphone__tilt.jpg`、印刷の仕方、コマンド）。docs/ は相談の持ち場なので、置き場所が違えば移してほしい
+9. AKI に決めてほしいこと
+   - 正解の決め方 3 点：「1-0-2-0-0-0」の 1回量を null にした（rx-a のサンプルと同じ）／1-0-1-1（眠前あり）の 1日量を眠前込みの 3 にした（朝昼夕は 1-0-1 なので検算は黄色になる）／配合錠（ユニシア HD など）の規格を null にした
+   - 印刷はカラーか（□コ が青。白黒だと灰色）。A4 片面 24 枚
+   - 画像と PDF（約 5MB）を commit した。架空だが公開中のリポジトリに入る
+
 ### 2026-11-11 確認係：確認表②（検査の印がある薬の現物確認）を作った
 - `scripts/ops/build-check-sheet-2.py` を追加（運用マスタから作る。施設のデータはスクリプトに書かない）。出力は `data/private/check-sheet-2.csv/.html`、AKI には非公開の Artifact でも渡した
 - **109 件**（カセット 30、棚 79）。優先 高 13（照合で値が添付文書と食い違う可能性）／中 96。前回数えた 110 から、一包化しない印の 1 件を除いた
