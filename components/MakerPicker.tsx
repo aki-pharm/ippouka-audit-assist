@@ -12,6 +12,7 @@ import {
   type ParentStatus,
 } from "@/lib/makers";
 import type { Tablet } from "@/lib/types";
+import { previousAdopted } from "@/lib/master";
 import { TabletSvg, sizeText } from "./Tablet";
 
 export type MakerScope = "今回だけ" | "これから";
@@ -44,6 +45,7 @@ export function MakerPicker({
 
   if (!facility) return null;
   const unknown = isMakerUnknown(facility.maker_state);
+  const previous = previousAdopted(facility.drug_key); // メーカー切替で採用をやめた製品（「以前の採用」の札）
 
   async function openList() {
     setOpen(true);
@@ -133,6 +135,7 @@ export function MakerPicker({
                       <div className="flex flex-wrap items-center gap-1">
                         <b className="text-sm">{makerLabel(c)}</b>
                         <StatusBadge status={c.status} />
+                        {previous.has(c.product_key) && <span className="rounded bg-slate-500 px-1 text-white">以前の採用</span>}
                       </div>
                       <div className="text-slate-600">{c.brand_name}</div>
                       <div className="font-mono">表 {c.imprint_front} ／ 裏 {c.imprint_back}</div>

@@ -282,6 +282,10 @@ export function Flow() {
                     setChangedBy={setChangedBy}
                   />
                   {mismatch && <div className="mt-1 text-xs text-blue-800">{mismatch}</div>}
+                  {r.tablet_id && r.match_note && <div className="mt-1 text-xs text-blue-800">{r.match_note}</div>}
+                  {!r.tablet_id && r.match_status && r.match_status !== "採用品" && (
+                    <div className="mt-1 text-xs"><span className="rounded bg-slate-600 px-1 text-white">{r.match_status}</span></div>
+                  )}
                   {drawn.pending && <div className="mt-1 text-xs text-amber-900">・メーカー未確定：今のメーカーを選ぶまで、図にはこの薬を描きません</div>}
                   {flags.map((f, i) => (
                     <div key={i} className={`mt-1 text-xs ${f.level === "warn" ? "text-amber-900" : "text-slate-500"}`}>・{f.message}</div>
