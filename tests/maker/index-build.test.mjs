@@ -61,7 +61,7 @@ test("8-d. 索引は採用品で絞っていない：親マスタの全製品（
   assert.equal(inIndexProducts.length, all.length);
 });
 
-test("【不具合】製品でない行（資材）が索引に残る：「オンジェンティス錠を適正にご使用いただくために」（マルシロンの携帯カードは直った）", { todo: "scripts/build-maker-index.cjs の NOT_PRODUCT に「ご使用いただく」が無い" }, () => {
+test("直った：製品でない行（資材）が索引に残る：「オンジェンティス錠を適正にご使用いただくために」（マルシロンの携帯カードは直った）", () => {
   const names = Object.values(committed.drugs).flatMap((d) => d.products.map((p) => p.brand_name));
   assert.deepEqual(names.filter((n) => /患者|ご家族|皆様|みなさま|方へ|へ$|医療従事者|資材|携帯カード|適正|運用手順|ガイド|お願い|注意いただきたい|ください|いただく|にあたって|との併用|について|治療を受け|服用され/.test(n.normalize("NFKC"))), []);
 });
