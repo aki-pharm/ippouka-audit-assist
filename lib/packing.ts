@@ -19,7 +19,7 @@ export function defaultInclude(
 /** 読み取り結果 → 画面の行 */
 export function toRows(rx: RxReadResult): RxRow[] {
   return rx.items.map((item, i) => {
-    const m = matchTablet(item.name_as_written, item.strength);
+    const m = matchTablet(item.name_as_written, item.strength, { nameNote: item.name_note });
     const tablet = m.best ?? undefined;
     const d = defaultInclude(item, tablet, rx);
     return {
@@ -30,6 +30,8 @@ export function toRows(rx: RxReadResult): RxRow[] {
       include: d.include,
       include_default: d.include,
       include_reason: d.reason,
+      match_status: m.status,
+      match_note: m.note,
     };
   });
 }
@@ -57,8 +59,10 @@ export function checkRow(row: RxRow): CheckFlag[] {
   if (!row.tablet_id) {
     flags.push(
       row.candidates.length
-        ? { level: "warn", message: "マスタの候補が複数あります。選んでください" }
-        : { level: "warn", message: "マスタに該当がありません" },
+        ? { level: "warn", message: row.match_note ?? "マスタの候補が複数あります。選んでください" }
+        : row.match_status === "採用外（市販品あり）"
+          ? { level: "warn", message: `採用外（市販品あり）${row.match_note ? "：" + row.match_note : ""}` }
+          : { level: "warn", message: "マスタに該当がありません" },
     );
   }
   if (row.confidence === "low") flags.push({ level: "info", message: "読み取りの確度が低い行です" });

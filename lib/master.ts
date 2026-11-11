@@ -1,5 +1,8 @@
 import masterJson from "@/data/master.json";
 import { TabletSchema, type Tablet } from "./types";
+// 照合の本体（Node で単体でも動くように拡張子つきで読む。tsconfig の allowImportingTsExtensions）
+import { matchRx, previousProductKeys, type Match, type MatchOptions } from "./matching.ts";
+import { MATCH_DATA } from "./match-data.ts";
 
 let cache: Tablet[] | null = null;
 
@@ -47,69 +50,19 @@ export function baseName(s: string): string {
   return m ? m[1] : n.replace(/\d.*$/, "");
 }
 
-export type MatchResult = {
-  best: Tablet | null;
-  candidates: Tablet[];
-  substituted: boolean; // 処方箋の表記とメーカー等が違う採用品に置き換えた
-};
+export type MatchResult = Match<Tablet>;
 
 /**
- * 処方箋の表記をマスタと照合する。
- * 優先：製品名＋メーカー一致 > 製品名一致 > 一般名＋規格一致（採用品に置き換え）
+ * 処方箋の表記をマスタ（施設の採用品）と照合する。中身は lib/matching.ts の matchRx（薬の鍵＝成分・規格・剤形で照合）。
+ * 戻り値の best・candidates・substituted は前と同じ。status（採用品／採用外（市販品あり）／該当なし）・note・previous なども返す
  */
-export function matchTablet(nameAsWritten: string, strength?: string | null): MatchResult {
-  const master = loadMaster();
-  const written = normalize(nameAsWritten);
-  const writtenNoMaker = stripPrefix(normalize(stripMaker(nameAsWritten)));
-  const writtenStrength = strength ? normalize(strength) : extractStrength(nameAsWritten);
-  const writtenBase = baseName(nameAsWritten);
-
-  const exact = master.filter((t) => normalize(t.brand_name) === written);
-  if (exact.length) return { best: pick(exact), candidates: exact, substituted: false };
-
-  // 別名（一般名処方の表記、添付文書上の正式名など）。同じメーカーの表記ゆれなら「置き換え」ではない
-  const alias = master.filter((t) => t.aliases.some((a) => normalize(a) === written));
-  if (alias.length) {
-    const b = pick(alias);
-    const writtenMaker = nameAsWritten.match(/[「『]([^」』]*)[」』]/)?.[1];
-    const sameMaker = !!b?.maker && !!writtenMaker && normalize(b.maker) === normalize(writtenMaker);
-    return { best: b, candidates: alias, substituted: !sameMaker };
-  }
-
-  const brandNoMaker = master.filter(
-    (t) => normalize(stripMaker(t.brand_name)) === writtenNoMaker,
-  );
-  if (brandNoMaker.length) {
-    const b = pick(brandNoMaker);
-    return {
-      best: b,
-      candidates: brandNoMaker,
-      substituted: !!b && normalize(b.brand_name) !== written,
-    };
-  }
-
-  // 一般名＋規格（メーカー違い・一般名処方）
-  const byGeneric = master.filter((t) => {
-    const g = normalize(t.generic_name);
-    const sameStrength = !writtenStrength || normalize(t.strength) === writtenStrength;
-    const baseHit =
-      writtenBase.length >= 3 && (g.startsWith(writtenBase) || writtenBase.startsWith(g.slice(0, Math.max(3, g.length - 4))));
-    const brandBase = baseName(t.brand_name);
-    const brandHit = writtenBase.length >= 3 && brandBase === writtenBase;
-    return sameStrength && (baseHit || brandHit);
-  });
-  if (byGeneric.length) {
-    const adopted = byGeneric.filter((t) => t.adopted);
-    const pool = adopted.length ? adopted : byGeneric;
-    return { best: pool.length === 1 ? pool[0] : null, candidates: pool, substituted: true };
-  }
-  return { best: null, candidates: [], substituted: false };
+export function matchTablet(nameAsWritten: string, strength?: string | null, options: MatchOptions = {}): MatchResult {
+  return matchRx(nameAsWritten, strength, loadMaster(), MATCH_DATA, options);
 }
 
-function pick(list: Tablet[]): Tablet | null {
-  const adopted = list.filter((t) => t.adopted);
-  const pool = adopted.length ? adopted : list;
-  return pool.length === 1 ? pool[0] : null;
+/** メーカー選択で「以前の採用」の札をつける製品（メーカー切替で採用をやめたもの）の product_key */
+export function previousAdopted(drug: string | null | undefined): Set<string> {
+  return previousProductKeys(drug, loadMaster(), MATCH_DATA);
 }
 
 /** 添付文書を開くリンク。ページ番号があればそのページを直接開く（#page= はPDFビューアの慣例） */

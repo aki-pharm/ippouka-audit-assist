@@ -2,7 +2,8 @@
  "_説明": [
   "架空の施設の採用品マスタ（読み取りテストの段階 2「採用品の選択」用）。実在の施設の採用品ではない。node scripts/make-rx-facility.cjs で作る",
   "項目は data/master.json（アプリのマスタ）のうち照合に使うもの＋ maker_state（feature/maker-select の今のメーカーの状態）。id は親マスタの product_key",
-  "adopted:false は採用中止でマスタに残っているもの。maker_state が 未選択／記憶ベース（両方使用） はメーカー未確定"
+  "adopted:false は採用中止でマスタに残っているもの。maker_state が 未選択／記憶ベース（両方使用） はメーカー未確定",
+  "discontinued_reason：採用中止（adopted:false）の理由。販売終了＝候補に出さない／メーカー切替＝「以前の採用」として出す（自動では選ばない）"
  ],
  "facility": "架空施設（テスト用）",
  "products": [
@@ -987,7 +988,8 @@
    "dosage_form": "tablet",
    "adopted": false,
    "maker_state": null,
-   "aliases": []
+   "aliases": [],
+   "discontinued_reason": "販売終了"
   },
   {
    "id": "リクシアナOD錠30mg",
@@ -1052,7 +1054,8 @@
    "dosage_form": "tablet",
    "adopted": false,
    "maker_state": null,
-   "aliases": []
+   "aliases": [],
+   "discontinued_reason": "メーカー切替"
   },
   {
    "id": "ロサルタンカリウム錠50mg「JG」",

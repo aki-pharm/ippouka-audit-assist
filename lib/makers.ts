@@ -159,6 +159,17 @@ function yjSegment(group: string, name: string, yjCode: string | null | undefine
 }
 
 /**
+ * 剤形が「一覧に無い英字＋土台」（アルダクトンA錠 の A錠、チラーヂンS錠 の S錠）なら土台（錠／OD錠／カプセル）を返す。それ以外は null。
+ * 放出の印・塩の英字は対象外。照合（lib/matching.ts）で、YJ が普通の製剤（F・M）と示す製品だけを普通の錠と同じに扱うのに使う
+ */
+export function brandLetterBase(form: string): string | null {
+  const m = form.match(/^([A-Za-z]+)(錠|OD錠|カプセル)$/);
+  if (!m) return null;
+  const known = [...MARKERS.od, ...MARKERS.release, ...MARKERS.other, ...MARKERS.salt];
+  return known.includes(m[1]) ? null : m[2];
+}
+
+/**
  * 薬の鍵「成分・剤形コード|規格|剤形」（例：2171022F|2.5|OD錠、2171014F|20|CR錠）。scripts/build-maker-index.cjs と同じ。
  * yjCode を渡し、YJ が徐放・腸溶を示すのに販売名に印が無いときだけ「|YJ徐放」「|YJ腸溶」を足す（例：2251001F|100|錠|YJ徐放）
  */

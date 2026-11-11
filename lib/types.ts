@@ -27,6 +27,8 @@ export const TabletSchema = z.object({
   drug_key: z.string().nullable().default(null),
   // 今のメーカーの状態（確認ずみ（現物）／記憶ベース／記憶ベース（両方使用）／札の読み取り（未確認）／未選択）。null は従来どおり確定扱い
   maker_state: z.string().nullable().default(null),
+  // 採用中止（adopted:false）の理由：販売終了（候補に出さない）／メーカー切替（「以前の採用」として出す。自動では選ばない）
+  discontinued_reason: z.string().nullable().default(null),
   dosage_form: z.enum(["tablet", "capsule", "other"]),
   imprint_front: z.string(), // 文字列 / "なし" / "未確認"
   imprint_back: z.string(),
@@ -114,4 +116,6 @@ export type RxRow = RxItem & {
   include: boolean; // 一包化に入れるか（最終）
   include_default: boolean; // 初期値（指示＋施設ルール）
   include_reason: string; // 初期値の根拠
+  match_status?: "採用品" | "採用外（市販品あり）" | "該当なし"; // 照合の結果（lib/matching.ts）
+  match_note?: string | null; // 置き換え・決まらない理由など
 };

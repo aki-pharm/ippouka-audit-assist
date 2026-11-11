@@ -171,6 +171,48 @@ fs.writeFileSync("data/parent/maker-index.json", JSON.stringify(out) + "\n");
 const multi = Object.values(sorted).filter((d) => d.products.length > 1).length;
 console.log(`maker-index.json：薬 ${out.drug_count}（うち候補が 2 つ以上 ${multi}）、製品 ${nProducts}、${(fs.statSync("data/parent/maker-index.json").size / 1e6).toFixed(2)} MB`);
 
+// ---------- 処方箋の名前 → 薬の鍵（lib/match-data.ts。照合 lib/matching.ts が画面の中で使う） ----------
+// 親マスタの全製品の販売名・鍵・先発／後発と、成分・剤形コードごとの一般名。施設の採用品は入れない（公開データだけ）
+{
+  const naifuku = {};
+  for (const f of fs.readdirSync("data/parent").sort())
+    if (f.startsWith("naifuku-tablets-") && f.endsWith(".csv")) for (const r of readCsv(path.join("data/parent", f))) naifuku[r.yj_code] = r;
+  const keys = Object.keys(sorted);
+  const keyIdx = new Map(keys.map((k, i) => [k, i]));
+  const nk = (s) => (s || "").normalize("NFKC").replace(/[\s　®]/g, "").toLowerCase();
+  // 先発・後発：1＝先発、2＝後発、3＝どちらでもない（厚労省の一覧の印が両方 False）、0＝不明
+  const cover = { "一覧の販売名と一致": 0, "一覧の統一名": 0, "販売名の「」（後発とみなす）": 0, "不明": 0 };
+  const originOf = (p) => {
+    const r = naifuku[p.yj_code];
+    const flag = (r) => (r.is_original === "True" ? 1 : r.is_generic === "True" ? 2 : 3);
+    if (r && nk(r.brand_name) === nk(p.brand_name)) { cover["一覧の販売名と一致"]++; return flag(r); }
+    if (r && !r.maker) { cover["一覧の統一名"]++; return r.is_generic === "True" ? 2 : flag(r); }
+    if (/「[^」]+」/.test((p.brand_name || "").normalize("NFKC"))) { cover["販売名の「」（後発とみなす）"]++; return 2; }
+    cover["不明"]++;
+    return 0;
+  };
+  const products = [];
+  const generics = {};
+  for (const p of pm) {
+    if (p.status === "none") continue;
+    const yj = p.yj_code && p.yj_code.length >= 8 && p.yj_code.slice(0, 7) === p.group.slice(0, 7) ? p.yj_code[7] : "";
+    products.push([p.brand_name, keyIdx.get(drugKey(p.group, p.strength, p.brand_name, p.yj_code)), originOf(p), yj]);
+    if (!generics[p.group] && naifuku[p.yj_code]?.generic_name && naifuku[p.yj_code].yj_code.slice(0, 7) === p.group.slice(0, 7)) generics[p.group] = naifuku[p.yj_code].generic_name;
+  }
+  for (const k of keys) { const g = k.split("|")[0]; if (!generics[g]) generics[g] = sorted[k].generic_name; }
+  const prof = JSON.parse(fs.readFileSync(path.join(__dirname, "../data/match-profiles.json"), "utf8"));
+  const data = { keys, products, generics: Object.fromEntries(Object.keys(generics).sort().map((g) => [g, generics[g]])), profiles: prof.profiles, default_profile: prof.default, general_release_notes: prof.general_release_notes };
+  const ts = `// 自動生成（node scripts/build-maker-index.cjs）。手で直さない。元：data/parent/parent-master.json、data/parent/naifuku-tablets-*.csv、data/match-profiles.json
+// products は [販売名, keys の番号, 先発・後発（1 先発／2 後発／3 どちらでもない／0 不明）, YJ の 8 桁目（上 7 桁が成分・剤形コードと同じときだけ）]
+import type { MatchData } from "./matching.ts";
+
+export const MATCH_DATA: MatchData = ${JSON.stringify(data)};
+`;
+  fs.mkdirSync("lib", { recursive: true });
+  fs.writeFileSync("lib/match-data.ts", ts);
+  console.log(`lib/match-data.ts：販売名 ${products.length}、一般名 ${Object.keys(data.generics).length}、${(Buffer.byteLength(ts) / 1e6).toFixed(2)} MB。先発・後発の出どころ：` + Object.entries(cover).map(([k, v]) => `${k} ${v}`).join("、"));
+}
+
 // ---------- --link-master：data/master.json の各行を親マスタの製品につなぐ ----------
 if (process.argv.includes("--link-master")) {
   const master = JSON.parse(fs.readFileSync("data/master.json", "utf8"));
