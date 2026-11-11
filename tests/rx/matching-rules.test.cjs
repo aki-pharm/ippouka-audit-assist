@@ -76,17 +76,17 @@ test("後発→先発：同じ鍵で先発と正しく印のある製品は選�
 });
 
 // ---------- 【アプリの不具合】後発→先発を自動で選ぶ ----------
-test("【アプリの不具合】後発→先発：走査で 602 組。後発品の処方で先発品を自動で選ぶ組は 0 であるべき", { skip, todo: "下の 4 つの原因。件数は品質の走査（剤形ごとに 6 製品まで）で" }, () => {
+test("直った：後発→先発（前は走査で 602 組）。後発品の処方で先発品を自動で選ぶ組は 0", { skip }, () => {
   assert.deepEqual(scan().bad.generic_to_brand, []);
 });
 
-test("【アプリの不具合】ふつうの錠→OD 錠の置き換えで、先発後発を見ない（ブロチゾラム錠0.25mg「サワイ」→ レンドルミンD錠0.25mg を選ぶ。走査で 438 組）", { skip, todo: "plain_to_od の組にも generic_to_brand を当てる（matchRx は rel === 'same' のときだけ先発後発を見る）" }, () => {
+test("直った：ふつうの錠→OD 錠の置き換えで、先発後発を見ない（ブロチゾラム錠0.25mg「サワイ」→ レンドルミンD錠0.25mg を選ぶ。走査で 438 組）", { skip }, () => {
   const [r] = pair([["ブロチゾラム錠0.25mg「サワイ」", "0.25mg", "レンドルミンD錠0.25mg"]]);
   assert.equal(r.facilityOrigin[0], "先発");
   assert.equal(r.best, null);
 });
 
-test("【アプリの不具合】先発品が「後発」の印になっている：パキシル錠10mg・コバシル・クレストールOD・オメプラゾン・ムコサール・テオロング・ネルボン など（YJ が統一名の行を指す製品。走査で 75 組）", { skip, todo: "build-maker-index.cjs の originOf：YJ が統一名（メーカーの無い行）なら、その行の印を使わず「不明」に。販売名に「」が無い製品は先発の疑い" }, () => {
+test("直った：先発品が「後発」の印になっている：パキシル錠10mg・コバシル・クレストールOD・オメプラゾン・ムコサール・テオロング・ネルボン など（YJ が統一名の行を指す製品。走査で 75 組）", { skip }, () => {
   const r = pair([
     ["パロキセチン錠10mg「AA」", "10mg", "パキシル錠10mg"],
     ["ロスバスタチン錠2.5mg「DSEP」", "2.5mg", "クレストールOD錠2.5mg"],
@@ -95,19 +95,24 @@ test("【アプリの不具合】先発品が「後発」の印になってい�
   for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}（先発の印 ${x.facilityOrigin[0]}）`);
 });
 
-test("【アプリの不具合】先発・後発が「不明」だと後発→先発を止めない（10mgセルシン錠：親マスタに同じ名前が 2 行、印が 先発 と 不明 で「不明」に。走査で 14 組）", { skip, todo: "不明は安全側に：処方が後発で採用品の印が不明なら自動で選ばず候補にとどめる" }, () => {
-  const [r] = pair([["ジアゼパム錠10mg「ツルハラ」", "10mg", "10mgセルシン錠"]]);
-  assert.equal(r.facilityOrigin[0], "不明");
-  assert.equal(r.best, null);
+test("直った：採用品の先発・後発が「不明」なら、どの処方からも自動で選ばない（印の数は決め方で変わるので数ではなく走査で見る）", { skip }, () => {
+  const r = node([path.join(__dirname, "matching/origin-scan.mjs"), ROOT]);
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const o = JSON.parse(r.stdout);
+  assert.ok(o.pairs > 100, `採用品が不明の組 ${o.pairs}`);
+  assert.deepEqual(o.unknownSelected, []);
+  // 前に「不明」だった 10mgセルシン錠：後発の処方からは選ばない
+  const [c] = pair([["ジアゼパム錠10mg「ツルハラ」", "10mg", "10mgセルシン錠"]]);
+  assert.equal(c.best, null);
 });
 
-test("【アプリの不具合】処方の後発品が厚労省の一覧で「どちらでもない」だと、先発を選ぶ（炭酸リチウム錠200mg「フジナガ」→ リーマス錠200 など。走査で 49 組）", { skip, todo: "販売名に「」のある処方は後発とみなす（一覧の印が両方 False でも）か、どちらでもない→先発は選ばない" }, () => {
+test("直った：処方の後発品が厚労省の一覧で「どちらでもない」だと、先発を選ぶ（炭酸リチウム錠200mg「フジナガ」→ リーマス錠200 など。走査で 49 組）", { skip }, () => {
   const [r] = pair([["炭酸リチウム錠200mg「フジナガ」", "200mg", "リーマス錠200"]]);
   assert.equal(r.best, null, `処方の印 ${r.origin} → ${r.best}（${r.facilityOrigin[0]}）`);
 });
 
 // ---------- 【アプリの不具合】決まりでは選べるのに選ばない（安全側の取りこぼし） ----------
-test("【アプリの不具合】先発→後発の徐放・腸溶製剤を選ばない（アダラートCR錠20mg → ニフェジピンCR錠20mg「サワイ」 が「採用外」になり、ルール外表示では「放出の仕方が違う」と出る）", { skip, todo: "徐放の鍵に販売名の系列（〔アダラート〕〔ニフェジピン〕）が入り、同じ CR でも別の薬になる。走査で 33 組（ヘルベッサーR・ベザトールSR・アザルフィジンEN・ミラペックスLA など）" }, () => {
+test("直った：先発→後発の徐放・腸溶製剤を選ばない（アダラートCR錠20mg → ニフェジピンCR錠20mg「サワイ」 が「採用外」になり、ルール外表示では「放出の仕方が違う」と出る）", { skip }, () => {
   const [a, b] = pair([
     ["アダラートCR錠20mg", "20mg", "ニフェジピンCR錠20mg「サワイ」"],
     ["アダラートCR錠20mg", "20mg", "ニフェジピンCR錠20mg「サワイ」", { includeRuleOut: true }],
@@ -137,7 +142,7 @@ test("ブランドの英字：徐放を示す英字（デパケンR・セレニ�
   assert.deepEqual(r[0].candidates, []);
 });
 
-test("【アプリの不具合】ブランドの英字を合わせた結果、別のメーカーの漢方エキス錠を同じ薬にする（オースギ大柴胡湯エキスT錠 → クラシエ大柴胡湯エキス錠、黄連解毒湯・小青竜湯・八味地黄丸料・半夏厚朴湯も）", { skip, todo: "漢方エキス製剤はメーカーごとに 1 錠中のエキス量・1 日量が違い、互いに同じ薬ではない。規格が「1錠」なので規格でも分かれない。YJ 52xx は英字を合わせない・メーカー違いを選ばない" }, () => {
+test("直った：ブランドの英字を合わせた結果、別のメーカーの漢方エキス錠を同じ薬にする（オースギ大柴胡湯エキスT錠 → クラシエ大柴胡湯エキス錠、黄連解毒湯・小青竜湯・八味地黄丸料・半夏厚朴湯も）", { skip }, () => {
   const r = pair([
     ["オースギ大柴胡湯エキスT錠", "1錠", "クラシエ大柴胡湯エキス錠"],
     ["オースギ黄連解毒湯エキスT錠", "1錠", "クラシエ黄連解毒湯エキス錠"],
@@ -146,11 +151,26 @@ test("【アプリの不具合】ブランドの英字を合わせた結果、�
 });
 
 // ---------- 先発・後発の印の出どころ ----------
-test("先発・後発の印：不明（0）は 82 製品（作業の報告どおり）。どれも同じ名前で印のある行が別にあるか、販売名に「」が無い", () => {
+test("先発・後発の印：無作為の 先発 20 件は厚労省の一覧でも先発、不明 20 件は一覧に販売名が無い（統一名の行か一覧に無い）。不明の製品に「」つきは無い", { skip }, () => {
   const src = fs.readFileSync(path.join(ROOT, "lib/match-data.ts"), "utf8");
   const data = JSON.parse(src.slice(src.indexOf("= {") + 2, src.lastIndexOf("}") + 1));
-  const unknown = data.products.filter((p) => p[2] === 0);
-  assert.equal(unknown.length, 82);
+  const csv = fs.readdirSync(path.join(ROOT, "data/parent")).find((f) => /^naifuku-tablets-.*\.csv$/.test(f));
+  const nk = (x) => String(x ?? "").normalize("NFKC").replace(/[\s　®]/g, "").toLowerCase();
+  const official = new Map();
+  for (const l of fs.readFileSync(path.join(ROOT, "data/parent", csv), "utf8").split("\n").slice(1)) {
+    const c = l.match(/("([^"]*)"|[^,]*)(,|$)/g)?.map((x) => x.replace(/,$/, "").replace(/^"|"$/g, ""));
+    if (c && c[3]) official.set(nk(c[3]), { original: c[7] === "True", generic: c[6] === "True" });
+  }
+  let seed = 20261111;
+  const rnd = () => (seed = (seed * 1103515245 + 12345) % 2147483648) / 2147483648;
+  const sample = (arr, n) => { const a = [...arr], out = []; while (out.length < n && a.length) out.push(a.splice(Math.floor(rnd() * a.length), 1)[0]); return out; };
+  const brands = sample(data.products.filter((x) => x[2] === 1), 20);
+  const bad = brands.filter(([n]) => official.get(nk(n))?.original !== true).map(([n]) => n);
+  assert.deepEqual(bad, [], "先発の印なのに一覧で先発でない");
+  const unknown = data.products.filter((x) => x[2] === 0);
+  assert.ok(unknown.length > 0);
+  const listed = sample(unknown, 20).filter(([n]) => official.has(nk(n))).map(([n]) => n);
+  assert.deepEqual(listed, [], "不明の印なのに一覧に同じ販売名がある");
   for (const [name] of unknown) assert.doesNotMatch(name.normalize("NFKC"), /「[^」]+」/, name);
 });
 
@@ -167,4 +187,53 @@ test("lib/match-data.ts は親マスタ（公開データ）だけから作ら�
   assert.doesNotMatch(gen, /readFileSync\([^)]*private/);
   const git = spawnSync("git", ["ls-files", "data/private"], { cwd: ROOT, encoding: "utf8" });
   if (git.status === 0) assert.equal(git.stdout.trim(), "");
+});
+
+// ---------- 効能違いの印（YJ の上 9 桁で先発→後発をつなぐようになった：40539ba） ----------
+test("効能違いの印：各先発品は自分の後発品だけに（トレリーフ→TRE、エクセグラン→EX・印なし、レバチオ→RE、バイアグラ→RE でない、アドシルカ→AD、ザルティア→ZA、メトグルコ→MT、アボルブ→AV）", { skip }, () => {
+  const r = node([path.join(__dirname, "matching/indication.mjs"), ROOT]);
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const rows = JSON.parse(r.stdout);
+  const picks = (P) => [...new Set(rows.filter((x) => x.P === P && x.best).map((x) => x.F.replace(/「[^」]*」/, "")))].sort();
+  assert.deepEqual(picks("トレリーフOD錠25mg"), ["ゾニサミドOD錠25mgTRE"]);
+  assert.deepEqual(picks("エクセグラン錠100mg"), ["ゾニサミド錠100mg", "ゾニサミド錠100mgEX"]);
+  assert.deepEqual(picks("レバチオ錠20mg"), ["シルデナフィル錠20mgRE"]);
+  assert.deepEqual(picks("バイアグラ錠50mg"), []);
+  assert.deepEqual(picks("アドシルカ錠20mg"), ["タダラフィル錠20mgAD"]);
+  assert.ok(picks("ザルティア錠5mg").includes("タダラフィル錠5mgZA"));
+  assert.deepEqual(picks("シアリス錠20mg"), [], "シアリス 20mg → AD を選ばない");
+  assert.ok(!picks("シアリス錠5mg").includes("タダラフィル錠5mgZA"), "シアリス 5mg → ZA を選ばない");
+  assert.ok(picks("メトグルコ錠250mg").includes("メトホルミン塩酸塩錠250mgMT"));
+  assert.ok(!picks("グリコラン錠250mg").includes("メトホルミン塩酸塩錠250mgMT"), "グリコラン → MT を選ばない");
+  assert.deepEqual(picks("アボルブカプセル0.5mg"), ["デュタステリドカプセル0.5mgAV"]);
+});
+
+test("【アプリの不具合】効能違い：ザルティア錠5mg（前立腺肥大の排尿障害）↔ シアリス錠5mg（ED）を互いに自動で選ぶ。同じ鍵の先発→先発", { skip, todo: "先発→別の先発は YJ の上 9 桁（2590016F2 と F5）が違えば選ばない" }, () => {
+  const r = pair([["ザルティア錠5mg", "5mg", "シアリス錠5mg"], ["シアリス錠5mg", "5mg", "ザルティア錠5mg"]]);
+  for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
+});
+
+test("【アプリの不具合】効能違い：メトグルコ錠250mg → メトホルミン塩酸塩錠250mg「SN」（グリコランの後発。MT の印なし）を自動で選ぶ", { skip, todo: "鍵が同じ（3962002F|250|錠）でも YJ の上 9 桁が違う（F2 と F1）。先発→後発も YJ の上 9 桁が分かれば同じときだけ" }, () => {
+  const [r] = pair([["メトグルコ錠250mg", "250mg", "メトホルミン塩酸塩錠250mg「SN」"]]);
+  assert.equal(r.best, null);
+});
+
+test("【アプリの不具合】OD→普通：クラリチンレディタブ錠10mg（口腔内崩壊錠）→ クラリチン錠10mg・ロラタジン錠10mg「サワイ」を自動で選ぶ", { skip, todo: "「レディタブ」が OD の印（form-markers.json の od）に無い。YJ の上 9 桁も違う（4490027F2 と F1）" }, () => {
+  const r = pair([["クラリチンレディタブ錠10mg", "10mg", "クラリチン錠10mg"], ["クラリチンレディタブ錠10mg", "10mg", "ロラタジン錠10mg「サワイ」"]]);
+  for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
+});
+
+test("【アプリの不具合】放出の違い：ワントラム錠100mg（1 日 1 回）↔ ツートラム錠100mg（1 日 2 回）を互いに自動で選ぶ", { skip, todo: "どちらも「錠|YJ徐放」で鍵が同じ。YJ の上 9 桁（1149038G1 と G3）が違う" }, () => {
+  const r = pair([["ワントラム錠100mg", "100mg", "ツートラム錠100mg"], ["ツートラム錠100mg", "100mg", "ワントラム錠100mg"]]);
+  for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
+});
+
+test("【アプリの不具合】親マスタの誤り：アマルエット配合錠4番「ケミファ」の規格が「1番（アムロジピン2.5mg/アトルバスタチン5mg）」で、1番「ケミファ」を自動で選ぶ", { skip, todo: "data/parent/parent-master.json の規格の誤り（YJ は 2190104＝4番）。名前の「N番」と規格・YJ を突き合わせて止める" }, () => {
+  const [r] = pair([["アマルエット配合錠4番「ケミファ」", null, "アマルエット配合錠1番「ケミファ」"]]);
+  assert.equal(r.best, null);
+});
+
+test("【要判断】テノゼット錠300mg（B 型肝炎）↔ ビリアード錠300mg（HIV）を互いに自動で選ぶ。YJ の上 9 桁も同じ（6250024F1）", { skip, todo: "成分・規格・剤形・YJ の上 9 桁が同じだが効能が違う先発品どうし。院内で入れ替えてよいか AKI が決める" }, () => {
+  const r = pair([["テノゼット錠300mg", "300mg", "ビリアード錠300mg"]]);
+  assert.equal(r[0].best, null);
 });
