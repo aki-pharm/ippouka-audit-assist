@@ -11,7 +11,8 @@ const pm = new Map(JSON.parse(fs.readFileSync(path.join(ROOT, "data/parent/paren
 const ORIGIN = ["不明", "先発", "後発", "その他"];
 // 同じ名前が複数行あれば印がそろうときだけ
 const origin = new Map();
-for (const [n, , o] of D.products) origin.set(n, origin.has(n) && origin.get(n) !== ORIGIN[o] ? "不明" : ORIGIN[o]);
+const yj9s = new Map(); // 販売名 → YJ の上 9 桁の集まり
+for (const [n, , o, , y9] of D.products) { origin.set(n, origin.has(n) && origin.get(n) !== ORIGIN[o] ? "不明" : ORIGIN[o]); yj9s.set(n, new Set([...(yj9s.get(n) ?? []), y9 || "?"])); }
 const byKey = new Map();
 for (const [n, ki] of D.products) { const k = D.keys[ki].split("|").slice(0, 2).join("|"); if (!byKey.has(k)) byKey.set(k, new Set()); byKey.get(k).add(n); }
 const out = { unknownSelected: [], brandToBrand: [], pairs: 0 };
@@ -27,7 +28,7 @@ for (const [, set] of byKey) {
     const m = matchRx(P, pm.get(P).strength, [{ id: F, brand_name: F, generic_name: "", strength: f.strength, adopted: true, product_key: f.product_key ?? F }], D);
     if (!m.best) continue;
     if (fo === "不明") out.unknownSelected.push(`${P} → ${F}`);
-    else out.brandToBrand.push(`${P} → ${F}`);
+    else out.brandToBrand.push({ P, F, yj9P: [...yj9s.get(P)].join("/"), yj9F: [...yj9s.get(F)].join("/") });
   }
 }
 console.log(JSON.stringify(out));

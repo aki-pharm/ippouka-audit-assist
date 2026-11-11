@@ -7,6 +7,8 @@ import { pathToFileURL } from "node:url";
 
 const ROOT = process.argv[2];
 const ALL = process.argv.includes("--all");
+// --agree：どの組にも「処方 P → 採用品 F」の事前合意を渡す（合意で柵を越えないかを見る）。後発→先発は合意で選べるので数えない
+const AGREE = process.argv.includes("--agree");
 const { MATCH_DATA: D } = await import(pathToFileURL(path.join(ROOT, "lib/match-data.ts")).href);
 const { matchRx } = await import(pathToFileURL(path.join(ROOT, "lib/matching.ts")).href);
 const pm = JSON.parse(fs.readFileSync(path.join(ROOT, "data/parent/parent-master.json"), "utf8")).products.filter((p) => p.status !== "none" && p.yj_code && p.strength);
@@ -76,7 +78,7 @@ for (const [, list] of groups) {
   for (const P of use) for (const F of use) {
     if (P === F || nk(P.brand_name) === nk(F.brand_name)) continue;
     pairs++;
-    const m = matchRx(P.brand_name, P.strength, fac(F), D);
+    const m = matchRx(P.brand_name, P.strength, fac(F), D, AGREE ? { agreements: [{ from: P.brand_name, to: F.brand_name, reason: "品質の走査", agreed_by: "品質", agreed_at: "2026-11-11" }] } : {});
     const hit = m.best ? "best" : m.candidates.length ? "candidate" : null;
     if (m.best) selected++;
     const line = `${P.brand_name} → ${F.brand_name}（${hit}）`;
@@ -85,7 +87,7 @@ for (const [, list] of groups) {
       else if (relKind(release(P)) !== relKind(release(F)) && !(release(P).startsWith("徐放") && release(F).startsWith("徐放"))) bad.release.push(`${line} [${release(P) || "普通"}→${release(F) || "普通"}]`);
       if (hit === "best" && od(P) && !od(F)) bad.od_to_plain.push(line);
       if (hit === "best" && strengthNorm(P.strength) !== strengthNorm(F.strength)) bad.strength.push(line);
-      if (hit === "best" && generic(P) && brandLike(F)) bad.generic_to_brand.push(line);
+      if (hit === "best" && generic(P) && brandLike(F) && !AGREE) bad.generic_to_brand.push(line);
     } else if (brandLike(P) && generic(F) && capsule(P) === capsule(F) && od(P) === od(F) && release(P) === release(F)) {
       miss.brand_to_generic.push(line.replace("（null）", ""));
     } else if (generic(P) && generic(F) && capsule(P) === capsule(F) && od(P) === od(F) && release(P) === release(F)) {

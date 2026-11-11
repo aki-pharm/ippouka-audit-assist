@@ -66,13 +66,11 @@ test("決まりどおりに選ぶ：先発→後発（リピトール→アト�
   assert.equal(c.best, "アムロジピン錠5mg「サワイ」");
 });
 
-test("後発→先発：同じ鍵で先発と正しく印のある製品は選ばない（アムロジピン錠5mg「サワイ」→ノルバスク錠5mg）", { skip }, () => {
-  const [a, b] = pair([
-    ["アムロジピン錠5mg「サワイ」", "5mg", "ノルバスク錠5mg"],
-    ["アムロジピン錠5mg「サワイ」", "5mg", "ノルバスク錠5mg", { includeRuleOut: true }],
-  ]);
+test("後発→先発（AKI 11/11）：自動では選ばず、候補に「事前合意（みなし疑義）があれば選択可」と出す（アムロジピン錠5mg「サワイ」→ノルバスク錠5mg）", { skip }, () => {
+  const [a] = pair([["アムロジピン錠5mg「サワイ」", "5mg", "ノルバスク錠5mg"]]);
   assert.equal(a.best, null);
-  assert.deepEqual(b.ruleOut, [["ノルバスク錠5mg", "後発品の処方を先発品に"]]);
+  assert.deepEqual(a.candidates, ["ノルバスク錠5mg"]);
+  assert.match(a.note, /事前合意（みなし疑義）があれば選択可/);
 });
 
 // ---------- 【アプリの不具合】後発→先発を自動で選ぶ ----------
@@ -255,7 +253,7 @@ test("効能違いの全 1,298 組：別の系列の製品を自動で選ぶ組�
   assert.deepEqual(rows.filter((x) => !x.same && x.best).map((x) => `${x.P} → ${x.F}`), []);
 });
 
-test("自動で選んだ組のうち、OD の置き換え以外で YJ の上 9 桁が違う組は 0。先発→別の先発の自動選択も 0（AKI が決めるまで候補）", { skip }, () => {
+test("自動で選んだ組のうち、OD の置き換え以外で YJ の上 9 桁が違う組は 0。先発→別の先発は YJ の上 9 桁が同じときだけ（AKI 11/11）", { skip }, () => {
   const r = node([path.join(__dirname, "matching/yj9-scan.mjs"), ROOT]);
   assert.equal(r.status, 0, r.stderr.slice(0, 300));
   const { differ } = JSON.parse(r.stdout);
@@ -263,7 +261,9 @@ test("自動で選んだ組のうち、OD の置き換え以外で YJ の上 9 �
   const od = (s) => odRe.test(s.replace(/「[^」]*」/g, ""));
   assert.deepEqual(differ.filter((l) => { const [P, F] = l.split("→"); return od(P) === od(F); }), []);
   const o = JSON.parse(node([path.join(__dirname, "matching/origin-scan.mjs"), ROOT]).stdout);
-  assert.deepEqual(o.brandToBrand, []);
+  // 先発→別の先発（併売品）は AKI 11/11 に可。ただし YJ の上 9 桁が 1 つに決まり、同じときだけ
+  assert.ok(o.brandToBrand.length > 0);
+  assert.deepEqual(o.brandToBrand.filter((x) => x.yj9P !== x.yj9F || /[?/]/.test(x.yj9P)).map((x) => `${x.P}（${x.yj9P}）→ ${x.F}（${x.yj9F}）`), []);
   assert.deepEqual(o.unknownSelected, []);
 });
 

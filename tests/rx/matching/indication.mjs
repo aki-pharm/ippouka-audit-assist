@@ -5,6 +5,8 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const ROOT = process.argv[2];
+// --agree：どの組にも「処方 → 採用品」の事前合意を渡す（合意で柵を越えないかを見る）
+const AGREE = process.argv.includes("--agree");
 const { MATCH_DATA: D } = await import(pathToFileURL(path.join(ROOT, "lib/match-data.ts")).href);
 const { matchRx } = await import(pathToFileURL(path.join(ROOT, "lib/matching.ts")).href);
 const pm = JSON.parse(fs.readFileSync(path.join(ROOT, "data/parent/parent-master.json"), "utf8")).products.filter((p) => p.status !== "none");
@@ -26,7 +28,7 @@ const fac = (p) => [{ id: p.brand_name, brand_name: p.brand_name, generic_name: 
 const rows = [];
 for (const P of list) for (const F of list) {
   if (P === F || ingredientOf(P.brand_name) !== ingredientOf(F.brand_name) || strengthOf(P) !== strengthOf(F)) continue;
-  const m = matchRx(P.brand_name, P.strength, fac(F), D);
+  const m = matchRx(P.brand_name, P.strength, fac(F), D, AGREE ? { agreements: [{ from: P.brand_name, to: F.brand_name, reason: "品質の走査", agreed_by: "品質", agreed_at: "2026-11-11" }] } : {});
   rows.push({ P: P.brand_name, F: F.brand_name, same: familyOf(P.brand_name) === familyOf(F.brand_name), pf: familyOf(P.brand_name), ff: familyOf(F.brand_name), best: m.best?.id ?? null, cand: m.candidates.length, note: m.note });
 }
 console.log(JSON.stringify(rows));

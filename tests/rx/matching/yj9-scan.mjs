@@ -5,6 +5,8 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const ROOT = process.argv[2];
+// --agree：どの組にも「処方 → 採用品」の事前合意を渡す（合意で柵を越えないかを見る）
+const AGREE = process.argv.includes("--agree");
 const { MATCH_DATA: D } = await import(pathToFileURL(path.join(ROOT, "lib/match-data.ts")).href);
 const { matchRx } = await import(pathToFileURL(path.join(ROOT, "lib/matching.ts")).href);
 const pm = JSON.parse(fs.readFileSync(path.join(ROOT, "data/parent/parent-master.json"), "utf8")).products.filter((p) => p.status !== "none" && p.yj_code && p.yj_code.length >= 9);
@@ -26,7 +28,7 @@ for (const [, set] of byKey) {
   for (const P of use) for (const F of use) {
     if (P === F) continue;
     const p = prod.get(P), f = prod.get(F);
-    const m = matchRx(P, p.strength, [{ id: F, brand_name: F, generic_name: "", strength: f.strength, adopted: true, product_key: f.product_key ?? F }], D);
+    const m = matchRx(P, p.strength, [{ id: F, brand_name: F, generic_name: "", strength: f.strength, adopted: true, product_key: f.product_key ?? F }], D, AGREE ? { agreements: [{ from: P, to: F, reason: "品質の走査", agreed_by: "品質", agreed_at: "2026-11-11" }] } : {});
     if (!m.best) continue;
     selected++;
     if (p.yj_code.slice(0, 9) !== f.yj_code.slice(0, 9)) out.push(`${P}（${p.yj_code.slice(0, 9)}）→ ${F}（${f.yj_code.slice(0, 9)}）`);
