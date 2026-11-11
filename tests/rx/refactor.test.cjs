@@ -41,12 +41,29 @@ test("readRx を偽の client で呼ぶと、main の route.ts と同じ引数�
   assert.equal(o.newCall.messages[0].content.length, 2 * 2 + 1);
 });
 
-test("プロンプト・既定モデル・画像の縮小は main と同じ。lib/types.ts は読み取りのスキーマ（PerTiming・RxItem・RxReadResult）の部分だけ main と同じ", { skip: !mainRef && "main が無い" }, () => {
-  // feature/matching-rules で lib/types.ts（マスタの欄・表の行の欄）と lib/master.ts（照合）は変わってよい。読み取りに効く所だけ見る
-  for (const f of ["lib/prompts.ts", "lib/claude.ts", "lib/image.ts"]) {
-    const d = git("diff", "--quiet", mainRef, "--", f);
-    assert.equal(d.status, 0, `${f} が main と違う`);
-  }
+// AKI が 11/11 に決めたもの：既定モデルを Sonnet 5.5 に、プロンプトに 2 行（放出の補足は name_note へ、配合錠の記号は strength へ）
+const PROMPT_ADDED = [
+  "- 「（24時間持続）」「（12時間持続）」のような放出の補足も name_note に入れ、薬品名には含めない（name_note には括弧を除いた「24時間持続」を入れる）。",
+  "- 配合錠の規格は、薬品名に印字された記号（LD・HD・ULD・EX・A81・1番 など）をそのまま strength に入れる。記号が無ければ null。",
+];
+const diffLines = (f) => git("diff", "-U0", mainRef, "--", f).stdout.split("\n").filter((l) => /^[+-]/.test(l) && !/^(\+\+\+|---) /.test(l));
+
+test("プロンプト：main との違いは AKI が決めた 2 行の追加だけ（消した行・変えた行なし、追加の場所は name_note の行の直後）", { skip: !mainRef && "main が無い" }, () => {
+  assert.deepEqual(diffLines("lib/prompts.ts"), PROMPT_ADDED.map((l) => `+${l}`));
+  const now = fs.readFileSync(path.join(ROOT, "lib/prompts.ts"), "utf8").split("\n");
+  const i = now.findIndex((l) => l.includes("は name_note に分ける。"));
+  assert.deepEqual(now.slice(i + 1, i + 3), PROMPT_ADDED);
+});
+
+test("既定モデル：claude-sonnet-5-5（AKI 11/11）。lib/claude.ts の main との違いはモデルの行とその説明の 1 行だけ。画像の縮小（lib/image.ts）は main と同じ", { skip: !mainRef && "main が無い" }, () => {
+  assert.match(fs.readFileSync(path.join(ROOT, "lib/claude.ts"), "utf8"), /^export const MODEL = "claude-sonnet-5-5";$/m);
+  const d = diffLines("lib/claude.ts");
+  assert.deepEqual(d.filter((l) => !/^\+\/\//.test(l)), ['-export const MODEL = "claude-opus-5-5";', '+export const MODEL = "claude-sonnet-5-5";']);
+  assert.ok(d.filter((l) => /^\+\/\//.test(l)).length <= 1, "説明の行は 1 行まで");
+  assert.equal(git("diff", "--quiet", mainRef, "--", "lib/image.ts").status, 0, "lib/image.ts が main と違う");
+});
+
+test("lib/types.ts は読み取りのスキーマ（PerTiming・RxItem・RxReadResult）の部分だけ main と同じ（マスタ・表の欄は変わってよい）", { skip: !mainRef && "main が無い" }, () => {
   const block = (src, from, to) => {
     const a = src.indexOf(from);
     const b = src.indexOf(to, a);
