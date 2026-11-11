@@ -1,0 +1,147 @@
+{
+ "items": [
+  {
+   "rp": "01",
+   "name_as_written": "ロサルタンカリウム錠50mg「サワイ」",
+   "name_note": null,
+   "strength": "50mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 11,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "02",
+   "name_as_written": "ロスバスタチン錠2.5mg「サワイ」",
+   "name_note": null,
+   "strength": "2.5mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 0,
+    "noon": 0,
+    "evening": 1
+   },
+   "days": 11,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "03",
+   "name_as_written": "ジャヌビア錠50mg",
+   "name_note": null,
+   "strength": "50mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 11,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "04",
+   "name_as_written": "ジャディアンス錠10mg",
+   "name_note": "持参薬がなくなり次第開始",
+   "strength": "10mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 11,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "05",
+   "name_as_written": "メトグルコ錠500mg",
+   "name_note": null,
+   "strength": "500mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 2,
+   "dose_per_day": 2,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 1
+   },
+   "days": 11,
+   "raw_usage_text": "1回1錠（1日2錠） 1日2回 朝夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "06",
+   "name_as_written": "ラベプラゾールNa錠10mg「オーハラ」",
+   "name_note": "粉砕不可",
+   "strength": "10mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 0,
+    "noon": 0,
+    "evening": 1
+   },
+   "days": 11,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "07",
+   "name_as_written": "フォリアミン錠5mg",
+   "name_note": null,
+   "strength": "5mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 11,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": true,
+   "confidence": "high"
+  }
+ ],
+ "all_one_dose": true,
+ "include_all_note": null,
+ "notes": null
+}

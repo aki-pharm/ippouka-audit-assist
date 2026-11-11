@@ -1,13 +1,11 @@
 import { NextResponse } from "next/server";
-import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
-import { getClient, MODEL, takeDailyBudget } from "@/lib/claude";
-import { READ_RX_SYSTEM } from "@/lib/prompts";
-import { RxReadResultSchema } from "@/lib/types";
+import { getClient, takeDailyBudget } from "@/lib/claude";
+import { readRx, type RxImage } from "@/lib/readRx";
 
 const MAX_IMAGES = 4;
 const MAX_BASE64_CHARS = 3_000_000; // 約2.2MB/枚
 
-type Body = { images?: { base64: string; mediaType: "image/jpeg" | "image/png" }[] };
+type Body = { images?: RxImage[] };
 
 export async function POST(request: Request) {
   const client = getClient();
@@ -31,24 +29,7 @@ export async function POST(request: Request) {
   if (!budget.ok) return NextResponse.json({ error: "本日の読み取り回数の上限に達しました" }, { status: 429 });
 
   try {
-    const response = await client.messages.parse({
-      model: MODEL,
-      max_tokens: 16000,
-      output_config: { effort: "high", format: zodOutputFormat(RxReadResultSchema) },
-      system: READ_RX_SYSTEM,
-      messages: [
-        {
-          role: "user",
-          content: [
-            ...images.map((img, i) => [
-              { type: "text" as const, text: `処方箋の写真 ${i + 1}枚目／${images.length}枚` },
-              { type: "image" as const, source: { type: "base64" as const, media_type: img.mediaType, data: img.base64 } },
-            ]).flat(),
-            { type: "text", text: "上の写真から薬剤情報を書き起こしてください。" },
-          ],
-        },
-      ],
-    });
+    const response = await readRx(client, images);
     if (response.stop_reason === "refusal") {
       return NextResponse.json({ error: "読み取りが拒否されました。写真に薬剤情報以外が含まれていないか確認してください。" }, { status: 422 });
     }

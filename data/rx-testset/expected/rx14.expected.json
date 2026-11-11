@@ -1,0 +1,147 @@
+{
+ "items": [
+  {
+   "rp": "01",
+   "name_as_written": "(K)アスパラカリウム錠300mg",
+   "name_note": null,
+   "strength": "300mg",
+   "dosage_form": "tablet",
+   "dose_per_time": null,
+   "times_per_day": 2,
+   "dose_per_day": 3,
+   "per_timing": {
+    "morning": 2,
+    "noon": 0,
+    "evening": 1
+   },
+   "days": 35,
+   "raw_usage_text": "2-0-1-0-0-0 で投与 別包（ヒート包装） 1日2回 朝夕食後",
+   "pack_instruction": "exclude",
+   "manual_fill_mark": true,
+   "confidence": "high"
+  },
+  {
+   "rp": "02",
+   "name_as_written": "エリキュース錠5mg",
+   "name_note": null,
+   "strength": "5mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 2,
+   "dose_per_day": 2,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 1
+   },
+   "days": 35,
+   "raw_usage_text": "1回1錠（1日2錠） 1日2回 朝夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": true,
+   "confidence": "high"
+  },
+  {
+   "rp": "03",
+   "name_as_written": "シベンゾリンコハク酸塩錠100mg「トーワ」",
+   "name_note": null,
+   "strength": "100mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 2,
+   "dose_per_day": 2,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 1
+   },
+   "days": 35,
+   "raw_usage_text": "1回1錠（1日2錠） 1日2回 朝夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": true,
+   "confidence": "high"
+  },
+  {
+   "rp": "04",
+   "name_as_written": "ジゴシン錠0.125mg",
+   "name_note": null,
+   "strength": "0.125mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 35,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "05",
+   "name_as_written": "アゾセミド錠60mg「JG」",
+   "name_note": null,
+   "strength": "60mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 35,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "06",
+   "name_as_written": "トラセミド錠4mg「KO」",
+   "name_note": null,
+   "strength": "4mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 35,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "07",
+   "name_as_written": "アルダクトンA錠25mg",
+   "name_note": null,
+   "strength": "25mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 35,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  }
+ ],
+ "all_one_dose": true,
+ "include_all_note": null,
+ "notes": null
+}

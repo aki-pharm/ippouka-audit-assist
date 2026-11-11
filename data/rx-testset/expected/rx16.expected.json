@@ -1,0 +1,127 @@
+{
+ "items": [
+  {
+   "rp": "01",
+   "name_as_written": "ユニシア配合錠HD",
+   "name_note": null,
+   "strength": "HD",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 14,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "02",
+   "name_as_written": "ノイロビタン配合錠",
+   "name_note": null,
+   "strength": null,
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 3,
+   "dose_per_day": 3,
+   "per_timing": {
+    "morning": 1,
+    "noon": 1,
+    "evening": 1
+   },
+   "days": 14,
+   "raw_usage_text": "1回1錠（1日3錠） 1日3回 毎食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "03",
+   "name_as_written": "ウラリット配合錠",
+   "name_note": null,
+   "strength": null,
+   "dosage_form": "tablet",
+   "dose_per_time": 2,
+   "times_per_day": 3,
+   "dose_per_day": 6,
+   "per_timing": {
+    "morning": 2,
+    "noon": 2,
+    "evening": 2
+   },
+   "days": 14,
+   "raw_usage_text": "1回2錠（1日6錠） 1日3回 毎食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "04",
+   "name_as_written": "バファリン配合錠A81",
+   "name_note": null,
+   "strength": "A81",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 1,
+    "noon": 0,
+    "evening": 0
+   },
+   "days": 14,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 朝食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "05",
+   "name_as_written": "ロキソプロフェンNa錠60mg「サワイ」",
+   "name_note": null,
+   "strength": "60mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 3,
+   "dose_per_day": 3,
+   "per_timing": {
+    "morning": 1,
+    "noon": 1,
+    "evening": 1
+   },
+   "days": 14,
+   "raw_usage_text": "1回1錠（1日3錠） 1日3回 毎食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": false,
+   "confidence": "high"
+  },
+  {
+   "rp": "06",
+   "name_as_written": "ドキサゾシン錠1mg「トーワ」",
+   "name_note": null,
+   "strength": "1mg",
+   "dosage_form": "tablet",
+   "dose_per_time": 1,
+   "times_per_day": 1,
+   "dose_per_day": 1,
+   "per_timing": {
+    "morning": 0,
+    "noon": 0,
+    "evening": 1
+   },
+   "days": 14,
+   "raw_usage_text": "1回1錠（1日1錠） 1日1回 夕食後",
+   "pack_instruction": "none",
+   "manual_fill_mark": true,
+   "confidence": "high"
+  }
+ ],
+ "all_one_dose": true,
+ "include_all_note": null,
+ "notes": null
+}
