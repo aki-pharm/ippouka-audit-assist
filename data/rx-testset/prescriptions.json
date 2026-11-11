@@ -3,7 +3,7 @@
     "処方箋読み取りの採点用、架空の処方箋 20 件（実在の患者・施設とは関係ない）。node scripts/make-rx-testset.cjs で画像・正解 JSON・印刷用 PDF を作る。",
     "1 行の書き方：name＝処方箋に印字する薬品名（(K) などの接頭辞・【般】を含む。括弧の補足は note に分ける）。product＝実在の製品名（data/master.json か data/parent/parent-master.json にある名前）。【般】の行だけ必須、それ以外は name から自動で決める。",
     "u＝用法。『1 ME』＝1回1錠・朝夕食後。時点の記号：M 朝食後／N 昼食後／E 夕食後／HS 就寝前（MNE＝毎食後、ME＝朝夕、MN＝朝昼、NE＝昼夕、ME+HS＝朝夕食後・就寝前）。『p:1-0-2-0-0-0』＝『1-0-2-0-0-0 で投与』（左から 朝-昼-夕-眠前-…）。",
-    "mark＝行頭の □コ（手巻き）。sep＝『別包（ヒート包装）』の行コメント。tricks＝自動で決まらない狙い（lookalike 似た名前、multi_strength 同じ薬の別規格、brand_generic_stock 先発名で印字、combo 配合錠で規格なし、unit_meq 単位 mEq）。自動で足す狙い：manual_mark／separate_pack／nonuniform_dosing／general_name／prefix／two_per_dose／odd_days／page2／name_note／capsule／bedtime。",
+    "mark＝行頭の □コ（手巻き）。sep＝『別包（ヒート包装）』の行コメント。tricks＝自動で決まらない狙い（lookalike 似た名前、multi_strength 同じ薬の別規格、brand_generic_stock 先発名で印字、combo 配合錠（規格は「配合錠」の後ろの記号 HD・A81 など。記号が無ければ null）、unit_meq 単位 mEq）。自動で足す狙い：manual_mark／separate_pack／nonuniform_dosing／general_name／prefix／two_per_dose／odd_days／page2／name_note／capsule／bedtime。",
     "footer：aod＝『All One Dose　以下余白』、plain＝『以下余白』のみ（all_one_dose=false）。include_all_note があればフッターに緑字で書く。"
   ],
   "prescriptions": [

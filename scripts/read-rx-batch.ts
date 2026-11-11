@@ -9,8 +9,10 @@
  *   アプリと同じく 1 回の呼び出しにまとめる（4 枚まで）。出力は <out>/<処方>__<撮影者>__<機器>__<条件>.json
  * - 画像はアプリと同じく長辺 1600px・JPEG 画質 85 に縮小して送る（python3 と Pillow を使う。無ければ元のまま送り、警告を出す）
  * - --only：対象の絞り込み（出力名に対する正規表現）。例 "__clean$" で加工なしだけ、"^rx0[1-5]" で rx01〜05 だけ
- * - --max-usd：この金額（米ドル）を超えそうなら止める（既定 2）。1 回ごとに「これまでの平均の費用」で次の 1 回を見積もり、
- *   超えるなら呼ばずに止める。料金は下の PRICES（2026-11 の公式の料金表。変わったら直す）。知らないモデルは --price-in/--price-out（$/100万トークン）が必要
+ * - --max-usd：使ってよい上限（米ドル、既定 2）。呼ぶ前に、その 1 回の最悪の費用（入力の見積もり×1.3 ＋ 出力 max_tokens 16,000 すべて）を
+ *   取っておき、「使った額＋最悪の費用」が上限を超えるなら呼ばずに止める。だから上限は超えない。例外で失敗した回は請求が分からないので
+ *   最悪の費用を使ったものとして数える。料金は lib/api-prices.json（公式の料金表。全スクリプト共通）。知らないモデルは
+ *   --price-in/--price-out（$/100万トークン）が必要
  * - すでに出力があるものは飛ばす（途中で止めても続きから）。--force で読み直す
  * - --dry-run：API を呼ばずに、対象・まとめ方・見積もりだけ出す（APIキー不要）
  * - 画像や読み取り結果の中身は画面に出さない（数だけ）
@@ -22,14 +24,9 @@ import { spawnSync } from "node:child_process";
 
 type Img = { base64: string; mediaType: "image/jpeg" | "image/png"; width: number | null; height: number | null };
 
-// 米ドル / 100 万トークン（入力, 出力）。https://platform.claude.com/docs/en/about-claude/pricing（2026-11-11 に確認）
-const PRICES: Record<string, [number, number]> = {
-  "claude-opus-5-5": [4, 20],
-  "claude-sonnet-5-5": [2, 10],
-  "claude-haiku-5-5": [0.1, 0.5], // プロンプト 10 万トークン以下の料金（処方箋 1〜2 枚ならこちら）
-  "claude-opus-5": [5, 25],
-  "claude-sonnet-5": [2, 10],
-};
+type Price = { input: number; output: number; long?: { threshold: number; input: number; output: number } };
+const MAX_OUTPUT_TOKENS = 16000; // lib/readRx.ts の READ_RX_MAX_TOKENS と同じ（実行時に確かめる）
+const INPUT_MARGIN = 1.3; // 入力トークンの見積もり（画像 幅×高さ÷750）が外れても上限を守るための余裕
 const MAX_IMAGES = 4; // app/api/read-rx と同じ
 const MAX_BASE64_CHARS = 3_000_000; // app/api/read-rx と同じ
 const EXT = /\.(jpe?g|png)$/i;
@@ -112,7 +109,8 @@ async function main() {
   const limit = arg("--limit") ? Number(arg("--limit")) : Infinity;
   const dry = flag("--dry-run");
   const force = flag("--force");
-  const price: [number, number] | undefined = arg("--price-in") && arg("--price-out") ? [Number(arg("--price-in")), Number(arg("--price-out"))] : PRICES[model];
+  const prices = JSON.parse(fs.readFileSync(path.join(ROOT, "lib/api-prices.json"), "utf8")).models as Record<string, Price>;
+  const price: Price | undefined = arg("--price-in") && arg("--price-out") ? { input: Number(arg("--price-in")), output: Number(arg("--price-out")) } : prices[model];
   if (!price) {
     console.error(`料金が分からないモデル: ${model}。--price-in と --price-out（$/100万トークン）を指定する`);
     process.exit(1);
@@ -121,7 +119,11 @@ async function main() {
     console.error(`画像のフォルダが無い: ${imagesDir}（python3 scripts/make-rx-variants.py で作る）`);
     process.exit(1);
   }
-  const cost = (inTok: number, outTok: number) => (inTok * price[0] + outTok * price[1]) / 1e6;
+  const cost = (inTok: number, outTok: number) => {
+    const p = price.long && inTok > price.long.threshold ? price.long : price;
+    return (inTok * p.input + outTok * p.output) / 1e6;
+  };
+  const worstCase = (imgs: Img[]) => cost(Math.ceil(estInputTokens(imgs) * INPUT_MARGIN), MAX_OUTPUT_TOKENS);
 
   let jobs = [...groupImages(imagesDir)].filter(([k]) => !only || only.test(k));
   const skipped = jobs.filter(([k]) => !force && fs.existsSync(path.join(outDir, `${k}.json`))).length;
@@ -132,17 +134,19 @@ async function main() {
     console.error(`1 回に送れる画像は ${MAX_IMAGES} 枚まで: ${tooMany.map(([k]) => k).join(", ")}`);
     process.exit(1);
   }
-  console.log(`モデル ${model}（$${price[0]}/$${price[1]} per MTok）・対象 ${jobs.length} 回（画像 ${jobs.reduce((a, [, f]) => a + f.length, 0)} 枚）・出力済みで飛ばした ${skipped}・上限 $${maxUsd}`);
+  console.log(`モデル ${model}（$${price.input}/$${price.output} per MTok）・対象 ${jobs.length} 回（画像 ${jobs.reduce((a, [, f]) => a + f.length, 0)} 枚）・出力済みで飛ばした ${skipped}・上限 $${maxUsd}`);
 
   if (dry) {
     let est = 0;
+    let worst = 0;
     for (const [k, files] of jobs) {
       const imgs = files.map(loadImage);
       const t = estInputTokens(imgs);
       est += cost(t, 3000);
+      worst = Math.max(worst, worstCase(imgs));
       console.log(`  ${k}：${files.map((f) => path.basename(f)).join(" + ")}（入力 約${t} トークン）`);
     }
-    console.log(`見積もり（出力を 1 回 3,000 トークンと仮定）：約 $${est.toFixed(3)}。API は呼んでいない（--dry-run）`);
+    console.log(`見積もり（出力を 1 回 3,000 トークンと仮定）：約 $${est.toFixed(3)}。1 回の最悪の費用（上限の判定に取っておく額）：最大 $${worst.toFixed(3)}。API は呼んでいない（--dry-run）`);
     return;
   }
 
@@ -154,7 +158,11 @@ async function main() {
     process.exit(1);
   }
   const { getClient } = await import("../lib/claude");
-  const { readRx } = await import("../lib/readRx");
+  const { readRx, READ_RX_MAX_TOKENS } = await import("../lib/readRx");
+  if (READ_RX_MAX_TOKENS !== MAX_OUTPUT_TOKENS) {
+    console.error(`lib/readRx.ts の max_tokens（${READ_RX_MAX_TOKENS}）とランナーの最悪の見積もり（${MAX_OUTPUT_TOKENS}）が違う。MAX_OUTPUT_TOKENS を直す`);
+    process.exit(1);
+  }
   const client = getClient();
   if (!client) {
     console.error("APIキーが未設定です。ANTHROPIC_API_KEY か CLAUDE_API_KEY を設定してください。");
@@ -170,9 +178,9 @@ async function main() {
   for (const [key, files] of jobs) {
     const imgs = files.map(loadImage);
     const big = imgs.find((i) => i.base64.length > MAX_BASE64_CHARS);
-    const projected = done ? spent / done : cost(estInputTokens(imgs), 6000);
-    if (spent + projected > maxUsd) {
-      console.log(`上限 $${maxUsd} を超えそうなので止める（使った $${spent.toFixed(4)}、次の見積もり $${projected.toFixed(4)}）`);
+    const reserve = worstCase(imgs);
+    if (!big && spent + reserve > maxUsd) {
+      console.log(`上限 $${maxUsd} を超えうるので止める（使った $${spent.toFixed(4)}、次の 1 回の最悪 $${reserve.toFixed(4)}）。続けるなら --max-usd を上げて同じコマンド（済んだ分は飛ばす）`);
       break;
     }
     const rec: Record<string, unknown> = { key, model, images: files.map((f) => path.basename(f)), at: new Date().toISOString() };
@@ -191,6 +199,9 @@ async function main() {
         if (!res.parsed_output) rec.error = `読み取り結果を解釈できなかった（stop_reason=${res.stop_reason}）`;
       } catch (e) {
         rec.error = (e instanceof Error ? e.message : String(e)).slice(0, 300);
+        // 請求されたか分からないので、最悪の費用を使ったものとして数える（見積もりを甘くしない）
+        spent += reserve;
+        rec.cost_reserved_usd = Number(reserve.toFixed(6));
       }
     }
     rec.elapsed_ms = Date.now() - t0;
@@ -203,7 +214,7 @@ async function main() {
   }
   const summary = [
     `モデル ${model}・呼び出し ${done}（失敗 ${failed}）・入力 ${inSum}／出力 ${outSum} トークン`,
-    `費用 $${spent.toFixed(4)}（1 回あたり $${done ? (spent / done).toFixed(4) : "-"}）`,
+    `費用 $${spent.toFixed(4)}（1 回あたり $${done ? (spent / done).toFixed(4) : "-"}。例外で失敗した回は最悪の費用で数えている）`,
   ].join("\n");
   console.log(summary);
   // 採点スクリプトは *.json を全部読むので、まとめは .txt に

@@ -169,28 +169,28 @@ test("【般】を落とすと薬品名は誤り、基幹名は正しい", () =>
   assert.equal(rowOf(rows, "01").name_core, "1");
 });
 
-test("【不具合】( ) の中の取り違えが見えない：「アムロジピン(OD)錠2.5mg「サワイ」」をふつうの錠の正解に対して正しいと数える", { todo: "括弧内を除く正規化のため、括弧で書かれた OD・CR・L が消える" }, () => {
+test("【不具合】( ) の中の取り違えが見えない：「アムロジピン(OD)錠2.5mg「サワイ」」をふつうの錠の正解に対して正しいと数える", () => {
   const e = exp("rx06"); // Rp04 アムロジピン錠2.5mg「サワイ」（ふつうの錠）
   e.items[idx(e.items, "04")].name_as_written = "アムロジピン(OD)錠2.5mg「サワイ」";
   const { rows } = score({ "rx06__QA__x__x.json": e });
   assert.equal(rowOf(rows, "04").name, "0");
 });
 
-test("【不具合】括弧の補足に入った別の品名が見えない：「ワーファリン錠1mg（0.5mg）」を 1mg の正解に対して正しいと数える", { todo: "括弧内を除く正規化" }, () => {
+test("【不具合】括弧の補足に入った別の品名が見えない：「ワーファリン錠1mg（0.5mg）」を 1mg の正解に対して正しいと数える", () => {
   const e = exp("rx18");
   e.items[0].name_as_written = "ワーファリン錠1mg（0.5mg）";
   const { rows } = score({ "rx18__QA__x__x.json": e });
   assert.equal(rowOf(rows, "01").name, "0");
 });
 
-test("【不具合】接頭辞の取り違え (K)→(Na) を正しいと数える（狙い「接頭辞」の項目が薬品名なのに、接頭辞は比べていない）", { todo: "normalize が (K)(Na) を除く。狙い prefix の採点が意味をなさない" }, () => {
+test("【不具合】接頭辞の取り違え (K)→(Na) を正しいと数える（狙い「接頭辞」の項目が薬品名なのに、接頭辞は比べていない）", () => {
   const e = exp("rx03");
   e.items[0].name_as_written = "(Na)アスパラカリウム錠300mg";
   const { rows } = score({ "rx03__QA__x__x.json": e });
   assert.equal(rowOf(rows, "01").name, "0");
 });
 
-test("【不具合】【般】ニフェジピン徐放錠の 12時間／24時間 の取り違え（CR と L の別）が「行が全部正しい」に効かない", { todo: "row_ok に name_note が入っていない。補足を名前の括弧に入れると name も正しい扱い" }, () => {
+test("【不具合】【般】ニフェジピン徐放錠の 12時間／24時間 の取り違え（CR と L の別）が「行が全部正しい」に効かない", () => {
   const e = exp("rx15"); // Rp03 【般】ニフェジピン徐放錠10mg（12時間持続）→ L 錠
   const it = e.items[idx(e.items, "03")];
   it.name_as_written = "【般】ニフェジピン徐放錠10mg（24時間持続）";
@@ -210,7 +210,7 @@ test("規格：配合錠（正解 null）で読み取りが null・HD なら正�
   assert.equal(judgeRow(e, { ...e, strength: "10mg" }, 14).strength, false);
 });
 
-test("【不具合】規格：配合錠で「錠」「配合」のような名前の一部を規格として読んでも正しい扱い", { todo: "strengthOk が薬品名に含まれる文字列なら何でも正しいにする" }, () => {
+test("【不具合】規格：配合錠で「錠」「配合」のような名前の一部を規格として読んでも正しい扱い", () => {
   const e = exp("rx16").items[0];
   assert.equal(judgeRow(e, { ...e, strength: "錠" }, 14).strength, false);
   assert.equal(judgeRow(e, { ...e, strength: "配合" }, 14).strength, false);
@@ -260,12 +260,12 @@ test("数を文字列で返しても数として比べる（\"2\" は 2）", () 
   assert.equal(judgeRow(e, { ...e, days: "14", per_timing: { morning: "2", noon: "0", evening: "2" } }, 56).row_ok, true);
 });
 
-test("【不具合】true を 1 錠と数える（数でない値は誤りにすべき）", { todo: "numEq が Number(true)=1 にしている" }, () => {
+test("【不具合】true を 1 錠と数える（数でない値は誤りにすべき）", () => {
   const e = exp("rx01").items[0]; // 朝 1
   assert.equal(judgeRow(e, { ...e, per_timing: { morning: true, noon: 0, evening: 0 } }, 28).morning, false);
 });
 
-test("【不具合】就寝前だけの薬：1日量を 0 と読んでも（就寝前を落としても）「行が全部正しい」", { todo: "row_ok に 1日量が入らない。就寝前の薬は朝昼夕がすべて 0 なので、行の判定が用法を何も見ていない" }, () => {
+test("【不具合】就寝前だけの薬：1日量を 0 と読んでも（就寝前を落としても）「行が全部正しい」", () => {
   const e = exp("rx09"); // Rp06 センノシド錠12mg 1回2錠 就寝前
   Object.assign(e.items[idx(e.items, "06")], { dose_per_time: null, times_per_day: 0, dose_per_day: 0, raw_usage_text: "" });
   const { rows } = score({ "rx09__QA__x__x.json": e });
@@ -337,19 +337,19 @@ test("結果のフォルダが空なら終了コード 1", () => {
   assert.equal(status, 1);
 });
 
-test("【不具合】壊れた JSON が 1 つあると採点全体が落ちる（読み取り失敗として数え、ほかは採点すべき）", { todo: "JSON.parse に try が無い" }, () => {
+test("【不具合】壊れた JSON が 1 つあると採点全体が落ちる（読み取り失敗として数え、ほかは採点すべき）", () => {
   const { status, all, stderr } = score({ "rx01__QA__x__x.json": "{\"items\": [", "rx02__QA__x__x.json": exp("rx02") });
   assert.equal(status, 0, stderr.slice(0, 300));
   assert.equal(Number(all.images), 2);
   assert.equal(Number(all.failed), 1);
 });
 
-test("【不具合】空のファイル（0 バイト）で採点全体が落ちる", { todo: "JSON.parse に try が無い" }, () => {
+test("【不具合】空のファイル（0 バイト）で採点全体が落ちる", () => {
   const { status } = score({ "rx01__QA__x__x.json": "", "rx02__QA__x__x.json": exp("rx02") });
   assert.equal(status, 0);
 });
 
-test("【不具合】items の中に null の行があると採点全体が落ちる", { todo: "pairScore・judgeRow が行を null かどうか見ない" }, () => {
+test("【不具合】items の中に null の行があると採点全体が落ちる", () => {
   const e = exp("rx01");
   e.items.splice(2, 0, null);
   const { status, all } = score({ "rx01__QA__x__x.json": e });
@@ -357,7 +357,7 @@ test("【不具合】items の中に null の行があると採点全体が落�
   assert.equal(Number(all.missing), 0);
 });
 
-test("【不具合】ページごとに保存した結果（rx05-1__…、rx05-2__…）を、どちらも処方全体（10 行）と比べて抜けを二重に数える", { todo: "parseKey がページ番号を捨てる。ランナーはまとめて保存するので、写真を別々に読ませたときだけ起きる" }, () => {
+test("【不具合】ページごとに保存した結果（rx05-1__…、rx05-2__…）を、どちらも処方全体（10 行）と比べて抜けを二重に数える", () => {
   const e = exp("rx05");
   const p1 = { ...e, items: e.items.slice(0, 6) };
   const p2 = { ...e, items: e.items.slice(6) };

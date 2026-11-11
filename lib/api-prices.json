@@ -1,0 +1,13 @@
+{
+  "_説明": "Claude API の料金（米ドル／100 万トークン）。費用の見積もり・上限に使う（scripts/read-rx-batch.ts、scripts/extract-docs.cjs）。料金が変わったらここだけ直す。long は、プロンプト（入力）が threshold トークンを超える呼び出しの料金（Haiku 5.5 だけ）",
+  "checked_at": "2026-11-11",
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "models": {
+    "claude-opus-5-5": { "input": 4, "output": 20 },
+    "claude-sonnet-5-5": { "input": 2, "output": 10 },
+    "claude-haiku-5-5": { "input": 0.1, "output": 0.5, "long": { "threshold": 100000, "input": 0.5, "output": 2.5 } },
+    "claude-opus-5": { "input": 5, "output": 25 },
+    "claude-sonnet-5": { "input": 2, "output": 10 },
+    "claude-haiku-4-5": { "input": 1, "output": 5 }
+  }
+}

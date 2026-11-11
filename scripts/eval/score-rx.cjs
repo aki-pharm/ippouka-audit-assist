@@ -8,7 +8,9 @@
  *   --results：1 画像（または 1 処方の複数ページ）につき 1 つの JSON。中身は /api/read-rx の応答 {result, usage}、
  *              または result だけ（RxReadResult）。scripts/read-rx-batch.ts の出力そのまま。{error} だけのものは「読み取り失敗」
  *   ファイル名の決まり（docs/rx-testset.md）：<処方>__<撮影者>__<機器>__<条件>[__<回>].json 例 rx07__AKI__iphone__tilt.json
- *              処方の部分の「-1」「-2」（ページ番号）は無視する。決まりに合わない部分は「-」として数える
+ *              ページごとに保存したもの（rx05-1__…json と rx05-2__…json）は、同じ処方・同じ撮影として 1 つにまとめてから採点する
+ *              （items をページ順につなぐ。どれかのページが読めなければ、その撮影は「読み取り失敗」に数え、読めたページの行だけで採点）。
+ *              決まりに合わない部分は「-」として数える。壊れた JSON・空のファイル・items の中の null の行で止まらない（失敗・無視として数える）
  *   --meta（任意）：列 key,photographer,device,condition。key はファイル名から .json を除いたもの。ファイル名より優先
  *
  * 出力
@@ -21,12 +23,16 @@
  *   合計が最大になる組み合わせを選ぶ（全探索の動的計画法）。名前の近さが 0.5 未満の組は対応させない（Rp が同じなら 0.3 以上）。
  *   対応する読み取り行が無い正解行＝「抜け」、対応する正解行が無い読み取り行＝「余分」
  * - 正解率の分母は正解の行数（抜けはすべての項目で不正解に数える）。対応できた行だけの正解率も別に出す
- * - 薬品名：lib/master.ts の normalize()（NFKC・空白除去・括弧内を除く・小文字）で比べる。メーカー名「」と【般】は残る。
- *   「名前（基幹）」は、さらにメーカー名と【般】(K) などの接頭辞を除いて比べる（lib/master.ts の stripMaker・stripPrefix）
- * - 規格：normalize して比べる。正解が null（配合錠）のときは、読み取りが null・空、または薬品名に含まれる文字列（HD など）なら正解
- * - 数（1回量・回数・1日量・朝昼夕・日数）：数として比べる。null は null とだけ一致
+ * - 採点はマスタとの照合（lib/master.ts の normalize）より厳しくする。採点の正規化 strictText は NFKC・空白除去・μ と ㎎ の統一・小文字だけで、
+ *   **括弧の中は消さない**（「(OD)」「（0.5mg）」「（24時間持続）」で薬が変わるため）。lib/master.ts の写しは行の対応づけにだけ使う
+ * - 薬品名：strictText で比べる。メーカー名「」と【般】も比べる。行頭の (K)(Ca)(Na) だけは別に扱い、
+ *   読み取りに接頭辞が無ければ不問（意味は薬品名に含まれる）、有れば正解と同じ接頭辞のときだけ正しい（(Na) と (K) の取り違えは誤り）
+ * - 「名前（基幹）」：メーカー名「」と行頭の【般】(K)(Ca)(Na) を除いて strictText で比べる（括弧の中は残す）
+ * - 規格：strictText で比べる。配合錠は「配合錠」の後ろの記号（HD・A81 など）が規格（11/11 AKI の判断）。正解が null のときは読み取りも null・空のときだけ正しい
+ * - 数（1回量・回数・1日量・朝昼夕・日数）：数か、数字だけの文字列（"2"）だけを数として比べる。true・"2錠" などは誤り。正解が null なら null・空だけ正しい
+ * - 眠前：1日量 −（朝＋昼＋夕）を眠前の錠数とみなして比べる（11/11 AKI：1日量は眠前を含む。アプリの表は朝昼夕だけで、眠前は扱えない）
  * - 全量：読み取りの 1日量 × 日数 を、印字の全量と比べる
- * - 「行が全部正しい」：薬品名・規格・朝昼夕の 3 つ・日数・別包・□コ がすべて正しい（袋の図に効く項目）
+ * - 「行が全部正しい」：薬品名・規格・朝昼夕の 3 つ・1日量（＝眠前も）・日数・別包・□コ・括弧の補足（name_note）がすべて正しい
  */
 const fs = require("fs");
 const path = require("path");
@@ -52,7 +58,31 @@ function normalize(s) {
 }
 const stripMaker = (s) => String(s ?? "").replace(/[「『][^」』]*[」』]/g, "");
 const stripPrefix = (s) => s.replace(/^(【般】|\[般\]|般|\(k\)|\(ca\)|\(na\))/i, "");
-const coreName = (s) => stripPrefix(normalize(stripMaker(s)));
+
+// ---------- 採点用の厳しい比べ方（括弧の中を消さない） ----------
+function strictText(s) {
+  return String(s ?? "")
+    .normalize("NFKC")
+    .replace(/[\s　]/g, "")
+    .replace(/[µμ]/g, "μ")
+    .replace(/㎎/g, "mg")
+    .toLowerCase();
+}
+const PREFIX_RE = /^\((k|ca|na)\)/; // strictText の後（小文字・半角括弧）
+function splitPrefix(s) {
+  const t = strictText(s);
+  const m = t.match(PREFIX_RE);
+  return m ? { prefix: m[1], body: t.slice(m[0].length) } : { prefix: "", body: t };
+}
+/** 薬品名：本体が同じで、読み取りの接頭辞が「無い」か「正解と同じ」 */
+function nameOk(pred, exp) {
+  if (typeof pred !== "string") return false;
+  const p = splitPrefix(pred);
+  const e = splitPrefix(exp);
+  return p.body === e.body && (p.prefix === "" || p.prefix === e.prefix);
+}
+/** 基幹名：メーカー名「」と行頭の【般】(K)(Ca)(Na) を除く。括弧の中（(OD) など）は残す */
+const coreName = (s) => strictText(stripMaker(s)).replace(/^(?:【般】|\((?:k|ca|na)\))+/, "");
 
 /** lib/master.ts の normalize・stripMaker・stripPrefix の本文が、ここに写したものと同じかを確かめる */
 function checkDrift() {
@@ -75,9 +105,19 @@ function checkDrift() {
 
 // ---------- 比べ方 ----------
 const isNum = (v) => typeof v === "number" && Number.isFinite(v);
-const numEq = (a, b) => (a == null || a === "" ? b == null : isNum(Number(a)) && b != null && Number(a) === Number(b));
-const textEq = (a, b) => normalize(a) === normalize(b);
-const emptyish = (v) => v == null || normalize(v) === "";
+/** 数か、数字だけの文字列なら数に。それ以外（true・"2錠"・オブジェクトなど）は undefined */
+function toNum(v) {
+  if (isNum(v)) return v;
+  if (typeof v === "string") {
+    const t = v.normalize("NFKC").trim();
+    if (/^\d+(?:\.\d+)?$/.test(t)) return Number(t);
+  }
+  return undefined;
+}
+const isEmpty = (v) => v == null || (typeof v === "string" && strictText(v) === "");
+const numEq = (a, b) => (b == null ? isEmpty(a) : toNum(a) === b);
+const textEq = (a, b) => typeof a === "string" && strictText(a) === strictText(b);
+const emptyish = isEmpty;
 
 function bigrams(s) {
   const out = new Map();
@@ -99,20 +139,27 @@ function dice(a, b) {
   return (2 * inter) / (a.length - 1 + b.length - 1);
 }
 
-function strengthOk(pred, exp, expName) {
-  if (exp == null) return emptyish(pred) || normalize(expName).includes(normalize(pred));
+function strengthOk(pred, exp) {
+  if (exp == null) return isEmpty(pred);
   return textEq(pred, exp);
 }
 
 const pt = (it, k) => it?.per_timing?.[k];
+/** 眠前の錠数＝1日量 −（朝＋昼＋夕）。どれかが数でなければ undefined */
+function bedtimeOf(it) {
+  const d = toNum(it?.dose_per_day);
+  const t = ["morning", "noon", "evening"].map((k) => toNum(pt(it, k)));
+  if (d === undefined || t.some((x) => x === undefined)) return undefined;
+  return d - t[0] - t[1] - t[2];
+}
 
 /** 1 組の判定。p が null なら抜け（全部 false） */
 function judgeRow(e, p, total) {
   if (!p) return Object.fromEntries(FIELDS.map((f) => [f, false]));
   const r = {
-    name: textEq(p.name_as_written, e.name_as_written),
-    name_core: coreName(p.name_as_written) === coreName(e.name_as_written),
-    strength: strengthOk(p.strength, e.strength, e.name_as_written),
+    name: nameOk(p.name_as_written, e.name_as_written),
+    name_core: typeof p.name_as_written === "string" && coreName(p.name_as_written) === coreName(e.name_as_written),
+    strength: strengthOk(p.strength, e.strength),
     dosage_form: p.dosage_form === e.dosage_form,
     dose_per_time: numEq(p.dose_per_time, e.dose_per_time),
     times_per_day: numEq(p.times_per_day, e.times_per_day),
@@ -121,17 +168,18 @@ function judgeRow(e, p, total) {
     noon: numEq(pt(p, "noon"), pt(e, "noon")),
     evening: numEq(pt(p, "evening"), pt(e, "evening")),
     days: numEq(p.days, e.days),
-    total: isNum(p.dose_per_day) && isNum(p.days) && p.dose_per_day * p.days === total,
+    bedtime: bedtimeOf(p) !== undefined && bedtimeOf(p) === bedtimeOf(e),
+    total: toNum(p.dose_per_day) !== undefined && toNum(p.days) !== undefined && toNum(p.dose_per_day) * toNum(p.days) === total,
     pack: p.pack_instruction === e.pack_instruction,
     mark: p.manual_fill_mark === e.manual_fill_mark,
     name_note: emptyish(p.name_note) ? emptyish(e.name_note) : textEq(p.name_note, e.name_note),
   };
   r.per_timing = r.morning && r.noon && r.evening;
-  r.row_ok = r.name && r.strength && r.per_timing && r.days && r.pack && r.mark;
+  r.row_ok = r.name && r.strength && r.per_timing && r.dose_per_day && r.days && r.pack && r.mark && r.name_note;
   return r;
 }
 
-const FIELDS = ["name", "name_core", "strength", "dosage_form", "dose_per_time", "times_per_day", "dose_per_day", "morning", "noon", "evening", "per_timing", "days", "total", "pack", "mark", "name_note", "row_ok"];
+const FIELDS = ["name", "name_core", "strength", "dosage_form", "dose_per_time", "times_per_day", "dose_per_day", "morning", "noon", "evening", "per_timing", "bedtime", "days", "total", "pack", "mark", "name_note", "row_ok"];
 const FIELD_LABEL = {
   name: "薬品名（メーカー・【般】込み）",
   name_core: "薬品名（基幹）",
@@ -144,6 +192,7 @@ const FIELD_LABEL = {
   noon: "昼",
   evening: "夕",
   per_timing: "朝昼夕すべて",
+  bedtime: "眠前（1日量−朝昼夕）",
   days: "日数",
   total: "全量（1日量×日数）",
   pack: "別包（pack_instruction）",
@@ -151,7 +200,7 @@ const FIELD_LABEL = {
   name_note: "括弧の補足（name_note）",
   row_ok: "行が全部正しい",
 };
-const SHORT = ["name", "strength", "per_timing", "days", "pack", "mark", "row_ok"];
+const SHORT = ["name", "strength", "per_timing", "dose_per_day", "days", "pack", "mark", "name_note", "row_ok"];
 
 // 狙い → その狙いで特に見る項目
 const TRICK_FIELDS = {
@@ -165,7 +214,7 @@ const TRICK_FIELDS = {
   page2: ["name"],
   name_note: ["name", "name_note"],
   capsule: ["dosage_form"],
-  bedtime: ["per_timing", "dose_per_day"],
+  bedtime: ["bedtime", "dose_per_day"],
   lookalike: ["name"],
   multi_strength: ["name", "strength"],
   brand_generic_stock: ["name"],
@@ -187,12 +236,13 @@ const TRICK_LABEL = {
   lookalike: "似た名前",
   multi_strength: "同じ薬の別規格",
   brand_generic_stock: "先発名で印字",
-  combo: "配合錠（規格の数字なし）",
+  combo: "配合錠（規格は HD などの記号）",
   unit_meq: "単位 mEq",
 };
 
 // ---------- 行の対応づけ ----------
 function pairScore(e, p) {
+  if (typeof p.name_as_written !== "string" || !p.name_as_written) return null;
   const ne = normalize(e.name_as_written);
   const np = normalize(p.name_as_written);
   let sim = dice(ne, np);
@@ -200,7 +250,7 @@ function pairScore(e, p) {
   const rpSame = String(p.rp ?? "").replace(/^0+/, "") === String(e.rp).replace(/^0+/, "");
   if (!(sim >= 0.5 || (rpSame && sim >= 0.3))) return null;
   let s = sim;
-  if (strengthOk(p.strength, e.strength, e.name_as_written)) s += 0.3;
+  if (strengthOk(p.strength, e.strength)) s += 0.3;
   if (rpSame) s += 0.2;
   if (["morning", "noon", "evening"].every((k) => pt(p, k) === pt(e, k))) s += 0.1;
   return s;
@@ -274,6 +324,35 @@ function newAgg() {
 const pct = (a, b) => (b ? `${((100 * a) / b).toFixed(1)}%` : "-");
 const frac = (a, b) => (b ? `${a}/${b}（${((100 * a) / b).toFixed(1)}%）` : "-");
 
+/**
+ * 結果のファイル 1 つを読む。返り値：{ res（items が配列のときだけ。null の行などは取り除く）, usage, cost, parseError }
+ * 壊れた JSON・空のファイルでも止めない
+ */
+function loadResult(file) {
+  let raw;
+  try {
+    const text = fs.readFileSync(file, "utf8");
+    raw = JSON.parse(text);
+  } catch {
+    return { res: null, usage: null, cost: null, parseError: true };
+  }
+  const r = raw && typeof raw === "object" && Array.isArray(raw.items) ? raw : raw && typeof raw === "object" ? raw.result : null;
+  const ok = r && typeof r === "object" && Array.isArray(r.items);
+  const res = ok ? { ...r, items: r.items.filter((x) => x && typeof x === "object" && !Array.isArray(x)) } : null;
+  const usage = raw && typeof raw === "object" && raw.usage && typeof raw.usage === "object" ? raw.usage : null;
+  const cost = raw && typeof raw === "object" && isNum(raw.cost_usd) ? raw.cost_usd : null;
+  return { res, usage, cost, parseError: false };
+}
+
+function sumUsage(loaded) {
+  const us = loaded.map((l) => l.usage).filter(Boolean);
+  if (!us.length) return null;
+  return {
+    input: us.reduce((a, u) => a + (toNum(u.input ?? u.input_tokens) ?? 0), 0),
+    output: us.reduce((a, u) => a + (toNum(u.output ?? u.output_tokens) ?? 0), 0),
+  };
+}
+
 function main() {
   const resultsDir = arg("--results");
   if (!resultsDir) {
@@ -314,15 +393,33 @@ function main() {
   const fieldWrong = Object.fromEntries(FIELDS.map((f) => [f, 0]));
   const flag = { mark: { tp: 0, fp: 0, fn: 0, tn: 0 }, pack: { tp: 0, fp: 0, fn: 0, tn: 0 } };
 
+  // ページごとのファイル（rx05-1__… と rx05-2__…）は同じ撮影として 1 つにまとめる
+  const byKey = new Map();
   for (const f of files) {
-    const key = f.replace(/\.json$/, "");
+    const stem = f.replace(/\.json$/, "");
+    const [head, ...rest] = stem.split("__");
+    const pm = head.match(/^(.*?)-(\d+)$/);
+    const key = [pm ? pm[1] : head, ...rest].join("__");
+    if (!byKey.has(key)) byKey.set(key, []);
+    byKey.get(key).push({ file: f, page: pm ? Number(pm[2]) : 0 });
+  }
+  let mergedKeys = 0;
+  let parseErrors = 0;
+
+  for (const [key, parts] of byKey) {
     const info = { ...parseKey(key), ...(meta.get(key) ?? {}) };
     const exp = expected.get(info.rx);
-    if (!exp) { skipped.push(`${f}（正解が無い処方: ${info.rx}）`); continue; }
-    const raw = JSON.parse(fs.readFileSync(path.join(resultsDir, f), "utf8"));
-    const res = raw && raw.items ? raw : raw?.result ?? null;
-    const failed = !res || !Array.isArray(res.items);
-    const pred = failed ? [] : res.items;
+    if (!exp) { skipped.push(`${parts.map((x) => x.file).join("+")}（正解が無い処方: ${info.rx}）`); continue; }
+    if (parts.length > 1) mergedKeys++;
+    const loaded = parts.sort((a, b) => a.page - b.page).map((x) => loadResult(path.join(resultsDir, x.file)));
+    parseErrors += loaded.filter((l) => l.parseError).length;
+    const okParts = loaded.filter((l) => l.res);
+    const failed = okParts.length < loaded.length;
+    const pred = okParts.flatMap((l) => l.res.items);
+    const res = okParts.length
+      ? { items: pred, all_one_dose: okParts.some((l) => l.res.all_one_dose === true) ? true : okParts.every((l) => l.res.all_one_dose === false) ? false : null, include_all_note: okParts.map((l) => l.res.include_all_note).find((v) => !isEmpty(v)) ?? null }
+      : null;
+    const raw = { usage: sumUsage(loaded), cost_usd: loaded.some((l) => l.cost != null) ? loaded.reduce((a, l) => a + (l.cost ?? 0), 0) : null };
     const map = align(exp.items, pred);
     const usedP = new Set(map.filter((j) => j >= 0));
 
@@ -361,7 +458,7 @@ function main() {
     });
     pred.forEach((p, jdx) => { if (!usedP.has(jdx)) { extras.push([key, p.rp, p.name_as_written]); imagePerfect = false; } });
     const nExtra = pred.length - usedP.size;
-    const aodOk = !failed && res.all_one_dose === exp.all_one_dose && (emptyish(res.include_all_note) ? emptyish(exp.include_all_note) : textEq(res.include_all_note, exp.include_all_note));
+    const aodOk = !!res && !failed && res.all_one_dose === exp.all_one_dose && (emptyish(res.include_all_note) ? emptyish(exp.include_all_note) : textEq(res.include_all_note, exp.include_all_note));
     if (!aodOk) imagePerfect = false;
     const usage = raw?.usage;
     for (const a of aggs) {
@@ -399,6 +496,8 @@ function main() {
   md.push(`- 正解：\`${path.relative(ROOT, expDir)}\`（処方 ${expected.size} 件）、行の狙い：\`${path.relative(ROOT, rowsCsv)}\``);
   md.push(`- 作成：${new Date().toISOString()}　\`node scripts/eval/score-rx.cjs\`（決まりはスクリプト先頭）`);
   if (drift) md.push(`- **注意**：${drift}`);
+  if (mergedKeys) md.push(`- ページごとのファイルを 1 つの撮影にまとめた：${mergedKeys}`);
+  if (parseErrors) md.push(`- 読めないファイル（壊れた JSON・空）：${parseErrors}（読み取り失敗に数えた）`);
   if (skipped.length) md.push(`- 採点しなかったファイル ${skipped.length}：${skipped.slice(0, 10).join("、")}`);
   md.push("");
   md.push("## 全体", "");
@@ -450,6 +549,8 @@ function describeDiff(e, p, wrong) {
   const show = {
     name: () => `${e.name_as_written} → ${p.name_as_written}`,
     strength: () => `規格 ${e.strength} → ${p.strength}`,
+    dose_per_day: () => `1日量 ${e.dose_per_day} → ${p.dose_per_day}`,
+    name_note: () => `補足 ${e.name_note} → ${p.name_note}`,
     per_timing: () => `朝昼夕 ${pt(e, "morning")}-${pt(e, "noon")}-${pt(e, "evening")} → ${pt(p, "morning")}-${pt(p, "noon")}-${pt(p, "evening")}`,
     days: () => `日数 ${e.days} → ${p.days}`,
     pack: () => `別包 ${e.pack_instruction} → ${p.pack_instruction}`,
@@ -459,4 +560,4 @@ function describeDiff(e, p, wrong) {
 }
 
 if (require.main === module) main();
-module.exports = { normalize, coreName, dice, align, judgeRow, parseKey, strengthOk, checkDrift };
+module.exports = { normalize, strictText, nameOk, coreName, dice, align, judgeRow, parseKey, strengthOk, toNum, bedtimeOf, loadResult, checkDrift };

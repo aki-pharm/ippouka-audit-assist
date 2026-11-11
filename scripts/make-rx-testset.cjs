@@ -93,10 +93,16 @@ const PREFIX_RE = /^(\((?:K|Ca|Na)\))/;
 const strip = (name) => name.replace(PREFIX_RE, "");
 const isGeneral = (name) => name.startsWith("【般】");
 
-/** 規格：名前の中の「数字＋単位」（mg・μg・mEq）。配合錠など数字が無ければ null */
+/**
+ * 規格：名前の中の「数字＋単位」（mg・μg・mEq）。
+ * 配合錠は「配合錠」の後ろに印字された記号（HD・LD・AP・A81 など）を規格とする（11/11 AKI の判断）。記号も無ければ null
+ */
 function strengthOf(name) {
-  const m = name.normalize("NFKC").match(/(\d+(?:\.\d+)?)(mg|μg|µg|mEq|g)/);
-  return m ? `${m[1]}${m[2].replace("µ", "μ")}` : null;
+  const n = name.normalize("NFKC");
+  const m = n.match(/(\d+(?:\.\d+)?)(mg|μg|µg|mEq|g)/);
+  if (m) return `${m[1]}${m[2].replace("µ", "μ")}`;
+  const c = n.match(/配合(?:OD)?錠([A-Za-z0-9]+)/);
+  return c ? c[1] : null;
 }
 
 function loadProductNames() {

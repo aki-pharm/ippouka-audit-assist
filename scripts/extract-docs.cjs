@@ -14,7 +14,11 @@ const LIMIT = Number(arg("--limit", 20));
 const MODEL = arg("--model", "claude-haiku-5-5");
 const PAR = Number(arg("--parallel", 3));
 const BUDGET = Number(arg("--budget-usd", 60));
-const PRICE = { "claude-haiku-5-5": [1, 5], "claude-sonnet-5-5": [3, 15], "claude-opus-5-5": [15, 75] }[MODEL] || [3, 15]; // $/Mトークン（概算）
+// 料金は lib/api-prices.json（公式の料金表から。全スクリプト共通）。知らないモデルは止める
+const PRICE = require("../lib/api-prices.json").models[MODEL];
+if (!PRICE) { console.error(`料金が分からないモデル: ${MODEL}（lib/api-prices.json に足す）`); process.exit(1); }
+/** 1 回の呼び出しの費用（Haiku 5.5 は入力 10 万トークン超で高い料金） */
+const callUsd = (inTok, outTok) => { const p = PRICE.long && inTok > PRICE.long.threshold ? PRICE.long : PRICE; return (inTok * p.input + outTok * p.output) / 1e6; };
 const OUT = path.join("data/parent/drafts-docs", MODEL);
 fs.mkdirSync(OUT, { recursive: true });
 const PDF_DIR = "pdfs/parent";
@@ -57,7 +61,7 @@ async function worker() {
       j.expected_products = names;
       fs.writeFileSync(file, JSON.stringify(j, null, 2));
       tin += j.usage.input; tout += j.usage.output;
-      usd = (tin * PRICE[0] + tout * PRICE[1]) / 1e6;
+      usd += callUsd(j.usage.input, j.usage.output);
       ok++;
       console.log(`OK  ${d} ${j.products.length}規格（期待 ${names.length}）$${usd.toFixed(2)}`);
     } catch (e) { ng++; console.log(`NG  ${d}: ${e.message.slice(0, 100)}`); }
