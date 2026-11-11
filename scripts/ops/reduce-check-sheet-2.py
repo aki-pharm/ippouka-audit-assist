@@ -73,14 +73,22 @@ for s in sheet:
     q = qc.get(key) or (next((v for k, v in qc.items() if k[0] == "s" and k[1] == p["yj_code"]), None) if m == "s" else None)
     r = rc.get(key)
     issues = [x for x in ((q or {}).get("review_reason", "") or "").split("；") if x]
+    if not issues and o.get("照合") == "目で見る":  # 照合の行を引き当てられないときは、運用マスタに残っている理由を使う（片付いたことにしない）
+        issues = [x for x in (o.get("照合の理由") or "").split("；") if x]
     rules = (o.get("品質") or "").split()
     for x in issues: issue_count["照合：" + x] += 1
     for x in rules: issue_count["品質：" + x] += 1
     left_after_text = set(x for x in (r["残った"].split("；") if r else issues) if x)
-    fixed = []; left = []; values = {}
+    if r is None and q is None: left_after_text = set(issues)  # 照合し直しの結果も無いので、そのまま残す
+    fixed = []; left = []; values = {}; items = []  # items：片付いた項目（項目・方法・機械が決めた値）
     # 1) 本文での照合し直し
     for x in issues:
-        if x not in left_after_text: fixed.append(f"{x}（本文で照合し直し）"); fix_count["本文で照合し直し"] += 1
+        if x not in left_after_text:
+            fixed.append(f"{x}（本文で照合し直し）"); fix_count["本文で照合し直し"] += 1
+            lab = next((l for l in ("長径", "短径", "厚さ") if x.startswith(l)), None)
+            col = {"長径": "size_long_mm", "短径": "size_short_mm", "厚さ": "thickness_mm"}.get(lab)
+            v = p.get(col) if col else (p["imprint_front"] if "刻印（表）" in x else p["imprint_back"] if "刻印（裏）" in x else "")
+            items.append({"項目": lab or ("刻印（表）" if "刻印（表）" in x else "刻印（裏）" if "刻印（裏）" in x else x), "方法": "本文で照合", "値": v})
     op = opus_product(p["doc_id"], name, p["strength"])
     mv = model_values(p, name, p["strength"])
     def imprint_issue(side):
@@ -106,21 +114,24 @@ for s in sheet:
     for side in sorted(sides):
         ok, why, d, ov = imprint_issue(side)
         (fixed if ok else left).append(why); values[f"刻印_{side}"] = (d, ov)
-        if ok: fix_count["刻印 2モデル以上一致"] += 1
+        if ok: fix_count["刻印 2モデル以上一致"] += 1; items.append({"項目": f"刻印（{side}）", "方法": "2モデル一致", "値": ov})
     # 2) 大きさ（図だけ）
     for lab, col in [("長径", "size_long_mm"), ("短径", "size_short_mm"), ("厚さ", "thickness_mm")]:
         if not any(x.startswith(lab) for x in left_after_text): continue
         d = p.get(col); ov = (op or {}).get(col)
-        if op is not None and num_eq(d, ov): fixed.append(f"{lab}：2モデル一致"); fix_count["大きさ 2モデル一致"] += 1
+        if op is not None and num_eq(d, ov): fixed.append(f"{lab}：2モデル一致"); fix_count["大きさ 2モデル一致"] += 1; items.append({"項目": lab, "方法": "2モデル一致", "値": d})
         else: left.append(f"{lab}：本文に数字が無く、" + ("Opus の抽出なし" if op is None else f"2モデルで違う（下書き {d or '空'}／Opus {ov or '空'}）")); values[lab] = (d, ov)
     # 3) 空欄（R4）
-    if "R4" in rules:
+    if "R4" in rules and str(p.get("size_source", "")).startswith("号数") and p["shape"] and p["size_long_mm"] not in ("", None):
+        fixed.append(f"大きさ：親マスタで{p['size_source']}"); fix_count["カプセルの大きさ 号数から推定（親マスタ）"] += 1
+        items.append({"項目": "長径・短径", "方法": p["size_source"], "値": f"{p['size_long_mm']}×{p['size_short_mm']}mm"})
+    elif "R4" in rules:
         pages = vr.pages(p["doc_id"]) or []
         if not p["shape"]:
             jp, en = vr.find_shape(pages, name)
-            if jp: fixed.append(f"形：性状の文から「{jp}」"); fix_count["形 性状の文から"] += 1; values["形（拾った値）"] = (jp, en)
-            elif "カプセル" in name: fixed.append("形：カプセル剤なので長円（oblong）"); fix_count["形 カプセル剤"] += 1; values["形（拾った値）"] = ("カプセル", "oblong")
-            elif p["size_long_mm"] not in ("", None) and num_eq(p["size_long_mm"], p["size_short_mm"]): fixed.append("形：長径＝短径なので円形（round）"); fix_count["形 長径＝短径"] += 1; values["形（拾った値）"] = ("円形", "round")
+            if jp: fixed.append(f"形：性状の文から「{jp}」"); fix_count["形 性状の文から"] += 1; values["形（拾った値）"] = (jp, en); items.append({"項目": "形", "方法": "性状の文から", "値": jp})
+            elif "カプセル" in name: fixed.append("形：カプセル剤なので長円（oblong）"); fix_count["形 カプセル剤"] += 1; values["形（拾った値）"] = ("カプセル", "oblong"); items.append({"項目": "形", "方法": "規則（カプセル剤）", "値": "長円（カプセル）"})
+            elif p["size_long_mm"] not in ("", None) and num_eq(p["size_long_mm"], p["size_short_mm"]): fixed.append("形：長径＝短径なので円形（round）"); fix_count["形 長径＝短径"] += 1; values["形（拾った値）"] = ("円形", "round"); items.append({"項目": "形", "方法": "規則（長径＝短径）", "値": "円形"})
             elif op and op.get("shape"): left.append(f"形：空欄（Opus は {op['shape']}）"); values["形"] = ("", op["shape"])
             else: left.append("形：空欄")
         for lab, col in [("長径", "size_long_mm"), ("短径", "size_short_mm")]:
@@ -128,23 +139,33 @@ for s in sheet:
             ov = (op or {}).get(col)
             if lab == "短径" and "カプセル" in name:
                 g = re.search(r"(000|00|[0-5])\s*号", nfkc(" ".join(str(x) for x in [p.get("imprint_note"), (q or {}).get("source_quote"), (op or {}).get("source_quote")] if x)))
-                if g: fixed.append(f"短径：{g.group(1)}号から推定 {CAPSULE_MM[g.group(1)]}mm"); fix_count["カプセル短径 号数から推定"] += 1; values["短径（推定）"] = ("", CAPSULE_MM[g.group(1)]); continue
+                if g: fixed.append(f"短径：{g.group(1)}号から推定 {CAPSULE_MM[g.group(1)]}mm"); fix_count["カプセル短径 号数から推定"] += 1; values["短径（推定）"] = ("", CAPSULE_MM[g.group(1)]); items.append({"項目": "短径", "方法": f"号数から推定（{g.group(1)}号）", "値": CAPSULE_MM[g.group(1)]}); continue
             if ov not in ("", None) and any(vr.has_num(t, ov) for t in pages):
-                fixed.append(f"{lab}：Opus の値 {ov}mm が本文にある"); fix_count["空欄の大きさ Opus＋本文"] += 1; values[lab + "（拾った値）"] = ("", ov)
+                fixed.append(f"{lab}：Opus の値 {ov}mm が本文にある"); fix_count["空欄の大きさ Opus＋本文"] += 1; values[lab + "（拾った値）"] = ("", ov); items.append({"項目": lab, "方法": "Opus の値を本文で照合", "値": ov})
             else: left.append(f"{lab}：空欄" + (f"（Opus は {ov}mm、本文で確かめられない）" if ov not in ("", None) else "")); values[lab] = ("", ov)
     # 4) 照合の残り（根拠の文言が近似・色・不一致など）
     for x in left_after_text:
         if x.startswith(("刻印", "長径", "短径", "厚さ")): continue
-        if x == "根拠の文言が近似": fixed.append("根拠の文言が近似（値はそれぞれ本文で照合ずみ）"); fix_count["文言の近似（値は照合ずみ）"] += 1
+        if x == "根拠の文言が近似":
+            fixed.append("根拠の文言が近似（値はそれぞれ本文で照合ずみ）"); fix_count["文言の近似（値は照合ずみ）"] += 1
+            items.append({"項目": "外観の値一式（刻印・大きさ・色）", "方法": "本文で照合（根拠の文言は近似）", "値": f"刻印 {p['imprint_front']}／{p['imprint_back']}、{p['color']}、{p['size_long_mm']}×{p['size_short_mm']}mm"})
         else: left.append(x)
     row = {"置き場": s["置き場"], "薬名": name, "今のメーカー": s["今のメーカー"], "状態": s["状態"]}
+    if not left and not items:
+        left.append("検査の印の理由を特定できない（照合の結果が見つからない）")
     if left:
         page = (q or {}).get("found_page") or (q or {}).get("source_page") or p.get("source_page") or 1
         url = f"{p['source_url']}#page={page}"
         draft_vals = "；".join(f"{k}：下書き {a or '空'}" + (f"／Opus {b}" if b not in ('', None) else "") for k, (a, b) in values.items()) or f"刻印 {p['imprint_front']}／{p['imprint_back']}、{p['color']} {p['shape']} {p['size_long_mm']}×{p['size_short_mm']}mm"
         out_left.append({**row, "何が問題か": "；".join(left), "下書きの値": draft_vals, "添付文書の該当ページ": url, "正しい値": "", "機械で片付いた印": "；".join(fixed)})
     else:
-        out_done.append({**row, "値の状態": "添付文書で確認（機械）", "片付いた理由": "；".join(fixed), "拾った値": "；".join(f"{k}：{b}" for k, (a, b) in values.items() if b)})
+        methods = []
+        for it in items:
+            m_ = "2モデル一致" if it["方法"] == "2モデル一致" else "号数から推定" if it["方法"].startswith("号数") else "規則" if it["方法"].startswith("規則") else "本文で照合"
+            if m_ not in methods: methods.append(m_)
+        page = (q or {}).get("found_page") or (q or {}).get("source_page") or p.get("source_page") or 1
+        out_done.append({**row, "値の状態": f"添付文書で確認（機械・{'＋'.join(methods)}）", "片付いた理由": "；".join(fixed), "拾った値": "；".join(f"{k}：{b}" for k, (a, b) in values.items() if b),
+                         "_items": items, "_url": f"{p['source_url']}#page={page}"})
 
 out_left.sort(key=lambda r: (r["置き場"] == "棚", int(re.sub(r"\D", "", r["置き場"].split("／")[0]) or 0), r["薬名"]))
 def write(path, rows, cols):
@@ -152,6 +173,8 @@ def write(path, rows, cols):
         w = csv.DictWriter(f, fieldnames=cols, quoting=csv.QUOTE_ALL, extrasaction="ignore"); w.writeheader(); w.writerows(rows)
 write(f"{P}/check-sheet-2.csv", out_left, ["置き場", "薬名", "今のメーカー", "状態", "何が問題か", "下書きの値", "添付文書の該当ページ", "正しい値", "機械で片付いた印"])
 write(f"{P}/check-sheet-2-machine.csv", out_done, ["置き場", "薬名", "今のメーカー", "状態", "値の状態", "片付いた理由", "拾った値"])
+write(f"{P}/check-sheet-2-machine-items.csv", [{"薬名": r["薬名"], "置き場": r["置き場"], **it, "添付文書の該当ページ": r["_url"]} for r in out_done for it in r["_items"]],
+      ["薬名", "置き場", "項目", "方法", "値", "添付文書の該当ページ"])
 
 e = H.escape
 def table(rs):
@@ -198,7 +221,7 @@ for c in ("値の状態", "値の状態の理由"):
 for r in rows:
     n = r["今の製品（販売名）"]
     if r.get("状態") == "確認ずみ（現物）": r["値の状態"], r["値の状態の理由"] = "確認ずみ（現物）", ""
-    elif n in done: r["値の状態"], r["値の状態の理由"] = "添付文書で確認（機械）", done[n]["片付いた理由"]
+    elif n in done: r["値の状態"], r["値の状態の理由"] = done[n]["値の状態"], done[n]["片付いた理由"]
     elif n in left: r["値の状態"], r["値の状態の理由"] = "要確認（確認表②）", left[n]["何が問題か"]
     elif r.get("今の製品（販売名）") and not r.get("検査の印"): r["値の状態"], r["値の状態の理由"] = "添付文書の下書き（検査の印なし）", ""
     else: r["値の状態"], r["値の状態の理由"] = r.get("値の状態", ""), r.get("値の状態の理由", "")
