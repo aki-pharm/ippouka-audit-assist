@@ -58,6 +58,13 @@
 
 ## 報告（新しいものを上に）
 
+### 2026-11-11 作業：事前合意の一覧の確かめと、合意が YJ の上 9 桁を越えないこと（品質 fcd8d1b への対応。ブランチ `feature/matching-rules`）
+- `validateAgreements(一覧)`（lib/matching.ts）：from・to・reason・agreed_by・agreed_at がそろい、agreed_at が YYYY-MM-DD の実在の日付の行だけを使う。使わない行は `matchRx` の結果の `agreementErrors`（行の番号・中身・理由）で返す。配列でない一覧・null の行でも落ちない（例：理由が空 →「reason が無い・空」、2026-02-30 →「agreed_at が日付でない」）
+- 合意は YJ の上 9 桁を越えない：普通錠→OD 錠の置き換えと組み合わせない（ブロチゾラム錠0.25mg「サワイ」→レンドルミンD錠 は合意があっても候補、理由に「事前合意は普通錠→OD 錠の置き換えには使わない」）。決まりに `allow_agreement_cross_od`（院内 false）を足した。true にすると選ぶことを確かめた。仕様書 §5.6 に記録
+- 品質の走査：scan・general-sweep・final-sweep A／B・indication すべて 0 のまま。段階 2 は変わらない（合意は採点では渡さない）
+- テスト：`npm run test:maker` 54/54、`npm run test:rx` 155 件 通過 150・失敗 0・todo 5、`npm test` 160 件 通過 155・失敗 0・todo 5。通るようになった todo（外していない）：形の崩れた合意、null の行、【要判断】ブロチゾラム→レンドルミンD（安全側の既定で止めた。AKI の判断待ちのまま）。残る todo の失敗は品質自身の【不具合】2 件（--private）
+- AKI の判断待ち：事前合意を普通錠→OD 錠の置き換えと組み合わせてよいか（`allow_agreement_cross_od`）
+
 ### 2026-11-11 確認係：feature/matching-rules の組み立て確認、本物の採用品での採点、一般名からたどれない採用品（件数のみ）
 - 組み立て：typecheck エラー 0／lint エラー 0（警告 6）／build 成功／`npm test` 150 通過・失敗 0・todo 2／`test:maker` 54 通過・失敗 0／`test:rx` 144 通過・失敗 0・skip 1・todo 2
 - 直したのは 1 か所：`eslint.config.mjs` の対象外を `scripts/*.cjs` から `scripts/**/*.cjs` と `tests/**/*.cjs` に広げた。lint のエラー 74 件はすべて CommonJS のテスト・採点スクリプトの `require()`（もともと「Node 用の補助スクリプト」として対象外にしていた範囲の下のフォルダが漏れていた）。照合の決まりとテストの期待は変えていない

@@ -10,7 +10,8 @@
       "brand_to_generic": true,
       "generic_to_brand": false,
       "general_to_any": true,
-      "allow_brand_to_brand": true
+      "allow_brand_to_brand": true,
+      "allow_agreement_cross_od": false
     }
   },
   "general_release_notes": {

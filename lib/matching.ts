@@ -33,6 +33,8 @@ export type MatchProfile = {
   general_to_any: boolean;
   /** 先発→別の先発（併売品：ジャヌビア↔グラクティブ など）を自動で選ぶか。AKI が決めるまで false（候補にとどめる） */
   allow_brand_to_brand?: boolean;
+  /** 事前合意を、普通錠→OD 錠の置き換え（YJ の上 9 桁が違う）と組み合わせてよいか。AKI が決めるまで false（合意は YJ の上 9 桁を越えない） */
+  allow_agreement_cross_od?: boolean;
 };
 /** 自動では入れ替えない組（data/match-exceptions.json。効能・用法が違う） */
 export type MatchException = { a: string; b: string; reason: string };
@@ -78,7 +80,10 @@ export type Match<T extends FacilityProduct = FacilityProduct> = {
   ruleOut: RuleOut<T>[];
   /** 事前合意で選んだとき、その合意 */
   agreement?: Agreement | null;
+  /** 事前合意の一覧のうち、形が崩れていて使わなかった行（理由つき）。一覧を渡したときだけ */
+  agreementErrors?: RejectedAgreement[];
 };
+export type RejectedAgreement = { index: number; row: unknown; reasons: string[] };
 
 /**
  * 施設の事前合意（みなし疑義）。from（処方の製品名か薬の鍵）の処方に、to（採用品の id か販売名）を選んでよいと施設で決めたもの。
@@ -318,6 +323,39 @@ export function exceptionOf(prescribed: string, product: string, data: MatchData
   }
   return null;
 }
+/**
+ * 事前合意の一覧を確かめる。from・to・reason・agreed_by・agreed_at がそろい（空白だけは空とみなす）、agreed_at が YYYY-MM-DD の
+ * 実在の日付の行だけを使う。使わない行は理由つきで返す（画面・確認係が知らせるため）。配列でない一覧・null の行でも落ちない
+ */
+export function validateAgreements(list: unknown): { valid: Agreement[]; rejected: RejectedAgreement[] } {
+  const valid: Agreement[] = [];
+  const rejected: RejectedAgreement[] = [];
+  if (!Array.isArray(list)) {
+    if (list != null) rejected.push({ index: -1, row: list, reasons: ["一覧が配列でない"] });
+    return { valid, rejected };
+  }
+  list.forEach((row, index) => {
+    if (!row || typeof row !== "object" || Array.isArray(row)) {
+      rejected.push({ index, row, reasons: ["行がオブジェクトでない"] });
+      return;
+    }
+    const r = row as Record<string, unknown>;
+    const reasons: string[] = [];
+    for (const k of ["from", "to", "reason", "agreed_by", "agreed_at"]) {
+      if (typeof r[k] !== "string" || !(r[k] as string).trim()) reasons.push(`${k} が無い・空`);
+    }
+    if (typeof r.agreed_at === "string" && r.agreed_at.trim()) {
+      const d = r.agreed_at.trim();
+      const m = d.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+      const t = m ? new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])) : null;
+      if (!m || !t || t.getUTCFullYear() !== +m[1] || t.getUTCMonth() !== +m[2] - 1 || t.getUTCDate() !== +m[3]) reasons.push(`agreed_at が日付（YYYY-MM-DD）でない：${d}`);
+    }
+    if (reasons.length) rejected.push({ index, row, reasons });
+    else valid.push({ from: (r.from as string).trim(), to: (r.to as string).trim(), reason: (r.reason as string).trim(), agreed_by: (r.agreed_by as string).trim(), agreed_at: (r.agreed_at as string).trim() });
+  });
+  return { valid, rejected };
+}
+
 /** 事前合意の一覧から、この処方（名前か薬の鍵）とこの採用品に当たるものを探す */
 export function agreementOf(list: Agreement[] | undefined, prescribed: string, keys: string[], product: FacilityProduct): Agreement | null {
   if (!list?.length) return null;
@@ -376,6 +414,9 @@ export function matchRx<T extends FacilityProduct>(
   // 鍵で照合して、決まりでふるい分ける。candOnly：候補には出すが自動では選ばない（理由つき）
   const allowed: { p: T; rel: string; candOnly: string | null }[] = [];
   const agreed = new Map<T, Agreement>();
+  const checked = options.agreements === undefined ? null : validateAgreements(options.agreements);
+  const agreements = checked?.valid ?? [];
+  if (checked?.rejected.length) out.agreementErrors = checked.rejected;
   for (const p of active) {
     const fk = facilityCanon(p, data);
     if (!fk || !rx.canon.length) continue;
@@ -440,8 +481,10 @@ export function matchRx<T extends FacilityProduct>(
       }
       // 先発・後発の決まりは、ほかの決まり（放出・規格・YJ・入れ替えない組・漢方）に当たらないときだけ。事前合意があれば外す
       if (!rule && !candOnly && originHold) {
-        const ag = agreementOf(options.agreements, nameAsWritten, rx.keys, p);
-        if (ag) agreed.set(p, ag);
+        const ag = agreementOf(agreements, nameAsWritten, rx.keys, p);
+        // 合意は YJ の上 9 桁を越えない：普通錠→OD 錠の置き換え（9 桁が違う）とは組み合わせない（allow_agreement_cross_od で変えられる）
+        if (ag && rel === "plain_to_od" && !prof.allow_agreement_cross_od) candOnly = `${originHold}（事前合意は普通錠→OD 錠の置き換えには使わない）`;
+        else if (ag) agreed.set(p, ag);
         else candOnly = originHold;
       }
 
