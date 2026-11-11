@@ -12,13 +12,13 @@ rx02__gen__pil__clean,rx02,gen,pil,clean,04,1,カルベジロール錠10mg「ト
 rx02__gen__pil__clean,rx02,gen,pil,clean,05,1,ドキサゾシン錠1mg「トーワ」,05,ドキサゾシン錠1mg「トーワ」,manual_mark,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1mg,0-0-1,14,none,true
 rx02__gen__pil__clean,rx02,gen,pil,clean,06,1,ピタバスタチンCa錠2mg「日医工」,06,ピタバスタチンCa錠2mg「日医工」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2mg,0-0-1,14,none,false
 rx02__gen__pil__clean,rx02,gen,pil,clean,07,1,オルケディア錠4mg,07,オルケディア錠4mg,manual_mark two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4mg,0-0-3,14,none,true
-rx03__gen__pil__clean,rx03,gen,pil,clean,01,1,(K)アスパラカリウム錠300mg,01,(K)アスパラカリウム錠300mg,prefix separate_pack,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,300mg,1-1-1,28,exclude,false
-rx03__gen__pil__clean,rx03,gen,pil,clean,02,1,エルデカルシトールカプセル0.75μg「サワイ」,02,エルデカルシトールカプセル0.75μg「サワイ」,capsule separate_pack,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.75μg,1-0-0,28,exclude,false
-rx03__gen__pil__clean,rx03,gen,pil,clean,03,1,(Ca)アスパラ-CA錠200mg,03,(Ca)アスパラ-CA錠200mg,prefix separate_pack two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,200mg,2-0-2,28,exclude,false
-rx03__gen__pil__clean,rx03,gen,pil,clean,04,1,メチコバール錠500μg,04,メチコバール錠500μg,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,500μg,1-1-1,28,none,false
-rx03__gen__pil__clean,rx03,gen,pil,clean,05,1,モサプリドクエン酸塩錠5mg「AA」,05,モサプリドクエン酸塩錠5mg「AA」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mg,1-1-1,28,none,false
-rx03__gen__pil__clean,rx03,gen,pil,clean,06,1,クエン酸第一鉄Na錠50mg「NIG」,06,クエン酸第一鉄Na錠50mg「NIG」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,50mg,1-0-1,28,none,false
-rx03__gen__pil__clean,rx03,gen,pil,clean,07,1,ワーファリン錠1mg,07,ワーファリン錠1mg,two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1mg,2-0-0,28,none,false
+rx03__gen__pil__clean,rx03,gen,pil,clean,01,1,(K)アスパラカリウム錠300mg,01,(K)アスパラカリウム錠300mg,prefix separate_pack,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,1-1-1,28,exclude,false
+rx03__gen__pil__clean,rx03,gen,pil,clean,02,1,エルデカルシトールカプセル0.75μg「サワイ」,02,エルデカルシトールカプセル0.75μg「サワイ」,capsule separate_pack,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,1-0-0,28,exclude,false
+rx03__gen__pil__clean,rx03,gen,pil,clean,03,1,(Ca)アスパラ-CA錠200mg,03,(Ca)アスパラ-CA錠200mg,prefix separate_pack two_per_dose,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,2-0-2,28,exclude,false
+rx03__gen__pil__clean,rx03,gen,pil,clean,04,1,メチコバール錠500μg,04,メチコバール錠500μg,,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,1-1-1,28,none,false
+rx03__gen__pil__clean,rx03,gen,pil,clean,05,1,モサプリドクエン酸塩錠5mg「AA」,05,モサプリドクエン酸塩錠5mg「AA」,,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,1-1-1,28,none,false
+rx03__gen__pil__clean,rx03,gen,pil,clean,06,1,クエン酸第一鉄Na錠50mg「NIG」,06,クエン酸第一鉄Na錠50mg「NIG」,,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,1-0-1,28,none,false
+rx03__gen__pil__clean,rx03,gen,pil,clean,07,1,ワーファリン錠1mg,07,ワーファリン錠1mg,two_per_dose,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,2-0-0,28,none,false
 rx04__gen__pil__clean,rx04,gen,pil,clean,01,1,(K)アスパラカリウム錠300mg,01,(K)アスパラカリウム錠300mg,nonuniform_dosing prefix two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,300mg,1-0-2,28,none,false
 rx04__gen__pil__clean,rx04,gen,pil,clean,02,1,フロセミド錠20mg「NP」,02,フロセミド錠20mg「NP」,nonuniform_dosing two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20mg,2-1-0,28,none,false
 rx04__gen__pil__clean,rx04,gen,pil,clean,03,1,スピロノラクトン錠25mg「トーワ」,03,スピロノラクトン錠25mg「トーワ」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,25mg,1-0-0,28,none,false
@@ -50,12 +50,12 @@ rx07__gen__pil__clean,rx07,gen,pil,clean,04,1,ニフェジピンCR錠10mg「サ�
 rx07__gen__pil__clean,rx07,gen,pil,clean,05,1,カルベジロール錠10mg「トーワ」,05,カルベジロール錠10mg「トーワ」,multi_strength,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,1-0-0,21,none,false
 rx07__gen__pil__clean,rx07,gen,pil,clean,06,1,カルベジロール錠2.5mg「サワイ」,06,カルベジロール錠2.5mg「サワイ」,multi_strength,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2.5mg,0-0-1,21,none,false
 rx07__gen__pil__clean,rx07,gen,pil,clean,07,1,プレガバリンOD錠75mg「JG」,07,プレガバリンOD錠75mg「JG」,manual_mark,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,75mg,1-0-1,21,none,true
-rx08__gen__pil__clean,rx08,gen,pil,clean,01,1,ノルバスク錠5mg,01,ノルバスク錠5mg,brand_generic_stock odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mg,1-0-0,17,none,false
-rx08__gen__pil__clean,rx08,gen,pil,clean,02,1,リピトール錠10mg,02,リピトール錠10mg,brand_generic_stock odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,0-0-1,17,none,false
-rx08__gen__pil__clean,rx08,gen,pil,clean,03,1,パリエット錠10mg,03,パリエット錠10mg,brand_generic_stock odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,1-0-0,17,none,false
-rx08__gen__pil__clean,rx08,gen,pil,clean,04,1,ムコスタ錠100mg,04,ムコスタ錠100mg,brand_generic_stock odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100mg,1-1-1,17,none,false
-rx08__gen__pil__clean,rx08,gen,pil,clean,05,1,マグミット錠330mg,05,マグミット錠330mg,brand_generic_stock odd_days two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,330mg,2-0-2,17,none,false
-rx08__gen__pil__clean,rx08,gen,pil,clean,06,1,ガスモチン錠5mg,06,ガスモチン錠5mg,brand_generic_stock odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mg,1-1-1,17,none,false
+rx08__gen__pil__clean,rx08,gen,pil,clean,01,1,ノルバスク錠5mg,01,ノルバスク錠,brand_generic_stock odd_days,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,5mg,1-0-0,17,none,false
+rx08__gen__pil__clean,rx08,gen,pil,clean,02,1,リピトール錠10mg,02,リピトール錠,brand_generic_stock odd_days,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,10mg,0-0-1,17,none,false
+rx08__gen__pil__clean,rx08,gen,pil,clean,03,1,パリエット錠10mg,03,パリエット錠,brand_generic_stock odd_days,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,10mg,1-0-0,17,none,false
+rx08__gen__pil__clean,rx08,gen,pil,clean,04,1,ムコスタ錠100mg,04,ムコスタ錠,brand_generic_stock odd_days,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,100mg,1-1-1,17,none,false
+rx08__gen__pil__clean,rx08,gen,pil,clean,05,1,マグミット錠330mg,05,マグミット錠,brand_generic_stock odd_days two_per_dose,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,330mg,2-0-2,17,none,false
+rx08__gen__pil__clean,rx08,gen,pil,clean,06,1,ガスモチン錠5mg,06,ガスモチン錠,brand_generic_stock odd_days,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,5mg,1-1-1,17,none,false
 rx09__gen__pil__clean,rx09,gen,pil,clean,01,1,メトホルミン塩酸塩錠250mgMT「トーワ」,01,メトホルミン塩酸塩錠250mgMT「トーワ」,odd_days two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,250mg,2-0-2,9,none,false
 rx09__gen__pil__clean,rx09,gen,pil,clean,02,1,ウルソデオキシコール酸錠100mg「トーワ」,02,ウルソデオキシコール酸錠100mg「トーワ」,odd_days two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100mg,2-2-2,9,none,false
 rx09__gen__pil__clean,rx09,gen,pil,clean,03,1,酸化マグネシウム錠250mg「ケンエー」,03,酸化マグネシウム錠250mg「ケンエー」,odd_days two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,250mg,2-2-2,9,none,false
@@ -77,12 +77,12 @@ rx11__gen__pil__clean,rx11,gen,pil,clean,03,1,ビソプロロールフマル酸�
 rx11__gen__pil__clean,rx11,gen,pil,clean,04,1,バイアスピリン錠100mg,04,バイアスピリン錠100mg,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100mg,1-0-0,30,none,false
 rx11__gen__pil__clean,rx11,gen,pil,clean,05,1,ファモチジン錠20mg「トーワ」,05,ファモチジン錠20mg「トーワ」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20mg,1-0-1,30,none,false
 rx11__gen__pil__clean,rx11,gen,pil,clean,06,1,エゼチミブ錠10mg「サワイ」,06,エゼチミブ錠10mg「サワイ」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,1-0-0,30,none,false
-rx12__gen__pil__clean,rx12,gen,pil,clean,01,1,アミティーザカプセル12μg,01,アミティーザカプセル12μg,capsule,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12μg,1-0-1,28,none,false
-rx12__gen__pil__clean,rx12,gen,pil,clean,02,1,リリカカプセル75mg,02,リリカカプセル75mg,capsule,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,75mg,1-0-1,28,none,false
-rx12__gen__pil__clean,rx12,gen,pil,clean,03,1,ベタニス錠50mg,03,ベタニス錠50mg,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,50mg,1-0-0,28,none,false
-rx12__gen__pil__clean,rx12,gen,pil,clean,04,1,タムスロシン塩酸塩OD錠0.2mg「サワイ」,04,タムスロシン塩酸塩OD錠0.2mg「サワイ」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.2mg,0-0-1,28,none,false
-rx12__gen__pil__clean,rx12,gen,pil,clean,05,1,(K)アスパラカリウム錠300mg,05,(K)アスパラカリウム錠300mg,prefix two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,300mg,2-0-2,28,none,false
-rx12__gen__pil__clean,rx12,gen,pil,clean,06,1,エチゾラム錠0.5mg「トーワ」,06,エチゾラム錠0.5mg「トーワ」,bedtime,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.5mg,0-0-0,28,none,false
+rx12__gen__pil__clean,rx12,gen,pil,clean,01,1,アミティーザカプセル12μg,01,アミティーザカプセル12μg,capsule,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,1-0-1,28,none,false
+rx12__gen__pil__clean,rx12,gen,pil,clean,02,1,リリカカプセル75mg,02,リリカカプセル75mg,capsule,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,1-0-1,28,none,false
+rx12__gen__pil__clean,rx12,gen,pil,clean,03,1,ベタニス錠50mg,03,ベタニス錠50mg,,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,1-0-0,28,none,false
+rx12__gen__pil__clean,rx12,gen,pil,clean,04,1,タムスロシン塩酸塩OD錠0.2mg「サワイ」,04,タムスロシン塩酸塩OD錠0.2mg「サワイ」,,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,0-0-1,28,none,false
+rx12__gen__pil__clean,rx12,gen,pil,clean,05,1,(K)アスパラカリウム錠300mg,05,(K)アスパラカリウム錠300mg,prefix two_per_dose,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,2-0-2,28,none,false
+rx12__gen__pil__clean,rx12,gen,pil,clean,06,1,エチゾラム錠0.5mg「トーワ」,06,エチゾラム錠0.5mg「トーワ」,bedtime,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,0-0-0,28,none,false
 rx13__gen__pil__clean,rx13,gen,pil,clean,01,1,ロサルタンカリウム錠50mg「サワイ」,01,ロサルタンカリウム錠50mg「サワイ」,lookalike odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,50mg,1-0-0,11,none,false
 rx13__gen__pil__clean,rx13,gen,pil,clean,02,1,ロスバスタチン錠2.5mg「サワイ」,02,ロスバスタチン錠2.5mg「サワイ」,lookalike odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2.5mg,0-0-1,11,none,false
 rx13__gen__pil__clean,rx13,gen,pil,clean,03,1,ジャヌビア錠50mg,03,ジャヌビア錠50mg,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,50mg,1-0-0,11,none,false
@@ -107,10 +107,10 @@ rx15__gen__pil__clean,rx15,gen,pil,clean,07,2,ゾルピデム酒石酸塩錠5mg�
 rx15__gen__pil__clean,rx15,gen,pil,clean,08,2,リボトリール錠0.5mg,08,リボトリール錠0.5mg,manual_mark page2 two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.5mg,0-0-2,42,none,true
 rx15__gen__pil__clean,rx15,gen,pil,clean,09,2,クエン酸第一鉄Na錠50mg「NIG」,09,クエン酸第一鉄Na錠50mg「NIG」,page2 separate_pack,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,50mg,0-0-1,42,exclude,false
 rx15__gen__pil__clean,rx15,gen,pil,clean,10,2,センノシド錠12mg「サワイ」,10,センノシド錠12mg「サワイ」,bedtime nonuniform_dosing page2 two_per_dose,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,12mg,0-0-0,42,none,false
-rx16__gen__pil__clean,rx16,gen,pil,clean,01,1,ユニシア配合錠HD,01,ユニシア配合錠HD,combo,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,1-0-0,14,none,false
+rx16__gen__pil__clean,rx16,gen,pil,clean,01,1,ユニシア配合錠HD,01,ユニシア配合錠HD,combo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,HD,1-0-0,14,none,false
 rx16__gen__pil__clean,rx16,gen,pil,clean,02,1,ノイロビタン配合錠,02,ノイロビタン配合錠,combo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,1-1-1,14,none,false
 rx16__gen__pil__clean,rx16,gen,pil,clean,03,1,ウラリット配合錠,03,ウラリット配合錠,combo two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,2-2-2,14,none,false
-rx16__gen__pil__clean,rx16,gen,pil,clean,04,1,バファリン配合錠A81,04,バファリン配合錠A81,combo,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,,1-0-0,14,none,false
+rx16__gen__pil__clean,rx16,gen,pil,clean,04,1,バファリン配合錠A81,04,バファリン配合錠A81,combo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,A81,1-0-0,14,none,false
 rx16__gen__pil__clean,rx16,gen,pil,clean,05,1,ロキソプロフェンNa錠60mg「サワイ」,05,ロキソプロフェンNa錠60mg「サワイ」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,60mg,1-1-1,14,none,false
 rx16__gen__pil__clean,rx16,gen,pil,clean,06,1,ドキサゾシン錠1mg「トーワ」,06,ドキサゾシン錠1mg「トーワ」,manual_mark,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1mg,0-0-1,14,none,true
 rx17__gen__pil__clean,rx17,gen,pil,clean,01,1,ラベプラゾールNa錠10mg「オーハラ」,01,ラベプラゾールNa錠10mg「オーハラ」,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,0-1-0,19,none,false
