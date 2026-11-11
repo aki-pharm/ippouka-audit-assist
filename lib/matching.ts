@@ -107,6 +107,8 @@ type Index = {
   byMakerless: Map<string, Hit[]>;
   keysByGroupStrength: Map<string, string[]>;
   generics: [string, string][]; // [正規化した一般名, 成分・剤形コード]
+  yj9ByKey: Map<string, Set<string>>; // 薬の鍵 → その鍵の製品の YJ の上 9 桁（YJ のあるものだけ）
+  namesByKey: Map<string, string[]>; // 薬の鍵 → その鍵の製品の販売名（メーカーを除いた形）
 };
 const cache = new WeakMap<MatchData, Index>();
 function indexOf(data: MatchData): Index {
@@ -119,8 +121,12 @@ function indexOf(data: MatchData): Index {
     if (!list.some((x) => x.key === v.key && x.origin === v.origin && x.yj9 === v.yj9)) list.push(v);
     m.set(k, list);
   };
+  const yj9ByKey = new Map<string, Set<string>>();
+  const namesByKey = new Map<string, string[]>();
   for (const [name, ki, o, yj, yj9] of data.products) {
     const v = { key: data.keys[ki], canon: canonicalKey(data.keys[ki], yj), origin: ORIGIN[o] ?? "不明", yj9: yj9 ?? "" };
+    if (yj9) yj9ByKey.set(v.key, new Set([...(yj9ByKey.get(v.key) ?? []), yj9]));
+    namesByKey.set(v.key, [...(namesByKey.get(v.key) ?? []), makerlessKey(name)]);
     add(byName, nameKey(name), v);
     add(byMakerless, makerlessKey(name), v);
   }
@@ -130,7 +136,7 @@ function indexOf(data: MatchData): Index {
     keysByGroupStrength.set(`${g}|${sk}`, [...(keysByGroupStrength.get(`${g}|${sk}`) ?? []), k]);
   }
   const generics = Object.entries(data.generics).map(([g, n]) => [genericKey(n), g] as [string, string]);
-  const idx = { byName, byMakerless, keysByGroupStrength, generics };
+  const idx = { byName, byMakerless, keysByGroupStrength, generics, yj9ByKey, namesByKey };
   cache.set(data, idx);
   return idx;
 }
@@ -368,6 +374,26 @@ export function matchRx<T extends FacilityProduct>(
       else if (rx.origin === "その他" && fo === "その他") candOnly = "先発・後発の区別なし：要確認";
       else candOnly = `先発・後発が分からない（処方 ${rx.origin}・採用品 ${fo}）：要確認`;
       if (!rule && !candOnly && notInterchangeable(fk)) candOnly = "漢方製剤・規格が数量でない製剤は、メーカーが違えば同じ薬とみなさない：要確認";
+      // 一般名処方：一般名が指す鍵の製品に YJ の上 9 桁の違う製剤が混ざる（効能・用法が違うことがある：タダラフィル 5mg のザルティアとシアリス、
+      // トラマドール徐放のワントラムとツートラム）、採用品がその 9 桁に入らない・分からない、採用品が入れ替えない組の製品なら、候補にとどめる
+      if (!rule && !candOnly && rx.general) {
+        const idx = indexOf(data);
+        // 規格の後ろの英字（MT・ZA など）つきの鍵にもある 9 桁は、その英字の系列（メトグルコ→MT）。英字の無い一般名からは外す
+        const suffixed = new Set(rx.keys.flatMap((k) => {
+          const { group, sk, form } = splitKey(k);
+          return (idx.keysByGroupStrength.get(`${group}|${sk}`) ?? []).filter((x) => splitKey(x).form.startsWith(form + "/")).flatMap((x) => [...(idx.yj9ByKey.get(x) ?? [])]);
+        }));
+        const groups = new Set(rx.keys.flatMap((k) => [...(idx.yj9ByKey.get(k) ?? [])]).filter((y) => !suffixed.has(y)));
+        const fy = facilityYj9(p, data);
+        // 入れ替えない組：採用品が組の片方で、もう片方が同じ鍵にある（一般名だけではどちらか決まらない）
+        const names = rx.keys.flatMap((k) => idx.namesByKey.get(k) ?? []);
+        const mine = makerlessKey(p.brand_name);
+        const inEx = (data.exceptions ?? []).some((e) =>
+          [[e.a, e.b], [e.b, e.a]].some(([x, y]) => mine.startsWith(nameKey(x)) && names.some((n) => n.startsWith(nameKey(y)))));
+        if (inEx) candOnly = "一般名処方：採用品が効能・用法の違う製品のある組（入れ替えない組）に入る：要確認";
+        else if (groups.size > 1) candOnly = "一般名処方：同じ成分・規格・剤形に YJ の上 9 桁の違う製剤がある（効能・用法が違うことがある）：要確認";
+        else if (rel !== "plain_to_od" && groups.size === 1 && (!fy || !groups.has(fy))) candOnly = "一般名処方：採用品の YJ の上 9 桁が一般名の製剤と違う（または分からない）：要確認";
+      }
       // 自動では入れ替えない組（data/match-exceptions.json）。理由をいちばん先に出す
       if (!rule && !rx.general) {
         const ex = exceptionOf(nameAsWritten, p.brand_name, data);
