@@ -33,3 +33,5 @@ npm-debug.log*
 
 # 施設の採用品リストなど、公開しないデータ
 /data/private/
+
+__pycache__/
