@@ -46,7 +46,7 @@ test("8-c. --link-master は 2 回目でも変わらない（すでにある欄�
 
 test("8-d. 索引は採用品で絞っていない：親マスタの全製品（外観の下書きなしを除く）が入っている", (t) => {
   // 製品でない行（患者向け・医療従事者向けの資材など。29b5729 で索引から除いた）は数えない。除かれた行が本当に資材かを品質の読み方で確かめる
-  const material = /患者|資材|ご家族|医療従事者|服用され|治療を受け|にあたって|携帯カード/;
+  const material = /患者|ご家族|皆様|みなさま|方へ|へ$|医療従事者|資材|携帯カード|適正|運用手順|ガイド|お願い|注意いただきたい|ください|いただく|にあたって|との併用|について|治療を受け|服用され/; // 品質の読み方（文の形・資材の言葉）
   const indexed = new Set(Object.values(committed.drugs).flatMap((d) => d.products.map((p) => p.product_key)));
   const dropped = pm.products.filter((p) => p.status !== "none" && !indexed.has(p.product_key));
   for (const p of dropped) assert.match(p.brand_name.normalize("NFKC"), material, `製品なのに索引に無い: ${p.brand_name}`);
@@ -61,9 +61,9 @@ test("8-d. 索引は採用品で絞っていない：親マスタの全製品（
   assert.equal(inIndexProducts.length, all.length);
 });
 
-test("【不具合】製品でない行（資材）が索引に残る：「マルシロン配合錠 患者携帯カード」", { todo: "scripts/build-maker-index.cjs の NOT_PRODUCT に「携帯カード」が無い" }, () => {
+test("【不具合】製品でない行（資材）が索引に残る：「オンジェンティス錠を適正にご使用いただくために」（マルシロンの携帯カードは直った）", { todo: "scripts/build-maker-index.cjs の NOT_PRODUCT に「ご使用いただく」が無い" }, () => {
   const names = Object.values(committed.drugs).flatMap((d) => d.products.map((p) => p.brand_name));
-  assert.deepEqual(names.filter((n) => /患者|資材|ご家族|医療従事者|服用され|治療を受け|にあたって|携帯カード/.test(n.normalize("NFKC"))), []);
+  assert.deepEqual(names.filter((n) => /患者|ご家族|皆様|みなさま|方へ|へ$|医療従事者|資材|携帯カード|適正|運用手順|ガイド|お願い|注意いただきたい|ください|いただく|にあたって|との併用|について|治療を受け|服用され/.test(n.normalize("NFKC"))), []);
 });
 
 test("8-e. 索引の製品の欄は公開の親マスタ由来のものだけ（採用・カセット・分包方法などの欄が無い）", (t) => {

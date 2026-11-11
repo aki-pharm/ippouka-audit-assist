@@ -183,7 +183,9 @@ test("lib/match-data.ts は親マスタ（公開データ）だけから作ら�
   const inData = new Set(data.products.map(([n]) => n));
   const left = pm.filter((p) => !inData.has(p.brand_name)).map((p) => p.brand_name);
   assert.ok(left.length <= 20, `入っていない ${left.length}`);
-  for (const n of left) assert.match(n.normalize("NFKC"), /患者|資材|ご家族|医療従事者|服用され|治療を受け|にあたって/, `製品なのに入っていない: ${n}`);
+  // 製品でない行の品質の読み方（文の形・資材の言葉）。作業側の NOT_PRODUCT とは別に書いた
+  const material = /患者|ご家族|皆様|みなさま|方へ|へ$|医療従事者|資材|携帯カード|適正|運用手順|ガイド|お願い|注意いただきたい|ください|いただく|にあたって|との併用|について|治療を受け|服用され/;
+  for (const n of left) assert.match(n.normalize("NFKC"), material, `製品なのに入っていない: ${n}`);
   assert.ok(data.products.length >= 7000, `製品 ${data.products.length}`);
   const names = new Set(pm.map((p) => p.brand_name));
   assert.deepEqual(data.products.filter(([n]) => !names.has(n)).map(([n]) => n), [], "親マスタに無い名前（施設の名前など）が入っていない");
@@ -298,24 +300,80 @@ test("例外の道 一般名処方：効能で分かれない成分は正しく�
   assert.equal(r[2].best, "バイアグラ錠50mg");
 });
 
-test("【アプリの不具合】一般名処方の道は効能違いを見ない：【般】タダラフィル錠5mg → ザルティア錠5mg（排尿障害）・シアリス錠5mg（ED）のどちらでも自動で選ぶ", { skip, todo: "一般名だけでは効能（ZA／ED）が分からない。同じ成分・規格に効能違いの製品（match-exceptions の組、YJ の上 9 桁が違う製品）があれば候補にとどめる。一般名処方マスタの（ZA）（AD）などの印も読む" }, () => {
+test("直った：一般名処方の道は効能違いを見ない：【般】タダラフィル錠5mg → ザルティア錠5mg（排尿障害）・シアリス錠5mg（ED）のどちらでも自動で選ぶ", { skip }, () => {
   const r = pair([["【般】タダラフィル錠5mg", "5mg", "ザルティア錠5mg"], ["【般】タダラフィル錠5mg", "5mg", "シアリス錠5mg"]]);
   for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
 });
 
-test("【アプリの不具合】一般名処方の道は用法違いを見ない：【般】トラマドール塩酸塩徐放錠100mg → ワントラム（1 日 1 回）・ツートラム（1 日 2 回）のどちらでも自動で選ぶ", { skip, todo: "どちらも同じ鍵（錠|YJ徐放）で、補足（12時間／24時間）の決まりも当たらない。YJ の上 9 桁が違う製品が同じ鍵にあれば候補にとどめる" }, () => {
+test("直った：一般名処方の道は用法違いを見ない：【般】トラマドール塩酸塩徐放錠100mg → ワントラム（1 日 1 回）・ツートラム（1 日 2 回）のどちらでも自動で選ぶ", { skip }, () => {
   const r = pair([["【般】トラマドール塩酸塩徐放錠100mg", "100mg", "ワントラム錠100mg"], ["【般】トラマドール塩酸塩徐放錠100mg", "100mg", "ツートラム錠100mg"]]);
   for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
 });
 
-test("【アプリの不具合】一般名処方の道は例外の組（match-exceptions.json）を見ない：【般】テノホビル ジソプロキシルフマル酸塩錠300mg → ビリアード（HIV）・テノゼット（B 型肝炎）を自動で選ぶ", { skip, todo: "matchRx は rx.general のとき exceptionOf を呼ばない。例外の組の片方が採用品なら、一般名処方でも候補にとどめる" }, () => {
+test("直った：一般名処方の道は例外の組（match-exceptions.json）を見ない：【般】テノホビル ジソプロキシルフマル酸塩錠300mg → ビリアード（HIV）・テノゼット（B 型肝炎）を自動で選ぶ", { skip }, () => {
   const r = pair([["【般】テノホビル ジソプロキシルフマル酸塩錠300mg", "300mg", "ビリアード錠300mg"], ["【般】テノホビルジソプロキシルフマル酸塩錠300mg", "300mg", "テノゼット錠300mg"]]);
   for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
 });
 
-test("【アプリの不具合】一般名処方の道の走査：同じ鍵に YJ の上 9 桁の違う製品がある成分で、【般】から自動で選ぶ（【般】デキサメタゾン錠4mg → レナデックス錠4mg（多発性骨髄腫）、【般】メトホルミン塩酸塩錠250mg → メトグルコ錠250mg、【般】タダラフィル錠5mg）", { skip, todo: "一般名処方でも、同じ鍵に上 9 桁の違う製品があれば候補にとどめる（ジアゼパムは親マスタの古い YJ の重複で、同じ製品）" }, () => {
+test("【不具合】製品でない行が照合のデータに残る：「オンジェンティス錠を適正にご使用いただくために」", { todo: "NOT_PRODUCT に「ご使用いただく」が無い（品質の読み方：文の形の名前）" }, () => {
+  const src = fs.readFileSync(path.join(ROOT, "lib/match-data.ts"), "utf8");
+  const data = JSON.parse(src.slice(src.indexOf("= {") + 2, src.lastIndexOf("}") + 1));
+  const material = /患者|ご家族|皆様|みなさま|方へ|へ$|医療従事者|資材|携帯カード|適正|運用手順|ガイド|お願い|注意いただきたい|ください|いただく|にあたって|との併用|について|治療を受け|服用され/;
+  assert.deepEqual(data.products.map(([n]) => n).filter((n) => material.test(n.normalize("NFKC"))), []);
+});
+
+test("直った：一般名処方の道の走査：同じ鍵に YJ の上 9 桁の違う製品がある成分で、【般】から自動で選ぶのは、印の無い系列の製品だけ（【般】メトホルミン塩酸塩錠250mg → グリコランの系列。メトグルコ・MT は選ばない。レナデックス・ザルティア・シアリスは選ばない）", { skip }, () => {
   const r = node([path.join(__dirname, "matching/general-scan.mjs"), ROOT]);
   assert.equal(r.status, 0, r.stderr.slice(0, 300));
   const { selected } = JSON.parse(r.stdout);
-  assert.deepEqual(selected.filter((l) => !/ジアゼパム/.test(l)), []);
+  // ジアゼパムは親マスタの古い YJ の重複（同じ製品）なので除く
+  const rest = selected.filter((l) => !/ジアゼパム/.test(l));
+  for (const l of rest) assert.match(l, /^【般】メトホルミン塩酸塩錠250mg → (グリコラン錠250mg|メトホルミン塩酸塩錠250mg「[^」]+」)（3962002F1／/, l);
+  const m = pair([
+    ["【般】メトホルミン塩酸塩錠250mg", "250mg", "メトグルコ錠250mg"],
+    ["【般】メトホルミン塩酸塩錠250mg", "250mg", "メトホルミン塩酸塩錠250mgMT「トーワ」"],
+    ["【般】メトホルミン塩酸塩錠250mg", "250mg", "メトホルミン塩酸塩錠250mg「SN」"],
+    ["【般】デキサメタゾン錠4mg", "4mg", "レナデックス錠4mg"],
+  ]);
+  assert.equal(m[0].best, null);
+  assert.equal(m[1].best, null);
+  assert.equal(m[2].best, "メトホルミン塩酸塩錠250mg「SN」");
+  assert.equal(m[3].best, null);
+});
+
+// ---------- 1a15793：一般名処方の総当たり（品質の剤形の読み方で、名前の剤形と違う製品を選ばないか） ----------
+test("【アプリの不具合】一般名処方の総当たり（15,600 の【般】の名前 × 同じ成分・規格の全製品）：「徐放錠」の名前で、徐放でない製品（MT・AV・ZA・AD・RE・EX・NX などの印つきの普通の錠、粒状錠・分散錠・速崩錠・バッカル錠）を自動で選ぶ（73 組）", { skip, todo: "lib/matching.ts の generalName：徐放錠の絞り込みが「PLAIN に無い剤形」を通すので、錠/MT・KY錠・粒状錠・分散錠・速崩錠・バッカル錠も徐放扱いになる。放出の印（form-markers.json の release）か YJ の徐放で絞る" }, () => {
+  const r = node([path.join(__dirname, "matching/general-sweep.mjs"), ROOT]);
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const o = JSON.parse(r.stdout);
+  assert.ok(o.names > 10000);
+  assert.deepEqual(o.bad, []);
+  assert.deepEqual(o.badCandidates, []);
+});
+
+test("【アプリの不具合】麻薬の徐放と速放：【般】オキシコドン徐放錠2.5mg → オキシコドン錠2.5mgNX「第一三共」（速放錠）を自動で選ぶ。5mg では速放錠を候補に出す", { skip, todo: "上と同じ原因（錠/NX が徐放扱い）。徐放の処方に速放錠は候補にも出さない" }, () => {
+  const [a, b] = pair([["【般】オキシコドン徐放錠2.5mg", "2.5mg", "オキシコドン錠2.5mgNX「第一三共」"], ["【般】オキシコドン徐放錠5mg", "5mg", "オキシコドン錠5mgNX「第一三共」"]]);
+  assert.equal(a.best, null);
+  assert.deepEqual(a.candidates, []);
+  assert.deepEqual(b.candidates, []);
+});
+
+test("一般名処方の剤形：腸溶錠は候補どまり、配合錠・漢方は自動で選ばない、口腔内崩壊錠は OD だけ、補足 24時間持続 は CR だけ（L は選ばない）", { skip }, () => {
+  const r = pair([
+    ["【般】アスピリン腸溶錠100mg", "100mg", "バイアスピリン錠100mg"],
+    ["【般】カンデサルタンシレキセチル・アムロジピンベシル酸塩配合錠", "HD", "ユニシア配合錠HD"],
+    ["【般】葛根湯エキス錠", "1錠", "オースギ葛根湯エキスT錠"],
+    ["【般】ランソプラゾール腸溶性口腔内崩壊錠15mg", "15mg", "タケプロンOD錠15"],
+    ["【般】アムロジピン口腔内崩壊錠5mg", "5mg", "アムロジピン錠5mg「サワイ」"],
+    ["【般】ニフェジピン徐放錠20mg", "20mg", "アダラートCR錠20mg", { nameNote: "24時間持続" }],
+    ["【般】ニフェジピン徐放錠20mg", "20mg", "ニフェジピンL錠20mg「トーワ」", { nameNote: "24時間持続" }],
+    ["【般】ニフェジピン徐放錠20mg", "20mg", "ニフェジピンCR錠20mg「サワイ」", { nameNote: "12時間持続" }],
+  ]);
+  assert.deepEqual(r.map((x) => x.best), [null, null, null, "タケプロンOD錠15", null, "アダラートCR錠20mg", null, null]);
+  assert.deepEqual(r[0].candidates, ["バイアスピリン錠100mg"]);
+});
+
+test("【不具合】一般名処方の補足「12～24時間持続」（テオフィリン徐放錠の一般名）で、親マスタに製品があるのに「該当なし」と出る", { skip, todo: "general_release_notes が「24時間」を含むので CR に絞られ、テオフィリンの徐放錠が 0 になる。安全側だが、該当なしでは市販品が無いと読める。「12～24時間」は放出の型を決めない補足として扱う" }, () => {
+  const [r] = pair([["【般】テオフィリン徐放錠100mg", "100mg", "テオドール錠100mg", { nameNote: "12～24時間持続" }]]);
+  assert.notEqual(r.status, "該当なし");
 });
