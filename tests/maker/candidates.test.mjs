@@ -120,7 +120,9 @@ function releaseSig(name) {
   if (m.includes("速崩錠")) s.add("速崩");
   return [...s].sort().join("+") || "なし";
 }
-const isOdName = (n) => /(OD|(?<![A-Za-z])D|RM|RPD)[\s-]*錠|ザイディス|口腔内崩壊|ODフィルム/.test(n.normalize("NFKC").replace(/「[^」]*」/g, ""));
+// 口腔内崩壊の印は data/parent/form-markers.json の od から（レディタブなど、足された印も読む）。英字の印は前が英字でないときだけ
+const odWords = MARK.od.map((w) => (/^[A-Za-z]+$/.test(w) ? `(?<![A-Za-z])${w}[\\s-]*錠` : w));
+const isOdName = (n) => new RegExp(`${odWords.join("|")}|ODフィルム`).test(n.normalize("NFKC").replace(/「[^」]*」/g, ""));
 
 test("2-h. 索引の全データ：(a) 放出の印が違う製品 (b) YJ の徐放・腸溶（G・N・H）と普通 (c) 口腔内崩壊錠と普通、が同じ薬に混ざらない", (t) => {
   const A = [], B = [], C = [];

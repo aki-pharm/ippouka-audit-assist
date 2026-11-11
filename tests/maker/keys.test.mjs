@@ -39,7 +39,10 @@ test("3-c. drugKey：同じ成分・規格でも剤形が違えば別の鍵", ()
 
 test("3-d. 実データ：同じ成分・剤形コードと規格で、素朴な鍵（剤形なし）なら混ざる口腔内崩壊錠と普通の錠が、別の薬になっている", (t) => {
   // 口腔内崩壊錠かどうかは、鍵の作り方とは別に販売名から判定する（OD錠・D錠・RM錠・RPD錠・ザイディス・口腔内崩壊）
-  const isOd = (n) => /(OD|(?<![A-Za-z])D|RM|RPD)[\s-]*錠|ザイディス|口腔内崩壊/.test(n.normalize("NFKC").replace(/「[^」]*」/g, ""));
+  // 印の一覧は data/parent/form-markers.json の od から（レディタブなど、足された印も読む）
+  const od = readJson("data/parent/form-markers.json").od;
+  const odRe = new RegExp(od.map((w) => (/^[A-Za-z]+$/.test(w) ? `(?<![A-Za-z])${w}[\\s-]*錠` : w)).join("|"));
+  const isOd = (n) => odRe.test(n.normalize("NFKC").replace(/「[^」]*」/g, ""));
   const keyOf = new Map();
   for (const [k, d] of Object.entries(index.drugs)) for (const p of d.products) keyOf.set(p.product_key, k);
   const naive = new Map();

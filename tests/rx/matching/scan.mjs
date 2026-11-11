@@ -28,7 +28,11 @@ for (const l of lines.slice(1)) {
 // 品質の剤形の読み方（lib/makers.ts とは別に書いた）
 const body = (name) => nk(name).replace(/「[^」]*」/g, "").replace(/[（(][^）)]*[）)]/g, "");
 const capsule = (p) => /カプセル/.test(p.brand_name) || p.yj_code[7] === "M" || p.yj_code[7] === "N";
-const od = (p) => /(OD|口腔内崩壊|ザイディス|RPD|RM|(?<![A-Za-z])D)(・)?錠/.test(body(p.brand_name)) || /ODフィルム/.test(body(p.brand_name));
+// OD の印は data/parent/form-markers.json の od（レディタブなど、作業側が足した印も読む）。英字の印は前が英字でないときだけ
+const MARKERS = JSON.parse(fs.readFileSync(path.join(ROOT, "data/parent/form-markers.json"), "utf8"));
+const esc = (w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const odRe = new RegExp(`(${MARKERS.od.map((w) => (/^[A-Za-z]+$/.test(w) ? `(?<![A-Za-z])${esc(w)}` : esc(w))).join("|")})(・)?錠|ODフィルム`);
+const od = (p) => odRe.test(body(p.brand_name));
 function release(p) {
   const b = body(p.brand_name);
   const m = b.match(/(CR|SR|TR|LA|XR|ER|XL|L|R|U|EN)(錠|カプセル)/);

@@ -179,7 +179,12 @@ test("lib/match-data.ts は親マスタ（公開データ）だけから作ら�
   const src = fs.readFileSync(path.join(ROOT, "lib/match-data.ts"), "utf8");
   const data = JSON.parse(src.slice(src.indexOf("= {") + 2, src.lastIndexOf("}") + 1));
   const pm = JSON.parse(fs.readFileSync(path.join(ROOT, "data/parent/parent-master.json"), "utf8")).products.filter((p) => p.status !== "none");
-  assert.equal(data.products.length, pm.length, "親マスタの製品（外観の下書きの無いものを除く）がすべて入っている");
+  // 親マスタの製品（外観の下書きの無いものを除く）がすべて入っている。入っていないのは製品でない行（患者向け・医療従事者向けの資材など）だけ
+  const inData = new Set(data.products.map(([n]) => n));
+  const left = pm.filter((p) => !inData.has(p.brand_name)).map((p) => p.brand_name);
+  assert.ok(left.length <= 20, `入っていない ${left.length}`);
+  for (const n of left) assert.match(n.normalize("NFKC"), /患者|資材|ご家族|医療従事者|服用され|治療を受け|にあたって/, `製品なのに入っていない: ${n}`);
+  assert.ok(data.products.length >= 7000, `製品 ${data.products.length}`);
   const names = new Set(pm.map((p) => p.brand_name));
   assert.deepEqual(data.products.filter(([n]) => !names.has(n)).map(([n]) => n), [], "親マスタに無い名前（施設の名前など）が入っていない");
   assert.doesNotMatch(src.replace(/^\/\/.*$/gm, ""), /adopted|採用|maker_state|private/);
@@ -208,32 +213,109 @@ test("効能違いの印：各先発品は自分の後発品だけに（トレ�
   assert.deepEqual(picks("アボルブカプセル0.5mg"), ["デュタステリドカプセル0.5mgAV"]);
 });
 
-test("【アプリの不具合】効能違い：ザルティア錠5mg（前立腺肥大の排尿障害）↔ シアリス錠5mg（ED）を互いに自動で選ぶ。同じ鍵の先発→先発", { skip, todo: "先発→別の先発は YJ の上 9 桁（2590016F2 と F5）が違えば選ばない" }, () => {
+test("直った：効能違い：ザルティア錠5mg（前立腺肥大の排尿障害）↔ シアリス錠5mg（ED）を互いに自動で選ぶ。同じ鍵の先発→先発", { skip }, () => {
   const r = pair([["ザルティア錠5mg", "5mg", "シアリス錠5mg"], ["シアリス錠5mg", "5mg", "ザルティア錠5mg"]]);
   for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
 });
 
-test("【アプリの不具合】効能違い：メトグルコ錠250mg → メトホルミン塩酸塩錠250mg「SN」（グリコランの後発。MT の印なし）を自動で選ぶ", { skip, todo: "鍵が同じ（3962002F|250|錠）でも YJ の上 9 桁が違う（F2 と F1）。先発→後発も YJ の上 9 桁が分かれば同じときだけ" }, () => {
+test("直った：効能違い：メトグルコ錠250mg → メトホルミン塩酸塩錠250mg「SN」（グリコランの後発。MT の印なし）を自動で選ぶ", { skip }, () => {
   const [r] = pair([["メトグルコ錠250mg", "250mg", "メトホルミン塩酸塩錠250mg「SN」"]]);
   assert.equal(r.best, null);
 });
 
-test("【アプリの不具合】OD→普通：クラリチンレディタブ錠10mg（口腔内崩壊錠）→ クラリチン錠10mg・ロラタジン錠10mg「サワイ」を自動で選ぶ", { skip, todo: "「レディタブ」が OD の印（form-markers.json の od）に無い。YJ の上 9 桁も違う（4490027F2 と F1）" }, () => {
+test("直った：OD→普通：クラリチンレディタブ錠10mg（口腔内崩壊錠）→ クラリチン錠10mg・ロラタジン錠10mg「サワイ」を自動で選ぶ", { skip }, () => {
   const r = pair([["クラリチンレディタブ錠10mg", "10mg", "クラリチン錠10mg"], ["クラリチンレディタブ錠10mg", "10mg", "ロラタジン錠10mg「サワイ」"]]);
   for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
 });
 
-test("【アプリの不具合】放出の違い：ワントラム錠100mg（1 日 1 回）↔ ツートラム錠100mg（1 日 2 回）を互いに自動で選ぶ", { skip, todo: "どちらも「錠|YJ徐放」で鍵が同じ。YJ の上 9 桁（1149038G1 と G3）が違う" }, () => {
+test("直った：放出の違い：ワントラム錠100mg（1 日 1 回）↔ ツートラム錠100mg（1 日 2 回）を互いに自動で選ぶ", { skip }, () => {
   const r = pair([["ワントラム錠100mg", "100mg", "ツートラム錠100mg"], ["ツートラム錠100mg", "100mg", "ワントラム錠100mg"]]);
   for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
 });
 
-test("【アプリの不具合】親マスタの誤り：アマルエット配合錠4番「ケミファ」の規格が「1番（アムロジピン2.5mg/アトルバスタチン5mg）」で、1番「ケミファ」を自動で選ぶ", { skip, todo: "data/parent/parent-master.json の規格の誤り（YJ は 2190104＝4番）。名前の「N番」と規格・YJ を突き合わせて止める" }, () => {
+test("直った：親マスタの誤り：アマルエット配合錠4番「ケミファ」の規格が「1番（アムロジピン2.5mg/アトルバスタチン5mg）」で、1番「ケミファ」を自動で選ぶ", { skip }, () => {
   const [r] = pair([["アマルエット配合錠4番「ケミファ」", null, "アマルエット配合錠1番「ケミファ」"]]);
   assert.equal(r.best, null);
+  assert.deepEqual(r.candidates, [], "4 番と 1 番は規格違い：候補にも出ない");
 });
 
-test("【要判断】テノゼット錠300mg（B 型肝炎）↔ ビリアード錠300mg（HIV）を互いに自動で選ぶ。YJ の上 9 桁も同じ（6250024F1）", { skip, todo: "成分・規格・剤形・YJ の上 9 桁が同じだが効能が違う先発品どうし。院内で入れ替えてよいか AKI が決める" }, () => {
+test("直った（候補にとどめる。入れ替えてよいかは AKI）：テノゼット錠300mg（B 型肝炎）↔ ビリアード錠300mg（HIV）を互いに自動で選ぶ。YJ の上 9 桁も同じ（6250024F1）", { skip }, () => {
   const r = pair([["テノゼット錠300mg", "300mg", "ビリアード錠300mg"]]);
   assert.equal(r[0].best, null);
+});
+
+// ---------- 29b5729：YJ の上 9 桁が自動選択の必要条件に。例外の道（普通→OD、一般名処方）を確かめる ----------
+test("効能違いの全 1,298 組：別の系列の製品を自動で選ぶ組は 0", { skip }, () => {
+  const r = node([path.join(__dirname, "matching/indication.mjs"), ROOT]);
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const rows = JSON.parse(r.stdout);
+  assert.ok(rows.length > 1000);
+  assert.deepEqual(rows.filter((x) => !x.same && x.best).map((x) => `${x.P} → ${x.F}`), []);
+});
+
+test("自動で選んだ組のうち、OD の置き換え以外で YJ の上 9 桁が違う組は 0。先発→別の先発の自動選択も 0（AKI が決めるまで候補）", { skip }, () => {
+  const r = node([path.join(__dirname, "matching/yj9-scan.mjs"), ROOT]);
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const { differ } = JSON.parse(r.stdout);
+  const odRe = /(OD|口腔内崩壊|ザイディス|RPD|RM|(?<![A-Za-z])D|レディタブ)錠/;
+  const od = (s) => odRe.test(s.replace(/「[^」]*」/g, ""));
+  assert.deepEqual(differ.filter((l) => { const [P, F] = l.split("→"); return od(P) === od(F); }), []);
+  const o = JSON.parse(node([path.join(__dirname, "matching/origin-scan.mjs"), ROOT]).stdout);
+  assert.deepEqual(o.brandToBrand, []);
+  assert.deepEqual(o.unknownSelected, []);
+});
+
+test("YJ の上 9 桁の直し：統一名の行の選び直し・同じ名前の製品からの補いは、厚労省の一覧の剤形・規格と合う", { skip }, () => {
+  const r = node([path.join(__dirname, "matching/yj-repair.mjs"), ROOT]);
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const o = JSON.parse(r.stdout);
+  assert.ok(o.repicks > 500 && o.fills > 30, JSON.stringify({ repicks: o.repicks, fills: o.fills }));
+  assert.deepEqual(o.bad, []);
+});
+
+test("例外の道 普通→OD：効能・先発後発をまたがない（シアリス錠5mg → タダラフィルOD錠5mgZA は選ばない、ブロチゾラム「サワイ」→ レンドルミンD は選ばない、レンドルミン → ブロチゾラムOD は選ぶ）", { skip }, () => {
+  const r = pair([
+    ["シアリス錠5mg", "5mg", "タダラフィルOD錠5mgZA「トーワ」"],
+    ["ブロチゾラム錠0.25mg「サワイ」", "0.25mg", "レンドルミンD錠0.25mg"],
+    ["レンドルミン錠0.25mg", "0.25mg", "ブロチゾラムOD錠0.25mg「JG」"],
+    ["【般】ロラタジン錠10mg", "10mg", "クラリチンレディタブ錠10mg"],
+  ]);
+  assert.equal(r[0].best, null);
+  assert.equal(r[1].best, null);
+  assert.equal(r[2].best, "ブロチゾラムOD錠0.25mg「JG」");
+  assert.match(r[2].note, /普通の錠の処方を OD 錠に/);
+  assert.equal(r[3].best, "クラリチンレディタブ錠10mg");
+});
+
+test("例外の道 一般名処方：効能で分かれない成分は正しく選ぶ（【般】メトホルミン塩酸塩錠250mg → グリコラン、MT は選ばない。【般】シルデナフィル錠50mg → バイアグラ）", { skip }, () => {
+  const r = pair([
+    ["【般】メトホルミン塩酸塩錠250mg", "250mg", "グリコラン錠250mg"],
+    ["【般】メトホルミン塩酸塩錠250mg", "250mg", "メトホルミン塩酸塩錠250mgMT「トーワ」"],
+    ["【般】シルデナフィル錠50mg", "50mg", "バイアグラ錠50mg"],
+  ]);
+  assert.equal(r[0].best, "グリコラン錠250mg");
+  assert.equal(r[1].best, null);
+  assert.equal(r[2].best, "バイアグラ錠50mg");
+});
+
+test("【アプリの不具合】一般名処方の道は効能違いを見ない：【般】タダラフィル錠5mg → ザルティア錠5mg（排尿障害）・シアリス錠5mg（ED）のどちらでも自動で選ぶ", { skip, todo: "一般名だけでは効能（ZA／ED）が分からない。同じ成分・規格に効能違いの製品（match-exceptions の組、YJ の上 9 桁が違う製品）があれば候補にとどめる。一般名処方マスタの（ZA）（AD）などの印も読む" }, () => {
+  const r = pair([["【般】タダラフィル錠5mg", "5mg", "ザルティア錠5mg"], ["【般】タダラフィル錠5mg", "5mg", "シアリス錠5mg"]]);
+  for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
+});
+
+test("【アプリの不具合】一般名処方の道は用法違いを見ない：【般】トラマドール塩酸塩徐放錠100mg → ワントラム（1 日 1 回）・ツートラム（1 日 2 回）のどちらでも自動で選ぶ", { skip, todo: "どちらも同じ鍵（錠|YJ徐放）で、補足（12時間／24時間）の決まりも当たらない。YJ の上 9 桁が違う製品が同じ鍵にあれば候補にとどめる" }, () => {
+  const r = pair([["【般】トラマドール塩酸塩徐放錠100mg", "100mg", "ワントラム錠100mg"], ["【般】トラマドール塩酸塩徐放錠100mg", "100mg", "ツートラム錠100mg"]]);
+  for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
+});
+
+test("【アプリの不具合】一般名処方の道は例外の組（match-exceptions.json）を見ない：【般】テノホビル ジソプロキシルフマル酸塩錠300mg → ビリアード（HIV）・テノゼット（B 型肝炎）を自動で選ぶ", { skip, todo: "matchRx は rx.general のとき exceptionOf を呼ばない。例外の組の片方が採用品なら、一般名処方でも候補にとどめる" }, () => {
+  const r = pair([["【般】テノホビル ジソプロキシルフマル酸塩錠300mg", "300mg", "ビリアード錠300mg"], ["【般】テノホビルジソプロキシルフマル酸塩錠300mg", "300mg", "テノゼット錠300mg"]]);
+  for (const x of r) assert.equal(x.best, null, `${x.name} → ${x.best}`);
+});
+
+test("【アプリの不具合】一般名処方の道の走査：同じ鍵に YJ の上 9 桁の違う製品がある成分で、【般】から自動で選ぶ（【般】デキサメタゾン錠4mg → レナデックス錠4mg（多発性骨髄腫）、【般】メトホルミン塩酸塩錠250mg → メトグルコ錠250mg、【般】タダラフィル錠5mg）", { skip, todo: "一般名処方でも、同じ鍵に上 9 桁の違う製品があれば候補にとどめる（ジアゼパムは親マスタの古い YJ の重複で、同じ製品）" }, () => {
+  const r = node([path.join(__dirname, "matching/general-scan.mjs"), ROOT]);
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const { selected } = JSON.parse(r.stdout);
+  assert.deepEqual(selected.filter((l) => !/ジアゼパム/.test(l)), []);
 });
