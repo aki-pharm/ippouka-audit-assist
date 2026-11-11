@@ -61,15 +61,23 @@ test("事前合意でも柵は越えない：CR↔L（名前・鍵・全角で�
   }
 });
 
-test("【不具合】形の崩れた合意（reason・agreed_by・agreed_at が無い・空）でも自動で選び、札に「事前合意：undefined（undefined undefined）」と出る", { skip, todo: "agreementOf で from・to・reason・agreed_by・agreed_at がそろわない合意は使わない（読み込むときに、どの行が使えないかを知らせる）" }, () => {
+test("直った：形の崩れた合意（reason・agreed_by・agreed_at が無い・空）でも自動で選び、札に「事前合意：undefined（undefined undefined）」と出る", { skip }, () => {
   const r = agree([
     ["ジゴキシン錠0.125mg「AFP」", "0.125mg", "ジゴシン錠0.125mg", [{ from: "ジゴキシン錠0.125mg「AFP」", to: "ジゴシン錠0.125mg" }]],
     ["ジゴキシン錠0.125mg「AFP」", "0.125mg", "ジゴシン錠0.125mg", [{ from: "ジゴキシン錠0.125mg「AFP」", to: "ジゴシン錠0.125mg", reason: "", agreed_by: "", agreed_at: "" }]],
   ]);
-  for (const x of r) assert.equal(x.best, null, `${x.best}（${x.note}）`);
+  for (const x of r) {
+    assert.equal(x.best, null, `${x.best}（${x.note}）`);
+    assert.equal(x.agreementErrors.length, 1, "使わなかった行を理由つきで返す");
+    assert.ok(x.agreementErrors[0].reasons.some((y) => /reason/.test(y)));
+  }
+  // 日付の誤り（2026-02-30）も使わない
+  const [d] = agree([["ジゴキシン錠0.125mg「AFP」", "0.125mg", "ジゴシン錠0.125mg", [ok("ジゴキシン錠0.125mg「AFP」", "ジゴシン錠0.125mg", { agreed_at: "2026-02-30" })]]]);
+  assert.equal(d.best, null);
+  assert.match(d.agreementErrors[0].reasons.join(), /agreed_at/);
 });
 
-test("【不具合】合意の一覧に null の行があると照合が例外で落ちる", { skip, todo: "agreementOf が行を null・オブジェクトでないかを見ない" }, () => {
+test("直った：合意の一覧に null の行があると照合が例外で落ちる", { skip }, () => {
   const [r] = agree([["ジゴキシン錠0.125mg「AFP」", "0.125mg", "ジゴシン錠0.125mg", [null]]]);
   assert.equal(r.error, undefined);
 });
@@ -83,9 +91,15 @@ test("from・to の無い合意、空の合意、配列でない一覧は使わ�
   for (const x of r) { assert.ok(!x.error, x.error); assert.equal(x.best, null); }
 });
 
-test("【要判断】事前合意で、後発のふつうの錠 → 先発の OD 錠（YJ の上 9 桁が違う）を自動で選ぶ（ブロチゾラム錠0.25mg「サワイ」→ レンドルミンD錠0.25mg）", { skip, todo: "院内の決まり「普通→OD 可」と合意「後発→先発 可」の組み合わせ。合意は YJ の上 9 桁を越えない、という約束なら止めるべき。AKI が決める" }, () => {
-  const [r] = agree([["ブロチゾラム錠0.25mg「サワイ」", "0.25mg", "レンドルミンD錠0.25mg", [ok("ブロチゾラム錠0.25mg「サワイ」", "レンドルミンD錠0.25mg")]]]);
-  assert.equal(r.best, null);
+test("事前合意と普通錠→OD 錠（AKI 11/11：allow_agreement_cross_od=true）：合意があれば後発の普通錠 → 先発の OD 錠を選ぶ（ブロチゾラム錠0.25mg「サワイ」→ レンドルミンD錠0.25mg）。合意が無ければ選ばない", { skip }, () => {
+  const [a, b] = agree([
+    ["ブロチゾラム錠0.25mg「サワイ」", "0.25mg", "レンドルミンD錠0.25mg", [ok("ブロチゾラム錠0.25mg「サワイ」", "レンドルミンD錠0.25mg")]],
+    ["ブロチゾラム錠0.25mg「サワイ」", "0.25mg", "レンドルミンD錠0.25mg", []],
+  ]);
+  assert.equal(a.best, "レンドルミンD錠0.25mg");
+  assert.ok(a.agreement);
+  assert.equal(b.best, null);
+  assert.ok(JSON.parse(fs.readFileSync(path.join(ROOT, "data/match-profiles.json"), "utf8")).profiles["院内"].allow_agreement_cross_od === true);
 });
 
 test("総当たり：どの組にも「処方 → 採用品」の事前合意を渡しても、カプセル↔錠・放出・OD→ふつう・規格・効能違い・（OD の置き換え以外の）YJ の上 9 桁違いを自動で選ばない", { skip }, () => {

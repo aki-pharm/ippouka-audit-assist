@@ -16,7 +16,7 @@ const product = (name) => {
 const out = JSON.parse(q).map(([name, strength, fac, agreements, options]) => {
   try {
     const m = matchRx(name, strength, [product(fac)], D, { ...(options ?? {}), agreements });
-    return { name, fac, best: m.best?.id ?? null, candidates: m.candidates.map((c) => c.id), note: m.note, agreement: m.agreement ?? null };
+    return { name, fac, best: m.best?.id ?? null, candidates: m.candidates.map((c) => c.id), note: m.note, agreement: m.agreement ?? null, agreementErrors: m.agreementErrors ?? [] };
   } catch (e) {
     return { name, fac, error: String(e.message ?? e).slice(0, 200) };
   }

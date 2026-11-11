@@ -403,3 +403,55 @@ test("安全側の取りこぼし（AKI が手で対応表を作るか決める�
   ]);
   for (const x of r) { assert.equal(x.best, null, x.name); assert.deepEqual(x.candidates, [], x.name); }
 });
+
+// ---------- 0e449e1：一般名処方の広げた道（規格の後ろの英字・ブランドの英字・舌下錠などの剤形・「1錠中○○10mg」の規格） ----------
+test("一般名の英字（ZA・AD・MT・TRE・EX・RE・AV）：「（ZA）」「(ZA)」「ZA」「（ＺＡ）」「 ZA」は自分の系列の後発だけ。系列の違う製品・先発・印の無い製品は選ばない。効能の印でない英字（XY・CI・CR・MTX）は何も選ばない", { skip }, () => {
+  const T = "タダラフィル錠5mgZA「サワイ」";
+  const r = pair([
+    ["【般】タダラフィル錠5mg（ZA）", "5mg", T], ["【般】タダラフィル錠5mg(ZA)", "5mg", T], ["【般】タダラフィル錠5mgZA", "5mg", T], ["【般】タダラフィル錠5mg（ＺＡ）", "5mg", T], ["【般】タダラフィル錠5mg ZA", "5mg", T],
+    ["【般】タダラフィル錠5mg（ZA）", "5mg", "シアリス錠5mg"], ["【般】タダラフィル錠5mg", "5mg", T], ["【般】タダラフィル錠20mg（ZA）", "20mg", "タダラフィル錠20mgAD「サワイ」"],
+    ["【般】タダラフィル錠20mg（AD）", "20mg", "シアリス錠20mg"], ["【般】タダラフィル錠20mg（AD）", "20mg", "タダラフィル錠20mgAD「サワイ」"],
+    ["【般】メトホルミン塩酸塩錠250mg（MT）", "250mg", "メトホルミン塩酸塩錠250mgMT「トーワ」"], ["【般】メトホルミン塩酸塩錠250mg（MT）", "250mg", "グリコラン錠250mg"],
+    ["【般】ゾニサミド口腔内崩壊錠25mg（TRE）", "25mg", "ゾニサミドOD錠25mgTRE「KO」"], ["【般】ゾニサミド錠100mg（EX）", "100mg", "ゾニサミド錠100mgEX「KO」"],
+    ["【般】シルデナフィル錠20mg（RE）", "20mg", "シルデナフィル錠20mgRE「JG」"], ["【般】デュタステリド錠0.5mg（AV）", "0.5mg", "デュタステリド錠0.5mgAV「DSEP」"],
+    ["【般】タダラフィル錠5mg（XY）", "5mg", "シアリス錠5mg"], ["【般】タダラフィル錠5mg（CI）", "5mg", "シアリス錠5mg"], ["【般】ニフェジピン錠20mg（CR）", "20mg", "ニフェジピンCR錠20mg「サワイ」"], ["【般】メトホルミン塩酸塩錠250mgMTX", "250mg", "メトホルミン塩酸塩錠250mgMT「トーワ」"],
+  ]);
+  assert.deepEqual(r.map((x) => !!x.best), [true, true, true, true, true, false, false, false, false, true, true, false, true, true, true, true, false, false, false, false]);
+  for (const x of r.slice(-4)) assert.deepEqual(x.candidates, [], x.name);
+});
+
+test("ブランドの英字の製品を普通の一般名で選ぶのは、英字が剤形を意味しないものだけ（品質が 1 件ずつ確かめた一覧）。漢方の T 錠は候補どまり", { skip }, () => {
+  const r = node([path.join(__dirname, "matching/brand-letter.mjs"), ROOT]);
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const rows = JSON.parse(r.stdout);
+  // 英字の意味（品質）：S（インフリー 200mg・ラステット）＝別の規格・軟カプセル、A（アルダクトン）、N（ユベラ・ガスロン・カチーフ）、BM（ミヤ）、S（チラーヂン）、H（ヒスロン 200mg）、M（パルタン）、HA（グリミクロン 20mg）、FF（エルカルチン）、MS（メイアクト）、V（アクロマイシン）：どれも放出・剤形の違いではない
+  const reviewed = /^(インフリーS|アルダクトンA|ユベラN|ミヤBM|ガスロンN|チラーヂンS|ヒスロンH|パルタンM|カチーフN|グリミクロンHA|エルカルチンFF|レボカルニチンFF|ラステットS|メイアクトMS|アクロマイシンV)/;
+  const selected = rows.filter((x) => x.result === "選ぶ");
+  assert.deepEqual(selected.filter((x) => !reviewed.test(x.product)).map((x) => `${x.general} → ${x.product}`), []);
+  for (const x of rows.filter((x) => /^オースギ/.test(x.product))) assert.notEqual(x.result, "選ぶ", x.product);
+});
+
+test("舌下・バッカル・速崩・分散・粒状・チュアブルは、一般名がその剤形のときだけ選ぶ（ニトロペン、アブストラル↔イーフェン、シクレスト、アミオダロン速崩、アフィニトール分散、レボフロキサシン粒状、モンテルカストチュアブル、エパデール↔粒状カプセル）", { skip }, () => {
+  const r = pair([
+    ["【般】ニトログリセリン舌下錠0.3mg", "0.3mg", "ニトロペン舌下錠0.3mg"], ["【般】ニトログリセリン錠0.3mg", "0.3mg", "ニトロペン舌下錠0.3mg"],
+    ["【般】フェンタニルクエン酸塩舌下錠100μg", "100μg", "アブストラル舌下錠100μg"], ["【般】フェンタニルクエン酸塩舌下錠100μg", "100μg", "イーフェンバッカル錠100μg"],
+    ["【般】フェンタニルクエン酸塩バッカル錠100μg", "100μg", "イーフェンバッカル錠100μg"], ["【般】フェンタニルクエン酸塩バッカル錠100μg", "100μg", "アブストラル舌下錠100μg"],
+    ["【般】フェンタニルクエン酸塩錠100μg", "100μg", "アブストラル舌下錠100μg"], ["アブストラル舌下錠100μg", "100μg", "イーフェンバッカル錠100μg"],
+    ["【般】アセナピンマレイン酸塩舌下錠5mg", "5mg", "シクレスト舌下錠5mg"], ["【般】アセナピンマレイン酸塩錠5mg", "5mg", "シクレスト舌下錠5mg"],
+    ["【般】アミオダロン塩酸塩速崩錠100mg", "100mg", "アミオダロン塩酸塩速崩錠100mg「TE」"], ["【般】アミオダロン塩酸塩速崩錠100mg", "100mg", "アミオダロン塩酸塩錠100mg「サワイ」"], ["アミオダロン塩酸塩錠100mg「サワイ」", "100mg", "アミオダロン塩酸塩速崩錠100mg「TE」"],
+    ["【般】エベロリムス分散錠2mg", "2mg", "アフィニトール分散錠2mg"], ["【般】エベロリムス錠2mg", "2mg", "アフィニトール分散錠2mg"],
+    ["【般】レボフロキサシン水和物粒状錠500mg", "500mg", "レボフロキサシン粒状錠500mg「モチダ」"], ["【般】レボフロキサシン水和物錠500mg", "500mg", "レボフロキサシン粒状錠500mg「モチダ」"],
+    ["【般】モンテルカストナトリウムチュアブル錠5mg", "5mg", "モンテルカストチュアブル錠5mg「サワイ」"], ["【般】モンテルカストナトリウム錠5mg", "5mg", "モンテルカストチュアブル錠5mg「サワイ」"],
+    ["【般】イコサペント酸エチルカプセル300mg", "300mg", "イコサペント酸エチル粒状カプセル300mg「サワイ」"], ["エパデールカプセル300", "300mg", "イコサペント酸エチル粒状カプセル300mg「サワイ」"],
+  ]);
+  assert.deepEqual(r.map((x) => !!x.best), [true, false, true, false, true, false, false, false, true, false, true, false, false, true, false, true, false, true, false, false, false]);
+  for (const [i, x] of r.entries()) if (!x.best) assert.deepEqual(x.candidates, [], `${i} ${x.name} → ${x.candidates}`);
+});
+
+test("規格：同じ薬の鍵に、規格（数と単位）の違う製品は混ざらない（「1錠中○○10mg」の書き方をそろえた製品を含め全部の鍵）", { skip }, () => {
+  const r = node([path.join(__dirname, "matching/strength-merge.mjs"), ROOT]);
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const o = JSON.parse(r.stdout);
+  assert.ok(o.oneIngredient.length > 100);
+  assert.deepEqual(o.mixed, []);
+});

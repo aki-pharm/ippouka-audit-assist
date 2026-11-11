@@ -18,7 +18,8 @@ function cls(name, yj) {
   const b = nk(name).replace(/「[^」]*」/g, "").replace(/[（(][^）)]*[）)]/g, "");
   const c = yj?.[7];
   const cap = /カプセル/.test(b) || c === "M" || c === "N";
-  if (/チュアブル|舌下|バッカル|分散|粒状|発泡|速崩/.test(b)) return "その他";
+  const other = b.match(/チュアブル|舌下|バッカル|分散|粒状|発泡|速崩/)?.[0];
+  if (other) return other;
   if (/腸溶|EN錠/.test(b) || c === "H") return "腸溶";
   const rel = b.match(/(CR|SR|TR|LA|XR|ER|XL|L|R|U)(錠|カプセル)/)?.[1] ?? (/徐放|持続/.test(b) || c === "G" || c === "N" ? "徐放" : "");
   if (rel) return `徐放${cap ? "C" : ""}:${rel}`;
@@ -30,6 +31,7 @@ const kindOk = (kind, note, c) => {
   if (kind === "口腔内崩壊錠") return c === "OD";
   if (kind === "カプセル") return c === "カプセル";
   if (kind === "腸溶錠") return c === "腸溶";
+  if (["チュアブル錠", "舌下錠", "速崩錠", "分散錠", "粒状錠", "バッカル錠"].includes(kind)) return c === kind.replace("錠", "");
   if (kind === "徐放錠") {
     if (!c.startsWith("徐放:")) return false;
     if (note === "12時間持続") return c === "徐放:L";
@@ -49,7 +51,7 @@ for (const [k] of byGs) {
   if (!gen || !/\d/.test(sk)) continue;
   const names = [...byGs.get(k)].filter((n) => prod.has(n));
   const unit = /μg|mEq|g$/.test(sk) ? "" : "mg";
-  for (const kind of ["錠", "口腔内崩壊錠", "カプセル", "徐放錠", "腸溶錠"]) for (const note of kind === "徐放錠" ? [null, "12時間持続", "24時間持続", "12～24時間持続"] : [null]) {
+  for (const kind of ["錠", "口腔内崩壊錠", "カプセル", "徐放錠", "腸溶錠", "チュアブル錠", "舌下錠", "速崩錠", "分散錠", "粒状錠", "バッカル錠"]) for (const note of kind === "徐放錠" ? [null, "12時間持続", "24時間持続", "12～24時間持続"] : [null]) {
     const gname = `【般】${gen}${kind}${sk}${unit}`;
     if (seen.has(gname + note)) continue;
     seen.add(gname + note);
