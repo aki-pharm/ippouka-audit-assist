@@ -12,7 +12,7 @@
  *     - それ以外：販売名（メーカーを除いた名前も）を親マスタから探し、その製品の鍵。先発・後発も親マスタから
  *     - 親マスタに無い名前は、一般名と同じ読み方で鍵を推し量るが、候補を出すだけで自動では選ばない
  *  2. 施設の採用品を、決まり（data/match-profiles.json の施設ごとの決まり）でふるい分ける
- *     - 同じ鍵：選べる。ただし処方が後発で採用品が先発なら選ばない（generic_to_brand）
+ *     - 同じ鍵：選べる。処方が後発で採用品が先発、先発・後発の区別なし（別メーカー）なら処方どおりが既定で、候補に「事前合意（みなし疑義）があれば選択可」。施設の事前合意（options.agreements）に当たれば選べる
  *     - 普通の錠 → 同じ成分・規格の OD 錠：plain_to_od（院内は可、置き換えの表示）。OD → 普通の錠：od_to_plain（院内は不可）
  *     - カプセル ↔ 錠・OD 錠：capsule_tablet（院内は不可）
  *     - 放出の違い（CR と L、R と普通、腸溶と普通など）・規格の違い：どの決まりでも選ばない
@@ -76,9 +76,19 @@ export type Match<T extends FacilityProduct = FacilityProduct> = {
   previous: T[];
   /** 決まりで外した製品。options.includeRuleOut のときだけ入る */
   ruleOut: RuleOut<T>[];
+  /** 事前合意で選んだとき、その合意 */
+  agreement?: Agreement | null;
 };
 
+/**
+ * 施設の事前合意（みなし疑義）。from（処方の製品名か薬の鍵）の処方に、to（採用品の id か販売名）を選んでよいと施設で決めたもの。
+ * 後発→先発や先発・後発の区別なし（別メーカー）でも自動で選べるようになる。放出・カプセル↔錠・規格・YJ の上 9 桁の違い・入れ替えない組は越えない
+ */
+export type Agreement = { from: string; to: string; reason: string; agreed_by: string; agreed_at: string };
+
 export type MatchOptions = {
+  /** 施設の事前合意の一覧（data/private の施設ごとのファイル。架空の例は data/rx-testset/agreements.json） */
+  agreements?: Agreement[];
   /** 処方箋の薬品名の後ろの補足（例：24時間持続）。徐放錠の一般名処方で L／CR を決めるのに使う */
   nameNote?: string | null;
   /** 施設ごとの決まりの名前（既定は data/match-profiles.json の default） */
@@ -308,6 +318,18 @@ export function exceptionOf(prescribed: string, product: string, data: MatchData
   }
   return null;
 }
+/** 事前合意の一覧から、この処方（名前か薬の鍵）とこの採用品に当たるものを探す */
+export function agreementOf(list: Agreement[] | undefined, prescribed: string, keys: string[], product: FacilityProduct): Agreement | null {
+  if (!list?.length) return null;
+  const w = nameKey(stripPrefix(prescribed.normalize("NFKC").trim()));
+  const wl = makerlessKey(stripPrefix(prescribed.normalize("NFKC").trim()));
+  for (const a of list) {
+    const fromHit = nameKey(a.from) === w || keys.includes(a.from) || (!/「/.test(a.from) && makerlessKey(a.from) === wl);
+    const toHit = a.to === product.id || nameKey(a.to) === nameKey(product.brand_name) || (!!product.product_key && nameKey(a.to) === nameKey(product.product_key));
+    if (fromHit && toHit) return a;
+  }
+  return null;
+}
 /** 規格が数量でない（「1錠」など）か、漢方製剤（YJ 52）。メーカーが違えば中身が違うので、同じ鍵でも同じ薬とみなさない */
 const notInterchangeable = (key: string) => {
   const { group, sk } = splitKey(key);
@@ -353,6 +375,7 @@ export function matchRx<T extends FacilityProduct>(
 
   // 鍵で照合して、決まりでふるい分ける。candOnly：候補には出すが自動では選ばない（理由つき）
   const allowed: { p: T; rel: string; candOnly: string | null }[] = [];
+  const agreed = new Map<T, Agreement>();
   for (const p of active) {
     const fk = facilityCanon(p, data);
     if (!fk || !rx.canon.length) continue;
@@ -363,19 +386,21 @@ export function matchRx<T extends FacilityProduct>(
     // 放出の印が同じで系列だけ違う：先発→後発で YJ の上 9 桁（成分・剤形・規格）が同じときだけ同じ薬（アダラートCR → ニフェジピンCR「サワイ」）。
     // デパケンR とセレニカR のような先発どうし、後発→先発、YJ が分からないときは分けたまま
     if (rel === "release_family" && !rx.general && rx.origin === "先発" && fo === "後発" && rx.yj9 && rx.yj9 === facilityYj9(p, data)) rel = "same_yj";
-    else if (rel === "release_family" && !rx.general && rx.origin === "後発" && fo === "先発" && rx.yj9 && rx.yj9 === facilityYj9(p, data)) rel = "generic_to_brand"; // 理由は「後発→先発」
+    else if (rel === "release_family" && !rx.general && rx.origin === "後発" && fo === "先発" && rx.yj9 && rx.yj9 === facilityYj9(p, data)) rel = "same_yj"; // 後発→先発：下で事前合意があれば選べる候補に
     let rule: string | null = null;
     let candOnly: string | null = null;
+    let originHold: string | null = null; // 先発・後発の決まりで候補にとどめる理由（事前合意で外せる）
     if (rel === "same" || rel === "same_yj" || rel === "plain_to_od") {
       if (rel === "plain_to_od" && !prof.plain_to_od) rule = rel;
       else if (rx.general) rule = prof.general_to_any ? null : "general_to_any";
-      // 先発・後発：自動で選ぶのは、採用品が後発のとき（先発→後発は brand_to_generic）と、先発→先発のときだけ。
-      // 採用品が先発・どちらでもない・不明で、処方が先発と分からないときは、候補にとどめる（後発→先発を避ける安全側）
-      else if (rx.origin === "後発" && fo === "先発") rule = prof.generic_to_brand ? null : "generic_to_brand";
+      // 先発・後発：自動で選ぶのは、採用品が後発のとき（先発→後発は brand_to_generic）と、先発→先発のとき（allow_brand_to_brand）。
+      // 後発→先発・先発後発の区別なし（別メーカー）は、処方どおりが既定で、候補に「事前合意（みなし疑義）があれば選択可」と出す。
+      // 施設の事前合意（options.agreements）に当たれば自動で選べる。先発・後発が分からないときも候補にとどめる
+      else if (rx.origin === "後発" && fo === "先発") originHold = prof.generic_to_brand ? null : "後発品の処方を先発品に：事前合意（みなし疑義）があれば選択可";
       else if (fo === "後発") rule = rx.origin === "先発" && !prof.brand_to_generic ? "brand_to_generic" : null;
       else if (fo === "先発" && rx.origin === "先発") rule = null;
-      else if (rx.origin === "その他" && fo === "その他") candOnly = "先発・後発の区別なし：要確認";
-      else candOnly = `先発・後発が分からない（処方 ${rx.origin}・採用品 ${fo}）：要確認`;
+      else if (rx.origin === "不明" || fo === "不明") originHold = `先発・後発が分からない（処方 ${rx.origin}・採用品 ${fo}）：要確認`;
+      else originHold = "先発・後発の区別なし（別メーカー）：事前合意（みなし疑義）があれば選択可";
       if (!rule && !candOnly && notInterchangeable(fk)) candOnly = "漢方製剤・規格が数量でない製剤は、メーカーが違えば同じ薬とみなさない：要確認";
       // 一般名処方：一般名が指す鍵の製品に YJ の上 9 桁の違う製剤が混ざる（効能・用法が違うことがある：タダラフィル 5mg のザルティアとシアリス、
       // トラマドール徐放のワントラムとツートラム）、採用品がその 9 桁に入らない・分からない、採用品が入れ替えない組の製品なら、候補にとどめる
@@ -409,7 +434,16 @@ export function matchRx<T extends FacilityProduct>(
         if (!rx.yj9 || !fy) candOnly = "YJ コードが分からない：効能・用法が同じか要確認";
         else if (rx.yj9 !== fy) candOnly = "YJ の上 9 桁が違う：効能・用法が違う製剤の可能性。要確認";
       }
-      if (!rule && !candOnly && !rx.general && rx.origin === "先発" && fo === "先発" && !prof.allow_brand_to_brand) candOnly = "先発品から別の先発品（併売品など）：要確認";
+      if (!rule && !candOnly && !rx.general && rx.origin === "先発" && fo === "先発") {
+        if (!prof.allow_brand_to_brand) candOnly = "先発品から別の先発品（併売品など）：要確認";
+        else if (rel === "plain_to_od") candOnly = "先発品から別の先発品の OD 錠：YJ の上 9 桁が違うので要確認";
+      }
+      // 先発・後発の決まりは、ほかの決まり（放出・規格・YJ・入れ替えない組・漢方）に当たらないときだけ。事前合意があれば外す
+      if (!rule && !candOnly && originHold) {
+        const ag = agreementOf(options.agreements, nameAsWritten, rx.keys, p);
+        if (ag) agreed.set(p, ag);
+        else candOnly = originHold;
+      }
 
     } else if (rel === "od_to_plain") rule = prof.od_to_plain ? null : rel;
     else if (rel === "capsule_tablet") rule = prof.capsule_tablet ? null : rel;
@@ -442,6 +476,11 @@ export function matchRx<T extends FacilityProduct>(
     if (chosen && chosen.rel !== "same" && chosen.rel !== "same_yj") out.note = `置き換え：${RULE_LABEL[chosen.rel]}`;
     else if (chosen?.rel === "same_yj") out.note = "置き換え：先発品の処方を後発品に（YJ の上 9 桁が同じ）";
     else if (out.best && !rx.general && rx.origin === "先発" && facilityOrigin(out.best, data) === "後発") out.note = "置き換え：先発品の処方を後発品に";
+    if (out.best && agreed.has(out.best)) {
+      const ag = agreed.get(out.best)!;
+      out.agreement = ag;
+      out.note = `事前合意：${ag.reason}（${ag.agreed_by} ${ag.agreed_at}）`;
+    }
     if (!out.best && !ambiguousSpec) {
       const why = tier.find((x) => x.candOnly)?.candOnly;
       if (why) out.note = why;

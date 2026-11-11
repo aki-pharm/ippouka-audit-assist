@@ -3,14 +3,14 @@
   "default": "院内",
   "profiles": {
     "院内": {
-      "label": "院内（AKI の病院。11/11 に AKI が決めた）",
+      "label": "院内（AKI の病院。11/11 に AKI が決めた。先発→別の先発（併売品）も 11/11 に可と決めた）",
       "plain_to_od": true,
       "od_to_plain": false,
       "capsule_tablet": false,
       "brand_to_generic": true,
       "generic_to_brand": false,
       "general_to_any": true,
-      "allow_brand_to_brand": false
+      "allow_brand_to_brand": true
     }
   },
   "general_release_notes": {
