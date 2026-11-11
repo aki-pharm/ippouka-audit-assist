@@ -46,8 +46,9 @@ for r in target:
     out.append({"置き場": place(r), "優先": priority(r), "今の製品（販売名）": r["今の製品（販売名）"], "今のメーカー": r["今のメーカー"], "状態": r["状態"],
                 "確かめること": todo(r), "親マスタの刻印 表": r["刻印_表"], "親マスタの刻印 裏": r["刻印_裏"], "色": r["色"], "形": r["形"], "長径mm": r["長径mm"],
                 "記入：棚・カセットの中身は今の製品と同じ？": "", "記入：刻印 表": "", "記入：刻印 裏": "", "記入：メモ": ""})
-with open(f"{P}/check-sheet-2.csv", "w", encoding="utf-8-sig", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=cols, quoting=csv.QUOTE_ALL); w.writeheader(); w.writerows(out)
+for path in (f"{P}/check-sheet-2.csv", f"{P}/check-sheet-2-all.csv"):  # -all は減らす前の全件（reduce-check-sheet-2.py が読む）
+    with open(path, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols, quoting=csv.QUOTE_ALL); w.writeheader(); w.writerows(out)
 
 e = H.escape
 def table(rs):
