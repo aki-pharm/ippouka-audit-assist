@@ -35,7 +35,7 @@ export type MatchProfile = {
 /** lib/match-data.ts（自動生成）の形 */
 export type MatchData = {
   keys: string[];
-  products: [string, number, number, string][];
+  products: [string, number, number, string, string][];
   generics: Record<string, string>;
   profiles: Record<string, MatchProfile>;
   default_profile: string;
@@ -96,7 +96,7 @@ const stripPrefix = (s: string) => s.replace(/^(【般】|\[般\]|般|\(k\)|\(ca
 const isGeneral = (s: string) => /^(【般】|\[般\]|般)/.test(s.normalize("NFKC").trim());
 
 /** key：薬の鍵、canon：照合に使う鍵（ブランドの英字を普通の剤形にそろえたもの）、origin：先発・後発 */
-type Hit = { key: string; canon: string; origin: Origin };
+type Hit = { key: string; canon: string; origin: Origin; yj9: string };
 type Index = {
   byName: Map<string, Hit[]>;
   byMakerless: Map<string, Hit[]>;
@@ -111,11 +111,11 @@ function indexOf(data: MatchData): Index {
   const byMakerless = new Map<string, Hit[]>();
   const add = (m: Map<string, Hit[]>, k: string, v: Hit) => {
     const list = m.get(k) ?? [];
-    if (!list.some((x) => x.key === v.key && x.origin === v.origin)) list.push(v);
+    if (!list.some((x) => x.key === v.key && x.origin === v.origin && x.yj9 === v.yj9)) list.push(v);
     m.set(k, list);
   };
-  for (const [name, ki, o, yj] of data.products) {
-    const v = { key: data.keys[ki], canon: canonicalKey(data.keys[ki], yj), origin: ORIGIN[o] ?? "不明" };
+  for (const [name, ki, o, yj, yj9] of data.products) {
+    const v = { key: data.keys[ki], canon: canonicalKey(data.keys[ki], yj), origin: ORIGIN[o] ?? "不明", yj9: yj9 ?? "" };
     add(byName, nameKey(name), v);
     add(byMakerless, makerlessKey(name), v);
   }
@@ -152,11 +152,15 @@ const isCapsule = (form: string) => form.includes("カプセル");
 const PLAIN = new Set(["錠", "OD錠", "カプセル"]);
 
 /** 処方された鍵 p と採用品の鍵 f の関係 */
-function relation(p: string, f: string): "same" | "plain_to_od" | "od_to_plain" | "capsule_tablet" | "release" | "strength" | "other" {
+/** 剤形から製品の系列（〔アダラート〕）と規格の後ろの英字（/MI）を除いたもの＝放出の印と土台だけ */
+const releaseType = (form: string) => form.replace(/〔[^〕]*〕/, "").replace(/\/[A-Za-z]+$/, "");
+function relation(p: string, f: string): "same" | "plain_to_od" | "od_to_plain" | "capsule_tablet" | "release" | "release_family" | "strength" | "other" {
   if (p === f) return "same";
   const a = splitKey(p), b = splitKey(f);
   if (a.group.slice(0, 7) !== b.group.slice(0, 7)) return "other";
   if (a.sk !== b.sk) return "strength";
+  // 放出の印は同じで、製品の系列（〔〕）か規格の後ろの英字だけが違う（アダラートCR と ニフェジピンCR、デパケンR と セレニカR）
+  if (a.yj === b.yj && a.form !== b.form && releaseType(a.form) === releaseType(b.form)) return "release_family";
   if (a.yj || b.yj || !PLAIN.has(a.form) || !PLAIN.has(b.form)) return "release";
   if (isCapsule(a.form) !== isCapsule(b.form)) return "capsule_tablet";
   if (a.form === "錠" && b.form === "OD錠") return "plain_to_od";
@@ -169,6 +173,7 @@ const RULE_LABEL: Record<string, string> = {
   capsule_tablet: "カプセルと錠の入れ替え",
   generic_to_brand: "後発品の処方を先発品に",
   release: "放出の仕方が違う（徐放・腸溶など）",
+  release_family: "放出の印は同じだが製剤の系列が違う（YJ の上 9 桁が違う、または先発→後発でない）",
   strength: "規格が違う",
 };
 
@@ -217,7 +222,7 @@ export function prescribedKeys(name: string, strength: string | null | undefined
   const idx = indexOf(data);
   if (isGeneral(name)) {
     const { keys, decided } = generalName(name, strength, nameNote, data);
-    return { keys, canon: keys, origin: "不明" as Origin, general: true, found: keys.length > 0, decided };
+    return { keys, canon: keys, origin: "不明" as Origin, general: true, found: keys.length > 0, decided, yj9: "" };
   }
   const n = stripPrefix(name.normalize("NFKC").trim());
   const tries = [nameKey(n), nameKey(n + (strength ?? ""))];
@@ -231,9 +236,12 @@ export function prescribedKeys(name: string, strength: string | null | undefined
   }
   // 親マスタに無い名前：一般名と同じ読み方で鍵を推し量る（自動では選ばない）
   const guess = generalNameKeys(n.replace(/「[^」]*」/g, ""), strength, nameNote, data);
-  return { keys: guess, canon: guess, origin: "不明" as Origin, general: false, found: false, decided: false };
+  return { keys: guess, canon: guess, origin: "不明" as Origin, general: false, found: false, decided: false, yj9: "" };
 }
-const fromHits = (hit: Hit[]) => ({ keys: [...new Set(hit.map((x) => x.key))], canon: [...new Set(hit.map((x) => x.canon))], origin: oneOrigin(hit), general: false, found: true, decided: false });
+const fromHits = (hit: Hit[]) => {
+  const yj9 = [...new Set(hit.map((x) => x.yj9))];
+  return { keys: [...new Set(hit.map((x) => x.key))], canon: [...new Set(hit.map((x) => x.canon))], origin: oneOrigin(hit), general: false, found: true, decided: false, yj9: yj9.length === 1 ? yj9[0] : "" };
+};
 const oneOrigin = (list: { origin: Origin }[]): Origin => {
   const s = new Set(list.map((x) => x.origin));
   return s.size === 1 ? [...s][0] : "不明";
@@ -262,6 +270,25 @@ export function facilityCanon(p: FacilityProduct & { yj_code?: string | null }, 
   }
   return fk;
 }
+/** 施設の 1 行の YJ の上 9 桁（施設の行の yj_code か、親マスタの同じ名前の製品から。分からなければ ""） */
+export function facilityYj9(p: FacilityProduct & { yj_code?: string | null }, data: MatchData): string {
+  const fk = facilityKey(p, data);
+  if (!fk) return "";
+  const g = fk.split("|")[0];
+  if (p.yj_code && p.yj_code.length >= 9 && p.yj_code.slice(0, 7) === g.slice(0, 7)) return p.yj_code.slice(0, 9);
+  const idx = indexOf(data);
+  for (const n of [p.product_key, p.brand_name]) {
+    const hits = n ? (idx.byName.get(nameKey(n)) ?? []).filter((x) => x.key === fk) : [];
+    const s = new Set(hits.map((x) => x.yj9));
+    if (s.size === 1) return [...s][0];
+  }
+  return "";
+}
+/** 規格が数量でない（「1錠」など）か、漢方製剤（YJ 52）。メーカーが違えば中身が違うので、同じ鍵でも同じ薬とみなさない */
+const notInterchangeable = (key: string) => {
+  const { group, sk } = splitKey(key);
+  return group.startsWith("52") || !/\d/.test(sk) || /錠|カプセル|包|個|枚/.test(sk);
+};
 export function facilityOrigin(p: FacilityProduct, data: MatchData): Origin {
   const idx = indexOf(data);
   for (const n of [p.product_key, p.brand_name]) {
@@ -300,42 +327,62 @@ export function matchRx<T extends FacilityProduct>(
   const exact = active.filter(sameName);
   out.previous = switched.filter((p) => sameName(p) || (!!facilityCanon(p, data) && rx.canon.includes(facilityCanon(p, data)!)));
 
-  // 鍵で照合して、決まりでふるい分ける
-  const allowed: { p: T; rel: string }[] = [];
+  // 鍵で照合して、決まりでふるい分ける。candOnly：候補には出すが自動では選ばない（理由つき）
+  const allowed: { p: T; rel: string; candOnly: string | null }[] = [];
   for (const p of active) {
     const fk = facilityCanon(p, data);
     if (!fk || !rx.canon.length) continue;
     const rels = rx.canon.map((k) => relation(k, fk));
-    const rel = rels.includes("same") ? "same" : rels.includes("plain_to_od") ? "plain_to_od" : rels.find((r) => r !== "other") ?? "other";
+    let rel: string = rels.includes("same") ? "same" : rels.includes("plain_to_od") ? "plain_to_od" : rels.includes("release_family") ? "release_family" : rels.find((r) => r !== "other") ?? "other";
     if (rel === "other") continue;
+    const fo = facilityOrigin(p, data);
+    // 放出の印が同じで系列だけ違う：先発→後発で YJ の上 9 桁（成分・剤形・規格）が同じときだけ同じ薬（アダラートCR → ニフェジピンCR「サワイ」）。
+    // デパケンR とセレニカR のような先発どうし、後発→先発、YJ が分からないときは分けたまま
+    if (rel === "release_family" && !rx.general && rx.origin === "先発" && fo === "後発" && rx.yj9 && rx.yj9 === facilityYj9(p, data)) rel = "same_yj";
+    else if (rel === "release_family" && !rx.general && rx.origin === "後発" && fo === "先発" && rx.yj9 && rx.yj9 === facilityYj9(p, data)) rel = "generic_to_brand"; // 理由は「後発→先発」
     let rule: string | null = null;
-    if (rel === "same") {
-      const fo = facilityOrigin(p, data);
-      if (!rx.general && rx.origin === "後発" && fo === "先発" && !prof.generic_to_brand) rule = "generic_to_brand";
-      else if (!rx.general && rx.origin === "先発" && fo === "後発" && !prof.brand_to_generic) rule = "brand_to_generic";
-      else if (rx.general && !prof.general_to_any) rule = "general_to_any";
-    } else if (rel === "plain_to_od") rule = prof.plain_to_od ? null : rel;
-    else if (rel === "od_to_plain") rule = prof.od_to_plain ? null : rel;
+    let candOnly: string | null = null;
+    if (rel === "same" || rel === "same_yj" || rel === "plain_to_od") {
+      if (rel === "plain_to_od" && !prof.plain_to_od) rule = rel;
+      else if (rx.general) rule = prof.general_to_any ? null : "general_to_any";
+      // 先発・後発：自動で選ぶのは、採用品が後発のとき（先発→後発は brand_to_generic）と、先発→先発のときだけ。
+      // 採用品が先発・どちらでもない・不明で、処方が先発と分からないときは、候補にとどめる（後発→先発を避ける安全側）
+      else if (rx.origin === "後発" && fo === "先発") rule = prof.generic_to_brand ? null : "generic_to_brand";
+      else if (fo === "後発") rule = rx.origin === "先発" && !prof.brand_to_generic ? "brand_to_generic" : null;
+      else if (fo === "先発" && rx.origin === "先発") rule = null;
+      else if (rx.origin === "その他" && fo === "その他") candOnly = "先発・後発の区別なし：要確認";
+      else candOnly = `先発・後発が分からない（処方 ${rx.origin}・採用品 ${fo}）：要確認`;
+      if (!rule && !candOnly && notInterchangeable(fk)) candOnly = "漢方製剤・規格が数量でない製剤は、メーカーが違えば同じ薬とみなさない：要確認";
+    } else if (rel === "od_to_plain") rule = prof.od_to_plain ? null : rel;
     else if (rel === "capsule_tablet") rule = prof.capsule_tablet ? null : rel;
     else rule = rel; // 放出・規格の違いは選ばない
     if (rule) {
       if (options.includeRuleOut) out.ruleOut.push({ product: p, rule: RULE_LABEL[rule] ?? rule });
-    } else allowed.push({ p, rel });
+    } else allowed.push({ p, rel, candOnly });
   }
 
   const ambiguousSpec = rx.canon.length > 1 && !rx.decided;
-  const pickFrom = (list: T[]) => (list.length === 1 && rx.found && !ambiguousSpec ? list[0] : null);
+  const pickFrom = (list: { p: T; candOnly: string | null }[]) => {
+    const auto = list.filter((x) => !x.candOnly);
+    return auto.length === 1 && rx.found && !ambiguousSpec ? auto[0].p : null;
+  };
   if (exact.length) {
     out.candidates = exact;
     out.best = exact.length === 1 ? exact[0] : null;
   } else {
-    const same = allowed.filter((x) => x.rel === "same").map((x) => x.p);
-    const sub = allowed.filter((x) => x.rel !== "same").map((x) => x.p);
+    const same = allowed.filter((x) => x.rel === "same" || x.rel === "same_yj");
+    const sub = allowed.filter((x) => x.rel !== "same" && x.rel !== "same_yj");
     const tier = same.length ? same : sub;
-    out.candidates = ambiguousSpec ? allowed.map((x) => x.p) : tier;
+    out.candidates = (ambiguousSpec ? allowed : tier).map((x) => x.p);
     out.best = pickFrom(tier);
-    if (!same.length && sub.length && out.best) out.note = `置き換え：${RULE_LABEL[allowed.find((x) => x.p === out.best)!.rel]}`;
+    const chosen = allowed.find((x) => x.p === out.best);
+    if (chosen && chosen.rel !== "same" && chosen.rel !== "same_yj") out.note = `置き換え：${RULE_LABEL[chosen.rel]}`;
+    else if (chosen?.rel === "same_yj") out.note = "置き換え：先発品の処方を後発品に（YJ の上 9 桁が同じ）";
     else if (out.best && !rx.general && rx.origin === "先発" && facilityOrigin(out.best, data) === "後発") out.note = "置き換え：先発品の処方を後発品に";
+    if (!out.best && !ambiguousSpec) {
+      const why = tier.find((x) => x.candOnly)?.candOnly;
+      if (why) out.note = why;
+    }
   }
   if (out.best) {
     const b = out.best;
@@ -343,7 +390,8 @@ export function matchRx<T extends FacilityProduct>(
     else if ((b.aliases ?? []).some((x) => nameKey(x) === written || nameKey(x) === writtenNoPrefix)) out.substituted = !sameMaker(nameAsWritten, b); // 同じメーカーの表記ゆれは置き換えではない
     else out.substituted = true;
   }
-  if (!out.best && out.candidates.length > 1) out.note = ambiguousSpec ? "処方の剤形・放出が名前だけでは決まりません（補足の 12時間／24時間 などを確かめてください）" : "採用品の候補が複数あります。選んでください";
+  if (out.note && !out.best) { /* 候補にとどめた理由（先発・後発・漢方など）を優先する */ }
+  else if (!out.best && out.candidates.length > 1) out.note = ambiguousSpec ? "処方の剤形・放出が名前だけでは決まりません（補足の 12時間／24時間 などを確かめてください）" : "採用品の候補が複数あります。選んでください";
   else if (!out.best && out.candidates.length === 1 && !rx.found) out.note = "処方箋の名前が親マスタにありません。候補を確かめて選んでください";
   else if (!out.best && out.candidates.length === 1 && ambiguousSpec) out.note = "処方の剤形・放出が名前だけでは決まりません（補足の 12時間／24時間 などを確かめてください）";
   out.status = out.best || out.candidates.length ? "採用品" : rx.keys.length || out.previous.length ? "採用外（市販品あり）" : "該当なし";

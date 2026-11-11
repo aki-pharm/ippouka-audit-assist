@@ -180,14 +180,30 @@ console.log(`maker-index.json：薬 ${out.drug_count}（うち候補が 2 つ以
   const keys = Object.keys(sorted);
   const keyIdx = new Map(keys.map((k, i) => [k, i]));
   const nk = (s) => (s || "").normalize("NFKC").replace(/[\s　®]/g, "").toLowerCase();
-  // 先発・後発：1＝先発、2＝後発、3＝どちらでもない（厚労省の一覧の印が両方 False）、0＝不明
-  const cover = { "一覧の販売名と一致": 0, "一覧の統一名": 0, "販売名の「」（後発とみなす）": 0, "不明": 0 };
+  // 先発・後発：1＝先発、2＝後発、3＝どちらでもない（厚労省の一覧の印が両方 False）、0＝不明（照合では自動で選ばない）
+  // 製品ごとの情報を、統一名（メーカーの無い行。後発品をまとめた行）より先に使う
+  //  1. 一覧に同じ販売名の行がある → その行の印（「」つきの先発品もある：アロチノロール塩酸塩錠「DSP」）。ただし印が両方 False で「」つきなら後発
+  //  2. 販売名に「」がある → 後発（一覧に名前が無く YJ が統一名を指すものも。後発品の名づけの決まり）
+  //  3. 一覧で同じ成分（YJ 上 7 桁）の先発品の製造販売元と、製品のメーカーが同じ → 先発（パキシル、クレストール など）
+  //  4. それ以外（YJ が統一名を指すが「」の無い製品＝先発か、販売名つきの後発か分からない、など）→ 不明
+  const byName = new Map();
+  const originalMakers = new Map(); // YJ 上 7 桁 → 先発品の製造販売元
+  for (const r of Object.values(naifuku)) {
+    byName.set(nk(r.brand_name), r);
+    if (r.is_original === "True" && r.maker) originalMakers.set(r.yj_code.slice(0, 7), [...(originalMakers.get(r.yj_code.slice(0, 7)) ?? []), r.maker]);
+  }
+  const makerKey = (s) => nk(s).replace(/^製造販売元[／/]?/, "").replace(/株式会社|合同会社|有限会社|\(株\)|㈱/g, "");
+  const cover = { "一覧の同じ販売名": 0, "販売名の「」（後発）": 0, "先発品と同じ製造販売元（先発）": 0, "不明": 0 };
   const originOf = (p) => {
-    const r = naifuku[p.yj_code];
     const flag = (r) => (r.is_original === "True" ? 1 : r.is_generic === "True" ? 2 : 3);
-    if (r && nk(r.brand_name) === nk(p.brand_name)) { cover["一覧の販売名と一致"]++; return flag(r); }
-    if (r && !r.maker) { cover["一覧の統一名"]++; return r.is_generic === "True" ? 2 : flag(r); }
-    if (/「[^」]+」/.test((p.brand_name || "").normalize("NFKC"))) { cover["販売名の「」（後発とみなす）"]++; return 2; }
+    const quoted = /「[^」]+」/.test((p.brand_name || "").normalize("NFKC"));
+    const r = byName.get(nk(p.brand_name));
+    // 一覧に同じ販売名の行があればその印（アロチノロール塩酸塩錠「DSP」のような「」つきの先発品も）。両方 False で「」つきなら後発
+    if (r && !(quoted && flag(r) === 3)) { cover["一覧の同じ販売名"]++; return flag(r); }
+    if (quoted) { cover["販売名の「」（後発）"]++; return 2; }
+    const mk = makerKey(p.maker);
+    const om = p.yj_code ? originalMakers.get(p.yj_code.slice(0, 7)) ?? [] : [];
+    if (mk.length >= 2 && om.some((m) => { const k = makerKey(m); return k.length >= 2 && (mk.includes(k) || k.includes(mk)); })) { cover["先発品と同じ製造販売元（先発）"]++; return 1; }
     cover["不明"]++;
     return 0;
   };
@@ -196,20 +212,24 @@ console.log(`maker-index.json：薬 ${out.drug_count}（うち候補が 2 つ以
   for (const p of pm) {
     if (p.status === "none") continue;
     const yj = p.yj_code && p.yj_code.length >= 8 && p.yj_code.slice(0, 7) === p.group.slice(0, 7) ? p.yj_code[7] : "";
-    products.push([p.brand_name, keyIdx.get(drugKey(p.group, p.strength, p.brand_name, p.yj_code)), originOf(p), yj]);
+    // YJ の上 9 桁（成分・剤形・規格）。先発→後発で、販売名の系列が違っても同じ薬とみなす手がかり（lib/matching.ts）
+    const yj9 = yj && p.yj_code.length >= 9 ? p.yj_code.slice(0, 9) : "";
+    products.push([p.brand_name, keyIdx.get(drugKey(p.group, p.strength, p.brand_name, p.yj_code)), originOf(p), yj, yj9]);
     if (!generics[p.group] && naifuku[p.yj_code]?.generic_name && naifuku[p.yj_code].yj_code.slice(0, 7) === p.group.slice(0, 7)) generics[p.group] = naifuku[p.yj_code].generic_name;
   }
   for (const k of keys) { const g = k.split("|")[0]; if (!generics[g]) generics[g] = sorted[k].generic_name; }
   const prof = JSON.parse(fs.readFileSync(path.join(__dirname, "../data/match-profiles.json"), "utf8"));
   const data = { keys, products, generics: Object.fromEntries(Object.keys(generics).sort().map((g) => [g, generics[g]])), profiles: prof.profiles, default_profile: prof.default, general_release_notes: prof.general_release_notes };
   const ts = `// 自動生成（node scripts/build-maker-index.cjs）。手で直さない。元：data/parent/parent-master.json、data/parent/naifuku-tablets-*.csv、data/match-profiles.json
-// products は [販売名, keys の番号, 先発・後発（1 先発／2 後発／3 どちらでもない／0 不明）, YJ の 8 桁目（上 7 桁が成分・剤形コードと同じときだけ）]
+// products は [販売名, keys の番号, 先発・後発（1 先発／2 後発／3 どちらでもない／0 不明）, YJ の 8 桁目, YJ の上 9 桁（どちらも上 7 桁が成分・剤形コードと同じときだけ）]
 import type { MatchData } from "./matching.ts";
 
 export const MATCH_DATA: MatchData = ${JSON.stringify(data)};
 `;
   fs.mkdirSync("lib", { recursive: true });
   fs.writeFileSync("lib/match-data.ts", ts);
+  const dist = [0, 1, 2, 3].map((o) => products.filter((x) => x[2] === o).length);
+  console.log(`先発・後発の分布：先発 ${dist[1]}／後発 ${dist[2]}／どちらでもない ${dist[3]}／不明 ${dist[0]}`);
   console.log(`lib/match-data.ts：販売名 ${products.length}、一般名 ${Object.keys(data.generics).length}、${(Buffer.byteLength(ts) / 1e6).toFixed(2)} MB。先発・後発の出どころ：` + Object.entries(cover).map(([k, v]) => `${k} ${v}`).join("、"));
 }
 
