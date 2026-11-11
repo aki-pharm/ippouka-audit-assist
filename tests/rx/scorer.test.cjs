@@ -499,9 +499,9 @@ test("再：壊れた入力 — 一番上が配列、items に文字列・数・
   assert.equal(Number(all.images), 8);
   // 失敗：[]、壊れた JSON、items が文字列（BOM 付きは下の todo）
   const failed = Number(all.failed);
-  assert.ok(failed >= 3 && failed <= 4, `failed=${failed}`); // BOM 付き（rx03）が今は失敗に入る。下の todo
-  // 混ざったゴミの行は捨てて採点（rx02）、usage が文字列でも採点（rx04）、正しいもの（rx08）：3 つとも全部正しい
-  assert.equal(Number(all.images_perfect), 3);
+  assert.equal(failed, 3, `failed=${failed}`); // []、壊れた JSON、items が文字列。BOM 付きは直った（ae8b604）
+  // 混ざったゴミの行は捨てて採点（rx02）、BOM 付き（rx03）、usage が文字列（rx04）、正しいもの（rx08）：4 つとも全部正しい
+  assert.equal(Number(all.images_perfect), 4); // BOM 付き（rx03）も直ったので 4
   assert.equal(Number(all.extra), 1); // rx07 の {} の行（名前なし）だけが余分
 });
 
