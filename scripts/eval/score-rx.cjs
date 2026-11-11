@@ -331,7 +331,7 @@ const frac = (a, b) => (b ? `${a}/${b}（${((100 * a) / b).toFixed(1)}%）` : "-
 function loadResult(file) {
   let raw;
   try {
-    const text = fs.readFileSync(file, "utf8");
+    const text = fs.readFileSync(file, "utf8").replace(/^\uFEFF/, ""); // メモ帳などの BOM を取る
     raw = JSON.parse(text);
   } catch {
     return { res: null, usage: null, cost: null, parseError: true };
@@ -405,6 +405,14 @@ function main() {
   }
   let mergedKeys = 0;
   let parseErrors = 0;
+  // まとめたファイル（ページ番号なし）とページごとのファイルが同じ撮影名で両方あれば、まとめたファイルだけを使う（二重に数えない）
+  const ignoredPages = [];
+  for (const [key, parts] of byKey) {
+    if (parts.some((x) => x.page === 0) && parts.some((x) => x.page > 0)) {
+      ignoredPages.push(...parts.filter((x) => x.page > 0).map((x) => x.file));
+      byKey.set(key, parts.filter((x) => x.page === 0));
+    }
+  }
 
   for (const [key, parts] of byKey) {
     const info = { ...parseKey(key), ...(meta.get(key) ?? {}) };
@@ -496,6 +504,7 @@ function main() {
   md.push(`- 正解：\`${path.relative(ROOT, expDir)}\`（処方 ${expected.size} 件）、行の狙い：\`${path.relative(ROOT, rowsCsv)}\``);
   md.push(`- 作成：${new Date().toISOString()}　\`node scripts/eval/score-rx.cjs\`（決まりはスクリプト先頭）`);
   if (drift) md.push(`- **注意**：${drift}`);
+  if (ignoredPages.length) md.push(`- まとめたファイルと同じ撮影名なので使わなかったページごとのファイル：${ignoredPages.length}（${ignoredPages.slice(0, 5).join("、")}${ignoredPages.length > 5 ? " …" : ""}）`);
   if (mergedKeys) md.push(`- ページごとのファイルを 1 つの撮影にまとめた：${mergedKeys}`);
   if (parseErrors) md.push(`- 読めないファイル（壊れた JSON・空）：${parseErrors}（読み取り失敗に数えた）`);
   if (skipped.length) md.push(`- 採点しなかったファイル ${skipped.length}：${skipped.slice(0, 10).join("、")}`);

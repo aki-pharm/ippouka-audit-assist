@@ -9,8 +9,9 @@
  *   アプリと同じく 1 回の呼び出しにまとめる（4 枚まで）。出力は <out>/<処方>__<撮影者>__<機器>__<条件>.json
  * - 画像はアプリと同じく長辺 1600px・JPEG 画質 85 に縮小して送る（python3 と Pillow を使う。無ければ元のまま送り、警告を出す）
  * - --only：対象の絞り込み（出力名に対する正規表現）。例 "__clean$" で加工なしだけ、"^rx0[1-5]" で rx01〜05 だけ
- * - --max-usd：使ってよい上限（米ドル、既定 2）。呼ぶ前に、その 1 回の最悪の費用（入力の見積もり×1.3 ＋ 出力 max_tokens 16,000 すべて）を
- *   取っておき、「使った額＋最悪の費用」が上限を超えるなら呼ばずに止める。だから上限は超えない。例外で失敗した回は請求が分からないので
+ * - --max-usd：使ってよい上限（米ドル、既定 2）。呼ぶ前に、その 1 回の最悪の費用（入力＝見積もり×1.3 とそれまでの実際の入力の最大の
+ *   大きい方 ＋ 出力 max_tokens 16,000 すべて）を取っておき、「使った額＋最悪の費用」が上限を超えるなら呼ばずに止める。
+ *   ただし 1 回目は実際の入力を知らないので、入力が見積もりの 1.3 倍を超えると、その 1 回の分だけ上限を超えうる。例外で失敗した回は請求が分からないので
  *   最悪の費用を使ったものとして数える。料金は lib/api-prices.json（公式の料金表。全スクリプト共通）。知らないモデルは
  *   --price-in/--price-out（$/100万トークン）が必要
  * - すでに出力があるものは飛ばす（途中で止めても続きから）。--force で読み直す
@@ -123,7 +124,9 @@ async function main() {
     const p = price.long && inTok > price.long.threshold ? price.long : price;
     return (inTok * p.input + outTok * p.output) / 1e6;
   };
-  const worstCase = (imgs: Img[]) => cost(Math.ceil(estInputTokens(imgs) * INPUT_MARGIN), MAX_OUTPUT_TOKENS);
+  // 入力は「見積もり×1.3」と「これまでに実際に使った入力の最大」の大きい方を取っておく（見積もりが外れても 2 回目からは学ぶ）
+  let maxInputSeen = 0;
+  const worstCase = (imgs: Img[]) => cost(Math.max(Math.ceil(estInputTokens(imgs) * INPUT_MARGIN), maxInputSeen), MAX_OUTPUT_TOKENS);
 
   let jobs = [...groupImages(imagesDir)].filter(([k]) => !only || only.test(k));
   const skipped = jobs.filter(([k]) => !force && fs.existsSync(path.join(outDir, `${k}.json`))).length;
@@ -193,6 +196,7 @@ async function main() {
         const u = { input: res.usage.input_tokens, output: res.usage.output_tokens };
         const c = cost(u.input, u.output);
         spent += c;
+        maxInputSeen = Math.max(maxInputSeen, u.input);
         inSum += u.input;
         outSum += u.output;
         Object.assign(rec, { result: res.parsed_output ?? null, usage: u, cost_usd: Number(c.toFixed(6)), stop_reason: res.stop_reason });

@@ -505,7 +505,7 @@ test("再：壊れた入力 — 一番上が配列、items に文字列・数・
   assert.equal(Number(all.extra), 1); // rx07 の {} の行（名前なし）だけが余分
 });
 
-test("【不具合】BOM 付きの JSON（メモ帳などで保存）を「読み取り失敗」に数える", { todo: "loadResult が BOM を取らずに JSON.parse する" }, () => {
+test("【不具合】BOM 付きの JSON（メモ帳などで保存）を「読み取り失敗」に数える", () => {
   const { all } = score({ "rx03__QA__c__x.json": "\uFEFF" + JSON.stringify(exp("rx03")) });
   assert.equal(Number(all.failed), 0);
   assert.equal(acc(all, "row_ok"), 1);
@@ -525,7 +525,7 @@ test("再：ページごと — 片方のページが壊れていれば読み取
   assert.equal(Number(r2.all.images_perfect), 1, "1 ページ目は「次ページあり」で All One Dose が無いのが正しい。2 ページ目の true を採る");
 });
 
-test("【不具合】ページごとのファイルと、まとめたファイルが同じ撮影名で両方あると、1 つにまとめて行を二重に数える（余分 10）", { todo: "まとめたファイル（ページ番号なし）があればページごとのファイルは無視するか、警告する" }, () => {
+test("【不具合】ページごとのファイルと、まとめたファイルが同じ撮影名で両方あると、1 つにまとめて行を二重に数える（余分 10）", () => {
   const e = exp("rx05");
   const { all } = score({
     "rx05__QA__x__x.json": e,

@@ -1,0 +1,146 @@
+﻿source,rx,rp,name_used,expected,pending_product,selected,candidates,substituted,category,kind,cases
+truth,rx01,01,アムロジピン錠5mg「サワイ」,アムロジピン錠5mg「サワイ」,,アムロジピン錠5mg「サワイ」,1,0,ok_product,,exact
+truth,rx01,02,カンデサルタン錠8mg「サワイ」,カンデサルタン錠8mg「サワイ」,,カンデサルタン錠8mg「サワイ」,1,0,ok_product,,exact
+truth,rx01,03,ロスバスタチン錠5mg「DSEP」,メーカー未確定,ロスバスタチン錠5mg「DSEP」,ロスバスタチン錠5mg「DSEP」,1,0,ok_pending,,maker_unknown
+truth,rx01,04,ランソプラゾールOD錠15mg「武田テバ」,ランソプラゾールOD錠15mg「武田テバ」,,ランソプラゾールOD錠15mg「武田テバ」,1,0,ok_product,,exact
+truth,rx01,05,酸化マグネシウム錠330mg「ヨシダ」,酸化マグネシウム錠330mg「ヨシダ」,,酸化マグネシウム錠330mg「ヨシダ」,1,0,ok_product,,exact
+truth,rx01,06,フォリアミン錠5mg,フォリアミン錠5mg,,フォリアミン錠5mg,1,0,ok_product,,exact
+truth,rx02,01,シベンゾリンコハク酸塩錠50mg「サワイ」,シベンゾリンコハク酸塩錠50mg「サワイ」,,シベンゾリンコハク酸塩錠50mg「サワイ」,1,0,ok_product,,exact
+truth,rx02,02,エリキュース錠2.5mg,エリキュース錠2.5mg,,エリキュース錠2.5mg,1,0,ok_product,,exact
+truth,rx02,03,カルベジロール錠2.5mg「サワイ」,カルベジロール錠2.5mg「サワイ」,,カルベジロール錠2.5mg「サワイ」,1,0,ok_product,,exact
+truth,rx02,04,カルベジロール錠10mg「トーワ」,カルベジロール錠10mg「トーワ」,,カルベジロール錠10mg「トーワ」,1,0,ok_product,,exact
+truth,rx02,05,ドキサゾシン錠1mg「トーワ」,ドキサゾシン錠1mg「トーワ」,,ドキサゾシン錠1mg「トーワ」,1,0,ok_product,,exact
+truth,rx02,06,ピタバスタチンCa錠2mg「日医工」,ピタバスタチンCa錠2mg「日医工」,,ピタバスタチンCa錠2mg「日医工」,1,0,ok_product,,exact
+truth,rx02,07,オルケディア錠4mg,オルケディア錠4mg,,オルケディア錠4mg,1,0,ok_product,,exact
+truth,rx03,01,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,,アスパラカリウム錠300mg,1,0,ok_product,,exact
+truth,rx03,02,エルデカルシトールカプセル0.75μg「サワイ」,エルデカルシトールカプセル0.75μg「サワイ」,,エルデカルシトールカプセル0.75μg「サワイ」,1,0,ok_product,,exact
+truth,rx03,03,(Ca)アスパラ-CA錠200mg,アスパラ-CA錠200mg,,アスパラ-CA錠200mg,1,0,ok_product,,exact
+truth,rx03,04,メチコバール錠500μg,メチコバール錠500μg,,メチコバール錠500μg,1,0,ok_product,,exact
+truth,rx03,05,モサプリドクエン酸塩錠5mg「AA」,モサプリドクエン酸塩錠5mg「AA」,,モサプリドクエン酸塩錠5mg「AA」,1,0,ok_product,,exact
+truth,rx03,06,クエン酸第一鉄Na錠50mg「NIG」,クエン酸第一鉄Na錠50mg「NIG」,,クエン酸第一鉄Na錠50mg「NIG」,1,0,ok_product,,exact
+truth,rx03,07,ワーファリン錠1mg,ワーファリン錠1mg,,ワーファリン錠1mg,1,0,ok_product,,exact
+truth,rx04,01,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,,アスパラカリウム錠300mg,1,0,ok_product,,exact
+truth,rx04,02,フロセミド錠20mg「NP」,フロセミド錠20mg「NP」,,フロセミド錠20mg「NP」,1,0,ok_product,,exact
+truth,rx04,03,スピロノラクトン錠25mg「トーワ」,スピロノラクトン錠25mg「トーワ」,,スピロノラクトン錠25mg「トーワ」,1,0,ok_product,,exact
+truth,rx04,04,ワーファリン錠1mg,ワーファリン錠1mg,,ワーファリン錠1mg,1,0,ok_product,,exact
+truth,rx04,05,ワーファリン錠0.5mg,ワーファリン錠0.5mg,,ワーファリン錠0.5mg,1,0,ok_product,,exact
+truth,rx04,06,アゾセミド錠30mg「JG」,アゾセミド錠30mg「JG」,,アゾセミド錠30mg「JG」,1,0,ok_product,,exact
+truth,rx04,07,プレドニゾロン錠5mg「NP」,プレドニゾロン錠5mg「NP」,,プレドニゾロン錠5mg「NP」,1,0,ok_product,,exact
+truth,rx05,01,【般】アムロジピン錠5mg,アムロジピン錠5mg「サワイ」,,アムロジピン錠5mg「サワイ」,1,1,ok_product,,general_name od_plain
+truth,rx05,02,【般】カンデサルタン錠8mg,カンデサルタン錠8mg「サワイ」,,カンデサルタン錠8mg「サワイ」,1,1,ok_product,,general_name
+truth,rx05,03,【般】ランソプラゾール腸溶性口腔内崩壊錠15mg,ランソプラゾールOD錠15mg「武田テバ」,,ランソプラゾールOD錠15mg「武田テバ」,1,1,ok_product,,general_name
+truth,rx05,04,【般】ロスバスタチン錠5mg,メーカー未確定,ロスバスタチン錠5mg「DSEP」,ロスバスタチン錠5mg「DSEP」,1,1,ok_pending,,maker_unknown general_name
+truth,rx05,05,【般】酸化マグネシウム錠330mg,酸化マグネシウム錠330mg「ヨシダ」,,酸化マグネシウム錠330mg「ヨシダ」,1,1,ok_product,,general_name
+truth,rx05,06,【般】エチゾラム錠0.5mg,エチゾラム錠0.5mg「トーワ」,,エチゾラム錠0.5mg「トーワ」,1,1,ok_product,,general_name
+truth,rx05,07,フォリアミン錠5mg,フォリアミン錠5mg,,フォリアミン錠5mg,1,0,ok_product,,exact
+truth,rx05,08,【般】メコバラミン錠500μg,メチコバール錠500μg,,メチコバール錠500μg,1,1,ok_product,,general_name
+truth,rx05,09,【般】アロプリノール錠100mg,アロプリノール錠100mg「サワイ」,,アロプリノール錠100mg「サワイ」,1,1,ok_product,,general_name
+truth,rx05,10,クロピドグレル錠75mg「トーワ」,クロピドグレル錠75mg「トーワ」,,クロピドグレル錠75mg「トーワ」,1,0,ok_product,,exact
+truth,rx06,01,ニフェジピンCR錠20mg「サワイ」,ニフェジピンCR錠20mg「サワイ」,,ニフェジピンCR錠20mg「サワイ」,1,0,ok_product,,exact
+truth,rx06,02,ニフェジピンL錠10mg「サワイ」,ニフェジピンL錠10mg「トーワ」,,ニフェジピンL錠10mg「トーワ」,1,1,ok_product,,maker_diff release
+truth,rx06,03,アムロジピンOD錠10mg「武田テバ」,アムロジピンOD錠10mg「武田テバ」,,アムロジピンOD錠10mg「武田テバ」,1,0,ok_product,,exact
+truth,rx06,04,アムロジピン錠2.5mg「サワイ」,アムロジピン錠2.5mg「サワイ」,,アムロジピン錠2.5mg「サワイ」,1,0,ok_product,,exact
+truth,rx06,05,タケキャブ錠10mg,タケキャブ錠10mg,,タケキャブ錠10mg,1,0,ok_product,,exact
+truth,rx06,06,リクシアナOD錠30mg,リクシアナOD錠30mg,,リクシアナOD錠30mg,1,0,ok_product,,exact
+truth,rx06,07,ドネペジル塩酸塩OD錠5mg「サワイ」,ドネペジル塩酸塩OD錠5mg「トーワ」,,ドネペジル塩酸塩OD錠5mg「トーワ」,1,1,ok_product,,maker_diff od_plain
+truth,rx07,01,アムロジピンOD錠10mg「武田テバ」,アムロジピンOD錠10mg「武田テバ」,,アムロジピンOD錠10mg「武田テバ」,1,0,ok_product,,exact
+truth,rx07,02,アムロジピンOD錠2.5mg「武田テバ」,アムロジピンOD錠2.5mg「武田テバ」,,アムロジピンOD錠2.5mg「武田テバ」,1,0,ok_product,,exact
+truth,rx07,03,ニフェジピンCR錠20mg「サワイ」,ニフェジピンCR錠20mg「サワイ」,,ニフェジピンCR錠20mg「サワイ」,1,0,ok_product,,exact
+truth,rx07,04,ニフェジピンCR錠10mg「サワイ」,ニフェジピンCR錠10mg「サワイ」,,ニフェジピンCR錠10mg「サワイ」,1,0,ok_product,,exact
+truth,rx07,05,カルベジロール錠10mg「トーワ」,カルベジロール錠10mg「トーワ」,,カルベジロール錠10mg「トーワ」,1,0,ok_product,,exact
+truth,rx07,06,カルベジロール錠2.5mg「サワイ」,カルベジロール錠2.5mg「サワイ」,,カルベジロール錠2.5mg「サワイ」,1,0,ok_product,,exact
+truth,rx07,07,プレガバリンOD錠75mg「JG」,プレガバリンOD錠75mg「JG」,,プレガバリンOD錠75mg「JG」,1,0,ok_product,,exact
+truth,rx08,01,ノルバスク錠5mg,アムロジピン錠5mg「サワイ」,,アムロジピン錠5mg「サワイ」,1,1,ok_product,,brand_to_generic
+truth,rx08,02,リピトール錠10mg,アトルバスタチン錠10mg「サワイ」,,,0,0,wrong_none,,brand_to_generic_noalias
+truth,rx08,03,パリエット錠10mg,ラベプラゾールNa錠10mg「オーハラ」,,ラベプラゾールNa錠10mg「オーハラ」,1,1,ok_product,,brand_to_generic
+truth,rx08,04,ムコスタ錠100mg,レバミピド錠100mg「サワイ」,,,0,0,wrong_none,,brand_to_generic_noalias
+truth,rx08,05,マグミット錠330mg,酸化マグネシウム錠330mg「ヨシダ」,,,0,0,wrong_none,,brand_to_generic_noalias
+truth,rx08,06,ガスモチン錠5mg,モサプリドクエン酸塩錠5mg「AA」,,,0,0,wrong_none,,brand_to_generic_noalias
+truth,rx09,01,メトホルミン塩酸塩錠250mgMT「トーワ」,メトホルミン塩酸塩錠250mgMT「トーワ」,,メトホルミン塩酸塩錠250mgMT「トーワ」,1,0,ok_product,,exact
+truth,rx09,02,ウルソデオキシコール酸錠100mg「トーワ」,ウルソデオキシコール酸錠100mg「トーワ」,,ウルソデオキシコール酸錠100mg「トーワ」,1,0,ok_product,,exact
+truth,rx09,03,酸化マグネシウム錠250mg「ケンエー」,酸化マグネシウム錠250mg「ケンエー」,,酸化マグネシウム錠250mg「ケンエー」,1,0,ok_product,,exact
+truth,rx09,04,イコサペント酸エチルカプセル300mg「サワイ」,イコサペント酸エチルカプセル300mg「サワイ」,,イコサペント酸エチルカプセル300mg「サワイ」,1,0,ok_product,,exact
+truth,rx09,05,グリメピリド錠1mg「サワイ」,グリメピリド錠1mg「サワイ」,,グリメピリド錠1mg「サワイ」,1,0,ok_product,,exact
+truth,rx09,06,センノシド錠12mg「サワイ」,センノシド錠12mg「サワイ」,,センノシド錠12mg「サワイ」,1,0,ok_product,,exact
+truth,rx10,01,ダーブロック錠4mg,ダーブロック錠4mg,,ダーブロック錠4mg,1,0,ok_product,,exact
+truth,rx10,02,炭酸ランタンOD錠250mg「トーワ」,炭酸ランタンOD錠250mg「トーワ」,,炭酸ランタンOD錠250mg「トーワ」,1,0,ok_product,,exact
+truth,rx10,03,沈降炭酸カルシウム錠500mg「三和」,沈降炭酸カルシウム錠500mg「三和」,,沈降炭酸カルシウム錠500mg「三和」,1,0,ok_product,,exact
+truth,rx10,04,(Na)炭酸水素ナトリウム錠500mg「VTRS」,炭酸水素ナトリウム錠500mg「VTRS」,,炭酸水素ナトリウム錠500mg「VTRS」,1,0,ok_product,,exact
+truth,rx10,05,フェブキソスタット錠10mg「サワイ」,フェブキソスタット錠10mg「サワイ」,,フェブキソスタット錠10mg「サワイ」,1,0,ok_product,,exact
+truth,rx10,06,オルケディア錠4mg,オルケディア錠4mg,,オルケディア錠4mg,1,0,ok_product,,exact
+truth,rx10,07,アルファカルシドールカプセル0.5μg「サワイ」,アルファカルシドールカプセル0.5μg「サワイ」,,アルファカルシドールカプセル0.5μg「サワイ」,1,0,ok_product,,exact
+truth,rx10,08,カルベジロール錠2.5mg「サワイ」,カルベジロール錠2.5mg「サワイ」,,カルベジロール錠2.5mg「サワイ」,1,0,ok_product,,exact
+truth,rx10,09,リオナ錠250mg,採用なし,,リオナ錠250mg,1,0,selected_for_none,採用中止の製品,discontinued
+truth,rx11,01,テルミサルタン錠40mg「サワイ」,テルミサルタン錠40mg「サワイ」,,テルミサルタン錠40mg「サワイ」,1,0,ok_product,,exact
+truth,rx11,02,アトルバスタチン錠10mg「サワイ」,アトルバスタチン錠10mg「サワイ」,,アトルバスタチン錠10mg「サワイ」,1,0,ok_product,,exact
+truth,rx11,03,ビソプロロールフマル酸塩錠2.5mg「サワイ」,ビソプロロールフマル酸塩錠2.5mg「サワイ」,,ビソプロロールフマル酸塩錠2.5mg「サワイ」,1,0,ok_product,,exact
+truth,rx11,04,バイアスピリン錠100mg,バイアスピリン錠100mg,,バイアスピリン錠100mg,1,0,ok_product,,exact
+truth,rx11,05,ファモチジン錠20mg「トーワ」,メーカー未確定,ファモチジン錠20mg「トーワ」,ファモチジン錠20mg「トーワ」,1,0,ok_pending,,maker_unknown
+truth,rx11,06,エゼチミブ錠10mg「サワイ」,エゼチミブ錠10mg「サワイ」,,エゼチミブ錠10mg「サワイ」,1,0,ok_product,,exact
+truth,rx12,01,アミティーザカプセル12μg,アミティーザカプセル12μg,,アミティーザカプセル12μg,1,0,ok_product,,exact
+truth,rx12,02,リリカカプセル75mg,リリカカプセル75mg,,リリカカプセル75mg,1,0,ok_product,,exact
+truth,rx12,03,ベタニス錠50mg,採用なし,,,0,0,ok_none,,not_adopted
+truth,rx12,04,タムスロシン塩酸塩OD錠0.2mg「サワイ」,タムスロシン塩酸塩OD錠0.2mg「サワイ」,,タムスロシン塩酸塩OD錠0.2mg「サワイ」,1,0,ok_product,,exact
+truth,rx12,05,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,,アスパラカリウム錠300mg,1,0,ok_product,,exact
+truth,rx12,06,エチゾラム錠0.5mg「トーワ」,エチゾラム錠0.5mg「トーワ」,,エチゾラム錠0.5mg「トーワ」,1,0,ok_product,,exact
+truth,rx13,01,ロサルタンカリウム錠50mg「サワイ」,ロサルタンカリウム錠50mg「JG」,,ロサルタンカリウム錠50mg「JG」,1,1,ok_product,,maker_diff
+truth,rx13,02,ロスバスタチン錠2.5mg「サワイ」,ロスバスタチン錠2.5mg「DSEP」,,ロスバスタチン錠2.5mg「DSEP」,1,1,ok_product,,maker_diff
+truth,rx13,03,ジャヌビア錠50mg,ジャヌビア錠50mg,,ジャヌビア錠50mg,1,0,ok_product,,exact
+truth,rx13,04,ジャディアンス錠10mg,ジャディアンス錠10mg,,ジャディアンス錠10mg,1,0,ok_product,,exact
+truth,rx13,05,メトグルコ錠500mg,メトホルミン塩酸塩錠500mgMT「トーワ」,,メトホルミン塩酸塩錠500mgMT「トーワ」,1,1,ok_product,,brand_to_generic
+truth,rx13,06,ラベプラゾールNa錠10mg「オーハラ」,ラベプラゾールNa錠10mg「オーハラ」,,ラベプラゾールNa錠10mg「オーハラ」,1,0,ok_product,,exact
+truth,rx13,07,フォリアミン錠5mg,フォリアミン錠5mg,,フォリアミン錠5mg,1,0,ok_product,,exact
+truth,rx14,01,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,,アスパラカリウム錠300mg,1,0,ok_product,,exact
+truth,rx14,02,エリキュース錠5mg,エリキュース錠5mg,,エリキュース錠5mg,1,0,ok_product,,exact
+truth,rx14,03,シベンゾリンコハク酸塩錠100mg「トーワ」,シベンゾリンコハク酸塩錠100mg「トーワ」,,シベンゾリンコハク酸塩錠100mg「トーワ」,1,0,ok_product,,exact
+truth,rx14,04,ジゴシン錠0.125mg,採用なし,,,0,0,ok_none,,not_adopted
+truth,rx14,05,アゾセミド錠60mg「JG」,アゾセミド錠60mg「JG」,,アゾセミド錠60mg「JG」,1,0,ok_product,,exact
+truth,rx14,06,トラセミド錠4mg「KO」,トラセミド錠4mg「KO」,,トラセミド錠4mg「KO」,1,0,ok_product,,exact
+truth,rx14,07,アルダクトンA錠25mg,スピロノラクトン錠25mg「トーワ」,,,0,0,wrong_none,,brand_to_generic_noalias
+truth,rx15,01,【般】アムロジピン口腔内崩壊錠5mg,アムロジピンOD錠5mg「サワイ」,,,0,0,wrong_none,,general_name od_plain
+truth,rx15,02,【般】ニフェジピン徐放錠20mg,ニフェジピンCR錠20mg「サワイ」,,ニフェジピンCR錠20mg「サワイ」,1,1,ok_product,,general_name release
+truth,rx15,03,【般】ニフェジピン徐放錠10mg,ニフェジピンL錠10mg「トーワ」,,,2,1,ambiguous,正解が候補にある,general_name release
+truth,rx15,04,アジルサルタン錠20mg「ニプロ」,アジルサルタン錠20mg「ニプロ」,,アジルサルタン錠20mg「ニプロ」,1,0,ok_product,,exact
+truth,rx15,05,ドンペリドン錠10mg「サワイ」,採用なし,,,0,0,ok_none,,not_adopted
+truth,rx15,06,レバミピド錠100mg「サワイ」,レバミピド錠100mg「サワイ」,,レバミピド錠100mg「サワイ」,1,0,ok_product,,exact
+truth,rx15,07,ゾルピデム酒石酸塩錠5mg「サワイ」,ゾルピデム酒石酸塩錠5mg「サワイ」,,ゾルピデム酒石酸塩錠5mg「サワイ」,1,0,ok_product,,exact
+truth,rx15,08,リボトリール錠0.5mg,リボトリール錠0.5mg,,リボトリール錠0.5mg,1,0,ok_product,,exact
+truth,rx15,09,クエン酸第一鉄Na錠50mg「NIG」,クエン酸第一鉄Na錠50mg「NIG」,,クエン酸第一鉄Na錠50mg「NIG」,1,0,ok_product,,exact
+truth,rx15,10,センノシド錠12mg「サワイ」,センノシド錠12mg「サワイ」,,センノシド錠12mg「サワイ」,1,0,ok_product,,exact
+truth,rx16,01,ユニシア配合錠HD,ユニシア配合錠HD,,ユニシア配合錠HD,1,0,ok_product,,exact combo
+truth,rx16,02,ノイロビタン配合錠,ノイロビタン配合錠,,ノイロビタン配合錠,1,0,ok_product,,exact combo
+truth,rx16,03,ウラリット配合錠,ウラリット配合錠,,ウラリット配合錠,1,0,ok_product,,exact combo
+truth,rx16,04,バファリン配合錠A81,採用なし,,,0,0,ok_none,,not_adopted combo
+truth,rx16,05,ロキソプロフェンNa錠60mg「サワイ」,採用なし,,ロキソプロフェンNa錠60mg「サワイ」,1,0,selected_for_none,採用中止の製品,discontinued
+truth,rx16,06,ドキサゾシン錠1mg「トーワ」,ドキサゾシン錠1mg「トーワ」,,ドキサゾシン錠1mg「トーワ」,1,0,ok_product,,exact
+truth,rx17,01,ラベプラゾールNa錠10mg「オーハラ」,ラベプラゾールNa錠10mg「オーハラ」,,ラベプラゾールNa錠10mg「オーハラ」,1,0,ok_product,,exact
+truth,rx17,02,モサプリドクエン酸塩錠5mg「AA」,モサプリドクエン酸塩錠5mg「AA」,,モサプリドクエン酸塩錠5mg「AA」,1,0,ok_product,,exact
+truth,rx17,03,メチコバール錠500μg,メチコバール錠500μg,,メチコバール錠500μg,1,0,ok_product,,exact
+truth,rx17,04,ピタバスタチンCa錠2mg「日医工」,ピタバスタチンCa錠2mg「日医工」,,ピタバスタチンCa錠2mg「日医工」,1,0,ok_product,,exact
+truth,rx17,05,プレガバリンOD錠75mg「JG」,プレガバリンOD錠75mg「JG」,,プレガバリンOD錠75mg「JG」,1,0,ok_product,,exact
+truth,rx17,06,アロプリノール錠100mg「サワイ」,アロプリノール錠100mg「サワイ」,,アロプリノール錠100mg「サワイ」,1,0,ok_product,,exact
+truth,rx18,01,ワーファリン錠1mg,ワーファリン錠1mg,,ワーファリン錠1mg,1,0,ok_product,,exact
+truth,rx18,02,ワーファリン錠0.5mg,ワーファリン錠0.5mg,,ワーファリン錠0.5mg,1,0,ok_product,,exact
+truth,rx18,03,エンレスト錠200mg,エンレスト錠200mg,,エンレスト錠200mg,1,0,ok_product,,exact
+truth,rx18,04,アーチスト錠10mg,カルベジロール錠10mg「トーワ」,,,0,0,wrong_none,,brand_to_generic_noalias
+truth,rx18,05,ラシックス錠20mg,フロセミド錠20mg「NP」,,フロセミド錠20mg「NP」,1,1,ok_product,,brand_to_generic
+truth,rx18,06,ジャディアンス錠10mg,ジャディアンス錠10mg,,ジャディアンス錠10mg,1,0,ok_product,,exact
+truth,rx18,07,ダーブロック錠4mg,ダーブロック錠4mg,,ダーブロック錠4mg,1,0,ok_product,,exact
+truth,rx19,01,エソメプラゾールカプセル20mg「サワイ」,エソメプラゾールカプセル20mg「サワイ」,,エソメプラゾールカプセル20mg「サワイ」,1,0,ok_product,,exact
+truth,rx19,02,イコサペント酸エチルカプセル300mg「サワイ」,イコサペント酸エチルカプセル300mg「サワイ」,,イコサペント酸エチルカプセル300mg「サワイ」,1,0,ok_product,,exact
+truth,rx19,03,アルファカルシドールカプセル1μg「サワイ」,アルファカルシドールカプセル1μg「サワイ」,,アルファカルシドールカプセル1μg「サワイ」,1,0,ok_product,,exact
+truth,rx19,04,エディロールカプセル0.75μg,エディロールカプセル0.75μg,,エディロールカプセル0.75μg,1,0,ok_product,,exact
+truth,rx19,05,グルコンサンK錠5mEq,グルコンサンK錠5mEq,,グルコンサンK錠5mEq,1,0,ok_product,,exact
+truth,rx19,06,プレドニゾロン錠5mg「NP」,プレドニゾロン錠5mg「NP」,,プレドニゾロン錠5mg「NP」,1,0,ok_product,,exact
+truth,rx19,07,ファモチジン錠20mg「トーワ」,メーカー未確定,ファモチジン錠20mg「トーワ」,ファモチジン錠20mg「トーワ」,1,0,ok_pending,,maker_unknown
+truth,rx20,01,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,,アスパラカリウム錠300mg,1,0,ok_product,,exact
+truth,rx20,02,【般】カルベジロール錠2.5mg,カルベジロール錠2.5mg「サワイ」,,カルベジロール錠2.5mg「サワイ」,1,1,ok_product,,general_name
+truth,rx20,03,カルベジロール錠10mg「トーワ」,カルベジロール錠10mg「トーワ」,,カルベジロール錠10mg「トーワ」,1,0,ok_product,,exact
+truth,rx20,04,アムロジピンOD錠2.5mg「武田テバ」,アムロジピンOD錠2.5mg「武田テバ」,,アムロジピンOD錠2.5mg「武田テバ」,1,0,ok_product,,exact
+truth,rx20,05,ニフェジピンCR錠40mg「サワイ」,ニフェジピンCR錠40mg「サワイ」,,ニフェジピンCR錠40mg「サワイ」,1,0,ok_product,,exact
+truth,rx20,06,エナラプリルマレイン酸塩錠5mg「トーワ」,エナラプリルマレイン酸塩錠5mg「トーワ」,,エナラプリルマレイン酸塩錠5mg「トーワ」,1,0,ok_product,,exact
+truth,rx20,07,(Ca)アスパラ-CA錠200mg,アスパラ-CA錠200mg,,アスパラ-CA錠200mg,1,0,ok_product,,exact
+truth,rx20,08,エリキュース錠2.5mg,エリキュース錠2.5mg,,エリキュース錠2.5mg,1,0,ok_product,,exact
+truth,rx20,09,メチコバール錠250μg,採用なし,,,0,0,ok_none,,not_adopted strength
+truth,rx20,10,ブロチゾラムOD錠0.25mg「サワイ」,ブロチゾラムOD錠0.25mg「JG」,,ブロチゾラムOD錠0.25mg「JG」,1,1,ok_product,,maker_diff od_plain
+truth,rx20,11,ウルソデオキシコール酸錠100mg「トーワ」,ウルソデオキシコール酸錠100mg「トーワ」,,ウルソデオキシコール酸錠100mg「トーワ」,1,0,ok_product,,exact
