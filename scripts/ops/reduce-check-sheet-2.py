@@ -3,8 +3,8 @@
 #
 # 印ごとの片付け方（AI の判断は使わない。比べるのは文字と数字だけ）：
 #   ・数字が別のページ／本文に無いと出たもの → scripts/verify-recheck.py の結果（数字の空白を詰めて照合、製品名のあるページ）
-#   ・刻印が図だけ（照合「どのページにも無い（図の可能性）」、品質 R3）→ Opus 5.5 で抽出し直した値（data/private/opus-drafts/）と
-#     下書き（Sonnet か Haiku）の値が一致すれば「2モデル一致」。違えば、または Opus も読めなければ残す
+#   ・刻印が図だけ（照合「どのページにも無い（図の可能性）」、品質 R3、刻印（表）が未確認）→ Opus 5.5 で抽出し直した値（data/private/opus-drafts/）と
+#     手元の下書き（Sonnet 品目単位・Haiku 文書単位）を並べ、文字にできたモデルが 2 つ以上あり、すべて同じなら「2モデル一致」。違えば、または 1 つしか読めなければ残す
 #   ・大きさが図だけ（本文に数字が無い）→ 同じく Opus の値と比べ、0.1mm 以内で一致すれば「2モデル一致」
 #   ・形・大きさが空欄（品質 R4）→ 形は性状の文から拾う（無ければ、カプセル剤は長円、長径＝短径の錠剤は円形）。大きさは Opus の値が本文にあれば採る。カプセルの短径は号数から推定（印つき）
 #   ・根拠の文言が近似だけが残ったもの → 値はそれぞれ本文で照合ずみなので片付ける（文言の書き起こしの揺れ）
@@ -43,6 +43,22 @@ def opus_product(doc_id, name, strength):
             or next((p for p in ps if nkey(p["product_name"]) and (nkey(p["product_name"]) in nkey(name) or nkey(name) in nkey(p["product_name"]))), None)
             or next((p for p in ps if nkey(p.get("strength")) == nkey(strength)), None)
             or (ps[0] if len(ps) == 1 else None))
+def model_values(p, name, strength):
+    """同じ製品の刻印を、手元にある下書きすべて（Sonnet 品目単位・Haiku 文書単位・Opus 文書単位）から集める"""
+    vals = {}
+    f = f"data/parent/drafts/claude-sonnet-5-5/{p['yj_code']}.json"
+    if p["yj_code"] and os.path.exists(f):
+        ps = json.load(open(f)).get("products", [])
+        q = next((x for x in ps if nkey(x["product_name"]) == nkey(name)), None) or next((x for x in ps if nkey(x.get("strength")) == nkey(strength)), None)
+        if q: vals["Sonnet"] = q
+    f = f"data/parent/drafts-docs/claude-haiku-5-5/{p['doc_id']}.json"
+    if os.path.exists(f):
+        ps = json.load(open(f)).get("products", [])
+        q = next((x for x in ps if nkey(x["product_name"]) == nkey(name)), None) or next((x for x in ps if nkey(x.get("strength")) == nkey(strength)), None)
+        if q: vals["Haiku"] = q
+    o = opus_product(p["doc_id"], name, strength)
+    if o: vals["Opus"] = o
+    return vals
 def num_eq(a, b):
     try: return abs(float(a) - float(b)) <= 0.1
     except (TypeError, ValueError): return False
@@ -66,22 +82,31 @@ for s in sheet:
     for x in issues:
         if x not in left_after_text: fixed.append(f"{x}（本文で照合し直し）"); fix_count["本文で照合し直し"] += 1
     op = opus_product(p["doc_id"], name, p["strength"])
+    mv = model_values(p, name, p["strength"])
     def imprint_issue(side):
-        d = p["imprint_front"] if side == "表" else p["imprint_back"]
-        ov = (op or {}).get("imprint_front" if side == "表" else "imprint_back")
-        if op is None: return False, f"刻印（{side}）：Opus の抽出なし", d, ""
-        if ikey(d) in UNKNOWN or ikey(ov) in UNKNOWN: return False, f"刻印（{side}）：図だけで、どちらのモデルも文字にできない" if ikey(d) in UNKNOWN and ikey(ov) in UNKNOWN else f"刻印（{side}）：片方のモデルしか読めない（下書き {d or '空'}／Opus {ov or '空'}）", d, ov
-        if ikey(d) == ikey(ov): return True, f"刻印（{side}）：2モデル一致", d, ov
-        return False, f"刻印（{side}）：2モデルで違う（下書き {d}／Opus {ov}）", d, ov
+        col = "imprint_front" if side == "表" else "imprint_back"
+        d = p[col]; ov = (op or {}).get(col)
+        got = {m: v.get(col) for m, v in mv.items() if ikey(v.get(col)) not in UNKNOWN}
+        txt = "／".join(f"{m} {v}" for m, v in got.items()) or "どのモデルも空"
+        if op is None and len(got) < 2: return False, f"刻印（{side}）：Opus の抽出なし（{txt}）", d, ov or ""
+        keys = [ikey(v) for v in got.values()]
+        agree = [k for k in set(keys) if keys.count(k) >= 2]
+        if len(agree) == 1 and len(set(keys)) == 1:
+            val = next(v for v in got.values() if ikey(v) == agree[0])
+            return True, f"刻印（{side}）：{len(got)}モデル一致（{val}）", d, val
+        if not got: return False, f"刻印（{side}）：図だけで、どのモデルも文字にできない", d, ov or ""
+        if len(got) == 1: return False, f"刻印（{side}）：1 つのモデルしか読めない（{txt}）", d, ov or ""
+        return False, f"刻印（{side}）：モデルで違う（{txt}）", d, ov or ""
     sides = set()
     for x in left_after_text:
         if "刻印（表）" in x and "図" in x: sides.add("表")
         if "刻印（裏）" in x and "図" in x: sides.add("裏")
     if "R3" in rules: sides.add("表" if ikey(p["imprint_front"]) in UNKNOWN else "裏")
+    if ikey(p["imprint_front"]) in UNKNOWN: sides.add("表")  # 刻印（表）が未確認（どの検査も印を付けられないもの）
     for side in sorted(sides):
         ok, why, d, ov = imprint_issue(side)
         (fixed if ok else left).append(why); values[f"刻印_{side}"] = (d, ov)
-        if ok: fix_count["刻印 2モデル一致"] += 1
+        if ok: fix_count["刻印 2モデル以上一致"] += 1
     # 2) 大きさ（図だけ）
     for lab, col in [("長径", "size_long_mm"), ("短径", "size_short_mm"), ("厚さ", "thickness_mm")]:
         if not any(x.startswith(lab) for x in left_after_text): continue

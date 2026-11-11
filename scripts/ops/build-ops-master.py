@@ -194,7 +194,12 @@ for dk, rs in by_drug.items():
         elif len(rs) == 1: cur, state, basis = rs[0], "札の読み取り（未確認）", "棚・カセットの札が 1 つだけ"
         else: cur, state, basis = None, "未選択", f"候補 {len(rs)}" + ("、AKI の答えが候補に合わない：" + "／".join(answers) if answers else "")
     if state == "記憶ベース（両方使用）":
-        both = [x for x in rs if maker_label(x) in ans["備考"] or stem(x["販売名"]) in ans["備考"]] or rs
+        a0 = unicodedata.normalize("NFKC", ans["今のメーカー（AKI の答え）"])
+        if "：" in a0 or ":" in a0:  # 「両方：（先発）サムスカ・オーツカ」のように、使っている製品を名指ししている
+            names = re.split(r"[・/／]", re.split(r"[：:]", a0, 1)[1])
+            both = [c for c in (pick_by_answer(n.strip(), rs, dk)[0] for n in names) if c and c != "両方"]
+        else:
+            both = [x for x in rs if maker_label(x) in ans["備考"] or stem(x["販売名"]) in ans["備考"]] or rs
         cand_both = "・".join(maker_label(x) for x in both)
     cas_no = "／".join(sorted({n for r in rs for n in r["カセット番号"].split("／") if n}, key=lambda x: int(x) if x.isdigit() else 9999))
     cand_txt = "／".join(f"{maker_label(r)}（{r['採用']}）" for r in rs)
