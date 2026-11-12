@@ -3,7 +3,7 @@
 # 入力：data/private/ops-master.csv（scripts/ops/build-ops-master.py の出力）
 # 出力：data/private/check-sheet-2.csv、check-sheet-2.html
 #
-# 対象：今のメーカーが決まっていて、検査の印（照合の「目で見る」、品質 R1〜R4、照合不能）がある薬。
+# 対象：今のメーカーが決まっていて、検査の印（照合の「目で見る」、品質 R1〜R4、照合不能）がある薬、または刻印（表）が未確認の薬。
 #       現物で確認ずみのもの、一包化しない印のものは除く。「両方使用」は今の製品が 1 つに決まらないので除く。
 # 並び：カセット（番号順）→ 棚（成分順）。どちらも、照合の優先度「高」を先に。
 # 確かめることは、検査の理由を現場の言葉に直したもの（表の刻印／裏の刻印／大きさ／形／色／添付文書全体）。
@@ -32,7 +32,9 @@ def priority(r):
     if "（中）" in r["検査の印"] or r["品質"]: return "中"
     return "低"
 
-target = [r for r in rows if r["今の製品（販売名）"] and r["検査の印"] and r["状態"] != "確認ずみ（現物）" and "一包化しない" not in r["印"]]
+# 刻印（表）が未確認の製品は、照合では「確かめる値が無い」として対象外、品質 R3 も補足に文字が無いと出ないので、どの印も付かない。これも対象に加える
+def front_unknown(r): return r["刻印_表"] in ("", "未確認")
+target = [r for r in rows if r["今の製品（販売名）"] and (r["検査の印"] or front_unknown(r)) and r["状態"] != "確認ずみ（現物）" and "一包化しない" not in r["印"]]
 def place(r): return f"カセット {r['カセット番号']}" if r["カセット番号"] else "棚"
 def sort_key(r):
     cas = r["カセット番号"].split("／")[0] if r["カセット番号"] else ""
@@ -46,8 +48,9 @@ for r in target:
     out.append({"置き場": place(r), "優先": priority(r), "今の製品（販売名）": r["今の製品（販売名）"], "今のメーカー": r["今のメーカー"], "状態": r["状態"],
                 "確かめること": todo(r), "親マスタの刻印 表": r["刻印_表"], "親マスタの刻印 裏": r["刻印_裏"], "色": r["色"], "形": r["形"], "長径mm": r["長径mm"],
                 "記入：棚・カセットの中身は今の製品と同じ？": "", "記入：刻印 表": "", "記入：刻印 裏": "", "記入：メモ": ""})
-with open(f"{P}/check-sheet-2.csv", "w", encoding="utf-8-sig", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=cols, quoting=csv.QUOTE_ALL); w.writeheader(); w.writerows(out)
+for path in (f"{P}/check-sheet-2.csv", f"{P}/check-sheet-2-all.csv"):  # -all は減らす前の全件（reduce-check-sheet-2.py が読む）
+    with open(path, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols, quoting=csv.QUOTE_ALL); w.writeheader(); w.writerows(out)
 
 e = H.escape
 def table(rs):

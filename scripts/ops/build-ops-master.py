@@ -11,6 +11,7 @@
 #   刻印・色・大きさは、今のメーカーの製品の親マスタ（添付文書由来）から取る。記憶では入れない。
 #
 # 入力：data/private/adoption-draft.csv（棚の札）、data/private/cassette-list.csv（カセットの札＋AKI の答え）、
+#       data/private/handwritten-additions.csv（AKI の手書き。scripts/ops/link-handwritten.py の出力。製品が決まった行だけ。状態「記憶ベース（手書き）」）、
 #       data/parent/parent-master.json、data/parent/naifuku-tablets-*.csv（成分名）、
 #       data/parent/verify/quote-check.csv と verify/claude-haiku-5-5/quote-check.csv（照合）、reports/check-parent*.csv（品質）、data/master.json
 # 出力（すべて data/private/）：
@@ -151,7 +152,7 @@ items, unlinked = {}, []
 def take(key, src, r, label):
     if key not in PM:
         unlinked.append((src, label, r["突き合わせ"] or "候補なし")); return None
-    it = items.setdefault(key, {"shelf": [], "cas": [], "cas_no": [], "aki": [], "ambig": False, "conf": []})
+    it = items.setdefault(key, {"shelf": [], "cas": [], "cas_no": [], "aki": [], "hand": [], "hand_mark": [], "ambig": False, "conf": []})
     if r["突き合わせ"].startswith("名前だけ") or ("件" in r["突き合わせ"]): it["ambig"] = True
     it["conf"].append(r["確度"]); return it
 for r in shelf:
@@ -162,17 +163,25 @@ for r in cas:
     if it:
         it["cas"].append(r["ラベル（読み取り）"]); it["cas_no"].append(r["カセット番号"])
         if r.get("現物のメーカー（AKI）"): it["aki"].append(r["現物のメーカー（AKI）"])
+# AKI の手書き（写真に写っていなかった採用品。scripts/ops/link-handwritten.py が親マスタの製品につないだもの）。
+# つないだ製品が決まった行だけ入れる（候補が複数で AKI がまだ選んでいない行は入れない）
+for r in load(f"{P}/handwritten-additions.csv"):
+    if not r["product_key"]: continue
+    it = take(r["product_key"], "手書き", {"突き合わせ": "", "確度": ""}, r["手書き"])
+    if it:
+        it["hand"].append(r["手書き"])
+        if r["印"]: it["hand_mark"].append(r["印"])
 
 products = []
 for key, it in items.items():
     p = PM[key]; v, why, rules, marks = marks_of(p)
     products.append({
         "product_key": key, "販売名": p["brand_name"], "メーカー": p["maker"], "YJコード": p["yj_code"], "成分・剤形コード": p["group"], "規格": p["strength"], "剤形": drug_form(p["group"], p["brand_name"], p["yj_code"]),
-        "採用": "棚＋カセット" if it["shelf"] and it["cas"] else ("カセット" if it["cas"] else "棚"),
-        "カセット番号": "／".join(it["cas_no"]), "棚の札": "／".join(it["shelf"]), "カセットの札": "／".join(it["cas"]), "AKI の答え（記憶）": "；".join(dict.fromkeys(it["aki"])),
+        "採用": ("棚＋カセット" if it["shelf"] and it["cas"] else ("カセット" if it["cas"] else "棚" if it["shelf"] else "")) + ("＋手書き" if it["hand"] and (it["shelf"] or it["cas"]) else "手書き" if it["hand"] else ""),
+        "カセット番号": "／".join(it["cas_no"]), "棚の札": "／".join(it["shelf"]), "カセットの札": "／".join(it["cas"]), "AKI の答え（記憶）": "；".join(dict.fromkeys(it["aki"])), "手書き（AKI）": "／".join(it["hand"]),
         "現物確認": "確認ずみ（現物）" if norm(p["brand_name"]) in verified else "",
         "刻印_表": p["imprint_front"], "刻印_裏": p["imprint_back"], "色": p["color"], "形": p["shape"], "長径mm": p["size_long_mm"], "短径mm": p["size_short_mm"], "大きさの出どころ": p["size_source"],
-        "親マスタの状態": p["status"], "検査の下書き": p["draft_model"], "照合": v or "（検査なし）", "照合の理由": why, "品質": rules, "印": "・".join(p["flags"]), "検査の印": marks,
+        "親マスタの状態": p["status"], "検査の下書き": p["draft_model"], "照合": v or "（検査なし）", "照合の理由": why, "品質": rules, "印": "・".join(dict.fromkeys(list(p["flags"]) + it["hand_mark"])), "検査の印": marks,
         "候補が複数": "複数（要選択）" if it["ambig"] else "", "読み取りの確度": "".join(sorted(set(it["conf"]))), "添付文書": p["source_url"], "備考": p["notes"],
     })
 products.sort(key=lambda r: (r["成分・剤形コード"], strength_key(r["規格"]), r["剤形"], r["販売名"]))
@@ -218,7 +227,7 @@ def product_as(p):
     """親マスタの製品を、製品ごとの行と同じ形にする（札からは採用されていないが、AKI の答えで指された製品のため）"""
     v, why, rules, marks = marks_of(p)
     return {"product_key": p["product_key"], "販売名": p["brand_name"], "メーカー": p["maker"], "YJコード": p["yj_code"], "成分・剤形コード": p["group"], "規格": p["strength"], "剤形": drug_form(p["group"], p["brand_name"], p["yj_code"]),
-            "採用": "AKI の答え（札には無い）", "カセット番号": "", "棚の札": "", "カセットの札": "", "AKI の答え（記憶）": "", "現物確認": "",
+            "採用": "AKI の答え（札には無い）", "カセット番号": "", "棚の札": "", "カセットの札": "", "AKI の答え（記憶）": "", "手書き（AKI）": "", "現物確認": "",
             "刻印_表": p["imprint_front"], "刻印_裏": p["imprint_back"], "色": p["color"], "形": p["shape"], "長径mm": p["size_long_mm"], "短径mm": p["size_short_mm"], "大きさの出どころ": p["size_source"],
             "親マスタの状態": p["status"], "検査の下書き": p["draft_model"], "照合": v or "（検査なし）", "照合の理由": why, "品質": rules, "印": "・".join(p["flags"]), "検査の印": marks,
             "候補が複数": "", "読み取りの確度": "", "添付文書": p["source_url"], "備考": p["notes"]}
@@ -254,17 +263,25 @@ for dk, rs in by_drug.items():
     if v: cur, state, basis = v[0], "確認ずみ（現物）", "運用マスタ（実物の写真）"
     elif ans:
         c, _ = pick_by_answer(ans["今のメーカー（AKI の答え）"], rs, dk)
-        if c == "両方": cur, state, basis = None, "記憶ベース（両方使用）", f"AKI の答え（確認表①）：両方。{ans['備考']}"
+        # 剤形の分け方を変えて「両方」の 2 製品が別の薬に分かれ、この薬の製品が 1 つだけになったときは、その製品に決める（例：普通のカプセルと徐放カプセル）
+        if c == "両方" and len(rs) == 1: cur, state, basis = rs[0], "記憶ベース", f"AKI の答え（確認表①）：両方。{ans['備考']}。剤形を分けたら、この薬の採用品は 1 つ"
+        elif c == "両方": cur, state, basis = None, "記憶ベース（両方使用）", f"AKI の答え（確認表①）：両方。{ans['備考']}"
         elif c: cur, state, basis = c, (ans.get("状態") or "記憶ベース"), f"AKI の答え（確認表①）：{ans['今のメーカー（AKI の答え）']}" + (f"。{ans['備考']}" if ans["備考"] else "")
         else: cur, state, basis = None, "未選択", f"AKI の答え「{ans['今のメーカー（AKI の答え）']}」に合う製品が親マスタに無い（PMDA の一覧に無い＝販売中止の可能性。正式名を確認）"
         if legacy_ans: basis += "（剤形の分け方を変える前の答え。徐放・口腔内崩壊などの違いを要再確認）"
     else:
         c, a = pick_by_memory(answers, rs)
         if c: cur, state, basis = c, "記憶ベース", f"AKI の答え：{a}"
-        elif len(rs) == 1: cur, state, basis = rs[0], "札の読み取り（未確認）", "棚・カセットの札が 1 つだけ"
+        elif len(rs) == 1 and rs[0]["採用"] == "手書き": cur, state, basis = rs[0], "記憶ベース（手書き）", "AKI の手書き（写真に写っていなかった採用品）"
+        elif len(rs) == 1: cur, state, basis = rs[0], "札の読み取り（未確認）", "棚・カセットの札が 1 つだけ" + ("。AKI の手書きにもある" if rs[0]["手書き（AKI）"] else "")
         else: cur, state, basis = None, "未選択", f"候補 {len(rs)}" + ("、AKI の答えが候補に合わない：" + "／".join(answers) if answers else "")
     if state == "記憶ベース（両方使用）":
-        both = [x for x in rs if maker_label(x) in ans["備考"] or stem(x["販売名"]) in ans["備考"]] or rs
+        a0 = unicodedata.normalize("NFKC", ans["今のメーカー（AKI の答え）"])
+        if "：" in a0 or ":" in a0:  # 「両方：（先発）サムスカ・オーツカ」のように、使っている製品を名指ししている
+            names = re.split(r"[・/／]", re.split(r"[：:]", a0, 1)[1])
+            both = [c for c in (pick_by_answer(n.strip(), rs, dk)[0] for n in names) if c and c != "両方"]
+        else:
+            both = [x for x in rs if maker_label(x) in ans["備考"] or stem(x["販売名"]) in ans["備考"]] or rs
         cand_both = "・".join(maker_label(x) for x in both)
     cas_no = "／".join(sorted({n for r in rs for n in r["カセット番号"].split("／") if n}, key=lambda x: int(x) if x.isdigit() else 9999))
     cand_txt = "／".join(f"{maker_label(r)}（{r['採用']}）" for r in rs)
