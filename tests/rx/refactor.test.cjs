@@ -78,7 +78,7 @@ test("lib/types.ts は読み取りのスキーマ（PerTiming・RxItem・RxReadR
   }
 });
 
-test("route.ts：変わったのは呼び出しの移動と規格の後処理（fillStrengthFromName）だけ（入口の確かめ・上限・応答・ログは main と同じ）", { skip: !mainRef && "main が無い" }, () => {
+test("route.ts：変わったのは呼び出しの移動と後処理（fillStrengthFromName・fixUsageAll）だけ（入口の確かめ・上限・応答・ログは main と同じ）", { skip: !mainRef && "main が無い" }, () => {
   const old = mainFile("app/api/read-rx/route.ts").stdout;
   const keep = [
     "const MAX_IMAGES = 4;",
@@ -96,19 +96,20 @@ test("route.ts：変わったのは呼び出しの移動と規格の後処理（
     assert.ok(old.includes(k), `main にあるはず: ${k}`);
     assert.ok(route.includes(k), `route.ts から消えた: ${k}`);
   }
-  // main との違い（追加・削除の行）は、呼び出しの lib/readRx.ts への移動と、規格の後処理（lib/rxFix.ts の fillStrengthFromName）だけ
+  // main との違い（追加・削除の行）は、呼び出しの lib/readRx.ts への移動と、後処理（lib/rxFix.ts の fillStrengthFromName・fixUsageAll）だけ
   const d = git("diff", "-U0", mainRef, "--", "app/api/read-rx/route.ts").stdout.split("\n").filter((l) => /^[+-]/.test(l) && !/^(\+\+\+|---) /.test(l));
   const added = d.filter((l) => l.startsWith("+")).map((l) => l.slice(1).trim());
   assert.deepEqual(added, [
     'import { getClient, takeDailyBudget } from "@/lib/claude";',
     'import { readRx, type RxImage } from "@/lib/readRx";',
-    'import { fillStrengthFromName } from "@/lib/rxFix";',
+    'import { fillStrengthFromName, fixUsageAll } from "@/lib/rxFix";',
     "type Body = { images?: RxImage[] };",
     "const response = await readRx(client, images);",
     "const parsed = response.parsed_output;",
     'if (!parsed) return NextResponse.json({ error: "読み取り結果を解釈できませんでした" }, { status: 502 });',
     "// 規格の欄が空で、薬品名に規格が書いてあれば名前から入れる（決まった手順。lib/rxFix.ts）",
-    "const { result } = fillStrengthFromName(parsed);",
+    "// 寝る前は夕に入れない、「a-b-c-d-e-f で投与」は並びから計算し直す（決まった手順。lib/rxFix.ts）",
+    "const { result } = fixUsageAll(fillStrengthFromName(parsed).result);",
   ]);
   const removed = d.filter((l) => l.startsWith("-")).map((l) => l.slice(1).trim());
   // 消した行は、移した呼び出し・import・型と、result の 2 行だけ
