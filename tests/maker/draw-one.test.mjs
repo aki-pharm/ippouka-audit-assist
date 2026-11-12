@@ -154,10 +154,44 @@ const shape = (bags) => bags.map((b) => ({
   timing: b.timing, total: b.total, groups: b.groups,
   entries: b.entries.map((e) => ({ key: e.row.key, tablet: strip(e.tablet), count: e.count, group: e.group})),
 }));
+// 見分け注意の札（袋の groups・薬の group）は、AKI の UX 見直し（dc0b077）で決まりそのものを変えた（lib/lookalike.ts）。
+// main との比べからは外し、札は新しい決まりで別に確かめる（lookAlikeMarksOk）
+const shapeNoMarks = (bags) => shape(bags).map(({ groups, ...b }) => ({ ...b, entries: b.entries.map(({ group, ...e }) => e) }));
 
-test("互換. resolve を渡さない buildBags・toRows の結果が origin/main の lib/packing.ts と同じ（新しい 3 欄を除く。照合の札 match_status・match_note は足してよい）", { skip: !MAIN_ROOT && "origin/main を取り出せない" }, async (t) => {
+const lookalike = await imp("lib/lookalike.ts");
+/**
+ * 袋ごとに、見分け注意の札が lib/lookalike.ts の lookAlike（既定の数値）だけから作れるかを、こちらで組み直して比べる。
+ * 対象は形と色が分かっている錠剤（カプセル・形が無いもの・色が未確認のものは対象外）。似ている同士をつないだ塊が 1 組（2 錠以上）
+ */
+function lookAlikeMarksOk(bags, name) {
+  let pairs = 0, flagged = 0;
+  for (const bag of bags) {
+    const ts = [...new Map(bag.entries.map((e) => e.tablet)
+      .filter((t) => t && t.dosage_form === "tablet" && t.shape && t.color !== "未確認").map((t) => [t.id, t])).values()];
+    const parent = new Map(ts.map((t) => [t.id, t.id]));
+    const find = (x) => (parent.get(x) === x ? x : find(parent.get(x)));
+    for (let i = 0; i < ts.length; i++) for (let j = i + 1; j < ts.length; j++) {
+      pairs++;
+      if (lookalike.lookAlike(ts[i], ts[j]).similar) { flagged++; parent.set(find(ts[i].id), find(ts[j].id)); }
+    }
+    const comp = new Map();
+    for (const t of ts) comp.set(find(t.id), [...(comp.get(find(t.id)) ?? []), t.id]);
+    const want = [...comp.values()].filter((c) => c.length >= 2).map((c) => [...c].sort().join(",")).sort();
+    const got = bag.groups.map((g) => [...g.tablet_ids].sort().join(",")).sort();
+    assert.deepEqual(got, want, `${name} ${bag.timing}: 見分け注意の組が lookAlike から組み直したものと違う`);
+    // 札の文字は組ごとに違い、薬の group は自分の錠剤が入っている組の札（入っていなければ null）
+    assert.equal(new Set(bag.groups.map((g) => g.label)).size, bag.groups.length, `${name} ${bag.timing}: 札の文字が重なる`);
+    for (const e of bag.entries) {
+      const g = bag.groups.find((g) => e.tablet && g.tablet_ids.includes(e.tablet.id));
+      assert.equal(e.group, g ? g.label : null, `${name} ${bag.timing} ${e.row.key}: 薬の札が組と合わない`);
+    }
+  }
+  return { pairs, flagged };
+}
+
+test("互換. resolve を渡さない buildBags・toRows の結果が origin/main の lib/packing.ts と同じ（新しい 3 欄を除く。照合の札 match_status・match_note は足してよい。見分け注意の札は新しい決まりで別に確かめる）", { skip: !MAIN_ROOT && "origin/main を取り出せない" }, async (t) => {
   const old = await impMain("lib/packing.ts");
-  let n = 0;
+  let n = 0, pairs = 0, flagged = 0;
   for (const { name, rx } of SAMPLES) {
     const rowsNew = toRows(rx), rowsOld = old.toRows(rx);
     // feature/matching-rules で足した欄：照合の札（採用品／採用外（市販品あり）／該当なし）と一言。中身だけ確かめて、比べるときは除く
@@ -170,10 +204,12 @@ test("互換. resolve を渡さない buildBags・toRows の結果が origin/mai
     // 選んだ薬（tablet_id）・候補・一包化に入れるか（include・初期値・根拠）を含め、ほかの欄はすべて main と同じ
     assert.deepEqual(withoutMatch(rowsNew), rowsOld, `${name} toRows`);
     const a = buildBags(rowsNew), b = old.buildBags(rowsOld);
-    assert.deepEqual(shape(a), shape(b), `${name} buildBags`);
+    assert.deepEqual(shapeNoMarks(a), shapeNoMarks(b), `${name} buildBags`);
+    const m = lookAlikeMarksOk(a, name);
+    pairs += m.pairs; flagged += m.flagged;
     for (const bag of a) for (const e of bag.entries) { assert.equal(e.pending, false); n++; }
   }
-  t.diagnostic(`比べた袋の中の薬 ${n} 件（すべて pending=false）`);
+  t.diagnostic(`比べた袋の中の薬 ${n} 件（すべて pending=false）。同じ袋の錠剤の組 ${pairs} 組のうち見分け注意 ${flagged} 組（lookAlike と一致）`);
 });
 
 test("互換. 既定の resolve と、選択なしの Flow の resolve は同じ袋を作る（28 品目はすべて確定）", () => {
