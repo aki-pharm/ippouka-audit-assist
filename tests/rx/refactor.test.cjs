@@ -41,18 +41,19 @@ test("readRx を偽の client で呼ぶと、main の route.ts と同じ引数�
   assert.equal(o.newCall.messages[0].content.length, 2 * 2 + 1);
 });
 
-// AKI が 11/11 に決めたもの：既定モデルを Sonnet 5.5 に、プロンプトに 2 行（放出の補足は name_note へ、配合錠の記号は strength へ）
+// AKI が 11/11 に決めたもの：既定モデルを Sonnet 5.5 に、プロンプトに 3 行（規格は数値と単位が既定、配合錠の記号は数値が無いときだけ、徐放錠の補足は name_note へ。8512e9a で 2 行を言い直した）
 const PROMPT_ADDED = [
-  "- 「（24時間持続）」「（12時間持続）」のような放出の補足も name_note に入れ、薬品名には含めない（name_note には括弧を除いた「24時間持続」を入れる）。",
-  "- 配合錠の規格は、薬品名に印字された記号（LD・HD・ULD・EX・A81・1番 など）をそのまま strength に入れる。記号が無ければ null。",
+  "- 規格は通常どおり数値と単位（例：5mg、0.25mg、500μg）を strength に入れ、薬品名にも処方箋の表記どおり残す。",
+  "- 配合錠で数値の規格が無いときに限り、印字された記号（LD・HD・ULD・EX・A81・1番 など）を strength に入れる（薬品名にも残す）。記号も無ければ null。",
+  "- 徐放錠の「（24時間持続）」「（12時間持続）」のような補足は name_note に入れ、薬品名には含めない（name_note には括弧を除いた「24時間持続」を入れる）。",
 ];
 const diffLines = (f) => git("diff", "-U0", mainRef, "--", f).stdout.split("\n").filter((l) => /^[+-]/.test(l) && !/^(\+\+\+|---) /.test(l));
 
-test("プロンプト：main との違いは AKI が決めた 2 行の追加だけ（消した行・変えた行なし、追加の場所は name_note の行の直後）", { skip: !mainRef && "main が無い" }, () => {
+test("プロンプト：main との違いは AKI が決めた 3 行の追加だけ（消した行・変えた行なし、追加の場所は name_note の行の直後）", { skip: !mainRef && "main が無い" }, () => {
   assert.deepEqual(diffLines("lib/prompts.ts"), PROMPT_ADDED.map((l) => `+${l}`));
   const now = fs.readFileSync(path.join(ROOT, "lib/prompts.ts"), "utf8").split("\n");
   const i = now.findIndex((l) => l.includes("は name_note に分ける。"));
-  assert.deepEqual(now.slice(i + 1, i + 3), PROMPT_ADDED);
+  assert.deepEqual(now.slice(i + 1, i + 1 + PROMPT_ADDED.length), PROMPT_ADDED);
 });
 
 test("既定モデル：claude-sonnet-5-5（AKI 11/11）。lib/claude.ts の main との違いはモデルの行とその説明の 1 行だけ。画像の縮小（lib/image.ts）は main と同じ", { skip: !mainRef && "main が無い" }, () => {
@@ -77,7 +78,7 @@ test("lib/types.ts は読み取りのスキーマ（PerTiming・RxItem・RxReadR
   }
 });
 
-test("route.ts：変わったのは呼び出しの移動だけ（入口の確かめ・上限・応答・ログは main と同じ）", { skip: !mainRef && "main が無い" }, () => {
+test("route.ts：変わったのは呼び出しの移動と規格の後処理（fillStrengthFromName）だけ（入口の確かめ・上限・応答・ログは main と同じ）", { skip: !mainRef && "main が無い" }, () => {
   const old = mainFile("app/api/read-rx/route.ts").stdout;
   const keep = [
     "const MAX_IMAGES = 4;",
@@ -88,7 +89,6 @@ test("route.ts：変わったのは呼び出しの移動だけ（入口の確か
     'img.mediaType !== "image/jpeg" && img.mediaType !== "image/png"',
     "const budget = takeDailyBudget();",
     'response.stop_reason === "refusal"',
-    "const result = response.parsed_output;",
     "usage: { input: response.usage.input_tokens, output: response.usage.output_tokens }",
     'console.error("read-rx failed:", msg.slice(0, 200));',
   ];
@@ -96,6 +96,25 @@ test("route.ts：変わったのは呼び出しの移動だけ（入口の確か
     assert.ok(old.includes(k), `main にあるはず: ${k}`);
     assert.ok(route.includes(k), `route.ts から消えた: ${k}`);
   }
+  // main との違い（追加・削除の行）は、呼び出しの lib/readRx.ts への移動と、規格の後処理（lib/rxFix.ts の fillStrengthFromName）だけ
+  const d = git("diff", "-U0", mainRef, "--", "app/api/read-rx/route.ts").stdout.split("\n").filter((l) => /^[+-]/.test(l) && !/^(\+\+\+|---) /.test(l));
+  const added = d.filter((l) => l.startsWith("+")).map((l) => l.slice(1).trim());
+  assert.deepEqual(added, [
+    'import { getClient, takeDailyBudget } from "@/lib/claude";',
+    'import { readRx, type RxImage } from "@/lib/readRx";',
+    'import { fillStrengthFromName } from "@/lib/rxFix";',
+    "type Body = { images?: RxImage[] };",
+    "const response = await readRx(client, images);",
+    "const parsed = response.parsed_output;",
+    'if (!parsed) return NextResponse.json({ error: "読み取り結果を解釈できませんでした" }, { status: 502 });',
+    "// 規格の欄が空で、薬品名に規格が書いてあれば名前から入れる（決まった手順。lib/rxFix.ts）",
+    "const { result } = fillStrengthFromName(parsed);",
+  ]);
+  const removed = d.filter((l) => l.startsWith("-")).map((l) => l.slice(1).trim());
+  // 消した行は、移した呼び出し・import・型と、result の 2 行だけ
+  assert.ok(removed.includes("const result = response.parsed_output;"));
+  assert.ok(removed.includes("const response = await client.messages.parse({"));
+  assert.ok(removed.every((l) => !/console|takeDailyBudget\(\)|MAX_|status: 4/.test(l)), removed.join("\n"));
   // 確かめの順番も同じ（上限の前に budget を取らない）
   assert.ok(route.indexOf("takeDailyBudget()") > route.indexOf("img.mediaType !=="));
   assert.ok(route.indexOf("await readRx(client, images)") > route.indexOf("takeDailyBudget()"));
