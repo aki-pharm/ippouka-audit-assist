@@ -75,7 +75,7 @@ function compareBag(where, tabs) {
   const res = { lost: [], gained: [] };
   const byId = new Map(tabs.map((t) => [t.id, t]));
   const show = (k) => { const [x, y] = k.split("\0"); const A = byId.get(x), B = byId.get(y); const f = feat(A, B);
-    return { where, a: x, b: y, a_look: `${A.shape} ${A.color} ${A.size_long_mm ?? "?"}×${A.size_short_mm ?? "?"}×${A.thickness_mm ?? "?"}mm`, b_look: `${B.shape} ${B.color} ${B.size_long_mm ?? "?"}×${B.size_short_mm ?? "?"}×${B.thickness_mm ?? "?"}mm`,
+    return { where, a: x, b: y, a_name: A.brand_name, b_name: B.brand_name, speckled: [A, B].map((t) => /斑点|まだら|斑/.test(t.color ?? "")), a_look: `${A.shape} ${A.color} ${A.size_long_mm ?? "?"}×${A.size_short_mm ?? "?"}×${A.thickness_mm ?? "?"}mm`, b_look: `${B.shape} ${B.color} ${B.size_long_mm ?? "?"}×${B.size_short_mm ?? "?"}×${B.thickness_mm ?? "?"}mm`,
       dE: f.dE == null ? null : Math.round(f.dE * 10) / 10, long: f.long, short: f.short, thick: f.thick, why: la.lookAlike(A, B).why, similarNow: la.lookAlike(A, B).similar,
       // main で 2 錠が直接似ていたか（false なら、ほかの錠を介した鎖で同じ組になっていただけ）
       oldDirect: A.shape === B.shape && oldKey(A.color) === oldKey(B.color) && (A.size_long_mm == null || B.size_long_mm == null || Math.abs(A.size_long_mm - B.size_long_mm) <= 1.0) }; };

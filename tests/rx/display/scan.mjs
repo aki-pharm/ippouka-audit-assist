@@ -25,11 +25,6 @@ for (const p of pm) for (const side of ["imprint_front", "imprint_back"]) {
   out.sides++;
   const k = d.imprintKind(p[side], p);
   out.kinds[k] = (out.kinds[k] ?? 0) + 1;
-  // 記号と判定した刻印は、一覧の 1 行（imprintSummary）に必ず出る（裏は表と同じ文字なら出さなくてよい）
-  if (k === "code") {
-    const sum = n(d.imprintSummary(p)).replace(/\s/g, ""), t = n(p[side]).replace(/\s/g, "");
-    if (!sum.includes(t)) (out.codeNotShown ??= []).push({ product: p.product_key, side, imprint: p[side], summary: d.imprintSummary(p) });
-  }
   if (k !== "name") continue;
   nameSides.push({ p, side });
   const e = extras(p[side], p);
@@ -72,7 +67,125 @@ out.cases = Object.fromEntries([
   ["別の成分（アムロジピンにニフェジピン）", "ニフェジピン 10", P("アムロジピン錠5mg「トーワ」", "東和薬品株式会社")],
   ["名前＋記号（記号が隠れる）", "アムロジピン TW 5", P("アムロジピン錠5mg「トーワ」", "東和薬品株式会社")],
   ["名前＋規格と違う数字", "アムロジピン 10 トーワ", P("アムロジピン錠5mg「トーワ」", "東和薬品株式会社")],
+  ["自社名＋記号だけ（JG C31）", "JG C31", P("アムロジピン錠5mg「JG」", "日本ジェネリック株式会社")],
+  ["自社名＋数字だけ（YD 550）", "YD 550", P("アムロジピン錠5mg「YD」", "株式会社陽進堂")],
+  ["英字だけ（OD）", "OD 5", P("アムロジピンOD錠5mg「トーワ」", "東和薬品株式会社")],
+  ["行で分けた名前（カンデ8 サルタン）", "カンデ8 サルタン", P("カンデサルタン錠8mg「トーワ」", "東和薬品株式会社")],
+  ["後ろ半分が別の薬（ロサルタンの錠に「カンデ サルタン」）", "カンデ サルタン 50", P("ロサルタンカリウム錠50mg「トーワ」", "東和薬品株式会社")],
+  ["区切りの「/」", "ゾルピデム 10 / ゾルピデム 10KMP", P("ゾルピデム酒石酸塩錠10mg「KMP」", "共創未来ファーマ株式会社")],
+  ["名前＋記号（SW）", "SW オランザピン 10", P("オランザピン錠10mg「サワイ」", "沢井製薬株式会社")],
 ].map(([k, imp, p]) => [k, { imprint: imp, kind: d.imprintKind(imp, p), summary: d.imprintSummary({ ...p, imprint_front: imp, imprint_back: "なし" }) }]));
+
+// ---------- d051ce2 の語ごとの見せ方を、品質の別の読み方で確かめる ----------
+// 品質の「自身の名前」：語（空白区切り）を頭から、規格の数字（単位つきも）・販売名の英字・自社の「」の名前・
+// 販売名（「」と（）を除く）の中の、かな・漢字を含む 3 文字以上の連続した部分・区切りの記号、で全部説明できる語。
+// アプリ（頭からの一致・後ろ半分）より緩い（どこの部分でもよい）ので、品質の読みで「自身の名前でない」語は、アプリでも名前ではないはず
+const SEP = /^[\/・\-－ー.,、。:：]+$/;
+function ownOf(p) {
+  const brand = n(p.brand_name);
+  const nums = new Set([...(brand.match(/\d+(?:\.\d+)?/g) ?? []), ...(n(p.strength).match(/\d+(?:\.\d+)?/g) ?? [])]);
+  const tag = ((brand.match(/「([^」]+)」/) ?? [])[1] ?? "").replace(/\s/g, "").toUpperCase();
+  const plain = brand.replace(/「[^」]*」/g, "").replace(/\([^)]*\)/g, "").replace(/\s/g, "").toUpperCase();
+  const latin = new Set(plain.replace(/\d+(?:\.\d+)?(MG|ΜG|G)/g, " ").match(/[A-Z]+/g) ?? []);
+  return { nums, tag, plain, latin };
+}
+function qaOwn(token, o) {
+  const t = n(token).toUpperCase();
+  if (SEP.test(t)) return { own: true, ja: false, sep: true };
+  const reach = Array(t.length + 1).fill(false), ja = Array(t.length + 1).fill(false);
+  reach[0] = true;
+  for (let i = 0; i < t.length; i++) {
+    if (!reach[i]) continue;
+    const rest = t.slice(i), go = (len, isJa) => { reach[i + len] = true; if (isJa || ja[i]) ja[i + len] = true; };
+    const m = rest.match(/^\d+(?:\.\d+)?/);
+    if (m && o.nums.has(m[0])) { go(m[0].length, false); const u = rest.slice(m[0].length).match(/^(MG|ΜG|G|番|号)/); if (u) go(m[0].length + u[0].length, false); }
+    const l = rest.match(/^[A-Z]+/);
+    if (l && o.latin.has(l[0])) go(l[0].length, false);
+    if (o.tag && rest.startsWith(o.tag)) go(o.tag.length, false);
+    for (let k = Math.min(rest.length, o.plain.length); k >= 1; k--) {
+      const sub = rest.slice(0, k);
+      if (/[ぁ-ゖァ-ヺ一-鿿々]/.test(sub) && (k >= 3 || sub === o.plain) && o.plain.includes(sub)) go(k, true);
+    }
+  }
+  return { own: reach[t.length], ja: ja[t.length], sep: false };
+}
+/** 1 面ずつ：出した文字（imprintDisplay の front・back）から、落とした語を数える */
+const tok = { sides: 0, droppedTokens: 0, droppedNotOwn: [], droppedNoJa: {}, droppedSep: 0, sepExamples: [], wholeNoName: 0, wholeNoNameBad: [], aloneLatin: [], suffix: [] };
+function checkSide(p, imprint, shown, where) {
+  const words = (imprint ?? "").trim().split(/[\s　]+/).filter(Boolean);
+  if (!words.length || imprint === "未確認" || imprint === "なし") return;
+  const o = ownOf(p);
+  const shownText = shown == null ? "" : n(shown);
+  // 出した文字の語（「（名前印字）」を除く）を、元の語と順に照らす
+  const shownWords = shownText.replace(/[（(]名前印字[）)]$/, "").split(/\s+/).filter(Boolean);
+  const dropped = [];
+  let j = 0;
+  for (const w of words) { if (j < shownWords.length && shownWords[j] === n(w)) j++; else dropped.push(w); }
+  if (j !== shownWords.length) (out.tokens.mismatch ??= []).push({ product: p.product_key, where, imprint, shown });
+  tok.droppedTokens += dropped.length;
+  for (const w of dropped) {
+    const q = qaOwn(w, o);
+    if (q.sep) { tok.droppedSep++; if (tok.sepExamples.length < 8) tok.sepExamples.push({ product: p.product_key, imprint, shown }); continue; }
+    if (!q.own) tok.droppedNotOwn.push({ product: p.product_key, where, imprint, token: w, shown });
+    else if (!/[ぁ-ゖァ-ヺ一-鿿々]/.test(n(w))) tok.droppedNoJa[n(w)] = (tok.droppedNoJa[n(w)] ?? 0) + 1;
+  }
+  // 成分名・販売名の語が 1 つも無い刻印（「JG C31」「YD 550」「5」）は全部出す
+  const anyJaOwn = words.some((w) => { const q = qaOwn(w, o); return q.own && q.ja; });
+  if (!anyJaOwn) { tok.wholeNoName++; if (dropped.length) tok.wholeNoNameBad.push({ product: p.product_key, where, imprint, shown }); }
+  // 販売名の英字だけの刻印（OD・LD・TRE など）は名前印字にしない
+  if (words.every((w) => /^[A-Za-z]+$/.test(n(w)) || /^\d+(?:\.\d+)?$/.test(n(w))) && shown == null) tok.aloneLatin.push({ product: p.product_key, where, imprint });
+  // 後ろ半分の名前（「カンデ8 サルタン」の「サルタン」）で落とした語：販売名の頭からではない部分
+  for (const w of dropped) {
+    const runs = n(w).toUpperCase().match(/[ぁ-ゖァ-ヺー一-鿿々]+/g) ?? [];
+    if (runs.some((r) => !o.plain.startsWith(r) && r !== o.tag && o.plain.includes(r))) tok.suffix.push({ product: p.product_key, imprint, token: w, shown });
+  }
+}
+out.tokens = tok;
+for (const p of pm) {
+  const disp = d.imprintDisplay(p);
+  tok.sides++;
+  checkSide(p, p.imprint_front, disp.nameTag ? null : disp.front, "表");
+  const same = n(p.imprint_front).replace(/\s/g, "") === n(p.imprint_back).replace(/\s/g, "");
+  if (!same) { tok.sides++; checkSide(p, p.imprint_back, disp.back, "裏"); }
+}
+// 他社の印字を当てたとき、落とす語が品質の読みで自身の名前か
+const foreign = { tried: 0, droppedNotOwn: [] };
+for (const p of pm) for (const x of byGroup.get(p.group) ?? []) {
+  if (x.p.product_key === p.product_key || makerTag(x.p) === makerTag(p)) continue;
+  const imp = x.p[x.side];
+  foreign.tried++;
+  const q = { ...p, imprint_front: imp, imprint_back: "なし" };
+  const disp = d.imprintDisplay(q);
+  const shown = disp.nameTag ? "" : n(disp.front ?? "").replace(/[（(]名前印字[）)]$/, "");
+  const sw = shown.split(/\s+/).filter(Boolean);
+  let j = 0;
+  for (const w of imp.trim().split(/[\s　]+/).filter(Boolean)) {
+    if (j < sw.length && sw[j] === n(w)) { j++; continue; }
+    if (!qaOwn(w, ownOf(p)).own) foreign.droppedNotOwn.push({ product: p.product_key, foreignImprint: imp, from: x.p.product_key, token: w, shown: disp.nameTag ? "名前印字" : disp.front });
+  }
+}
+out.tokens.foreign = { tried: foreign.tried, droppedNotOwnCount: foreign.droppedNotOwn.length, droppedNotOwn: foreign.droppedNotOwn.slice(0, 50) };
+// 別の成分で名前の後ろ 3 文字が同じ製品（〜サルタン・〜プラゾール・〜スタチンなど）の名前印字を当てる（後ろ半分の決まりで他の薬の語が落ちないか）
+const tail = (p) => { const b = cardName0(p.brand_name); return b.length >= 4 ? b.slice(-3) : null; };
+function cardName0(brand) { return d.cardName(brand).base.normalize("NFKC").replace(/\s/g, "").toUpperCase(); }
+const byTail = new Map();
+for (const x of nameSides) { const k = tail(x.p); if (k) byTail.set(k, [...(byTail.get(k) ?? []), x]); }
+const other = { tried: 0, droppedNotOwn: [] };
+for (const p of pm) for (const x of byTail.get(tail(p)) ?? []) {
+  if (x.p.group === p.group) continue;
+  const imp = x.p[x.side];
+  other.tried++;
+  const disp = d.imprintDisplay({ ...p, imprint_front: imp, imprint_back: "なし" });
+  const shown = disp.nameTag ? "" : n(disp.front ?? "").replace(/[（(]名前印字[）)]$/, "");
+  const sw = shown.split(/\s+/).filter(Boolean);
+  let j = 0;
+  for (const w of imp.trim().split(/[\s　]+/).filter(Boolean)) {
+    if (j < sw.length && sw[j] === n(w)) { j++; continue; }
+    if (!qaOwn(w, ownOf(p)).own || disp.nameTag) other.droppedNotOwn.push({ product: p.product_key, foreignImprint: imp, from: x.p.product_key, token: w, shown: disp.nameTag ? "名前印字" : disp.front });
+  }
+}
+out.tokens.otherDrug = { tried: other.tried, droppedNotOwnCount: other.droppedNotOwn.length, droppedNotOwn: other.droppedNotOwn.slice(0, 60) };
+out.tokens.droppedNotOwnCount = tok.droppedNotOwn.length;
 
 out.nameWithExtraCount = out.nameWithExtra.length;
 out.nameWithExtraProducts = new Set(out.nameWithExtra.map((x) => x.product)).size;

@@ -29,19 +29,19 @@ test("今の数値は、拾いたい組をすべて拾い、拾わなくてよ�
   t.diagnostic(`同じ色の組の ΔE 最大 ${Math.max(...o.colorSame.map((x) => x.dE))}、違う色の組の最小 ${Math.min(...o.colorDifferent.map((x) => x.dE))}（数値 ${o.params.maxColorDelta}）`);
 });
 
-test("数値の余裕：長径・厚さを 0.1mm 締めると拾いたい組が外れる（数値が組の差にちょうど乗っている）。短径・ΔE は ±1 段で組の結果が変わらない", { skip }, (t) => {
+test("数値の余裕：拾いたい組すべてで、長径・厚さ・ΔE の数値までの余裕が 0.1mm（ΔE は 1）以上。1 段締めても緩めても、組の結果は変わらない", { skip }, (t) => {
   const o = run();
-  const v = Object.fromEntries(o.variants.map((x) => [x.name, x]));
   t.diagnostic(`親マスタの錠剤 ${o.population.tablets}、すべての 2 錠の組 ${o.population.pairs}：見分け注意の割合 今 ${pct(o.population.rate)}（main の決まり ${pct(o.population.oldRate)}）`);
-  for (const x of o.variants) t.diagnostic(`${x.name}：割合 ${pct(x.rate)}、外れる拾いたい組 ${x.positivesLost.length}${x.positivesLost.length ? `（${x.positivesLost.join("、")}）` : ""}、拾う拾わなくてよい組 ${x.negativesHit.length}`);
-  // 事実を固定する（数値や組が変われば、ここを見直す）
-  assert.equal(v["maxLongDiff-0.1"].positivesLost.length, 2);
-  assert.equal(v["maxThickDiff-0.1"].positivesLost.length, 1);
-  for (const k of ["maxShortDiff-0.1", "maxShortDiff+0.1", "maxColorDelta-1", "maxColorDelta+1", "maxLongDiff+0.1", "maxThickDiff+0.1"]) {
-    assert.equal(v[k].positivesLost.length, 0, k);
-    assert.equal(v[k].negativesHit.length, 0, k);
+  for (const x of o.variants) t.diagnostic(`${x.name}：割合 ${pct(x.rate)}、外れる拾いたい組 ${x.positivesLost.length}、拾う拾わなくてよい組 ${x.negativesHit.length}`);
+  for (const x of o.positives) {
+    for (const k of ["long", "thick"]) if (x.margin[k] != null) assert.ok(x.margin[k] >= 0.1 - 1e-9, `${x.a}／${x.b}：${k} の余裕 ${x.margin[k]}mm`);
+    if (x.margin.dE != null) assert.ok(x.margin.dE >= 1, `${x.a}／${x.b}：ΔE の余裕 ${x.margin.dE}`);
   }
-  // 短径は拾いたい組がすべて丸い錠なので、組からは決まっていない
+  for (const v of o.variants) {
+    assert.equal(v.positivesLost.length, 0, `${v.name}：${v.positivesLost.join("、")}`);
+    assert.equal(v.negativesHit.length, 0, `${v.name}：${v.negativesHit.join("、")}`);
+  }
+  // 短径は拾いたい組がすべて丸い錠なので、組からは決まっていない（AKI が楕円の組を足すまで）
   assert.ok(o.positives.every((x) => x.short == null));
 });
 
@@ -59,4 +59,14 @@ test("見本と rx-testset の同じ袋：main で見分け注意だったが外
   // AKI が「しなくてよい」とした rx-c 夕の 3 組は外れている
   const lost = new Set(o.bags.lostUnique.map((x) => [x.a, x.b].sort().join("/")));
   for (const k of [["darbroc-4", "rivotril-0.5"], ["darbroc-4", "doxazosin-1-towa"], ["doxazosin-1-towa", "rivotril-0.5"]]) assert.ok(lost.has(k.sort().join("/")), k.join("/"));
+});
+
+test("reports/lookalike-lost.md（AKI の判断用の一覧）が今の決まりの結果と同じ", { skip }, () => {
+  const o = run();
+  const r = spawnSync(process.execPath, [path.join(__dirname, "lookalike/lost-list.mjs")], { input: JSON.stringify(o), encoding: "utf8" });
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const file = require("node:fs").readFileSync(path.join(ROOT, "reports/lookalike-lost.md"), "utf8");
+  assert.equal(file, r.stdout, "一覧が古い。作り方は reports/lookalike-lost.md の末尾");
+  assert.equal(o.bags.lostUnique.length, 32);
+  assert.equal(o.bags.gainedUnique.length, 3);
 });
