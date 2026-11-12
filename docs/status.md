@@ -62,6 +62,19 @@
 
 ## 報告（新しいものを上に）
 
+### 2026-11-12 作業：品質 15da6b7 の 2 点（別の薬を選ぶときの札と記録・手で選ぶ判断を lib に。ブランチ `feature/matching-rules`）
+- 新しく `lib/pick.ts`（React に依存しない純粋な関数）。`lib/matching.ts` からも呼べる（再エクスポート）
+  - `needsOverrideRecord(kind)`：理由と変更者が要るか。auto だけ要らない（candidate・ruleOut・discontinued・other は要る）
+  - `overrideRule(ex)`：記録の札。other は「別の薬に直した」、ほかは札の理由
+  - `pickRowState(product, ex)`：手で選んだ後の `{ match_note, match_status }`。状態は製品の実際の採用の状態（採用中止・以前の採用は「採用品」にしない）。外したときは一言だけ消す
+- `explainCandidate` の other の札：「別の薬（読み取りの直し）」。画面の「別の薬から探す」でも札を出し、理由と変更者を入れて記録する
+- 画面は判断を持たない：`pickLabelled` は needsOverrideRecord、記録は overrideRule、Flow の updateRow は pickRowState を呼ぶだけ
+- 不具合の直し：採用中止の製品を手で選ぶと状態が「採用品」になっていた → 「採用中止」（メーカー切替は「以前の採用」）。行に札を出し、checkRow で「採用中止の製品を選んでいます」の黄色
+- `RxRow.match_status` に「採用中止」「以前の採用」を足した
+- テスト：npm test 189（成功 184・失敗 0・todo 5）、test:rx 184（179・0・5）、test:maker 54（54・0・0）
+- 今は通る品質の todo（印を外すのは品質）：usage.test.cjs「【不具合】「別の薬から探す」で同じ薬でない製品（kind=other）を選ぶと、札も記録も無い」、「【不具合】どの札なら理由と変更者が要るか…React の中にあり、外で試せない」。ほかに前から通る「配合錠の記号に小数が入ると切れる」も todo のまま
+- 品質の走査は全部 0 のまま：scan（--agree も）・general-sweep・final-sweep A／B・indication 系列違い 0・yj9-scan の OD 以外 0。`git ls-files data/private` は 0
+
 ### 2026-11-12 作業：品質 44450a7 の 4 点（寝る前の語・1 回量が分からないとき・別の薬から探すの札と記録・採用品の一覧の札。ブランチ `feature/matching-rules`）
 - 寝る前の語（`lib/rxFix.ts`）：就寝前・就寝時・就眠前・就眠時・眠前・寝る前・ねる前・ねるまえ・寝前（parseDoseTimes と fixUsage の両方）。「1回2錠 1日1回 ねる前」で AI が夕 2 → 夕 0・袋に入れない・黄色。HS・睡眠時は入れていない（用法の文で見たことが無く、取り違えのおそれ）
 - 1 回量が分からない（欄にも「1回○錠」にも無い）「夕食後・就寝前」「起床時・朝食後」（並びなし）：夕（朝）を袋に入れず、黄色「1回量が分からないため要確認」

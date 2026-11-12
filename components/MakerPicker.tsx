@@ -13,6 +13,7 @@ import {
 import type { Tablet } from "@/lib/types";
 import { previousAdopted } from "@/lib/master";
 import { buildRuleOverrideRecord, type RuleOverrideRecord } from "@/lib/matching";
+import { needsOverrideRecord, overrideRule } from "@/lib/pick";
 
 /** 一覧の札（lib/matching.ts の explainCandidate の結果） */
 export type Explained = { kind: "auto" | "candidate" | "ruleOut" | "discontinued" | "other"; reason: string | null };
@@ -114,7 +115,8 @@ export function DrugPicker({
   }
   /** 札（ルール外・採用中止・候補にとどめた理由）のある製品は、理由と変更者を入れてから選ぶ */
   function pickLabelled(t: Tablet, ex: Explained) {
-    if (ex.kind === "auto" || ex.kind === "other") return selectTablet(t.id);
+    // 理由と変更者が要るかは lib/pick.ts の needsOverrideRecord が決める（自動で選ばれる製品のほかは、別の薬も含めて要る）
+    if (!needsOverrideRecord(ex.kind)) return selectTablet(t.id);
     setPending({ t, ex });
     setReason("");
     setOverrideError(null);
@@ -122,7 +124,7 @@ export function DrugPicker({
   function confirmLabelled() {
     if (!pending) return;
     try {
-      const rec = buildRuleOverrideRecord({ name_as_written: rxName, product: pending.t, rule: pending.ex.reason ?? pending.ex.kind, reason, changed_by: changedBy });
+      const rec = buildRuleOverrideRecord({ name_as_written: rxName, product: pending.t, rule: overrideRule(pending.ex), reason, changed_by: changedBy });
       onOverrideRecord(rec);
       setPending(null);
       selectTablet(pending.t.id);
@@ -276,7 +278,7 @@ export function DrugPicker({
                 <button type="button" onClick={() => pickLabelled(m, ex)} className="w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-left">
                   <span className="text-sm">{m.brand_name}</span>
                   {m.status !== "verified" && <span className="ml-1 rounded bg-amber-500 px-1 text-white">未確認</span>}
-                  {ex.kind !== "auto" && ex.kind !== "other" && <ReasonTag ex={ex} />}
+                  {ex.kind !== "auto" && <ReasonTag ex={ex} />}
                 </button>
               </li>
             ))}
@@ -291,7 +293,7 @@ export function DrugPicker({
   );
 }
 
-/** 一覧の 1 件の札：候補にとどめる理由（入れ替えない組・事前合意があれば選択可 など）、ルール外の理由、採用中止、置き換え */
+/** 一覧の 1 件の札：候補にとどめる理由（入れ替えない組・事前合意があれば選択可 など）、ルール外の理由、採用中止、置き換え、別の薬（読み取りの直し） */
 function ReasonTag({ ex }: { ex: Explained }) {
   const label = ex.kind === "ruleOut" ? `ルール外：${ex.reason}` : ex.kind === "discontinued" ? ex.reason : ex.kind === "auto" ? ex.reason : ex.reason ?? "候補";
   if (!label) return null;

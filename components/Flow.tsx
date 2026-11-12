@@ -9,6 +9,7 @@ import { BagView } from "./BagView";
 import { InfoCard } from "./InfoCard";
 import { ChangeLog, DrugPicker, OverrideLog, type Explained, type MakerOverride, type MakerScope } from "./MakerPicker";
 import type { RuleOverrideRecord } from "@/lib/matching";
+import { pickRowState } from "@/lib/pick";
 
 type Step = "capture" | "review" | "select" | "bags" | "compare";
 type Img = { base64: string; mediaType: "image/jpeg"; url: string };
@@ -162,10 +163,10 @@ export function Flow() {
       prev.map((r) => {
         if (r.key !== key) return r;
         const next = { ...r, ...patch };
-        // 対応する製品を手で変えたら、前の照合の一言は消す（候補にとどめた理由などが残らないように）
+        // 対応する製品を手で変えたら、一言と状態は lib/pick.ts の pickRowState で決める（採用中止を選べば状態も採用中止）
         if (patch.tablet_id !== undefined && patch.tablet_id !== r.tablet_id) {
-          next.match_note = patch.tablet_id ? "手で選びました" : null;
-          if (patch.tablet_id) next.match_status = "採用品";
+          const t = findTablet(patch.tablet_id);
+          Object.assign(next, pickRowState(t, t ? explainForRow(r.name_as_written, r.strength, r.name_note, t) : null));
         }
         return recompute && rx ? recomputeDefault(next, rx) : next;
       }),
@@ -293,7 +294,7 @@ export function Flow() {
                   />
                   {mismatch && <div className="mt-1 text-xs text-blue-800">{mismatch}</div>}
                   {r.tablet_id && r.match_note && <div className="mt-1 text-xs text-blue-800">{r.match_note}</div>}
-                  {!r.tablet_id && r.match_status && r.match_status !== "採用品" && (
+                  {r.match_status && r.match_status !== "採用品" && (!r.tablet_id || r.match_status === "採用中止" || r.match_status === "以前の採用") && (
                     <div className="mt-1 text-xs"><span className="rounded bg-slate-600 px-1 text-white">{r.match_status}</span></div>
                   )}
                   {drawn.pending && <div className="mt-1 text-xs text-amber-900">・メーカー未確定：今のメーカーを選ぶまで、図にはこの薬を描きません</div>}

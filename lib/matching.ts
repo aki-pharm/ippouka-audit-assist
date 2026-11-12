@@ -21,6 +21,9 @@
  */
 import type { Tablet } from "./types";
 import { brandLetterBase, releaseClass, strengthKey } from "./makers.ts";
+import { OTHER_DRUG_LABEL } from "./pick.ts";
+// 手で選ぶときの判断（どの札なら理由と変更者が要るか・選んだ後の行の状態）は lib/pick.ts。ここからも呼べるようにする
+export { needsOverrideRecord, overrideRule, pickRowState, OTHER_DRUG_LABEL, OTHER_DRUG_RULE } from "./pick.ts";
 
 /** 施設ごとの決まり（data/match-profiles.json） */
 export type MatchProfile = {
@@ -587,7 +590,7 @@ export function explainCandidate<T extends FacilityProduct>(
   if (m.best) return { kind: "auto", reason: m.note };
   if (m.candidates.length) return { kind: "candidate", reason: m.note };
   if (m.ruleOut.length) return { kind: "ruleOut", reason: m.ruleOut[0].rule };
-  return { kind: "other", reason: null };
+  return { kind: "other", reason: OTHER_DRUG_LABEL };
 }
 
 /** 「ルール外を表示（医師確認済み）」で選んだときの記録。理由と変更者が無ければエラー（保存はまだしない） */

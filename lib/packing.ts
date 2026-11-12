@@ -70,6 +70,9 @@ export function checkRow(row: RxRow): CheckFlag[] {
           : { level: "warn", message: "マスタに該当がありません" },
     );
   }
+  // 手で採用中止・以前の採用の製品を選んだ行は、そのことを知らせる（lib/pick.ts の pickRowState が状態を付ける）
+  if (row.tablet_id && (row.match_status === "採用中止" || row.match_status === "以前の採用"))
+    flags.push({ level: "warn", message: `${row.match_status}の製品を選んでいます` });
   if (row.confidence === "low") flags.push({ level: "info", message: "読み取りの確度が低い行です" });
   // 分包方法の突き合わせ：処方箋の「□コ」（手巻き）とマスタの分包方法が食い違えば知らせる（判断は薬剤師）
   const tablet = findTablet(row.tablet_id);
