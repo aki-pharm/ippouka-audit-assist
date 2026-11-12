@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { getClient, takeDailyBudget } from "@/lib/claude";
 import { readRx, type RxImage } from "@/lib/readRx";
+import { fillStrengthFromName } from "@/lib/rxFix";
 
 const MAX_IMAGES = 4;
 const MAX_BASE64_CHARS = 3_000_000; // 約2.2MB/枚
@@ -33,8 +34,10 @@ export async function POST(request: Request) {
     if (response.stop_reason === "refusal") {
       return NextResponse.json({ error: "読み取りが拒否されました。写真に薬剤情報以外が含まれていないか確認してください。" }, { status: 422 });
     }
-    const result = response.parsed_output;
-    if (!result) return NextResponse.json({ error: "読み取り結果を解釈できませんでした" }, { status: 502 });
+    const parsed = response.parsed_output;
+    if (!parsed) return NextResponse.json({ error: "読み取り結果を解釈できませんでした" }, { status: 502 });
+    // 規格の欄が空で、薬品名に規格が書いてあれば名前から入れる（決まった手順。lib/rxFix.ts）
+    const { result } = fillStrengthFromName(parsed);
     // 画像や結果はログに出さない（個人情報対策）
     return NextResponse.json({ result, usage: { input: response.usage.input_tokens, output: response.usage.output_tokens } });
   } catch (e) {
