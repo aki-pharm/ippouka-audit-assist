@@ -7,7 +7,7 @@ import { fileToResizedBase64 } from "@/lib/image";
 import { TIMINGS, TIMING_LABEL, type RxReadResult, type RxRow, type Tablet } from "@/lib/types";
 import { BagView } from "./BagView";
 import { InfoCard } from "./InfoCard";
-import { ChangeLog, MakerPicker, type MakerOverride, type MakerScope } from "./MakerPicker";
+import { ChangeLog, DrugPicker, type MakerOverride, type MakerScope } from "./MakerPicker";
 
 type Step = "capture" | "review" | "select" | "bags" | "compare";
 type Img = { base64: string; mediaType: "image/jpeg"; url: string };
@@ -109,6 +109,13 @@ export function Flow() {
     setRows(toRows(result));
     setOverrides({});
     setStep("review");
+  }
+
+  /** 行の「対応する製品」の一覧に出す施設の採用品：照合の候補と、同じ薬（drug_key）の採用品（採用中止は出さない） */
+  function sameDrugOf(r: RxRow, t: Tablet | undefined): Tablet[] {
+    const ids = new Set([...r.candidates, ...(t ? [t.id] : [])]);
+    const list = master.filter((m) => ids.has(m.id) || (!!t?.drug_key && m.drug_key === t.drug_key && m.adopted));
+    return list.sort((a, b) => Number(b.id === t?.id) - Number(a.id === t?.id));
   }
 
   /** メーカーを選ぶ（null で元に戻す）。「これから」は変更の記録も作る（保存はしない） */
@@ -256,28 +263,15 @@ export function Flow() {
                       </label>
                     ))}
                   </div>
-                  <label className="mt-2 block text-xs text-slate-600">
-                    マスタの対応品
-                    <select
-                      value={r.tablet_id ?? ""}
-                      onChange={(e) => updateRow(r.key, { tablet_id: e.target.value || null }, true)}
-                      className="mt-0.5 w-full rounded border border-slate-300 px-2 py-1 text-base"
-                    >
-                      <option value="">（該当なし・未選択）</option>
-                      {(r.candidates.length ? r.candidates.map((id) => findTablet(id)!).filter(Boolean) : master).map((m) => (
-                        <option key={m.id} value={m.id}>{m.brand_name}</option>
-                      ))}
-                      {r.candidates.length > 0 && <option disabled>──── すべて ────</option>}
-                      {r.candidates.length > 0 && master.filter((m) => !r.candidates.includes(m.id)).map((m) => (
-                        <option key={m.id} value={m.id}>{m.brand_name}</option>
-                      ))}
-                    </select>
-                  </label>
-                  <MakerPicker
+                  <DrugPicker
                     key={t?.id ?? "none"}
                     facility={t}
+                    sameDrug={sameDrugOf(r, t)}
+                    master={master}
+                    matchNote={r.match_note}
                     override={t?.drug_key ? overrides[t.drug_key] ?? null : null}
                     onChoose={(c, scope) => t && chooseMaker(t, c, scope)}
+                    onSelectTablet={(id) => updateRow(r.key, { tablet_id: id }, true)}
                     changedBy={changedBy}
                     setChangedBy={setChangedBy}
                   />
