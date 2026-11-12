@@ -386,7 +386,7 @@ CR↔L（販売名・薬の鍵・全角と空白で書いた合意）、カプ�
 
 # 再検査（feature/matching-rules、8512e9a：プロンプト 3 行と規格の後処理 lib/rxFix.ts）2026-11-12
 
-- 結果：`npm run test:rx` **171 件中 合格 168・失敗 0・todo 3**（【不具合】1 新規・前からの --private 2）／`npm test` 176 件中 合格 173・todo 3／`npm run test:maker` 54/54
+- 結果：`npm run test:rx` **170 件中 合格 167・失敗 0・todo 3**（【不具合】1 新規・前からの --private 2）／`npm test` 175 件中 合格 172・todo 3／`npm run test:maker` 54/54
 - 固定のテスト 2 件を直した：lib/prompts.ts の main との違いは AKI の 3 行の追加だけ（中身と場所まで固定）。app/api/read-rx/route.ts の main との違いは、呼び出しの lib/readRx.ts への移動と fillStrengthFromName の 1 回の呼び出し（import・parsed への名前変え・説明 1 行を含む）だけ。入口の確かめ・上限・応答の形・ログは main と同じ
 
 ## lib/rxFix.ts（規格の欄が空なら薬品名から入れる）
