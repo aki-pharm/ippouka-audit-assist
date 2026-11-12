@@ -5,7 +5,6 @@ import {
   changeRecordsToCsv,
   changeRecordsToJson,
   isMakerUnknown,
-  makerLabel,
   type ChangeRecord,
   type MakerCandidate,
   type ParentStatus,
@@ -14,6 +13,8 @@ import type { Tablet } from "@/lib/types";
 import { previousAdopted } from "@/lib/master";
 import { buildRuleOverrideRecord, type RuleOverrideRecord } from "@/lib/matching";
 import { needsOverrideRecord, overrideRule } from "@/lib/pick";
+// 刻印は見分けに役立つものだけ（名前の印字は「名前印字」）、製品の呼び名は「」のメーカー・先発品は販売名（lib/display.ts）
+import { imprintSummary, productLabel } from "@/lib/display";
 
 /** 一覧の札（lib/matching.ts の explainCandidate の結果） */
 export type Explained = { kind: "auto" | "candidate" | "ruleOut" | "discontinued" | "other"; reason: string | null };
@@ -22,10 +23,6 @@ export type MakerScope = "今回だけ" | "これから";
 export type MakerOverride = { candidate: MakerCandidate; scope: MakerScope };
 
 
-/** 刻印を 1 行の短い文字に（表／裏。「なし」「未確認」はそのまま） */
-function imprintLine(front: string, back: string): string {
-  return `表 ${front || "未確認"}／裏 ${back || "未確認"}`;
-}
 
 /**
  * 表の 1 行に出す「対応する製品」の選び方（マスタの対応品と、今のメーカー／変更を 1 つにしたもの）。
@@ -134,7 +131,7 @@ export function DrugPicker({
   }
 
   const shownName = override ? override.candidate.brand_name : facility?.brand_name;
-  const shownUnverified = override ? override.candidate.status !== "verified" : facility ? facility.status !== "verified" : false;
+  const shownUnverified = !override && !!facility && facility.status !== "verified"; // 「未確認」の札は施設の採用品だけ
   const q = query.normalize("NFKC").trim().toLowerCase();
   // 施設のマスタ全体。採用中止（adopted:false）・ルール外・候補にとどめる製品には札をつける（explain が adopted も見る）
   const hits = (q ? master.filter((m) => `${m.brand_name}${m.generic_name}`.normalize("NFKC").toLowerCase().includes(q)) : master).map((m) => ({ m, ex: explain(m), adopted: m.adopted }));
@@ -181,13 +178,12 @@ export function DrugPicker({
                   className={`w-full rounded-lg border px-2 py-2 text-left ${t.id === facility?.id && !override ? "border-blue-600 bg-blue-50" : "border-slate-200 bg-white"}`}
                 >
                   <div className="flex flex-wrap items-center gap-1">
-                    <b className="text-sm">{makerLabel(t)}</b>
-                    <span className="text-slate-600">{t.brand_name}</span>
+                    <b className="text-sm">{productLabel(t)}</b>
                     {t.status !== "verified" && <span className="rounded bg-amber-500 px-1 text-white">未確認</span>}
                     {isMakerUnknown(t.maker_state) && <span className="rounded bg-amber-500 px-1 text-white">メーカー未確定</span>}
                   </div>
                   {ex.reason && t.id !== facility?.id && <ReasonTag ex={ex} />}
-                  <div className="font-mono text-slate-700">{imprintLine(t.imprint_front, t.imprint_back)}</div>
+                  <div className="font-mono text-slate-700">{imprintSummary(t)}</div>
                 </button>
               </li>
             ))}
@@ -195,7 +191,7 @@ export function DrugPicker({
           {pending && <OverrideForm pending={pending} reason={reason} setReason={setReason} changedBy={changedBy} setChangedBy={setChangedBy} error={overrideError} onOk={confirmLabelled} onCancel={() => setPending(null)} />}
           {busy && <p className="text-slate-500">採用外の製品を読んでいます…</p>}
           {error && <p className="text-red-700">{error}</p>}
-          {outside.length > 0 && <div className="font-semibold text-slate-600">採用外（同じ成分・規格・剤形の他社）</div>}
+          {outside.length > 0 && <div className="font-semibold text-slate-600">採用外（同じ成分・規格・剤形の他社）<span className="font-normal text-slate-500">— 添付文書の値・未確認</span></div>}
           <ul className="max-h-80 space-y-1 overflow-y-auto">
             {outside.map((c) => {
               const sel = picked?.product_key === c.product_key;
@@ -208,12 +204,10 @@ export function DrugPicker({
                     className={`w-full rounded-lg border px-2 py-2 text-left ${sel ? "border-blue-600 bg-blue-50" : "border-slate-200 bg-white"}`}
                   >
                     <div className="flex flex-wrap items-center gap-1">
-                      <b className="text-sm">{makerLabel(c)}</b>
-                      <span className="rounded bg-slate-500 px-1 text-white">採用外</span>
-                      {c.status !== "verified" && <span className="rounded bg-amber-500 px-1 text-white">未確認</span>}
+                      <b className="text-sm">{productLabel(c)}</b>
                       {previous.has(c.product_key) && <span className="rounded bg-slate-500 px-1 text-white">以前の採用</span>}
                     </div>
-                    <div className="font-mono text-slate-700">{imprintLine(c.imprint_front, c.imprint_back)}</div>
+                    <div className="font-mono text-slate-700">{imprintSummary(c)}</div>
                   </button>
                 </li>
               );
@@ -223,7 +217,6 @@ export function DrugPicker({
             <div className="space-y-2 rounded-lg border border-blue-300 bg-white p-2">
               <div>
                 選んだ製品：<b>{picked.brand_name}</b>
-                {picked.status !== "verified" && <span className="ml-1 rounded bg-amber-500 px-1 text-white">未確認</span>}
               </div>
               {picked.source_url && (
                 <a href={picked.source_url} target="_blank" rel="noopener noreferrer" className="block rounded-lg bg-blue-700 py-2 text-center font-bold text-white">

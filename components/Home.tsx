@@ -19,7 +19,6 @@ export function Home() {
   }
   return (
     <div className="mx-auto max-w-3xl space-y-3 px-4 py-4">
-      <h1 className="text-xl font-bold">何をしますか</h1>
       <button type="button" onClick={() => setApp("audit")} className="block w-full rounded-2xl border-2 border-emerald-700 bg-white p-4 text-left shadow-sm active:bg-emerald-50">
         <div className="text-lg font-bold text-emerald-800">一包化監査</div>
         <div className="mt-1 text-sm text-slate-600">処方箋を撮って、朝・昼・夕の袋に入る錠剤の図を出す</div>

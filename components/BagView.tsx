@@ -4,6 +4,7 @@ import { TIMING_LABEL } from "@/lib/types";
 import { TabletSvg, imprintLayout, sizeText } from "./Tablet";
 import { sourceLink } from "@/lib/master";
 import { isUnconfirmed, makerLabel, type DrawnTablet } from "@/lib/makers";
+import { cardName, groupStyle, imprintDisplay } from "@/lib/display";
 
 export function BagView({
   bag,
@@ -73,30 +74,18 @@ export function BagView({
                           カプセル
                         </div>
                       ) : (
-                        <TabletSvg key={i} tablet={e.tablet} highlight={!!e.group} caption={false} />
+                        <TabletSvg key={i} tablet={e.tablet} caption={false} />
                       ),
                     )}
                     {e.count > shown && <span className="text-xs text-slate-500">…</span>}
                   </div>
-                  {lay.label && !lay.inside && e.tablet?.dosage_form !== "capsule" && (
-                    <div
-                      className={`mt-0.5 max-w-full break-all text-center font-mono text-xs leading-tight ${lay.unverified ? "italic text-slate-400" : "text-slate-800"}`}
-                      title={lay.label}
-                    >
-                      {lay.label}
-                    </div>
-                  )}
-                  {/* 裏の刻印はその下に小さく（「なし」「未確認」は出さない） */}
-                  {e.tablet && e.tablet.dosage_form !== "capsule" && e.tablet.imprint_back !== "なし" && e.tablet.imprint_back !== "未確認" && (
-                    <div className="mt-0.5 max-w-full break-all text-center font-mono text-[11px] leading-tight text-slate-500" title={`裏：${e.tablet.imprint_back}`}>
-                      裏 {e.tablet.imprint_back}
-                    </div>
-                  )}
+                  {/* 刻印は錠剤の絵に描く。絵に収まらない記号だけ下に 1 回。名前の印字は「名前印字」の札だけ。裏は見分けに役立つときだけ（lib/display.ts） */}
+                  {e.tablet && e.tablet.dosage_form !== "capsule" && <ImprintBelow tablet={e.tablet} inside={lay.inside} />}
                 </div>
-                <div className="flex min-h-[3rem] w-full flex-col justify-start text-center text-xs leading-tight">
-                  <div className="line-clamp-2 font-semibold text-slate-800">{shortName(e.tablet?.brand_name ?? e.row.name_as_written)}</div>
-                  {e.tablet && <div className="text-slate-500">{makerLabel(e.tablet)}</div>}
-                  <div className="text-slate-500">{sizeText(e.tablet)}</div>
+                <div className="w-full min-w-0 text-center text-xs leading-tight">
+                  <CardName name={e.tablet?.brand_name ?? e.row.name_as_written} />
+                  {e.tablet && <div className="truncate text-[11px] text-slate-500">{makerLabel(e.tablet)}</div>}
+                  <div className="text-[11px] text-slate-500">{sizeText(e.tablet)}</div>
                 </div>
               </button>
               <a
@@ -115,11 +104,47 @@ export function BagView({
   );
 }
 
+/** 見分け注意の組の札。組ごとに色と形が違う（lib/display.ts の groupStyle） */
 export function GroupBadge({ label }: { label: string }) {
+  const st = groupStyle(label);
+  const body =
+    st.shape === "circle" ? <circle cx={10} cy={10} r={9} fill={st.fill} />
+    : st.shape === "square" ? <rect x={1.5} y={1.5} width={17} height={17} rx={2} fill={st.fill} />
+    : st.shape === "diamond" ? <polygon points="10,0.5 19.5,10 10,19.5 0.5,10" fill={st.fill} />
+    : <polygon points="10,0.5 19.8,19 0.2,19" fill={st.fill} />;
   return (
-    <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-amber-500 text-xs font-bold text-white">
-      {label}
-    </span>
+    <svg width={20} height={20} viewBox="0 0 20 20" className="inline-block align-middle" role="img" aria-label={`組 ${label}`}>
+      {body}
+      <text x={10} y={st.shape === "triangle" ? 16 : 14} textAnchor="middle" fontSize={st.shape === "triangle" ? 9 : 11} fontWeight="bold" fill={st.text}>
+        {label}
+      </text>
+    </svg>
+  );
+}
+
+/** 図のカードの名前：成分と規格を 1 行に（途中で折り返さず、長ければ成分の方を「…」で切る。規格は切らない） */
+function CardName({ name }: { name: string }) {
+  const { base, strength } = cardName(name);
+  return (
+    <div className="flex w-full min-w-0 justify-center font-semibold text-slate-800" title={name}>
+      <span className="truncate">{base}</span>
+      {strength && <span className="ml-0.5 shrink-0">{strength}</span>}
+    </div>
+  );
+}
+
+/** 錠剤の絵の下：絵に収まらない記号の刻印、「名前印字」の札、見分けに役立つ裏の刻印 */
+function ImprintBelow({ tablet, inside }: { tablet: DrawnTablet; inside: boolean }) {
+  const d = imprintDisplay(tablet);
+  const front = d.front && !inside ? d.front : null;
+  const tag = d.nameTag && !inside;
+  if (!front && !tag && !d.back) return null;
+  return (
+    <div className="mt-0.5 flex max-w-full flex-wrap items-center justify-center gap-1 font-mono text-[11px] leading-tight">
+      {front && <span className="truncate text-slate-800">{front}</span>}
+      {tag && <span className="rounded bg-slate-200 px-1 font-sans text-slate-600">名前印字</span>}
+      {d.back && <span className="truncate text-slate-500">裏 {d.back}</span>}
+    </div>
   );
 }
 

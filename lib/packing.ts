@@ -2,6 +2,7 @@ import { TIMINGS, type Timing, type RxItem, type RxRow, type RxReadResult, type 
 import { findTablet, matchTablet } from "./master";
 import type { DrawnTablet } from "./makers";
 import { fixUsage } from "./rxFix.ts";
+import { lookAlike } from "./lookalike.ts";
 
 /** 入れる／入れないの初期値。優先：行の別包指示 > 緑字の「含めて一包化」 > 施設ルール > 剤形 */
 export function defaultInclude(
@@ -133,29 +134,16 @@ export function buildBags(
   });
 }
 
-/** 色名のゆらぎをまとめる（白〜微黄白 などを同じ扱いに） */
-function colorKey(c: string): string {
-  const n = c.replace(/[\s　]/g, "");
-  if (/^白|^微黄白|^帯黄白|^淡黄白/.test(n)) return "white";
-  if (/^淡黄|^黄/.test(n)) return "yellow";
-  if (/^淡赤|^淡紅|^桃|^赤|^うす赤/.test(n)) return "pink";
-  if (/^橙|^淡橙|^だいだい/.test(n)) return "orange";
-  return n;
-}
-
 /**
- * 似た外観の組を見つける：同じ形・同じ色・長径の差1.0mm以内（大きさ未確認なら形と色だけで判定）。
- * ルールで判定し、AIは使わない。
+ * 似た外観の組を見つける：lib/lookalike.ts の lookAlike（同じ形・色が近い・長径・短径・厚さが近い。数値は LOOKALIKE_PARAMS）。
+ * 大きさ・厚さが未確認の欄はその欄では外さない。ルールで判定し、AIは使わない。
  */
 export function findSimilar(entries: BagEntry[]): SimilarGroup[] {
   const tablets = entries
     .map((e) => e.tablet)
     .filter((t): t is Tablet => !!t && t.dosage_form === "tablet" && !!t.shape && t.color !== "未確認");
   const unique = [...new Map(tablets.map((t) => [t.id, t])).values()];
-  const similar = (a: Tablet, b: Tablet) =>
-    b.shape === a.shape &&
-    colorKey(b.color) === colorKey(a.color) &&
-    (a.size_long_mm == null || b.size_long_mm == null || Math.abs(a.size_long_mm - b.size_long_mm) <= 1.0);
+  const similar = (a: Tablet, b: Tablet) => lookAlike(a, b).similar;
   // 似ている同士をつないでいき、つながった塊を1つの組にする（6.5mm・7.1mm・8.0mm のように鎖でつながる白い錠剤も同じ組になる）
   const used = new Set<string>();
   const groups: SimilarGroup[] = [];

@@ -1,6 +1,7 @@
 import type { Tablet } from "@/lib/types";
 import { UNVERIFIED } from "@/lib/types";
 import { colorToHex } from "@/lib/color";
+import { parseColor } from "@/lib/lookalike";
 
 /** 1mm あたりの px。すべての錠剤を同じ縮尺で描く */
 export const PX_PER_MM = 7;
@@ -70,12 +71,10 @@ function wrapImprint(label: string, maxW: number, fs: number, width: (t: string,
 export function TabletSvg({
   tablet,
   face = "front",
-  highlight = false,
   caption = true,
 }: {
   tablet: Tablet | undefined;
   face?: "front" | "back";
-  highlight?: boolean;
   /** 刻印が錠剤に収まらないとき、文字を錠剤の下に添えるか（複数個並べるときは親が1回だけ出す） */
   caption?: boolean;
 }) {
@@ -84,8 +83,11 @@ export function TabletSvg({
   const [dl, ds] = DEFAULT_SIZE[shape] ?? DEFAULT_SIZE.other;
   const long = (sizeKnown ? tablet!.size_long_mm! : dl) * PX_PER_MM;
   const short = (sizeKnown ? tablet!.size_short_mm! : ds) * PX_PER_MM;
-  const fill = tablet?.color_hex ?? colorToHex(tablet?.color) ?? "#E5E7EB";
-  const stroke = highlight ? "#B45309" : "#6B7280";
+  // 錠剤の色で塗る。白い錠剤は白く、縁は細い灰色（見分け注意は縁でなく札で示す。色のある錠剤が目立つように）
+  const parsed = parseColor(tablet?.color);
+  const fill = tablet?.color_hex || colorToHex(tablet?.color) || (parsed ? rgbHex(parsed.ends[0]) : null) || "#E5E7EB";
+  const stroke = "#9CA3AF";
+  const sw = 1;
   const imprint = face === "front" ? tablet?.imprint_front : tablet?.imprint_back;
   const pad = 6;
   const w = long + pad * 2;
@@ -96,15 +98,15 @@ export function TabletSvg({
 
   let body;
   if (shape === "round") {
-    body = <circle cx={cx} cy={cy} r={long / 2} fill={fill} stroke={stroke} strokeWidth={highlight ? 3 : 1.5} strokeDasharray={dash} />;
+    body = <circle cx={cx} cy={cy} r={long / 2} fill={fill} stroke={stroke} strokeWidth={sw} strokeDasharray={dash} />;
   } else if (shape === "oval") {
-    body = <ellipse cx={cx} cy={cy} rx={long / 2} ry={short / 2} fill={fill} stroke={stroke} strokeWidth={highlight ? 3 : 1.5} strokeDasharray={dash} />;
+    body = <ellipse cx={cx} cy={cy} rx={long / 2} ry={short / 2} fill={fill} stroke={stroke} strokeWidth={sw} strokeDasharray={dash} />;
   } else if (shape === "oblong") {
     body = (
-      <rect x={pad} y={pad} width={long} height={short} rx={short / 2} fill={fill} stroke={stroke} strokeWidth={highlight ? 3 : 1.5} strokeDasharray={dash} />
+      <rect x={pad} y={pad} width={long} height={short} rx={short / 2} fill={fill} stroke={stroke} strokeWidth={sw} strokeDasharray={dash} />
     );
   } else {
-    body = <rect x={pad} y={pad} width={long} height={short} rx={6} fill={fill} stroke={stroke} strokeWidth={highlight ? 3 : 1.5} strokeDasharray={dash} />;
+    body = <rect x={pad} y={pad} width={long} height={short} rx={6} fill={fill} stroke={stroke} strokeWidth={sw} strokeDasharray={dash} />;
   }
 
   // 文字が錠剤に収まるなら中に、収まらなければ下に添える（caption=false なら添えない）
@@ -120,6 +122,7 @@ export function TabletSvg({
     <svg width={svgW} height={totalH} viewBox={`0 0 ${svgW} ${totalH}`} role="img" aria-label={tablet ? `${tablet.brand_name} の錠剤` : "未登録の錠剤"}>
       <g transform={`translate(${offsetX} 0)`}>
         {body}
+        {parsed?.speckled && <Speckles cx={cx} cy={cy} rx={long / 2} ry={short / 2} />}
         {tablet?.score_line && <line x1={cx} y1={cy - short / 2 + 2} x2={cx} y2={cy + short / 2 - 2} stroke="#9CA3AF" strokeWidth={1} />}
       </g>
       {label && inside && lines.length > 1 ? (
@@ -154,4 +157,23 @@ export function sizeText(t: Tablet | undefined): string {
   if (t.shape === "round" || t.size_short_mm == null || t.size_short_mm === t.size_long_mm)
     return `直径 ${t.size_long_mm}mm`;
   return `${t.size_long_mm}×${t.size_short_mm}mm`;
+}
+
+function rgbHex(rgb: [number, number, number]): string {
+  return "#" + rgb.map((v) => Math.round(v).toString(16).padStart(2, "0")).join("");
+}
+
+/** 斑点のある錠剤（例：ランソプラゾールOD「武田テバ」の赤橙色～暗褐色の斑点）に、決まった位置の小さな点を描く */
+function Speckles({ cx, cy, rx, ry }: { cx: number; cy: number; rx: number; ry: number }) {
+  const pts: [number, number, string][] = [
+    [-0.55, -0.3, "#C2410C"], [0.1, -0.6, "#7C2D12"], [0.5, -0.15, "#EA580C"], [-0.2, 0.15, "#9A3412"],
+    [0.35, 0.5, "#C2410C"], [-0.5, 0.45, "#EA580C"], [0.65, 0.25, "#7C2D12"], [-0.05, -0.25, "#EA580C"], [0.05, 0.65, "#9A3412"],
+  ];
+  return (
+    <g>
+      {pts.map(([x, y, c], i) => (
+        <circle key={i} cx={cx + x * rx * 0.85} cy={cy + y * ry * 0.85} r={1.3} fill={c} />
+      ))}
+    </g>
+  );
 }
