@@ -41,7 +41,7 @@ out.examples = [
   ["1-1-1 1日3回 8時・14時・20時", [1, 1, 1]],
 ].map(([t, per]) => ({ text: t, run: fx.parseNumberRun(t), times: fx.parseDoseTimes(t), ...fix(item(t, per)) }));
 // 2. 並びの無い寝る前・起床時（綴りの違い）
-const spell = ["就寝前", "眠前", "寝る前", "ねる前", "就寝時", "就眠前", "寝前", "睡眠前"];
+const spell = ["就寝前", "眠前", "寝る前", "ねる前", "就寝時", "就眠前", "就眠時", "寝前", "睡眠前", "ねるまえ", "寝る前に", "就寝前頃"];
 out.noRun = [];
 for (const w of spell) {
   for (const [label, t, per, dpt] of [
@@ -50,6 +50,8 @@ for (const w of spell) {
     ["夕食後と寝る前・AI が夕 2", `1回1錠 1日2回 夕食後・${w}`, [0, 0, 2], 1],
     ["夕食後と寝る前・正しく夕 1", `1回1錠 1日2回 夕食後・${w}`, [0, 0, 1], 1],
     ["夕食後と寝る前・1回量なし・AI が夕 2", `1日2回 夕食後・${w}`, [0, 0, 2], null],
+    ["寝る前が先・夕食後・AI が夕 2", `1回1錠 1日2回 ${w}・夕食後`, [0, 0, 2], 1],
+    ["夕食後及び寝る前・AI が夕 3", `1回1錠 1日2回 夕食後及び${w}`, [0, 0, 3], 1],
   ]) out.noRun.push({ word: w, label, text: t, ...fix(item(t, per, dpt)), bags: bagsOf(item(t, per, dpt)) });
 }
 out.wake = [["起床時だけ・AI が朝 1", "1回1錠 1日1回 起床時", [1, 0, 0], 1], ["起床時と朝・AI が朝 2", "1回1錠 1日2回 起床時・朝食後", [2, 0, 0], 1], ["起床時と朝・正しく朝 1", "1回1錠 1日2回 起床時・朝食後", [1, 0, 0], 1]]
@@ -70,7 +72,7 @@ const rnd = (n) => ((seed = (seed * 1103515245 + 12345) % 2147483648) % n);
 const pick = (a) => a[rnd(a.length)];
 out.property = { tried: 0, bad: [] };
 for (let k = 0; k < 4000; k++) {
-  const bw = pick(["就寝前", "眠前", "寝る前"]);
+  const bw = pick(["就寝前", "眠前", "寝る前", "ねる前", "就寝時", "就眠前", "就眠時", "寝前", "睡眠前", "ねるまえ"]);
   const withEve = rnd(2) === 1;
   const d = 1 + rnd(3);
   const useRun = rnd(3) === 0;
@@ -82,8 +84,8 @@ for (let k = 0; k < 4000; k++) {
   const b = bagsOf(it);
   out.property.tried++;
   const knownDose = useRun || dptField != null || dosePart !== "";
-  // 夕の袋に入ってよい上限：寝る前だけなら 0、夕食後もあるなら 1 回量（分かるとき）
-  const limit = withEve ? (knownDose ? d : Infinity) : 0;
+  // 夕の袋に入ってよい上限：寝る前だけなら 0、夕食後もあるなら 1 回量（分かるとき）、1 回量が分からなければ 0（袋に入れず要確認。664eaec）
+  const limit = withEve ? (knownDose ? d : 0) : 0;
   if (b.evening > limit) out.property.bad.push(`${t}（AI 夕 ${aiEve}、欄の1回量 ${dptField}）→ 夕の袋 ${b.evening}`);
 }
 // 正しい夕食後・就寝前は、夕の分を夕の袋に入れる

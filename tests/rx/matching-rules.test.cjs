@@ -41,7 +41,7 @@ test("走査：カプセル↔錠、放出の違い（CR・L・R・SR・腸溶�
   assert.deepEqual(r.bad.strength, []);
 });
 
-test("ルール外の製品は includeRuleOut のときだけ ruleOut に出て、自動では選ばない。記録は理由と変更者が無いと作れない", { skip }, () => {
+test("ルール外の製品は includeRuleOut のときだけ ruleOut に出て、自動では選ばない。記録は理由と変更者が無いと作れない（実際に呼んで確かめる）", { skip }, () => {
   const [a, b] = pair([
     ["アムロジピンOD錠5mg「トーワ」", "5mg", "アムロジピン錠5mg「サワイ」"],
     ["アムロジピンOD錠5mg「トーワ」", "5mg", "アムロジピン錠5mg「サワイ」", { includeRuleOut: true }],
@@ -49,9 +49,12 @@ test("ルール外の製品は includeRuleOut のときだけ ruleOut に出て�
   assert.deepEqual([a.best, a.candidates, a.ruleOut], [null, [], []]);
   assert.deepEqual([b.best, b.candidates], [null, []]);
   assert.deepEqual(b.ruleOut, [["アムロジピン錠5mg「サワイ」", "OD 錠の処方を普通の錠に"]]);
-  const src = fs.readFileSync(path.join(ROOT, "lib/matching.ts"), "utf8");
-  assert.match(src, /if \(!reason\) throw/);
-  assert.match(src, /if \(!by\) throw/);
+  // 記録は理由と変更者が無いと作れない（文字を探さず、実際に呼んで確かめる）
+  const rec = spawnSync(process.execPath, ["--no-warnings", path.join(__dirname, "matching/explain.mjs"), ROOT, "record", JSON.stringify([
+    { name_as_written: "アムロジピンOD錠5mg「トーワ」", product: "アムロジピン錠5mg「サワイ」", rule: "OD 錠の処方を普通の錠に", reason: "", changed_by: "A" },
+    { name_as_written: "アムロジピンOD錠5mg「トーワ」", product: "アムロジピン錠5mg「サワイ」", rule: "OD 錠の処方を普通の錠に", reason: "医師確認", changed_by: "" },
+  ])], { encoding: "utf8" });
+  for (const x of JSON.parse(rec.stdout)) assert.ok(x.error, JSON.stringify(x));
 });
 
 test("決まりどおりに選ぶ：先発→後発（リピトール→アトルバスタチン）、ふつうの錠→OD（置き換えの一言）、一般名→同じ鍵", { skip }, () => {

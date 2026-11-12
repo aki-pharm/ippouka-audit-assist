@@ -70,17 +70,26 @@ test("起床時：起床時だけなら朝の袋 0、起床時・朝食後なら
   assert.deepEqual(data().wake.map((x) => x.bags.morning), [0, 1, 1]);
 });
 
-test("【不具合】寝る前の書き方「ねる前」「就寝時」「寝前」を寝る前と読まず、AI が夕に入れた数がそのまま夕の袋に入る", { skip, todo: "lib/rxFix.ts の寝る前の語（就寝前|眠前|寝る前）に、ねる前・就寝時・寝前 など（ひらがな・時）が無い。parseDoseTimes と fixUsage の両方" }, () => {
-  const bad = data().noRun.filter((x) => ["ねる前", "就寝時", "寝前"].includes(x.word) && x.label === "寝る前だけ・AI が夕 2" && x.bags.evening > 0).map((x) => `${x.text} → 夕の袋 ${x.bags.evening}`);
+test("直った：寝る前の書き方（ねる前・就寝時・就眠時・寝前・ねるまえ・寝る前に・就寝前頃・睡眠前）も寝る前と読む。寝る前が先に書かれても（眠前・夕食後）、「夕食後及び寝る前」でも、寝る前の分は夕の袋に入らない", { skip }, () => {
+  const rows = data().noRun;
+  const bad = [];
+  for (const x of rows) {
+    const limit = /^寝る前だけ/.test(x.label) ? 0 : /1回量なし/.test(x.label) ? 0 : 1;
+    if (x.bags.evening > limit) bad.push(`${x.text}（${x.label}）→ 夕の袋 ${x.bags.evening}`);
+  }
   assert.deepEqual(bad, []);
+  // 正しく夕 1 の行は夕に 1 を入れる（寝る前の語で夕を消しすぎない）
+  assert.deepEqual(rows.filter((x) => x.label === "夕食後と寝る前・正しく夕 1" && x.bags.evening !== 1).map((x) => x.text), []);
 });
 
-test("【不具合】夕食後・就寝前で 1 回量が分からない（欄も「1回○錠」も無い）とき、AI が夕に入れた数（寝る前の分を含みうる）をそのまま夕の袋に入れる（黄色の一言だけ）", { skip, todo: "1 回量が分からないなら、夕の数を袋に入れず「要確認」にする（並びと時点が合わないときと同じ扱い）。寝る前の分が夕の袋に入らないことを保証する" }, () => {
-  const bad = data().noRun.filter((x) => ["就寝前", "眠前", "寝る前"].includes(x.word) && x.label === "夕食後と寝る前・1回量なし・AI が夕 2" && x.bags.evening > 0).map((x) => `${x.text} → 夕の袋 ${x.bags.evening}`);
-  assert.deepEqual(bad, []);
+test("直った：1 回量が分からない 夕食後・寝る前 は夕を袋に入れず「1回量が分からないため要確認」", { skip }, () => {
+  for (const x of data().noRun.filter((x) => x.label === "夕食後と寝る前・1回量なし・AI が夕 2")) {
+    assert.equal(x.bags.evening, 0, x.text);
+    assert.ok(x.flags.some((f) => /1回量が分からない/.test(f)), x.text);
+  }
 });
 
-test("性質の試験（4,000 通り）：寝る前（就寝前・眠前・寝る前）を含む用法で AI が夕にどんな数を入れても、寝る前だけの分は夕の袋に入らない（1 回量が分かる場合）", { skip }, (t) => {
+test("性質の試験（4,000 通り）：寝る前（10 通りの書き方）を含む用法で AI が夕にどんな数を入れても、寝る前だけの分は夕の袋に入らない。1 回量が分からなければ夕は 0", { skip }, (t) => {
   const p = data().property;
   t.diagnostic(`試した ${p.tried}`);
   assert.equal(p.tried, 4000);
@@ -95,31 +104,80 @@ test("2 回当てても同じ（toRows は /api/read-rx の後にもう一度当
   assert.deepEqual(tr.filter((x) => x.flags.length).map((x) => `${x.f.slice(0, 4)}-${x.rp}`).sort(), ["rx09-06", "rx12-06", "rx15-07", "rx15-10", "rx17-05", "rx20-10"]);
 });
 
-test("アプリ・ランナー・袋の 3 か所で同じ後処理を使う", () => {
-  assert.match(fs.readFileSync(path.join(ROOT, "app/api/read-rx/route.ts"), "utf8"), /fixUsageAll\(fillStrengthFromName\(parsed\)\.result\)/);
-  assert.match(fs.readFileSync(path.join(ROOT, "scripts/read-rx-batch.ts"), "utf8"), /fixUsageAll\(fixed\.result\)/);
-  assert.match(fs.readFileSync(path.join(ROOT, "lib/packing.ts"), "utf8"), /const item = fixUsage\(raw\);/);
+test("ランナーと袋で後処理が実際に効く：ランナーは偽の読み取り（rx15 Rp10 の「0-0-0-2-0-0 就寝前」を夕 2、規格が空）を夕 0・規格 12mg にして保存する（袋は上の試験で toRows を通して確かめた。/api/read-rx は refactor.test の差分の固定で）", { skip }, () => {
+  const os = require("node:os");
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "rxfix-run-"));
+  fs.mkdirSync(path.join(dir, "img"));
+  fs.copyFileSync(path.join(ROOT, "data/rx-testset/images/rx15-2.png"), path.join(dir, "img/rx15-2__QA__t__clean.png"));
+  const r = spawnSync(process.execPath, ["--no-warnings", "--import", path.join(__dirname, "readrx/register-fake.mjs"), "scripts/read-rx-batch.ts", "--images", path.join(dir, "img"), "--out", path.join(dir, "out"), "--max-usd", "1"], {
+    cwd: ROOT, encoding: "utf8", env: { ...process.env, CLAUDE_API_KEY: "fake", ANTHROPIC_API_KEY: "", RX_FAKE: "bedtime" },
+  });
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  const rec = JSON.parse(fs.readFileSync(path.join(dir, "out", fs.readdirSync(path.join(dir, "out")).find((f) => f.endsWith(".json"))), "utf8"));
+  fs.rmSync(dir, { recursive: true, force: true });
+  const it = rec.result.items[0];
+  assert.deepEqual(it.per_timing, { morning: 0, noon: 0, evening: 0 });
+  assert.equal(it.unplaced, 2);
+  assert.equal(it.strength, "12mg");
+  assert.equal(it.name_as_written, "センノシド錠12mg「サワイ」");
+  assert.equal(rec.usage_fixed, 1);
+  assert.equal(rec.strength_filled, 1);
 });
 
-// ---------- 画面の「対応する製品」（components/MakerPicker.tsx の DrugPicker）。React を動かさず、作りを読む ----------
-const picker = () => fs.readFileSync(path.join(ROOT, "components/MakerPicker.tsx"), "utf8");
-const flow = () => fs.readFileSync(path.join(ROOT, "components/Flow.tsx"), "utf8");
+// ---------- 画面の「対応する製品」の札と記録（lib/matching.ts の explainCandidate・buildRuleOverrideRecord を動かす） ----------
+function explain(q) {
+  const r = spawnSync(process.execPath, ["--no-warnings", path.join(__dirname, "matching/explain.mjs"), ROOT, "explain", JSON.stringify(q)], { encoding: "utf8" });
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  return JSON.parse(r.stdout);
+}
+function record(q) {
+  const r = spawnSync(process.execPath, ["--no-warnings", path.join(__dirname, "matching/explain.mjs"), ROOT, "record", JSON.stringify(q)], { encoding: "utf8" });
+  assert.equal(r.status, 0, r.stderr.slice(0, 300));
+  return JSON.parse(r.stdout);
+}
 
-test("対応する製品は 1 行に 1 つ：選ぶと tablet_id を 1 つにし、前後の薬のメーカーの選択を外す（別の薬の選択が残らない）", () => {
-  assert.match(picker(), /function selectTablet\(id: string \| null\) \{\s*onSelectTablet\(id\);/);
-  assert.match(flow(), /onSelectTablet=\{\(id\) => updateRow\(r\.key, \{ tablet_id: id \}, true\)\}/);
-  assert.match(flow(), /if \(before\) delete next\[before\];\s*if \(after\) delete next\[after\];/);
+test("札：1 件ずつの種類と理由（入れ替えない組・事前合意があれば選択可・置き換え・ルール外の理由・採用中止・以前の採用）", { skip }, () => {
+  const cases = [
+    ["ザルティア錠5mg", "5mg", "シアリス錠5mg", {}, "candidate", /自動では入れ替えない組/],
+    ["アムロジピン錠5mg「サワイ」", "5mg", "ノルバスク錠5mg", {}, "candidate", /事前合意（みなし疑義）があれば選択可/],
+    ["ブロチゾラム錠0.25mg「サワイ」", "0.25mg", "レンドルミンD錠0.25mg", {}, "candidate", /事前合意/],
+    ["メトホルミン塩酸塩錠250mg「SN」", "250mg", "メトグルコ錠250mg", {}, "candidate", /YJ の上 9 桁が違う/],
+    ["オースギ大柴胡湯エキスT錠", "1錠", "クラシエ大柴胡湯エキス錠", {}, "candidate", /漢方/],
+    ["【般】ニフェジピン徐放錠10mg", "10mg", "ニフェジピンCR錠10mg「サワイ」", {}, "candidate", /12時間／24時間/],
+    ["リピトール錠10mg", "10mg", "アトルバスタチン錠10mg「サワイ」", {}, "auto", /置き換え：先発品の処方を後発品に/],
+    ["アムロジピン錠5mg「トーワ」", "5mg", "アムロジピンOD錠5mg「サワイ」", {}, "auto", /置き換え：普通の錠の処方を OD 錠に/],
+    ["アムロジピンOD錠5mg「トーワ」", "5mg", "アムロジピン錠5mg「サワイ」", {}, "ruleOut", /OD 錠の処方を普通の錠に/],
+    ["ランソプラゾールカプセル15mg「サワイ」", "15mg", "ランソプラゾールOD錠15mg「サワイ」", {}, "ruleOut", /カプセルと錠/],
+    ["アムロジピン錠5mg「トーワ」", "5mg", "アムロジピン錠10mg「サワイ」", {}, "ruleOut", /規格が違う/],
+    ["ニフェジピンL錠20mg「トーワ」", "20mg", "ニフェジピンCR錠20mg「サワイ」", {}, "ruleOut", /放出/],
+    ["【般】ニフェジピン徐放錠10mg", "10mg", "ニフェジピンCR錠10mg「サワイ」", { nameNote: "12時間持続" }, "ruleOut", /放出/],
+    ["アムロジピン錠5mg「トーワ」", "5mg", "アムロジピン錠5mg「サワイ」", { adopted: false }, "discontinued", /^採用中止$/],
+    ["アムロジピン錠5mg「トーワ」", "5mg", "アムロジピン錠5mg「サワイ」", { adopted: false, discontinued_reason: "メーカー切替" }, "discontinued", /以前の採用/],
+  ];
+  const r = explain(cases.map(([a, b, c, o]) => [a, b, c, o]));
+  r.forEach((x, i) => {
+    assert.equal(x.kind, cases[i][4], `${x.name} → ${x.fac}`);
+    assert.match(x.reason ?? "", cases[i][5], `${x.name} → ${x.fac}：${x.reason}`);
+  });
 });
 
-test("【不具合】「別の薬から探す」は施設のマスタ全体（採用中止も）を札なしで出し、選んでも理由・変更者を記録しない（決まりで外した製品を黙って選べる）", { todo: "採用中止は出さないか「採用中止」の札、照合の候補でない製品には「ルール外」の札、選ぶときは理由と変更者を入れさせて記録する（lib/matching.ts の buildRuleOverrideRecord）。選んだ後は前の照合の一言（match_note）を消すか「手で選んだ」に替える" }, () => {
-  const src = picker();
-  const i = src.indexOf("const hits =");
-  assert.match(src.slice(i, src.indexOf(";", i)), /adopted/, "採用中止を除いていない");
-  assert.match(src, /buildRuleOverrideRecord/, "理由・変更者の記録が無い");
+test("記録：札のある製品を選ぶ記録は、理由と変更者が無い・空白だけなら作れない。そろえば処方の名前・製品・札の理由・理由・変更者・日時が残る", { skip }, () => {
+  const base = { name_as_written: "ザルティア錠5mg", product: "シアリス錠5mg", rule: "自動では入れ替えない組" };
+  const r = record([{ ...base, reason: "", changed_by: "A" }, { ...base, reason: "   ", changed_by: "A" }, { ...base, reason: "医師確認", changed_by: "" }, { ...base, reason: "医師確認", changed_by: " " }, { ...base, reason: " 医師確認 ", changed_by: " A " }]);
+  for (const x of r.slice(0, 4)) assert.ok(x.error, JSON.stringify(x));
+  assert.deepEqual(r[4].record, { name_as_written: "ザルティア錠5mg", product_id: "シアリス錠5mg", rule: "自動では入れ替えない組", reason: "医師確認", changed_by: "A", changed_at: "2026-11-12T00:00:00.000Z" });
 });
 
-test("【不具合】「施設の採用品」の一覧に、同じ薬の鍵の入れ替えない組（ザルティア↔シアリス など）や後発→先発の候補が、理由の札なしで並ぶ", { todo: "sameDrugOf は drug_key が同じ採用品を全部出す。入れ替えない組・事前合意が要る候補には、照合の理由（候補にとどめた理由）を 1 件ずつ札で出す" }, () => {
-  const src = flow();
-  const i = src.indexOf("function sameDrugOf");
-  assert.match(src.slice(i, src.indexOf("\n  }", i)), /exception|ruleOut|candOnly|理由/);
+test("【不具合】「別の薬から探す」で同じ薬でない製品（kind=other）を選ぶと、札も記録も無い（読み取りが別の薬を選んだときの直しでも、手で選んだことが残らない）", { skip, todo: "explainCandidate の other に「別の薬」の札を付け、画面は other も理由と変更者を入れて記録する" }, () => {
+  const [x] = explain([["アムロジピン錠5mg「トーワ」", "5mg", "ロキソプロフェンNa錠60mg「サワイ」"]]);
+  assert.equal(x.kind, "other");
+  assert.ok(x.reason, "other の札が無い（画面は札も記録もなく選ぶ）");
+});
+
+test("【不具合】どの札なら理由と変更者が要るか（画面の pickLabelled）と、手で選んだ後の行の一言・状態（Flow の updateRow）が React の中にあり、外で試せない", { skip, todo: "lib に純粋な関数（例：needsOverrideRecord(kind)、行を手で変えたときの { match_note, match_status } を返す関数）を出し、画面はそれを呼ぶ。今は採用中止の製品を手で選んでも match_status が「採用品」になる" }, () => {
+  // 文字を探すのでなく、実際に lib から読み込んで呼べるかで見る
+  const js = `const m = await import(${JSON.stringify("file://" + path.join(ROOT, "lib/matching.ts"))}); const f = Object.entries(m).find(([k, v]) => typeof v === "function" && /^(needs|requires)\\w*Record$/.test(k)); if (!f) { console.log("none"); process.exit(0); } console.log(JSON.stringify(["auto","candidate","ruleOut","discontinued","other"].map((k) => f[1](k))));`;
+  const r = spawnSync(process.execPath, ["--no-warnings", "--input-type=module", "-e", js], { encoding: "utf8" });
+  assert.notEqual(r.stdout.trim(), "none", "lib に判断の関数が無い");
+  assert.deepEqual(JSON.parse(r.stdout), [false, true, true, true, true]);
 });
