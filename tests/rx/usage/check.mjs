@@ -90,4 +90,7 @@ for (let k = 0; k < 4000; k++) {
 }
 // 正しい夕食後・就寝前は、夕の分を夕の袋に入れる
 out.correctEvening = ["1回1錠 1日2回 夕食後・就寝前", "0-0-1-1-0-0 で投与 1日2回 夕食後・就寝前", "1回2錠 1日2回 夕食後・眠前"].map((t, i) => ({ text: t, bags: bagsOf(item(t, [0, 0, i === 2 ? 2 : 1], i === 2 ? 2 : 1)) }));
+// 手で採用中止・以前の採用を選んだ行は checkRow が黄色で知らせる（lib/pick.ts の pickRowState の状態）
+const row0 = pk.toRows({ items: [item("1回1錠 1日1回 朝食後", [1, 0, 0], 1, 1)], all_one_dose: true, include_all_note: null, notes: null })[0];
+out.checkRow = ["採用中止", "以前の採用", "採用品"].map((st) => ({ st, flags: pk.checkRow({ ...row0, tablet_id: "x", match_status: st }).map((f) => `${f.level}:${f.message}`) }));
 console.log(JSON.stringify(out));

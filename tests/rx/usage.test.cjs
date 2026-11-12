@@ -168,16 +168,4 @@ test("記録：札のある製品を選ぶ記録は、理由と変更者が無�
   assert.deepEqual(r[4].record, { name_as_written: "ザルティア錠5mg", product_id: "シアリス錠5mg", rule: "自動では入れ替えない組", reason: "医師確認", changed_by: "A", changed_at: "2026-11-12T00:00:00.000Z" });
 });
 
-test("【不具合】「別の薬から探す」で同じ薬でない製品（kind=other）を選ぶと、札も記録も無い（読み取りが別の薬を選んだときの直しでも、手で選んだことが残らない）", { skip, todo: "explainCandidate の other に「別の薬」の札を付け、画面は other も理由と変更者を入れて記録する" }, () => {
-  const [x] = explain([["アムロジピン錠5mg「トーワ」", "5mg", "ロキソプロフェンNa錠60mg「サワイ」"]]);
-  assert.equal(x.kind, "other");
-  assert.ok(x.reason, "other の札が無い（画面は札も記録もなく選ぶ）");
-});
-
-test("【不具合】どの札なら理由と変更者が要るか（画面の pickLabelled）と、手で選んだ後の行の一言・状態（Flow の updateRow）が React の中にあり、外で試せない", { skip, todo: "lib に純粋な関数（例：needsOverrideRecord(kind)、行を手で変えたときの { match_note, match_status } を返す関数）を出し、画面はそれを呼ぶ。今は採用中止の製品を手で選んでも match_status が「採用品」になる" }, () => {
-  // 文字を探すのでなく、実際に lib から読み込んで呼べるかで見る
-  const js = `const m = await import(${JSON.stringify("file://" + path.join(ROOT, "lib/matching.ts"))}); const f = Object.entries(m).find(([k, v]) => typeof v === "function" && /^(needs|requires)\\w*Record$/.test(k)); if (!f) { console.log("none"); process.exit(0); } console.log(JSON.stringify(["auto","candidate","ruleOut","discontinued","other"].map((k) => f[1](k))));`;
-  const r = spawnSync(process.execPath, ["--no-warnings", "--input-type=module", "-e", js], { encoding: "utf8" });
-  assert.notEqual(r.stdout.trim(), "none", "lib に判断の関数が無い");
-  assert.deepEqual(JSON.parse(r.stdout), [false, true, true, true, true]);
-});
+// 「別の薬（読み取りの直し）」の札・記録と、手で選ぶ判断（lib/pick.ts）は tests/rx/pick.test.cjs で動かして確かめる（ea5960f で直った）
