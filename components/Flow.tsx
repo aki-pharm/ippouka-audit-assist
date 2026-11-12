@@ -1,13 +1,14 @@
 "use client";
 import { useMemo, useRef, useState } from "react";
-import { loadMaster, findTablet } from "@/lib/master";
+import { explainForRow, loadMaster, findTablet } from "@/lib/master";
 import { buildChangeRecord, mismatchLabel, productToDraw, type ChangeRecord, type DrawnTablet, type MakerCandidate } from "@/lib/makers";
 import { BAG_ORDER_LABEL, buildBags, checkRow, recomputeDefault, toRows, type BagOrder } from "@/lib/packing";
 import { fileToResizedBase64 } from "@/lib/image";
 import { TIMINGS, TIMING_LABEL, type RxReadResult, type RxRow, type Tablet } from "@/lib/types";
 import { BagView } from "./BagView";
 import { InfoCard } from "./InfoCard";
-import { ChangeLog, DrugPicker, type MakerOverride, type MakerScope } from "./MakerPicker";
+import { ChangeLog, DrugPicker, OverrideLog, type Explained, type MakerOverride, type MakerScope } from "./MakerPicker";
+import type { RuleOverrideRecord } from "@/lib/matching";
 
 type Step = "capture" | "review" | "select" | "bags" | "compare";
 type Img = { base64: string; mediaType: "image/jpeg"; url: string };
@@ -37,6 +38,7 @@ export function Flow() {
   const [overrides, setOverrides] = useState<Record<string, MakerOverride>>({});
   const [changes, setChanges] = useState<ChangeRecord[]>([]);
   const [changedBy, setChangedBy] = useState("");
+  const [ruleOverrides, setRuleOverrides] = useState<RuleOverrideRecord[]>([]); // 札のある製品を手で選んだ記録
   /** 行 → 図に描く製品（1 つの薬に 1 製品。メーカー未確定なら描かない） */
   const resolve = (r: RxRow) => {
     const f = findTablet(r.tablet_id);
@@ -111,11 +113,17 @@ export function Flow() {
     setStep("review");
   }
 
-  /** 行の「対応する製品」の一覧に出す施設の採用品：照合の候補と、同じ薬（drug_key）の採用品（採用中止は出さない） */
-  function sameDrugOf(r: RxRow, t: Tablet | undefined): Tablet[] {
+  /**
+   * 行の「対応する製品」の一覧に出す施設の採用品：照合の候補と、同じ薬（drug_key）の採用品（採用中止は出さない）。
+   * 1 件ずつ、この行で選んだらどうなるかの理由（入れ替えない組・事前合意があれば選択可・置き換え・ルール外 など）を explainForRow で添える
+   */
+  function sameDrugOf(r: RxRow, t: Tablet | undefined): { t: Tablet; ex: Explained }[] {
     const ids = new Set([...r.candidates, ...(t ? [t.id] : [])]);
     const list = master.filter((m) => ids.has(m.id) || (!!t?.drug_key && m.drug_key === t.drug_key && m.adopted));
-    return list.sort((a, b) => Number(b.id === t?.id) - Number(a.id === t?.id));
+    return list
+      .sort((a, b) => Number(b.id === t?.id) - Number(a.id === t?.id))
+      // 1 件ずつの理由（candidate：入れ替えない組・事前合意があれば選択可、ruleOut：決まりで外す、auto：置き換え）
+      .map((m) => ({ t: m, ex: explainForRow(r.name_as_written, r.strength, r.name_note, m) }));
   }
 
   /** メーカーを選ぶ（null で元に戻す）。「これから」は変更の記録も作る（保存はしない） */
@@ -154,6 +162,11 @@ export function Flow() {
       prev.map((r) => {
         if (r.key !== key) return r;
         const next = { ...r, ...patch };
+        // 対応する製品を手で変えたら、前の照合の一言は消す（候補にとどめた理由などが残らないように）
+        if (patch.tablet_id !== undefined && patch.tablet_id !== r.tablet_id) {
+          next.match_note = patch.tablet_id ? "手で選びました" : null;
+          if (patch.tablet_id) next.match_status = "採用品";
+        }
         return recompute && rx ? recomputeDefault(next, rx) : next;
       }),
     );
@@ -268,6 +281,9 @@ export function Flow() {
                     facility={t}
                     sameDrug={sameDrugOf(r, t)}
                     master={master}
+                    explain={(m) => explainForRow(r.name_as_written, r.strength, r.name_note, m)}
+                    rxName={r.name_as_written}
+                    onOverrideRecord={(rec) => setRuleOverrides((prev) => [...prev, rec])}
                     matchNote={r.match_note}
                     override={t?.drug_key ? overrides[t.drug_key] ?? null : null}
                     onChoose={(c, scope) => t && chooseMaker(t, c, scope)}
@@ -289,6 +305,7 @@ export function Flow() {
             })}
           </ul>
           <ChangeLog records={changes} onRemove={(i) => setChanges((prev) => prev.filter((_, j) => j !== i))} />
+          <OverrideLog overrides={ruleOverrides} />
           <div className="flex gap-2">
             <button type="button" onClick={() => setStep("capture")} className="rounded-xl border border-slate-300 px-4 py-3">戻る</button>
             <button type="button" onClick={() => setStep("select")} className="flex-1 rounded-xl bg-emerald-700 px-4 py-3 text-lg font-bold text-white">この内容で進む</button>

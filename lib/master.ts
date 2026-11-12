@@ -1,7 +1,7 @@
 import masterJson from "@/data/master.json";
 import { TabletSchema, type Tablet } from "./types";
 // 照合の本体（Node で単体でも動くように拡張子つきで読む。tsconfig の allowImportingTsExtensions）
-import { matchRx, previousProductKeys, type Match, type MatchOptions } from "./matching.ts";
+import { explainCandidate, matchRx, previousProductKeys, type Match, type MatchOptions } from "./matching.ts";
 import { MATCH_DATA } from "./match-data.ts";
 
 let cache: Tablet[] | null = null;
@@ -58,6 +58,11 @@ export type MatchResult = Match<Tablet>;
  */
 export function matchTablet(nameAsWritten: string, strength?: string | null, options: MatchOptions = {}): MatchResult {
   return matchRx(nameAsWritten, strength, loadMaster(), MATCH_DATA, options);
+}
+
+/** 1 つの製品をこの行で選んだらどうなるか（画面の札）。中身は lib/matching.ts の explainCandidate */
+export function explainForRow(nameAsWritten: string, strength: string | null | undefined, nameNote: string | null | undefined, product: Tablet) {
+  return explainCandidate(nameAsWritten, strength, product, MATCH_DATA, { nameNote });
 }
 
 /** メーカー選択で「以前の採用」の札をつける製品（メーカー切替で採用をやめたもの）の product_key */

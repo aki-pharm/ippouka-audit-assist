@@ -570,6 +570,26 @@ function sameMaker(written: string, p: FacilityProduct): boolean {
   return !!w && nameKey(w) === nameKey(m);
 }
 
+/**
+ * 1 つの製品を、この処方の行で選んだらどうなるかと、その理由（画面の一覧の札に使う）。
+ *  auto：自動で選べる（reason は置き換えの一言など）／candidate：候補にとどめる（入れ替えない組・事前合意があれば選択可 など）／
+ *  ruleOut：決まりで外す（OD→普通・カプセル↔錠・規格違い・放出違い・後発→先発 など）／discontinued：採用中止／other：同じ薬でない（別の薬）
+ */
+export function explainCandidate<T extends FacilityProduct>(
+  nameAsWritten: string,
+  strength: string | null | undefined,
+  product: T,
+  data: MatchData,
+  options: MatchOptions = {},
+): { kind: "auto" | "candidate" | "ruleOut" | "discontinued" | "other"; reason: string | null } {
+  if (!product.adopted) return { kind: "discontinued", reason: product.discontinued_reason === "メーカー切替" ? "以前の採用（メーカー切替）" : "採用中止" };
+  const m = matchRx(nameAsWritten, strength, [product], data, { ...options, includeRuleOut: true });
+  if (m.best) return { kind: "auto", reason: m.note };
+  if (m.candidates.length) return { kind: "candidate", reason: m.note };
+  if (m.ruleOut.length) return { kind: "ruleOut", reason: m.ruleOut[0].rule };
+  return { kind: "other", reason: null };
+}
+
 /** 「ルール外を表示（医師確認済み）」で選んだときの記録。理由と変更者が無ければエラー（保存はまだしない） */
 export type RuleOverrideRecord = {
   name_as_written: string;

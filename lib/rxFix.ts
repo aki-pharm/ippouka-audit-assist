@@ -52,7 +52,9 @@ export const NOTE_OUTSIDE = "寝る前／起床時：この画面の対象外";
 export const NOTE_OTHER_TIME = "食間・時刻の指定：この画面の対象外";
 export const NOTE_MISMATCH = "用法の並びと時点が合いません：要確認";
 export const NOTE_RECALC = "用法の並びから計算し直しました";
-const NOTE_EVENING = "夕・朝と寝る前・起床時の量を確かめてください";
+export const NOTE_NO_DOSE = "1回量が分からないため要確認";
+/** 寝る前の書き方（長いものから。「寝前」は「就寝前」「寝る前」のあとで） */
+const BEDTIME_WORDS = "就寝前|就寝時|就眠前|就眠時|眠前|寝る前|ねる前|ねるまえ|寝前";
 
 /** 用法の文から、数字の並び（3 つ以上、または「で投与」の前か括弧の中なら 2 つ以上）を取り出す。無ければ null */
 export function parseNumberRun(text: string | null | undefined): number[] | null {
@@ -68,10 +70,10 @@ export function parseNumberRun(text: string | null | undefined): number[] | null
 export function parseDoseTimes(text: string | null | undefined): DoseTime[] {
   const t = (text ?? "").normalize("NFKC").replace(/[‐‑‒–—―−ー]/g, "-").replace(/\(?\s*\d+(?:\.\d+)?(?:\s*-\s*\d+(?:\.\d+)?)+\s*\)?/g, " ");
   const out: DoseTime[] = [];
-  for (const m of t.matchAll(/起床時|就寝前|眠前|寝る前|毎食|朝|昼|夕|食間|\d+時(?!間)/g)) {
+  for (const m of t.matchAll(new RegExp(`起床時|${BEDTIME_WORDS}|毎食|朝|昼|夕|食間|\\d+時(?!間)`, "g"))) {
     const w = m[0];
     if (w === "起床時") out.push("wake");
-    else if (w === "就寝前" || w === "眠前" || w === "寝る前") out.push("bedtime");
+    else if (new RegExp(`^(${BEDTIME_WORDS})$`).test(w)) out.push("bedtime");
     else if (w === "毎食") out.push("morning", "noon", "evening");
     else if (w === "朝") out.push("morning");
     else if (w === "昼") out.push("noon");
@@ -101,7 +103,7 @@ export function mapPattern(text: string | null | undefined): { amounts: Partial<
  *  - 数字の並びがあれば mapPattern で当て、朝・昼・夕をその数にする（読み取りと違えば「用法の並びから計算し直しました」）。
  *    寝る前・起床時・食間などの分は袋に入れない（unplaced）。当てられなければ袋に入れず（朝昼夕 0）「用法の並びと時点が合いません：要確認」
  *  - 並びが無く、用法に 寝る前／起床時 があるとき：夕（起床時なら朝）の文字が無ければその時点を 0 に、あれば 1 回量（欄か用法の「1回1錠」）までにする。
- *    1 回量が分からなければそのまま「…量を確かめてください」
+ *    1 回量が分からなければその時点は袋に入れず「1回量が分からないため要確認」
  */
 export function fixUsage<T extends { raw_usage_text: string; per_timing: { morning: number; noon: number; evening: number }; dose_per_time: number | null; dose_per_day: number | null }>(
   item: T & { usage_flags?: string[]; unplaced?: number },
@@ -126,7 +128,7 @@ export function fixUsage<T extends { raw_usage_text: string; per_timing: { morni
     const textDose = Number(text.match(/1回\s*(\d+(?:\.\d+)?)\s*(錠|カプセル|個)/)?.[1]);
     const dpt = item.dose_per_time ?? (Number.isFinite(textDose) && textDose > 0 ? textDose : null);
     // 寝る前は夕に、起床時は朝に入れない
-    for (const [re, slot, named] of [[/就寝前|眠前|寝る前/, "evening", /夕/], [/起床時/, "morning", /朝/]] as const) {
+    for (const [re, slot, named] of [[new RegExp(BEDTIME_WORDS), "evening", /夕/], [/起床時/, "morning", /朝/]] as const) {
       if (!re.test(text)) continue;
       flags.add(NOTE_OUTSIDE);
       if (!named.test(text)) {
@@ -135,7 +137,11 @@ export function fixUsage<T extends { raw_usage_text: string; per_timing: { morni
       } else if (dpt != null) {
         if (!(item.unplaced ?? 0)) unplaced += per[slot] > dpt ? per[slot] - dpt : dpt;
         per[slot] = Math.min(per[slot], dpt);
-      } else flags.add(NOTE_EVENING);
+      } else {
+        // 1 回量が分からない：夕（朝）の数に寝る前（起床時）の分が入っていてもおかしくないので、袋に入れない
+        flags.add(NOTE_NO_DOSE);
+        per[slot] = 0;
+      }
     }
   }
   const same = per.morning === item.per_timing.morning && per.noon === item.per_timing.noon && per.evening === item.per_timing.evening;

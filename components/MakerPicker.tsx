@@ -12,6 +12,10 @@ import {
 } from "@/lib/makers";
 import type { Tablet } from "@/lib/types";
 import { previousAdopted } from "@/lib/master";
+import { buildRuleOverrideRecord, type RuleOverrideRecord } from "@/lib/matching";
+
+/** 一覧の札（lib/matching.ts の explainCandidate の結果） */
+export type Explained = { kind: "auto" | "candidate" | "ruleOut" | "discontinued" | "other"; reason: string | null };
 
 export type MakerScope = "今回だけ" | "これから";
 export type MakerOverride = { candidate: MakerCandidate; scope: MakerScope };
@@ -32,6 +36,9 @@ export function DrugPicker({
   facility,
   sameDrug,
   master,
+  explain,
+  rxName,
+  onOverrideRecord,
   matchNote,
   override,
   onChoose,
@@ -40,9 +47,15 @@ export function DrugPicker({
   setChangedBy,
 }: {
   facility: Tablet | undefined;
-  /** 照合の候補と、同じ薬（drug_key）の施設の採用品 */
-  sameDrug: Tablet[];
+  /** 照合の候補と、同じ薬（drug_key）の施設の採用品。1 件ずつ選んだらどうなるかの札つき */
+  sameDrug: { t: Tablet; ex: Explained }[];
   master: Tablet[];
+  /** この行で製品を選んだらどうなるか（札）。「別の薬から探す」の一覧に使う */
+  explain: (t: Tablet) => Explained;
+  /** 処方箋の薬品名（ルール外を選んだ記録に残す） */
+  rxName: string;
+  /** ルール外・採用中止・候補にとどめた製品を手で選んだときの記録（理由・変更者つき） */
+  onOverrideRecord: (r: RuleOverrideRecord) => void;
   /** 照合の一言（候補にとどめた理由・事前合意など） */
   matchNote: string | null | undefined;
   override: MakerOverride | null;
@@ -58,10 +71,13 @@ export function DrugPicker({
   const [picked, setPicked] = useState<MakerCandidate | null>(null);
   const [searching, setSearching] = useState(false);
   const [query, setQuery] = useState("");
+  const [pending, setPending] = useState<{ t: Tablet; ex: Explained } | null>(null); // 札つきの製品を選ぶ前の、理由の入力
+  const [reason, setReason] = useState("");
+  const [overrideError, setOverrideError] = useState<string | null>(null);
 
   const unknown = isMakerUnknown(facility?.maker_state);
   const previous = previousAdopted(facility?.drug_key); // メーカー切替で採用をやめた製品（「以前の採用」の札）
-  const adoptedKeys = new Set(sameDrug.map((t) => t.product_key ?? t.brand_name));
+  const adoptedKeys = new Set(sameDrug.map(({ t }) => t.product_key ?? t.brand_name));
   const outside = (candidates ?? []).filter((c) => !adoptedKeys.has(c.product_key)); // 採用外（親マスタの他社）
 
   async function openList() {
@@ -96,11 +112,30 @@ export function DrugPicker({
     setOpen(false);
     setSearching(false);
   }
+  /** 札（ルール外・採用中止・候補にとどめた理由）のある製品は、理由と変更者を入れてから選ぶ */
+  function pickLabelled(t: Tablet, ex: Explained) {
+    if (ex.kind === "auto" || ex.kind === "other") return selectTablet(t.id);
+    setPending({ t, ex });
+    setReason("");
+    setOverrideError(null);
+  }
+  function confirmLabelled() {
+    if (!pending) return;
+    try {
+      const rec = buildRuleOverrideRecord({ name_as_written: rxName, product: pending.t, rule: pending.ex.reason ?? pending.ex.kind, reason, changed_by: changedBy });
+      onOverrideRecord(rec);
+      setPending(null);
+      selectTablet(pending.t.id);
+    } catch (e) {
+      setOverrideError(e instanceof Error ? e.message : String(e));
+    }
+  }
 
   const shownName = override ? override.candidate.brand_name : facility?.brand_name;
   const shownUnverified = override ? override.candidate.status !== "verified" : facility ? facility.status !== "verified" : false;
   const q = query.normalize("NFKC").trim().toLowerCase();
-  const hits = q ? master.filter((m) => `${m.brand_name}${m.generic_name}`.normalize("NFKC").toLowerCase().includes(q)) : master;
+  // 施設のマスタ全体。採用中止（adopted:false）・ルール外・候補にとどめる製品には札をつける（explain が adopted も見る）
+  const hits = (q ? master.filter((m) => `${m.brand_name}${m.generic_name}`.normalize("NFKC").toLowerCase().includes(q)) : master).map((m) => ({ m, ex: explain(m), adopted: m.adopted }));
 
   return (
     <div className="mt-2 rounded-lg border border-slate-200 bg-slate-50 px-2 py-2 text-xs">
@@ -135,12 +170,12 @@ export function DrugPicker({
           {matchNote && <p className="rounded bg-white px-2 py-1 text-slate-700">{matchNote}</p>}
           {sameDrug.length > 0 && <div className="font-semibold text-slate-600">施設の採用品</div>}
           <ul className="space-y-1">
-            {sameDrug.map((t) => (
+            {sameDrug.map(({ t, ex }) => (
               <li key={t.id}>
                 <button
                   type="button"
                   aria-pressed={t.id === facility?.id && !override}
-                  onClick={() => selectTablet(t.id)}
+                  onClick={() => (t.id === facility?.id ? selectTablet(t.id) : pickLabelled(t, ex))}
                   className={`w-full rounded-lg border px-2 py-2 text-left ${t.id === facility?.id && !override ? "border-blue-600 bg-blue-50" : "border-slate-200 bg-white"}`}
                 >
                   <div className="flex flex-wrap items-center gap-1">
@@ -149,11 +184,13 @@ export function DrugPicker({
                     {t.status !== "verified" && <span className="rounded bg-amber-500 px-1 text-white">未確認</span>}
                     {isMakerUnknown(t.maker_state) && <span className="rounded bg-amber-500 px-1 text-white">メーカー未確定</span>}
                   </div>
+                  {ex.reason && t.id !== facility?.id && <ReasonTag ex={ex} />}
                   <div className="font-mono text-slate-700">{imprintLine(t.imprint_front, t.imprint_back)}</div>
                 </button>
               </li>
             ))}
           </ul>
+          {pending && <OverrideForm pending={pending} reason={reason} setReason={setReason} changedBy={changedBy} setChangedBy={setChangedBy} error={overrideError} onOk={confirmLabelled} onCancel={() => setPending(null)} />}
           {busy && <p className="text-slate-500">採用外の製品を読んでいます…</p>}
           {error && <p className="text-red-700">{error}</p>}
           {outside.length > 0 && <div className="font-semibold text-slate-600">採用外（同じ成分・規格・剤形の他社）</div>}
@@ -234,20 +271,66 @@ export function DrugPicker({
                 （該当なし・未選択）
               </button>
             </li>
-            {hits.map((m) => (
+            {hits.map(({ m, ex }) => (
               <li key={m.id}>
-                <button type="button" onClick={() => selectTablet(m.id)} className="w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-left">
+                <button type="button" onClick={() => pickLabelled(m, ex)} className="w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-left">
                   <span className="text-sm">{m.brand_name}</span>
                   {m.status !== "verified" && <span className="ml-1 rounded bg-amber-500 px-1 text-white">未確認</span>}
+                  {ex.kind !== "auto" && ex.kind !== "other" && <ReasonTag ex={ex} />}
                 </button>
               </li>
             ))}
           </ul>
+          {pending && <OverrideForm pending={pending} reason={reason} setReason={setReason} changedBy={changedBy} setChangedBy={setChangedBy} error={overrideError} onOk={confirmLabelled} onCancel={() => setPending(null)} />}
           <button type="button" onClick={() => setSearching(false)} className="w-full rounded-lg border border-slate-300 py-2">
             同じ薬の一覧に戻る
           </button>
         </div>
       )}
+    </div>
+  );
+}
+
+/** 一覧の 1 件の札：候補にとどめる理由（入れ替えない組・事前合意があれば選択可 など）、ルール外の理由、採用中止、置き換え */
+function ReasonTag({ ex }: { ex: Explained }) {
+  const label = ex.kind === "ruleOut" ? `ルール外：${ex.reason}` : ex.kind === "discontinued" ? ex.reason : ex.kind === "auto" ? ex.reason : ex.reason ?? "候補";
+  if (!label) return null;
+  const cls = ex.kind === "auto" ? "bg-sky-100 text-sky-900" : ex.kind === "candidate" ? "bg-amber-100 text-amber-900" : "bg-red-100 text-red-900";
+  return <div className={`mt-0.5 rounded px-1 text-[11px] ${cls}`}>{label}</div>;
+}
+
+/** 札のある製品を選ぶ前に、理由と変更者を入れる（lib/matching.ts の buildRuleOverrideRecord で記録を作る。保存はまだしない） */
+function OverrideForm({ pending, reason, setReason, changedBy, setChangedBy, error, onOk, onCancel }: {
+  pending: { t: Tablet; ex: Explained };
+  reason: string;
+  setReason: (s: string) => void;
+  changedBy: string;
+  setChangedBy: (s: string) => void;
+  error: string | null;
+  onOk: () => void;
+  onCancel: () => void;
+}) {
+  return (
+    <div className="space-y-2 rounded-lg border border-red-300 bg-white p-2">
+      <div>
+        <b>{pending.t.brand_name}</b> を選ぶには理由と変更者が要ります
+        <ReasonTag ex={pending.ex} />
+      </div>
+      <label className="block text-slate-600">
+        理由（例：医師に確認済み）
+        <input value={reason} onChange={(e) => setReason(e.target.value)} className="mt-0.5 w-full rounded border border-slate-300 px-2 py-1 text-base" />
+      </label>
+      <label className="block text-slate-600">
+        変更者
+        <input value={changedBy} onChange={(e) => setChangedBy(e.target.value)} placeholder="名前またはイニシャル" className="mt-0.5 w-full rounded border border-slate-300 px-2 py-1 text-base" />
+      </label>
+      {error && <p className="text-red-700">{error}</p>}
+      <div className="flex gap-2">
+        <button type="button" onClick={onCancel} className="rounded-lg border border-slate-300 px-3 py-2">やめる</button>
+        <button type="button" disabled={!reason.trim() || !changedBy.trim()} onClick={onOk} className="flex-1 rounded-lg bg-red-700 py-2 font-bold text-white disabled:opacity-40">
+          理由を記録して選ぶ
+        </button>
+      </div>
     </div>
   );
 }
@@ -301,6 +384,18 @@ export function ChangeLog({ records, onRemove }: { records: ChangeRecord[]; onRe
       <button type="button" onClick={download} className="mt-1 w-full rounded-lg bg-violet-700 py-2 font-bold text-white">
         {format.toUpperCase()} をダウンロード
       </button>
+    </div>
+  );
+}
+
+/** 札のある製品を手で選んだ記録（理由・変更者つき）。保存はまだしないので JSON の文字として確認係に渡す */
+export function OverrideLog({ overrides }: { overrides: RuleOverrideRecord[] }) {
+  if (!overrides.length) return null;
+  return (
+    <div className="rounded-xl border border-red-300 bg-red-50 p-3 text-sm">
+      <div className="font-semibold">決まりの外の製品を手で選んだ記録（{overrides.length} 件）</div>
+      <p className="mt-1 text-xs text-red-900">保存はまだ作っていません。画面を閉じると消えます。文字をコピーして確認係に渡してください。</p>
+      <textarea readOnly value={JSON.stringify(overrides, null, 2)} rows={Math.min(10, overrides.length * 8)} className="mt-2 w-full rounded border border-slate-300 bg-white p-2 font-mono text-[11px]" onFocus={(e) => e.currentTarget.select()} />
     </div>
   );
 }
