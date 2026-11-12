@@ -2,7 +2,7 @@
 
 - 施設のマスタ：`data/rx-testset/facility.json`（90 件、採用中止 2、メーカー未確定 2、別名あり 4）
 - 正解：`data/rx-testset/expected-adopted.csv`（145 行）。照合はアプリの `lib/master.ts` の matchTablet をそのまま使った（`node scripts/eval/score-adopted.mjs`、決まりはスクリプト先頭）
-- 作成：2026-11-12T09:21:23.383Z
+- 作成：2026-11-12T09:23:27.637Z
 - メーカー未確定の判定は feature/maker-select の決まり（maker_state が「未選択」か「両方」）。**main のアプリはまだ表示できない**ので、main では「正しく未確定」の 4 行もそのまま製品として描かれる
 
 ## 正解の読み取りで（読み取りの誤りを含まない、選択だけの正しさ）
@@ -36,15 +36,15 @@
 
 なし
 
-## 読み取り結果で（`captures/rx-runs/sonnet-photos`、13 撮影）
+## 読み取り結果で（`captures/rx-runs/sonnet-photos`、20 撮影）
 
-正しい 91/91（100.0%）
+正しい 145/145（100.0%）
 
 | 判定 | 行 |
 | --- | --- |
-| 正しい製品 | 86 |
-| 正しく採用なし | 2 |
-| 正しく未確定 | 3 |
+| 正しい製品 | 134 |
+| 正しく採用なし | 7 |
+| 正しく未確定 | 4 |
 
 | 正しくない行の原因 | 行 |
 | --- | --- |
@@ -55,16 +55,18 @@
 
 | 狙い | 行 | 正しい | 正解率 |
 | --- | --- | --- | --- |
-| brand_to_generic | 3 | 3 | 100.0% |
-| brand_to_generic_noalias | 4 | 4 | 100.0% |
-| discontinued | 1 | 1 | 100.0% |
-| exact | 68 | 68 | 100.0% |
-| general_name | 8 | 8 | 100.0% |
-| maker_diff | 4 | 4 | 100.0% |
-| maker_unknown | 3 | 3 | 100.0% |
-| not_adopted | 1 | 1 | 100.0% |
-| od_plain | 2 | 2 | 100.0% |
-| release | 1 | 1 | 100.0% |
+| brand_to_generic | 4 | 4 | 100.0% |
+| brand_to_generic_noalias | 6 | 6 | 100.0% |
+| combo | 4 | 4 | 100.0% |
+| discontinued | 2 | 2 | 100.0% |
+| exact | 108 | 108 | 100.0% |
+| general_name | 12 | 12 | 100.0% |
+| maker_diff | 5 | 5 | 100.0% |
+| maker_unknown | 4 | 4 | 100.0% |
+| not_adopted | 5 | 5 | 100.0% |
+| od_plain | 4 | 4 | 100.0% |
+| release | 3 | 3 | 100.0% |
+| strength | 1 | 1 | 100.0% |
 
 ### 読み取りの誤りで選択が変わった行（最大 40／0）
 

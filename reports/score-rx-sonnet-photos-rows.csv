@@ -90,3 +90,57 @@ rx13__AKI__iphone__clean,rx13,AKI,iphone,clean,04,1,ジャディアンス錠10mg
 rx13__AKI__iphone__clean,rx13,AKI,iphone,clean,05,1,メトグルコ錠500mg,05,メトグルコ錠500mg,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,500mg,1-0-1,11,none,false
 rx13__AKI__iphone__clean,rx13,AKI,iphone,clean,06,1,ラベプラゾールNa錠10mg「オーハラ」,06,ラベプラゾールNa錠10mg「オーハラ」,name_note odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,0-0-1,11,none,false
 rx13__AKI__iphone__clean,rx13,AKI,iphone,clean,07,1,フォリアミン錠5mg,07,フォリアミン錠5mg,manual_mark odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mg,1-0-0,11,none,true
+rx14__AKI__iphone__clean,rx14,AKI,iphone,clean,01,1,(K)アスパラカリウム錠300mg,01,(K)アスパラカリウム錠300mg,manual_mark nonuniform_dosing prefix separate_pack two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,300mg,2-0-1,35,exclude,true
+rx14__AKI__iphone__clean,rx14,AKI,iphone,clean,02,1,エリキュース錠5mg,02,エリキュース錠5mg,manual_mark,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mg,1-0-1,35,none,true
+rx14__AKI__iphone__clean,rx14,AKI,iphone,clean,03,1,シベンゾリンコハク酸塩錠100mg「トーワ」,03,シベンゾリンコハク酸塩錠100mg「トーワ」,manual_mark,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100mg,1-0-1,35,none,true
+rx14__AKI__iphone__clean,rx14,AKI,iphone,clean,04,1,ジゴシン錠0.125mg,04,ジゴシン錠0.125mg,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.125mg,1-0-0,35,none,false
+rx14__AKI__iphone__clean,rx14,AKI,iphone,clean,05,1,アゾセミド錠60mg「JG」,05,アゾセミド錠60mg「JG」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,60mg,1-0-0,35,none,false
+rx14__AKI__iphone__clean,rx14,AKI,iphone,clean,06,1,トラセミド錠4mg「KO」,06,トラセミド錠4mg「KO」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4mg,1-0-0,35,none,false
+rx14__AKI__iphone__clean,rx14,AKI,iphone,clean,07,1,アルダクトンA錠25mg,07,アルダクトンA錠25mg,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,25mg,1-0-0,35,none,false
+rx15__AKI__iphone__clean,rx15,AKI,iphone,clean,01,1,【般】アムロジピン口腔内崩壊錠5mg,01,【般】アムロジピン口腔内崩壊錠5mg,general_name lookalike,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mg,1-0-0,42,none,false
+rx15__AKI__iphone__clean,rx15,AKI,iphone,clean,02,1,【般】ニフェジピン徐放錠20mg,02,【般】ニフェジピン徐放錠20mg,general_name lookalike name_note,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20mg,1-0-0,42,none,false
+rx15__AKI__iphone__clean,rx15,AKI,iphone,clean,03,1,【般】ニフェジピン徐放錠10mg,03,【般】ニフェジピン徐放錠10mg,general_name lookalike name_note,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,1-0-1,42,none,false
+rx15__AKI__iphone__clean,rx15,AKI,iphone,clean,04,1,アジルサルタン錠20mg「ニプロ」,04,アジルサルタン錠20mg「ニプロ」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20mg,1-0-0,42,none,false
+rx15__AKI__iphone__clean,rx15,AKI,iphone,clean,05,1,ドンペリドン錠10mg「サワイ」,05,ドンペリドン錠10mg「サワイ」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,1-1-1,42,none,false
+rx15__AKI__iphone__clean,rx15,AKI,iphone,clean,06,1,レバミピド錠100mg「サワイ」,06,レバミピド錠100mg「サワイ」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100mg,1-1-1,42,none,false
+rx15__AKI__iphone__clean,rx15,AKI,iphone,clean,07,2,ゾルピデム酒石酸塩錠5mg「サワイ」,07,ゾルピデム酒石酸塩錠5mg「サワイ」,bedtime page2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mg,0-0-0,42,none,false
+rx15__AKI__iphone__clean,rx15,AKI,iphone,clean,08,2,リボトリール錠0.5mg,08,リボトリール錠0.5mg,manual_mark page2 two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.5mg,0-0-2,42,none,true
+rx15__AKI__iphone__clean,rx15,AKI,iphone,clean,09,2,クエン酸第一鉄Na錠50mg「NIG」,09,クエン酸第一鉄Na錠50mg「NIG」,page2 separate_pack,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,50mg,0-0-1,42,exclude,false
+rx15__AKI__iphone__clean,rx15,AKI,iphone,clean,10,2,センノシド錠12mg「サワイ」,10,センノシド錠12mg「サワイ」,bedtime nonuniform_dosing page2 two_per_dose,1,1,1,1,0,1,1,1,1,0,0,0,1,1,1,1,1,0,12mg,0-0-2,42,none,false
+rx16__AKI__iphone__clean,rx16,AKI,iphone,clean,01,1,ユニシア配合錠HD,01,ユニシア配合錠HD,combo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,HD,1-0-0,14,none,false
+rx16__AKI__iphone__clean,rx16,AKI,iphone,clean,02,1,ノイロビタン配合錠,02,ノイロビタン配合錠,combo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,1-1-1,14,none,false
+rx16__AKI__iphone__clean,rx16,AKI,iphone,clean,03,1,ウラリット配合錠,03,ウラリット配合錠,combo two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,2-2-2,14,none,false
+rx16__AKI__iphone__clean,rx16,AKI,iphone,clean,04,1,バファリン配合錠A81,04,バファリン配合錠A81,combo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,A81,1-0-0,14,none,false
+rx16__AKI__iphone__clean,rx16,AKI,iphone,clean,05,1,ロキソプロフェンNa錠60mg「サワイ」,05,ロキソプロフェンNa錠60mg「サワイ」,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,60mg,1-1-1,14,none,false
+rx16__AKI__iphone__clean,rx16,AKI,iphone,clean,06,1,ドキサゾシン錠1mg「トーワ」,06,ドキサゾシン錠1mg「トーワ」,manual_mark,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1mg,0-0-1,14,none,true
+rx17__AKI__iphone__clean,rx17,AKI,iphone,clean,01,1,ラベプラゾールNa錠10mg「オーハラ」,01,ラベプラゾールNa錠10mg「オーハラ」,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,0-1-0,19,none,false
+rx17__AKI__iphone__clean,rx17,AKI,iphone,clean,02,1,モサプリドクエン酸塩錠5mg「AA」,02,モサプリドクエン酸塩錠5mg「AA」,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mg,1-1-1,19,none,false
+rx17__AKI__iphone__clean,rx17,AKI,iphone,clean,03,1,メチコバール錠500μg,03,メチコバール錠500μg,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,500μg,0-1-1,19,none,false
+rx17__AKI__iphone__clean,rx17,AKI,iphone,clean,04,1,ピタバスタチンCa錠2mg「日医工」,04,ピタバスタチンCa錠2mg「日医工」,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2mg,0-0-1,19,none,false
+rx17__AKI__iphone__clean,rx17,AKI,iphone,clean,05,1,プレガバリンOD錠75mg「JG」,05,プレガバリンOD錠75mg「JG」,bedtime manual_mark nonuniform_dosing odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,75mg,1-0-1,19,none,true
+rx17__AKI__iphone__clean,rx17,AKI,iphone,clean,06,1,アロプリノール錠100mg「サワイ」,06,アロプリノール錠100mg「サワイ」,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100mg,1-1-0,19,none,false
+rx18__AKI__iphone__clean,rx18,AKI,iphone,clean,01,1,ワーファリン錠1mg,01,ワーファリン錠1mg,multi_strength two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1mg,2-0-0,28,none,false
+rx18__AKI__iphone__clean,rx18,AKI,iphone,clean,02,1,ワーファリン錠0.5mg,02,ワーファリン錠0.5mg,multi_strength,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.5mg,1-0-0,28,none,false
+rx18__AKI__iphone__clean,rx18,AKI,iphone,clean,03,1,エンレスト錠200mg,03,エンレスト錠200mg,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,200mg,1-0-1,28,none,false
+rx18__AKI__iphone__clean,rx18,AKI,iphone,clean,04,1,アーチスト錠10mg,04,アーチスト錠10mg,brand_generic_stock,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,1-0-1,28,none,false
+rx18__AKI__iphone__clean,rx18,AKI,iphone,clean,05,1,ラシックス錠20mg,05,ラシックス錠20mg,brand_generic_stock two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20mg,2-0-0,28,none,false
+rx18__AKI__iphone__clean,rx18,AKI,iphone,clean,06,1,ジャディアンス錠10mg,06,ジャディアンス錠10mg,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,1-0-0,28,none,false
+rx18__AKI__iphone__clean,rx18,AKI,iphone,clean,07,1,ダーブロック錠4mg,07,ダーブロック錠4mg,manual_mark,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4mg,0-0-1,28,none,true
+rx19__AKI__iphone__clean,rx19,AKI,iphone,clean,01,1,エソメプラゾールカプセル20mg「サワイ」,01,エソメプラゾールカプセル20mg「サワイ」,capsule odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20mg,0-0-1,5,none,false
+rx19__AKI__iphone__clean,rx19,AKI,iphone,clean,02,1,イコサペント酸エチルカプセル300mg「サワイ」,02,イコサペント酸エチルカプセル300mg「サワイ」,capsule odd_days separate_pack two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,300mg,2-2-2,5,exclude,false
+rx19__AKI__iphone__clean,rx19,AKI,iphone,clean,03,1,アルファカルシドールカプセル1μg「サワイ」,03,アルファカルシドールカプセル1μg「サワイ」,capsule odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1μg,1-0-0,5,none,false
+rx19__AKI__iphone__clean,rx19,AKI,iphone,clean,04,1,エディロールカプセル0.75μg,04,エディロールカプセル0.75μg,capsule odd_days separate_pack,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.75μg,1-0-0,5,exclude,false
+rx19__AKI__iphone__clean,rx19,AKI,iphone,clean,05,1,グルコンサンK錠5mEq,05,グルコンサンK錠5mEq,odd_days separate_pack two_per_dose unit_meq,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mEq,2-0-2,5,exclude,false
+rx19__AKI__iphone__clean,rx19,AKI,iphone,clean,06,1,プレドニゾロン錠5mg「NP」,06,プレドニゾロン錠5mg「NP」,nonuniform_dosing odd_days two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mg,3-2-0,5,none,false
+rx19__AKI__iphone__clean,rx19,AKI,iphone,clean,07,1,ファモチジン錠20mg「トーワ」,07,ファモチジン錠20mg「トーワ」,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20mg,1-0-1,5,none,false
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,01,1,(K)アスパラカリウム錠300mg,01,(K)アスパラカリウム錠300mg,manual_mark odd_days prefix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,300mg,1-1-1,13,none,true
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,02,1,【般】カルベジロール錠2.5mg,02,【般】カルベジロール錠2.5mg,general_name multi_strength odd_days two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2.5mg,2-0-2,13,none,false
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,03,1,カルベジロール錠10mg「トーワ」,03,カルベジロール錠10mg「トーワ」,multi_strength odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10mg,1-0-0,13,none,false
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,04,1,アムロジピンOD錠2.5mg「武田テバ」,04,アムロジピンOD錠2.5mg「武田テバ」,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2.5mg,0-0-1,13,none,false
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,05,1,ニフェジピンCR錠40mg「サワイ」,05,ニフェジピンCR錠40mg「サワイ」,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,40mg,1-0-0,13,none,false
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,06,1,エナラプリルマレイン酸塩錠5mg「トーワ」,06,エナラプリルマレイン酸塩錠5mg「トーワ」,odd_days,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5mg,1-0-0,13,none,false
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,07,2,(Ca)アスパラ-CA錠200mg,07,(Ca)アスパラ-CA錠200mg,odd_days page2 prefix separate_pack two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,200mg,3-3-3,13,exclude,false
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,08,2,エリキュース錠2.5mg,08,エリキュース錠2.5mg,manual_mark odd_days page2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2.5mg,1-0-1,13,none,true
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,09,2,メチコバール錠250μg,09,メチコバール錠250μg,lookalike odd_days page2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,250μg,1-1-1,13,none,false
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,10,2,ブロチゾラムOD錠0.25mg「サワイ」,10,ブロチゾラムOD錠0.25mg「サワイ」,bedtime odd_days page2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.25mg,0-0-0,13,none,false
+rx20__AKI__iphone__clean,rx20,AKI,iphone,clean,11,2,ウルソデオキシコール酸錠100mg「トーワ」,11,ウルソデオキシコール酸錠100mg「トーワ」,nonuniform_dosing odd_days page2 two_per_dose,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100mg,2-1-2,13,none,false

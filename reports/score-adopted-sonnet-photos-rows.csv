@@ -235,3 +235,57 @@ rx13__AKI__iphone__clean,rx13,04,ジャディアンス錠10mg,ジャディアン
 rx13__AKI__iphone__clean,rx13,05,メトグルコ錠500mg,メトホルミン塩酸塩錠500mgMT「トーワ」,,メトホルミン塩酸塩錠500mgMT「トーワ」,1,1,ok_product,,brand_to_generic
 rx13__AKI__iphone__clean,rx13,06,ラベプラゾールNa錠10mg「オーハラ」,ラベプラゾールNa錠10mg「オーハラ」,,ラベプラゾールNa錠10mg「オーハラ」,1,0,ok_product,,exact
 rx13__AKI__iphone__clean,rx13,07,フォリアミン錠5mg,フォリアミン錠5mg,,フォリアミン錠5mg,1,0,ok_product,,exact
+rx14__AKI__iphone__clean,rx14,01,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,,アスパラカリウム錠300mg,1,0,ok_product,,exact
+rx14__AKI__iphone__clean,rx14,02,エリキュース錠5mg,エリキュース錠5mg,,エリキュース錠5mg,1,0,ok_product,,exact
+rx14__AKI__iphone__clean,rx14,03,シベンゾリンコハク酸塩錠100mg「トーワ」,シベンゾリンコハク酸塩錠100mg「トーワ」,,シベンゾリンコハク酸塩錠100mg「トーワ」,1,0,ok_product,,exact
+rx14__AKI__iphone__clean,rx14,04,ジゴシン錠0.125mg,採用なし,,,0,0,ok_none,,not_adopted
+rx14__AKI__iphone__clean,rx14,05,アゾセミド錠60mg「JG」,アゾセミド錠60mg「JG」,,アゾセミド錠60mg「JG」,1,0,ok_product,,exact
+rx14__AKI__iphone__clean,rx14,06,トラセミド錠4mg「KO」,トラセミド錠4mg「KO」,,トラセミド錠4mg「KO」,1,0,ok_product,,exact
+rx14__AKI__iphone__clean,rx14,07,アルダクトンA錠25mg,スピロノラクトン錠25mg「トーワ」,,スピロノラクトン錠25mg「トーワ」,1,1,ok_product,,brand_to_generic_noalias
+rx15__AKI__iphone__clean,rx15,01,【般】アムロジピン口腔内崩壊錠5mg,アムロジピンOD錠5mg「サワイ」,,アムロジピンOD錠5mg「サワイ」,1,1,ok_product,,general_name od_plain
+rx15__AKI__iphone__clean,rx15,02,【般】ニフェジピン徐放錠20mg,ニフェジピンCR錠20mg「サワイ」,,ニフェジピンCR錠20mg「サワイ」,1,1,ok_product,,general_name release
+rx15__AKI__iphone__clean,rx15,03,【般】ニフェジピン徐放錠10mg,ニフェジピンL錠10mg「トーワ」,,ニフェジピンL錠10mg「トーワ」,1,1,ok_product,,general_name release
+rx15__AKI__iphone__clean,rx15,04,アジルサルタン錠20mg「ニプロ」,アジルサルタン錠20mg「ニプロ」,,アジルサルタン錠20mg「ニプロ」,1,0,ok_product,,exact
+rx15__AKI__iphone__clean,rx15,05,ドンペリドン錠10mg「サワイ」,採用なし,,,0,0,ok_none,,not_adopted
+rx15__AKI__iphone__clean,rx15,06,レバミピド錠100mg「サワイ」,レバミピド錠100mg「サワイ」,,レバミピド錠100mg「サワイ」,1,0,ok_product,,exact
+rx15__AKI__iphone__clean,rx15,07,ゾルピデム酒石酸塩錠5mg「サワイ」,ゾルピデム酒石酸塩錠5mg「サワイ」,,ゾルピデム酒石酸塩錠5mg「サワイ」,1,0,ok_product,,exact
+rx15__AKI__iphone__clean,rx15,08,リボトリール錠0.5mg,リボトリール錠0.5mg,,リボトリール錠0.5mg,1,0,ok_product,,exact
+rx15__AKI__iphone__clean,rx15,09,クエン酸第一鉄Na錠50mg「NIG」,クエン酸第一鉄Na錠50mg「NIG」,,クエン酸第一鉄Na錠50mg「NIG」,1,0,ok_product,,exact
+rx15__AKI__iphone__clean,rx15,10,センノシド錠12mg「サワイ」,センノシド錠12mg「サワイ」,,センノシド錠12mg「サワイ」,1,0,ok_product,,exact
+rx16__AKI__iphone__clean,rx16,01,ユニシア配合錠HD,ユニシア配合錠HD,,ユニシア配合錠HD,1,0,ok_product,,exact combo
+rx16__AKI__iphone__clean,rx16,02,ノイロビタン配合錠,ノイロビタン配合錠,,ノイロビタン配合錠,1,0,ok_product,,exact combo
+rx16__AKI__iphone__clean,rx16,03,ウラリット配合錠,ウラリット配合錠,,ウラリット配合錠,1,0,ok_product,,exact combo
+rx16__AKI__iphone__clean,rx16,04,バファリン配合錠A81,採用なし,,,0,0,ok_none,,not_adopted combo
+rx16__AKI__iphone__clean,rx16,05,ロキソプロフェンNa錠60mg「サワイ」,採用なし,,,0,0,ok_none,,discontinued
+rx16__AKI__iphone__clean,rx16,06,ドキサゾシン錠1mg「トーワ」,ドキサゾシン錠1mg「トーワ」,,ドキサゾシン錠1mg「トーワ」,1,0,ok_product,,exact
+rx17__AKI__iphone__clean,rx17,01,ラベプラゾールNa錠10mg「オーハラ」,ラベプラゾールNa錠10mg「オーハラ」,,ラベプラゾールNa錠10mg「オーハラ」,1,0,ok_product,,exact
+rx17__AKI__iphone__clean,rx17,02,モサプリドクエン酸塩錠5mg「AA」,モサプリドクエン酸塩錠5mg「AA」,,モサプリドクエン酸塩錠5mg「AA」,1,0,ok_product,,exact
+rx17__AKI__iphone__clean,rx17,03,メチコバール錠500μg,メチコバール錠500μg,,メチコバール錠500μg,1,0,ok_product,,exact
+rx17__AKI__iphone__clean,rx17,04,ピタバスタチンCa錠2mg「日医工」,ピタバスタチンCa錠2mg「日医工」,,ピタバスタチンCa錠2mg「日医工」,1,0,ok_product,,exact
+rx17__AKI__iphone__clean,rx17,05,プレガバリンOD錠75mg「JG」,プレガバリンOD錠75mg「JG」,,プレガバリンOD錠75mg「JG」,1,0,ok_product,,exact
+rx17__AKI__iphone__clean,rx17,06,アロプリノール錠100mg「サワイ」,アロプリノール錠100mg「サワイ」,,アロプリノール錠100mg「サワイ」,1,0,ok_product,,exact
+rx18__AKI__iphone__clean,rx18,01,ワーファリン錠1mg,ワーファリン錠1mg,,ワーファリン錠1mg,1,0,ok_product,,exact
+rx18__AKI__iphone__clean,rx18,02,ワーファリン錠0.5mg,ワーファリン錠0.5mg,,ワーファリン錠0.5mg,1,0,ok_product,,exact
+rx18__AKI__iphone__clean,rx18,03,エンレスト錠200mg,エンレスト錠200mg,,エンレスト錠200mg,1,0,ok_product,,exact
+rx18__AKI__iphone__clean,rx18,04,アーチスト錠10mg,カルベジロール錠10mg「トーワ」,,カルベジロール錠10mg「トーワ」,1,1,ok_product,,brand_to_generic_noalias
+rx18__AKI__iphone__clean,rx18,05,ラシックス錠20mg,フロセミド錠20mg「NP」,,フロセミド錠20mg「NP」,1,1,ok_product,,brand_to_generic
+rx18__AKI__iphone__clean,rx18,06,ジャディアンス錠10mg,ジャディアンス錠10mg,,ジャディアンス錠10mg,1,0,ok_product,,exact
+rx18__AKI__iphone__clean,rx18,07,ダーブロック錠4mg,ダーブロック錠4mg,,ダーブロック錠4mg,1,0,ok_product,,exact
+rx19__AKI__iphone__clean,rx19,01,エソメプラゾールカプセル20mg「サワイ」,エソメプラゾールカプセル20mg「サワイ」,,エソメプラゾールカプセル20mg「サワイ」,1,0,ok_product,,exact
+rx19__AKI__iphone__clean,rx19,02,イコサペント酸エチルカプセル300mg「サワイ」,イコサペント酸エチルカプセル300mg「サワイ」,,イコサペント酸エチルカプセル300mg「サワイ」,1,0,ok_product,,exact
+rx19__AKI__iphone__clean,rx19,03,アルファカルシドールカプセル1μg「サワイ」,アルファカルシドールカプセル1μg「サワイ」,,アルファカルシドールカプセル1μg「サワイ」,1,0,ok_product,,exact
+rx19__AKI__iphone__clean,rx19,04,エディロールカプセル0.75μg,エディロールカプセル0.75μg,,エディロールカプセル0.75μg,1,0,ok_product,,exact
+rx19__AKI__iphone__clean,rx19,05,グルコンサンK錠5mEq,グルコンサンK錠5mEq,,グルコンサンK錠5mEq,1,0,ok_product,,exact
+rx19__AKI__iphone__clean,rx19,06,プレドニゾロン錠5mg「NP」,プレドニゾロン錠5mg「NP」,,プレドニゾロン錠5mg「NP」,1,0,ok_product,,exact
+rx19__AKI__iphone__clean,rx19,07,ファモチジン錠20mg「トーワ」,メーカー未確定,ファモチジン錠20mg「トーワ」,ファモチジン錠20mg「トーワ」,1,0,ok_pending,,maker_unknown
+rx20__AKI__iphone__clean,rx20,01,(K)アスパラカリウム錠300mg,アスパラカリウム錠300mg,,アスパラカリウム錠300mg,1,0,ok_product,,exact
+rx20__AKI__iphone__clean,rx20,02,【般】カルベジロール錠2.5mg,カルベジロール錠2.5mg「サワイ」,,カルベジロール錠2.5mg「サワイ」,1,1,ok_product,,general_name
+rx20__AKI__iphone__clean,rx20,03,カルベジロール錠10mg「トーワ」,カルベジロール錠10mg「トーワ」,,カルベジロール錠10mg「トーワ」,1,0,ok_product,,exact
+rx20__AKI__iphone__clean,rx20,04,アムロジピンOD錠2.5mg「武田テバ」,アムロジピンOD錠2.5mg「武田テバ」,,アムロジピンOD錠2.5mg「武田テバ」,1,0,ok_product,,exact
+rx20__AKI__iphone__clean,rx20,05,ニフェジピンCR錠40mg「サワイ」,ニフェジピンCR錠40mg「サワイ」,,ニフェジピンCR錠40mg「サワイ」,1,0,ok_product,,exact
+rx20__AKI__iphone__clean,rx20,06,エナラプリルマレイン酸塩錠5mg「トーワ」,エナラプリルマレイン酸塩錠5mg「トーワ」,,エナラプリルマレイン酸塩錠5mg「トーワ」,1,0,ok_product,,exact
+rx20__AKI__iphone__clean,rx20,07,(Ca)アスパラ-CA錠200mg,アスパラ-CA錠200mg,,アスパラ-CA錠200mg,1,0,ok_product,,exact
+rx20__AKI__iphone__clean,rx20,08,エリキュース錠2.5mg,エリキュース錠2.5mg,,エリキュース錠2.5mg,1,0,ok_product,,exact
+rx20__AKI__iphone__clean,rx20,09,メチコバール錠250μg,採用なし,,,0,0,ok_none,,not_adopted strength
+rx20__AKI__iphone__clean,rx20,10,ブロチゾラムOD錠0.25mg「サワイ」,ブロチゾラムOD錠0.25mg「JG」,,ブロチゾラムOD錠0.25mg「JG」,1,1,ok_product,,maker_diff od_plain
+rx20__AKI__iphone__clean,rx20,11,ウルソデオキシコール酸錠100mg「トーワ」,ウルソデオキシコール酸錠100mg「トーワ」,,ウルソデオキシコール酸錠100mg「トーワ」,1,0,ok_product,,exact
