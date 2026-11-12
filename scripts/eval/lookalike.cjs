@@ -128,7 +128,8 @@ async function main() {
   for (const r of out.current_params.positives) console.log("  拾う  ", line(r));
   for (const r of out.current_params.negatives) console.log("  拾わない", line(r));
   console.log(`\n条件を満たす数値 ${grid.length} 通り。いちばん割合の低いもの：${best ? `${JSON.stringify(best.p)} ${pct(best.rate)}` : "なし"}`);
-  if (best && JSON.stringify(best.p) !== JSON.stringify(LOOKALIKE_PARAMS)) console.log("※ lib/lookalike.ts の LOOKALIKE_PARAMS と違います");
+  if (best && JSON.stringify(best.p) !== JSON.stringify(LOOKALIKE_PARAMS))
+    console.log(`※ lib/lookalike.ts の LOOKALIKE_PARAMS は、これに余裕を足した数値（割合 ${pct(out.current_params.rate)}。差 ${pct(out.current_params.rate - best.rate)}）`);
 }
 
 main().catch((e) => {

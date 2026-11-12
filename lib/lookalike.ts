@@ -16,8 +16,11 @@ export type LookalikeParams = {
   maxColorDelta: number;
 };
 
-/** 既定の数値（scripts/eval/lookalike.cjs の結果。docs/status.md に件数） */
-export const LOOKALIKE_PARAMS: LookalikeParams = { maxLongDiff: 1.0, maxShortDiff: 0.5, maxThickDiff: 0.7, maxColorDelta: 16 };
+/**
+ * 既定の数値。scripts/eval/lookalike.cjs で割合のいちばん低い数値（長径 1.0・厚さ 0.7）は拾いたい組の差にちょうど乗っていたので、
+ * 安全のため長径 +0.2mm・厚さ +0.1mm の余裕を足した（品質 8a1c3b3）。短径・ΔE はそのまま
+ */
+export const LOOKALIKE_PARAMS: LookalikeParams = { maxLongDiff: 1.2, maxShortDiff: 0.5, maxThickDiff: 0.8, maxColorDelta: 16 };
 
 export type Look = {
   shape: string | null | undefined;
