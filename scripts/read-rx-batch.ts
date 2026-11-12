@@ -162,7 +162,7 @@ async function main() {
   }
   const { getClient } = await import("../lib/claude");
   const { readRx, READ_RX_MAX_TOKENS } = await import("../lib/readRx");
-  const { fillStrengthFromName } = await import("../lib/rxFix");
+  const { fillStrengthFromName, fixUsageAll } = await import("../lib/rxFix");
   if (READ_RX_MAX_TOKENS !== MAX_OUTPUT_TOKENS) {
     console.error(`lib/readRx.ts の max_tokens（${READ_RX_MAX_TOKENS}）とランナーの最悪の見積もり（${MAX_OUTPUT_TOKENS}）が違う。MAX_OUTPUT_TOKENS を直す`);
     process.exit(1);
@@ -202,7 +202,8 @@ async function main() {
         outSum += u.output;
         // アプリ（/api/read-rx）と同じ後処理：規格の欄が空なら薬品名から入れる（lib/rxFix.ts）。入れた行の数を残す
         const fixed = res.parsed_output ? fillStrengthFromName(res.parsed_output) : null;
-        Object.assign(rec, { result: fixed?.result ?? null, strength_filled: fixed?.filled ?? 0, usage: u, cost_usd: Number(c.toFixed(6)), stop_reason: res.stop_reason });
+        const usage = fixed ? fixUsageAll(fixed.result) : null;
+        Object.assign(rec, { result: usage?.result ?? null, strength_filled: fixed?.filled ?? 0, usage_fixed: usage?.fixed ?? 0, usage: u, cost_usd: Number(c.toFixed(6)), stop_reason: res.stop_reason });
         if (!res.parsed_output) rec.error = `読み取り結果を解釈できなかった（stop_reason=${res.stop_reason}）`;
       } catch (e) {
         rec.error = (e instanceof Error ? e.message : String(e)).slice(0, 300);

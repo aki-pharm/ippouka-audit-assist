@@ -1,6 +1,7 @@
 import { TIMINGS, type Timing, type RxItem, type RxRow, type RxReadResult, type Tablet } from "./types";
 import { findTablet, matchTablet } from "./master";
 import type { DrawnTablet } from "./makers";
+import { fixUsage } from "./rxFix.ts";
 
 /** 入れる／入れないの初期値。優先：行の別包指示 > 緑字の「含めて一包化」 > 施設ルール > 剤形 */
 export function defaultInclude(
@@ -18,7 +19,9 @@ export function defaultInclude(
 
 /** 読み取り結果 → 画面の行 */
 export function toRows(rx: RxReadResult): RxRow[] {
-  return rx.items.map((item, i) => {
+  return rx.items.map((raw, i) => {
+    // 寝る前の柵と「a-b-c-d-e-f で投与」の計算し直し（/api/read-rx でも当てているが、手で入れた結果・サンプルにも当てる。2 回当てても同じ）
+    const item = fixUsage(raw);
     const m = matchTablet(item.name_as_written, item.strength, { nameNote: item.name_note });
     const tablet = m.best ?? undefined;
     const d = defaultInclude(item, tablet, rx);
@@ -52,9 +55,11 @@ export function checkRow(row: RxRow): CheckFlag[] {
     if (Math.abs(row.dose_per_time * row.times_per_day - row.dose_per_day) > 1e-6)
       flags.push({ level: "warn", message: "読み取り値が一致しません（1回量×回数≠1日量）" });
   }
-  if (row.dose_per_day != null && row.dosage_form !== "other" && perSum !== row.dose_per_day)
+  for (const f of row.usage_flags ?? []) flags.push({ level: "warn", message: f });
+  // 寝る前・起床時などの分は袋に入れないので、朝昼夕の合計＋袋に入れない分で 1日量と比べる
+  if (row.dose_per_day != null && row.dosage_form !== "other" && perSum + (row.unplaced ?? 0) !== row.dose_per_day)
     flags.push({ level: "warn", message: `朝昼夕の合計(${perSum})と1日量(${row.dose_per_day})が一致しません` });
-  if (perSum === 0 && row.dosage_form !== "other")
+  if (perSum === 0 && !(row.unplaced ?? 0) && !(row.usage_flags ?? []).length && row.dosage_form !== "other")
     flags.push({ level: "warn", message: "服用時点（朝・昼・夕）が読み取れていません" });
   if (!row.tablet_id) {
     flags.push(

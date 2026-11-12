@@ -118,4 +118,6 @@ export type RxRow = RxItem & {
   include_reason: string; // 初期値の根拠
   match_status?: "採用品" | "採用外（市販品あり）" | "該当なし"; // 照合の結果（lib/matching.ts）
   match_note?: string | null; // 置き換え・決まらない理由など
+  usage_flags?: string[]; // 用法の後処理の一言（lib/rxFix.ts の fixUsage。寝る前・起床時・並びの計算し直しなど）。表で黄色にする
+  unplaced?: number; // 袋に入れない錠数（寝る前・起床時・食間など。この画面は朝・昼・夕だけ）
 };
